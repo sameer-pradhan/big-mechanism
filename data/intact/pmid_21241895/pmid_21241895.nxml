@@ -1,0 +1,3852 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3063406
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    RIM proteins tether Ca2+-channels to presynaptic active zones via a direct PDZ-domain interaction
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    SUMMARY
+   </title>
+   <sec>
+    <p>
+     At a synapse, fast synchronous neurotransmitter release requires localization of Ca
+     <sup>
+      2+
+     </sup>
+     -channels to presynaptic active zones. How Ca
+     <sup>
+      2+
+     </sup>
+     -channels are recruited to active zones, however, remains unknown. Using unbiased yeast two-hybrid screens, we here identify a direct interaction of the central PDZ-domain of the active-zone protein RIM with the C-termini of presynaptic N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels, but not L-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels. To test the physiological significance of this interaction, we generated conditional knockout mice lacking all presynaptic RIM isoforms. Deletion of all RIMs ablated most neurotransmitter release by simultaneously impairing the priming of synaptic vesicles and by decreasing the presynaptic localization of Ca
+     <sup>
+      2+
+     </sup>
+     -channels. Strikingly, rescue of the decreased Ca
+     <sup>
+      2+
+     </sup>
+     -channel localization required the RIM PDZ-domain, whereas rescue of vesicle priming required the RIM N-terminus. We propose that RIMs tether N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels to presynaptic active zones via a direct PDZ-domain mediated interaction, thereby enabling fast, synchronous triggering of neurotransmitter release at a synapse.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    At a synapse, action potentials induce Ca
+    <sup>
+     2+
+    </sup>
+    -influx into a presynaptic terminal, which triggers rapid synchronous neurotransmitter release, thereby initiating synaptic transmission (
+    <xref ref-type="bibr">
+     Katz, 1969
+    </xref>
+    ). Release is mediated by synaptic vesicle exocytosis at the active zone, a specialized region of the presynaptic plasma membrane that docks and primes vesicles for exocytosis (
+    <xref ref-type="bibr">
+     Wojcik and Brose, 2007
+    </xref>
+    ). Fast synchronous release requires co-localization of Ca
+    <sup>
+     2+
+    </sup>
+    -channels with the release machinery at the active zone (
+    <xref ref-type="bibr">
+     Llinas et al., 1992
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Meinrenken et al., 2002
+    </xref>
+    ). Voltage-gated Ca
+    <sup>
+     2+
+    </sup>
+    -channels consist of a pore-forming α1-subunit and accessory β- and α2δ-subunits (
+    <xref ref-type="bibr">
+     Catterall et al., 2005
+    </xref>
+    ). Presynaptic neurotransmitter release almost exclusively depends on N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels containing Ca
+    <sub>
+     V
+    </sub>
+    2.1 and Ca
+    <sub>
+     V
+    </sub>
+    2.2 α-subunits, respectively; R-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels containing Ca
+    <sub>
+     V
+    </sub>
+    2.3 α1-subunits may also contribute, whereas L-type and T-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels containing Ca
+    <sub>
+     V
+    </sub>
+    1 and Ca
+    <sub>
+     V
+    </sub>
+    3 α1-subunits do not (
+    <xref ref-type="bibr">
+     Castillo et al., 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dietrich et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Luebke et al., 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Poncer et al., 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Regehr and Mintz, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Takahashi and Momiyama, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wu et al., 1999
+    </xref>
+    ). However, how N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels are specifically localized to active zones and coupled to the release machinery is unknown.
+   </p>
+   <p>
+    Active zones are composed of evolutionarily conserved proteins, including Munc13s, RIMs, RIM-BPs (RIM-binding proteins), ELKS’s, and α-liprins (
+    <xref ref-type="bibr">
+     Wojcik and Brose, 2007
+    </xref>
+    ). Of these proteins, RIMs are likely the central organizers because they directly or indirectly interact with all other known active zone proteins and with synaptic vesicles (
+    <xref ref-type="bibr">
+     Mittelstaedt et al., 2010
+    </xref>
+    ). RIM proteins are expressed in three principal isoforms (
+    <xref ref-type="bibr">
+     Kaeser et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wang et al., 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wang et al., 2000
+    </xref>
+    ): RIM1α and RIM2α that contain all RIM domains (i.e., N-terminal Rab3- and Munc13-binding sequences, central PDZ-domains, and C-terminal C
+    <sub>
+     2
+    </sub>
+    A- and C
+    <sub>
+     2
+    </sub>
+    B-domains with an intercalated PxxP sequence that binds to RIM-BPs); RIM1β and RIM2β that are identical to RIM1α and RIM2α but lack the N-terminal Rab3-binding sequences; and RIM2γ, RIM3γ, and RIM4γ that are composed only of C
+    <sub>
+     2
+    </sub>
+    B-domains, and are not considered here further. Genetic experiments in C. elegans and mice revealed that RIMs are essential for synaptic vesicle docking and priming and for presynaptic plasticity (
+    <xref ref-type="bibr">
+     Castillo et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fourcaudot et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gracheva et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kaeser et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Koushika et al., 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schoch et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schoch et al., 2006
+    </xref>
+    ), but their mechanism of action remains unclear.
+   </p>
+   <p>
+    Several presynaptic proteins were shown to interact with Ca
+    <sup>
+     2+
+    </sup>
+    -channels. However, none of the reported interactions is selective for N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels. For example, (i) the RIM C
+    <sub>
+     2
+    </sub>
+    A- and C
+    <sub>
+     2
+    </sub>
+    B-domains bind to α1-subunits of L- and N-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels (
+    <xref ref-type="bibr">
+     Coppola et al., 2001
+    </xref>
+    ), (ii) the RIM C
+    <sub>
+     2
+    </sub>
+    B-domain interacts with the β4 Ca
+    <sup>
+     2+
+    </sup>
+    -channel subunit (
+    <xref ref-type="bibr">
+     Kiyonaka et al., 2007
+    </xref>
+    ) that associates with all Ca
+    <sup>
+     2+
+    </sup>
+    -channels subtypes but is not required for neurotransmitter release (
+    <xref ref-type="bibr">
+     Qian and Noebels, 2000
+    </xref>
+    ), and (iii) the proline-rich sequences of RIMs bind to RIM-BPs (
+    <xref ref-type="bibr">
+     Wang et al., 2000
+    </xref>
+    ) that in turn bind to L-, N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels (
+    <xref ref-type="bibr">
+     Hibino et al., 2002
+    </xref>
+    ). Thus, no plausible hypothesis at present suggests how N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels are selectively recruited to presynaptic active zones. More importantly, no presynaptic protein has been identified that is essential for recruiting N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels to presynaptic terminals. Only α-neurexins, which are presynaptic cell-adhesion molecules, were found to be required for presynaptic Ca
+    <sup>
+     2+
+    </sup>
+    -channel function (
+    <xref ref-type="bibr">
+     Missler et al., 2003
+    </xref>
+    ). α-Neurexins, however, are also essential for the organization of other components of the presynaptic release machinery, and no molecular mechanism is known that links α-neurexins to active zones or Ca
+    <sup>
+     2+
+    </sup>
+    -channels.
+   </p>
+   <p>
+    Using an unbiased yeast two-hybrid screen, we here identify a direct interaction of P/Q- and N- type Ca
+    <sup>
+     2+
+    </sup>
+    -channels with RIM PDZ-domains. To test whether RIMs act to localize Ca
+    <sup>
+     2+
+    </sup>
+    -channel to active zones, and whether this function requires the PDZ-domains of RIMs, we generated conditional double knockout (KO) mice of all RIM isoforms that contain PDZ-domains. Using these mice, we show by electrophysiological recordings, Ca
+    <sup>
+     2+
+    </sup>
+    -imaging, and quantitative immunostaining of Ca
+    <sup>
+     2+
+    </sup>
+    -channels that RIMs are essential for localizing Ca
+    <sup>
+     2+
+    </sup>
+    -channels to release sites. Moreover, we show that only two RIM sequences are required for localization of Ca
+    <sup>
+     2+
+    </sup>
+    -influx to active zones, their PDZ-domains that bind to Ca
+    <sup>
+     2+
+    </sup>
+    -channels, and their proline-rich sequences that bind to RIM-BPs which in turn bind to Ca
+    <sup>
+     2+
+    </sup>
+    -channels. Thus, we propose that RIMs tether Ca
+    <sup>
+     2+
+    </sup>
+    -channels to active zones via two parallel but essential interactions, direct binding of Ca
+    <sup>
+     2+
+    </sup>
+    -channels to the RIM PDZ-domains that is specific for N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels, and indirect binding of Ca
+    <sup>
+     2+
+    </sup>
+    -channels to RIMs via RIM-BPs that is shared among different types of Ca
+    <sup>
+     2+
+    </sup>
+    -channels.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     A screen for synaptic proteins binding to Ca
+     <sup>
+      2+
+     </sup>
+     -channels
+    </title>
+    <p>
+     We performed yeast-two hybrid screens for proteins that interact with the cytoplasmic C-terminal sequences of P/Q- and N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels. We chose these Ca
+     <sup>
+      2+
+     </sup>
+     -channel baits because P/Q- and N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels mediate nearly all presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx, and their C-termini have been implicated in targeting Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the active zone (
+     <xref ref-type="bibr">
+      Catterall et al., 2005
+     </xref>
+     ). The C-termini of N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels contain three conserved sequence motifs (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     and
+     <a>
+      Fig. S1A
+     </a>
+     ): an SH3-domain binding motif (
+     <span>
+      R
+     </span>
+     QL
+     <span>
+      P
+     </span>
+     GT
+     <span>
+      P)
+     </span>
+     , a PNGY motif, and a C-terminal sequence motif (DxWC). Among 84 and 134 independent prey clones obtained in P/Q- and N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel screens, 33 and 16 prey clones, respectively, represented RIM-BPs (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ), consistent with earlier studies (
+     <xref ref-type="bibr">
+      Hibino et al., 2002
+     </xref>
+     ). In addition, 2 and 3 independent prey clones, respectively, contained RIM1 fragments, whose only overlapping sequence encoded the PDZ-domain (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       Direct interaction of P/Q- and N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels with RIM PDZ-domains
+      </strong>
+      <p>
+       <strong>
+        A.
+       </strong>
+       Structure of the α1-subunits of P/Q- and N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels. Following the 4 × 6 transmembrane regions (I-IV), P/Q-type and N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels contain a C-terminal cytoplasmic tail with conserved SH3-domain binding sequences (PxxP), PNGY motifs, and C-terminal sequence motifs (DxWC).
+      </p>
+      <p>
+       <strong>
+        B
+       </strong>
+       &amp;
+       <strong>
+        C,
+       </strong>
+       Summary of the RIM-BP (B) and RIM prey clones (C) isolated in yeast two-hybrid screens with the C-terminal sequences of N- and P/Q-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels.
+      </p>
+      <p>
+       <strong>
+        D-F,
+       </strong>
+       Liquid yeast-two hybrid assays with baits containing wild-type C-terminal sequence of the P/Q-type Ca
+       <sup>
+        2+
+       </sup>
+       -channel and the three indicated RIM prey clones (D); baits containing the C-terminal sequence of the N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channel without or with point mutations in the PxxP (PxxP
+       <sup>
+        M
+       </sup>
+       ) or the PNGY sequence (PNGY
+       <sup>
+        M
+       </sup>
+       ), or with a deletion of the 4 C-terminal residues (ΔC
+       <sup>
+        term
+       </sup>
+       ), and the indicated RIM prey clones (E); and baits containing the indicated RIM1 domains (PDZ, PDZ-domain only; C
+       <sub>
+        2
+       </sub>
+       A or C
+       <sub>
+        2
+       </sub>
+       B, C
+       <sub>
+        2
+       </sub>
+       A- or C
+       <sub>
+        2
+       </sub>
+       B-domains only; C
+       <sub>
+        2
+       </sub>
+       AB, both C
+       <sub>
+        2
+       </sub>
+       -domains and the intercalated PxxP motif) and preys consisting of the wild-type C-terminal sequence of the N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channel (F, left bars), or the indicated mutants of this Ca
+       <sup>
+        2+
+       </sup>
+       -channel (F, right bars). For all assays, pLexN served as a control; a.u. = arbitrary units; n.d. = not detectable (means ± SEMs).
+      </p>
+      <p>
+       <strong>
+        G,
+       </strong>
+       Analysis of P/Q-type Ca
+       <sup>
+        2+
+       </sup>
+       -channel binding to the RIM1 PDZ-domain by NMR spectroscopy.
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N HSQC spectra of the
+       <sup>
+        15
+       </sup>
+       N-labeled RIM1 PDZ-domain (38 μM) were acquired in the absence (black contours) and presence (blue contours) of unlabeled P/Q-peptide (0.1 mM). Selected cross-peak assignments from residues on the periphery of the binding site are indicated; cross-peaks from three lysine residues in the binding pocket that shift upon peptide binding are labeled in bold, underlined typeface (K651, K653 and K694).
+      </p>
+      <p>
+       <strong>
+        H,
+       </strong>
+       Model of the RIM1 PDZ-domain (blue ribbon diagram) bound to the six C-terminal residues of the P/Q-type Ca
+       <sup>
+        2+
+       </sup>
+       -channel peptide represented as a stick model with color-coded atoms (carbon, yellow; oxygen, red; nitrogen, blue; sulfur, orange). Strand βB and helix αB, the two structural elements that line the peptide-binding site (
+       <xref ref-type="bibr">
+        Lu et al., 2005
+       </xref>
+       ), are indicated.
+      </p>
+      <p>
+       <strong>
+        I,
+       </strong>
+       Close-up view the surface of the RIM1 PDZ-domain peptide-binding pocket with the bound P/Q-type Ca
+       <sup>
+        2+
+       </sup>
+       -channel peptide (colors are identical to panel H). For additional
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N HSQC spectra and affinity measurements by isothermal titration calorimetry, see
+       <a>
+        Figure S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The direct interaction of the RIM1 PDZ-domain with P/Q- and N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels was unexpected, prompting us to quantify it using liquid yeast two-hybrid assays. We found that the RIM1 PDZ-domain strongly and specifically bound to P/Q- and N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels, whereas no other RIM1 domain tested exhibited Ca
+     <sup>
+      2+
+     </sup>
+     -channel binding activity (
+     <xref ref-type="fig">
+      Figs. 1D-1F
+     </xref>
+     ). Mutations in the three conserved motifs of the cytoplasmic sequences of N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels showed that only the C-terminal sequence motif was essential for binding to RIM1 PDZ-domains, as predicted for a PDZ-domain interaction (
+     <xref ref-type="fig">
+      Figs. 1E and 1F
+     </xref>
+     ).
+    </p>
+    <p>
+     To validate the interaction of RIM PDZ-domains with Ca
+     <sup>
+      2+
+     </sup>
+     -channels by an independent method, we employed NMR spectroscopy. We produced recombinant
+     <sup>
+      15
+     </sup>
+     N-labeled RIM1 PDZ-domain, and acquired
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N heteronuclear single quantum coherence (HSQC) spectra in the absence or presence of unlabeled peptide from the C-terminus of the P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel (residues RHDAYSESEDDWC). Previous studies of the
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC spectrum of the RIM1 PDZ-domain (
+     <xref ref-type="bibr">
+      Lu et al., 2005
+     </xref>
+     ) allowed us to assign cross-peak shifts induced by the Ca
+     <sup>
+      2+
+     </sup>
+     -channel peptide to specific residues in the RIM PDZ-domain (see supplemental methods). We found that the C-terminus of P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels directly bound to the ligand-binding pocket of the RIM1 PDZ-domain (Figs.
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <a>
+      S1B
+     </a>
+     ). Additional
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC experiments revealed analogous binding of the C-terminus of N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the RIM1 PDZ-domain, and of Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the RIM2 PDZ-domain (
+     <a>
+      Figs. S1C and S1D
+     </a>
+     ).
+    </p>
+    <p>
+     An atomic model suggests that the Ca
+     <sup>
+      2+
+     </sup>
+     -channel sequence fits well into the PDZ-domain binding pocket (
+     <xref ref-type="fig">
+      Figs. 1H and 1I
+     </xref>
+     ). The binding envisioned in this model agrees with the shifts we observed in the HSQC spectra in cross-peaks from residues such as K651, K653 and K694, which contribute to the binding pocket of the RIM1 PDZ-domain, and move upon P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel peptide binding (
+     <xref ref-type="fig">
+      Fig. 1G
+     </xref>
+     ). Furthermore, we confirmed these interactions by isothermal calorimetry with the RIM1 PDZ-domain (
+     <a>
+      Figs. S1E and S1F
+     </a>
+     ), yielding dissociation constants similar to those of other PDZ-domain interactions (P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel, 10.3 ± 0.6 μM (N = 0.93); N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel, 23.4 ± 1.7 μM (N =0.93);
+     <xref ref-type="bibr">
+      Wiedemann et al., 2004
+     </xref>
+     ). Thus, RIM PDZ-domains stoichiometrically interact with the C-terminal sequences of N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels, which are not found in L- and T-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Conditional KO mice for presynaptic RIM isoforms
+    </title>
+    <p>
+     The binding of RIM PDZ-domains to Ca
+     <sup>
+      2+
+     </sup>
+     -channels was unexpected because RIM PDZ-domains interact with the active-zone protein ELKS (a.k.a. Rab6-binding protein, CAST, or ERC;
+     <xref ref-type="bibr">
+      Ohtsuka et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wang et al., 2002
+     </xref>
+     ). To test whether the RIM PDZ-domain physiologically binds to presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -channels, we generated conditional double KO mice in which all RIM isoforms containing PDZ-domains (RIM1α, 1β, 2α, and 2β) can be deleted by cre-recombinase (Figs.
+     <xref ref-type="fig">
+      2A-2C
+     </xref>
+     and
+     <a>
+      S2
+     </a>
+     ), thereby enabling us to avoid the lethality of RIM-deficient mice (
+     <xref ref-type="bibr">
+      Kaeser et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2006
+     </xref>
+     ). We cultured neurons from newborn conditional double KO mice, and infected these neurons with lentiviruses expressing EGFP-tagged active or inactive cre-recombinases. Rescue experiments were performed by co-expressing various RIM proteins from the same lentiviruses via an IRES sequence (
+     <xref ref-type="bibr">
+      Kaeser et al., 2009
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Conditional deletion of RIM proteins in mice
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Structure of the
+       <em>
+        RIM2
+       </em>
+       gene (a.k.a.
+       <em>
+        Rims2
+       </em>
+       ). Exons are shown as black boxes and numbered, positions of exons containing the initiator codons for RIM2α, RIM2β and RIM2γ are labeled 1’, 1” and 1’”, respectively. The first exon that is shared by all RIM2 isoforms (exon 26) was used for gene targeting in the conditional RIM2αβγ KO mice (shaded blue area).
+      </p>
+      <p>
+       <strong>
+        B
+       </strong>
+       , RIM2αβγ targeting strategy. The diagram shows (from top to bottom) an expanded map of the
+       <em>
+        RIM2
+       </em>
+       gene surrounding exon 26; the targeting vector (C = ECFP-tetracysteine tag in exon 26; blue triangles = loxP sites; N = neomycin resistance cassette; green circles = frt recombination sites; DT = diphtheria toxin gene cassette); the knockin allele (KI); the RIM2αβγ
+       <sup>
+        floxed
+       </sup>
+       allele (neomycin resistance cassette was removed by flp-recombination); and the KO allele (cre recombination deleted exon 26, creating a non-translated, unstable mRNA).
+      </p>
+      <p>
+       <strong>
+        C
+       </strong>
+       , Domain structures of RIM1α, 1β, 2α, 2β, and 2γ that are deleted in the RIM1/RIM2 conditional double KO neurons. Coils surrounding the N-terminal Zn
+       <sup>
+        2+
+       </sup>
+       -finger domain (Zn) signify Rab3-binding sequences.
+      </p>
+      <p>
+       <strong>
+        D
+       </strong>
+       , Representative immunoblots of RIM1 and RIM2 proteins in cultured hippocampal neurons from RIM1/RIM2 double conditional KO mice infected with lentiviruses expressing inactive (control) or active cre-recombinase (cDKO). Neurons were infected on DIV3, and analyzed at the indicated times (DIV6-DIV14).
+      </p>
+      <p>
+       <strong>
+        E
+       </strong>
+       , Representative images of cDKO and control neurons stained with antibodies to MAP2 (green) and synapsin (red). Scale bar = 5 μm, applies to all images.
+      </p>
+      <p>
+       <strong>
+        F
+       </strong>
+       , Quantitations of the size and density of synapses analyzed as shown in E (control, n=18 neurons/3 independent cultures; cDKO neurons, 17/3).
+      </p>
+      <p>
+       <strong>
+        G
+       </strong>
+       , Electron micrographs of osmium tetroxide- (top) or phosphotungstic acid-stained (bottom) control and cDKO neurons (scale bars, 200 nm).
+      </p>
+      <p>
+       <strong>
+        H
+       </strong>
+       , Quantitations of synaptic ultrastructure in electron micrographs. Docked vesicles are defined as vesicles touching the plasma membrane.
+      </p>
+      <p>
+       Data in F and H show means ± SEMs. Statistical significance by Student’s t-test : ***,
+       <em>
+        p
+       </em>
+       &lt;0.001.; for additional detailed information, see
+       <a>
+        Fig. S2
+       </a>
+       and
+       <a>
+        Table S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Immunoblotting demonstrated that after 10 days
+     <em>
+      in vitro
+     </em>
+     (DIV10), neurons expressing active cre-recombinase (referred to as cDKO neurons) lack RIM proteins, whereas neurons expressing inactive cre-recombinase (referred to as controls) retain RIM expression (
+     <xref ref-type="fig">
+      Fig. 2D
+     </xref>
+     ). Despite lacking RIM proteins, cDKO neurons exhibited an overall normal morphology with unchanged synapse size and density (
+     <xref ref-type="fig">
+      Fig. 2E, 2F
+     </xref>
+     ). Electron microscopy revealed that in cDKO neurons, the number of docked synaptic vesicles per active zone was decreased nearly two-fold (
+     <xref ref-type="fig">
+      Fig. 2G, 2H
+     </xref>
+     ), consistent with a role for RIM in vesicle docking (
+     <xref ref-type="bibr">
+      Gracheva et al., 2008
+     </xref>
+     ). All other measured parameters were unchanged, and removal of RIMs did not alter the structure of presynaptic dense projections visualized by phosphotungstic acid staining (
+     <xref ref-type="fig">
+      Fig. 2G
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     RIM deletion severely impairs neurotransmitter release
+    </title>
+    <p>
+     Electrophysiologically, deletion of RIM proteins caused a 3-4 fold decrease in the frequency of spontaneous ‘minis’, in the amplitude of post-synaptic currents evoked by isolated action potentials, and in the size of the readily releasable pool measured by application of hypertonic sucrose (
+     <xref ref-type="fig">
+      Figs. 3A-3D
+     </xref>
+     , and L.D., P.S.K &amp; T.C.S., unpublished data). Moreover, deletion of RIMs significantly decelerated and desynchronized release, as evidenced by an increase in rise times and in rise-time variability (
+     <xref ref-type="fig">
+      Figs. 3E-3G
+     </xref>
+     ), but did not change the relative contributions of P/Q- and N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels to evoked synaptic responses (
+     <a>
+      Figs. S3A and S3B
+     </a>
+     ). Similarly, the RIM deletion massively decreased release induced by short stimulus trains (30 stimuli at 10 Hz;
+     <xref ref-type="fig">
+      Figs. 3H and 3I
+     </xref>
+     ), decelerated release as manifested by a relative increase in delayed release (
+     <xref ref-type="fig">
+      Figs. 3J and 3K
+     </xref>
+     ), and again strongly desynchronized release (
+     <xref ref-type="fig">
+      Figs. 3L and 3M
+     </xref>
+     ). These data suggest that RIMs are not only essential for vesicle priming, a previously identified RIM function that partly accounts for the decrease in release (
+     <xref ref-type="bibr">
+      Koushika et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ), but also for the synchronous timing of fast release that is not accounted for by a priming deficit. Since RIMs directly bind to Ca
+     <sup>
+      2+
+     </sup>
+     -channels (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ), and a loss of Ca
+     <sup>
+      2+
+     </sup>
+     -channels from presynaptic terminals would explain the impaired synchronous timing of release, we hypothesized that RIM binding to N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels tethers Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the active zone, thereby increasing the efficiency, speed, and synchrony of release.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       RIM deletion decreases, decelerates, and desynchronizes neurotransmitter release
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       &amp;
+       <strong>
+        B
+       </strong>
+       , Excitatory synaptic responses in cultured hippocampal control and cDKO neurons evoked by an action potential (A) or hypertonic sucrose application (B) (left, representative traces; right, summary graphs of amplitudes and charges; A: control, n=8 neurons/3 independent neuronal cultures; cDKO, n=9/3, B: control, n=9/3; cDKO, n=10/3).
+      </p>
+      <p>
+       <strong>
+        C
+       </strong>
+       &amp;
+       <strong>
+        D
+       </strong>
+       , Inhibitory synaptic responses evoked by an action potential (C) or hypertonic sucrose application (D) (C: control, n=21/4; cDKO, n=18/4; D: control, n=11/3; cDKO, n=11/3).
+      </p>
+      <p>
+       <strong>
+        E-G
+       </strong>
+       , Analysis of the kinetics of isolated IPSCs (E, representative traces from control and cDKO neurons; F, 20-80% IPSC rise times; and G, rise time variability as expressed by the standard deviation (SD) of the 20-80% rise time [control, n=31/6; cDKO, n=36/6]).
+      </p>
+      <p>
+       <strong>
+        H-K,
+       </strong>
+       Synaptic responses elicited by 10 Hz stimulus train in cDKO and control neurons (H, representative IPSCs; I-K, summary graphs of the synaptic charge transfer for the first IPSC (I) and for delayed release (J; release starting 100 ms after the last stimulus), and of the ratio of delayed release/first response (K; control, n=20/4; cDKO, n=21/4).
+      </p>
+      <p>
+       <strong>
+        L
+       </strong>
+       &amp;
+       <strong>
+        M,
+       </strong>
+       Analysis of the kinetics of IPSCs during 10 Hz stimulus trains (L, representative traces for the first 10 IPSCs during a 10 Hz stimulus train [top, first response indicated as a thick line, later responses represented as thin lines], and 20-80% rise times for three sample trains [bottom]; M, standard deviation (SD) of the 20-80% rise times during the 10 Hz stimulus train as a measure of synchrony; control, n=7/3; cDKO, n=9/3).
+      </p>
+      <p>
+       <strong>
+        N-P
+       </strong>
+       , Time course of the decrease in IPSCs induced by addition of the membrane-permeable Ca
+       <sup>
+        2+
+       </sup>
+       -chelator EGTA-AM (10 μM; N, sample traces; O, summary graphs; P, decay time constants; control, n=8/3; cDKO, n=9/3). Decay time constants τ were calculated by fitting individual experiments to a single exponential function.
+      </p>
+      <p>
+       All data are means ± SEMs; *,
+       <em>
+        p
+       </em>
+       &lt;0.05, **,
+       <em>
+        p
+       </em>
+       &lt;0.01, ***,
+       <em>
+        p
+       </em>
+       &lt;0.001 as determined by Student’s t-test. Numerical values of electrophysiology results are in
+       <a>
+        Table S2
+       </a>
+       , further analysis of synaptic responses at elicited at 10 Hz in
+       <a>
+        Fig. S3
+       </a>
+       ).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     RIM deletion alters the Ca
+     <sup>
+      2+
+     </sup>
+     -dependence of release
+    </title>
+    <p>
+     To explore the hypothesis that RIMs localize Ca
+     <sup>
+      2+
+     </sup>
+     -channels to active zones, we first examined the speed with which addition of a membrane-permeable Ca
+     <sup>
+      2+
+     </sup>
+     -buffer (EGTA-AM) decreases Ca
+     <sup>
+      2+
+     </sup>
+     -triggered release, measured as the IPSC amplitude (see supplemental methods). EGTA-AM caused a significantly faster rate of decline in IPSC amplitude in RIM-deficient cDKO neurons than in control neurons (
+     <xref ref-type="fig">
+      Figs. 3N-3P
+     </xref>
+     ). Thus, EGTA-dependent chelation of Ca
+     <sup>
+      2+
+     </sup>
+     inhibits release more effectively in RIM-deficient than in control neurons, consistent with a longer distance between Ca
+     <sup>
+      2+
+     </sup>
+     -channels and release sites in RIM-deficient synapses.
+    </p>
+    <p>
+     We next examined the dependence of release in RIM-deficient synapses on the extracellular Ca
+     <sup>
+      2+
+     </sup>
+     -concentration ([Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     ;
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ). If RIM-deficient presynaptic terminals contain fewer tethered Ca
+     <sup>
+      2+
+     </sup>
+     -channels, presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx should be decreased, and more [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     should be required for equivalent amounts of release – i.e., release should exhibit a higher [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence without a change in apparent Ca
+     <sup>
+      2+
+     </sup>
+     -cooperativity (see supplemental methods). However, since Ca
+     <sup>
+      2+
+     </sup>
+     -influx through Ca
+     <sup>
+      2+
+     </sup>
+     -channels saturates at high [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     (
+     <xref ref-type="bibr">
+      Church and Stanley, 1996
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schneggenburger et al., 1999
+     </xref>
+     ), [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -titrations underestimate the change in Ca
+     <sup>
+      2+
+     </sup>
+     -dependence of release in mutant synapses, and only relative changes are interpretable.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       Mutational dissection of RIM KO phenotype
+      </strong>
+      <p>
+       <strong>
+        A,
+       </strong>
+       Diagram of RIM rescue proteins expressed in cDKO neurons via an IRES sequence from the same mRNA as cre-recombinase. The single-letter code above the RIM1α diagram identifies the various domains (R, Rab3-binding α-helical region; Z, Zn-finger region, P, PDZ-domain; A, C
+       <sub>
+        2
+       </sub>
+       A-domain; S, proline-rich SH3-binding PxxP motif; B, C
+       <sub>
+        2
+       </sub>
+       B-domain); H marks the presence of a human influenza hemagglutinin (HA)-tag.
+      </p>
+      <p>
+       <strong>
+        B
+       </strong>
+       , Representative traces of IPSCs evoked at the indicated extracellular Ca
+       <sup>
+        2+
+       </sup>
+       -concentrations [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       in control neurons, cDKO neurons without rescue, cDKO neurons with full-length RIM1α rescue, and cDKO neurons with rescue with the RIM-RZ or the RIM-PASB fragments. Each rescue experiment was performed with independent control groups.
+      </p>
+      <p>
+       <strong>
+        C-K
+       </strong>
+       , Summary plots of absolute (C, F, and I) and normalized IPSC amplitudes (D, G, and J; normalized to the 10 mM [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       response) evoked at the indicated [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       , and summary graphs of the Ca
+       <sup>
+        2+
+       </sup>
+       -dependence of release (E, H, and K; expressed as the [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       producing a half-maximal IPSC amplitude (EC
+       <sub>
+        50
+       </sub>
+       ), as determined by fitting in individual experiments the [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       -dependence of the IPSC amplitude (Figs. D, G, J) to a Hill function). Control neurons and cDKO neurons were analyzed in comparison with cDKO neurons rescued with RIM1α (C-E), RIM-RZ (F-H), or RIM-PASB (I-K). C, D: n = 8 neurons/3 independent batches of culture in control, 6/3 in cDKO, 9/3 in cDKO + RIM1α; E, F: n = 7/3 in control, 7/3 in cDKO, 7/3 in cDKO + RIM-RZ; G, H: n = 6/3 in control, 5/3 in cDKO, 8/3 in cDKO + RIM-PASB.
+      </p>
+      <p>
+       <strong>
+        L
+       </strong>
+       &amp;
+       <strong>
+        M
+       </strong>
+       , Summary graphs of 20-80% rise times (L) and rise time variability (M) for the indicated rescue experiments at 2 mM [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       (for sample traces, see
+       <a>
+        Fig. S4O
+       </a>
+       , n = see
+       <a>
+        Fig. 4C-4K
+       </a>
+       ).
+      </p>
+      <p>
+       Data shown are means ± SEMs, ***,
+       <em>
+        p
+       </em>
+       &lt;0.001 by one-way ANOVA, detailed statistical analysis for all data points can be found in
+       <a>
+        Table S3
+       </a>
+       . For Ca
+       <sup>
+        2+
+       </sup>
+       -cooperativity and
+       <em>
+        I
+        <sub>
+         max
+        </sub>
+       </em>
+       , see
+       <a>
+        Fig. S4
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     RIM-deficient cDKO neurons exhibited a large reduction in neurotransmitter release at all [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figs. 4B and 4C
+     </xref>
+     ), and a major increase in the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of neurotransmitter release (
+     <xref ref-type="fig">
+      Fig. 4D
+     </xref>
+     ). Both phenotypes were equally observed in inhibitory and excitatory synapses, and fully rescued by full-length wild-type RIM1α (Figs.
+     <xref ref-type="fig">
+      4A-4D
+     </xref>
+     and
+     <a>
+      S4J-S4N
+     </a>
+     ). Fitting the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -response curve of individual experiments to a Hill function showed that the RIM deletion increased the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -requirement for release almost 2-fold, without changing the apparent Ca
+     <sup>
+      2+
+     </sup>
+     -cooperativity of release (Figs.
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <a>
+      S4H
+     </a>
+     ). Note that in the Hill function fits, the experimentally measured amplitudes suggest near-saturation at 10 mM [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     , allowing direct comparison of the fitted parameters (
+     <a>
+      Fig. S4I
+     </a>
+     ).
+    </p>
+    <p>
+     The [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -titration provided us with a facile assay to examine which RIM sequences determine vesicle priming and the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of release. We first tested rescue of the RIM double KO phenotype by the N-terminal RIM-RZ fragment that contains the Rab3-binding (“R”) and Zn
+     <sup>
+      2+
+     </sup>
+     -finger domains (“Z”) of RIM1α, and that had been previously implicated in vesicle priming (
+     <xref ref-type="bibr">
+      Dulubova et al., 2005
+     </xref>
+     ), and the C-terminal RIM-PASB fragment that contains its PDZ- (“P”), C2A- (“A”), PxxP- (“S” for SH3-domain binding) and C2B-domains (“B”)(
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). At 2 mM [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     , the RIM-RZ and RIM-PASB fragments each partially rescued the decrease in release, and alleviated the previously described decrease in Munc13 protein levels in cDKO neurons (Figs.
+     <xref ref-type="fig">
+      4F and 4I
+     </xref>
+     ,
+     <a>
+      S4D
+     </a>
+     ,
+     <xref ref-type="bibr">
+      Schoch et al, 2002
+     </xref>
+     ). However, whereas the RIM-PASB fragment completely reversed the impairment of the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of release in cDKO neurons, the RIM-RZ fragment did not (
+     <xref ref-type="fig">
+      Figs. 4F-4K
+     </xref>
+     ). RIM-RZ, conversely, completely rescued the readily-releasable pool, whereas RIM-PASB did not (L.D., P.S.K. &amp; T.C.S., unpublished). Note that different from synaptotagmin mutations (
+     <xref ref-type="bibr">
+      Shin et al., 2009
+     </xref>
+     ), none of the changes in RIMs changed the apparent Ca
+     <sup>
+      2+
+     </sup>
+     -cooperativity of release (
+     <a>
+      Fig. S4H
+     </a>
+     ; see also
+     <a>
+      Table S3
+     </a>
+     ).
+    </p>
+    <p>
+     We next tested whether RIM-RZ or RIM-PASB rescued the speed and synchrony of release. Consistent with the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -titrations, the RIM-PASB fragment fully reversed the deceleration and desynchronization of release in cDKO neurons, as assessed at 2 mM [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     , whereas the RIM-RZ fragment did not (Figs.
+     <xref ref-type="fig">
+      4L, 4M
+     </xref>
+     , and
+     <a>
+      S4O-S4Q
+     </a>
+     ). Together, these data indicate that the N-terminal RIM domains function in vesicle docking and priming (
+     <xref ref-type="bibr">
+      Betz et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dulubova et al., 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gracheva et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Koushika et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ), whereas the C-terminal RIM domains function in the Ca
+     <sup>
+      2+
+     </sup>
+     -dependence and synchrony of release.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     RIM deletion impairs presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx
+    </title>
+    <p>
+     The increased [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence, decreased synchrony, and lowered speed of release in RIM-deficient neurons supports the hypothesis that RIMs localize Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the active zone. However, these measurements are indirect. Their results could be explained by other hypotheses, for example that RIM directly regulates Ca
+     <sup>
+      2+
+     </sup>
+     -triggering of release by binding to synaptotagmin (
+     <xref ref-type="bibr">
+      Coppola et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ). To address this issue with an independent approach, we monitored action-potential induced Ca
+     <sup>
+      2+
+     </sup>
+     -transients by Ca
+     <sup>
+      2+
+     </sup>
+     -imaging in presynaptic boutons and postsynaptic dendrites.
+    </p>
+    <p>
+     We engineered new active and inactive EGFP-tagged cre-recombinase proteins that exhibit a tight nuclear localization (
+     <a>
+      Figs. S5A-S5C
+     </a>
+     ), and expressed them in neurons from conditional KO mice. We then filled single neurons via a patch pipette with Alexa594 and the Ca
+     <sup>
+      2+
+     </sup>
+     -indicator Fluo5F, identified presynaptic axonal boutons and second-order dendrites by imaging Alexa594, elicited isolated action potentials by brief somatic current injections, and monitored the resulting Ca
+     <sup>
+      2+
+     </sup>
+     -transients in boutons and dendrites by imaging Fluo5F in line scans (at 333 Hz, ~100-150 μm from the cell body). To ensure that the observed Ca
+     <sup>
+      2+
+     </sup>
+     -transients were not due to passive depolarizations in response to the somatic current injections, we decreased in control experiments the injected current to a threshold level that only sometimes evoked an action potential. In these experiments, Ca
+     <sup>
+      2+
+     </sup>
+     -transients in boutons and dendrites strictly depended on the induction of action potentials, confirming that we were monitoring action potential-induced Ca
+     <sup>
+      2+
+     </sup>
+     -transients (
+     <a>
+      Figs. S5D and S5E
+     </a>
+     ).
+    </p>
+    <p>
+     In RIM-containing control boutons, isolated action potentials induced a brief, ~100% increase in Fluo5F Ca
+     <sup>
+      2+
+     </sup>
+     -indicator fluorescence, whereas in RIM-deficient cDKO boutons, action potentials induced only a ~50% increase (
+     <xref ref-type="fig">
+      Figs. 5A-5D
+     </xref>
+     ). Similar to the impaired [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of release (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ), the decreased Ca
+     <sup>
+      2+
+     </sup>
+     -influx in RIM-deficient cDKO neurons was fully rescued by the C-terminal RIM-PASB fragment (
+     <xref ref-type="fig">
+      Figs. 5A-5D
+     </xref>
+     ). Deletion of RIM proteins did not alter dendritic Ca
+     <sup>
+      2+
+     </sup>
+     -transients (
+     <xref ref-type="fig">
+      Fig. 5C
+     </xref>
+     , inset, and
+     <a>
+      Figs. S5F-S5H
+     </a>
+     ), suggesting that the RIM deletion did not generally impair Ca
+     <sup>
+      2+
+     </sup>
+     -channel function or Ca
+     <sup>
+      2+
+     </sup>
+     -buffering. Moreover, we detected no change in expression levels of various Ca
+     <sup>
+      2+
+     </sup>
+     -channel subunits in cDKO neurons (Figs.
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <a>
+      S5I
+     </a>
+     ). Thus, RIM deletions selectively decreased presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx in hippocampal neurons.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       RIM deletion decreases presynaptic Ca
+       <sup>
+        2+
+       </sup>
+       -transients
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Representative fluorescence images of control neurons, cDKO neurons, and cDKO neurons rescued with the C-terminal RIM-PASB fragment. Neurons were filled via a patch pipette with Fluo5F and Alexa594 (red); nuclear EGFP-fluorescence (produced by the active and inactive cre-recombinase EGFP-fusion proteins; see
+       <a>
+        Figs. S5A-S5C
+       </a>
+       ) is shown in green; and coincident Alexa594 and EGFP- or Fluo5F signals are shown in yellow). Insets (bottom right) show areas in dotted rectangles containing a sample axonal bouton (grey lines = positions of the patch pipette; white lines = position of line scans for the Ca
+       <sup>
+        2+
+       </sup>
+       -transients shown in B). Scale bar (bottom left) = 20 μm.
+      </p>
+      <p>
+       <strong>
+        B
+       </strong>
+       , Representative action potentials (top); line scans of Ca
+       <sup>
+        2+
+       </sup>
+       -transients in presynaptic boutons induced by these action potentials, and monitored via Fluo5F fluorescence (middle; colored white for better visibility); and quantitations of Ca
+       <sup>
+        2+
+       </sup>
+       -transients (bottom; averaged across the bouton).
+      </p>
+      <p>
+       <strong>
+        C
+       </strong>
+       &amp;
+       <strong>
+        D
+       </strong>
+       , Summary plots of action potential-induced changes in Ca
+       <sup>
+        2+
+       </sup>
+       -indicator fluorescence monitored in presynaptic boutons from control neurons, cDKO neurons, and cDKO neurons rescued with the C-terminal RIM-PASB fragment (C, time course of the Ca
+       <sup>
+        2+
+       </sup>
+       -indicator fluorescence (inset: the same plot for dendrites); D, the cumulative probability of the peak Ca
+       <sup>
+        2+
+       </sup>
+       -indicator fluorescence, expressed as ΔG/G
+       <sub>
+        0
+       </sub>
+       ). Data in C are means (line) ± SEMs (shaded area); ***,
+       <em>
+        p
+       </em>
+       &lt;0.001 as assessed by two-way ANOVA for peak amplitudes during the first 60 ms after action potential induction (C) or by Kolmogorov-Smirnov test (D); control, n=45 boutons/10 neurons/4 independent cultures; cDKO, n=46/11/4; cDKO + RIM-PASB, n=44/11/4.
+      </p>
+      <p>
+       <strong>
+        E
+       </strong>
+       , Immunoblot analysis of Ca
+       <sup>
+        2+
+       </sup>
+       -channel subunit levels in control and cDKO neurons. Blots were probed with antibodies to the indicated Ca
+       <sup>
+        2+
+       </sup>
+       -channel proteins (P/Q-type (Ca
+       <sub>
+        V
+       </sub>
+       2.1-A and Ca
+       <sub>
+        V
+       </sub>
+       2.1-S) and N-type (Ca
+       <sub>
+        V
+       </sub>
+       2.2) α-subunits, and α2/δ and β4 subunits) and control proteins (GDI, GDP-dissociation inhibitor).
+      </p>
+      <p>
+       For analysis of dendritic Ca
+       <sup>
+        2+
+       </sup>
+       -transients, statistical values, and quantitative assessment of mRNA levels, see
+       <a>
+        Fig. S5
+       </a>
+       and
+       <a>
+        Table S4
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     RIM PDZ-domain is required for localizing Ca
+     <sup>
+      2+
+     </sup>
+     -influx
+    </title>
+    <p>
+     We next tested whether the RIM PDZ-domain mediates the RIM-dependent presynaptic localization of Ca
+     <sup>
+      2+
+     </sup>
+     -influx, using systematic rescue experiments combined with [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -titrations as an assay.
+    </p>
+    <p>
+     Deletions of either the PDZ-domain or the PxxP-motif from the RIM-PASB fragment (
+     <xref ref-type="fig">
+      Figs. 6A
+     </xref>
+     , top) blocked rescue of the impaired [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence in RIM-deficient cDKO neurons, whereas deletion of the C
+     <sub>
+      2
+     </sub>
+     A- or the C
+     <sub>
+      2
+     </sub>
+     B-domain had no effect (Figs.
+     <xref ref-type="fig">
+      6A-6E
+     </xref>
+     and
+     <a>
+      S6A-S6C
+     </a>
+     ). Moreover, expression of a RIM fragment composed only of the PDZ-domain and PxxP motif (‘RIM-PS’) in cDKO neurons fully rescued the impaired [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of release (Figs.
+     <xref ref-type="fig">
+      6F-6H
+     </xref>
+     and
+     <a>
+      S6D-S6F
+     </a>
+     ). In contrast, expression of a RIM fragment composed of its two C
+     <sub>
+      2
+     </sub>
+     -domains (‘RIM-AB’) did not rescue the [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of release, but partially reversed the decrease in IPSC size in RIM-deficient cDKO neurons, suggesting that the C
+     <sub>
+      2
+     </sub>
+     -domains are dispensable for localizing presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx, but enhance the efficacy of release.
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       RIM PDZ-domain and PxxP-motif confer normal Ca
+       <sup>
+        2+
+       </sup>
+       -dependence to RIM-deficient synapses
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Domain structures of rescue proteins.
+      </p>
+      <p>
+       <strong>
+        B
+       </strong>
+       , Sample traces of IPSCs in control neurons, cDKO neurons, and cDKO neurons rescued with the indicated proteins.
+      </p>
+      <p>
+       <strong>
+        C-E
+       </strong>
+       , Systematic rescue analyses of the Ca
+       <sup>
+        2+
+       </sup>
+       -dependence of release in RIM-deficient cDKO neurons with RIM fragments containing three of the four RIM domains present in the RIM-PASB fragment. Absolute IPSC amplitudes (C), IPSC amplitudes normalized to the response at 10 mM [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       (D), and apparent Ca
+       <sup>
+        2+
+       </sup>
+       -affinities (EC
+       <sub>
+        50
+       </sub>
+       values; E) are indicated (control, n=9 cells/3 independent batches of cultures; cDKO, n=9/3: cDKO+RIM-ASB, n=9/3; cDKO+RIM-PSB, n=8/3; cDKO+RIM-PAB, n=8/3; cDKO+RIM-PAS, n=10/3).
+      </p>
+      <p>
+       <strong>
+        F-H
+       </strong>
+       , Rescue analyses of the Ca
+       <sup>
+        2+
+       </sup>
+       -dependence of release with RIM fragments containing either only the PDZ-domain and PxxP-motif (RIM-PS), or only the C
+       <sub>
+        2
+       </sub>
+       A- and C
+       <sub>
+        2
+       </sub>
+       B-domains (RIM-AB) of RIM1 (control, n=8/3; cDKO, n=7/3; cDKO+RIM-PS, n=9/3; cDKO+RIM-AB, n=9/3).
+      </p>
+      <p>
+       Data shown are means ± SEMs; ***,
+       <em>
+        p
+       </em>
+       &lt;0.001 by one-way ANOVA. Cooperative factor
+       <em>
+        n
+       </em>
+       , and
+       <em>
+        I
+        <sub>
+         max
+        </sub>
+       </em>
+       can be found in
+       <a>
+        Fig. S6
+       </a>
+       , all numerical data are in
+       <a>
+        Table S5
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To directly probe whether the RIM PDZ-domain is actually essential for localizing presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx to active zones, we next performed rescue experiments with full-length wild-type RIM1α or RIM1α lacking the PDZ-domain (RIM-ΔPDZ). Whereas the former rescued all RIM cDKO phenotypes (
+     <xref ref-type="fig">
+      Figs. 4C-4E
+     </xref>
+     ), the latter was unable to reverse the impairment in [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -dependence of release in RIM-deficient neurons, although it completely rescued the decrease in evoked IPSC amplitude at high [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -concentrations (Figs
+     <xref ref-type="fig">
+      7A-7E
+     </xref>
+     ,
+     <a>
+      S7A-S7C
+     </a>
+     ). Moreover, full-length but not PDZ-domain deleted RIM1α rescued the deceleration and desynchronization of release in RIM-deficient neurons (Figs.
+     <xref ref-type="fig">
+      4L and 4M
+     </xref>
+     ,
+     <xref ref-type="fig">
+      7F-7H
+     </xref>
+     ). Possibly most importantly, RIM1α lacking the PDZ-domain did not restore normal Ca
+     <sup>
+      2+
+     </sup>
+     -influx into presynaptic nerve terminals in RIM-deficient neurons as measured by Ca
+     <sup>
+      2+
+     </sup>
+     -imaging, whereas full-length RIM1α fully rescued Ca
+     <sup>
+      2+
+     </sup>
+     -influx (Figs.
+     <xref ref-type="fig">
+      7I and 7J
+     </xref>
+     ,
+     <a>
+      S7D and S7E
+     </a>
+     ). Thus, the RIM-PDZ domain is critical for localizing Ca
+     <sup>
+      2+
+     </sup>
+     -influx to presynaptic active zones, thereby promoting the normal Ca
+     <sup>
+      2+
+     </sup>
+     -dependence, speed, and precision of neurotransmitter release.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       RIM function in localizing presynaptic Ca
+       <sup>
+        2+
+       </sup>
+       -influx requires its PDZ-domain
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Domain structures of rescue proteins.
+      </p>
+      <p>
+       <strong>
+        B-E
+       </strong>
+       , Sample traces and quantitative analysis of Ca
+       <sup>
+        2+
+       </sup>
+       -dependence of release of IPSCs in control neurons, cDKO neurons, and cDKO neurons rescued with the PDZ-domain deficient RIM-ΔPDZ fragment. Absolute IPSC amplitudes (C), IPSC amplitudes normalized to the response at 10 mM [Ca
+       <sup>
+        2+
+       </sup>
+       ]
+       <sub>
+        ex
+       </sub>
+       (D), and apparent Ca
+       <sup>
+        2+
+       </sup>
+       -affinities (EC
+       <sub>
+        50
+       </sub>
+       values; E) are indicated (control, n=10/3; cDKO, n=9/3: cDKO+RIM-ΔPDZ, n= 10/3).
+      </p>
+      <p>
+       <strong>
+        F-H,
+       </strong>
+       Speed and synchrony of neurotransmitter release in control neurons, cDKO neurons and cDKO neurons rescued with RIM-ΔPDZ (control, n=7/3; cDKO, n=10/3: cDKO+RIM-ΔPDZ, n=12/3).
+      </p>
+      <p>
+       <strong>
+        I
+       </strong>
+       and
+       <strong>
+        J,
+       </strong>
+       Sample line scans (I) and summary data (J) of action potential evoked Ca
+       <sup>
+        2+
+       </sup>
+       -transients in presynaptic boutons of control neurons, cDKO neurons and cDKO neurons rescued with RIM1α or RIM-ΔPDZ. Data shown are means (line) ± SEMs (shaded area). (boutons: control, n=40 boutons/6 neurons/5 independent cultures; cDKO, n=57/7/5; cDKO+RIM1α, n=51/7/5, cDKO+RIM-ΔPDZ, n=52/7/5; dendrites: control, n=22/6/5; cDKO, n=22/7/5; cDKO+RIM1α, n=19/7/5, cDKO+RIM-ΔPDZ, n=22/7/5). For cumulative peak amplitudes and statistical values, see
+       <a>
+        Fig. S7
+       </a>
+       and
+       <a>
+        Table S6
+       </a>
+       ).
+      </p>
+      <p>
+       Statistical analyses: *,
+       <em>
+        p
+       </em>
+       &lt;0.05; **,
+       <em>
+        p
+       </em>
+       &lt;0.01; ***,
+       <em>
+        p
+       </em>
+       &lt;0.001; E, G and H, one-way ANOVA ; J, two-way ANOVA for peak amplitudes during the first 60 ms after action potential induction.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The RIM PDZ-domain localizes P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels to presynaptic termianls
+    </title>
+    <p>
+     The decrease in presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx in RIM-deficient terminals could be due to a loss of presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -channels, or to a decrease in their activity. To address this question, we measured by quantitative immunofluorescence presynaptic levels of P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels, which mediate &gt;80% of the synaptic responses we measure (
+     <a>
+      Fig S3A-S3C
+     </a>
+     ). Strikingly, the RIM deletion reduced presynaptic P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel levels ~40%, but had no effect on the active-zone protein bassoon (Figs.
+     <xref ref-type="fig">
+      8A, 8B
+     </xref>
+     ,
+     <a>
+      S8A and S8B
+     </a>
+     ).
+    </p>
+    <fig id="F8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <strong>
+       RIM-dependent Ca
+       <sup>
+        2+
+       </sup>
+       -channel tethering linked to synaptic vesicle docking and priming
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       and
+       <strong>
+        B
+       </strong>
+       , Immunofluorescent stainings (A) and quantitative immuno-localization analyses (B) of P/Q-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels (top panel in A) and presynaptic bassoon (bottom panel in A) in control and RIM-deficient cDKO neurons, and in cDKO neurons rescued with RIM1α or RIM-ΔPDZ (n=3 cultures per condition, *,
+       <em>
+        p
+       </em>
+       &lt;0.05; **,
+       <em>
+        p
+       </em>
+       &lt;0.01 by Student’s t-test compared to control, a second, independent experiment is found in
+       <a>
+        Fig. S8
+       </a>
+       and
+       <a>
+        Table S7
+       </a>
+       ).
+      </p>
+      <p>
+       <strong>
+        C
+       </strong>
+       , Model of the presynaptic release machinery. The drawing illustrates the structures of major active zone proteins (RIMs, Munc13s, and RIM-BPs), P/Q- or N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels, a partially assembled SNARE-complex (composed of synaptobrevin/VAMP on synaptic vesicles and SNAP-25 and syntaxin-1 on the plasma membrane), Munc18-1, complexin, and key synaptic vesicle proteins (Rab3 and synaptotagmin-1 [Syt1]). Domain identification is provided on the top right. We propose that RIMs determine the specific localization of P/Q- and N-type Ca
+       <sup>
+        2+
+       </sup>
+       -channels at the active zone via a direct Ca
+       <sup>
+        2+
+       </sup>
+       -channel/PDZ-domain interaction, and via indirect binding of Ca
+       <sup>
+        2+
+       </sup>
+       -channels to RIMs via RIM-BPs (
+       <xref ref-type="bibr">
+        Hibino et al., 2002
+       </xref>
+       ). In addition, RIMs form an N-terminal priming complex with Rab3 and Munc13, in which Munc13 likely acts by binding to SNARE complexes (not depicted due to restrictions of the 2-dimensional presentation). Synaptotagmin-1 on the vesicles serves as the Ca
+       <sup>
+        2+
+       </sup>
+       -sensor for exocytosis. With this architecture, Ca
+       <sup>
+        2+
+       </sup>
+       -channels and Ca
+       <sup>
+        2+
+       </sup>
+       -sensors are in close proximity, accounting for the speed, synchrony and extent of release.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Finally, to test whether the presynaptic localization of P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels depends on the RIM PDZ-domain, we examined rescue of the Ca
+     <sup>
+      2+
+     </sup>
+     -channel localization deficit in RIM-deficient cDKO neurons with full-length wild-type RIM1α, or RIM1α lacking the PDZ-domain (
+     <xref ref-type="fig">
+      Figs. 8A and 8B
+     </xref>
+     ). In agreement with the electrophysiological and Ca
+     <sup>
+      2+
+     </sup>
+     -imaging results described above (
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     ), deletion of the PDZ-domain rendered RIM1α unable to rescue the decrease in Ca
+     <sup>
+      2+
+     </sup>
+     -channel levels in presynaptic terminals (
+     <xref ref-type="fig">
+      Figs. 8A and 8B
+     </xref>
+     ), suggesting that the RIM PDZ-domain is essential for tethering of Ca
+     <sup>
+      2+
+     </sup>
+     -channels to presynaptic terminals.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    Based on protein/protein interaction studies (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    ), generation of conditional KO mice (
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    ), electrophysiological recordings (Figs.
+    <xref ref-type="fig">
+     None
+    </xref>
+    ,
+    <xref ref-type="fig">
+     None
+    </xref>
+    ,
+    <xref ref-type="fig">
+     None
+    </xref>
+    , and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ), Ca
+    <sup>
+     2+
+    </sup>
+    -imaging (Figs.
+    <xref ref-type="fig">
+     None
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ), and quantitative immunofluorescence (
+    <xref ref-type="fig">
+     Fig. 8
+    </xref>
+    ), we here propose that the PDZ-domains of RIM proteins stoichiometrically interact with N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels in vitro, that RIM proteins are essential for tethering Ca
+    <sup>
+     2+
+    </sup>
+    -channels to presynaptic terminals, and that the RIM PDZ-domain is required for this function. In addition, RIMs indirectly interact with Ca
+    <sup>
+     2+
+    </sup>
+    -channels via their RIM-BP binding sequence (
+    <xref ref-type="bibr">
+     Hibino et al., 2002
+    </xref>
+    ), which we show is also essential. Thus, RIMs perform two parallel interactions with Ca
+    <sup>
+     2+
+    </sup>
+    -channels: a direct interaction via their PDZ-domains that is specific for N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels, and an indirect interaction via RIM-BPs that is not specific for N- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    -channels. Our results suggest a physiologically validated mechanism by which Ca
+    <sup>
+     2+
+    </sup>
+    -influx is localized to the active zone, as required for fast, synchronous triggering of neurotransmitter release (
+    <xref ref-type="fig">
+     Fig. 8C
+    </xref>
+    ).
+   </p>
+   <sec>
+    <title>
+     The RIM PDZ-domain/Ca
+     <sup>
+      2+
+     </sup>
+     -channel interaction
+    </title>
+    <p>
+     We found that the C-terminal sequences of N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels specifically bind to RIM PDZ-domains. R-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels have a similar C-terminal sequence, and may also interact, whereas L- and T-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels do not (Figs.
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <a>
+      S1
+     </a>
+     ). The PDZ-domain/Ca
+     <sup>
+      2+
+     </sup>
+     -channel interaction was surprising because the PDZ-domain proteins Mints and CASK were previously shown to bind to Ca
+     <sup>
+      2+
+     </sup>
+     -channels (
+     <xref ref-type="bibr">
+      Maximov et al., 1999
+     </xref>
+     ), and because the RIM PDZ-domain is known to bind to ELKS proteins (
+     <xref ref-type="bibr">
+      Ohtsuka et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wang et al., 2002
+     </xref>
+     ). However, it remains unclear whether these previously described interactions are physiologically important; in fact, Mint- and CASK-deficient synapses exhibit multiple abnormalities that do not resemble a Ca
+     <sup>
+      2+
+     </sup>
+     -influx impairment (
+     <xref ref-type="bibr">
+      Atasoy et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ho et al., 2006
+     </xref>
+     ), whereas ELKS2-deficient synapses display increased release at inhibitory synapses (
+     <xref ref-type="bibr">
+      Kaeser et al., 2009
+     </xref>
+     ), and ELKS levels are not detectably changed in RIM cDKO neurons (data not shown). Thus, it seems unlikely that the effects we observe here are indirectly mediated via Mints, CASK, or ELKS. It is possible, however, that different PDZ-domain binding reactions compete with each other at the active zone. For example, ELKS-binding to RIM PDZ-domains may inhibit Ca
+     <sup>
+      2+
+     </sup>
+     -channel binding, and thereby attenuate neurotransmitter release; this inhibitory role of ELKS binding could be regulated during plasticity, which might account for the central role of RIM in short- and long-term plasticity (
+     <xref ref-type="bibr">
+      Castillo et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Fourcaudot et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kaeser et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The RIM PDZ-domain is essential for localizing Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the active zone
+    </title>
+    <p>
+     Using rescue experiments in RIM-deficient neurons, we found that the RIM PDZ-domain was invariably required in various RIM rescue constructs to reverse the impairment in presynaptic Ca
+     <sup>
+      2+
+     </sup>
+     -influx in RIM-deficient neurons (Figs.
+     <xref ref-type="fig">
+      None
+     </xref>
+     -
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), and for localizing P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels to presynaptic boutons (
+     <xref ref-type="fig">
+      Fig. 8
+     </xref>
+     ). In addition, loss of RIM-BP binding sequences blocked rescue of Ca
+     <sup>
+      2+
+     </sup>
+     -influx (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     ). These experiments suggest that RIMs tether Ca
+     <sup>
+      2+
+     </sup>
+     -channels to the active zone via two parallel interactions: directly by binding to Ca
+     <sup>
+      2+
+     </sup>
+     -channels via their PDZ-domains, and indirectly by binding to RIM-BPs which in turn bind to Ca
+     <sup>
+      2+
+     </sup>
+     -channels (see model in
+     <xref ref-type="fig">
+      Fig. 8C
+     </xref>
+     , and reconstitution of the tripartite complex in
+     <a>
+      Fig. S8C
+     </a>
+     ). Our data also account for the specificity of N- and P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels in release, since the RIM PDZ-domain/Ca
+     <sup>
+      2+
+     </sup>
+     -channel interaction is specific for these Ca
+     <sup>
+      2+
+     </sup>
+     -channel types (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Active zone functions of RIMs
+    </title>
+    <p>
+     Our findings corroborate the notion that RIM proteins are central organizers of active zones by showing that besides their role in vesicle docking and priming (
+     <xref ref-type="bibr">
+      Betz et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gracheva et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kaeser et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Koushika et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2006
+     </xref>
+     ), RIMs are essential for tethering Ca
+     <sup>
+      2+
+     </sup>
+     -channels to active zones (Figs.
+     <xref ref-type="fig">
+      None
+     </xref>
+     -
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Moreover, RIM proteins perform additional functions, as indicated by the fact that although the RIM C
+     <sub>
+      2
+     </sub>
+     -domains had no detectable role in Ca
+     <sup>
+      2+
+     </sup>
+     -influx, they boosted neurotransmitter release, possibly by binding to α-liprins, the β4 Ca
+     <sup>
+      2+
+     </sup>
+     -channel subunit, or other proteins (
+     <xref ref-type="bibr">
+      Kiyonaka et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ). Thus, RIMs occupy the center of an interaction network in the molecular anatomy of the active zone, and influence all aspects of neurotransmitter release (
+     <xref ref-type="fig">
+      Fig. 8C
+     </xref>
+     ). However, our data also raise new questions. How do RIM proteins function in priming – only via their interaction with Munc13’s (
+     <xref ref-type="bibr">
+      Betz et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schoch et al., 2002
+     </xref>
+     ), or via other effectors? How do RIM C
+     <sub>
+      2
+     </sub>
+     -domains boost release without altering Ca
+     <sup>
+      2+
+     </sup>
+     -influx? Why does deletion of just one RIM isoform, RIM1α, which has only a partial effect on neurotransmitter release due to its redundancy with other RIM isoforms, block multiple forms of presynaptic long-term synaptic plasticity (
+     <xref ref-type="bibr">
+      Castillo et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Fourcaudot et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kaeser et al., 2008
+     </xref>
+     )? With the availability of double conditional KO mice described here, these questions can now be addressed.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <title>
+     In vitro protein binding assays
+    </title>
+    <p>
+     Two yeast two-hybrid screens of a rat brain cDNA library using bait vectors encoding the Ca
+     <sub>
+      V
+     </sub>
+     2.2 N-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel C-terminus (residues 2163-2339) or Ca
+     <sub>
+      V
+     </sub>
+     2.1 P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel C-terminus (residues 2213-2368) and liquid yeast to hybrid essays were performed as described (
+     <xref ref-type="bibr">
+      Wang et al., 1997
+     </xref>
+     ). Of the 134/84 isolates with the N-type/P/Q-type bait, 8/16 clones corresponded to RIM-BP1, 8/17 to RIM-BP2, and 3/2 to RIM1. For mapping of the interaction region and the relative strength, yeast strain L40 was co-transformed with the various Ca
+     <sup>
+      2+
+     </sup>
+     -channel or RIM1 bait vectors and the Ca
+     <sup>
+      2+
+     </sup>
+     -channel or RIM1 prey vectors. HSQC spectroscopy was performed with rat RIM1 (residues 596-704, expressed as described (
+     <xref ref-type="bibr">
+      Lu et al., 2005
+     </xref>
+     )), and non-labeled P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channel peptides were synthesized.
+     <sup>
+      1
+     </sup>
+     H–
+     <sup>
+      15
+     </sup>
+     N HSQC spectra were acquired in a Varian Inova500 spectrometer at 40-200 μM protein.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Generation of double conditional RIM KO mice
+    </title>
+    <p>
+     The RIM2αβγ targeting vector was constructed from a λ-phage DNA clone isolated from a genomic library, and conditional RIM2αβγ KO mice were generated by homologous recombination in R1 embryonic stem cells. The recombined stem cells were used for blastocyst injections to obtain chimeric mice. After germline transmission of the mutant allele, the newly generated conditional RIM2αβγ KO mice were crossed to conditional RIM1αβ KO mice (
+     <xref ref-type="bibr">
+      Kaeser et al., 2008
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophysiology
+    </title>
+    <p>
+     Whole-cell patch-clamp recordings were performed in cultured hippocampal neurons at DIV13-15. Synaptic responses were elicited by a local stimulation electrode, and were acquired with a multiclamp 700B amplifier. The extracellular solution contained (in mM) 140 NaCl, 4 KCl, 2 CaCl
+     <sub>
+      2
+     </sub>
+     , 2 MgCl
+     <sub>
+      2
+     </sub>
+     , 10 HEPES-NaOH pH 7.3, and 10 glucose, with 315 mOsm, and either 50 μM picrotoxin (EPSCs) or 10 μM CNQX and 50 μM D-APV (IPSCs). For all electrophysiological experiments, the experimenter was blind to the condition/genotype of the cultures analyzed.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Ca
+     <sup>
+      2+
+     </sup>
+     -imaging
+    </title>
+    <p>
+     All experiments were performed in a Zeiss LSM 510 confocal microscope. Cultured hippocampal neurons were examined at DIV14-18 in whole-cell patch-clamp configuration after filling with Fluo5F and Alexa594 dyes for 10 min. Action potentials were induced by short, somatic current injections through the patch pipette (typically 5 ms, 600 pA); Ca
+     <sup>
+      2+
+     </sup>
+     -transients were measured with line scans through presynaptic boutons and second order dendrites at a frequency of 333 Hz, typically 100-150 μm away from the neuronal cell body. Fluorescent signals were quantified as mean region of interest and plotted as G-G
+     <sub>
+      0
+     </sub>
+     /G
+     <sub>
+      0
+     </sub>
+     (G = average green emission in a given line; G
+     <sub>
+      0
+     </sub>
+     = average of 20 line scans before action potential induction). The experimenter was blind to the condition/genotype until all recordings and analyses were completed.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Immunofluorescence staining of cultured neurons
+    </title>
+    <p>
+     Cultured neurons were fixed in 4% paraformaldehyde, permeabilized in 0.1% Triton X-100/3% bovine serum albumin and incubated overnight with anti-Ca
+     <sub>
+      V
+     </sub>
+     2.1 rabbit polyclonal antibodies (Alomone labs, 1:100), or anti-bassoon rabbit polyclonal antibodies (Synaptic Systems, 1:250), and anti-synapsin mouse monoclonal antibodies (Synaptic Systems, 1:1000). Alexa-Fluor 546 anti-mouse and Alexa-Fluor 633 anti-rabbit secondary antibodies were used for detection with a confocal microscope. Single sections were acquired with identical settings applied to all samples in an experiment, and were used to quantify levels of P/Q-type Ca
+     <sup>
+      2+
+     </sup>
+     -channels and bassoon in ImageJ (NIH); the data were normalized to synapsin staining, and expressed relative to control cultures. The experimenter was blind to the condition/genotype in all experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Data anlaysis
+    </title>
+    <p>
+     All data are shown as means ± SEM. Statistical significance was determined by one-way
+     <em>
+      ANOVA
+     </em>
+     (some electrophysiological recordings), two-way
+     <em>
+      ANOVA
+     </em>
+     (Ca
+     <sup>
+      2+
+     </sup>
+     -imaging peak amplitude), Kolmogorov-Smirnov test (cumulative distribution of peak amplitudes in Ca
+     <sup>
+      2+
+     </sup>
+     -imaging), χ-test (mouse survival analysis), or Student’s
+     <em>
+      t
+     </em>
+     -test (all other experiments). 95% confidence intervals for [Ca
+     <sup>
+      2+
+     </sup>
+     ]
+     <sub>
+      ex
+     </sub>
+     -titration data and fitting parameters were calculated based on the covariance matrix. All numerical and statistical values and the tests used can be found in the
+     <a>
+      Suppl. Tables 1-7
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Miscellaneous
+    </title>
+    <p>
+     Mixed hippocampal cultures and lentiviruses generated in transfected HEK293T cells expressing EGFP-tagged active or inactive cre recombinases followed by an IRES sequence for expression of rescue constructs were produced as described (
+     <xref ref-type="bibr">
+      Kaeser et al., 2009
+     </xref>
+     ). SDS/PAGE gels, immunoblotting, and electronmicroscopic analyses were done according to standard methods described in the supplementary materials. All animal experiments were performed according to institutional guidelines. A detailed methods section can be found in the supplemental materials.
+    </p>
+    <sec>
+     <sec>
+      <title>
+       RESEARCH HIGHLIGHTS
+      </title>
+     </sec>
+     <ul>
+      <li>
+       <sec>
+        At presynaptic active zones, Ca
+        <sup>
+         2+
+        </sup>
+        -channels bind to PDZ-domains of RIM proteins
+       </sec>
+      </li>
+      <li>
+       <sec>
+        Deletion of RIM proteins decreases presynaptic Ca
+        <sup>
+         2+
+        </sup>
+        -influx and vesicle priming
+       </sec>
+      </li>
+      <li>
+       <sec>
+        RIMs tether Ca
+        <sup>
+         2+
+        </sup>
+        -channels to presynaptic active zones for fast, synchronous release
+       </sec>
+      </li>
+      <li>
+       <sec>
+        RIM PDZ- but not C
+        <sub>
+         2
+        </sub>
+        -domains are essential for tethering presynaptic Ca
+        <sup>
+         2+
+        </sup>
+        -channels
+       </sec>
+      </li>
+     </ul>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (475K, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     02
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (13M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGEMENTS
+   </title>
+   <sec>
+    <p>
+     We thank E. Borowicz, I. Kornblum, L. Fan, J. Mitchell, H. Ly and I. Huryeva for technical assistance, Dr. R.E. Hammer for blastocyst injections, Dr. N. Brose for Munc13-1 antibodies, Dr. C. Acuna-Goycolea for advice on Ca
+     <sup>
+      2+
+     </sup>
+     -imaging experiments, Dr. Z. Ma for assistance with yeast two-hybrid screening, Drs. Z. Pang, T. Bacaj and C. Földy for help with data analysis, and Dr. R. Schneggenburger for comments. This work was supported by grants from the NIH (NINDS 33564 to T.C.S., NS37200 to J.R., DA029044 to P.S.K.), a Swiss National Science Foundation Postdoctoral Fellowship (to P.S.K.), and a NARSAD Young Investigator Award (to P.S.K.).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <ul>
+     <li>
+      <span>
+       Atasoy D, Schoch S, Ho A, Nadasy KA, Liu X, Zhang W, Mukherjee K, Nosyreva ED, Fernandez-Chacon R, Missler M, et al.  Deletion of CASK in mice is lethal and impairs synaptic function.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2007;
+        <span>
+         104
+        </span>
+        :2525–2530.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Betz A, Thakur P, Junge HJ, Ashery U, Rhee JS, Scheuss V, Rosenmund C, Rettig J, Brose N. Functional interaction of the active zone proteins Munc13-1 and RIM1 in synaptic vesicle priming.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        2001;
+        <span>
+         30
+        </span>
+        :183–196.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Castillo PE, Schoch S, Schmitz F, Sudhof TC, Malenka RC. RIM1alpha is required for presynaptic long-term potentiation.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2002;
+        <span>
+         415
+        </span>
+        :327–330.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Castillo PE, Weisskopf MG, Nicoll RA. The role of Ca2+ channels in hippocampal mossy fiber synaptic transmission and long-term potentiation.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        1994;
+        <span>
+         12
+        </span>
+        :261–269.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Catterall WA, Perez-Reyes E, Snutch TP, Striessnig J. International Union of Pharmacology. XLVIII. Nomenclature and structure-function relationships of voltage-gated calcium channels.
+       <span>
+        <span>
+         Pharmacol Rev.
+        </span>
+        2005;
+        <span>
+         57
+        </span>
+        :411–425.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Church PJ, Stanley EF. Single L-type calcium channel conductance with physiological levels of calcium in chick ciliary ganglion neurons.
+       <span>
+        <span>
+         J Physiol.
+        </span>
+        1996;
+        <span>
+         496
+        </span>
+        (Pt 1):59–68.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Coppola T, Magnin-Luthi S, Perret-Menoud V, Gattesco S, Schiavo G, Regazzi R. Direct interaction of the Rab3 effector RIM with Ca2+ channels, SNAP-25, and synaptotagmin.
+       <span>
+        <span>
+         J Biol Chem.
+        </span>
+        2001;
+        <span>
+         276
+        </span>
+        :32756–32762.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dietrich D, Kirschstein T, Kukley M, Pereverzev A, von der Brelie C, Schneider T, Beck H. Functional specialization of presynaptic Cav2.3 Ca2+ channels.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        2003;
+        <span>
+         39
+        </span>
+        :483–496.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dulubova I, Lou X, Lu J, Huryeva I, Alam A, Schneggenburger R, Sudhof TC, Rizo J. A Munc13/RIM/Rab3 tripartite complex: from priming to plasticity?
+       <span>
+        <span>
+         Embo J.
+        </span>
+        2005
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Fourcaudot E, Gambino F, Humeau Y, Casassus G, Shaban H, Poulain B, Luthi A. cAMP/PKA signaling and RIM1alpha mediate presynaptic LTP in the lateral amygdala.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2008;
+        <span>
+         105
+        </span>
+        :15130–15135.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Gracheva EO, Hadwiger G, Nonet ML, Richmond JE. Direct interactions between C. elegans RAB-3 and Rim provide a mechanism to target vesicles to the presynaptic density.
+       <span>
+        <span>
+         Neurosci Lett.
+        </span>
+        2008;
+        <span>
+         444
+        </span>
+        :137–142.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hibino H, Pironkova R, Onwumere O, Vologodskaia M, Hudspeth AJ, Lesage F. RIM binding proteins (RBPs) couple Rab3-interacting molecules (RIMs) to voltage-gated Ca(2+) channels.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        2002;
+        <span>
+         34
+        </span>
+        :411–423.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ho A, Morishita W, Atasoy D, Liu X, Tabuchi K, Hammer RE, Malenka RC, Sudhof TC. Genetic analysis of Mint/X11 proteins: essential presynaptic functions of a neuronal adaptor protein family.
+       <span>
+        <span>
+         J Neurosci.
+        </span>
+        2006;
+        <span>
+         26
+        </span>
+        :13089–13101.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Kaeser PS, Deng L, Chavez AE, Liu X, Castillo PE, Sudhof TC. ELKS2alpha/CAST deletion selectively increases neurotransmitter release at inhibitory synapses.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        2009;
+        <span>
+         64
+        </span>
+        :227–239.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Kaeser PS, Kwon HB, Chiu CQ, Deng L, Castillo PE, Sudhof TC. RIM1alpha and RIM1beta are synthesized from distinct promoters of the RIM1 gene to mediate differential but overlapping synaptic functions.
+       <span>
+        <span>
+         J Neurosci.
+        </span>
+        2008;
+        <span>
+         28
+        </span>
+        :13435–13447.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Katz B.
+       <span>
+        The Release of Neural Transmitter Substances.
+       </span>
+       Liverpool Univ Press; Liverpool: 1969.
+      </span>
+     </li>
+     <li>
+      <span>
+       Kiyonaka S, Wakamori M, Miki T, Uriu Y, Nonaka M, Bito H, Beedle AM, Mori E, Hara Y, De Waard M, et al.  RIM1 confers sustained activity and neurotransmitter vesicle anchoring to presynaptic Ca2+ channels.
+       <span>
+        <span>
+         Nat Neurosci.
+        </span>
+        2007;
+        <span>
+         10
+        </span>
+        :691–701.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Koushika SP, Richmond JE, Hadwiger G, Weimer RM, Jorgensen EM, Nonet ML. A post-docking role for active zone protein Rim.
+       <span>
+        <span>
+         Nat Neurosci.
+        </span>
+        2001;
+        <span>
+         4
+        </span>
+        :997–1005.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Llinas R, Sugimori M, Silver RB. Microdomains of high calcium concentration in a presynaptic terminal.
+       <span>
+        <span>
+         Science.
+        </span>
+        1992;
+        <span>
+         256
+        </span>
+        :677–679.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Lu J, Li H, Wang Y, Sudhof TC, Rizo J. Solution structure of the RIM1alpha PDZ domain in complex with an ELKS1b C-terminal peptide.
+       <span>
+        <span>
+         Journal of molecular biology.
+        </span>
+        2005;
+        <span>
+         352
+        </span>
+        :455–466.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Luebke JI, Dunlap K, Turner TJ. Multiple calcium channel types control glutamatergic synaptic transmission in the hippocampus.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        1993;
+        <span>
+         11
+        </span>
+        :895–902.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Maximov A, Sudhof TC, Bezprozvanny I. Association of neuronal calcium channels with modular adaptor proteins.
+       <span>
+        <span>
+         J Biol Chem.
+        </span>
+        1999;
+        <span>
+         274
+        </span>
+        :24453–24456.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Meinrenken CJ, Borst JG, Sakmann B. Calcium secretion coupling at calyx of held governed by nonuniform channel-vesicle topography.
+       <span>
+        <span>
+         J Neurosci.
+        </span>
+        2002;
+        <span>
+         22
+        </span>
+        :1648–1667.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Missler M, Zhang W, Rohlmann A, Kattenstroth G, Hammer RE, Gottmann K, Sudhof TC. Alpha-neurexins couple Ca2+ channels to synaptic vesicle exocytosis.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2003;
+        <span>
+         424
+        </span>
+        :939–948.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mittelstaedt T, Alvarez-Baron E, Schoch S. RIM proteins and their role in synapse function.
+       <span>
+        <span>
+         Biol Chem.
+        </span>
+        2010;
+        <span>
+         391
+        </span>
+        :599–606.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ohtsuka T, Takao-Rikitsu E, Inoue E, Inoue M, Takeuchi M, Matsubara K, Deguchi-Tawarada M, Satoh K, Morimoto K, Nakanishi H, et al.  Cast: a novel protein of the cytomatrix at the active zone of synapses that forms a ternary complex with RIM1 and munc13-1.
+       <span>
+        <span>
+         J Cell Biol.
+        </span>
+        2002;
+        <span>
+         158
+        </span>
+        :577–590.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Poncer JC, McKinney RA, Gahwiler BH, Thompson SM. Either N- or P-type calcium channels mediate GABA release at distinct hippocampal inhibitory synapses.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        1997;
+        <span>
+         18
+        </span>
+        :463–472.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Qian J, Noebels JL. Presynaptic Ca(2+) influx at a mouse central synapse with Ca(2+) channel subunit mutations.
+       <span>
+        <span>
+         J Neurosci.
+        </span>
+        2000;
+        <span>
+         20
+        </span>
+        :163–170.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Regehr WG, Mintz IM. Participation of multiple calcium channel types in transmission at single climbing fiber to Purkinje cell synapses.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        1994;
+        <span>
+         12
+        </span>
+        :605–613.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Schneggenburger R, Meyer AC, Neher E. Released fraction and total size of a pool of immediately available transmitter quanta at a calyx synapse.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        1999;
+        <span>
+         23
+        </span>
+        :399–409.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Schoch S, Castillo PE, Jo T, Mukherjee K, Geppert M, Wang Y, Schmitz F, Malenka RC, Sudhof TC. RIM1alpha forms a protein scaffold for regulating neurotransmitter release at the active zone.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2002;
+        <span>
+         415
+        </span>
+        :321–326.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Schoch S, Mittelstaedt T, Kaeser PS, Padgett D, Feldmann N, Chevaleyre V, Castillo PE, Hammer RE, Han W, Schmitz F, et al.  Redundant functions of RIM1alpha and RIM2alpha in Ca(2+)-triggered neurotransmitter release.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        2006;
+        <span>
+         25
+        </span>
+        :5852–5863.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Shin OH, Xu J, Rizo J, Sudhof TC. Differential but convergent functions of Ca2+ binding to synaptotagmin-1 C2 domains mediate neurotransmitter release.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2009;
+        <span>
+         106
+        </span>
+        :16469–16474.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Takahashi T, Momiyama A. Different types of calcium channels mediate central synaptic transmission.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1993;
+        <span>
+         366
+        </span>
+        :156–158.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wang Y, Liu X, Biederer T, Sudhof TC. A family of RIM-binding proteins regulated by alternative splicing: Implications for the genesis of synaptic active zones.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2002;
+        <span>
+         99
+        </span>
+        :14464–14469.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wang Y, Okamoto M, Schmitz F, Hofmann K, Sudhof TC. Rim is a putative Rab3 effector in regulating synaptic-vesicle fusion.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1997;
+        <span>
+         388
+        </span>
+        :593–598.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wang Y, Sugita S, Sudhof TC. The RIM/NIM family of neuronal C2 domain proteins. Interactions with Rab3 and a new class of Src homology 3 domain proteins.
+       <span>
+        <span>
+         J Biol Chem.
+        </span>
+        2000;
+        <span>
+         275
+        </span>
+        :20033–20044.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wiedemann U, Boisguerin P, Leben R, Leitner D, Krause G, Moelling K, Volkmer-Engert R, Oschkinat H. Quantification of PDZ domain specificity, prediction of ligand affinity and rational design of super-binding peptides.
+       <span>
+        <span>
+         Journal of molecular biology.
+        </span>
+        2004;
+        <span>
+         343
+        </span>
+        :703–718.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wojcik SM, Brose N. Regulation of membrane fusion in synaptic excitation-secretion coupling: speed and accuracy matter.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        2007;
+        <span>
+         55
+        </span>
+        :11–24.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wu LG, Westenbroek RE, Borst JG, Catterall WA, Sakmann B. Calcium channel types with distinct presynaptic localization couple differentially to transmitter release in single calyx-type synapses.
+       <span>
+        <span>
+         J Neurosci.
+        </span>
+        1999;
+        <span>
+         19
+        </span>
+        :726–736.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+    </ul>
+   </sec>
+  </sec>
+ </body>
+</article>

@@ -1,0 +1,1053 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC5008439
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural characterization of human heparanase reveals insights into substrate recognition
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Heparan Sulfate (HS) is a glycosaminoglycan (GAG) which forms a key component of the extracellular matrix (ECM). Breakdown of HS is carried out by heparanase (HPSE), an endo-β-glucuronidase of the glycoside hydrolase (GH)79 family. Overexpression of HPSE is strongly linked to cancer metastases - reflecting breakdown of extracellular HS and release of stored growth factors. Here we present crystal structures of human HPSE at 1.6-1.9 Å resolution reveal how an endo-acting binding cleft is exposed by proteolytic activation of latent proHPSE. Oligosaccharide complexes map the substrate-binding and sulfate recognition motifs. These data shed light on the structure and interactions for a key enzyme involved in ECM maintenance, and provide a starting point for design of HPSE inhibitors as biochemical tools and anti-cancer therapeutics.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Heparan Sulfate (HS) is a sulfated glycosaminoglycan polysaccharide produced by nearly all animal species
+    <xref ref-type="bibr">
+     1
+    </xref>
+    <sup>
+     ,
+    </sup>
+    <xref ref-type="bibr">
+     2
+    </xref>
+    . Structurally, HS is comprised of a linear repeating [D-HexUA(β1→4)D-GlcNX(α1→4)]
+    <sub>
+     n
+    </sub>
+    disaccharide motif, where HexUA is either Glucuronic acid (GlcUA) or its C-5 epimer Iduronic acid (IdoUA), and GlcNX is N-acetyl glucosamine (GlcNAc) or N-sulfo glucosamine (GlcNS). These chains are further elaborated by O-sulfation at O2 of HexUA, O6 of GlcNX and (rarely) O3 of GlcNX. The deacetylation, sulfation and epimerisation reactions involved in biosynthesis of HS are non-templated and do not reach completion, resulting in substantial structural heterogeneity along a chain. Mature HS is modular in composition, with “NS” domains rich in GlcNS, IdoUA and O-sulfated sugars separate from lower O-sulfation, GlcNAc, GlcUA rich “NA” domains (
+    <a>
+     Supplementary Figure 1
+    </a>
+    ). This heterogeneity of HS structure provides interaction sites for a large number of different binding partners, and is central to its proper biological function
+    <xref ref-type="bibr">
+     3
+    </xref>
+    .
+   </p>
+   <p>
+    HS occurs
+    <em>
+     in vivo
+    </em>
+    in the form of heparan sulfate proteoglycans (HSPGs), consisting of one or more HS chains covalently linked to a core transmembrane or secreted protein. HSPGs are an important constituent of the extracellular matrix (ECM) which surrounds cells, and perform important structural and signaling functions
+    <em>
+     via
+    </em>
+    HS mediated interactions
+    <xref ref-type="bibr">
+     4
+    </xref>
+    . The compositions of HS chains are adapted to their function, and can differ between cells and tissues even when the core HSPG protein is the same. HS chains are also dynamically regulated in response to external stimuli, with turnover by some cells occurring as rapidly as
+    <em>
+     t
+    </em>
+    <sub>
+     <em>
+      1/2
+     </em>
+    </sub>
+    = 2.5 h
+    <xref ref-type="bibr">
+     5
+    </xref>
+    <sup>
+     ,
+    </sup>
+    <xref ref-type="bibr">
+     6
+    </xref>
+    . This turnover is underpinned by a network of enzymes which serve to efficiently synthesize and break down HS in a regulated fashion.
+   </p>
+   <p>
+    The principal enzyme involved in breakdown of HS is heparanase (HPSE), a member of the Carbohydrate Active Enzymes (CAZy) Glycoside Hydrolase (GH)79 family of carbohydrate processing enzymes
+    <xref ref-type="bibr">
+     7
+    </xref>
+    . HPSE catalyzes hydrolysis of internal GlcUA(β1→4)GlcNS linkages in HS, with net retention of anomeric configuration
+    <xref ref-type="bibr">
+     8
+    </xref>
+    . HPSE breakdown of HS is not indiscriminate, but instead is restricted to a small subset of GlcUAs reflecting a requirement for specific N- and O-sulfation patterns on neighboring sugars
+    <xref ref-type="bibr">
+     9
+    </xref>
+    <sup>
+     –
+    </sup>
+    <xref ref-type="bibr">
+     11
+    </xref>
+    . HPSE present in late endosomes and lysosomes performs an essential housekeeping role in catabolic processing of internalized HSPGs
+    <xref ref-type="bibr">
+     12
+    </xref>
+    . In addition, HPSE can be trafficked to the cell surface or released into the ECM in order to effect breakdown of extracellular pools of HS
+    <xref ref-type="bibr">
+     13
+    </xref>
+    .
+   </p>
+   <p>
+    HPSE mediated breakdown of HS in the ECM has several effects on the behavior of nearby cells. Weakening of structural HS networks in the ECM and basement membranes directly facilitates cell motility and extravasation into surrounding tissues
+    <xref ref-type="bibr">
+     14
+    </xref>
+    . Latent pools of growth factors stored by HS are released upon breakdown by HPSE, promoting increased cell proliferation, motility and angiogenesis
+    <xref ref-type="bibr">
+     15
+    </xref>
+    <sup>
+     ,
+    </sup>
+    <xref ref-type="bibr">
+     16
+    </xref>
+    . HS fragments generated by HPSE activity can also activate downstream signaling cascades
+    <xref ref-type="bibr">
+     17
+    </xref>
+    . Whilst controlled HPSE activity plays an important role in physiological processing of the ECM, aberrant HPSE expression is associated with inflammation and cancerous growth. The proliferative advantages conferred by HPSE lead to its upregulation by tumors in a variety of tissues, and HPSE overexpression correlates strongly with metastasis and worsened clinical prognoses
+    <xref ref-type="bibr">
+     18
+    </xref>
+    <sup>
+     –
+    </sup>
+    <xref ref-type="bibr">
+     21
+    </xref>
+    .
+   </p>
+   <p>
+    Only one gene with heparanase like catalytic activity has so far been identified in mammals, suggesting that loss of HPSE activity may not easily be compensated for by the cell. Accordingly, HPSE inhibition has attracted intense interest as an anti-cancer strategy, although the efficacy of small molecule inhibitors
+    <xref ref-type="bibr">
+     22
+    </xref>
+    <sup>
+     ,
+    </sup>
+    <xref ref-type="bibr">
+     23
+    </xref>
+    has yet to rival those reported for oligosaccharide-like HS mimetics
+    <xref ref-type="bibr">
+     24
+    </xref>
+    <sup>
+     –
+    </sup>
+    <xref ref-type="bibr">
+     26
+    </xref>
+    , such as the sulfated phosphomannopentaose derivative PI-88 (currently in phase III clinical trials as an adjuvant therapy for the treatment of viral hepatitis related hepatocellular carcinomas).
+   </p>
+   <p>
+    Despite intense biological and clinical interest, no 3D structure has yet been reported for human HPSE, although structures of a GH79 exoglucuronidase from
+    <em>
+     Acidobaterium capsulatum
+    </em>
+    (AcaGH79) and, recently, an
+    <em>
+     endo
+    </em>
+    -acting heparanase from
+    <em>
+     Burkholderia pseudomallei
+    </em>
+    (BpHPSE) have helped provide a structural overview for this enzyme family
+    <xref ref-type="bibr">
+     27
+    </xref>
+    <sup>
+     ,
+    </sup>
+    <xref ref-type="bibr">
+     28
+    </xref>
+    . In order to understand the mechanistic basis of HPSE function, we have determined the crystal structures of human HPSE in
+    <em>
+     apo
+    </em>
+    and ligand bound conformations to illustrate the structural basis of enzyme-substrate binding in HPSE. These data shed light on the structure and function of a key enzyme involved in human HS metabolism, and may be of substantial utility in future efforts to rationally design inhibitors against HPSE.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Tertiary structure of HPSE
+    </title>
+    <p>
+     HPSE is initially translated as a pre-proenzyme, containing a signal sequence spanning Met1–Ala35. Cleavage of this signal sequence by signal peptidase leaves an inactive 65 kDa proHPSE, which must undergo further processing for activity. Proteolytic removal by Cathepsin L of a linker spanning Ser110–Gln157 liberates an N-terminal 8 kDa subunit and a C-terminal 50 kDa subunit, which remain associated as a non-covalent heterodimer in mature active HPSE
+     <xref ref-type="bibr">
+      29
+     </xref>
+     . For our studies, we expressed HPSE using baculovirus, following a previously described dual expression strategy
+     <xref ref-type="bibr">
+      30
+     </xref>
+     . cDNA encoding for the 8 kDa and 50 kDa subunits were placed into a single bacmid under the control separate viral promoters. The two subunits cotranslationally fold into mature heterodimeric HPSE, bypassing the 65 kDa proenzyme form and ensuring expression of only active enzyme (
+     <xref ref-type="fig">
+      Figure 1a
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       3D structure of
+       <em>
+        apo
+       </em>
+       HPSE. (
+       <strong>
+        a
+       </strong>
+       ) Schematic representation of HPSE biogenesis, and the coexpression strategy utilized in this study. (
+       <strong>
+        b
+       </strong>
+       ) ‘Front’ view of
+       <em>
+        apo
+       </em>
+       -HPSE in ribbon representation; subunits are colored yellow (8 kDa), and blue (50 kDa). 5 sites of N-glycosylation are shown in green. (
+       <strong>
+        c
+       </strong>
+       ) ‘Side’ view of HPSE showing a binding cleft in the (β/α)
+       <sub>
+        8
+       </sub>
+       domain in which the catalytic residues (green) reside.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The structure of
+     <em>
+      apo
+     </em>
+     -HPSE refined to 1.75 Å resolution (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ) contains a single heterodimer in the asymmetric unit, comprising residues Gln36–Glu109 of the 8 kDa subunit and Lys159–Ile543 of the 50 kDa subunit (numbering based upon full preproenzyme). The domain architecture of HPSE comprises a (β/α)
+     <sub>
+      8
+     </sub>
+     domain flanked by a smaller β-sandwich domain. Both 8 kDa and 50 kDa subunits are structurally involved in both domains: the 8 kDa subunit contributes 1 β-sheet to the β-sandwich, and the 1
+     <sup>
+      st
+     </sup>
+     β-α-β fold of the (β/α)
+     <sub>
+      8
+     </sub>
+     domain, with the remaining folds contributed by the 50 kDa subunit (
+     <xref ref-type="fig">
+      Figure 1b
+     </xref>
+     ). Overall, the domain architecture of HPSE is superficially similar to that of previously characterized bacterial GH79s
+     <xref ref-type="bibr">
+      27
+     </xref>
+     <sup>
+      ,
+     </sup>
+     <xref ref-type="bibr">
+      28
+     </xref>
+     , with Cα root mean square difference of 2.35 Å over 392 residues (out of 457) and 2.59 Å over 387 residues for AcaGH79 and BpHPSE respectively (
+     <a>
+      Supplementary Figure 2a
+     </a>
+     ).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Crystal data collection and refinement statistics
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     HPSE contains 6 putative N-glycosylation sites, all residing on the 50 kDa subunit. N-linked GlcNAcs (corresponding to N-glycan trees trimmed by Endoglycosidase (Endo)H during protein preparation) were found in the
+     <em>
+      apo
+     </em>
+     -HPSE structure at Asn162, Asn200, Asn217, Asn238 and Asn459. Additionally a core α1→6 linked Fucose was seen on the GlcNAc linked to Asn459. No noticeable density corresponding to GlcNAc was observed at the N-glycosylation site Asn178, suggesting this position may not be well N-glycosylated during baculoviral expression, or that N-GlcNAc here is not compatible with crystal packing.
+    </p>
+    <p>
+     The GH79 family belongs to the wider GH-A clan, characterized by a (β/α)
+     <sub>
+      8
+     </sub>
+     domain containing the catalytic site
+     <xref ref-type="bibr">
+      7
+     </xref>
+     . A clear cleft spanning ~10 Å could be seen in the (β/α)
+     <sub>
+      8
+     </sub>
+     domain of
+     <em>
+      apo
+     </em>
+     -HPSE, suggesting the HS binding site was contained within this part of the enzyme (
+     <xref ref-type="fig">
+      Figure 1c
+     </xref>
+     ). This cleft contained residues Glu343 and Glu225, previously identified as the catalytic nucleophile and acid-base of HPSE
+     <xref ref-type="bibr">
+      31
+     </xref>
+     , required for the retaining catalytic mechanism
+     <xref ref-type="bibr">
+      32
+     </xref>
+     . In accordance with the negatively charged nature of its HS substrate, the HPSE binding cleft is lined by basic sidechains contributed by Arg35, Lys158, Lys159, Lys161, Lys231, Arg272, Arg273 and Arg303.
+    </p>
+    <p>
+     Although not present in mature HPSE, our model indicates that the excised Ser110–Gln157 linker of proHPSE should lie very near or even within the active site cleft of the (β/α)
+     <sub>
+      8
+     </sub>
+     domain. This positioning would hinder incoming HS substrates, and is consistent with a previously proposed steric block mechanism for proHPSE inactivation by its own linker
+     <xref ref-type="bibr">
+      33
+     </xref>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structural basis of HPSE substrate interactions
+    </title>
+    <p>
+     Interaction of HS with HPSE is influenced by substrate sulfation, and only HS sequences with particular sulfation patterns are hydrolysed. Studies using defined HS oligomers have suggested that HPSE preferentially cleaves a trisaccharide with sulfated GlcNX residues at −2 and +1 positions
+     <xref ref-type="bibr">
+      9
+     </xref>
+     <sup>
+      ,
+     </sup>
+     <xref ref-type="bibr">
+      10
+     </xref>
+     <sup>
+      ,
+     </sup>
+     <xref ref-type="bibr">
+      34
+     </xref>
+     <sup>
+      ,
+     </sup>
+     <xref ref-type="bibr">
+      35
+     </xref>
+     (subsite nomenclature in
+     <xref ref-type="bibr">
+      Ref 36
+     </xref>
+     ). However, a mechanistic understanding of how HPSE ‘reads’ the sulfation status of HS substrates to select for favorable cleavage sites has so far been lacking.
+    </p>
+    <p>
+     We mapped the substrate binding and sulfate interaction sites of HPSE by obtaining structures of the enzyme in complex with a set of HS analogues. We initially chose three ‘HepMers’; semi-synthetic HS oligomers of defined structure
+     <xref ref-type="bibr">
+      34
+     </xref>
+     , to investigate the effect of systematically increasing N- and O-sulfation: M04 S00a (a tetrasaccharide with no sulfation), M04 S02a (a tetrasaccharide with only N-sulfation), and M09 S05a (a nonasaccharide with N-sulfation and a single GlcNS(6S) towards the reducing end) (
+     <xref ref-type="fig">
+      Figure 2a
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Active site structures of HPSE in complex with substrate analogues. Densities shown are REFMAC maximum-likelihood/σ
+       <sub>
+        A
+       </sub>
+       weighted 2Fo−Fc syntheses contoured between 0.25 and 0.32 electrons/Å
+       <sup>
+        3
+       </sup>
+       . (
+       <strong>
+        a
+       </strong>
+       ) Schematic of substrate analogues used in this study, with N-sulfation (blue), 6O-sulfation (red) and 2O-sulfation (orange) highlighted. Structures for sugar monomers are shown in
+       <a>
+        Supplementary Figure 1
+       </a>
+       . pNP refers to paranitrophenol. (
+       <strong>
+        b
+       </strong>
+       ) HPSE active site in complex with M04 S00a, with binding subsites and neighboring amino acids annotated. (
+       <strong>
+        c
+       </strong>
+       ) HPSE in complex with M04 S02a. −3 GlcNS was disordered and has not been modeled. (
+       <strong>
+        d
+       </strong>
+       ) HPSE in complex with M09 S05a. No +1 substituent could be modeled due to poor density, suggesting pNP no longer occupied this subsite. Sugars beyond −4 were disordered and have not been modeled. (
+       <strong>
+        e
+       </strong>
+       ) HPSE in complex with dp4, illustrating interactions made by HPSE to 6O-sulfate at the +1 subsite.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Complexes of HPSE with the three HepMers showed clear electron density for the ligands within the active site cleft, revealing the basis of interaction at the −1 and −2 binding subsites (
+     <xref ref-type="fig">
+      Figure 2b, c, d
+     </xref>
+     ). Electron density was progressively more disordered from the −3 sugar onwards as the substrate exited the binding cleft, consistent with HPSE recognizing a trisaccharide spanning the −2, −1 and +1 subsites. For M04 SO0a and MO4 SO2a, electron density for the reducing end paranitrophenol (pNP) moiety was clearly visible at the +1 equivalent position, suggesting that these molecules were poor substrates for HPSE. In contrast, density at +1 for M09 S05a was almost absent.
+    </p>
+    <p>
+     Binding of GlcUA at the −1 subsite was identical in all HepMer complexes, with the ring in
+     <sup>
+      4
+     </sup>
+     C
+     <sub>
+      1
+     </sub>
+     conformation and anomeric carbon close to the nucleophile Glu343. Direct H-bonds to HPSE were observed from GlcUA to the sidechains of Asp62, Tyr391, as well as backbone NHs of Thr97, Gly349 and Gly350. A strong network of H-bonds made by the GlcUA C6 carboxylate to Tyr391, Gly349 and Gly350 are similar to that observed in the bacterial GH79s, suggesting a key GH79 motif tuned to recognize GlcUA. Our structures also showed that the presence of GlcUA(2S) or IdoUA(2S) at the −1 subsite cannot be tolerated by HPSE, due to steric clashes between the bulky 2O-sulfate and Asn224.
+    </p>
+    <p>
+     GlcNX residues at the −2 subsite also adopt a
+     <sup>
+      4
+     </sup>
+     C
+     <sub>
+      1
+     </sub>
+     conformation in all complexes and illustrate HPSE’s ability to accommodate a variety of GlcNX sugars at this position. Surprisingly, only the N2 position of GlcNX appeared to make any direct H-bonding interactions to HPSE: for both GlcNAc and GlcNS, the amide NH formed an H-bond to the sidechain of Tyr391. For GlcNAc, the amide carbonyl formed an H-bond to both Asn64 and to a structural water molecule, whereas GlcNS made these same interactions as well as H-bonds to a further structural water and the backbone NH of Gly389. For -2 GlcNS(6S), 6O-sulfate was ideally placed to participate in electrostatic interactions with the sidechain of Lys159. Thus GlcNS(6S) at the −2 subsite should be favored over GlcNS or GlcNAc, reflecting additional electrostatic and H-bonding interactions respectively.
+    </p>
+    <p>
+     Lack of density at the +1 subsite for M09 S05a, in contrast to M04 S00/S02a, suggested that the observed structure reflected several related complexes differing at this position. Inspection of GlcNS(6S) at the −2 subsite also revealed electron density for 6O-sulfate was considerably weaker than that for N-sulfate (
+     <a>
+      Supplementary Figure 2b
+     </a>
+     ) indicating this subsite was likely occupied by a mixture of GlcNS and GlcNS(6S). Although M09 S05a contains several GlcNS residues, binding of HPSE far towards the reducing end of M09 S05a is strongly disfavored
+     <em>
+      in crystallo
+     </em>
+     due to the presence of a clashing symmetry molecule at the ‘positive’ end of the binding cleft (
+     <a>
+      Supplementary Figure 2c
+     </a>
+     ). Thus we concluded the M09 S05a complex reflected partial HPSE binding only one disaccharide unit further from the reducing end. This would imply GlcNS(6S) occupancy of the +1 subsite, or alternatively, a product complex in which a +1 GlcNS(6S) had been hydrolysed. Consistent with this, we were able to determine kinetic parameters for HPSE hydrolysis of M09 S05a using a colorimetric reducing end assay (
+     <em>
+      K
+      <sub>
+       M
+      </sub>
+     </em>
+     = 7.70 ± 1.42 µM,
+     <em>
+      k
+      <sub>
+       cat
+      </sub>
+     </em>
+     = 0.53 ± 0.02 s
+     <sup>
+      –1
+     </sup>
+     ;
+     <a>
+      Supplementary Figure 3
+     </a>
+     ), but not for M04 S00a or M04 S02a. Whilst
+     <em>
+      K
+      <sub>
+       M
+      </sub>
+     </em>
+     for M09 S05a hydrolysis was in the low μM range, comparable to previous studies of HPSE activity (1.64 μM for natural HS
+     <xref ref-type="bibr">
+      37
+     </xref>
+     , 46 μM for the synthetic substrate fondaparinux
+     <xref ref-type="bibr">
+      38
+     </xref>
+     ),
+     <em>
+      k
+      <sub>
+       cat
+      </sub>
+     </em>
+     for M09 S05a was ~15% of that previously determined for fondaparinux (3.5 s
+     <sup>
+      –1
+     </sup>
+     ), possibly reflecting differences in substrate sulfation or oligosaccharide length.
+    </p>
+    <p>
+     Because +1 subsite interactions were not resolvable using HepMers, we sought to obtain a structure of HPSE in complex with a heparin-derived tetrasaccharide (hereafter ‘dp4’;
+     <xref ref-type="fig">
+      Figure 2a
+     </xref>
+     ; generated by depolymerization of full-length heparin by heparin lyases). Like HS and heparin itself, dp4 is a mixture of structurally related disaccharide units, with the tetrasaccharide ΔHexUA(2S)-GlcNS(6S)-IdoUA(2S)-GlcNS(6S) as the major component. The structure of HPSE with dp4 showed occupancy of the same binding site as for HepMers (
+     <xref ref-type="fig">
+      Figure 2e
+     </xref>
+     ), consistent with the overall similarity of heparin to HS. The observed density was not, however, for the predominant dp4 tetrasaccharide, but was better modeled by a molecule containing IdoUA at −1 (instead of IdoUA(2S)), confirming that 2O-sulfate at the −1 subsite is not tolerated. Electron density for dp4 in HPSE was correspondingly weaker than for HepMers across all subsites, reflecting the binding of a minor constituent.
+    </p>
+    <p>
+     The overall configuration of dp4 across the HPSE active site was similar to that of HepMers, but −1 IdoUA adopted a
+     <sup>
+      2
+     </sup>
+     S
+     <sub>
+      O
+     </sub>
+     conformation, instead of the
+     <sup>
+      4
+     </sup>
+     C
+     <sub>
+      1
+     </sub>
+     seen for GlcUA in HepMers. In free heparin, IdoUA residues exist in an easily traversable equilibrium between
+     <sup>
+      1
+     </sup>
+     C
+     <sub>
+      4
+     </sub>
+     and
+     <sup>
+      2
+     </sup>
+     S
+     <sub>
+      O
+     </sub>
+     , with the O2 position held axial or equatorial respectively
+     <xref ref-type="bibr">
+      39
+     </xref>
+     . Upon binding to HPSE, H-bonding to Asn224 and the presence of clashing Glu343 at the O2 axial position constrain −1 IdoUA to the
+     <sup>
+      2
+     </sup>
+     S
+     <sub>
+      O
+     </sub>
+     conformation. IdoUA constrained in
+     <sup>
+      2
+     </sup>
+     S
+     <sub>
+      O
+     </sub>
+     may be hindered from undergoing the conformational changes required for hydrolysis
+     <xref ref-type="bibr">
+      40
+     </xref>
+     , perhaps explaining why heparin-type ligands containing a IdoUA residues act as competitive inhibitors of HS cleavage.
+    </p>
+    <p>
+     Although weak, some density at the +1 subsite could be resolved in the dp4 complex, suggesting the presence of +1 6O-sulfate, which we tentatively modelled as GlcNS(6S). In our model, GlcNS(6S) at the +1 subsite adopts an undistorted
+     <sup>
+      4
+     </sup>
+     C
+     <sub>
+      1
+     </sub>
+     conformation, with 6O-sulfate providing the main interactions to HPSE via H-bonds to the backbone and sidechain NH of Gln270, as well as electrostatic interactions with Arg272. From its positioning in our model, further electrostatic interactions may also exist between +1 N-sulfate and Arg303, although we are unable to confirm this given the poor density for the ligand at this position. Although dp4 contains IdoUA instead of GlcUA at the −1 subsite, both GlcUA
+     <sup>
+      4
+     </sup>
+     C
+     <sub>
+      1
+     </sub>
+     and IdoUA
+     <sup>
+      2
+     </sup>
+     S
+     <sub>
+      O
+     </sub>
+     conformations involve a similar all-equatorial arrangement of substituents around the sugar ring. Therefore we propose the position of GlcNS(6S) at the +1 subsite is also likely to be relevant for a HS substrate containing GlcUA instead of IdoUA.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     HPSE interaction induces distortion of the substrate chain
+    </title>
+    <p>
+     The structure of free heparin has been extensively studied; it adopts a linear right handed helix with a rotation of ~180° and translation of 0.82–0.87 nm per disaccharide unit
+     <xref ref-type="bibr">
+      41
+     </xref>
+     <sup>
+      –
+     </sup>
+     <xref ref-type="bibr">
+      43
+     </xref>
+     . Sulfates are presented in clusters on the surface of the sugar chain, with their distribution reflecting whether IdoUA residues are in
+     <sup>
+      1
+     </sup>
+     C
+     <sub>
+      4
+     </sub>
+     or
+     <sup>
+      2
+     </sup>
+     S
+     <sub>
+      O
+     </sub>
+     conformation. The helical heparin conformation is retained in complex with binding partners, as seen in crystal structures of heparin bound to FGF or antithrombin
+     <xref ref-type="bibr">
+      44
+     </xref>
+     <sup>
+      –
+     </sup>
+     <xref ref-type="bibr">
+      46
+     </xref>
+     , which also illustrate the role of sulfation in mediating electrostatic interactions with basic residues on heparin interacting proteins. Conversely, the presence of a bulky negatively charged ‘coat’ surrounding the core glycan may hinder access to nucleophilic protein residues, effectively protecting the sugar residues from enzymatic attack.
+    </p>
+    <p>
+     Dp4 in complex with HPSE retains an approximately right-handed helical configuration within the active site cleft, similar to free heparin. However, interactions from HPSE to −2 N-sulfate and +1 6O-sulfate introduce a clear bend into the heparin chain across the −2, −1, +1 trisaccharide. Compared to a previous model for an idealized heparin helix
+     <xref ref-type="bibr">
+      42
+     </xref>
+     , the −2(N2)→–1(O2) distance for dp4 in HPSE was increased from 4.8 Å to 7.2 Å, and −1(O2)→+1(C6) distance increased from 4.4 Å to 5.7 Å (
+     <xref ref-type="fig">
+      Figure 3a, b
+     </xref>
+     ). This ‘bend’ separates the N2 and O6 sulfates adjacent to the −1 anomeric center, allowing the catalytic residues of HPSE to access this position more easily. Although a +1 subsite sugar was not observed in HepMer-HPSE complexes, a similar distortion was seen for HepMers across the −2→–1 subsites (
+     <xref ref-type="fig">
+      Figure 3c
+     </xref>
+     : lengthened −2(N2)→–1(O2) distance of 7.1 Å for M09 S05a), suggesting that the ‘bending’ observed for dp4 is also likely to apply to substrates with a −1 GlcUA instead of IdoUA.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Oligosaccharide chain distortion is induced by HPSE interaction. (
+       <strong>
+        a
+       </strong>
+       ) Linear helical structure of a free heparin tetrasaccharide, adapted from an NMR derived model of heparin with all IdoUAs restrained in
+       <sup>
+        2
+       </sup>
+       S
+       <sub>
+        O
+       </sub>
+       <xref ref-type="bibr">
+        42
+       </xref>
+       . (
+       <strong>
+        b
+       </strong>
+       ) Configuration of dp4 in the HPSE active site, showing a bend around the −2, −1, +1 sugars caused by HPSE interaction with −2 N-sulfate and +1 6O-sulfate. (
+       <strong>
+        c
+       </strong>
+       ) Configuration of M09 S05a in complex with HPSE, showing the same distortion around −2→−1 as observed for dp4.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Our results indicate a dual role for HS sulfation in interactions with HPSE. Not only does sulfation serve as a molecular signal which directs the enzyme to only cleave certain glycan sites, but −2 N-sulfate and +1 O-sulfate moieties also act as mechanistic handles by which HPSE can prize open a substrate HS helix, in order to more effectively access the anomeric center of the −1 sugar.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The 3D structure of the human GH79 endoglucuronidase, HPSE, and its interaction with HS substrates (
+    <xref ref-type="fig">
+     Figure 4
+    </xref>
+    ) provide a long anticipated structural rationale which tie together the results of numerous biochemical studies on the HS sulfation patterns required for HPSE cleavage
+    <xref ref-type="bibr">
+     9
+    </xref>
+    <sup>
+     –
+    </sup>
+    <xref ref-type="bibr">
+     11
+    </xref>
+    . We have confirmed sulfation is key for HPSE interaction with HS, and that the recognized cleavage site is a trisaccharide accommodated into the HPSE binding cleft. Structurally, −2 N-sulfate and +1 6O-sulfate appear to be the main determinants for recognition, as these directly contact the enzyme through H-bonding networks. −2 6O-sulfate and +1 N-sulfate may also further stabilize the HPSE bound trisaccharide through electrostatic interactions to basic residues lining the active site cleft. Our observations are consistent with the major findings of previous biochemical studies.
+   </p>
+   <fig id="F4" position="float">
+    <label>
+     Figure 4
+    </label>    <caption>
+     <p>
+      Composite summary of HPSE-substrate interactions across the −2, −1 and +1 subsites of the enzyme binding cleft. Interactions as mapped by complexes with HepMers and dp4. The catalytic residues of HPSE have been annotated. Electrostatic interaction with Arg303 is postulated based on the position of N-sulfate in the dp4 model.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Whilst the activity of human (h)HPSE is broadly similar to that of the recently reported bacterial enzyme BpHPSE
+    <xref ref-type="bibr">
+     28
+    </xref>
+    , differences exist between the substrates hydrolyzed by each enzyme. BpHPSE was reported to preferentially cleave HS containing GlcNAc residues, whereas GlcNS is highly favored for hHPSE activity. Furthermore, BpHPSE was also found to degrade Chondroitin Sulfate glycosaminoglycans (GAG)s, which are not known to be a substrate for hHPSE. Sequence alignment of several eukaryotic heparanases with BpHPSE and AcaGH79 revealed that whilst residues at the −1 subsite residues (of hHPSE) are well conserved across all species (reflecting absolute specificity for GlcUA) residues at the −2 and +1 subsites show much poorer conservation in the bacterial enzymes, providing a rationale for observed differences in substrate specificity (
+    <a>
+     Supplementary Figure 4
+    </a>
+    ). Compared to hHPSE, BpHPSE may represent a more general catabolic enzyme that is used by the bacterium to break down GAGs encountered in its environment.
+   </p>
+   <p>
+    One point of particular interest is the evolutionary relationship between
+    <em>
+     exo
+    </em>
+    - and
+    <em>
+     endo-
+    </em>
+    acting GH79 enzymes; in particular, the sequence corresponding to a loop in AcaGH79 which forms part of its
+    <em>
+     exo
+    </em>
+    -acting substrate binding pocket (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ,
+    <a>
+     Supplementary Figure 5
+    </a>
+    ). This loop is substantially reduced in size in
+    <em>
+     endo
+    </em>
+    -acting BpHPSE, converting a binding pocket into a large cleft capable of accommodating long GAG chains. Conversely, the human enzyme appears to have evolved
+    <em>
+     endo
+    </em>
+    specificity though expansion of this loop to form a proteolytically cleavable linker motif. Proteolytically activated proenzymes are abundant in higher eukaryotes, and represent an efficient mechanism to induce enzymatic activity in response to stimuli. However,
+    <em>
+     de novo
+    </em>
+    evolution of proenzymes is extremely unlikely, as it would require the coevolution of both viable enzymatic and proteolyzable sequences. A more plausible scenario would involve expansion of a small loop around the active site of an existing enzyme scaffold, which eventually forms a larger proteolytically cleavable steric block which be removed for activation. This mechanism has already been hypothesized for serine proteases such as trypsinogen/trypsin and chymotrypsinogen/chymotrypsin
+    <xref ref-type="bibr">
+     47
+    </xref>
+    . Structural observations on HPSE and related enzymes provide evidence that such evolutionary processes may have also occurred for carbohydrate processing enzymes. We anticipate that further examples of such relationships will become apparent in the near future, as efforts to solve the structures of higher eukaryotic carbohydrate processing enzymes intensify.
+   </p>
+   <fig id="F5" position="float">
+    <label>
+     Figure 5
+    </label>    <caption>
+     <p>
+      Structural relationships between the active sites of
+      <em>
+       exo
+      </em>
+      - and
+      <em>
+       endo
+      </em>
+      - acting GH79 enzymes. An extended loop in the (β/α)
+      <sub>
+       8
+      </sub>
+      domain of AcaGH79 forms part of the
+      <em>
+       exo
+      </em>
+      - acting substrate binding pocket wall. This loop is considerably shortened in BpHPSE, creating an
+      <em>
+       endo
+      </em>
+      - acting binding cleft. Conversely, human HPSE has expanded this loop into a large linker sequence, which is proteolytically removed to produce its
+      <em>
+       endo
+      </em>
+      - acting binding cleft.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    In conclusion, our structures of HPSE and its ligand complexes provide insight into the mechanisms of action for a key player in ECM remodeling. The structures we have reported here should be of utility in future efforts to design improved inhibitors of HPSE, as therapeutics and/or chemical biology tools. Indeed, our complex of HPSE with tetrasaccharide dp4 already suggests that introduction of sugars to the −1 subsite, fixed in particular conformations, may be a viable strategy for inhibitor design. More fundamentally, GAGs such as HS play an important role in numerous biological processes both normal and pathological. An understanding of the enzymes involved in their processing will be essential for determining how this important and complex class of carbohydrates is regulated.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Online methods
+   </title>
+   <sec>
+    <title>
+     Production of HPSE expressing baculovirus
+    </title>
+    <p>
+     DNA was extracted from baculovirus encoding for proHPSE N-tagged with honey bee mellitin signal sequence with a QIAGEN miniprep kit, using 250 µL of virus stock as input. PCR using restriction site tailed primers (
+     <a>
+      Supplementary Table 1
+     </a>
+     ) was used to generate cDNA fragments for the mellitin signal peptide, 8 kDa HPSE subunit, and 50 kDa HPSE subunit. N-mellitin-HPSE(8 kDa) was subcloned into the BamHI/PstI sites of pFastBac Dual, under the control of the PolH promoter. N-mellitin-HPSE(50 kDa) was subcloned into the XhoI/KpnI sites of the same vector, under the control of p10. For both fragments, mellitin was ligated to the HPSE gene via an XmaI restriction site, which leaves an extra DPG tripeptide in the protein upon expression and signal peptidase cleavage.
+    </p>
+    <p>
+     Recombinant bacmid was produced using the Tn7 transposition method in DH10EMBacY (Geneva Biotech)
+     <xref ref-type="bibr">
+      48
+     </xref>
+     , and purified using the PureLink miniprep kit (Invitrogen) following standard protocols. V1 baculovirus was produced by transfection of bacmid into low passage adherent Sf21 cells (Invitrogen) using FuGENE HD transfection reagent (ProMega), at a ratio of 2 μg DNA to 4.5 μL FuGENE. V1 → V2 virus amplification was carried out using suspension Sf21 cells, using the YFP marker present in EMBacY baculovirus to determine optimum amplification prior to harvesting (typically ˜60% cells fluorescent). For expression,
+     <em>
+      T
+     </em>
+     .
+     <em>
+      Ni
+     </em>
+     cells (Invitrogen) were infected with V2 baculovirus at a MOI&gt;1, and infection followed using the EMBacY YFP marker to determine optimum timepoint for harvesting (typically 72 h, with &gt; 80 % cells fluorescent). All insect cells used tested negative for mycoplasma contamination.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Expression and purification of HPSE
+    </title>
+    <p>
+     3L of conditioned media was cleared of cells by centrifugation at 400 g for 15 min at 4°C, followed by further clearing of debris by centrifugation at 4000 g for 60 min at 4°C. DTT (1 mM) and AEBSF (0.1 mM) were added to cleared media, which was then loaded onto a pre-equilibrated HiTrap Heparin HP 5 mL column (GE Healthcare). The heparin column was washed with 10 CV Hep Buffer A (20 mM HEPES [7.4], 100 mM NaCl, 1 mM DTT), and eluted with a linear gradient over 30 CV using Hep Buffer B (20 mM HEPES [7.4], 1.5 M NaCl, 1 mM DTT). HPSE containing fractions were pooled, diluted 10-fold into IEX buffer A (50 mM Phosphate [8.0], 100 mM NaCl, 1 mM DTT), and loaded onto a pre-equilibrated HiTrap Sepharose SP HP 1 mL column at 4°C. Protein was eluted from the SP column with a linear gradient over 30 CV using IEX buffer B (50 mM Phosphate [8.0], 1.5 mM NaCl, 1 mM DTT). HPSE containing fractions were pooled and concentrated to ˜2 mL using a 30 kDa Vivaspin concentrator (GE Healthcare), and treated with 5 μL EndoH (NEB) for 4 h at ambient temperature. Digested protein was purified by size exclusion chromatography (SEC) using a Superdex S75 16/600 column (GE Healthcare) in SEC buffer (20 mM HEPES [7.4], 200 mM NaCl, 1 mM DTT). HPSE containing fractions were concentrated to 10 mg/mL using a 30 kDa Vivaspin concentrator, and buffer exchanged into Hep Buffer A via at least 3 rounds of dilution/reconcentration.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization of HPSE
+    </title>
+    <p>
+     HPSE at 10 mg/mL was tested against a range of commercial crystallization screens. Large split crystals were found in several conditions of the Index and PEG/Ion screens, which were taken on for further optimization. Well diffracting single crystals were obtained by the sitting drop vapor diffusion method at 20°C using 100 mM MES [5.5], 100 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 17% PEG3350, and a protein:well solution ratio of 200:500 nL, with crystals typically appearing after 3 days.
+     <em>
+      apo
+     </em>
+     -HPSE crystals were cryoprotected prior to flash freezing in liquid N
+     <sub>
+      2
+     </sub>
+     for data collection, using the mother liquor solution supplemented with 25% ethylene glycol.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystal structure solution
+    </title>
+    <p>
+     HPSE crystal structure was solved by single isomorphous replacement with anomalous scattering (SIRAS) using the
+     <em>
+      apo
+     </em>
+     crystal and an Iodide derivative. The Iodide derivative was prepared by a short soak (~10 s) of an
+     <em>
+      apo
+     </em>
+     crystal in cryoprotectant solution further supplemented with 0.5 M NaI
+     <xref ref-type="bibr">
+      49
+     </xref>
+     . Data were collected at beamline I02 of the Diamond Light Source, processed using XDS
+     <xref ref-type="bibr">
+      50
+     </xref>
+     , reduced using Aimless
+     <xref ref-type="bibr">
+      51
+     </xref>
+     , and phased using the SHELX pipeline
+     <xref ref-type="bibr">
+      52
+     </xref>
+     . Initial autobuilding was carried out with Buccaneer
+     <xref ref-type="bibr">
+      53
+     </xref>
+     , before subsequent rounds of manual model building and refinement using Coot
+     <xref ref-type="bibr">
+      54
+     </xref>
+     and REFMAC5
+     <xref ref-type="bibr">
+      55
+     </xref>
+     respectively. MolProbity
+     <xref ref-type="bibr">
+      56
+     </xref>
+     and Privateer
+     <xref ref-type="bibr">
+      57
+     </xref>
+     were used to assess model validity before deposition to the PDB. Crystal structure figures were generated using ccp4mg
+     <xref ref-type="bibr">
+      58
+     </xref>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Substrate complexes
+    </title>
+    <p>
+     HPSE complexes were generated by soaking the
+     <em>
+      apo
+     </em>
+     crystal with M04 S00a, M04 S02a, M09 S05a HepMers (Iduron) or dp4 heparin tetrasaccharide (Dextra Laboratories). In each case, a small piece of solid compound was directly dissolved in mother liquor containing the crystal. All soaks were carried out for 20 minutes, before direct flash freezing in liquid N
+     <sub>
+      2
+     </sub>
+     for data collection without further cryoprotection. Ligand coordinates were built using jLigand
+     <xref ref-type="bibr">
+      59
+     </xref>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     HepMer hydrolysis assays
+    </title>
+    <p>
+     20 μL assay solutions comprising 50 nM HPSE added to a series of HepMer solutions in 40 mM NaOAc buffer (pH 5.0) were incubated at 37 °C for 20 min, before addition of NaOH and WST-1 dye (Santa Cruz Biotech) to a final volume of 40 μl, and final concentrations of 0.1 M NaOH and 1 mM WST-1. Reactions were developed at 60 °C for 60 min, and the absorbance at 584 nm measured in a 384 well microplate using a POLARstar Optima plate reader (BMG Labtech). A584nm readings were quantified against a D-Glucose standard set up on the same plate. For each compound, a no enzyme control was taken to account for non-enzymatic autohydrolysis of the pNP residue present on the HepMer. Data analysis and curve fitting was done using SigmaPlot 12.5 (Systat Software).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Information
+   </title>
+   <p>
+    Supplementary Figures 1–5 and Supplementary Table 1 are available in the online version of this paper.
+   </p>
+   <sec>
+    <title>
+     1
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (9.0M, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.6M, docx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     3
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Acknowledgements
+   </title>
+   <sec>
+    <p>
+     We thank Diamond Light Source for access to beamlines I02, I03 and I04 (proposal mx-9948) that contributed to the results presented here. DH10EMBacY cells used to generate recombinant bacmids were a gift from I. Berger (University of Bristol). The full HPSE gene was obtained from a baculoviral construct from D. Jarvis (University of Wyoming – US National Institutes of Health grant RR005351). G.J.D. and L.W. acknowledge support from the European Research Council through Advanced Grant Glycopoise (AdG 322942 (G.J.D.)). A.M.B. and C.M.V. thank the UK Medical Research Council for funding (MR/K000179/1 (A.M.B.)).
+    </p>
+   </sec>
+  </sec>
+ </body>
+</article>

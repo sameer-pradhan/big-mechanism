@@ -1,0 +1,1848 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4298165
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    The structural basis of substrate recognition by the eukaryotic chaperonin TRiC/CCT
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     The eukaryotic chaperonin TRiC (also called CCT) is the obligate chaperone for many essential proteins. TRiC is hetero-oligomeric, comprising two stacked rings of eight different subunits each. Subunit diversification from simpler archaeal chaperonins appears linked to proteome expansion. Here, we integrate structural, biophysical and modeling approaches to identify the hitherto unknown substrate-binding site in TRiC and uncover the basis of substrate recognition. NMR and modeling provided a structural model of a chaperonin-substrate complex. Mutagenesis and crosslinking-mass spectrometry validated the identified substrate binding interface and demonstrate that TRiC contacts full-length substrates combinatorially in a subunit-specific manner. The binding site of each subunit has a distinct, evolutionarily conserved, pattern of polar and hydrophobic residues specifying recognition of discrete substrate motifs. The combinatorial recognition of polypeptides broadens the specificity of TRiC and may direct the topology of bound polypeptides along a productive folding trajectory, contributing to its unique ability to fold obligate substrates.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The health and integrity of the cellular proteome depends on molecular chaperones, which through their distinct substrate specificities and modes of action maintain protein homeostasis (
+    <xref ref-type="bibr">
+     Balch et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li and Buchner, 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Saibil, 2013
+    </xref>
+    ). Among these, the eukaryotic chaperonin TRiC (for
+    <span>
+     T
+    </span>
+    CP-1
+    <span>
+     R
+    </span>
+    ing
+    <span>
+     C
+    </span>
+    omplex, also called CCT for
+    <span>
+     C
+    </span>
+    haperonin
+    <span>
+     C
+    </span>
+    ontaining
+    <span>
+     T
+    </span>
+    CP1) is distinguished by its complex architecture and mechanism, which allow it to fold a subset of essential and topologically complex proteins, including cell cycle regulators, signaling proteins and cytoskeletal components (
+    <xref ref-type="bibr">
+     Bigotti and Clarke, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al., 2013
+    </xref>
+    ).
+   </p>
+   <p>
+    TRiC/CCT is a large hetero-oligomeric ATP-dependent complex consisting of two eight-membered rings stacked back to back (
+    <xref ref-type="bibr">
+     Bigotti and Clarke, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hartl et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Spiess et al., 2004
+    </xref>
+    ). Each ring creates a central chamber where substrate polypeptides bind and fold. Unlike simpler archaeal chaperonins, TRiC contains eight different paralogous subunits, named CCT1-CCT8, at fixed positions within each ring (
+    <xref ref-type="bibr">
+     Kalisman et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leitner et al., 2012
+    </xref>
+    ). All subunits are structural homologues that consist of an ATP-binding equatorial domain and a substrate-binding apical domain linked by an intermediate domain (
+    <xref ref-type="bibr">
+     Bigotti and Clarke, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Spiess et al., 2004
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Fig. 1A
+    </xref>
+    ). Each subunit also contains an apical segment that forms a lid over the cavity. An ATP-driven conformational cycle links TRiC-mediated folding to opening and closure of the lid, encapsulating the substrate in the cavity (
+    <xref ref-type="bibr">
+     Cong et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Meyer et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Reissmann et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Reissmann et al., 2007
+    </xref>
+    )
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <strong>
+      Kinetic analysis of substrate motif recognition by TRiC apical domains
+     </strong>
+     <p>
+      <strong>
+       (A)
+      </strong>
+      TRiC/CCT subunit domain architecture.
+      <strong>
+       (B)
+      </strong>
+      Substrate polypeptides bind multiple TRiC subunits through discrete motifs.
+      <strong>
+       (C)
+      </strong>
+      Previously characterized subunit-substrate motif interactions. Top: CCT3 binds retroviral proteins p6 from HIV and p4 from MMPV. Bottom: CCT1 binds Box1, a short linear element from VHL.
+      <strong>
+       (D)–(H)
+      </strong>
+      Kinetic analysis of cognate (C) and non-cognate (NC) interactions between purified apical domains and substrate derived motifs.
+      <strong>
+       (D)
+      </strong>
+      Summary of apparent kinetic parameters for cognate and non-cognate interactions, k
+      <sub>
+       on
+      </sub>
+      , blue bars; k
+      <sub>
+       off
+      </sub>
+      orange bars.
+      <strong>
+       (E)
+      </strong>
+      . Summary of apparent binding constants for cognate and non-cognate interactions, k
+      <sub>
+       on
+      </sub>
+      , blue bars; k
+      <sub>
+       off
+      </sub>
+      orange bars.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Understanding how TRiC recognizes its substrates has important implications for human health (
+    <xref ref-type="bibr">
+     Balch et al., 2008
+    </xref>
+    ). TRiC interacts with approximately 10% of the proteome and is essential for viability (
+    <xref ref-type="bibr">
+     Yam et al., 2008
+    </xref>
+    ). Mutations in CCT5 and CCT4 are linked to sensory neuropathy (
+    <xref ref-type="bibr">
+     Bouhouche et al., 2006
+    </xref>
+    ). Cancer-linked proteins p53, von Hippel Lindau tumor suppressor (VHL) and STAT3 are also TRiC substrates (
+    <xref ref-type="bibr">
+     Kasembeli et al., 2014
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Trinidad et al., 2013
+    </xref>
+    ) and mutations in the TRiC-binding sites of VHL lead to misfolding tumorigenesis (
+    <xref ref-type="bibr">
+     Feldman et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Feldman et al., 1999
+    </xref>
+    ). TRiC also suppresses aggregation and toxicity of Huntingtin in Huntington’s Disease (
+    <xref ref-type="bibr">
+     Behrends et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kitamura et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tam et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tam et al., 2009
+    </xref>
+    ). TRiC is also important for folding viral proteins, and required for replication of important human pathogens, including HCV and HIV (
+    <xref ref-type="bibr">
+     Inoue et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhou et al., 2008
+    </xref>
+    ). In HIV, TRiC interacts with proteins Gag, Vif and p6 (
+    <xref ref-type="bibr">
+     Hong et al., 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jager et al., 2012
+    </xref>
+    ).
+   </p>
+   <p>
+    The unique architecture and mechanistic features of TRiC set it apart from other chaperones. The diversification of subunits in TRiC is likely central to understand why many essential proteins, such as actin, Cdc20 and Cdh1, can only be folded with assistance from TRiC (
+    <xref ref-type="bibr">
+     Hartl et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Spiess et al., 2004
+    </xref>
+    ). Despite their extensive conservation in the ATP-binding domains, TRiC subunits have widely divergent functions within the ATP-driven cycle (
+    <xref ref-type="bibr">
+     Reissmann et al., 2012
+    </xref>
+    ). Additionally, the surface properties of the different subunits result in an asymmetric distribution of electrostatic charges within the folding chamber (
+    <xref ref-type="bibr">
+     Leitner et al., 2012
+    </xref>
+    ).
+   </p>
+   <p>
+    The principles driving TRiC substrate recognition are poorly understood.
+    <em>
+     In vivo
+    </em>
+    , TRiC folds a subset of cellular proteins, suggesting a degree of specificity; however, its substrates are functionally and structurally diverse, indicating the potential to bind a broad array of proteins. The apical domains of each TRiC subunit are thought to recognize different motifs in substrates (
+    <xref ref-type="bibr">
+     Spiess et al., 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Spiess et al., 2006
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Fig. 1A, B
+    </xref>
+    ). However, to date no precise structural or sequence rules for TRiC-substrate binding have been identified. We here integrate biophysical and computational structural biology approaches with chemical crosslinking and mass spectrometry (XL-MS) to define the basis of TRiC substrate recognition. We find that unique subunit-specific patterns of polar and hydrophobic residues underlie the distinct substrate binding properties of each subunit in the complex. The diversification of TRiC subunits thus provides a modular menu of binding specificities that allows for combinatorial recognition of substrate polypeptides. This likely contributes to TRiC’s unique ability to fold structurally diverse and topologically complex substrates. Evolutionary analyses further suggest that diversification of TRiC subunits from its simpler archaeal ancestors enabled the expansion of eukaryotic genomes to acquire proteins with novel folds and functions.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Kinetic analysis of substrate motif recognition by TRiC apical domains
+    </title>
+    <p>
+     To understand the molecular basis of this recognition specificity, we exploited substrates where the cognate CCT subunit and the relevant substrate motif have been identified (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ). The 54 amino acid long HIV protein p6, and the related protein p4 from MPMV, associate directly with subunit CCT3 of TRiC (
+     <xref ref-type="bibr">
+      Hong et al., 2001
+     </xref>
+     ). A short 6–9 amino acid long hydrophobic motif in VHL, called Box1, contacts subunit CCT1 (
+     <xref ref-type="bibr">
+      Spiess et al., 2006
+     </xref>
+     ). Importantly, the isolated recombinant apical domains of each TRiC subunit retain the ability to bind substrates and substrate-derived motifs with the specificity of the same subunits within the intact complex (
+     <xref ref-type="bibr">
+      Spiess et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tam et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tam et al., 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     We examined the association of TRiC apical domains of CCT1 (herein ApiCCT1) and CCT3 (ApiCCT3) (
+     <xref ref-type="bibr">
+      Spiess et al., 2006
+     </xref>
+     ) with cognate and non-cognate substrate recognition motifs using purified HIV-p6 (herein p6) and VHL-Box1 (herein Box1) (
+     <xref ref-type="fig">
+      Fig. 1D
+     </xref>
+     ). A Surface Plasmon Resonance (SPR)-based assay measured association and dissociation kinetics for ApiCCT-substrate pairs (
+     <xref ref-type="fig">
+      Fig 1 E,F
+     </xref>
+     ;
+     <a>
+      Fig. S1
+     </a>
+     ). Binding kinetics of immobilized VHL-Box1 and HIV-p6 to their cognate and non-cognate ApiCCT binding partners were monitored by SPR over a range of concentrations (
+     <xref ref-type="fig">
+      Fig. 1D–F
+     </xref>
+     ,
+     <a>
+      Fig. S1A–D
+     </a>
+     ). Apparent association and dissociation rates (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ) and binding constants (
+     <xref ref-type="fig">
+      Fig. 1F
+     </xref>
+     ), were calculated from the sensograms (
+     <a>
+      Fig. S1
+     </a>
+     ). These indicated that the ratio of association over dissociation rates, i.e. the overall affinity, was higher for the cognate ApiCCT-substrate pairs (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ), consistent with the specificity of these motifs for these subunits within the TRiC complex. The measured on-rates, determined at approximately 10
+     <sup>
+      3
+     </sup>
+     M
+     <sup>
+      −1
+     </sup>
+     s
+     <sup>
+      −1
+     </sup>
+     , markedly slower than diffusion controlled binding (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     , blue bars) but consistent with the relatively slow substrate binding kinetics of TRiC (
+     <xref ref-type="bibr">
+      Melki et al., 1997
+     </xref>
+     ). Cognate interactions exhibited slower dissociation kinetics than non-cognate interactions (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ;
+     <a>
+      Fig. S1A–D
+     </a>
+     ). Both association and dissociation rates contribute to substrate specificity for different subunits. For p6 the difference between cognate and non-cognate interaction was largely driven by dissociation rates, whereas for Box1 cognate and non-cognate discrimination was a result of differential on- and off-rates (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ). Of note, even the cognate interactions are relatively weak, with an overall affinity of approximately 0.25–0.5 µM (
+     <xref ref-type="fig">
+      Fig. 1F
+     </xref>
+     ). Accordingly, stable TRiC binding to most substrates will depend on multivalent recognition of several elements in the polypeptide by several subunits in the chaperonin.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR chemical-shift mapping of ApiCCT3 identifies the substrate-binding interface
+    </title>
+    <p>
+     We focused on the ApiCCT3 and p6 interaction pair to gain a deeper structural understanding of TRiC-substrate recognition. NMR-based chemical shift (CS) mapping was used to identify the substrate recognition interface in ApiCCT3 (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     and
+     <a>
+      Fig. S2
+     </a>
+     ). The
+     <sup>
+      15
+     </sup>
+     N-
+     <sup>
+      1
+     </sup>
+     H Heteronuclear Single Quantum Coherence (HSQC) spectrum of ApiCCT3 yielded well resolved and dispersed spectra, accounting for 142 of 167 peaks, covering 85% of the protein sequence (
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     ;
+     <a>
+      Fig S2A
+     </a>
+     and not shown). Standard triple resonance carbon experiments, guided by specific amino acid labeling to anchor the sequence connectivities allowed us to successfully assign &gt;85% of the peaks in the 2D HSQC spectrum, including all the ApiCCT3 residues perturbed upon substrate addition (
+     <a>
+      Fig. S2A–D
+     </a>
+     ). Titration of increasing amounts of unlabeled p6 into
+     <sup>
+      15
+     </sup>
+     N-labeled ApiCCT3 produced concentration-dependent shifts in a specific subset of peaks (
+     <xref ref-type="fig">
+      Fig. 2A, B
+     </xref>
+     ); 5 peaks were strongly perturbed (&gt;0.2 p.p.m.) and another 4 peaks were perturbed weakly (&gt;0.1 p.p.m;
+     <xref ref-type="fig">
+      Fig 2B
+     </xref>
+     ). Similar experiments were performed with p6-related protein p4 from M-PMV, which binds CCT3 with lower affinity [(
+     <xref ref-type="bibr">
+      Hong et al., 2001
+     </xref>
+     ), data not shown]. p4 addition affected the same residues in ApiCCT3 than p6 (data not shown) albeit to a lower extent. In contrast, no perturbations were observed upon addition of Box1 (data not shown).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       NMR chemical-shift mapping of ApiCCT3 identifies the substrate-binding interface
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       2D NMR spectra of
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N ApiCCT3 with increasing amounts of unlabeled p6. Blue, purple, red and orange, respectively show perturbations at 0, 5, 10 and 20-fold excess p6 peptide. Insets show perturbed peaks.
+       <strong>
+        (B)
+       </strong>
+       Chemical shift perturbation due to p6 binding mapped to the ApiCCT3 sequence.
+       <strong>
+        (C)
+       </strong>
+       <sup>
+        19
+       </sup>
+       F tyrosine spectra of ApiCCT3 (red trace). Addition of p6 (black trace) produces a discrete perturbation of Y247. Right panel: ApiCCT3 structure with Y247 in red and the remaining tyrosines in blue.
+       <strong>
+        (D)
+       </strong>
+       <strong>
+        (
+        <em>
+         i
+        </em>
+        )
+       </strong>
+       Integration of NMR chemical shift parameters with CS-Rosetta.
+       <strong>
+        (
+        <em>
+         ii
+        </em>
+        )
+       </strong>
+       C-α variability across a subset of low energy ApiCCT3 models highlights mobile regions. ApiCCT3 shown as cartoon and colored according to C-α r.m.s.d.
+       <strong>
+        (
+        <em>
+         iii
+        </em>
+        )
+       </strong>
+       P6 induced chemical shifts map to a contiguous ApiCCT3 surface. Surface representation of ApiCCT3 is colored according to the chemical shift from yellow (0) to red (0.2 p.p.m.).
+       <strong>
+        (E–F)
+       </strong>
+       Substrate binding region on ApiCCT3, defined by a Helix 11 (H11), a loop (PL) and a residue at the hinge of the flexible loop (Y247):
+       <strong>
+        (E)
+       </strong>
+       Cartoon representation colored according to flexibility (Cα-r.m.s.d. as in E);
+       <strong>
+        (F)
+       </strong>
+       Colored according to chemical properties of side chains: basic (blue), acidic (red), polar (white/gray) and non-polar (yellow). Top: cartoon representation of binding site; bottom: simplified box schematic depicting amino acids on the substrate binding site: Upper line: H11 and Protrusion Hinge residue; Lower Line: PL sequence.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Since Y247 in ApiCCT3 (
+     <xref ref-type="fig">
+      Fig. 2A, B
+     </xref>
+     ) was strongly perturbed upon substrate binding, we used
+     <sup>
+      19
+     </sup>
+     F-NMR on 3F-tyrosine labeled ApiCCT3 for an orthogonal assessment of the binding interface (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     and
+     <a>
+      Fig. S2E
+     </a>
+     ). 1D
+     <sup>
+      19
+     </sup>
+     F-NMR spectra of 3F–tyrosine labeled ApiCCT3 revealed five discrete peaks, consistent with the five tyrosine residues in ApiCCT3 (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ). Systematic tyrosine-to-phenylalanine point mutations assigned each peak to unique tyrosine residues (
+     <a>
+      Fig S2E
+     </a>
+     ). Upon addition of p6, one of the peaks exhibited a well-defined 0.2 p.p.m. shift. In good agreement with our chemical-shift mapping, the perturbed peak corresponded to the
+     <sup>
+      19
+     </sup>
+     F-tyrosine peak of Y247 (
+     <xref ref-type="fig">
+      Fig 2C
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structural model of ApiCCT3 from NMR backbone chemical shifts
+    </title>
+    <p>
+     Guided by NMR-CS information (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), we used CS-Rosetta and modeling to gain a structural understanding of ApiCCT3 in the substrate bound conformation (
+     <xref ref-type="bibr">
+      Shen et al., 2009
+     </xref>
+     ) (see Experimental Procedures and
+     <a>
+      Fig. S4D, E
+     </a>
+     ). The lowest energy models were comparable to the deposited ApiCCT3 structure without substrate (
+     <xref ref-type="bibr">
+      Pappenberger et al., 2002
+     </xref>
+     ). Of note, our NMR-derived structural model resolved the apical protrusion, not resolved in the ApiCCT3 crystal structure and shown to be intrinsically disordered in a previous NMR study of an archaeal apical domain obtained without substrate (
+     <xref ref-type="bibr">
+      Heller et al., 2004
+     </xref>
+     ).
+    </p>
+    <p>
+     Our NMR-derived model provided insight into the conformational dynamics of the apical domain (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The regions of higher mobility in the structure included the helical protrusion (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , red) and to a lesser extent the flexible loop adjacent to Helix 11 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , herein PL for Proximal Loop). The highly flexible helical protrusion is involved in formation of the closed lid (
+     <xref ref-type="bibr">
+      Heller et al., 2004
+     </xref>
+     ), but its role in the open chaperonin conformation is not well understood. Interestingly, Y247, whose chemical shift was strongly perturbed by substrate binding, is at the “hinge” between the flexible lid-forming protrusion and the apical domain. Y247 may participate in both substrate recognition and modulating the conformation of the lid protrusion for subsequent release when the closed lid forms.
+    </p>
+    <p>
+     Mapping the substrate-induced CS-perturbations (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ) onto the ApiCCT3 structure revealed a continuous and extensive interaction surface spanning three sets of secondary structure elements (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The CCT3 substrate interaction interface is primarily defined by a shallow groove formed between Helix 11 and the PL and comprises approximately 700 Å
+     <sup>
+      2
+     </sup>
+     . The core of the substrate binding site was relatively constrained, consisting of residues on the surface of relatively rigid Helix 11 (herein H11) (residues 296–306). The distal portions corresponded to more flexible elements, including the PL adjacent to H11 (residues 223–232) and the hinge connecting to the flexible lid-forming protrusion including Y247. Supporting this analysis, we obtained low resolution diffracting crystals of the p6-ApiCCT3 complex which, following model building and refinement demonstrated an additional density in the same region of the apical domain identified through NMR (LAJ, Ryan McAndrew, JF and Paul Adams, unpublished data).
+    </p>
+    <p>
+     Previously characterized chaperone binding sites, such as those of Hsp70 and the bacterial chaperonin GroEL, rely predominantly on the recognition of hydrophobic determinants (
+     <xref ref-type="bibr">
+      Ashcroft et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Chen and Sigler, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hua et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rudiger et al., 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Swain et al., 2006
+     </xref>
+     ). In contrast, the substrate binding site of ApiCCT3 contained a mixture of hydrophobic and polar residues (
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     ). In addition to Y247, H11 contributes hydrophobic (L299, M305), polar (Q301) and charged (R306, D298, H302) residues, while the PL immediately below presents a contiguous stretch of basic residues (H226, R228, R230, R231) and a single hydrophobic (M229) residue (
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     , schematically represented by the box diagram in
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     bottom). Such a shallow, extensive binding surface comprising hydrophobic and polar residues is very different from the mostly hydrophobic substrate binding sites of Hsp70 and GroEL.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutational analysis links chemical properties of substrate recognition site to binding kinetics
+    </title>
+    <p>
+     We next designed and purified a large unbiased panel of Alanine substitutions in ApiCCT3, comprising 31 surface-exposed residues in the 167 residue apical domain (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     and
+     <a>
+      S3
+     </a>
+     ). The global impact of these mutations on p6 binding was determined using SPR (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     ;
+     <a>
+      S3
+     </a>
+     and data not shown). Of the initial 31, ten mutations had no impact on p6 binding and were not examined further, except for a few mutants, such as Y274A, chosen as a control (
+     <a>
+      Fig. S3
+     </a>
+     ). We determined kinetic binding parameters for twenty-two alanine mutants, including the one without effect as a control, by carrying out full titration series using SPR, followed by kinetic global fitting of the data (
+     <xref ref-type="fig">
+      Fig. 3B–D
+     </xref>
+     ,
+     <a>
+      Table S1
+     </a>
+     and summarized in
+     <xref ref-type="fig">
+      Fig. 3E,G
+     </xref>
+     ;
+     <a>
+      Fig. S3
+     </a>
+     ). This unbiased mutational analysis of ApiCCT3 independently confirmed the NMR-based identification of the substrate binding site (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ). Thus, mutation of residues perturbed by NMR mapping dramatically affected p6 binding (
+     <xref ref-type="fig">
+      Fig. 3E–H
+     </xref>
+     ), while mutation at control sites (e.g. Y274 to A274) did not (
+     <a>
+      Fig. S3
+     </a>
+     ).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       Mutational analysis of CCT3 links chemical properties of substrate recognition site to binding kinetics
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Kinetic scheme of ApiCCT3:p6 interaction (k
+       <sub>
+        on
+       </sub>
+       in blue, k
+       <sub>
+        off
+       </sub>
+       in orange).
+       <strong>
+        (B–D)
+       </strong>
+       Exemplary SPR titrations of ApiCCT3 variants interacting with an immobilized p6 peptide, performed as in
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       .
+       <strong>
+        (B)
+       </strong>
+       ApiCCT3-WT,
+       <strong>
+        (C)
+       </strong>
+       ApiCCT3-R230A and
+       <strong>
+        (D)
+       </strong>
+       ApiCCT3-L299A. Association phase in blue and dissociation phase in orange. Each titration (black curves) included an analyte dilution series of 50, 25, 12.5, 6.25 and 3.125 µM apical domain.
+       <strong>
+        (E–H)
+       </strong>
+       Summary of fitted kinetic parameters for ApiCCT3 mutants (see also
+       <a>
+        Table S2
+       </a>
+       for details).
+       <strong>
+        (E, G)
+       </strong>
+       Bar graphs showing the fold change relative to WT apparent rates for
+       <strong>
+        (E)
+       </strong>
+       association rate k
+       <sub>
+        on
+       </sub>
+       (blue, k
+       <sub>
+        on,WT
+       </sub>
+       /k
+       <sub>
+        on,mut)
+       </sub>
+       and
+       <strong>
+        (G)
+       </strong>
+       dissociation rate k
+       <sub>
+        off
+       </sub>
+       (orange, k
+       <sub>
+        off,mut
+       </sub>
+       /k
+       <sub>
+        off,WT
+       </sub>
+       ) from p6 substrate.
+       <strong>
+        (F, H)
+       </strong>
+       Fold change in rates mapped onto the ApiCCT3 structure highlight the clustering of surfaces based on Ala mutants perturbing binding kinetics through
+       <strong>
+        (F)
+       </strong>
+       association and
+       <strong>
+        (H)
+       </strong>
+       dissociation rates. ApiCCT3 structure is colored according to fold-change in kinetic contribution, blue is equal to WT and green is perturbed as indicated. (
+       <strong>
+        I
+       </strong>
+       ) Calculated apparent K
+       <sub>
+        d
+       </sub>
+       for WT ApiCCT3 and each alanine mutant. The apparent K
+       <sub>
+        d
+       </sub>
+       of p6 for ApiCCT1, also measured by SPR, is included for comparison.
+       <strong>
+        (J)
+       </strong>
+       Residues that contribute to association and dissociation rates shown as spheres on a cartoon model of ApiCCT3, perturbations affecting association rates (blue) cluster in the PL; those affecting dissociation rates (orange) cluster on H11 and the hinge at the apical protrusion. Inset, surface representation of ApiCCT3-p6 binding site colored according to amino acid chemical property: basic in blue; acidic in red: polar in white and nonpolar in yellow.
+       <strong>
+        (K)
+       </strong>
+       Differential kinetic contribution of two regions in ApiCCT3 to substrate binding: charge-charge interactions between basic and acidic residues in blue and red respectively, control association rates (R228, R230, R231 also contribute to off rates) while a mix of nonpolar, polar and Van der Waals interactions, shown in yellow, control dissociation rates.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Our analysis reveals the kinetic underpinnings of TRiC-substrate recognition (
+     <xref ref-type="fig">
+      Fig. 3F,H and I
+     </xref>
+     ). Substrate association (k
+     <sub>
+      on
+     </sub>
+     ) and dissociation rates (k
+     <sub>
+      off
+     </sub>
+     ) were very differently affected by mutations at discrete positions in the binding site, clustered into two distinct regions (
+     <xref ref-type="fig">
+      Fig. 3F, H, I
+     </xref>
+     ). The association kinetics were predominantly perturbed by mutations of positively charged residues in the flexible PL (
+     <xref ref-type="fig">
+      Fig. 3F, I
+     </xref>
+     ). On the other hand the contribution to the dissociation rate is distributed across both H11 and the PL. Residues on H11, particularly a mix of non-polar, polar and charged side chains, contributed predominantly to the dissociation rate (
+     <xref ref-type="fig">
+      Fig. 3H, I
+     </xref>
+     ). In the PL, the arginine residues allow both charge-charge interactions, likely contributing to the association rates, as well as cation-pi and aliphatic chain interactions with nonpolar residues, which likely contribute to the dissociation rates. Thus, the mixed chemical nature of the CCT3 binding site, combining polar and hydrophobic residues, establishes a dual mode of substrate recognition (
+     <xref ref-type="fig">
+      Fig. 3J
+     </xref>
+     ). The overall contribution of H11 and the PL to the binding constant is distributed across residues L299, Q301, H302 and R228, R230, R231, respectively. These findings resonate with studies of the interfaces between folded proteins, where a core of hydrophobic residues contributes to dissociation rates and polar interactions at the periphery drive association and orientation (
+     <xref ref-type="bibr">
+      Bogan and Thorn, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Clackson et al., 1998
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR identification of the chaperonin-binding determinants in the substrate
+    </title>
+    <p>
+     NMR CS-mapping identified next the chaperonin binding site in the substrate (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ).
+     <sup>
+      15
+     </sup>
+     N-
+     <sup>
+      1
+     </sup>
+     H HSQC spectra of
+     <sup>
+      15
+     </sup>
+     N-labeled p6 were assigned and CS-NMR used to model the peptide structure and identify determinants recognized by ApiCCT3 (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ,
+     <a>
+      Fig. S4A
+     </a>
+     ). Adding unlabeled ApiCCT3 to
+     <sup>
+      15
+     </sup>
+     N-p6 caused a concentration-dependent chemical shift perturbation in a subset of peaks (
+     <xref ref-type="fig">
+      Fig. 4A, B
+     </xref>
+     ). These peaks mapped to the contiguous and highly conserved S41-N45 element at the p6 C-terminus, consisting of both nonpolar and polar residues (S41-N45;
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       NMR identification of the chaperonin-binding determinants in the substrate
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       NMR-based chemical shift mapping strategy identifies the p6 interacting surface.
+       <strong>
+        (B)
+       </strong>
+       2D NMR spectra of
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N p6 with increasing amounts of unlabeled ApiCCT3. orange, red, purple and blue, respectively show perturbations at 0, 2.5, 5 and 10-fold excess ApiCCT3.
+       <strong>
+        (C)
+       </strong>
+       Chemical shift perturbation mapped onto the p6 sequence colored by ApiCCT3 perturbation.
+       <strong>
+        (D)
+       </strong>
+       Mutant p6
+       <sub>
+        mut
+       </sub>
+       (p6
+       <sub>
+        SLFGN=&gt;AAAAA
+       </sub>
+       ) does not induce chemical shift perturbations in the
+       <sup>
+        15
+       </sup>
+       N ApiCCT3 spectrum observed with p6WT. Perturbations mapped on the ApiCCT3 sequence and on the ApiCCT3 surface, exactly as in
+       <xref ref-type="fig">
+        Fig. 2F
+       </xref>
+       .
+       <strong>
+        (E)
+       </strong>
+       p6
+       <sub>
+        mut
+       </sub>
+       mutation abrogates the binding to endogenous TRiC observed for p6
+       <sub>
+        WT
+       </sub>
+       . Biotinylated p6
+       <sub>
+        WT
+       </sub>
+       or p6
+       <sub>
+        mut
+       </sub>
+       were incubated with extracts from human HEK293 cells, affinity isolated via the biotin tag (IP). TRiC in the IP is visualized by Western blot. Total: 1% input to the IP.
+       <strong>
+        (F)
+       </strong>
+       Structural model of p6 from CS-NMR.
+       <strong>
+        (i)
+       </strong>
+       C-α variability of p6: cartoon representation colored according to variability across a subset of low energy models, as indicated.
+       <strong>
+        (ii)
+       </strong>
+       Surface representation of p6 colored according to chemical shift perturbation by ApiCCT3 addition, as indicated.
+       <strong>
+        (G)
+       </strong>
+       Chemical properties of p6, colored according to amino acid properties: blue is basic, red is acidic, white is polar and yellow is nonpolar.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To determine the role of the S41-N45 element in chaperonin recognition, we generated and purified the penta-alanine substitution p6
+     <sub>
+      SLFGN=&gt;AAAAA
+     </sub>
+     (herein p6
+     <sub>
+      mut
+     </sub>
+     ). We examined whether the SLFGN=&gt;AAAAA mutation affected ApiCCT3 binding using NMR, by examining the perturbation of the
+     <sup>
+      15
+     </sup>
+     N-ApiCCT3 spectra upon titration of unlabeled p6
+     <sub>
+      mut
+     </sub>
+     (
+     <xref ref-type="fig">
+      Fig. 4D
+     </xref>
+     ). Mutation of the S41-N45 motif largely abrogated the p6-induced chemical shift perturbations in the ApiCCT3 spectrum, indicating this element mediates chaperonin binding (
+     <xref ref-type="fig">
+      Fig. 4D
+     </xref>
+     ). We next examined the role of S41-N45 in the interaction of p6 with intact TRiC/CCT (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). Purified p6
+     <sub>
+      WT
+     </sub>
+     or p6
+     <sub>
+      mut
+     </sub>
+     , labeled with an N-terminal biotin tag, were incubated with mammalian cell extracts, which contain the intact hetero-oligomeric TRiC complex (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). Following biotin affinity isolation, the p6 interaction with endogenous TRiC was evaluated by immunoblot analysis (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). As expected, p6 bound TRiC, while p6
+     <sub>
+      mut
+     </sub>
+     did not (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). These orthogonal approaches support the conclusion that the S41-N45 motif in p6 is indeed the TRiC binding site. To further corroborate this conclusion, we examined the chemical shift perturbations induced upon incubation of
+     <sup>
+      15
+     </sup>
+     N p6 with intact purified TRiC (
+     <a>
+      Fig. S4D
+     </a>
+     ). Indeed the same subset of p6 residues was affected upon addition of intact TRiC, indicating that the ApiCCT3 binding site of p6 mediates its interaction with TRiC.
+    </p>
+    <p>
+     CS-Rosetta was next used to derive the solution structure of p6 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ,
+     <a>
+      Fig. S4B, C
+     </a>
+     ). Analysis of the top scoring models showed that p6 in aqueous solution contains a structured helical element at the C-terminus and a flexible polar region (
+     <xref ref-type="fig">
+      Fig. 4G
+     </xref>
+     ). The C-terminus of p6, containing S41-N45, adopts a helical conformation (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The ApiCCT3 interacting residues L42, F43 and N45 map to one face of the helix (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). In contrast, the N-terminus is highly dynamic as highlighted by the Cα-R.M.S.D. map (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ,
+     <a>
+      Fig. S4B, C
+     </a>
+     ). CD measurements revealed only a very subtle decrease in helicity when p6 binds the chaperonin, consistent with the weak helicity observed in the NMR-guided structural model of p6 (
+     <a>
+      Fig. S4B, S4E
+     </a>
+     ). Interestingly, while the helical chaperonin-binding determinant has significant hydrophobic character, the flexible N-terminus contains a series of acidic residues (
+     <xref ref-type="fig">
+      Fig. 4G
+     </xref>
+     ). The structural model of p6 implies that these acidic residues may interact with the basic residues in the ApiCCT3 loop, providing a molecular rationale for the electrostatic-driven association kinetics observed by SPR.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structural model of the chaperonin-substrate interface
+    </title>
+    <p>
+     RosettaDock with CS-derived site constraints was employed to obtain a structural model of the ApiCCT3-p6 complex (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     and
+     <a>
+      S5
+     </a>
+     ). The lowest energy model was fully consistent with the NMR data of both p6 and ApiCCT3 (
+     <xref ref-type="fig">
+      Fig. 5A, B
+     </xref>
+     ) and the interface agreed with all our experimental data, including CS perturbations (
+     <xref ref-type="fig">
+      Fig. 5C
+     </xref>
+     ,
+     <xref ref-type="fig">
+      Figs. 1
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and mutagenesis (
+     <xref ref-type="fig">
+      Figs. 2
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Fig. 5D
+     </xref>
+     ).
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Structural model of the chaperonin-substrate interface
+      </strong>
+      <p>
+       <strong>
+        (A–E)
+       </strong>
+       Structural model of ApiCCT3-p6.
+       <strong>
+        (A)
+       </strong>
+       ApiCCT3 and p6 colored in grey and purple, respectively. Interfacial residues in stick representation are colored in teal and magenta. Inset, zoom-in of the interface at 90° rotation.
+       <strong>
+        (B)
+       </strong>
+       ApiCCT3 substrate binding interface in surface representation colored according to electrostatic potential; blue, red and white are positive, negative and neutral residues respectively. Bound p6 is shown in teal with interfacial residues in stick representation.
+       <strong>
+        (C–E)
+       </strong>
+       Agreement between experimental data and structural model of ApiCCT3 (surface) and p6 (ribbon):
+       <strong>
+        (C)
+       </strong>
+       Reciprocal chemical shift perturbations in p6 (blue-green) and ApiCCT3 (yellow-red) upon complex formation
+       <strong>
+        (D)
+       </strong>
+       Mutagenesis perturbation of binding measured by apparent K
+       <sub>
+        d
+       </sub>
+       <strong>
+        (E)
+       </strong>
+       Evolutionary conservation among orthologs of CCT3 (yellow-red) and p6 (blue-green).
+       <strong>
+        (F–H)
+       </strong>
+       Structural model of ApiCCT1-Box1.
+       <strong>
+        (F)
+       </strong>
+       ApiCCT1-Box1 complex in cartoon representation colored in grey and purple, respectively. Interfacial residues shown as sticks and colored in teal and magenta. Inset, zoom in of the interface at 90° rotation.
+       <strong>
+        (G)
+       </strong>
+       Electrostatic charge distribution of ApiCCT1 substrate binding site bound to the Box peptide. Surface representation of the ApiCCT1 substrate binding site colored according to electrostatic charge potential; blue, red and white are positively, negatively and neutrally charged residues respectively. Bound Box1 in magenta with interfacial residues shown in stick representation.
+       <strong>
+        (H)
+       </strong>
+       Mutagenesis analysis of CCT1 residues required for Box 1 binding. Affinity ranking SPR experiments assessed binding of Alanine ApiCCT1 mutants for Box1. ApiCCT1 residues that perturb binding are highlighted in red/orange on the cartoon putty representation.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The ApiCCT3-p6 structure provides unprecedented detail on chaperonin-substrate binding (
+     <xref ref-type="fig">
+      Fig. 5A, B
+     </xref>
+     ). p6 makes tight packing interactions with unique features in the ApiCCT3 H11 and PL region through the specific presentation of side-chains (
+     <xref ref-type="fig">
+      Fig. 5A,B
+     </xref>
+     ). The interface consists of two distinct regions, highlighting the dual non-polar and polar nature of binding and providing a rationale for the bipartite substrate binding mode observed in the kinetic analyses. The interaction core is established by a mix of nonpolar and polar interactions, centered on H11 (
+     <xref ref-type="fig">
+      Fig. 5B–D
+     </xref>
+     ; namely L299, H302, M305, Q301 and Y247 in ApiCCT3 and L42, F43 and N45 in p6). A region of mostly electrostatic interactions is centered primarily on the PL, between positively charged residues in ApiCCT3 and acidic residues in p6 (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). These charge-charge interactions both confer specificity for discrete elements in the substrate and serve to orient the substrate upon binding the apical domain (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). Additional nonpolar contacts make close packing interactions with the aliphatic chains of lysine and arginine in the apical domain. As a result, of the 1073 A
+     <sup>
+      2
+     </sup>
+     of buried surface area, 762 A
+     <sup>
+      2
+     </sup>
+     correspond to nonpolar contacts and 311 A
+     <sup>
+      2
+     </sup>
+     to polar contacts.
+    </p>
+    <p>
+     Integrating conservation across orthologs for ApiCCT3 and p6 sheds light on the potential co-evolution of surfaces employed in chaperone-substrate interaction (
+     <xref ref-type="fig">
+      Fig. 5E
+     </xref>
+     ). The core interface residues are conserved in both ApiCCT3 as well as p6 variants across HIV clades. Conservation in this p6 region could respond to the requirement for TRiC interaction and/or interaction with orthogonal binding partners such as VPR and ALIX, which also bind in this p6 region (
+     <xref ref-type="bibr">
+      Salgado et al., 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     We next employed a similar RosettaDock-based analysis to obtain a structural model for VHL-Box1 in a complex with the apical domain of CCT1 (
+     <xref ref-type="fig">
+      Fig. 5F
+     </xref>
+     and
+     <a>
+      Fig. S5AB
+     </a>
+     ). The ApiCCT1-Box1 structural model placed Box1 at the same H11/PL region of ApiCCT1 where p6 binds ApiCCT3 (
+     <xref ref-type="fig">
+      Fig. 5F
+     </xref>
+     ). Box1 adopts an extended conformation upon binding (
+     <xref ref-type="fig">
+      Fig. 5G
+     </xref>
+     ). The side chains of L116 and W117 in Box1, known to be critical for VHL binding to TRiC
+     <em>
+      in vivo
+     </em>
+     and
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      Feldman et al., 2003
+     </xref>
+     ) pack between H11 and the PL in ApiCCT1 (
+     <xref ref-type="fig">
+      Fig. 5F
+     </xref>
+     , inset;
+     <xref ref-type="fig">
+      Fig. 5G
+     </xref>
+     ). Interestingly, comparison of the substrate complexes of CCT1 and CCT3 (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     vs
+     <xref ref-type="fig">
+      Fig. 5G
+     </xref>
+     ) shows that the substrate binding surface of CCT1 is more hydrophobic than that of CCT3, consistent with the higher hydrophobicity of Box1 over p6. We validated the ApiCCT1-Box 1 structural model using ApiCCT1 alanine-substitution mutagenesis followed by affinity measurements (
+     <xref ref-type="fig">
+      Fig. 5H
+     </xref>
+     and
+     <a>
+      Fig. S5C
+     </a>
+     ). A set of 25 mutants in ApiCCT1 was purified and their interaction with Box1 analysed by an affinity ranking SPR approach (
+     <xref ref-type="fig">
+      Fig. 5H
+     </xref>
+     and
+     <a>
+      Fig. S5C
+     </a>
+     ). Strikingly, the five ApiCCT1 alanine mutants that most significantly perturbed VHL-Box1 binding mapped to the interface predicted by the structure (
+     <a>
+      Fig. S5C
+     </a>
+     ). These data, together with previous analysis of Box1 residues required for TRiC binding (
+     <xref ref-type="bibr">
+      Feldman et al., 2003
+     </xref>
+     ), validate the structural model for ApiCCT1-Box1. We conclude that the groove formed between H11 and the flexible PL is the general substrate recognition site of TRiC/CCT subunits.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mapping the contacts between the TRiC hetero-oligomer and full length substrates
+    </title>
+    <p>
+     To extend our understanding of TRiC substrate recognition to full length substrates we identified contact points between intact TRiC and three full length physiological substrates: actin, tubulin and HIV Gag using chemical crosslinking-mass spectrometry (XL-MS) (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     ,
+     <a>
+      Fig. S6
+     </a>
+     ). For actin and tubulin, the heterotypic TRiC crosslinks localized to substrate determinants previously implicated in TRiC binding by peptide arrays and mutagenesis (
+     <a>
+      Table S2
+     </a>
+     and
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Hynes and Willison, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ritco-Vonsovici and Willison, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rommelaere et al., 1999
+     </xref>
+     ). Both tubulin and Gag crosslinked to multiple TRiC subunits through specific regions in the polypeptide (
+     <a>
+      Table S2
+     </a>
+     and
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     ), consistent with a multivalent contact between TRiC and its substrates.
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       Mapping the contacts between the TRiC hetero-oligomer and full length substrates
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       XL-MS approach to map TRiC-substrate contacts.
+       <strong>
+        (B)
+       </strong>
+       XL-MS-derived contact points between tubulin, actin and Gag and specific sites on TRiC.
+       <strong>
+        (C)
+       </strong>
+       Substrate crosslink sites mapped onto the surface representation of ApiCCT3. The substrate binding interface in ApiCCT3 is highlighted as in
+       <xref ref-type="fig">
+        Fig. 2F
+       </xref>
+       . The sites of substrate crosslinks shown as spheres are colored green, cyan and blue for CCT2, CCT6 and CCT7, respectively.
+       <strong>
+        (D)
+       </strong>
+       Comparison of H11/PL substrate binding region of subunits CCT2, CCT6 and CCT7 colored according to amino acid properties; blue, red and white correspond to basic, acidic and neutral amino acids. Bottom: schematic representation of binding region in box format as in
+       <xref ref-type="fig">
+        Fig. 2H
+       </xref>
+       , colored as indicated.
+       <strong>
+        (E)
+       </strong>
+       TRiC crosslink sites mapped onto the Gag protein sequence. Vertical lines show sites where Gag crosslinks to the apical domains of CCT6 (cyan), CCT2 (green) and CCT7 (blue). The plot also maps the hydrophobicity (yellow) and polarity (purple) of Gag.
+       <strong>
+        (F)
+       </strong>
+       Gag and tubulin crosslinks to TRiC mapped onto the folded substrate structures. (Top) Cartoon representation of N-terminal domain of Gag in red with flexible region containing the site of CCT6 crosslink (K110, as spacefill) in cyan. (Bottom) Cartoon representation of tubulin heterodimer: β-tubulin in red, and α tubulin in grey. Loops containing the two β-tubulin-TRiC crosslink sites (in spacefill: K58 in green to CCT2; K324 in cyan to CCT6) are shown in green and cyan.
+       <strong>
+        (G)
+       </strong>
+       XL-MS-derived structural models of CCT2 apical domain-substrate interaction with substrate elements from crosslink sites of Gag (top) and tubulin (bottom). Apical domain-peptide complexes are colored in grey and purple, respectively. Interfacial residues in stick representation are colored teal for the apical protein and magenta for the peptide.
+       <strong>
+        (H)
+       </strong>
+       Putative topological description of the TRiC-bound substrate (dashed line) for Gag (top) and Tubulin (bottom). The open state of TRiC is shown in grey, with subunits CCT2, CCT6 and CCT7 colored green, cyan and blue respectively. The α lysines involved in the crosslink are shown as spheres. The immediate proximity of the crosslink site on the peptide sequence is colored according to amino acid properties, yellow, white, blue and red are nonpolar, polar, basic and red, respectively.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Exploiting the conservation of general architecture of TRiC subunits, we mapped the location of substrate crosslinks to CCT2, CCT6 and CCT7 (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     green, blue and cyan spheres, respectively) onto the ApiCCT3 structure highlighting its substrate binding surface (
+     <xref ref-type="fig">
+      Fig. 6C
+     </xref>
+     , red surface). Strikingly, the substrate crosslinks are proximal to the apical domain substrate binding interface between CCT3-p6 and CCT1-Box1, validating this region as the general location of the substrate-binding site in all TRiC subunits.
+    </p>
+    <p>
+     Comparing the chemical properties of the H11/PL region in subunits CCT2, CCT6 and CCT7 (
+     <xref ref-type="fig">
+      Fig. 6D
+     </xref>
+     ) shows that the substrate-binding site of each subunit has a distinct pattern of hydrophobic and polar residues. Thus, the dual recognition mode observed for CCT3-p6 is a general feature of TRiC-substrate recognition. Interestingly, analysis of the location of crosslink sites in the substrate primary sequence (
+     <xref ref-type="fig">
+      Fig. 6E
+     </xref>
+     for Gag; see also below,
+     <a>
+      Fig. S6C
+     </a>
+     ) indicated that chaperonin contact points within the polypeptide are close to the boundary between a nonpolar and polar region (
+     <xref ref-type="fig">
+      Fig. 6E
+     </xref>
+     , yellow trace: hydrophobicity; purple trace: polarity). The distinctive combination of polar and hydrophobic elements in both the substrate and each chaperonin subunit H11/PL region may underlie subunit specific interactions (
+     <xref ref-type="fig">
+      Figs. 6
+     </xref>
+     ,
+     <a>
+      S6C
+     </a>
+     ).
+    </p>
+    <p>
+     We next mapped the TRiC-crosslink sites onto the folded structures of actin, tubulin and Gag (
+     <xref ref-type="fig">
+      Fig. 6F
+     </xref>
+     ). The chaperonin-contact sites are proximal to both a structured hydrophobic region, either helix or strand, and a more unstructured polar loop (
+     <xref ref-type="fig">
+      Fig. 6F
+     </xref>
+     , top panel, N-terminus of Gag; bottom panel, tubulin, not shown for actin). The tubulin crosslinks map to two surface loops at the tips of the N-terminal and C-terminal lobes of the protein (
+     <xref ref-type="fig">
+      Fig. 6F
+     </xref>
+     , bottom panel). The TRiC binding sites overlap with the interface of the tubulin heterodimer, indicating that folded and assembled β-tubulin cannot bind to TRiC (
+     <xref ref-type="fig">
+      Fig 6F
+     </xref>
+     , bottom). The binding site for tubulin assembly factor Rbl2/Cofactor A (CoA), which acts directly downstream of TRiC in tubulin assembly (
+     <xref ref-type="bibr">
+      Tian and Cowan, 2013
+     </xref>
+     ) also overlaps with the Tub2 site of crosslink to CCT6 (
+     <xref ref-type="bibr">
+      You et al., 2004
+     </xref>
+     ). The overlapping tubulin binding sites for TRiC and CoA suggest possible mechanisms for Tub2 release from TRiC, and indicate that the chaperonin protects this oligomerization surface from inappropriate intra- and inter-molecular interactions.
+    </p>
+    <p>
+     To understand how the same subunit can bind distinct substrate motifs, we used the crosslinking information as a physical constraint to generate models of the CCT2-substrate interaction with Gag and tubulin (
+     <xref ref-type="fig">
+      Fig. 6G
+     </xref>
+     , Fig.
+     <a>
+      Fig. S6A–C
+     </a>
+     ). The lowest energy models placed both substrate-derived peptides in the CCT2 binding site formed by H11 and the PL, even though the starting distance constraint, i.e. the site of crosslink, was distal from this site. Gag and Tubulin bind in different configurations to the same apical domain of CCT2. Comparing all the data and structural models obtained here for different apical domain-substrate complexes reveals common rules for TRiC-recognition and specificity. The shallow groove created by H11 and the PL allows flexibility in binding, allowing the same apical domains to bind different substrates with no sequence similarity (
+     <xref ref-type="bibr">
+      Yam et al., 2008
+     </xref>
+     ). H11 and the PL provides the apical domain surface for substrate recognition through a combination of polar and hydrophobic interactions. The specific polar-hydrophobic pattern of both apical domain and substrate serve to provide specificity and orient the substrate to dictate the binding topology.
+    </p>
+    <p>
+     Most excitingly, the XL-MS analysis provided a topological description of the substrate when bound to TRiC (
+     <xref ref-type="fig">
+      Fig. 6H
+     </xref>
+     ). Subunit specific contacts provide anchors that determine a global configuration of substrate polypeptides bound to TRiC; for Gag, the polypeptide is stretched across the open complex while for tubulin the two contact points at the tips of its two lobes are at antipodal positions of the ring. Taken together, these data indicate that binding to TRiC orients and restricts the global topology of the bound substrate, perhaps allowing the domains to start folding while associated with the chaperonin.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    How TRiC/CCT discriminates between non-native substrates and their folded counterparts is intriguing in view of its obligate requirement for folding a subset of cellular proteins that share no sequence or structural similarities. By defining the structural basis of substrate recognition we begin to understand how subunit diversification enabled TRiC to balance the plasticity required to recognize a broad array of substrates with the specificity required to assist their folding.
+   </p>
+   <sec>
+    <title>
+     Implications for substrate selection and folding in the hetero-oligomeric chaperonins
+    </title>
+    <p>
+     Mapping the substrate binding in the apical domains of TRiC to a groove between H11 and the PL has fundamental implications for the mechanics of substrate folding (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     ). Within the intact complex, the interaction with each subunit relies on a recognition code integrating polar and hydrophobic contributions, which enables combinatorial substrate recognition (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     (i)). Polar contacts orient the substrate locally upon binding, while the distribution of subunit-specific substrate interactions stipulates the global topology of the TRiC-bound polypeptide. This may direct folding of TRiC-bound substrates along a preferred pathway (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     (ii)). Our mapping of the substrate binding site provides a compelling mechanism of substrate release upon ATP-dependent closure (
+     <xref ref-type="bibr">
+      Douglas et al., 2011
+     </xref>
+     )(
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     (v)). ATP-induced closure of the lid brings the PL region in one apical domain into direct contact with a loop in the neighboring subunit, termed RLS (Release Loop of Substrate) (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     (iii)) which mediates substrate release locally, through ATP-induced contacts between adjacent apical domains (
+     <xref ref-type="bibr">
+      Douglas et al., 2011
+     </xref>
+     )(
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     ; (iv)). This mechanism of release is well suited to the low affinity of each individual apical domain-substrate interaction, as it permits the local displacement of the substrate from the apical domain by the ATP-induced proximity of the RLS. Since ATP binding and hydrolysis function within the ring is asymmetric (
+     <xref ref-type="bibr">
+      Reissmann et al., 2012
+     </xref>
+     )(
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     , dark grey: high ATP affinity; light gray: low ATP affinity), it is possible that the substrate is released sequentially during the conformational cycle (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     , brackets). The particular dissociation rates for a given subunit, will determine when specific regions of the polypeptide are released from their binding site into the folding chamber. By allowing certain subdomains to fold first, TRiC may promote productive folding trajectories.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       The polypeptide-binding site of TRiC/CCT: functional and evolutionary implications
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Role of subunit specific substrate recognition in the context of the TRiC folding cycle. See Discussion for description. Subunits with high ATP affinity in dark gray, with low ATP affinity in light gray.
+       <strong>
+        (B)
+       </strong>
+       Evolutionary divergence across H11/PL substrate binding sites across
+       <em>
+        S. cerevisiae
+       </em>
+       paralogs (left) and conservation of binding site across orthologs (CCT5, right panel).
+       <strong>
+        (C)
+       </strong>
+       Substrate binding site properties of the different yeast TRiC subunits schematically shown in box format as in
+       <xref ref-type="fig">
+        Fig. 2H
+       </xref>
+       . Upper line corresponds to H11/Apical Hinge residues, lower line corresponds to PL. The substrate binding site of archeal chaperonin from
+       <em>
+        M. maripaludis
+       </em>
+       is included for comparison.
+       <strong>
+        (D)
+       </strong>
+       The substrate binding site interface of the open TRiC conformation. TRiC is shown in semi-transparent gray cartoon and substrate binding sites in surface representation colored according to chemical properties, as indicated.
+       <strong>
+        (E)
+       </strong>
+       Group II chaperonin subunit complexity increases with proteome size. Number of subunits in archeal (purple) and eukaryotic (green) organisms graphed versus proteome size, as number of ORFs in that organism.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Principles driving the diversification of recognition and specificity in TRiC subunits
+    </title>
+    <p>
+     NMR, mutagenesis, modeling and XL-MS indicate that all TRiC subunits contact substrates through the same region in their apical domains. This region is evolutionarily conserved across orthologs (i.e. across all CCT5 from eukaryotes,
+     <xref ref-type="fig">
+      Fig. 7C
+     </xref>
+     and
+     <a>
+      Fig. S7A, B
+     </a>
+     ) but diverges across TRiC/CCT paralogs (
+     <xref ref-type="fig">
+      Fig. 7B
+     </xref>
+     ), suggesting a distinct and important function in each subunit.
+    </p>
+    <p>
+     Chaperonin binding sites balance plasticity and specificity in substrate recognition through two modular elements that discretely control binding and specificity: charged and polar residues contribute to enhancing on-rates and hydrophobic residues contributing to decreased off-rates. The polypeptide binding platform in the H11/PL region combines a rigid helical element and a flexible loop. Substrate interaction involves burial of nonpolar residues in the groove formed by the H11 helix-PL loop region. The PL loop is highly variable among subunits, both in terms of chemical properties and length (
+     <a>
+      Fig. S7B
+     </a>
+     ;
+     <xref ref-type="fig">
+      Fig. 7C
+     </xref>
+     ). Providing conformational flexibility to PL in the polypeptide binding groove may enable recognition of a larger set of substrates. Among all subunits, CCT2 presents the most nonpolar, classical “chaperone-like”, binding surface (
+     <xref ref-type="fig">
+      Fig. 7C
+     </xref>
+     ); interestingly this subunit is crosslinked to all full length substrates examined.
+    </p>
+    <p>
+     The shallow nature of the chaperonin binding groove allows a subunit to recognize motifs with different features, providing plasticity in binding, as shown for CCT2 (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     ). The low affinity for a single substrate-apical domain interaction is consistent with an avidity-driven interaction, whereby multiple discrete low affinity contacts to different subunits mediate stable binding to the complex (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     ). This combinatorial recognition suggests a simple model for the discrimination of folded from non-folded proteins. TRiC will recognize those conformations interacting with more than one subunit but will not interact with proteins where most binding motifs are no longer available.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The evolution of hetero-oligomeric chaperonins
+    </title>
+    <p>
+     It is intriguing to consider what drove the evolution of such a complex hetero-oligomeric folding machine. TRiC substrates tend to encode complex topologies, and many coevolved with TRiC to the point of being unable to fold in its absence, (e.g., actin). Archaea have simpler chaperonins , ranging from one to five subunits depending on the organism (
+     <xref ref-type="bibr">
+      Bigotti and Clarke, 2008
+     </xref>
+     ). We considered whether changes in the proteome are linked to subunit diversification. Strikingly, comparing all organisms containing TRiC-like chaperonins we find a positive correlation between subunit diversity and the size of its proteome (
+     <xref ref-type="fig">
+      Fig. 7E
+     </xref>
+     ). The possible link between, subunit diversification of TRiC and expansion of the proteome in eukaryotes raises questions on the mechanisms linking protein evolution to changes in chaperone structure and composition. Subunit diversification may increase the probability that a given protein will present two or more binding sites that can combinatorially bind to the chaperonin and benefit from the mechanistic advantages of folding in its chamber. Thus, the complexity of the chaperonin appears functionally optimized for the complexity of the genome, suggesting that the folding machinery contributes to dictate proteome size. A better understanding of the substrates and recognition motifs for the different TRiC and archaeal subunits may provide exciting insights into protein evolution.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures Summary
+   </title>
+   <p>
+    Apical domains of TRiC were expressed and purified as described previously (
+    <xref ref-type="bibr">
+     Spiess et al., 2006
+    </xref>
+    ). A set of alanine mutants were cloned and purified based on the chemical shift pertubation experiments and binding kinetics were analyzed by SPR. All apical domains were soluble and folded, as assessed by CD. For the SPR experiments, peptides were immobilized using maleimide chemistry on a PEG derivatized surface and a dilution series of apical protein were flowed over as analyte. For NMR,
+    <sup>
+     15
+    </sup>
+    N/
+    <sup>
+     13
+    </sup>
+    C/
+    <sup>
+     2
+    </sup>
+    D ApiCCT3 and
+    <sup>
+     15
+    </sup>
+    N/
+    <sup>
+     13
+    </sup>
+    C p6 samples were expressed and purified using standard isotope labeling procedures (see
+    <a>
+     Supplemental Experimental Approaches
+    </a>
+    for details). NMR-chemical shift mapping and backbone assignment experiments for ApiCCT3 and p6 were carried out using 300 µM protein sample on a 800 MHz Innova Varian spectrometer outfitted with a cryogenic probe. Biotinylated p6
+    <sub>
+     WT
+    </sub>
+    or p6
+    <sub>
+     mut
+    </sub>
+    peptides were incubated with extracts from human HEK293 cells and affinity isolated via the biotin tag (IP). The presence of TRiC in the IP is visualized by Western blot analysis against TRiC antibodies raised against CCT5 and CCT2. DSS-crosslinked TRiC-substrate samples were treated with trypsin, enriched for crosslinked peptides by size exclusion chromatography and analyzed by tandem mass spectrometry. Crosslinked peptides were identified by xQuest (
+    <xref ref-type="bibr">
+     Rinner et al., 2008
+    </xref>
+    ). Conservation scores were calculated using Rate4site (
+    <xref ref-type="bibr">
+     Pupko et al., 2002
+    </xref>
+    ) and mapped onto the models using ConSurf (
+    <xref ref-type="bibr">
+     Ashkenazy et al., 2010
+    </xref>
+    ). Generation of structural models was guided by experimentally determined backbone chemical shift parameters in CS-Rosetta (
+    <xref ref-type="bibr">
+     Lange et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mao et al., 2014
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shen et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van der Schot et al., 2013
+    </xref>
+    ). RosettaDock was used to model the ApiCCT-substrate complexes with CS-NMR-based site constraints or with XL-MS-based atom pair constraints. Homology model building for the remaining ApiCCT domains was carried out using the Rosetta software package (
+    <xref ref-type="bibr">
+     Chivian and Baker, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Davis and Baker, 2009
+    </xref>
+    ).
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     1
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (235K, docx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (15K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     3
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (11K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     4
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (36K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     5
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (125K, docx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Acknowledgements
+   </title>
+   <sec>
+    <p>
+     We thank Drs. R. Andino, A. Joachimiak, D Gestaut and K Dalton for comments on the manuscript; and Drs. L Gierasch and D. Agard for advice. We thank Dr. M Eckart from the PAN facility for help with the SPR experiments. This work was supported by an NIH fellowship to LAJ; NIH grants to JF.
+    </p>
+   </sec>
+  </sec>
+ </body>
+</article>

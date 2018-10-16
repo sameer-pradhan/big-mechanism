@@ -1,0 +1,2717 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3785238
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A Prolyl-isomerase Mediates Dopamine-dependent Plasticity and Cocaine Motor Sensitization
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     Synaptic plasticity induced by cocaine and other drugs underlies addiction. Here we elucidate molecular events at synapses that cause this plasticity and the resulting behavioral response to cocaine in mice. In response to D1 dopamine receptor signaling that is induced by drug administration, the glutamate receptor protein mGluR5 is phosphorylated by MAP kinase, which we show potentiates Pin1-mediated prolyl isomerization of mGluR5 in instances where the product of an activity-dependent gene, Homer1a, is present to enable Pin1-mGluR5 interaction. These biochemical events potentiate NMDA receptor-mediated currents that underlie synaptic plasticity and cocaine-evoked motor sensitization as tested in mice with relevant mutations. The findings elucidate how a coincidence of signals from the nucleus and the synapse can render mGluR5 accessible to activation with consequences for drug-induced dopamine responses, and point to depotentiation at corticostriatal synapses as a possible therapeutic target for treating addiction.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Dopamine receptor signaling plays a central role in the synaptic plasticity that underlies drug addiction since many drugs, including cocaine, elicit dopamine increases (
+    <xref ref-type="bibr">
+     Luscher and Malenka, 2011
+    </xref>
+    ). Actions of dopamine are often co-dependent upon glutamate receptors including NMDA ionotropic receptors and group I metabotropic glutamate receptors (mGluR1 and mGluR5) (
+    <xref ref-type="bibr">
+     Calabresi et al., 2007
+    </xref>
+    ), which are G-protein coupled receptors that are physically linked to postsynaptic ionotropic receptors by adaptor proteins (
+    <xref ref-type="bibr">
+     Shepherd and Huganir, 2007
+    </xref>
+    ), and are thus poised to coordinate between ionotropic and neuromodulator pathways. Genetic deletion of mGluR5 prevents cocaine-evoked motor sensitization and self-administration (
+    <xref ref-type="bibr">
+     Bird et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Chiamulera et al., 2001
+    </xref>
+    ), and mGluR5 antagonists prevent cocaine self-administration in rodents (
+    <xref ref-type="bibr">
+     Kenny et al., 2005
+    </xref>
+    ) and primates (
+    <xref ref-type="bibr">
+     Platt et al., 2008
+    </xref>
+    ). mGluR5 also plays a role in reinstatement of cocaine self-administration following a period of abstinence (
+    <xref ref-type="bibr">
+     Knackstedt et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wang et al., 2013
+    </xref>
+    ), and facilitates extinction learning during drug abstinence (
+    <xref ref-type="bibr">
+     Gass and Olive, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    mGluR1/5 are linked to ionotropic receptor pathways by adaptor proteins that include Shank (
+    <xref ref-type="bibr">
+     Tu et al., 1999
+    </xref>
+    ), Preso1 (
+    <xref ref-type="bibr">
+     Hu et al., 2012
+    </xref>
+    ) and Homer (
+    <xref ref-type="bibr">
+     Tu et al., 1998
+    </xref>
+    ). The EVH1 domain of Homer binds a consensus PPXXF that is present in mGluR1/5, Shank and Preso1 (
+    <xref ref-type="bibr">
+     Beneken et al., 2000
+    </xref>
+    ). Constitutively expressed Homer proteins (Homer1b/c, Homer2 and Homer3) self-multimerize via their C-terminal coiled-coil region to create a cross-linking scaffold (
+    <xref ref-type="bibr">
+     Xiao et al., 1998
+    </xref>
+    ). Homer cross-linking is in dynamic competition with an immediate early gene form of Homer, termed Homer1a, which contains only the EVH1 domain such that it can bind to the same target proteins but does not self-associate. Homer cross-linking influences the signaling and pharmacology of mGluR1/5 (
+    <xref ref-type="bibr">
+     Ango et al., 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al., 2012
+    </xref>
+    ), and changes in Homer expression have been suggested to contribute to cocaine-induced plasticity (
+    <xref ref-type="bibr">
+     Szumlinski et al., 2004
+    </xref>
+    ).
+   </p>
+   <p>
+    We focused on how dopamine receptor and group I mGluR signaling might be co-functional, and noted that MAP Kinase phosphorylates mGluR5(S1126) within the sequence that is bound by Homer (TPPSPF) (
+    <xref ref-type="bibr">
+     Beneken et al., 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Orlando et al., 2009
+    </xref>
+    ). D1 dopamine receptors activate MAP Kinase, and phosphorylation of mGluR5(S1126) increases Homer binding avidity and influences mGluR signaling (
+    <xref ref-type="bibr">
+     Hu et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Orlando et al., 2009
+    </xref>
+    ). But intriguingly, phosphorylation of mGluR5(S1126) also creates a binding site for the prolyl isomerase Pin1. Pin1 accelerates rotation of the phosphorylated S/T-P bond in target proteins, and acts as a molecular switch. This provoked an idea that Pin1 may be co-functional with Homer in controlling mGluR1/5 signaling. Here, we demonstrate that Pin1 catalyzes isomerization of phosphorylated mGluR5 at the pS1126-P site and consequently enhances mGluR5-dependent gating of NMDA receptor channels. The immediate early gene (IEG) Homer1a, induced in response to neuronal activity, plays an essential role by interrupting Homer cross-linking and therefore facilitating Pin1 catalysis. Mutant mice that constrain Pin1-dependent mGluR5 signaling fail to exhibit normal motor sensitization, implicating this mechanism in cocaine-induced behavioral adaptation.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Pin1 binds phosphorylated group I mGluR and competes with Homer1c
+    </title>
+    <p>
+     mGluR5(S
+     <sup>
+      1126
+     </sup>
+     ) is phosphorylated
+     <em>
+      in vivo
+     </em>
+     in response to cocaine (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), and in cultured striatal neurons in response to agents that activate p42/44 MAP Kinase including D1 dopamine receptors or BDNF receptor tyrosine kinase B (TrkB) (
+     <a>
+      Figure S1A and S1B
+     </a>
+     ). mGluR5(T
+     <sup>
+      1123
+     </sup>
+     ) is also phosphorylated but it is not dynamically regulated (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ,
+     <a>
+      S1A and S1B
+     </a>
+     ). Phosphorylated mGluR5 is enriched on the cell surface (
+     <a>
+      Figure S1C
+     </a>
+     ). Immunoselection of pT
+     <sup>
+      1123
+     </sup>
+     enriches pS
+     <sup>
+      1126
+     </sup>
+     , indicating mGluR5 can be doubly phosphorylated (
+     <a>
+      Figure S1D
+     </a>
+     ). Double phosphorylation is induced by cocaine administration (
+     <a>
+      Figure S1D
+     </a>
+     ). Pin1 bound singly phosphorylated mGluR5 pT or pS peptides (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). We examined full-length mGluR5 expressed in HEK293 cells where both T1123 and S1126 are phosphorylated [(
+     <xref ref-type="bibr">
+      Hu et al., 2012
+     </xref>
+     ) and data not shown]. GST-Pin1 bound WT mGluR5, as well as mutants that prevent phosphorylation at either T1123 [mGluR5(T1123A)] or S1126 [mGluR5(S1126A)], but Pin1 did not bind a mutant that prevents phosphorylation at both sites [mGluR5(T1123A, S1126A)] (
+     <a>
+      Figure S1E
+     </a>
+     ). We examined effects of crosslinking Homer on Pin1 binding and focused on Homer1c since it is most abundantly expressed in forebrain (
+     <xref ref-type="bibr">
+      Xiao et al., 1998
+     </xref>
+     ). Homer1c co-expression reduced Pin1-mGluR5 binding (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). By contrast, Homer1a co-expression did not inhibit Pin1 binding (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ), and when co-expressed with Homer1c facilitated Pin1 binding to mGluR5 (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ).
+     <em>
+      In vivo
+     </em>
+     studies confirmed that Pin1 co-immunoprecipitates with mGluR5 from mouse brain (
+     <a>
+      Figure S1F
+     </a>
+     ). Consistent with the notion that cross-linking Homer proteins compete with Pin1 for mGluR5 binding, Pin1 co-immunoprecipitation with mGluR5 increased in brains of mice lacking Homer (
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     , Homer triple knockout, HTKO) (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ), and increased in parallel with mGluR5(S
+     <sup>
+      1126
+     </sup>
+     ) phosphorylation induced by acute administration of cocaine (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). We did not detect an increase of Pin1 binding in WT mice. This could challenge the notion that Pin1 is a natural signaling partner of mGluR5(S
+     <sup>
+      1126
+     </sup>
+     ), but since Homer1a protein levels
+     <em>
+      in vivo
+     </em>
+     are many fold less than constitutively expressed Homer proteins (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), we considered the possibility that effects of Homer1a may be restricted to a minority of mGluR5(S
+     <sup>
+      1126
+     </sup>
+     ) that are not easily detected in biochemical assays. Overall, there data indicate that the IEG isoform Homer1a facilitates the binding of Pin1 to mGluR5 that has been phosphorylated in response to cocaine and/or dopamine receptor stimulation.
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       Pin1 and Homer competitively bind to phosphorylated mGluR5
+      </strong>
+      <p>
+       (A) Cocaine administration to mice (20 mg/kg, i.p.) induces transient phosphorylation of mGluR5 Ser-1126 but not Thr-1123 in striatum. Cocaine also induces Homer1a expression. *P &lt; 0.05, **P &lt; 0.01, n = 6 each group.
+      </p>
+      <p>
+       (B) Pin1 selectively binds phosphorylated mGluR5 peptides. Synthetic mGluR5-peptides (KELVALTPPSPFRD) including unphosphorylated, Thr
+       <sup>
+        1123
+       </sup>
+       -phosphorylated, or Ser
+       <sup>
+        1126
+       </sup>
+       -phosphorylated were conjugated to Affigel-15 Sepharose beads, and incubated with lysate from HA-Pin1 transfected HEK293 cells.
+      </p>
+      <p>
+       (C) Homer1c inhibits Pin1 binding. Tagged transgenes were expressed in HEK293T cells and detergent lysates were assayed for co-immunoprecipitation. Homer1c, but not Homer1a, inhibits Pin1-mGluR5 binding.
+      </p>
+      <p>
+       (D) Experiments similar to (C), showing that Homer1a concentration-dependently restores Pin1-mGluR5 binding in the presence of Homer1c.
+      </p>
+      <p>
+       (E) Homer inhibits Pin1 binding to mGluR5
+       <em>
+        in vivo
+       </em>
+       . Mouse striatum lysates from WT and
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       mice w/o cocaine administration (10 mg/kg, i.p., 30 min) were blotted with anti-mGluR5 and pS-mGluR antibody or immunoprecipitated with anti-mGluR5 antibody. Cocaine-injected WT (n = 6) and
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 7) mice showed increased mGluR5 phosphorylation compared to saline-injected WT (n = 7) and
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 6) mice. Pin1 co-immunoprecipitation is increased in
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       mice, and increases after cocaine administration. *P &lt; 0.05, **P &lt; 0.01.
+      </p>
+      <p>
+       Where shown, data are reported as means ± SEM. See also
+       <a>
+        Figure S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Potentiation of mGluR-dependent NMDA receptor current is dependent on Homer1a and Pin1
+    </title>
+    <p>
+     To investigate the physiological effect of these biochemical interactions, we performed whole-cell voltage-clamp recordings and identified a biphasic inward current in response to pressure ejection of the group I mGluR agonist DHPG in combination with glutamate (
+     <a>
+      Figure S2A
+     </a>
+     ). The fast component is mediated by AMPA receptors, and its amplitude provides an indicator of the stability of recordings. The slow inward current (SIC) is dependent upon mGluR5, as it was blocked by bath application of the mGluR5 inhibitor MPEP (2-Methyl-6-(phenylethynyl)pyridine) (5 μM,
+     <a>
+      Figure S2A
+     </a>
+     ). The mGluR5-SIC is also dependent upon NMDA receptors since it was blocked by APV (50 μM), ifenprodil (3 μM) and PPDA (0.2 μM,
+     <a>
+      Figure S2A
+     </a>
+     ). The combination of ifenprodil and PPDA blocked &gt; 90% of the mGluR-SIC, indicating a role for NMDA receptors NR2B and NR2C/D subunits. Blockade by inclusion of MK-801 in the recording pipette demonstrates that mGluR-SIC requires NMDA receptor activation in the recorded cell rather than in neighbors acting via secondary signals (
+     <a>
+      Figure S2A
+     </a>
+     ). Additionally, external Mg
+     <sup>
+      2+
+     </sup>
+     at negative holding potentials attenuated the mGluR-SIC (
+     <a>
+      Figure S2B
+     </a>
+     ), a feature characteristic of NMDA receptor-mediated currents. We also confirmed that mGluR-SIC is absent in neurons derived from mice that lack mGluR1 and mGluR5 (
+     <em>
+      Grm1
+      <sup>
+       −/−
+      </sup>
+      Grm5
+      <sup>
+       −/−
+      </sup>
+     </em>
+     ,
+     <a>
+      Figure S2C
+     </a>
+     ). Biochemical assays confirmed that expression of cell surface NMDA receptors on
+     <em>
+      Grm1
+      <sup>
+       −/−
+      </sup>
+      Grm5
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons is not different than WT neurons (not shown). These data are consistent with previous reports of an mGluR5-dependent NMDA conductance in striatal neurons (
+     <xref ref-type="bibr">
+      Pisani et al., 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pisani et al., 2001
+     </xref>
+     ).
+    </p>
+    <p>
+     BDNF-TrkB or D1 receptor activation increases mGluR5 phosphorylation in primary striatal cultures (
+     <a>
+      Figure S1A
+     </a>
+     ). Since only ~50% of neurons are expected to express D1 receptors, we began our studies of how phosphorylation might modulate mGluR signaling using BDNF (10 ng/ml for 10 min). However, BDNF did not alter the amplitude or duration of the evoked mGluR5-SIC in WT neurons assessed over a 40-min monitoring period (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). Considering biochemical evidence that cross-linking Homer proteins can inhibit Pin1 binding, we repeated the experiment using neurons cultured from
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     or
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+     </em>
+     mice. Strikingly, in neurons of both genotypes, mGluR5-SIC was rapidly potentiated &gt; 2-fold following 10 min of BDNF application (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). Inhibitors of TrkB (K252a; 100 nM) or MEK (UO126; 20 μM) blocked BDNF potentiation of the mGluR5-SIC in
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons (
+     <a>
+      Figure S3A
+     </a>
+     ). Further, viral transgene expression of Homer1c blocked BDNF potentiation in
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). By contrast, Homer1a transgene expression in WT neurons was permissive for mGluR5-SIC potentiation by BDNF, and this effect was absent when mutant Homer1aW24A that does not bind mGluR5 was used (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). To assess the role of native Homer1a, we first determined that 30 min treatment of cultures with 50 mM KCl induced Homer1a (
+     <a>
+      Figure S3B
+     </a>
+     ). Following KCl pretreatment, BDNF potentiated the mGluR5-SIC ~ 1.5-fold in WT but not in
+     <em>
+      Homer1a
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Similar to results with BDNF, bath application of the D1 receptor agonist SKF38393 (1 μM) potentiated the mGluR5-SIC in
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons. This effect was evident in 6 of 13 neurons (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ); however, when the experiment was repeated using KCl-pretreatment to induce Homer1a in WT neurons, robust and consistent potentiation by SKF38393 was observed in D1 receptor-expressing neurons (D1R-GFP) but not D2 receptor-expressing neurons (D2-GFP) (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Homer1a is required for potentiation of mGluR5-SIC by BDNF or D1 dopamine receptor agonist
+      </strong>
+      <p>
+       (A–E) Population time course graphs show potentiation of the mGluR5-SIC following bath application of BDNF (10 ng/ml, 10 min) or SKF38393 (1 μM). Representative traces of inward currents evoked by a micropressure pulse of glutamate plus DHPG (arrows) before (black) and after (gray) BDNF or SKF38393 application. (scale bars: 200 pA, 2 sec). The values of mGluR5-SIC charge transfer were normalized to pre-BDNF or SKF38393 baseline values (0–5 min).
+      </p>
+      <p>
+       (A) Bath applied BDNF increased mGluR5-SIC in
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (black filled circles, n = 14) or
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (black filled triangles, n = 11) neurons, but not WT neurons (gray filled circles, n = 14). BDNF-mediated potentiation of mGluR5-SIC was inhibited by H1c viral transgene expression in
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+       </em>
+       neurons (gray filled triangles, n = 8). Bottom: bar graphs show normalized mean ± SEM of mGluR5-SIC charge transfer and include WT (n = 14),
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 14),
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 11) and Homer1c expressing (Sindbis virus)
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 8). Measurements correspond to the time points indicated on the time course graph in this and all subsequent figures. Significant differences were found between pre- (black) and BDNF-treated (gray) groups (***p &lt; 0.001).
+      </p>
+      <p>
+       (B) BDNF potentiated the mGluR5-SIC in Homer1a transgene expressing WT neurons (black filled circles, n = 6), but not in Homer1aW24A mutant (black filled triangles, n = 6) or GFP expressing WT neurons (gray filled circles, n = 5). Bottom: bar graphs show normalized mean ± SEM and include GFP expressing WT (n = 5), H1a expressing WT (n = 6), and Homer1aW24A mutant expressing WT (n = 6) (***p &lt; 0.001).
+      </p>
+      <p>
+       (C) BDNF potentiated the mGluR5-SIC in WT neurons pre-treated with KCl (black filled circles, n = 6), but not in
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       pre-treated with KCl (gray filled diamonds, n = 3). Bottom: bar graphs show normalized mean ± SEM (*p &lt; 0.05).
+      </p>
+      <p>
+       (D) SKF38393 increased mGluR5-SIC in a subset of
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       neurons (black filled circles, n = 6), but not others (gray filled circles, n = 7). Bottom: bar graphs show normalized mean ± SEM and include two distinct subsets of
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       neurons in response to SKF38393 (**p &lt; 0.005).
+      </p>
+      <p>
+       (E) SKF38393 increased mGluR5-SIC in D1-GFP cells pretreated with KCl (black filled circles, n = 8), but not in D2-GFP cells pretreated with KCl (gray filled triangles, n = 10). Bottom, histograms show normalized mean SEM (***p &lt; 0.001). See also
+       <a>
+        Figures S2 and S3
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Finally we examined the mechanism of Pin1 in BDNF potentiation of the mGluR5-SIC using
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons. Addition of a peptide-mimic inhibitor of Pin1, but not an inactive control peptide (
+     <xref ref-type="bibr">
+      Namanja et al., 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wang et al., 2004
+     </xref>
+     ), to the internal saline blocked BDNF potentiation of the mGluR5-SIC (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). As an alternative approach, we transfected
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons with mutant Pin1C113S [binding competent but isomerase deficient (
+     <xref ref-type="bibr">
+      Zhou et al., 2000
+     </xref>
+     )] and then found BDNF was unable to potentiate the mGluR5-SIC (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). We examined neurons cultured from
+     <em>
+      Pin1
+      <sup>
+       −/−
+      </sup>
+     </em>
+     mice (
+     <xref ref-type="bibr">
+      Atchison et al., 2003
+     </xref>
+     ) and used Sindbis virus to overexpress Homer1a. The baseline mGluR5-SIC was normal in amplitude and duration, but was not potentiated by BDNF (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). Furthermore, the peptide-mimic inhibitor of Pin1, but not the control peptide, blocked potentiation of the mGluR5-SIC in D1-GFP neurons that were pretreated with KCl (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). Thus, Pin1 interaction with mGluR5 potentiates NMDAR-mediated SIC upon dopamine receptor stimulation.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       Pin1 prolyl isomerase activity and mGluR5 phosphorylation are required for potentiation of mGluR5-SIC
+      </strong>
+      <p>
+       (A–D) Population time course graphs show potentiation of the mGluR5-SIC following bath application of BDNF (10 ng/ml, 10 min) or SKF38393 (1 μM). Representative traces of inward currents evoked by a micropressure pulse of glutamate plus DHPG (arrows) before (black) and after (gray) BDNF or SKF38393 application (scale bars: 200 pA, 2 sec). The values of mGluR5-SIC charge transfer were normalized to pre-BDNF or SKF38393 baseline values (0–5 min).
+      </p>
+      <p>
+       (A) BDNF-mediated potentiation of mGluR5-SIC observed in
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       neurons was blocked Pin1 peptide mimic inhibitor (gray filled circles, 0.5μM in the pipette, n=5) and Pin1 C113S-expressing
+       <em>
+        Homer1
+        <sup>
+         −/−
+        </sup>
+        Homer2
+        <sup>
+         −/−
+        </sup>
+        Homer3
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (black filled triangles, n=6), but not by Pin1 control peptide mimic (black filled circles, 0.5 μM in the pipette, n = 5). Right: bar graphs show normalized mean ± SEM (***p &lt; 0.001).
+      </p>
+      <p>
+       (B) BDNF-mediated potentiation of mGluR5-SIC was not observed in
+       <em>
+        Pin1
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (black filled circles, n = 6) or Homer 1a-expressing
+       <em>
+        Pin1
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (gray filled circles, n = 4). Right, bar graphs show normalized mean ± SEM.
+      </p>
+      <p>
+       (C) SKF38393-mediated potentiation of mGluR5-SIC observed in D1-GFP neurons pretreated with KCl was blocked by Pin1 peptide mimic inhibitor (gray filled circles, 0.5 μM in the pipette, n = 7) but not by Pin1 control peptide mimic (black filled circles, 0.5 μM in the pipette, n = 8). Right: bar graphs show normalized mean ± SEM. (***p &lt; 0.001).
+      </p>
+      <p>
+       (D) Bath-applied BDNF increased mGluR5-SIC in
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       neurons (black filled circles, n = 7). However, BDNF-mediated potentiation of mGluR5-SIC was not observed in either
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       neurons (black inverted triangles, n = 8) or Homer1a-expressing
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       neurons (gray filled diamonds, n = 8). Middle: representative whole-cell recording traces of inward currents evoked by a micropressure pulse of glutamate and DHPG (arrow) before (black) and after (gray) BDNF application (scale bars: 200 pA, 2 sec). Right: bar graphs show normalized mean ± SEM (***p &lt; 0.001). See also
+       <a>
+        Figure S4
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Potentiation of mGluR-dependent NMDA receptor current is dependent on mGluR5 phosphorylation
+    </title>
+    <p>
+     To determine whether phosphorylation of mGluR5 is required for BDNF potentiation of the mGluR5-SIC, we created a knock-in (KI) mouse expressing mutant mGluR5 that cannot be phosphorylated at T
+     <sup>
+      1123
+     </sup>
+     or S
+     <sup>
+      1126
+     </sup>
+     (
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     ) (
+     <a>
+      Figure S4A–D
+     </a>
+     ). GST-Homer1c, but not GST-Pin1, can bind mGluR5TSAA from brain lysates (
+     <a>
+      Figure S4F
+     </a>
+     ). We also generated a KI mouse expressing mutant mGluR5 in which F
+     <sup>
+      1128
+     </sup>
+     is mutated to arginine (
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Cozzoli et al., 2009
+     </xref>
+     ). mGluR5FR mutation disrupts the ability of the HomerEVH1 domain to bind (
+     <xref ref-type="bibr">
+      Beneken et al., 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tu et al., 1998
+     </xref>
+     ), and
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     mice were created to test the role of Homer in mGluR signaling (
+     <xref ref-type="bibr">
+      Cozzoli et al., 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hu et al., 2012
+     </xref>
+     ). mGluR5FR from brain lysate binds GST-Pin1, but not GST-Homer1c (
+     <a>
+      Figure S4F
+     </a>
+     ). We confirmed that levels of Homer, mGluR5, GluA1 and GluN1 in
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     or
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     mice are not different from WT (
+     <a>
+      Figure S4E
+     </a>
+     ). Striatal cultures derived from these mice were recorded to monitor the mGluR5-SIC. The basal mGluR5-SIC from
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     was identical to mGluR5-SIC from WT; however, BDNF potentiated the mGluR5-SIC in
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     neurons, without a requirement for either KCl pretreatment or Homer1a expression (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). This response mimics that of mGluR5-SIC in
+     <em>
+      Homer1
+      <sup>
+       −/−
+      </sup>
+      Homer2
+      <sup>
+       −/−
+      </sup>
+      Homer3
+      <sup>
+       −/−
+      </sup>
+     </em>
+     neurons, and is consistent with the inability of Homer1c to bind mGluR5FR and thereby compete with Pin1. Next, we examined
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     neurons, and found the basal mGluR5-SIC was not different from WT neurons; however the mGluR5-SIC in
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     neurons was not potentiated by BDNF even when Homer1a was over-expressed by viral transduction (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). These data verify that potentiation of mGluR5-SIC is dependent on Pin1 acting upon phosphorylated mGluR5. It is important to note that Pin1 is required only for conditional potentiation of mGluR5-SIC since a robust basal mGluR5-SIC is present in all conditions with the exception of the
+     <em>
+      Grm1
+      <sup>
+       −/−
+      </sup>
+      Grm5
+      <sup>
+       −/−
+      </sup>
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Homer1a potentiates Pin1-mediated isomerization of phosphorylated mGluR5
+    </title>
+    <p>
+     We examined how a concerted action of Homer and Pin1 can dynamically regulate mGluR5 at an atomic level to create different properties of the receptor using NMR spectroscopy. NMR allows detection of
+     <em>
+      cis
+     </em>
+     and
+     <em>
+      trans
+     </em>
+     isomers of prolyl peptide bonds, and importantly a direct detection of enzyme catalysis of
+     <em>
+      cis/trans
+     </em>
+     isomerization (
+     <xref ref-type="bibr">
+      Bosco et al., 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bosco et al., 2002
+     </xref>
+     ). To study the effects of Homer and Pin1 binding upon the conformational state of the mGluR5 ligand, we developed a bacterially expressed mGluR5 peptide spanning the Homer/Pin1 binding site within mGluR5. A comparison of the NMR spectra of
+     <sup>
+      15
+     </sup>
+     N labeled Homer1 EVH1 domain bound to the mGluR5 peptide or a 120 amino acid, C-terminal fragment of mGluR5 (
+     <a>
+      Figure S5A
+     </a>
+     ) show the same pattern of chemical shift changes, demonstrating that the shorter peptide is a good mimic of mGluR5 for the Homer binding studies. We used the EVH1 domain rather than the full-length Homer1a in order to simplify the NMR spectra and facilitate the identification of residues exhibiting significant chemical shifts. Homer1a contains an additional, C-terminal, 75 amino acid, intrinsically disordered sequence that is not involved in interactions with mGluR5 and does not affect the binding affinity of the EVH1 domain (data not shown). This unstructured sequence results in strong and sharp set of peaks with little chemical shift dispersion; thereby, severely diminishing the quality of the spectrum of the folded part of the protein. In addition, the Homer1 EVH1 domain residues involved in mGluR-binding, as measured by chemical shift perturbation (
+     <a>
+      Figure S5B
+     </a>
+     ), correspond to the binding surface identified in the crystal EVH1 structure of the EVH1 domain in complex with a minimal Homer binding peptide TPPSPF (
+     <xref ref-type="bibr">
+      Beneken et al., 2000
+     </xref>
+     ). This suggests that the Homer-mGluR5 interaction is restricted to the canonical surfaces and does not involve extensive additional surfaces as, for example, occurs with the EVH1 domain of WASP in association with Whip (
+     <xref ref-type="bibr">
+      Volkman et al., 2002
+     </xref>
+     ).
+    </p>
+    <p>
+     We were able to fully phosphorylate the mGluR5 peptide
+     <em>
+      in vitro
+     </em>
+     at either S
+     <sup>
+      1126
+     </sup>
+     (pS
+     <sup>
+      1126
+     </sup>
+     ) alone or pT
+     <sup>
+      1123
+     </sup>
+     /pS
+     <sup>
+      1126
+     </sup>
+     simultaneously. Phosphorylation of the mGluR5 peptide at the S
+     <sup>
+      1126
+     </sup>
+     position increased the affinity of Homer1a by more than 10-fold, from 16.4 ± 0.2 μM to 1.56 ± 0.16 μM. Additional phosphorylation at the T
+     <sup>
+      1123
+     </sup>
+     site further increased Homer1a affinity to 0.47 ± 0.1 μM (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). The phosphorylation state of either residue did not significantly affect
+     <em>
+      cis
+     </em>
+     /
+     <em>
+      trans
+     </em>
+     equilibrium at the pS-P bond (~16%
+     <em>
+      cis
+     </em>
+     ); however, phosphorylation of the S
+     <sup>
+      1126
+     </sup>
+     reduced the
+     <em>
+      cis
+     </em>
+     population of T-P bond from ~12.5% to ~6% and phosphorylation of T
+     <sup>
+      1123
+     </sup>
+     further reduced the
+     <em>
+      cis
+     </em>
+     population of the pT-P bond to &lt;1% (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Homer1 EVH1 binds to the
+     <em>
+      trans
+     </em>
+     conformation of the T
+     <sup>
+      1123
+     </sup>
+     -P bond, and binds to both, the
+     <em>
+      cis
+     </em>
+     and
+     <em>
+      trans,
+     </em>
+     conformations of S
+     <sup>
+      1126
+     </sup>
+     -P, albeit with higher affinity toward the
+     <em>
+      cis
+     </em>
+     conformation, resulting in an equilibrium shift towards the
+     <em>
+      cis
+     </em>
+     conformation of the for S
+     <sup>
+      1126
+     </sup>
+     -P bond (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). This means that double phosphorylated mGluR5, when bound to Homer, is in
+     <em>
+      trans
+     </em>
+     for the pT
+     <sup>
+      1123
+     </sup>
+     -P bond and in
+     <em>
+      cis
+     </em>
+     and
+     <em>
+      trans
+     </em>
+     for the pS
+     <sup>
+      1126
+     </sup>
+     -P bond with about equal probabilities. This contrasts with the crystal structure (
+     <xref ref-type="bibr">
+      Beneken et al., 2000
+     </xref>
+     ), in which only the
+     <em>
+      cis
+     </em>
+     conformation of the S
+     <sup>
+      1126
+     </sup>
+     -P bond could be observed in complex with the EVH1 domain.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       Phosphorylation of mGluR5 at T
+       <sup>
+        1123
+       </sup>
+       and S
+       <sup>
+        1126
+       </sup>
+       enhances its affinity for Homer1a and Homer1c similarly, allowing for direct competition between Homer1a and Homer1c for mGluR5 ligand
+      </strong>
+      <p>
+       (A) ITC (isothermal titration calorimetry) of mGluR5 peptide in different phosphorylation states into full length Homer1a shows that the phosphorylation of S
+       <sup>
+        1126
+       </sup>
+       residue (mGluR5-pS) increases mGluR5 affinity for Homer1a &gt; 10-fold from 16.4 ± 0.2 μM to 1.56 ± 0.16 μM. Double-phosphorylation at T
+       <sup>
+        1123
+       </sup>
+       and S
+       <sup>
+        1126
+       </sup>
+       sites (mGluR5-pTpS) results in a further &gt; 3-fold increase in affinity to 0.47 ± 0.1 μM.
+      </p>
+      <p>
+       (B) Expansions of the
+       <sup>
+        1
+       </sup>
+       H,
+       <sup>
+        15
+       </sup>
+       N HSQC spectra of free and Homer1 EVH1 domain bound mGluR5 peptide in different phosphorylation states, showing S
+       <sup>
+        1126
+       </sup>
+       and pS
+       <sup>
+        1126
+       </sup>
+       amide peaks corresponding to the conformers of the T
+       <sup>
+        1123
+       </sup>
+       -P and S
+       <sup>
+        1126
+       </sup>
+       -P bonds. Phosphorylation did not have a significant effect on the population of the S
+       <sup>
+        1126
+       </sup>
+       /pS
+       <sup>
+        1126
+       </sup>
+       -P bond; however, the
+       <em>
+        cis
+       </em>
+       population of the T
+       <sup>
+        1123
+       </sup>
+       -P bond drops below the 1% detection limit when both T
+       <sup>
+        1123
+       </sup>
+       and S
+       <sup>
+        1126
+       </sup>
+       are phosphorylated. Binding of Homer1 EVH1 domain favors the
+       <em>
+        cis
+       </em>
+       conformation at the S/pS
+       <sup>
+        1126
+       </sup>
+       -P bond and results in the equilibrium being shifted significantly toward
+       <em>
+        cis
+       </em>
+       (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ).
+      </p>
+      <p>
+       (C) Homer1a competes with Homer1c at 1:1 stoichiometry. ITC of either non-phosphorylated mGlu5 peptide (not shown,
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       = 15.8 ± 1.6 μM) or mGluR5-pS peptide (shown) into full-length Homer1c (K
+       <sub>
+        d
+       </sub>
+       = 1.91 ± 0.19 μM) demonstrates that Homer1a and Homer1c bind mGluR5 with same affinity and that mGluR5 phosphorylation increases the affinity to both Homer isoforms.
+      </p>
+      <p>
+       (D) Expansion of
+       <sup>
+        15
+       </sup>
+       N HSQC spectra of
+       <sup>
+        15
+       </sup>
+       N Homer1c (right) shows indol N-H [W24(Nε1)] and backbone amide resonances of several amino acids that report on ligand binding. Addition of sub-saturating amount of mGluR5-pS peptide produces a change of chemical shift from the free (red) to bound (blue) position. Subsequent addition of unlabeled Homer1a at 1:1 molar ratio with
+       <sup>
+        15
+       </sup>
+       N Homer1c (green) results in a spectrum with peaks corresponding to Homer1c in the free and bound forms, caused by partitioning of the ligand peptide to the unlabeled Homer1a, indicating that Homer1a effectively competes with Homer1c at 1:1 stoichiometry. The splitting of W24(Nε1) resonance in the ligand bound spectra (blue and green) is due to its sensitivity to the
+       <em>
+        cis
+       </em>
+       or
+       <em>
+        trans
+       </em>
+       conformation of the pS-P bond in the mGluR5 peptide. Both experiments were performed in 50mM HEPES, 150mM NaCl, 5mM TCEP (0.5 mM for ITC), pH 7.4 at 25°C. See also
+       <a>
+        Figure S5
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Isomer specific effects of mGluR5 phosphorylation at S
+         <sup>
+          1126
+         </sup>
+         and T
+         <sup>
+          1123
+         </sup>
+         /S
+         <sup>
+          1126
+         </sup>
+         on Homer1 EVH1 affinity
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Next we wanted to directly detect Pin1 catalysis on mGluR5. Using
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N heteronuclear exchange spectroscopy (ZZ-exchange) (
+     <xref ref-type="bibr">
+      Farrow et al., 1994
+     </xref>
+     ), we were able to show that Pin1 efficiently catalyzes the interconversion of the pS
+     <sup>
+      1126
+     </sup>
+     -P prolyl peptide bond in the double-phosphorylated mGluR5(pT
+     <sup>
+      1123
+     </sup>
+     pS
+     <sup>
+      1126
+     </sup>
+     ) substrate with
+     <em>
+      k
+      <sub>
+       cat
+      </sub>
+     </em>
+     1140 ± 114 s
+     <sup>
+      −1
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). This compares with an intrinsic uncatalyzed rate of pS-P isomerization of ≤ 0.01 s
+     <sup>
+      −1
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Reimer et al., 1998
+     </xref>
+     ). No catalysis was detected for the pT
+     <sup>
+      1123
+     </sup>
+     -P bond, noting that the population of the
+     <em>
+      cis
+     </em>
+     conformation of the pT
+     <sup>
+      1123
+     </sup>
+     -P bond was too low for detection by NMR (&lt; 1%). In the single-phosphorylated mGluR5(pS
+     <sup>
+      1126
+     </sup>
+     ) peptide, Pin1 catalyzed the isomerization of the pS
+     <sup>
+      1126
+     </sup>
+     -P bond with a similar
+     <em>
+      k
+      <sub>
+       cat
+      </sub>
+     </em>
+     800 ± 20 s
+     <sup>
+      −1
+     </sup>
+     (
+     <a>
+      Figure S6A
+     </a>
+     ). We found that the WW domain binds the mGluR5(pT
+     <sup>
+      1123
+     </sup>
+     pS
+     <sup>
+      1126
+     </sup>
+     ) peptide tightly at the pT
+     <sup>
+      1123
+     </sup>
+     -P site (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     of 10.7 ± 0.2 μM), while the catalytic domain acts on the pS
+     <sup>
+      1126
+     </sup>
+     -P site in mGluR5 (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ). Efficient Pin1 catalysis of the pS
+     <sup>
+      1126
+     </sup>
+     -P site is fully consistent with the
+     <em>
+      in vivo
+     </em>
+     experiments indicating that this catalysis is the key event for dopamine dependent plasticity.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Pin1 catalyzes isomerization of pS
+       <sup>
+        1126
+       </sup>
+       -P bond in mGluR5-pTpS in the absence and presence of Homer1a
+      </strong>
+      <p>
+       (A) Expansion of
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N ZZ-heteronuclear exchange (
+       <xref ref-type="bibr">
+        Farrow et al., 1994
+       </xref>
+       ) spectra of
+       <sup>
+        15
+       </sup>
+       N labeled, mGluR5-pT/pS peptide spanning the Homer ligand site at 25°C showing amide signals corresponding to
+       <em>
+        cis
+       </em>
+       and
+       <em>
+        trans
+       </em>
+       isomers of pS
+       <sup>
+        1126
+       </sup>
+       residue. Conformational exchange between
+       <em>
+        cis
+       </em>
+       and
+       <em>
+        trans
+       </em>
+       isomers was slow on the NMR timescale (k
+       <sub>
+        ex
+       </sub>
+       &lt; 0.1 s
+       <sup>
+        −1
+       </sup>
+       ) in absence of Pin1 (left). Addition of catalytic amount of Pin1 (1mM
+       <sup>
+        15
+       </sup>
+       N peptide, 20 μM Pin1) resulted in the appearance of exchange peaks in the ZZ-exchange spectrum, indicating efficient catalysis of the pS-P bond isomerization by Pin1 (middle, shown with mixing time (τ
+       <sub>
+        m
+       </sub>
+       ) = 43.9 ms). By varying τ
+       <sub>
+        m
+       </sub>
+       and fitting the resulting peak intensities for the auto-correlated and exchange peaks (
+       <xref ref-type="bibr">
+        Farrow et al., 1994
+       </xref>
+       ), the exchange rate constant (k
+       <sub>
+        ct
+       </sub>
+       and k
+       <sub>
+        tc
+       </sub>
+       ) could be obtained (right) and the
+       <em>
+        K
+       </em>
+       <sub>
+        cal
+       </sub>
+       for Pin1 catalyzed isomerization of pS
+       <sup>
+        1126
+       </sup>
+       -P bond could be calculated to be 1140 ± 114s
+       <sup>
+        −1
+       </sup>
+       as
+       <span>
+        <math>
+         <msub>
+          <mi>
+           k
+          </mi>
+          <mi>
+           cat
+          </mi>
+         </msub>
+         <mo>
+          =
+         </mo>
+         <mstyle>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>
+              k
+             </mi>
+             <mrow>
+              <mi>
+               e
+              </mi>
+              <mi>
+               x
+              </mi>
+             </mrow>
+            </msub>
+            <mo>
+             [
+            </mo>
+            <mi>
+             S
+            </mi>
+            <mo>
+             ]
+            </mo>
+           </mrow>
+           <mrow>
+            <mo>
+             [
+            </mo>
+            <mi>
+             E
+            </mi>
+            <mo>
+             ]
+            </mo>
+           </mrow>
+          </mfrac>
+         </mstyle>
+        </math>
+       </span>
+       <span>
+       </span>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1" overflow="scroll"><msub><mi>k</mi><mi mathvariant="italic">cat</mi></msub><mo>=</mo><mstyle scriptlevel="1"><mfrac><mrow><msub><mi>k</mi><mrow><mi>e</mi><mi>x</mi></mrow></msub><mo stretchy="false">[</mo><mi>S</mi><mo stretchy="false">]</mo></mrow><mrow><mo stretchy="false">[</mo><mi>E</mi><mo stretchy="false">]</mo></mrow></mfrac></mstyle></math>
+       </script>
+       (
+       <xref ref-type="bibr">
+        Bosco et al., 2010
+       </xref>
+       ), where
+       <em>
+        K
+        <sub>
+         ex
+        </sub>
+       </em>
+       is the sum of
+       <em>
+        trans
+       </em>
+       to
+       <em>
+        cis
+       </em>
+       and
+       <em>
+        cis
+       </em>
+       to
+       <em>
+        trans
+       </em>
+       exchange rates.
+      </p>
+      <p>
+       (B) Similarly, no exchange was observed in the sample containing Homer1a at 1:1 molar ratio to
+       <sup>
+        15
+       </sup>
+       N mGluR5-pTpS peptide in absence of Pin1 (left). A higher, but still substoichiometric, ratio of Pin1 was required to accelerate the
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       isomerization of the pS
+       <sup>
+        1126
+       </sup>
+       -P bond in the presence of Homer1a (0.82 mM
+       <sup>
+        15
+       </sup>
+       N peptide, 0.82 mM Homer1a, 82 μM Pin1) to a rate of ≥ 0.1 sec
+       <sup>
+        −1
+       </sup>
+       observable in a ZZ-exchange spectrum (right, shown τ
+       <sub>
+        m
+       </sub>
+       = 333.7 ms). This indicates that Pin1 is able to effectively compete with Homer1a for the mGluR5 ligand and catalyze the pS
+       <sup>
+        1126
+       </sup>
+       -P bond. At the concentrations of the component proteins used, the exchange rate of 0.1 s
+       <sup>
+        −1
+       </sup>
+       corresponds to a k
+       <sub>
+        cat
+       </sub>
+       of 1 s
+       <sup>
+        −1
+       </sup>
+       , which represents more than a 100-fold acceleration of the intrinsically slow, uncatalyzed isomerization rate of pS-P bond in a free peptide of &lt; 0.01 s
+       <sup>
+        −1
+       </sup>
+       (
+       <xref ref-type="bibr">
+        Reimer et al., 1998
+       </xref>
+       ). See also
+       <a>
+        Figure S6
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     While Homer proteins are not required for the dynamic increase of the mGluR-SIC, as seen from experiments in Homer triple KO background, this pathway operates in presence of Homer1a
+     <em>
+      in vivo
+     </em>
+     . Accordingly, we tested the ability of Pin1 to accelerate isomerization of mGluR5 in the presence of Homer1a. At Homer1a concentrations equimolar to the mGluR5-pS or mGluR5-pTpS peptide, Pin1 was able to catalyze isomerization of pS
+     <sup>
+      1126
+     </sup>
+     -P bond at sub-stoichiometric (1:10) ratio (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     and
+     <a>
+      S6B
+     </a>
+     ). This ratio is comparable or lower than the estimated Pin1/Homer1 ratio in PSD fractions from the brain (about 1:12, unpublished data). These findings demonstrate that Pin1 can efficiently exert catalytic activity toward mGluR5 in the presence of Homer1a.
+    </p>
+    <p>
+     Finally, Homer1c displacement by Homer1a is required
+     <em>
+      in vivo
+     </em>
+     for activation of this signaling cascade. Based on the fact that Homer1a and Homer1c share an identical binding (EVH1) domain, we predicted that their interactions with mGluR5 would be analogous. Using ITC, we assessed the binding of both proteins to mGluR5 and mGluR5(pS
+     <sup>
+      1126
+     </sup>
+     ) peptides. We found the affinities to be the same within experimental error, with a roughly 10-fold increase in affinity following phosphorylation of S
+     <sup>
+      1126
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). Using a competition experiment monitored by NMR we indeed find that Homer1a can displace the mGluR5(pS
+     <sup>
+      1126
+     </sup>
+     ) ligand bound to
+     <sup>
+      15
+     </sup>
+     N Homer1c (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ) thereby allowing Pin1 catalysis to occur on mGluR5.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     mGluR5-Pin1 mechanism is essential for cocaine sensitization
+    </title>
+    <p>
+     To link our biochemical and electrophysiological findings to cocaine-induced changes in brain and behavior, we used genetic mouse models to assess a possible role for mGluR5 phosphorylation, Homer1a, and Pin1 in behavioral responsiveness to cocaine. Acute administration of cocaine induces phosphorylation of mGluR5 and induction of Homer1a in striatum (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). Repeated administration of cocaine increases locomotor activity in response to a subsequent test dose of cocaine (sensitization), providing a model of cocaine-induced plasticity that may be proxy to addiction.
+     <em>
+      Homer1a
+      <sup>
+       −/−
+      </sup>
+     </em>
+     mice showed similar basal motor activity as WT [WT: 14.4 ± 1.4 m (n = 34);
+     <em>
+      Homer1a
+      <sup>
+       −/−
+      </sup>
+     </em>
+     : 13.4 ± 1.3 m (n = 38); t-test, n.s.], yet displayed a profound deficit of cocaine motor sensitization, despite a WT-like response to the initial dose of cocaine (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). Similarly,
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     mice showed similar basal motor activity as WT [WT: 15.1 ± 0.9 m (n = 41);
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     : 14.2 ± 0.84 m (n = 45), t-test, n.s.] and an increased locomotor response to acute cocaine, but markedly reduced sensitization (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). By contrast,
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     mice displayed basal activity [WT: 13.4 ± 0.7 m;
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     : 12.5 ± 0.6 m, n = 35/genotype; t-test, n.s.], acute cocaine-induced motor activation, and motor sensitization after the 4
+     <sup>
+      th
+     </sup>
+     dose of cocaine that were all similar to WT mice (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). The latter result indicates that the altered cocaine responses observed in Homer1
+     <sup>
+      −/−
+     </sup>
+     and Homer2
+     <sup>
+      −/−
+     </sup>
+     mice (
+     <xref ref-type="bibr">
+      Szumlinski et al., 2004
+     </xref>
+     ) are not due simply to reduced Homer binding to mGluR5. Neurochemical measures of basal and cocaine-evoked increases of glutamate and dopamine within the nucleus accumbens paralleled behavioral findings and provide independent evidence of deficits of cocaine-induced neuroplasticity (
+     <a>
+      Figure S7A–D and 6E–H
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Cornish and Kalivas, 2001
+     </xref>
+     ). As a further test, we examined Pin1 heterozygous mice that expressed a single copy of mGluR5TSAA (
+     <em>
+      Grm5
+      <sup>
+       TS/AA
+      </sup>
+      Pin1
+      <sup>
+       +/−
+      </sup>
+     </em>
+     ) (
+     <em>
+      Pin1
+      <sup>
+       −/−
+      </sup>
+     </em>
+     mice have reduced viability). Mice heterozygous for either allele alone showed normal cocaine-induced hyperactivity and motor sensitization, while double heterozygotes showed reduced motor sensitization, despite WT-levels of activity in response to acute cocaine (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). These data support a role for phosphorylation of mGluR5, induction of Homer1a, and Pin1 in cocaine-induced sensitization.
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       Phosphorylation of mGluR5 and Homer1a are required for cocaine sensitization
+      </strong>
+      <p>
+       (A–D) Cocaine locomotion and sensitization with cocaine administration (10mg/kg or 30mg/kg, i.p. four times) in
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       ,
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       ,
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       , and
+       <em>
+        Grm5
+        <sup>
+         TS/AA
+        </sup>
+        Pin1
+        <sup>
+         +/−
+        </sup>
+       </em>
+       mice. (A)
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       mice showed normal acute sensitivity to cocaine, but impaired cocaine sensitization, n = 17, 17, 17, 21 from left to right. (B)
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       mice showed enhanced sensitivity to acute cocaine, but impaired cocaine sensitization, n = 17, 17, 24, 28 from left to right. (C)
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       mice showed normal cocaine responsiveness, n = 17, 16, 18, 19 from left to right. (D)
+       <em>
+        Grm5
+        <sup>
+         TS/AA
+        </sup>
+        Pin1
+        <sup>
+         +/−
+        </sup>
+       </em>
+       mice showed normal acute sensitivity to cocaine, but impaired cocaine sensitization, n = 17, 17, 16, 9 from left to right. *P &lt; 0.05, versus WT littermate controls.
+       <em>
+        Grm5
+        <sup>
+         TS/AA
+        </sup>
+       </em>
+       and
+       <em>
+        Pin1
+        <sup>
+         +/−
+        </sup>
+       </em>
+       were normalized to their own WT littermate controls since they were tested in distinct experiments.
+      </p>
+      <p>
+       (E–H) Glutamate and dopamine levels in the nucleus accumbens in cocaine-treated
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       and
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       mice. (E, F)
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       mice exhibited normal glutamate and dopamine responses to the 1
+       <sup>
+        st
+       </sup>
+       injection of 30 mg/kg cocaine, but blunted neurotransmitter responsiveness to the 4
+       <sup>
+        th
+       </sup>
+       injection of this dose. *P &lt; 0.05, n = 8 each group (G, H)
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       mice exhibited a normal glutamate response to the 1
+       <sup>
+        st
+       </sup>
+       injection of 10 mg/kg cocaine, a modest reduction in the capacity of the 1
+       <sup>
+        st
+       </sup>
+       injection of 10 mg/kg cocaine to elevate dopamine, but blunted neurotransmitter responsiveness to the 4
+       <sup>
+        th
+       </sup>
+       injection of this dose. *P &lt; 0.05, n = 7 in WT and 9 in
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       . Where shown, data are reported as means ± SEM. See also
+       <a>
+        Figure S7
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Homer1a and mGluR5 phosphorylation are required for dopamine inhibition of depotentiation of corticostriatal LTP
+    </title>
+    <p>
+     Corticostriatal synapses exhibit NMDA-dependent LTP that is mGluR5-dependent (
+     <xref ref-type="bibr">
+      Pisani et al., 2001
+     </xref>
+     ). LTP can be depotentiated by a subsequent low-frequency, NMDA-dependent synaptic activation that is similar to LTD (
+     <xref ref-type="bibr">
+      Centonze et al., 2006
+     </xref>
+     ). Depotentiation is blocked by pretreatment of slices with D1 agonist or cocaine 1 hr. prior to the LTP-depotentiation stimulus, but not if the same agents are administered acutely during LTP-depotentiation (
+     <xref ref-type="bibr">
+      Centonze et al., 2006
+     </xref>
+     ). Moreover, depotentiation is absent in slices prepared from rodents following repeated cocaine administration that is sufficient to evoke motor sensitization, and failure of depotentiation is proposed as a synaptic correlate of cocaine-induced motor sensitization (
+     <xref ref-type="bibr">
+      Centonze et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pascoli et al., 2012
+     </xref>
+     ). We confirmed corticostriatal LTP and depotentiation in field recordings of acute slices from WT mice (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Further, pretreatment with selective D1 receptor agonist SKF38393 (3 μM, 0.5 hrs. before HFS) prevented depotentiation in WT slices (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Using slices from
+     <em>
+      Homer1a
+      <sup>
+       −/−
+      </sup>
+     </em>
+     mice, corticostriatal LTP and depotentiation were not different from WT slices, however, pretreatment with SKF38393 failed to block depotentiation (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). Similarly, in slices derived from
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     mice, corticostriatal LTP and depotentiation appeared normal, however SKF38393 failed to block depotentiation (
+     <xref ref-type="fig">
+      Figure 7C and 7D
+     </xref>
+     ). By contrast,
+     <em>
+      acute
+     </em>
+     SKF38393, which did not block depotentiation in WT mouse slices, did block depotentiation in
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     mouse slices (
+     <xref ref-type="fig">
+      Figure 7E and 7F
+     </xref>
+     ). Since
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     does not require Homer1a for stimulus dependent potentiation of NMDAR (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ), this finding suggests that normal requirement of pretreatment with SKF38393 is to allow time of induction of Homer1a. These results provide further support for the hypothesized role for depotentiation of corticostriatal LTP in cocaine sensitization (
+     <xref ref-type="bibr">
+      Centonze et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pascoli et al., 2012
+     </xref>
+     ), and implicate the present mGluR5 signaling pathway.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       Phosphorylation of mGluR5 and Homer1a are required for corticostriatal synaptic plasticity implicated in cocaine addiction
+      </strong>
+      <p>
+       (A–F) High-frequency stimulation (HFS) induced LTP of the corticostriatal synapse in field potential recordings of brain slices prepared from WT,
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       ,
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       or
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       mice. Subsequent low-frequency stimulation (LFS) induced depotentiation in WT controls for
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 7, A),
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       (n = 11, C) and
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       (n = 5, E). Depotentiation was inhibited by preincubation with SKF38393 (3 μM beginning 0.5 hrs. before HFS and continuous thereafter), a specific D1-like receptor agonist (n = 6 WT for
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       , A; n = 8 WT for
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       , C). However, depotentiation was not affected by acute application of SKF38393 (3 μM, beginning 25 min after HFS) in WT controls (n = 4, E). Synaptic depotentiation was normal in
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 8, B),
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       (n = 12, D) and
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       (n = 8, F), however, synaptic depotentiation was not inhibited by pretreatment with SKF38393 in
+       <em>
+        Homer1a
+        <sup>
+         −/−
+        </sup>
+       </em>
+       (n = 10, B) or
+       <em>
+        Grm5
+        <sup>
+         AA/AA
+        </sup>
+       </em>
+       (n = 12, D). Note that acute application of SKF38393 prevented depotentiation only in
+       <em>
+        Grm5
+        <sup>
+         R/R
+        </sup>
+       </em>
+       (n = 6, F).
+       <em>
+        Bottom
+       </em>
+       : representative traces are striatal field potential recordings of the population spike (PS) 10 min before HFS, 10 min (in A–D) or 20 min (in E and F) after HFS, and 70 min after LFS (scale bars: 2 mV, 20 msec).
+      </p>
+      <p>
+       Where shown, data are reported as means ± SEM.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The present study defines a D1 dopamine receptor signaling pathway that potentiates the ability of mGluR5 to activate NMDA receptors, and implicates this pathway in cocaine-induced plasticity (see graphical Abstract). Pin1 catalysis on mGluR5(pS
+    <sup>
+     1126
+    </sup>
+    ) is central to this signaling. Homer1a is also required to compete with Homer1b/c to create a permissive condition for Pin1 to bind and catalyze
+    <em>
+     cis/trans
+    </em>
+    isomerization of the pS
+    <sup>
+     1126
+    </sup>
+    -P peptide bond. While Pin1 catalysis does not alter the
+    <em>
+     cis/trans
+    </em>
+    equilibrium around the pS
+    <sup>
+     1126
+    </sup>
+    -P bond, it does accelerate the interconversion between the conformations by &gt; 10
+    <sup>
+     5
+    </sup>
+    fold. We propose that Pin1 acts as a control for an “active state” of mGluR5 that is kinetically inaccessible without the isomerase. Mechanisms that mediate coupling to NMDA receptors remain to be elucidated.
+   </p>
+   <p>
+    <em>
+     In vivo
+    </em>
+    experiments demonstrate that Homer1c, but not Homer1a, precludes Pin1 interaction with mGluR5 (
+    <xref ref-type="fig">
+     Figure 1C
+    </xref>
+    ), which seems to contradict NMR and ITC data showing identical binding of mGluR5 peptide with Homer1a and 1c. However, in the cellular context, full-length mGluR5 is a dimer constrained to the plasma membrane and bound to scaffolding proteins that possess additional binding sites for Homer EVH1 (
+    <xref ref-type="bibr">
+     Hu et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tu et al., 1999
+    </xref>
+    ). We envision that multivalent Homer1c and Homer2 assemblies bind these multiple sites within the mGluR signaling complex, and this increases the effective affinity of Homer binding (correctly termed avidity when multivalent) in a way that is not mimicked in our NMR experiments. Homer1a is monovalent and can compete with Homer1c at individual binding sites within the mGluR5 complex, and when Homer1a binds it relieves a steric hindrance upon mGluR5 C-terminus that then allows Pin1 to effectively compete for binding and catalyze isomerization.
+   </p>
+   <p>
+    Cocaine potentiates the corticostriatal synapse onto D1 dopamine receptor-containing medium spiny neurons and optogenetic reversal of cocaine-induced LTP
+    <em>
+     in vivo
+    </em>
+    reverses motor sensitization (
+    <xref ref-type="bibr">
+     Pascoli et al., 2012
+    </xref>
+    ). This suggests that the agents that enhance depotentiation offer therapeutic potential for cocaine addiction. Both LTP and depotentiation are dependent on NMDA receptors, while only depotentiation is blocked by D1R activation (
+    <xref ref-type="bibr">
+     Centonze et al., 2006
+    </xref>
+    ). Our finding that D1 receptor block of depotentiation is dependent on Pin1 acting on mGluR5 suggests that inhibitors of Pin1, or allosteric modulators of mGluR5 that selectively disrupt this output, could be useful in treating drug addiction.
+   </p>
+   <p>
+    D1 receptor activation of the mGluR5(pS1126)-Pin1 mechanism alters the ability of subsequent synaptic activity to induce NMDA-dependent plasticity, and provides a molecular basis for metaplasticity. The requirement for Homer1a suggests how synapse-specific plasticity may arise in the IEG response. mGluR5 phosphorylation is dependent upon activation of MAP kinase and the synergistic action of NMDA and D1 dopamine receptors for activation of MAP kinase (
+    <xref ref-type="bibr">
+     Kaphzan et al., 2006
+    </xref>
+    ) could localize this response to specific synapses. The combined phosphorylation of T
+    <sup>
+     1123
+    </sup>
+    and S
+    <sup>
+     1126
+    </sup>
+    increases Homer1 EVH1 binding affinity by 40-fold, and assures that Pin1 action is conditional upon the presence of Homer1a at the synapse. The increased affinity may also serve to concentrate Homer1a at activated synapses. Homer1a is highly dynamic and induced by NMDA-dependent mechanisms, and in association with a variety of neural activating stimuli including place-cell activity of hippocampal neurons, visual experience in cortex and cocaine (
+    <xref ref-type="bibr">
+     Brakeman et al., 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ghasemzadeh et al., 2009
+    </xref>
+    ). Homer1a is an unusual IEG in that it includes a large intron that delays the generation of Homer1a mRNA for more than 20 min after a stimulus (
+    <xref ref-type="bibr">
+     Bottai et al., 2002
+    </xref>
+    ), and protein induction becomes evident only after 1 hr [
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ; (
+    <xref ref-type="bibr">
+     Brakeman et al., 1997
+    </xref>
+    )]. It may therefore be relevant that Homer EVH1 binding increases the population of the
+    <em>
+     cis
+    </em>
+    pS
+    <sup>
+     1126
+    </sup>
+    -P conformer, as this may prolong the lifetime of the phosphorylated state of mGluR5, since phosphatases act preferentially on the
+    <em>
+     trans
+    </em>
+    conformers (
+    <xref ref-type="bibr">
+     Zhou et al., 2000
+    </xref>
+    ). Homer1a is reported to target to specific synapses in response to BDNF, and this is dependent on MAP kinase activation (
+    <xref ref-type="bibr">
+     Kato et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Okada et al., 2009
+    </xref>
+    ). Homer1a needs to reach a near-stoichiometric ratio with synaptic Homer1c in order for Pin1 to efficiently bind for catalysis. This, together with the observation that Homer1a protein expression is many fold less than Homer1c, even at its peak induction, underscores the importance of selective Homer1a targeting to facilitate Pin1 catalysis. In a model of protein synthesis dependent synaptic plasticity and tagging (
+    <xref ref-type="bibr">
+     Frey and Morris, 1997
+    </xref>
+    ), mGluR5(pS
+    <sup>
+     1126
+    </sup>
+    ) could function as the “tag” for targeting of newly synthesized Homer1a protein to activated synapses. The present model contrasts with the action of Homer1a in the absence of a neuromodulator, wherein Homer1a mediates global homeostatic scaling down of synaptic strength (
+    <xref ref-type="bibr">
+     Hu et al., 2010
+    </xref>
+    ) and appears to reduce mGluR coupling to NMDAR (
+    <xref ref-type="bibr">
+     Moutin et al., 2012
+    </xref>
+    ). It is possible these different Homer1a-dependent processes occur in the same neuron to enhance NMDA plasticity at synapses with mGluR5(pS
+    <sup>
+     1126
+    </sup>
+    ) and scale down synaptic strength at other synapses.
+   </p>
+   <p>
+    The mGluR-Pin1 mechanism likely contributes to neural plasticity beyond cocaine motor sensitization. Our studies with BDNF activation of TrkB indicate that mGluR5(pS1126)-Pin1 signaling couples to NMDA receptors in both D1 and D2 expressing medium spiny neurons since all cells respond to BDNF. The role in D2 receptor expressing neurons remains to be examined. Drug withdrawal and intensification of drug craving are associated with increased BDNF-TrkB signaling (
+    <xref ref-type="bibr">
+     Pickens et al., 2011
+    </xref>
+    ), in which mGluR5(pS
+    <sup>
+     1126
+    </sup>
+    ) might contribute to persistence. Loss of dopamine-dependent depotentiation of cortico-striatal inputs is also described in L-Dopa-induced dyskinesia, a model relevant to Parkinson’s disease (
+    <xref ref-type="bibr">
+     Picconi et al., 2003
+    </xref>
+    ). Other neuromodulator receptors that activate proline-directed kinases, including M1/3 muscarinic (
+    <xref ref-type="bibr">
+     Crespo et al., 1994
+    </xref>
+    ) could utilize this mechanism to modify NMDA-dependent plasticity. Astrocytes also express group I mGluRs and have been implicated in release of glutamate to activate NMDA receptors (
+    <xref ref-type="bibr">
+     D’Ascenzo et al., 2007
+    </xref>
+    ), which could contribute to
+    <em>
+     in vivo
+    </em>
+    actions we observe. The molecular and kinetic properties of the interplay between phosphorylated mGluR, Homer1a and Pin1 create a novel set of plasticity contingencies that are compelling to integrate with activity-dependent development, motivation and learning, and disease states linked to group I mGluR function.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <sec>
+    <title>
+     Antibodies
+    </title>
+    <p>
+     mGluR5 phosphor-S
+     <sup>
+      1126
+     </sup>
+     antibody was generated in rabbits using rat mGluR5 peptide (ELVALTPPpSPFRD) as antigen (1:3000 for western blot). mGluR5 phosphor-T
+     <sup>
+      1123
+     </sup>
+     antibody was generated in rabbits using rat mGluR5 peptide (ELVALpTPPSPFRD) as antigen (1:1000 for western blot). These antibodies also detect mGluR1(pS
+     <sup>
+      1154
+     </sup>
+     ) and mGluR1(pT
+     <sup>
+      1151
+     </sup>
+     ), respectively. All other antibodies were previously described or were acquired commercially and their dilutions are: mGluR5 (Upstate) at 1:10000, Pin1 (Upstate) at 1:3000, GluA1 (JH1710) at 1:1000, GluA2 (JH1707) at 1:500, NR1 (Millipore) at 1:1000, pan Homer at 1:10000, Actin (Sigma Aldrich) at 1:10000, HA-HRP (Roche) at 1:4000, Myc-HRP (Santa Cruz) at 1:2000.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Transfection and Co-immunoprecipitation assays
+    </title>
+    <p>
+     HEK293T cells were cultured in DMEM medium with 10% FBS. Transfections were performed with Fugene 6 to manufacture’s specifications. Cells were harvested two days after transfection. HEK293T cells or mouse brain tissues were used for the co-immunoprecipitation assay as previous reported(
+     <xref ref-type="bibr">
+      Hu et al., 2012
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Recombinant Sindbis virus and infection
+    </title>
+    <p>
+     Recombinant Sindbis viruses were prepared as previously reported (
+     <xref ref-type="bibr">
+      Hu et al., 2010
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biophysical studies
+    </title>
+    <p>
+     Homer1 EVH1, Homer1, Homer1c and mGluR5(C-term) proteins were expressed in
+     <em>
+      E. coli
+     </em>
+     as 6x-His-tagged constructs in either pET28a or pET30a vector. Pin1 constructs were expressed as GST-tagged proteins in pGEX-4T2 vector. Expression and purification was done according to standard protocols for His- and GST-tagged proteins. mGluR5 peptides were expressed as GB1 domain fusion proteins as described previously in Shim
+     <em>
+      et al.
+     </em>
+     for TRPC1 channel peptides (
+     <xref ref-type="bibr">
+      Shim et al., 2009
+     </xref>
+     ), cleaved with AcTEV protease, further purified by HPLC and phosphorylated by Erk2/MAPK2.
+    </p>
+    <p>
+     <sup>
+      15
+     </sup>
+     N HSQC (
+     <xref ref-type="bibr">
+      Kay et al., 1992
+     </xref>
+     ) and
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N heteronuclear ZZ-exchange (
+     <xref ref-type="bibr">
+      Farrow et al., 1994
+     </xref>
+     ) experiments were acquired on Varian INOVA 500MHz and 600MHz spectrometers at 25°C. All NMR and ITC experiments were carried out in the final buffer consisting of 50mM HEPES, 150mM NaCl, pH 7.4, and 2mM TCEP for NMR and 0.5 mM for ITC, respectively.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Whole-cell voltage clamp recording
+    </title>
+    <p>
+     Whole-cell patch-clamp recordings from striatal cultures were performed at 30–32 °C. The recording chamber was continuously perfused with artificial cerebrospinal fluid (aCSF) containing (in mM): 124 NaCl, 2.5 KCl, 1.3 MgCl
+     <sub>
+      2
+     </sub>
+     , 2.5 CaCl
+     <sub>
+      2
+     </sub>
+     , 1 NaH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     , 26.2 NaHCO
+     <sub>
+      3
+     </sub>
+     and 10 glucose, equilibrated with 95% O
+     <sub>
+      2
+     </sub>
+     and 5% CO
+     <sub>
+      2
+     </sub>
+     (pH 7.4, 300 ± 5 mmol/kg). The bath solution contained both 1 μM TTX and 10 μM GABAzine to block voltage-sensitive Na channels and GABA
+     <sub>
+      A
+     </sub>
+     receptors, respectively. Striatal medium-spiny neurons (11–14 days in vitro) were identified using Dodt gradient contrast optics. GFP-co-transfected neurons were also identified under epifluorescence. The pipette solution contained (in mM): 135 Cs-methanesulfonate, 10 CsCl, 0.2 ethylene glycol tetraacetic acid, 4 Na-ATP, 0.4 Na-GTP, and 10 HEPES (pH 7.25, 290 ± 2 mmol/kg). Patch pipettes were pulled from borosilicate glass (4–5 MΩ) using a horizontal puller (Sutter Instruments, Novato, CA). Signals were recorded with a Multiclamp 700B amplifier (Molecular Devices, Union City, CA), filtered at 2 kHz and digitized at 10 kHz.
+    </p>
+    <p>
+     For measurement of the I-V curves, glutamate and DHPG-evoked responses were recorded at a range of command potentials ranging from −80 mV to +60 mV in 20 mV steps. Peak current amplitudes were normalized to the value measured at −60mV in 1.3 mM Mg
+     <sup>
+      2+
+     </sup>
+     - containing normal ACSF. Data were acquired &gt;10 min after achieving the whole-cell configuration. Series resistances (Rs) ranged between 10 and 15 MΩ. Cells were rejected from analysis if Rs changed by more than 15%. All group data are shown as mean ± standard error of the mean (SEM). Statistical comparison was performed by the independent t test.
+    </p>
+    <p>
+     All drugs were purchased from Tocris (Ellisville, MO) except for TTX (Ascent Scientific LLC, Princeton, NJ), BDNF, GDNF and K252a (Calbiochem, CA). The Pin1 inhibitor peptide (Ac–Phe–Phe–pSer-Ψ[(
+     <em>
+      Z
+     </em>
+     )CH=C]-Pro–Arg–NH
+     <sub>
+      2
+     </sub>
+     ) and its associated control substrate peptide (Ac–Phe–Tyr–pSer–Pro–Arg–NH
+     <sub>
+      2
+     </sub>
+     ) were synthesized as reported (
+     <xref ref-type="bibr">
+      Namanja et al., 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wang et al., 2004
+     </xref>
+     ). The n reported in Figures is the number of cells recorded, which were from individual embryos.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Field potential recording
+    </title>
+    <p>
+     For recording, coronal brain hemislices were transferred to an interface type chamber, maintained at 32 °C for 1hr, and perfused continuously with nominally magnesium free-aCSF at a rate of 4–5 ml/min to reliably activate the N-methyl-D-aspartate receptor (NMDAR) (
+     <xref ref-type="bibr">
+      Calabresi et al., 1992
+     </xref>
+     ). The recording electrodes filled with 0.9 % NaCl were located in the dorsomedial striatum, as previously described (
+     <xref ref-type="bibr">
+      Yin et al., 2007
+     </xref>
+     ). Extracellular field recordings were evoked by stimulation of the white matters between the cortex and the striatum with a parallel bipolar electrode (FHC, Bowdoin, ME). The test stimulus intensity was adjusted to elicit 30 % of the maximal population spike (PS). Test stimuli were delivered every 30 sec with 0.1 msec pulse duration.
+    </p>
+    <p>
+     A high frequency stimulation protocol (HFS, three 3sec duration, 100 Hz frequency, 20 sec interval) was used to induce long-term potentiation (LTP) in the dorsomedial striatum (
+     <xref ref-type="bibr">
+      Calabresi et al., 1992
+     </xref>
+     ). The stimulus pulse duration of HFS was 0.2 msec, which was two times stronger than the test stimulus. A low frequency stimulation (LFS, 2Hz, 10min) protocol was used to depotentiate LTP caused by prior HFS (
+     <xref ref-type="bibr">
+      Calabresi et al., 1992
+     </xref>
+     ) The stimulus pulse duration of LFS was 0.1msec. The amplitudes of the PS were normalized to baseline values (−5 min to 0 min) before HFS. The n reported in Figures is the number of slices. In all cases except
+     <xref ref-type="fig">
+      Figure 7E
+     </xref>
+     , slices were obtained from &gt;3 mice. Recordings of WT mice in 8E that examined the effect of SKF38393 used slices from 2 mice.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Behavioral assays
+    </title>
+    <p>
+     Genotypic differences in cocaine-induced locomotor activity were assessed in 15-min sessions, using digital video-tracking (
+     <em>
+      Grm5
+      <sup>
+       R/R
+      </sup>
+     </em>
+     ,
+     <em>
+      Grm5
+      <sup>
+       AA/AA
+      </sup>
+     </em>
+     and
+     <em>
+      Homer1a
+      <sup>
+       −/−
+      </sup>
+     </em>
+     mice) or automated activity monitors (
+     <em>
+      Grm5
+      <sup>
+       TS/AA
+      </sup>
+      Pin1
+      <sup>
+       +/−
+      </sup>
+     </em>
+     mice). Mice were injected intraperitoneal (vol = 0.01 ml/kg) with either 10 or 30 mg/kg cocaine (NIDA) and immediately placed into the testing apparatus. For repeated treatment, injections were administered every other day, consistent with previous studies of cocaine-induced sensitization in mice (e.g.,
+     <xref ref-type="bibr">
+      Szumlinski et al., 2007
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      In vivo
+     </em>
+     microdialysis and HPLC procedures
+    </title>
+    <p>
+     The surgical,
+     <em>
+      in vivo
+     </em>
+     microdialysis and HPLC procedures for the sequential detection of dopamine and glutamate in the dialysate were performed as described (
+     <xref ref-type="bibr">
+      Szumlinski et al., 2007
+     </xref>
+     ), and detailed in the
+     <a>
+      Supplement
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Statistical analysis
+    </title>
+    <p>
+     All the data were analyzed by two-tailed Student’s t test except the analysis of the behavioral and neurochemical data, which were analyzed by multi-factorial ANOVAs with repeated measures on the Injection or Time factors. Values are presented as means ± SEM.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (31M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     02
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (8.8M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

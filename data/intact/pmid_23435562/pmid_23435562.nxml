@@ -1,0 +1,2009 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3604722
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural basis for the nuclear export activity of Importin13
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Importin13 (Imp13) is a bidirectional karyopherin that can mediate both import and export of cargoes. Imp13 recognizes several import cargoes, which include the exon junction complex components Mago-Y14 and the E2 SUMO-conjugating enzyme Ubc9, and one known export cargo, the translation initiation factor 1A (eIF1A). To understand how Imp13 can perform double duty, we determined the 3.6-Å crystal structure of Imp13 in complex with RanGTP and with eIF1A. eIF1A binds at the inner surface of the Imp13 C-terminal arch adjacent and concomitantly to RanGTP illustrating how eIF1A can be exported by Imp13. Moreover, the 3.0-Å structure of Imp13 in its unbound state reveals the existence of an open conformation in the cytoplasm that explains export cargo release and completes the export branch of the Imp13 pathway. Finally, we demonstrate that Imp13 is able to bind and export eIF1A
+     <em>
+      in vivo
+     </em>
+     and that its function is essential.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     eIF1A, export, Importin13, nucleo-cytoplasmic transport
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In eukaryotic cells, the nuclear envelope selectively separates the nucleus, where transcription and splicing occur, from the cytoplasm, where translation takes place. Proteins and RNAs can cross this barrier through the nuclear pore complexes (NPCs). Small molecules, up to ∼20–40 kDa, can passively diffuse across the NPCs, while other molecules need to be actively transported (
+    <xref ref-type="bibr">
+     Görlich and Kutay, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mohr et al, 2009
+    </xref>
+    ). Active nucleo-cytoplasmic transport is mainly mediated by a superfamily of proteins, known as karyopherins. Karyopherins can be divided into two groups based on their directionality: importins translocate cargoes from the cytoplasm to the nucleus, while exportins transport their cargoes from the nucleus into the cytoplasm. The directionality of both import and export is determined by the same driving force: a gradient of the small GTPase Ran. Importins bind their cargoes in the cytoplasm and release them upon binding to the GTP-bound form of Ran (RanGTP), which is confined to the nucleus. Conversely, exportins require RanGTP to stably bind their cargo in the nucleus; the dissociation of the export complex is then triggered in the cytoplasm by the hydrolysis of Ran-bound GTP to GDP (
+    <xref ref-type="bibr">
+     Görlich and Kutay, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cook et al, 2007
+    </xref>
+    ). So far, only a few karyopherins including Importin13 (Imp13), Exportin4 and Msn5, have been characterized as bidirectional transport factors being able to both import and export cargoes from the nucleus (
+    <xref ref-type="bibr">
+     Mingot et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yoshida and Blobel, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gontan et al, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    In
+    <em>
+     Drosophila
+    </em>
+    larvae, Imp13 affects neurotransmitter release at the neuromuscular junctions and homozygous
+    <em>
+     imp13
+    </em>
+    mutations are lethal (
+    <xref ref-type="bibr">
+     Giagtzoglou et al, 2009
+    </xref>
+    ). In humans, Imp13 has been involved in the import of the core exon junction complex components Mago-Y14, the E2 SUMO-conjugating enzyme Ubc9 (
+    <xref ref-type="bibr">
+     Mingot et al, 2001
+    </xref>
+    ), histone fold-containing and paired-type homeodomain transcription factors (
+    <xref ref-type="bibr">
+     Ploski et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kahle et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Walker et al, 2009
+    </xref>
+    ), the glucocorticoid receptor (
+    <xref ref-type="bibr">
+     Tao et al, 2006
+    </xref>
+    ) and the actin-binding protein myopodin (
+    <xref ref-type="bibr">
+     Liang et al, 2008
+    </xref>
+    ). The only export cargo of Imp13 known so far is the eukaryotic initiation factor 1A (eIF1A) (
+    <xref ref-type="bibr">
+     Mingot et al, 2001
+    </xref>
+    ). However, the function and importance of this export pathway have not yet been addressed
+    <em>
+     in vivo
+    </em>
+    .
+   </p>
+   <p>
+    eIF1A is a protein conserved across eukaryotes with multiple functions in translation initiation (
+    <xref ref-type="bibr">
+     Jackson et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hinnebusch, 2011
+    </xref>
+    ). Together with another translation initiation factor, eIF1, it directly associates to the small ribosomal subunit and is required for the assembly of the pre-initiation complex (
+    <xref ref-type="bibr">
+     Jackson et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Aitken and Lorsch, 2012
+    </xref>
+    ). The two initiation factors cooperate in promoting an ‘open', scanning-competent conformation of the 40S subunit (
+    <xref ref-type="bibr">
+     Passmore et al, 2007
+    </xref>
+    ). eIF1A consists of an oligonucleotide-binding (OB) β-barrel fold followed by an extended helix, and two unstructured tails at the N- and C-termini (
+    <xref ref-type="bibr">
+     Battiste et al, 2000
+    </xref>
+    ). Due to its small size (17 kDa), eIF1A is thought to passively diffuse through the NPCs; its active export might therefore be required both to deplete eIF1A from the nucleus and to maintain sufficient cytoplasmic levels (
+    <xref ref-type="bibr">
+     Mingot et al, 2001
+    </xref>
+    ). Despite the importance of eIF1A in translation, limited information is available on its localization.
+   </p>
+   <p>
+    Several structures of karyopherins have been determined to date, comprising two nuclear import factors (Importin β (Impβ) and Transportin (Tpn)) (
+    <xref ref-type="bibr">
+     Cingolani et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vetter et al, 1999a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bayliss et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lee et al, 2003
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cansizoglu and Chook, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cansizoglu et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cook et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Imasaki et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wohlwend et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mitrousis et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bhardwaj and Cingolani, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Forwood et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Xu et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhang and Chook, 2012
+    </xref>
+    ) and four nuclear export factors (Cse1, Crm1, Expo5 and Xpo-t) (
+    <xref ref-type="bibr">
+     Matsuura and Stewart, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cook et al, 2005
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Monecke et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Okada et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dong et al, 2009a
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Güttler et al, 2010
+    </xref>
+    ) but it is still unclear how a transport factor, such as Imp13, can have a mixed transport competence. How RanGTP binding to bidirectional karyopherins can cause opposite effects, dissociation of the cargo to be imported and association of the cargo to be exported, is an open question in the nuclear transport field. Our previous work on the structures of the Imp13-RanGTP intermediate state and the Imp13-Mago-Y14 and Imp13-Ubc9 cargo complexes have provided key insights into import cargo recognition and dissociation by RanGTP (
+    <xref ref-type="bibr">
+     Bono et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Grünwald and Bono, 2011
+    </xref>
+    ). Well-characterized import factors such as Impβ and Tpn normally recognize only a small portion of their cargos as an import signal (
+    <xref ref-type="bibr">
+     Cingolani et al, 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cansizoglu and Chook, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Imasaki et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wohlwend et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mitrousis et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bhardwaj and Cingolani, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Forwood et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Xu et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhang and Chook, 2012
+    </xref>
+    ). Remarkably, Imp13 recognizes the folded domains of the import cargoes Ubc9 and Mago-Y14, predominantly via charged and polar residues distributed over the entire proteins. RanGTP binding to Imp13 is similar to RanGTP binding by Impβ and Tpn although Imp13 lacks the acidic loop that is found in the canonical import factors (
+    <xref ref-type="bibr">
+     Cook et al, 2007
+    </xref>
+    ). Imp13 uses non-overlapping surfaces for the recognition of different import cargoes. As a consequence, the release mechanism of these cargoes is different: Mago-Y14 is released via a steric hindrance mechanism, while Ubc9 and RanGTP directly compete for the same binding surface on Imp13 (
+    <xref ref-type="bibr">
+     Bono et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Grünwald and Bono, 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    Our structural and biochemical studies of Imp13 in its unbound state and the Imp13-RanGTP-eIF1A trimeric complex shed light on how bidirectional karyopherins can perform double duty and also be regulated in opposite ways by RanGTP. We further address the functional basis by which the nuclear transport factor Imp13 is able to recognize both import and export cargoes and deliver them in the appropriate cellular compartment and the
+    <em>
+     in vivo
+    </em>
+    relevance of Imp13 function.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results and Discussion
+   </title>
+   <sec>
+    <title>
+     Structure determination and quality
+    </title>
+    <p>
+     We determined the crystal structures of Imp13 in its nuclear export complex with RanGTP and eIF1A and also in the unbound form that corresponds to a cytosolic state. For the crystallization of the ternary export complex, human (Hs) Imp13, Ran and eIF1A were expressed separately in
+     <em>
+      E. coli
+     </em>
+     . While Imp13 was used as a full-length construct, the small GTPase Ran was truncated to contain the residues 1–180 and a Gln69Leu mutation to inhibit GTP hydrolysis, as previously described (
+     <xref ref-type="bibr">
+      Bischoff et al, 1994
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Matsuura and Stewart, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lee et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cook et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Monecke et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ). Attempts to crystallize the trimeric complex in presence of full-length eIF1A were not successful probably due to the two large unstructured regions at the N- and C-termini (
+     <xref ref-type="bibr">
+      Battiste et al, 2000
+     </xref>
+     ) (NTT and CTT, respectively). Therefore, a truncated version of eIF1A was used that includes the residues from 1 to 112 and lacks the CTT portion of the protein (eIF1AΔC;
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     and
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ). The complex was reconstituted
+     <em>
+      in vitro
+     </em>
+     with an excess of RanGTP and eIF1A and purified to homogeneity by size exclusion chromatography (SEC). The export complex crystallized in a centred monoclinic space group (
+     <em>
+      C
+     </em>
+     2). Initial phases for the structure were obtained by molecular replacement (MR) with the Imp13-RanGTP structure as a search model (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ; pdb id.: 2x19). Although density for eIF1A could be observed, a reliable MR solution could not be obtained when using available structures of eIF1A as search models (
+     <xref ref-type="bibr">
+      Battiste et al, 2000
+     </xref>
+     ; pdb ids: 2oqk and 2dgy). We manually placed the crystal structure of eIF1A from
+     <em>
+      Cryptosporidium parvum
+     </em>
+     (pdb id.: 2oqk; 75% sequence identity over the region encompassed by our construct) into the electron density using an anomalous Fourier map of a seleno-methionine (SeMet) substituted eIF1A as a guide (
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ). This eIF1A was mutated to include a third methionine residue so that the structure could be positioned accurately by using three anomalous difference peaks (
+     <a>
+      Supplementary Figures 1A and 2A
+     </a>
+     ). A view of the quality of the electron density of eIF1A is shown in
+     <a>
+      Supplementary Figure 2B
+     </a>
+     . Model building of the complex was also verified by single-wavelength anomalous diffraction (SAD) structure solution of a trimeric complex reconstituted with a SeMet substituted Imp13 (unpublished observation).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Structure of the ternary export complex Imp13-RanGTP-eIF1A and constructs used. (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of the architecture of the proteins used in this study. Colour-filled areas in the scheme identify structural domains, which include the Ran core (in yellow) and the OB-fold of eIF1A (in brown). The residue numbers corresponding to the constructs used are indicated. The portions of the polypeptides ordered in the three-dimensional structure are shaded in grey. Cartoon view (
+       <strong>
+        B
+       </strong>
+       ) and view rotated 60° along the x axis (
+       <strong>
+        C
+       </strong>
+       ) of the export complex. Imp13 is shown in a colour gradient from grey (N-terminus) to green (C-terminus). Ran is in yellow with GTP as a stick model in black and eIF1A is coloured in brown. Secondary structure elements and HEAT repeats are labelled. (
+       <strong>
+        D
+       </strong>
+       ) Imp13 apo structure in a similar colour code and view as in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) Surface rendering representation of Imp13 (top) and of eIF1A (bottom) in the export complex. The surface is coloured according to the electrostatic potential. Top, eIF1A and Ran, in the same colour code as above, are shown as loops with GTP as stick model in black. For the electrostatic potential calculation of eIF1A, the backbone was used as a template to include all the side chains with MODELLER (
+       <xref ref-type="bibr">
+        Sali and Blundell, 1993
+       </xref>
+       ) (r.m.s.d. of 0.277 Å over 1121 atoms). These and all other protein structure figures were generated using PyMOL (
+       <a>
+        http://www.pymol.org
+       </a>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The asymmetric unit is composed of three distinct complexes. Complexes 1 and 2 present the ternary export complex and are very similar (r.m.s.d. of 0.634 Å over 868 Cα atoms). Complex 3 does not show density for eIF1A and superposes with an r.m.s.d. of 2.0 Å over 855 Cα atoms to complex 1. Complex 1 shows the best quality electron density and therefore, throughout the paper, we will refer to complex 1, unless explicitly stated. The model was refined to 3.6 Å resolution with an
+     <em>
+      R
+     </em>
+     free and
+     <em>
+      R
+     </em>
+     work of 29.9 and 26.8%, respectively, and good stereochemistry (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Disordered regions are at the very N- and C-termini of Imp13 as well as a long inter-repeat loop at residues 655–672. The NTT of eIF1A is not observed (residues 1–27) together with several loop regions (residues 54–56; 97–100; 109–112) (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). In complex 2, additional regions of the C-terminal arch of Imp13 and eIF1A are disordered.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Crystallographic statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The
+     <em>
+      Drosophila
+     </em>
+     (Dm) Imp13 apo form crystallized in spacegroup
+     <em>
+      P
+     </em>
+     4
+     <sub>
+      3
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     2 and the crystals diffracted to 3.0 Å (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). The structure was solved by MR using Dm Imp13 as a search model (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ; pdb id.: 2x1g) fragmented into three portions. The refined model has an
+     <em>
+      R
+     </em>
+     free of 31% with good stereochemistry (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). For a sample of the electron density map, see
+     <a>
+      Supplementary Figure 2C
+     </a>
+     . In the unbound Imp13 structure, some N-terminal regions (residues 1–53; 78–117; 100–121), intermediate loops as well as the very C-terminus (residues 968–971) are not well defined and could not be modelled (
+     <xref ref-type="fig">
+      Figures 1D
+     </xref>
+     and 6A).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Architecture of Imp13 in the export complex and in the unbound state
+    </title>
+    <p>
+     As previously shown, Imp13 folds into 20 consecutive HEAT repeats (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ). HEAT repeats are motifs consisting of two helices (A and B) connected by a short loop (intra-repeat). Each HEAT repeat stacks against the following one, via an inter-repeat loop, to generate a superhelical arrangement (
+     <xref ref-type="bibr">
+      Cook et al, 2007
+     </xref>
+     ). The A helices form the outer surface of the superhelix, while the B helices form the inner concave surface. The C-terminus of Imp13 is stabilized by a HEAT-like repeat motif composed of three helices (A–C). A hinge region around HEAT10 (H10) divides Imp13 into two arches, the N- and C-terminal arches. Two further hinge regions at H4 and H14 increase the protein's conformational flexibility (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ).
+    </p>
+    <p>
+     In complex with RanGTP and eIF1A, Imp13 adopts a toroidal conformation with the N- and C-terminal edges offset by 8.2 Å and an inner diameter of ∼58 Å (
+     <xref ref-type="fig">
+      Figure 1B and C
+     </xref>
+     ). The C helix of H20 approaches the N-terminal tip of H5 (
+     <xref ref-type="fig">
+      Figures 1B
+     </xref>
+     and 6D). Both arches of Imp13 are engaged in complex formation. As in the Imp13-RanGTP structure, RanGTP binds to the inner concave surface of the N-terminal arch shifted towards the intra-repeat loops (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ). However, when in complex with the export cargo, the toroidal conformation of Hs Imp13 is less compact than in the Imp13-RanGTP complex, with the C-terminal arch more open to accommodate eIF1A (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). In the complex with Imp13 and eIF1A, the structure and conformation of Hs RanGTP is very similar to the structure of RanGTP in complex with RanBD1 (r.m.s.d. of 0.48 Å over 168 Cα atoms) and of RanGTP in the binary complex with Imp13 (r.m.s.d. of 0.34 Å over 147 Cα atoms) and has been extensively described elsewhere (
+     <xref ref-type="bibr">
+      Vetter et al, 1999b
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     In the structure of Dm Imp13 in the unbound state, the karyopherin toroidal structure is in an open conformation (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). H1 and the external helices of H2 and 3 are disordered in the structure, suggesting flexibility at the very N-terminus of the protein. Flexibility in this region might be required for the docking of RanGTP in the nucleus to displace the import cargoes (
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figures 1D
+     </xref>
+     , 6A and B) and to recognize cargoes that bind at the N-terminal arch of Imp13, such as Ubc9.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Export cargo recognition by Imp13 and RanGTP
+    </title>
+    <p>
+     The OB-fold of eIF1A is composed of five β strands (β1–β5 strands of eIF1A: β1
+     <sub>
+      E
+     </sub>
+     –β5
+     <sub>
+      E
+     </sub>
+     ) forming an elliptic cavity interrupted by a loop between β3
+     <sub>
+      E
+     </sub>
+     and β4
+     <sub>
+      E
+     </sub>
+     (L3
+     <sub>
+      E
+     </sub>
+     ) that folds into a small helix (α1
+     <sub>
+      E
+     </sub>
+     ). C-terminal to the β-barrel eIF1A features an additional helix (α2
+     <sub>
+      E
+     </sub>
+     ). Although the NTT of eIF1A was present in the construct that was crystallized, no density for this part of the structure was observed in the trimeric export complex, likely due to conformational flexibility in this region (
+     <xref ref-type="bibr">
+      Battiste et al, 2000
+     </xref>
+     ). When the full-length solution structure is superposed on the export complex, the NTT points into solvent (
+     <a>
+      Supplementary Figure 6B
+     </a>
+     ). To rule out the possibility that the NTT is required for binding and the possibility that the NTT was not observed due to the relatively low resolution map, we performed SEC with truncated versions of eIF1A. These experiments show that the folded part of eIF1A (residues 26–115; ΔNΔC) is sufficient for binding to Imp13 (
+     <xref ref-type="fig">
+      Figure 2D and E
+     </xref>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Detailed view of the interaction between Imp13 and eIF1A. Top right, the export complex is rendered with Imp13 and RanGTP as surface and eIF1A as cartoon in the same colour coding as in
+       <xref ref-type="fig">
+        Figure 1B
+       </xref>
+       . The interaction surface of eIF1A on Imp13-RanGTP is in pink. (
+       <strong>
+        A
+       </strong>
+       ) Close-up view of the eIF1A interaction with Imp13 at BS 1 in a similar view as in
+       <xref ref-type="fig">
+        Figure 1B
+       </xref>
+       . Residues involved in the interaction on eIF1A and Imp13 are shown as sand and pink sticks, respectively. HEAT repeats are labelled in black and secondary structure elements of eIF1A are marked in brown or white. (
+       <strong>
+        B
+       </strong>
+       ) Zoomed in view of the BS 2 interaction site. (
+       <strong>
+        C
+       </strong>
+       ) Protein co-precipitation by GST-tagged Imp13 incubated with RanGTP and eIF1A with either wt or mutant proteins. In this experiment, Ran was His tagged for better separation from eIF1A on gel. For the input control, 1/6 of the samples were kept (upper panel) and the rest was co-precipitated with glutathione sepharose beads (lower panel) and analysed on Coomassie-stained 15% SDS–PAGE. The far left lane was loaded with a molecular weight marker. Some contaminations likely from degradation of GSTImp13 are visible between 25 and 35 kDa. GST controls for this experiment are in
+       <a>
+        Supplementary Figure 6A
+       </a>
+       . (
+       <strong>
+        D
+       </strong>
+       ) Overlay of SEC plots of Imp13 alone or together with different eIF1A constructs with or without RanGTP. (
+       <strong>
+        E
+       </strong>
+       ) Samples of the peaks fractions were analysed on Coomassie-stained SDS–PAGE (Any kD, BIORAD). The far left lane was loaded with a molecular weight marker.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     eIF1A can be approximated to a triangle that is recognized at its vertices on three main interaction surfaces, two on Imp13 and one on RanGTP. The two corners at the base of the triangle β2
+     <sub>
+      E
+     </sub>
+     and L3
+     <sub>
+      E
+     </sub>
+     , and α2
+     <sub>
+      E
+     </sub>
+     interact at two opposite surface areas (BS1 and BS2, respectively) that bridge the inner central part of Imp13 and its very C-terminus (
+     <xref ref-type="fig">
+      Figures 1B, C
+     </xref>
+     ,
+     <xref ref-type="fig">
+      2A, B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The interaction surface of eIF1A to Imp13 contains several conserved, positively charged residues, which complement the negatively charged inner binding surface of Imp13 (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Structural basis of Imp13 bidirectionality and
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       affinities in the Imp13 cycle. (
+       <strong>
+        A
+       </strong>
+       ) RanGTP and eIF1A concomitant interaction in the ternary export complex. Interacting residues on Ran and eIF1A are rendered as spheres in pink and sand, respectively. (
+       <strong>
+        B
+       </strong>
+       ) Imp13-Mago-Y14 structure oriented as in
+       <xref ref-type="fig">
+        Figure 3A
+       </xref>
+       (pdb ids.: 2x1g). Imp13 is represented as loop trace. A dashed line in black marks the boundary between compatible and hindered binding. (
+       <strong>
+        C
+       </strong>
+       ) Protein co-precipitations by GST-tagged Imp13 incubated together with His-RanGTP and eIF1A with either wt or mutant proteins performed as in the previous figure. (
+       <strong>
+        D
+       </strong>
+       ) Table representing
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       values determined by DSF from at least three independent experiments.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The larger area of interactions (BS1) is centred around H9 of Imp13 and stretches across the hinge between the N- and C-terminal arches involving H7-11 on the side of the inter-repeat loops. On eIF1A the loop L1
+     <sub>
+      E
+     </sub>
+     points to the groove between H8 and 9 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ); β3
+     <sub>
+      E
+     </sub>
+     and the N-terminal stretch of L3
+     <sub>
+      E
+     </sub>
+     contact H8 and H10-11, respectively, while the N-terminal part of β5
+     <sub>
+      E
+     </sub>
+     and L4
+     <sub>
+      E
+     </sub>
+     interacts with H7-8. A series of salt bridges are likely to stabilize this interface: Asp369 on H8 of Imp13 (Asp369
+     <sub>
+      I
+     </sub>
+     ) points to Lys88 of eIF1A (Lys88
+     <sub>
+      E
+     </sub>
+     ) on β5
+     <sub>
+      E
+     </sub>
+     ; on H9, Glu436
+     <sub>
+      I
+     </sub>
+     approaches Arg46
+     <sub>
+      E
+     </sub>
+     on L1
+     <sub>
+      E
+     </sub>
+     ; Asp481
+     <sub>
+      I
+     </sub>
+     at the inter-repeat loop between H10-11 is in proximity to Arg66
+     <sub>
+      E
+     </sub>
+     and Lys67
+     <sub>
+      E
+     </sub>
+     on L3
+     <sub>
+      E
+     </sub>
+     .
+    </p>
+    <p>
+     At the smaller interaction surface, helix α2
+     <sub>
+      E
+     </sub>
+     packs end-on to the C-terminal helix of Imp13. At this site, Arg938
+     <sub>
+      I
+     </sub>
+     approaches helix α2
+     <sub>
+      E
+     </sub>
+     as well as the N-terminal stretch of eIF1A (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1
+     </a>
+     ). Consistent with the structural analysis, reverse charge mutations of Asp369
+     <sub>
+      I
+     </sub>
+     , Asp370
+     <sub>
+      I
+     </sub>
+     , Glu436
+     <sub>
+      I
+     </sub>
+     and Asp481
+     <sub>
+      I
+     </sub>
+     to arginine in BS1 or of Arg938
+     <sub>
+      I
+     </sub>
+     to glutamate in BS2 resulted in reduction or loss of binding to eIF1A in pull-down assays (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1
+     </a>
+     ). Although structurally less well defined (many side chains of eIF1A do not have visible electron density), the contribution of positively charged residues of eIF1A to Imp13 binding could also be confirmed using reverse charge mutations. Residues Lys29
+     <sub>
+      E
+     </sub>
+     , Arg46
+     <sub>
+      E
+     </sub>
+     , Arg66/Lys67
+     <sub>
+      E
+     </sub>
+     and Lys88
+     <sub>
+      E
+     </sub>
+     are conserved (
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ) and mutations to negatively charged residues impeded binding to Imp13, as confirmed by pull-down assays (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 6A
+     </a>
+     ).
+    </p>
+    <p>
+     Similarly to the import cargoes Ubc9 and Mago-Y14, eIF1A is primarily recognized by Imp13 as a folded domain. This indicates that both import and export signals recognized by Imp13 are complex ones, therefore different from the linear and semi-linear canonical NLSs and NESs recognized by Impβ, Tpn and Crm1 (
+     <xref ref-type="bibr">
+      Xu et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zhang and Chook, 2012
+     </xref>
+     ). The structural and mutational analyses show that Imp13 recognizes its cargoes by a combination of shape and charge together with specific contacts at conserved positions on eIF1A.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Imp13 uses shape complementarity of cargoes to perform bidirectional transport
+    </title>
+    <p>
+     In the export complex, the β-barrel and the very tip of helix α2
+     <sub>
+      E
+     </sub>
+     of eIF1A bind adjacent to RanGTP at the inner surface of Imp13. The structure strongly suggests that eIF1A is in direct contact with RanGTP in the complex with Imp13. L4 of Ran (L4
+     <sub>
+      R
+     </sub>
+     , between β5
+     <sub>
+      R
+     </sub>
+     -6
+     <sub>
+      R
+     </sub>
+     ) is adjacent to L4
+     <sub>
+      E
+     </sub>
+     and to the N-terminus of eIF1A (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Here, Glu30
+     <sub>
+      E
+     </sub>
+     and Asp31
+     <sub>
+      E
+     </sub>
+     point towards the L4
+     <sub>
+      R
+     </sub>
+     and towards Lys130 of Ran (Lys130
+     <sub>
+      R
+     </sub>
+     ) while L4
+     <sub>
+      E
+     </sub>
+     approaches Arg95
+     <sub>
+      R
+     </sub>
+     at helix α2
+     <sub>
+      R
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ). Consistently, mutants of Glu30
+     <sub>
+      E
+     </sub>
+     and Asp31
+     <sub>
+      E
+     </sub>
+     to arginine and of Arg95
+     <sub>
+      R
+     </sub>
+     and Lys130
+     <sub>
+      R
+     </sub>
+     to glutamate impair binding of Imp13-RanGTP to eIF1A (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ).
+    </p>
+    <p>
+     To further understand Imp13 bidirectionality, we compared the mode of binding of Imp13 in the export complex with the structure of Imp13 bound to the import cargo Mago-Y14 (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ). As we have previously shown, when the latter structures are superposed, RanGTP and Mago-Y14 assume an adjacent but overlapping position that precludes concomitant binding of Mago-Y14 with RanGTP due to steric hindrance (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ). In the complex of Imp13 with RanGTP and eIF1A, the export cargo is much smaller than Mago-Y14 so that it fits neatly into the hole created by the C-terminal arch. In this case there is not a clash with RanGTP, instead the complementary charge interactions with RanGTP stabilize the binding and increase the binding affinity (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). Consistently, SEC experiments of Imp13-eIF1A complexes show only a partial binding of eIF1A in the absence of RanGTP (
+     <xref ref-type="fig">
+      Figure 2D and E
+     </xref>
+     ). Imp13 is therefore able to discriminate between cargoes based on their structural features and can therefore promote either cooperative binding (for export) or antagonistic binding (for import).
+    </p>
+    <p>
+     Comparison of the Imp13-RanGTP-eIF1A complex with the Imp13-Mago-Y14 structure also shows that the binding of Mago-Y14 and eIF1A is mutually exclusive. The release of Mago-Y14 by RanGTP is less efficient
+     <em>
+      in vitro
+     </em>
+     as compared to that of another import cargo, Ubc9, which shows a different mode of binding. We have previously shown that addition of eIF1A together with RanGTP enhances the release of Mago-Y14 from Imp13 (
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 3A and B
+     </xref>
+     ). In contrast, a comparison of the Imp13 export complex with Imp13-Ubc9 import complex shows no major clashes between the cargoes (Figure 6D and E). However, a simultaneous binding of eIF1A and Ubc9 to Imp13
+     <em>
+      in vitro
+     </em>
+     is not possible (
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ). The structural and biochemical data suggest that the shape complementarity of eIF1A and its overlap with the Mago-Y14 binding site is critical for achieving the directionality of Mago-Y14 import. RanGTP likely destabilizes Mago-Y14 binding by preventing optimal association with Imp13. Further association of eIF1A with Imp13 would lock the importin in an export conformation, preventing re-association of Mago-Y14 and imparting directionality to this nuclear import step.
+    </p>
+    <p>
+     To better understand the mechanism of the Imp13 import/export cycle, we measured the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values by differential scanning fluorimetry (DSF) (
+     <xref ref-type="bibr">
+      Niesen et al, 2007
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 3
+     </a>
+     ). The estimated
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     for the two import cargoes Mago-Y14 and Ubc9 is in a similar range with a value of 235±30 nM and 370±20 nM, respectively. The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value for RanGTP binding to Imp13, although not accurately calculated due to the upper detection limit of the method, falls in the low nanomolar or picomolar range (&lt;100 nM) and is consistent with values measured for other karyopherins (
+     <xref ref-type="bibr">
+      Bischoff and Görlich, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Deane et al, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Görlich et al, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lipowsky et al, 2000
+     </xref>
+     ). The dissociation constant of the export cargo eIF1A to a preformed Imp13-RanGTP complex is 3±0.38 μM, 10-fold higher than the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values of the import cargoes (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). The rather weak affinity of Imp13-RanGTP for its export cargo eIF1A is comparable to that displayed by Crm1 for most NES, such as HIV Rev (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of about 0.5 μM) (
+     <xref ref-type="bibr">
+      Askjaer et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Paraskeva et al, 1999
+     </xref>
+     ). One exception is Snurportin that binds to CRM1 with much higher affinity because it is recognized through additional interactions (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ∼10 nM) (
+     <xref ref-type="bibr">
+      Paraskeva et al, 1999
+     </xref>
+     ). Xpot also binds tRNAs with high affinity (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ∼3 nM) (
+     <xref ref-type="bibr">
+      Kutay et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lipowsky et al, 1999
+     </xref>
+     ). The binding of CAS/Cse1 to Impα and RanGTP is highly cooperative and cargo binding cannot be disjointed from RanGTP binding (
+     <xref ref-type="bibr">
+      Kutay et al, 1997
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Imp13 exports eIF1A
+     <em>
+      in vivo
+     </em>
+     and its function is required for cell viability
+    </title>
+    <p>
+     eIF1A is able to passively diffuse through the NPCs and thus reach the nuclear compartment and it has previously been proposed that active export is necessary to deplete eIF1A from the nucleus and contribute in preventing nuclear translation (
+     <xref ref-type="bibr">
+      Mingot et al, 2001
+     </xref>
+     ). Surprisingly, we observed that endogenous eIF1A is enriched in nucleoli in HeLa cell lines (
+     <a>
+      Supplementary Figure 4A and D
+     </a>
+     ). An overexpressed, GFP-tagged version of the protein shows a similar localization in fixed cells (
+     <a>
+      Supplementary Figure 4C
+     </a>
+     ); however, the same construct displays a significantly higher cytoplasmic fraction in living cells (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ), suggesting that fixation affects eIF1A localization to some extent. All together, our results indicate that endogenous eIF1A is localized to both nucleoli and cytoplasm.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Imp13 binds and exports eIF1A
+       <em>
+        in vivo
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        F
+       </strong>
+       ) Fluorescence microscopy images and the corresponding differential interference contrast (DIC) images of living HeLa cells expressing GFP-tagged eIF1A (eIF1A-GFP) wt or mutants. Localization of wt or mutant eIF1A-GFP in the presence (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        E
+       </strong>
+       ) or absence (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ,
+       <strong>
+        F
+       </strong>
+       ) of HA-Imp13. (
+       <strong>
+        G
+       </strong>
+       –
+       <strong>
+        I
+       </strong>
+       ) Localization of wt eIF1A-GFP in the presence of the indicated HA-Imp13 mutants. (
+       <strong>
+        J
+       </strong>
+       ,
+       <strong>
+        K
+       </strong>
+       ) Relative quantification of the fluorescence intensity in the nuclear compartment for each construct, in the absence (−) or presence (+) of Imp13 wt or of the indicated Imp13 constructs. (
+       <strong>
+        L
+       </strong>
+       –
+       <strong>
+        O
+       </strong>
+       ) Fluorescence microscopy images and the corresponding DIC images of living HeLa cells expressing GFP-tagged Mago or Ubc9 wt or mutants. (
+       <strong>
+        P
+       </strong>
+       ,
+       <strong>
+        Q
+       </strong>
+       ) Relative quantification of the fluorescence intensity in the nuclear compartment for each construct. Box plots: the bottom and top of the box depict the first (qu1) and the third (qu3) quartiles, respectively, with the central line indicating the median (qu2); the upper and lower whiskers represent the maximum and minimum values, respectively. At least three independent experiments were performed; the number of analysed cells is indicated for each condition at the bottom right of the corresponding DIC image. Statistical significance was calculated by comparing the means of each experimental replicate with the means of the appropriate control conditions, with one-tail
+       <em>
+        t
+       </em>
+       -tests (α 0.05). Scale bar: 10 μm. (
+       <strong>
+        R
+       </strong>
+       ) Western blot showing the expression levels of HA-Imp13 wt and mutants, or eIF1A-GFP wt and mutants; note that all mutants are expressed at levels similar to the corresponding wt. α-Tubulin served as a loading control.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Overexpression of Imp13 causes an accumulation of wild-type (wt) eIF1A in the cytoplasm (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ), indicating that Imp13 can bind and export eIF1A
+     <em>
+      in vivo
+     </em>
+     . This redistribution of eIF1A in the cell depends on its ability to bind to Imp13, since Arg46Glu
+     <sub>
+      E
+     </sub>
+     and Arg66Glu/Lys67Glu
+     <sub>
+      E
+     </sub>
+     mutants, which are impaired in their interaction with Imp13 (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), do not change their nucleo-cytoplasmic distribution upon Imp13 overexpression (
+     <xref ref-type="fig">
+      Figure 4C, E and J
+     </xref>
+     ) despite being expressed at similar levels (
+     <xref ref-type="fig">
+      Figure 4R
+     </xref>
+     ). Conversely, only wt Imp13, but not Asp436Arg/Asp481Arg
+     <sub>
+      I
+     </sub>
+     mutant, which is unable to bind to eIF1A (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ) but still associates with Mago-Y14 and Ubc9 (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ), triggers eIF1A depletion from the nucleus (
+     <xref ref-type="fig">
+      Figure 4G and K
+     </xref>
+     ). This effect is not due to a lower expression level of the mutants compared to wt Imp13 (
+     <xref ref-type="fig">
+      Figure 4R
+     </xref>
+     ). In the absence of Imp13 overexpression, however, eIF1A wt, Arg46Glu
+     <sub>
+      E
+     </sub>
+     and Arg66Glu/Lys67Glu
+     <sub>
+      E
+     </sub>
+     reverse-charge mutants show a similar nucleo-cytoplasmic distribution (
+     <xref ref-type="fig">
+      Figure 4B, D and F
+     </xref>
+     ), as shown in the quantification (
+     <xref ref-type="fig">
+      Figure 4J
+     </xref>
+     ). These results indicate that other pathways are probably involved in eIF1A localization
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Imp13 function is essential
+       <em>
+        in vivo
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) Coomassie gel of co-precipitations to demonstrate that the Imp13 mutants impaired in the binding of one of the cargoes analysed are still able to associate to the other two cargoes. (
+       <strong>
+        B
+       </strong>
+       ) HeLa cells were transfected with different siRNA combinations and counted at the indicated time points. Six independent experiments were performed. Statistical significance of the cell counts between knockdown and control condition was assessed with Wilcoxon–Mann–Whitney test (α 0.05). (
+       <strong>
+        C
+       </strong>
+       ) Western blot showing the levels of endogenous Imp13 in the control and the Imp13 knockdown condition; α-tubulin served as a loading control. (
+       <strong>
+        D
+       </strong>
+       ) Schematic representation of Imp13 open reading frame (ORF) showing the target sites of the siRNAs used.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Since eIF1A is present in the nucleolus, the site of ribosome assembly, we hypothesized that it might be exported together with other complexes. A possible association could be with the small ribosomal subunit, which is exported via a Crm1-dependent export pathway (
+     <xref ref-type="bibr">
+      Thomas and Kutay, 2003
+     </xref>
+     ) and, at least in yeast, by a recently identified Mex67/Mtr2-dependent pathway (
+     <xref ref-type="bibr">
+      Faza et al, 2012
+     </xref>
+     ). It has previously been shown that eIF1A cannot directly bind Crm1 (
+     <xref ref-type="bibr">
+      Mingot et al, 2001
+     </xref>
+     ). We therefore analysed the localization of eIF1A wt and mutants in the presence of leptomycin B (LMB), a specific inhibitor of Crm1 (
+     <xref ref-type="bibr">
+      Wolff et al, 1997
+     </xref>
+     ). LMB treatment causes a small but consistent and significant nuclear retention of eIF1A, regardless its capacity to bind to Imp13 (
+     <a>
+      Supplementary Figure 5
+     </a>
+     ), suggesting that at least a fraction of eIF1A might be exported via a Crm1-dependent pathway reflecting an as yet unidentified association of eIF1A with other nuclear complexes.
+    </p>
+    <p>
+     We also examined the
+     <em>
+      in vivo
+     </em>
+     localization of two previously characterized Imp13 import cargoes, Mago-Y14 and Ubc9 (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ). As expected, both cargoes are predominantly nuclear in HeLa cells (
+     <xref ref-type="bibr">
+      Kataoka et al, 2000
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rodriguez et al, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Saitoh et al, 2002
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 4L and N
+     </xref>
+     ). Mutations previously shown to disrupt their interaction with Imp13 have also a strong impact on the localization of these cargoes (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 4M and O–Q
+     </xref>
+     ), suggesting that Imp13 is probably the main factor involved in Mago-Y14 and UBC9 import
+     <em>
+      in vivo
+     </em>
+     . Notably, an Imp13 mutant unable to bind to Mago-Y14 (Lys803Glu/Arg803Glu
+     <sub>
+      I
+     </sub>
+     ) is also less efficient in exporting eIF1A
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4I and K
+     </xref>
+     ), reflecting a reduction in binding to eIF1A
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). Conversely, the Asp426Arg
+     <sub>
+      I
+     </sub>
+     Imp13 mutant, impaired in Ubc9 binding (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ), is as efficient as Imp13 wt in exporting eIF1A (
+     <xref ref-type="fig">
+      Figure 4H and K
+     </xref>
+     ).
+    </p>
+    <p>
+     To gain further insights into the role of Imp13-mediated transport
+     <em>
+      in vivo
+     </em>
+     , we depleted endogenous Imp13 in HeLa cells using three different siRNAs targeted to the Imp13 open reading frame (ORF) (
+     <xref ref-type="fig">
+      Figure 5C and D
+     </xref>
+     ). With every siRNA and combination of siRNAs, we observed a significant decrease in cell viability (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ), suggesting that Imp13 might be an essential protein.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Conformational changes of Imp13 in the cytoplasmic and nuclear states
+    </title>
+    <p>
+     Imp13 shows a marked conformational change when the cytoplasmic and nuclear states are compared (
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ). Dm Imp13 in the unbound state adopts an open conformation measuring about 24 Å between H2 and 20 (
+     <xref ref-type="fig">
+      Figure 6A and F
+     </xref>
+     ). In the cytoplasmic states of Imp13 bound to Mago-Y14 and Ubc9, the karyopherin also has a more extended conformation (
+     <xref ref-type="fig">
+      Figure 6C, E and F
+     </xref>
+     ). In the nucleus where it is associated with RanGTP, Imp13 is more compact with the C-terminal arch approaching the N-terminus (
+     <xref ref-type="fig">
+      Figure 6B, D and F
+     </xref>
+     ). Here, maximal compactness is observed in the binary complex with RanGTP (1 Å between H2 and H20). In complex 3, Imp13 shows a conformation similar to the one observed when in complex to RanGTP (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ) (r.m.s.d. of 0.548 Å over 903 Cα) (
+     <a>
+      Supplementary Figure 7C and D
+     </a>
+     ), suggesting that eIF1A is indeed missing in this complex. In the ternary complex with RanGTP and eIF1A, the C-terminus of Imp13 moves slightly away from the N-terminus to fit the export cargo within the C-terminal arch.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Imp13 samples an ample spectrum of conformations. Cytoplasmic (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        E
+       </strong>
+       ) and nuclear (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) states of Imp13 in the same view as in
+       <xref ref-type="fig">
+        Figure 1B
+       </xref>
+       . Imp13 is represented as a tube trace in a colour gradient from grey to green. All cargoes are shown as cartoons with Ubc9 in purple-blue, Mago in blue, Y14 in magenta, Ran in yellow with GTP in black and eIF1A in brown. (
+       <strong>
+        F
+       </strong>
+       ) Graphical representation of the distance from N-terminus to C-terminus measured from the line connecting H2B and H20C as shown in the box (top).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Remarkably, helix A of H5 undergoes partial melting and appears to work as a spacer to sense the RanGTP-bound state. In the RanGTP-bound state, helix H5B contacts the last helix H20C and therefore closes Imp13 into a ring (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). In contrast, upon eIF1A binding, the H5A helix of Imp13 folds into a longer helix, breaking the H5B contact and establishing a new contact between the newly formed H5A helix and H20C helix (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). Thereby, the toroidal ring of Imp13 opens up slightly at the hinge region at H14 to accommodate eIF1A, which concomitantly contacts the beginning of the H20C helix replacing the H5 interaction. In all Imp13 open conformation states, the import complexes as well as the unbound Imp13, the helix at H5 is also structured.
+    </p>
+    <p>
+     The spectrum of conformations sampled by Imp13 reflects the cumulative effect of changes distributed over the entire molecule with more prominent changes at the three hinge regions (
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ).
+    </p>
+    <p>
+     The structures of several exportins in complex with an export cargo have been solved. A comparison between the different export complexes of Cse1, Crm1, Xpo5 and Xpot with Imp13-RanGTP-eIF1A shows similar topology of Imp13 and Crm1 in the export cargo bound state (
+     <xref ref-type="bibr">
+      Matsuura and Stewart, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cook et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Monecke et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Okada et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dong et al, 2009b
+     </xref>
+     ) (
+     <a>
+      Supplementary Figure 7A and B
+     </a>
+     ). Although both karyopherins have a closed ring-like conformation, Imp13 binds the export cargo mainly with the inner concave surface, whereas Crm1 binds its cargoes on its outer surface (
+     <xref ref-type="bibr">
+      Monecke et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dong et al, 2009b
+     </xref>
+     ). As in most exportins with the exception of Crm1, the positively charged interface of RanGTP directly contacts the cargo. In the apo form, Xpot and Imp13 demonstrate an overall open conformation that closes up upon RanGTP binding (
+     <xref ref-type="bibr">
+      Cook et al, 2009
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Export cargo dissociation and directionality of Imp13 transport
+    </title>
+    <p>
+     In the nucleus, RanGTP is very abundant and its binding to karyopherins is very tight, thus eIF1A will likely encounter Imp13-RanGTP complex in the closed conformation that will then open at the C-terminal arch to accommodate the cargo. In the cytoplasm, the disassembly of the export cargo-receptor complex is coupled to the activation of the GTPase activity of Ran by RanGAP, a cytoplasmic enhancer of RanGTPase activity (
+     <xref ref-type="bibr">
+      Bischoff et al, 1994
+     </xref>
+     ). Prior to GTP hydrolysis, RanGTP is likely to be extracted from the complex by the concomitant recognition of the C-terminal region of RanGTP and the Ran binding domain of RanBP1. Similarly to what has been observed with other RanGTP-karyopherin complexes (
+     <xref ref-type="bibr">
+      Hellmuth et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kutay et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vetter et al, 1999b
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Koyama and Matsuura, 2010
+     </xref>
+     ), when the RanGTP-RanBP1 complex is superposed on the export complex, RanBP1 would clash with H14-15 of Imp13 whereas the extended acidic tail at the C-terminus of Ran would clash with H13 (
+     <a>
+      Supplementary Figure 6C
+     </a>
+     ). This indicates that the mechanism for removing RanGTP and ending the export cycle is likely similar in Imp13 as in other karyopherins.
+    </p>
+    <p>
+     Comparison of Imp13 export complex and Imp13 apo structures gives insights into the directionality of the transport. In the apo form, the contact of eIF1A with RanGTP is missing. Moreover, if we optimally superpose the eIF1A binding site at H8-9 of Imp13 in the export complex and in the apo structure (residues 357–438 of Hs Imp13 in complex with RanGTP and eIF1A and 370–452 of Dm Imp13 unbound), the contact at the C-terminus of Imp13 is lost, together with the contact at the inter-loop between H10-11 (
+     <a>
+      Supplementary Figure 6D
+     </a>
+     ). The latter includes Asp481
+     <sub>
+      I
+     </sub>
+     , which is involved in binding to eIF1A (
+     <xref ref-type="fig">
+      Figure 2A and C
+     </xref>
+     ) and is displaced in the apo structure. Therefore, in the Imp13 apo form, the complementarity for eIF1A is partially lost, with only the interaction surface at H7-10 being in place. The remaining contacts that compose the intact binding surface in the trimeric complex (at H6 and 11) are also displaced due to a divergence of the N- and C-termini of Imp13 that pushes them away from the eIF1A binding site (
+     <a>
+      Supplementary Figure 6D
+     </a>
+     ). Therefore, apo Imp13 has a shape that is incompatible with eIF1A binding. This open form could provide expanded flexibility to allow Imp13 to associate with a variety of different import cargoes that it can recognize in the cytoplasm. It is likely that the tighter binding import cargoes will displace any residual association between eIF1A and Imp13 in the cytoplasm.
+    </p>
+    <p>
+     Whether the cytoplasmic import cargo-bound form of Imp13, after RanGTP hydrolysis and export cargo release, occurs through an unbound or eIF1A-bound intermediate is unclear. Our binding studies show that eIF1A binds poorly to Imp13 in the absence of RanGTP (
+     <xref ref-type="fig">
+      Figure 2D and E
+     </xref>
+     ). In addition, an Imp13 mutant with a C-terminal deletion (residues 1–673) is impaired in the binding to eIF1A indicating that the C-terminal contact of Imp13 to eIF1A is important for the binding (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). However, our SEC data indicate that eIF1A remains partially associated with Imp13 in the absence of RanGTP, and so association with import cargoes might be necessary to clear residual eIF1A from Imp13 in the cytoplasm. This would imply that Imp13 could take two pathways after entry to the cytoplasm, one where binding of an import cargo is directly coupled to eIF1A ejection and one where Imp13 is released in an apo state before binding to other cargoes (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       The Imp13 pathway. Schematic display of the dynamic interactions that take place between Imp13 and its protein partners in the cell. In the cytoplasm, Imp13 in the unbound state adopts an open conformation that probably facilitates association of the cargoes to be imported. In the binary import complexes with Mago-Y14 or Ubc9, Imp13 maintains a rather open conformation and translocates through the NPCs into the nucleus. Here, high concentration and the high affinity binding of RanGTP to Imp13 promotes release of the import cargoes. Mago-Y14 is then free to be re-incorporated into an EJC on a newly transcribed and processed mRNP, while Ubc9 promotes SUMOylation of a large number of nuclear targets. In the binary complex with RanGTP, Imp13 adopts a compact conformation that favours the docking of eIF1A. A slight opening of Imp13 conformation at the C-terminal arch accommodates eIF1A side-by-side with RanGTP. The trimeric export complex crosses the NPCs to deliver the export cargo in the cytoplasm upon RanGTP extraction and hydrolysis. Some residual- or re-binding of eIF1A to Imp13 in the absence of RanGTP might occur in the cytoplasm. In this case, import cargo association to Imp13 will competitively displace eIF1A. Due to its small size that allows its diffusion through the NPCs (or possibly via a yet unknown active import mechanism) eIF1A is found in the nucleus at steady state. eIF1A export from the nucleus is not unique to Imp13 and might involve other export factors, such as Crm1, and might occur in complex with other proteins.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Conclusions
+   </title>
+   <p>
+    Imp13 is an essential import factor that also has a critical role as an export factor. The structure of the export complex of Imp13 with RanGTP and eIF1A shows how Imp13 can perform this dual duty. Imp13 in this complex adopts a compact conformation where eIF1A recognizes the inner surface of the C-terminal arch of Imp13 and is engaged in a stabilizing contact with RanGTP. eIF1A association with Imp13 is compatible with the presence of RanGTP, since the export cargo overall shape/structure does not clash with Ran and the binding sites do not overlap. Contacts on Imp13 and on RanGTP stabilize cargo binding for export. The binding mode of eIF1A to Imp13 is similar and spatially overlapping to the binding mode of Mago-Y14 to Imp13. In the latter case, however, the association with RanGTP is mutually exclusive. Due to the higher affinity of binding to Imp13 and high nuclear concentration of the small GTPase, the import cargo is released in the nucleus. At each stage of the import/export cycle Imp13 adopts a shape that allows complementary cargoes to compete for binding in the same compartment. The combination of shape, charge and size of the bound cargo will drive the concomitant or exclusive interactions with RanGTP and ultimately determine the directionality of the transport and the delivery of the cargoes in the appropriate compartment. The mechanism by which Imp13 can act as a bidirectional transport factor could be exploited by more karyopherins, suggesting that the range of bifunctional receptors might be larger than believed so far.
+   </p>
+   <p>
+    The apo structure explains the directionality of eIF1A export. In this state of Imp13, the binding site for eIF1A is partially distorted and the shape complementarity for eIF1A is lost. These data suggest two pathways for importin association in the cytoplasm: either Imp13 is released as a free apo molecule after RanGTP has been extracted, or import cargoes directly displace the export cargo concomitantly with RanGTP release (
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    ).
+   </p>
+   <p>
+    We demonstrate that eIF1A is exported by Imp13
+    <em>
+     in vivo.
+    </em>
+    However, the intracellular localization of eIF1A mutants designed based on the structure show that Imp13 export is functionally redundant and that a Crm1-dependent pathway might be important for eIF1A localization. We also show that Imp13 function is required for viability in human cells, though this may relate to its role in other transport pathways. Further investigations will clarify eIF1A function in the nucleus and eIF1A alternative export pathways.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     DNA constructs
+    </title>
+    <p>
+     For mammalian expression, Hs Imp13, Mago, Y14 and Ubc9 were cloned in a pEGFP-C1 vector (Clontech); to obtain HA-tagged fusion proteins, the EGFP sequence was deleted and substituted with one encoding for the HA epitope (YPYDVPDYA). Hs eIF1A was cloned in a pEGFP-N3 vector (Clontech). Hs fibrillarin (FBL) was amplified from HeLa cDNA and cloned into a modified pEGFP-C1 vector, in which the sequence encoding EGFP was replaced by the ORF of mCherry (pmCherry-C1). GFP-NES was obtained by inserting an oligonucleotide encoding for the nuclear export signal (NES) of the protein kinase A inhibitor (PKI) (
+     <xref ref-type="bibr">
+      Güttler et al, 2010
+     </xref>
+     ) into the
+     <em>
+      Xho
+     </em>
+     I/
+     <em>
+      Hin
+     </em>
+     dIII sites of the pEGFP-C1 vector.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein expression and purification
+    </title>
+    <p>
+     Recombinant Hs and Dm Imp13 were expressed as described before (
+     <xref ref-type="bibr">
+      Grünwald and Bono, 2011
+     </xref>
+     ). Hs Ran Q69L (1–180) and Hs eIF1A full-length and truncated constructs were cloned in a pETMCN vector (
+     <xref ref-type="bibr">
+      Diebold et al, 2011
+     </xref>
+     ) with an N-terminal hexahistidin tag. The recombinant Hs Ran was prepared similarly to the yeast orthologue (
+     <xref ref-type="bibr">
+      Bono et al, 2010
+     </xref>
+     ). The eIF1A constructs were expressed in the
+     <em>
+      E. coli
+     </em>
+     strain BL21 (DE3) Gold in autoinducing medium (
+     <xref ref-type="bibr">
+      Studier, 2005
+     </xref>
+     ) at 20°C overnight. The cleared cell lysates were affinity purified by Ni
+     <sup>
+      2+
+     </sup>
+     NTA in buffer A (20 mM Tris pH 7.5, 300 mM NaCl, 5 mM imidazole and 1 mM β-mercaptoethanol) with a gradient of 5–250 mM imidazole, followed by dialysis in the presence of TEV protease in buffer B (20 mM Tris pH 7.5, 300 mM NaCl, 1 mM DTT). The protein was further purified by a second step of Ni
+     <sup>
+      2+
+     </sup>
+     NTA chromatography and the collected flow-through applied to a cation-exchange column in buffer B with a gradient of 300–1000, mM NaCl.
+    </p>
+    <p>
+     Site-directed mutagenesis was used to introduce a third methionine at residue 65 in pETMCN His eIF1A (1–112). To produce eIF1A Leu65Met 1–112 SeMet-labelled protein, the construct was expressed in the
+     <em>
+      E. coli
+     </em>
+     strain DL41 auxotroph for methionine in M9 medium and starved before addition of SeMet. The protein was purified as described above for the unmodified protein.
+    </p>
+    <p>
+     For complex formation, proteins were mixed in a 1:1.5:2 ratio of Imp13-RanGTP-eIF1A in complex buffer A (20 mM Tris pH 7.5, 50 mM NaCl, 4 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 1 mM DTT) and incubated for 1 h at 4°C. The complexes were further purified by SEC and concentrated to 15 mg/ml prior to setting up crystallization trials.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Analytical SEC
+    </title>
+    <p>
+     For analytical SEC, 1 mg of Imp13 was injected directly or after incubation for 1 h at 4°C with 1.5 × excess of RanGTP and/or 2 × excess of different eIF1A constructs. The runs were carried out with a Superdex 200 10/300GL gel filtration column (GE Healthcare) using the UV absorbance at 280 nm. A sample of each peak fraction was analysed by 15% SDS–PAGE. Proteins were visualized by Coomassie staining.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization, data collection and analysis
+    </title>
+    <p>
+     Optimized crystals of the ternary export complex were obtained in 6% PEG 8000, 0.1 M Na-citrate, pH 5.8 grown at 18°C by vapour diffusion. For data collection, crystals were cryo-protected with mother liquor supplemented with 30% glycerol and flash frozen in liquid nitrogen. The crystals diffracted to 3.6 Å resolution and belong to the spacegroup
+     <em>
+      C
+     </em>
+     2 with cell dimensions of
+     <em>
+      a
+     </em>
+     =186.50 Å,
+     <em>
+      b
+     </em>
+     =100.4 Å,
+     <em>
+      c
+     </em>
+     =274.72 Å, α=γ=90° β=90.909°. The asymmetric unit contains three independent complexes. Data were processed and scaled using XDS (
+     <xref ref-type="bibr">
+      Kabsch, 1993
+     </xref>
+     ). The structure was solved by MR using PHASER (
+     <xref ref-type="bibr">
+      McCoy et al, 2007
+     </xref>
+     ) and the Imp13-RanGTP structure (pdb id.: 2x19) as a search model. For placing eIF1A into the electron density, SAD data of the SeMet substituted eIF1A Leu65Met in complex with Imp13 and RanGTP were collected and an anomalous Fourier map was calculated. Refinement was carried out using iterative cycles of model building in COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ) and restrained refinement including NCS in BUSTER (
+     <xref ref-type="bibr">
+      Smart et al, 2012
+     </xref>
+     ) and B-group refinement in PHENIX (
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     Crystals of unbound Dm Imp13 grew in 0.1 M NaoAc, pH 4.9 with addition of 0.8 M ammonium tartrate at 18°C by vapour diffusion method (8 mg/ml). The crystals diffracted to 3 Å and belonged to spacegroup
+     <em>
+      P
+     </em>
+     4
+     <sub>
+      3
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     2 with cell dimensions of
+     <em>
+      a
+     </em>
+     =
+     <em>
+      b
+     </em>
+     =167.72,
+     <em>
+      c
+     </em>
+     =95.630 and α=β=γ=90°. The structure was solved by MR using PHASER and Dm Imp13 as a search model (pdb id.: 2x1g) fragmented into three regions encompassing H2-8, H9-12; H15-20. Iterative cycles of model building and restrained refinement were carried out in COOT and PHENIX (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     All diffraction data were collected at the PXII beamline of the Swiss Light Source (Villigen, Switzerland).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      In vitro
+     </em>
+     binding assays
+    </title>
+    <p>
+     For binding assays, GST-tagged Imp13 was incubated with purified binding partners (7 μg of eIF1A or 4 μg of each of the other proteins) in binding buffer (20 mM HEPES pH 7.5, 50 mM NaCl, 4 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 10% glycerol, 0.01% (v/v) Nonidet P40 and 1 mM DTT) in a final volume of 60 μl for 1 h at 4°C. The GST-tagged protein was immobilized on 15 μl of glutathione agarose beads (Macherey-Nagel) and incubated for 1 h at 4°C. The beads were washed three times with 500 μl of binding buffer and eluted with 8 μl of SDS loading buffer. The eluted proteins were analysed by 15% SDS–PAGE and visualized by Coomassie staining.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture and transfection
+    </title>
+    <p>
+     HeLa cells were maintained in Dulbecco's Modified Eagle's medium (DMEM) supplemented with fetal bovine serum (10%),
+     <span>
+      L
+     </span>
+     -glutamine (2 mM), penicillin (100 units/ml) and streptomycin (100 μg/ml; all from Invitrogen). Cells were grown in a humidified incubator with 5% CO
+     <sub>
+      2
+     </sub>
+     at 37°C. Transfections were performed using Lipofectamine 2000 (Invitrogen), following manufacturer's recommendations.
+    </p>
+    <p>
+     Knockdown efficiency was assessed by western blot using anti-Imp13 antibody (produced in-house) and anti-tubulin as a loading control (1:10 000; Sigma).
+    </p>
+    <p>
+     For immunofluorescence, the cells were grown directly on glass coverslips, in 24-well plates. The transfection mixtures contained 600 ng of one or more plasmids encoding GFP-, mCherry- or HA-protein fusions. The cells were fixed 48 h after transfection.
+    </p>
+    <p>
+     For live-cell imaging, the cells were grown in 24-well plates. The transfection mixtures contained 600 ng of one or more plasmids encoding GFP-, mCherry- or HA-protein fusions. The day after transfection, the cells were transferred in 35 mm glass-bottom dishes (Greiner Bio-One). The cells were imaged 48 h after transfection. Where indicated, the cells were treated with 20 ng/ml Leptomycin B (LMB; Sigma-Aldrich) for 5 h before imaging.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence microscopy, image processing and data analysis
+    </title>
+    <p>
+     For immunofluorescence, HeLa cells were fixed with 4% paraformaldehyde in PBS for 10 min, and permeabilized for 10 min with PBS containing 0.5% Triton X-100. Anti-eIF1AY (1:50, #Y055246, abm) and anti-Imp13 were used for detection. Incubation with the primary antibodies was performed in 0.1 M Tris–HCl pH 8 with 5% donkey serum, for 60 min at room temperature. Cells were then washed 2 × in 0.1 M Tris–HCl pH 8 and 3 × in 0.1 M Tris–HCl pH 8 with 1 M NaCl. Appropriate Alexa Fluor 488- or Alexa Fluor 555-coupled secondary antibodies (Molecular Probes) were diluted 1:1.000 in 0.1 M Tris–HCl pH 8 with 1 M NaCl and incubated 45 min at room temperature; where stated, Alexa 633-phalloidin (Molecular Probes) was also included. DNA was stained with Hoechst 33342 (Molecular Probes). Samples were mounted using Fluoromount-G (Southern Biotechnology Associates, Inc.). For live imaging, HeLa cells grown in 35 mm glass-bottom dishes were maintained in CO
+     <sub>
+      2
+     </sub>
+     -independent medium (Gibco) supplemented with fetal bovine serum (1%).
+    </p>
+    <p>
+     Images were acquired on an Olympus FluoView FV1000 confocal microscope, equipped with a UPLSAPO 60X NA:1.20 water objective. Z-stacks were taken to scan the cell volume, with slices every 0.49 μm. Where indicated, DIC images were also acquired to define the boundaries of cytoplasm and nucleus. Image processing and quantification was performed with ImageJ. Briefly, all the slices of a Z-stack were summed and, after background subtraction, total fluorescence intensity was measured for each cellular compartment. The values obtained for the nuclear compartment were then expressed as a fraction of the corresponding total fluorescence. Statistical representation and analysis were performed with gnumeric (
+     <a>
+      http://projects.gnome.org/gnumeric/
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Differential scanning fluorimetry
+    </title>
+    <p>
+     Previous attempts at measuring binding affinities with ITC and Biacore proved unsuccessful due to aggregation and precipitation of Imp13. For this reason, we used DSF to determine the dissociation constants of Imp13 with various cargoes (
+     <xref ref-type="bibr">
+      Niesen et al, 2007
+     </xref>
+     ). The cargo was titrated in 18–20 steps to a fixed concentration of Imp13 in buffer containing 20 mM HEPES pH 7.5, 100 mM NaCl, 4 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 15% glycerol in a 96-well plate (BIOZYME). For Mago-Y14 and RanGTP Q69L (residues 1–180), a fixed concentration of 0.5 μM Imp13 was used, while Ubc9 was titrated to 1 μM Imp13. eIF1A was titrated to 1 μM of preformed and purified Imp13-RanGTP complex. To each titration step, 5 × SYPRO Orange (SIGMA) was added, the wells were sealed with Flat Caps Strips (BIOZYME) and incubated for 30 min at RT. Melting curves were measured with BIO-RAD DNA Engine Chromo4 with a temperature gradient from 25 to 85 °C with an increment of 1°C/s and an adjustment time of 5 s. Two channels, SYBR and CY3, were used for excitation and absorption. The melting temperature (
+     <em>
+      T
+     </em>
+     m) was calculated with the program GraphPad PRISM5 by fitting the Boltzman equation to the measured melting curves. For the calculation of the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     , the
+     <em>
+      T
+     </em>
+     m was plotted against the concentration of the cargo and fitted with an exponential equation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession numbers
+    </title>
+    <p>
+     The coordinates and structure factors have been deposited in the Macromolecular Structure Database of European Bioinformatic Institute (EBI) with ID code 3zjy and 3zkv for Imp13 ternary export complex and unbound form, respectively.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Figure:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (9.3M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (286K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

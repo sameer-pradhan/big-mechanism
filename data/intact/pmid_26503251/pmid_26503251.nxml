@@ -1,0 +1,3487 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4678811
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Assembly and dynamics of the U4/U6 di-snRNP by single-molecule FRET
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     In large ribonucleoprotein machines, such as ribosomes and spliceosomes, RNA functions as an assembly scaffold as well as a critical catalytic component. Protein binding to the RNA scaffold can induce structural changes, which in turn modulate subsequent binding of other components. The spliceosomal U4/U6 di-snRNP contains extensively base paired U4 and U6 snRNAs, Snu13, Prp31, Prp3 and Prp4, seven Sm and seven LSm proteins. We have studied successive binding of all protein components to the snRNA duplex during di-snRNP assembly by electrophoretic mobility shift assay and accompanying conformational changes in the U4/U6 RNA 3-way junction by single-molecule FRET. Stems I and II of the duplex were found to co-axially stack in free RNA and function as a rigid scaffold during the entire assembly, but the U4 snRNA 5′ stem-loop adopts alternative orientations each stabilized by Prp31 and Prp3/4 binding accounting for altered Prp3/4 binding affinities in presence of Prp31.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Eukaryotic genes are often organized as a series of coding regions (exons) separated by intervening non-coding regions (introns). Introns are excised from precursor messenger RNA (pre-mRNA), while exons are spliced together to form a mature mRNA with a continuous protein coding sequence by a massive RNA-protein machine called the spliceosome (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ). The major components of the spliceosome are five small nuclear ribonucleoprotein particles, (U1, U2, U4, U5 and U6 snRNPs) each containing one of the five spliceosomal U-type snRNAs (U1, U2, U4, U5 and U6 snRNAs), seven Sm or LSm proteins and other particle-specific proteins. These snRNPs assemble in an ordered manner onto pre-mRNA substrates together with non-snRNP proteins. Firstly, the U1 and U2 snRNPs associate with the 5′ splice site and the highly conserved branch point sequence located within the intron to be excised, respectively (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ). This U1/U2/pre-mRNA complex is referred to as the pre-spliceosome or complex A. Next, a tri-snRNP particle composed of the U4/U6 and U5 snRNPs associates with the pre-spliceosome, forming the pre-catalytic spliceosome or complex B. This association results in a significant structural rearrangement of the U4/U6.U5 tri-snRNP particle leading to the catalytically active spliceosomal complex B*, upon release of the U1 and U4 snRNPs and formation of a U2/U6 snRNA pair. The first catalytic step of splicing then involves pre-mRNA cleavage at the 5′ splice site and ligation of the 5′ end of the intron to the branch site resulting in a lariat intron structure similar to the intermediate of the group II self-splicing intron (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    –
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ). Structural rearrangements at this stage yield complex C, which then catalyzes cleavage at the 3′ splice site and the formation of mature mRNA through ligation of the 5′ and 3′ exons.
+   </p>
+   <p>
+    The
+    <em>
+     Saccharomyces cerevisiae
+    </em>
+    U4/U6 di-snRNP is composed of U4 and U6 snRNAs, and 18 proteins (Figure
+    <xref ref-type="fig">
+     None
+    </xref>
+    ): Snu13, Prp31, Prp3, Prp4, seven Sm and seven LSm proteins (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    –
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ). The pre-formed LSm protein ring binds to the binding sequences at the 3′ ends of the U6 snRNAs (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    –
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ), and three Sm protein sub-complexes, namely SmB-SmD3, SmD1-SmD2 and SmE-SmF-SmG, assemble around the Sm sequence near the 3′ end of U4 snRNA (
+    <xref ref-type="bibr">
+     14
+    </xref>
+    –
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ). Snu13 binds to the kink turn (k-turn) motif in the 5′ stem-loop of U4 snRNA (Figure
+    <xref ref-type="fig">
+     None
+    </xref>
+    ) and facilitates Prp31 binding (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ). The structure of a ternary complex comprising human Snu13, Prp31 and 5′ stem-loop of U4 snRNA has been reported (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). Prp3 and Prp4 are known to be the only U4/U6 di-snRNP specific proteins (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    –
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). They form a dimer prior to binding around stem II and 5′ stem-loop of U4/U6 duplex (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ). However, little is known regarding the global structure of the U4/U6 di-snRNP. Currently, the only global structural information is from a low resolution (∼40 Å) EM structure revealing a large and a small domain connected by a thin bridge (
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ). Although this study provides some basic low-resolution information about the structure of the U4/U6 di-snRNP and how it associates within the tri-snRNP, the relative orientation of the helices of the 3-way junction (between stem I, stem II and the 5′ stem-loop) and the global structure of the U4/U6 snRNA duplex in the presence of its associated proteins remains structurally unresolved. A modeling study done by Lescoute and Westhof (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ), has categorized RNA 3-way junctions with two coaxially stacked helices into three groups based on the length of the linkers connecting the helices. It has been proposed that U4/U6 snRNA duplex belongs to the B family, with stem I and 5′ stem-loop of U4 snRNA are coaxially stacked.
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     Figure 1.
+    </label>    <caption>
+     <p>
+      (
+      <strong>
+       A
+      </strong>
+      ) Secondary structure representation of the yeast U4/U6 di-snRNP. Each snRNP protein is color-coded and labeled accordingly. (
+      <strong>
+       B
+      </strong>
+      ) Stepwise assembly of the full U4/U6 di-snRNP under sub-stoichiometric conditions followed by electrophoretic mobility shift assay (EMSA). Consecutive binding of each protein results in complete gel shifts, indicating step-wise assembly of the snRNP.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    We have over-expressed all the protein components of the yeast U4/U6 snRNP using
+    <em>
+     E. coli
+    </em>
+    and yeast expression systems. This has allowed us to determine the affinity of proteins upon stepwise addition of protein during the complete assembly of the U4/U6 di-snRNP. Proteins capable of directly interacting with the RNA were systematically examined for their ability to nucleate further assembly with apparent binding affinities reported for all components at each stage. In this study, we have developed a protocol to reconstitute a complete di-snRNP
+    <em>
+     in vitro
+    </em>
+    . We then investigated the global conformation and conformational changes in the U4/U6 snRNA duplex three-way junction with step-wise protein assembly by employing single-molecule fluorescence resonance energy transfer (smFRET), a powerful technique to characterize, in real time, conformational and folding dynamics of RNA complexes otherwise hidden in ensemble averaged studies (
+    <xref ref-type="bibr">
+     27
+    </xref>
+    –
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ). Taken together, our data provide new insight into the global conformation and assembly of the U4/U6 di-snRNP.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    MATERIALS AND METHODS
+   </title>
+   <sec>
+    <title>
+     Protein cloning, expression and purification
+    </title>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Snu13 expression and purification
+     </title>
+     <p>
+      The Snu13 gene was PCR amplified from
+      <em>
+       Saccharomyces cerevisiae
+      </em>
+      genomic DNA and cloned by standard techniques into a modified pRK172 vector placing a TEV protease cleavable hexa-histidine tag at the N-terminus. BL21(DE3)-RIL CodonPlus cells (Stratagene) were transformed and cultured in 2xTY media with 35 μg/ml chloramphenicol and 50 μg/ml ampicillin at 37°C. Expression was induced with 0.5 mM IPTG at an OD at 600 nm of 0.6. The cells were spun down after 6 h, resuspended in 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 500 mM urea, 25 mM imidazole, 10 mM β-mercaptoethanol, with complete protease inhibitor mixture (Roche) and lysed by sonication. The cell lysate was cleared by centrifugation and the supernatant was applied to a Ni-NTA agarose (Qiagen) column, washed with 20 mM Tris-HCl (pH 7.4), 1 M NaCl, 500 mM urea, 25 mM imidazole, 10 mM β-mercaptoethanol, and eluted under these buffering conditions with a linear gradient of imidazole to 1 M over 400 ml. Snu13 containing fractions were treated with TEV protease during dialysis against 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 500 mM urea, 25 mM imidazole, 10 mM β-mercaptoethanol, at room temperature and then reapplied to Ni-NTA resin to remove the tag. Snu13 was dialyzed into 20 mM Tris-HCl (pH 7.4), 50 mM NaCl, 10 mM β-mercaptoethanol, and the protein was loaded onto an SP sepharose column (GE Healthcare) and eluted with a linear gradient of NaCl to 1 M over 400 ml. Pooled fractions were dialyzed against 10 mM potassium phosphate (pH 7.2), 50 mM NaCl, applied to a hydroxyapatite column (Biorad), and eluted by a gradient of ammonium sulfate to 6% (w/w). Snu13 containing fractions were concentrated and buffer exchanged into 1 mM Tris-HCl (pH 7.4).
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Prp31 expression and purification
+     </title>
+     <p>
+      The Prp31 coding sequence was PCR amplified from
+      <em>
+       Saccharomyces cerevisiae
+      </em>
+      genomic DNA and cloned into a pGEX 6P-1 vector for expression with an N-terminal GST tag cleavable by Prescission protease and a non-cleavable C-terminal octa-histidine tag. BL21(DE3)-RIL CodonPlus cells (Stratagene) were transformed and cultured in 2xTY media with 35 μg/ml chloramphenicol and 50 μg/ml ampicillin at 20°C. Expression was induced with 0.5 mM IPTG at an OD at 600 nm of 0.6. The cells were spun down after 6 h, resuspended in 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 500 mM urea, 10 mM β-mercaptoethanol, with complete protease inhibitor mixture (Roche), lysed by sonication, and cleared by centrifugation. The cleared lysate was loaded onto a GST column (GE Healthcare), washed with 20 mM Tris-HCl (pH 7.4), 1 M NaCl, 500 mM urea, 10 mM β-mercaptoethanol, and eluted with a gradient of glutathione to 25 mM. Prp31 containing fractions were applied to a Ni-NTA column in 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 500 mM urea, 25 mM imidazole, 10 mM β-mercaptoethanol, column washed with 20 mM Tris-HCl (pH 7.4), 1 M NaCl, 500 mM urea, 25 mM imidazole, 10 mM β-mercaptoethanol, and protein eluted with 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 500 mM urea, 1 M imidazole, 10 mM β-mercaptoethanol. The eluate was treated with 3C Prescission protease (GE Healthcare) at room temperature while dialyzing against 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 500 mM urea, 10 mM β-mercaptoethanol. After 5 h incubation at room temperature, the solution was applied to a GST column to remove the GST tag. The flow-through was dialyzed against 20 mM Tris-HCl (pH 7.4), 150 mM NaCl, 10 mM β-mercaptoethanol, applied to a SP-sepharose column (GE Healthcare), and protein eluted with a linear gradient of NaCl to 1 M over 300 ml. The protein was then dialyzed against 10 mM potassium phosphate, 250 mM KCl, and purified on a hydroxyapatite column (Biorad) with a 150 ml linear gradient to 12% ammonium sulfate. The eluate was concentrated and buffer exchanged to 10 mM NaHEPES (pH 6.8), 300 mM NaCl.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Prp3/4 expression and purification
+     </title>
+     <p>
+      The Prp3 and Prp4 coding sequences were PCR amplified from
+      <em>
+       Saccharomyces cerevisiae
+      </em>
+      genomic DNA. Prp3 was cloned into a modified pUC 18 vector that placed a TEV protease cleavable octa-histidine tag at the C-terminus and contained a pGGAP promoter and 3′-UTR (
+      <xref ref-type="bibr">
+       30
+      </xref>
+      ). The Prp4 coding sequence was likewise cloned into a similar vector lacking the affinity tag. The cassettes containing the pGGAP promoter, Prp3 or Prp4, and the 3′-UTR, were excised and cloned into a single pRS426 vector (Invitrogen). The pRS vector containing Prp3 and Prp4 coding sequences was transformed into competent BCY123 yeast cells (MATα, Can1, ade2, trp1, Ura3–52, his3, leu2–3, 112, pep4::his+, prb1::leu2+, bar1::HisG+, lys2::pGAL1/10-GAL4+) by the lithium acetate method (
+      <xref ref-type="bibr">
+       31
+      </xref>
+      ), plated on -Ura plates, and incubated at 30°C for 2 days. A single colony was inoculated into 50 ml of -Ura YM media with 2% raffinose and grown at 30°C for 24 h as a pre-culture. 12 l of -Ura YM media with 2% raffinose were innoculated and grown at 30°C to an OD 600 of 0.8 before induction with 2% galactose. The cells were spun down after overnight growth at 30°C and lysed using a 6870 freezer/mill (SPEX), clarified by centrifugation, and applied to a Ni-NTA column as for other proteins used in this study. The combined fractions were applied to a hydroxyapatite column pre-equilibrated with 20 mM sodium phosphate (pH 7.2), 200 mM NaCl, 10 mM β-mercaptoethanol, and eluted by a gradient of sodium phosphate to 200 mM. The eluate was dialyzed against 20 mM Tris-HCl (pH 7.4), 300 mM NaCl, 10 mM β-mercaptoethanol, and applied to a Resource-Q column (GE Healthcare) after dilution with chilled water to reduce the concentration of NaCl to 150 mM immediately before applying to the column. Protein was eluted under these buffering conditions with a linear gradient of NaCl to 1 M. The pooled fractions were concentrated and buffer-exchanged to 20 mM Tris-HCl (pH 7.4), 500 mM NaCl, 10 mM β-mercaptoethanol, applied to a Superdex-200 gel filtration column, and concentrated for storage at −80°C.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Sm protein expression and purification
+     </title>
+     <p>
+      All Sm protein genes (SmB, D1, D2, D3, E, F and G) were PCR amplified from
+      <em>
+       Saccharomyces cerevisiae
+      </em>
+      genomic DNA. Sm proteins were expressed and purified as previously described (
+      <xref ref-type="bibr">
+       16
+      </xref>
+      ,
+      <xref ref-type="bibr">
+       32
+      </xref>
+      ).
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      LSm2–LSm8 expression and purification
+     </title>
+     <p>
+      All LSm protein genes (LSm2–LSm8) were PCR amplified from
+      <em>
+       Saccharomyces cerevisiae
+      </em>
+      genomic DNA and cloned into a modified pUC18 vector containing the pGGAP promoter and 3′-UTR. The LSm8 gene was cloned so as to place a TEV protease cleavable CBP tag at the C-terminus and the LSm5 gene was cloned so as to place a TEV protease cleavable octa-histidine tag at the C-terminus. The rest of LSm protein genes (LSm2, LSm3, LSm4 (1–106), LSm6 and LSm7) were untagged. The expression cassettes including pGGAP promoter, LSm protein gene and 3′-UTR, were cut out and cloned into pENTR3C vectors (Invitrogen) creating the pENTR3874 and pENTR265 vectors containing LSm3, LSm8-CBP, LSm7, LSm4, and LSm2, LSm6, LSm5-His, respectively. The final expression vectors were then made by the Gateway cloning reaction using the clonase II enzyme (Invitrogen) to promote LR recombination between the pENTR3C vector containing multiple LSm protein genes and either pRS424 or pRS426 vectors that had been modified to contain DNA sequences for ccdB and chloramphenicol resistance flanked by the required attR1 and attR2 sites derived from the pDEST8 vector (Invitrogen). This resulted in pRS426LSm3874 and pRS424LSm265 vectors. These vectors were co-transformed into BCY123 using the lithium acetate method (
+      <xref ref-type="bibr">
+       33
+      </xref>
+      ). Transformants were selected on –Ura –Trp plates and a single colony was inoculated into 50 ml of -Ura -Trp YM media with 2% raffinose and grown at 30°C for 24 h as a pre-culture. 12 L of -Ura -Trp YM media with 2% raffinose were inoculated and grown at 30°C to an OD 600 of 0.8 before induction with 2% galactose. The cells were spun down and resuspended in 10 mM Tris-HCl (pH 8.0), 1 mM magnesium acetate, 1 mM imidazole, 2 mM CaCl
+      <sub>
+       2
+      </sub>
+      , 500 mM NaCl and 10 mM β-mercaptoethanol, with complete protease inhibitor cocktail (Roche), lysed using a 6870 freezer/mill (SPEX) and clarified by centrifugation. The supernatant was incubated with calmodulin resin at 4°C overnight. Protein was eluted with 10 mM Tris-Cl (pH 8.0), 1 mM Magnesium acetate, 1 mM imidazole, 500 mM NaCl, 10 mM β-mercaptoethanol and 2mM EGTA. The fractions containing the LSm 2–8 complex were dialyzed against 20 mM Tris-Cl (pH 7.4), 500 mM NaCl, 500 mM urea, 25 mM imidazole, 10 mM β-mercaptoethanol, applied to a Ni-NTA column, and eluted by an imidazole gradient to 500 mM. Eluted protein was dialyzed against 10 mM potassium phosphate (pH 7.2), 300 mM KCl, 10 mM β-mercaptoethanol, applied to a hydroxyapatite column (Bio-Rad), and eluted with an ammonium sulphate gradient to 12%. The protein containing fractions were dialyzed against 20 mM Tris-HCl (pH8.0), 300 mM NaCl, 10 mM β-mercaptoethanol, and complex further purified through a Mono-Q column (GE Healthcare) in 20 mM Tris-HCl (pH 8.0), 100 mM NaCl, 10 mM β-mercaptoethanol with a linear gradient of 20 mM Tris-HCl (pH 8.0), 1 M NaCl, 10 mM β-mercaptoethanol producing a homogeneous main peak followed by several minor peaks found to be dimeric and trimeric species of the LSm2–LSm8 complex by native mass spectrometry. This final material was found to be very stable in solution capable of withstanding concentrations in excess of 20 mg/ml under low salt conditions (&lt;100 mM KCl).
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     RNA cloning, transcription, purification and labeling
+    </title>
+    <p>
+     RNAs were transcribed as Hammerhead (HH) ribozyme-RNA-Hepatitis delta virus (HDV) ribozyme fusions and purified on acrylamide gels after co-transcriptional HH and HDV self-cleavage at the insert–ribozyme junction.
+    </p>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Cloning of HH-RNA-HDV fusions
+     </title>
+     <p>
+      The target sequence for
+      <em>
+       in vitro
+      </em>
+      transcription was PCR amplified using synthetic DNA primers to generate the T7 promoter-HH-RNA construct and then cloned by standard techniques into a modified pUC19 vector containing the HDV sequence by restriction/ligation. The same strategy, using different oligonucleotide sequences, was used to generate both the U4 and U6 snRNAs. The accuracy of the inserts and ribozyme placement was confirmed by DNA sequencing.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      In vitro RNA transcription and purification
+     </title>
+     <p>
+      Plasmids for
+      <em>
+       in vitro
+      </em>
+      RNA transcription were prepared and purified by CsCl ultracentrifugation. The plasmids were linearized 3′ of the HDV ribozyme and RNA was transcribed by standard methods (
+      <xref ref-type="bibr">
+       34
+      </xref>
+      ). The RNA product was purified on 8% polyacrylamide denaturing gels run with 8 M urea in TBE [89 mM Tris–borate, 2 mM EDTA (ethylenediaminetetraacetic acid), pH 8.3], visualized by UV shadowing, excised from the gel, electroeluted from the acrylamide, and exchanged and concentrated in water.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Fluorescein labeling of RNA
+     </title>
+     <p>
+      RNA used in assembly studies was labeled with fluorescein at the 3′- end. A total of 100 μg of RNA was used in a 130 μL reaction consisting of 40 mM Na-MES (pH 6.0), 10 mM MgCl
+      <sub>
+       2
+      </sub>
+      , 5 mM DTT, 10 U CIP and 200 U T4 PNK (
+      <xref ref-type="bibr">
+       35
+      </xref>
+      ). This mixture was incubated at 37°C for 3 h after which time the RNA was phenol/chloroform extracted and ethanol precipitated. The 3′ vicinal diol was oxidized by resuspending the RNA in 100 μL of freshly made oxidation solution [0.1 M sodium periodate and 0.1 M sodium acetate (pH 5.0)] and incubated at room temperature for 1.5 h in the dark (
+      <xref ref-type="bibr">
+       36
+      </xref>
+      ). The reaction was quenched by the addition of 11 μL of 2.5 M KCl, placed on ice for 10 min, and the resultant insoluble KIO4 pellet was removed by a brief centrifugation. A thiosemicarbazide derivative of fluorescein (100 mM in DMSO) was added to a final concentration of 50 mM and incubated at room temperature for 4 h (
+      <xref ref-type="bibr">
+       37
+      </xref>
+      ). Three phenol/chloroform extractions were performed to remove most of the free fluorophore, the labeled RNA ethanol precipitated, and gel purified by denaturing PAGE.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      U4/U6 snRNA duplex formation
+     </title>
+     <p>
+      For substoichiometric electrophoretic mobility shift assays, U4 snRNA labeled with fluorescein at the 3′ end was mixed with unlabeled U6 snRNA to a final concentration of 1 μM and 2 μM, respectively, in 10 mM K-HEPES (pH 7.5), 100 mM KCl. The mixture was heated to 90°C and slow-cooled to 4°C at −0.03°C/s. The RNA duplex was then gel purified on a native gel at 4°C, band excised, RNA eluted by the ‘crush and soak’ method into 10 mM K-HEPES (pH 7.5), 100 mM KCl, and concentrated in an ultra-centrifugation filter (Amicon).
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Electrophoretic mobility shift assays
+    </title>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Substoichiometric assembly analysis
+     </title>
+     <sec>
+      <p>
+       Direct binding electrophoretic mobility shift assay (EMSA) experiments were performed with samples containing 2 nM fluorescein labeled RNA and protein typically within the range ∼0.3 pM to 2.5 μM in an EMSA sample buffer consisting of 10 mM K-HEPES (pH 7.5), 100 mM KCl, 0.01% NP-40, 20 μg
+       <em>
+        E. coli
+       </em>
+       tRNA in a volume of 100 μl. For step-wise assembly (Table
+       <a>
+        <span>
+         ​
+         <span>
+          (Table1),
+         </span>
+        </span>
+        <span>
+         1
+        </span>
+       </a>
+       ), protein concentrations for pre-assembled components were Snu13 (200 nM), Prp31 (120 nM), Sm proteins (64 nM) and LSm proteins (240 nM). Reactions were allowed to equilibrate on ice for 60 min before loading on native polyacrylamide gels (4% at 37.5:1 acrylamide:bis-acrylamide) run in 0.5X TBE buffer at 4°C. Gels were imaged on a Typhoon variable-mode scanner and the signals in the gel bands corresponding to protein bound and unbound RNA were integrated. Parameters in the following function were fit to the data for fraction of RNA bound versus protein concentration:
+      </p>
+      <sec>
+       <sec>
+        <img/>
+       </sec>
+      </sec>
+      <p>
+       where θ is fraction bound, K
+       <sub>
+        d, app
+       </sub>
+       is the apparent dissociation constant, a is the upper baseline, b is the lower baseline and n is the Hill coefficient. At least two gel shifts were performed for each sample and associated error is reported as one standard deviation from the mean (Table
+       <a>
+        <span>
+         ​
+         <span>
+          (Table1).
+         </span>
+        </span>
+        <span>
+         1
+        </span>
+       </a>
+       ). The shifts in Table
+       <a>
+        <span>
+         ​
+         <span>
+          Table1
+         </span>
+        </span>
+        <span>
+         1
+        </span>
+       </a>
+       are for entirely wild-type components with the exception of the LSm complex wherein LSm4 was truncated (amino acids 1–106) so as to remove the C-terminal region absent from the human homolog and predicted to be disordered (DISOPRED) (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ) and a truncated Sm complex was used (SmB 1–105).
+      </p>
+     </sec>
+     <sec>
+      <a>
+       <img/>
+      </a>
+      <sec>
+       <sec>
+        <a>
+         Table 1.
+        </a>
+       </sec>
+       <sec>
+        <span>
+         <strong>
+          Apparent binding affinities (K
+          <sub>
+           d, app
+          </sub>
+          ) and Hill coefficients for step-wise
+          <em>
+           in vitro
+          </em>
+          assembly of the
+          <em>
+           Saccharomyces cerevisiae
+          </em>
+          U4/U6 di-snRNP as determined by EMSA. Confidence intervals are one standard deviation from the weighted mean.
+         </strong>
+        </span>
+       </sec>
+      </sec>
+     </sec>
+     <p>
+      Concentrations used in Supplementary Figure S6A were U4 (4 nM), U6 (4 nM), U4/U6 snRNA duplex (4 nM), Snu13 (200 nM), Prp31 (120 nM), and the shift with LSm was conducted with 2-fold dilutions and a maximum concentration of 1 μM. Supplementary Figure S6B had H46 hybrid RNA (10 nM), Snu13 (100 nM), Prp31 (150 nM) and the shift with LSm was conducted with 2-fold dilutions and a maximum concentration of 500 nM. Figure
+      <xref ref-type="fig">
+       None
+      </xref>
+      had U4 (4 nM), U6 (4 nM), U4/U6 snRNA duplex (4 nM), Snu13 (180 nM), Prp31 (120 nM), Sm proteins (64 nM), LSm proteins (240 nM) and Prp3/4 (500 nM).
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Single-molecule FRET
+    </title>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Sample purification and labeling
+     </title>
+     <p>
+      Three U6 RNA strands and one U4 RNA strand were utilized for the single-molecule experiments to study the orientation of three helices (Supplementary Figure S1C and Table S1). The U4 and U6-II strands were purchased from Dharmacon, whereas U6-I and U6-III strands were purchased by Keck Foundation Resource Laboratory at the Yale University School of Medicine.
+     </p>
+     <p>
+      The 2′-hydroxyl protective groups on all four RNA strands were removed and the RNAs were purified as previously described (
+      <xref ref-type="bibr">
+       39
+      </xref>
+      ,
+      <xref ref-type="bibr">
+       40
+      </xref>
+      ). The RNAs were purified by denaturing gel electrophoresis (20% wt/vol polyacrylamide and 8 M urea) and diffusion elution against elution buffer (0.5 M NH
+      <sub>
+       4
+      </sub>
+      OAc and 0.1 mM EDTA) overnight at 4°C, followed by chloroform extraction, ethanol precipitation and C8 reverse-phase HPLC. The C6 amino modifier in U6-II was labeled with Cy3 (GE Healthcare), while the C6 amino modifier in U6-III and a 5-LC-NU internal amino modifier in U4 were labeled with Cy5 (GE Healthcare) in labeling buffer (100 mM Na
+      <sub>
+       2
+      </sub>
+      CO
+      <sub>
+       3
+      </sub>
+      , pH 8.5) overnight at 27°C. The labeled RNAs were further purified by ethanol precipitation and reverse-phase HPLC. RNA concentrations were measured by UV-Vis absorbance at 260 nm.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Single-molecule experiments
+     </title>
+     <p>
+      Single-molecule experiments were performed as described (
+      <xref ref-type="bibr">
+       39
+      </xref>
+      ,
+      <xref ref-type="bibr">
+       41
+      </xref>
+      ). Two RNA strands (2 μM U4 and 2 μM U6-I, U6-II or U6-III) in standard buffer [10 mM Tris-HCl (pH 7.4), 100 mM NaCl] were heated at 94°C for 45 s and annealed by cooling to room temperature over 20 min. The annealed, biotinylated, fluorophore-labeled complex was then diluted to 10 pM and immobilized on a quartz slide via a biotin-streptavidin interaction to generate a surface density of ∼0.1 molecules/μm
+      <sup>
+       2
+      </sup>
+      . An oxygen-scavenging system (OSS) consisting of 5 mM protocatechuic acid (PCA) and 0.1 μM protocatechuate-3, 4-dioxygenase (PCD) was used to reduce photo-bleaching (
+      <xref ref-type="bibr">
+       42
+      </xref>
+      ). In protein binding experiments, the measurements were obtained in the presence Snu13, Prp31 or Prp3/4.
+     </p>
+     <p>
+      The donor fluorophores were excited in a home-built total internal reflection microscope with a laser (532 nm, 2 mW, Laser 2000). The donor and acceptor emission were separated using appropriate dichroic mirrors (635DCXR, Chroma) and detected as two side-by-side images on a back-illuminated electron-multiplied CCD camera (Andor I-Xon Ultra 897) (
+      <xref ref-type="bibr">
+       39
+      </xref>
+      ,
+      <xref ref-type="bibr">
+       41
+      </xref>
+      ,
+      <xref ref-type="bibr">
+       43
+      </xref>
+      ). The individual donor (I
+      <sub>
+       D
+      </sub>
+      ) and acceptor (I
+      <sub>
+       A
+      </sub>
+      ) intensities of optically resolved single molecules (characterized by single-step photo-bleaching) were measured by integration of their relative spot intensities and used to calculate the apparent FRET efficiency as FRET = I
+      <sub>
+       A
+      </sub>
+      /(I
+      <sub>
+       A
+      </sub>
+      + I
+      <sub>
+       D
+      </sub>
+      ), and followed in real time for each molecule. Resulting time trajectories were then separated based on the FRET value and time binned to draw FRET histograms, which represent the frequency of the population at a particular FRET value. Average FRET values for each population were determined by fitting the histograms to Gaussians. These values then used to fit the peaks in overall histograms which combine all the single molecule trajectories of each RNA complex.
+     </p>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     <em>
+      In vitro
+     </em>
+     reconstitution of the U4/U6 di-snRNP
+    </title>
+    <p>
+     To characterize the step-wise assembly of the U4/U6 di-snRNP, we first used EMSA by incubating purified proteins of the U4/U6 di-snRNP (Snu13, Prp31, Sm proteins, LSm proteins and Prp3/4, Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) with pre-formed U4/U6 snRNA duplex. The sequences, schematic representations of the constructs and the resulting data are shown in Supplementary Table S1, Supplementary Figure S1A, B and 2–17, respectively. The resulting apparent binding affinities (K
+     <sub>
+      d, app
+     </sub>
+     ) are summarized in Table
+     <a>
+      <span>
+       ​
+       <span>
+        Table1
+       </span>
+      </span>
+      <span>
+       1
+      </span>
+     </a>
+     .
+    </p>
+    <p>
+     First, each U4/U6 protein or protein sub-complex was titrated against the preformed U4/U6 snRNA duplex. Snu13 binds to the duplex with higher affinity (K
+     <sub>
+      d, app
+     </sub>
+     = 17 ± 1 nM, Supplementary Figure S2) indicating that the RNA is properly folded near the k-turn required for Snu13 binding. Previous EMSA studies have shown that Snu13 binding to U4 snRNA results in a shift at K
+     <sub>
+      d, app
+     </sub>
+     = 75 nM Snu13, which is larger than the K
+     <sub>
+      d, app
+     </sub>
+     obtained in our study (
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ). Prp3/4 binds the snRNA duplex with a K
+     <sub>
+      d, app
+     </sub>
+     = 57 ± 2 nM (Supplementary Figure S3), in contrast with previous co-immunoprecipitation studies suggesting that human Prp3/4 requires the human Snu13 ortholog to bind U4/U6 snRNA duplex (
+     <xref ref-type="bibr">
+      8
+     </xref>
+     ). The Sm protein subcomplex exhibits a K
+     <sub>
+      d, app
+     </sub>
+     = 89 ± 4 nM (Supplementary Figure S4). Lastly, Prp31 alone binds the duplex with the lowest affinity (K
+     <sub>
+      d, app
+     </sub>
+     = 243 ± 16 nM, Supplementary Figure S5), as expected given its known dependence upon a pre-formed k-turn RNA/Snu13 composite interface for high affinity binding (
+     <xref ref-type="bibr">
+      8
+     </xref>
+     ).
+    </p>
+    <p>
+     To improve LSm homogeneity, we co-expressed the LSm components in yeast with multiple affinity tags (His-tag on LSm5 and CBP-tag on LSm8). This LSm complex exhibits a substantial improvement in RNP formation (
+     <xref ref-type="bibr">
+      44
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      45
+     </xref>
+     ), particularly with truncated RNAs containing Snu13 and Prp31 (H46 RNA, Supplementary Figures S1B and S6). The improved LSm2–LSm8 complex binds to the full-length U4/U6 snRNA duplex with K
+     <sub>
+      d, app
+     </sub>
+     = 5.0 ± 0.2 nM (Supplementary Figure S7) was obtained.
+    </p>
+    <p>
+     Then, we determined the binding affinity of each protein (Prp31, Sm, LSm and Prp3/4) with a fully formed U4/U6 snRNA/Snu13 ternary complex because Snu13 exhibits the smallest mobility shift due to its small size. As expected, the binding affinity of Prp31 was greatly increased in the presence of Snu13 (K
+     <sub>
+      d, app
+     </sub>
+     = 50 ± 4 nM, Supplementary Figure S8). Sm proteins bound with no enhancement (K
+     <sub>
+      d, app
+     </sub>
+     = 92 ± 9 nM, Supplementary Figure S9) indicating the lack of direct interactions between the Sm protein complex and Snu13 or the k-turn. LSm binding to the pre-formed U4/U6 snRNA/Snu13 complex was found to be lower (K
+     <sub>
+      d, app
+     </sub>
+     = 26 ± 1 nM, Supplementary Figure S10) when compared to that observed for naked duplex RNA. The binding affinity of Prp3/4 for the pre-formed U4/U6 snRNA/Snu13 complex was only slightly higher (K
+     <sub>
+      d,app
+     </sub>
+     = 88 ± 8 nM, Supplementary Figure S11).
+    </p>
+    <p>
+     For the next assembly stage, we determined the binding affinities of each of the remaining components (Sm, LSm and Prp3/4) under conditions ensuring complete formation of the U4/U6 snRNA/Snu13/Prp31 quaternary complex. Both the Sm protein and LSm protein binding affinities remain high (K
+     <sub>
+      d, app
+     </sub>
+     = 108 ± 9 nM and 98 ± 34 nM respectively, Supplementary Figures S12 and S13). However, Prp3/4 exhibits significantly weaker binding to the pre-formed U4/U6 snRNA/Snu13/Prp31 complex (K
+     <sub>
+      d, app
+     </sub>
+     = 417 ± 43 nM, Supplementary Figure S14). This may be due to the presence of alternative conformations of the 3′-end of U6 snRNA in the absence of LSm proteins, which could interfere with Prp3/4 binding.
+    </p>
+    <p>
+     Next, we began with the fully formed U4/U6 snRNA/Snu13/Prp31/Sm complex and monitored LSm and Prp3/4 binding. LSm proteins bind the complex with comparable affinity (K
+     <sub>
+      d, app
+     </sub>
+     = 152 ± 15 nM, Supplementary Figure S15), whereas Prp3/4 binding remains weak (K
+     <sub>
+      d, app
+     </sub>
+     = 557 ± 75 nM, Supplementary Figure S16) compared to the naked U4/U6 snRNA duplex, consistent with steric hindrance by the free U6 3′ end on Prp3/4 binding. Finally, we examined Prp3/4 binding to the pre-formed U4/U6 snRNA/Snu13/Prp31/Sm/LSm complex. Interestingly, when all other U4/U6 components are present, the Prp3/4 binding affinity increases dramatically (K
+     <sub>
+      d, app
+     </sub>
+     = 20 ± 2 nM, Supplementary Figure S17). This result suggests direct contact between LSm proteins and Prp3/4. Overall assembly along the pathway described proceeds with high-affinity for each component and Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     demonstrates full U4/U6 di-snRNP complex assembly. This study also provides a systematic approach for the stepwise assembly of U4/U6 di-snRNP, which can be helpful for other snRNP assembly studies.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Stems I and II are coaxially stacked
+    </title>
+    <p>
+     To characterize the global structure of the U4/U6 snRNA 3-way junction, we performed smFRET, as previously described (
+     <xref ref-type="bibr">
+      46
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      47
+     </xref>
+     ). Minimal RNA constructs were designed, biotinylated, and fluorophore labeled (Supplementary Table S1 and Figure S1C) to monitor and to triangulate the relative position of each of the three helical arms (
+     <xref ref-type="bibr">
+      48
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      49
+     </xref>
+     ). The minimal fluorophore labeled construct readily forms the whole RNP complex (Supplementary Figure S18), and protein binding does not affect the fluorescent properties of the dyes (Supplementary Figure S19). First, we looked at the relative orientation of stems I and II in the naked RNA duplex (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Examination of 108 single-molecule trajectories revealed a single static confirmation around 0.2 FRET (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      C
+     </xref>
+     ). The lack of structural dynamics indicates a rigid positioning of stems I and II. Using Forster's equation we estimated the distance between the two fluorophores to be ∼76 Å (R
+     <sub>
+      0
+     </sub>
+     = 60 Å) (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ). Considering that stem I is ∼10 base pairs long (∼28 Å assuming an A-form helix) and that stem II is ∼17 bp long (∼48 Å assuming an A-form helix), the experimentally estimated distance corresponds well to the sum total of these lengths (76 Å) strongly suggesting that stems I and II are coaxially stacked in solution (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2.
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Single-molecule FRET experimental setup with TIRF excitation. Surface immobilized 3′ end biotinylated U4 snRNA and Cy3-Cy5 labeled U6 snRNA at the 5′ and 3′ ends, respectively. (
+       <strong>
+        B
+       </strong>
+       ) FRET time trajectory shows a single static FRET state and no dynamic transitions. (
+       <strong>
+        C
+       </strong>
+       ) FRET histogram from 108 time-binned trajectories shows a peak at 0.2 FRET. The estimated distance for a 0.2 FRET value (76 Å) corresponds well to the sum total length of A-form stems I and II (28 and 48 Å, respectively), indicating that these stems are coaxially stacked in solution.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The U4/U6 3-way junction is static
+    </title>
+    <p>
+     Next, we examined the orientation of the 5′ stem-loop relative to stem II in the naked snRNA duplex (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Analysis of 102 trajectories revealed the presence of three static and non-interconverting populations at 0.2 (44 ± 7%), 0.3 (45 ± 7%) and 0.4 (11 ± 3%) FRET (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). This result indicates that the 5′ stem-loop can adopt multiple orientations relative to the statically stacked stems I and II, but each orientation is static and non-interconverting over the time scale of the experiment (minutes).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3.
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Labeled construct to determine the orientation of stem II relative to the 5′ stem-loop by single-molecule FRET in the presence of the snRNP proteins (
+       <strong>
+        B
+       </strong>
+       ) Representative single molecule trajectories for the three distinct populations observed by analysis of 102 trajectories in absence of proteins. (
+       <strong>
+        C
+       </strong>
+       ) Changes in the fraction of population 1 in the presence of snRNP proteins in detriment of population 2. The fraction of population 3 remains constant under all conditions.
+       <em>
+        P
+       </em>
+       values are calculated using t-test and represent as * −
+       <em>
+        P
+       </em>
+       &lt; 0.05, ** −
+       <em>
+        P
+       </em>
+       &lt; 0.01 and *** −
+       <em>
+        P
+       </em>
+       &lt; 0.001.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To corroborate this result, we examined the orientation of the 5′ stem-loop relative to stem I by labeling the opposite end of U6 snRNA (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Analysis of 105 trajectories also reveals the presence of three static populations (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) with FRET values of 0.4 (51 ± 6%), 0.3 (41 ± 6%), and 0.5 (8 ± 3%) confirming the static heterogeneity observed in Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     . Based on the FRET values and the relative populations in both experiments, we assign population 1 to a conformation with the 5′ stem loop closer to stem I, population 2 to a conformation with the 5′ stem-loop closer to stem II, and population 3 to a minor (possibly misfolded) population that is always present and that may correspond to a small population migrating between U6 and U4/U6 snRNA duplex as observed in the fluorescent EMSA (Supplementary Figure S18). This observation stands in marked contrast to the dynamic behavior found in other RNA junctions (
+     <xref ref-type="bibr">
+      46
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      48
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      49
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      52
+     </xref>
+     ). A possible explanation for these conformations may be the existence of different orientations of the k-turn motif in the 5′ stem-loop (
+     <xref ref-type="bibr">
+      53
+     </xref>
+     –
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ), or different orientations of the three-way junction, as observed for other three-way junctions (
+     <xref ref-type="bibr">
+      49
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      56
+     </xref>
+     ).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4.
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Labeled construct to determine the orientation of stem I relative to the 5′ stem-loop by single-molecule FRET in the presence of the snRNP proteins (
+       <strong>
+        B
+       </strong>
+       ) Representative single molecule trajectories for the three distinct populations observed by analysis of 105 trajectories in absence of proteins. (
+       <strong>
+        C
+       </strong>
+       ) Changes in the fraction of population 1 in the presence of snRNP proteins in detriment of population 2. The fraction of population 3 remains constant under all conditions.
+       <em>
+        P
+       </em>
+       values are calculated using t-test and represent as * −
+       <em>
+        P
+       </em>
+       &lt; 0.05, ** −
+       <em>
+        P
+       </em>
+       &lt; 0.01 and *** −
+       <em>
+        P
+       </em>
+       &lt; 0.001.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The k-turn is preformed to facilitate Snu13 binding
+    </title>
+    <p>
+     To test whether these conformations result from different orientations of the k-turn motif, we introduced Snu13, which is expected to stabilize a single conformation upon binding (
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      58
+     </xref>
+     ). Analysis of 212 single-molecule trajectories under saturating concentrations of Snu13 showed no detectable change in the relative population fraction of the observed FRET conformations relative to either stem II (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     , Supplementary Figure S20) or stem I (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) compared to the naked RNA. In contrast, the L7Ae protein, an archaeal Snu13 homolog (
+     <xref ref-type="bibr">
+      54
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      59
+     </xref>
+     ), has been previously shown to stabilize a single conformation of a minimal k-turn construct (
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ). This result strongly indicates that the observed populations do not correspond to multiple orientations of the k-turn motif in the 5′ stem-loop. As expected, addition of Snu13 does not affect the relative orientation of stems I and II, which remain statically stacked in the presence of this protein (Supplementary Figure S21).
+    </p>
+    <p>
+     Increasing the concentration of Magnesium ions up to 50 mM in 100 mM NaCl, also results in no observable FRET changes or relative populations (Supplementary Figure S22). The lack of dynamics, FRET or population changes in the presence of Snu13 or Magnesium ions raises the interesting possibility that the U4/U6 k-turn is preformed to accelerate Snu13 binding and to promote further snRNP assembly. Here, the presence of high monovalent concentrations (100 mM NaCl) may help pre-fold the k-turn, as previously shown for the Kt-7 k-turn in the absence of protein (
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Prp31 preferentially binds one of two internal stem-loop conformations
+    </title>
+    <p>
+     To test whether these conformations result from different orientations of the three-way junction, we used Prp31, which interacts with the 5′ stem-loop and stem II (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), thereby possibly affecting the three-way junction orientation relatively to the statically stacked stems I and II. We first looked at the orientation of the 5′ stem-loop relative to stem II (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Analysis of 107 trajectories in the presence of Prp31 shows a significant (
+     <em>
+      P
+     </em>
+     &lt; 0.05) decrease in population 1 (from 44 ± 7% to 28 ± 5%, Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). This result indicates that Prp31 binding stabilizes the three-way junction in a conformation in which the 5′ stem-loop is farther from stem I and closer to stem II. To confirm this observation we look at the orientation of the 5′ stem-loop relative to stem I (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Consistent with this, the presence of Prp31 slightly decreases the fraction of population 1 (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The population changes in both experiments are in qualitative agreement and in the same direction, but interpreting three-dimensional changes in two dimensions may result in small assignment errors (∼few%) that account for the small differences between the two data sets. The presence of Prp31 does not affect the relative orientation of stems I and II, further supporting the idea that these two helices are rigidly and coaxially stacked even in the presence and absence snRNP proteins (Supplementary Figure S21). These data show that Prp31 preferentially binds and stabilizes a conformation of the U4/U6 snRNA 3-way junction that brings the 5′ stem-loop closer to stem II and further from stem I.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Prp3/4 preferentially binds the alternative internal stem-loop conformation
+    </title>
+    <p>
+     We then looked at the effect of Prp3/4 binding on the orientation of the three-way junction. Prp3/4 binds to stem II near the three-way junction (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), which could also result in changes to its conformation. First we looked at the orientation of the 5′ stem-loop relative to stem II (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Contrary to Prp31 binding, analysis of 105 single molecule trajectories shows a significant (
+     <em>
+      P
+     </em>
+     &lt; 0.05) increase in population 1 (from 44 ± 7% to 58 ± 7%, Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), indicating that Prp3/4 binding stabilizes the conformation with the 5′ stem-loop closer to stem I. We then examined the orientation of the 5′ stem-loop relative to stem I (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), which also revealed an increase in population 1, confirming this observation (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The relative orientation of stems I and II remains unchanged in the presence of Prp3/4, confirming that these two helices are stably stacked in the presence of any of the snRNP proteins (Supplementary Figure S21).
+    </p>
+    <p>
+     These data indicate that Prp3/4 preferentially binds and stabilizes a conformation of the U4/U6 snRNA 3-way junction in which the 5′ stem-loop is further from stem II and closer to stem I. The observation that Prp31 and Prp3/4 appear to each preferentially bind to and stabilize two alternative orientations of the 5′ stem-loop relative to the coaxially stacked stems I and II explains the previous finding that Prp3/4 binding affinity is significantly reduced after Prp31 is bound (Table
+     <a>
+      <span>
+       ​
+       <span>
+        (Table1)
+       </span>
+      </span>
+      <span>
+       1
+      </span>
+     </a>
+     ) as the conformation of the RNA that is stabilized by Prp31 is not the preferred conformation for the binding of Prp3/4.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Single-molecule assembly of multiple proteins onto the U4/U6 3-way junction RNA
+    </title>
+    <p>
+     Next, we examined the conformational changes occurring under conditions where multiple proteins are bound to the RNA simultaneously. First, we looked at the relative orientation of stems I and II (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). As expected from the individual protein experiments above, none of the snRNP proteins affect the observed FRET distributions, indicating that these two stems remain coaxially stacked during the entire snRNP assembly (Supplementary Figure S21, Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) even on a time scale longer than 15 min (Supplementary Figure S23). Then, we checked the 5′ stem-loop orientation relative to stem II (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Analysis of 103 trajectories reveals that the presence of both Snu13 and Prp31 favors population 2 where Stem I is further from the 5′ stem-loop. In agreement with this, the presence of both Snu13 and Prp31 significantly decreases (
+     <em>
+      P
+     </em>
+     &lt; 0.05) the fraction of population 1 to favor the conformation with the 5′ stem-loop closer to stem II (32 ± 6%, Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). A similar but smaller effect was observed with donor on stem I (Figure
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      C
+     </xref>
+     ). These data are consistent with the previous observation that the 5′ stem-loop moves toward stem II and away from stem I when Prp31 binds the U4/U6 snRNA 3-way junction.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5.
+     </label>     <caption>
+      <p>
+       Assembly pathway of the U4/U6 di-snRNP
+       <em>
+        in vitro
+       </em>
+       . First, the Sm, LSm and Snu13 proteins bind independently and with high affinity to the U4 and U6 snRNAs. Subsequent assembly of the full complex may progress through binding of Prp31 followed by Prp3/4 (top pathway) or through Prp3/4 binding followed by Prp31 (bottom pathway). Binding of Prp31 stabilizes a conformation of the 5′ stem-loop closer to Stem II, whereas binding of Prp3/4 stabilizes a conformation of the 5′ stem-loop closer to Stem I. In the fully assembled complex the 5′ stem-loop returns to its initial orientation.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Addition of Snu13, Prp31 and Prp3/4 to the RNA yields a population distribution that closely resembles that of the naked, or Snu13 bound RNA (Figures
+     <xref ref-type="fig">
+      None
+     </xref>
+     and 4C), indicating that when both Prp31 and Prp3/4 are bound the relative stabilization of the alternative conformations observed in the intermediate assembly stages is lost. To confirm that Prp31 protein is bound to the U4/U6 snRNA duplex in the presence of Snu13 and Prp3/4, we performed single-molecule experiments using Cy5-labeled Prp31, biotinylated U4, Cy3-labeled U6 and alternated laser excitation between 532 nm and 637 nm (Supplementary Figure S24). In the presence of Cy5-Prp31, excitation at 532 nm results in a low FRET complex, while direct Cy5-excitation at 637 nm confirms that Cy5-Prp31 remains bound to the complex. These results confirm that Prp31 remains bound to the U4/U6 snRNA duplex even in the presence of Prp3/4 and Snu13.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    We have demonstrated that the U4/U6 di-snRNP can be assembled efficiently and with high affinities for all components under substoichiometric conditions (Figure
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Based on these results, we propose that Sm and LSm proteins pre-bind the U4 and U6 snRNAs, respectively, before duplex formation (
+    <xref ref-type="bibr">
+     60
+    </xref>
+    ). This is consistent with previous studies showing that U6 snRNA, which is transcribed by Pol III (
+    <xref ref-type="bibr">
+     61
+    </xref>
+    ), is assembled with LSm proteins in the nucleus (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     62
+    </xref>
+    ), where it remains (
+    <xref ref-type="bibr">
+     63
+    </xref>
+    –
+    <xref ref-type="bibr">
+     65
+    </xref>
+    ). Conversely, U4 snRNA is exported to the cytoplasm, where Sm proteins assemble, and transported back to the nucleus, where presumably other proteins assemble (
+    <xref ref-type="bibr">
+     66
+    </xref>
+    –
+    <xref ref-type="bibr">
+     70
+    </xref>
+    ).
+   </p>
+   <p>
+    Although human Prp31 was not observed to bind the U4/U6 snRNA duplex significantly (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ), yeast Prp31 binds yeast U4/U6 snRNA duplex with a K
+    <sub>
+     d,app
+    </sub>
+    ∼240 nM. A recent U4/U6.U5 tri-snRNP structure determined by cryoEM single particle analysis (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ) reveals extensive contacts between Prp31 and the 5′-stem of U4 snRNA. Our result suggests that Prp31 binds to the 5′-stem even in the absence of Snu13 with modest affinity. As previously shown for human (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ), yeast Snu13 facilitates Prp31 binding to the k-turn of U4 snRNA, but only minimally affects the binding of Sm proteins, LSm proteins or Prp3/4 to the RNA. Therefore, our data suggest that Snu13 is an appropriate starting point for
+    <em>
+     in vitro
+    </em>
+    assembly (Figure
+    <xref ref-type="fig">
+     None
+    </xref>
+    ), in accordance with the notion that Snu13 acts as a nucleating factor (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ).
+   </p>
+   <p>
+    Similar binding affinities for Prp31 and Prp3/4 in the presence of Snu13 suggests that binding of each of these proteins onto the U4/U6 snRNA duplex occurs independently from each other, in agreement with previous studies (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     72
+    </xref>
+    ). Binding of Sm proteins is unaffected by further addition of Prp31 as the Sm proteins do not interact with any other U4/U6 di-snRNP proteins.
+   </p>
+   <p>
+    Prp3/4 binds to naked U4/U6 snRNA duplex moderately well, but binding becomes substantially weaker when any of the other components, except LSm proteins, are prebound. It is interesting to note that both the LSm proteins and Prp3/4 bind less well after addition of Prp31, even though Prp31 and the WD40 domain of Prp4 seems in close contact in the tri-snRNP structure (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ). The binding of Prp3/4 is greatly increased in the presence of the LSm proteins, consistent with the observation that the LSm protein ring contacts the ferredoxin-like domain of Prp3 (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ).
+   </p>
+   <p>
+    Single-molecule experiments were done with the U4/U6 snRNA duplex labeled at different helices to determine their relative orientation. Our single-molecule data show that the U4/U6 snRNA duplex adopts and maintains a rigid or static global structure throughout di-snRNP formation. Interestingly, the experimentally determined inter-fluorophore distance within stem I and II using our single-molecule data is identical to the calculated total length of the two helices (assuming ideal A-form helices), suggesting that these two helices are coaxially stacked, forming a family A three-way junction conformation (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ).
+   </p>
+   <p>
+    Despite the static global conformation of the U4/U6 snRNA duplex, we observed some heterogeneity within the population distribution of FRET states, where the two constructs designed to study the orientation of the 5′ stem-loop relative to stems I and II adopt two major, non-interconverting conformations. The minor (∼10%) high FRET population we consistently observed likely corresponds to a misfolded conformation.
+   </p>
+   <p>
+    Our single-molecule data show that the population fractions for the two conformations do not change upon Snu13 binding. This result indicates that under the experimental conditions used, the k-turn in U4 snRNA is already folded into a compact conformation, in accordance with previous studies (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     57
+    </xref>
+    ). Hence, Snu13 binding does not cause further folding of the k-turn, which suggests that the observed population heterogeneity is independent of k-turn dynamics.
+   </p>
+   <p>
+    Furthermore, Prp31 binding stabilizes one observed population, whereas Prp3/4 stabilizes the other, indicating that binding of these two proteins to the U4/U6 snRNA duplex results in conformational changes within the duplex. Prp31 was shown to interact with the 5′ stem-loop of U4 snRNA and Prp3/4 binds to stem II (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     73
+    </xref>
+    ). Thus, we suggest that binding of Prp31 moves the 5′ stem-loop toward stem II, whereas Prp3/4 shifts the stem-loop slightly toward stem I (Figure
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). The fully assembled complex adopts a conformation similar to what we observed for the naked snRNA duplex.
+   </p>
+   <p>
+    Taken together, we propose that the binding of individual proteins or partial assembly of di-snRNP can cause some local structural rearrangement, mainly in the 5′ stem-loop of U4 snRNA, whereas the stems I and II orientations remain unchanged. Lastly, binding of one protein can cause changes to the 5′ stem-loop conformation in a way that facilitates the binding of the other protein. Otherwise, the fully assembled complex upholds a static global conformation.
+   </p>
+   <p>
+    Our single-molecule data show that stems I and II of the U4/U6 snRNA duplex maintain a rigid helical conformation throughout the di-snRNP assembly. It is interesting to note that stems I and II are also coaxially stacked in the U4/U6.U5 tri-snRNP structure (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ). As shown in previous studies, Brr2 plays an important role in the unwinding of the U4/U6 snRNA duplex to allow U6 snRNA to pair with U2 snRNA to form the active catalytic RNA core (
+    <xref ref-type="bibr">
+     74
+    </xref>
+    –
+    <xref ref-type="bibr">
+     77
+    </xref>
+    ). On the basis of
+    <em>
+     in vitro
+    </em>
+    experiments it has been suggested that Brr2 translocates along U4 snRNA (
+    <xref ref-type="bibr">
+     78
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     79
+    </xref>
+    ) and the recent cryoEM structure of the U4/U6.U5 tri-snRNP (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ) show that the single-stranded region of U4 snRNA between its 3′ stem-loop and the U4/U6 snRNA stem I is loaded into the Brr2 helicase active site ready for unwinding. Previous studies have also proposed that U4/U6 snRNA duplex associated proteins may play an important role in the stabilization/destabilization of this duplex (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ).
+   </p>
+   <p>
+    Unlike other RNAs that undergo protein induced structural changes during assembly (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     80
+    </xref>
+    ), the structure of the U4/U6 snRNA duplex remains largely unchanged upon addition of divalent ions or proteins. Based on the sequence analysis and survey of RNA structures, it was originally predicted that stem II and the 5′ stem-loop of U4 snRNA are co-axially stacked (
+    <xref ref-type="bibr">
+     73
+    </xref>
+    ) but it is now shown that stems I and II are stacked and this structure is stable and unaffected by protein binding. It will be interesting to determine the structure of this RNA by crystallography or NMR to determine how this 3-way junction helical arrangement is stabilized.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     SUPPLEMENTARY DATA:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Smith D.J., Query C.C., Konarska M.M. ‘Nought may endure but mutability’: spliceosome dynamics and the regulation of splicing.
+      <span>
+       <span>
+        Mol. Cell.
+       </span>
+       2008;
+       <span>
+        30
+       </span>
+       :657–666.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Wahl M.C., Will C.L., Luhrmann R. The spliceosome: design principles of a dynamic RNP machine.
+      <span>
+       <span>
+        Cell.
+       </span>
+       2009;
+       <span>
+        136
+       </span>
+       :701–718.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Shcherbakova I., Hoskins A.A., Friedman L.J., Serebrov V., Correa I.R. Jr, Xu M.Q., Gelles J., Moore M.J. Alternative spliceosome assembly pathways revealed by single-molecule fluorescence microscopy.
+      <span>
+       <span>
+        Cell Rep.
+       </span>
+       2013;
+       <span>
+        5
+       </span>
+       :151–165.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Fedorova O., Waldsich C., Pyle A.M. Group II intron folding under near-physiological conditions: collapsing to the near-native state.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       2007;
+       <span>
+        366
+       </span>
+       :1099–1114.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Keating K.S., Toor N., Perlman P.S., Pyle A.M. A structural analysis of the group II intron active site and implications for the spliceosome.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2010;
+       <span>
+        16
+       </span>
+       :1–9.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Robart A.R., Chan R.T., Peters J.K., Rajashankar K.R., Toor N. Crystal structure of a eukaryotic group II intron lariat.
+      <span>
+       <span>
+        Nature.
+       </span>
+       2014;
+       <span>
+        514
+       </span>
+       :193–197.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Lauber J., Plessel G., Prehn S., Will C.L., Fabrizio P., Groning K., Lane W.S., Luhrmann R. The human U4/U6 snRNP contains 60 and 90kD proteins that are structurally homologous to the yeast splicing factors Prp4p and Prp3p.
+      <span>
+       <span>
+        RNA.
+       </span>
+       1997;
+       <span>
+        3
+       </span>
+       :926–941.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Nottrott S., Urlaub H., Luhrmann R. Hierarchical, clustered protein interactions with U4/U6 snRNA: a biochemical role for U4/U6 proteins.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       2002;
+       <span>
+        21
+       </span>
+       :5527–5538.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Will C.L., Luhrmann R. Spliceosome structure and function.
+      <span>
+       <span>
+        Cold Spring Harb. Perspect. Biol.
+       </span>
+       2011;
+       <span>
+        3
+       </span>
+       :a003707.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Mayes A.E., Verdone L., Legrain P., Beggs J.D. Characterization of Sm-like proteins in yeast and their association with U6 snRNA.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1999;
+       <span>
+        18
+       </span>
+       :4321–4331.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Vidal V.P., Verdone L., Mayes A.E., Beggs J.D. Characterization of U6 snRNA-protein interactions.
+      <span>
+       <span>
+        RNA.
+       </span>
+       1999;
+       <span>
+        5
+       </span>
+       :1470–1481.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Achsel T., Brahms H., Kastner B., Bachi A., Wilm M., Luhrmann R. A doughnut-shaped heteromer of human Sm-like proteins binds to the 3′-end of U6 snRNA, thereby facilitating U4/U6 duplex formation in vitro.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1999;
+       <span>
+        18
+       </span>
+       :5789–5802.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Licht K., Medenbach J., Luhrmann R., Kambach C., Bindereif A. 3′-cyclic phosphorylation of U6 snRNA leads to recruitment of recycling factor p110 through LSm proteins.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2008;
+       <span>
+        14
+       </span>
+       :1532–1538.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Raker V.A., Plessel G., Luhrmann R. The snRNP core assembly pathway: identification of stable core protein heteromeric complexes and an snRNP subcore particle in vitro.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1996;
+       <span>
+        15
+       </span>
+       :2256–2269.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Salgado-Garrido J., Bragado-Nilsson E., Kandels-Lewis S., Seraphin B. Sm and Sm-like proteins assemble in two related complexes of deep evolutionary origin.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1999;
+       <span>
+        18
+       </span>
+       :3451–3462.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Leung A.K., Nagai K., Li J. Structure of the spliceosomal U4 snRNP core domain and its implication for snRNP biogenesis.
+      <span>
+       <span>
+        Nature.
+       </span>
+       2011;
+       <span>
+        473
+       </span>
+       :536–539.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Dobbyn H.C., O'Keefe R.T. Analysis of Snu13p mutations reveals differential interactions with the U4 snRNA and U3 snoRNA.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2004;
+       <span>
+        10
+       </span>
+       :308–320.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Wozniak A.K., Nottrott S., Kuhn-Holsken E., Schroder G.F., Grubmuller H., Luhrmann R., Seidel C.A., Oesterhelt F. Detecting protein-induced folding of the U4 snRNA kink-turn by single-molecule multiparameter FRET measurements.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2005;
+       <span>
+        11
+       </span>
+       :1545–1554.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Liu S., Li P., Dybkov O., Nottrott S., Hartmuth K., Luhrmann R., Carlomagno T., Wahl M.C. Binding of the human Prp31 Nop domain to a composite RNA-protein platform in U4 snRNP.
+      <span>
+       <span>
+        Science.
+       </span>
+       2007;
+       <span>
+        316
+       </span>
+       :115–120.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Banroques J., Abelson J.N. PRP4: a protein of the yeast U4/U6 small nuclear ribonucleoprotein particle.
+      <span>
+       <span>
+        Mol. Cell. Biol.
+       </span>
+       1989;
+       <span>
+        9
+       </span>
+       :3710–3719.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Bjorn S.P., Soltyk A., Beggs J.D., Friesen J.D. PRP4 (RNA4) from Saccharomyces cerevisiae: its gene product is associated with the U4/U6 small nuclear ribonucleoprotein particle.
+      <span>
+       <span>
+        Mol. Cell. Biol.
+       </span>
+       1989;
+       <span>
+        9
+       </span>
+       :3698–3709.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Anthony J.G., Weidenhammer E.M., Woolford J.L. Jr. The yeast Prp3 protein is a U4/U6 snRNP protein necessary for integrity of the U4/U6 snRNP and the U4/U6.U5 tri-snRNP.
+      <span>
+       <span>
+        RNA.
+       </span>
+       1997;
+       <span>
+        3
+       </span>
+       :1143–1152.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Ayadi L., Callebaut I., Saguez C., Villa T., Mornon J.P., Banroques J. Functional and structural characterization of the prp3 binding domain of the yeast prp4 splicing factor.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       1998;
+       <span>
+        284
+       </span>
+       :673–687.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Horowitz D.S., Kobayashi R., Krainer A.R. A new cyclophilin and the human homologues of yeast Prp3 and Prp4 form a complex associated with U4/U6 snRNPs.
+      <span>
+       <span>
+        RNA.
+       </span>
+       1997;
+       <span>
+        3
+       </span>
+       :1374–1387.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Sander B., Golas M.M., Makarov E.M., Brahms H., Kastner B., Luhrmann R., Stark H. Organization of core spliceosomal components U5 snRNA loop I and U4/U6 Di-snRNP within U4/U6.U5 Tri-snRNP as revealed by electron cryomicroscopy.
+      <span>
+       <span>
+        Mol. Cell.
+       </span>
+       2006;
+       <span>
+        24
+       </span>
+       :267–278.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Lescoute A., Westhof E. Topology of three-way junctions in folded RNAs.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2006;
+       <span>
+        12
+       </span>
+       :83–93.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Karunatilaka K.S., Rueda D. Single-Molecule Fluorescence Studies of RNA: A Decade's Progress.
+      <span>
+       <span>
+        Chem. Phys. Lett.
+       </span>
+       2009;
+       <span>
+        476
+       </span>
+       :1–10.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Konig S.L., Liyanage P.S., Sigel R.K., Rueda D. Helicase-mediated changes in RNA structure at the single-molecule level.
+      <span>
+       <span>
+        RNA Biol.
+       </span>
+       2013;
+       <span>
+        10
+       </span>
+       :133–148.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Warnasooriya C., Rueda D. Single-molecule fluorescence-based studies on the dynamics, assembly and catalytic mechanism of the spliceosome.
+      <span>
+       <span>
+        Biochem. Soc. Trans.
+       </span>
+       2014;
+       <span>
+        42
+       </span>
+       :1211–1218.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Wagenbach M., O'Rourke K., Vitez L., Wieczorek A., Hoffman S., Durfee S., Tedesco J., Stetler G. Synthesis of wild type and mutant human hemoglobins in Saccharomyces cerevisiae.
+      <span>
+       <span>
+        Biotechnology (N Y)
+       </span>
+       1991;
+       <span>
+        9
+       </span>
+       :57–61.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Schiestl R.H., Gietz R.D. High efficiency transformation of intact yeast cells using single stranded nucleic acids as a carrier.
+      <span>
+       <span>
+        Curr. Genet.
+       </span>
+       1989;
+       <span>
+        16
+       </span>
+       :339–346.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Kambach C., Walke S., Young R., Avis J.M., de la Fortelle E., Raker V.A., Luhrmann R., Li J., Nagai K. Crystal structures of two Sm protein complexes and their implications for the assembly of the spliceosomal snRNPs.
+      <span>
+       <span>
+        Cell.
+       </span>
+       1999;
+       <span>
+        96
+       </span>
+       :375–387.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Ito H., Fukuda Y., Murata K., Kimura A. Transformation of intact yeast cells treated with alkali cations.
+      <span>
+       <span>
+        J. Bacteriol.
+       </span>
+       1983;
+       <span>
+        153
+       </span>
+       :163–168.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Milligan J.F., Uhlenbeck O.C. Synthesis of small RNAs using T7 RNA polymerase.
+      <span>
+       <span>
+        Methods Enzymol.
+       </span>
+       1989;
+       <span>
+        180
+       </span>
+       :51–62.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Cameron V., Uhlenbeck O.C. 3′-Phosphatase activity in T4 polynucleotide kinase.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       1977;
+       <span>
+        16
+       </span>
+       :5120–5126.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Qin P.Z., Pyle A.M. Site-specific labeling of RNA with fluorophores and other structural probes.
+      <span>
+       <span>
+        Methods.
+       </span>
+       1999;
+       <span>
+        18
+       </span>
+       :60–70.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Wu T.P., Ruan K.C., Liu W.Y. A fluorescence-labeling method for sequencing small RNA on polyacrylamide gel.
+      <span>
+       <span>
+        Nucleic Acids Res.
+       </span>
+       1996;
+       <span>
+        24
+       </span>
+       :3472–3473.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Ward J.J., Sodhi J.S., McGuffin L.J., Buxton B.F., Jones D.T. Prediction and functional analysis of native disorder in proteins from the three kingdoms of life.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       2004;
+       <span>
+        337
+       </span>
+       :635–645.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Rueda D., Walter N.G. Fluorescent energy transfer readout of an aptazyme-based biosensor.
+      <span>
+       <span>
+        Methods Mol. Biol.
+       </span>
+       2006;
+       <span>
+        335
+       </span>
+       :289–310.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Roy R., Hohng S., Ha T. A practical guide to single-molecule FRET.
+      <span>
+       <span>
+        Nat. Methods.
+       </span>
+       2008;
+       <span>
+        5
+       </span>
+       :507–516.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Zhao R., Rueda D. RNA folding dynamics by single-molecule fluorescence resonance energy transfer.
+      <span>
+       <span>
+        Methods.
+       </span>
+       2009;
+       <span>
+        49
+       </span>
+       :112–117.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Aitken C.E., Marshall R.A., Puglisi J.D. An oxygen scavenging system for improvement of dye stability in single-molecule fluorescence experiments.
+      <span>
+       <span>
+        Biophys. J.
+       </span>
+       2008;
+       <span>
+        94
+       </span>
+       :1826–1835.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Walter N.G. Structural dynamics of catalytic RNA highlighted by fluorescence resonance energy transfer.
+      <span>
+       <span>
+        Methods.
+       </span>
+       2001;
+       <span>
+        25
+       </span>
+       :19–30.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Zaric B.L., Kambach C. Reconstitution of recombinant human LSm complexes for biochemical, biophysical, and cell biological studies.
+      <span>
+       <span>
+        Methods Enzymol.
+       </span>
+       2008;
+       <span>
+        448
+       </span>
+       :57–74.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Zaric B., Chami M., Remigy H., Engel A., Ballmer-Hofer K., Winkler F.K., Kambach C. Reconstitution of two recombinant LSm protein complexes reveals aspects of their architecture, assembly, and function.
+      <span>
+       <span>
+        J. Biol. Chem.
+       </span>
+       2005;
+       <span>
+        280
+       </span>
+       :16066–16075.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Guo Z., Karunatilaka K.S., Rueda D. Single-molecule analysis of protein-free U2-U6 snRNAs.
+      <span>
+       <span>
+        Nat. Struct. Mol. Biol.
+       </span>
+       2009;
+       <span>
+        16
+       </span>
+       :1154–1159.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Karunatilaka K.S., Rueda D. Post-transcriptional modifications modulate conformational dynamics in human U2-U6 snRNA complex.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2014;
+       <span>
+        20
+       </span>
+       :16–23.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Rueda D., Wick K., McDowell S.E., Walter N.G. Diffusely bound Mg2+ ions slightly reorient stems I and II of the hammerhead ribozyme to increase the probability of formation of the catalytic core.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       2003;
+       <span>
+        42
+       </span>
+       :9924–9936.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Penedo J.C., Wilson T.J., Jayasena S.D., Khvorova A., Lilley D.M. Folding of the natural hammerhead ribozyme is enhanced by interaction of auxiliary elements.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2004;
+       <span>
+        10
+       </span>
+       :880–888.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Murphy M.C., Rasnik I., Cheng W., Lohman T.M., Ha T. Probing single-stranded DNA conformational flexibility using fluorescence spectroscopy.
+      <span>
+       <span>
+        Biophys. J.
+       </span>
+       2004;
+       <span>
+        86
+       </span>
+       :2530–2537.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Rueda D., Bokinsky G., Rhodes M.M., Rust M.J., Zhuang X., Walter N.G. Single-molecule enzymology of RNA: essential functional groups impact catalysis from a distance.
+      <span>
+       <span>
+        Proc. Natl. Acad. Sci. U.S.A.
+       </span>
+       2004;
+       <span>
+        101
+       </span>
+       :10066–10071.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Pereira M.J., Nikolova E.N., Hiley S.L., Jaikaran D., Collins R.A., Walter N.G. Single VS ribozyme molecules reveal dynamic and hierarchical folding toward catalysis.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       2008;
+       <span>
+        382
+       </span>
+       :496–509.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Vidovic I., Nottrott S., Hartmuth K., Luhrmann R., Ficner R. Crystal structure of the spliceosomal 15.5kD protein bound to a U4 snRNA fragment.
+      <span>
+       <span>
+        Mol. Cell.
+       </span>
+       2000;
+       <span>
+        6
+       </span>
+       :1331–1342.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Wang J., Fessl T., Schroeder K.T., Ouellet J., Liu Y., Freeman A.D., Lilley D.M. Single-molecule observation of the induction of k-turn RNA structure on binding L7Ae protein.
+      <span>
+       <span>
+        Biophys. J.
+       </span>
+       2012;
+       <span>
+        103
+       </span>
+       :2541–2548.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Lilley D.M. The structure and folding of kink turns in RNA.
+      <span>
+       <span>
+        Wiley Interdiscip. Rev. RNA.
+       </span>
+       2012;
+       <span>
+        3
+       </span>
+       :797–805.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Lafontaine D.A., Norman D.G., Lilley D.M. Structure, folding and activity of the VS ribozyme: importance of the 2–3–6 helical junction.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       2001;
+       <span>
+        20
+       </span>
+       :1415–1424.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     57.
+     <span>
+      Goody T.A., Melcher S.E., Norman D.G., Lilley D.M. The kink-turn motif in RNA is dimorphic, and metal ion-dependent.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2004;
+       <span>
+        10
+       </span>
+       :254–264.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     58.
+     <span>
+      McPhee S.A., Huang L., Lilley D.M. A critical base pair in k-turns that confers folding characteristics and correlates with biological function.
+      <span>
+       <span>
+        Nat. Commun.
+       </span>
+       2014;
+       <span>
+        5
+       </span>
+       :5127.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     59.
+     <span>
+      Huang L., Lilley D.M. The molecular recognition of kink-turn structure by the L7Ae class of proteins.
+      <span>
+       <span>
+        RNA.
+       </span>
+       2013;
+       <span>
+        19
+       </span>
+       :1703–1710.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     60.
+     <span>
+      Karaduman R., Fabrizio P., Hartmuth K., Urlaub H., Luhrmann R. RNA structure and RNA-protein interactions in purified yeast U6 snRNPs.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       2006;
+       <span>
+        356
+       </span>
+       :1248–1262.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     61.
+     <span>
+      Dahlberg J.E., Lund E. How does III x II make U6?
+      <span>
+       <span>
+        Science.
+       </span>
+       1991;
+       <span>
+        254
+       </span>
+       :1462–1463.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     62.
+     <span>
+      Cooper M., Johnston L.H., Beggs J.D. Identification and characterization of Uss1p (Sdb23p): a novel U6 snRNA-associated protein with significant similarity to core proteins of small nuclear ribonucleoproteins.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1995;
+       <span>
+        14
+       </span>
+       :2066–2075.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     63.
+     <span>
+      Vankan P., McGuigan C., Mattaj I.W. Domains of U4 and U6 snRNAs required for snRNP assembly and splicing complementation in Xenopus oocytes.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1990;
+       <span>
+        9
+       </span>
+       :3397–3404.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     64.
+     <span>
+      Terns M.P., Dahlberg J.E., Lund E. Multiple cis-acting signals for export of pre-U1 snRNA from the nucleus.
+      <span>
+       <span>
+        Genes Dev.
+       </span>
+       1993;
+       <span>
+        7
+       </span>
+       :1898–1908.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     65.
+     <span>
+      Boelens W.C., Palacios I., Mattaj I.W. Nuclear retention of RNA as a mechanism for localization.
+      <span>
+       <span>
+        RNA.
+       </span>
+       1995;
+       <span>
+        1
+       </span>
+       :273–283.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     66.
+     <span>
+      Eliceiri G.L. Short-lived, small RNAs in the cytoplasm of HeLa cells.
+      <span>
+       <span>
+        Cell.
+       </span>
+       1974;
+       <span>
+        3
+       </span>
+       :11–14.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     67.
+     <span>
+      De Robertis E.M., Lienhard S., Parisot R.F. Intracellular transport of microinjected 5S and small nuclear RNAs.
+      <span>
+       <span>
+        Nature.
+       </span>
+       1982;
+       <span>
+        295
+       </span>
+       :572–577.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     68.
+     <span>
+      Zeller R., Nyffenegger T., De Robertis E.M. Nucleocytoplasmic distribution of snRNPs and stockpiled snRNA-binding proteins during oogenesis and early development in Xenopus laevis.
+      <span>
+       <span>
+        Cell.
+       </span>
+       1983;
+       <span>
+        32
+       </span>
+       :425–434.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     69.
+     <span>
+      Zieve G.W., Sauterer R.A., Feeney R.J. Newly synthesized small nuclear RNAs appear transiently in the cytoplasm.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       1988;
+       <span>
+        199
+       </span>
+       :259–267.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     70.
+     <span>
+      Hamm J., Mattaj I.W. Monomethylated cap structures facilitate RNA export from the nucleus.
+      <span>
+       <span>
+        Cell.
+       </span>
+       1990;
+       <span>
+        63
+       </span>
+       :109–118.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     71.
+     <span>
+      Nguyen T.H.D., Galej W.P., Bai X.-C., Savva C.G., Newman A.J., Scheres S.H.W., Nagai K. The architecture of the spliceosomal U4/U6.U5 tri-snRNP.
+      <span>
+       <span>
+        Nature.
+       </span>
+       2015;
+       <span>
+        523
+       </span>
+       :47–52.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     72.
+     <span>
+      Schultz A., Nottrott S., Hartmuth K., Luhrmann R. RNA structural requirements for the association of the spliceosomal hPrp31 protein with the U4 and U4atac small nuclear ribonucleoproteins.
+      <span>
+       <span>
+        J. Biol. Chem.
+       </span>
+       2006;
+       <span>
+        281
+       </span>
+       :28278–28286.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     73.
+     <span>
+      Hacker I., Sander B., Golas M.M., Wolf E., Karagoz E., Kastner B., Stark H., Fabrizio P., Luhrmann R. Localization of Prp8, Brr2, Snu114 and U4/U6 proteins in the yeast tri-snRNP by electron microscopy.
+      <span>
+       <span>
+        Nat. Struct. Mol. Biol.
+       </span>
+       2008;
+       <span>
+        15
+       </span>
+       :1206–1212.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     74.
+     <span>
+      Raghunathan P.L., Guthrie C. RNA unwinding in U4/U6 snRNPs requires ATP hydrolysis and the DEIH-box splicing factor Brr2.
+      <span>
+       <span>
+        Curr. Biol.
+       </span>
+       1998;
+       <span>
+        8
+       </span>
+       :847–855.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     75.
+     <span>
+      Kim D.H., Rossi J.J. The first ATPase domain of the yeast 246-kDa protein is required for in vivo unwinding of the U4/U6 duplex.
+      <span>
+       <span>
+        RNA.
+       </span>
+       1999;
+       <span>
+        5
+       </span>
+       :959–971.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     76.
+     <span>
+      Fica S.M., Tuttle N., Novak T., Li N.S., Lu J., Koodathingal P., Dai Q., Staley J.P., Piccirilli J.A. RNA catalyses nuclear pre-mRNA splicing.
+      <span>
+       <span>
+        Nature.
+       </span>
+       2013;
+       <span>
+        503
+       </span>
+       :229–234.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     77.
+     <span>
+      Fica S.M., Mefford M.A., Piccirilli J.A., Staley J.P. Evidence for a group II intron-like catalytic triplex in the spliceosome.
+      <span>
+       <span>
+        Nat. Struct. Mol. Biol.
+       </span>
+       2014;
+       <span>
+        21
+       </span>
+       :464–471.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     78.
+     <span>
+      Mozaffari-Jovin S., Santos K.F., Hsiao H.H., Will C.L., Urlaub H., Wahl M.C., Luhrmann R. The Prp8 RNase H-like domain inhibits Brr2-mediated U4/U6 snRNA unwinding by blocking Brr2 loading onto the U4 snRNA.
+      <span>
+       <span>
+        Genes Dev.
+       </span>
+       2012;
+       <span>
+        26
+       </span>
+       :2422–2434.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     79.
+     <span>
+      Hahn D., Kudla G., Tollervey D., Beggs J.D. Brr2p-mediated conformational rearrangements in the spliceosome during activation and substrate repositioning.
+      <span>
+       <span>
+        Genes Dev.
+       </span>
+       2012;
+       <span>
+        26
+       </span>
+       :2408–2421.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     80.
+     <span>
+      Menichelli E., Isel C., Oubridge C., Nagai K. Protein-induced conformational changes of RNA during the assembly of human signal recognition particle.
+      <span>
+       <span>
+        J. Mol. Biol.
+       </span>
+       2007;
+       <span>
+        367
+       </span>
+       :187–203.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

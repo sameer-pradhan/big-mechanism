@@ -1,0 +1,1989 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2845277
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Regulation of clathrin adaptor function in endocytosis: novel role for the SAM domain
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     During clathrin-mediated endocytosis, adaptor proteins play central roles in coordinating the assembly of clathrin coats and cargo selection. Here we characterize the binding of the yeast endocytic adaptor Sla1p to clathrin through a variant clathrin-binding motif that is negatively regulated by the Sla1p SHD2 domain. The crystal structure of SHD2 identifies the domain as a sterile α-motif (SAM) domain and shows a propensity to oligomerize. By co-immunoprecipitation, Sla1p binds to clathrin and self-associates
+     <em>
+      in vivo
+     </em>
+     . Mutations in the clathrin-binding motif that abolish clathrin binding and structure-based mutations in SHD2 that impede self-association result in endocytosis defects and altered dynamics of Sla1p assembly at the sites of endocytosis. These results define a novel mechanism for negative regulation of clathrin binding by an adaptor and suggest a role for SAM domains in clathrin-mediated endocytosis.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     adaptor, clathrin, endocytosis, SAM domain, Sla1
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Endocytosis has a fundamental role in a variety of cellular activities, including uptake of nutrients and pathogens, cell-surface remodelling, and regulation of signal transduction during cell division and differentiation (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Conner and Schmid, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Doherty and McMahon, 2009
+    </xref>
+    ). A major endocytic pathway initiates with the formation of clathrin-coated vesicles (CCV) that ferry cargo from the plasma membrane to endosomes. CCVs are distinguished by a polyhedral lattice of clathrin that coats the vesicle membrane and serves as a mechanical scaffold (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ungewickell and Hinrichsen, 2007
+    </xref>
+    ). Clathrin coats are assembled during endocytic vesicle formation from individual clathrin ‘triskelia', the soluble form of clathrin composed of three heavy chains and, at least in some cell types, three light-chain subunits. As clathrin is unable to bind directly to membrane components, coat assembly requires clathrin-binding adaptors that link the forming lattice to the membrane by association with lipids and/or membrane proteins (
+    <xref ref-type="bibr">
+     Traub, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Maldonado-Baez and Wendland, 2006
+    </xref>
+    ). In addition to anchoring coat assembly, adaptors also select and concentrate transmembrane protein cargo during CCV formation by binding to cytoplasmic sorting signals in the cargo proteins. Adaptors also interact with a host of accessory proteins that function in different stages of endocytosis. Thus adaptors serve as a central nexus for CCV formation (
+    <xref ref-type="bibr">
+     Schmid and McMahon, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    The protein–lipid network established by clathrin adaptors is dynamic, allowing coat assembly and disassembly to proceed in a tightly regulated and cooperative manner (
+    <xref ref-type="bibr">
+     Brett and Traub, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schmid and McMahon, 2007
+    </xref>
+    ). The architecture of adaptors is well suited to function as major network hubs, consisting of modular protein–protein and protein–lipid interaction domains connected by disordered regions harbouring short binding motifs (
+    <xref ref-type="bibr">
+     Brett and Traub, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Maldonado-Baez and Wendland, 2006
+    </xref>
+    ). Intermolecular interactions mediated by such domains and binding motifs provide the basis for coat assembly. Consequently, identification of domains and interaction motifs in adaptor proteins and characterization of their roles in coat formation and cell physiology are keys to understanding the molecular mechanisms that govern endocytosis.
+   </p>
+   <p>
+    An important class of interaction motifs within adaptors and accessory proteins mediates binding to clathrin and is thought to be critical for clathrin recruitment and CCV formation. Two distinct clathrin-binding motifs have been identified: the clathrin-box (CB) and the W-box (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ramjaun and McPherson, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Drake and Traub, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The consensus CB sequence was originally defined as L[L/I][D/E/N][L/F][D/E], but variants have been discovered subsequently (
+    <xref ref-type="bibr">
+     Dell'Angelica, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lafer, 2002
+    </xref>
+    ). The W-box conforms to the sequence PWxxW (where ‘x' is any residue). These motifs bind to distinct sites in the β-propeller domain at the N-terminus of each clathrin heavy chain, known as the clathrin terminal domain (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Little is known about regulation of clathrin binding.
+   </p>
+   <p>
+    The yeast protein, Sla1p, has several features characteristic of endocytic clathrin adaptors. It is recruited at an early stage of endocytic vesicle formation and binds to the endocytic sorting signal, NPFxD (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Additionally, Sla1p is required for clathrin- and actin-dependent internalization of NPFxD-bearing cargo (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In addition to recognizing cargo, Sla1p associates with a variety of conserved endocytic accessory factors that can bridge Sla1p to clathrin and actin (
+    <xref ref-type="bibr">
+     Li, 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Sla1p consists of three N-terminal SH3 domains, followed by two domains termed SHD1 and SHD2 that show no significant sequence homology to each other or any known protein domain, and multiple C-terminal LxxQxTG repeats (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). SHD1 is responsible for binding to NPFxD sorting signals (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). This domain, the SH3 domains, the C-terminal repeats, and a poly-proline sequence present between SHD1 and SHD2 mediate known Sla1p interactions with the endocytic machinery. The recently reported structure of the NPFxD-bound state of SHD1 showed an SH3 topology, identifying endocytic signal recognition as a novel role for the SH3 domain family (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The structure and function of SHD2 are unknown.
+   </p>
+   <p>
+    To more fully analyse the adaptor functions of Sla1p, we have characterized clathrin-binding activity. Here we describe a functional variant of the CB within Sla1p that is negatively regulated by binding to the SHD2 domain. We also report the crystal structure of SHD2, which unexpectedly belongs to the sterile α-motif (SAM) domain family, members of which have not been functionally associated with clathrin-dependent endocytosis. Thus, our results define a novel mechanism for negative regulation of clathrin binding and uncover a previously unrecognized role for SAM domain function in endocytosis.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Sla1p contains a variant clathrin-box that binds clathrin
+    </title>
+    <p>
+     To investigate whether Sla1p binds to clathrin, we tested for physical interaction by co-immunoprecipitation. Sla1p was immunoprecipitated from cell extracts under non-denaturing conditions and association with clathrin was probed by immunoblotting (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). Clathrin was present in the Sla1p immunoprecipitates obtained from wild-type but not
+     <em>
+      sla1
+     </em>
+     Δ cells (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , lanes 2 and 4), indicating interaction between the two proteins.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Sla1p contains a vCB that binds to clathrin and is negatively regulated by SHD2. (
+       <strong>
+        A
+       </strong>
+       ) Co-immunoprecipitation of clathrin and Sla1p. Sla1p was immunoprecipitated (IP) from total cell extracts of wild-type cells (WT, lane 2; TVY614), cells carrying an LLDLQ-to-AAALQ mutation in
+       <em>
+        SLA1
+       </em>
+       (
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA
+        </em>
+       </sup>
+       , lane 3; GPY4913), and
+       <em>
+        sla1
+       </em>
+       Δ cells (
+       <em>
+        sla1Δ
+       </em>
+       , lane 4; GPY3130) prepared under non-denaturing conditions. The immunoprecipitates were analysed by SDS–PAGE and immunoblotting (IB) for clathrin heavy chain (Chc). (
+       <strong>
+        B
+       </strong>
+       ) A schematic representation of Sla1p domains including the vCB LLDLQ. Regions of Sla1p contained in GST- and polyhistidine-fusion proteins described in the text are delineated. (
+       <strong>
+        C
+       </strong>
+       ) Identification of a functional vCB in Sla1p. GST alone (lane 6) and GST fused to Sla1p fragments aa798–934 or aa798–813 containing the sequence LLDLQ (lanes 2–3) or corresponding AAALQ mutant versions (lanes 4–5) were bound to glutathione–Sepharose beads and incubated with the cytosolic extract from wild-type cells (lane 1). The associated proteins were eluted and analysed by SDS–PAGE and immunoblotting for Chc. Colours correspond to the GST fusions in panel
+       <strong>
+        B
+       </strong>
+       . (
+       <strong>
+        D
+       </strong>
+       ) Differential clathrin binding by Sla1p fragments containing the vCB and other candidate CBs. GST fused to the indicated Sla1p fragments were tested for clathrin binding as described in panel
+       <strong>
+        C
+       </strong>
+       . (
+       <strong>
+        E
+       </strong>
+       ) Sequence requirements for clathrin binding by the vCB. GST-fusion affinity binding assays were performed as described in panel
+       <strong>
+        C
+       </strong>
+       using GST fused to aa798–813 of Sla1p containing the indicated sequences. (
+       <strong>
+        F
+       </strong>
+       ) SHD2 inhibits clathrin binding by the vCB. GST-fusion affinity binding assays were performed as described in panel
+       <strong>
+        C
+       </strong>
+       except that the indicated polyhistidine-fusion fragments (lanes 4–7) were added. (
+       <strong>
+        G
+       </strong>
+       ) SHD2 directly binds the vCB. The indicated GST fusions and GST alone were bound to glutathione–Sepharose beads and incubated with the polyhistidine-fusion fragments from Sla1p indicated along the bottom of the panel. The eluted proteins were analysed by SDS–PAGE and immunoblotting using an antibody to the polyhistidine tag (His). (
+       <strong>
+        H
+       </strong>
+       ) A peptide containing the vCB binds to SHD2. Increasing concentrations of the Sla1p peptide GSMQDLLDLQPLE were added to His-SHD2 (aa651–724) or the indicated single-residue mutants and changes in fluorescence emission were determined. One representative experiment is shown of three replicates with similar results.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     A search for CB and W-box motifs within Sla1p identified three candidate sequences with similarity to the CB: LYELK, LLDEE, and LLDLQ, starting at residues 598, 607, and 803, respectively (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). All three sequences lie in regions predicted to be disordered and therefore accessible for binding to the clathrin terminal domain. The ability of these sequences to bind to clathrin was determined using GST fusion binding assays. Four fusion proteins were constructed, which contain different segments of Sla1p spanning one or more candidate sequences (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). GST-798–934 and GST-798–813, which contain the most C-terminal candidate sequence LLDLQ, bound to clathrin in cell extracts (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , lanes 2–3). Mutation of LLDLQ to AAALQ in these GST fusions diminished clathrin binding to background levels (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , lanes 4–6), showing that binding depends on the CB-related sequence. Neither of the other two candidate CBs were active in clathrin binding as assessed with a GST fusion encompassing both sequences (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     , lanes 3–6). In these and subsequent experiments with GST fusion proteins shown in
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , similar levels of GST fusions were present in the binding assays (
+     <a>
+      Supplementary Figure 1
+     </a>
+     ).
+    </p>
+    <p>
+     Unlike most CB motifs, which contain an acidic residue in the last position (
+     <xref ref-type="bibr">
+      Lafer, 2002
+     </xref>
+     ), the LLDLQ sequence ends with an uncharged hydrophilic amino acid. However, conversion of the Q to D, matching the canonical CB sequence, did not improve clathrin binding in the context of the GST-798–813 fusion (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     , lanes 1–3). Additionally, mutation of Q to K, introducing a positively charged residue, also did not significantly alter clathrin binding by this assay (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     , lane 4), suggesting that the last amino acid in the motif does not have a major role in clathrin binding. In contrast, mutation of the first two leucines in the motif almost completely abolished binding to clathrin (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     , lane 5).
+    </p>
+    <p>
+     The close sequence similarity between LLDLQ and the consensus CB suggested that the two motifs bind to the same site in the clathrin terminal domain. To test this possibility, binding of the GST-798–813 fusion to clathrin was assessed in the presence of a peptide containing a consensus LLDLD CB. GST-798–813 binding to clathrin was reduced with increasing concentrations of LLDLD peptide, consistent with competition for a common terminal domain binding site (
+     <a>
+      Supplementary Figure 2
+     </a>
+     ).
+    </p>
+    <p>
+     Mutation of LLDLQ to AAALQ in the endogenous
+     <em>
+      SLA1
+     </em>
+     gene (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     ) resulted in significant decrease in co-immunoprecipitation of clathrin with Sla1p, indicating that the motif substantially contributes to clathrin binding in the context of native Sla1p (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , lanes 2–3). Immunoblotting indicated that this result was not due to destabilization of Sla1p by the AAALQ mutation (
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ). Taken together, our results identify a functional variant CB (vCB) at aa803–807 of Sla1p.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Clathrin binding by the Sla1p vCB is negatively regulated by SHD2
+    </title>
+    <p>
+     Unexpectedly, a GST-fusion protein spanning aa560 through aa934 did not effectively bind to clathrin, despite harbouring the vCB (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     , lane 2). This result raised the possibility that Sla1p aa560–934 contain a region that inhibits binding of LLDLQ to clathrin. As the aa798–934 fragment efficiently interacted with clathrin (
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ), we reasoned that the inhibitory region is located within residues 560–798. This region was divided into three parts, aa558–654 including the poly-proline segment, aa648–742 encompassing SHD2, and aa714–798 that are predicted to be disordered (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Each segment, as well as the full aa560–798 region, was expressed as a polyhistidine-tagged protein and tested for the ability to inhibit clathrin binding when added in
+     <em>
+      trans
+     </em>
+     to GST-798–813. The longer histidine-tagged fragment, aa560–798, prevented clathrin binding (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     , lanes 1–4), indicating that this region contains an inhibitory activity towards the vCB. Of the three sub-fragments, only aa648–742, which includes SHD2, also inhibited clathrin binding to GST-798–813 (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     , lanes 5–7).
+    </p>
+    <p>
+     Direct binding of SHD2 to LLDLQ or overlapping sequences in aa798–813 could underlie the ability of aa648–742 to inhibit clathrin binding to the vCB. To test this possibility we determined whether the SHD2-containing polyhistidine fusion, aa648–742, interacts with GST-798–813. As assayed by GST-fusion affinity binding and immunoblotting, the SHD2-containing fragment bound to wild-type GST-798–813 but not a mutant form carrying the LLDLQ-to-AAALQ changes (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     , lane 1–3). GST-798–813 binding to the SHD2 fragment was specific; the GST fusion did not interact with either His-558–654 or His-714–798 (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     , lanes 5–6), a result that correlates with the inability of these polyhistidine fusions to inhibit clathrin binding. These data provide evidence for a direct and specific interaction of SHD2 with sequences encompassing the vCB. In further support of such an interaction, a peptide corresponding to aa798–810 of Sla1p (GSMQDLLDLQPLE) showed saturable binding to SHD2 in solution as monitored by changes in intrinsic SHD2 fluorescence (
+     <xref ref-type="fig">
+      Figure 1H
+     </xref>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     for binding was 64±14 μM. This represents a relatively low affinity, but considering that both SHD2 and the vCB reside on the same polypeptide, a weak interaction would be well suited for an intramolecular interaction that regulates clathrin binding. However, a GST fusion to the C-terminal half (aa351–585) of the Gga2 protein, a clathrin adaptor involved in CCV formation at the trans-Golgi network that contains different variant CB (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mullins and Bonifacino, 2001
+     </xref>
+     ), also interacted with the SHD2 fragment (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ). This raises the possibility that negative regulation of clathrin binding by SHD2 could operate in the context of other clathrin-binding proteins within an assembling coat.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Endocytosis of NPFxD-dependent cargo depends on the Sla1p vCB
+    </title>
+    <p>
+     The physiological significance of the LLDLQ vCB in endocytosis was addressed by examining the localization of Wsc1p, a native Sla1p-dependent endocytic cargo. Wsc1p is a cell wall stress sensor that normally is localized at sites of new cell-surface growth (
+     <xref ref-type="bibr">
+      Levin, 2005
+     </xref>
+     ). Maintenance of this polarized distribution depends on Sla1p-mediated endocytosis and recycling from endosomes (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). In wild-type cells, polarized localization of Wsc1p is most apparent as an enrichment in the plasma membrane of small budded cells, which can be easily detected in living cells expressing Wsc1p-GFP from the endogenous
+     <em>
+      WSC1
+     </em>
+     locus. Mutation of either the NPFxD sorting signal in Wsc1p or SHD1 in Sla1p prevents Wsc1p endocytosis and leads to uniform distribution of Wsc1p-GFP in both the mother cell and the bud. Thus, polarized localization provides a sensitive measure of Wsc1p-GFP endocytosis (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Accordingly, we monitored Wsc1p-GFP localization in wild-type cells and mutant cells expressing Sla1p with the LLDLQ-to-AAALQ mutation (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     ). In wild-type cells, Wsc1p-GFP was concentrated at the cell surface of small buds and also was present in vacuoles (due to low levels of Wsc1p-GFP that escape recycling and proceed through the endocytic pathway to the vacuole;
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). In
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     cells, Wsc1p-GFP was present in buds and in the vacuole; however, there was a significantly higher level of Wsc1p-GFP at the surface of mother cells, indicative of a partial defect in endocytosis (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). To quantify the defect, the average fluorescence intensities of the bud and mother cell surfaces were determined and a ratio was calculated (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). The analysis indicates that mutant Sla1p cells showed significant Wsc1p-GFP localization defects, with
+     <em>
+      P
+     </em>
+     &lt;0.001. These results show that polarized cell-surface distribution of Wsc1p is perturbed in cells expressing Sla1p with defects in the vCB, providing evidence that this region is important for the endocytic function of Sla1p
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Wsc1p localization and Sla1p dynamics depend on the Sla1p vCB and SHD2. (
+       <strong>
+        A
+       </strong>
+       ) Wsc1p-GFP was visualized by confocal fluorescence microscopy using the following cells grown to early logarithmic phase: wild type (
+       <em>
+        SLA1
+       </em>
+       , GPY3527), or cells carrying a Sla1p vCB LLDLQ-to-AAALQ mutation (
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA
+        </em>
+       </sup>
+       , GPY4910), a Sla1p R708A mutation (
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         R708A
+        </em>
+       </sup>
+       , SDY105), both Sla1p LLDLQ-to-AAALQ and R708A mutations (
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA, R708A
+        </em>
+       </sup>
+       , SDY104), or deletion of the
+       <em>
+        SLA1
+       </em>
+       gene (
+       <em>
+        sla1
+       </em>
+       Δ, GPY3546). (
+       <strong>
+        B
+       </strong>
+       ) Quantification of Wsc1p-GFP localization. Thirty-five
+       <em>
+        SLA1
+       </em>
+       cells, 34
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA
+        </em>
+       </sup>
+       cells, 30
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         R708A
+        </em>
+       </sup>
+       cells, 35
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA, R708A
+        </em>
+       </sup>
+       cells, and 31
+       <em>
+        sla1
+       </em>
+       Δ cells were randomly selected and the average fluorescence intensities of the bud and mother cell surfaces were determined. The ratio of bud to mother cell surface fluorescence intensity was calculated for each bud–mother pair and the average and standard deviation for each strain was plotted.
+       <sup>
+        *
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.001 determined using Mann–Whitney
+       <em>
+        U
+       </em>
+       -test for each mutant versus wild type.
+       <em>
+        P
+       </em>
+       &lt;0.05 for the difference between
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA
+        </em>
+       </sup>
+       and
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA, R708A
+        </em>
+       </sup>
+       . This experiment is representative of 2–4 experiments with similar results. (
+       <strong>
+        C
+       </strong>
+       ) Sla1 dynamics at endocytic sites. One frame (left) from a movie taken at a frame rate of 1 frame/s and the corresponding kymographs (right) of
+       <em>
+        sla1
+       </em>
+       <sup>
+        <em>
+         AAA
+        </em>
+       </sup>
+       (GPY4918),
+       <em>
+        SLA1
+       </em>
+       (wild type, GPY4916), or
+       <em>
+        sla1-R708A
+       </em>
+       (GPY4919) cells expressing mutant or wild-type Sla1-GFP from the endogenous
+       <em>
+        SLA1
+       </em>
+       locus. The area between the white lines on the left images indicates the region from which the kymographs were created.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     A role for the Sla1p vCB in Wsc1p endocytosis implies that internalization of Wsc1p is dependent on clathrin. To assess whether Wsc1p endocytosis requires clathrin, Wsc1p localization was visualized in cells carrying a temperature-sensitive allele of the clathrin heavy-chain gene (
+     <em>
+      chc1-ts
+     </em>
+     ). Wsc1p-GFP polarization was partially compromised at 24°C and severely reduced at 37°C as compared with that in wild-type cells (
+     <a>
+      Supplementary Figure 3
+     </a>
+     ). These results support the model that efficient Wsc1p-GFP endocytosis relies on the engagement of clathrin by the Sla1p vCB.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The vCB is important for Sla1p dynamics
+    </title>
+    <p>
+     When visualized by time-lapse fluorescence microscopy, Sla1p shows a defined spatiotemporal pattern of assembly at sites of endocytosis (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2005
+     </xref>
+     ). Sla1p assembles as cortical patches at the plasma membrane together with other endocytic coat proteins and then moves inward as the membrane invaginates. Shortly thereafter Sla1p disappears, presumably due to coat disassembly. To determine whether the vCB is important for these dynamics, we monitored the patch lifetimes of wild-type and a vCB mutant form (LLDLQ to AAALQ) of Sla1p-GFP expressed from the endogenous
+     <em>
+      SLA1
+     </em>
+     locus. Wild-type Sla1-GFP showed a patch lifetime of 32±8 s (265 patches), similar to that in previously published studies (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     and
+     <a>
+      Supplementary Movie 1
+     </a>
+     ). In contrast, the vCB mutation significantly lengthened the patch lifetime of Sla1p-GFP to 80±27 s (196 patches;
+     <em>
+      P
+     </em>
+     &lt;0.001;
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     and
+     <a>
+      Supplementary Movie 2
+     </a>
+     ). These results provide evidence that normal endocytic progression of Sla1p requires the engagement of clathrin through the vCB, and offer a molecular basis for the Wsc1-GFP localization defect in
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     cells.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The crystal structure of SHD2 reveals a new SAM domain
+    </title>
+    <p>
+     SHD2 was originally identified as a domain on the basis of sequence conservation in Sla1p homologues encoded in the genomes of different fungal species (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). However, by sequence searches, SHD2 did not fall into any known domain family. Additionally, domain analysis programmes such as SMART (Simple Modular Architecture Research Tool) failed to detect any related domains present in the Protein Data Bank (PDB). Thus, to further characterize SHD2, we determined the crystal structure of a 72-amino-acid fragment spanning the domain (aa653–724). Native SHD2 and seleno-methionine derivative crystals were obtained and the structure was solved by multi-wavelength anomalous diffraction (MAD) phasing at a resolution of 1.85 Å (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     and
+     <a>
+      Supplementary Figure 4
+     </a>
+     ). SHD2 is organized into a compact fold of five α-helixes (
+     <xref ref-type="fig">
+      Figure 3A and B
+     </xref>
+     ). A search of the PDB with the SHD2 structure using the Secondary Structure Matching (SSM) 3D alignment program identified SHD2 as a member of the SAM domain family.
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     presents the structure of the SAM domain of human P73 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), the closest SHD2 relative in the PDB according to SSM analysis. SHD2 and P73 SAM have an RMSD of 1.96 Å between the α-carbon atoms despite having only 13% sequence identity over 56 residues. Superposition of the two domains illustrates the close structural similarity (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). SAM domains are involved in diverse biological processes, including signal transduction, transcription, and translational regulation, but have not been functionally associated with clathrin-mediated protein transport (
+     <xref ref-type="bibr">
+      Qiao and Bowie, 2005
+     </xref>
+     ). SAM domains primarily function as protein interaction modules and can interact with each other to form homodimers or polymers, can bind to SAM domains in other proteins or to non-SAM domain-containing proteins, and also can interact with RNA. Our results indicate SHD2 as a SAM domain that interacts with a vCB motif to regulate clathrin binding.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       SHD2 belongs to the SAM domain family. (
+       <strong>
+        A
+       </strong>
+       ) Sequence alignment of the indicated fungal SHD2 sequences. Fully conserved residues are highlighted in red and partially conserved residues in blue. The α-helical elements present in the crystal structure are delineated with yellow arrows. Residues 653 and 724 represent the N- and C-termini of the SHD2 construct used for crystallization. (
+       <strong>
+        B
+       </strong>
+       ) Structure of SHD2. A ribbon representation of SHD2 derived from the crystal structure determined at a resolution of 1.85 Å. The backbone is coloured from blue at the N-terminus (N) to red at the C-terminus (C). The numbered helixes correspond to those shown in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) A ribbon representation of the crystal structure of human P73 SAM domain, the closest structural relative of SHD2 in the PDB (PDB ID 1dxs). The orientation, secondary structure elements, and termini labelling are analogous to those used in panel
+       <strong>
+        B
+       </strong>
+       for SHD2. (
+       <strong>
+        D
+       </strong>
+       ) Cα-based superposition of SHD2 (light blue) and the P73 SAM domains (green). RMSD=1.96 Å (
+       <strong>
+        E
+       </strong>
+       ) Multiple sequence alignment of SHD2 with the other previously known SAM domains from
+       <em>
+        S. cerevisiae
+       </em>
+       (upper part) and the putative SAM domain from an uncharacterized ∼400-residue protein conserved from protists to humans here referred to as SDCP (lower part). Residues identical to SHD2 are highlighted in red and the % sequence identities with SHD2 are indicated on the right. Accession numbers for SDCPs: Protist,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_001746721","term_id":"167524771","term_text":"XP_001746721"}}
+        </span>
+        XP_001746721
+       </a>
+       ; zebrafish,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"AAI29262","term_id":"125858997","term_text":"AAI29262"}}
+        </span>
+        AAI29262
+       </a>
+       ; frog,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"NP_001086067","term_id":"147907188","term_text":"NP_001086067"}}
+        </span>
+        NP_001086067
+       </a>
+       ; platypus,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_001515731","term_id":"620971476","term_text":"XP_001515731"}}
+        </span>
+        XP_001515731
+       </a>
+       ; mouse,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"NP_780316","term_id":"170650651","term_text":"NP_780316"}}
+        </span>
+        NP_780316
+       </a>
+       ; human,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"EAW56946","term_id":"119577350","term_text":"EAW56946"}}
+        </span>
+        EAW56946
+       </a>
+       ; fly,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_002021794","term_id":"195161896","term_text":"XP_002021794"}}
+        </span>
+        XP_002021794
+       </a>
+       . (
+       <strong>
+        F
+       </strong>
+       ) Evolutionary relationships between SHD2, the other
+       <em>
+        S. cerevisiae
+       </em>
+       SAM domains, and the SDCP putative SAM domains are presented as a cladogram.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Data collection, phasing, and refinement statistics for SHD2 phased by SAD (Se-Met)
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     SAM domains constitute one of the largest domain families (
+     <xref ref-type="bibr">
+      Qiao and Bowie, 2005
+     </xref>
+     ); the SMART database now identifies 2984 SAM-containing proteins present in all eukaryote genomes. The genome of
+     <em>
+      Saccharomyces cerevisiae
+     </em>
+     encodes five different SAM domains in addition to SHD2. These domains are present in the post-transcriptional regulator Vts1p, the signal transduction modulator Ste50p, the protein kinase Ste11p, and two redundant CDC42/Bem1p regulators, Boi1p and Boi2p (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     , top panel). The low level of sequence conservation between SHD2 and the other five SAM domains suggests that SHD2 diverged early in the evolutionary process (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     , top panel).
+    </p>
+    <p>
+     Intriguingly, a BLAST search with SHD2 detected significant sequence similarity with the N-terminal region of a ∼400-residue uncharacterized protein that is well conserved from protists to humans (hereafter referred to as SDCP for
+     <span>
+      S
+     </span>
+     AM
+     <span>
+      D
+     </span>
+     omain-
+     <span>
+      C
+     </span>
+     ontaining
+     <span>
+      P
+     </span>
+     rotein;
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     , bottom panel). These putative SAM domains show 22–26% sequence identity with SHD2, significantly higher than the identity shared with the
+     <em>
+      S. cerevisiae
+     </em>
+     SAM domains (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). Furthermore, a BLAST search using as query the putative SAM domain from human SDCP (accession number
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"EAW56946","term_id":"119577350","term_text":"EAW56946"}}
+      </span>
+      EAW56946
+     </a>
+     ) detected Sla1p SHD2 as the most similar sequence in databases (
+     <em>
+      E
+     </em>
+     =0.007) besides other metazoan SDCPs. Consistent with these sequence comparison results, a cladogram analysis of the evolutionary relationships between SHD2, the other
+     <em>
+      S. cerevisiae
+     </em>
+     SAM domains, and the putative SAM domains from representative SDCPs places SHD2 and the SDCP domains in a separate branch from the fungal SAM domains (
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     ). Together, the SHD2 structure and sequence analyses provide evidence that SHD2 is an ancient SAM domain with closest relatives in SDCP, an uncharacterized and conserved protein.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SHD2 can form oligomers
+    </title>
+    <p>
+     A sub-group of SAM domains self-associates to form left-handed helical polymers with six subunits per turn (
+     <xref ref-type="bibr">
+      Qiao and Bowie, 2005
+     </xref>
+     ). Notably, SHD2 crystals belong to the same P6
+     <sub>
+      5
+     </sub>
+     space group as all other polymer-forming SAM domains, with the SHD2 subunits arranged as a left-handed helical head-to-tail polymer (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). Moreover, both orientation of the subunits in the polymer and the interaction surfaces formed by mid-loop and end-helix residues in the SHD2 polymer mirror those in established SAM domain polymers (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). We tested whether SHD2 self-associates
+     <em>
+      in vitro
+     </em>
+     by incubating GST-SHD2 with polyhistidine-tagged SHD2. Affinity binding and immunoblotting showed binding of His-SHD2 to GST-SHD2 but not GST (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , lanes 1–3). Structure-based single-residue mutations of interaction-surface residues in the mid-loop and end-helix regions partially abolished His-SHD2 binding by GST-SHD2 (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , lanes 4–5). In contrast, mutation of residues in other areas of the SHD2 surface did not affect SHD2 self-interaction (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , lanes 6–7). These results suggest that SHD2 has the capacity to self associate in a manner similar to other polymer-forming SAM domains.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       SHD2 oligomerizes in a manner similar to a subgroup of the SAM family. (
+       <strong>
+        A
+       </strong>
+       ) Arrangement of subunits as a left-handed helical polymer in the crystal structures of SHD2 (left panel) and the SAM domain of Shank3 (right panel). Each of the 10 subunits included is consecutively numbered and coloured as in
+       <xref ref-type="fig">
+        Figure 3
+       </xref>
+       . (
+       <strong>
+        B
+       </strong>
+       ) An enlarged view of two adjacent subunits in the SHD2 and Shank3-SAM polymers highlighting the similarity of the interaction interface. Residues subjected to site-directed mutagenesis for experiments in
+       <xref ref-type="fig">
+        Figure 1H
+       </xref>
+       or panel C are shown in stick representation. (
+       <strong>
+        C
+       </strong>
+       ) SHD2 oligomerizes
+       <em>
+        in vitro
+       </em>
+       . GST fused to wild-type SHD2 (aa651–724; lane 3) and to the indicated mutants (lanes 4–7) were bound to glutathione–Sepharose beads and incubated with polyhistidine-tagged wild-type SHD2 (aa651–724) or the indicated mutant versions of SHD2. The eluted proteins were analysed by SDS–PAGE and immunoblotting using a monoclonal antibody to the polyhistidine tag. (
+       <strong>
+        D
+       </strong>
+       ) Sla1p self-interaction
+       <em>
+        in vivo
+       </em>
+       . Total cell extracts of the indicated strains (
+       <em>
+        MATα
+       </em>
+       , Sla1-GFP (GPY3100-11C);
+       <em>
+        MAT
+       </em>
+       a, Sla1 (GPY4914); and
+       <em>
+        MAT
+       </em>
+       a/Matα, Sla1-GFP, Sla1 (GPY4915)) were subjected to immunoprecipitation with an anti-GFP antibody or an irrelevant IgG and the immunoprecipitates were analysed by immunoblotting with anti-Sla1 antibody.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To determine whether Sla1p self-associates
+     <em>
+      in vivo
+     </em>
+     , we performed co-immunoprecipitation experiments with diploid cells expressing Sla1p-GFP and untagged Sla1p. Sla1p-GFP was immunoprecipitated with an anti-GFP antibody and the resulting immunoprecipitate was analysed by immunoblotting with an anti-Sla1 antibody (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). In addition to Sla1-GFP, a small but reproducible level of wild-type Sla1p was detected, migrating just below Sla1p-GFP (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     , lane 3). This lower molecular weight band is unlikely to be a degradation product of Sla1p-GFP because it was not present in immunoprecipitates from cells expressing only Sla1p-GFP (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     , lane 1). As additional controls for specificity, Sla1p was not precipitated by anti-GFP antibodies from the extracts of the parental haploid strain that expressed Sla1p alone, nor was Sla1p precipitated from the diploid strain with an irrelevant antibody (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     , lanes 2 and 4). The level of specific self-association, although low, is consistent with the transient and low-affinity interactions characteristic of clathrin coat assembly (
+     <xref ref-type="bibr">
+      Traub, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schmid and McMahon, 2007
+     </xref>
+     ).
+    </p>
+    <p>
+     The effect of disrupting SHD2 self-association
+     <em>
+      in vivo
+     </em>
+     was monitored by fluorescence microscopy of cells expressing Wsc1p-GFP or Sla1p-GFP harbouring the R708A mutation that disrupted SHD2 self-interaction
+     <em>
+      in vitro
+     </em>
+     . A Wsc1p-GFP localization defect was observed (
+     <em>
+      P
+     </em>
+     &lt;0.001), which was less pronounced than that shown by
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     cells (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). The patch lifetime of the R708A mutant Sla1p-GFP was 24±6 s (218 patches) (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     and
+     <a>
+      Supplementary Movie 3
+     </a>
+     ), significantly shorter than the lifetime of wild-type Sla1-GFP (32±8 s), with
+     <em>
+      P
+     </em>
+     &lt;0.001. Together, these findings suggest that SHD2-mediated Sla1p self-association is important for the normal endocytic dynamics of Sla1p, thereby providing an explanation for the Wsc1-GFP localization defect in
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       R708A
+      </em>
+     </sup>
+     cells.
+    </p>
+    <p>
+     Our results provide evidence that both clathrin binding by the vCB and the self-association properties of SHD2 are important for Sla1p function. Mutation of both activities simultaneously resulted in slightly more severe defects in Wsc1p-GFP polarization (
+     <em>
+      P
+     </em>
+     &lt;0.05) than mutations of either alone (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). Nevertheless, additional functions of Sla1p are important for endocytosis as deletion of the entire
+     <em>
+      SLA1
+     </em>
+     gene completely abolishes Wsc1p polarization and endocytosis (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     On the basis of the observations that SHD2 binds both to the vCB and itself, we considered the possibility that the two binding activities are mechanistically linked. Guided by this hypothesis, mutations in each of the two SHD2 surfaces that mediate self-oligomerization (mid-loop or end-helix) were characterized for effects on vCB peptide binding. Mutations E681A and M687A on the mid-loop surface (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ) substantially reduced peptide binding (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     148±19 and 345±23 μM, respectively;
+     <xref ref-type="fig">
+      Figure 1H
+     </xref>
+     ). Mutation of residues in other areas of the SHD2 surface, including the R708A change in the end-helix, did not affect binding. This result indicates that the defect in Sla1p function caused by the R708A mutation can be attributed to defects in self-association, not vCB binding. Importantly, our analysis shows an overlap between the vCB-binding site and mid-loop oligomerization surface on SHD2. Thus, vCB binding and self-association are likely to be mutually exclusive activities of SHD2.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Clathrin adaptors play central roles in coated vesicle formation, coordinating coat assembly with cargo selection. Here we show that Sla1p binds to clathrin and identify a variant CB motif that is important for Sla1p endocytic patch dynamics and Sla1p-mediated endocytosis, thereby defining Sla1p as a bona fide clathrin adaptor capable of linking cargo to the clathrin- and actin-based endocytic machinery. Unexpectedly, clathrin binding by the vCB is negatively regulated by the Sla1p SHD2 domain, a new member of the SAM domain family that is required for optimal Sla1p function in endocytosis. Thus, we have uncovered a novel mode of clathrin adaptor regulation mediated by a member of a domain family that has not previously been associated with function in clathrin-mediated endocytosis.
+   </p>
+   <p>
+    The vCB in Sla1p, LLDLQ, is a close match with the original consensus sequence for the CB, L[L/I][D/E/N][L/F][D/E] (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and our competition experiments suggest the vCB binds to the same site in the clathrin terminal domain as the canonical CB. On the basis of crystal structures, binding of the CB to the clathrin terminal domain is mediated by interactions between the hydrophobic residues in the CB and hydrophobic patches in the groove between blades one and two of the terminal domain ß-propeller, as well as electrostatic interactions between the last acidic residue of the CB and positively charged side chains in the terminal domain (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The side chain of the middle polar residue is oriented away from the terminal domain and so does not contribute to the interaction. Binding of the Sla1 vCB to clathrin was abolished by mutation of the first two residues, but was not significantly perturbed by alteration of the final Q to D or K. These results suggest that binding of the vCB to clathrin is primarily dependent on hydrophobic interactions, consistent with an expanded consensus CB sequence, Lφpφp (φ is hydrophobic and p is polar) (
+    <xref ref-type="bibr">
+     Lafer, 2002
+    </xref>
+    ).
+   </p>
+   <p>
+    Cells expressing Sla1p harbouring an LLDLQ-to-AAALQ mutation showed a partial defect in Wsc1p localization, indicating residual endocytic adaptor activity in the mutant. Presumably, indirect association of Sla1p with clathrin through other Sla1p-binding partners during coat assembly can partly compensate for the loss of clathrin binding to the Sla1p vCB. Nevertheless, the defect in Wsc1p polarization and the markedly longer Sla1p patch lifetime in the vCB mutants indicate that interaction with clathrin is critical for Sla1p adaptor function.
+   </p>
+   <p>
+    Our analysis identifies the SHD2 domain as a novel negative regulator of clathrin binding that operates by binding to and occluding the vCB, either by recognition of the vCB itself or an overlapping sequence. The affinity measured for binding of SHD2 to a vCB-containing peptide
+    <em>
+     in trans
+    </em>
+    is low (64±14 μM), but comparable to the affinity of a conventional CB for the clathrin terminal domain (≈20 μM) (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). On the basis of these observations we envision a regulatory mechanism that involves competition between SHD2 and the clathrin terminal domain for binding to the vCB (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ). In this model, the intramolecular interaction between the vCB and SHD2 would inhibit clathrin binding unless the local concentration of clathrin terminal domains increases sufficiently to displace SHD2. In this way, binding of the vCB to clathrin can be coordinated with clathrin lattice assembly, thereby promoting association of Sla1p with the growing coat. Such negative regulation of clathrin binding by SHD2 could play a role in preventing premature interactions between Sla1p and clathrin in the cytoplasm and/or in facilitating clathrin release from Sla1p during coat disassembly (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ).
+   </p>
+   <fig id="f5" position="float">
+    <label>
+     Figure 5
+    </label>    <caption>
+     <p>
+      A model for functions of the Sla1p vCB and SHD2 domain. In the cytosol (right) intramolecular binding of SHD2 to the vCB prevents non-productive interaction with free clathrin triskelia. Sla1p proteins recruited to assembling CCVs (left) encounter higher concentrations of clathrin heavy-chain N-terminal domains within the nascent clathrin coat (balls projecting from clathrin cage), thereby promoting displacement of SHD2 from the vCB by the N-terminal domain. Additionally, the high local concentration of SHD2 favours self-association, which would foster Sla1p localization and might also create a limited helical scaffold showing the N- and C-terminal regions of Sla1p that contain binding sites for clathrin (LLDLQ), NPFxD cargo (SHD1), and other endocytic factors. SHD2 is separated from the vCB and SHD1 by regions of about 90 amino acids that are predicted to be unstructured, providing flexibility to accommodate both homo-oligomerization of SHD2 and interaction with multiple partners through vCB, SHD1, and other Sla1p interaction domains. These Sla1p interactions would be reversed during coat disassembly, leading to regeneration of the closed cytosolic form with SHD2 bound to the vCB. Omitted for simplicity are the three Sla1p N-terminal SH3 domains and the C-terminal repeats that mediate interactions with the actin polymerization stimulators Las17p and Pan1p, and other accessory factors.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    The crystal structure of SHD2 showed a SAM domain fold and organization of subunits within the crystal as a left-handed helix characteristic of polymerized forms of a subset of other SAM domains (
+    <xref ref-type="bibr">
+     Qiao and Bowie, 2005
+    </xref>
+    ).
+    <em>
+     In vitro
+    </em>
+    binding assays and structure-based mutagenesis of interface residues provided evidence that SHD2 domains can associate in solution as well as during crystallization. Like other SAM domain polymers, the N- and C-termini of SHD2 are both oriented towards the outside of the helix (
+    <xref ref-type="fig">
+     Figure 4A and B
+    </xref>
+    ), suggesting that SHD2 can mediate polymerization in the context of full-length Sla1p. Indeed, Sla1p self-interaction was detected by co-immunoprecipitation. The Shank3 SAM domain, which oligomerizes in a similar manner, also has been shown to form polymers in the context of a larger protein (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), suggesting that a subclass of SAM domains including SHD2 may be designed to serve as oligomerization modules.
+   </p>
+   <p>
+    The affinity of self-association can vary widely for different SAM domains, with measurements ranging from
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    =1.7 nM for TEL SAM domains to 11 μM for Yan SAM domains (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Although the affinity of SHD2 for itself has not been determined, the strength of self-interaction appears to be low based on the level of binding observed by GST-fusion affinity binding assays. Furthermore, the solvent-exposed area buried in the interaction surface is less (≈820 Å) than that observed in the TEL SAM polymers (≈1100 Å) and polyhomeotic SAM polymers (≈960 Å, 190 nM affinity) (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ). Other properties of the SHD2 SAM domain are also suggestive of weak self-interaction. For example, the propensity of polymerizing SAM domains to form long fibres impedes crystallization; mutation of polymer interface residues to debilitate the self-interaction and solubilize the protein was often required to obtain crystals (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Even with lowered affinity, the mutant SAM domains were able to assemble into helices under the high protein concentrations used for crystallization. By contrast, native SHD2 was soluble and crystallized as a polymer without mutagenesis. The results of gel filtration and dynamic light-scattering analysis of SHD2 in solution are consistent with results obtained from monomers or dimers, not the longer oligomers observed in preparations of other SAM domains (
+    <a>
+     Supplementary Figure 5
+    </a>
+    ). Together, these findings suggest that SHD2 self-associates only when highly concentrated, a property well-designed for coated vesicle formation, where coat assembly generates high local concentrations of coat-associated proteins.
+   </p>
+   <p>
+    Self-association and vCB binding by SHD2 are likely to be mutually exclusive events because the binding surfaces overlap. In this way, SHD2 could act as a molecular switch for clathrin binding; vCB binding to SHD2 would prevent clathrin binding in the cytosol (and self-association) until local concentration of Sla1p at endocytic sites drives self-association, thereby releasing vCB from SHD2 to facilitate binding to clathrin (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ). Although our data do not establish the extent of oligomerization in solution, even assembly into limited oligomers during coat formation could also generate a helical scaffold that concentrates and radially displays the N- and C-terminal regions of Sla1p. Such oligomers could facilitate interaction with other coat components, including clathrin as well as cargo that contain NPFxD sorting signals (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ). Thus, we propose a model in which SHD2 mediates two novel aspects of clathrin adaptor function: negative regulation of clathrin binding through an intramolecular interaction with the vCB, and positive regulation of coat assembly through limited self-oligomerization. Consistent with these functions, we observed Wsc1p localization defects in cells expressing Sla1p containing the R708A mutation that impedes self-association. A defect in coat assembly or stable association with coats due to an inability to self-associate could account for the shorter patch lifetime of Sla1p carrying an oligomerization interface mutation. Supporting a role for oligomerization in proper coat assembly, coat protein lifetimes are also reduced in clathrin-deficient cells (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    The low level of SHD2 sequence conservation with previously characterized SAM domains precluded the assignment of SHD2 to the SAM domain family. Together with the crystal structure, our current sequence alignments and phylogenetic analysis indicate that SHD2 defines a new class of SAM domain. Consequently, we can now attribute a function in clathrin-mediated endocytosis to one of the most abundant motifs in eukaryotic organisms. Sequence similarity searches showed an SHD2-related SAM domain in an uncharacterized protein, which we name SDCP, that is conserved from protists to humans. It is tempting to speculate a role for SDCP in endocytosis. Provocatively, SDCPs contain two potential vCBs, IINMP and ILEQQ, that are conserved between species and located within sequences predicted to be disordered. These two candidate vCBs are located C-terminal to the SAM domain at a distance similar to that separating SHD2 and the Sla1p vCB. SDCP also carries a conserved poly-proline sequence, a common feature of clathrin-associated proteins, including Sla1p. Whether SDCP functions in endocytosis awaits further experimentation.
+   </p>
+   <p>
+    Recently, a role in the endocytic pathway has been reported for ARAP1, a member of a subfamily of ARF GAP proteins that contain an N-terminal SAM domain (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). However, the function of the ARAP1 SAM domain has not been investigated, nor has the role of ARAP 1, or its site of action, in the endocytic pathway been resolved. SAM domain-mediated interaction of EphA2 receptors with the SHIP2 lipid phosphatase has been implicated in the regulation of Rac1-dependent Eph-receptor endocytosis (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The mechanism of EphA-receptor internalization is poorly understood, but does not appear to involve clathrin (
+    <xref ref-type="bibr">
+     Egea and Klein, 2007
+    </xref>
+    ). Thus, SAM domain function in endocytosis is likely to extend to other proteins, although it is unclear whether other SAM domains will display any of the properties we have defined for SHD2.
+   </p>
+   <p>
+    In summary, through our analysis of the clathrin adaptor Sla1p we have provided evidence for SAM domain function in clathrin-mediated endocytosis and identified roles for the domain as a negative regulator of clathrin binding and as a mediator of adaptor oligomerization. These studies establish new paradigms for SAM domain function and adaptor regulation during clathrin-mediated protein transport.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Plasmids, recombinant proteins, and yeast strains
+    </title>
+    <p>
+     To generate recombinant GST- or polyhistidine-tagged (His) fusion proteins, the corresponding DNA segments of
+     <em>
+      SLA1
+     </em>
+     were amplified by PCR and cloned in-frame into the
+     <em>
+      Eco
+     </em>
+     RI-
+     <em>
+      Sal
+     </em>
+     I sites of pGEX-5X-1 or pET-30a+ bacterial expression vectors, respectively. To construct His-SHD2, the polyhistidine tag was encoded in the forward primer used in the PCR so that the protein contained the sequence MHHHHHH directly fused to the Sla1p fragment aa653–724 and the PCR product was cloned into
+     <em>
+      Nde
+     </em>
+     I–
+     <em>
+      Sal
+     </em>
+     I sites of pET-30a+. GST- and His-fusion proteins were expressed in
+     <em>
+      Escherichia coli
+     </em>
+     and affinity-purified using glutathione–Sepharose-4B or the TALON cobalt-affinity resin (Clontech–BD Biosciences, San Jose, CA, USA) as described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     . Mutations were created by site-directed mutagenesis using the Quickchange system (Stratagene, La Jolla, CA, USA).
+    </p>
+    <p>
+     Mutations were introduced into the endogenous
+     <em>
+      SLA1
+     </em>
+     gene in GPY3527 (
+     <em>
+      MAT
+     </em>
+     α
+     <em>
+      ura3-52 leu2-3,112 his3-
+     </em>
+     Δ
+     <em>
+      200 trp1-
+     </em>
+     Δ
+     <em>
+      901 lys2-801 suc2-
+     </em>
+     Δ
+     <em>
+      9 WSC1-GFP∷HIS3
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) following a two-step approach similar to the one described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     . For the first step, sequences flanking SHD2 and LLDLQ, nucleotides 1207–1410 and 2427–2589 were amplified by PCR and cloned into the
+     <em>
+      Not
+     </em>
+     I/
+     <em>
+      Bam
+     </em>
+     HI and
+     <em>
+      Eco
+     </em>
+     RI/
+     <em>
+      Sal
+     </em>
+     I sites of pBluescriptKS, respectively. A PCR fragment containing
+     <em>
+      URA3
+     </em>
+     was then subcloned into the
+     <em>
+      Bam
+     </em>
+     HI/
+     <em>
+      Eco
+     </em>
+     RI sites. The resulting construct was cleaved with
+     <em>
+      Not
+     </em>
+     I/
+     <em>
+      Sal
+     </em>
+     I and the URA3 fragment was introduced by lithium acetate transformation (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) into GPY3527 to generate GPY4909 in which SHD2 and the vCB were replaced by
+     <em>
+      URA3
+     </em>
+     . In the second step,
+     <em>
+      Bsg
+     </em>
+     I/
+     <em>
+      Age
+     </em>
+     I fragments from pBKS-Sla1-1207-2589 (
+     <em>
+      SLA1
+     </em>
+     nucleotides 1207–2589 subcloned into the
+     <em>
+      Not
+     </em>
+     I/
+     <em>
+      Sal
+     </em>
+     I sites of pBluescriptKS) containing either the LLDLQ-to-AAALQ mutation, the R708 mutation, or both LLDLQ-to-AAALQ and R708A mutations were co-transformed with pRS313 (
+     <em>
+      HIS3
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Sikorski and Hieter, 1989
+     </xref>
+     ) into GPY4909. His+ colonies were replica-plated onto agar medium containing 5-fluorotic acid to identify cells in which the mutant sequences replaced
+     <em>
+      URA3
+     </em>
+     , thus generating strains GPY4910 (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     ), SDY105 (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       R708A
+      </em>
+     </sup>
+     ), and SDY104 (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA, R708A
+      </em>
+     </sup>
+     ), respectively.
+    </p>
+    <p>
+     The LLDLQ-to-AAALQ mutation was also introduced into the endogenous
+     <em>
+      SLA1
+     </em>
+     gene in TVY614 (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      ura3-52 leu2-3,112 his3-
+     </em>
+     Δ
+     <em>
+      200 trp1-
+     </em>
+     Δ
+     <em>
+      901 lys2-801 suc2-
+     </em>
+     Δ
+     <em>
+      9 pep4
+     </em>
+     ∷
+     <em>
+      LEU2 prb1
+     </em>
+     ∷
+     <em>
+      HISG prc1
+     </em>
+     ∷
+     <em>
+      HIS3
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Vida and Emr, 1995
+     </xref>
+     ) following a similar two-step approach as described above. The first step generated GPY4912 in which SHD2 and the vCB were replaced by
+     <em>
+      URA3
+     </em>
+     . In the second step, the
+     <em>
+      Bsg
+     </em>
+     I/
+     <em>
+      Age
+     </em>
+     I fragment containing the LLDLQ-to-AAALQ mutation was co-transformed with pRS314 (
+     <em>
+      TRP1
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Sikorski and Hieter, 1989
+     </xref>
+     ) into GPY4912. Trp+ colonies were replica-plated onto agar medium containing 5-fluorotic acid to identify cells in which the mutant sequences replaced
+     <em>
+      URA3
+     </em>
+     , thus generating strain GPY4913 (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     ). TVY614, its LLDLQ-to-AAALQ mutant derivative (GPY4913), and GPY 3130 (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      ura3-52 leu2-3,112 his3-
+     </em>
+     Δ
+     <em>
+      200 trp1-
+     </em>
+     Δ
+     <em>
+      901 lys2-801 suc2-
+     </em>
+     Δ
+     <em>
+      9 sla1Δ
+     </em>
+     ∷
+     <em>
+      URA3
+     </em>
+     ) were used for experiments in
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     involving yeast extracts.
+    </p>
+    <p>
+     GPY3100-11C (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 CHC1-mRFP∷Kan
+     </em>
+     ) was crossed with GPY4914 (
+     <em>
+      MAT
+     </em>
+     α
+     <em>
+      ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 SLA1-GFP∷TRP1
+     </em>
+     ) and the resulting diploid strain, GPY4915 (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      /Matα ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 CHC1-mRFP∷Kan SLA1-GFP∷TRP1
+     </em>
+     ), was used for experiments in
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     . This strain was then subjected to sporulation and a haploid segregant, GPY4916 (
+     <em>
+      MATα, ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 CHC-RFP∷Kan, SLA1-GFP∷TRP1
+     </em>
+     ), was used to introduce the LLDLQ-to-AAALQ or R708A mutation in the endogenous SLA1 gene following the same two-step approach described above. The first step generated GPY4917 in which SHD2 and the vCB were replaced by
+     <em>
+      URA3
+     </em>
+     . In the second step, the
+     <em>
+      Bsg
+     </em>
+     I/
+     <em>
+      Age
+     </em>
+     I fragment containing the LLDLQ-to-AAALQ or R708A mutation was co-transformed with pRS313 (
+     <em>
+      HIS3
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Sikorski and Hieter, 1989
+     </xref>
+     ) into GPY4917. His+ colonies were replica-plated onto agar medium containing 5-fluorotic acid to identify cells in which the mutant sequences replaced
+     <em>
+      URA3
+     </em>
+     , thus generating strain GPY4918 (
+     <em>
+      sla1
+     </em>
+     <sup>
+      <em>
+       AAA
+      </em>
+     </sup>
+     ) and GPY4919 (
+     <em>
+      sla1-R708A
+     </em>
+     ).
+    </p>
+    <p>
+     For all mutant strains, regeneration of full-length
+     <em>
+      SLA1
+     </em>
+     containing the LLDLQ-to-AAALQ mutation, the R708A mutation, or both LLDLQ-to-AAALQ and R708 mutations was confirmed by PCR and sequencing, and normal protein expression and stability was confirmed by immunoblotting with an anti-Sla1 antibody.
+    </p>
+    <p>
+     GPY3535 (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 WSC1-GFP∷HIS3
+     </em>
+     ) was crossed with GPY1064 (
+     <em>
+      MATα ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 chc1-521∷URA3
+     </em>
+     ) and the resulting diploid strain, SDY95, was subjected to sporulation and a haploid segregant, SDY96 (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      , ura3-52 leu2-3,112 his3-Δ200 trp1-Δ901 lys2-801 suc2-Δ9 WSC1-GFP∷HIS3 chc1-521∷URA3
+     </em>
+     ), was used for experiments in
+     <a>
+      Supplementary Figure 3
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biochemical methods
+    </title>
+    <p>
+     To obtain cytosolic extracts, liquid nitrogen frozen pellets of TVY614 (
+     <em>
+      MAT
+     </em>
+     a
+     <em>
+      ura3-52 leu2-3,112 his3-
+     </em>
+     Δ
+     <em>
+      200 trp1-
+     </em>
+     Δ
+     <em>
+      901 lys2-801 suc2-
+     </em>
+     Δ
+     <em>
+      9 pep4
+     </em>
+     ∷
+     <em>
+      LEU2 prb1
+     </em>
+     ∷
+     <em>
+      HISG prc1
+     </em>
+     ∷
+     <em>
+      HIS3
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Vida and Emr, 1995
+     </xref>
+     ) were ground in a blender as described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     and the powder was resuspended in buffer-A (10 mM HEPES (pH 7.0), 150 mM NaCl, 1 mM EDTA, 1 mM DTT) containing protease inhibitor cocktail (Sigma Aldrich, St Louis, MO, USA), followed by centrifugation at 4°C for 15 min at 400 000 ×
+     <em>
+      g
+     </em>
+     . To obtain total cell extracts of various strains for immunoprecipitation studies, a similar procedure was applied using buffer-A containing protease inhibitor cocktail and 1% (wt/vol.) Triton X-100, followed by centrifugation at 4°C for 15 min at 15 000 ×
+     <em>
+      g
+     </em>
+     . Immunoprecipitation was performed as described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     except for the use of buffer-B (buffer-A containing 0.1% Triton X-100) during the washing steps. GST-fusion protein affinity assays were performed as described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     using buffer-B as shown in
+     <xref ref-type="fig">
+      Figure 1C–F
+     </xref>
+     , buffer-C (10 mM Tris (pH 8.0), 150 mM NaCl, 0.1% Tween 20, 1 mM DTT) as shown in
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     , and buffer-D (25 mM HEPES (pH 7.5), 50 mM NaCl) as shown in
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     . For competition experiments in
+     <a>
+      Supplementary Figure 2
+     </a>
+     we used an LLDLD peptide (GSMQDLLDLDPLE) purchased at &gt;98% purity from GenScript Corp. (Piscataway, NJ, USA). For SHD2 inhibition of clathrin binding by the vCB (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ) the indicated polyhistidine-fusion fragments were added in a 10-fold mass excess of the GST fusion. Peptide binding to His-SHD2 (aa651–724) or surface mutants was measured using intrinsic fluorescence (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), with the Sla1p peptide GSMQDLLDLQPLE purchased at &gt;98% purity from GenScript Corp. Titrations were performed in triplicate using an Aviv ATF105 spectrofluorometer at 25°C in buffer-A, with excitation at 295 nm (1 nm bandwidth) and emission spectra obtained from 305 to 405 nm using a 4-nm bandwidth. Fluorescence intensity changes at the maximum (325 nm) were used for curve fitting.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence microscopy
+    </title>
+    <p>
+     Fluorescence microscopy was performed as described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     . To quantitate Wsc1p polarization, Slidebook 4.2.0.12 software (Intelligent Imaging Innovations, Denver, CO, USA) was used to generate a mask covering the bud or the mother plasma membrane and the average fluorescence intensity for each region was determined and a ratio was calculated. Mann–Whitney
+     <em>
+      U
+     </em>
+     -test was used to determine statistical significance.
+    </p>
+    <p>
+     Movies were generated by collecting 150 images at 1 frame/s at room temperature using cells grown until early log phase. The movies are present in the
+     <a>
+      Supplementary data
+     </a>
+     , with 0.1 s between frames (10 frames/s). Patches were randomly analysed provided that they were well separated from other patches throughout their lifetime and both appearance and disappearance were clearly observed. This method could slightly underestimate the Sla1-GFP patch lifetime for the LLDLQ-to-AAALQ mutant as in numerous occasions the patches were present for so long that disappearance was not observed and therefore they were rejected for analysis. Student's
+     <em>
+      t
+     </em>
+     -test was performed to determine statistical significance.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and crystal structure determination
+    </title>
+    <p>
+     Crystallization was performed at the UCLA Crystallization Facility using a Mosquito-TTP nanoliter dispenser. Crystals were grown at 4°C using a hanging drop, vapour-diffusion method by mixing equal volumes of protein (1.8 mg ml
+     <sup>
+      −1
+     </sup>
+     ) and reservoir solutions (0.1 M HEPES (pH 6.9), 5% PEG-6000, 5% MPD). Crystals appeared under the same conditions for both native and seleno-methionine derivatives within 24 h. Crystals grew to the maximum size of 0.1 × 0.1 × 0.2 mm in 4 days, and belonged to space group P6
+     <sub>
+      5
+     </sub>
+     . Unit cell dimensions and other parameters are given in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     .
+    </p>
+    <p>
+     Data collection and processing are described in the
+     <a>
+      Supplementary data
+     </a>
+     . Final data collection, phasing, and refinement statistics are presented in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . Most of the model has a clear electron density, with the exception of the two N-terminal residues and five C-terminal residues. These parts were omitted in the final model. The
+     <em>
+      R
+     </em>
+     -factor of the presented structure is 20.3% and
+     <em>
+      R
+     </em>
+     -free is 21.8%. Ramachandran statistics shows 98.3% of the residues in the allowed regions, 1.7% in the generous allowed regions, and 0.0% in the disallowed regions. All structure figures were drawn using Pymol (DeLano Scientific, San Carlos, CA, USA).
+    </p>
+    <p>
+     The coordinates and molecular structure factors for SHD2 have been deposited in the Protein Data Bank (
+     <a>
+      http://www.rcsb.org
+     </a>
+     ) under the accession code
+     <span>
+      3IDW
+     </span>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sequence analysis
+    </title>
+    <p>
+     Multiple sequence alignments were generated using ClustalW2 (
+     <a>
+      http://www.ebi.ac.uk/Tools/clustalw2/index.html
+     </a>
+     ). The cladogram was generated using the neighbour-joining method and the programme default matrix and parameters.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Movie 1:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.8M, mov)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Movie 2:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (648K, mov)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Movie 3:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.0M, mov)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (389K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (363K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

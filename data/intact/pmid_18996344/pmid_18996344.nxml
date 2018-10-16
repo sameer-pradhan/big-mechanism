@@ -1,0 +1,1845 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2658612
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structure and function of SifA indicate that interactions with SKIP, SseJ, and RhoA family GTPases induce endosomal tubulation
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    SUMMARY
+   </title>
+   <sec>
+    <p>
+     The
+     <em>
+      Salmonella typhimurium
+     </em>
+     type III secretion effector protein SifA is essential for inducing tubulation of the
+     <em>
+      Salmonella
+     </em>
+     phagosome and binds the mammalian kinesin-binding protein SKIP. Co-expression of SifA with the effector SseJ induced tubulation of mammalian cell endosomes, similar to that induced by
+     <em>
+      Salmonella
+     </em>
+     infection. Interestingly, GTP bound RhoA, RhoB, and RhoC also induced endosomal tubulation (ET) when co-expressed with SseJ, indicating that SifA likely mimics or activates a RhoA-family GTPase. The structure of SifA in complex with the PH domain of SKIP revealed that SifA has two distinct domains; the amino-terminus binds SKIP and the carboxyl-terminus has a fold similar to SopE, a
+     <em>
+      Salmonella
+     </em>
+     effector with Rho GTPase guanine nucleotide exchange factor activity (GEF). Similar to GEFs, SifA interacted with GDP-bound RhoA, and purifed SseJ and RhoA formed a protein complex, suggesting that SifA, SKIP, SseJ, and RhoA family GTPases cooperatively promote host membrane tubulation.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Salmonellae are medically important intracellular pathogens that cause a variety of diseases ranging from gastroenteritis to typhoid fever.
+    <em>
+     Salmonella enterica
+    </em>
+    serovar Typhimurium (
+    <em>
+     S. typhimurium
+    </em>
+    ) invasion and replication within host cells requires the delivery of effector proteins to the host cytosol by two type III secretion systems (TTSS), which are located on
+    <em>
+     Salmonella
+    </em>
+    pathogenicity island (SPI)-1 and -2 (
+    <xref ref-type="bibr">
+     Haraga et al., 2008
+    </xref>
+    ). Bacterial mediated macropinocytosis is induced by translocation of SPI1 effectors across the plasma membrane. Several SPI1 effectors facilitate invasion and alter inflammatory responses, in part, by manipulating various host small Rho family GTPases. Following internalization, salmonellae reside and replicate within a phagosome. From there, SPI2 effectors are translocated to the cytoplasmic face of the phagosome membrane, where they promote intracellular replication and virulence by undefined mechanisms.
+   </p>
+   <p>
+    One SPI2-dependent morphological alteration observed during infection is the formation of tubular membranous extensions of the phagosome, which are microtubule-dependent and have been termed Sif for
+    <em>
+     Salmonella
+    </em>
+    -induced filaments (
+    <xref ref-type="bibr">
+     Brumell et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Garcia-del Portillo et al., 1993
+    </xref>
+    ). The phagosome and Sif (also referred to as phagosome tubulation for conceptual simplicity), co-localize with markers of late endosomes and lysosomes, suggesting they form from these compartments (
+    <xref ref-type="bibr">
+     Brumell et al., 2001b
+    </xref>
+    ). SifA is a SPI2 TTSS effector, which localizes to the phagosome and is required for its tubulation (
+    <xref ref-type="bibr">
+     Brumell et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Stein et al., 1996
+    </xref>
+    ).
+    <em>
+     Salmonella
+    </em>
+    Δ
+    <em>
+     sifA
+    </em>
+    mutants are attenuated for virulence in mice and for intracellular replication in cultured macrophages, indicating that phagosome tubulation is likely an important pathogenic mechanism that promotes intracellular replication (
+    <xref ref-type="bibr">
+     Beuzon et al., 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Stein et al., 1996
+    </xref>
+    ). Other SPI2 effectors that localize to the phagosome, including SseF, SseG, SopD2, and PipB2, have been shown to modulate phagosome tubulation, however, only SifA seems to be absolutely required (
+    <xref ref-type="bibr">
+     Guy et al., 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jiang et al., 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Knodler and Steele-Mortimer, 2005
+    </xref>
+    ). SifA binds to a host protein termed SifA kinesin interacting protein (SKIP) that also binds the plus-end directed microtubule motor kinesin (
+    <xref ref-type="bibr">
+     Boucrot et al., 2005
+    </xref>
+    ). The observation that phagosome tubulation is impaired in
+    <em>
+     Salmonella
+    </em>
+    -infected cells subjected to SKIP siRNA (
+    <xref ref-type="bibr">
+     Boucrot et al., 2005
+    </xref>
+    ), suggests that the SifA-SKIP interaction contributes by manipulating interactions with microtubule motors.
+   </p>
+   <p>
+    SifA does not have homology to any proteins of known function, but was recently identified as a member of the WxxxE family of bacterial TTSS effectors that mimic activated small GTPases or activate their pathways through a novel mechanism (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). Small GTPases are guanine nucleotide binding proteins that interconvert between active GTP-bound and inactive GDP-bound states as a mechanism for regulating a wide variety of cellular processes, including actin polymerization, cell division and polarity, and vesicular trafficking (
+    <xref ref-type="bibr">
+     Takai et al., 2001
+    </xref>
+    ). Active GTPases regulate cellular function by recruiting proteins, also called effectors, which initiate cell-signaling cascades or mediate downstream cellular events. Host GTPases are the target of bacterial virulence proteins that have guanine exchange factor (GEF), GTPase activating protein (GAP) (
+    <xref ref-type="bibr">
+     Patel and Galan, 2006
+    </xref>
+    ), or guanine dissociation inhibitor (GDI) (
+    <xref ref-type="bibr">
+     Prehna et al., 2006
+    </xref>
+    ) activity, suggesting that altering these pathways is a common mechanism by which TTSS effectors manipulate host cells.
+   </p>
+   <p>
+    The TTSS effectors with GTPase mimicry activity were identified by the presence of a minimal tryptophan (W) and glutamic acid (E) containing (WxxxE) motif, which is essential for their function, and in contrast to other effectors that target GTPases, WxxxE effectors appeared to function by directly mimicking activated GTPases (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). Characterized members of this family include Map, IpgB1, and IpgB2, produced by
+    <em>
+     E. coli
+    </em>
+    and
+    <em>
+     Shigella
+    </em>
+    spp., which induce classic actin cytoskeleton rearrangements like those induced by the activated GTPases Cdc42, Rac1, and RhoA, respectively (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). Effectors with the WxxxE motif do not have known structural similarity to GTPases, and their activity is unaltered by GTPase inhibitors, although their effects require downstream GTPase effector proteins (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). Consistent with the possibility that WxxxE effectors mimic GTPases, IpgB1 was shown to bind to ELMO, an effector of RhoG, as a mechanism to activate cytoskeletal rearrangements (
+    <xref ref-type="bibr">
+     Handa et al., 2007
+    </xref>
+    ). In
+    <em>
+     Salmonella
+    </em>
+    , the WxxxE motif is present in SifA and a similar SPI2 effector SifB (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). Furthermore, SifA contains a carboxy-terminal CaaX motif, which is prenylated by PGGT-1, a mammalian protein geranylgeranyl transferase that lipidates GTPases to facilitate membrane localization (
+    <xref ref-type="bibr">
+     Reinicke et al., 2005
+    </xref>
+    ). Therefore, SifA may function by mimicking an activated GTPase on the phagosome membrane.
+   </p>
+   <p>
+    SifA has been shown to regulate the stability of the
+    <em>
+     Salmonella
+    </em>
+    phagosome with the SPI2 effector SseJ, because Δ
+    <em>
+     sifA
+    </em>
+    bacteria lose the phagosome membrane and are released into the cytoplasm in an SseJ-dependent fashion (
+    <xref ref-type="bibr">
+     Ruiz-Albert et al., 2002
+    </xref>
+    ). In contrast to its role with SifA in phagosome stability, SseJ is not essential for the Sif phenotype as Δ
+    <em>
+     sseJ
+    </em>
+    bacteria are competent for phagosome tubulation (
+    <xref ref-type="bibr">
+     Birmingham et al., 2005
+    </xref>
+    ). SseJ has homology to glycerophospholipid-cholesterol acyl transferase enzymes of the lipase superfamily and localizes to the phagosome membrane during infection (
+    <xref ref-type="bibr">
+     Freeman et al., 2003
+    </xref>
+    ). Purified SseJ has deacylase and acyltransferase activity in vitro, and SseJ catalytic-triad mutants that reduce deacylase activity are attenuated for virulence in mice, indicating that SseJ enzymatic activity contributes to intracellular replication in host tissues (
+    <xref ref-type="bibr">
+     Nawabi et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ohlson et al., 2005
+    </xref>
+    ). To better understand how
+    <em>
+     Salmonella
+    </em>
+    effectors and host proteins contribute to phagosome tubulation, we investigated the interaction of SifA and SseJ with host membranes and proteins.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     Co-expression of SifA and SseJ in HeLa cells induces endosomal tubulation
+    </title>
+    <p>
+     The observation that SseJ and SifA coordinate the stability of the
+     <em>
+      Salmonella
+     </em>
+     phagosome membrane (
+     <xref ref-type="bibr">
+      Ruiz-Albert et al., 2002
+     </xref>
+     ) suggested that they might function cooperatively to alter host membranes. To test this, HeLa cells were transiently transfected with epitope-tagged SseJ and SifA, either alone or together, and monitored for alteration of the endosomal/lysosomal compartment. SseJ alone localized to membranous LAMP1 positive, late endosomal/lysosomal vesicles (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), and produced the formation of globular membranous compartments as observed previously (
+     <xref ref-type="bibr">
+      Ruiz-Albert et al., 2002
+     </xref>
+     ). SifA alone was diffusely cytoplasmic and occasionally localized to the plasma membrane, but did not exclusively co-localize with LAMP1 (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Other studies have reported that ectopic expression of SifA induces filamentation of lysosomal membranes (
+     <xref ref-type="bibr">
+      Brumell et al., 2001a
+     </xref>
+     ), however, we rarely observed this phenotype (&lt;0.1% of SifA expressing cells,
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). In contrast, HeLa cells co-expressing SseJ and SifA exhibited a 100-fold increase (15.4 ± 3.6%) in tubule-like extensions of SseJ-coated late endosomes/lysosomes (
+     <xref ref-type="fig">
+      Figure 1C and 1E
+     </xref>
+     ). We termed these structures endosomal tubules (ET), and noted that they were very similar in appearance to the phagosome tubules in
+     <em>
+      Salmonella
+     </em>
+     infected HeLa cells. In contrast, co-expression of SifB, a WxxxE effector with 26% identity and 46% similarity to SifA, with SseJ did not induce ET (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ), and SifB localization was identical to its expression alone (
+     <a>
+      Figure S1
+     </a>
+     ). The significant increase of ET upon co-expression of SseJ and SifA indicated that SifA and SseJ likely cooperate, and that co-expression of these proteins can be used to study membrane tubulation.
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       SseJ and SifA induce endosomal tubulation
+      </strong>
+      <p>
+       (A) HeLa cells expressing HA-SseJ were stained with anti-HA (red) and anti-LAMP1 antibodies (green). SseJ localized to LAMP1-positive compartments (arrow). Scale bar, 10 µm.
+      </p>
+      <p>
+       (B) HeLa cells expressing GFP-SifA (green) were stained with anti-LAMP1 (red) antibodies. Occasional co-localization with LAMP1 is indicated (arrow).
+      </p>
+      <p>
+       (C) HeLa cells expressing HA-SseJ and GFP-SifA were stained with anti-HA (red) antibodies. Some SseJ-localized membranes (arrows) formed endosomal tubules (ET).
+      </p>
+      <p>
+       (D) HeLa cells expressing HA-SseJ and GFP-SifB were stained with anti-HA (red) antibodies. SseJ and SifB occasionally co-localize (arrow).
+      </p>
+      <p>
+       (E) The percent co-transfected cells with ET ± SEM in HeLa cells expressing HA-SseJ alone, GFP-SifA alone, HA-SseJ and GFP-SifA, HA-SseJ and mutant AxxxA-GFP-SifA, or catalytic mutant 3x-HA-SseJ and GFP-SifA is shown.
+      </p>
+      <p>
+       (F) HeLa cells infected with wild type, Δ
+       <em>
+        sifA
+       </em>
+       , Δ
+       <em>
+        sifA
+       </em>
+       expressing wild-type SifA-int.HA, or Δ
+       <em>
+        sifA
+       </em>
+       expressing mutant AxxxA-SifA-int.HA
+       <em>
+        S. typhimurium
+       </em>
+       for 9 h were analyzed for percent infected cells with phagosome tubulation ± SEM.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The conserved motifs of SseJ and SifA are important for endosomal tubulation
+    </title>
+    <p>
+     To determine whether SseJ enzymatic activity contributes to ET, SseJ containing mutations in the catalytic triad residues, which are essential for enzymatic activity and virulence in mice (
+     <xref ref-type="bibr">
+      Ohlson et al., 2005
+     </xref>
+     ), was co-expressed with SifA in HeLa cells and analyzed for ET. Catalytic triad mutant SseJ co-localized with SifA like wild-type SseJ (data not shown), however, no ET was observed (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). These results demonstrate that the enzymatic activity of SseJ is essential for ET formation.
+    </p>
+    <p>
+     Unlike SseJ, the biochemical activities of SifA are poorly understood. SifA belongs to the WxxxE family of bacterial effectors (
+     <xref ref-type="bibr">
+      Alto et al., 2006
+     </xref>
+     ) and interacts with the host protein SKIP (
+     <xref ref-type="bibr">
+      Boucrot et al., 2005
+     </xref>
+     ). To determine whether the conserved WxxxE residues of SifA were important for ET formation, a mutant AxxxA-SifA construct, containing alanine substitutions of the tryptophan (W197) and glutamic acid (E201) residues, was co-expressed with SseJ. Despite normal expression and co-localization (data not shown), ET induction in AxxxA-SifA expressing cells was reduced by 70% compared to wild type SifA, as only 4.6 ± 1.5% of SseJ and mutant SifA co-transfected cells expressed ET compared with 15.4 ± 3.6% for SseJ and wild type SifA (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). Consistent with these observations, Δ
+     <em>
+      sifA S. typhimurium
+     </em>
+     expressing AxxxA-SifA was attenuated for phagosome tubulation (8.0 ± 1.8%) compared to Δ
+     <em>
+      sifA
+     </em>
+     expressing wild type SifA (22.1 ± 1.8%) (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). This difference was not due to altered translocation because equivalent translocation was observed (
+     <a>
+      Figure S2
+     </a>
+     ). These results provide further support that the WxxxE motif contributes to the function of SifA. The dual requirement of the conserved motifs of SseJ and SifA supports the hypothesis that cooperation between their activities is important to ET formation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ET formation involves microtubules and SKIP
+    </title>
+    <p>
+     To determine whether ET induced by SifA and SseJ were similar to the phagosome tubules induced during infection, we analyzed ET for the known properties of phagosome tubulation; LAMP1 co-localization, nocodazole sensitivity, and SKIP-dependence (
+     <xref ref-type="bibr">
+      Boucrot et al., 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Garcia-del Portillo et al., 1993
+     </xref>
+     ). Like phagosome tubulation, ET induced by SseJ and SifA stained positively for LAMP1 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). In addition, nocodazole treatment completely inhibited ET formation, however cytochalasin D had no effect, similar to
+     <em>
+      Salmonella
+     </em>
+     -induced phagosome tubulation (
+     <xref ref-type="bibr">
+      Brumell et al., 2002
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Garcia-del Portillo et al., 1993
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). Together, these results suggest that ET form from late endosomal/lysosomal compartments and form along microtubules.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Tubulated endosomes induced by SseJ and SifA co-localize with LAMP1 and require microtubules and SKIP for formation
+      </strong>
+      <p>
+       (A) HeLa cells expressing myc-SseJ and HA-SifA were stained with anti-LAMP1 (green) and anti-myc (red) antibodies. ET co-localize with LAMP1 (arrow). Scale bar, 10 µm.
+      </p>
+      <p>
+       (B) HeLa cells co-expressing SseJ and SifA were treated with cytochalasin D or nocodazole, and the percent co-transfected cells with ET ± SEM is shown.
+      </p>
+      <p>
+       (C) HeLa cells expressing HA-SseJ, GFP-SifA (green), and myc-SKIP, were stained with anti-HA (red) and anti-myc (blue) antibodies. SKIP, SifA, and SseJ co-localize at the cell periphery (arrow).
+      </p>
+      <p>
+       (D) An inset of a large HeLa cell expressing the same plasmids as in (C) and stained with anti-HA (blue) and anti-myc (red) antibodies shows an area of ET with SKIP localized to ET (arrow) near the cell edge (white line).
+      </p>
+      <p>
+       (E) Non-targeting control siRNA or SKIP siRNA was co-transfected into HeLa cells with HA-SseJ and GFP-SifA plasmids for 72 h and the percent co-transfected cells expressing ET in the presence of each RNAi ± SEM was determined.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     SKIP is a mammalian protein essential for phagosome tubulation, which binds to SifA and the microtubule motor kinesin (
+     <xref ref-type="bibr">
+      Boucrot et al., 2005
+     </xref>
+     ). In cells co-expressing SseJ, SifA and SKIP, all three proteins co-localized in clusters towards the cell periphery (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). When exogenously expressed, SKIP co-localized more exclusively with SifA than SseJ, and SKIP localized to ET at the cell periphery (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). This likely resulted from its interaction with kinesin, producing outward movement towards the plus-ends of microtubules. The localization of SKIP to ET at the cell edge suggested that SKIP might contribute to ET formation via its interaction with kinesin. In HeLa cells subjected to SKIP siRNA, only 3.0 ± 1.8% of cells co-expressing SseJ and SifA had ET (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ) compared to 11.4 ± 3.5% in cells with non-targeting siRNA. Although a lack of anti-SKIP antibody precluded confirmation of SKIP depletion, these results are consistent with work showing that SKIP siRNA inhibits phagosome tubulation (
+     <xref ref-type="bibr">
+      Boucrot et al., 2005
+     </xref>
+     ), and indicate that SKIP is important for ET. Therefore, our findings strongly support the notion that ET induced by exogenous SifA and SseJ recapitulates the molecular cooperation between SifA and SseJ during
+     <em>
+      S. typhimurium
+     </em>
+     infection. Importantly, it is also evident that ET form through a dual-mechanism that involves the SifA-SKIP interaction and SseJ enzymatic activity.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SseJ and constitutively active RhoA-family GTPases induce endosomal tubulation
+    </title>
+    <p>
+     The presence of the WxxxE motif suggested that SifA may function to mimic a specific GTPase. However, in contrast to the actin cytoskeleton phenotypes observed for other WxxxE effectors (
+     <xref ref-type="bibr">
+      Alto et al., 2006
+     </xref>
+     ), actin staining in cells expressing SifA did not exhibit alterations in lamellipodia, filopodia, or stress fiber formation (data not shown). Interestingly, a yeast-two hybrid screen using a mammalian spleen cDNA library and full-length SseJ as bait identified five independent interacting clones that encoded full length RhoA or RhoC cDNAs, suggesting that SseJ can bind these GTPases (data not shown). Therefore, various epitope-tagged GTPases, including RhoA, RhoB, RhoC, Rac1, Cdc42, and Rab7, were assayed for the ability to induce ET by co-expression with SseJ in HeLa cells. Remarkably, expression of constitutively active RhoA, RhoB and RhoC with SseJ induced ET (
+     <xref ref-type="fig">
+      Figure 3A, 3B, and 3C
+     </xref>
+     ), indicating that SifA could have a parallel activity to these highly similar small GTPases. Despite weaker staining for RhoA due to differing antibody quality, ET induced by RhoA, RhoB and RhoC were virtually identical, and there were no differences between them in regard to co-localization with SseJ. In contrast, no ET was observed when SseJ was co-expressed with Rac1, Cdc42, or Rab7 (
+     <xref ref-type="fig">
+      Figure 3D, 3E, and 3F
+     </xref>
+     ), despite recruitment of Cdc42 to the endosome membrane by SseJ (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). These results suggest that SifA could mimic or activate RhoA, RhoB and/or RhoC. If this were the case, then GTP-bound RhoA should induce more ET than GDP-bound RhoA when co-expressed with SseJ. Indeed, ET was observed in 14.7 ± 1.9% of cells expressing SseJ and constitutively active RhoA, compared with only 3.4 ± 1.4% and 1.3 ± 1.0 % of cells expressing SseJ and wild-type or dominant negative RhoA, respectively (
+     <xref ref-type="fig">
+      Figure 3G
+     </xref>
+     ). Similar to expression of SifA alone, RhoA expression alone did not induce ET (data not shown). Thus, co-expression of SseJ with activated RhoA family GTPases can induce ET in the absence of SifA, probably as a result of recruitment of the activated GTPase to the endosome membrane.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       SseJ induces endosomal tubulation with RhoA, RhoB and RhoC, but not Rac1, Cdc42, or Rab7
+      </strong>
+      <p>
+       HeLa cells co-expressing HA-SseJ and constitutively active (CA) myc-RhoA (A), myc-SseJ and CA HA-RhoB (B), myc-SseJ and CA HA-RhoC (C), HA-SseJ and CA myc-Rac1 (D), myc-SseJ and CA HA-Cdc42 (E), or myc-SseJ and wild type (WT) HA-Rab7 (F), were stained with anti-HA (green) and anti-myc (red). SseJ induced ET (arrows) with RhoA, RhoB, and RhoC, but not with Rac1, Cdc42, or Rab7. Scale bar, 10 µm. (G) The percent co-transfected cells with ET ± SEM in HeLa cells expressing HA-SseJ and wild type (WT) myc-RhoA, dominant negative (DN) myc-RhoA, or constitutively active (CA) myc-RhoA is shown.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     SseJ and RhoA form a protein complex
+    </title>
+    <p>
+     Our observation that SseJ and RhoA family members interact in the Y2H assay and can cooperate to induce ET suggested that they directly bind. To test this, purified His-SseJ was mixed with GST-RhoA or GST control protein and immunoprecipitated with anti- His anti-bodies. His-SseJ co-immunoprecipitated GST-RhoA, but not GST alone (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ) providing further evidence that SseJ binds RhoA. Purified His-SseJ and GST-RhoA were also mixed and analyzed by size exclusion chromatography (SEC). SseJ alone eluted according to its molecular weight and GST-RhoA alone eluted predominantly as a GST-dimer, however, when His-SseJ and GST-RhoA were pre-incubated together, a novel peak corresponding to a molecular weight of 2 His-SseJ for each GST-RhoA dimer appeared (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Immunoblotting confirmed the presence of both proteins in the novel peak (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ), demonstrating that SseJ and RhoA directly bind in the absence of accessory proteins and their native intracellular environments.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       SseJ interacts with RhoA and SifA
+      </strong>
+      <p>
+       (A) Samples containing purified His-SseJ and GST-RhoA or GST control were immunoprecipitated (IP) with anti-His antibodies. Flow-through (FT) and IP samples for each reaction were immunoblotted with anti-His (top) and anti-GST (bottom) antibodies. The faint reactive band above His-SseJ is the immunoglobulin heavy chain.
+      </p>
+      <p>
+       (B) Size exclusion chromatography profiles of His-SseJ alone (red), GST-RhoA alone (green), and His-SseJ plus GST-RhoA (blue), are plotted as elution volume versus UV absorbance. Size standards are shown above the graph and fractions are below the graph. A novel peak corresponding to 2:2 His-SseJ:GST-RhoA is indicated (red arrow).
+      </p>
+      <p>
+       (C) Fractions corresponding to peaks eluted by size exclusion chromatography in (B) were immunoblotted with anti-His (top) and anti-GST (bottom) antibodies.
+      </p>
+      <p>
+       (D) GST-RhoA, GST-SifA and GST bound glutathione beads were incubated with lysate from HeLa cells expressing myc-SseJ, and immunoblotted with anti-myc antibodies (top). Coomassie staining (bottom) shows the GST-protein present in each sample. Additional bands in the GST-SifA lane are degradation fragments.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     SifA interacts indirectly with SseJ
+    </title>
+    <p>
+     If SifA were a structural mimic of RhoA family GTPases then SifA and SseJ might directly interact. Therefore, GST-SifA, GST-RhoA, and GST control protein bound to glutathione beads were incubated with lysate from cells expressing myc-SseJ and analyzed for interaction with SseJ. Immunoblotting revealed that GST-RhoA and GST-SifA specifically precipitated myc-SseJ, suggesting that SseJ interacts with SifA in addition to RhoA (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). However, the interaction of SseJ with SifA appeared to be weaker than with RhoA, and attempts to demonstrate direct binding between SseJ and SifA with purified proteins and the Y2H assay were unsuccessful (data not shown), indicating that other mammalian cofactors may be required for SifA and SseJ to interact. Thus, the interaction between SifA and SseJ appears to be indirect.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The amino-terminal domain of SifA interacts with SKIP
+    </title>
+    <p>
+     To provide further insight into the protein-protein interaction network required for ET, the interaction of SKIP with SifA was analyzed. Previously, the PH domain (PHD) of SKIP was shown to be necessary and sufficient to bind SifA
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      Boucrot et al., 2005
+     </xref>
+     ). To identify the PHD-interacting regions in SifA, His-tagged fragments of SifA were purified and tested for binding to SKIP. SifA residues 1–330 (lacking the CaaX motif) bound to SKIP PHD (residues 774–883), but a C-terminal fragment, residues 101–330 containing the WxxxE motif, did not interact (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ), indicating the N-terminus of SifA binds to SKIP. To further validate the interaction, GST-PHD and His-SifA (1–330) were co-expressed in
+     <em>
+      E. coli
+     </em>
+     and purified to homogeneity. These proteins formed a stable complex that could be purified by SEC (data not shown), and exhibited a dissociation constant of 2.58 µM as measured by isothermal titration calorimetry (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). These results demonstrate that the amino-terminal domain of SifA mediates the interaction with SKIP.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Structure of SifA complexed with the PH domain of SKIP
+      </strong>
+      <p>
+       (A) His-tagged SifA, residues 1–330 or 101–330, were immobilized on Ni+ resin, incubated with the PH domain (PHD) of SKIP (774–883), washed, resolved by SDS-PAGE and stained with coomassie blue.
+      </p>
+      <p>
+       (B) A binding constant of 2.58 µM between SifA (1–330) and PHD (774–883) was determined by isothermal titration calorimetry.
+      </p>
+      <p>
+       (C) Overall structure of the SifA-PHD complex shown in cartoon representation. SifA and PHD are colored in periwinkle/yellow and blue/pink, respectively. Secondary structural elements are labeled and the interface between SifA and PHD is outlined in red. Structure representations were made using PyMol.
+      </p>
+      <p>
+       (D) A close-up of the side chains in SifA (black labels) and PHD (pink labels) at the interface highlighted in red in (B) is shown in stick representation. Hydrogen bonds are shown (dashed lines).
+      </p>
+      <p>
+       (E) Wild type or point mutant His-SifA immobilized on Ni+ resin was incubated with wild type or point mutant PHD protein, washed, resolved by SDS-PAGE, and stained with coomassie blue.
+      </p>
+      <p>
+       (F) The percent co-transfected cells exhibiting ET ± SEM in HeLa cells co-expressing HA-SseJ and GFP-SifA or L127I-M131D-GFP-SifA is shown.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Specific recognition of SKIP by the amino-terminus of SifA
+    </title>
+    <p>
+     To gain a greater understanding of the SifA-PHD interaction, the SifA-PHD protein complex isolated by SEC was crystallized and the structure solved using selenium Multiple-wavelength Anomalous Diffraction (MAD). The final atomic model was refined to the resolution 2.6 Å with crystallographic working and free factors 25.8% and 28.8%, respectively (
+     <a>
+      Table S1
+     </a>
+     ). One SifA-PHD complex is present in each asymmetric unit and their interaction results in a 1:1 stoichiometric complex, with a total burial of 1020 Å
+     <sup>
+      2
+     </sup>
+     surface area (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). SKIP PHD exhibits a typical PH domain fold, with 7 strands forming a barrel-like structure blocked by an α-helix at one end, while SifA consists of two separately folded domains. The N-terminal PHD-interacting domain of SifA contains a five-stranded β-sheet flanked by three helices, and the C-terminal WxxxE-containing domain contains two three-helix bundles that form a V-shaped structure. The interaction between the N- and C-terminal domains of SifA is mediated by a C-terminal anti-parallel β-sheet that packs against one of the two N-terminal three-helix bundles.
+    </p>
+    <p>
+     Consistent with our previous results, the SifA-SKIP interaction is exclusively mediated by the N-terminus of SifA (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). Specific recognition of SifA by PHD is achieved through a large network of hydrogen bonds and van der Waals contacts. Specifically, four pairs of main chain hydrogen bonds form an anti-parallel β-sheet between SifA and PHD, dominating their interaction (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). Mutational analyses confirm the importance of hydrogen-bonding residues L130 and M131 in SifA, and R831, C870, G829, and R832 in PHD, as purified SifA or PHD with these mutations exhibits abolished or reduced binding to wild type PHD or SifA in vitro, respectively (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ). In addition, ET formation was reduced when a SKIP-binding mutant, L127I-M131D-SifA, was co-expressed with SseJ (
+     <xref ref-type="fig">
+      Figure 5F
+     </xref>
+     ), supporting our previous conclusion that SifA-SKIP binding is important for ET.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The C-terminus of SifA is similar to the guanine nucleotide exchange factor SopE
+    </title>
+    <p>
+     A database search using DALI was performed to determine whether SifA had similarity to known structures of GTPases, but none shared structural homology with SifA. However, this analysis revealed that the
+     <em>
+      Salmonella
+     </em>
+     SPI1 TTSS effector SopE, which activates the host GTPases Rac1, Cdc42, and RhoG by guanine-nucleotide exchange factor (GEF) activity (
+     <xref ref-type="bibr">
+      Hardt et al., 1998
+     </xref>
+     ), was the closest structural homologue of the SifA C-terminus, with a root-mean-square-deviation (RMSD) of 3.8 Å over 106 α-carbon atoms. This structural comparison indicates that SifA may be a member of the GEF family of proteins. Superposition of the SifA-PHD and SopE-Cdc42 (
+     <xref ref-type="bibr">
+      Buchwald et al., 2002
+     </xref>
+     ) complexes (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ) demonstrated that the potential GTPase-binding site of SifA is located far from SKIP and is available for binding other protein(s). Interestingly, some of the Cdc42-interacting residues of SopE are conserved in SifA (
+     <xref ref-type="fig">
+      figure 6B
+     </xref>
+     ). The residues in the catalytic loop of SopE that interact with the two switch loops of Cdc42 are also similar to those in the corresponding loop of SifA in that they are all hydrophobic. Binding of Cdc42 to SopE may contribute to the comparatively large conformational difference between SopE and SifA around the region of the catalytic loop. To further support the idea that SifA exhibits a GEF-like conformation, SifA was found to specifically precipitate the GDP-bound form of RhoA, but not GTP-bound RhoA (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ), indicating that like GEFs, SifA preferentially interacts with GDP-bound GTPases. However, no GEF activity was specifically detected with purified SifA alone (data not shown), indicating that other unidentified bacterial or host factors may be required.
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       SifA contains a C-terminal fold similar to SopE and interacts with GDP-RhoA
+      </strong>
+      <p>
+       (A) Overlay of SifA-PHD and SopE-Cdc42 (pink-gold, pdb entry:1GZS) complexes is shown from two angles. The interface of SopE-Cdc42 and overlay with SifA is outlined in red.
+      </p>
+      <p>
+       (B) A close-up of the residues in the catalytic loop of SopE (pink, red labels) and the corresponding loop and residues in SifA (white, blue labels), outlined in red in (A). The two switch loops of Cdc42 that contact SopE are also shown (green).
+      </p>
+      <p>
+       (C) GST-SifA or GST control protein bound to glutathione beads was incubated with HeLa cell lysate expressing wild type (WT), dominant-negative (DN), or constitutively active (CA) myc-RhoA, and immunoblotted using anti-myc (top) antibodies. Coomassie staining shows the GST-proteins in each sample (bottom).
+      </p>
+      <p>
+       (D) The WxxxE motif stabilizes the α-helix following the loop that is similar to the catalytic loop of SopE shown in (B). E201 in the motif makes a hydrogen bond with I258 (dotted line), while W197 makes hydrophobic contacts with the side chains of several neighboring residues (stick representations), and is completely solvent-inaccessible.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The WxxxE motif is conserved among the family of bacterial TTSS effectors with GTPase mimicry activity, and is required for their function. Our structure reveals that the WxxxE motif of SifA is located on α-helix 6, around the junction region of the two three-helix bundles in the C-terminus. W197 in the WxxxE motif plays an important role in maintaining the local structural integrity by making extensive hydrophobic contacts with M261, the α-carbon atom of P257, and I258 (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). Due to these interactions, W197 is completely buried and solvent-inaccessible. Additionally, E201 in the WxxxE motif further stabilizes α-helix 8 by interacting with I258 through a hydrogen bond and hydrophobic contact (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). Thus, in SifA this motif likely plays an important role in maintaining a proper conformation of the loop preceding α-helix 8, which is the counterpart of the catalytic loop in SopE. Therefore, it is plausible that mutations in the WxxxE motif alter the surface conformation of residues important for protein binding, and this may be the mechanism by which WxxxE-motif mutations reduce activity of SifA and other family members. Together, our results suggest that SifA and SseJ cooperate through interactions with SKIP and RhoA family GTPases to induce ET, and other unidentified mammalian proteins likely participate in this process (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ).
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       A model of the contribution of SifA, RhoA, SseJ, and SKIP to endosomal tubulation
+      </strong>
+      <p>
+       SifA (light blue) localizes to the membrane via its lipid modification where its N-terminus binds SKIP (blue), a protein that also binds kinesin (orange). SseJ (green) may alter membrane phospholipids (grey rectangles) via its enzymatic activity (starburst). Lipidated RhoA (or RhoB/C) (red), may be recruited to the membrane in the GDP-bound state (square) by binding to SifA, or may be recruited by binding to SseJ. GTPase effector proteins (purple) would interact with RhoA in the activated GTP-bound form (star), either as a result of selective recruitment or via SifA’s putative GEF activity. In addition, other unidentified proteins may participate (triangle). The cooperation of SseJ/RhoA/SifA/SKIP protein complexes at regions of SseJ-induced membrane alteration likely induces membrane tubulation via movement along microtubules (grey).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    Since the original observation that
+    <em>
+     S. typhimurium
+    </em>
+    induces phagosome tubulation, elucidation of the contributing factors and their molecular mechanisms has been occult. Here, we show that two SPI2 effector proteins, SseJ and SifA, cooperatively induce endosomal membrane tubulation (ET), which, like
+    <em>
+     Salmonella
+    </em>
+    -induced phagosome tubulation, required microtubules and SKIP. Furthermore, SseJ was found to bind RhoA and to induce ET with the GTP-bound form. The structure of the SifA-SKIP PHD complex demonstrated that the N-terminus of SifA binds SKIP, while the C-terminus folds similar to the SPI1 GEF SopE. In addition, SifA was shown to interact with the GDP-bound form of RhoA, as would be expected for a GEF. These results suggest that both SseJ and SifA interact in a protein complex with SKIP and RhoA family GTPases as a mechanism to promote phagosome tubulation.
+   </p>
+   <p>
+    Our observation that expression of SseJ and SifA recapitulated phagosome tubulation was surprising since previous reports suggested that SseJ is not required for phagosome tubulation (
+    <xref ref-type="bibr">
+     Birmingham et al., 2005
+    </xref>
+    ) and that SifA expressed alone, or with the SPI2 effector SopD2, induces LAMP1-positive filamentous structures (
+    <xref ref-type="bibr">
+     Brumell et al., 2001a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jiang et al., 2004
+    </xref>
+    ). However, we only rarely observed ET on expression of SifA alone or with SopD2, using a variety of different cell lines (data not shown). These differences could reflect experimental techniques since others have measured SifA-induced phenotypes using LAMP1 staining. Assaying specifically for SseJ-localized compartments revealed an increase in SifA-induced ET, indicating that even if SifA alone can induce ET at low frequency, the activity is increased in the presence of SseJ. In the absence of SseJ, other
+    <em>
+     S. typhimurium
+    </em>
+    effectors with redundant membrane altering activities likely contribute to phagosome tubulation in vivo. A redundant-effector scenario is not without precedent as effectors in other TTSS, including those encoded on SPI1 required for
+    <em>
+     S. typhimurium
+    </em>
+    invasion, have been demonstrated to have overlapping and/or redundant functions (
+    <xref ref-type="bibr">
+     Staskawicz et al., 2001
+    </xref>
+    ). For example, deletion of at least three SPI1 effectors, including the GEF SopE, is required for strains to exhibit reduced bacterial invasion and ruffling phenotypes (
+    <xref ref-type="bibr">
+     Zhou et al., 2001
+    </xref>
+    ), while exogenous expression of a single effector in mammalian cells will produce membrane ruffling.
+   </p>
+   <p>
+    Previous work on WxxxE-containing bacterial effector proteins indicated that they mimicked the activities of different Rho GTPases (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). Expression of Map, IpgB1, and IpgB2, produced the classic GTPase-specific actin cytoskeleton effects of filopodia, lamellipodia, and stress fibers, respectively, which allowed characterization of their activities. Although SifA-expressing cells did not exhibit the actin cytoskeleton phenotype of any activated GTPase, including the stress fibers characteristic of RhoA, our work provides evidence that a property of SifA is to stimulate RhoA-family GTPase signaling pathways on the phagosome membrane, as constitutively active RhoA, RhoB, and RhoC were able to substitute for SifA in cooperating with SseJ to induce ET. Moreover, the SifA structure revealed that SifA contains a C-terminal domain that resembles the GEF SopE. This structural observation is consistent with the result that SifA can interact with the GDP-bound form of RhoA, as would be expected for a GEF. Though preliminary attempts to detect SifA GEF activity for RhoA were unsuccessful (data not shown) it is plausible that additional proteins could be essential for SifA GEF activity or that RhoA may not be the SifA substrate. The native substrate of SifA could be RhoB or RhoC, since they are also competent to induce ET with SseJ, and like mammalian GEFs, SifA could be GTPase specific. RhoB is an attractive candidate for the specific activity of SifA since it localizes to trafficking vesicles in mammalian cells (
+    <xref ref-type="bibr">
+     Adamson et al., 1992
+    </xref>
+    ). We attempted to identify which GTPase participates in ET by screening for reduced ET in the presence of siRNA targeting each RhoA family GTPase, and found that ET was reduced when RhoABC or RhoC alone were depleted (data not shown). However, since these proteins are important for cell cycle and their depletion can result in major alterations to the cytoskeleton, this method could have indirect effects that may not directly relate to mechanisms of ET induction.
+   </p>
+   <p>
+    Interestingly, SifA contains a stretch of residues (243–257) that is unique among WxxxE effectors (
+    <xref ref-type="bibr">
+     Alto et al., 2006
+    </xref>
+    ). In the structure of SifA, this region appears to be stabilized by W197 of the WxxxE motif, and is analogous to the catalytic loop of SopE that interacts with Cdc42 (
+    <xref ref-type="bibr">
+     Buchwald et al., 2002
+    </xref>
+    ), suggesting that the same region of SifA may also be involved in interactions with RhoA family GTPases. Consistent with this idea, mutating W197 and E201 reduced the ET-inducing activity of SifA (
+    <xref ref-type="fig">
+     Figure 1F
+    </xref>
+    ). Therefore, though it is unknown whether SifA functions to bind or activate GTPases, we tentatively conclude that rather than functioning independently of small GTPases, as originally postulated for the WxxxE family, SifA interacts with GDP-bound RhoA family GTPases as a mechanism to manipulate host cell processes. In addition, it is possible that SifA binds and/or activates RhoA as a mechanism to modulate the activity of SseJ, since it also binds RhoA.
+   </p>
+   <p>
+    Importantly, this study also demonstrated the structural basis of the interaction of SifA with the kinesin-binding protein SKIP and provided additional evidence that the SifA-SKIP complex is essential to ET. The crystal structure of the PH domain of SKIP with SifA provided fine detail of the interaction between SKIP and the amino-terminal domain of SifA, and mutants generated based on the interface provided additional evidence that the interaction of SKIP with SifA is essential to ET. Thus, SKIP likely facilitates ET by linking SifA protein complexes to the microtubule network.
+   </p>
+   <p>
+    Our results indicate that at least four proteins are required to induce ET. This leads to a working model for the mechanism of membrane tubulation, as depicted in
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    . Lipidated SifA localizes to the membrane and binds SKIP via its N-terminus, which could serve to link SifA and the membrane to the microtubule network by binding to kinesin. Moreover, this interaction could also provide the direction and stability for membrane tubulation. SifA could also bind membrane associated GDP-bound RhoA (or RhoB or RhoC) via its C-terminus, and possibly activate it through GEF activity. Since SseJ also interacts with RhoA, RhoA may link SseJ and SifA on the membrane, and possibly other mammalian binding partners interact with the SKIP/SifA/RhoA/SseJ complex through additional direct protein-protein interactions. Each of the proteins in the complex appears to be required for membrane tubulation to occur, and its possible that their interaction influences the specific activity of each other.
+   </p>
+   <p>
+    Precedent for the analysis of membrane tubulation has been established by analyzing cultured cells treated with Brefeldin A (BFA), which causes tubulation of Golgi membranes (
+    <xref ref-type="bibr">
+     Lippincott-Schwartz et al., 1991
+    </xref>
+    ). BFA inactivates the secretory GTPase Arf, causing Golgi compartments to elongate and fuse with the ER, creating tubular structures (
+    <xref ref-type="bibr">
+     Nebenfuhr et al., 2002
+    </xref>
+    ). Interestingly, BFA-tubulation is blocked when cytoplasmic phospholipases are inhibited (
+    <xref ref-type="bibr">
+     de Figueiredo et al., 2001
+    </xref>
+    ), suggesting that phospholipases are required for BFA-tubulation, and this may be similar to the requirement of SseJ activity for ET. Additional proteins may also participate in ET, such as BAR domain-containing proteins, which induce membrane tubulation in vitro by sensing and maintaining membrane curvature (
+    <xref ref-type="bibr">
+     McMahon and Gallop, 2005
+    </xref>
+    ). Regardless of the specific mechanism, our work indicates that SifA and SseJ recruit protein complexes that link GTPase activity and membrane alteration with movement along microtubules. This is consistent with live videomicroscopy of
+    <em>
+     S. typhimurium
+    </em>
+    infected HeLa cells, which indicates that LAMP1-positive phagosome tubules demonstrate dynamic and directional motility (
+    <a>
+     http://faculty.washington.edu/merza/sifdynamics/
+    </a>
+    , courtesy of Alex Merz and Maggie So).
+   </p>
+   <p>
+    One of the most fascinating, yet perplexing, questions regarding
+    <em>
+     S. typhimurium
+    </em>
+    pathogenesis is what is the function of phagosome tubulation with respect to intracellular replication and virulence in animals? Perhaps directional phagosome movement in infected cells is necessary for nutrient acquisition. Or, the bacteria could be attempting to move in a directional manner, such as through polarized epithelia, to the plasma membrane, or to accomplish cell-to-cell spread. Tubular endo/lysosomal structures containing MHC class II antigen have been shown to form in dendritic cells in response to exposure to bacterial LPS and capsule (
+    <xref ref-type="bibr">
+     Stephen et al., 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vyas et al., 2007
+    </xref>
+    ), suggesting that ET may be a host mechanism for movement of bacterial products that has been co-opted by salmonellae. The relevance of dendritic cell membrane tubulation to MHC presentation remains to be established, however it is interesting to note that
+    <em>
+     S. typhimurium
+    </em>
+    inhibits MHC class II presentation in a SifA-dependent manner (
+    <xref ref-type="bibr">
+     Mitchell et al., 2004
+    </xref>
+    ). Although the exact function of phagosome tubulation is currently undefined, the discovery reported here that SifA and SseJ can interact with host GTPases and promote manipulation of host membranes should allow such questions to be better addressed, and should provide a bounty of information about bacterial mechanisms that promote intracellular replication and mammalian proteins involved in vesicular traffic.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <title>
+     Bacterial strains and mammalian cultured cells
+    </title>
+    <p>
+     A complete description of plasmids, strains, and oligonucleotides used in this study is provided in
+     <a>
+      Supplemental Data and Table S2
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Transfection of plasmids and RNAi
+    </title>
+    <p>
+     Plasmids were purified using Endo-free Maxi kits (Qiagen) and transfected using FuGENE6 (Roche) according to manufacturers instructions for 24 h. Non-targeting control and anti-SKIP siRNA oligonucleotides (Dharmacon) were co-transfected with DNA plasmids using FuGENE6 for 72 h.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Indirect immunofluorescence and deconvolution microscopy
+    </title>
+    <p>
+     Infected or transfected cells were processed as described in (
+     <xref ref-type="bibr">
+      Ohlson et al., 2005
+     </xref>
+     ). All antibodies were incubated at 1:200 for 1 h in blocking buffer (phosphate buffered saline with 5% bovine serum albumin, 5mM EDTA, 0.2% saponin, and 5% donkey serum) unless indicated, including the following; mouse anti-LAMP1 (1:100), mouse anti-HA, mouse anti-myc, rabbit anti-myc, rabbit anti-LPS (Difco); tetramethyl rhodamine isothiocyanate (TRITC)- and fluorescein isothiocyanate (FITC)-conjugated donkey anti-mouse; and TRITC-, FITC- and Cy5-conjugated donkey anti-rabbit (Jackson). Mouse anti-LAMP1 (H4A3) developed by J. Thomas August and James E. K. Hildreth was obtained from the Developmental Studies Hybridoma Bank, developed by the NICHD and maintained by the U. of Iowa, Biological Sciences Dept., Iowa City, IA 52242. Microscopy images were collected with a DeltaVision restoration microscopy system (Applied Precision) using an Olympus 60X PlanApo NA 1.4 objective with green (ex 490/20, em 528/38), red (ex 555/28, em 617/73), and far-red (ex 640/20, em 685/40) filters. Images were captured with a Photometrics CH350 CCD camera (Roper Scientific), deconvolved using SoftWorx software (Applied Precision), converted to 16 bit color files, and cropped in Photoshop (Adobe).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Phagosome tubulation and endosomal tubulation quantitation
+    </title>
+    <p>
+     <em>
+      S. typhimurium
+     </em>
+     infection of HeLa cells was performed as described previously (
+     <xref ref-type="bibr">
+      Ohlson et al., 2005
+     </xref>
+     ). Infected cells were stained with anti-LPS and anti-LAMP1 antibodies and scored for phagosome tubulation by counting 120 infected cells each on three separate coverslips in at least three experiments, and the percent infected cells with tubulated phagosomes was calculated ± SEM. To quantify endosomal tubulation (ET), co-transfected cells stained for the SseJ-tag were scored for ET by counting 120 co-transfected cells each on two separate coverslips in at least three separate experiments, and the percent cells with ET was determined ± SEM.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     GST precipitation
+    </title>
+    <p>
+     Fifty mL cultures containing GST-RhoA or GST-SifA expression plasmids were grown at 37°, induced with 1mM IPTG for 3 h, resuspended in 2 ml PBS/DTT buffer [phosphate buffered saline (PBS) with 5 mM dithiothreitol (DTT) and complete EDTA-free protease inhibitor tablets (Roche)], sonicated on ice 6 times for 30 s to lyse, and clarified by centrifugation at 14K for 30 min at 4°. GST-protein lysate or 100 µg GST control was incubated with 100 µl glutathione agarose beads for 1 h at 4° and washed 3 times with PBS/DTT buffer. The lysate from 10 cm dishes with 1×10
+     <sup>
+      6
+     </sup>
+     HeLa cells transfected with myc-SseJ or myc-RhoA, lysed in 500 µl NP-40 buffer [50 mM Tris pH 8, 150 mM NaCl, 5 mM EDTA, 1% NP-40, protease inhibitor tablets (Roche)], clarified by centrifugation at 14K for 20 min at 4°, were incubated with the GST-protein bound glutathione beads overnight at 4° with rotation. The beads were washed three times with 1mL NP-40 buffer, and resuspended in 40 µl sample buffer. Lysate and glutathione bead samples were by resolved by SDS-PAGE and stained with coomassie or immunoblotted with mouse anti-myc antibodies.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Co-immunoprecipitation
+    </title>
+    <p>
+     Purified His-SseJ was made as described previously (
+     <xref ref-type="bibr">
+      Ohlson et al., 2005
+     </xref>
+     ). GST-RhoA (cytoskeleton) and GST protein used for co-immunoprecipitation and SEC were purchased. Five µg His-SseJ was mixed with 5 µg GST-RhoA or 5 µg GST protein in 200 µl PBS and incubated with 20 µl protein G agarose beads plus 0.5 µg mouse anti-His antibody (Qiagen) at 4° with rotation. After 4 h the beads were pelleted, washed 5 times with PBS and resuspended in 40 µl sample buffer. Samples were immunoblotted using anti-His and anti-GST antibodies (Amersham).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Size exclusion chromatograpy
+    </title>
+    <p>
+     Equal molar His-SseJ and GST-RhoA were mixed in 200 µl PBS at 4° for 1 h. Samples containing His-SseJ alone, GST-RhoA alone, or pre-mixed His-SseJ and GST-RhoA were injected into a 24 ml bed volume sephadex-200 column interfaced to an Acta FPLC (Amersham) and 1ml elution fractions were collected. Fractions were immunoblotted using anti-His (Qiagen) and anti-GST (Amersham) antibodies.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structure determination
+    </title>
+    <p>
+     A description of the protein purification, crystallization, data collection, and structure refinement methods are provided in
+     <a>
+      Supplemental Data and Table S1
+     </a>
+     . Coordinates deposited in the Protein Data Bank were assigned accession number 3CXB.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SifA-PHD interaction assay
+    </title>
+    <p>
+     200 µg of purified wild type, truncated, or point mutant His-SifA bound to Ni+ resin was incubated with an excess of wild type or point mutant GST-PHD at room temperature for 1 h. After washing with 25 mM Tris (pH 8.0) and 100 mM NaCl buffer, bound proteins were visualized by coomassie staining.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal Titration Calorimetry
+    </title>
+    <p>
+     0.1mM PHD was titrated against 9 uM SifA in a buffer containing 25mM HEPES pH 8.0 and 150mM NaCl at 25°C, using a VP-ITC microcalorimeter (MicroCal), and was analyzed using ORIGIN software (Microcal Software, Northampton, MA).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (756K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGMENTS
+   </title>
+   <sec>
+    <p>
+     We would like to thank Miller lab members Lisette Coye for the GFP-SifB plasmid and Richard Pfeutzner for SEC assistance. We thank Alex Merz (U. of Washington) and Maggie So (U. of Arizona) for graciously sharing and providing a link to their movie. We also thank the W. M. Keck Center for Advanced Studies in Neural Signaling for use of their Delta Vision microscope, and we express gratitude to J.H. Brumell (U. of Toronto) and S. Meresse (CNRS-INSERM-Université de la Méditerranée) for sending plasmids. This work was supported by the Comprehensive Training in Inter-Disciplinary Oral Health Research T32 grant DE07132 (M.B.O.), the Chinese Ministry of Science and Technology (J.C.), and by the NIH/NIAID grants R01 AI048683 and U54 AI057141 for the Northwest Regional Center of Excellence for Biodefense and Emerging Infectious Diseases Research (S.I.M.).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <ul>
+     <li>
+      <span>
+       Adamson P, Paterson HF, Hall A. Intracellular localization of the P21rho proteins.
+       <span>
+        <span>
+         J Cell Biol.
+        </span>
+        1992;
+        <span>
+         119
+        </span>
+        :617–627.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Alto NM, Shao F, Lazar CS, Brost RL, Chua G, Mattoo S, McMahon SA, Ghosh P, Hughes TR, Boone C, et al.  Identification of a bacterial type III effector family with G protein mimicry functions.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2006;
+        <span>
+         124
+        </span>
+        :133–145.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Beuzon CR, Meresse S, Unsworth KE, Ruiz-Albert J, Garvis S, Waterman SR, Ryder TA, Boucrot E, Holden DW. Salmonella maintains the integrity of its intracellular vacuole through the action of SifA.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        2000;
+        <span>
+         19
+        </span>
+        :3235–3249.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Birmingham CL, Jiang X, Ohlson MB, Miller SI, Brumell JH. Salmonella-induced filament formation is a dynamic phenotype induced by rapidly replicating Salmonella enterica serovar typhimurium in epithelial cells.
+       <span>
+        <span>
+         Infect Immun.
+        </span>
+        2005;
+        <span>
+         73
+        </span>
+        :1204–1208.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Boucrot E, Henry T, Borg JP, Gorvel JP, Meresse S. The intracellular fate of Salmonella depends on the recruitment of kinesin.
+       <span>
+        <span>
+         Science.
+        </span>
+        2005;
+        <span>
+         308
+        </span>
+        :1174–1178.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Brumell JH, Goosney DL, Finlay BB. SifA, a type III secreted effector of Salmonella typhimurium, directs Salmonella-induced filament (Sif) formation along microtubules.
+       <span>
+        <span>
+         Traffic.
+        </span>
+        2002;
+        <span>
+         3
+        </span>
+        :407–415.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Brumell JH, Rosenberger CM, Gotto GT, Marcus SL, Finlay BB. SifA permits survival and replication of Salmonella typhimurium in murine macrophages.
+       <span>
+        <span>
+         Cell Microbiol.
+        </span>
+        2001a;
+        <span>
+         3
+        </span>
+        :75–84.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Brumell JH, Tang P, Mills SD, Finlay BB. Characterization of Salmonella-induced filaments (Sifs) reveals a delayed interaction between Salmonella-containing vacuoles and late endocytic compartments.
+       <span>
+        <span>
+         Traffic.
+        </span>
+        2001b;
+        <span>
+         2
+        </span>
+        :643–653.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Buchwald G, Friebel A, Galan JE, Hardt WD, Wittinghofer A, Scheffzek K. Structural basis for the reversible activation of a Rho protein by the bacterial toxin SopE.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        2002;
+        <span>
+         21
+        </span>
+        :3286–3295.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       de Figueiredo P, Doody A, Polizotto RS, Drecktrah D, Wood S, Banta M, Strang MS, Brown WJ. Inhibition of transferrin recycling and endosome tubulation by phospholipase A2 antagonists.
+       <span>
+        <span>
+         J Biol Chem.
+        </span>
+        2001;
+        <span>
+         276
+        </span>
+        :47361–47370.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Freeman JA, Ohl ME, Miller SI. The Salmonella enterica serovar typhimurium translocated effectors SseJ and SifB are targeted to the Salmonella-containing vacuole.
+       <span>
+        <span>
+         Infect Immun.
+        </span>
+        2003;
+        <span>
+         71
+        </span>
+        :418–427.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Garcia-del Portillo F, Zwick MB, Leung KY, Finlay BB. Salmonella induces the formation of filamentous structures containing lysosomal membrane glycoproteins in epithelial cells.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        1993;
+        <span>
+         90
+        </span>
+        :10544–10548.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Guy RL, Gonias LA, Stein MA. Aggregation of host endosomes by Salmonella requires SPI2 translocation of SseFG and involves SpvR and the fms-aroE intragenic region.
+       <span>
+        <span>
+         Mol Microbiol.
+        </span>
+        2000;
+        <span>
+         37
+        </span>
+        :1417–1435.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Handa Y, Suzuki M, Ohya K, Iwai H, Ishijima N, Koleske AJ, Fukui Y, Sasakawa C. Shigella IpgB1 promotes bacterial entry through the ELMO-Dock180 machinery.
+       <span>
+        <span>
+         Nat Cell Biol.
+        </span>
+        2007;
+        <span>
+         9
+        </span>
+        :121–128.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Haraga A, Ohlson MB, Miller SI. Salmonellae interplay with host cells.
+       <span>
+        <span>
+         Nat Rev Microbiol.
+        </span>
+        2008;
+        <span>
+         6
+        </span>
+        :53–66.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hardt WD, Chen LM, Schuebel KE, Bustelo XR, Galan JE. S. typhimurium encodes an activator of Rho GTPases that induces membrane ruffling and nuclear responses in host cells.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1998;
+        <span>
+         93
+        </span>
+        :815–826.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Jiang X, Rossanese OW, Brown NF, Kujat-Choy S, Galan JE, Finlay BB, Brumell JH. The related effector proteins SopD and SopD2 from Salmonella enterica serovar Typhimurium contribute to virulence during systemic infection of mice.
+       <span>
+        <span>
+         Mol Microbiol.
+        </span>
+        2004;
+        <span>
+         54
+        </span>
+        :1186–1198.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Knodler LA, Steele-Mortimer O. The Salmonella effector PipB2 affects late endosome/lysosome distribution to mediate Sif extension.
+       <span>
+        <span>
+         Mol Biol Cell.
+        </span>
+        2005;
+        <span>
+         16
+        </span>
+        :4108–4123.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Lippincott-Schwartz J, Yuan L, Tipper C, Amherdt M, Orci L, Klausner RD. Brefeldin A's effects on endosomes, lysosomes, and the TGN suggest a general mechanism for regulating organelle structure and membrane traffic.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1991;
+        <span>
+         67
+        </span>
+        :601–616.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       McMahon HT, Gallop JL. Membrane curvature and mechanisms of dynamic cell membrane remodelling.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2005;
+        <span>
+         438
+        </span>
+        :590–596.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mitchell EK, Mastroeni P, Kelly AP, Trowsdale J. Inhibition of cell surface MHC class II expression by Salmonella.
+       <span>
+        <span>
+         Eur J Immunol.
+        </span>
+        2004;
+        <span>
+         34
+        </span>
+        :2559–2567.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Nawabi P, Catron DM, Haldar K. Esterification of cholesterol by a type III secretion effector during intracellular Salmonella infection.
+       <span>
+        <span>
+         Mol Microbiol.
+        </span>
+        2008;
+        <span>
+         68
+        </span>
+        :173–185.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Nebenfuhr A, Ritzenthaler C, Robinson DG. Brefeldin A: deciphering an enigmatic inhibitor of secretion.
+       <span>
+        <span>
+         Plant Physiol.
+        </span>
+        2002;
+        <span>
+         130
+        </span>
+        :1102–1108.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ohlson MB, Fluhr K, Birmingham CL, Brumell JH, Miller SI. SseJ deacylase activity by Salmonella enterica serovar Typhimurium promotes virulence in mice.
+       <span>
+        <span>
+         Infect Immun.
+        </span>
+        2005;
+        <span>
+         73
+        </span>
+        :6249–6259.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Patel JC, Galan JE. Differential activation and function of Rho GTPases during Salmonella-host cell interactions.
+       <span>
+        <span>
+         J Cell Biol.
+        </span>
+        2006;
+        <span>
+         175
+        </span>
+        :453–463.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Prehna G, Ivanov MI, Bliska JB, Stebbins CE. Yersinia virulence depends on mimicry of host Rho-family nucleotide dissociation inhibitors.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2006;
+        <span>
+         126
+        </span>
+        :869–880.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Reinicke AT, Hutchinson JL, Magee AI, Mastroeni P, Trowsdale J, Kelly AP. A Salmonella typhimurium effector protein SifA is modified by host cell prenylation and S-acylation machinery.
+       <span>
+        <span>
+         J Biol Chem.
+        </span>
+        2005;
+        <span>
+         280
+        </span>
+        :14620–14627.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ruiz-Albert J, Yu XJ, Beuzon CR, Blakey AN, Galyov EE, Holden DW. Complementary activities of SseJ and SifA regulate dynamics of the Salmonella typhimurium vacuolar membrane.
+       <span>
+        <span>
+         Mol Microbiol.
+        </span>
+        2002;
+        <span>
+         44
+        </span>
+        :645–661.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Staskawicz BJ, Mudgett MB, Dangl JL, Galan JE. Common and contrasting themes of plant and animal diseases.
+       <span>
+        <span>
+         Science.
+        </span>
+        2001;
+        <span>
+         292
+        </span>
+        :2285–2289.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Stein MA, Leung KY, Zwick M, Garcia-del Portillo F, Finlay BB. Identification of a Salmonella virulence gene required for formation of filamentous structures containing lysosomal membrane glycoproteins within epithelial cells.
+       <span>
+        <span>
+         Mol Microbiol.
+        </span>
+        1996;
+        <span>
+         20
+        </span>
+        :151–164.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Stephen TL, Fabri M, Groneck L, Rohn TA, Hafke H, Robinson N, Rietdorf J, Schrama D, Becker JC, Plum G, et al.  Transport of Streptococcus pneumoniae capsular polysaccharide in MHC Class II tubules.
+       <span>
+        <span>
+         PLoS Pathog.
+        </span>
+        2007;
+        <span>
+         3
+        </span>
+        :e32.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Takai Y, Sasaki T, Matozaki T. Small GTP-binding proteins.
+       <span>
+        <span>
+         Physiol Rev.
+        </span>
+        2001;
+        <span>
+         81
+        </span>
+        :153–208.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Vyas JM, Kim YM, Artavanis-Tsakonas K, Love JC, Van der Veen AG, Ploegh HL. Tubulation of class II MHC compartments is microtubule dependent and involves multiple endolysosomal membrane proteins in primary dendritic cells.
+       <span>
+        <span>
+         J Immunol.
+        </span>
+        2007;
+        <span>
+         178
+        </span>
+        :7199–7210.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Zhou D, Chen LM, Hernandez L, Shears SB, Galan JE. A Salmonella inositol polyphosphatase acts in conjunction with other bacterial effectors to promote host cell actin cytoskeleton rearrangements and bacterial internalization.
+       <span>
+        <span>
+         Mol Microbiol.
+        </span>
+        2001;
+        <span>
+         39
+        </span>
+        :248–259.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+    </ul>
+   </sec>
+  </sec>
+ </body>
+</article>

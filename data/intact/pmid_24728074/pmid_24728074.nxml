@@ -1,0 +1,3307 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4083110
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Enhanced Prediction of Src Homology 2 (SH2) Domain Binding Potentials Using a Fluorescence Polarization-derived c-Met, c-Kit, ErbB, and Androgen Receptor Interactome*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Many human diseases are associated with aberrant regulation of phosphoprotein signaling networks. Src homology 2 (SH2) domains represent the major class of protein domains in metazoans that interact with proteins phosphorylated on the amino acid residue tyrosine. Although current SH2 domain prediction algorithms perform well at predicting the sequences of phosphorylated peptides that are likely to result in the highest possible interaction affinity in the context of random peptide library screens, these algorithms do poorly at predicting the interaction potential of SH2 domains with physiologically derived protein sequences. We employed a high throughput interaction assay system to empirically determine the affinity between 93 human SH2 domains and phosphopeptides abstracted from several receptor tyrosine kinases and signaling proteins. The resulting interaction experiments revealed over 1000 novel peptide-protein interactions and provided a glimpse into the common and specific interaction potentials of c-Met, c-Kit, GAB1, and the human androgen receptor. We used these data to build a permutation-based logistic regression classifier that performed considerably better than existing algorithms for predicting the interaction potential of several SH2 domains.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    MATERIALS AND METHODS
+   </title>
+   <p>
+    Reagents were produced and purified for use in automated high throughput fluorescence polarization assay as described previously (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ).
+   </p>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       SH2 and PTB Domain Proteins
+      </title>
+      <p>
+       The cloning of 109 SH2 and 44 PTB domains in the human genome is described previously (
+       <xref ref-type="bibr">
+        15
+       </xref>
+       ). In this study, 93 SH2 and 2 PTB domain-containing constructs (
+       <a>
+        supplemental Fig. S1
+       </a>
+       and
+       <a>
+        supplemental Table S1
+       </a>
+       ) were selected that met each of the following criteria: 1) fraction of monomeric protein observed in a previous study following expression and purification ≥50% by size exclusion chromatography; 2) previous evidence of functionality by PM as evidenced by interaction with one or more phosphopeptides with an apparent midpoint binding constant
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       ≤1 μ
+       <span>
+        m
+       </span>
+       . Where multiple SH2 domains were contained in a single gene, the tandem protein was included in our analysis with all internal amino acid residues linking the domains even if the percentage of monomeric tandem SH2 domains was less than 50%.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Peptide Synthesis and Purification
+      </title>
+      <p>
+       Peptides were synthesized and purified as described previously (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Fluorescence Polarization (FP) Saturation Binding Assay
+      </title>
+      <sec>
+       <p>
+        The FP saturation binding assay was performed as described previously (see
+        <xref ref-type="fig">
+         Fig. 1
+        </xref>
+        <em>
+         A
+        </em>
+        ) (
+        <xref ref-type="bibr">
+         28
+        </xref>
+        ). Experimental values were output as millipolarization units and imported into MATLAB (The MathWorks, Inc., Natick, MA) in which
+        <a>
+         Equation 1
+        </a>
+        was used to determine dissociation constants (
+        <em>
+         K
+         <sub>
+          D
+         </sub>
+        </em>
+        ) for each protein/peptide pairing by least squares linear regression.
+       </p>
+       <sec>
+        <sec>
+         <img/>
+        </sec>
+       </sec>
+      </sec>
+      <fig id="F1" position="float">
+       <label>
+        Fig. 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Recruitment profiles for GAB1, MET, KIT, and AR.
+         </strong>
+         Comprehensive SH2 domain recruitment potential of the adaptor protein GAB1, the MET and KIT receptor tyrosine kinases, and the human AR as determined by high throughput fluorescence polarization.
+         <em>
+          Color-coded heat maps
+         </em>
+         represent
+         <em>
+          K
+          <sub>
+           D
+          </sub>
+         </em>
+         values for FP interactions between SH2 and PTB domains and phosphopeptides representing all potential phosphotyrosine sites for which a peptide could be successfully synthesized.
+         <em>
+          Black boxes
+         </em>
+         indicate interactions that are too weak to be detected by the assay. Sequences of peptides used are indicated for each receptor site, where
+         <em>
+          d
+         </em>
+         denotes the pre-charged Asp residue on the peptide synthesis resin and not a naturally occurring Asp.
+         <em>
+          NS
+         </em>
+         refers to peptides that were unable to be synthesized.
+         <em>
+          NI
+         </em>
+         refers to synthesized peptides that produced no positive hits in the study; therefore, we cannot confirm nor deny interactions at these sites with our assay. Rows of the heat maps for these peptides are
+         <em>
+          grayed out
+         </em>
+         to indicate that our FP assay could neither confirm nor deny positive or negative interactions from these peptides.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Protein and Gene Ontology Enrichment Analyses
+      </title>
+      <p>
+       The total number of phosphotyrosine (Tyr(P)) sites on each receptor or adaptor to which each SH2 domain-containing protein or gene ontology class bound was first determined. We then performed 10,000 permutations of the Tyr(P) sites to build a reference distribution of the null hypothesis of each receptor binding to a given protein or class of proteins at a random number of sites given the number of sites queried. We defined statistically significant enrichment and depletion of binding sites by identifying instances where the observed number of binding sites was unlikely to occur by chance given the number of sites bound across all receptors (
+       <em>
+        p
+       </em>
+       &lt; 0.05).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Establishing Amino Acid Residue Location Importance in Predicting SH2 Domain Recruitment
+      </title>
+      <p>
+       The R package “randomForest” (
+       <xref ref-type="bibr">
+        65
+       </xref>
+       ) was used to implement the random forest algorithm using 10,000 trees per run with two variables randomly sampled at each tree split. We examined the ability for all residue positions to predict binary binding events for each SH2 domain. Variable selection was performed using the “varSelRF” package in R using 10,000 trees for the first forest, 300 trees for all additional forests, and excluding 20% of variables at each iteration.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       PEBL Classifier
+      </title>
+      <p>
+       For each SH2 domain
+       <em>
+        p
+       </em>
+       , we randomly sampled
+       <em>
+        q
+       </em>
+       peptide sequences 100 times from the full set of 178 peptides used in our study, where
+       <em>
+        q
+       </em>
+       was the number of peptides that were determined to bind SH2 domain
+       <em>
+        p
+       </em>
+       by FP. From these permutations, for each amino acid residue at each site, we determined the relative statistical enrichment and depletion of that amino acid residue for each SH2 domain by comparing the observed amino acid frequencies to the permuted amino acid counts. We then log
+       <sub>
+        10
+       </sub>
+       -transformed these
+       <em>
+        p
+       </em>
+       values and inverted the depletion
+       <em>
+        p
+       </em>
+       values (such that −2 corresponds to depletion with
+       <em>
+        p
+       </em>
+       = 0.01) for enrichment heat maps.
+      </p>
+      <p>
+       We then built a PEBL to predict to which SH2 domains a given peptide would bind. For each peptide, we summed the transformed
+       <em>
+        p
+       </em>
+       values for each amino acid residue in the peptide for each SH2 domain (with depleted residues yielding negative values and enriched residues yielding positive values) to derive a prediction score for the likelihood that peptide would interact with an SH2 domain given its sequence. Accuracy, sensitivity, and specificity as a function of the PEBL score cutoff were calculated using the ROCR package in R (
+       <xref ref-type="bibr">
+        72
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Evaluating PEBL on Consensus Motifs and an External Dataset
+      </title>
+      <p>
+       We first assembled a set of 62 consensus motifs from previous literature (
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        60
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        61
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        68
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        69
+       </xref>
+       ). SMALI and PEBL scores were calculated based on the highest scoring SMALI residues at each position relative to phosphotyrosine. We then acquired 1532 SPOT array measurements from 160 peptides from 14 different SH2 domains from Liu
+       <em>
+        et al.
+       </em>
+       (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ). We then calculated SMALI and PEBL scores for each interaction based on the SH2 domain and the peptide queried. To calculate positive predictive values (the proportion of true positives over all positives called by the algorithm), we defined SMALI scores &gt;1.0 and PEBL scores &gt;4.5 as “interactions.”
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <p>
+    We previously assessed the comprehensive SH2 domain recruitment profile for phosphopeptides derived from ErbB1/EGFR, ErbB2, ErbB3, and ErbB4 RTKs using a high throughput fluorescence polarization (FP) interaction analysis assay (
+    <a>
+     supplemental Fig. S1
+    </a>
+    ) (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). This approach has previously been shown to yield a false-positive rate of 18.4% and a false-negative rate of 4% based on validation of a subset of random interactions by surface plasmon resonance (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). We determined that peptides containing 4 residues N-terminal and 8 residues C-terminal to the phosphotyrosine residue generated maximal polarization changes upon SH2 domain binding while retaining maximal binding selectivity. Therefore, we synthesized 13-mer phosphopeptides corresponding to 85 of 89 cytosolic tyrosine sites from the c-Met and c-Kit RTKs, the Gab1 adaptor protein, and the AR protein. We then tested these peptides for interaction with 93 SH2 domains and 2 phosphotyrosine binding (PTB) domains (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    and
+    <a>
+     supplemental Table S1
+    </a>
+    ) using high throughput FP.
+   </p>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       c-MET and Gab1
+      </title>
+      <p>
+       We synthesized phosphopeptides representing 15 of 16 intracellular tyrosine motifs on the oncogenic RTK c-Met and 19 of 20 tyrosines on the downstream adaptor protein GAB1 for interaction analysis via the FP assay (
+       <a>
+        supplemental Table S2
+       </a>
+       ). The set of 15 c-Met phosphopeptides analyzed here represents a 2-fold increase in the number peptides queried for interaction
+       <em>
+        versus
+       </em>
+       previous PM-based interaction studies of c-Met recruitment with SH2 domains and thus offered the potential for novel insight (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ). From 3115 unique queries, we identified 174 peptide-protein interaction pairs with c-Met and 310 interactions with GAB1 (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ).
+      </p>
+      <p>
+       We also compared our assay results to previously published PM data similarly to our prior ErbB study (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ) (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ). c-Met was the only available protein microarray interaction dataset orthogonal to the receptors examined in this study. Of the 176 FP-derived and 116 PM-derived interactions, 54 interactions were detected by both methodologies. As described previously, the FP method can identify a wider range of interaction affinities, whereas PMs are confined to only the strongest interactions (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ). Based on previous estimates of the false-positive rate of PMs to be as high as 59% because of technical artifacts related to surface immobilization of proteins, disulfide bonding of SH2 domains, and incomplete peptide solubility (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ), we conclude that many of the 62 missed interactions originally identified by PMs but missed by FP are likely false positives. Although peptides derived from c-Met Tyr-1313 and Tyr-1365 resulted in the majority of interactions, we detected 122 additional interactions that were either not previously queried or detected by protein microarrays (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ). By contrast to the focused recruitment of SH2 domains to a small number of phosphosites within c-Met, SH2 domains were recruited to many phosphosites within GAB1.
+      </p>
+      <fig id="F2" position="float">
+       <label>
+        Fig. 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          Comparison of recruitment profiles for MET as determined by protein microarrays
+          <em>
+           versus
+          </em>
+          fluorescence polarization.
+         </strong>
+         <em>
+          Color-coded heat maps
+         </em>
+         represent
+         <em>
+          K
+          <sub>
+           D
+          </sub>
+         </em>
+         values for FP interactions between SH2 and PTB domains and phosphopeptides representing all potential phosphotyrosine sites for which a peptide could be successfully synthesized in previously published protein microarray studies as well as this study.
+         <em>
+          Black boxes
+         </em>
+         indicate interactions that are too weak to be detected by the assay. Sequences of peptides used are indicated for each receptor site, where
+         <em>
+          d
+         </em>
+         denotes the pre-charged aspartic acid residue on the peptide synthesis resin and not a naturally occurring Asp.
+         <em>
+          NS
+         </em>
+         refers to peptides that were unable to be synthesized or, in the case of the protein microarray study, not queried at all.
+         <em>
+          NI
+         </em>
+         refers to synthesized peptides that produced no positive hits in the respective studies; therefore, we cannot confirm nor deny interactions at these sites with either assay. Rows of the heat maps for these peptides are
+         <em>
+          grayed out
+         </em>
+         to indicate that the protein microarray assay or our FP assay could neither confirm nor deny positive or negative interactions from these peptides.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       Previous studies have demonstrated that c-Met Tyr(P)-1307/Tyr(P)-1313 can interact with SH2 domains from PIK3R proteins (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ); we observed moderate recruitment of select PIK3R-derived SH2 domains by c-Met Tyr(P)-1307 but strong (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       &lt;1 μ
+       <span>
+        m
+       </span>
+       ) recruitment of most PIK3R-derived SH2 domains at Tyr(P)-1313. The Tyr(P)-1349/Tyr(P)-1356 dual phosphorylation site has been previously shown to be important for recruitment of Grb2. Because we were unable to synthesize the peptide corresponding to Tyr(P)-1356, we were unable to empirically assess its recruitment potential. However, Tyr(P)-1356 contains the sequence pYVN and is therefore predicted based on previous studies and this study to recruit the GRB2 SH2 domain (
+       <xref ref-type="bibr">
+        10
+       </xref>
+       ). We observed that Tyr(P)-1349 was able to recruit primarily SH2 domains from PLCG1 and SH2D1B with moderate affinity. c-Met Tyr(P)-1365 has been shown to be important for full enzymatic activity of the receptor and has been suggested to recruit downstream signaling mediators (
+       <xref ref-type="bibr">
+        40
+       </xref>
+       ). We identified interactions with SH2 domains from several c-Src family kinases, tensin family, PLCG1, RASA1, SH2D1A, and SH2D1B proteins (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ), with this site. Although Tyr(P)-1313 had the ability to recruit most SH2 domains, it notably lacked the ability of Tyr(P)-1295, Tyr(P)-1307, and Tyr(P)-1365 to recruit the Shp2/PTPN11 SH2 domain.
+      </p>
+      <p>
+       GAB1 had six predicted recruitment sites for SH2 domains from CRK and CRKL based on SH2 domain interaction prediction algorithms: Tyr(P)-242, Tyr(P)-259, Tyr(P)-307, Tyr(P)-373, and Tyr(P)-406 (
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        42
+       </xref>
+       ). However, we identified no CRK SH2 domain interactions with these predicted recruitment sites (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). We did observe CRK SH2 domain recruitment with peptides derived from Tyr(P)-24 and Tyr(P)-95 from GAB1. We also observed CRKL SH2 domain interactions with peptides derived from Tyr(P)-259 and Tyr(P)-406 but not with peptides derived from the other four previously suggested interaction sites. Based on prior interaction predictions, Tyr(P)-162 was suggested as an interaction site for the SHC1 SH2 domain (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ), but we were unable to detect this interaction (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). SHC1 SH2 domain interactions were identified with peptides derived from Tyr(P)-83, Tyr(P)-95, Tyr(P)-183, Tyr(P)-373, Tyr(P)-627, and Tyr(P)-689. SHC1 PTB domain interactions were observed with peptides derived from Tyr(P)-24, Tyr(P)-83, and Tyr(P)-183, none of which represent the canonical NP
+       <em>
+        X
+       </em>
+       pY motif. Peptides derived from Tyr(P)-307 and Tyr(P)-317 were predicted to bind to SH2 domains from RASA1 (
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ) based on previous algorithms, and this prediction was confirmed by our analysis. FP analysis also confirmed the PLCG1 interactions that have been reported with Tyr(P)-307, Tyr(P)-373, and Tyr(P)-406 (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ). Finally, Tyr(P)-447, Tyr(P)-472, and Tyr(P)-627 were previously demonstrated by mutational analysis to recruit PIK3R1, whereas Tyr(P)-657 and Tyr(P)-689 were shown to recruit PTPN11 (
+       <xref ref-type="bibr">
+        46
+       </xref>
+       ). Our interaction analysis confirmed the three PIK3R1-binding sites and also found that these sites also recruited PIK3R2 and PIK3R3 with high affinity. However, by contrast to previous reports, our analysis suggested that Tyr(P)-689 was unable to recruit PTPN11 but was able to recruit SH2 domains from PIK3R, PLCG1, SHC1, SH2D1B, and c-Src family tyrosine kinase family members.
+      </p>
+      <p>
+       We also identified previously unreported interaction sites between GAB1 phosphopeptides and SH2 domains derived from tensin family proteins, Vav family proteins, SH2D1B, and a subset of the SOCS proteins (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ). Although SH2 domains from Vav and tensin family proteins interacted selectively with only a few phosphosites within GAB1, SH2 domains from SH2D1B, SOCS3, and SOCS6 displayed a recruitment pattern characterized by multiple redundant interaction sites, similarly as we observed between c-Met phosphopeptides and SH2 domains from PLCG1, PIK3R, and PTPN11.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       c-Kit
+      </title>
+      <p>
+       c-Kit is an RTK with oncogenic potential in the PDGFR family (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        30
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ). We successfully synthesized phosphopeptides representing all 22 potential intracellular tyrosine motifs (
+       <a>
+        supplemental Table S2
+       </a>
+       ) of this receptor. From 2017 unique peptide-protein queries, we detected 307 interaction pairs (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). We detected most literature-reported interactions between c-Kit and our SH2 domain set (
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ) and were able to infer the predicted respective binding sites because of c-Kit's homology with the PDGFR (
+       <xref ref-type="bibr">
+        50
+       </xref>
+       <xref ref-type="bibr">
+        None
+       </xref>
+       –
+       <xref ref-type="bibr">
+        52
+       </xref>
+       ). Importantly, the peptide derived from Tyr(P)-721 (which represents the homologous PIK3R recruitment site shared by all PDGFR family members) was the only c-Kit peptide able to recruit all PIK3R SH2 domains with sub-micromolar midpoint dissociation constants. Peptides derived from Tyr(P)-703 and Tyr(P)-936 were the predicted GRB2/GRAP2-binding sites based on motif prediction software (
+       <xref ref-type="bibr">
+        10
+       </xref>
+       ), and phosphopeptides derived from these sequences were the only two peptides that detectably recruited these domains. As expected from previous functional and interaction studies, peptides derived from Tyr(P)-568 and Tyr(P)-570 recruited several c-Src family kinase SH2 domains (
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ).
+      </p>
+      <p>
+       Although the peptide derived from Tyr(P)-721 displayed the highest affinity for PIK3R SH2 domains, we observed that many other c-Kit peptides not containing canonical PI3KR sequence motifs were also able to interact with these domains. These additional interaction sites in the PDGF receptor might allow for increased interaction avidity with PI3KR proteins because each PI3KR regulatory subunity has two SH2 domains. Similarly, we observed that domains from PTPN11, PLGC1, RASA1, and SOCS6 were recruited to many sites throughout c-Kit. Other protein families were recruited at a more limited number of c-Kit receptor phosphosites. For example, CRK was only recruited by peptides derived from Tyr(P)-672, Tyr(P)-675, and Tyr(P)-855. Domains from the tensin family proteins were recruited primarily by peptides derived from Tyr(P)-855 and Tyr(P)-936. In addition to interacting with peptides derived from Tyr(P)-568/Tyr(P)-570 sites, SH2 domains from the c-Src family tyrosine kinases were also recruited to peptides derived from Tyr(P)-672/Tyr(P)-675, Tyr(P)-900, and Tyr(P)-936. As a hematopoietic RTK, it was noteworthy that several residues on c-Kit recruited the SH2 domain of SH2D1B, a signaling lymphocyte activation molecule member (
+       <xref ref-type="bibr">
+        53
+       </xref>
+       ); peptides derived from Tyr(P)-568 and Tyr(P)-936 recruited SH2D1B with the highest affinity (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       ∼1 μ
+       <span>
+        m
+       </span>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Androgen Receptor
+      </title>
+      <p>
+       The human AR is a type of nuclear receptor that is activated by the binding of testosterone or dihydrotestosterone (
+       <xref ref-type="bibr">
+        54
+       </xref>
+       ). AR has 31 tyrosine residues, a subset of which has been shown by mass spectrometry studies to be phosphorylated by c-Src and other tyrosine kinases (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        55
+       </xref>
+       ). AR has also been shown to associate with RTKs such as EGFR (
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ) and is an important therapeutic target in prostate cancer (
+       <xref ref-type="bibr">
+        56
+       </xref>
+       <xref ref-type="bibr">
+        None
+       </xref>
+       –
+       <xref ref-type="bibr">
+        58
+       </xref>
+       ). AR activity may also be modulated by phosphorylation and other forms of post-translational modification. The Ack1 kinase has been shown to phosphorylate AR at Tyr-267 and Tyr-363 (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ), whereas Tyr-534 has been shown to be a substrate for c-Src (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). The phosphorylation of AR is elevated in some forms of hormone refractory prostate cancer relative to hormone-sensitive cancer (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). The modulation of AR activity by tyrosine phosphorylation is thought to occur, in part, through conformational changes in protein structure. However, AR tyrosine phosphorylation may also modulate its ability to interact with the SH2 domains of cell signaling molecules.
+      </p>
+      <p>
+       To test the ability of AR to recruit downstream signaling proteins, we synthesized 13-mer phosphopeptides corresponding to 29 of the 31 AR tyrosine motifs (
+       <a>
+        supplemental Table S2
+       </a>
+       ). From 2708 unique peptide-protein queries, we identified 215 unique interaction pairs (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). The majority of the interactions had relatively low affinities (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       &gt;10 μ
+       <span>
+        m
+       </span>
+       ) in comparison with receptor tyrosine kinase-mediated interactions. Our assay detected multiple interactions with the peptide derived from Tyr(P)-267, including a relatively high affinity interaction with the SRC SH2 domain (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       = 1.85 μ
+       <span>
+        m
+       </span>
+       ) and weaker interactions with SH2 domains from other c-Src family kinase members, including YES1 and LCK. However, the peptide derived from Tyr(P)-363 interacted primarily with SH2D3C (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       = 2.28 μ
+       <span>
+        m
+       </span>
+       ). The peptide derived from Tyr(P)-534, a known c-Src kinase substrate, did not recruit SH2 domains from c-Src family kinases but did recruit PIK3R3 (C-terminal domain) and PLCG1 (NC tandem domain). Tyr-362 has been shown to be phosphorylated independently and in tandem with Tyr-363 (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). The peptide derived from Tyr(P)-362 interacted with SH2 domains from SRC, RASA1, PLCG1, and the PI3KR phosphatidylinositol kinase regulatory subunits. Although the peptide derived from Tyr(P)-534 interacted with few SH2 domains, the peptide derived from Tyr(P)-531 recruited 29 domains, including several from the c-Src family kinases. AR recruited SH2 domains from PI3KR domains with relatively high affinity at several tyrosines, including peptides derived from Tyr(P)-107, Tyr(P)-362, Tyr(P)-531, Tyr(P)-553, and Tyr(P)-740. Similarly, recruitment sites for domains from the phospholipases PLCG1 and PLCG2 were distributed throughout the length of the protein, including peptides derived from Tyr(P)-107, Tyr(P)-362, Tyr(P)-551, Tyr(P)-553, and Tyr(P)-915. The peptide derived from Tyr(P)-107 was the only peptide able to recruit VAV family SH2 domains with detectable affinities (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       ∼2–8 μ
+       <span>
+        m
+       </span>
+       ). Peptides derived from Tyr(P)-307, Tyr(P)-531, Tyr(P)-740, and Tyr(P)-774 recruited the PTPN11 protein-tyrosine phosphatase SH2 domain (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       ∼2–8 μ
+       <span>
+        m
+       </span>
+       ). The ability of AR-derived peptides to recruit PIK3R and PLCG1 domains is of particular interest because of the roles of these proteins in tumor processes such as cell survival, cell proliferation, and metastasis.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Comparison of Overall SH2 Domain Recruitment Capacity of Signaling Proteins
+      </title>
+      <p>
+       We compared the overall SH2 domain recruitment potential of GAB1, c-Met, c-Kit, and AR with the ErbB interaction dataset that we previously described (
+       <a>
+        supplemental Fig. S2
+       </a>
+       ) (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). We observed that every receptor had the potential to recruit most SH2 domains. However, they did so with different overall binding energies (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       A). We found that AR was enriched for SH2 domain-containing adaptor protein E-binding sites relative to the other receptors (
+       <em>
+        p
+       </em>
+       = 0.0377) but was depleted for sites that recruited most other domains (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        B
+       </em>
+       ). ErbB1, ErbB2, and ErbB3 were significantly enriched in phosphosites that recruited multiple domains and displayed no significant depletion for phosphosites that recruited any domain. ErbB4 had no significant enrichment for phosphosites recruiting any SH2 domains but was significantly depleted for phosphosites recruiting SOCS6, PTPN11, and PIK3R3 (
+       <em>
+        p
+       </em>
+       &lt; 0.05). GAB1 was significantly enriched for PLCG1- and PIK3R1-binding sites but was depleted for ZAP70, SH2D3C, and the SHC2-PTB domain binding sites. c-Kit was significantly enriched for SOCS2-, SOCS6-, and PTPN11-binding sites. Notably, PTPN11 was one of the first SH2 domain-containing proteins found to be recruited to c-Kit (
+       <xref ref-type="bibr">
+        59
+       </xref>
+       ). c-Met was significantly enriched for SHB-binding sites, but despite containing a few high affinity binding sites for PIK3R1, PIK3R3, and PLCG1, it was depleted in total binding sites for these SH2 domains
+       <em>
+        versus
+       </em>
+       the other proteins that we examined. Also of note was that GAB1 was enriched in binding sites for which c-Met was depleted, underscoring the likely importance of GAB1 in complementing c-Met's recruitment ability.
+      </p>
+      <fig id="F3" position="float">
+       <label>
+        Fig. 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          Relative binding energy and site enrichment for SH2 and PTB domains by signaling proteins.
+         </strong>
+         <em>
+          A,
+         </em>
+         relative binding free energies of interactions described by FP were summed across each receptor or adaptor protein.
+         <em>
+          B,
+         </em>
+         each receptor or adaptor was assessed for enrichment or depletion of binding sites for a given SH2 or PTB domain and is depicted by
+         <em>
+          Z
+         </em>
+         -score transformation of raw data.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Recruitment of Molecular Functions
+      </title>
+      <p>
+       We clustered the SH2/PTB domains used in our FP assay into groups based on functional ontologies (
+       <a>
+        supplemental Table S3
+       </a>
+       ) such as phospholipase, phosphatidylinositol kinase, scaffolds, etc., and we compared the relative ability of each RTK and signaling protein to recruit them (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        A
+       </em>
+       ,
+       <a>
+        supplemental Fig. S3
+       </a>
+       , and
+       <a>
+        supplemental Table S4
+       </a>
+       ) (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ).
+      </p>
+      <fig id="F4" position="float">
+       <label>
+        Fig. 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          Comparison of the recruitment of proteins representing different molecular function categories.
+         </strong>
+         <em>
+          A,
+         </em>
+         relative binding free energies of interactions described by FP for the ErbB family, GAB1, MET, KIT, and AR were summed across all domains in each listed ontology and then divided by the number of domains in that ontology to determine an average recruitment potential for a particular molecular function group.
+         <em>
+          B,
+         </em>
+         each receptor or adaptor was assessed for enrichment or depletion of binding sites for a given ontology. Data are depicted by
+         <em>
+          Z
+         </em>
+         -score transforming the observed number of binding sites each receptor/adaptor had for a particular ontology relative to the average number of sites that bound the ontology across all receptors/adaptors assessed in our FP assay.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       c-Met had the lowest binding free energy for recruitment of SH2 domains from most ontological classes. ErbB3 was the most efficient at recruitment of the phosphatidylinositol kinase ontology, followed by the GAB1 adaptor protein. GAB1 was nearly twice as efficient at recruitment of phospholipases compared with the other receptors. c-Met typically signals in tandem with GAB1, and the GAB1/c-Met module would display a binding free energy for phosphatidylinositol kinases similar to ErbB3. This GAB1/c-Met module would also display twice the binding free energy for SH2 domains from the adaptor ontology as every other RTK, and it would have similar binding free energies as the other RTKs for all other ontologies.
+      </p>
+      <p>
+       Surprisingly, AR also recruited SH2 domains from the phospholipase ontology at a similar overall binding free energy as ErbB1 and with a higher free energy than the other RTKs. Whereas AR lacked efficient recruitment potential for the adaptor ontology, c-Kit lacked recruitment potential for SH2 domains from the phosphatidylinositol phosphatase and Rho GEF ontologies.
+      </p>
+      <p>
+       We then tested for enrichment of binding sites that each receptor displayed for SH2 domains from each ontological class (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        B
+       </em>
+       and
+       <a>
+        supplemental Table S5
+       </a>
+       ). AR was significantly depleted for binding sites for SH2 domains from most ontologies. ErbB1 and ErbB2 were enriched for binding sites for phospholipase, Ras GTPase, and scaffold ontologies. ErbB2 and ErbB3 were enriched for binding sites of SH2 domains from the kinase and phosphatidylinositol kinase ontologies. ErbB3 also displayed enrichment in binding sites for the cytoskeletal regulation and signal regulation ontologies. ErbB4 was depleted of binding sites for phosphatase and phosphatidylinositol kinase ontologies. c-Kit was enriched for binding sites to the phosphatase ontology but was depleted for binding sites to the Rho GEF ontology. GAB1 was enriched for binding sites for the phospholipase and phosphatidylinositol kinase ontology (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        B
+       </em>
+       ). Although c-Met was depleted in binding sites for SH2 domains of those ontologies, it was enriched for binding sites to SH2 domains from the cytoskeletal regulation ontology.
+      </p>
+      <p>
+       The FP-derived interaction matrix revealed that many SH2 domains were able to be recruited in a redundant manner by peptides derived from many phosphotyrosine sites within each protein. Therefore, we next asked how the overall ontological recruitment capacity of the RTKs, adaptor and AR protein, was distributed across each protein. For this purpose, we examined the ontological recruitment within each protein as a percentage of overall recruitment capacity for all phosphopeptides contained within each protein (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       and
+       <a>
+        supplemental Table S6
+       </a>
+       ). Although domains from most ontological classes were recruited in a relatively even manner across each protein, a subset was recruited to a relatively small number of phosphosites. For example, our results suggested that a Tyr to Phe mutation of AR Tyr-363 would result in a substantial reduction in its ability to recruit the Ras GEF ontology without a substantial reduction in its ability to recruit domains from other ontologies. Similarly, a Tyr to Phe mutation of AR Tyr-107 would be predicted to result in a significant reduction in the ability of AR to recruit SH2 domains from the Rho GEF ontology but would be expected to have minimal effects on the recruitment of domains from other ontologies. The c-Kit receptor contained many redundant recruitment sites for a diverse set of SH2 domains, but a Tyr to Phe mutation of Tyr-855 would likely result in a complete loss in its ability to recruit SH2 domains from the Rho GEF ontology. c-Met contained no phosphosites that were exclusively responsible for the recruitment of domains from a particular ontology. However, a Tyr to Phe mutation of c-Met Tyr-1365 would be expected to result in a major reduction in its ability to recruit SH2 domains from the phosphatidylinositol phosphatase ontology, whereas mutation of c-Met Tyr-1295 would be expected to result in a major reduction in its ability to recruit SH2 domains from the Rho GEF ontology. GAB1 Tyr-24 was noteworthy in that its mutation would be expected to result in a nearly complete loss in recruitment of SH2 domains from proteins in the chromatin remodeling and Ras GEF ontologies.
+      </p>
+      <fig id="F5" position="float">
+       <label>
+        Fig. 5.
+       </label>       <caption>
+        <p>
+         <strong>
+          Phosphosite contribution on GAB1, MET, KIT, and AR for the recruitment of molecular function groups.
+         </strong>
+         Relative binding free energies were calculated for each phosphosite and individual protein domain and then summed according to the classification of the domain in each molecular functional ontology group. The binding energy for the ontology at each site was subsequently divided by the total binding energy summed across the entire receptor or adaptor protein and presented as a percentage of total binding activity of that receptor or adaptor.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       SH2 Domain Binding Motif Analysis Based on FP-derived Data
+      </title>
+      <p>
+       Previously defined consensus binding motifs for SH2 domains are based on competitive assays between SH2 domains and oriented degenerate peptide arrays and/or random peptide libraries (
+       <xref ref-type="bibr">
+        10
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        60
+       </xref>
+       ). Studies have also been performed to infer domain binding preferences using structural information (
+       <xref ref-type="bibr">
+        62
+       </xref>
+       ). A recent study has built upon these analyses by using biologically derived peptide sequences from insulin receptor (IR), insulin-like growth factor receptor (IGF1R), and fibroblast growth factor receptor (FGFR) to generate biologically derived consensus binding motifs (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ). We asked whether we could improve upon prior studies using the interaction data derived from our FP study, which is noncompetitive in nature and seeks to quantify interaction affinities rather than to identify a sequence representing a “perfect motif.”
+      </p>
+      <p>
+       We first determined the relative statistical enrichment and depletion of each residue at each position from −4 to +7 relative to phosphotyrosine for each SH2 domain. For each protein (representing one SH2 domain)
+       <em>
+        p
+       </em>
+       , we randomly sampled
+       <em>
+        q
+       </em>
+       peptide sequences 100 times from the full set of 178 peptides, where
+       <em>
+        q
+       </em>
+       was the number of peptides originally bound by each SH2 domain protein
+       <em>
+        p
+       </em>
+       . From these permutations, we compared the observed residue counts to the permuted residue counts for all peptides that bound to each SH2 domain protein
+       <em>
+        p
+       </em>
+       . For instance, if out of 100 permutations we did not observe an instance where the permuted proportion of peptides with prolines at site +1 exceeded the observed number of interacting amino acid residues at site +1 with an SH2 protein, we would conclude that a statistical enrichment existed for proline at site +1 at
+       <em>
+        p
+       </em>
+       &lt; 0.01 (1/the total number of permutations). We then log
+       <sub>
+        10
+       </sub>
+       -transformed these
+       <em>
+        p
+       </em>
+       values and inverted the depletion
+       <em>
+        p
+       </em>
+       values (such that −2 corresponds to depletion with
+       <em>
+        p
+       </em>
+       = 0.01) (see results for all SH2 domains in
+       <a>
+        supplemental Fig. S4
+       </a>
+       ). We next compared the motifs identified in our analysis with those previously defined for the subsets of SH2 domains previously examined by the SMALI and Scansite prediction algorithms.
+      </p>
+      <p>
+       Derived consensus motifs for only 10 of the 95 SH2 domains in our assay shared two or more residues of homology with consensus motifs previously described in the literature (
+       <a>
+        supplemental Table S7
+       </a>
+       ). For example, the previous consensus motif for GRB2 and GRAP2 based on the SMALI prediction algorithm and random peptide library data were V
+       <em>
+        X
+       </em>
+       pYVNM and PPpYVNEL respectively, where pY represents the location of the phosphorylated tyrosine as a point of reference and
+       <em>
+        X
+       </em>
+       represents no enrichment or depletion for that amino acid residue. Similarly to the previous predictions, our analysis determined the following consensus motifs from our FP-derived data for GRB2 and GRAP2, respectively: P
+       <em>
+        X
+       </em>
+       pY
+       <em>
+        X
+       </em>
+       N and P
+       <em>
+        X
+       </em>
+       pY
+       <em>
+        X
+       </em>
+       N
+       <em>
+        XX
+       </em>
+       WT. However, the consensus motifs for most SH2 domains determined from our quantitative FP-derived interaction data were different from those previously determined from data derived from highest affinity interactions (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ,
+       <a>
+        supplemental Fig. S4
+       </a>
+       , and
+       <a>
+        supplemental Table S7
+       </a>
+       ). For example, in comparison with the previous consensus motif from SMALI for SRC SH2 of PIpYELID, our analysis suggested that the SRC SH2 domain was enriched for binding peptides with Asp at (−4, −2, and +4), Val and Asn at +2 but was depleted for binding peptides with Arg at +1. In comparison with the pYENL consensus ascribed to the SH2 domain of FGR using oriented peptide array libraries (
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        14
+       </xref>
+       ), our analysis confirmed an enrichment for Asp at +4 and also identified significant novel enrichments for Gly at −1, Val at +2, Pro at +3, and Leu at +7, implicating these amino acids as positive contributors to FGR SH2 affinity.
+      </p>
+      <fig id="F6" position="float">
+       <label>
+        Fig. 6.
+       </label>       <caption>
+        <p>
+         <strong>
+          Residue enrichment at positions relative to tyrosine that contribute to the recruitment of SH2 domains.
+         </strong>
+         <em>
+          A,
+         </em>
+         representative plots depict log
+         <sub>
+          10
+         </sub>
+         transforms of the
+         <em>
+          p
+         </em>
+         values of each residue at each position relative to 100 permutations. The number of peptides that interacted with each domain is indicated at the
+         <em>
+          top
+         </em>
+         of each plot.
+         <em>
+          B,
+         </em>
+         ROC curve obtained by plotting the false-positive rate (
+         <em>
+          1
+         </em>
+         −
+         <em>
+          Specificity
+         </em>
+         ,
+         <em>
+          x
+         </em>
+         axis) by the true-positive rate (
+         <em>
+          Sensitivity
+         </em>
+         ,
+         <em>
+          y
+         </em>
+         axis) for PEBL predictions of our FP interaction data.
+         <em>
+          C,
+         </em>
+         histogram depicting the number of SH2 domains for which each position relative to phosphotyrosine was selected as an important variable for binary interaction classification by random forests.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       We subsequently built a PEBL regression classifier to predict the likelihood that a particular peptide sequence would result in an interaction with a particular SH2 domain. For each peptide, we summed the log
+       <sub>
+        10
+       </sub>
+       -transformed
+       <em>
+        p
+       </em>
+       values of enrichment (positive values) or depletion (negative values) for each residue in the peptide to derive an interaction prediction score for each SH2. To assess how well our logistic regression classifier categorized interactions from noninteractions in our experimental FP-determined data, we constructed a receiver operating characteristic (ROC) curve to examine the relationship between true-positive rate and false-positive rate as a function of the prediction score (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ). Our classifier was highly accurate, with an ROC area under the curve (
+       <xref ref-type="bibr">
+        64
+       </xref>
+       ) of 0.94. We achieved a maximum accuracy of 94% when defining interactions with a prediction score &gt;4.50 as “interactions” and &lt;4.50 as “noninteractions” (
+       <a>
+        supplemental Fig. S5
+       </a>
+       ). At this binary classifier threshold, although our model only achieved a sensitivity of 67.5%, it achieved a specificity of 97.8%.
+      </p>
+      <p>
+       To examine which residue positions relative to phosphotyrosine contributed the most in determining the probability of binding to each SH2 domain, we implemented the random forests (RF) algorithm to construct a predictive classifier and assess the proportion of variance explained by each site in the sequence for each SH2 domain (
+       <xref ref-type="bibr">
+        65
+       </xref>
+       ). The random forests algorithm is a machine-learning technique that utilizes an ensemble of independent decision trees to perform classification or regression by building trees from sampling random subsets of all available variables (
+       <xref ref-type="bibr">
+        66
+       </xref>
+       ). Our model had a median prediction accuracy of 91.0%, a median specificity of 97.8%, and a median sensitivity of 22.0% (
+       <a>
+        supplemental Table S8
+       </a>
+       ) across all SH2 domains examined. Notably, many SH2 domains within our sample set contained few binders for which to inform our classifier. The RF model was better at predicting negative interactions than positive ones, except for peptides with higher prediction scores. However, the model had high sensitivity for many SH2 domains, such as PIK3R3.NC (100%), PLCG1.NC (98.9%), and RASA1.N (98.8%). Consistent with what has previously been shown, the −1, +1, +2, +4, and +5 amino acid residues were the most informative variables for RF classification over all of the SH2 domains examined (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        C
+       </em>
+       ).
+      </p>
+      <p>
+       We compared the PEBL score domain interaction predictions to SMALI and Scansite score predictions for several SH2 domains (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ). We first identified peptide sequences representing the highest scoring residues at each position relative to phosphotyrosine (
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        14
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        60
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        68
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        69
+       </xref>
+       ) based on SMALI (
+       <a>
+        supplemental Table S7
+       </a>
+       ). We then used this peptide set to calculate Scansite, SMALI, and PEBL scores for each SH2 domain. Among the 64 SH2 domains for which SMALI consensus motifs were available, 51 consensus sequences resulted in a positive PEBL score as compared with only 9 being predicted as a positive interaction by the Scansite algorithm. We observed a suggestive but not significant correlation between PEBL and SMALI scores (
+       <a>
+        supplemental Fig. S6
+       </a>
+       ).
+      </p>
+      <p>
+       The PEBL analysis suggested that the probability of peptide interaction with RASA1-N would be increased if an aspartic or glutamic acid residue existed at the −1 position and if an isoleucine existed at the +2 position (
+       <a>
+        <span>
+         Table I
+        </span>
+       </a>
+       ). The proline at the −1 position was well represented in our FP assay but was associated with peptides that were unable to bind RASA1-N. Although both Scansite and SMALI provide scoring metrics indicative of positive contributions of sequences to interaction probability, neither provides an assessment of the negative contributions of amino acids to probabilities of domain interaction. PEBL was able to circumvent this limitation by outputting scores that incorporated both positive and negative contributions by amino acid residues to determine whether a peptide would bind or not bind to a specific SH2 domain. The only significantly negative PEBL score obtained from peptide sequences representing perfect SMALI consensus motifs was with the RASA1 N-terminal SH2 domain. The consensus motif suggested by SMALI (
+       <em>
+        XX
+       </em>
+       PpYTEMM) had a PEBL score of −4.41. A major source of this discrepancy stems from the observation that proline at the −1, threonine at the +1, and glutamic acid at the +2 positions are suggested by PEBL to greatly reduce the probability of interaction with the RASA1-N SH2 domain (
+       <a>
+        <span>
+         Table II
+        </span>
+       </a>
+       ).
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          Table I
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Amino acid residues that were statistically enriched at each position for each SH2 domain based on permutations (p &lt; 0.05)
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          Table II
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Amino acid residues that were statistically depleted at each position for each SH2 domain based on permutations (p &lt; 0.05)
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <p>
+       We next sought to externally validate PEBL's performance and compare it with SMALI for predicting interaction events between SH2 domains and biologically derived peptides from an independent dataset that utilized a SPOT-array approach (
+       <a>
+        supplemental Table S9
+       </a>
+       ) (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ). In this dataset, 192 phosphopeptides were synthesized directly onto a support membrane and tested for interaction with 50 SH2 domains. The 11-mer peptides consisted of four N-terminal and six C-terminal residues to phosphotyrosine, which is within the parameters of PEBL based on the 13-mer peptides that we assayed via FP. The intensities of positive binders on the SPOT array were better correlated for PEBL scores than for SMALI scores (
+       <a>
+        supplemental Fig. S7
+       </a>
+       ), although PEBL and SMALI scores were also significantly correlated (σ = 0.17,
+       <em>
+        p
+       </em>
+       = 0.001) in the predictions for this particular peptide by SH2 domain set. In total, the SPOT array dataset and our FP dataset had 46 overlapping SH2 domains. The 160 peptides that produced detectable SPOT intensities were derived from 13 proteins known to participate in insulin receptor, IGF1R, and FGFR signaling networks. 1275 interactions were detected, reflecting a signal intensity above the mean on the SPOT array (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ). However, when we examined these interactions with SMALI, only 132 of the 1275 interactions (10.4%) had a score above the 1.00 SMALI cutoff. Therefore, 1143 of the SPOT array interactions were not predicted as positives from the SMALI analysis, indicating that SMALI had a sensitivity of only 10.4%.
+      </p>
+      <p>
+       When we analyzed the SPOT array peptides for interaction via PEBL analysis, we observed that 781 of the interactions identified by the SPOT arrays (61.3%) had a PEBL score greater than 0. These results were suggestive that PEBL was nearly six times more sensitive than SMALI in predicting interactions from an independent SPOT array dataset comprising biologically derived phosphopeptide sequences.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Validation of in Vivo Relevance of FP Interactions and PEBL Predictions by Phosphopeptide Pulldowns
+      </title>
+      <p>
+       To assess the ability of PEBL to accurately predict interactions identified in cells, we leveraged previously published data that examined the ability of synthetic phosphopeptides to pull down SH2 domain-containing proteins from HeLa cell extracts (
+       <a>
+        supplemental Table S10
+       </a>
+       ) (
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ). From the 27 overlapping SH2 domain interactions identified in cells, 13 interactions (48%) were ranked highly by artificial neural network predictors (
+       <em>
+        Z
+       </em>
+       score &gt;2) (
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ), 18 interactions (67%) had SMALI scores &gt;1, and 21 interactions had PEBL scores &gt;0 (78%). Taken together, these results indicate that the PEBL algorithm trained with quantitative binding data outperformed the position weight matrix and artificial neural network-based algorithms in predicting peptide-SH2 domain interactions from cells.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    In this study, we used an automated high throughput fluorescence polarization assay to measure the interaction potentials of 93 of the 120 SH2 domains in the human genome (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ) with phosphopeptides derived from several RTKs, the GAB1 adaptor protein, and the androgen receptor. The FP-derived interaction data (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ) uncovered interactions that have been previously identified in biological systems and a wealth of novel ones. The data allowed us to determine not just that an interaction had occurred but also the strength of that interaction. We present these findings as a resource of interaction potentials that can be used to guide future biological inquiry.
+   </p>
+   <p>
+    We included the oncogenic receptor tyrosine kinases c-Met (
+    <xref ref-type="bibr">
+     73
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     74
+    </xref>
+    ) and c-Kit (
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ), the androgen receptor (
+    <xref ref-type="bibr">
+     57
+    </xref>
+    ), and the adaptor protein Gab1, which functions downstream of many RTKs, including Egfr, c-Met, and c-Kit (
+    <xref ref-type="bibr">
+     34
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     49
+    </xref>
+    ), in this interaction study to expand upon the recent analysis that we undertook regarding ErbB RTK interactions with SH2 domains (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). This dataset represents, to our knowledge, the largest existing interaction dataset comprising quantitative midpoint dissociation constants of SH2 domains with phosphopeptides. As reported previously for the ErbB receptors (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ), many interaction affinities were relatively weak (
+    <em>
+     K
+     <sub>
+      D
+     </sub>
+    </em>
+    &gt;2 μ
+    <span>
+     m
+    </span>
+    ). These low affinity interactions may represent transient signaling events that would not have been easily observed using traditional in-cell interaction methodologies (
+    <xref ref-type="bibr">
+     75
+    </xref>
+    ) and are likely of biological relevance (
+    <xref ref-type="bibr">
+     76
+    </xref>
+    ). The protein interactions from this publication have been submitted to the IMEx consortium through IntAct (
+    <xref ref-type="bibr">
+     77
+    </xref>
+    ) and assigned the identifier IM-22269.
+   </p>
+   <p>
+    By organizing our sets of domains into gene ontology groups, we assessed the relative degree that each signaling protein contributed to the recruitment of several cellular functions. As expected, ErbB3 and Gab1 were the most efficient at recruitment of domains from phosphatidylinositol kinase regulatory subunits. Given the dependence of c-MET on Gab1 for signaling, it was not surprising to observe that c-Met displayed the least overall efficiency among the RTKs for recruitment of most ontologies. AR is commonly known as a transcriptional activator, but recent studies have identified sites of tyrosine phosphorylation that may influence its function (
+    <xref ref-type="bibr">
+     36
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     37
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     55
+    </xref>
+    ). We expected few significant binding partners for AR based on its function as a steroid hormone receptor and were surprised that many domains were recruited to AR phosphotyrosine sites, including phospholipases and RASA1. These results are particularly notable given the reported association between AR and EGFR (
+    <xref ref-type="bibr">
+     35
+    </xref>
+    ).
+   </p>
+   <p>
+    We observed that the signaling proteins recruited molecular functions at different efficiencies, both at the level of total binding affinities and numbers of recruitment sites. For example, although every receptor or adaptor recruited phosphatases, c-Kit and Gab1 recruited this ontology with twice the relative binding free energy as any other receptor, potentially resulting in more rapid dephosphorylation and down-regulation of tyrosine-phosphorylated signaling molecules. These analyses allowed us to discern the unique abilities of each receptor or adaptor to modulate signaling networks and, by extension, why different cell or tumor types may display disparate phenotypes despite employing the same core sets of cell-signaling proteins.
+   </p>
+   <p>
+    The PEBL algorithm complements the “best fit” interaction predictions of Scansite and SMALI. We hypothesize that the incorporation of quantitative binding data from interactions across a wide spectrum of affinities represents a more realistic depiction of binding potentials than focusing on the sequence motifs of highest affinity binders. PEBL makes predictions based on permissive and nonpermissive amino acid residues and allowed us to improve upon the accuracy of existing algorithms. PEBL predictions outperformed SMALI in calling interactions from external SPOT array datasets and in cell phosphopeptide pulldown assays. We will continue to further develop and refine this model and will make it available as an on-line application for fellow researchers to assist with the rapid identification of novel and potentially biologically relevant interactions.
+   </p>
+   <p>
+    Further interaction experiments with larger and more diverse peptide libraries should enable more accurate interaction predictions for SH2 domains that resulted in too few interactions in this study. The current dataset provides many testable hypotheses regarding the interface of SH2 domains with RTK and AR signaling networks.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Weinmaster G., Zoller M. J., Smith M., Hinze E., Pawson T. (1984)
+      <span>
+       Mutagenesis of Fujinami sarcoma virus: evidence that tyrosine phosphorylation of P130gag-fps modulates its biological activity
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       37
+      </span>
+      , 559–568
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Weinmaster G., Pawson T. (1986)
+      <span>
+       Protein kinase activity of FSV (Fujinami sarcoma virus) P130gag-fps shows a strict specificity for tyrosine residues
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       261
+      </span>
+      , 328–333
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Sadowski I., Stone J. C., Pawson T. (1986)
+      <span>
+       A noncatalytic domain conserved among cytoplasmic protein-tyrosine kinases modifies the kinase function and transforming activity of Fujinami sarcoma virus P130gag-fps
+      </span>
+      .
+      <span>
+       Mol. Cell. Biol
+      </span>
+      .
+      <span>
+       6
+      </span>
+      , 4396–4408
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Anderson D., Koch C. A., Grey L., Ellis C., Moran M., F., Pawson T. (1990)
+      <span>
+       Binding of SH2 domains of phospholipase C(γ)1, GAP, and Src to activated growth factor receptors
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       250
+      </span>
+      , 979–982
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Moran M. F., Koch C. A., Anderson D., Ellis C., England L., Martin G. S., Pawson T. (1990)
+      <span>
+       Src homology region 2 domains direct protein-protein interactions in signal transduction
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       87
+      </span>
+      , 8622–8626
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Kazlauskas A., Ellis C., Pawson T., Cooper J. A. (1990)
+      <span>
+       Binding of GAP to activated PDGF receptors
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       247
+      </span>
+      , 1578–1581
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Mohammadi M., Honegger A. M., Rotin D., Fischer R., Bellot F., Li W., Dionne C. A., Jaye M., Rubinstein M., Schlessinger J. (1991)
+      <span>
+       A tyrosine-phosphorylated carboxy-terminal peptide of the fibroblast growth factor receptor (Flg) is a binding site for the SH2 domain of phospholipase C-γ1
+      </span>
+      .
+      <span>
+       Mol. Cell. Biol
+      </span>
+      .
+      <span>
+       11
+      </span>
+      , 5068–5078
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Graziani A., Gramaglia D., Cantley L. C., Comoglio P. M. (1991)
+      <span>
+       The tyrosine-phosphorylated hepatocyte growth factor/scatter factor receptor associates with phosphatidylinositol 3-kinase
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       266
+      </span>
+      , 22087–22090
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Cantley L. C., Auger K. R., Carpenter C., Duckworth B., Graziani A., Kapeller R., Soltoff S. (1991)
+      <span>
+       Oncogenes and signal transduction
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       64
+      </span>
+      , 281–302
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Zhou S., Shoelson S. E., Chaudhuri M., Gish G., Pawson T., Haser W. G., King F., Roberts T., Ratnofsky S., Lechleider R. J., Neel B. G., Birge R. B., Fajardo J. E., Chou M. M., Hanafusa H., Schaffhausen B., Cantley L. C. (1993)
+      <span>
+       SH2 domains recognize specific phosphopeptide sequences
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       72
+      </span>
+      , 767–778
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Songyang Z., Cantley L. C. (1995)
+      <span>
+       Recognition and specificity in protein tyrosine kinase-mediated signalling
+      </span>
+      .
+      <span>
+       Trends Biochem. Sci
+      </span>
+      <span>
+       20
+      </span>
+      , 470–475
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Obenauer J. C., Cantley L. C., Yaffe M. B. (2003)
+      <span>
+       Scansite 2.0: Proteome-wide prediction of cell signaling interactions using short sequence motifs
+      </span>
+      .
+      <span>
+       Nucleic Acids Res
+      </span>
+      .
+      <span>
+       31
+      </span>
+      , 3635–3641
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Li L., Wu C., Huang H., Zhang K., Ga n J., Li S. S. C. (2008)
+      <span>
+       Prediction of phosphotyrosine signaling networks using a scoring matrix-assisted ligand identification approach
+      </span>
+      .
+      <span>
+       Nucleic Acids Res
+      </span>
+      .
+      <span>
+       36
+      </span>
+      , 3263–3273
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Huang H., Li L., Wu C., Schibli D., Colwill K., Ma S., Li C., Roy P., Ho K., Songyang Z., Pawson T., Gao Y., Li S. S. C. (2008)
+      <span>
+       Defining the specificity space of the human SRC homology 2 domain
+      </span>
+      .
+      <span>
+       Mol. Cell. Proteomics
+      </span>
+      <span>
+       7
+      </span>
+      , 768–784
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Jones R. B., Gordus A., Krall J. A., MacBeath G. (2006)
+      <span>
+       A quantitative protein interaction network for the ErbB receptors using protein microarrays
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       439
+      </span>
+      , 168–174
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Gordus A., Krall J. A., Beyer E. M., Kaushansky A., Wolf-Yadlin A., Sevecka M., Chang B. H., Rush J., MacBeath G. (2009)
+      <span>
+       Linear combinations of docking affinities explain quantitative differences in RTK signaling
+      </span>
+      .
+      <span>
+       Mol. Syst. Biol
+      </span>
+      .
+      <span>
+       5
+      </span>
+      , 235.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Kaushansky A., Gordus A., Chang B., Rush J., MacBeath G. (2008)
+      <span>
+       A quantitative study of the recruitment potential of all intracellular tyrosine residues on EGFR, FGFR1 and IGF1R
+      </span>
+      .
+      <span>
+       Mol. Biosyst
+      </span>
+      .
+      <span>
+       4
+      </span>
+      , 643–653
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Liu B. A., Engelmann B. W., Jablonowski K., Higginbotham K., Stergachis A. S., Nash P. D. (2012)
+      <span>
+       SRC homology 2 domain binding sites in insulin, IGF-1, and FGF receptor mediated signaling networks reveal an extensive potential interactome
+      </span>
+      .
+      <span>
+       Cell Commun. Signal
+      </span>
+      . 10.1186/1478-811X-10-27
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        Cross Ref
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Liu B. A., Jablonowski K., Shah E. E., Engelmann B. W., Jones R. B., Nash P. D. (2010)
+      <span>
+       SH2 domains recognize contextual peptide sequence information to determine selectivity
+      </span>
+      .
+      <span>
+       Mol. Cell. Proteomics
+      </span>
+      <span>
+       9
+      </span>
+      , 2391–2404
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Hause R. J., Leung K. K., Barkinge J. L., Ciaccio M. F., Chuu C., Jones R. B. (2012)
+      <span>
+       Comprehensive binary interaction mapping of SH2 domains via fluorescence polarization reveals novel functional diversification of ErbB receptors
+      </span>
+      .
+      <span>
+       PLoS ONE
+      </span>
+      <span>
+       7
+      </span>
+      , e44471.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Robinson D. R., Wu Y. M., Lin S. F. (2000)
+      <span>
+       The protein tyrosine kinase family of the human genome
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       19
+      </span>
+      , 5548–5557
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Ciaccio M. F., Wagner J. P., Chuu C. P., Lauffenburger D. A., Jones R. B. (2010)
+      <span>
+       Systems analysis of EGF receptor signaling dynamics with microWestern arrays
+      </span>
+      .
+      <span>
+       Nat. Meth
+      </span>
+      .
+      <span>
+       7
+      </span>
+      , 148–155
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Volinsky N., Kholodenko B. N. (2013)
+      <span>
+       Complexity of receptor tyrosine kinase signal processing
+      </span>
+      .
+      <span>
+       Cold Spring Harb. Perspect. Biol
+      </span>
+      .
+      <span>
+       5
+      </span>
+      , a009043.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Guo A., Villén J., Kornhauser J., Lee K. A., Stokes M. P., Rikova K., Possemato A., Nardone J., Innocenti G., Wetzel R., Wang Y., MacNeill J., Mitchell J., Gygi S. P., Rush J., Polakiewicz R. D., Comb M. J. (2008)
+      <span>
+       Signaling networks assembled by oncogenic EGFR and c-Met
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       105
+      </span>
+      , 692–697
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Engelman J. A., Zejnullahu K., Mitsudomi T., Song Y., Hyland C., Park J. O., Lindeman N., Gale C. M., Zhao X., Christensen J., Kosaka T., Holmes A. J., Rogers A. M., Cappuzzo F., Mok T., Lee C., Johnson B. E., Cantley L. C., Jänne P. A. (2007)
+      <span>
+       MET amplification leads to gefitinib resistance in lung cancer by activating ERBB3 signaling
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       316
+      </span>
+      , 1039–1043
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Xu A. M., Huang P. H. (2010)
+      <span>
+       Receptor tyrosine kinase coactivation networks in cancer
+      </span>
+      .
+      <span>
+       Cancer Res
+      </span>
+      .
+      <span>
+       70
+      </span>
+      , 3857–3860
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Stommel J. M., Kimmelman A. C., Ying H., Nabioullin R., Ponugoti A. H., Wiedemeyer R., Stegh A. H., Bradner J. E., Ligon K. L., Brennan C., Chin L., DePinho R. A. (2007)
+      <span>
+       Coactivation of receptor tyrosine kinases affects the response of tumor cells to targeted therapies
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       318
+      </span>
+      , 287–290
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Hause R. J., Jr., Leung K. K., Barkinge J. L., Ciaccio M. F., Chuu C. P., Jones R. B. (2012)
+      <span>
+       Comprehensive binary interaction mapping of SH2 domains via fluorescence polarization reveals novel functional diversification of ErbB receptors
+      </span>
+      .
+      <span>
+       PLoS ONE
+      </span>
+      <span>
+       7
+      </span>
+      , e44471.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Hynes N. E., Lane H. A. (2005)
+      <span>
+       ERBB receptors and cancer: the complexity of targeted inhibitors
+      </span>
+      .
+      <span>
+       Nat. Rev. Cancer
+      </span>
+      <span>
+       5
+      </span>
+      , 341–354
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Kitamura Y., Hirotab S. (2004)
+      <span>
+       Kit as a human oncogenic tyrosine kinase
+      </span>
+      .
+      <span>
+       Cell. Mol. Life Sci
+      </span>
+      .
+      <span>
+       61
+      </span>
+      , 2924–2931
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Bolanos-Garcia V. M. (2005)
+      <span>
+       MET meet adaptors: functional and structural implications in downstream signalling mediated by the Met receptor
+      </span>
+      .
+      <span>
+       Mol. Cell. Biochem
+      </span>
+      .
+      <span>
+       276
+      </span>
+      , 149–157
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Holgado-Madruga M., Emlet D. R., Moscatello D. K., Godwin A. K., Wong A. J. (1996)
+      <span>
+       A Grb2-associated docking protein in EGF- and insulin-receptor signalling
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       379
+      </span>
+      , 560–564
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Kallin A., Demoulin J. B., Nishida K., Hirano T., Rönnstrand L., Heldin C. H. (2004)
+      <span>
+       Gab1 contributes to cytoskeletal reorganization and chemotaxis in response to platelet-derived growth factor
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       279
+      </span>
+      , 17897–17904
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Sachs M., Brohmann H., Zechner D., Müller T., Hülsken J., Walther I., Schaeper U., Birchmeier C., Birchmeier W. (2000)
+      <span>
+       Essential role of Gab1 for signaling by the c-Met receptor
+       <em>
+        in vivo
+       </em>
+      </span>
+      .
+      <span>
+       J. Cell Biol
+      </span>
+      .
+      <span>
+       150
+      </span>
+      , 1375–1384
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Bonaccorsi L., Muratori M., Carloni V., Marchiani S., Formigli L., Forti G., Baldi E. (2004)
+      <span>
+       The androgen receptor associates with the epidermal growth factor receptor in androgen-sensitive prostate cancer cells
+      </span>
+      .
+      <span>
+       Steroids
+      </span>
+      <span>
+       69
+      </span>
+      , 549–552
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Mahajan N. P., Liu Y., Majumder S., Warren M. R., Parker C. E., Mohler J. L., Earp H. S., Whang Y. E. (2007)
+      <span>
+       Activated Cdc42-associated kinase Ack1 promotes prostate cancer progression via androgen receptor tyrosine phosphorylation
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       104
+      </span>
+      , 8438–8443
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Guo Z., Dai B., Jiang T., Xu K., Xie Y., Kim O., Nesheiwat I., Kong X., Melamed J., Handratta V. D., Njar V. C., Brodie A. M., Yu L. R., Veenstra T. D., Chen H., Qiu Y. (2006)
+      <span>
+       Regulation of androgen receptor activity by tyrosine phosphorylation
+      </span>
+      .
+      <span>
+       Cancer Cell
+      </span>
+      <span>
+       10
+      </span>
+      , 309–319
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Ponzetto C., Bardelli A., Maina F., Longati P., Panayotou G., Dhand R., Waterfield M. D., Comoglio P. M. (1993)
+      <span>
+       A novel recognition motif for phosphatidylinositol 3-kinase binding mediates its association with the hepatocyte growth factor/scatter factor receptor
+      </span>
+      .
+      <span>
+       Mol. Cell. Biol
+      </span>
+      .
+      <span>
+       13
+      </span>
+      , 4600–4608
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Deleted in proof.
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Gual P., Giordano S., Anguissola S., Comoglio P.M. (2001)
+      <span>
+       Differential requirement of the last C-terminal tail of Met receptor for cell transformation and invasiveness
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       20
+      </span>
+      , 5493–5502
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Sakkab D., Lewitzky M., Posern G., Schaeper U., Sachs M., Birchmeier W., Feller S. M. (2000)
+      <span>
+       Signaling of hepatocyte growth factor/scatter factor (HGF) to the small GTPase Rap1 via the large docking protein Gab1 and the adapter protein CRKL
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       275
+      </span>
+      , 10772–10778
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Lamorte L., Kamikura D., Park M. (2000)
+      <span>
+       A switch from p130Cas/Crk to Gab1/Crk signaling correlates with anchorage independent growth and JNK activation in cells transformed by the Met receptor oncoprotein
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       19
+      </span>
+      , 5973–5981
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Bouscary D., Lecoq-Lafon C., Chretien S., Zompi S., Fichelson S., Muller O., Porteu F., Dusanter-Fourt I., Gisselbrecht S., Mayeux P., Lacombe C. (2001)
+      <span>
+       Role of Gab proteins in phosphatidylinositol 3-kinase activation by thrombopoietin (Tpo)
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       20
+      </span>
+      , 2197–2204
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Montagner A., Yart A., Dance M., Perret B., Salles J. P., Raynal P. (2005)
+      <span>
+       A novel role for Gab1 and SHP2 in epidermal growth factor-induced Ras activation
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       280
+      </span>
+      , 5350–5360
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Gual P., Giordano S., Williams T. A., Rocchi S., Van Obberghen E., Comoglio P. M. (2000)
+      <span>
+       Sustained recruitment of phospholipase C-γ to Gab1 is required for HGF-induced branching tubulogenesis
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       19
+      </span>
+      , 1509–1518
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Yamasaki S., Nishida K., Yoshida Y., Itoh M., Hibi M., Hirano T. (2003)
+      <span>
+       Gab1 is required for EGF receptor signaling and the transformation by activated ErbB2
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       22
+      </span>
+      , 1546–1556
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Alexander W. S. (2002)
+      <span>
+       Suppressors of cytokine signalling (SOCS) in the immune system
+      </span>
+      .
+      <span>
+       Nat. Rev. Immunol
+      </span>
+      .
+      <span>
+       2
+      </span>
+      , 410–416
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Deleted in proof.
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Munugalavadla V., Kapur R. (2005)
+      <span>
+       Role of c-Kit and erythropoietin receptor in erythropoiesis
+      </span>
+      .
+      <span>
+       Crit. Rev. Oncol. Hematol
+      </span>
+      .
+      <span>
+       54
+      </span>
+      , 63–75
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Baxter R. M., Secrist J. P., Vaillancourt R. R., Kazlauskas A. (1998)
+      <span>
+       Full activation of the platelet-derived growth factor β-receptor kinase involves multiple events
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       273
+      </span>
+      , 17050–17055
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Bernard A., Kazlauskas A. (1999)
+      <span>
+       Phosphospecific antibodies reveal temporal regulation of platelet-derived growth factor beta receptor signaling
+      </span>
+      .
+      <span>
+       Exp. Cell Res
+      </span>
+      .
+      <span>
+       253
+      </span>
+      , 704–712
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Rosenkranz S., DeMali K. A., Gelderloos J. A., Bazenet C., Kazlauskas A. (1999)
+      <span>
+       Identification of the receptor-associated signaling enzymes that are required for platelet-derived growth factor-AA-dependent chemotaxis and DNA synthesis
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       274
+      </span>
+      , 28335–28343
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Engel P., Eck M. J., Terhorst C. (2003)
+      <span>
+       The SAP and SLAM families in immune responses and X-linked lymphoproliferative disease
+      </span>
+      .
+      <span>
+       Nat. Rev. Immunol
+      </span>
+      .
+      <span>
+       3
+      </span>
+      , 813–821
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Roy A. K., Lavrovsky Y., Song C. S., Chen S., Jung M. H., Velu N. K., Bi B. Y., Chatterjee B. (1999)
+      <span>
+       Regulation of androgen action
+      </span>
+      .
+      <span>
+       Vitam. Horm
+      </span>
+      .
+      <span>
+       55
+      </span>
+      , 309–352
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Kraus S., Gioeli D., Vomastek T., Gordon V., Weber M. J. (2006)
+      <span>
+       Receptor for activated C kinase 1 (RACK1) and Src regulate the tyrosine phosphorylation and function of the androgen receptor
+      </span>
+      .
+      <span>
+       Cancer Res
+      </span>
+      .
+      <span>
+       66
+      </span>
+      , 11047–11054
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Huggins C., Stevens R., Hodges C. (1941)
+      <span>
+       Studies on prostatic cancer: II. The effects of castration on advanced carcinoma of the prostate gland
+      </span>
+      .
+      <span>
+       Arch. Surg
+      </span>
+      .
+      <span>
+       43
+      </span>
+      , 209–223
+     </span>
+    </sec>
+    <sec>
+     57.
+     <span>
+      Bonaccorsi L., Muratori M., Carloni V., Zecchi S., Formigli L., Forti G., Baldi E. (2003)
+      <span>
+       Androgen receptor and prostate cancer invasion
+      </span>
+      .
+      <span>
+       Int. J. Androl
+      </span>
+      .
+      <span>
+       26
+      </span>
+      , 21–25
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     58.
+     <span>
+      Chuu C. P., Hiipakka R. A., Fukuchi J., Kokontis J. M., Liao S. (2005)
+      <span>
+       Androgen causes growth suppression and reversion of androgen-independent prostate cancer xenografts to an androgen-stimulated phenotype in athymic mice
+      </span>
+      .
+      <span>
+       Cancer Res
+      </span>
+      .
+      <span>
+       65
+      </span>
+      , 2082–2084
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     59.
+     <span>
+      Tauchi T., Feng G. S., Marshall M. S., Shen R., Mantel C., Pawson T., Broxmeyer H. E. (1994)
+      <span>
+       The ubiquitously expressed Syp phosphatase interacts with c-kit and Grb2 in hematopoietic cells
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       269
+      </span>
+      , 25206–25211
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     60.
+     <span>
+      Rodriguez M., Li S. S., Harper J. W., Songyang Z. (2004)
+      <span>
+       An oriented peptide array library (OPAL) strategy to study protein-protein interactions
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       279
+      </span>
+      , 8802–8807
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     61.
+     <span>
+      Deleted in proof.
+     </span>
+    </sec>
+    <sec>
+     62.
+     <span>
+      Sánchez I. E., Beltrao P., Stricher F., Schymkowitz J., Ferkinghoff-Borg J., Rousseau F., Serrano L. (2008)
+      <span>
+       Genome-wide prediction of SH2 domain targets using structural information and the FoldX algorithm
+      </span>
+      .
+      <span>
+       PLoS Comput. Biol
+      </span>
+      .
+      <span>
+       4
+      </span>
+      , e1000052.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     63.
+     <span>
+      Deleted in proof.
+     </span>
+    </sec>
+    <sec>
+     64.
+     <span>
+      Beck J. R., Shultz E. K. (1986)
+      <span>
+       The use of relative operating characteristic (ROC) curves in test performance evaluation
+      </span>
+      .
+      <span>
+       Arch. Pathol. Lab. Med
+      </span>
+      .
+      <span>
+       110
+      </span>
+      , 13–20
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     65.
+     <span>
+      Liaw A., Wiener M. (2002)
+      <span>
+       Classification and regression by randomForest
+      </span>
+      .
+      <span>
+       R News
+      </span>
+      <span>
+       2
+      </span>
+      , 18–22
+     </span>
+    </sec>
+    <sec>
+     66.
+     <span>
+      Breiman L. (2001)
+      <span>
+       Random Forests
+      </span>
+      .
+      <span>
+       Mach. Learn
+      </span>
+      .
+      <span>
+       45
+      </span>
+      , 5–32
+     </span>
+    </sec>
+    <sec>
+     67.
+     <span>
+      Deleted in proof.
+     </span>
+    </sec>
+    <sec>
+     68.
+     <span>
+      Beebe K. D., Wang P., Arabaci G., Pei D. (2000)
+      <span>
+       Determination of the binding specificity of the SH2 domains of protein tyrosine phosphatase SHP-1 through the screening of a combinatorial phosphotyrosyl peptide library
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       39
+      </span>
+      , 13251–13260
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     69.
+     <span>
+      Sweeney M. C., Wavreille A. S., Park J., Butchar J. P., Tridandapani S., Pei D. (2005)
+      <span>
+       Decoding protein-protein interactions through combinatorial chemistry: sequence specificity of SHP-1, SHP-2, and SHIP SH2 domains
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       44
+      </span>
+      , 14932–14947
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     70.
+     <span>
+      Tinti M., Kiemer L., Costa S., Miller M. L., Sacco F., Olsen J. V., Carducci M., Paoluzi S., Langone F., Workman C. T., Blom N., Machida K., Thompson C. M., Schutkowski M., Brunak S., Mann M., Mayer B. J., Castagnoli L., Cesareni G. (2013)
+      <span>
+       The SH2 domain interaction landscape
+      </span>
+      .
+      <span>
+       Cell Reports
+      </span>
+      <span>
+       3
+      </span>
+      , 1293–1305
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     71.
+     <span>
+      Liu B. A., Jablonowski K., Raina M., Arcé M., Pawson T., Nash P. D. (2006)
+      <span>
+       The human and mouse complement of SH2 domain proteins-establishing the boundaries of phosphotyrosine signaling
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       22
+      </span>
+      , 851–868
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     72.
+     <span>
+      Sing T., Sander O., Beerenwinkel N., Lengauer T. (2005)
+      <span>
+       ROCR: visualizing classifier performance in R
+      </span>
+      .
+      <span>
+       Bioinformatics
+      </span>
+      <span>
+       21
+      </span>
+      , 3940–3941
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     73.
+     <span>
+      Birchmeier C., Birchmeier W., Gherardi E., Vande Woude G. F. (2003)
+      <span>
+       Met, metastasis, motility and more
+      </span>
+      .
+      <span>
+       Nat. Rev. Mol. Cell Biol
+      </span>
+      .
+      <span>
+       4
+      </span>
+      , 915–925
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     74.
+     <span>
+      Gentile A., Trusolino L., Comoglio P. M. (2008)
+      <span>
+       The Met tyrosine kinase receptor in development and cancer
+      </span>
+      .
+      <span>
+       Cancer Metastasis Rev
+      </span>
+      ,
+      <span>
+       27
+      </span>
+      , 85–94
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     75.
+     <span>
+      Jo M., Stolz D. B., Esplen J. E., Dorko K., Michalopoulos G. K., Strom S. C. (2000)
+      <span>
+       Cross-talk between epidermal growth factor receptor and c-Met signal pathways in transformed cells
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       275
+      </span>
+      , 8806–8811
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     76.
+     <span>
+      Jones R. B. (2013)
+      <span>
+       Do low-affinity ErbB receptor protein interactions represent the base of a cell signaling iceberg?
+      </span>
+      <span>
+       Expert Rev. Proteomics
+      </span>
+      <span>
+       10
+      </span>
+      , 115–118
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     77.
+     <span>
+      Kerrien S., Aranda B., Breuza L., Bridge A., Broackes-Carter F., Chen C., Duesbury M., Dumousseau M., Feuermann M., Hinz U., Jandrasits C., Jimenez R. C., Khadake J., Mahadevan U., Masson P., Pedruzzi I., Pfeiffenberger E., Porras P., Raghunath A., Roechert B., Orchard S., Hermjakob H. (2012)
+      <span>
+       The IntAct molecular interaction database in 2012
+      </span>
+      .
+      <span>
+       Nucleic Acids Res
+      </span>
+      .
+      <span>
+       40
+      </span>
+      , D841–D846
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

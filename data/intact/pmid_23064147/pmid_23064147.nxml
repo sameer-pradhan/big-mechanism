@@ -1,0 +1,1761 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3501224
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    SAS-6 coiled-coil structure and interaction with SAS-5 suggest a regulatory mechanism in C. elegans centriole assembly
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The centriole is a conserved microtubule-based organelle essential for both centrosome formation and cilium biogenesis. Five conserved proteins for centriole duplication have been identified. Two of them, SAS-5 and SAS-6, physically interact with each other and are codependent for their targeting to procentrioles. However, it remains unclear how these two proteins interact at the molecular level. Here, we demonstrate that the short SAS-5 C-terminal domain (residues 390–404) specifically binds to a narrow central region (residues 275–288) of the SAS-6 coiled coil. This was supported by the crystal structure of the SAS-6 coiled-coil domain (CCD), which, together with mutagenesis studies, indicated that the association is mediated by synergistic hydrophobic and electrostatic interactions. The crystal structure also shows a periodic charge pattern along the SAS-6 CCD, which gives rise to an anti-parallel tetramer. Overall, our findings establish the molecular basis of the specific interaction between SAS-5 and SAS-6, and suggest that both proteins individually adopt an oligomeric conformation that is disrupted upon the formation of the hetero-complex to facilitate the correct assembly of the nine-fold symmetric centriole.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     centriole, crystallography, SAS-5, SAS-6, structure
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Centrioles are self-replicating cylindrical organelles with a unique nine-fold symmetry. They are 0.1–0.5 μm long, 0.1–0.2 μm in diameter, and are essential for assembling centrosomes and cilia in eukaryotic cells (
+    <xref ref-type="bibr">
+     Azimzadeh and Marshall, 2010
+    </xref>
+    ). Defects in centrosome and cilium assembly or function have been linked to a broad spectrum of human diseases (
+    <xref ref-type="bibr">
+     Nigg and Raff, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bettencourt-Dias et al, 2011
+    </xref>
+    ). Centrioles are usually composed of a cartwheel structure and nine triplets of microtubules (MTs) (
+    <xref ref-type="bibr">
+     Preble et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Marshall, 2001
+    </xref>
+    ). Exceptions are singlets in centrioles of
+    <em>
+     Caenorhabditis elegans
+    </em>
+    sperm cells and early embryos (
+    <xref ref-type="bibr">
+     Delattre and Gonczy, 2004
+    </xref>
+    ). Centrioles in
+    <em>
+     C. elegans
+    </em>
+    show a double-layered central tube, which is likely related to the cartwheel structure seen in other species (
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ). Studies in a number of research groups have uncovered five
+    <em>
+     C. elegans
+    </em>
+    centriolar proteins, namely the polo-like kinase ZYG-1 (
+    <xref ref-type="bibr">
+     O'Connell et al, 2001
+    </xref>
+    ), and the four coiled-coil-containing proteins, SPD-2 (
+    <xref ref-type="bibr">
+     Kemp et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pelletier et al, 2004
+    </xref>
+    ), SAS-4 (
+    <xref ref-type="bibr">
+     Kirkham et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leidel and Gonczy, 2003
+    </xref>
+    ), SAS-5 (
+    <xref ref-type="bibr">
+     Dammermann et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Delattre et al, 2004
+    </xref>
+    ), and SAS-6 (
+    <xref ref-type="bibr">
+     Dammermann et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leidel and Gonczy, 2005
+    </xref>
+    ). Homologues of these proteins have been identified in flies and humans (
+    <xref ref-type="bibr">
+     Hung et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Andersen et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bettencourt-Dias et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Habedanck et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leidel et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Basto et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Stevens et al, 2010a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tang et al, 2011
+    </xref>
+    ). Recently, it was reported that the protein phosphatase PP2A also plays an important role in centriole assembly by regulating SAS-5 recruitment and/or maintaining the structural stability of SAS-5 and ZYG-1 (
+    <xref ref-type="bibr">
+     Song et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kitagawa et al, 2011a
+    </xref>
+    ). In green algae and humans, Cep135/Bld10 also participates in the formation of the cartwheel structure during centriole assembly (
+    <xref ref-type="bibr">
+     Hiraki et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mottier-Pavie and Megraw, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    RNAi and mating-based assays in
+    <em>
+     C. elegans
+    </em>
+    have shown that centriole duplication is a multistep process, with the five centriolar proteins being recruited in a sequential manner (
+    <xref ref-type="bibr">
+     Delattre et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dammermann et al, 2008
+    </xref>
+    ). First, SPD-2 is brought close to the mother centriole. The kinase ZYG-1, which is required for the subsequent recruitment of the SAS-5/SAS-6 complex, is then incorporated into the nascent daughter centriole. SAS-5 and SAS-6 together form the initial central tube. Subsequently, SAS-4 is recruited to build an outer layer of the central tube. Finally, nine singlet MTs are assembled around the central tube to generate a daughter centriole that is identical to the mother.
+   </p>
+   <p>
+    The nine-spoked cartwheel is the first assembled structure during centriole duplication in many organisms, and SAS-6 has been previously shown to ensure the nine-fold symmetry of centrioles in green alga (
+    <xref ref-type="bibr">
+     Nakazawa et al, 2007
+    </xref>
+    ). Recently, crystal structures of the N-terminal head group of SAS-6 from several organisms have been determined, which suggested that SAS-6 could self-associate
+    <em>
+     in vitro
+    </em>
+    into assemblies akin to the central hub of the cartwheel (
+    <xref ref-type="bibr">
+     van Breugel et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kitagawa et al, 2011b
+    </xref>
+    ). However, whether SAS-6 alone could faithfully drive the formation of the strict nine-fold symmetry of centrioles is still a matter of some debate (
+    <xref ref-type="bibr">
+     Cottee et al, 2011
+    </xref>
+    ). Indeed, modelling the oligomeric assembly of SAS-6 using the crystal structures of the
+    <em>
+     Chlamydomonas reinhardtii
+    </em>
+    and
+    <em>
+     Danio rerio
+    </em>
+    SAS-6 head groups results in spirals of different orientations or a flat ring that fits into an eight-fold symmetry (
+    <xref ref-type="bibr">
+     Cottee et al, 2011
+    </xref>
+    ). Furthermore, the oligomeric structure of recombinant
+    <em>
+     Drosophila
+    </em>
+    SAS-6 (DSAS-6) is different from the
+    <em>
+     in vivo
+    </em>
+    structure of centrioles (
+    <xref ref-type="bibr">
+     Gopalakrishnan et al, 2010
+    </xref>
+    ). Similarly, overexpression of DSAS-6 in
+    <em>
+     Drosophila
+    </em>
+    embryos resulted in
+    <em>
+     de novo
+    </em>
+    formation of irregular tube-like structures that can be much larger than the centriole; interestingly, overexpression of other centriolar proteins such as SAS-4 and the polo-like kinase SAK also generates such tube-like structures (
+    <xref ref-type="bibr">
+     Peel et al, 2007
+    </xref>
+    ). Intriguingly, although the binding affinity between the head groups of
+    <em>
+     C. elegans
+    </em>
+    SAS-6 is comparable to that of
+    <em>
+     C. reinhardtii, H. sapiens
+    </em>
+    , and
+    <em>
+     D. rerio
+    </em>
+    SAS-6, recombinant
+    <em>
+     C. elegans
+    </em>
+    SAS-6 alone does not form a cartwheel-like structure similar to that of non-nematode SAS-6 proteins (
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van Breugel et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kitagawa et al, 2011b
+    </xref>
+    ). Notably, the head group interaction of different SAS-6 proteins (dissociation constant (
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    )∼60–110 μM) is relatively weak and has been thought unlikely to be the driving force for forming the nine-fold symmetry (
+    <xref ref-type="bibr">
+     Cottee et al, 2011
+    </xref>
+    ). Taken together, these data suggest that faithful duplication of the strict nine-fold symmetric centrioles likely requires other symmetry-ensuring factors.
+   </p>
+   <p>
+    It was shown previously that, although overexpression of DSAS-6 alone resulted in an irregular tube-like structure, co-overexpression of DSAS-6 with Ana2, the putative
+    <em>
+     Drosophila
+    </em>
+    orthologue of SAS-5, generated a highly ordered tubular structure, the SAS tubule. This structure looked the same as the
+    <em>
+     in vivo
+    </em>
+    cartwheel structure, suggesting that Ana2 assists SAS-6 in
+    <em>
+     Drosophila
+    </em>
+    centriole assembly (
+    <xref ref-type="bibr">
+     Stevens et al, 2010b
+    </xref>
+    ). Similarly, STIL, the putative vertebrate orthologue of SAS-5, regulates centrosome integrity (
+    <xref ref-type="bibr">
+     Castiel et al, 2011
+    </xref>
+    ), and depletion of either SAS-6 or STIL made the other protein fail to target to the procentriole, indicating that SAS-6 and STIL in vertebrates are mutually dependent for centriolar localization (
+    <xref ref-type="bibr">
+     Tang et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Arquint et al, 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vulprecht et al, 2012
+    </xref>
+    ). Earlier experiments carried out in worms revealed that SAS-5 and SAS-6 physically interact with each other for their codependent centriolar localization and that centriole duplication failed in embryos with a
+    <em>
+     sas-5
+    </em>
+    -mutant that fails to interact with SAS-6, indicating that SAS-5 works synergistically with SAS-6 in
+    <em>
+     C. elegans
+    </em>
+    centriole assembly (
+    <xref ref-type="bibr">
+     Leidel et al, 2005
+    </xref>
+    ). Altogether, these findings suggest that the SAS-5/Ana2/STIL family of proteins is likely the extra factor needed for SAS-6 to generate the nine-fold symmetry of centrioles.
+   </p>
+   <p>
+    It was previously reported that SAS-5 binds to the SAS-6 coiled coil and that SAS-6 fails to interact with the
+    <em>
+     sas-5
+    </em>
+    (
+    <em>
+     t2079
+    </em>
+    ) mutant, which corresponds to a C-terminal single-residue mutation of SAS-5, R397C (
+    <xref ref-type="bibr">
+     Leidel et al, 2005
+    </xref>
+    ). Studies of centriole duplication in
+    <em>
+     C. elegans
+    </em>
+    indicate that the SAS-5/SAS-6-based central tube is the first observable structure in procentrioles, which grows wider upon the recruitment of SAS-4 (
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ). However, it remains elusive what the molecular mechanism of SAS-5 and SAS-6 interaction is and how the central tube of
+    <em>
+     C. elegans
+    </em>
+    centrioles is formed.
+   </p>
+   <p>
+    In this study, we determine the crystal structure of the
+    <em>
+     C. elegans
+    </em>
+    SAS-6 coiled coil and establish the molecular basis for SAS-5/SAS-6 interaction using structure-based mutagenesis studies. We further show that purified SAS-5/SAS-6 complex assembles into semicircular or arc-like structures with a diameter similar to that of the central tube of
+    <em>
+     C. elegans
+    </em>
+    centrioles and that their interaction disrupts the autoinhibitory oligomerization of both SAS-5 and SAS-6. Based on our findings and previous reports, we propose a molecular mechanism for centriole duplication in
+    <em>
+     C. elegans
+    </em>
+    .
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     The C-terminal domain of SAS-5 is both necessary and sufficient for interaction with SAS-6
+    </title>
+    <p>
+     Previous studies using yeast two-hybrid assays showed that the interaction between SAS-6 and SAS-5 was undetectable when using SAS-5 corresponding to the
+     <em>
+      sas-5
+     </em>
+     (
+     <em>
+      t2079
+     </em>
+     ) mutant allele (
+     <xref ref-type="bibr">
+      Leidel et al, 2005
+     </xref>
+     ). Since this mutation (R397→C) is located close to the C-terminus of SAS-5 and as the last 15 residues of SAS-5 are predicted to form an α helix, we wondered whether this C-terminal helix alone is sufficient for binding SAS-6. To test this, we carried out
+     <em>
+      in vitro
+     </em>
+     pull-down experiments using five truncations of SAS-5 in addition to the full-length protein (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). In order to increase yield and to better visualize the smaller fragments, we added maltose-binding protein (MBP,
+     <em>
+      M
+     </em>
+     <sub>
+      w
+     </sub>
+     ∼42 kDa) as a fusion tag to the N-termini of all six constructs (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Our
+     <em>
+      in vitro
+     </em>
+     pull-down results showed that the SAS-5 CTD (residues 390–404) is both necessary and sufficient to bind SAS-6 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). In a control experiment, we used MBP-loaded Ni-NTA beads to pull down SAS-5, which shows no bound SAS-5 (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ), indicating that the determined interaction between SAS-5 and SAS-6 is specific. Notably, during purification of SAS-6 we consistently observed two degraded fragments on SDS–PAGE gels (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , asterisks). Using N-terminal amino-acid analysis, we found that the two fragments correspond to sequences starting at residues 225 and 239, respectively. This indicates that this neck region of SAS-6 (in reference to the head group and the coiled-coil tail), approximately spanning residues 220–240, is flexible and prone to proteolysis.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The C-terminal domain of SAS-5 interacts with the central part of the SAS-6 coiled coil. (
+       <strong>
+        A
+       </strong>
+       ) Deletion constructs of SAS-5 used for
+       <em>
+        in vitro
+       </em>
+       binding assays with SAS-6. CTD, carboxy-terminal domain. Numbers indicate amino-acid positions or ranges. The right column shows a summary of the binding results in (
+       <strong>
+        C
+       </strong>
+       ). (
+       <strong>
+        B
+       </strong>
+       ) Purified MBP and soluble fractions of MBP-tagged SAS-5 proteins for
+       <em>
+        in vitro
+       </em>
+       pull-down assays. (
+       <strong>
+        C
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       pull-down results of SAS-5 proteins using Ni-NTA bound full-length SAS-6 as the bait. MBP is used as a negative control for detecting tag-dependent binding. SAS-5 proteins specifically pulled down by SAS-6 are indicated with arrowheads. Marked by asterisks are the two degradation products of SAS-6. (
+       <strong>
+        D
+       </strong>
+       ) No non-specific interaction to the resin or the MBP tag was detected. (
+       <strong>
+        E
+       </strong>
+       ) Truncation constructs of SAS-6 used for
+       <em>
+        in vitro
+       </em>
+       binding assays with the SAS-5 CTD. The right column shows the summary of the binding results in (
+       <strong>
+        G
+       </strong>
+       ). (
+       <strong>
+        F
+       </strong>
+       ) Soluble fractions of SAS-6 proteins used in the
+       <em>
+        in vitro
+       </em>
+       pull-down assays. Arrowheads indicate the target proteins. (
+       <strong>
+        G
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       pull-down results of SAS-6 proteins using amylose beads preloaded with the MBP-tagged SAS-5 CTD as the bait. Filled arrowheads indicate SAS-6 proteins pulled down by SAS-5. An empty arrowhead indicates the MBP-dependent non-specific binding of the construct containing residues 1–218 of SAS-6, which is comparable to what is seen in the control experiment in (
+       <strong>
+        H
+       </strong>
+       ). Asterisks indicate the degradation products of SAS-6. (
+       <strong>
+        H
+       </strong>
+       ) Control experiments to show no non-specific binding of SAS-6 proteins to the MBP tag.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The C-terminal domain of SAS-5 binds specifically to the central part of the SAS-6 coiled coil
+    </title>
+    <p>
+     It was previously reported that SAS-5 binds specifically to the coiled-coil domain (CCD) of SAS-6 (residues 180–415) (
+     <xref ref-type="bibr">
+      Leidel et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Boxem et al, 2008
+     </xref>
+     ). Our results in
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     show that only the last 15 residues of the SAS-5 CTD are required for SAS-6 interaction. As this CTD is much smaller in size compared with the SAS-6 coiled coil, we anticipated that only a small segment of the SAS-6 coiled coil would be involved in the interaction. To locate the SAS-5-binding site, we generated six truncations of SAS-6 (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ), which were all expressed and soluble in solution (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). We then carried out
+     <em>
+      in vitro
+     </em>
+     binding assays using amylose beads preloaded with the MBP-tagged SAS-5 CTD to pull down SAS-6 protein. The SAS-5 CTD specifically bound to the central region of the SAS-6 coiled coil, spanning residues 248–303 (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ). In a control assay we used MBP alone as the bait to pull down SAS-6 and no significant binding was detected (
+     <xref ref-type="fig">
+      Figure 1H
+     </xref>
+     ), showing that the interaction between the SAS-5 CTD and the SAS-6 coiled coil is specific. In a reciprocal binding experiment, we used Ni-NTA bound SAS-6 constructs to pull down the MBP-tagged SAS-5 CTD, which further confirms that SAS-5 binds to the same region of the SAS-6 coiled coil (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystal structure of the SAS-6 CCD reveals an electrostatic periodicity along the coiled coil
+    </title>
+    <p>
+     To investigate the interaction between SAS-5 and SAS-6 at the molecular level, we determined the crystal structure of the SAS-6 CCD (residues 248–410). This segment contains the SAS-5-binding site mapped above. The structure was determined to 3.3-Å resolution (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). In the structure, each of the two chains is folded into a continuous α helix spanning residues 250–407. The two helices form a parallel coiled coil extending to 230 Å in length. Interestingly, an electrostatic surface plot indicated that the SAS-6 CCD exhibits a periodically charged pattern along the coiled coil—the segments spanning residues 250–293 and 343–390 are predominantly negatively charged, and residues 294–342 and 391–407 are mainly positively charged (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). Sequence alignment of SAS-6 proteins from three different
+     <em>
+      Caenorhabditis
+     </em>
+     species indicated that the surface of the coiled-coil region preceding the CCD, spanning residues 220–250, is also negatively charged (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ), whereas the C-terminal part of SAS-6 (residues 410–492) contains five conserved lysine/arginine residues and is positively charged (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). Previously published crystal structures of SAS-6 proteins have shown that the head group together with the N-terminal part of the CCD of SAS-6 forms a dimer (
+     <xref ref-type="bibr">
+      van Breugel et al, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kitagawa et al, 2011b
+     </xref>
+     ). Taken together, we conclude that
+     <em>
+      C. elegans
+     </em>
+     SAS-6 folds into a tadpole-like structure with an alternating charge distribution along its coiled-coil tail (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Crystal structure of the SAS-6 CCD. (
+       <strong>
+        A
+       </strong>
+       ) Stereo view of a representative portion of the 2
+       <em>
+        F
+       </em>
+       <sub>
+        o
+       </sub>
+       –
+       <em>
+        F
+       </em>
+       <sub>
+        c
+       </sub>
+       experimental electron density map covering residues 268–290 (contoured at 2.0 σ). For clarity, only the main chains of the final model are shown. (
+       <strong>
+        B
+       </strong>
+       ) Ribbon diagram and electrostatic surface plot of the SAS-6 CCD structure. Residues at the boundaries of differently charged segments are indicated. (
+       <strong>
+        C
+       </strong>
+       ) Schematic representation of the SAS-6 dimer. Dashed lines indicate the regions lacking a known structure. Positive and negative charges along the coiled coil and in the C-terminal domain are depicted as ‘+' and ‘−', respectively.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Data collection and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Association of SAS-5 and SAS-6 is based on synergistic hydrophobic and electrostatic interactions
+    </title>
+    <p>
+     To further narrow down the specific binding site of SAS-5 on SAS-6, we generated multiple structure-based deletion constructs of SAS-6 in the coiled-coil region covering residues 248–303 that is essential for their interaction (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). To avoid disrupting or distorting the coiled-coil structure, each deletion removed
+     <em>
+      n
+     </em>
+     × 7 residues (
+     <em>
+      n
+     </em>
+     =2, 3, or 4) to maintain the register of the heptad repeats of the coiled coil. We also generated a deletion outside of this region, spanning residues 317–344, as a control to show that a partial deletion of the SAS-6 coiled coil did not affect its folding or the binding ability of the neighbouring region to SAS-5. Using
+     <em>
+      in vitro
+     </em>
+     pull-down assays, we determined that the region containing residues 275–288 of SAS-6 is essential for SAS-5 binding (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Association of the SAS-5 CTD and the SAS-6 CCD is mediated by synergistic hydrophobic and electrostatic interactions. (
+       <strong>
+        A
+       </strong>
+       ) Schematic of SAS-6 deletion constructs. The right column summarizes the interaction results in (
+       <strong>
+        B
+       </strong>
+       ). (
+       <strong>
+        B
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       pull-down results of MBP-tagged SAS-5 CTD using Ni-NTA bound SAS-6 as the bait. The two deletions of SAS-6 that failed to pull down SAS-5 are indicated with arrowheads. (
+       <strong>
+        C
+       </strong>
+       ) Sequence alignment of the SAS-5-binding site from three
+       <em>
+        Caenorhabditis
+       </em>
+       species
+       <em>
+        . Ce, Caenorhabditis elegans; Cr, C. remanei; Cb, C. briggsae.
+       </em>
+       Mutations of the four groups of conserved, solvent-exposed residues (to alanines) are highlighted in different colours. (
+       <strong>
+        D
+       </strong>
+       ) Coomassie stained SDS–PAGE gel showing the result of
+       <em>
+        in vitro
+       </em>
+       pull-down of SAS-5 by wild-type (wt) and the four mutations of SAS-6. All mutations except for mC failed to interact with SAS-5. (
+       <strong>
+        E
+       </strong>
+       ) Sequence of the SAS-5 CTD. Eleven mutations are indicated as M1–M11. (
+       <strong>
+        F
+       </strong>
+       ) Coomassie stained SDS–PAGE gel showing the results of
+       <em>
+        in vitro
+       </em>
+       pull-down of wild-type or mutants of the SAS-5 CTD by SAS-6. The four mutations that show a drastic decrease of binding to SAS-5 are indicated with arrowheads. (
+       <strong>
+        G
+       </strong>
+       ) Docking the SAS-5 CTD to its binding site on the SAS-6 CCD by ClusPro 2.0 (
+       <xref ref-type="bibr">
+        Kozakov et al, 2010
+       </xref>
+       ). Side chains of the residues that participate in the interaction are shown.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To determine which individual residues are directly involved in the interaction, we generated four structure-based mutations of all residues in this 14-residue segment that are conserved among
+     <em>
+      Caenorhabditis
+     </em>
+     species but are not parts of the coiled-coil interface (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     , mA, mB, mC, and mD). Results of the
+     <em>
+      in vitro
+     </em>
+     pull-down experiments indicated that mutations of either the central hydrophobic residues (mB: I279A+M283A) or the flanking negatively charged residues (mA: E275A+E276A+E278A, mD: E287A) nearly completely abolished the SAS-5/SAS-6 interaction. In contrast, mutation of another charged residue in the same region (mC: E286A) seemed not to affect the interaction (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). The influence of the mutations on the SAS-5/SAS-6 interaction was further measured by isothermal titration calorimetry (ITC) assays. These indicated that each of the three mutations (mA, mB, and mD) completely abolished the interaction between SAS-5 and SAS-6, whereas the mutation mC only slightly reduced the binding affinity (
+     <a>
+      Supplementary Figure S4A
+     </a>
+     ). Given that all these mutated residues are solvent exposed, as seen in the crystal structure, this suggests that the interaction between SAS-5 and SAS-6 is structure-based rather than a non-specific electrostatic interaction.
+    </p>
+    <p>
+     We showed above that the SAS-5 CTD (residues 390–404) is responsible for interacting with SAS-6 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). To further identify which residues in this region are directly involved in the interaction with SAS-6, we generated 11 mutations in the SAS-5 CTD that substituted each non-alanine residue with an alanine, except for the residue R397, which was replaced by a cysteine as in the previously reported
+     <em>
+      sas-5
+     </em>
+     (
+     <em>
+      t2079
+     </em>
+     ) mutant (
+     <xref ref-type="bibr">
+      Leidel et al, 2005
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). All SAS-5 CTD mutations were fused to the C-terminus of MBP to facilitate the visualization of the proteins on SDS–PAGE gels. We then carried out
+     <em>
+      in vitro
+     </em>
+     binding assays using Ni-NTA bound 6 × His–SAS-6 (residues 1–410) to pull down SAS-5. While most of the mutations did not affect the amount of SAS-5 pulled down, four of them (M4/I396A, M5/R397C, M8/Y400A, and M10/R403A) drastically reduced the interaction between SAS-6 and SAS-5 (
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     ). To quantitate the influence of the mutations on the interaction, we again carried out ITC experiments using individually purified proteins. None of the four mutations that could not be pulled down by SAS-6 showed a measurable
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     (
+     <a>
+      Supplementary Figure S4B
+     </a>
+     ).
+    </p>
+    <p>
+     In summary, we have identified the residues on both SAS-5 and SAS-6 that are directly involved in the interaction of these two centriolar proteins. These data, together with the crystal structure of the SAS-6 CCD and the predicted helical structure of the SAS-5 CTD, allowed us to generate a docking model for the interaction between the two proteins (
+     <xref ref-type="fig">
+      Figure 3G
+     </xref>
+     ). The docking was carried out by ClusPro 2.0 (
+     <xref ref-type="bibr">
+      Kozakov et al, 2010
+     </xref>
+     ) using the crystal structure of the SAS-6 CCD as the receptor and a theoretical helical model of the SAS-5 CTD as the ligand. Multiple predicted interaction models were generated (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ). In a representative docked model, the helix of the SAS-5 CTD was placed nearly perpendicular onto the SAS-6 coiled coil. This arrangement allowed both the hydrophobic interactions between the central two pairs of non-polar residues (SAS-6: I279/M283 versus SAS-5: I396/Y400) and the electrostatic interactions between the flanking oppositely charged residues (SAS-6: E275/E276/E278 versus SAS-5: R403). However, the distance between E287 of SAS-6 and R397 of SAS-5 seems too far for establishing an electrostatic interaction. One possibility is that the side chains of these two charged residues form salt bridges with the backbone of the opposite molecule. Alternatively, the SAS-6 coiled coil might bend at the interaction site to maximize the intermolecular contacts, which has been seen in other interactions between a helix and a coiled coil (
+     <xref ref-type="bibr">
+      Sibanda et al, 2001
+     </xref>
+     ). Given the nearly symmetric arrangement of the SAS-6 coiled coil and the stoichiometry of the complex (SAS-6 dimer: SAS-5=1:1. See the ITC results in
+     <a>
+      Supplementary Figure S4
+     </a>
+     ), it suggests that SAS-5 only binds to one of the two interacting sites on the SAS-6 coiled coil, which implies that binding of SAS-5 to one site either occludes the other site from binding SAS-5 or disrupts the structural symmetry by inducing local conformational changes of the SAS-6 coiled coil.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutations in the SAS-6 CCD disrupt centriolar recruitment and function in centriole assembly in C. elegans embryos
+    </title>
+    <p>
+     Previous work has shown that SAS-5 does not localize and centriole assembly fails in
+     <em>
+      C. elegans
+     </em>
+     embryos carrying a mutation in the C-terminal domain of SAS-5 disrupting its interaction with SAS-6 (
+     <xref ref-type="bibr">
+      Delattre et al, 2004
+     </xref>
+     ). Similar results would be expected with SAS-6 if we disrupt its interaction with SAS-5, given the co-dependence of SAS-5 and SAS-6 for each other's recruitment (
+     <xref ref-type="bibr">
+      Leidel et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dammermann et al, 2008
+     </xref>
+     ). To determine whether this prediction holds true and to confirm our
+     <em>
+      in vitro
+     </em>
+     data, we set out to examine this question in
+     <em>
+      C. elegans
+     </em>
+     .
+    </p>
+    <p>
+     Re-encoded GFP transgenes have been used successfully in
+     <em>
+      C. elegans
+     </em>
+     to confirm functionality following depletion of the endogenous protein by RNAi (
+     <xref ref-type="bibr">
+      Dammermann et al, 2008
+     </xref>
+     ). However, the intrinsic variabilty in germline expression associated with traditional methods of transformation, notably ballistic bombardment, made comparisons of different mutant isoforms unreliable. The recently established method of Mos1 transposon-mediated insertion at a defined integration site eliminates that variability by providing a fixed chromosomal context for transgene expression (
+     <xref ref-type="bibr">
+      Frokjaer-Jensen et al, 2008
+     </xref>
+     ). Any differences in phenotype can therefore be confidently assigned to the mutations introduced prior to transformation. We first generated a wild-type SAS-6:GFP fusion under the control of its own promoter and regulatory elements. This fusion was found to be fully functional in restoring centriole assembly and rescuing embryo viability following RNAi-mediated depletion of endogenous SAS-6 (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ), as well as in the context of a putative null mutant deleting most of the SAS-6 open reading frame (
+     <em>
+      sas-6(ok2554)
+     </em>
+     ; data not shown).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       <em>
+        In vivo
+       </em>
+       analysis of SAS-6 mutants mA and mD in
+       <em>
+        C. elegans
+       </em>
+       embryos. (
+       <strong>
+        A
+       </strong>
+       ) GFP fusions to wild-type SAS-6 and mutants mA and mD localize to centrioles. However, only wild-type SAS-6:GFP can sustain centriole assembly and consequently spindle bipolarity following depletion of endogenous SAS-6 by isoform-specific RNAi. All wild-type SAS-6:GFP embryos displayed bipolar second divisions following depletion of endogenous SAS-6, all mutant embryos monopolar second divisions.
+       <em>
+        N
+       </em>
+       =10/9 embryos wild-type, 8/22 embryos mA, and 11/17 embryos mD (control/RNAi). Note that GFP signal in RNAi-depleted mutant embryos reflects sperm centriole-associated SAS-6:GFP unaffected by depletion. (
+       <strong>
+        B
+       </strong>
+       ) Centriolar recruitment of SAS-6 requires interaction with SAS-5. Mating was used to introduce mCherry:SAS-4-labelled centrioles into each SAS-6:GFP strain, thereby marking the site of centriole assembly. All embryos are in late prophase-metaphase of the first embryonic division. SAS-6 was detected in wild-type SAS-6:GFP strain following depletion of endogenous SAS-6, but severely diminished in SAS-6 mutants as well as following depletion of SAS-5 in wild-type worms. Scale bar is 10 μm. Insets are magnified × 3. Images in (
+       <strong>
+        B
+       </strong>
+       ) are scaled identically across all strains and conditions to allow cross-comparison.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next generated constructs carrying each of the three sets of mutations that disrupted interaction with SAS-5
+     <em>
+      in vitro
+     </em>
+     (mA, mB, and mD) and used these for
+     <em>
+      C. elegans
+     </em>
+     transformation. For mA and mD we obtained several independent strains with identical behaviour. We were unable to generate a strain carrying an integration of mB. This may be due to technical limitations or reflect differences in the ability of
+     <em>
+      C. elegans
+     </em>
+     to tolerate the two classes of mutations (mA, mD charged versus mB hydrophobic). Interestingly, SAS-6 mutants mA and mD both localized to centrioles, at levels not appreciably different from wild-type SAS-6, in control embryos (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). However, neither mutant could sustain centriole assembly following depletion of the endogenous protein by RNAi, with the characteristic monopolar second division phenotype observed in all embryos (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). Note that under the standard RNAi regimen, sperm centrioles are unaffected by RNAi-mediated depletion, and these do remain GFP:SAS-6 positive, even for the two SAS-6 mutants.
+    </p>
+    <p>
+     To specifically assess recruitment to the site of new centriole assembly, mating can be used to introduce unlabelled sperm centrioles (
+     <xref ref-type="bibr">
+      Kirkham et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dammermann et al, 2004
+     </xref>
+     ) or centrioles marked with mCherry:SAS-4 (
+     <xref ref-type="bibr">
+      Dammermann et al, 2008
+     </xref>
+     ), the latter being particularly useful for live assays. Since SAS-6 stably incorporates into centrioles (
+     <xref ref-type="bibr">
+      Dammermann et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Leidel et al, 2005
+     </xref>
+     ), any GFP signal seen under mating conditions reflects new recruitment, rather than exchange of sperm centriole-associated SAS-6 with the cytoplasmic pool. Under these conditions, SAS-6 recruitment was nearly completely abolished for both mutants when endogenous SAS-6 was depleted, similar to what was seen with wild-type SAS-6 following depletion of SAS-5 (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Thus, the residues mutated in mA and mD are indeed critical for SAS-6 recruitment and function in centriole assembly, and the severity of the phenotype mirrors that of depleting SAS-5 itself.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SAS-6 molecules form an anti-parallel tetramer through the electrostatic interactions of their CCDs
+    </title>
+    <p>
+     Our rotary metal shadowing electron microscopy studies of purified recombinant SAS-6 protein showed that although many of the observed particles are tadpole-like structures as reported previously (
+     <xref ref-type="bibr">
+      Kitagawa et al, 2011b
+     </xref>
+     ), a significant fraction of them (∼20%) are dumbbell-like structures with a central rod measuring 35–45 nm in length (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). As shown in
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     , there is an alternating charge distribution along the SAS-6 CCD, which we suspected may dictate further self-association of SAS-6 dimers along their coiled coils. To test this hypothesis, we carried out a dilution ITC experiment that has been used successfully for analysing the dissociation equilibrium of other proteins (
+     <xref ref-type="bibr">
+      Lovatt et al, 1996
+     </xref>
+     ). In this assay, a series of small aliquots of concentrated SAS-6 CCD were injected into a large volume of buffer, which generated a sequence of endothermic heat pulses, characteristic of molecular dissociation (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , upper panel). It has been reported that the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of the SAS-6 coiled-coil dimer is ∼0.9 μM (
+     <xref ref-type="bibr">
+      Kitagawa et al, 2011b
+     </xref>
+     ). The fit dissociation curve had a
+     <em>
+      K
+     </em>
+     <sub>
+      diss
+     </sub>
+     of 56.2±7.6 μM and ΔH
+     <sub>
+      diss
+     </sub>
+     of 2.84±0.05 kcal/mol, which suggests a dimer-tetramer equilibrium (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , lower panel). The tetrameric association of the SAS-6 CCD is apparently much weaker than the coiled-coil dimer and thus may not always survive the grid preparation for rotary metal shadowing as the coiled-coil dimer does. This explains why the dumbbell-like tetramer structure was not as frequently observed as the tadpole-like structure of the SAS-6 dimer.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       <em>
+        C. elegans
+       </em>
+       SAS-6 alone forms an anti-parallel tetramer, whereas binding of SAS-5 disrupts the tetrameric association of SAS-6. (
+       <strong>
+        A
+       </strong>
+       ) Schematic model and the rotary metal shadowing electron micrographs of recombinant SAS-6. Scale bars: 30 nm. (
+       <strong>
+        B
+       </strong>
+       ) Experimental and integrated dilution ITC curves for the SAS-6 CCD (residues 248–410). (
+       <strong>
+        C
+       </strong>
+       ) Docking of the SAS-6 CCD self-association by the automated protein docking program ClusPro 2.0 (
+       <xref ref-type="bibr">
+        Kozakov et al, 2010
+       </xref>
+       ). Both ribbon diagrams and electrostatic surface plots are shown. Boxed are the SAS-5-binding sites on the SAS-6 CCD. (
+       <strong>
+        D
+       </strong>
+       ) Experimental and integrated dilution ITC curves for SAS-6 CCD+SAS-5 CTD. (
+       <strong>
+        E
+       </strong>
+       ) SLS analysis of the complex of the SAS-6 CCD and the MBP–SAS-5 CTD. The SAS-6 CCD by itself forms a dimer (
+       <em>
+        M
+       </em>
+       <sub>
+        w
+       </sub>
+       ∼38 kDa), whereas mixing it with the MBP–SAS-5 CTD (molar ratio=1:1.5) gave rise to a hetero-trimer (
+       <em>
+        M
+       </em>
+       <sub>
+        w
+       </sub>
+       ∼80 kDa).
+       <em>
+        M
+       </em>
+       <sub>
+        w
+       </sub>
+       of the MBP–SAS-5 CTD is 44 kDa. (
+       <strong>
+        F
+       </strong>
+       ) Rotary metal shadowing electron micrographs of SAS-6 (residues 1–410). Scale bar: 30 nm. (
+       <strong>
+        G
+       </strong>
+       ) Rotary shadowing electron micrographs of SAS-6 in complex with MBP-tagged SAS-5 CTD. Arrowheads indicate the bound SAS-5 on the SAS-6 coiled coil. Scale bar: 30 nm.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To better understand the self-association of the SAS-6 CCD, we subjected our solved crystal structure of the SAS-6 CCD to the ClusPro 2.0 protein–protein docking server (
+     <xref ref-type="bibr">
+      Kozakov et al, 2010
+     </xref>
+     ). Docking results suggested an anti-parallel interaction of the coiled coils, with the opposite charges complementing each other in each segment (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). The fully extended central rod of the anti-parallel SAS-6 tetramer based on this docking model is calculated to be ∼45-nm long, which is in agreement with the length of the rod in the dumbbell-like structure seen in the electron micrographs (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). The length variation of the central rods in the dumbbell-like structures is likely due to the flexible region at the N-terminal part of the coiled coil as shown above (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , asterisks). These data altogether suggest that
+     <em>
+      C. elegans
+     </em>
+     SAS-6 forms a dumbbell-like tetramer through the anti-parallel association of the coiled coils. Notably, the SAS-5-binding sites on the SAS-6 CCD are obscured in the anti-parallel SAS-6 tetramer (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , boxes).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Binding of SAS-5 both disrupts the tetrameric association of the SAS-6 CCD and promotes the formation of an ordered structure reminiscent of the central tube of C. elegans centrioles
+    </title>
+    <p>
+     We found that SAS-5 binds specifically to a segment of the SAS-6 CCD that is part of the periodic charge region being obscured in the anti-parallel tetramer (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , boxes). Moreover, the interaction between SAS-5 and SAS-6 (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼2 μM) is over one order of magnitude stronger than the self-association of the SAS-6 CCD tetramer (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼56 μM). Therefore, binding of SAS-5 should potentially disrupt SAS-6 self association. To test this, we carried out a dilution ITC assay similar to that for the SAS-6 CCD alone but with 1.5 × fold (molar ratio) of the SAS-5 CTD supplemented to both the injections and the buffer. The presence of the SAS-5 CTD in the buffer prevents the dissociation of the SAS-5/SAS-6 complex. However, in case that the anti-parallel self-association of SAS-6 is not affected by SAS-5 binding, we would still observe the dissociation of the tetramer of the SAS-6 CCD to dimers. As shown in
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , no endothermic heat pulses were observed, which was in contrast to the strong dissociation signal for the SAS-6 CCD (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). This suggests that binding of SAS-5 either stabilizes the SAS-6 CCD tetramer or disrupts the tetrametric association of the SAS-6 CCD. As shown in
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     , analysis of the complex by static light scattering (SLS) indicated that the complex is a hetero-trimer (
+     <em>
+      M
+     </em>
+     <sub>
+      w
+     </sub>
+     ∼80 kDa;
+     <em>
+      M
+     </em>
+     <sub>
+      w
+     </sub>
+     s of the SAS-6 CCD monomer and the MBP–SAS-5 CTD are 19 and 44 kDa, respectively). Furthermore, examination by rotary metal shadowing electron microscopy indicated that while SAS-6 (residues 1–410) alone forms a tadpole-like structure (
+     <xref ref-type="fig">
+      Figure 5F
+     </xref>
+     ), the complex shows a bound MBP-tagged SAS-5 CTD in the middle of the SAS-6 tail (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     ). Therefore, it is the latter case that accounts for the loss of endothermic heat pulses in the ITC. Moreover, examination using dynamic light scattering also indicates that the SAS-5 CTD shifts the equilibrium between two species of the SAS-6 CCD into one species when mixing the two proteins in a stoichiometric 1:1 ratio (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). Therefore, binding of SAS-5 disrupts the tetrameric association of the SAS-6 CCD.
+    </p>
+    <p>
+     As seen in
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     , mutations of SAS-6 residues involved in SAS-5 interaction disrupt SAS-6 centriolar recruitment comparably to what occurs in SAS-5 depletion, which is consistent with previous report that SAS-5 and SAS-6 are mutually dependent for their centrosome localization (
+     <xref ref-type="bibr">
+      Pelletier et al, 2006
+     </xref>
+     ). Observation of the tadpole- and dumbbell-like structures (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) rather than the cartwheel structure of recombinant
+     <em>
+      C. elegans
+     </em>
+     SAS-6 suggests that SAS-5 may play a critical role for establishing the nine-fold symmetry of
+     <em>
+      C. elegans
+     </em>
+     centroles. To find this out, we used rotary metal shadowing electron microscopy to examine the purified complex of recombinant SAS-6 and MBP-tagged SAS-5. Interestingly, we repeatedly observed curved structures (
+     <em>
+      n
+     </em>
+     =22) with particles of the same size arranged with a similar distance in between (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). These particles are 2–3 times larger than the SAS-6 head group shown in
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     and are likely SAS-5 molecules. The mean diameter of the fit rings of these structures is 63.2±9.2 nm (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ), which is in good agreement with the 60-nm diameter of the inner layer of the central tube of
+     <em>
+      C. elegans
+     </em>
+     centrioles (
+     <xref ref-type="bibr">
+      Pelletier et al, 2006
+     </xref>
+     ).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       The SAS-5/SAS-6 complex forms curved structures similar to the central tube of
+       <em>
+        C. elegans
+       </em>
+       centrioles. (
+       <strong>
+        A
+       </strong>
+       ) Schematic of the SAS-6 dimer and the nearly symmetric arrangement of the residues involved in SAS-5 binding. (
+       <strong>
+        B
+       </strong>
+       ) Rotary metal shadowing electron micrographs of the full-length SAS-5-/SAS-6 complex. Scale bar: 30 nm. (
+       <strong>
+        C
+       </strong>
+       ) Histogram representation of mean diameters of the rings measured from circle structures. The majority of the circle structures have a diameter of 60–65 nm, which is in good agreement with that of the central tube of
+       <em>
+        C. elegans
+       </em>
+       centrioles. (
+       <strong>
+        D
+       </strong>
+       ) Hypothetical mechanism of recruitment of SAS-5, SAS-6, and SAS-4. (
+       <strong>
+        E
+       </strong>
+       ) Schematic illustration of the
+       <em>
+        C. elegans
+       </em>
+       centriole. The inner layer of the central tube is formed by SAS-5, whereas the outer layer is built by SAS-4, which has a hook-like structure that serves to recruit the singlet MTs.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To find out whether SAS-5 alone can form such structures, we tried to purify the MBP–SAS-5 with a C-terminal 6 × His-tag. However, we could not purify the protein using Ni-NTA resin (data not shown), suggesting that the His-tag is inaccessible either due to being shielded by a neighbouring structure or being buried in aggregates. Using size exclusion chromatography and negative staining electron microscopy, we found that SAS-5 forms large aggregates (
+     <a>
+      Supplementary Figure S7
+     </a>
+     ). Interestingly, the C-terminus of SAS-5 became accessible when mixing with SAS-6 as demonstrated by the success in the pull-down of SAS-5 by Ni-NTA bound SAS-6 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ), and the complex shows semicircle and arc-like structures (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). This indicates that binding to SAS-6 indeed releases SAS-5 from its aggregates. Overall, our data suggest that while SAS-6 and SAS-5 individually form an oligomeric conformation, together they can assemble into a highly ordered structure resembling the central tube of the
+     <em>
+      C. elegans
+     </em>
+     centrioles.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Accumulating data indicate that SAS-5 and its putative orthologues, Ana2 in flies and STIL in vertebrates, work cooperatively with SAS-6 in centriole formation (
+    <xref ref-type="bibr">
+     Stevens et al, 2010a
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2010b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tang et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Arquint et al, 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vulprecht et al, 2012
+    </xref>
+    ). To determine how SAS-5 assists SAS-6 in centriole assembly, we first need to know how the two proteins interact. Here, we demonstrate that the short SAS-5 CTD specifically interacts with a very narrow segment of the SAS-6 coiled coil. We have also solved the crystal structure of the SAS-6 CCD that contains the binding site of SAS-5 and further used structure-based mutagenesis studies to identify the residues on both proteins that are directly involved in their interaction. Interestingly, we found that the interaction is mediated by synergistic hydrophobic and electrostatic interactions of multiple residues on either protein. Single-residue mutation analyses showed that mutating any one of these residues completely abolished the interaction. We further showed that the recombinant SAS-5/SAS-6 complex could potentially form semicircular or arc-like structures (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ). How can one put this into the context of centriole duplication?
+   </p>
+   <p>
+    Unlike the clearly visible cartwheel structure in non-nematode centrioles, centriole duplication in
+    <em>
+     C. elegans
+    </em>
+    begins with a 60-nm central tube dependent on SAS-5/SAS-6. This central tube grows wider at the pronuclear migration stage when SAS-4 is recruited, which coincides with the emergence of SAS-4 derived hook-like structures around the outer wall at positions where MT assembly occurs (
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ). Consistently, SAS-4 homologues in flies and humans also localize to the outer wall of centrioles and are essential for recruiting MTs and pericentriolar materials (
+    <xref ref-type="bibr">
+     Kohlmaier et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tang et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gopalakrishnan et al, 2011
+    </xref>
+    ). In this study, we show that SAS-6 forms an anti-parallel tetramer whereas SAS-5 aggregates. Crystal structure of the SAS-6 CCD reveals a periodic charge distribution with the SAS-5-binding site in the centre of the coiled coil (
+    <xref ref-type="fig">
+     Figure 6A
+    </xref>
+    ). We also discovered that binding of the SAS-5 CTD to the SAS-6 coiled coil both releases SAS-5 from its aggregates and prevents the tetrameric association of SAS-6. This would allow the efficient interaction between the SAS-6 head groups. Our electron microscopy studies confirmed that SAS-5 binds to the central region of the SAS-6 coiled coil (
+    <xref ref-type="fig">
+     Figure 5G
+    </xref>
+    ) and demonstrated that the recombinant SAS-5/SAS-6 complex assembles into arc-like structures with an average diameter of 63.2±9.2 nm for the corresponding rings (
+    <xref ref-type="fig">
+     Figure 6B and C
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S8
+    </a>
+    ). We therefore believe that the emerging 60-nm wide central tube in the procentriole is formed by circularly arranged SAS-5 molecules bound onto the coiled coils of SAS-6 (
+    <xref ref-type="fig">
+     Figure 6D
+    </xref>
+    ). SAS-5 and SAS-6 together assemble into an unstable tubular structure, whereas loading of SAS-4 stabilizes this tube (now becomes the inner layer) by generating an outer wall with protruding hook-like appendages that serve to recruit the nine singlet MTs (
+    <xref ref-type="fig">
+     Figure 6E
+    </xref>
+    ).
+   </p>
+   <p>
+    Apart from disrupting the tetrameric association of SAS-6, SAS-5 may also play a more active role in centriole assembly. It was recently revealed that the
+    <em>
+     Trichonympha
+    </em>
+    basal body has a cartwheel structure with spokes from two neighbouring layers merging into a single bundle at the position ∼20 nm away from the central hub (
+    <xref ref-type="bibr">
+     Guichard et al, 2012
+    </xref>
+    ). However, it remains mysterious how this merge occurs. Given that the merging points around the central hub would encircle a 62-nm ring (
+    <em>
+     d
+    </em>
+    =20 nm × 2+22 nm), we speculate that SAS-5 and its functional orthologues might mediate this merge. Notably, SAS-5 was shown to self-associate in a reported domain-based interactome network in
+    <em>
+     C. elegans
+    </em>
+    (
+    <xref ref-type="bibr">
+     Boxem et al, 2008
+    </xref>
+    ). The self-association of SAS-5 could bridge spokes of neighbouring layers so that the nine-fold symmetric rings are stacked onto one another to form the cylindrical structure. The other possibility for SAS-5 to play an active role is that binding of SAS-5 may induce conformational changes in the SAS-6 coiled coil that subsequently facilitate centriole assembly. The crystal structure of the SAS-6 CCD indicates that each SAS-6 coiled-coil contains two almost symmetrically arranged SAS-5-binding sites (
+    <xref ref-type="fig">
+     Figure 6A
+    </xref>
+    ). However, results of both ITC and SLS experiments indicate that only one SAS-5 molecule could bind to the SAS-6 dimer (
+    <xref ref-type="fig">
+     Figure 5E
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S4
+    </a>
+    ). One reason for this might be that binding of SAS-5 to one site sterically blocks the other site from recruiting another SAS-5. Alternatively, SAS-5 binding may disrupt the structural symmetry of SAS-6 CCD by inducing a kink of the SAS-6 coiled coil as was seen in the DNA ligase IV-induced bending of the Xrcc4 coiled coil (
+    <xref ref-type="bibr">
+     Sibanda et al, 2001
+    </xref>
+    ). Such a local conformational change may facilitate SAS-6 directed centriole assembly.
+   </p>
+   <p>
+    Why were only arc-like structures but not full circles seen in the EM images? Since ZYG-1 is required for the recruitment of SAS-5/SAS-6, it is likely that ZYG-1 plays a structural role in the assembly of the central tube. It was reported previously that ZYG-1 phosphorylates SAS-6 and this phosphorylation is crucial for centriole duplication
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="bibr">
+     Kitagawa et al, 2009
+    </xref>
+    ). The phosphorylation site, serine 123, is located in a long flexible loop (disordered in the crystal structure) next to the dimerization interface of the SAS-6 head group (
+    <xref ref-type="bibr">
+     Kitagawa et al, 2011b
+    </xref>
+    ). It is conceivable that phosphorylation by ZYG-1 might strengthen the head group interaction of SAS-6 by providing an electrostatic interaction between the phospho-group and a positively charged surface patch on the opposite molecule (
+    <a>
+     Supplementary Figure S9
+    </a>
+    ). This hypothesis is not only consistent with the observation that ZYG-1-dependent phosphorylation of SAS-6 is needed for both central tube formation and maintenance of SAS-6 at the central tube (
+    <xref ref-type="bibr">
+     Kitagawa et al, 2009
+    </xref>
+    ), but would also explain why we only observed arc-like structures of the SAS-5/SAS-6 complex
+    <em>
+     in vitro
+    </em>
+    but not closed rings. In the future, it will be interesting to examine whether adding ZYG-1 to the recombinant SAS-5/SAS-6 complex or co-expressing the three proteins could stimulate the formation of a ring-like structure.
+   </p>
+   <p>
+    It was shown previously that SAS-5 failed to localize to centrioles in a mutant
+    <em>
+     sas-5 (t2033)
+    </em>
+    corresponding to a single amino-acid substitution (R397C) in SAS-5 (
+    <xref ref-type="bibr">
+     Delattre et al, 2004
+    </xref>
+    ). This substitution disrupts SAS-5 and SAS-6 interaction as demonstrated in a yeast two-hybrid assay (
+    <xref ref-type="bibr">
+     Leidel et al, 2005
+    </xref>
+    ). Using
+    <em>
+     in vitro
+    </em>
+    pull-down and ITC assays, here we showed that the R397C substitution in SAS-5 completely abolishes its interaction with SAS-6 (
+    <xref ref-type="fig">
+     Figure 3F
+    </xref>
+    ). Thus, SAS-5 seems to shuttle to procentrioles through the specific interaction of its CTD with SAS-6. Given that ZYG-1-dependent recruitment of SAS-6 failed when SAS-5 was depleted (
+    <xref ref-type="fig">
+     Figure 4B
+    </xref>
+    ), SAS-5 could help SAS-6 target to the procentriole by forming with SAS-6 a specific recognition site for ZYG-1. Indeed, the combination of conserved charges on the SAS-5 CTD and its binding site on the SAS-6 CCD may provide a unique recognition site for ZYG-1 binding (
+    <xref ref-type="fig">
+     Figures 3G
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Notably, although the SAS-5 CTD is sufficient to bind SAS-6, the N-terminal part of SAS-5 seems to ensure the fidelity of the interaction. As shown in
+    <xref ref-type="fig">
+     Figure 1C
+    </xref>
+    , while full-length SAS-5 was pulled down stoichiometrically relative to SAS-6, considerably more protein was pulled down for all the three N-terminal truncations of SAS-5. This disproportionate interaction occurs only when using full-length SAS-6 but not for SAS-6 lacking the C-terminal disordered tail (residues 411–492) (
+    <xref ref-type="fig">
+     Figure 3D and F
+    </xref>
+    ). Therefore, we conclude that the N-terminal domain of SAS-5 (residues 1–389) prevents the non-specific interaction between the SAS-5 CTD and the unstructured SAS-6 C-terminal tail. Consistently, most of the N-terminal part of SAS-5 is conserved in the three
+    <em>
+     Caenorhabditis
+    </em>
+    species. These conserved residues may confer on SAS-5 the ability to regulate its interaction with SAS-6.
+   </p>
+   <p>
+    What does our finding of SAS-5/SAS-6 interaction imply for the mechanisms of centriole formation in other organisms? Homologues of SAS-6 and putative orthologues of SAS-5 have been identified in flies and vertebrates, which are DSAS-6/hSAS-6 and Ana2/STIL, respectively. Crystal structures of several SAS-6 proteins show that the head group of SAS-6 has a conserved fold that mediates the intermolecular interaction in SAS-6 oligomeric assembly, implying that the mechanism of centriole biogenesis may be conserved through evolution. While structural segmentation of SAS-6 family of proteins is easy to define, domain arrangements of SAS-5/Ana2/STIL are very vague because of the lack of distinct motif structures. An ∼90-residue region toward the C-terminus of the SAS-5 family of proteins, the STAN motif, was suggested to be important for their function (
+    <xref ref-type="bibr">
+     Stevens et al, 2010a
+    </xref>
+    ). However, while the STAN motif is modestly conserved between Ana2 and STIL (31% sequence identity), it is very divergent in SAS-5. Recently, a second conserved motif called TIM was identified, which is located at the extreme C-terminus of STIL, Ana2, and SAS-5 (
+    <xref ref-type="bibr">
+     Arquint et al, 2012
+    </xref>
+    ) and includes the SAS-5 CTD. Interestingly, the corresponding sequences in STIL and Ana2 are also predicted to form a helix and two of the four key residues that we found to be essential for SAS-5 interaction with SAS-6 are also conserved in Ana2 and STIL (
+    <a>
+     Supplementary Figure S10A and B
+    </a>
+    ). Ana2 has previously been reported to also interact with SAS-6 in
+    <em>
+     Drosophila
+    </em>
+    (
+    <xref ref-type="bibr">
+     Stevens et al, 2010a
+    </xref>
+    ). While the binding sites have not been precisely defined, as with
+    <em>
+     C. elegans
+    </em>
+    SAS-5 and SAS-6, the interaction appears to involve the C-terminus of Ana2 and part of the coiled coil of DSas-6. Given the poor sequence homology among SAS-5, Ana2, and STIL, confirming and defining the interaction between Ana2/STIL and SAS-6 would be a powerful argument for an orthology relationship between these three proteins.
+   </p>
+   <p>
+    Using full-length SAS-5 and SAS-6 proteins, we observed semicircle and arc-like structures with an average extrapolated diameter of ∼63 nm (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ), which is close to the dimensions of the inner part of the central tube seen in electron micrographs of
+    <em>
+     C. elegans
+    </em>
+    embryos (
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ). Furthermore, such circles could accommodate ∼8–10 globular structures, consistent with the characteristic nine-fold symmetry of centrioles. Intriguingly, in the rotary metal shadowing micrographs of the full-length SAS-5/SAS-6 complex, we did not observe the 23-nm central hub or the coiled-coil spokes as that formed by
+    <em>
+     C. reinhardtii
+    </em>
+    and
+    <em>
+     D. rerio
+    </em>
+    SAS-6 (
+    <xref ref-type="bibr">
+     van Breugel et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kitagawa et al, 2011b
+    </xref>
+    ), which is notably consistent with the missing cartwheel structure in
+    <em>
+     C. elegans
+    </em>
+    centrioles
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="bibr">
+     Pelletier et al, 2006
+    </xref>
+    ). However, using the same experimental setup, we could observe the coiled-coil tail of SAS-6 when using the residues 1–410 of SAS-6 alone (
+    <xref ref-type="fig">
+     Figure 5F
+    </xref>
+    ) or in complex with the MBP-tagged SAS-5 CTD (
+    <xref ref-type="fig">
+     Figure 5G
+    </xref>
+    ). It is worth to note though that, similarly to what was observed in the electron micrographs of the full-length SAS-6/SAS-5 complex, no rod-like structures in the complex of SAS-6(
+    <em>
+     aa
+    </em>
+    1–410)/MBP–SAS-5-CTD could be observed upon cross-linking by glutaradehyde (0.05% (v/v), incubated with 0.1 mg/ml protein for 5min at 22°C). While the invisible coiled-coil structure in the truncated complex is likely an artefact generated by cross-linking, we speculate that the lack of the cartwheel structure for the full-length SAS-5/SAS-6 complex might arise from some structural modulations of SAS-6 upon SAS-5 binding. Interestingly, we found that although the majority of the
+    <em>
+     C. elegans
+    </em>
+    SAS-6 coiled coil is well folded as seen in the crystal structure, the N-terminal region (approximately residues 220–240) of the SAS-6 coiled coil is sensitive to proteolysis and seems flexible (
+    <xref ref-type="fig">
+     Figure 1C
+    </xref>
+    , asterisks). It needs to be investigated whether the flexibility of this region accounts for the invisible hub structure in
+    <em>
+     C. elegans
+    </em>
+    centrioles.
+   </p>
+   <p>
+    In summary, our findings uncover the specific interaction between SAS-5 and SAS-6 and provide a possible explanation for the double-layered central tube structure in
+    <em>
+     C. elegans
+    </em>
+    centrioles. The data further confirm a role for SAS-5 in assisting SAS-6 to determine the nine-fold symmetry of centrioles and suggest a possible mechanism of the regulation in
+    <em>
+     C. elegans
+    </em>
+    centriole assembly. Our results also provide hints for SAS-6 and Ana2/STIL interaction in other organisms and may have general relevance for future studies.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Cloning, protein expression, and purification
+    </title>
+    <p>
+     Sequences encoding full-length
+     <em>
+      C. elegans
+     </em>
+     SAS-6 (residues 1–492) and SAS-5 (residues 1–404) were amplified by PCR from cDNA and cloned, respectively, into pET-29a (Novagen) and a custom vector KiM5α that adds an N-terminal MBP tag to the target protein. Truncations of SAS-6 were cloned into pET-15b (Novagen), which provides an N-terminal 6 × His tag cleavable by thrombin. Truncations of SAS-5 were cloned in a similar manner to full-length SAS-5. Deletions and point mutations were generated by the QuickChange Kit (Stratagene) and confirmed by DNA sequencing.
+    </p>
+    <p>
+     All recombinant proteins were expressed in
+     <em>
+      Escherichia coli
+     </em>
+     BL21 (DE3) cells. The cells were grown at 37°C. At an OD
+     <sub>
+      600
+     </sub>
+     of 0.6–0.8, the cells were cold shocked on ice for 10 min and then shifted to 18°C. Protein induction was done overnight with 0.5 mM of isopropyl-β-d-thiogalactopyranoside (IPTG). The cells were harvested and resuspended in cold lysis buffer (20 mM Tris–HCl (pH 8), 300 mM NaCl, 20 mM imidazole, and 5% glycerol). The cells were broken by the EmulsiFlex-C3 homogenizer (Avestin) and the lysate was cleared by centrifugation at 30 000
+     <em>
+      g
+     </em>
+     for 30 min. The supernatant was filtered through a 0.4-μm filter and loaded onto a Ni-HiTrap column (GE Healthcare) pre-equilibrated in the same lysis buffer. The column was washed with 5 × column volume (cv) of lysis buffer, and bound protein was eluted by a liner gradient concentration of imidazole (20–500 mM, 10 × cv) in the lysis buffer. The N-terminal 6 × His tag was removed by incubation with 2% (w/w) of thrombin overnight at 4°C. The protein was concentrated and further purified with a Superdex-200 16/60 column (GE Healthcare) pre-equilibrated with 20 mM Tris–HCl (pH 8), 50 mM NaCl and 5% glycerol. The protein was concentrated to 10 mg/ml, divided into aliquots and stored at −80°C.
+    </p>
+    <p>
+     Selenomethionine(SeMet)-substituted SAS-6 CCD (residues 248–410) for crystallization was expressed using M9 minimal medium supplemented with all amino acids (2 mg/ml) except for methionine. Prior to induction, L-SeMet was added to 80 mg/l, and additional threonine, lysine, phenylalanine, leucine, isoleucine, and valine were added to inhibit the methionine biosynthetic pathway (
+     <xref ref-type="bibr">
+      Doublie, 1997
+     </xref>
+     ). The SeMet-protein was purified as described above, except for the addition of 15 mM β-mercaptoethanol (b-ME) for Ni-HiTrap purification and 10 mM dithiothreitol (DTT) for gel filtration.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and data collection
+    </title>
+    <p>
+     The SAS-6 CCD (residues 248–410) was crystallized at 4°C by the hanging drop method against a reservoir solution containing 0.1 M tri-sodium citrate (pH 5.6), 10% (w/v) PEG 4000 and 10% (v/v) isopropanol. Rod-shaped crystals appeared in 2 days and reached the maximal size of ∼0.03 × 0.03 × 0.5 mm after 1 week. The crystals belong to space group P6
+     <sub>
+      1
+     </sub>
+     (
+     <em>
+      a
+     </em>
+     =
+     <em>
+      b
+     </em>
+     =140.29 Å,
+     <em>
+      c
+     </em>
+     =74.67 Å). For harvesting, crystals were soaked in the same reservoir solution augmented with increasing concentrations of glycerol (final concentration 20% [v/v]), loop mounted, and flash frozen in liquid nitrogen. Diffraction data to 3.3-Å resolution was collected at the beamline ID23-1 at the European Synchrotron Radiation Facility (ESRF). A complete and highly redundant data set at the anomalous peak of Se (λ=0.9792 Å) was collected.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structure determination and model docking
+    </title>
+    <p>
+     Data were integrated using iMosflm (
+     <xref ref-type="bibr">
+      Battye et al, 2011
+     </xref>
+     ) and scaled using the program SCALA (
+     <xref ref-type="bibr">
+      Evans, 2006
+     </xref>
+     ). Selenium sites were located and experimental maps were calculated using AutoSol in the software suite Phenix (
+     <xref ref-type="bibr">
+      Terwilliger et al, 2009
+     </xref>
+     ). Models were built using the program COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ), and refinement carried out using CNS (
+     <xref ref-type="bibr">
+      Brunger et al, 1998
+     </xref>
+     ) to final
+     <em>
+      R
+     </em>
+     <sub>
+      work
+     </sub>
+     of 0.258 and
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     of 0.299.
+    </p>
+    <p>
+     For modelling of the SAS-6 coiled-coil tetramer and the SAS-6/SAS-5 complex, we submitted our solved crystal structure of the SAS-6 CCD and a theoretical helical model the SAS-5 CTD to the web-based ClusPro 2.0 docking server (
+     <a>
+      http://cluspro.bu.edu/
+     </a>
+     ), which filters docked conformations with good surface and charge complementarity and ranks them based on their clustering properties. The docking was carried out with default parameters.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Pull-down assays
+    </title>
+    <p>
+     Small aliquots (50 μl of beads) of 6 × His-tagged full-length or truncated SAS-6 proteins bound to Ni-NTA beads (QIAGEN) were used to pull down MBP-tagged SAS-5 protein from crude cell lysate. Afterwards, the beads were washed using 5 × cv of lysis buffer supplemented with 0.1% Triton X-100 to remove contaminants. After boiling for 2 min in 1 × SDS loading buffer, the proteins were separated on an SDS–PAGE gel and stained with Coomassie Brilliant Blue G250 (Sigma-Aldrich). In a reciprocal binding experiment, we loaded MBP-tagged SAS-5 CTD onto amylose beads and then used these beads to pull down SAS-6 proteins. Subsequent wash and examination were carried out in the same way as the Ni-NTA pull-down. As a negative control to show that SAS-5 proteins did not non-specifically bind to Ni-NTA beads and SAS-6 did not bind to MBP and/or the amylose beads, mock experiments were carried out, in which we used Ni-NTA bound 6 × His-tagged MBP to pull down SAS-5 or MBP alone on amylose beads to pull down SAS-6.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electron microscopy
+    </title>
+    <p>
+     Purified full-length SAS-6 and SAS-6 (residues 1–410), either alone or in complex with MBP-tagged SAS-5 CTD, were prepared at 0.05–0.1 mg/ml in 100 mM ammonium bicarbonate (pH 7.5), 30% (v/v) glycerol. The samples were sprayed onto freshly cleaved mica chips. After drying in a Bal-Tec MED020 high vacuum coater (Leica Microsystems) for at least 6 h, the chips were rotary shadowed with 0.7 nm platinum/carbon at an elevation angle of 4 degree for SAS-6 and 7 degree for SAS-5/SAS-6 complex and with carbon at a tilted angle of 45 degree. Electron micrographs were taken on an FEI Morgagni 268D transmission electron microscope operated at 80 kV equipped with a 11-megapixel CCD camera. Images were examined and analysed using ImageJ (
+     <a>
+      http://imagej.nih.gov/ij/
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession code
+    </title>
+    <p>
+     Coordinates and structure factors have been deposited in the Protein Data Bank (PDB) under accession code
+     <a>
+      4GKW
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (3.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (233K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

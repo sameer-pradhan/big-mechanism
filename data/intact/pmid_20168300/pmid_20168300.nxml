@@ -1,0 +1,1760 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2845281
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Bacterial actin MreB assembles in complex with cell shape protein RodZ
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Bacterial actin homologue MreB is required for cell shape maintenance in most non-spherical bacteria, where it assembles into helical structures just underneath the cytoplasmic membrane. Proper assembly of the actin cytoskeleton requires RodZ, a conserved, bitopic membrane protein that colocalises to MreB and is essential for cell shape determination. Here, we present the first crystal structure of bacterial actin engaged with a natural partner and provide a clear functional significance of the interaction. We show that the cytoplasmic helix-turn-helix motif of
+     <em>
+      Thermotoga maritima
+     </em>
+     RodZ directly interacts with monomeric as well as filamentous MreB and present the crystal structure of the complex.
+     <em>
+      In vitro
+     </em>
+     and
+     <em>
+      in vivo
+     </em>
+     analyses of mutant
+     <em>
+      T. maritima
+     </em>
+     and
+     <em>
+      Escherichia coli
+     </em>
+     RodZ validate the structure and reveal the importance of the MreB–RodZ interaction in the ability of cells to propagate as rods. Furthermore, the results elucidate how the bacterial actin cytoskeleton might be anchored to the membrane to help constrain peptidoglycan synthesis in the periplasm.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     bacterial cytoskeleton, cell shape, helix-turn-helix motif, MreB, RodZ
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The bacterial actin homologue MreB is required for the maintenance of cell shape in the majority of species. Bacteria control their particular shape by the spatio-temporal regulation of cell wall synthesis. A crucial component of the cell wall is the murein sacculus, a network of glycan strands linked together by short peptides. Purified murein sacculi retain the shape of the cell from which they were derived and cells become misshapen and/or burst when integrity of the sacculus is compromised
+    <em>
+     in vivo
+    </em>
+    . Over the past 20 years, intensive research has given us a glance into how non-spherical bacteria manage to mould and maintain the shape of the murein sacculus (for reviews see
+    <xref ref-type="bibr">
+     Shih and Rothfield, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cabeen and Jacobs-Wagner, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). One of the first mutants identified in cells with aberrant cell morphology in
+    <em>
+     Escherichia coli
+    </em>
+    indicated the importance of the actin homologue MreB for cell morphogenesis (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Not much later, bitopic membrane protein MreC and integral membrane protein MreD (both encoded by the same operon as MreB) were also found to be required to control cell shape (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), as was penicillin-binding protein 2 (PBP2) and integral membrane protein RodA (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). PBP2 interacts with MreC (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and is the only murein synthase that is specifically required for cylindrical growth of the sacculus during cell elongation (
+    <xref ref-type="bibr">
+     Spratt, 1975
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vollmer and Bertsche, 2008
+    </xref>
+    ). Depletion of these cell shape proteins results in the formation of spherical cells that eventually lyse under standard conditions (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Varley and Stewart, 1992
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leaver and Errington, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bendezú and de Boer, 2008
+    </xref>
+    ). MreB forms cytoskeletal filaments that localise as patchy, helical structures just underneath the cell membrane (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Defeu Soufo and Graumann, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). As the structure of both monomeric and polymeric MreB resembles that of actin (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), it is now widely accepted that an actin-like cytoskeleton is involved in cell shape maintenance in prokaryotes.
+   </p>
+   <p>
+    As the insertion of newly synthesised peptidoglycan follows a helical path that is reminiscent of that of MreB and the other cell shape factors (
+    <xref ref-type="bibr">
+     Daniel and Errington, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leaver and Errington, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), it has been proposed that MreB filaments might form tracks for murein synthases and/or hydrolases (
+    <xref ref-type="bibr">
+     Daniel and Errington, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). But how does cytosolic MreB spatially constrain peptidoglycan synthesis in the periplasm? A possible solution comes from the recently discovered cell shape protein, RodZ (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). RodZ is a conserved, bitopic membrane protein that is required for cell shape maintenance. It is located in the inner membrane with its C-terminus positioned in the periplasm (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). As for other cell shape factors in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Bendezú and de Boer, 2008
+    </xref>
+    ), deletion of
+    <em>
+     rodZ
+    </em>
+    results in spherical cells that can be
+    <span>
+     r
+    </span>
+    escued by an
+    <span>
+     o
+    </span>
+    ver
+    <span>
+     d
+    </span>
+    ose of Fts
+    <span>
+     Z
+    </span>
+    (hence its name). RodZ colocalises to MreB structures (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and this colocalisation is independent of cell shape proteins MreC, MreD, PBP2 and RodA (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Interestingly,
+    <em>
+     Caulobacter crescentus
+    </em>
+    RodZ is confined to MreB in space and time and marks future sites of peptidoglycan synthesis (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), indicating a possible link between cytoplasmic MreB filaments and periplasmic peptidoglycan synthases. Deletion analyses have shown that the conserved, cytoplasmic domain of RodZ is required for its helical organisation (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Domains on either side of the membrane serve partially redundant roles in shape maintenance (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Cytoplasmic and periplasmic domains of RodZ are therefore likely to engage cell shape proteins at both sides of the membrane independently. Partial redundancy in the function of RodZ domains might ensure a reliable mechanism for cell shape determination.
+   </p>
+   <p>
+    Here, we present structural and biochemical evidence for a direct interaction between RodZ and MreB, either in its monomeric or filamentous form. The cocrystal structure between the cytoplasmic domain of RodZ and MreB from
+    <em>
+     Thermotoga maritima
+    </em>
+    reveals that RodZ's helix-turn-helix domain forms a scaffold for the interacting helix binding to subdomain IIA of MreB. Mutations that affect this interaction impair RodZ's localisation in
+    <em>
+     E. coli
+    </em>
+    as well as its ability to impose a rod shape on cells.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     RodZ interacts with monomeric and filamentous MreB
+    </title>
+    <p>
+     Proof of a direct interaction between purified MreB and the cytoplasmic domain of RodZ comes from pelleting assays that monitor MreB polymerisation in the presence of increasing amounts of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     . As shown in
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , RodZ
+     <sup>
+      (1−104)
+     </sup>
+     copellets with MreB filaments and does not pellet on its own (right panel,
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). While keeping the concentration of MreB constant and increasing the concentration of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     , more and more RodZ spins down in the pellet, reaching a saturation point of roughly one RodZ molecule per one MreB molecule.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       A direct interaction between purified cell shape proteins RodZ
+       <sup>
+        (1−104)
+       </sup>
+       and MreB from
+       <em>
+        T. maritima
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) MreB polymerisation assays. MreB (28 μM) was incubated at 37°C with nucleotide and MgCl
+       <sub>
+        2
+       </sub>
+       in the absence (panel 1, lanes 1–3) and the presence of increasing amounts of RodZ (14 μM panel 2; 35 μM panel 3; 70 μM panel 4; 140 μM panel 5, 214 μM panel 6). In the absence of MreB, RodZ
+       <sup>
+        (1−104)
+       </sup>
+       remains in the supernatant (panel 7 with 280 μM RodZ). The reactions were centrifuged at 140 000
+       <em>
+        g
+       </em>
+       and total (T), supernatant (S) and pellet (P) were analysed on a 10–20% SDS gel, stained with Coomassie. (
+       <strong>
+        B
+       </strong>
+       ) Isothermal titration calorimetry shows RodZ
+       <sup>
+        (1−104)
+       </sup>
+       binds to monomeric and filamentous MreB with similar affinities. The cell contained 40 μM MreB and the syringe 1 mM RodZ
+       <sup>
+        (1−104)
+       </sup>
+       , which was added over 18 injections of 2 uL. Before the experiments, proteins were dialysed to 20 mM Tris–HCl, pH 7.5, 1 mM EDTA, 1 mM sodium azide, 200 mM NaCl. The solid lines are the fit to the data and follow a simple binding model, showing a low micromolar affinity, exothermic binding enthalpy and 1:1 binding stoichiometry.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     RodZ not only binds to polymers of MreB, but also to its monomeric form, as shown by isothermal titration calorimetry (ITC) (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (1 mM) was slowly titrated into MreB (40 μM) that was either in its monomeric form (open circles) or polymeric form (closed circles). For the latter, MreB polymers were formed in the presence of ATPγS and MgCl
+     <sub>
+      2
+     </sub>
+     , separated from the supernatant by ultracentrifugation and resuspended in a buffer containing ATPγS/MgCl
+     <sub>
+      2
+     </sub>
+     . The binding curves suggest that RodZ's interaction with monomeric or filamentous MreB is exothermic at 10°C with a low micromolar affinity (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼5–10 μM) and a 1:1 stoichiometry. Therefore, RodZ
+     <sup>
+      (1−104)
+     </sup>
+     appears to interact with a single subunit of MreB without interfering with filament formation.
+    </p>
+    <p>
+     The molecular mass of RodZ and MreB before ITC was determined using size exclusion chromatography coupled to multi-angle light scattering measurements (SEC multi-angle light scattering (MALS),
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). In the absence of nucleotide, both proteins elute as single peaks with the evaluated mass indicating that they are monomeric and highly monodisperse (see
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). After the ITC experiment, the peaks containing MreB and RodZ
+     <sup>
+      (1−104)
+     </sup>
+     elute at a slightly shorter retention time compared with the proteins alone, indicating that the two proteins interact (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Furthermore, there is no evidence for a higher order association of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     when RodZ
+     <sup>
+      (1−104)
+     </sup>
+     by itself is examined over a wide concentration range (up to a maximum of 730 μM at injection,
+     <a>
+      Supplementary Figure S1
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystal structure
+    </title>
+    <p>
+     The structure of the heterodimer between RodZ and MreB reveals that RodZ's cytoplasmic domain (aa 1–88) has a classical helix-turn-helix motif (HTH) at its N-terminus followed by two additional α-helices (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). The C-terminal 17 residues of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     are not resolved in the crystals. The reason for the disorder can either be that the transmembrane region is missing, that a binding partner is needed or that it is intrinsically flexible. Earlier, it has been shown by deletion analyses that the juxtamembrane (JM) region (aa 85–111) in
+     <em>
+      E. coli
+     </em>
+     RodZ is required for cell shape maintenance (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). This region corresponds to the C-terminal 27 amino acids of
+     <em>
+      T. maritima
+     </em>
+     RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (residues 78–104,
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) and includes the C-terminal half of helix H5. Deleting the JM region might impair the integrity of this helix. The N-terminal helix-turn-helix fold consists of three α-helices in a triangular arrangement, forming a loosely packed right-handed helical bundle. HTH motifs are mostly involved in transcriptional regulation, but have also been found to function in DNA replication as well as RNA metabolism and protein–protein interactions (for a review see
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). A similarity search among all structures in the Protein Databank (pdb) reveals that RodZ
+     <sup>
+      (1−88)
+     </sup>
+     superimposes on DNA-binding proteins with the putative transcription factor YbaQ having the best fit (pdb entry 2eby). It superimposes onto the five helices of RodZ with a root mean square deviation (rmsd) of 2.1 Å and a
+     <em>
+      Z
+     </em>
+     -score of 9.8 (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). In fact, the DALI search (
+     <xref ref-type="bibr">
+      Holm and Sander, 1993
+     </xref>
+     ) listed only putative DNA-interacting proteins, some of which were classified as HTH-type transcriptional regulators or belonged to the XRE family of transcription factors. Giving the high structural similarity to DNA-binding proteins, a pertinent question is whether the HTH motif of RodZ engages DNA or if it has a different function.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Ribbon representation of the crystal structure of the cytoplasmic part of RodZ
+       <sup>
+        (2−88)
+       </sup>
+       from
+       <em>
+        T. maritima
+       </em>
+       at 2.9 Å resolution. The secondary structure elements are labelled according to their appearance in the primary sequence (N-terminus in blue, C-terminus in red). (
+       <strong>
+        B
+       </strong>
+       ) Superposition of the structures of RodZ
+       <sup>
+        (2−88)
+       </sup>
+       (in magenta) and helix-turn-helix type putative transcriptional regulator YbaQ (pdb entry 2eby, in turquoise). The two proteins overlap with a root mean square deviation (rmsd) of 2.1 Å over 77 residues,
+       <em>
+        Z
+       </em>
+       -score 9.8 (using structural similarity search DALI (
+       <xref ref-type="bibr">
+        Holm and Sander, 1993
+       </xref>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) Stereograph of a ribbon representation of the cocrystal structure of MreB and RodZ
+       <sup>
+        (2−88)
+       </sup>
+       shows two possible interfaces. A larger interface where RodZ binds in the active site cleft of MreB between subdomains IB and IIB (MreB in brown) and a smaller interface, engaging subdomain IIA of MreB (MreB in blue). RodZ
+       <sup>
+        (2−88)
+       </sup>
+       is coloured in rainbow colours with the N-terminus in blue and C-terminus in red. Although the crystal packing shows the regular packing of heterodimers, only one molecule of RodZ
+       <sup>
+        (2−88)
+       </sup>
+       is shown for clarity reasons. (
+       <strong>
+        D
+       </strong>
+       ) Binding mode of RodZ
+       <sup>
+        (2−88)
+       </sup>
+       within the active site cleft of MreB in stereo, as observed in the crystals. Substitution of the residues of RodZ depicted as sticks do not affect MreB binding in solution according to isothermal titration calorimetry or polymerisation assays.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Sequence alignment of RodZ cytoplasmic domain from
+       <em>
+        T. maritima
+       </em>
+       and
+       <em>
+        E. coli
+       </em>
+       . Numbers above the alignment refer to the
+       <em>
+        T. maritima
+       </em>
+       RodZ sequence, below the alignment to the
+       <em>
+        E. coli
+       </em>
+       sequence. TM refers to the transmembrane helix. Residues marked with a red square above the sequence contribute to the surface area buried by the interface between RodZ and MreB. Mutations in residues marked with a yellow square abolish MreB binding, whereas those marked with a green square do not interfere with MreB binding when mutated. The squares underneath the
+       <em>
+        E. coli
+       </em>
+       sequence indicate mutations that affect cell shape and MreB interaction in
+       <em>
+        E. coli
+       </em>
+       (yellow) or behave as the wild-type protein (green) (see
+       <a>
+        Supplementary Table III
+       </a>
+       ). The bar (in turquoise) indicates the juxtamembrane region in
+       <em>
+        E. coli
+       </em>
+       RodZ. (
+       <strong>
+        B
+       </strong>
+       ) The effect of interface mutations on RodZ
+       <sup>
+        1−138
+       </sup>
+       localisation and its ability to impose rod shape on Δ
+       <em>
+        rodZ
+       </em>
+       cells in
+       <em>
+        E. coli
+       </em>
+       . Shown are ΔrodZ cells (FB60) expressing GFP-RodZ
+       <sup>
+        1−138
+       </sup>
+       -RFP (left panel), or a mutant version thereof (middle and right) from a construct integrated at the chromosomal
+       <em>
+        att
+       </em>
+       HK022 site. The middle and right panels show cells producing the F60A and Y64A version, respectively (corresponding to Y53 and Y57 in
+       <em>
+        T. maritima
+       </em>
+       RodZ, respectively). Note the inability of these cells to maintain rod-shape, as well as the even membrane distribution of fluorescence. Cells were grown in M9-mal with 250 μM IPTG to OD
+       <sub>
+        600
+       </sub>
+       =0.3–0.5, and were imaged live with DIC (left side of each panel) and GFP fluorescence (right side of each panel) optics. Bar equals 2 μ. The construct used, GFP-RodZ
+       <sup>
+        1−138
+       </sup>
+       -RFP, is shown in the cartoon on the right. (
+       <strong>
+        C
+       </strong>
+       ) Effects of RodZ interface mutations on its
+       <em>
+        in vivo
+       </em>
+       interaction with MreB in
+       <em>
+        E. coli
+       </em>
+       . Strain BTH101 [
+       <em>
+        cya
+       </em>
+       -99] was cotransformed with plasmid pairs encoding the indicated T18- and T25-fusions, and individual colonies were patched on M9-agar containing 0.2% glucose, 40 mg/ml X-Gal and 250 μM IPTG. The plate was incubated at 30°C and imaged after 24 h. Plasmids used were the vector control pKNT25 [P
+       <sub>
+        lac
+       </sub>
+       ∷
+       <em>
+        lacZ′-t25
+       </em>
+       ] (upper row), pCH375 [P
+       <sub>
+        lac
+       </sub>
+       ∷
+       <em>
+        mreB′-t25-′mreB
+       </em>
+       ], encoding a sandwich fusion that carries the CyaA T25 domain inserted between helices 6 and 7 of MreB (
+       <xref ref-type="bibr">
+        None
+       </xref>
+       ) (lower row), pCH395 [P
+       <sub>
+        lac
+       </sub>
+       ∷
+       <em>
+        t18-rodZ
+       </em>
+       (1–138)-
+       <em>
+        rfp
+       </em>
+       ], encoding the CyaA T18 domain appended to the N-terminus of a version of RodZ in which its periplasmic domain has been substituted with mCherry (
+       <xref ref-type="bibr">
+        None
+       </xref>
+       ) (column 1), and mutant derivatives of pCH395 (columns 2–7).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The cocrystal structure of MreB and cytoplasmic RodZ reveals an interesting crystal packing, where RodZ is sandwiched between two MreB molecules (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Hence, RodZ shares two distinct interfaces with MreB in the cocrystal structure: a substantial interface of 732 Å
+     <sup>
+      2
+     </sup>
+     where RodZ is positioned between the two subdomains of MreB (in brown,
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ) thereby closing off the active site cleft and a smaller interface of 552 Å
+     <sup>
+      2
+     </sup>
+     , where it binds to the side of subdomain IIA (in blue,
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Mutational analyses of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     show that single or multiple residues in the interface with the active site cleft (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ) can be changed without affecting MreB binding
+     <em>
+      in vitro
+     </em>
+     , as determined by ITC and polymerisation assays (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     and data not shown). This suggests that the binding site of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     within the active site cleft of MreB is crystallisation enforced. In contrast, substitutions in the smaller interface (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) abolish MreB binding; single substitutions including K36A, Y53A and Y57A (depicted as spheres in
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) severely impair RodZ's interaction with both filamentous and monomeric MreB (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     ). This is consistent with the observation that wild-type RodZ
+     <sup>
+      (1−104)
+     </sup>
+     binds with similar affinities to either form of MreB (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Single or multiple mutations in RodZ
+     <sup>
+      (1−104)
+     </sup>
+     that do not affect copelleting with MreB are: R20A/E, T22A/E/K/R, L23D, L24A, D25A, L28A, F29A/K/R, N31A, N33A, S35W, K38A, R39A, E42A, [T22A, L23D, L24A, D25A, N31A, E99D], [T22A, L23D, L24A, D25A], [L28A, F29A], [N31A, N33A] (depicted as sticks in
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). Some of these single mutants were also tested by ITC showing the same binding kinetics as the wild-type protein (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). Thus, mutational analyses reveal that the heterodimer of MreB and RodZ
+     <sup>
+      (1−104)
+     </sup>
+     as shown in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     is the functionally relevant complex.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Stereograph of RodZ's interaction with subdomain IIA of MreB (blue). Residues K36, Y53 and Y57, shown in spheres, are required for MreB interaction. (
+       <strong>
+        B
+       </strong>
+       ) MreB polymerisation assays were used to test the interface mutants of RodZ for MreB binding. MreB (28 μM) was incubated with RodZ
+       <sup>
+        (1−104)
+       </sup>
+       (35 μM) in the presence of nucleotide and MgCl
+       <sub>
+        2
+       </sub>
+       at 37°C and the pellet was separated from the supernatant by centrifugation at 140 000
+       <em>
+        g
+       </em>
+       . Total (T), supernatant (S) and pellet (P) was analysed on a 10–20% gradient gel and stained with Coomassie. Mutations in RodZ
+       <sup>
+        (1−104)
+       </sup>
+       are shown above the panels in colours corresponding to the labelled residues in
+       <xref ref-type="fig">
+        Figures 2D
+       </xref>
+       and
+       <xref ref-type="fig">
+        None
+       </xref>
+       . Protein marker (M) depicts molecular weights of 78, 66, 42, 30, 17 and 12 kDa. (
+       <strong>
+        C
+       </strong>
+       ) Isothermal titration calorimetry (ITC) confirmed the behaviour of the interface mutants. Wild-type (WT) or mutant RodZ
+       <sup>
+        (1−104)
+       </sup>
+       was titrated into a cell containing monomeric MreB (left panel) or filamentous MreB (right panel). Colour code as for
+       <xref ref-type="fig">
+        Figures 2D
+       </xref>
+       and
+       <xref ref-type="fig">
+        None
+       </xref>
+       . The cell contained 40 μM MreB and the syringe 1 mM RodZ, which was added over 18 injections of 2 μl. Before the experiments, proteins were dialysed to 20 mM Tris–HCl, pH 7.5, 1 mM EDTA, 1 mM NaN
+       <sub>
+        3
+       </sub>
+       , 200 mM NaCl. (
+       <strong>
+        D
+       </strong>
+       ) Ribbon representation of the cocrystal structure of MreB (in blue) and RodZ
+       <sup>
+        (2−88)
+       </sup>
+       (in magenta) (left). A surface representation of the contacts between the two proteins is shown on the right, where the structure is rotated by 90°.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Light microscopy
+    </title>
+    <p>
+     Purified, alexa-labelled MreB and RodZ
+     <sup>
+      (1−104)
+     </sup>
+     can form large structures that are visible under the light microscope (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). The two proteins colocalise irrespective of preformation of MreB filaments; RodZ
+     <sup>
+      (1−104)
+     </sup>
+     is either incubated with MreB and ATPγS together (middle panel) or is added after MreB polymers are formed (in the presence of the crowding agent PEG 4000 (top panel)). Substitution of Y53A in RodZ
+     <sup>
+      (1−104)
+     </sup>
+     impairs colocalisation of the pure proteins (lower panel).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Colocalisation of purified proteins MreB and RodZ
+       <sup>
+        (1−104)
+       </sup>
+       from
+       <em>
+        T. maritima
+       </em>
+       . Alexa 555-labelled MreB polymers (red) were formed in the presence of crowding agent PEG 4000, ATPγS and MgCl
+       <sub>
+        2
+       </sub>
+       . Subsequently, Alexa 488-labelled RodZ
+       <sup>
+        (1−104)
+       </sup>
+       was added (green) (top panel). In the absence of PEG 4000, Alexa 555-labelled MreB (red) and Alexa 488-labelled RodZ
+       <sup>
+        (1−104)
+       </sup>
+       (green) colocalise as large structures from which filaments grow when mixed together in the presence of nucleotide and MgCl
+       <sub>
+        2
+       </sub>
+       (middle panel). RodZ's mutation Y53A impairs MreB interaction and does not colocalise with the large MreB structures (lower panel). Left images taken with mCherry filter showing MreB alone, middle with YFP filter showing RodZ
+       <sup>
+        (1−104)
+       </sup>
+       alone, right panel merged image. Images were taken using a 100 × microscope oil immersion objective (Nikon) and a Photometrics CoolSNAP HQ2 camera. Typical exposures were 50–100 msec.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The importance of the MreB interface for RodZ's function
+     <em>
+      in vivo
+     </em>
+     was investigated by introducing two of the critical mutations in
+     <em>
+      E. coli
+     </em>
+     RodZ—F60A and Y64A, equivalent to
+     <em>
+      T. maritima
+     </em>
+     Y53A and Y57A (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). The mutants were expressed as a GFP fusion to the cytoplasmic and transmembrane region of RodZ (GFP-RodZ
+     <sup>
+      1−138
+     </sup>
+     -RFP) in a Δ
+     <em>
+      rodZ
+     </em>
+     strain (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ;
+     <a>
+      Supplementary Table III
+     </a>
+     ). The non-mutated fusion restores cell shape in ΔrodZ cells and localises in a helical pattern (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , left panel) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The mutants however fail to correct cell shape and localise evenly along the membrane (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , middle and right panels). Other amino acid changes (D55A, L56G, R66A or S67A) have no noticeable effects on MreB interaction and cells producing any one of these versions of the GFP-RodZ
+     <sup>
+      1−138
+     </sup>
+     -RFP fusion resemble those of the wild-type sequence (see
+     <a>
+      Supplementary Table III
+     </a>
+     ). In the context of the full-length protein, the two mutations that affect MreB interaction, F60A and Y64A, cause RodZ to localise evenly along the membrane with some associated spots of higher intensity (
+     <a>
+      Supplementary Table III
+     </a>
+     ). These mutants partially correct cell shape, though most cells are wider than normal. The previously reported phenotype of a HTH deletion strain (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) is consistent with these results, suggesting that the most important function of the HTH domain is the interaction with MreB. Bacterial two hybrid experiments confirm that mutants containing the critical substitutions in helix H4, F60A and Y64A, no longer interact with MreB
+     <em>
+      in vivo
+     </em>
+     , whereas mutations in loops adjacent to helix H4 do not affect MreB binding (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ;
+     <a>
+      Supplementary Table III
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     How does the MreB–RodZ heterodimer compares to actin complexes?
+    </title>
+    <p>
+     As mentioned earlier, MreB is structurally and functionally related to actin and superimposes on actin with an rmds of 3.7 Å. To determine whether the homology extends towards their binding partners, the MreB–RodZ heterodimer structure is compared with actin complexes as known to date (see
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). The comparison shows that except for DNAse that disrupts actin polymerisation by blocking off the top of actin, all other binding partners engage the barbed end of the molecule, just like RodZ. However, none of them have the same binding mode as RodZ, nor share its fold, suggesting that they evolved separately to fulfil their specific functions.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The similarity in binding thermodynamics of RodZ
+    <sup>
+     (1−104)
+    </sup>
+    to monomeric or filamentous MreB (
+    <xref ref-type="fig">
+     Figure 1
+    </xref>
+    ) suggests that RodZ's binding site within the heterodimer is unaffected by subunit contacts within the MreB protofilament. It also indicates that conformational changes induced by nucleotide binding by MreB and/or filament formation do not affect MreB–RodZ interaction. To determine whether the binding mode observed in the cocrystal structure is indeed compatible with filament formation, the structure of the RodZ–MreB heterodimer was superimposed on the protofilament structure present in the original MreB crystals (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The superposition is compatible with the possibility that RodZ
+    <sup>
+     (1−104)
+    </sup>
+    interacts with MreB protofilaments in the same manner as it does with monomeric MreB (
+    <xref ref-type="fig">
+     Figure 6A and B
+    </xref>
+    ). The front-end view (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ) shows that the C-terminal helix of RodZ
+    <sup>
+     (1−104)
+    </sup>
+    is not perpendicular to the filament axis; the magenta arrow indicating the direction of the C-terminal helix sits at an angle of ∼20° of the normal to the filament axis. This raises the interesting possibility that the membrane anchoring of MreB filaments by RodZ promotes a helical arrangement of the filaments. A basic requirement is that both the single transmembrane helix and the linker extending from helix H5 become rigid with respect to the membrane, for instance by additional protein–protein interactions. Thus far, there is no evidence for such an interaction. Earlier work has shown that the JM region (aa 85–111 in
+    <em>
+     E. coli
+    </em>
+    RodZ) is required in providing rod shape and might provide additional protein–protein interactions necessary to obtain rigidity (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Alternatively, the role of the JM region might lie in the presence of the positively charged residues adjacent to the transmembrane region. This could restrict angular movement of the transmembrane helix by interacting with the negatively charged head groups of the polar lipids.
+   </p>
+   <fig id="f6" position="float">
+    <label>
+     Figure 6
+    </label>    <caption>
+     <p>
+      (
+      <strong>
+       A
+      </strong>
+      ,
+      <strong>
+       B
+      </strong>
+      ) Model of RodZ cytoplasmic domain in complex with an MreB protofilament. The crystal structure of the heterodimer of RodZ
+      <sup>
+       (1−88)
+      </sup>
+      (rainbow colours, N-terminus in blue, C-terminus in red) and MreB (cyan) was superimposed on the protofilament structure of MreB (blue) (
+      <xref ref-type="bibr">
+       None
+      </xref>
+      ). The black, downwards-pointing arrow shows the MreB filament axis. The red arrow indicates the direction of the C-terminal helix of RodZ's cytoplasmic domain that is positioned at ∼20° of the normal to the filament axis. MreB subdomains IA, IB, IIA, IIB are labelled in cyan. (
+      <strong>
+       C
+      </strong>
+      ) Model showing that RodZ's HTH domain is unable to bind MreB and the nucleoid simultaneously. The helix-turn-helix motif of RodZ is modelled onto a classical DNA-binding protein (phage 343 repressor, pdb entry 2OR1), revealing its hypothetical DNA-binding site. Superimposing this imaginary complex on to the heterodimer structure of MreB and RodZ
+      <sup>
+       (1−88)
+      </sup>
+      shows a steric clash between MreB and DNA. Colour code as in (
+      <strong>
+       B
+      </strong>
+      ). Double-stranded DNA in grey (taken from pdb entry 2OR1). (
+      <strong>
+       D
+      </strong>
+      ,
+      <strong>
+       E
+      </strong>
+      ) Model showing how RodZ might anchor the bacterial actin cytoskeleton in the membrane. As the orientation of MreB relative to the membrane is not known, the MreB filaments could adopt any position between the two extremes depicted in (
+      <strong>
+       D
+      </strong>
+      ,
+      <strong>
+       E
+      </strong>
+      ), depending on the flexibility of the linker that connects the helix-turn-helix motif of RodZ to the transmembrane region. (
+      <strong>
+       D
+      </strong>
+      ) The side-view shows RodZ
+      <sup>
+       (1−104)
+      </sup>
+      positioned between MreB and the membrane. In that case, the distance between MreB and the membrane could vary between ∼3.5 and 8.5 nm, depending on the orientation of the linker of RodZ. (
+      <strong>
+       E
+      </strong>
+      ) Front-end view: the heterodimer between MreB and RodZ
+      <sup>
+       (1−104)
+      </sup>
+      is rotated by 90° relative to (
+      <strong>
+       D
+      </strong>
+      ). In this model, the spacing between MreB and the membrane could be between 0 nm (if part of the linker folds back) and ∼4 nm (in case the linker is fully extended). As MreB would face the membrane with subdomain I, the lateral contacts between the protofilaments would be limited to subdomain II and/or the back of the molecule (
+      <strong>
+       E
+      </strong>
+      ).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    The present heterodimer structure shows MreB in a slightly more open conformation than in the original protofilament structure (compare the MreB molecule in cyan, coming from the heterodimer structure with the structure in sky blue that is in the straight protofilament configuration,
+    <xref ref-type="fig">
+     Figure 6A and B
+    </xref>
+    , top). As RodZ
+    <sup>
+     (1−104)
+    </sup>
+    has an additional, crystallisation-enforced interface with the active site cleft of MreB, it is plausible that the slightly more open configuration in MreB is the result of crystal contacts with RodZ, which may not be functionally relevant.
+   </p>
+   <p>
+    Classical helix-turn-helix DNA-binding proteins bind their substrate with the third helix, occupying the major groove of DNA (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In RodZ
+    <sup>
+     (1−104)
+    </sup>
+    , the third helix only provides a minor contact with its substrate MreB. The main contacts here are formed by the fourth α-helix that itself is buried in a conserved cleft formed by the HTH motif (see
+    <a>
+     Supplementary movie
+    </a>
+    ). The highly conserved aromatic residue Tyr53 sits in a hydrophobic and reasonably conserved pocket of MreB, formed by L141, N149, R279, G280, F282 and I306. Replacing I306 with a Trp abolishes RodZ
+    <sup>
+     (1−104)
+    </sup>
+    binding
+    <em>
+     in vitro
+    </em>
+    (see
+    <a>
+     Supplementary Figure S3
+    </a>
+    ). In the few organisms that lack RodZ, the pocket is shaped by similar, hydrophobic residues, suggesting that they are important for the fold of MreB and that RodZ has taken advantage of this pocket to insert the aromatic side chain of Y53 (
+    <em>
+     T. maritima
+    </em>
+    ) or F60 (
+    <em>
+     E. coli
+    </em>
+    ). Additional residues of
+    <em>
+     T. maritima
+    </em>
+    MreB that contribute to the binding surface of RodZ
+    <sup>
+     (1−104)
+    </sup>
+    are S139, N140, N142, I277, E278, D294, G302, S304, V305, E309.
+   </p>
+   <p>
+    It has been postulated that the HTH motif of RodZ might bind DNA and could possibly bring the MreB cytoskeleton in contact with the nucleoid (
+    <xref ref-type="bibr">
+     Gerdes, 2009
+    </xref>
+    ). If RodZ were to bind DNA as a classical HTH motif, then it cannot bind MreB simultaneously, as shown in
+    <xref ref-type="fig">
+     Figure 6C
+    </xref>
+    . The hypothetical DNA-binding mode of RodZ is derived from its superposition on the DNA complex of phage 343 repressor (PDB entry 2or1;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Combining this superposition with the heterodimer structure shows a steric clash between MreB (blue) and DNA (grey,
+    <xref ref-type="fig">
+     Figure 6C
+    </xref>
+    ), making it rather unlikely that RodZ would bring MreB in contact with the nucleoid. Rather, RodZ seems to use the HTH fold to position its fourth helix that then interacts with MreB.
+   </p>
+   <p>
+    Our biochemical and structural evidence shows that RodZ
+    <sup>
+     (1−104)
+    </sup>
+    binds to monomeric MreB. This binding event is compatible with MreB filament formation as shown by biochemical experiments and by light microscopy (
+    <xref ref-type="fig">
+     Figures 1
+    </xref>
+    ,
+    <xref ref-type="fig">
+     None
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Through this interaction, the cytoplasmic HTH domain might enhance the local concentration of MreB raising its critical concentration that would enable filament formation in the vicinity of the membrane. As RodZ is a bitopic membrane protein, it will assist in anchoring the actin cytoskeleton to the membrane (
+    <xref ref-type="fig">
+     Figure 6D and E
+    </xref>
+    ). Assuming that the linker between the HTH domain and the transmembrane region is fairly rigid, MreB would face the membrane with subdomain I (
+    <xref ref-type="fig">
+     Figure 6E
+    </xref>
+    ). Lateral contacts between the protofilaments would then be limited to subdomain II and the back of the molecule. The orientation of MreB to the membrane depends on the flexibility of the linker in RodZ (
+    <xref ref-type="fig">
+     Figure 6D and E
+    </xref>
+    ). The spacing might vary from organism to organism, as the length of the linker attaching the C-terminal helix to the transmembrane region differs (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In the past, it has been proposed that the morphogenetic membrane-linked proteins MreC and MreD would tie cytoplasmic MreB to the periplasmic peptidoglycan synthesis machinery. MreD is an integral membrane protein with only short stretches of amino acids exposed to the cytoplasm. Bitopic membrane protein MreC has a larger periplasmic domain and an N-terminal tail sticking into the cytoplasm that varies in length between 5 and 51 residues among different bacterial species. This makes it questionable whether MreC or MreD on their own could provide a large enough interface for a stable interaction with MreB, at least in some organisms. In
+    <em>
+     E. coli
+    </em>
+    , the cytoplasmic tail of MreC is predicted to be ∼9 residues long (
+    <a>
+     http://www.enzim.hu/hmmtop/
+    </a>
+    ), which is most likely too short to ensure a stable interaction with MreB. Once brought into the vicinity of the membrane, MreB might well establish additional contacts with MreC and/or MreD. Taken together, a picture emerges that describes how the cytoplasmic MreB cytoskeleton dictates cell shape through its interaction with bitopic membrane proteins, such as RodZ and possibly MreC, both of which involve the peptidoglycan synthesis machinery in the periplasm to mould and maintain the shape of the cell.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     In vitro work
+    </title>
+    <p>
+     <em>
+      Cloning, expression and purification.
+     </em>
+     The gene encoding RodZ (NCBI Accession number
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"NP_229660","term_id":"15644607","term_text":"NP_229660"}}
+      </span>
+      NP_229660
+     </a>
+     ) from
+     <em>
+      T. maritima
+     </em>
+     genomic DNA (ATCC 43589D_5) was used as template to amplify the cytoplasmic region (aa 1–104) by PCR. The PCR product generated with forward primer (5′-AGTCTACCATATGAGCGAAAAATGGAAGGAACTCGGTGAGAC) and reverse primer (5′-TGACTACGGATCCCAGGTCCCTTGTTTTCTCTTTCTCC) was cut with
+     <em>
+      NdeI
+     </em>
+     and
+     <em>
+      BamHI
+     </em>
+     and ligated into
+     <em>
+      NdeI
+     </em>
+     /
+     <em>
+      BamHI
+     </em>
+     digested pHis17 (B. Miroux personal communication). The newly obtained plasmid, pFE305 contains the
+     <em>
+      rodZ
+     </em>
+     gene downstream of the T7 promoter, encoding the cytoplasmic part of RodZ (aa 1–104) with a C-terminal His
+     <sub>
+      6
+     </sub>
+     -tag to facilitate purification.
+    </p>
+    <p>
+     Site-directed mutagenesis was carried out using QuickChange (Stratagene) on pFE305 to introduce interface mutations in RodZ
+     <sup>
+      (1−104)
+     </sup>
+     . To label RodZ and MreB with alexa fluor maleimide, mutagenesis was carried out to introduce a KCK motif following the C-terminal His-tag, leaving the 3′
+     <em>
+      BamHI
+     </em>
+     site intact, creating pFE344 encoding RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (Y53A), pFE346 encoding RodZ
+     <sup>
+      (1−104)
+     </sup>
+     and pFE347 encoding MreB.
+    </p>
+    <p>
+     RodZ
+     <sup>
+      (1−104)
+     </sup>
+     and
+     <em>
+      T. maritima
+     </em>
+     MreB were expressed in C41(DE3) cells (
+     <xref ref-type="bibr">
+      Miroux and Walker, 1996
+     </xref>
+     ) for 4 h at 37°C and MreB was purified as described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Following affinity purification using a Histrap HP column (GE Healthcare) at pH 6.0, RodZ was further purified over a Sephacryl S100 column (GE Healthcare) in 20 mM Tris–HCl 7.0, 1 mM EDTA and 1 mM NaN
+     <sub>
+      3
+     </sub>
+     and concentrated to 94 mg/ml before flash freezing in liquid nitrogen. Typical yields were ∼15 mg/l culture.
+    </p>
+    <p>
+     The cysteine-containing mutants were purified in the presence of 5 mM β-mercaptoethanol (Histrap HP column) and 2 mM TCEP (size-exclusion chromatography). MreB containing KCK was able to form filaments as the wild-type protein as seen under the electron microscope (data not shown). MreB was labelled with Alexa fluor 555 C2 maleimide (Invitrogen) and RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (WT as well as Y53A mutant) were labelled with Alexa fluor 488 C5 maleimide (Invitrogen) according to the manufacturer's instructions. Proteins were mixed with a 5 × molar excess dye for 2–5 h at room temperature or left overnight at 4°C. Alexa-labelled MreB was separated from unbound dye on a Superdex 200 10/30 column (GE Healthcare) in 20 mM Tris–HCl, pH 7.5, 1 mM EDTA, 1 mM NaN
+     <sub>
+      3
+     </sub>
+     , 200 mM NaCl, 2 mM TCEP. Alexa-labelled RodZ was purified over a Superdex75 column (GE Healthcare) in 20 mM Tris–HCl, pH 7.0, 1 mM EDTA, 1 mM NaN
+     <sub>
+      3
+     </sub>
+     , 2 mM TCEP. Labelled proteins were checked on a gel, pooled and concentrated by ultrafiltration using Vivaspin concentrators (Vivascience).
+    </p>
+    <p>
+     <em>
+      Crystallisation and structure determination.
+     </em>
+     Cocrystals of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     and MreB were obtained in the initial screen of 1440 conditions (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Final crystals were optimised by hanging-drop vapour diffusion in 12% PEG 1000 MME, 478 mM sodium thiocyanate, 147 mM CaCl
+     <sub>
+      2
+     </sub>
+     , 100 mM Tris–HCl, pH 7.7, 6.5% EtOH with 5.6 mg/ml (415 μM) RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (MW=13.48 kDa) and 6.6 mg/ml (180 μM) MreB (MW=36.75 kDa) (2.3 molar excess of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     ). The crystals were cryoprotected with mother liquor containing 24.8% PEG400 and flash frozen in liquid nitrogen. Crystals diffracted to 2.9 Å and belong to spacegroup P22
+     <sub>
+      1
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     with two heterodimers in the asymmetric unit. Cell constants and crystallographic data are summarised in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . Datasets were collected at ESRF beamline ID23–1. All data were indexed and integrated with Mosflm (
+     <xref ref-type="bibr">
+      Leslie, 1991
+     </xref>
+     ). The structure was solved by molecular replacement using Phaser (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and MreB (PDB entry code 1JCE), with subdomains I and II split. The model was manually built with MAIN (
+     <xref ref-type="bibr">
+      Turk
+     </xref>
+     , 1992) and refined using Phenix (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Details of the refined models are shown in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     .
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Crystallographic data and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     <em>
+      Polymerisation assays.
+     </em>
+     Purified, prespun
+     <em>
+      T. maritima
+     </em>
+     MreB (35.8 kDa) was mixed with or without prespun RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (13.4 kDa) in the presence of 50 mM Tris–HCl, pH 7.0, 1 mM ATPγS, 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     and incubated for 20 min at 37°C. Final concentration of MreB was 28 and 35 μM for RodZ
+     <sup>
+      (1−104)
+     </sup>
+     , unless stated otherwise. The reactions were centrifuged at 140 000
+     <em>
+      g
+     </em>
+     in a TLA100 rotor (Beckman) for 20 min at 20°C. The supernatant was removed for analysis and the pellet was washed once with reaction buffer before it was dissolved in SDS loading dye. Equivalent amounts of the total reaction, the supernatant and pellet were analysed on a 10–20% SDS–polyacrylamide gel, which was stained with Coomassie.
+    </p>
+    <p>
+     In vitro
+     <em>
+      colocalisation of RodZ
+      <sup>
+       (1−104)
+      </sup>
+      and MreB
+     </em>
+     Purified, alexa-labelled MreB was mixed with non-labelled MreB (equimolar ratio) at a concentration of 2.2 mg/ml in 20 mM Tris–HCl, pH 9.0, 1 mM EDTA, 1 mM NaN
+     <sub>
+      3
+     </sub>
+     , 200 mM NaCl, 2 mM TCEP and prespun at 138 000
+     <em>
+      g
+     </em>
+     for 10 min, 4°C. MreB was then polymerised in the presence of 2.5 molar excess of alexa-labelled RodZ
+     <sup>
+      (1−104)
+     </sup>
+     (either wild type or the Y53A mutant) in polymerisation buffer (50 mM Tris–HCl, pH 7.0, 1 mM ATPγS, 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     ) for 20 min at 37°C. Larger filaments are formed when the reaction is supplemented with 3% PEG4000.
+    </p>
+    <p>
+     <em>
+      Isothermal titration calorimetry.
+     </em>
+     ITC measurements were made using manual and automated versions of a Microcal iTC200 calorimeter. In all measurements, RodZ
+     <sup>
+      (1−104)
+     </sup>
+     in the syringe was injected into MreB in the cell as it was not possible to concentrate solutions of MreB to the level required for the alternate configuration. Typical experiments used 40 μM MreB in the cell and 1 mM RodZ
+     <sup>
+      (1−104)
+     </sup>
+     in the syringe, which was added over 18 injections of 2 μl. Experiments were run at 10°C. Before each experiment, proteins were dialysed over night at 4°C to 20 mM Tris–HCl, pH 7.5, 1 mM EDTA, 1 mM NaN
+     <sub>
+      3
+     </sub>
+     , 200 mM NaCl (TEN200). Before ITC experiments with polymerized MreB, filaments were formed as described for the pelleting assay: prespun MreB was incubated for 20 min at 37°C in 1 × polymerization buffer (50 mM Tris–HCl, pH 7.0, 1 mM ATPγS, 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     ), spun at 140 000
+     <em>
+      g
+     </em>
+     for 20 min. The pellet was washed with polymerization buffer and resuspended in TEN200 complemented with 1 mM ATPγS and 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     . Excess heat for each injection was determined by integration following manual adjustment of baselines and normalisation relative to the RodZ
+     <sup>
+      (1−104)
+     </sup>
+     concentration. The control heat of dilution of RodZ
+     <sup>
+      (1−104)
+     </sup>
+     was determined from the small excess heat at the end points of the titrations (molar ratio RodZ
+     <sup>
+      (1−104)
+     </sup>
+     : MreB &gt;4) and these were subtracted from the data before final fitting. Data analysis and curve fitting using a model with a simple one set of binding sites were performed using the Microcal Origin software provided with the ITC.
+    </p>
+    <p>
+     <em>
+      Multi-angle light scattering.
+     </em>
+     SEC MALS was performed using a Wyatt Dawn Heleos-II angle light scattering instrument coupled to a Wyatt Optilab rEX online refractive index detector. Samples for analysis were resolved on a Superdex S-200 analytical gel filtration column (GE Healthcare) running at 0.5 ml/min before passing through the light scattering and refractive index detectors in a standard SEC MALS format. Protein concentration was determined from the refractive index based on 0.19 RI for 1 mg/ml, and combined with the observed scattered intensity to calculate absolute molecular mass using Wyatt's ASTRA analysis software.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      In vivo
+     </em>
+     work
+    </title>
+    <p>
+     <em>
+      E. coli strains.
+     </em>
+     For plasmid construction see
+     <a>
+      Supplementary data
+     </a>
+     . Strains MG1655 [
+     <em>
+      ilvG rfb
+     </em>
+     50
+     <em>
+      rph
+     </em>
+     1], TB28 [MG1655,
+     <em>
+      lacIZYA
+     </em>
+     &lt;&gt;
+     <em>
+      frt
+     </em>
+     ] and FB60 [TB28,
+     <em>
+      rodZ&lt;&gt;aph
+     </em>
+     ] were described earlier (
+     <xref ref-type="bibr">
+      Bernhardt and de Boer, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). BTH101 [
+     <em>
+      cya
+     </em>
+     -99
+     <em>
+      araD
+     </em>
+     139
+     <em>
+      galE
+     </em>
+     15
+     <em>
+      galK
+     </em>
+     16
+     <em>
+      rpsL
+     </em>
+     1
+     <em>
+      hsdR
+     </em>
+     2
+     <em>
+      mcrA
+     </em>
+     1
+     <em>
+      mcrB
+     </em>
+     1] was provided by Gouzel Karimova.
+    </p>
+    <p>
+     Strains used for studying the effects of mutations on the
+     <em>
+      in vivo
+     </em>
+     properties of RodZ were obtained in two steps. First, pFB273 [P
+     <sub>
+      lac
+     </sub>
+     ∷
+     <em>
+      gfp-t-rodZ
+     </em>
+     ], pLP39 [P
+     <sub>
+      lac
+     </sub>
+     ∷
+     <em>
+      gfp-t-rodZ
+     </em>
+     (1–138)-
+     <em>
+      rfp
+     </em>
+     ] or each of their mutant derivatives was integrated at the chromosomal HK022
+     <em>
+      att
+     </em>
+     site of strain TB28 [
+     <em>
+      wt
+     </em>
+     ] as described (Haldimann and Wanner, 2001), resulting in strains TB28(iFB273) and TB28(iLP39), and their mutant versions. In each case, the corresponding FB60 [Δ
+     <em>
+      rodZ
+     </em>
+     ] strain was then created by P1-mediated introduction of the
+     <em>
+      rodZ
+     </em>
+     &lt;&gt;
+     <em>
+      aph
+     </em>
+     allele from FB60/pFB233 [Δr
+     <em>
+      odZ
+     </em>
+     / P
+     <sub>
+      lac
+     </sub>
+     ∷
+     <em>
+      rodZ
+     </em>
+     (1–319)], with selection for Kan
+     <sup>
+      r
+     </sup>
+     transductants on M9-maltose agar supplemented with 250 μM IPTG.
+    </p>
+    <p>
+     <em>
+      Growth conditions.
+     </em>
+     Cells were routinely grown at 30°C in LB (0.5% NaCl) or M9 minimal medium supplemented with 0.2% maltose, 0.2% casamino acids and 50 μM thiamine (M9-mal). When appropriate, medium was supplemented with 15 (for strains with
+     <em>
+      bla
+     </em>
+     integrated in the chromosome) or 50 μg/ml ampicillin (Amp), 25 μg/ml kanamycin (Kan) or 25 μg/ml chloramphenicol (Cam). Other details are specified in the text.
+    </p>
+    <p>
+     <em>
+      Bacterial two hybrid assay.
+     </em>
+     For BACTH analyses (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), plasmid pairs encoding the indicated T18- and T25-fusions were cotransformed into BTH101 [
+     <em>
+      cya
+     </em>
+     -99], and individual colonies were patched on M9-agar containing 0.2% glucose, 25 μg/ml Kan, 40 μg/ml X-Gal and 250 μM IPTG. The plate was incubated at 30°C and imaged after 24 h.
+    </p>
+    <p>
+     <em>
+      ΔrodZ complementation assays and microscopy.
+     </em>
+     Cells were grown overnight in M9-mal supplemented with 15 μg/ml Amp and 250 μM IPTG, diluted to OD
+     <sub>
+      600
+     </sub>
+     =0.05 in M9-mal with 250 μM IPTG, and grown further to OD
+     <sub>
+      600
+     </sub>
+     =0.3–05. Aliquots were applied to microscope slides containing thin pads of 1.2% agarose in M9, and cells were imaged immediately with differential interference contrast (DIC) and fluorescence (GFP specific) optics, as described (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary movie:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (6.3M, mov)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (13M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (350K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

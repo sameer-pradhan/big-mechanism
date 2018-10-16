@@ -1,0 +1,2145 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3098480
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    The CW domain, a new histone recognition module in chromatin proteins
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Post-translational modifications of the N-terminal histone tails, including lysine methylation, have key roles in regulation of chromatin and gene expression. A number of protein modules have been identified that recognize differentially modified histone tails and provide their proteins with the capacity to sense such modifications. Here, we identify the CW domain of plant and animal chromatin-related proteins as a novel module that recognizes different methylated states of lysine 4 on histone H3 (H3K4me). The solution structure of the CW domain of the
+     <em>
+      Arabidopsis
+     </em>
+     ASH1 HOMOLOG2 (ASHH2) histone methyltransferase provides insight into how different CW domains can distinguish different methylated histone tails. We provide evidence that ASHH2 is acting on H3K4me-marked genes, allowing for ASHH2-dependent H3K36 tri-methylation, which contributes to sustained expression of tissue-specific and developmentally regulated genes. This suggests that ASHH2 is a combined ‘reader' and ‘writer' of the histone code. We propose that different CW domains, dependent on their specificity for different H3K4 methylations, are important for epigenetic memory or participate in switching between permissive and repressive chromatin states.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     chromatin, histone methylation, protein module
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Transcription of eukaryotic genes is not only dependent on transcription factors facilitating the recruitment of the RNA polymerase pre-initiation complex, but also on the state of the template—the chromatin. The transcription machinery and most transcription factors cannot access promoters and enhancers when the DNA is wrapped in nucleosomes and must be aided by factors changing the chromatin structure, that is, chromatin remodelling and histone-modifying enzymes.
+   </p>
+   <p>
+    A number of histone tail modifications have been identified including acetylation, phosphorylation, ubiquitination, and methylation (
+    <xref ref-type="bibr">
+     Spotswood and Turner, 2002
+    </xref>
+    ), and some of these modifications serve as marks in chromatin that reflect the state of gene activity. Histone acetylation and methylation on lysine 4 of histone H3 (H3K4) are generally associated with active loci, while histones methylated on H3K9, H3K27, and H4K20 correlate with silenced chromatin (
+    <xref ref-type="bibr">
+     Kouzarides, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    Unique combinations of histone modifications mark different genic and chromatin regions, implicating cross-talk between different modifications. This in correlation with different states of gene expression is known as the histone code (
+    <xref ref-type="bibr">
+     Strahl and Allis, 2000
+    </xref>
+    ). Histone-modifying enzymes ‘write' the histone code, while the concept of this code in addition implies the existence of proteins that ‘read' these modifications and translate the embedded information into effects on chromatin structure and/or the transcription machinery (
+    <xref ref-type="bibr">
+     Turner, 2007
+    </xref>
+    ). This prediction has indeed been borne out by the identification of a growing number of nuclear proteins that are fretted with one or more small histone recognition modules (
+    <xref ref-type="bibr">
+     Taverna et al, 2007
+    </xref>
+    ). Prominent examples are bromodomains, specific for acetylated lysines; chromodomains, that can bind H3K9me or H3K27me3; and PHD fingers that recognize H3K4me3 or, in some cases acetylated or unmethylated histone tails (
+    <xref ref-type="bibr">
+     Chakravarty et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zeng et al, 2010
+    </xref>
+    ). Several MBT domains have been shown to bind mono- and/or di-methylated lysines on both H3 and H4, but with less sequence selectivity than the chromodomains and PHD fingers (
+    <xref ref-type="bibr">
+     Bonasio et al, 2010
+    </xref>
+    ). A remarkable feature of histone recognition modules is that they often occur in a combinatorial manner, either as multiple domains within one polypeptide or on different subunits of larger protein complexes, facilitating the simultaneous recognition of different histone modifications in chromatin (
+    <xref ref-type="bibr">
+     Ruthenburg et al, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    The concerted action of ‘readers' and ‘writers' of a particular histone modification can explain how patterns of histone modifications can be propagated and inherited through many cell divisions, giving rise to the phenomenon of epigenetic inheritance. Similar mechanisms can explain how the transcriptional status of genes can be changed; a chromatin-modifying enzyme could ‘read' one modification while ‘writing' another. Furthermore, alterations of histone modification patterns may be brought about by sequence-specific transcription factors and/or non-coding RNAs that recruit different histone-modifying enzymes as cofactors (coactivators, corepressors, or silencing complexes) (
+    <xref ref-type="bibr">
+     Goodman and Smolik, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Imhof, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Muller and Kassis, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ringrose and Paro, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    Histone lysine methylation is conferred by SET-domain proteins that can be divided into several evolutionarily conserved classes (
+    <xref ref-type="bibr">
+     Baumbusch et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kouzarides, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wu et al, 2010
+    </xref>
+    ) including: (1) the E(z) class, involved in the maintenance of a transcriptionally repressive state of genes via H3K27 tri-methylation; (2) SU(VAR)3–9 proteins, implicated in heterochromatinization via H3K9 methylation; (3) the TRXSET1 family that contribute to the active state via H3K4me3; and (4) ASH1 proteins associated with transcriptional elongation via H3K36me. In addition to the identity of the modified lysine, the number of methyl groups added is functionally significant (
+    <xref ref-type="bibr">
+     Fischer et al, 2006
+    </xref>
+    ). For example, using genome-wide chromatin profiling in mammalian cells, it was recently shown that, while H3K4me2 and me3 marks are prominent near transcription start sites (TSS), tissue-specific enhancers are enriched for mono-methylated H3K4 (
+    <xref ref-type="bibr">
+     Heintzman et al, 2007
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2010
+    </xref>
+    ). In the model plant
+    <em>
+     Arabidopsis thaliana
+    </em>
+    , H3K4me3 is preferentially found in the 5′-end of highly expressed genes with low tissue specificity, while H3K4me1 is highly correlated with CpG methylation in the transcribed region of genes (
+    <xref ref-type="bibr">
+     Zhang et al, 2009
+    </xref>
+    ). Furthermore, H3K36 tri-methylation of MADS box genes involved in flowering time control and flower development, shows a positive correlation with transcription, but H3K36me1 does not (
+    <xref ref-type="bibr">
+     Xu et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Grini et al, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    Several SET-domain histone methyltransferases (HMTases) have histone recognition modules as co-domains, either on the same polypeptide or on another subunit in a protein complex. Examples are chromodomains in animal SU(VAR)3–9 proteins and PHD fingers in Trx/MLL proteins. Co-domains are thought to contribute to the recruitment of the histone modifiers to relevant sites in chromatin (
+    <xref ref-type="bibr">
+     Ruthenburg et al, 2007
+    </xref>
+    ). Alternatively, they may modulate the activity of the methyltransferase, as in the case for E(z)/EZH proteins where the H3K27me3-binding EED/Esc subunit contribute to H3K27me3 methylation on adjacent nucleosomes (
+    <xref ref-type="bibr">
+     Margueron et al, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    While the functional role of several recognition modules has been worked out in some detail, we are far from understanding how they contribute to maintaining or altering chromatin structure and thereby modulate gene expression. In this paper, we have identified the CW domain as a new type of histone recognition module and explored its properties. This domain, named after its conserved cysteine and tryptophan residues, was first identified as an MBD-associated domain (MAD) in a subgroup of methyl-CpG-binding proteins of
+    <em>
+     Arabidopsis
+    </em>
+    (
+    <xref ref-type="bibr">
+     Berg et al, 2003
+    </xref>
+    ). The CW domain is found in a small number of chromatin-related proteins in animals and plants (
+    <xref ref-type="bibr">
+     Perry and Zhao, 2003
+    </xref>
+    ; see
+    <a>
+     <span>
+      Table I
+     </span>
+    </a>
+    ). Some of the genes that encode CW proteins have mutant alleles with phenotypes that underscore their functional importance: Mutation in the mouse
+    <em>
+     Morc1
+    </em>
+    causes arrested spermatogenesis (
+    <xref ref-type="bibr">
+     Inoue et al, 1999
+    </xref>
+    ),
+    <em>
+     Morc2b
+    </em>
+    was recently shown to be involved in hybrid sterility (
+    <xref ref-type="bibr">
+     Mihola et al, 2009
+    </xref>
+    ), and
+    <em>
+     MORC4
+    </em>
+    has been found highly expressed in large B-cell lymphomas (
+    <xref ref-type="bibr">
+     Liggins et al, 2007
+    </xref>
+    ). The
+    <em>
+     Arabidopsis val1val2
+    </em>
+    double mutant fail to repress embryonic development during vegetative growth (
+    <xref ref-type="bibr">
+     Suzuki et al, 2007
+    </xref>
+    ). The mammalian CW protein AOF1/LSD2 (alias KDM1B) is a H3K4me1- and me2-specific histone demethylase (
+    <xref ref-type="bibr">
+     Karytinos et al, 2009
+    </xref>
+    ). AOF1/LSD2 has a demethylase-independent repressor function, which, on the other hand, requires the CW domain (
+    <xref ref-type="bibr">
+     Yang et al, 2010
+    </xref>
+    ).
+   </p>
+   <sec>
+    <a>
+     <img/>
+    </a>
+    <sec>
+     <sec>
+      <a>
+       Table 1
+      </a>
+     </sec>
+     <sec>
+      <span>
+       <strong>
+        Proteins with CW domains in humans and
+        <em>
+         Arabidopsis
+        </em>
+       </strong>
+      </span>
+     </sec>
+    </sec>
+   </sec>
+   <p>
+    The best-studied CW protein is, however, the
+    <em>
+     Arabidopsis
+    </em>
+    ASH1 HOMOLOG2 (ASHH2), also known as SDG8/EFS/CCR1. ASHH2 is an ∼200 K SET-domain protein considered to be a major H3K36me2/me3 HMTase in
+    <em>
+     Arabidopsis
+    </em>
+    , as chromatin of
+    <em>
+     ashh2
+    </em>
+    mutants shows a global reduction in H3K36me2/me3 levels (
+    <xref ref-type="bibr">
+     Zhao et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Xu et al, 2008
+    </xref>
+    ). In ASHH2, a CW domain precedes the AWS and SET domains. We and others have shown that mutations in
+    <em>
+     ASHH2
+    </em>
+    confer pleiotropic effects like small, bushy plants with early flowering, homeotic changes of floral organs, and severely reduced fertility. The expression of the major regulator of flowering time in
+    <em>
+     Arabidopsis
+    </em>
+    ,
+    <em>
+     FLOWERING LOCUS C
+    </em>
+    (
+    <em>
+     FLC
+    </em>
+    ), a direct target of ASHH2 (
+    <xref ref-type="bibr">
+     Ko et al., 2010
+    </xref>
+    ), as well as other transcription factor genes involved in these developmental processes, is repressed in the mutant correlating with a reduction in H3K36me2/me3 levels in mutant plants (
+    <xref ref-type="bibr">
+     Kim et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhao et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dong et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Xu et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Grini et al, 2009
+    </xref>
+    ). It is not clear, however, whether this mark is a prerequisite for gene expression.
+   </p>
+   <p>
+    <em>
+     In vitro
+    </em>
+    , ASHH2 is active on histone H3 isolated from eukaryote nuclei but not on recombinant histones (
+    <xref ref-type="bibr">
+     Dong et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Grini et al, 2009
+    </xref>
+    ), suggesting the requirement of a pre-modified histone tail. The contrasting features of ASHH2 compared with yeast and animal H3K36 HMTases prompted us to investigate the chromatin marks and transcriptional status of putative ASHH2 target genes in more detail. We found that they are enriched for tissue-specific and developmentally regulated genes that have H3K4 marks. We therefore reasoned that the CW domain in ASHH2 might read methylated H3K4.
+   </p>
+   <p>
+    Here, we show that the ASHH2 CW domain as well as CW domains from other plant and animal proteins bind methylated H3K4. We have solved the solution structure of the ASHH2 CW domain and probed the putative binding site for the histone tail on the surface of CW. For ASHH2, we propose a model where the CW domain targets the enzyme to H3K4me-marked active chromatin, which subsequently introduces methylation on H3K36.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     H3K36me3 methylation is positively correlated with transcription of tissue-specific genes
+    </title>
+    <p>
+     Although ASHH2 appears to be the enzyme responsible for global di- and tri-methylation of H3K36, only a subset of genes are transcriptionally affected by
+     <em>
+      ashh2
+     </em>
+     mutation. We, therefore, investigated the effect of the
+     <em>
+      ashh2
+     </em>
+     mutation on expression and histone marks for a selected panel of genes, with the aim of identifying features of the chromatin context in which ASHH2 is acting, assuming that the function of its CW domain is to render the enzyme sensitive to this chromatin context. With antibodies against H3K4me3, H3K36me2, and H3K36me3, ChIP analyses comparing wild-type (wt) and
+     <em>
+      ashh2
+     </em>
+     mutant seedlings were used on a set of tissue-specific genes with differential expression profiles in seedlings and flowers: (1)
+     <em>
+      APETALA1
+     </em>
+     (
+     <em>
+      AP1
+     </em>
+     ),
+     <em>
+      MYB99
+     </em>
+     , and the transcription factor
+     <em>
+      NAC25
+     </em>
+     predominantly expressed in the inflorescences; and (2)
+     <em>
+      DISRUPTION OF MEIOTIC CONTROL 1
+     </em>
+     (
+     <em>
+      AtDMC1
+     </em>
+     ),
+     <em>
+      MADS-BOX AFFECTING FLOWERING 1
+     </em>
+     (
+     <em>
+      MAF1
+     </em>
+     ) and
+     <em>
+      FLC
+     </em>
+     , with low and tissue-specific expression in both vegetative and reproductive tissues (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). We have previously reported that
+     <em>
+      AP1, MYB99, NAC25
+     </em>
+     , and
+     <em>
+      AtDMC1
+     </em>
+     are associated with mutant phenotypes, show lower transcript levels, and reduction in H3K36me3 but not H3K4me3 and H3K36me2 levels in
+     <em>
+      ashh2
+     </em>
+     mutant inflorescences (
+     <xref ref-type="bibr">
+      Grini et al, 2009
+     </xref>
+     ).
+     <em>
+      MAF1
+     </em>
+     , which similarly to
+     <em>
+      FLC
+     </em>
+     is involved in determination of flowering time, is transcriptionally downregulated in both
+     <em>
+      ashh2
+     </em>
+     seedlings and inflorescences (
+     <xref ref-type="bibr">
+      Kim et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zhao et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Xu et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Grini et al, 2009
+     </xref>
+     ).
+     <em>
+      ACTIN2
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     (
+     <em>
+      GLYCERALDEHYDE 3-PHOSPHATE DEHYDROGENASE A SUBUNIT
+     </em>
+     ), which show high expression but little tissue specificity, were also included in the ChIP analysis. The silent Ta3 retrotransposon was used a control (
+     <xref ref-type="bibr">
+      Zhao et al, 2005
+     </xref>
+     ).
+    </p>
+    <p>
+     H3K4me3 levels in seedlings were high in the wt for these two strongly expressed genes, and although the transcription level was not downregulated in the
+     <em>
+      ashh2
+     </em>
+     mutant (
+     <a>
+      Supplementary Figure S2A
+     </a>
+     ), a substantial reduction in the level of H3K4me3 was evident for GAPA (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3A
+     </a>
+     ). The other genes tested showed very low H3K4me3 levels and were largely unaffected by the
+     <em>
+      ashh2
+     </em>
+     mutation, except around the transcriptional start site of
+     <em>
+      MAF1
+     </em>
+     and at the beginning of the first intron of
+     <em>
+      FLC
+     </em>
+     (
+     <a>
+      Supplementary Figure S3A
+     </a>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Histone tail methylation in chromatin of selected genes from wild-type and
+       <em>
+        ashh2-1
+       </em>
+       mutant seedlings. ChIP using antibodies for (
+       <strong>
+        A
+       </strong>
+       ) H3K4me3, (
+       <strong>
+        B
+       </strong>
+       ) H3K36me2, and (
+       <strong>
+        C
+       </strong>
+       ) H3K36me3. Data are shown as percent of input. The Ta3 retrotransposon was used as reference. Standard deviations are shown. Primers used are in the body of the genes (see
+       <a>
+        Supplementary Table SIV
+       </a>
+       ). Results without antibody (−ab) are shown. Note that the scale on the
+       <em>
+        y
+       </em>
+       -axis differs in the three panels. For H3K9me2 results, see
+       <a>
+        Supplementary Figure S2B
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     H3K36me2 and H3K36me3 levels were low for the inflorescence-specific
+     <em>
+      AP1, MYB99
+     </em>
+     , and
+     <em>
+      NAC25
+     </em>
+     genes in wt seedlings, although significantly above background levels without antibody, and levels of the heterochromatin mark H3K9me2 (
+     <a>
+      Supplementary Figures S1 and S2B
+     </a>
+     ). These levels were not affected in the
+     <em>
+      ashh2
+     </em>
+     mutant (
+     <xref ref-type="fig">
+      Figure 1B and C
+     </xref>
+     ).
+    </p>
+    <p>
+     The K36me2 and me3 levels were reduced for
+     <em>
+      MAF1
+     </em>
+     and
+     <em>
+      FLC
+     </em>
+     in
+     <em>
+      ashh2
+     </em>
+     seedlings (
+     <xref ref-type="fig">
+      Figure 1B and C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ; see
+     <xref ref-type="bibr">
+      Ko et al. (2010)
+     </xref>
+     and
+     <xref ref-type="bibr">
+      Xu et al (2008)
+     </xref>
+     ), and this correlates with reduced transcription levels in the mutants (
+     <xref ref-type="bibr">
+      Zhao et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Xu et al, 2008
+     </xref>
+     ).
+    </p>
+    <p>
+     Unexpectedly,
+     <em>
+      AtDMC1
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     showed significant increases of K36me2 and a reduction of H3K36me3 in
+     <em>
+      ashh2
+     </em>
+     mutant background compared with wt, while
+     <em>
+      ACTIN2
+     </em>
+     showed reduction of both H3K36me2 and H3K36me3 (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ) although transcript levels of these three genes were not affected by the mutation (
+     <a>
+      Supplementary Figure S2A
+     </a>
+     ). The significant reduction of H3K36me3 on
+     <em>
+      ACTIN2
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     in the mutant seedling samples (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ) was also found in inflorescences (
+     <a>
+      Supplementary Figure S2C
+     </a>
+     ).
+    </p>
+    <p>
+     These data suggest that the level of H3K36me3 methylation may reflect the level of expression of a gene, but also that the H3K36me3 mark may not be needed for sustained expression of genes with high and constitutive expression levels, like
+     <em>
+      ACTIN2
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Transcription profiling indicate that ASHH2 is a major regulator of transcription factor genes
+    </title>
+    <p>
+     To get an indication of the importance of ASHH2 for global gene transcription, a microarray experiment was conducted for wt and
+     <em>
+      ashh2
+     </em>
+     seedlings. A total of 183 genes showed &gt;1.6-fold change, of which 135 were downregulated and 48 upregulated. Inspection of GO terms for these genes revealed a striking enrichment (18.4%;
+     <em>
+      P
+     </em>
+     =1.84 × 10
+     <sup>
+      −4
+     </sup>
+     ) for genes encoding transcription factors and DNA/RNA-binding proteins among the downregulated genes (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ;
+     <a>
+      Supplementary Table SI
+     </a>
+     ). A similar enrichment (15.5%) was also found in a previously published microarray experiment (
+     <xref ref-type="bibr">
+      Xu et al, 2008
+     </xref>
+     ). Only 5.7 % of all
+     <em>
+      Arabidopsis
+     </em>
+     genes encode transcription factors.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Properties of genes with changed expression levels in
+       <em>
+        ashh2
+       </em>
+       seedlings. (
+       <strong>
+        A
+       </strong>
+       ) Functional annotation using gene ontology (GO) of genes differentially expressed in
+       <em>
+        ashh2-1
+       </em>
+       inflorescences relative to wt. (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ) Distribution of H3K4me marks for genes downregulated in
+       <em>
+        ashh2
+       </em>
+       mutant seedlings (c.f.
+       <a>
+        Supplementary Table SIII
+       </a>
+       ) and genes from wt seedlings according to
+       <xref ref-type="bibr">
+        Zhang et al (2009
+       </xref>
+       :
+       <a>
+        http://epigenomics.mcdb.ucla.edu/H3K4m1m2m3/
+       </a>
+       ). In (
+       <strong>
+        B
+       </strong>
+       ) genes without any H3K4 methylation are included, and in (
+       <strong>
+        C
+       </strong>
+       ) genes without H3K4 methylation were not included. ‘
+       <em>
+        N
+       </em>
+       ' is number of genes.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Global ChIP data suggest that ASHH2 has a bias for tissue-specific genes
+    </title>
+    <p>
+     To investigate whether the genes with
+     <em>
+      ASHH2
+     </em>
+     -dependent regulation had particular characteristics, data from our microarray experiment as well as previously published experiments (
+     <xref ref-type="bibr">
+      Xu et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cazzonelli et al, 2009
+     </xref>
+     ; see Materials and methods) were surveyed for the presence of H3K4me3, H3K27me3, and H3K36me2 (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Table SII
+     </a>
+     ), using published global ChIP data (
+     <xref ref-type="bibr">
+      Oh et al, 2008
+     </xref>
+     ). Interestingly, over 84% of the genes downregulated in the mutant had K4me3 marks, either alone or in combination with other marks, suggesting that ASHH2 preferentially associates with transcribed genes. Consistent with this, genes with H3K27me3 marks only, which are likely to be silent, were significantly underrepresented. Genes with all three marks, likely to be tissue specific or developmentally regulated (
+     <xref ref-type="bibr">
+      Oh et al, 2008
+     </xref>
+     ), were most significantly overrepresented among the downregulated genes (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). None of these biases were found among the upregulated genes (
+     <a>
+      Supplementary Table SII
+     </a>
+     ). The 45 downregulated genes found common to two or three of the microarray data sets, of which nine encode transcription factors, are more likely to be direct targets of ASHH2. Of these genes, 15.7% have triple marks (
+     <a>
+      Supplementary Table SIII
+     </a>
+     ), compared with 2.5% in the global gene set.
+     <em>
+      FLC
+     </em>
+     , known as a target of ASHH2, is among them.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Representation of
+         <em>
+          ashh2
+         </em>
+         downregulated genes with different chromatin methyl marks
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The 45 genes downregulated in
+     <em>
+      ashh2
+     </em>
+     mutants and the panel of genes investigated in our ChIP experiment were also surveyed for H3K4me1, me2, me3, and H3K27me3 using a published, global data set for
+     <em>
+      Arabidopsis
+     </em>
+     seedlings (
+     <xref ref-type="bibr">
+      Zhang et al, 2009
+     </xref>
+     ;
+     <a>
+      Supplementary Table SIII
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 2B and C
+     </xref>
+     ).
+     <em>
+      FLC
+     </em>
+     shows bivalent marks, both K4me2
+     <em>
+      /
+     </em>
+     me3 and K27me3 (
+     <a>
+      Supplementary Table SIII
+     </a>
+     ). The inflorescence-specific genes
+     <em>
+      AP1
+     </em>
+     ,
+     <em>
+      NAC25
+     </em>
+     , and
+     <em>
+      MYB99
+     </em>
+     were only marked by the repressive K27me3 in seedlings. As expected from global data analyses (
+     <xref ref-type="bibr">
+      Zhang et al, 2009
+     </xref>
+     ), the two highly and generally expressed genes,
+     <em>
+      ACTIN2
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     , used in our ChIP experiment (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ), have K4me1/me2/me3 and K4me1/me3 marks, respectively, while the low-expressed, tissue-specific
+     <em>
+      AtDMC1
+     </em>
+     and
+     <em>
+      MAF1
+     </em>
+     are marked with K4me1/me2 and K4me1, respectively. Consistent with this, our ChIP results showed that there are much higher levels of K4me3 on
+     <em>
+      ACTIN2
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     than on the other genes tested (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ).
+    </p>
+    <p>
+     From the data set of
+     <xref ref-type="bibr">
+      Zhang et al. (2009)
+     </xref>
+     , 43% of 5839 genes investigated in detail were devoid of H3K4me marks (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ), while this category was significantly underrepresented among the 45
+     <em>
+      ASHH2
+     </em>
+     -dependent genes (8.9%;
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ;
+     <a>
+      Supplementary Table SIII
+     </a>
+     ). The fraction of genes with the K4me1 mark was similar to wt (31.1 versus 32%), while K4me2 and K4me3 were overrepresented (77.1 and 86.7% versus 38.8 and 55.4%, respectively). When considering combinations of K4me marks, K4me2/me3 and K4me1/me2/me3 were overrepresented among genes downregulated in the
+     <em>
+      ashh2
+     </em>
+     mutant seedlings (
+     <xref ref-type="fig">
+      Figure 2B and C
+     </xref>
+     ).
+    </p>
+    <p>
+     Again this suggests that ASHH2 is associated with transcribed genes, and furthermore that ASHH2 has a particular preference for transcribed genes with K4me2 and K4me1/me2 marks.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The ASHH2 CW domain binds methylated lysine 4 on H3
+    </title>
+    <p>
+     The occurrence and proximity of the CW domain to the SET domain in ASHH2 (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) are reminiscent of many other histone-modifying enzymes and prompted us to ask whether CW is a histone recognition module that could explain the association of ASHH2 with transcribed genes and methylated H3K4 as identified above. We expressed and purified the ASHH2 CW domain as a GST fusion protein from bacteria (GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     ) and tested it for binding to a panel of immobilized histone tail peptides (
+     <xref ref-type="fig">
+      Figure 3A and B
+     </xref>
+     ). As shown in
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     , the ASHH2 CW domain can indeed bind histone tail peptides with comparable avidity as the ING2 PHD finger (
+     <xref ref-type="bibr">
+      Shi et al, 2006
+     </xref>
+     ). Unlike the ING2 PHD finger, however, ASHH2 CW shows preference for mono- and di-methylated H3K4 peptides, while its binding to the H3K4me3 is close to background levels. The preference for mono- and di-methylated H3K4 peptides was quantified by surface plasmon resonance using BIAcore (
+     <xref ref-type="fig">
+      Figure 3E and F
+     </xref>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s for H3K4me1 and H3K4me2 were 1.15 and 2.1 μM, respectively, comparable to the affinities of ING2 PHD finger to the H3K4me3 peptide (
+     <xref ref-type="bibr">
+      Pena et al, 2006
+     </xref>
+     ).
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     for binding to H3K4me3 in these experiments was 4 μM.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The ASHH2 CW domain binds histone H3 tails methylated on lysine 4. (
+       <strong>
+        A
+       </strong>
+       ) Cartoon of the ASHH2 protein with CW, AWS, and KMT (SET domain) indicated. The two recombinant proteins used in this study are also illustrated. (
+       <strong>
+        B
+       </strong>
+       ) SDS–PAGE of purified GST and GST–ASHH2 CW. (
+       <strong>
+        C
+       </strong>
+       ) Pulldown assay using biotinylated histone peptides and recombinant GST, GST–ASHH2 CW and GST–ING2 PHD as indicated. The ratio of proteins and peptides was 0.5:0.5 μg. (
+       <strong>
+        D
+       </strong>
+       ) Pulldown assay using biotinylated histone peptides and recombinant GST and GST–ASHH2 CW as indicated. The ratio of proteins and peptides was 1.0:0.5 μg. (
+       <strong>
+        E
+       </strong>
+       ) Surface plasmon resonance traces from an experiment with immobilized, biotinylated H3K4me1 peptide and GST–ASHH2 CW. (
+       <strong>
+        F
+       </strong>
+       ) Dissociation constants for GST–ASHH2 CW and the three H3K4me peptides indicated calculated from surface plasmon resonance data. The number of replicates are indicated.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     From the data in
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     , it is also evident that the ASHH2 CW domain is sequence selective, as it only binds the methylated H3K4 peptides, and not the tri-methylated H3K27 and H3K36 peptides, nor the other peptides included on the panel. The preference of ASHH2 CW for mono- and di-methylated H3K4 peptides is shared with MBT domains (
+     <xref ref-type="bibr">
+      Bonasio et al, 2010
+     </xref>
+     ). The MBT domains show little sequence selectivity, however, as they bind several mono- and di-methylated lysines on both H3 and H4 peptides. In contrast, the ASHH2 CW domain appears to be specific for methylated H3K4 peptides, as no binding was observed for any of the three methylated forms of H3K27 peptides (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). This suggests that the CW domain may have a more extensive interaction with the histone H3 tail residues near K4.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Binding to methylated histone tails is a shared feature among CW domains
+    </title>
+    <p>
+     We expressed and assayed several other CW domains in the histone tail-binding assay. As is evident from
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     , the CW domains of human MORC4 and ZCWPW1 and
+     <em>
+      Arabidopsis
+     </em>
+     VAL1 all bind H3 peptides methylated on lysine 4. While the MORC4 CW domain shows a preference for H3K4me2, the CW domains of ZCWPW1 and VAL1 show a clear preference for H3Kme2 and me3 peptides. Based on these data, it is reasonable to predict that most, if not all, CW domains are H3K4-selective recognition modules, but their preference for the methylation states may vary. Furthermore, as the different methylated forms of H3K4 are associated with chromatin of active or poised genes and/or their enhancers, we propose that the CW proteins are acting on active or poised chromatin.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       CW domains from four different proteins bind methylated H3K4 peptides. (
+       <strong>
+        A
+       </strong>
+       ) Cartoons of the proteins studied: human MORC4,
+       <em>
+        Arabidopsis
+       </em>
+       VAL1, and human ZCWPW1. (
+       <strong>
+        B, C
+       </strong>
+       ) Pulldown assay using biotinylated histone peptides and (
+       <strong>
+        B
+       </strong>
+       ) recombinant GST, GST–Val1 CW and GST–MORC4 CW or (
+       <strong>
+        C
+       </strong>
+       ) GST, GST–ASHH2 CW, and GST–ZCWPW1 CW, as indicated. The ratio of proteins and peptides was equimolar. ‘PW' indicates the PWWP domain in ZCWPW1.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The structure of the ASHH2 CW domain
+    </title>
+    <p>
+     To further investigate the structure of the CW domain and its mode of interaction with the histone tail, we solved the solution structure of the ASHH2 CW domain using NMR spectrometry (
+     <xref ref-type="fig">
+      Figure 5A–C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). The HSQC spectrum indicates that the molecule was structured (not shown). Heteronuclear 3D NMR methods were used to assign the molecule. The chemical shifts of the cysteine residues are all in agreement with metal-bond cysteines, Cys868, 871, 893, and 904, while Cys931 is non-oxidized. We, thus, conclude that the former four cysteines are bound to Zn
+     <sup>
+      2+
+     </sup>
+     .
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Solution structure of the CW domain and prediction of its binding site for the histone tail. (
+       <strong>
+        A
+       </strong>
+       ) Backbone traces of 20 conformers of the solution structure of the ASHH2 CW domain showing residues 858–928. Secondary structure elements are indicated in blue (β-strands), red (α-helix), and pink (helix-like segments). The zinc ion is shown in green, and the two tryptophans of the aromatic cage are shown in purple sticks. (
+       <strong>
+        B
+       </strong>
+       ) Spheres view of the ASHH2 CW domain highlighting hydrophobic residues (yellow), side chain carboxyl groups of glutamates and aspartates (red), nitrogens of the side chains of lysine and arginine (blue), and the zinc ion (green). The two conserved tryptophans forming the aromatic cage are shown in orange. A cartoon trace in dark blue is shown in the background. (
+       <strong>
+        C
+       </strong>
+       ) Surface representations and surface potential of the ASHH2 CW domain (residues 862–913). Negative and positive potentials are shown in shades of red and blue, respectively. The predicted placement of the histone tail backbone and the aromatic cage is indicated by a dotted line and a circle, respectively. (
+       <strong>
+        D
+       </strong>
+       ) Structure of the ZCWPW1 CW domain (pdb:2e61) colour coded as in (
+       <strong>
+        B
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       )
+       <sup>
+        1
+       </sup>
+       H- and
+       <sup>
+        15
+       </sup>
+       N-amide chemical shift changes for ASHH2 CW bound to the H3K4me1 peptide. The secondary structure elements are indicated in the same colour code as in (
+       <strong>
+        A
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Comparison of this structure to the reported structure of the human ZCWPW1 CW domain (pdb:2e61;
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ) revealed that both domains share a common structural core consisting of a two-stranded β-sheet and a Zn
+     <sup>
+      2+
+     </sup>
+     -coordinating quartet of cysteines. Both structures also show three short helical elements (η1-3). Inspection of the molecular surface (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ) revealed a conspicuous cleft running across the front surface with a shallow pocket lined by two of the conserved tryptophans (W865 and W874 in ASHH2). The solution structure of ZCWPW1 CW in complex with a H3K4me3 peptide was recently reported (
+     <xref ref-type="bibr">
+      He et al, 2010
+     </xref>
+     ). This structure shows that the histone peptide traverses the cleft, and the methylated ɛ-amino group of lysine 4 is bound in the pocket above, which serves as an aromatic cage. It is reasonable to propose that the H3K4me1 peptide could bind the core of the ASHH2 CW domain in a similar manner.
+    </p>
+    <p>
+     In the ASHH2 CW structure, an α-helix (α1) is formed by residues 912–919, followed by a less structured C-terminal segment (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). This helix has a strong amphipathic character and it is situated on top of the pocket with its hydrophobic side facing the core surface and occluding the aromatic cage (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). This helix is not part of the conserved core of CW domains (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ). In ZCWPW1 CW, the C-terminal extension provides a third tryptophan to the aromatic cage (
+     <xref ref-type="bibr">
+      He et al, 2010
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The interaction of CW with histone tail peptides
+    </title>
+    <p>
+     To investigate the interaction of the histone peptide with the ASHH2 CW domain, we determined the chemical shift values of the domain in the absence and presence of a mono-methylated H3K4 peptide by NMR. The HSQC spectrum showed that the domain is structured, in both the presence (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ) and absence (not shown) of histone peptide. Upon histone peptide binding, a number of discrete chemical shift changes were observed (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ). The most prominent shifts occurred around R867 and R890, which are juxtaposed on each side of the cleft. There were also moderate shifts in the central, variable region (which forms lower part of the cleft), suggesting that this part of the structure is changing conformation upon histone tail binding. The residues near the zinc-coordinating cysteines showed less changes, in agreement with their structural role in the core of the domain. Intriguingly, only one of the two conserved tryptophans in the predicted methyllysine-binding pocket showed a significant change, namely W865. There was also a significant change for the adjacent R876, which is positioned in the outer end of the cleft. The C-terminal extension, including helix α1, also showed significant changes, suggesting that this part of the molecule is moving when the histone peptide binds. We propose that a movement of the C-terminal helix away from the aromatic cage is taking place as the methylated H3K4 peptide binds. In summary, these NMR data confirm binding of the histone tail to the CW domain and the chemical shift changes are in good agreement with a mode of binding involving the aromatic cage.
+    </p>
+    <p>
+     To further corroborate these data, we generated several point mutations in and around the putative histone tail-binding site and tested them for binding (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). Mutation of the three tryptophans 865, 874, and 891 to alanine abolished histone tail binding (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). Two of these (W865 and W874) form the predicted methyllysine-binding site, while W891 is located in the presumptive histone tail-binding cleft. Mutation of the two residues Q908 and E909, positioned above the putative methyllysine-binding pocket also abolished binding (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). According to our model for histone tail binding, these two residues may contribute to polar or ionic interactions with the positively charged ɛ-amino group of K4. Mutation of the non-conserved D886 to alanine positioned in the lower part of the cleft resulted in relaxed specificity with binding also for K4me2 (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). The significance of this result is not yet clear.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Probing the predicted histone tail-binding site with mutant CW domains. (
+       <strong>
+        A
+       </strong>
+       ) A space-filling model of the ASHH2 CW domain is shown with residues mutated highlighted: grey: loss of binding; light grey: reduced/altered binding. The predicted binding site for the histone tail is indicated as in
+       <xref ref-type="fig">
+        Figure 5C
+       </xref>
+       . (
+       <strong>
+        B
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) Pulldown assays using biotinylated histone peptides and recombinant GST and GST–ASHH2 CW mutant proteins as indicated. The ratio of proteins and peptides was 1.0:0.5 μg.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     When the CW domain was C-terminally truncated from residue M910, binding was lost (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ) suggesting that the C-terminal extension, including helix α1, has an important role in histone peptide binding.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The ASHH2 CW domain binds nucleosomal histones
+    </title>
+    <p>
+     To investigate whether the CW domain can bind histone H3K4me tails in a nucleosomal context, we performed pulldown experiments with chromatin prepared from
+     <em>
+      Arabidopsis
+     </em>
+     seedlings. The GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     fusion protein pulled down histones that were mono-, di-, or tri-methylated at H3K4 (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Consistent with the peptide binding data the mutant version of the CW domain (W874A) did not pull down chromatin containing H3K4 methylated histones, nor did the WIYLD domain of SUVR4 (
+     <xref ref-type="bibr">
+      Thorstensen et al, 2006
+     </xref>
+     ), included as a negative control. This suggests that the binding of CW to H3K4me is specific. CW binds H3K4me1 in chromatin somewhat stronger than H3K4me2 (4.4 versus 3.3 times of bound chromatin relative to input material (2.5%)) as compared with 2.1 times for H3K4me3. It should be noted that this chromatin is a mixture of mono-, di-, and tri-nucleosomes, and that H3K4me1, H3K4me2, and H3K4me3 marks often co-reside on ASHH2 target genes (
+     <a>
+      Supplementary Table SIII
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 2B and C
+     </xref>
+     ).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Chromatin pulldown (ChPD) using the ASHH2 CW. (
+       <strong>
+        A
+       </strong>
+       ) ChPD with nucleosomes (from chromatin as prepared for ChIP from
+       <em>
+        Arabidopsis
+       </em>
+       seedlings) and immobilized GST, GST–CW
+       <sub>
+        ASHH2
+       </sub>
+       , GST–CW
+       <sub>
+        ASHH2
+       </sub>
+       –W874A (non-binding mutant), and GST–WIYLD
+       <sub>
+        SUVR4
+       </sub>
+       (negative control) as indicated. Modified histones were visualized by western blot using antibodies as indicated. Molecular size markers are shown to the right. (
+       <strong>
+        B
+       </strong>
+       ) qPCR with primers for assumed ASHH2 target genes on DNA isolated from seedling chromatin pulled down with GST–CW
+       <sub>
+        ASHH2
+       </sub>
+       . ChPD with GST alone was used as a negative control. Data are shown as percent of input. The Ta3 retrotransposon was used as reference. Standard deviations are shown. (
+       <strong>
+        C
+       </strong>
+       ) ChIP using antibodies against H3K4me1, H3K4me3, and H3K36me3 and primers for the same genes as in (
+       <strong>
+        B
+       </strong>
+       ). Data are shown relative to Ta3. The same data are shown relative to input in
+       <a>
+        Supplementary Figure S3
+       </a>
+       . The
+       <em>
+        FLC C
+       </em>
+       primers amplify a region at the beginning of the first intron, while
+       <em>
+        FLC E
+       </em>
+       is found more downstream in the gene. TSS indicates primers near the transcriptional start site, while other primers used are in the body of the genes (see
+       <a>
+        Supplementary Table SIV
+       </a>
+       ). (
+       <strong>
+        D
+       </strong>
+       ) ChPD from wt and
+       <em>
+        ashh2
+       </em>
+       mutant seedlings as in (
+       <strong>
+        A
+       </strong>
+       ) using antibodies as indicated. ChPD with GST alone was used as a negative control and histone H3 as reference.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To investigate whether the CW domain targets genes that are regulated by ASHH2, we analysed DNA from seedling chromatin pulled down by the GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     fusion protein by real-time PCR. This chromatin pulldown (ChPD) experiment demonstrated that CW binds chromatin associated with these genes significantly above background levels (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ).
+     <em>
+      FLC
+     </em>
+     , proven to be targeted by ASHH2
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      Ko et al, 2010
+     </xref>
+     ), was detected in the CW-bound chromatin, thus demonstrating the ability of the CW pulldown to identify
+     <em>
+      in vivo
+     </em>
+     targets of ASHH2. The CW domain most strongly pulled down chromatin associated with genes that show substantial reduction in H3K36me3 levels in the
+     <em>
+      ashh2
+     </em>
+     mutant (
+     <em>
+      ACTIN2, GAPA, MAF1
+     </em>
+     , and
+     <em>
+      FLC
+     </em>
+     ), suggesting that the CW domain may contribute to the targeting of ASHH2 to chromatin associated with these genes. For
+     <em>
+      MYB99
+     </em>
+     ,
+     <em>
+      AtDMC1
+     </em>
+     , and
+     <em>
+      MAF1
+     </em>
+     , recovery was higher with primers downstream of the TSS. When comparing the CW
+     <sub>
+      ASHH2
+     </sub>
+     ChPD (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ) and the ChIP experiments (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     ), it is evident that the recovery profiles are very similar for ChPD and H3K4me1, and also for K36me3. Only for the very H3K4me3-rich
+     <em>
+      GAPA
+     </em>
+     gene and the transcriptional start site of
+     <em>
+      MAF1
+     </em>
+     , the H3K36me3 levels were more similar to H3K4me3 than to K4me1.
+    </p>
+    <p>
+     The panel of tested genes showed no dramatic difference in H3K4me1 levels between wt and the
+     <em>
+      ashh2
+     </em>
+     mutant (
+     <a>
+      Supplementary Figure S3C
+     </a>
+     ). Western blots of ChPD experiments show that GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     efficiently pulled down H3K4me1 marked chromatin of wt seedlings (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     , upper panel compared with the H3 control in the lower panel). Antibodies against H3K36me3 revealed the presence of this mark on the chromatin pulled down by GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     , middle panel), suggesting that H3K4me1 and H3K36me3 co-reside on the same or neighbouring nucleosomes. If H3K36me3 was deposited on chromatin independently of H3K4me1, one would expect that GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     pulled down H3K36me3 chromatin equally well in the mutant compared with the wt, relative to input. However, less H3K36me3 chromatin was pulled down from
+     <em>
+      ashh2
+     </em>
+     chromatin than from wt chromatin relative to input (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     , middle panel). This suggests that the chromatin regions pulled down by CW were highly affected by the
+     <em>
+      ashh2
+     </em>
+     mutation. Together with the finding that CW pulls down chromatin from genes with the most significant reduction of H3K36me3 in the mutant (
+     <xref ref-type="fig">
+      Figure 7B and C
+     </xref>
+     ), these data suggest that the H3K36me3 mark, mediated by ASHH2 activity, is closely associated with H3K4me1-marked chromatin bound by the CW domain.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <sec>
+    <title>
+     The CW domain is a new histone recognition module with specificity for methylated H3K4
+    </title>
+    <p>
+     We describe here the CW domain as a new histone recognition module with specificity for histone H3 tails methylated on lysine 4. For the ASHH2 CW, the histone tail binding was demonstrated in four different ways by: (1) histone tail-binding pulldown assays; (2) surface plasmon resonance; (3) nucleosome binding assay; and (4) NMR. The affinity for the mono- and di-methyl H3K4 peptides is in the micromolar range, comparable to PHD fingers and other histone recognition modules. We have also demonstrated histone tail binding for three additional CW domains, suggesting that this is the generic molecular function of CW domains.
+    </p>
+    <p>
+     Among the families of H3K4-specific recognition modules, CW has a novel profile of ligand selectivity, with members showing preference for me1 and me2 (ASHH2), me2 and me3 (VAL1 and ZCWPW1) or for me2 (MORC4). This is distinct from, for example, PHD fingers, which bind either tri-methylated or unmethylated H3K4 peptide; the trimethyllysine-specific double tudor domain and double chromo domains; and the MBT domains, which also bind mono- and di-methylated lysines, but in several different sequence contexts (
+     <xref ref-type="bibr">
+      Bonasio et al, 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     Remarkably, none of the mammalian and plant CW proteins are orthologous, yet, they appear to be involved in phenomena related to chromatin and gene regulation (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Surprisingly, CW domains are found in plants and chordates as well as certain protist lineages and the cnidarian
+     <em>
+      Nematostella vectensis
+     </em>
+     , but not in insects and nematodes (see Pfam:zn-CW, PF07496, for details). We suggest that CW proteins allow plants and chordates to employ methylated H3K4 marks in different ways. It is tempting to draw a parallel to the phylogenetic distribution and usage of cytosine methylation in DNA, also absent from several lineages including insects and nematodes (
+     <xref ref-type="bibr">
+      Jeltsch, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zemach et al, 2010
+     </xref>
+     ). Intriguingly, four of the CW proteins in
+     <em>
+      Arabidopsis
+     </em>
+     have methyl-CpG binding domains (see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structure of the CW domain and its mode of interaction with histones
+    </title>
+    <p>
+     Comparing the structures of the CW domain of ASHH2 and that recently reported for ZCWPW1 (
+     <xref ref-type="bibr">
+      He et al, 2010
+     </xref>
+     ) reveals that both domains share a common structural core built around two β-strands and a Zn
+     <sup>
+      2+
+     </sup>
+     -binding site, reminiscent of PHD fingers. A cleft traverses one side of the domain, just underneath a pocket containing two conserved tryptophans forming an aromatic cage reminiscent of the aromatic cages of other methyllysine-binding domains, as on the PHD fingers, the chromodomains and in the bottom of the cavities in the MBT domains (
+     <xref ref-type="bibr">
+      Taverna et al, 2007
+     </xref>
+     ). In ZCWPW1 CW, this is the binding site for the H3K4me3 peptide (
+     <xref ref-type="bibr">
+      He et al, 2010
+     </xref>
+     ). It is reasonable to suggest that these conserved features form the binding site on ASHH2 CW. This is supported by both NMR spectrometry and site-directed mutagenesis (
+     <xref ref-type="fig">
+      Figures 5
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     For ZCWPW1 CW, it was also shown that the N-terminal amino group of the histone tail is interacting with an aspartate carbonyl oxygen. In ASHH2 CW, D869 is placed in an equivalent position. This may be a critical determinant for the CW domain's preference for N-terminal H3 tails. It is intriguing, though, that the lower part of the cleft, which interacts with the histone peptide, shows so much sequence variation (see
+     <a>
+      Supplementary Figure S5
+     </a>
+     ; residues 870–880 in ASHH2). One explanation could be that some CW domains also recognize methylated lysines on non-histone proteins. Another possibility is that the CW domains are differentially sensitive to other modifications on the histone tail (i.e., R2, T3, and T6).
+    </p>
+    <p>
+     The most remarkable feature of the two CW domain structures is, however, the structure of their non-conserved C-terminal extensions. Each subfamily of CW domains has a unique C-terminal extension, e.g. presenting a third tryptophan for the aromatic cage in ZCWPW1, while an amphipathic helix in ASHH2. Given our observations that different CW domains show different preferences for the three states of H3K4 methylation, we are led to propose that the family-specific C-terminal embellishments serve as determinants for recognition of the differentially methylated H3K4 tails, a novel feature among histone recognition modules.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ChIP analyses indicate that the major activity of ASHH2 is H3K36 tri-methylation
+    </title>
+    <p>
+     For the so far best-studied CW protein (and gene),
+     <em>
+      Arabidopsis
+     </em>
+     ASHH2, we can consider in more detail the functional implications of a H3K4me1/me2-reading module in conjunction with its role as a HMTase. Recently, experiments have indicated that ASHH2 can confer methylation of both H3K36 and H3K4
+     <em>
+      in vitro
+     </em>
+     and that the
+     <em>
+      FLC
+     </em>
+     activator protein FRIGIDA (FRI) can stimulate the H3K4me3 activity (
+     <xref ref-type="bibr">
+      Ko et al, 2010
+     </xref>
+     ). This may suggest that the reduction in H3K4me3 seen in the
+     <em>
+      ashh2
+     </em>
+     mutant near the TSS of the
+     <em>
+      MAF1
+     </em>
+     and
+     <em>
+      FLC
+     </em>
+     genes, could be conferred by ASHH2. However, this could also be an indirect effect of reduced transcriptional activity, especially since our experiments have been conducted in the Col ecotype, which is mutant for
+     <em>
+      FRI
+     </em>
+     .
+    </p>
+    <p>
+     It should be noted, though, that reduction of H3K4me3 and H3K36me3 for
+     <em>
+      ACTIN2
+     </em>
+     and
+     <em>
+      GAPA
+     </em>
+     was not accompanied by reduced expression levels. All seedling-expressed genes had lower levels of H3K36me3 in the mutant, but unexpectedly,
+     <em>
+      GAPA
+     </em>
+     and
+     <em>
+      AtDMC1
+     </em>
+     showed an increase in H3K36me2 methylation. This may suggest that
+     <em>
+      Arabidopsis
+     </em>
+     has another SET-domain protein that is responsible for di-methylation of H3K36, and/or that ASHH2 uses H3K36me2 as a substrate. In mutant inflorescences we did, however, not detect any changes in H3K36me2 in the tissue-specific genes expressed there (
+     <xref ref-type="bibr">
+      Grini et al, 2009
+     </xref>
+     ). All in all our data support that the major activity of ASHH2 is H3K36 tri-methylation in
+     <em>
+      fri
+     </em>
+     background. Thus, ASHH2 seems to be a protein with an H3K4me1,2 reading module and a H3K36me3 writing module.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ASHH2 activity correlates with transcriptional output of tissue-specific and developmentally regulated genes
+    </title>
+    <p>
+     The importance of the K4me reading function of the CW domain is indicated by the underrepresentation of genes without K4me marks among putative ASHH2 target genes. Furthermore, the inflorescence-specific genes
+     <em>
+      AP1
+     </em>
+     ,
+     <em>
+      MYB99
+     </em>
+     , and
+     <em>
+      NAC25
+     </em>
+     are not affected by
+     <em>
+      ashh2
+     </em>
+     in seedlings where they are silent and marked with H3K27me3. For the expressed tissue-specific genes, mutation in
+     <em>
+      ashh2
+     </em>
+     leads to a reduction both in transcript levels and in H3K36me3 levels. Using global ChIP data, we have been able to survey the chromatin marks of a larger number of genes affected by mutation in
+     <em>
+      ashh2
+     </em>
+     . This analysis showed a significant overrepresentation of H3K4me3/H3K36me2/H3K27me3 triple-marked genes (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ), which indicates tissue specificity or developmental regulation, with H3K27me3 associated with silent genes in cells where the gene is not expressed (
+     <xref ref-type="bibr">
+      Oh et al, 2008
+     </xref>
+     ). Alternatively, the three marks might reside on the same chromatin as a specific means of controlling expression of genes involved in differentiation.
+     <em>
+      FLC
+     </em>
+     is such an ASHH2-regulated gene with triple marks (
+     <xref ref-type="bibr">
+      Pien et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Xu et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schmitz et al, 2009
+     </xref>
+     ). Interestingly, genes encoding transcription factors, many of which are tissue specific, are overrepresented among genes depending on ASHH2 for maintenance of transcription levels in seedlings. A substantial number of transcription factors were also found downregulated in
+     <em>
+      ashh2
+     </em>
+     inflorescences (
+     <xref ref-type="bibr">
+      Grini et al, 2009
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The CW domain may contribute to ASHH2's preference for genes with H3K4 methylation
+    </title>
+    <p>
+     In
+     <em>
+      Arabidopsis
+     </em>
+     , H3K4 methylation generally localizes to the promoters and transcribed regions of genes (
+     <xref ref-type="bibr">
+      Zhang et al, 2009
+     </xref>
+     ). H3K4me3 is in particular associated with transcribed genes, and H3K4me2 often co-occurs with H3K4me3 in the 5′-end of genic regions, while H3K36me2 increases towards the 3′-end (
+     <xref ref-type="bibr">
+      Oh et al, 2008
+     </xref>
+     ). H3K4me1 on the other hand, is found in internal regions especially in long genes (&gt;4 kb) and correlates with CpG DNA methylation in transcribed regions (
+     <xref ref-type="bibr">
+      Zhang et al, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     Our analyses suggest that ASHH2 has a strong preference for H3K4 methylated genes, especially those with combinations of K4 methylation marks (
+     <a>
+      Supplementary Table SIII
+     </a>
+     ) associated with moderate expression levels and moderate tissue specificity (
+     <xref ref-type="bibr">
+      Zhang et al, 2009
+     </xref>
+     ). Interestingly, ChPD indicated a reduction in H3K36me3 chromatin pulled down with the CW domain from the
+     <em>
+      ashh2
+     </em>
+     mutant, compared with the total
+     <em>
+      ashh2
+     </em>
+     chromatin. This suggests that H3K36me3 is generally associated with H3K4me1 which is the preferred target for ASHH2 CW. qPCR with DNA from ChPD by the CW domain showed that CW interacts with the supposed target genes that we have used in our study, including
+     <em>
+      FLC
+     </em>
+     , which has also been shown to bind ASHH2 in ChIP (
+     <xref ref-type="bibr">
+      Ko et al. 2010
+     </xref>
+     ). The lowest qPCR levels were found for the genes that are not affected by mutation in
+     <em>
+      ASHH2
+     </em>
+     with respect to transcription levels and chromatin marks. Furthermore, the profile of abundance of the putative target genes including
+     <em>
+      FLC
+     </em>
+     is similar in the ChPD, H3K4me1, and H3K36me3 ChIP experiments.
+    </p>
+    <p>
+     Therefore, a plausible model for ASHH2 function is that the CW domain first positions the protein near the TSS by binding to H3K4me2 (and/or weakly to H3K4me3), and that binding to K4me2, and in longer genes K4me1 along the body of the gene, is accompanied with H3K36me3 methylation (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ). H3K4me2 often co-resides with the repressive mark H3K27me3 (
+     <xref ref-type="bibr">
+      Zhang et al, 2009
+     </xref>
+     ), and we suggest that K36me3 marks are needed to maintain expression when such repressive marks are present. For genes with high expression levels and devoid of repressive marks, this maintenance function may not be needed. Therefore, reduction in H3K36me3 marks does not affect the transcription level of highly expressed genes like
+     <em>
+      ACTIN2
+     </em>
+     or
+     <em>
+      GAPA
+     </em>
+     .
+    </p>
+    <fig id="f8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <p>
+       A model for ASHH2 function and the role of its CW domain. The CW domain of ASHH2 binds H3K4me2 found close to transcription start site (TSS) in both highly expressed housekeeping genes and weakly expressed tissue-specific genes, but not in silent genes. In addition CW binds H3K4me1 found along the transcribed gene regions. This facilitates H3K36me3 methylation both near the TSS and along the gene body. Loss of H3K36me3 has little consequences for the transcription level of highly expressed housekeeping genes. However, loss of H3K36me3 due to mutation in
+       <em>
+        ASHH2
+       </em>
+       results in non-sustainable transcription of genes that may carry both active and repressive chromatin marks. Due to the lack of H3K4me marks ASHH2 is not active on silent genes and thus there is no effect on transcription when ASHH2 is mutated. Icons for each of the histone modifications are shown to the right. The ASHH2 protein and its SET domain are shown in green, while the CW domain engaged in H3K4me binding is shown in yellow. RNA polymerase II occupancy is illustrated with blue pentagons, while the extent of transcription is indicated by arrows.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The different specificities of the CW domains may contribute either to maintenance or to changes in gene expression and chromatin status
+    </title>
+    <p>
+     Intriguingly, different CW domains show preference for different methylation states of H3K4. We have argued above that, in the case of ASHH2, reading of K4me1 and me2 may direct ASHH2 HMTase activity to transcribed genes, which could contribute to sustained gene expression (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ). VAL1 on the other hand, a transcriptional repressor of the related ABI3/FUS3/LEC2 (AFL) transcription factors controlling the maturation program of
+     <em>
+      Arabidopsis
+     </em>
+     seed development (
+     <xref ref-type="bibr">
+      Aichinger et al, 2009
+     </xref>
+     ), has strongest preference for K4me3 found at TSSs. Thus, in the case of VAL1, the CW domain may, in contrast to CW in ASHH2, contribute to a switch from an expressed to a repressed chromatin status.
+    </p>
+    <p>
+     Future investigation will hopefully elucidate the relationship between CW specificity and the function of all CW proteins in chromatin maintenance and remodelling. Among the most intriguing questions to address is the unusual phylogenetic distribution of this domain and whether this is related to DNA methylation.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Microarray experiment and data analysis
+    </title>
+    <p>
+     Experiments were performed essentially as in
+     <xref ref-type="bibr">
+      Grini et al (2009)
+     </xref>
+     using five biological replicas with 8–10-days-old seedlings of both
+     <em>
+      Arabidopsis thaliana
+     </em>
+     plants Col ecotype and the
+     <em>
+      ashh2-1
+     </em>
+     mutant (identical to
+     <em>
+      sdg8-1
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      Grini et al, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     All data are MIAME compliant and the raw data have been deposited in the MIAME compliant database GEO (
+     <a>
+      http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=
+     </a>
+     <a>
+      <span>
+       {"type":"entrez-geo","attrs":{"text":"GSE22990","term_id":"22990"}}
+      </span>
+      GSE22990
+     </a>
+     ).
+    </p>
+    <p>
+     We compared our microarray data with those of
+     <xref ref-type="bibr">
+      Cazzonelli et al (2009)
+     </xref>
+     and
+     <xref ref-type="bibr">
+      Xu et al (2008)
+     </xref>
+     . The mutant alleles and conditions for these two sets were green rosette leaves from 10-day-old
+     <em>
+      ccr1-1
+     </em>
+     seedlings using ATH1 Arrays (Affymetrix) (
+     <xref ref-type="bibr">
+      Cazzonelli et al, 2009
+     </xref>
+     ), and 6-day-old
+     <em>
+      sdg2-1
+     </em>
+     and
+     <em>
+      sdg2-2
+     </em>
+     seedlings analysed on the CATMA 24k chip (
+     <xref ref-type="bibr">
+      Xu et al, 2008
+     </xref>
+     ). The gene lists were generated with log2 absolute value 0.7 for
+     <em>
+      ashh2
+     </em>
+     -1 (
+     <em>
+      P
+     </em>
+     &lt;0.01), 0.8 for
+     <em>
+      sdg8-2
+     </em>
+     (
+     <em>
+      P
+     </em>
+     &lt;0.05), and 0.3 for
+     <em>
+      ccr-1
+     </em>
+     (
+     <em>
+      P
+     </em>
+     &lt;0.05). The TAIR GO annotation tool (
+     <a>
+      http://www.Arabidopsis.org/tools/bulk/go/index.jsp
+     </a>
+     ) was used to assign functional classes to the genes.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Real-time quantitative PCR (qPCR)
+    </title>
+    <p>
+     qPCR was performed essentially as in
+     <xref ref-type="bibr">
+      Grini et al (2009)
+     </xref>
+     . Expression levels of target genes in the
+     <em>
+      ashh2
+     </em>
+     mutant were calculated relative to wt levels with normalization to
+     <em>
+      TUB8
+     </em>
+     . Primers are given in
+     <a>
+      Supplementary Table SIV
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ChIP
+    </title>
+    <p>
+     Wt and
+     <em>
+      ashh2-1
+     </em>
+     mutant plants were cultivated in growth chambers at 20°C for 8 h of dark and 16 h of light (100 μE m
+     <sup>
+      −2
+     </sup>
+     s
+     <sup>
+      −1
+     </sup>
+     ). For each experiment, 2–3 g of 15-days-old seedlings was crosslinked in 1% formaldehyde under vacuum until the tissue was translucent.
+    </p>
+    <p>
+     ChIP was done as described in
+     <xref ref-type="bibr">
+      Gendrel et al (2005)
+     </xref>
+     . The antibodies used for immunoprecipitation were anti-H3K9me2 (#07-212, Millipore), anti-H3K4me3 (#07-473, Upstate), anti-H3K36me2 (#07-369, Upstate), or anti-H3K36me3 (ab9050, Abcam). Further details are given in the legends to
+     <a>
+      Supplementary Figures S2 and S3
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Expression and purification of GST fusion proteins
+    </title>
+    <p>
+     For all GST fusion protein expression constructs the CW domains were cloned via
+     <em>
+      Eco
+     </em>
+     RI and
+     <em>
+      Bam
+     </em>
+     HI restriction sites into pSXG vector (
+     <xref ref-type="bibr">
+      Ragvin et al, 2004
+     </xref>
+     ). The ASHH2 (nts 2547–2811) and VAL1 (nts 1575–1797) CW domains were cloned by PCR from
+     <em>
+      Arabidopsis
+     </em>
+     cDNA, MORC4 (nts 1236–1422) and ZCWPW1 (nts 714–942) CW domains were cloned from HEK293 cDNA.
+    </p>
+    <p>
+     Protein expression was performed in YT-G medium supplemented by 2 μM Zn-acetate by incubation with 0.4 mM IPTG (Isopropyl β-
+     <span>
+      D
+     </span>
+     -1-thiogalactopyranoside) for 4 h at 26°C and purified by affinity chromatography using glutathione Sepharose as previously described (
+     <xref ref-type="bibr">
+      Ragvin et al, 2004
+     </xref>
+     ).
+    </p>
+    <p>
+     Mutant versions of ASHH2 CW were generated by PCR using mutation-specific primers (
+     <a>
+      Supplementary Table SIV
+     </a>
+     ) and subsequent annealing and primer extension to generate full-length, double-stranded mutant DNA. Mutant GST–CW proteins were cloned and expressed in pSXG as described above. All constructs were verified by DNA sequencing.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Histone peptide binding assays
+    </title>
+    <p>
+     Histone peptide binding assays were performed as described by
+     <xref ref-type="bibr">
+      Shi et al (2006)
+     </xref>
+     with biotinylated histone peptides from Upstate Biotechnology. The protein–peptide ratio used is indicated in the legends to the figures. Bound proteins were visualized by immunoblotting using rabbit anti-GST antibodies Z-5 (SC-456) from Santa Cruz at a 1:20 000 dilution, and a donkey anti-rabbit HRP conjugate (Amersham NA934) at a 1:10 000 dilution.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Surface plasmon resonance
+    </title>
+    <p>
+     Surface plasmon resonance binding assays were performed on a BIAcore T100 biosensor according to the manufacturer's protocols using immobilized, biotinylated H3 peptides mono-methylated (0.54 ng), di-methylated (0.24 ng), or tri-methylated (0.48 ng) on lysine 4. GST-tagged ASHH2 CW protein in five different concentrations in a range from 0.1 to 10 μM was injected for 2 min at a flow rate of 10 μl min
+     <sup>
+      −1
+     </sup>
+     . Each sample injection was followed by injection of HBS-P buffer (10 mM HEPES pH 7; 150 mM NaCl) alone for 5 min at a flow rate of 5 μl min
+     <sup>
+      −1
+     </sup>
+     .
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values were obtained using the Biacore T100 Evaluation software 2.0.1. Measurements were repeated 2–5 times.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR spectroscopy
+    </title>
+    <p>
+     <sup>
+      13
+     </sup>
+     C- and
+     <sup>
+      15
+     </sup>
+     N-labelled ASHH2 CW was expressed, purified and subjected to NMR spectroscopy in the absence or presence of a histone H3K4me1 peptide as described in the legend to
+     <a>
+      Supplementary Figure S4
+     </a>
+     . The final structure ensemble is deposited in the protein data bank accession code
+     <span>
+      2L7P
+     </span>
+     and the chemical shifts have been deposited in the Biological Magnetic Resonance Data Bank with the accession code
+     <span>
+      17365
+     </span>
+     .
+    </p>
+    <p>
+     Structures were rendered in MacPyMOL (
+     <a>
+      http://www.pymol.org/
+     </a>
+     ) and surface potentials were calculated and displayed with PMV-1.5.4 (
+     <a>
+      http://mgltools.scripps.edu/packages/pmv
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Chromatin pulldown
+    </title>
+    <p>
+     ChPD was performed using crude chromatin in ChIP dilution buffer (1.1% Triton X-100, 1.2 mM EDTA, 16.7 mM Tris–HCl pH 8, 167 mM NaCl) prepared as for ChIP (
+     <xref ref-type="bibr">
+      Gendrel et al., 2005
+     </xref>
+     ) incubated with 8 μg GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     fusion protein and control proteins (only GST alone, or together with GST–CW
+     <sub>
+      ASHH2
+     </sub>
+     –W874A and GST–WIYLD) overnight. For western blotting, the pulled down chromatin was washed three times in ChIP dilution buffer, run on a 15% SDS–PAGE and blotted onto a PVDF membrane. Blots were probed with the following antibodies: anti-H3 (ab1791; Abcam, 1:1000), anti-H3K4me1 (ab8895; Abcam, 1:1000), anti-H3K4me2 (07-030; Millipore, 1:1000), anti-H3K4me3 (ab8580; Abcam, 1:10 000) and anti-H3K36me3 (ab9050; Abcam, 1:2000). For ChPD followed by qPCR on
+     <em>
+      ASHH2
+     </em>
+     target genes, the complete ChIP protocol (
+     <xref ref-type="bibr">
+      Gendrel et al, 2005
+     </xref>
+     ) was used, exchanging antibodies with GST fusion proteins. Pulled down chromatin–CW complexes were eluted in a total of 250 μl elution buffer. The subsequent procedures were performed as for ChIP (see section above).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.3M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (235K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

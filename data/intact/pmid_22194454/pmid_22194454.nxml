@@ -1,0 +1,4058 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3294773
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Sinorhizobium meliloti CheA Complexed with CheS Exhibits Enhanced Binding to CheY1, Resulting in Accelerated CheY1 Dephosphorylation
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Retrophosphorylation of the histidine kinase CheA in the chemosensory transduction chain is a widespread mechanism for efficient dephosphorylation of the activated response regulator. First discovered in
+     <em>
+      Sinorhizobium meliloti
+     </em>
+     , the main response regulator CheY2-P shuttles its phosphoryl group back to CheA, while a second response regulator, CheY1, serves as a sink for surplus phosphoryl groups from CheA-P. We have identified a new component in this phospho-relay system, a small 97-amino-acid protein named CheS. CheS has no counterpart in enteric bacteria but revealed distinct similarities to proteins of unknown function in other members of the α subgroup of proteobacteria. Deletion of
+     <em>
+      cheS
+     </em>
+     causes a phenotype similar to that of a
+     <em>
+      cheY1
+     </em>
+     deletion strain. Fluorescence microscopy revealed that CheS is part of the polar chemosensory cluster and that its cellular localization is dependent on the presence of CheA.
+     <em>
+      In vitro
+     </em>
+     binding, as well as coexpression and copurification studies, gave evidence of CheA/CheS complex formation. Using limited proteolysis coupled with mass spectrometric analyses, we defined CheA
+     <sub>
+      163–256
+     </sub>
+     to be the CheS binding domain, which overlaps with the N-terminal part of the CheY2 binding domain (CheA
+     <sub>
+      174–316
+     </sub>
+     ). Phosphotransfer experiments using isolated CheA-P showed that dephosphorylation of CheY1-P but not CheY2-P is increased in the presence of CheS. As determined by surface plasmon resonance spectroscopy, CheY1 binds ∼100-fold more strongly to CheA/CheS than to CheA. We propose that CheS facilitates signal termination by enhancing the interaction of CheY1 and CheA, thereby promoting CheY1-P dephosphorylation, which results in a more efficient drainage of the phosphate sink.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Free-swimming bacteria are capable of modulating their swimming patterns in response to chemical or physical attractants or repellents. Signal transduction is mediated through a two-component regulatory pathway consisting of sensors, an ATP-dependent histidine autokinase, a response regulator, and the flagellar motor as an effector. In the gammaproteobacterium
+    <em>
+     Escherichia coli
+    </em>
+    , for which the chemotaxis signal transduction pathway is best understood, environmental signals sensed by methyl-accepting chemotaxis proteins (MCPs) regulate the activity of the histidine kinase, CheA, which autophosphorylates at a specific histidine residue (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). In the absence of an attractant, ATP-dependent autophosphorylation of CheA occurs at a high rate. CheA-P subsequently transfers the phosphoryl group to a conserved aspartate residue of the response regulator protein, CheY, thereby causing its activation (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ). Phosphorylated CheY interacts directly with the cytoplasmic face of the flagellar motor and controls the swimming paths of bacteria by switching the motor from counterclockwise to clockwise rotation (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     47
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     62
+    </xref>
+    ). Therefore, chemotactic behavior is controlled by the extent of phosphorylation of the response regulator. CheY-P spontaneously dephosphorylates, but its inactivation is accelerated by the phosphatase CheZ (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). Many nonenteric bacteria use proteins like CheC, FliY, and CheX for signal removal, which employ catalytic strategies identical to CheZ despite different overall structures (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     49
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     58
+    </xref>
+    ). Adaptational modifications at conserved glutamate residues in the signaling domains of MCPs ensure their high sensitivity to a wide range of attractant concentrations (
+    <xref ref-type="bibr">
+     54
+    </xref>
+    ). Specifically, CheR acts as a methyltransferase and CheB, which is activated through phosphorylation by CheA, as a methylesterase (for reviews, see references
+    <xref ref-type="bibr">
+     6
+    </xref>
+    and
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ).
+   </p>
+   <p>
+    The chemotaxis pathways of members of the α subgroup of proteobacteria, such as
+    <em>
+     Agrobacterium
+    </em>
+    ,
+    <em>
+     Azospirillum
+    </em>
+    ,
+    <em>
+     Caulobacter
+    </em>
+    ,
+    <em>
+     Rhodobacter
+    </em>
+    , and
+    <em>
+     Sinorhizobium
+    </em>
+    , differ from the enterobacterial paradigm (
+    <xref ref-type="bibr">
+     34
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     40
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ). Common to all is the presence of more than one response regulator protein and the absence of the phosphatase CheZ. The signal transduction chain of the soil bacterium
+    <em>
+     S. meliloti
+    </em>
+    involves two response regulators, CheY1 and CheY2, both of which are phosphorylated by CheA. CheY2-P is the regulator of motor function and causes a decrease in rotary speed of the unidirectional clockwise-rotating flagellar motor (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ). CheY2-P retrotransfers the phosphoryl group to CheA, which in turn phosphorylates CheY1 (
+    <xref ref-type="bibr">
+     52
+    </xref>
+    ). CheY1, in conjunction with unphosphorylated CheA, acts as a sink for phosphoryl groups from CheY2-P, and therefore emulates the role of the phosphatase CheZ. This mechanism of signal removal now appears as a general feature in the chemotactic signaling chain of nonenteric bacteria (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     58
+    </xref>
+    ). It has been proposed that
+    <em>
+     S. meliloti
+    </em>
+    CheY1 competes for phosphoryl groups from CheA-P with an apparent higher affinity than CheY2 (
+    <xref ref-type="bibr">
+     52
+    </xref>
+    ). However,
+    <em>
+     in vitro
+    </em>
+    and
+    <em>
+     in vivo
+    </em>
+    binding analyses suggested that CheY1-CheA binding is much weaker than CheY2-CheA binding (
+    <xref ref-type="bibr">
+     41
+    </xref>
+    ). In a previous study we established the apparent dissociation constant of CheY2 as 0.32 μM, while the value determined for CheY1 was 170 μM (
+    <xref ref-type="bibr">
+     41
+    </xref>
+    ). This apparent discrepancy encouraged us to search for new components that might participate in regulation of the flow of phosphoryl groups and facilitate signal termination. In this study, we present a previously unknown chemotaxis protein, CheS, encoded from the major chemotaxis operon
+    <em>
+     che1
+    </em>
+    and its role in signal termination.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    MATERIALS AND METHODS
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Bacterial strains and plasmids.
+    </title>
+    <p>
+     Derivatives of
+     <em>
+      E. coli
+     </em>
+     K-12 and
+     <em>
+      S. meliloti
+     </em>
+     MV II-1 (
+     <xref ref-type="bibr">
+      25
+     </xref>
+     ) and the plasmids used are listed in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     .
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Bacterial strains and plasmids
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Media and growth conditions.
+    </title>
+    <p>
+     <em>
+      E. coli
+     </em>
+     strains were grown in lysogeny broth (LB) (
+     <xref ref-type="bibr">
+      7
+     </xref>
+     ) at 37°C.
+     <em>
+      S. meliloti
+     </em>
+     strains were grown in TYC (0.5% [wt/vol] tryptone, 0.3% [wt/vol] yeast extract, 0.13% [wt/vol] CaCl
+     <sub>
+      2
+     </sub>
+     · 6 H
+     <sub>
+      2
+     </sub>
+     O [pH 7.0]) at 30°C (
+     <xref ref-type="bibr">
+      38
+     </xref>
+     ) for 2 days, diluted 1:100 in 10 ml RB minimal medium [6.1 mM K
+     <sub>
+      2
+     </sub>
+     HPO
+     <sub>
+      4
+     </sub>
+     , 3.9 mM KH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     , 1 mM MgSO
+     <sub>
+      4
+     </sub>
+     , 1 mM (NH
+     <sub>
+      4
+     </sub>
+     )
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 0.1 mM CaCl
+     <sub>
+      2
+     </sub>
+     , 0.1 mM NaCl, 0.01 mM Na
+     <sub>
+      2
+     </sub>
+     MoO
+     <sub>
+      4
+     </sub>
+     , 0.001 mM FeSO
+     <sub>
+      4
+     </sub>
+     , 20 μg/liter biotin, 100 μg/liter thiamine] (
+     <xref ref-type="bibr">
+      13
+     </xref>
+     ), layered on Bromfield agar plates (
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ), and incubated at 30°C for 14 h to an optical density at 600 nm (OD
+     <sub>
+      600
+     </sub>
+     ) of 0.1. Cells for fluorescence microscopy were grown for 2 days in TYC, diluted 1:50 in 10 ml RB minimal medium layered on Bromfield agar plates, and incubated at 30°C for 20 h. The following antibiotics were used at the indicated final concentrations: for
+     <em>
+      E. coli
+     </em>
+     , ampicillin at 100 μg/ml, kanamycin at 50 μg/ml; for
+     <em>
+      S. meliloti
+     </em>
+     , neomycin at 120 μg/ml, streptomycin at 600 μg/ml.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Motility assays.
+    </title>
+    <p>
+     Swarm plates containing Bromfield medium and 0.3% (wt/vol) Bacto agar were inoculated with 3-μl droplets of the test culture and incubated at 30°C for 3 days. Motile cell samples were observed with a Zeiss Standard 14 or a Nikon Eclipse E600 phase-contrast microscope. Tracks of swimming cells were determined by computerized motion analysis using the Hobson Bactracker system (Hobson Tracking System Ltd., Sheffield, United Kingdom) as previously described (
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     DNA methods and genetic manipulations.
+    </title>
+    <p>
+     <em>
+      S. meliloti
+     </em>
+     DNA was isolated and purified as described previously (
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ). Plasmid DNA was purified with NucleoSpin (Macherey Nagel, Düren, Germany) or the Wizard Plus SV miniprep system (Promega). DNA fragments or PCR products were purified from agarose gels using a GFX PCR and gel band purification kit (GE Healthcare) or the Wizard SV gel and PCR clean-up system (Promega). PCR amplification of chromosomal DNA and Southern blotting were carried out according to published protocols (
+     <xref ref-type="bibr">
+      53
+     </xref>
+     ).
+    </p>
+    <p>
+     Gene-enhanced green fluorescent protein (eGFP) and -monomeric red fluorescent protein (mRFP) fusions as well as deletion constructs were created by PCR and overlap extension PCR as described by Higuchi (
+     <xref ref-type="bibr">
+      22
+     </xref>
+     ). These constructs were cloned into the mobilizable suicide vector pK18
+     <em>
+      mobsacB
+     </em>
+     , which was then used to transform
+     <em>
+      E. coli
+     </em>
+     S17-1, and conjugally transferred to
+     <em>
+      S. meliloti
+     </em>
+     by filter mating according to the method of Simon et al. (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ). Allelic replacement was achieved by sequential selections on neomycin and 10% (wt/vol) sucrose as described previously (
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ). Confirmation of allelic replacement and elimination of the vector was obtained by gene-specific primer PCR, DNA sequencing, and Southern blotting.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Expression and purification of CheA, CheY1, and CheY2.
+    </title>
+    <p>
+     Recombinant CheA protein was overproduced from plasmids pRU1742 and pRU2326, CheY1 from pRU2312, and CheY2 from pRU2313 in
+     <em>
+      E. coli
+     </em>
+     ER2566 (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ) essentially as described by Riepl et al. (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Briefly, cells were grown to an OD
+     <sub>
+      600
+     </sub>
+     of 0.7 at 37°C in LB containing 100 μg/ml ampicillin, and gene expression was induced by 0.3 mM isopropyl-β-
+     <span>
+      d
+     </span>
+     -thiogalactopyranoside (IPTG). Cultivation was continued for 16 h at 16°C until harvest. Cells were lysed by three passages through a French pressure cell at 20,000 lb/in
+     <sup>
+      2
+     </sup>
+     (SLM Aminco, Silver Spring, MD), and the soluble fraction was loaded on a Chitin agarose (NEBiolabs, Beverly, MA) column (2.6 cm by 5.0 cm). Intein-mediated cleavage at the intein cleavage site was elicited by equilibration of the column with buffer containing 50 mM dithiothreitol (DTT) and further incubation at 4°C for 16 h. Proteins were eluted with column buffer and pooled fractions of each, CheA, CheY1, and CheY2, were further purified by fast-performance liquid chromatography (FPLC) gel filtration on Superdex 200 HR 10/30 for CheA and Superdex 75 HR 10/30 for CheY1 and CheY2 (GE Healthcare). The columns were equilibrated and developed in 1 mM EDTA, 20 mM Tris HCl, pH 7.5, for CheY1 and CheY2 and 1 mM EDTA, 2 mM DTT, 10% (vol/vol) glycerol, 50 mM Tris HCl, pH 7.5, for CheA at 0.5 ml/min, and protein-containing fractions were combined.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Purification of CheS from inclusion bodies and refolding by dialysis.
+    </title>
+    <p>
+     Recombinant CheS protein was overproduced from plasmid pRU2804 in
+     <em>
+      E. coli
+     </em>
+     M15/pREP4 (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Cells were grown at 37°C in LB containing 100 μg/ml ampicillin and 25 μg/ml kanamycin to an OD
+     <sub>
+      600
+     </sub>
+     of 0.7, and expression was induced by 1 mM IPTG. Cultivation was continued for 4 h at 37°C until harvest. Cells from 2-liter cultures were resuspended in 20 ml 0.5 mM EDTA, 20 mM Tris-HCl, pH 7.5, and cell lysates were prepared as described before. The lysate was centrifuged at 48,000 ×
+     <em>
+      g
+     </em>
+     and 4°C for 30 min, and the soluble fraction was discarded while the pellet was washed three times with 1% (vol/vol) Triton X-100, 1 mM EDTA. Inclusion bodies were resuspended in 10 ml denaturation buffer (8 M urea, 5 mM DTT, 50 mM Tris-HCl, pH 8.0), freed from insoluble material by centrifugation and filtered through a 0.2-μm-pore-size cellulose acetate syringe filter. Samples (1 ml) were subjected to FPLC gel filtration (Superdex 200 HR 10/30; GE Healthcare). The column was equilibrated and developed in denaturation buffer at 0.5 ml/min, and protein-containing fractions were combined. The protein was diluted with denaturation buffer to a final concentration of 0.1 mg/ml and refolded by dialysis against a 30-fold volume of 50 mM Tris-HCl, pH 8.0, 1 mM EDTA, 1 mM DTT, 20% (vol/vol) glycerol, 0.1 M NaCl for 24 h at 4°C. Subsequently, dialysis was performed with 50 mM Tris-HCl, pH 8.0, 1 mM EDTA, 1 mM DTT, 10% (vol/vol) glycerol, 0.1 M NaCl, and with 50 mM Tris-HCl, pH 8.0, 1 mM EDTA, 1 mM DTT, 10% glycerol (vol/vol) (TEDG
+     <sub>
+      10
+     </sub>
+     ) for 24 h at 4°C, in succession.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Expression and purification of complexes of CheA and CheA domains with CheS.
+    </title>
+    <p>
+     Recombinant His
+     <sub>
+      6
+     </sub>
+     -CheA or His
+     <sub>
+      6
+     </sub>
+     -CheA domains and CheS were overproduced from plasmids derived from pET27bmod or from pQE30. His
+     <sub>
+      6
+     </sub>
+     -CheA was expressed from pBS295, CheS from pBS173, His
+     <sub>
+      6
+     </sub>
+     -CheA and CheS from pBS174, His
+     <sub>
+      6
+     </sub>
+     -CheA-P1 and CheS from pBS1007, His
+     <sub>
+      6
+     </sub>
+     -CheA-P2
+     <sub>
+      linker
+     </sub>
+     and CheS from pBS330, His
+     <sub>
+      6
+     </sub>
+     -CheA-P2
+     <sub>
+      linker
+     </sub>
+     from pBS175, and His
+     <sub>
+      6
+     </sub>
+     -CheA-P345 and CheS from pBS339 (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Cells were grown to an OD
+     <sub>
+      600
+     </sub>
+     of 0.7 at 37°C in LB containing 40 μg/ml kanamycin, and gene expression was induced by 0.3 mM IPTG. Cultivation was continued for 16 h at 16°C until harvest. Cell lysates were prepared as described before, filtered through a 0.2-μm-pore-size cellulose acetate syringe filter, and subjected to a 5 ml Ni-NTA Hi-trap chelating column (GE Healthcare) which was equilibrated with 20 mM imidazole, 500 mM NaCl, 20 mM NaPO
+     <sub>
+      4
+     </sub>
+     , pH 7.4, at a flow rate of 5 ml/min. Proteins were eluted in a linear gradient of 15 bed volumes of 20 mM imidazole, 500 mM NaCl, 20 mM NaPO
+     <sub>
+      4
+     </sub>
+     , pH 7.4, to 500 mM imidazole, 500 mM NaCl, 20 mM NaPO
+     <sub>
+      4
+     </sub>
+     , pH 7.4. Protein-containing fractions were pooled and dialyzed against 20 mM Tris pH 7.5, 50 mM NaCl, 1 mM EDTA.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Cross-linking of proteins.
+    </title>
+    <p>
+     Proteins were cross-linked with glutaraldehyde (Serva, Germany) at a final concentration of 1% (wt/vol) as previously described (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Briefly, reactions were carried out at protein concentrations of 0.7 or 1.0 μM in 20 mM NaCl, 1 mM EDTA, 20 mM NaPO
+     <sub>
+      4
+     </sub>
+     , pH 7.5, or in 150 mM NaCl, 50 mM NaPO
+     <sub>
+      4
+     </sub>
+     , pH 8.0, at room temperature. Purified CheY1 and CheY2 were modified by the addition of 5 mM BeCl
+     <sub>
+      2
+     </sub>
+     and 50 mM NaF according to previously described protocols (
+     <xref ref-type="bibr">
+      10
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      65
+     </xref>
+     ). Reactions were stopped after 30 or 45 min by the addition of an equal volume of SDS gel-loading buffer (
+     <xref ref-type="bibr">
+      45
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Immunoblots.
+    </title>
+    <p>
+     Glutaraldehyde-treated samples were electrophoretically separated in 7.5 to 22.5% (wt/vol) acrylamide gradient gels, transferred to a nitrocellulose membrane, and probed with an affinity-purified anti-CheS polyclonal antibody (Pineda Antikörper-Service, Berlin, Germany) at a 1:100 dilution (
+     <xref ref-type="bibr">
+      45
+     </xref>
+     ). Blots were incubated with donkey anti-rabbit horseradish peroxidase-linked whole IgG antibody (GE Healthcare) diluted 1:2,500. Detection was achieved by enhanced chemiluminescence using Hyperfilm ECL (GE Healthcare), and films were scanned using an Epson Perfection 1640SU. Whole-cell extracts and affinity-purified samples were separated in Criterion 10 to 20% (wt/vol) Tris-HCl precast gels (Bio-Rad), transferred to a 0.2-μm polyvinylidene fluoride (PVDF) membrane, and probed with affinity-purified anti-CheS polyclonal antibody as described above.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Limited proteolysis and mass spectrometry analysis.
+    </title>
+    <p>
+     Limited proteolysis with chymotrypsin (Sigma) was performed at a protein concentration of 1 mg/ml in 1 mM EDTA, 50 mM NaCl, 20 mM Tris, pH 7.5, with a final concentration of 0.01 mg/ml chymotrypsin for 60 min at 37°C. Aliquots (20 μl) were withdrawn at 5, 20, 40, and 60 min, and reactions were stopped by the addition of 10 μl of SDS-gel loading buffer. Limited proteolysis with thermolysin (
+     <em>
+      Bacillus thermoproteolyticus
+     </em>
+     Rokko; Sigma) was performed at a protein concentration of 0.5 mg/ml in 4 mM CaCl
+     <sub>
+      2
+     </sub>
+     , 10% (vol/vol) glycerol and 0.4 M NaCl, 20 mM Tris, pH 8.0, with final concentrations of thermolysin of 20 μg/ml, 5 μg/ml, 1.2 μg/ml, 0.4 μg/ml, and 0.08 μg/ml for 60 min at 37°C. Reactions (20 μl) were stopped by the addition of 0.5 μl of 0.5 M EDTA, pH 8.0, and 10 μl of SDS-gel loading buffer. Portions (30 μl) of each protein sample were separated on 10 to 20% (wt/vol) SDS gels (Criterion, Bio-Rad) and stained with Coomassie brilliant blue R250. Bands of interest were excised from the polyacrylamide gel and chopped into approximately 1-mm
+     <sup>
+      3
+     </sup>
+     pieces using a clean razor blade. Gel pieces were placed into microcentrifuge tubes, destained twice with a 1:1 mixture of 25 mM ammonium bicarbonate/acetonitrile under vigorous vortexing for 2 h, and dehydrated using acetonitrile. Gel pieces were rehydrated on ice in 25 mM ammonium bicarbonate containing 10 ng/μl trypsin, Asp-N, or chymotrypsin and incubated overnight at 37°C. The digestion solution was transferred to a microcentrifuge tube rinsed with acetonitrile, and the gel pieces were further extracted with 50% (vol/vol) acetonitrile, 0.2% (vol/vol) trifluoroacetic acid (TFA) by sonication for 15 min. The extraction solution was mixed thoroughly with digestion solution, desalted, and concentrated using OMIX C
+     <sub>
+      18
+     </sub>
+     microextraction pipette tips (Varian) following the manufacturer's protocol prior to matrix-assisted laser desorption ionization (MALDI) analysis.
+    </p>
+    <p>
+     An aliquot (1 μl) of each digest was spotted onto a MALDI target plate. After air drying, 1 μl matrix containing 4 mg/ml α-cyano-4-hydroxycinnamic acid in 50% (vol/vol) acetonitrile supplemented with 0.2% (vol/vol) TFA and 20 mM ammonium citrate was spotted on the plate. The digests were then analyzed using a matrix-assisted laser desorption ionization–tandem time of flight mass spectrometer (4800 MALDI TOF/TOF; AB Sciex). An MS spectrum was collected for each digest in reflector-positive operating mode for the mass-to-charge range of 800 to 4,000, accumulating approximately 1,000 individual laser shots to yield one MS spectrum per digest. Tandem MS (MS-MS) data were collected for the top 16 peaks from each digest above a set signal-to-noise threshold using the MS-MS 1-kV positive operating mode. Each MS-MS spectrum was typically the sum of approximately 1,500 individual laser shots. A peak list for each digest containing information from both the MS and MS-MS spectra was generated using the 4000 Explorer (AB Sciex) software.
+    </p>
+    <p>
+     To determine the total mass of the P2
+     <sub>
+      linker
+     </sub>
+     domain, the protein was rebuffered in 20 mM ammonium acetate, pH 5.7, and an aliquot (1 μl) was spotted onto a MALDI target plate. After drying, 1 μl matrix containing 20 mg/ml sinapinic acid in 50% (vol/vol) acetonitrile supplemented with 0.1% (vol/vol) TFA was spotted on the plate. An MS spectrum was collected in linear positive operating mode.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Size exclusion chromatography and multiangle light scattering.
+    </title>
+    <p>
+     The molecular mass of CheA/CheS complexes was estimated by size exclusion chromatography with online absorbance (Shimadzu), multiangle light scattering (Dawn Heleos II, Wyatt Technology), and refractive index detectors (Shimadzu). Purified CheA/CheS complex (25 μg) was subjected to two stacked Superdex 200 (5/15) columns (GE Healthcare) which were equilibrated in 20 mM NaPO
+     <sub>
+      4
+     </sub>
+     , 20 mM NaCl, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , pH 7.5, at a flow rate of 0.3 ml/min. The refractive index (RI) signal was used as a concentration source for analyzing the light scattering data with the ASTRA program (version 5.3.4.14; Wyatt Technology).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Surface plasmon resonance spectroscopy.
+    </title>
+    <p>
+     Surface plasmon resonance experiments were performed on a Biacore X instrument (GE Healthcare) essentially as described previously (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). A standard CM5 chip was loaded with purified His
+     <sub>
+      6
+     </sub>
+     -CheA/CheS (in 10 mM Na-acetate buffer, pH 4.2) according to the supplier's standard amino coupling protocol. About 2,500 resonance units of protein were typically immobilized under these conditions. Measurements were taken at 25°C in 20 mM NaPO
+     <sub>
+      4
+     </sub>
+     , 20 mM NaCl, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , pH 7.5, at a flow rate of 20 μl/min. The association and dissociation of CheY1 and CheY2 (dialyzed against measurement buffer) were determined at protein concentrations ranging from 0.1 to 25 μM. Direct binding curves were established by BIA evaluation 4.1 (GE Healthcare) and OriginLab (Northampton, MA) programs using the hyperbola relationship between resonance increase and the amount of bound protein with errors of
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     (dissociation constant) values referring to the fit of the binding curve.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Autophosphorylation of CheA.
+    </title>
+    <p>
+     Autophosphorylation of CheA and CheA in complex with CheS was essentially carried out as described by Sourjik and Schmitt (
+     <xref ref-type="bibr">
+      52
+     </xref>
+     ). Reactions were performed in TEDG
+     <sub>
+      10
+     </sub>
+     containing 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 50 mM KCl at a final CheA concentration of 2 μM at 22°C. Autophosphorylation of CheA was initiated by the addition of 3 μCi [γ-
+     <sup>
+      32
+     </sup>
+     P]ATP (final concentration, 0.4 mM). Phosphorylation was terminated at given time intervals by adding 10-μl aliquots of the reaction mixture to 10 μl of SDS gel-loading buffer containing 10 mM EDTA. Samples were separated by electrophoresis on a 4-to-20%-gradient SDS-PAGE gel (Criterion; Bio-Rad). Gels enclosed in plastic wrap were exposed to a storage phosphor screen which was then excited with a 633-nm excitation laser and observed using a 390-nm band filter on a Typhoon Trio phosphorimager (GE Healthcare). Band intensities were quantified with ImageQuant TL software (GE Healthcare), and time courses were plotted using Origin 8.1 software (OriginLab, Northampton, MA).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Purification of [
+     <sup>
+      32
+     </sup>
+     P]-phospho-CheA.
+    </title>
+    <p>
+     Purified CheA and CheA/CheS (6.2 nmol) were phosphorylated in 500 μl TEDG
+     <sub>
+      10
+     </sub>
+     containing 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 50 mM KCl using 0.4 mM [γ-
+     <sup>
+      32
+     </sup>
+     P]ATP (100 μCi) at 22°C for 15 min. The reaction mixture was subjected to gel filtration on a Sephadex G-50 column (16/20; Pharmacia Biotech) at a flow rate of 0.5 ml/min. The column was equilibrated and developed in TEDG
+     <sub>
+      10
+     </sub>
+     , and protein-containing fractions were combined. According to quantitative protein assays and scintillation counting, approximately 47% of CheA was phosphorylated. Purified proteins were stored at −20°C.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Phosphotransfer from [
+     <sup>
+      32
+     </sup>
+     P]phospho-CheA to CheY1 and CheY2.
+    </title>
+    <p>
+     Phosphotransfer reactions from purified [
+     <sup>
+      32
+     </sup>
+     P]phospho-CheA or [
+     <sup>
+      32
+     </sup>
+     P]phospho-CheA/CheS (50 pmol) were initiated by the addition of CheY1 or CheY2 (11 pmol) in TEDG
+     <sub>
+      10
+     </sub>
+     containing 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     and terminated at given time intervals by adding 20-μl aliquots of the reaction mixture to 10 μl of SDS gel loading buffer containing 10 mM EDTA. Samples were separated by electrophoresis and analyzed as described above.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Fluorescence microscopy.
+    </title>
+    <p>
+     For immobilization, clean slides were coated with 1% (wt/vol) poly-
+     <span>
+      l
+     </span>
+     -lysine solution and 5 μl of motile cells from midexponential-phase cultures was added to the slide. A coverslip was placed on top of the culture droplet, and the edges were sealed with acrylic polymer to prevent drying. Images were taken with an Olympus IX71 microscope, using a 100× NA 1.4UPIanSApo objective lens equipped with a charge-coupled-device camera (Photometrics CoolSNAP HQ2CCD) and analyzed using SoftWorx software (Applied Precision). Fluorescence signals of eGFP (enhanced green fluorescent protein; excitation, 470 nm) and mRFP (monomeric red fluorescent protein; excitation, 580 nm) were detected using FITC (525 nm) and mCherry filters (630 nm), respectively.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Identification of a chemotaxis gene,
+     <em>
+      cheS
+     </em>
+     , and its product.
+    </title>
+    <p>
+     The
+     <em>
+      che
+     </em>
+     operon in the
+     <em>
+      S. meliloti
+     </em>
+     flagellar regulon contains a small open reading frame of unknown function,
+     <em>
+      cheS
+     </em>
+     , which is located between the genes coding for the internal transducer protein,
+     <em>
+      icpA
+     </em>
+     , and the response regulator protein
+     <em>
+      cheY1
+     </em>
+     (
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ). The derived 97-residue polypeptide sequence (10.3 kDa) has no counterpart in enteric bacteria, but it displays distinct similarities to unassigned proteins in other members of the α subgroup of proteobacteria, such as
+     <em>
+      Sinorhizobium medicae
+     </em>
+     ,
+     <em>
+      Agrobacterium tumefaciens
+     </em>
+     ,
+     <em>
+      Rhizobium leguminosarum
+     </em>
+     ,
+     <em>
+      Caulobacter crescentus
+     </em>
+     , and
+     <em>
+      Rhodobacter sphaeroides
+     </em>
+     (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ). These orthologs are positioned in identical gene order and very similar operon arrangement (
+     <xref ref-type="bibr">
+      60
+     </xref>
+     ). Compared to the
+     <em>
+      S. meliloti
+     </em>
+     CheS, the derived polypeptide sequences exhibit sequence identity of 87% (
+     <em>
+      S. medicae
+     </em>
+     ), 58% (
+     <em>
+      A. tumefaciens
+     </em>
+     ), 56% (
+     <em>
+      R. leguminosarum
+     </em>
+     ), 40% (
+     <em>
+      C. crescentus
+     </em>
+     ), and 31% (
+     <em>
+      R. sphaeroides
+     </em>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Fig 1
+     </label>     <caption>
+      <p>
+       Alignment of six CheS polypeptide sequences from
+       <em>
+        Sinorhizobium meliloti
+       </em>
+       (
+       <a>
+        <span>
+         {"type":"entrez-nucleotide","attrs":{"text":"U13166.1","term_id":"534833"}}
+        </span>
+        U13166.1
+       </a>
+       ),
+       <em>
+        Sinorhizobium medicae
+       </em>
+       (
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"YP_001325927.1","term_id":"150395460"}}
+        </span>
+        YP_001325927.1
+       </a>
+       ),
+       <em>
+        Agrobacterium tumefaciens
+       </em>
+       (
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"NP_353544.1","term_id":"15887863"}}
+        </span>
+        NP_353544.1
+       </a>
+       ),
+       <em>
+        Rhizobium leguminosarum
+       </em>
+       (
+       <span>
+        YP_766296.1
+       </span>
+       ),
+       <em>
+        Caulobacter crescentus
+       </em>
+       (
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"NP_419250.1","term_id":"16124686"}}
+        </span>
+        NP_419250.1
+       </a>
+       ), and
+       <em>
+        Rhodobacter sphaeroides
+       </em>
+       (
+       <span>
+        YP_001167990.1
+       </span>
+       ) (GenBank accession numbers in parentheses). Sequences were aligned using MegAlign. Light gray, dark gray, and black shading indicates identity among four, five, or six sequences, respectively. Numbering refers to amino acids in each line, and dashes signify gaps. Predicted secondary structure elements of
+       <em>
+        S. meliloti
+       </em>
+       CheS according to PSIPRED (
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ) are shown below the sequences. Bars denote α-helices, arrow denotes β-sheet, and thin lines denote coiled structures.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     An in-frame deletion, Δ
+     <em>
+      cheS
+     </em>
+     , was introduced in
+     <em>
+      S. meliloti
+     </em>
+     (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ) and chemotactic motility of the resulting RU11/408 mutant cells was tested and compared to those of the wild-type strain (RU11/001) and three key chemotaxis mutants (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). The
+     <em>
+      cheS
+     </em>
+     mutant strain exhibited an ∼30% reduction of swim ring diameter on Bromfield soft agar compared to that of the wild type. A similar result was obtained for the
+     <em>
+      cheY1
+     </em>
+     deletion strain (RU11/307), while the swim rings created by the
+     <em>
+      cheA
+     </em>
+     (RU11/310) and the
+     <em>
+      cheY2
+     </em>
+     (RU11/308) deletion strains were ∼70% smaller than the wild-type swim ring (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). To directly assess the chemotactic proficiency of RU11/408, we used computerized motion analysis to monitor and average the free-swimming speed of cell populations.
+     <em>
+      S. meliloti
+     </em>
+     increases its swimming speed as a response to attractant stimuli, a phenomenon called chemokinesis (
+     <xref ref-type="bibr">
+      4
+     </xref>
+     ). The
+     <em>
+      cheS
+     </em>
+     deletion strain swam 20% slower than the wild type, a behavior similar to that of the
+     <em>
+      cheY1
+     </em>
+     deletion strain. In the presence of the attractant
+     <span>
+      l
+     </span>
+     -proline, both mutant strains increased their swimming speed. In contrast, the
+     <em>
+      cheA
+     </em>
+     (RU11/310) and the
+     <em>
+      cheY2
+     </em>
+     (RU11/308) deletion strains exhibited an increased free swimming speed in the absence of an attractant and a loss of chemokinetic proficiency in the presence of an attractant (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). According to Sourjik and Schmitt (1996), the flagellar motor always rotates fast in the absence of either the motor brake CheY2-P or its activating kinase CheA. In the absence of the phosphate sink CheY1, CheY2-P is not effectively inactivated and the flagellar motor rotates at a lower rate (
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ). Interestingly, deletion of
+     <em>
+      cheS
+     </em>
+     causes the same phenotype as a
+     <em>
+      cheY1
+     </em>
+     deletion. On a molecular level, it can be proposed that CheS, directly or indirectly, reduces the level of phosphorylated CheY2 in
+     <em>
+      S. meliloti
+     </em>
+     cells.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Swim ring and free-swimming speeds of wild-type and mutant
+        <em>
+         S. meliloti
+        </em>
+        strains
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     <em>
+      In vitro
+     </em>
+     interaction of refolded CheS with CheA.
+    </title>
+    <p>
+     The observed phenotype of the
+     <em>
+      cheS
+     </em>
+     deletion strain indicated a possible participation of CheS in the phospho-relay between CheA, CheY2, and CheY1. We therefore expected CheS to interact with one or more of these three chemotaxis proteins. To test protein-protein interaction
+     <em>
+      in vitro
+     </em>
+     , we first attempted to purify CheS. We expressed CheS fused with a 6×His tag, intein-chitin binding domain, or maltose binding protein, and various expression strains, temperatures, and induction levels were tested (data not shown). However, all attempts to express recombinant CheS in a soluble form in
+     <em>
+      E. coli
+     </em>
+     were unsuccessful. Therefore, we decided to express CheS under conditions that favored the formation of inclusion bodies, namely, with 1 mM IPTG for 4 h at 37°C from plasmid pRU2804 in
+     <em>
+      E. coli
+     </em>
+     M15/pREP4 (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). After inclusion bodies were freed from cytoplasmic membranes by Triton X-100 extraction, proteins were unfolded with urea and subjected to gel filtration chromatography under denaturing conditions. CheS was refolded by sequential dialysis and stabilized by the addition of 10% (vol/vol) glycerol. To verify that the protein refolded into secondary structure elements, we recorded a circular dichroism spectrum in the far-UV region (see Fig. S1 in the supplemental material). Refolded CheS consisted of 45% α-helical elements, 13% β-sheets, 16% β-turns, and 27% random structures. The secondary prediction of CheS using prediction software PSIPRED (
+     <xref ref-type="bibr">
+      32
+     </xref>
+     ) reported a ratio of 53% α-helix, 4% β-sheet, and 43% random structures (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ). The experimental and predicted values for proportion of α-helical elements are in close agreement, while the contribution of β-sheets was greater than predicted and the contribution of random structures was less than predicted. The data indicated that CheS refolded into a protein with ordered secondary structure elements.
+    </p>
+    <p>
+     We used a chemical cross-linking assay to identify putative interaction partners of CheS. Recombinant CheY1, CheY2, and CheA were individually overexpressed in
+     <em>
+      E. coli
+     </em>
+     ER2566 and purified using the IMPACT system (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Equimolar amounts of proteins (final concentration, 0.7 μM) were cross-linked with 1% (wt/vol) glutaraldehyde, separated electrophoretically, and detected by immunoblotting using anti-CheS antibody. The banding patterns resulting from these reactions are shown in
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     . In the absence of glutaraldehyde, CheS migrates as a monomer at 10 kDa and as a dimer at 20 kDa (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     , lane 1). CheS contains one cysteine residue which would allow dimer formation via a cysteine-disulfide bond. However, the addition of 5% (vol/vol) β-mercaptoethanol to the loading buffer did not disrupt this interaction, suggesting that dimerization of CheS is not promoted by disulfide bond formation, although it is possible that the reducing agent was not sufficiently strong to reduce a putative disulfide bond. Cross-linking resulted in shifted bands with slightly increased apparent molecular weights. In addition to a prominent dimeric CheS band, bands corresponding to a trimer and a hexamer were also observed (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     , lane 2). No change in the banding pattern occurred when CheS was cross-linked in the presence of CheY1, CheY2, or the beryllofluoride (BeF
+     <sub>
+      3
+     </sub>
+     <sup>
+      −
+     </sup>
+     ) complexed forms representing the activated state of the latter proteins (
+     <xref ref-type="bibr">
+      10
+     </xref>
+     ). By solving the different NMR structures of CheY2 and CheY2-BeF
+     <sub>
+      3
+     </sub>
+     <sup>
+      −
+     </sup>
+     , we have demonstrated that CheY2 is indeed activated by BeF
+     <sub>
+      3
+     </sub>
+     <sup>
+      −
+     </sup>
+     (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Whether the same holds true for CheY1 is uncertain; however, activation by BeF
+     <sub>
+      3
+     </sub>
+     <sup>
+      −
+     </sup>
+     has been successfully performed for most response regulators tested (
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      27
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      59
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      61
+     </xref>
+     ) only with the exception of
+     <em>
+      E. coli
+     </em>
+     CheB (
+     <xref ref-type="bibr">
+      43
+     </xref>
+     ). When purified CheA was added to the cross-linking reaction, we observed the appearance of two additional bands with apparent molecular sizes of approximately 100 kDa and 180 kDa (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     , lane 7), which match the sizes of 1:2 and 2:2 CheA/CheS complexes, respectively. These bands were also visible when probed with an anti-CheA antibody (data not shown), suggesting a direct interaction between CheA and CheS. In conclusion, the data revealed an affinity of CheS for CheA but not for CheY1 or CheY2.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Fig 2
+     </label>     <caption>
+      <p>
+       Immunoblot analysis to assess the binding of CheY1, CheY2, and CheA to CheS. CheS (0.7 μM) was cross-linked by glutaraldehyde (GA) for 45 min to CheY1, CheY1-BeF
+       <sub>
+        3
+       </sub>
+       (CheY1*), CheY2, CheY2-BeF
+       <sub>
+        3
+       </sub>
+       (CheY2*), or CheA (0.7 μM) in 20 mM NaCl, 1 mM EDTA, 20 mM NaPO
+       <sub>
+        4
+       </sub>
+       , pH 7.5. The reaction products were separated by gradient gel electrophoresis and probed with an anti-CheS antibody. Mixtures applied to each lane are specified below the blot, a molecular mass scale is shown to the left, and bands of interest are marked with arrows.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     <em>
+      In vivo
+     </em>
+     interaction of CheS with CheA.
+    </title>
+    <p>
+     We verified the CheA-CheS interaction in living cells by fluorescence microscopy using CheS fused to eGFP (enhanced green fluorescent protein) and CheA fused to mRFP (monomeric red fluorescent protein).
+     <em>
+      S. meliloti
+     </em>
+     strains carrying fusion constructs stably integrated into their genomes by homologous recombination were used to ensure that all of the introduced fusion alleles would be expressed under their native promoters. To test whether the fusion proteins maintained functionality, the chemotactic behavior of the mutant strains was analyzed by computerized motion analysis in the absence and presence of
+     <span>
+      l
+     </span>
+     -proline. The strain expressing CheA-mRFP (RU13/311) exhibited normal wild-type behavior, while chemotaxis behavior of the strain expressing CheS-eGFP (RU13/280) was slightly impaired (data not shown). We reported in previous studies that the chemoreceptors (MCPs) of
+     <em>
+      S. meliloti
+     </em>
+     are clustered at the cell pole(s) (
+     <xref ref-type="bibr">
+      33
+     </xref>
+     ) and that the downstream signaling proteins CheA and CheY2 are also localized at those sensory clusters, whereas CheY1 is uniformly distributed throughout the cell (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). When we visualized the cellular localization of CheS-eGFP in an otherwise wild-type background (RU13/280), we found fluorescence loci positioned slightly offset from the center of the poles (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     A). In a
+     <em>
+      cheA
+     </em>
+     deletion background (BS151) CheS-eGFP does not exhibit any clustering but is uniformly distributed throughout the cell (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     B). Furthermore, CheS-eGFP predominantly colocalized with CheA-mRFP at the poles of
+     <em>
+      S. meliloti
+     </em>
+     cells (BS154,
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     C to E). Therefore, CheS localizes at the polar chemosensory clusters in a CheA-dependent manner.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Fig 3
+     </label>     <caption>
+      <p>
+       Localization of CheS and CheA in
+       <em>
+        S. meliloti
+       </em>
+       cells by fluorescence microscopy. CheS fused to eGFP (enhanced green fluorescent protein) and CheA fused to mRFP (monomeric red fluorescent protein) were monitored in wild-type and mutant backgrounds. (A) CheS-eGFP in wild-type cells (RU13/280). (B) CheS-eGFP in Δ
+       <em>
+        cheA
+       </em>
+       cells (BS151) (C) CheA-mRFP in wild-type cells (BS154) (D) CheS-eGFP in wild-type cells (BS154) (E) CheA-mRFP and CheS-eGFP in wild-type cells (BS154, overlay of panels C and D). White bars correspond to 5 μm.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Soluble CheS can be copurified with CheA.
+    </title>
+    <p>
+     Since we had strong experimental evidence that CheS interacts closely with CheA, we attempted to coexpress CheS with CheA to determine if both proteins form a stable and soluble complex. A vector was constructed with
+     <em>
+      cheS
+     </em>
+     under the control of the T7 promoter and
+     <em>
+      His
+      <sub>
+       6
+      </sub>
+      -cheA
+     </em>
+     under the control of the T5 promoter. This coexpression vector was used to transform
+     <em>
+      E. coli
+     </em>
+     strain BL21(DE3), and protein expression was induced by the addition of 0.3 mM IPTG. After overnight incubation at 16°C, cells were harvested and then lysed using a French pressure cell. The soluble fraction was separated from insoluble matter by centrifugation. To analyze the expression of CheS, whole-cell extracts and soluble fractions were separated electrophoretically and detected by immunoblotting using anti-CheS antibody. No band was detected when CheS was expressed in the absence of His
+     <sub>
+      6
+     </sub>
+     -CheA (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     , lanes 1 and 2). However, when expressed in the presence of His
+     <sub>
+      6
+     </sub>
+     -CheA, the CheS band was detected in both the whole-cell fraction and the soluble fraction (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     , lanes 3 and 4). Thus, the presence of His
+     <sub>
+      6
+     </sub>
+     -CheA allowed for the expression of stable and soluble CheS. It should be noted that two weak bands with apparent molecular sizes of approximately 120 kDa and 55 kDa were detected with the CheS-antibody in lanes 3 and 4 of
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     . Since we can rule out cross-reaction of the CheS antibody to CheA (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     , lane 5), a small fraction of CheS in complex with CheA and a CheA degradation product must be stable even in the presence of SDS. In fact, these bands disappeared when samples were boiled prior to loading (data not shown).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Fig 4
+     </label>     <caption>
+      <p>
+       SDS-PAGE and immunoblots to assess coexpression and purification of CheS and His
+       <sub>
+        6
+       </sub>
+       -CheA. (A) Equal volumes of cell extracts and soluble fractions were separated on a 10 to 20% (wt/vol) SDS gel, transferred onto a PVDF membrane, and probed with anti-CheS antibody. Lanes 1 and 2, whole-cell extract (C) and soluble fraction (S) of
+       <em>
+        E. coli
+       </em>
+       BL21(DE3) (pBS173) expressing CheS; lanes 3 and 4, whole-cell extract and soluble fraction of
+       <em>
+        E. coli
+       </em>
+       BL21(DE3) (pBS174) expressing CheS and His
+       <sub>
+        6
+       </sub>
+       -CheA; lane 5: His
+       <sub>
+        6
+       </sub>
+       -CheA as a control. (B and C) Proteins after chromatography on Ni-NTA Sepharose were separated on a 10 to 20% (wt/vol) SDS gel, and transferred onto PDVF membrane and probed with anti-CheS antibody (B) or stained with Coomassie brilliant blue (C). Lane 1, CheA-CheS.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     If CheS forms an exceedingly tight complex with His
+     <sub>
+      6
+     </sub>
+     -CheA, it should be possible to copurify both proteins. Cleared cell lysate was applied to a Ni-NTA column, unbound proteins were washed off, and bound proteins were eluted in a linear gradient of imidazole. Protein-containing fractions were combined, separated on an SDS gel, and analyzed using immunoblotting and Coomassie brilliant blue staining. CheS was detected in eluates by immunoblotting (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     B, lane 1), and Coomassie brilliant blue stain visualized two bands with apparent molecular sizes of 80 kDa and 10 kDa, representing His
+     <sub>
+      6
+     </sub>
+     -CheA and CheS, respectively (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     C, lane 1). The CheA/CheS complex allows for both stable expression of soluble CheS and copurification.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     The CheA/CheS complex exists in a 1:2 and 2:2 stoichiometry.
+    </title>
+    <p>
+     To further elucidate the complex formed between CheA and CheS, we used size exclusion chromatography coupled to a multiangle light scattering detector (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     ). The CheA/CheS complex eluted as one peak in the void volume representing high-molecular-weight aggregates and as two distinct peaks in the separation range of the column. The peaks at 10.94 min and 8.75 min correspond to apparent molecular masses of ∼100 and ∼180 kDa, respectively, and can be attributed to a 1:2 and 2:2 stoichiometry of the CheA/CheS complex. The relative UV and RI signals for the 10.94-min peak (180 kDa) differ from each other while they show identical intensities for the 8.75-min peak (100 kDa), which further supports the conclusion that the two complexes have different stoichiometries (
+     <xref ref-type="bibr">
+      63
+     </xref>
+     ). The existence of two stoichiometrically different complexes correlates well with the observation of two CheA/CheS bands in the chemical cross-linking analysis of refolded CheS (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ).
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Fig 5
+     </label>     <caption>
+      <p>
+       Elution profile of the CheA/CheS complex using size exclusion chromatography on two serial Superdex 200 (5/15) columns coupled with inline multiangle light scattering. Solid and dashed lines, respectively, are relative refractive index (RI) and relative UV absorbance at 280 nm. The peak at 6.85 min is a high-molecular-weight aggregate. Apparent molecular masses derived from the light scattering data (filled triangles and filled squares) suggest complexes with ∼180 kDa and ∼100 kDa for the peak at 8.75 min and 10.94 min, respectively. For comparison, the retention times of bovine serum albumin monomer (66.5 kDa) and dimer (133 kDa) are indicated by vertical lines.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     The P2
+     <sub>
+      linker
+     </sub>
+     domain of CheA is the binding domain for CheS.
+    </title>
+    <p>
+     The 81-kDa CheA protein consists of five domains, namely, a phosphotransfer domain (P1), a response-regulator binding domain (P2), a dimerization domain (P3), an ATP-binding and kinase activity domain (P4), and a CheW/MCP binding domain (P5) (see Fig. S2 in the supplemental material). It is known from previous studies that individual structural elements of CheA can be stably expressed (
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Domains were defined by applying the published domain structure of
+     <em>
+      E. coli
+     </em>
+     CheA to
+     <em>
+      S. meliloti
+     </em>
+     CheA (
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      56
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ). To determine if CheS binding is restricted to a specific domain, we cloned and expressed P1 (amino acids [aa] 1 to 135; 16.1 kDa), P2, including the linker regions separating it from P1 and P3 (P2
+     <sub>
+      linker
+     </sub>
+     : aa 120 to 360; 26.9 kDa), and the combined domains P3, P4, and P5 (P345: aa 355 to 758; 44.5 kDa) with N-terminal His tags. It should be noted that due to uncertain domain transitions, the C-terminal end of P1 and the N-terminal end of P3 share 16 and 6 amino acid residues, respectively, with the N- and C-terminal linker regions flanking the P2
+     <sub>
+      linker
+     </sub>
+     domain.
+    </p>
+    <p>
+     Following coexpression with each domain, CheS was stably expressed only in the presence of the P2
+     <sub>
+      linker
+     </sub>
+     domain (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     A). As observed with full-length CheA, a small fraction of CheS binds to the P2
+     <sub>
+      linker
+     </sub>
+     domain, resulting in a band of approximately 60 kDa, which is detected with the anti-CheS antibody and which disappeared when samples were boiled prior to loading (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     A, lanes 3 and 4). It should be noted that the His
+     <sub>
+      6
+     </sub>
+     -P2
+     <sub>
+      linker
+     </sub>
+     produced a band at 37 kDa on an SDS gel which is 10 kDa larger than the predicted molecular mass, while the apparent and calculated molecular masses of His
+     <sub>
+      6
+     </sub>
+     -CheA, His
+     <sub>
+      6
+     </sub>
+     -P1, and His
+     <sub>
+      6
+     </sub>
+     -P345 were very similar (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     C, lane 3). Therefore, we determined the total mass of His
+     <sub>
+      6
+     </sub>
+     -P2
+     <sub>
+      linker
+     </sub>
+     by MALDI and obtained a value of approximately 27 kDa, which is in close agreement with the calculated mass of 26,601 Da. We can only speculate about the reason for the anomalous behavior of His
+     <sub>
+      6
+     </sub>
+     -P2
+     <sub>
+      linker
+     </sub>
+     during SDS-PAGE. The predicted pI of His
+     <sub>
+      6
+     </sub>
+     -P2
+     <sub>
+      linker
+     </sub>
+     is 4.4 and could account for the rather low electrophoretic mobility of the protein. It has been reported that proteins with a large negative charge at neutral pH exhibit a remarkably low mobility during SDS-gel electrophoresis (
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Fig 6
+     </label>     <caption>
+      <p>
+       SDS-PAGE and immunoblots to assess coexpression and purification of CheS and His
+       <sub>
+        6
+       </sub>
+       -CheA domains. (A) Equal volumes of cell extracts and soluble fractions were separated on a 10 to 20% (wt/vol) SDS-gel, transferred onto a PVDF membrane, and probed with anti-CheS antibody. Lanes 1 and 2, whole-cell extract (C) and soluble fraction (S) of
+       <em>
+        E. coli
+       </em>
+       BL21(DE3) (pBS1007) expressing CheS and His
+       <sub>
+        6
+       </sub>
+       -P1 (aa 1–135); lanes 3 and 4, whole-cell extract (C) and soluble fraction (S) of
+       <em>
+        E. coli
+       </em>
+       BL21(DE3) (pBS330) expressing CheS and His
+       <sub>
+        6
+       </sub>
+       -P2
+       <sub>
+        linker
+       </sub>
+       (aa 120–360); lanes 5 and 6, whole-cell extract (C) and soluble fraction (S) of
+       <em>
+        E. coli
+       </em>
+       BL21(DE3) (pBS339) expressing CheS and His
+       <sub>
+        6
+       </sub>
+       -P345 (aa 355–758). (B and C) Proteins after chromatography on Ni-NTA Sepharose were separated on a 10 to 20% (wt/vol) SDS-gel, and transferred onto PDVF membrane and probed with anti-CheS antibody (B) or stained with Coomassie brilliant blue (C). Lane 1, P1/CheS (expressed from pBS1007); lane 2, CheA/P2
+       <sub>
+        linker
+       </sub>
+       -CheS (expressed from pBS317); lane 3, P345/CheS (expressed from pBS339).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Neither coexpression with P1 nor coexpression with P345 promoted soluble and stable expression of CheS (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     A). A weak band of 65 kDa, detected in lane 3 of
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     B, could represent a low-abundance complex of P345 with CheS, but no free CheS was detected. An analysis of the elution fractions after affinity chromatography confirmed our results. While all three CheA domains are expressed and can be purified using Ni-NTA chromatography, CheS can be detected only when coexpressed with the P2
+     <sub>
+      linker
+     </sub>
+     domain (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     B and
+     <xref ref-type="fig">
+      None
+     </xref>
+     C). Again, a very small amount of CheS can be copurified with the P345 domain (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     B). In conclusion, the P2
+     <sub>
+      linker
+     </sub>
+     domain constitutes the primary interaction surface for CheS, while P345 contains a secondary interaction surface which is not sufficient to promote stable expression of CheS.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Fig 7
+     </label>     <caption>
+      <p>
+       Time course of limited proteolysis of the His
+       <sub>
+        6
+       </sub>
+       -P2
+       <sub>
+        linker
+       </sub>
+       CheS complex as determined by SDS-PAGE and identified fragments. (A) Proteolysis by chymotrypsin; (B) proteolysis by thermolysin. Samples from the His
+       <sub>
+        6
+       </sub>
+       -P2
+       <sub>
+        linker
+       </sub>
+       -CheS and His
+       <sub>
+        6
+       </sub>
+       -P2
+       <sub>
+        linker
+       </sub>
+       digestions were loaded in odd- and even-numbered lanes, respectively. Arrows indicate the positions of the CheA-P2 linker and CheS; molecular mass markers are shown in the center. Numbers indicate the positions of proteolytic products on the SDS gels which are shown in the panels below. (A) Digestions were performed at final concentrations of chymotrypsin of 10 μg/ml. Aliquots were withdrawn at 5, 20, 40, and 60 min, and reactions were stopped by the addition of SDS-gel loading buffer. (B) Digestions were performed at final thermolysin concentrations of 0.08 μg/ml, 0.4 μg/ml, 1.2 μg/ml, 5 μg/ml, and 20 μg/ml for 60 min at 37°C. Reactions were stopped by the addition of EDTA and SDS-gel loading buffer. (C) Amino acid sequence of the P2
+       <sub>
+        linker
+       </sub>
+       domain. The region protected by CheS is shaded dark gray (core domain, as determined after chymotrypsin digestion) and light gray (additional residues, as determined after thermolysin digestion). The area protected by CheY2 as described by Riepl et al. (
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ) is marked by a black line.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Defining the CheS-binding domain to CheA
+     <sub>
+      163–256
+     </sub>
+     by limited proteolysis and mass spectrometry.
+    </title>
+    <p>
+     We next attempted to gain a more accurate definition of the actual surface within the P2
+     <sub>
+      linker
+     </sub>
+     domain that interacts with CheS. Limited proteolysis of the P2
+     <sub>
+      linker
+     </sub>
+     /CheS complex was performed using the proteases chymotrypsin, which cleaves C-terminal to Phe, Trp, and Tyr residues, and thermolysin, which preferentially cleaves N-terminal to Leu and Phe. The time course of proteolysis, as monitored by SDS-PAGE, is shown in
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     A and
+     <xref ref-type="fig">
+      None
+     </xref>
+     B. Since CheS is unaffected by proteolysis, it apparently has a rather compact structure. Two stable fragments of P2
+     <sub>
+      linker
+     </sub>
+     were produced with chymotrypsin (C2, C3) and thermolysin (T2, T3). The cleaved products were analyzed by MALDI-TOF mass spectrometry after trypsin or Asp-N digestions of chymotrypsin fragments and chymotrypsin digestion of thermolysin fragments. The identities of fragments were as follows: C2 was aa 120 to 251, C3 was aa 163 to 256, T2 was aa 158 to 283, and T3 was aa 158 to 260 (
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     A and B). All the calculated masses were in excellent agreement with the experimental values. From these results we can define the stable core CheS-binding domain (P2
+     <sub>
+      CheS
+     </sub>
+     ) to contain amino acids 163 to 256 as determined from the chymotrypsin fragment C3, with five and four additional residues at the N- and C-terminal regions, respectively, as determined from the thermolysin fragment T3 (
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     C). When the P2
+     <sub>
+      linker
+     </sub>
+     domain was subjected to proteolysis under the same conditions, no stable fragment was produced (
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     A and B, evenly numbered lanes). Therefore, CheS binds to the central P2 domain, CheA
+     <sub>
+      163–256
+     </sub>
+     , rendering it insensitive to protease digestion. Interestingly, the P2
+     <sub>
+      CheS
+     </sub>
+     binding domain overlaps with the N-terminal half of the previously determined P2
+     <sub>
+      CheY2
+     </sub>
+     binding domain (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Implications for the eclipse between the two binding domains will be discussed further below.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Autophosphorylation of CheA is unaffected by CheS.
+    </title>
+    <p>
+     The observed phenotype of the
+     <em>
+      cheS
+     </em>
+     deletion strain and the complex formation of CheS with CheA suggested an effect of CheS on phosphorylation or phosphotransfer reactions. We therefore first tested whether CheS affects autokinase activity of CheA. Purified CheA and CheA/CheS were incubated with [γ-
+     <sup>
+      32
+     </sup>
+     P]ATP, aliquots were removed, and reactions terminated at specified time intervals.
+     <sup>
+      32
+     </sup>
+     P-CheA intensities were determined after separation on an SDS gel. The ATP-dependent autophosphorylation of CheA follows a simple exponential time course (
+     <xref ref-type="bibr">
+      52
+     </xref>
+     ). No differences were observed between the kinetics of autophosphorylation of CheA in the absence and presence of CheS (
+     <xref ref-type="fig">
+      Fig. 8
+     </xref>
+     ). Thus, CheS exerts no influence on the autophosphorylation of CheA.
+    </p>
+    <fig id="F8" position="float">
+     <label>
+      Fig 8
+     </label>     <caption>
+      <p>
+       Time course of ATP-dependent autophosphorylation of CheA and CheA complexed with CheS. CheA (2 μM) was incubated with 0.4 mM [γ-
+       <sup>
+        32
+       </sup>
+       P]ATP at 22°C. Aliquots were withdrawn at specified intervals, the reaction was terminated by the addition of SDS gel-loading buffer containing 10 mM EDTA, and the samples were separated on a 4 to 20% SDS-gel.
+       <sup>
+        32
+       </sup>
+       P-CheA band intensities were determined using a Typhoon Phospho Imager and normalized to the final intensity after 15 min. The lines through the experimental data points represent fits to a single-exponential curve. Each data point represents the average result of three independent experiments, and error bars represent standard deviations. (■) P-CheA and (○) P-CheA in complex with CheS.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     The dephosphorylation of CheY1 is accelerated in the presence of CheS.
+    </title>
+    <p>
+     Next, we monitored the phosphotransfer reaction from CheA-P to CheY1 and CheY2. The assay was performed with purified
+     <sup>
+      32
+     </sup>
+     P-CheA in the absence of ATP, which allows the observation of phosphate flow through the signal transduction pathway (
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ). Using a 5-fold molar excess of CheA-P with respect to CheY1 or CheY2, the dephosphorylation of the response regulators becomes the rate-limiting step (
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ). This rate limitation is shown by the constant levels of CheY1-P and CheY2-P until the 80-s time point, when CheA-P is starting to become depleted. This way, the rate of removal of the phosphoryl group from CheA can be monitored. If CheS causes an increased rate of CheY1 or CheY2 dephosphorylation, we would observe an increase in the rate of CheA-P dephosphorylation (
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ). Interestingly, the rate of CheA-P dephosphorylation in the presence of CheY1 was approximately 2-fold higher when the assay was performed with the CheA-P/CheS complex (
+     <xref ref-type="fig">
+      Fig. 9
+     </xref>
+     A). No difference in the dephosphorylation rates of CheA-P and the CheA-P/CheS complex was seen when the assay was performed in the presence of CheY2 (
+     <xref ref-type="fig">
+      Fig. 9
+     </xref>
+     B). Since CheS does not accelerate the dephosphorylation of CheA-P, as analyzed in control experiments, the presence of CheS causes an increased rate of CheY1 dephosphorylation. This observation establishes the role of CheS in signal termination. By enhancing dephosphorylation of CheY1-P (directly or indirectly) and therefore CheA-P dephosphorylation, the flow of phosphoryl groups from CheY2-P to CheA is accelerated, thereby terminating the signal.
+    </p>
+    <fig id="F9" position="float">
+     <label>
+      Fig 9
+     </label>     <caption>
+      <p>
+       Phosphotransfer from P-CheA to CheY1 and CheY2. Transfer of the phosphoryl group from 55 pmol purified
+       <sup>
+        32
+       </sup>
+       P-CheA (■) or
+       <sup>
+        32
+       </sup>
+       P-CheA in complex with CheS (○) to 11 pmol CheY1 (A) and 11 pmol CheY2 (B) (●, from CheA-P; □, from CheA-P/CheA-S). Aliquots were withdrawn at specified intervals, the reaction was terminated by the addition of SDS gel-loading buffer containing 10 mM EDTA, and the samples were separated on a 4 to 20% SDS-gel.
+       <sup>
+        32
+       </sup>
+       P-CheA, -CheY1, and -CheY2 band intensities were determined using a Typhoon Phospho Imager and normalized to the initial intensity. The lines through the experimental data points represent best-fit curves. Each data point represents the average result of three independent experiments, and error bars represent standard deviations.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     CheY1 binds 100-fold more strongly to the CheA/CheS complex than to CheA.
+    </title>
+    <p>
+     We used surface plasmon resonance (SPR) spectroscopy to quantitatively assess the binding of CheY1 and CheY2 to the CheA/CheS complex. Purified CheA/CheS, when immobilized on a CM5 chip, bound the purified CheY1 and CheY2 proteins in a concentration-dependent manner. Binding curves were established by monitoring the changes of resonance signals in response to increasing ligand concentrations passed over immobilized CheA/CheS. The half-maximal increase of the curve defines the dissociation constant of CheY1 (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     = 1.8 ± 0.1 μM), in comparison to the previously determined binding to CheA, which showed an apparent dissociation constant of
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     = 170 ± 30 μM (
+     <xref ref-type="fig">
+      Fig. 10
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     , and reference
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). The presence of CheS increases binding of CheY1 to CheA ∼100-fold, which raises the affinity of CheY1 to the CheY2 value (
+     <xref ref-type="fig">
+      Fig. 10
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     , and reference
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). In contrast, the apparent dissociation constant for CheY2 binding to CheA/CheS (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     = 0.81 ± 0.13 μM) was within the same order of magnitude range as that of its previously determined binding to CheA (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     = 0.32 ± 0.02 μM) (
+     <xref ref-type="fig">
+      Fig. 10
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     , and reference
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). This result is in strong agreement with the hypothesis that CheS enhances the rate of CheY1 dephosphorylation by intensifying its interaction with CheA.
+    </p>
+    <fig id="F10" position="float">
+     <label>
+      Fig 10
+     </label>     <caption>
+      <p>
+       Binding of CheY1 and CheY2 to CheA/CheS determined by surface plasmon resonance spectroscopy. The concentration-dependent apparent binding constants of CheY1 (■) and CheY2 (▲) were determined by monitoring the changes in resonance signals (Rel. RU, relative resonance units) generated in response to various protein concentrations. Each data point represents the average result of two independent experiments, and error bars represent standard errors. Binding curves for CheY1 (solid line) and CheY2 (dashed line) to CheA/CheS were calculated from duplicate measurements using a simple hyperbolic fit.
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       values are defined by the half-maximal increase of each curve.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Dissociation constants (
+        <em>
+         K
+         <sub>
+          d
+         </sub>
+        </em>
+        ) for CheY1 and CheY2 to CheA and CheA/CheS as determined by surface plasmon resonance spectroscopy
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    The chemotaxis signaling chain in many nonenteric bacteria utilizes a mechanism termed “phosphate sink” for rapid signal termination, rather than direct dephosphorylation of the flagellar motor-binding response regulator by a phosphatase (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     37
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     58
+    </xref>
+    ). In
+    <em>
+     S. meliloti
+    </em>
+    , this mechanism involves a retrotransfer reaction from CheY2-P to CheA and from CheA-P to CheY1 (
+    <xref ref-type="bibr">
+     52
+    </xref>
+    ). CheY1 competes with CheY2 for phosphate groups from CheA-P when the autokinase is active, and it accelerates dephosphorylation of CheA-P and thereby the decay of CheY2-P when CheA autokinase is inactive. Our findings lead us to propose that the newly discovered chemotaxis protein CheS mediates interaction of CheY1 with CheA, which results in a more efficient dephosphorylation of CheY1-P and therefore drainage of the phosphate sink.
+   </p>
+   <sec>
+    <p>
+    </p>
+    <title>
+     CheS forms a complex with the autokinase CheA.
+    </title>
+    <p>
+     Our experimental data provide evidence that CheS forms a complex with CheA. A first indication was given by the observation that recombinant CheS expression in
+     <em>
+      E. coli
+     </em>
+     was successful only in the presence of CheA. Cross-linking and size exclusion chromatography showed that one CheS dimer can form a complex with monomeric as well as dimeric CheA (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Since dimerization of CheA is required for intersubunit transphosphorylation, we suggest that CheA/CheS exists as a dimeric complex
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     CheS and response regulator binding domains in CheA overlap.
+    </title>
+    <p>
+     P2
+     <sub>
+      CheS
+     </sub>
+     , specifically CheA
+     <sub>
+      163–256
+     </sub>
+     , is situated within the N-terminal half of the response regulator binding domain (P2
+     <sub>
+      CheY2
+     </sub>
+     , CheA
+     <sub>
+      174–316
+     </sub>
+     ) (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). A comparison of the
+     <em>
+      E. coli
+     </em>
+     P2
+     <sub>
+      linker
+     </sub>
+     domain with the
+     <em>
+      S. meliloti
+     </em>
+     P2
+     <sub>
+      linker
+     </sub>
+     domain revealed very low identity. Both domains share only 18% identity, whereas the P1, P34, and P5 domains have 35%, 47%, and 38% identical residues, respectively. Furthermore, the
+     <em>
+      S. meliloti
+     </em>
+     P2
+     <sub>
+      linker
+     </sub>
+     domain is 100 amino acid residues longer than that in
+     <em>
+      E. coli
+     </em>
+     P2, containing about 55 additional residues in both linker regions and 45 residues in the central domain. The extended linker regions may give
+     <em>
+      S. meliloti
+     </em>
+     CheA additional flexibility to host the three response regulators (CheY1, CheY2, CheB) and CheS.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     The CheA-CheS complex promotes dephosphorylation of CheY1.
+    </title>
+    <p>
+     The phenotype of the
+     <em>
+      cheS
+     </em>
+     deletion strain suggests participation of CheS in signal termination, and the
+     <em>
+      in vitro
+     </em>
+     phosphorylation assays support this observation (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Fig. 9
+     </xref>
+     ). The acid/amide residue motif (E-X
+     <sub>
+      2
+     </sub>
+     -N or D-X
+     <sub>
+      3
+     </sub>
+     -Q) typically found in phosphatases that catalyze response regulator dephosphorylation, such as CheZ and the CheC/CheX/FliY family, is not present in CheS (
+     <xref ref-type="bibr">
+      24
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      49
+     </xref>
+     ). We found that CheY1 binds ∼100-fold more strongly to CheA/CheS than to CheA (
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     and reference
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). By increasing the concentration of CheY1 at the active site of CheA, a more efficient phosphotransfer, dephosphorylation, and therefore signal termination could be achieved. Our cross-linking experiments argue against a direct interaction of CheS and CheY1 (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ). However, these experiments were performed using refolded CheS, and we suspect that CheS may not have been fully refolded into its native state. This supposition is supported by the fact that initial phosphorylation experiments performed with CheA, CheY1, CheY2, and refolded CheS showed that CheS had no effect on any of the phosphorylation reactions (data not shown). It is also plausible that a preformed CheA/CheS complex interacts in a different way with CheY1 than individual CheS.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Model for CheS regulation.
+    </title>
+    <p>
+     At this point it is not clear how CheS modulates the binding of CheY1 to CheA. An interesting mechanism for histidine kinase regulation has been described for the sporulation kinase KinA. The 46-aa anti-kinase protein Sda inhibits the intermolecular transfer of phosphoryl groups from the catalytic ATP-binding domain of KinA to the autophosphorylation site in the dimerization/histidine-phosphotransfer domain (DHp) (
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      64
+     </xref>
+     ). Two Sda molecules bind to the base of the DHp dimerization domain of the KinA dimer acting as a molecular barricade to sterically block access to the phosphoacceptor His residue in the DHp domain (
+     <xref ref-type="bibr">
+      8
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      42
+     </xref>
+     ). We hypothesize that CheS promotes interaction between the kinase and CheY1 by providing additional binding surfaces. This concept is supported by evidence that P345 of CheA exhibits weak binding to CheS. It seems reasonable to suggest that CheS interacts with the P4 domain, a region that harbors the ATP-binding site and catalytic center to control kinase activity. We can only speculate whether the activity of CheS itself is regulated. When a PSI-BLAST database search was performed on CheS, it showed homology to the STAS domain (E value = 7 × 10
+     <sup>
+      −4
+     </sup>
+     ), found in sulfate transporters and anti-sigma factor antagonists, such as SpoIIAA (
+     <xref ref-type="bibr">
+      2
+     </xref>
+     ). However, according to the Pfam database, the match is insignificant (E value = 0.078). The SpoIIAA anti-anti-sigma factor is activated through phosphorylation at a serine residue by the kinase SpoIIAB (
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      35
+     </xref>
+     ). Whether there is any conservation of this function is not certain, but it is interesting to note that there is a conserved serine residue at position 75 (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Conclusion.
+    </title>
+    <p>
+     The development of phosphate sinks as an alternate form of signal termination in two-component regulatory systems coincides with the presence of CheS in the chemosensory pathway of alphaproteobacteria. CheS enhances the interaction of CheY1 and CheA; this allows for an efficient drainage of the phosphate sink. This drainage contributes to the inactivation of CheY2-P, thereby ceasing its control of the flagellar motor. To elucidate the mechanism on the molecular level, it will be necessary to solve the crystal structure of CheA/CheS complexed with CheY1.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental material:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGMENTS
+   </title>
+   <sec>
+    <p>
+     This study was supported by the Deutsche Forschungsgemeinschaft (
+     <span>
+      Scha914/1-2
+     </span>
+     ) and startup funds from Virginia Tech to Birgit Scharf and by equipment from the Deutsche Forschungsgemeinschaft (
+     <span>
+      SFB 594
+     </span>
+     ,
+     <span>
+      SFB824
+     </span>
+     ) and grants from the Fonds der chemischen Industrie to Martin Haslbeck.
+    </p>
+    <p>
+     We thank Paul Muschler, Gereon Göttner, Matthias Klinger, and Elmar Schilling for their contributions at early stages of this work, Andrea Brücher for the measurements of swimming velocities, Manisha Manickam for her help in the construction of pBS1007, Christopher Stratil for technical assistance with the Biacore analysis, and Hardik Zatakia for critical reading of the manuscript. We also thank three anonymous reviewers for helpful comments.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Alon U, et al. 
+1998.
+      <span>
+       Response regulator output in bacterial chemotaxis
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       17
+      </span>
+      :4238–4248
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Aravind L, Koonin EV.
+2000.
+      <span>
+       The STAS domain—a link between anion transporters and antisigma-factor antagonists
+      </span>
+      .
+      <span>
+       Curr. Biol.
+      </span>
+      <span>
+       10
+      </span>
+      :R53–R55
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Armitage JP, Schmitt R.
+1997.
+      <span>
+       Bacterial chemotaxis: Rhodobacter sphaeroides and Sinorhizobium meliloti—variations on a theme
+      </span>
+      ?
+      <span>
+       Microbiology
+      </span>
+      <span>
+       143
+      </span>
+      :3671–3682
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Attmannspacher U, Scharf B, Schmitt R.
+2005.
+      <span>
+       Control of speed modulation (chemokinesis) in the unidirectional rotary motor of Sinorhizobium meliloti
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       56
+      </span>
+      :708–718
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Bachmann BJ.
+1990.
+      <span>
+       Linkage map of Escherichia coli K-12, edition 8
+      </span>
+      .
+      <span>
+       Microbiol. Rev.
+      </span>
+      <span>
+       54
+      </span>
+      :130–197
+(Erratumx, 55:191.)
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Baker MD, Wolanin PM, Stock JB.
+2006.
+      <span>
+       Signal transduction in bacterial chemotaxis
+      </span>
+      .
+      <span>
+       Bioessays
+      </span>
+      <span>
+       28
+      </span>
+      :9–22
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Bertani G.
+1951.
+      <span>
+       Studies on lysogenesis. I. The mode of phage liberation by lysogenic Escherichia coli
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       62
+      </span>
+      :293–300
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Bick MJ, et al. 
+2009.
+      <span>
+       How to switch off a histidine kinase: crystal structure of Geobacillus stearothermophilus KinB with the inhibitor Sda
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       386
+      </span>
+      :163–177
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Borkovich KA, Kaplan N, Hess JF, Simon MI.
+1989.
+      <span>
+       Transmembrane signal transduction in bacterial chemotaxis involves ligand-dependent activation of phosphate group transfer
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       86
+      </span>
+      :1208–1212
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Cho HS, et al. 
+2000.
+      <span>
+       NMR structure of activated CheY
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       297
+      </span>
+      :543–551
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Cunningham KA, Burkholder WF.
+2009.
+      <span>
+       The histidine kinase inhibitor Sda binds near the site of autophosphorylation and may sterically hinder autophosphorylation and phosphotransfer to Spo0F
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       71
+      </span>
+      :659–677
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Garzon A, Parkinson JS.
+1996.
+      <span>
+       Chemotactic signaling by the P1 phosphorylation domain liberated from the CheA histidine kinase of Escherichia coli
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       178
+      </span>
+      :6752–6758
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Götz R, Limmer N, Ober K, Schmitt R.
+1982.
+      <span>
+       Motility and chemotaxis in two strains of Rhizobium with complex flagella
+      </span>
+      .
+      <span>
+       J. Gen. Microbiol.
+      </span>
+      <span>
+       128
+      </span>
+      :789–798
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Greck M, Platzer J, Sourjik V, Schmitt R.
+1995.
+      <span>
+       Analysis of a chemotaxis operon in Rhizobium meliloti
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       15
+      </span>
+      :989–1000
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Grossmann G, Opekarova M, Malinsky J, Weig-Meckl I, Tanner W.
+2007.
+      <span>
+       Membrane potential governs lateral segregation of plasma membrane proteins and lipids in yeast
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       26
+      </span>
+      :1–8
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Guhaniyogi J, Robinson VL, Stock AM.
+2006.
+      <span>
+       Crystal structures of beryllium fluoride-free and beryllium fluoride-bound CheY in complex with the conserved C-terminal peptide of CheZ reveal dual binding modes specific to CheY conformation
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       359
+      </span>
+      :624–645
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Hamel DJ, Zhou H, Starich MR, Byrd RA, Dahlquist FW.
+2006.
+      <span>
+       Chemical-shift-perturbation mapping of the phosphotransfer and catalytic domain interaction in the histidine autokinase CheA from Thermotoga maritima
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       45
+      </span>
+      :9509–9517
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Hanahan D, Meselson M.
+1983.
+      <span>
+       Plasmid screening at high colony density
+      </span>
+      .
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       100
+      </span>
+      :333–342
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Hazelbauer GL, Falke JJ, Parkinson JS.
+2008.
+      <span>
+       Bacterial chemoreceptors: high-performance signaling in networked arrays
+      </span>
+      .
+      <span>
+       Trends Biochem. Sci.
+      </span>
+      <span>
+       33
+      </span>
+      :9–19
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Hess JF, Oosawa K, Kaplan N, Simon MI.
+1988.
+      <span>
+       Phosphorylation of three proteins in the signaling pathway of bacterial chemotaxis
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       53
+      </span>
+      :79–87
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Hess JF, Bourret RB, Simon MI.
+1991.
+      <span>
+       Phosphorylation assays for proteins of the two-component regulatory system controlling chemotaxis in Escherichia coli
+      </span>
+      .
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       200
+      </span>
+      :188–204
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Higuchi R.
+1989.
+      <span>
+       Using PCR to engineer DNA, p 61–70
+      </span>
+      .
+      <em>
+       In
+      </em>
+      Erlich H A, editor.  (ed),
+      <span>
+       PCR technology. Principles and applications for DNA amplification
+      </span>
+      . Stockton Press, New York, NY
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Jahreis K, Morrison TB, Garzon A, Parkinson JS.
+2004.
+      <span>
+       Chemotactic signaling by an Escherichia coli CheA mutant that lacks the binding domain for phosphoacceptor partners
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       186
+      </span>
+      :2664–2672
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Jimenez-Pearson MA, Delany I, Scarlato V, Beier D.
+2005.
+      <span>
+       Phosphate flow in the chemotactic response system of Helicobacter pylori
+      </span>
+      .
+      <span>
+       Microbiology
+      </span>
+      <span>
+       151
+      </span>
+      :3299–3311
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Kamberger W.
+1979.
+      <span>
+       An Ouchterlony double diffusion study on the interaction between legume lectins and rhizobial cell surface antigens
+      </span>
+      .
+      <span>
+       Arch. Microbiol.
+      </span>
+      <span>
+       121
+      </span>
+      :83–90
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Kovach ME, et al. 
+1995.
+      <span>
+       Four new derivatives of the broad-host-range cloning vector pBBR1MCS, carrying different antibiotic-resistance cassettes
+      </span>
+      .
+      <span>
+       Gene
+      </span>
+      <span>
+       166
+      </span>
+      :175–176
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Lee SY, et al. 
+2001.
+      <span>
+       Crystal structure of an activated response regulator bound to its target
+      </span>
+      .
+      <span>
+       Nat. Struct. Biol.
+      </span>
+      <span>
+       8
+      </span>
+      :52–56
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Lertsethtakarn P, Ottemann KM.
+2010.
+      <span>
+       A remote CheZ ortholog retains phosphatase function
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       77
+      </span>
+      :225–235
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Lukat GS, Lee BH, Mottonen JM, Stock AM, Stock JB.
+1991.
+      <span>
+       Roles of the highly conserved aspartate and lysine residues in the response regulator of bacterial chemotaxis
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       266
+      </span>
+      :8348–8354
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Masuda S, et al. 
+2004.
+      <span>
+       Crystal structures of the ADP and ATP bound forms of the Bacillus anti-sigma factor SpoIIAB in complex with the anti-anti-sigma SpoIIAA
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       340
+      </span>
+      :941–956
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Matagne A, Joris B, Frere JM.
+1991.
+      <span>
+       Anomalous behaviour of a protein during SDS/PAGE corrected by chemical modification of carboxylic groups
+      </span>
+      .
+      <span>
+       Biochem. J.
+      </span>
+      <span>
+       280
+      </span>
+      (
+      <span>
+       Pt 2
+      </span>
+      ):553–556
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      McGuffin LJ, Bryson K, Jones DT.
+2000.
+      <span>
+       The PSIPRED protein structure prediction server
+      </span>
+      .
+      <span>
+       Bioinformatics
+      </span>
+      <span>
+       16
+      </span>
+      :404–405
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Meier VM, Scharf BE.
+2009.
+      <span>
+       Cellular localization of predicted transmembrane and soluble chemoreceptors in Sinorhizobium meliloti
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       191
+      </span>
+      :5724–5733
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Miller LD, Russell MH, Alexandre G.
+2009.
+      <span>
+       Diversity in bacterial chemotactic responses and niche adaptation
+      </span>
+      .
+      <span>
+       Adv. Appl. Microbiol.
+      </span>
+      <span>
+       66
+      </span>
+      :53–75
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Min KT, Hilditch CM, Diederich B, Errington J, Yudkin MD.
+1993.
+      <span>
+       Sigma F, the first compartment-specific transcription factor of B. subtilis, is regulated by an anti-sigma factor that is also a protein kinase
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       74
+      </span>
+      :735–742
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Novick RP, et al. 
+1976.
+      <span>
+       Uniform nomenclature for bacterial plasmids: a proposal
+      </span>
+      .
+      <span>
+       Bacteriol. Rev.
+      </span>
+      <span>
+       40
+      </span>
+      :168–189
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Pittman MS, Goodwin M, Kelly DJ.
+2001.
+      <span>
+       Chemotaxis in the human gastric pathogen Helicobacter pylori: different roles for CheW and the three CheV paralogues, and evidence for CheV2 phosphorylation
+      </span>
+      .
+      <span>
+       Microbiology
+      </span>
+      <span>
+       147
+      </span>
+      :2493–2504
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Platzer J, Sterr W, Hausmann M, Schmitt R.
+1997.
+      <span>
+       Three genes of a motility operon and their role in flagellar rotary speed variation in Rhizobium meliloti
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       179
+      </span>
+      :6391–6399
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Pleier E, Schmitt R.
+1991.
+      <span>
+       Expression of two Rhizobium meliloti flagellin genes and their contribution to the complex filament structure
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       173
+      </span>
+      :2077–2085
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Porter SL, Wadhams GH, Armitage JP.
+2008.
+      <span>
+       Rhodobacter sphaeroides: complexity in chemotactic signalling
+      </span>
+      .
+      <span>
+       Trends Microbiol.
+      </span>
+      <span>
+       16
+      </span>
+      :251–260
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Riepl H, et al. 
+2008.
+      <span>
+       Interaction of CheY2 and CheY2-P with the cognate CheA kinase in the chemosensory-signalling chain of Sinorhizobium meliloti
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       69
+      </span>
+      :1373–1384
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Rowland SL, et al. 
+2004.
+      <span>
+       Structure and mechanism of action of Sda, an inhibitor of the histidine kinases that regulate initiation of sporulation in Bacillus subtilis
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       13
+      </span>
+      :689–701
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Saxl RL, Anand GS, Stock AM.
+2001.
+      <span>
+       Synthesis and biochemical characterization of a phosphorylated analogue of the response regulator CheB
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       40
+      </span>
+      :12896–12903
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Schäfer A, et al. 
+1994.
+      <span>
+       Small mobilizable multi-purpose cloning vectors derived from the Escherichia coli plasmids pK18 and pK19: selection of defined deletions in the chromosome of Corynebacterium glutamicum
+      </span>
+      .
+      <span>
+       Gene
+      </span>
+      <span>
+       145
+      </span>
+      :69–73
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Scharf B, Schuster-Wolff-Bühring H, Rachel R, Schmitt R.
+2001.
+      <span>
+       Mutational analysis of Rhizobium lupini H13-3 and Sinorhizobium meliloti flagellin genes: importance of flagellin A for flagellar filament structure and transcriptional regulation
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       183
+      </span>
+      :5334–5342
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Scharf B, Schmitt R.
+2002.
+      <span>
+       Sensory transduction to the flagellar motor of Sinorhizobium meliloti
+      </span>
+      .
+      <span>
+       J. Mol. Microbiol. Biotechnol.
+      </span>
+      <span>
+       4
+      </span>
+      :183–186
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Scharf BE, Fahrner KA, Turner L, Berg HC.
+1998.
+      <span>
+       Control of direction of flagellar rotation in bacterial chemotaxis
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       95
+      </span>
+      :201–206
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Shah DS, Porter SL, Martin AC, Hamblin PA, Armitage JP.
+2000.
+      <span>
+       Fine tuning bacterial chemotaxis: analysis of Rhodobacter sphaeroides behaviour under aerobic and anaerobic conditions by mutation of the major chemotaxis operons and cheY genes
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       19
+      </span>
+      :4601–4613
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Silversmith RE.
+2010.
+      <span>
+       Auxiliary phosphatases in two-component signal transduction
+      </span>
+      .
+      <span>
+       Curr. Opin. Microbiol.
+      </span>
+      <span>
+       13
+      </span>
+      :177–183
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Simon R, O'Connell M, Labes M, Pühler A.
+1986.
+      <span>
+       Plasmid vectors for the genetic analysis and manipulation of rhizobia and other gram-negative bacteria
+      </span>
+      .
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       118
+      </span>
+      :640–659
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Sourjik V, Schmitt R.
+1996.
+      <span>
+       Different roles of CheY1 and CheY2 in the chemotaxis of Rhizobium meliloti
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       22
+      </span>
+      :427–436
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Sourjik V, Schmitt R.
+1998.
+      <span>
+       Phosphotransfer between CheA, CheY1, and CheY2 in the chemotaxis signal transduction chain of Rhizobium meliloti
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       37
+      </span>
+      :2327–2335
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Sourjik V, et al. 
+1998.
+      <span>
+       Mapping of 41 chemotaxis, flagellar and motility genes to a single region of the Sinorhizobium meliloti chromosome
+      </span>
+      .
+      <span>
+       Gene
+      </span>
+      <span>
+       223
+      </span>
+      :283–290
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Springer MS, Goy MF, Adler J.
+1977.
+      <span>
+       Sensory transduction in Escherichia coli: two complementary pathways of information processing that involve methylated proteins
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       74
+      </span>
+      :3312–3316
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Stewart RC.
+1997.
+      <span>
+       Kinetic characterization of phosphotransfer between CheA and CheY in the bacterial chemotaxis signal transduction pathway
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       36
+      </span>
+      :2030–2040
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Stewart RC, Van Bruggen R.
+2004.
+      <span>
+       Association and dissociation kinetics for CheY interacting with the P2 domain of CheA
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       336
+      </span>
+      :287–301
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     57.
+     <span>
+      Swanson RV, Schuster SC, Simon MI.
+1993.
+      <span>
+       Expression of CheA fragments which define domains encoding kinase, phosphotransfer, and CheY binding activities
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       32
+      </span>
+      :7623–7629
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     58.
+     <span>
+      Szurmant H, Ordal GW.
+2004.
+      <span>
+       Diversity in chemotaxis mechanisms among the bacteria and archaea
+      </span>
+      .
+      <span>
+       Microbiol. Mol. Biol. Rev.
+      </span>
+      <span>
+       68
+      </span>
+      :301–319
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     59.
+     <span>
+      Toro-Roman A, Mack TR, Stock AM.
+2005.
+      <span>
+       Structural analysis and solution studies of the activated regulatory domain of the response regulator ArcA: a symmetric dimer mediated by the alpha4-beta5-alpha5 face
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       349
+      </span>
+      :11–26
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     60.
+     <span>
+      Ulrich LE, Zhulin IB.
+2010.
+      <span>
+       The MiST2 database: a comprehensive genomics resource on microbial signal transduction
+      </span>
+      .
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       38
+      </span>
+      :D401–D407
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     61.
+     <span>
+      Wassmann P, et al. 
+2007.
+      <span>
+       Structure of BeF
+       <sub>
+        3
+       </sub>
+       <sup>
+        −
+       </sup>
+       -modified response regulator PleD: implications for diguanylate cyclase activation, catalysis, and feedback inhibition
+      </span>
+      .
+      <span>
+       Structure
+      </span>
+      <span>
+       15
+      </span>
+      :915–927
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     62.
+     <span>
+      Welch M, Oosawa K, Aizawa S, Eisenbach M.
+1993.
+      <span>
+       Phosphorylation-dependent binding of a signal molecule to the flagellar switch of bacteria
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       90
+      </span>
+      :8787–8791
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     63.
+     <span>
+      Wen J, Arakawa T, Philo JS.
+1996.
+      <span>
+       Size-exclusion chromatography with on-line light-scattering, absorbance, and refractive index detectors for studying proteins and their interactions
+      </span>
+      .
+      <span>
+       Anal. Biochem.
+      </span>
+      <span>
+       240
+      </span>
+      :155–166
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     64.
+     <span>
+      Whitten AE, et al. 
+2007.
+      <span>
+       The structure of the KinA-Sda complex suggests an allosteric mechanism of histidine kinase inhibition
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       368
+      </span>
+      :407–420
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     65.
+     <span>
+      Yan D, et al. 
+1999.
+      <span>
+       Beryllofluoride mimics phosphorylation of NtrC and other bacterial response regulators
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       96
+      </span>
+      :14789–14794
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

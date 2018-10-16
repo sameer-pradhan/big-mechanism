@@ -1,0 +1,3389 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4262544
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Ligand Binding to WW Tandem Domains of YAP2 Transcriptional Regulator Is Under Negative Cooperativity
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     YAP2 transcriptional regulator drives a multitude of cellular processes, including the newly discovered Hippo tumor suppressor pathway, by virtue of the ability of its WW domains to bind and recruit PPXY-containing ligands to specific subcellular compartments. Herein, we employ an array of biophysical tools to investigate allosteric communication between the WW tandem domains of YAP2. Our data show that the WW tandem domains of YAP2 negatively cooperate when binding to their cognate ligands. Moreover, the molecular origin of such negative cooperativity lies in an unfavorable entropic contribution to the overall free energy relative to ligand binding to isolated WW domains. Consistent with this notion, the WW tandem domains adopt a fixed spatial orientation such that the WW1 domain curves outwards and stacks onto the binding groove of WW2 domain, thereby sterically hindering ligand binding to both itself and its tandem partner. Although ligand binding to both WW domains disrupts such interdomain stacking interaction, they reorient themselves and adopt an alternative fixed spatial orientation in the liganded state by virtue of their ability to engage laterally so as to allow their binding grooves to point outwards and away from each other. In short, while the ability of WW tandem domains to aid ligand binding is well-documented, our demonstration that they may also be subject to negative binding cooperativity represents a paradigm shift in our understanding of the molecular action of this ubiquitous family of protein modules.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Binding-coupled folding, WW-ligand thermodynamics, WW tandem domains, Allosteric communication, Conformational dynamics
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Originally identified as a binding partner of YES tyrosine kinase [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ], YAP is comprised of two major isoforms termed YAP1 and YAP2, also referred to as YAP1-1 and YAP1-2 on the basis of new nomenclature that we recently proposed [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. While YAP2 harbors a tandem copy of WW domains (termed WW1 and WW2) located N-terminal to the transactivation (TA) domain (
+    <xref ref-type="fig">
+     Figure 1a
+    </xref>
+    ), WW2 domain is deleted in YAP1 through RNA splicing [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ]. Importantly, the ability of YAP proteins to mediate cellular signaling is largely dependent upon the ability of their WW domains to recognize PPXY motifs within their cognate ligands such as WBP1 and WBP2 signaling adaptors [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ], ErbB4 receptor kinase [
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ], RUNX1 transcription factor [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ], LATS1 kinase [
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ], p73 tumor suppressor [
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ], TMG2 transmembrane protein [
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ], PTPN14 phosphatase [
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ], SMAD7 signaling adaptor [
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ], and PTCH1 transmembrane receptor [
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ]. In particular, the YAP proteins play a central role in regulating the Hippo signaling cascade [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    –
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ]—a newly discovered tumor suppressor pathway involved in regulating the size of organs and in the suppression of tumors through inhibiting cellular proliferation and promoting apoptosis.
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      Modular organization of human YAP2 and cognate ligands. (a) YAP2 is comprised of a tandem copy of WW domains, designated WW1 and WW2, located N-terminal to the trans-activation (TA) domain. The location of W199Y and W258Y mutations is indicated within WW1 and WW2 domains, respectively. (b) Amino acid sequence of 12-mer peptides, derived from various cognate ligands of YAP2, containing the PPXY motifs and flanking residues. Note that the numerals indicate the nomenclature used in this study to distinguish residues within and flanking the motifs relative to the first proline within the PPXY motif, which is arbitrarily assigned zero.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    While the molecular mechanism underlying the binding of isolated WW domains of YAP2 is well-documented [
+    <xref ref-type="bibr">
+     20
+    </xref>
+    –
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ], little is known about how these domains act in concert in the context of WW1-WW2 tandem module. This is important because WW tandem domains are not only ubiquitous among a wide variety of cellular proteins but they also play a key role in adding functional versatility to the host protein in which they reside. Thus, for example, the presence of WW tandem domains enables proteins to recruit their cognate binding partners to the site of cellular activity with 1:2 stoichiomtery in lieu of 1:1 afforded by a single WW domain. This in turn not only initiates rapid amplification of downstream signaling necessary to execute a cellular response in a timely manner but may also be important for cross-talk and thereby coordination between multiple pathways converging on distinct cellular functions. Equally importantly, the WW tandem domains may also allow the host protein to engage in multivalent binding to its cellular partners harboring multiple PPXY motifs with higher affinity due to entropic advantage, thereby not only reducing the background signaling noise but may also enhance signaling fidelity. In certain specialized cases, the WW tandem domains are absolutely required for the host protein to be functionally active. An example of such a scenario is epitomized by the splicing factors such as Prp40 and FBP21 [
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ], wherein the WW tandem domains interact with different ligands and bridge between target proteins within the splicing machinery. Given their functional importance in cellular signaling, further studies on elucidating the underlying molecular mechanism of action of WW tandem domains is imperative. Toward this goal, previous studies have shown that WW tandem domains act in a synergistic manner in that one domain aids the folding and ligand binding to the other and vice versa [
+    <xref ref-type="bibr">
+     24
+    </xref>
+    –
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ]. For example, the WW2 domain in the context of WW2-WW3 tandem module of SMURF2 ubiquitin ligase augments ligand binding to WW3 domain by virtue of its ability to physically interact with both WW3 domain and the PPXY ligand [
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ]. More recently, work from our laboratory has shown that the WW2 domain in the context of WW1-WW2 tandem module of WWOX tumor suppressor acts as a chaperone to facilitate folding and ligand binding to WW1 domain [
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ].
+   </p>
+   <p>
+    In order to further our understanding of how they operate in signaling cascades, we undertook the present investigation to test the extent to which the WW domains in the context of WW1-WW2 tandem module of YAP2 also act synergistically using various cognate ligands (
+    <xref ref-type="fig">
+     Figure 1b
+    </xref>
+    ). Our data show that the WW tandem domains of YAP2 negatively cooperate when binding to their cognate ligands. To our knowledge, negative binding cooperativity in WW tandem domains has not been hitherto described. Our study thus bears the potential to have profound implications on the role of allosteric communication between WW tandem domains in cellular signaling.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RESULTS and DISCUSSION
+   </title>
+   <sec>
+    <title>
+     WW domains of YAP2 bind to cognate ligands with distinct affinities
+    </title>
+    <p>
+     To understand the extent of synergistic action between WW domains within the WW1-WW2 tandem module of YAP2, we first determined their ability to bind various cognate ligands alone, or as isolated domains in the absence of each other, using ITC.
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     shows representative ITC isotherms for such measurements, while detailed thermodynamic analysis is presented in
+     <a>
+      <span>
+       Tables 1
+      </span>
+     </a>
+     and
+     <a>
+      <span>
+       ​
+       <span>
+        and2.
+       </span>
+      </span>
+      <span>
+       2
+      </span>
+     </a>
+     . It is evident from our analysis that while both WW domains bind to all known ligands of YAP2 with affinities typically in the tens of micromolar range, there are nonetheless subtle differences. Thus, for example, WW1 domain preferentially recognizes LATS1 over other ligands with an affinity that is at least two-fold greater than that observed for its competitors (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). In contrast, WW2 domain binds to LATS1, PTPN14 and RUNX1 with affinities that are indistinguishable from each other within the experimental error (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). On the other hand, while WBP1 appears to be the weakest binding partner of both WW domains, binding of WW2 domain to SMAD7 is observed to be close to three-fold weaker than that for the WW1 domain.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Representative ITC isotherms for the binding of WW1 domain of YAP2 to LATS1 (a), SMAD7 (b) and WBP1 (c) peptides. The upper panels show the raw data expressed in terms of the change in thermal power with respect to time over the period of titration. In the lower panels, the change in molar heat is expressed as a function of molar ratio of corresponding peptide to WW1 domain of YAP2. The solid red lines in the lower panels show the fit of data to a one-site binding model using the integrated ORIGIN software as described earlier [
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        54
+       </xref>
+       ].
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters for the binding of wildtype WW1 domain of YAP2 to PPXY-containing peptides derived from various cognate ligands
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters for the binding of wildtype WW2 domain of YAP2 to PPXY-containing peptides derived from various cognate ligands
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Notably, the affinities observed here for the binding of WW domains of YAP2 to various ligands are in line with the canonical binding of WW domains to their cognate PPXY motifs, which typically lie in the tens of micromolar regime [
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      33
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      34
+     </xref>
+     ]. It should also be noted here that the binding of both WW domains of YAP2 to all ligands is largely driven by favorable enthalpic contributions accompanied by entropic penalty (
+     <a>
+      <span>
+       Tables 1
+      </span>
+     </a>
+     and
+     <a>
+      <span>
+       ​
+       <span>
+        and2).
+       </span>
+      </span>
+      <span>
+       2
+      </span>
+     </a>
+     ). This salient observation suggests a predominant role of attractive intermolecular forces such as hydrogen bonding, ion pairing and van der Waals contacts in mediating the binding of YAP2 to its cognate partners. Importantly, the overwhelming contribution of such favorable forces must also offset the repulsive entropic factors due to the loss of degrees of motions upon intermolecular association.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     WW Tandem domains of YAP2 display negative binding cooperativity
+    </title>
+    <p>
+     The fact that the binding landscape of both WW domains of YAP2 appears to display substantial overlap in their ability to bind to all known ligands suggests that they likely act in a cooperative manner in the context of intact protein within the milieu of the living cell. To explore this phenomenon further, we next measured the binding of WW domains within the WW1-WW2 tandem module using ITC in a manner similar to that described above for the isolated WW domains. Toward this goal, we first generated mutant constructs containing W199Y single substitution within the WW1 domain (WW1Y-WW2) or W258Y single substitution within the WW2 domain (WW1-WW2Y) in the context of WW1-WW2 tandem module of YAP2. It should be noted here that the W199 and W258 residues are located within the concave hydrophobic groove of each WW domain and their integrity is absolutely required for ligand binding [
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ]. Thus, the introduction of W199Y and W258Y substitutions would allow the dissection of ligand binding to each WW domain in the context of WW1-WW2 tandem module without interference from each other.
+    </p>
+    <p>
+     As shown in
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     and expounded in
+     <a>
+      <span>
+       Tables 3
+      </span>
+     </a>
+     –
+     <a>
+      <span>
+       4
+      </span>
+     </a>
+     , our analysis surprisingly reveals that ligand binding to both WW domains of YAP2 in the context of WW1-WW2 tandem module is mitigated by at least two-fold relative to that observed for the isolated domains. This strongly argues that the WW tandem domains of YAP2 do not act synergistically toward their cognate ligands but rather in a negatively cooperative manner. This is further corroborated by the observation that the ligand binding affinity to the wildtype WW1-WW2 tandem module of YAP2 with 1:2 stoichiometry is generally two-fold weaker than that observed for the isolated WW domains (
+     <a>
+      <span>
+       Table 5
+      </span>
+     </a>
+     ). More importantly, ligand binding to WW domains in the context of WW1-WW2 tandem module is accompanied by favorable enthalpic (ΔH) and unfavorable entropic (TΔS) changes that are at least two-fold greater than the corresponding changes observed for the isolated WW domains (
+     <a>
+      <span>
+       Tables 1
+      </span>
+     </a>
+     –
+     <a>
+      <span>
+       4
+      </span>
+     </a>
+     ). This suggests that ligand binding to each WW domain triggers some sort of global conformational change within the WW1-WW2 tandem module that results in the enhancement of intramolecular contacts at the expense of a reduction in the degrees of freedom. Interestingly, rigorous analysis of our thermodynamic data further suggests that the unfavorable change in TΔS outweighs that observed for ΔH in the case of ligand binding to WW domains in the context of WW1-WW2 tandem module in comparison to the isolated WW domains (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). This implies that the molecular origin of negative cooperativity observed here lies in greater unfavorable entropic change associated with ligand binding to WW domains within the WW1-WW2 tandem module relative to the isolated domains.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Comparison of the binding of WW domains alone and in the context of WW1-WW2 tandem module of YAP2 to various cognate peptides in terms of the equilibrium dissociation constant (K
+       <sub>
+        d
+       </sub>
+       ). (a) Binding of wildtype WW1 domain alone (blue) and in the context of mutant WW1-WW2Y tandem module (red). (b) Binding of wildtype WW2 domain alone (blue) and in the context of mutant WW1Y-WW2 tandem module (red). Error bars were calculated from at least three independent measurements to one standard deviation.
+      </p>
+     </caption>
+    </fig>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Comparison of enthalpic (ΔH) and entropic (TΔS) contributions to the overall free energy of ligand binding to WW domains alone and in the context of WW1-WW2 tandem module of YAP2 to various cognate peptides in terms of the TΔS/ΔH ratio. (a) Binding of wildtype WW1 domain alone (blue) and in the context of mutant WW1-WW2Y tandem module (red). (b) Binding of wildtype WW2 domain alone (blue) and in the context of mutant WW1Y-WW2 tandem module (red).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters for the binding of mutant WW1-WW2Y tandem module of YAP2 to PPXY-containing peptides derived from various cognate ligands
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 4
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters for the binding of mutant WW1Y-WW2 tandem module of YAP2 to PPXY-containing peptides derived from various cognate ligands
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 5
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters for the binding of wildtype WW1-WW2 tandem module of YAP2 to PPXY-containing peptides derived from various cognate ligands
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     WW1 but not WW2 domain of YAP2 is structurally disordered in the unliganded conformation
+    </title>
+    <p>
+     In order to investigate the structural basis underlying the negative cooperativity observed between WW domains of YAP2, we next determined the change in heat capacity (ΔC
+     <sub>
+      p
+     </sub>
+     ) associated with their ligand binding from the plots of change in enthalpy (ΔH) as a function of temperature (T) (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ). Strikingly, ΔC
+     <sub>
+      p
+     </sub>
+     associated with ligand binding to WW1 domain is on average an order of magnitude greater than that observed for the WW2 domain both alone (
+     <a>
+      <span>
+       Tables 1
+      </span>
+     </a>
+     and
+     <a>
+      <span>
+       ​
+       <span>
+        and2)
+       </span>
+      </span>
+      <span>
+       2
+      </span>
+     </a>
+     ) and in the context of WW1-WW2 tandem module (
+     <a>
+      <span>
+       Tables 3
+      </span>
+     </a>
+     and
+     <a>
+      <span>
+       ​
+       <span>
+        and4).
+       </span>
+      </span>
+      <span>
+       4
+      </span>
+     </a>
+     ). More specifically, while ΔC
+     <sub>
+      p
+     </sub>
+     associated with ligand binding to WW1 domain is generally in the order of hundreds of cal/mol/K, it is observed to be merely in the order of tens of cal/mol/K for the WW2 domain. A negative value of ΔC
+     <sub>
+      p
+     </sub>
+     implies a predominant burial of apolar groups within proteins upon folding and/or ligand binding, and more negative the value of ΔC
+     <sub>
+      p
+     </sub>
+     the greater the extent of such burial. Thus, an order of magnitude increase in ΔC
+     <sub>
+      p
+     </sub>
+     associated with ligand binding to WW1 domain relative to WW2 is indicative of the fact that the WW1 domain is at least partially unstructured and only adopts the canonical triple-stranded β-sheet fold upon ligand binding. Conversely, the rather low values of ΔC
+     <sub>
+      p
+     </sub>
+     associated with ligand binding to WW2 domain strongly suggest that it is fully folded in the unliganded conformation and that ligand binding proceeds with little or no change in sharp contrast to WW1 domain. The fact that this picture barely changes when the same measurements are conducted in the context of WW1-WW2 tandem module further provokes the notion that the WW1 domain is not only structurally disordered when in isolation but also in the context of WW1-WW2 tandem module. In other words, the WW2 domain does not aid folding of WW1 domain. This observation is in remarkable contrast to the WW1-WW2 tandem module of WWOX tumor suppressor, wherein the WW2 domain serves as a chaperone to facilitate folding and ligand binding to WW1 domain [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      35
+     </xref>
+     ].
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Dependence of enthalpic change (ΔH) as a function of temperature (T) for the binding of WW domains of YAP2 alone and in the context of WW1-WW2 tandem module to LATS1 peptide. (a) ΔH-T plot for the binding of wildtype WW1 domain alone (black) and in the context of mutant WW1-WW2Y tandem module (red). (b) ΔH-T plot for the binding of wildtype WW2 domain alone (black) and in the context of mutant WW1Y-WW2 tandem module (red). Error bars were calculated from at least three independent measurements to one standard deviation.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To directly shed light on the structural disorder observed here, we next analyzed and compared the secondary structure and thermal stability of WW1 and WW2 domains alone and in the context of WW1-WW2 tandem module of YAP2 using CD and DSC (
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ). In line with our ΔC
+     <sub>
+      p
+     </sub>
+     analysis presented above, our far-UV CD data show that while WW1 domain is indeed structurally unfolded, WW2 domain harbors a native-like conformation (
+     <xref ref-type="fig">
+      Figure 6a
+     </xref>
+     ). Thus, the spectral features of WW1 domain alone, largely characterized by a negative band centered around 205nm due to random coil contribution, support a relatively unfolded protein. In contrast, the WW2 domain also displays a negative band around 205nm due to random coil contribution but there is also a second negative band around 220nm due to β-sheet contribution and an additional positive band at around 230nm due to aromatic contribution. These latter spectral features are characteristic of well-folded WW domains with a triple-stranded β-sheet fold as reported previously [
+     <xref ref-type="bibr">
+      36
+     </xref>
+     –
+     <xref ref-type="bibr">
+      38
+     </xref>
+     ], implying that the WW2 domain is structurally folded. Furthermore, the spectral features of WW1-WW2 tandem module largely resemble those of the WW2 domain alone. In particular, while there is a sharp increase in the 205-nm band relative to that observed for the WW2 domain alone, no notable enhancement in the intensity of 230-nm band is observed. This observation is thus further in agreement with our ΔC
+     <sub>
+      p
+     </sub>
+     analysis showing that the WW1 domain by and large retains an unfolded conformation even in the context of WW1-WW2 tandem module. Consistent with these observations, our DSC analysis shows that the WW2 domain is thermally more stable than WW1 domain (
+     <xref ref-type="fig">
+      Figure 6b
+     </xref>
+     ). Additionally, the thermal stability of WW2 domain alone and that of WW1-WW2 tandem module is almost indistinguishable, thereby further corroborating the notion that the WW1 domain is indeed unfolded both alone and in the context of WW1-WW2 tandem module. Importantly, these observations are in agreement with recent NMR studies by Bagby and co-workers indicating that residues within the WW1 domain undergo substantial conformational exchange and that it is structurally less folded compared to WW2 domain [
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ].
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Structural analysis of wildtype WW1 domain alone (red), wildtype WW2 domain alone (green), and wildtype WW1-WW2 tandem module (blue). (a) Far-UV CD spectra. (b) DSC thermograms. The dashed vertical lines indicate the melting temperature (T
+       <sub>
+        m
+       </sub>
+       ) for each construct.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Structural insights into the physical basis of negative binding cooperativity observed between WW domains of YAP2
+    </title>
+    <p>
+     To elucidate the physical basis of how the WW tandem domains of YAP2 may act in concert to negatively cooperate with respect to ligand binding, we undertook various attempts to crystallize the protein for subsequent structural analysis. However, our failure to generate suitable crystals implies the existence of regions within the protein harboring extreme flexibility. We believe that this is most likely due to the rather long interdomain linker, spanning close to 40 residues, connecting the two WW domains within the WW1-WW2 tandem module. As an alternative, we homology modeled the structure of WW1-WW2 tandem module of YAP2 using the NMR structure of WW1-WW2 tandem module of FBP21 pre-mRNA splicing factor as a template [
+     <xref ref-type="bibr">
+      25
+     </xref>
+     ]. Additionally, the LATS1 peptide was modeled into each WW domain using the NMR structures of individual WW domains of YAP bound to peptides containing the PPXY motif in a multi-template alignment fashion [
+     <xref ref-type="bibr">
+      20
+     </xref>
+     –
+     <xref ref-type="bibr">
+      22
+     </xref>
+     ].
+    </p>
+    <p>
+     As shown in
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     , our structural analysis reveals that the WW1-WW2 tandem module adopts a tongs-like conformation with the WW domains occupying ends of the tongs while the interdomain linker forms the stem. The LATS1 peptide roughly adopts the PPII-helical conformation and binds to the hydrophobic groove on the concave face of the triple-stranded β-sheet fold of each WW domain in a canonical manner [
+     <xref ref-type="bibr">
+      20
+     </xref>
+     –
+     <xref ref-type="bibr">
+      22
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      39
+     </xref>
+     –
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ]. Notably, the C-terminus of the peptide undergoes a sharp 180°-bend so as to fold back onto the WW domains, a feature that somewhat mimics the formation of β-hairpin conformation observed in the binding of the template Smad peptides to YAP WW domains [
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      22
+     </xref>
+     ]. Moreover, the peptide is largely stabilized by intermolecular contacts between sidechain moieties of consensus residues P0, P+1 and Y+3 located within the PPXY motif of LATS1 peptide and several highly conserved residues lining the hydrophobic groove within each WW domain. Thus, the pyrrolidine moiety of P0, the first proline within the PPXY motif, stacks against the indole sidechain of W199 in WW1 domain and W258 in WW2. The pyrrolidine moiety of P+1 is sandwiched by the sidechains of Y188/T197 in WW1 domain and Y247/T256 in WW2 domain. Finally, the L190/H192/Q195 trio in WW1 domain escorts the phenyl moiety of Y+3, while this role is fulfilled by the structurally-equivalent I249/H251/K254 trio in WW2 domain.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Structural model of WW1-WW2 tandem module of YAP2 in complex with LATS1 peptide containing the PPXY motif. Two alternative orientations related by a 90°-rotation about the vertical axis are depicted for the inquisitive eye. In each case, the WW domains are shown in yellow with the interdomain linker depicted in gray, and the bound peptide is colored green. The sidechain moieties of residues (blue) within the WW domains engaged in intermolecular contacts with the consensus residues (red) within the PPXY motif of LATS1 peptide are also shown.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Of particular interest is the observation that the WW tandem domains are tethered together via a flexible interdomain linker (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ). This implies that while the two WW domains in principle could harbor a rather high degree of flexibility relative to each other in a fashion similar to that observed for the WW tandem domains of FBP21 [
+     <xref ref-type="bibr">
+      25
+     </xref>
+     ], the possibility that they may also engage in some sort of physical association so as to adopt a relatively fixed spatial orientation cannot be excluded. Indeed, our thermodynamic data suggest that the molecular origin of negative cooperativity observed here lies in greater unfavorable entropic change associated with ligand binding to WW domains within the WW1-WW2 module relative to the isolated domains (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). In light of this argument, we believe that the physical basis of negative cooperativity observed here most likely resides in the ability of WW domains within the WW1-WW2 tandem module to physically associate with each other, at least in a transient manner, and thereby impede or sterically hinder ligand binding to each other. Importantly, our biophysical analysis presented above suggests that the WW1 domain is unfolded even in the context of WW1-WW2 tandem module and only adopts folded confirmation upon ligand binding (
+     <xref ref-type="fig">
+      Figures 5
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Thus, the unfolded conformation of WW1 domain in the unliganded WW1-WW2 module is also likely to hamper ligand binding both to itself and its tandem partner through promoting an increase in the local entropy of the unliganded conformation as well as steric interference. While an increase in the local entropy of the unliganded conformation would lower its free energy and thereby render it thermodynamically less favorable to ligand binding, steric interference would create a kinetic barrier.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     WW tandem domains of YAP2 appear to adopt relatively fixed spatial orientations within both the unliganded and liganded conformations
+    </title>
+    <p>
+     In order to test our hypothesis that the WW domains of YAP2 may harbor intrinsic propensity to physically associate with each other so as to sterically hinder ligand binding to each other, we ran MD simulations on the structural model of WW1-WW2 tandem module alone (unliganded) and in complex with LATS1 peptide (liganded) (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ). It should be noted here that the starting conformation of unliganded WW1-WW2 module was assumed to be identical to that of the liganded protein for the purpose of MD analysis. While such an assumption is at odds with our biophysical analysis indicating that the WW1 domain is structurally disordered in the absence of ligand (
+     <xref ref-type="fig">
+      Figures 5
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), we nevertheless believe that the starting conformation of unliganded WW1-WW2 tandem module employed here would serve as a blessing-in-disguise in its ability to report on the propensity of WW1 domain to retain a folded structure compared to that of WW2 domain over the course of MD simulations.
+    </p>
+    <fig id="F8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <p>
+       Conformational dynamics as probed through MD analysis conducted on the structural model of WW1-WW2 tandem module of YAP2 alone (unliganded) and in complex with LATS1 peptide containing the PPXY motif (liganded). (a) RMSD of backbone atoms (N, Cα and C) within each simulated structure relative to the initial modeled structure of unliganded (top panel) and liganded (bottom panel) WW1-WW2 tandem module as a function of simulation time. (b) RMSF of backbone atoms (N, Cα and C) averaged over the entire course of corresponding MD trajectory of unliganded (top panel) and liganded (bottom panel) WW1-WW2 tandem module as a function of residue number. Note that the red and green vertical rectangular boxes respectively demarcate the core residue boundaries (excluding the terminal loops) of WW1 and WW2 domains, while the gray vertical rectangular box denotes the residues spanning the interdomain linker. (c) Radius of gyration (R
+       <sub>
+        g
+       </sub>
+       ) of each simulated structure relative to the initial modeled structure of unliganded (top panel) and liganded (bottom panel) WW1-WW2 tandem module as a function of simulation time. In (a) and (c), the overall physical parameter for each WW1-WW2 tandem module spanning residues 171–264 (colored black and labeled Full) is deconvoluted into the individual core regions of constituent WW1 domain spanning residues 177–198 (colored red and labeled WW1) and WW2 domain spanning residues 236–257 (colored green and labeled WW2) and when both WW domains are treated as a single core excluding the terminal loops and interdomain linker (colored blue and labeled Core).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Notwithstanding such assumption, our MD simulations show that the WW1-WW2 tandem module in both the unliganded and liganded conformations is structurally very flexible (
+     <xref ref-type="fig">
+      Figure 8a
+     </xref>
+     ). In particular, each conformation reaches a root mean square deviation (RMSD) for the backbone atoms in excess of 10Å after about 200ns and continues to fluctuate around that value thereafter for the remainder of each simulation. To look into the molecular origin of such high structural flexibility, we deconvoluted the overall RMSD of both unliganded and liganded WW1-WW2 tandem module into the individual core regions of their constituent WW domains alone and when both WW domains are treated as a single core excluding the terminal and interdomain loops (
+     <xref ref-type="fig">
+      Figure 8a
+     </xref>
+     ). In agreement with our observation that the WW1 domain is structurally disordered (
+     <xref ref-type="fig">
+      Figures 5
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), the core region of WW1 domain appears to be much more mobile in the unliganded state with a backbone RMSD reaching as high as 3Å compared to a value of around 1Å for the liganded form. In contrast, the core region of WW2 domain within both the unliganded and liganded state remains relatively stable with an RMSD of close to 1Å across the entire course of simulation. It is also interesting to note that while the core region of unliganded WW1-WW2 tandem module is somewhat stable initially with a backbone RMSD hovering around 4Å, it experiences an abrupt structural transition after about 1µs of simulation as evidenced by the doubling of RMSD to a value of close to 8Å. Although it experiences a significant increase in backbone RMSD, the core region of unliganded WW1-WW2 tandem module seemingly appears to have reached some level of structural equilibrium. The most straightforward interpretation of this observation is that the WW tandem domains become physically associated to a certain degree so as to adopt a fixed orientation relative to each other. On the other hand, the core region of liganded WW1-WW2 tandem module undergoes rapid transition at the start of the simulation reaching a backbone RMSD just shy of 10Å but then gradually decreases over the course of 4-µs simulation to a value close to 4Å. This salient observation suggests that the WW tandem domains within the liganded protein physically associate with each other so to adopt a fixed orientation in a manner akin to that noted for the unliganded state but perhaps somewhat more stable.
+    </p>
+    <p>
+     In order to further investigate the structural landscape being sampled by the unliganded and liganded WW1-WW2 tandem module, we analyzed the root mean square fluctuation (RMSF) of backbone atoms over the course of MD simulations (
+     <xref ref-type="fig">
+      Figure 8b
+     </xref>
+     ). Consistent with the foregoing argument, our RMSF curves show that while the mobility of residues within the liganded WW1-WW2 module is more or less evenly spread across the entire length of the polypeptide chain, the comparatively higher structural mobility of the unliganded WW1-WW2 module can be largely attributed to the rather high mobility of residues within the WW1 domain as well as the interdomain linker. This finding is consistent with our biophysical analysis showing that the WW1 domain is structurally disordered in the unliganded conformation and only becomes stabilized upon ligand binding (
+     <xref ref-type="fig">
+      Figures 5
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Additionally, the rather high flexibility of the interdomain linker has also been noted previously on the basis of NMR relaxation measurements [
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ]. In light of the observation that WW domains within the WW1-WW2 tandem module bear the propensity to physically associate with each other (
+     <xref ref-type="fig">
+      Figure 8a
+     </xref>
+     ), we also compared the dependence of radius of gyration (R
+     <sub>
+      g
+     </sub>
+     ) of unliganded versus liganded protein as a function of simulation time. As shown in
+     <xref ref-type="fig">
+      Figure 8c
+     </xref>
+     , our analysis suggests that while R
+     <sub>
+      g
+     </sub>
+     of unliganded WW1-WW2 module increases from a low of around 13Å to a high of 18Å over the course of MD simulation, the liganded conformation more or less experiences an opposite trend with R
+     <sub>
+      g
+     </sub>
+     gradually decreasing from a high of 18Å to a low of 14Å. These differences in the physical size of WW1-WW2 tandem modules are further reflected in the differential behavior of R
+     <sub>
+      g
+     </sub>
+     of the core regions (excluding the interdomain linker and the terminal loops) of both the unliganded and liganded WW1-WW2 module. Thus, while the R
+     <sub>
+      g
+     </sub>
+     of the core region of liganded WW1-WW2 module fluctuates within a narrow range of 12–14Å across the entire simulation, the core region of unliganded WW1-WW2 module in contrast experiences much greater fluctuations.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Ligand binding is coupled to spatial reorientation of WW domains within the WW1-WW2 tandem module of YAP2
+    </title>
+    <p>
+     To unearth the physical basis underlying the association of WW domains within the unliganded and liganded WW1-WW2 tandem module of YAP2 so as to sterically hinder ligand binding to each other, we superimposed structural snapshots of corresponding conformations observed at 100-ns time intervals over the 1000–3000ns time regime in the corresponding MD trajectory (
+     <xref ref-type="fig">
+      Figure 9
+     </xref>
+     ). Consistent with our MD analysis presented above (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ), the structural superimposition of various simulated conformations suggests that while the liganded module adopts a well-defined conformation so as to allow the WW domains to physically associate with each other and attain a more or less fixed spatial orientation relative to each other, such fixed orientation is in contrast poorly defined for the unliganded protein (
+     <xref ref-type="fig">
+      Figures 9a and 9b
+     </xref>
+     ). Importantly, such preferential structural ordering imparts a more compact globular conformation upon the liganded WW1-WW2 module (
+     <xref ref-type="fig">
+      Figure 9b
+     </xref>
+     ), whereas the unliganded protein apparently adopts a more elongated shape consistent with its higher R
+     <sub>
+      g
+     </sub>
+     value (
+     <xref ref-type="fig">
+      Figures 8c
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Of particular note is the observation that the physical basis underlying the spatial orientation of WW domains within liganded and unliganded state appears to be strikingly distinct.
+    </p>
+    <fig id="F9" position="float">
+     <label>
+      Figure 9
+     </label>     <caption>
+      <p>
+       Superimposition of simulated structures as derived from MD analysis conducted on the structural model of WW1-WW2 tandem module of YAP2 alone (unliganded) and in complex with LATS1 peptide containing the PPXY motif (liganded). Note that the superimposed structures for the unliganded (a) and liganded (b) WW1-WW2 tandem module were obtained at 100-ns time intervals over the 2000–3000ns time regime in the corresponding MD trajectory. All ten structures were superimposed with respect to the backbone atoms (N, Cα and C) of the core regions of WW1 domain (residues 177–198) and WW2 domain (residues 236–257). In each case, the constituent WW1 (residues 177–198) and WW2 (residues 236–257) domains are respectively colored red and green, while the N-terminal loop (residues 171–176), interdomain linker (residues 199–235) and C-terminal loop (residues 258–264) are respectively shown in blue, gray and magenta. In (b), the LATS1 peptide is not shown for clarity.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To examine this more closely, we next analyzed the simulated structures of unliganded and liganded proteins observed at 2-µs in the midpoint of simulation (
+     <xref ref-type="fig">
+      Figure 10
+     </xref>
+     ). In the case of unliganded WW1-WW2 module, the physical association between the WW domains is driven in a head-to-tail fashion with the pseudo-concave face of WW1 domain stacked onto the concave face of WW2 domain. As discussed earlier (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ), the ligand binding groove is located within the concave face of WW domains such as that observed within the WW2 domain (
+     <xref ref-type="fig">
+      Figure 10a
+     </xref>
+     ). Surprisingly, the face of WW1 domain that harbors the ligand binding groove adopts a convex surface in lieu of concave. In other words, the WW1 domain within the unliganded WW1-WW2 module undergoes inside-out flipping so as to enable it to dock onto the concave face of WW2 domain. In so doing, the WW1 domain not only partially blocks access to cognate ligands of WW2 domain but the outward surface curvature of WW1 domain necessary to drive this interdomainunion results in the disorganization of its binding groove, thereby also hampering ligand binding to itself. In contrast to the head-to-tail union of WW domains within the unliganded protein (
+     <xref ref-type="fig">
+      Figure 10a
+     </xref>
+     ), the WW domains engage laterally within the liganded WW1-WW2 module such that the binding groove within each WW domain points outwards and away from the other (
+     <xref ref-type="fig">
+      Figure 10b
+     </xref>
+     ). Such complementary arrangement enables both WW domains within the liganded protein to accommodate cognate partners in a mutually inclusive manner, albeit with diminished affinities to those observed when in isolation (
+     <a>
+      <span>
+       Tables 1
+      </span>
+     </a>
+     –
+     <a>
+      <span>
+       4
+      </span>
+     </a>
+     ).
+    </p>
+    <fig id="F10" position="float">
+     <label>
+      Figure 10
+     </label>     <caption>
+      <p>
+       Ribbon representation of a simulated structure of WW1-WW2 tandem module of YAP2 alone (unliganded) and in complex with LATS1 peptide containing the PPXY motif (liganded). Note that the simulated structure for the unliganded (a) and liganded (b) WW1-WW2 tandem module was obtained at 2-µs in the midpoint of corresponding MD trajectory. In each case, the WW1 and WW2 domains are respectively colored red and green, while the interdomain linker is depicted in gray. Additionally, the sidechain moieties of residues lining the binding grooves within WW1 and WW2 domains are shown in blue and yellow, respectively. In (b), the LATS1 peptide is not shown for clarity.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In order to experimentally test the extent of such inter-domain interactions between WW1 and WW2 domains of YAP2, we also conducted ITC analysis. However, no detectable binding between the two WW domains was observed even at high concentrations in the mM range. Furthermore, varying external factors such as the ionic strength, pH and/or temperature also yielded similar conclusions. On the basis of these experiments, it is thus unlikely that a stable physical interaction exists between the WW domains. Nevertheless, it is important to note that these observations do not exclude their physical association in the context of a tandem module. Thus, for example, the presence of an interdomain linker between the WW tandem domains would be entropically favorable and may favor their physical association, at least in a transient manner, as observed here in silico. Although previous NMR relaxation studies suggest that the inter-domain linker is structurally flexible within both the unliganded and liganded conformations [
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ], such flexibility of the linker does not necessarily preclude the physical association of WW domains. On the contrary, the structural flexibility of the linker would be highly desirable for the physical association of WW domains in order to lower the associated cost of entropic penalty.
+    </p>
+    <p>
+     In short, the juxtaposition of WW1 domain on the concave face of WW2 domain essentially acts like a two-way “lid” that would need to be displaced in order to provide access to cognate ligands of both WW domains. Accordingly, ligand binding must somehow result in the dissociation of WW tandem domains within the unliganded protein so as to allow them to fully accommodate their binding partners. We believe that the negative binding cooperativity observed here must therefore lie in the free energy penalty required to overcome such kinetic barrier.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    CONCLUSIONS
+   </title>
+   <p>
+    Ubiquitously found in a wide variety of signaling and structural proteins [
+    <xref ref-type="bibr">
+     42
+    </xref>
+    –
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ], WW domains represent a highly versatile hub of communication within the cellular environment in eukaryotes. An important feature of these protein modules is that they often occur in tandem with two or more copies within host proteins [
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ]. This is an highly attractive facet of signaling machinery in that the cooperative action of WW tandem domains enables the cell to rapidly amplify downstream signaling response, allows cross-talk and thereby coordination between multiple pathways in a seamless fashion. Perhaps, most importantly, the cooperative action of WW tandem domains is expected to augment signaling fidelity central to cellular homeostasis. While the current school of thought has it that the WW tandem domains act in a synergistic manner in that one domain aids the folding and ligand binding to the other and vice versa [
+    <xref ref-type="bibr">
+     24
+    </xref>
+    –
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     35
+    </xref>
+    ], the extent to which this generality holds true remains far from being fully tested.
+   </p>
+   <p>
+    Indeed, our data presented here show that the WW tandem domains of YAP2 transcriptional regulator are an exception to this rule in that they negatively cooperate toward binding to cognate ligands. Most significantly, our study provides the physical basis of such negative binding cooperativity. Thus, the WW domains within the unliganded WW1-WW2 module appear to physically associate with each other so as to sterically hinder access to the ligands approaching their respective binding grooves. Intriguingly, the WW domains within the WW1-WW2 module do not attain freedom relative to each other upon ligand binding but also adopt a fixed spatial orientation, albeit employing distinct physical mechanism to that observed for the unliganded protein. While the physical association of WW domains within the unliganded protein serves to modulate ligand binding, it is not clear what role the fixed spatial orientation would play in the context of liganded WW1-WW2 module. In particular, it would be entropically rewarding for the WW domains to move freely with respect to each other in lieu of re-uniting within the liganded WW1-WW2 module. Indeed, the lack of such physical association would be expected to augment ligand binding affinity and thereby enhancing signaling fidelity. The fact that the WW domains within the WW1-WW2 module are programmed to adopt a fixed spatial orientation even in the liganded state in spite of all the thermodynamic advantages suggests that such entropic penalty is likely to be compensated by a gain-of-function that requires them to be in a fixed spatial orientation. It should be noted here that the ability of WW domains within the WW1-WW2 tandem module of YAP2 to physically associate with each other and attain a fixed spatial orientation both in the unliganded and liganded state appears to be somewhat similar to that observed for the WW tandem domains of Prp40 yeast splicing factor [
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ]. In Prp40, the WW tandem domains attain a fixed spatial orientation by virtue of the ability of the interdomain linker to adopt an α-helical conformation rather than via a direct physical association. This arrangement prevents the constituent WW domains to freely move with respect to each other yet allowing unhindered access to ligands within their respective binding grooves. Accordingly, the fixed spatial orientation of WW domains of Prp40 enables them to bind different ligands and bridge between target proteins within the splicing machinery. It is thus conceivable that the fixed spatial orientation of WW domains of YAP2 may also be necessary to allow them to carry out a biological function that requires them to be spatially orientated relative to each other.
+   </p>
+   <p>
+    It is worth mentioning here that that YAP is likely to recruit its cellular partners with greater specificity via YAP1 isoform compared to YAP2. It should be recalled that while YAP2 harbors a tandem copy of WW domains (WW1 and WW2), WW2 domain is deleted in YAP1 through RNA splicing [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ]. Thus, ligand binding to WW1 domain within YAP1 would ensue with higher affinity and hence greater specificity relative to YAP2. On the other hand, while YAP1 isoform may be better positioned to mediate cellular signaling with enhanced fidelity, YAP2 is likely to be functionally more versatile as the presence of WW1-WW2 tandem module would be expected to augment its capture radius in terms of its ability to recruit a larger diversity of cellular partners. Moreover, the ability of YAP to participate in certain cellular signaling pathways may be strictly dependent upon its ability to carry two rather than one WW domain. Interestingly, previous studies have shown that the YAP2 isoform is a more potent transcriptional activator than YAP1 under certain cellular context [
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     51
+    </xref>
+    ]. This notion is understandable in that the biological activity of cellular proteins is not only a function of their binding potential but also their ability to be functionally versatile.
+   </p>
+   <p>
+    It is also important to note here that while our data presented above suggest the role of negative cooperativity involved in driving ligand binding to WW domains of YAP2, our study has not addressed the role of multivalency. In other words, the knowledge of how the WW domains of YAP2 may behave toward peptide ligands harboring two or more PPXY motifs is of fundamental importance to fully addressing the role of binding cooperativity. Indeed, recent NMR studies suggest that the WW1-WW2 tandem module of YAP2 binds with higher affinity to peptide ligands containing a tandem copy of PPXY motifs compared to monovalent ligands [
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ]. Similar observations have also been documented for the WW tandem domains of FBP21 pre-mRNA splicing factor [
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     52
+    </xref>
+    ]. While we acknowledge the shortcomings of our present work, it is clear that the binding of WW domains of YAP2 to monovalent ligands is governed by negative cooperativity. In order to complement this work further, we will set out to investigate the role of cooperativity in mediating the binding of multivalent ligands to WW tandem domains of YAP2 in our future studies.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    MATERIALS and METHODS
+   </title>
+   <sec>
+    <title>
+     Protein preparation
+    </title>
+    <p>
+     WW1 domain (residues 171–205), WW2 domain (residues 230–264) and WW1-WW2 tandem module (residues 171–264) of human YAP2 (UniProt#
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"P46937","term_id":"294862479"}}
+      </span>
+      P46937
+     </a>
+     ) were cloned into pET30 bacterial expression vectors with an N-terminal His-tag using Novagen (Madison, WI, USA) LIC technology as described earlier [
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ]. The mutant constructs containing W199Y single substitution within the WW1 domain (WW1Y-WW2) or W258Y single substitution within the WW2 domain (WW1-WW2Y) in the context of WW1-WW2 tandem module of YAP2 were generated through de novo DNA synthesis by GenScript Corporation (Piscataway, NJ, USA) (
+     <xref ref-type="fig">
+      Figure 1a
+     </xref>
+     ). All recombinant proteins were subsequently expressed in Escherichia coli BL21*(DE3) bacterial strain purchased from Invitrogen (Carlsbad, CA, USA) and purified on a Ni-NTA affinity column as described previously [
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ]. Further treatment on a Hiload Superdex 200 size-exclusion chromatography (SEC) column coupled in-line with GE (Milwaukee, WI, USA) Akta FPLC system led to purification of all proteins to apparent homogeneity as judged by SDS-PAGE analysis. Final yields were typically between 50–100mg protein of apparent homogeneity per liter of bacterial culture. Protein concentration was determined spectrophotometrically on the basis of extinction coefficients calculated for each protein construct using the online software ProtParam at ExPasy Server [
+     <xref ref-type="bibr">
+      53
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Peptide synthesis
+    </title>
+    <p>
+     12-mer wildtype peptides spanning PPXY motifs within various cognate ligands of YAP2 were commercially obtained from GenScript Corporation. The sequences of these peptides are shown in
+     <xref ref-type="fig">
+      Figure 1b
+     </xref>
+     . The peptide concentrations were measured gravimetrically.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <sec>
+     <p>
+      Isothermal titration calorimetry (ITC) experiments were performed on a Microcal (Northampton, MA, USA) VP-ITC instrument. All measurements were repeated at least three times. Briefly, WW domains of YAP2 alone or in the context of the WW1-WW2 tandem module were dialyzed in 50mM Sodium phosphate, 100mM NaCl, 1mM EDTA and 5mM β-mercaptoethanol at pH 7.0. The experiments were initiated by injecting 25 × 10µl aliquots of 2–4mM of each peptide from the syringe into the calorimetric cell containing 1.46ml of 50–100µM of WW domains of YAP2 alone or in the context of the WW1-WW2 tandem module at temperatures ranging from 20–35°C. The change in thermal power as a function of each injection was automatically recorded using the Microcal ORIGIN software and the raw data were further processed to yield binding isotherms of heat release per injection as a function of molar ratio of each peptide to WW domain construct. The heats of mixing and dilution were subtracted from the heat of binding per injection by carrying out a control experiment in which the same buffer in the calorimetric cell was titrated against each peptide in an identical manner. To extract binding affinity (K
+      <sub>
+       d
+      </sub>
+      ) and binding enthalpy (ΔH), the ITC isotherms were iteratively fit to a one-site binding model by non-linear least squares regression analysis using the integrated ORIGIN software as described earlier [
+      <xref ref-type="bibr">
+       23
+      </xref>
+      ,
+      <xref ref-type="bibr">
+       54
+      </xref>
+      ]. Notably, binding stoichiometries were fixed to unity for all YAP2 constructs but the wildtype WW1-WW2 tandem module, while ΔH and K
+      <sub>
+       d
+      </sub>
+      were allowed to float during the fitting procedure to improve the accuracy of thermodynamic parameters. For the wildtype WW1-WW2 tandem module of YAP2, binding stoichiometries were fixed to 2. The free energy change (ΔG) upon peptide binding was calculated from the relationship:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mi>
+          Δ
+         </mi>
+         <mi>
+          G
+         </mi>
+         <mo>
+          =
+         </mo>
+         <msub>
+          <mtext>
+           RTlnK
+          </mtext>
+          <mi>
+           d
+          </mi>
+         </msub>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1" display="block" overflow="scroll"><mi mathvariant="normal">Δ</mi><mi mathvariant="normal">G</mi><mo>=</mo><msub><mtext>RTlnK</mtext><mi mathvariant="normal">d</mi></msub></math>
+       </script>
+      </sec>
+      <sec>
+       [1]
+      </sec>
+     </sec>
+     <p>
+      where R is the universal molar gas constant (1.99 cal/K/mol) and T is the absolute temperature. The entropic contribution (TΔS) to the free energy of binding was calculated from the relationship:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mi>
+          T
+         </mi>
+         <mi>
+          Δ
+         </mi>
+         <mi>
+          S
+         </mi>
+         <mo>
+          =
+         </mo>
+         <mi>
+          Δ
+         </mi>
+         <mi>
+          H
+         </mi>
+         <mo>
+          −
+         </mo>
+         <mi>
+          Δ
+         </mi>
+         <mi>
+          G
+         </mi>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M2" display="block" overflow="scroll"><mi mathvariant="normal">T</mi><mi mathvariant="normal">Δ</mi><mi mathvariant="normal">S</mi><mo>=</mo><mi mathvariant="normal">Δ</mi><mi mathvariant="normal">H</mi><mo>−</mo><mi mathvariant="normal">Δ</mi><mi mathvariant="normal">G</mi></math>
+       </script>
+      </sec>
+      <sec>
+       [2]
+      </sec>
+     </sec>
+     <p>
+      where ΔH and ΔG are as defined above. Heat capacity change (ΔC
+      <sub>
+       p
+      </sub>
+      ) associated with peptide binding was determined from the slope of corresponding ΔH-T plot, where T is the temperature.
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Differential scanning calorimetry
+    </title>
+    <sec>
+     <p>
+      Differential scanning calorimetry (DSC) experiments were performed on a TA (New Castle, DE, USA) Nano-DSC instrument. Briefly, WW domains of YAP2 alone or in the context of the WW1-WW2 tandem module were dialyzed in 10mM Sodium phosphate at pH 7.0. All experiments were conducted on 200µM of each protein sample in the 10–110°C temperature range at a heating rate (dT/dt) of 1°C/min under an excess pressure of 3atm. The change in thermal power (dQ/dt) as a function of temperature was automatically recorded using the NanoAnalyze software. Control experiments on appropriate buffers alone were also conducted in an identical manner to generate baselines that were subtracted from the raw data to remove the background contribution of each buffer. The raw data were further processed to yield the melting isotherms of excess heat capacity (C
+      <sub>
+       p
+      </sub>
+      ) as a function of temperature (T) using the following relationship:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <msub>
+          <mi>
+           C
+          </mi>
+          <mi>
+           p
+          </mi>
+         </msub>
+         <mo>
+          =
+         </mo>
+         <mo>
+          [
+         </mo>
+         <mo>
+          (
+         </mo>
+         <mi>
+          d
+         </mi>
+         <mi>
+          Q
+         </mi>
+         <mo>
+          /
+         </mo>
+         <mi>
+          d
+         </mi>
+         <mi>
+          t
+         </mi>
+         <mo>
+          )
+         </mo>
+         <mo>
+          ]
+         </mo>
+         <mo>
+          /
+         </mo>
+         <mo>
+          [
+         </mo>
+         <mo>
+          (
+         </mo>
+         <mi>
+          d
+         </mi>
+         <mi>
+          T
+         </mi>
+         <mo>
+          /
+         </mo>
+         <mi>
+          d
+         </mi>
+         <mi>
+          t
+         </mi>
+         <mo>
+          )
+         </mo>
+         <mi>
+          P
+         </mi>
+         <mi>
+          V
+         </mi>
+         <mo>
+          ]
+         </mo>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M3" display="block" overflow="scroll"><msub><mi mathvariant="normal">C</mi><mi mathvariant="normal">p</mi></msub><mo>=</mo><mo stretchy="false">[</mo><mo stretchy="false">(</mo><mi mathvariant="normal">d</mi><mi mathvariant="normal">Q</mi><mo>/</mo><mi mathvariant="normal">d</mi><mi mathvariant="normal">t</mi><mo stretchy="false">)</mo><mo stretchy="false">]</mo><mo>/</mo><mo stretchy="false">[</mo><mo stretchy="false">(</mo><mi mathvariant="normal">d</mi><mi mathvariant="normal">T</mi><mo>/</mo><mi mathvariant="normal">d</mi><mi mathvariant="normal">t</mi><mo stretchy="false">)</mo><mi mathvariant="normal">P</mi><mi mathvariant="normal">V</mi><mo stretchy="false">]</mo></math>
+       </script>
+      </sec>
+      <sec>
+       [3]
+      </sec>
+     </sec>
+     <p>
+      where P is the initial concentration of each WW domain construct in the calorimetric cell and V is the effective volume of solution in the calorimetric cell (0.3ml). To determine the melting temperature (T
+      <sub>
+       m
+      </sub>
+      ) associated with the unfolding of WW domains, the melting isotherms were iteratively fit to the following built-in function by non-linear least squares regression analysis using the integrated NanoAnalyze software:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <msub>
+          <mi>
+           C
+          </mi>
+          <mi>
+           p
+          </mi>
+         </msub>
+         <mo>
+          =
+         </mo>
+         <mi>
+          a
+         </mi>
+         <mo>
+          [
+         </mo>
+         <mi>
+          K
+         </mi>
+         <msup>
+          <mrow>
+           <mo>
+            (
+           </mo>
+           <mi>
+            Δ
+           </mi>
+           <msub>
+            <mi>
+             H
+            </mi>
+            <mi>
+             m
+            </mi>
+           </msub>
+           <mo>
+            )
+           </mo>
+          </mrow>
+          <mn>
+           2
+          </mn>
+         </msup>
+         <mo>
+          ]
+         </mo>
+         <mo>
+          /
+         </mo>
+         <mo>
+          [
+         </mo>
+         <msup>
+          <mrow>
+           <mo>
+            (
+           </mo>
+           <mn>
+            1
+           </mn>
+           <mo>
+            +
+           </mo>
+           <mi>
+            K
+           </mi>
+           <mo>
+            )
+           </mo>
+          </mrow>
+          <mn>
+           2
+          </mn>
+         </msup>
+         <mi>
+          R
+         </mi>
+         <msup>
+          <mi>
+           T
+          </mi>
+          <mn>
+           2
+          </mn>
+         </msup>
+         <mo>
+          ]
+         </mo>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M4" display="block" overflow="scroll"><msub><mi mathvariant="normal">C</mi><mi mathvariant="normal">p</mi></msub><mo>=</mo><mi mathvariant="normal">a</mi><mo stretchy="false">[</mo><mi mathvariant="normal">K</mi><msup><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">Δ</mi><msub><mi mathvariant="normal">H</mi><mi mathvariant="normal">m</mi></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo stretchy="false">]</mo><mo>/</mo><mo stretchy="false">[</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi mathvariant="normal">K</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mi mathvariant="normal">R</mi><msup><mi mathvariant="normal">T</mi><mn>2</mn></msup><mo stretchy="false">]</mo></math>
+       </script>
+      </sec>
+      <sec>
+       [4]
+      </sec>
+     </sec>
+     <p>
+      where ΔH
+      <sub>
+       m
+      </sub>
+      is the enthalpy of unfolding, R is the universal molar gas constant (1.99cal/K/mol), T is the absolute temperature, a is the scaling factor that accounts for the difference between the initial protein concentration in the calorimetric cell and the effective protein concentration that is actually available due to the loss to factors such as aggregation during the experiment, and K is given by the following relationship:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mi>
+          K
+         </mi>
+         <mo>
+          =
+         </mo>
+         <mtext>
+          exp
+         </mtext>
+         <mo>
+          [
+         </mo>
+         <mo>
+          (
+         </mo>
+         <mi>
+          Δ
+         </mi>
+         <msub>
+          <mi>
+           H
+          </mi>
+          <mi>
+           m
+          </mi>
+         </msub>
+         <mo>
+          /
+         </mo>
+         <mi>
+          R
+         </mi>
+         <mi>
+          T
+         </mi>
+         <mo>
+          )
+         </mo>
+         <mo>
+          (
+         </mo>
+         <mo>
+          (
+         </mo>
+         <mi>
+          T
+         </mi>
+         <mo>
+          /
+         </mo>
+         <msub>
+          <mi>
+           T
+          </mi>
+          <mi>
+           m
+          </mi>
+         </msub>
+         <mo>
+          )
+         </mo>
+         <mo>
+          −
+         </mo>
+         <mn>
+          1
+         </mn>
+         <mo>
+          )
+         </mo>
+         <mo>
+          )
+         </mo>
+         <mo>
+          ]
+         </mo>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M5" display="block" overflow="scroll"><mi mathvariant="normal">K</mi><mo>=</mo><mtext>exp</mtext><mo stretchy="false">[</mo><mo stretchy="false">(</mo><mi mathvariant="normal">Δ</mi><msub><mi mathvariant="normal">H</mi><mi mathvariant="normal">m</mi></msub><mo>/</mo><mi mathvariant="normal">R</mi><mi mathvariant="normal">T</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mo stretchy="false">(</mo><mi mathvariant="normal">T</mi><mo>/</mo><msub><mi mathvariant="normal">T</mi><mi mathvariant="normal">m</mi></msub><mo stretchy="false">)</mo><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mo stretchy="false">]</mo></math>
+       </script>
+      </sec>
+      <sec>
+       [5]
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     It is noteworthy that
+     <a>
+      Eq [4]
+     </a>
+     is derived from the inter-conversion of a macromolecule between a folded and an unfolded state assuming a two-state model [
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      56
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Circular dichroism
+    </title>
+    <sec>
+     <p>
+      Far-UV circular dichroism (CD) steady-state measurements were conducted on a thermostatically-controlled Jasco (Easton, MD, USA) J-815 spectrometer. Briefly, WW domains of YAP2 alone or in the context of the WW1-WW2 tandem module were dialyzed in 10mM Sodium phosphate at pH 7.0. All experiments were conducted on 5–10µM of WW domains of YAP2 alone or in the context of the WW1-WW2 tandem module at 25°C and data were acquired using a quartz cuvette with a 2-mm pathlength in the 195–255nm wavelength range. For each experiment, a slit bandwidth of 2nm was used and data were measured at a scan rate of 10nm/min. All spectral data were normalized against reference spectra to remove the background contribution of buffer. Each spectral data set represents an average of four scans acquired at 0.1nm intervals. All data were converted to mean ellipticity, [θ], as a function of wavelength (λ) of electromagnetic radiation using the equation:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mo>
+          [
+         </mo>
+         <mi>
+          θ
+         </mi>
+         <mo>
+          ]
+         </mo>
+         <mo>
+          =
+         </mo>
+         <mo>
+          [
+         </mo>
+         <mo>
+          (
+         </mo>
+         <msup>
+          <mn>
+           10
+          </mn>
+          <mn>
+           5
+          </mn>
+         </msup>
+         <mo>
+          .
+         </mo>
+         <mi>
+          Δ
+         </mi>
+         <mi>
+          ε
+         </mi>
+         <mo>
+          )
+         </mo>
+         <mo>
+          /
+         </mo>
+         <mi>
+          c
+         </mi>
+         <mi>
+          l
+         </mi>
+         <mo>
+          ]
+         </mo>
+         <mi>
+          d
+         </mi>
+         <mi>
+          e
+         </mi>
+         <mi>
+          g
+         </mi>
+         <mo>
+          .
+         </mo>
+         <mi>
+          c
+         </mi>
+         <msup>
+          <mi>
+           m
+          </mi>
+          <mn>
+           2
+          </mn>
+         </msup>
+         <mo>
+          .
+         </mo>
+         <mi>
+          d
+         </mi>
+         <mi>
+          m
+         </mi>
+         <mi>
+          o
+         </mi>
+         <msup>
+          <mi>
+           l
+          </mi>
+          <mrow>
+           <mo>
+            −
+           </mo>
+           <mn>
+            1
+           </mn>
+          </mrow>
+         </msup>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M6" display="block" overflow="scroll"><mo stretchy="false">[</mo><mi mathvariant="normal">θ</mi><mo stretchy="false">]</mo><mo>=</mo><mo stretchy="false">[</mo><mo stretchy="false">(</mo><msup><mn>10</mn><mn>5</mn></msup><mo>.</mo><mi mathvariant="normal">Δ</mi><mi mathvariant="normal">ε</mi><mo stretchy="false">)</mo><mo>/</mo><mi mathvariant="normal">c</mi><mi mathvariant="normal">l</mi><mo stretchy="false">]</mo><mi mathvariant="normal">d</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">g</mi><mo>.</mo><mi mathvariant="normal">c</mi><msup><mi mathvariant="normal">m</mi><mn>2</mn></msup><mo>.</mo><mi mathvariant="normal">d</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">o</mi><msup><mi mathvariant="normal">l</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>
+       </script>
+      </sec>
+      <sec>
+       [6]
+      </sec>
+     </sec>
+     <p>
+      where Δɛ is the observed ellipticity in mdeg, c is the protein concentration in µM and l is the cuvette pathlength in cm.
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Molecular modeling
+    </title>
+    <p>
+     Structural models of WW1-WW2 tandem module of YAP2 alone (unliganded) and in complex with LATS1 peptide (liganded) containing the PPXY motif were built using the MODELLER software based on homology modeling [
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ]. Briefly, the structural model of unliganded WW1-WW2 tandem module of YAP2 was obtained using the NMR structure of WW1-WW2 tandem module of FBP21 pre-mRNA splicing factor as a template (PDBID 2JXW). It should be noted here that the WW domains within the WW1-WW2 tandem module of FBP21 are tethered together via a flexible interdomain linker, albeit somewhat shorter than that separating the WW domains of YAP2. To obtain the liganded structure, the 12-mer LATS1 peptide was docked onto each WW domain within the unliganded structure of WW1-WW2 tandem module of YAP2 in a 1:2 stoichiometry using four NMR structures of WW domains of YAP bound to peptides containing the PPXY motif in a multi-template alignment fashion (PDBIDs 2LAW, 2LTV and 2LTW and 1JMQ). In each case, a total of 100 structural models were built and the structure with the lowest energy, as judged by the MODELLER Objective Function, was selected for further analysis. The structural models were rendered using RIBBONS [
+     <xref ref-type="bibr">
+      58
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Molecular dynamics
+    </title>
+    <p>
+     Molecular dynamics (MD) simulations were performed with the GROMACS software [
+     <xref ref-type="bibr">
+      59
+     </xref>
+     ] using the integrated AMBER99SB-ILDN force field [
+     <xref ref-type="bibr">
+      60
+     </xref>
+     ]. Briefly, the structural models of WW1-WW2 tandem module of YAP2 alone (unliganded) and in complex with LATS1 peptide (liganded) containing the PPXY motif were each centered in a cubic box and explicitly hydrated with a water layer that extended 10Å (box size) from the protein surface along each orthogonal direction using the extended simple point charge (SPC/E) water model [
+     <xref ref-type="bibr">
+      61
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      62
+     </xref>
+     ]. The ionic strength of solution was set to 100mM with NaCl and the hydrated structures were energy-minimized with the steepest descent algorithm prior to equilibration under the NPT ensemble conditions, wherein the number of atoms (N), pressure (P) and temperature (T) within the system were kept constant. The Particle-Mesh Ewald (PME) method [
+     <xref ref-type="bibr">
+      63
+     </xref>
+     ] was employed to compute long-range electrostatic interactions with a spherical cut-off of 10Å and a grid space of 1.6Å with a fourth order interpolation. The Linear Constraint Solver (LINCS) algorithm was used to restrain bond lengths [
+     <xref ref-type="bibr">
+      64
+     </xref>
+     ]. All MD simulations were performed at 300K under periodic boundary conditions (PBC), so as to mimic the bulk solvent effect, using the standard “md” leap-frog integrator to solve Newton’s equations of motion with a time step of 2fs. For the final MD production runs, data were collected every ns over a time scale of 4µs. All MD simulations were performed on a Linux workstation using parallel processors at the High Performance Computing (HPC) facility within the Center for Computational Science (CCS) of the University of Miami. Structural snapshots taken at various time intervals during the course of MD simulations were superimposed using MOLMOL [
+     <xref ref-type="bibr">
+      65
+     </xref>
+     ].
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGMENTS
+   </title>
+   <sec>
+    <p>
+     This work was supported by the National Institutes of Health Grant R01-GM083897 and funds from the Sylvester Comprehensive Cancer Center (to AF), and by Breast Cancer Coalition grants (RFA #50709 &amp; RFA #60707) from the Department of Health of Pennsylvania (to MS). CBM is a recipient of a postdoctoral fellowship from the National Institutes of Health (Award# T32-CA119929).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ABBREVIATIONS
+   </title>
+   <sec>
+    <sec>
+     <table>
+      <tbody>
+       <tr>
+        <td>
+         CD
+        </td>
+        <td>
+         Circular dichroism
+        </td>
+       </tr>
+       <tr>
+        <td>
+         DSC
+        </td>
+        <td>
+         Differential scanning calorimetry
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ErbB4
+        </td>
+        <td>
+         Erythroblastic (Erb) leukemia viral oncogene homolog B4
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ITC
+        </td>
+        <td>
+         Isothermal titration calorimetry
+        </td>
+       </tr>
+       <tr>
+        <td>
+         LATS1
+        </td>
+        <td>
+         Large tumor suppressor homolog 1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         LIC
+        </td>
+        <td>
+         Ligation-independent cloning
+        </td>
+       </tr>
+       <tr>
+        <td>
+         MD
+        </td>
+        <td>
+         Molecular dynamics
+        </td>
+       </tr>
+       <tr>
+        <td>
+         MM
+        </td>
+        <td>
+         Molecular modeling
+        </td>
+       </tr>
+       <tr>
+        <td>
+         p73
+        </td>
+        <td>
+         Tumor protein 73
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PPII
+        </td>
+        <td>
+         Polyproline type II
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PTCH1
+        </td>
+        <td>
+         Protein patched homolog 1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PTPN14
+        </td>
+        <td>
+         Protein tyrosine phosphatase (non-receptor type) 14
+        </td>
+       </tr>
+       <tr>
+        <td>
+         RUNX1
+        </td>
+        <td>
+         Runt-related transcription factor 1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SEC
+        </td>
+        <td>
+         Size-exclusion chromatography
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SMAD7
+        </td>
+        <td>
+         Mothers against decapentaplegic homolog 7
+        </td>
+       </tr>
+       <tr>
+        <td>
+         TMG2
+        </td>
+        <td>
+         Transmembrane gamma-carboxyglutamic acid protein 2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         YAP1
+        </td>
+        <td>
+         YES-associated protein 1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         YAP2
+        </td>
+        <td>
+         YES-associated protein 2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         WBP1
+        </td>
+        <td>
+         WW domain-binding protein 1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         WBP1
+        </td>
+        <td>
+         WW domain-binding protein 2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         WWOX
+        </td>
+        <td>
+         WW-containing oxidoreductase
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Sudol M. Yes-associated protein (YAP65) is a proline-rich phosphoprotein that binds to the SH3 domain of the Yes proto-oncogene product.
+      <span>
+       <span>
+        Oncogene.
+       </span>
+       1994;
+       <span>
+        9
+       </span>
+       :2145–2152.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Gaffney CJ, Oka T, Mazack V, Hilman D, Gat U, Muramatsu T, Inazawa J, Golden A, Carey DJ, Farooq A, et al.  Identification, basic characterization and evolutionary analysis of differentially spliced mRNA isoforms of human YAP1 gene.
+      <span>
+       <span>
+        Gene.
+       </span>
+       2012;
+       <span>
+        509
+       </span>
+       :215–222.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Sudol M, Bork P, Einbond A, Kastury K, Druck T, Negrini M, Huebner K, Lehman D. Characterization of the mammalian YAP (Yes-associated protein) gene and its role in defining a novel protein module, the WW domain.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       1995;
+       <span>
+        270
+       </span>
+       :14733–14741.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Chen HI, Sudol M. The WW domain of Yes-associated protein binds a proline-rich ligand that differs from the consensus established for Src homology 3-binding modules.
+      <span>
+       <span>
+        Proc Natl Acad Sci U S A.
+       </span>
+       1995;
+       <span>
+        92
+       </span>
+       :7819–7823.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Chen HI, Einbond A, Kwak SJ, Linn H, Koepf E, Peterson S, Kelly JW, Sudol M. Characterization of the WW domain of human yes-associated protein and its polyproline-containing ligands.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       1997;
+       <span>
+        272
+       </span>
+       :17070–17077.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Komuro A, Nagai M, Navin NE, Sudol M. WW domain-containing protein YAP associates with ErbB-4 and acts as a co-transcriptional activator for the carboxyl-terminal fragment of ErbB-4 that translocates to the nucleus.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2003;
+       <span>
+        278
+       </span>
+       :33334–33341.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Omerovic J, Puggioni EM, Napoletano S, Visco V, Fraioli R, Frati L, Gulino A, Alimandi M. Ligand-regulated association of ErbB-4 to the transcriptional co-activator YAP65 controls transcription at the nuclear level.
+      <span>
+       <span>
+        Exp Cell Res.
+       </span>
+       2004;
+       <span>
+        294
+       </span>
+       :469–479.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Yagi R, Chen LF, Shigesada K, Murakami Y, Ito Y. A WW domain-containing yes-associated protein (YAP) is a novel transcriptional co-activator.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1999;
+       <span>
+        18
+       </span>
+       :2551–2562.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Levy D, Adamovich Y, Reuven N, Shaul Y. Yap1 phosphorylation by c-Abl is a critical step in selective activation of proapoptotic genes in response to DNA damage.
+      <span>
+       <span>
+        Mol Cell.
+       </span>
+       2008;
+       <span>
+        29
+       </span>
+       :350–361.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Hao Y, Chun A, Cheung K, Rashidi B, Yang X. Tumor suppressor LATS1 is a negative regulator of oncogene YAP.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2008;
+       <span>
+        283
+       </span>
+       :5496–5509.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Kulman JD, Harris JE, Xie L, Davie EW. Proline-rich Gla protein 2 is a cell-surface vitamin K-dependent protein that binds to the transcriptional coactivator Yes-associated protein.
+      <span>
+       <span>
+        Proc Natl Acad Sci U S A.
+       </span>
+       2007;
+       <span>
+        104
+       </span>
+       :8767–8772.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Liu X, Yang N, Figel SA, Wilson KE, Morrison CD, Gelman IH, Zhang J. PTPN14 interacts with and negatively regulates the oncogenic function of YAP.
+      <span>
+       <span>
+        Oncogene.
+       </span>
+       2013;
+       <span>
+        32
+       </span>
+       :1266–1273.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Ferrigno O, Lallemand F, Verrecchia F, L'Hoste S, Camonis J, Atfi A, Mauviel A. Yes-associated protein (YAP65) interacts with Smad7 and potentiates its inhibitory activity against TGF-beta/Smad signaling.
+      <span>
+       <span>
+        Oncogene.
+       </span>
+       2002;
+       <span>
+        21
+       </span>
+       :4879–4884.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Linn H, Ermekova KS, Rentschler S, Sparks AB, Kay BK, Sudol M. Using molecular repertoires to identify high-affinity peptide ligands of the WW domain of human and mouse YAP.
+      <span>
+       <span>
+        Biol Chem.
+       </span>
+       1997;
+       <span>
+        378
+       </span>
+       :531–537.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Zhao B, Wei X, Li W, Udan RS, Yang Q, Kim J, Xie J, Ikenoue T, Yu J, Li L, et al.  Inactivation of YAP oncoprotein by the Hippo pathway is involved in cell contact inhibition and tissue growth control.
+      <span>
+       <span>
+        Genes Dev.
+       </span>
+       2007;
+       <span>
+        21
+       </span>
+       :2747–2761.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Bertini E, Oka T, Sudol M, Strano S, Blandino G. YAP: at the crossroad between transformation and tumor suppression.
+      <span>
+       <span>
+        Cell Cycle.
+       </span>
+       2009;
+       <span>
+        8
+       </span>
+       :49–57.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Sudol M. Newcomers to the WW Domain-Mediated Network of the Hippo Tumor Suppressor Pathway.
+      <span>
+       <span>
+        Genes Cancer.
+       </span>
+       2010;
+       <span>
+        1
+       </span>
+       :1115–1118.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Sudol M, Harvey KF. Modularity in the Hippo signaling pathway.
+      <span>
+       <span>
+        Trends Biochem Sci.
+       </span>
+       2010;
+       <span>
+        35
+       </span>
+       :627–633.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Salah Z, Aqeilan RI. WW domain interactions regulate the Hippo tumor suppressor pathway.
+      <span>
+       <span>
+        Cell Death Dis.
+       </span>
+       2011;
+       <span>
+        2
+       </span>
+       :e172.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Pires JR, Taha-Nejad F, Toepert F, Ast T, Hoffmuller U, Schneider-Mergener J, Kuhne R, Macias MJ, Oschkinat H. Solution structures of the YAP65 WW domain and the variant L30 K in complex with the peptides GTPPPPYTVG, N-(n-octyl)-GPPPY and PLPPY and the application of peptide libraries reveal a minimal binding epitope.
+      <span>
+       <span>
+        J Mol Biol.
+       </span>
+       2001;
+       <span>
+        314
+       </span>
+       :1147–1156.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Aragon E, Goerner N, Xi Q, Gomes T, Gao S, Massague J, Macias MJ. Structural basis for the versatile interactions of Smad7 with regulator WW domains in TGF-beta Pathways.
+      <span>
+       <span>
+        Structure.
+       </span>
+       2012;
+       <span>
+        20
+       </span>
+       :1726–1736.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Aragon E, Goerner N, Zaromytidou AI, Xi Q, Escobedo A, Massague J, Macias MJ. A Smad action turnover switch operated by WW domain readers of a phosphoserine code.
+      <span>
+       <span>
+        Genes Dev.
+       </span>
+       2011;
+       <span>
+        25
+       </span>
+       :1275–1288.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      McDonald CB, McIntosh SK, Mikles DC, Bhat V, Deegan BJ, Seldeen KL, Saeed AM, Buffa L, Sudol M, Nawaz Z, et al.  Biophysical Analysis of Binding of WW Domains of the YAP2 Transcriptional Regulator to PPXY Motifs within WBP1 and WBP2 Adaptors.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       2011;
+       <span>
+        50
+       </span>
+       :9616–9627.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Wiesner S, Stier G, Sattler M, Macias MJ. Solution Structure and Ligad Recognition of the WW Domain of the Yeast Splicing Factor Prp40.
+      <span>
+       <span>
+        J Mol Biol.
+       </span>
+       2002;
+       <span>
+        324
+       </span>
+       :807–822.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Huang X, Beullens M, Zhang J, Zhou Y, Nicolaescu E, Lesage B, Hu Q, Wu J, Bollen M, Shi Y. Structure and function of the two tandem WW domains of the pre-mRNA splicing factor FBP21 (formin-binding protein 21)
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2009;
+       <span>
+        284
+       </span>
+       :25375–25387.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Sudol M, Recinos CC, Abraczinskas J, Humbert J, Farooq A. WW or WoW: the WW domains in a union of bliss.
+      <span>
+       <span>
+        IUBMB Life.
+       </span>
+       2005;
+       <span>
+        57
+       </span>
+       :773–778.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Fedoroff OY, Townson SA, Golovanov AP, Baron M, Avis JM. The Structure and Dynamics of Tandem WW Domains in a Negative Regulator of Notch Signaling, Suppressor of Deltex.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2004;
+       <span>
+        279
+       </span>
+       :34991–35000.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Kanelis V, Farrow NA, Kay LE, Rotin D, Forman-Kay JD. NMR studies of tandem WW domains of Nedd4 in complex with a PY motif-containing region of the epithelial sodium channel.
+      <span>
+       <span>
+        Biochem Cell Biol.
+       </span>
+       1998;
+       <span>
+        76
+       </span>
+       :341–350.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Chong PA, Lin H, Wrana JL, Forman-Kay JD. Coupling of tandem Smad ubiquitination regulatory factor (Smurf) WW domains modulates target specificity.
+      <span>
+       <span>
+        Proc Natl Acad Sci U S A.
+       </span>
+       2010;
+       <span>
+        107
+       </span>
+       :18404–18409.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Webb C, Upadhyay A, Giuntini F, Eggleston I, Furutani-Seiki M, Ishima R, Bagby S. Structural features and ligand binding properties of tandem WW domains from YAP and TAZ, nuclear effectors of the Hippo pathway.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       2011;
+       <span>
+        50
+       </span>
+       :3300–3309.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      McDonald CB, Buffa L, Bar-Mag T, Salah Z, Bhat V, Mikles DC, Deegan BJ, Seldeen KL, Malhotra A, Sudol M, et al.  Biophysical basis of the binding of WWOX tumor suppressor to WBP1 and WBP2 adaptors.
+      <span>
+       <span>
+        J Mol Biol.
+       </span>
+       2012;
+       <span>
+        422
+       </span>
+       :58–74.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Schuchardt BJ, Bhat V, Mikles DC, McDonald CB, Sudol M, Farooq A. Molecular origin of the binding of WWOX tumor suppressor to ErbB4 receptor tyrosine kinase.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       2013;
+       <span>
+        52
+       </span>
+       :9223–9236.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Macias MJ, Wiesner S, Sudol M. WW and SH3 domains, two different scaffolds to recognize proline-rich ligands.
+      <span>
+       <span>
+        FEBS Lett.
+       </span>
+       2002;
+       <span>
+        513
+       </span>
+       :30–37.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Morales B, Ramirez-Espain X, Shaw AZ, Martin-Malpartida P, Yraola F, Sanchez-Tillo E, Farrera C, Celada A, Royo M, Macias MJ. NMR structural studies of the ItchWW3 domain reveal that phosphorylation at T30 inhibits the interaction with PPxY-containing ligands.
+      <span>
+       <span>
+        Structure.
+       </span>
+       2007;
+       <span>
+        15
+       </span>
+       :473–483.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Schuchardt BJ, Bhat V, Mikles DC, McDonald CB, Sudol M, Farooq A. Molecular Origin of the Binding of WWOX Tumor Suppressor to ErbB4 Receptor Tyrosine Kinase.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       2013
+      </span>
+      <em>
+       In Press
+      </em>
+      .
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Fernandez-Escamilla AM, Ventura S, Serrano L, Jimenez MA. Design and NMR conformational study of a beta-sheet peptide based on Betanova and WW domains.
+      <span>
+       <span>
+        Protein Sci.
+       </span>
+       2006;
+       <span>
+        15
+       </span>
+       :2278–2289.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Jager M, Dendle M, Kelly JW. Sequence determinants of thermodynamic stability in a WW domain--an all-beta-sheet protein.
+      <span>
+       <span>
+        Protein Sci.
+       </span>
+       2009;
+       <span>
+        18
+       </span>
+       :1806–1813.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Tapia VE, Nicolaescu E, McDonald CB, Musi V, Oka T, Inayoshi Y, Satteson AC, Mazack V, Humbert J, Gaffney CJ, et al.  Y65C missense mutation in the WW domain of the Golabi-Ito-Hall syndrome protein PQBP1 affects its binding activity and deregulates pre-mRNA splicing.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2010;
+       <span>
+        285
+       </span>
+       :19391–19401.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Macias MJ, Hyvonen M, Baraldi E, Schultz J, Sudol M, Saraste M, Oschkinat H. Structure of the WW domain of a kinase-associated protein complexed with a proline-rich peptide.
+      <span>
+       <span>
+        Nature.
+       </span>
+       1996;
+       <span>
+        382
+       </span>
+       :646–649.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Huang X, Poy F, Zhang R, Joachimiak A, Sudol M, Eck MJ. Structure of a WW domain containing fragment of dystrophin in complex with beta-dystroglycan.
+      <span>
+       <span>
+        Nat Struct Biol.
+       </span>
+       2000;
+       <span>
+        7
+       </span>
+       :634–638.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Kanelis V, Rotin D, Forman-Kay JD. Solution structure of a Nedd4 WW domain-ENaC peptide complex.
+      <span>
+       <span>
+        Nat Struct Biol.
+       </span>
+       2001;
+       <span>
+        8
+       </span>
+       :407–412.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Bork P, Sudol M. The WW domain: a signalling site in dystrophin?
+      <span>
+       <span>
+        Trends Biochem Sci.
+       </span>
+       1994;
+       <span>
+        19
+       </span>
+       :531–533.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Einbond A, Sudol M. Towards prediction of cognate complexes between the WW domain and proline-rich ligands.
+      <span>
+       <span>
+        FEBS Lett.
+       </span>
+       1996;
+       <span>
+        384
+       </span>
+       :1–8.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Sudol M. Structure and function of the WW domain.
+      <span>
+       <span>
+        Prog Biophys Mol Biol.
+       </span>
+       1996;
+       <span>
+        65
+       </span>
+       :113–132.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Kay BK, Williamson MP, Sudol M. The importance of being proline: the interaction of proline-rich motifs in signaling proteins with their cognate domains.
+      <span>
+       <span>
+        FASEB J.
+       </span>
+       2000;
+       <span>
+        14
+       </span>
+       :231–241.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Sudol M, Hunter T. NeW wrinkles for an old domain.
+      <span>
+       <span>
+        Cell.
+       </span>
+       2000;
+       <span>
+        103
+       </span>
+       :1001–1004.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Sudol M, Sliwa K, Russo T. Functions of WW domains in the nucleus.
+      <span>
+       <span>
+        FEBS Lett.
+       </span>
+       2001;
+       <span>
+        490
+       </span>
+       :190–195.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Hu H, Columbus J, Zhang Y, Wu D, Lian L, Yang S, Goodwin J, Luczak C, Carter M, Chen L, et al.  A map of WW domain family interactions.
+      <span>
+       <span>
+        Proteomics.
+       </span>
+       2004;
+       <span>
+        4
+       </span>
+       :643–655.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Kato Y, Nagata K, Takahashi M, Lian L, Herrero JJ, Sudol M, Tanokura M. Common mechanism of ligand recognition by group II/III WW domains: redefining their functional classification.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2004;
+       <span>
+        279
+       </span>
+       :31833–31841.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Sudol M.  WW domain. In: Cesareni GGM, Sudol M, Yaffe M, editors.
+      <span>
+       Modular Protein Domains.
+      </span>
+      Weinheim, Germany: Wiley VCH, Verlag GmbH &amp; Co.; 2004. pp. 59–72.
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Oka T, Mazack V, Sudol M. Mst2 and Lats kinases regulate apoptotic function of Yes kinase-associated protein (YAP)
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2008;
+       <span>
+        283
+       </span>
+       :27534–27546.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Klippel S, Wieczorek M, Schumann M, Krause E, Marg B, Seidel T, Meyer T, Knapp EW, Freund C. Multivalent binding of formin-binding protein 21 (FBP21)-tandem-WW domains fosters protein recognition in the pre-spliceosome.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2011;
+       <span>
+        286
+       </span>
+       :38478–38487.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Gasteiger E, Hoogland C, Gattiker A, Duvaud S, Wilkins MR, Appel RD, Bairoch A.  Protein Identification and Analysis Tools on the ExPASy Server. In: Walker JM, editor.
+      <span>
+       The Proteomics Protocols Handbook.
+      </span>
+      Totowa, New Jersey, USA: Humana Press; 2005. pp. 571–607.
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Wiseman T, Williston S, Brandts JF, Lin LN. Rapid measurement of binding constants and heats of binding using a new titration calorimeter.
+      <span>
+       <span>
+        Anal Biochem.
+       </span>
+       1989;
+       <span>
+        179
+       </span>
+       :131–137.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Privalov PL, Potekhin SA. Scanning microcalorimetry in studying temperature-induced changes in proteins.
+      <span>
+       <span>
+        Methods Enzymol.
+       </span>
+       1986;
+       <span>
+        131
+       </span>
+       :4–51.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Privalov GP, Privalov PL. Problems and prospects in microcalorimetry of biological macromolecules.
+      <span>
+       <span>
+        Methods Enzymol.
+       </span>
+       2000;
+       <span>
+        323
+       </span>
+       :31–62.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     57.
+     <span>
+      Marti-Renom MA, Stuart AC, Fiser A, Sanchez R, Melo F, Sali A. Comparative Protein Structure Modeling of Genes and Genomes.
+      <span>
+       <span>
+        Annu Rev Biophys Biomol Struct.
+       </span>
+       2000;
+       <span>
+        29
+       </span>
+       :291–325.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     58.
+     <span>
+      Carson M. Ribbons 2.0.
+      <span>
+       <span>
+        J Appl Crystallogr.
+       </span>
+       1991;
+       <span>
+        24
+       </span>
+       :958–961.
+      </span>
+     </span>
+    </sec>
+    <sec>
+     59.
+     <span>
+      Van Der Spoel D, Lindahl E, Hess B, Groenhof G, Mark AE, Berendsen HJ. GROMACS: fast, flexible, and free.
+      <span>
+       <span>
+        J Comput Chem.
+       </span>
+       2005;
+       <span>
+        26
+       </span>
+       :1701–1718.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     60.
+     <span>
+      Lindorff-Larsen K, Piana S, Palmo K, Maragakis P, Klepeis JL, Dror RO, Shaw DE. Improved side-chain torsion potentials for the Amber ff99SB protein force field.
+      <span>
+       <span>
+        Proteins.
+       </span>
+       2010;
+       <span>
+        78
+       </span>
+       :1950–1958.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     61.
+     <span>
+      Toukan K, Rahman A. Molecular-dynamics study of atomic motions in water.
+      <span>
+       <span>
+        Physical Review B.
+       </span>
+       1985;
+       <span>
+        31
+       </span>
+       :2643–2648.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     62.
+     <span>
+      Berendsen HJC, Grigera JR, Straatsma TP. The Missing Term in Effective Pair Potentials.
+      <span>
+       <span>
+        J Phys Chem.
+       </span>
+       1987;
+       <span>
+        91
+       </span>
+       :6269–6271.
+      </span>
+     </span>
+    </sec>
+    <sec>
+     63.
+     <span>
+      Darden TA, York D, Pedersen L. Particle mesh Ewald: An N.log(N) method for Ewald sums in large systems.
+      <span>
+       <span>
+        J Chem Phys.
+       </span>
+       1993;
+       <span>
+        98
+       </span>
+       :10089–10092.
+      </span>
+     </span>
+    </sec>
+    <sec>
+     64.
+     <span>
+      Hess B, Bekker H, Berendsen HJC, Fraaije JGEM. LINCS: A linear constraint solver for molecular simulations.
+      <span>
+       <span>
+        J Comput Chem.
+       </span>
+       1997;
+       <span>
+        18
+       </span>
+       :1463–1472.
+      </span>
+     </span>
+    </sec>
+    <sec>
+     65.
+     <span>
+      Koradi R, Billeter M, Wuthrich K. MOLMOL: a program for display and analysis of macromolecular structures.
+      <span>
+       <span>
+        J Mol Graph.
+       </span>
+       1996;
+       <span>
+        14
+       </span>
+       :51–55.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

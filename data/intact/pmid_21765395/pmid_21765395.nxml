@@ -1,0 +1,1578 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3160656
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Nedd4-1 binds and ubiquitylates activated FGFR1 to control its endocytosis and function
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Fibroblast growth factor receptor 1 (FGFR1) has critical roles in cellular proliferation and differentiation during animal development and adult homeostasis. Here, we show that human Nedd4 (Nedd4-1), an E3 ubiquitin ligase comprised of a C2 domain, 4 WW domains, and a Hect domain, regulates endocytosis and signalling of FGFR1. Nedd4-1 binds directly to and ubiquitylates activated FGFR1, by interacting primarily via its WW3 domain with a novel non-canonical sequence (non-PY motif) on FGFR1. Deletion of this recognition motif (FGFR1-Δ6) abolishes Nedd4-1 binding and receptor ubiquitylation, and impairs endocytosis of activated receptor, as also observed upon Nedd4-1 knockdown. Accordingly, FGFR1-Δ6, or Nedd4-1 knockdown, exhibits sustained FGF-dependent receptor Tyr phosphorylation and downstream signalling (activation of FRS2α, Akt, Erk1/2, and PLCγ). Expression of FGFR1-Δ6 in human embryonic neural stem cells strongly promotes FGF2-dependent neuronal differentiation. Furthermore, expression of this FGFR1-Δ6 mutant in zebrafish embryos disrupts anterior neuronal patterning (head development), consistent with excessive FGFR1 signalling. These results identify Nedd4-1 as a key regulator of FGFR1 endocytosis and signalling during neuronal differentiation and embryonic development.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     E3 ubiquitin ligase, endocytosis, FGF receptor, Nedd4, WW domain
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Receptor tyrosine kinases (RTK), activated by their cognate growth factors, initiate downstream signalling cascades that control basic cellular functions such as cell division, differentiation, and survival, and when pathologically mutated are causally linked to multiple human diseases (
+    <xref ref-type="bibr">
+     Lemmon and Schlessinger, 2010
+    </xref>
+    ). Tight regulation and termination of signalling by RTKs at the appropriate times are therefore critical. One mechanism for the downregulation of activated receptors is endocytosis and sorting for lysosomal degradation, processes that often involve receptor ubiquitylation (
+    <xref ref-type="bibr">
+     Polo et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bache et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Goh et al, 2010
+    </xref>
+    ). For example, the ubiquitin ligase cCbl was shown to regulate EGF receptor (EGFR) internalization and lysosomal sorting by ubiquitylation (
+    <xref ref-type="bibr">
+     Waterman et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Soubeyran et al, 2002
+    </xref>
+    ), and cCbl mutants defective in ubiquitin ligase activity (i.e. its RING domain) lead to enhanced receptor recycling instead of its sorting to the lysosome for degradation (
+    <xref ref-type="bibr">
+     Marmor and Yarden, 2004
+    </xref>
+    ). Such mutations also cause leukemia in mice and humans by augmenting FLT3 signalling (
+    <xref ref-type="bibr">
+     Sargin et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rathinam et al, 2010
+    </xref>
+    ). Likewise, cCbl was shown to regulate sorting of the Met RTK, and a mutation in Met that abolishes the cCbl-binding site is oncogenic (
+    <xref ref-type="bibr">
+     Peschard et al, 2001
+    </xref>
+    ). With the exception of cCbl, little is known about other E3 ubiquitin ligases that regulate RTK function and signalling.
+   </p>
+   <p>
+    The Nedd4 (neuronal precursor cell developmentally downregulated 4) family of E3 ubiquitin ligases belongs to the Hect E3s superfamily (
+    <xref ref-type="bibr">
+     Rotin and Kumar, 2009
+    </xref>
+    ). It is comprised of nine members in humans, with Nedd4-1 (Nedd4) and Nedd4-2 (Nedd4L) most closely related to each other. Nedd4 proteins consist of an N-terminal C2 domain with regulatory and membrane targeting functions, 3 or 4 WW domains, which bind PY motifs (PPxY or LPxY (
+    <xref ref-type="bibr">
+     Staub et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kanelis et al, 2001
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    )) in substrate proteins, and a C-terminal catalytic Hect domain. A mutation in the PY motif of the epithelial Na
+    <sup>
+     +
+    </sup>
+    channel ENaC, which impairs its ability to bind Nedd4-2 and to be endocytosed by it, causes Liddle syndrome, a hereditary hypertension (
+    <xref ref-type="bibr">
+     Abriel et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kamynina et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Snyder et al, 2001
+    </xref>
+    ). Yet, despite similar domain architecture, individual Nedd4 family members show little functional overlap, as underscored by their recent knockout in mice. In general, it appears that while Nedd4-2 is involved in regulating ion channels and transporters, Nedd4-1 has a role in regulating cell and animal growth, as well as nervous system development (
+    <xref ref-type="bibr">
+     Cao et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shi et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yang et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Liu et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fouladkou et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kawabe et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kimura et al, 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    To globally identify substrates for Nedd4-1, we recently performed a proteome array ubiquitylation screen (
+    <xref ref-type="bibr">
+     Persaud et al, 2009
+    </xref>
+    ). Interestingly, while the majority of the top substrates (hits) harboured the expected PY motif, several potential substrates bound Nedd4-1 through an unknown mechanism. In particular, we detected binding and ubiquitylation of the human fibroblasts growth factor receptor 1 (FGFR1) by human Nedd4-1 (hNedd4-1) despite a lack of PY motifs in FGFR1 (
+    <xref ref-type="bibr">
+     Persaud et al, 2009
+    </xref>
+    ). These results suggested that hNedd4-1 might bind FGFR1 by a non-canonical mechanism.
+   </p>
+   <p>
+    FGFR1 has an important role in regulating cellular differentiation, proliferation and animal development (
+    <xref ref-type="bibr">
+     Eswarakumar et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Turner and Grose, 2010
+    </xref>
+    ). Ligand (FGF) binding to FGFR1 (along with heparin/HSPG) induces receptor dimerization, activation of its kinase activity and autophosphorylation of multiple cytoplasmic Tyr residues, which then serve as binding sites for effector molecules such as FRS2α or PLCγ, to further activate intracellular signalling, including the PI3K/Akt and Ras/Erk pathways (
+    <xref ref-type="bibr">
+     Lemmon and Schlessinger, 2010
+    </xref>
+    ). Additionally, FGFR1 phosphorylation was previously shown to initiate its removal from the plasma membrane (PM) and subsequent lysosomal degradation, a process termed receptor downregulation (
+    <xref ref-type="bibr">
+     Sorokin et al, 1994
+    </xref>
+    ). Similar to other RTKs, FGFR1 activity enhances receptor ubiquitylation, which is necessary for efficient receptor degradation (
+    <xref ref-type="bibr">
+     Wong et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Haugsten et al, 2008
+    </xref>
+    ). However, the associated ubiquitin ligase had not been identified. Indeed, the E3 ubiquitin ligase cCbl, which binds directly to and ubiquitylates other RTKs (like EGFR, PDGFR, or Met), does not bind FGFR1 directly, and its knockdown shows no effect on FGFR1 endocytosis (
+    <xref ref-type="bibr">
+     Haugsten et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we identify a novel sequence on FGFR1 that directly binds Nedd4-1, leading to Nedd4-1-mediated ubiquitylation and endocytosis of FGFR1. We show that impairment of Nedd4-1 binding to the receptor promotes neuronal differentiation of human embryonic neural stem cells, and to defective anterior neuronal patterning in zebrafish, processes that are highly sensitive to FGFR1 signalling. Our results therefore demonstrate that Nedd4-1 is an E3 ubiquitin ligase responsible for suppressing FGFR1-dependent signalling and thereby critically regulating receptor function.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     hNedd4-1 directly binds a novel motif on FGFR1
+    </title>
+    <p>
+     Our previous
+     <em>
+      in vitro
+     </em>
+     ubiquitylation-on-proteome array screen identified the human FGFR1 as a substrate for hNedd4-1 (
+     <xref ref-type="bibr">
+      Persaud et al, 2009
+     </xref>
+     ). To verify that hNedd4-1 directly interacts with FGFR1, we generated a fragment of the human FGFR1 that encompasses the cytosolic region of the receptor (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ). This C-terminal (Cterm) fragment was purified and incubated with purified hNedd4-1.
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     demonstrates
+     <em>
+      in vitro
+     </em>
+     binding between hNedd4-1 and FGFR1-Cterm, similar to binding of the C terminus of CNrasGEF (which contains a PY motif) to hNedd4-1, described earlier (
+     <xref ref-type="bibr">
+      Pham and Rotin, 2001
+     </xref>
+     ) and used here as a positive control. There was no detectible binding of FGFR1-Cterm to rat Nedd4-1 (rNedd4-1), which lacks WW3, or to hNedd4-2 (Nedd4L) (
+     <a>
+      Supplementary Figure S2A and B
+     </a>
+     ). Thus, hNedd4-1 can directly bind FGFR1. Since FGFR1 does not possess a PY motif, we used peptide array analysis to identify the binding sequence on the receptor, using 12 mer peptides and ‘walking' 3 mer steps to cover the entire Cterm fragment. PY motifs from LAPTM5, CNrasGEF and βENaC, which bind Nedd4 proteins (
+     <xref ref-type="bibr">
+      Staub et al, 1996
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pham and Rotin, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pak et al, 2006
+     </xref>
+     ) were used as positive controls (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ). Using the peptide array approach, we identified three sequences that were potentially able to interact with purified hNedd4-1 (
+     <a>
+      Supplementary Figure S1C
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Further testing for
+     <em>
+      in vitro
+     </em>
+     binding of these three peptides in solution (each extending four residues on each end and biotinylated) revealed that only peptide 2 (MNSG
+     <span>
+      VLLVRPSRLSSS
+     </span>
+     GTPM) was able to bind purified hNedd4-1 (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Human Nedd4-1 binds via its WW3 and C2 domains to a novel sequence in FGFR1. (
+       <strong>
+        A
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       binding of the cytosolic region of FGFR1 (
+       <a>
+        Supplementary Figure S1A
+       </a>
+       ) to hNedd4-1: His-tagged FGFR1-C terminus (Cterm) immobilized on NTA-agarose beads, or NTA beads alone (negative control), was incubated with purified hNedd4-1 and blotted with anti-hNedd4-1 antibodies (upper panel). Binding of immobilized GST-CNrasGEF to hNedd4-1 was used as a positive control. Middle and bottom panels are controls for the amounts of hNedd4-1 and immobilized proteins used for the assay, respectively. (
+       <strong>
+        B
+       </strong>
+       ) FGFR1-peptide 2 is responsible for binding hNedd4-1: biotinylated peptides 1, 2, and 3, immobilized on streptavidin-agarose beads, were incubated with purified hNedd4-1 and blotted for hNedd4-1 (upper panel). Middle and lower panels are controls for the amounts of hNedd4-1 and biotinylated peptide used, respectively. PY represents the PY motif of βENaC, used as a positive control. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) Binding of hNedd4-1-WW3 and the C2 domain to peptide 2: (
+       <strong>
+        C
+       </strong>
+       ) His-tagged C2, WW1–4 and GST-Hect of hNedd4-1 were precipitated with NTA- or Glutathione-agarose beads and precipitate blotted with Streptavidin-HRP to identify binding of peptide 2. (
+       <strong>
+        D
+       </strong>
+       ) A reciprocal experiment to that in (
+       <strong>
+        C
+       </strong>
+       ), with precipitation of peptide 2 with streptavidin beads followed by blotting for the various domains of hNedd4-1 using anti-GST or anti-His antibodies. βENaC-PY peptide was used as a positive control for WW3 binding. Lower panels in (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) are controls for the amounts of peptide 2 and hNedd4-1 domains used. (
+       <strong>
+        E
+       </strong>
+       ) Identification of the residue in peptide 2 responsible for binding to hNedd4-1-WW3 and C2 domains: a peptide array with an Ala scan through peptide 2 was synthesized, incubated with either His-WW3 or His-C2 domains of hNedd4-1 and blotted with anti-His antibodies. A βENaC PY motif was used as a positive control for WW3 binding. (
+       <strong>
+        F
+       </strong>
+       ) Residues in peptide 2 required for binding to WW3 and C2 domains of hNedd4-1 deciphered from the Ala scan in (
+       <strong>
+        E
+       </strong>
+       ). (
+       <strong>
+        G
+       </strong>
+       ) Domain architecture of hNedd4-1.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     hNedd4-1-WW3 domain and the C2 domain mediate binding to peptide 2 of FGFR1
+    </title>
+    <p>
+     To investigate which region/domain of hNedd4-1 was responsible for binding FGFR1, hNedd4-1 C2, WW1, WW2, WW3, WW4 (each His-tagged), or Hect (GST-tagged) domains were generated in bacteria, purified and incubated with biotinylated peptide 2. As seen in
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , either incubating immobilized soluble hNedd4-1 domains with soluble biotinylated peptide 2 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ), or conversely, incubating immobilized peptide 2 with soluble hNedd4-1 domains (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ) revealed binding of WW3 and the C2 domains to peptide 2, with an apparent stronger binding of WW3. To further narrow down the residues required for binding to hNedd4-1-WW3 and C2 domains, an Ala scan through the core of peptide 2 (VLLVRPSRLSSS) was performed using peptide arrays.
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     shows that WW3 required the VL
+     <sup>
+      ****
+     </sup>
+     SR
+     <sup>
+      ***
+     </sup>
+     residues for binding, while the C2 domain required the
+     <sup>
+      *****
+     </sup>
+     PSR
+     <sup>
+      ****
+     </sup>
+     residues for its binding, exhibiting a partial overlap with binding of WW3 (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). Thus, the VL
+     <sup>
+      ***
+     </sup>
+     PSR sequence of FGFR1, located in the juxtamembrane region (upstream of the FRS2α-binding site), was identified as a novel binding motif for hNedd4-1-WW3 and C2 domains (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ).
+    </p>
+    <p>
+     To measure binding affinity between WW3 or C2 domains and the VL
+     <sup>
+      ***
+     </sup>
+     PSR motif, a fluorescently labelled (Alexa-488) peptide plus several flanking residues (NSG
+     <span>
+      VLLVRPSR
+     </span>
+     LSSSGTP) was synthesized and used in fluorescent polarization (FP) assays. The fluorescent peptide was added to increasing concentrations of purified WW3 domain, C2 domain or a protein fragment spanning the C2 to WW3 domain of hNedd4-1 (C2–WW3). As seen in
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , WW3 interacted with the VL
+     <sup>
+      ***
+     </sup>
+     PSR motif with an affinity of ∼12 μM. The C2 domain exhibited lower binding affinity (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼50 μM), which was only marginally increased in the presence of Ca
+     <sup>
+      2+
+     </sup>
+     (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼35–40 μM;
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ); the role of calcium was tested due to the known ability of C2 domains, including that of Nedd4-1 (
+     <xref ref-type="bibr">
+      Plant et al, 1997
+     </xref>
+     ) to bind Ca
+     <sup>
+      2+
+     </sup>
+     . Interestingly, the C2–WW3 construct exhibited similar binding affinity (10.5 μM) to that of the WW3 alone (∼12 μM;
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), suggesting that binding of hNedd4-1 to the VL
+     <sup>
+      ***
+     </sup>
+     PSR motif is primarily mediated by WW3. Consistent with the lack of binding between hNedd4-2 and FGFR1 (
+     <a>
+      Supplementary Figure S2B
+     </a>
+     ), the hNedd4-2 WW3 domain was unable to bind the VL
+     <sup>
+      ***
+     </sup>
+     PSR peptide, even though it bound well (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     4 μM) to its cognate PY motif from βENaC (
+     <a>
+      Supplementary Figure S2C
+     </a>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Affinity of interaction between hNedd4-1-WW3 and C2 domains to peptide 2. (
+       <strong>
+        A
+       </strong>
+       ) FP measurements (ΔFP) of binding of hNedd4-1-WW3 domain, C2 domain or a region encompassing C2 to WW3 (C2–WW3) to peptide 2. Negative control: mutant βENaC PY motif that cannot bind WW domains. mP, millipolarization units. (
+       <strong>
+        B
+       </strong>
+       ) As in (
+       <strong>
+        A
+       </strong>
+       ), only analysing the affinity of interactions of hNedd4-1 C2 domain to peptide 2 in the presence of the indicated Ca
+       <sup>
+        2+
+       </sup>
+       concentrations. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) The PY motif cannot compete with binding of Peptide 2 to hNedd4-1-WW3. (
+       <strong>
+        C
+       </strong>
+       ) Increasing concentrations of unlabelled βENaC PY motif was added to immobilized His-WW3 in the presence of 10 μg of biotinylated PY motif or peptide 2 (upper panel). Lower panels are controls for the amounts of peptides/proteins used. (
+       <strong>
+        D
+       </strong>
+       ) FP measurements of binding of peptide 2 to hNedd4-1-WW3 domain in the presence of increasing concentrations of a PY motif peptide, which is able to compete with PY:WW3 but not with peptide 2:WW3 interactions. (
+       <strong>
+        E
+       </strong>
+       ) A mutation in hNedd4-1-WW3 (WW3-WA) domain that abolishes binding to PY motifs (
+       <xref ref-type="bibr">
+        Kanelis et al, 2006
+       </xref>
+       ) has no effect on binding to peptide 2, as analysed in FP experiments. (
+       <strong>
+        F
+       </strong>
+       ) Summary of affinities of interactions.
+       <em>
+        N
+       </em>
+       represents the number of experiments.
+       <em>
+        n
+       </em>
+       represents the number of replicates.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Since WW3 can bind both PY motifs and the novel VL
+     <sup>
+      ***
+     </sup>
+     PSR motif, we tested if binding of WW3 to the VL
+     <sup>
+      ***
+     </sup>
+     PSR sequence can be displaced by a PY motif peptide. As shown in
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     , we found no evidence for such displacement, suggesting that the VL
+     <sup>
+      ***
+     </sup>
+     PSR motif interacts with a different binding surface on WW3 than that reported for the PY motif (
+     <xref ref-type="bibr">
+      Kanelis et al, 2006
+     </xref>
+     ). This lack of competition by the PY motif was also quantified using fluorescence polarization measurements (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). Moreover, mutation of the conserved Trp in WW3 that is required for PY motif binding (
+     <xref ref-type="bibr">
+      Kanelis et al, 2006
+     </xref>
+     ) had no effect on binding of WW3 to the VL
+     <sup>
+      ***
+     </sup>
+     PSR peptide, while it completely abolished binding to the PY motif (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ).
+     <xref ref-type="fig">
+      Figure 2F
+     </xref>
+     summarizes the binding affinities of these interactions.
+    </p>
+    <p>
+     Collectively, these results suggest that hNedd4-1 binds, via its WW3 (and to a lesser extent the C2 domain), to a novel (VL
+     <sup>
+      ***
+     </sup>
+     PSR) motif located in the juxtamembrane region of human FGFR1.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     hNedd4-1 promotes ligand-induced FGFR1 ubiquitylation and downregulation of receptor signalling
+    </title>
+    <p>
+     To investigate the biological consequences of the interactions between hNedd4-1 and FGFR1, we generated two mutants of FGFR1 that are impaired in hNedd4-1 binding: a mutant that lacks the first three residues of the
+     <span>
+      VL
+      <sup>
+       *
+      </sup>
+     </span>
+     <sup>
+      **
+     </sup>
+     PSR sequence (FGFR1-Δ3) and thus defective for binding to WW3, and a mutant that lacks the first six residues of the
+     <span>
+      VL
+      <sup>
+       ***
+      </sup>
+      P
+     </span>
+     SR sequence (FGFR1-Δ6) that is defective in binding both WW3 and the C2 domain. These mutants, as well as WT-FGFR1, were transfected into Hek293T cells along with WT-hNedd4-1 or catalytically inactive hNedd4-1 (CS), and FGFR1 ubiquitylation and binding to hNedd4-1 were analysed. As demonstrated in
+     <a>
+      Supplementary Figure S3A
+     </a>
+     , the FGFR1-Δ3 mutant exhibited severe reduction in its ability to bind hNedd4-1 and to become ubiquitylated by it. This binding and ubiquitylation were completely abolished in the FGFR1-Δ6 mutant (
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ). The inhibition of binding to hNedd4-1- and hNedd4-1-mediated ubiquitylation resulted in the accumulation of active, Tyr-phosphorylated mutant FGFR1, seen in both HeLa and Hek293T cells (
+     <xref ref-type="fig">
+      Figure 3A–D
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3C and D
+     </a>
+     ). As expected (
+     <xref ref-type="bibr">
+      Haugsten et al, 2008
+     </xref>
+     ), stability of Tyr-phosphorylated FGFR1 was not affected by knockdown of cCbl and CblB in HeLa cells (
+     <a>
+      Supplementary Figure S4A
+     </a>
+     ). To further validate the role of hNedd4-1, we knocked it down in HeLa cells (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ); this knockdown resulted in a substantial loss of FGFR1 ubiquitylation, defective receptor degradation (
+     <a>
+      Supplementary Figure S3D
+     </a>
+     ) and stabilization of Tyr-phosphorylated (active) FGFR1 (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). Interestingly, the interaction between FGFR1 and hNedd4-1 was ligand dependent (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     ) and was abolished in the catalytically (kinase) inactive FGFR1-KI (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ), consistent with the pattern of FGFR1 ubiquitylation (
+     <xref ref-type="fig">
+      Figure 3A and C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3C
+     </a>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Deletion of the hNedd4-1-binding site on FGFR1, or knockdown of hNedd4-1, leads to sustained activation of FGFR1 and its downstream signalling. (
+       <strong>
+        A
+       </strong>
+       ) FGFR1 ubiquitylation is dependent on its ability to bind hNedd4-1 and on receptor activation: HeLa cells were transfected (Tfxn) with GFP-tagged FGFR1-WT or FGFR1-Δ6 and treated with FGF2+heparin for 0, 5, or 30 min. Cells were then lysed and lysate either subjected to IP with GFP (FGFR1) and immunoblotting with anti-pTyr (middle panel), or boiled in SDS, SDS diluted and FGFR1 ubiquitylation analysed with anti-ubiquitin (Ub) antibodies (upper panel). Lower 3 panels are controls for levels of total FGFR1 in the IP, hNedd4-1 in the lysate and loading (actin). (
+       <strong>
+        B
+       </strong>
+       ) hNedd4-1 binding to FGFR1 is dependent on receptor activation (FGF+heparin treatment) and is abolished by kinase-inactive mutant of FGFR1 (FGFR1-KI), which cannot co-IP hNedd4-1. The co-IP experiments were performed as described in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) Knockdown of hNedd4-1 leads to loss of FGFR1 ubiquitylation and sustained receptor activation following FGF2+heparin treatment: HeLa cells were transfected with GFP-FGFR1 (WT), shRNA for hNedd4-1 and His-Ub. Ubiquitylation of FGFR1 (top panel) was performed as described in (
+       <strong>
+        A
+       </strong>
+       ), and the amount of active receptor analysed by IP of FGFR1 and blotting with anti-pTyr antibodies (panel 2). Panels 3–5 are controls for total FGFR1, hNedd4-1 knockdown and loading (actin). Panel 6 depicts co-IP of hNedd4-1 and FGFR1 following activation of FGFR1 with FGF2+heparin. Lowest panels are controls for the co-IP. (
+       <strong>
+        D
+       </strong>
+       ) Sustained activation of FGFR1-Δ6 and its downstream signalling: GFP-FGFR1-WT or -Δ6 were transfected into HeLa cells, cells treated with FGF2+heparin for the indicated times and receptor activation analysed following its IP with anti-pTyr antibodies. Lower panels depict total FGFR1, activation (phosphorylation) of Akt (pAkt), Erk1/2 (pErk1/2), FRS2α (pFRS2α), and PLCγ (pPLCγ), and the respective total levels of these downstream effectors.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     As described in the Introduction, major signalling proteins activated downstream of active FGFR1 are FRS2α, which recruits the Grb2/Gab and Grb2/SOS complexes leading to activation of the PI3K/Akt pathway and the Ras/Erk pathway, respectively, as well as PLCγ (
+     <xref ref-type="bibr">
+      Eswarakumar et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Turner and Grose, 2010
+     </xref>
+     ). First, we verified that the FGFR1-Δ6 mutant can bind FRS2α and PLCγ equally well as WT receptor (
+     <a>
+      Supplementary Figure S4B
+     </a>
+     ). Then, we tested for activation of these substrates and downstream signalling components by analysing levels of phosphorylated FRS2α, Akt, Erk and PLCγ upon ligand stimulation of WT and the FGFR1-Δ6 mutant. As shown in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     , each of these downstream effectors exhibited sustained stimulation in HeLa cells expressing the FGFR1-Δ6 mutant relative to WT receptor.
+    </p>
+    <p>
+     Taken together, these results show that hNedd4-1 regulates stability of activated FGFR1 by binding to its VL
+     <sup>
+      ***
+     </sup>
+     PSR motif in a ligand-dependent manner; accordingly, deletion of this motif, or knockdown of hNedd4-1, results in stabilization of active FGFR1 and enhanced downstream signalling.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     hNedd4-1 promotes endocytosis of FGFR1
+    </title>
+    <p>
+     Downregulation of FGFR1 upon prolonged stimulation is the cumulative effect of efficient endocytosis and lysosomal targeting for degradation of active receptor. The combined changes in receptor trafficking cause a depletion of total cellular FGFR1 and reduce PM resident receptor. Thus, we first determined activity-dependent changes in subcellular distribution of WT or FGFR1-Δ6 and measured their PM expression during prolonged stimulation conditions. As shown in
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     (micrographs), FGFR1-WT distribution changed dramatically after stimulation, from strong peripheral expression at time 0 to perinuclear expression by 60 min, consistent with efficient removal from the PM and degradation (see also
+     <a>
+      Supplementary Figure S3D
+     </a>
+     ). In contrast, FGFR1-Δ6 expression remained primarily peripheral. Accordingly, flow cytometry quantification (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , bottom) revealed strong retention of the FGFR1-Δ6 mutant at the PM over time relative to WT-FGFR1. In agreement with the delayed PM turnover of FGFR1-Δ6, steady-state surface expression of this mutant receptor was elevated at time 0 min compared with WT (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S5D
+     </a>
+     ). Failure to downregulate FGFR1-Δ6 could be due to impaired endocytosis, impaired degradative sorting followed by recycling to the PM, or both. To determine if a block in endocytosis caused the impaired receptor downregulation, we pulsed cells expressing WT or FGFR1-Δ6 receptors with FGF2–Biotin and determined kinetics of endocytosis. As shown in
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     (top) and
+     <a>
+      Supplementary Figure S5A
+     </a>
+     , and quantified by flow cytometry (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , lower panel), FGF2–Biotin bound to WT-FGFR1 was efficiently internalized within 20 min and accumulated in intracellular vesicles. Strikingly, FGF2–Biotin bound to FGFR1-Δ6 was still associated with the PM even after 30 min at 37°C (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S5B
+     </a>
+     ). We obtained identical results when we measured intracellular accumulation of FGF2 in cells expressing WT versus FGFR1-Δ6 receptors (
+     <a>
+      Supplementary Figure S5C
+     </a>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       hNedd4-1 promotes endocytosis of FGFR1. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) Impaired endocytosis of FGFR1-Δ6: (
+       <strong>
+        A
+       </strong>
+       ) receptor downregulation, or (
+       <strong>
+        B
+       </strong>
+       ) internalization of GFP-FGFR1-WT or GFP-FGFR1-Δ6 following ligand binding was studied by immunofluorescence (IF, upper panels) and flow cytometry (lower panels). (
+       <strong>
+        A
+       </strong>
+       ) Receptor downregulation. (Top panel) Confocal microscopy analysis of subcellular localization of GFP-FGFR1-WT or -FGFR1-Δ6 in HeLa cells before (time 0) and after (60 min) stimulation with FGF2+heparin. (Lower panel) Cell surface expression of GFP-tagged WT or Δ6 FGFR1 after stimulation with FGF2–Biotin was visualized with streptavidin-Cy5 and analysed by FACS in HeLa cells. The graph shows a representative experiment, error bars are s.d. of duplicate measurements. Data points were normalized to maximum surface binding of FGF2–Biotin to WT receptor. Ratio of receptor surface expression at 60 versus 0 min from three independent experiments (performed in duplicates): WT=0.22±0.08; FGFR-Δ6=0.77±0.08;
+       <em>
+        n
+       </em>
+       =6,
+       <em>
+        P
+       </em>
+       =0.001. (
+       <strong>
+        B
+       </strong>
+       ) Receptor internalization. (Top panel) Cells were pulse labelled with FGF2–Biotin and streptavidin-Cy3 at 4°C and chased at 37°C for the indicated times. GFP-positive cells (Insets) were analysed for associated Cy3–FGF2–Biotin complexes by confocal microscopy. (Lower panel) Cells were pulsed with FGF2–Biotin at 4°C and incubated at 37°C for the indicated time points. FGF2–Biotin bound to PM resident FGFR1 (WT or Δ6 mutant) was labelled with streptavidin-Cy5 at the indicated chase points and quantified by FACS. The graph shows a representative experiment, error bars are s.d. of duplicate measurements. Data points were normalized to maximum surface binding of FGF2–Biotin to the respective receptor at 0 min. Ratio of receptor surface expression at 30 versus 0 min from three independent experiments (performed in duplicates): WT=0.08±0.09; FGFR1-Δ6=0.81±0.09;
+       <em>
+        n
+       </em>
+       =6,
+       <em>
+        P
+       </em>
+       &lt;0.001. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) Impaired FGFR1 endocytosis upon knockdown of hNedd4-1: HeLa cells stably expressing shRNA for hNedd4-1 or non-specific (NS) shRNA were transfected with GFP-tagged FGFR1 (WT). Analyses of cell surface levels of the receptor (
+       <strong>
+        C
+       </strong>
+       ) or receptor internalization (
+       <strong>
+        D
+       </strong>
+       ) following stimulation with FGF2 or FGF2–Biotin were carried out as described above for (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ), respectively. Ratio of receptor surface expression at 60 versus 0 min from two independent experiments (each in duplicates): NS-shRNA=0.21±0.02; hNedd4-1-shRNA=0.63±0.08;
+       <em>
+        n
+       </em>
+       =4,
+       <em>
+        P
+       </em>
+       =0.001. Ratio of receptor endocytosis at 30 versus 0 min from two independent experiments (each in duplicates): NS-shRNA=0.08±0.09; shRNA-hNedd4-1=0.68±0.11;
+       <em>
+        n
+       </em>
+       =4,
+       <em>
+        P
+       </em>
+       &lt;0.01.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To ensure that the accumulation of the FGFR1-Δ6 mutant at the PM is indeed caused by loss of hNedd4-1-mediated downregulation of the receptor, we tested whether knockdown of hNedd4-1 can mimic the behaviour of the FGFR1-Δ6 mutant. As seen in
+     <xref ref-type="fig">
+      Figure 4C and D
+     </xref>
+     and
+     <a>
+      Supplementary Figure S6
+     </a>
+     , knockdown of hNedd4-1 strongly impaired surface clearance of activated FGFR1 and caused severe defects in endocytosis after FGF2 binding, similar to the FGFR1-Δ6 mutant. This defect was specific to FGFR1, since internalization of the transferrin receptor or EGFR in these hNedd4-1 knockdown cells was unaffected (not shown).
+    </p>
+    <p>
+     These data suggest that the loss of the hNedd4-1-binding site on FGFR1, or knockdown of hNedd4-1, leads to defective internalization of the activated receptor, demonstrating that Nedd4-1 strongly promotes endocytosis of active FGFR1.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FGFR1-
+     <em>
+      Δ
+     </em>
+     6 stimulates neuronal differentiation of human embryonic neural stem cells
+    </title>
+    <p>
+     Human neural stem cells derived from embryonic tissue can be maintained in monolayer culture in chemically defined medium on laminin in the presence of EGF and FGF2, without noticeable differentiation. Induction of neuronal differentiation requires removal of EGF-dependent signalling but continued presence of FGF2, at least temporarily (
+     <xref ref-type="bibr">
+      Conti et al, 2005
+     </xref>
+     ). Thus, we tested whether hNedd4-1-dependent regulation of FGFR1 signalling is involved in neuronal differentiation of human neural stem cells. First, we verified by co-immunoprecipitation (co-IP) that endogenous hNedd4-1 and endogenous FGFR1 can interact with each other in these cells (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). Importantly, we also demonstrated that knockdown of endogenous hNedd4-1 in these cells (for 5 days) leads to enhanced stabilization of endogenous Tyr-phosphorylated FGFR1, as well as total FGFR1 levels (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). Then, we electroporated these stem cells cultured in proliferation conditions with GFP-tagged FGFR1-WT or FGFR1-Δ6 constructs and allowed neuronal differentiation for 7 days by removal of EGF (and reducing FGF2 by 50%) from the culture medium. Cells were then analysed by immunocytochemistry for GFP expression and associated βIII-Tubulin, an early marker of neuronal differentiation. As shown in
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , most cells expressing GFP alone did not show noticeable βIII-Tubulin expression and showed little protrusions. Expression of WT-FGFR1 led to a small increase (30%) in the proportion of neuronal cells. Strikingly, expressing FGFR1-Δ6 in these cells dramatically increased the frequency of βIII-Tubulin immunoreactive cells (60% of cells), suggesting that this mutant receptor strongly promotes neuronal differentiation. In accord, analysis of Sox2 expression, which marks proliferating, undifferentiated cells, demonstrated a corresponding reduction in the fraction of undifferentiated cells that express FGFR1-Δ6 mutant relative to WT (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). Unfortunately, we could not analyse differentiation of these neural stem cells following hNedd4-1 knockdown since such an experiment requires a longer time period (at least 7 days after the onset of knockdown) and the knockdown was only temporary, with endogenous hNedd4-1 levels restored to normal by 7 days after knockdown (
+     <a>
+      Supplementary Figure S7A
+     </a>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Enhanced neuronal differentiation of human embryonic neural stem cells expressing FGFR1-Δ6. (
+       <strong>
+        A
+       </strong>
+       ) Co-IP of endogenous hNedd4-1 with endogenous FGFR1 in embryonic neural stem cells grown in the presence of FGF2. (
+       <strong>
+        B
+       </strong>
+       ) Knockdown of hNedd4-1 in embryonic neural stem cells with hNedd4-1-shRNA (but not with non-specific NS-shRNA) leads to stabilization of endogenous FGFR1 and Tyr-phosphorylated FGFR1 (pFGFR1). (
+       <strong>
+        C
+       </strong>
+       ) Neural stem cells were transfected with GFP, GFP-FGFR1-WT, or GFP-FGFR1-Δ6 and grown on laminin-coated coverslips. Transfected cells were incubated for 7 days in medium lacking EGF and reduced (50%) FGF2 to promote neuronal differentiation, and βIII-Tubulin (β3-Tub) expression in GFP-positive cells was analysed by confocal microscopy. The graph (right panel) quantifies distribution of GFP-expressing cells positive (grey areas) or negative (black areas) for β3-Tub from three experiments (number of cells counted: GFP alone: 43; GFP-FGFR1-WT: 78; GFP- FGFR1-Δ6: 100). (
+       <strong>
+        D
+       </strong>
+       ) As in (
+       <strong>
+        A
+       </strong>
+       ), only transfected stem cells were stained for Sox2, which marks undifferentiated cells. (
+       <em>
+        N
+       </em>
+       =2 independent experiments. Number of cells counted: GFP alone: 66; GFP-FGFR1-WT: 47; GFP- FGFR1-Δ6: 53).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Anterior neuronal patterning defects in zebrafish embryos expressing FGFR1-
+     <em>
+      Δ
+     </em>
+     6
+    </title>
+    <p>
+     To evaluate the significance of loss of Nedd4-1 binding to FGFR1 on animal development, we focused on zebrafish, since in this organism FGF signalling is well known to regulate the establishment of anteroposterior (AP) and dorsoventral (DV) body axes (
+     <xref ref-type="bibr">
+      Griffin et al, 1995
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lamb and Harland, 1995
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Furthauer et al, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ota et al, 2009
+     </xref>
+     ), and since (unlike in mice) zebrafish Nedd4-1 (known as zNedd4a) possesses WW3 domain. The region that encompasses the Nedd4-1-binding site on the human FGFR1 is largely conserved in zFGFR1 (
+     <span>
+      GM
+     </span>
+     LVR
+     <span>
+      PSR
+     </span>
+     LSSS versus the human
+     <span>
+      VL
+     </span>
+     LVR
+     <span>
+      PSR
+     </span>
+     LSSS). We thus tested if this ‘peptide 2' sequence from zebrafish FGFR1 (z-peptide 2) can bind zNedd4-1 WW3 domain. As seen in
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , a biotinylated z-peptide 2 was able to directly bind purified zNedd4-1 WW3 domain, albeit more weakly than hNedd4-1-WW3 binding to peptide 2 from human FGFR1. There was no binding of WW3 domain from zNedd4L (zNedd4-2) to z-peptide 2, similar to such lack of binding between the human orthologues (
+     <a>
+      Supplementary Figure S2B and C
+     </a>
+     ).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Expression of FGFR1-Δ6 in zebrafish leads to impaired anterior development. (
+       <strong>
+        A
+       </strong>
+       ) Zebrafish peptide 2 (z-peptide 2) binds zNedd4a-WW3 domain: 10 μg (each) of zNedd4a-WW3, zNedd4L-WW3 or hNedd4-1-WW3 domains (each tagged with His-GST) were purified, mobilized on Ni-agarose (NTA) beads and incubated with 10 μg of either biotinylated z-peptide 2 or human peptide 2 (peptide 2), washed and immunoblotted with streptavidin (strep)-HRP to determine the amount of bound peptide 2 (upper panel). Lower two panels depict controls for the amount of WW3 domain in the pulldown and the amount of peptide in the supernatant. (
+       <strong>
+        B
+       </strong>
+       ) Increased cell surface accumulation of FGFR1-Δ6: GFP-FGFR1-Δ6 or GFP-FGFR1-WT mRNAs were injected into zebrafish embryos at the one-cell stage and receptor localization followed by immunofluorescence at 5–6 h post-fertilization. (
+       <strong>
+        C
+       </strong>
+       ) Sustained activation of FGFR1-Δ6 in zebrafish embryos: Embryos at 6–36 h post-fertilization (h.p.f.) were lysed and activation of FGFR1 (pFGFR1) analysed with phospho-specific antibodies (upper panel). Lower panels are controls for total FGFR1 and for protein loading (actin). (
+       <strong>
+        D
+       </strong>
+       ) Impaired ventral development in FGFR1-Δ6 expressing zebrafish embryos. Lateral views of live embryos 40 h.p.f. with anterior to the left. Embryos were left uninjected or were injected at the one-cell stage with 25 pg of human GFP-FGFR1-WT, human GFP-FGFR1-Δ6, GFP-FGFR-KI (kinase-inactive), zebrafish GFP-FGFR1(zFGFR1)-WT, or zebrafish GFP-FGFR1(zFGFR1)-Δ6.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In zebrafish, loss of FGFR1 function by ectopic expression of a dominant-negative FGFR1 leads to posterior truncation of embryos, whereas expression of a constitutively active FGFR1 causes secondary axis formation, inhibits forebrain formation, and promotes posterior/caudal neuronal differentiation (
+     <xref ref-type="bibr">
+      Ota et al, 2009
+     </xref>
+     ). To analyse the effect of loss of Nedd4-1 binding to FGFR1 on embryo development, we injected 25 pg of GFP-FGFR1-Δ6 or GFP-FGFR1-WT mRNA into zebrafish embryos at the one-cell stage and followed receptor localization and embryo development over 2 days. Immunofluorescence analysis at 5–6 h post-fertilization revealed strong retention of the GFP-FGFR1-Δ6 mutant at the PM and reduced the presence of this mutant in intracellular vesicles, relative to FGFR1-WT (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ), suggesting that much like in HeLa cells, the FGFR1-Δ6 mutant is impaired in endocytosis. Accordingly, this mutant receptor exhibited sustained Tyr phosphorylation over time (6–36 h post-fertilization) relative to FGFR1-WT (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ).
+    </p>
+    <p>
+     Furthermore, injection of low levels of RNA encoding GFP-FGFR1-Δ6 profoundly affected formation of the body axis during zebrafish development, whereas similar levels of WT receptor resulted in few abnormalities. GFP-FGFR1-WT-injected embryos looked normal (83%, 58/70) with very few showing mild ventralization (smaller heads, eyes). However, GFP-FGFR1-Δ6 injection led to ventralized phenotypes with many injected embryos showing complete loss of the head (42%, 24/57). Overexpression of a kinase-inactive FGFR1 (FGFR1-KI) led to dorsalized phenotypes where the embryos displayed reduced posterior specification, consistent with what has been shown previously with dominant-negative FGF receptor expression in zebrafish (
+     <xref ref-type="bibr">
+      Griffin et al, 1995
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). These phenotypes suggest that GFP-FGFR1-Δ6 overactivates the FGF signalling pathway during zebrafish development to affect AP tissue fate. Similar results were also obtained upon injection of zebrafish FGFR1 (GFP-zFGFR1-Δ6, i.e. deletion of residues GMLVRP from zFGFR1) (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ).
+    </p>
+    <p>
+     To further analyse the effects of GFP-FGFR1-Δ6 overexpression on AP patterning, we analysed the expression pattern of a number of genes that show restricted expression along the AP axis. At the 10–12 somite stage,
+     <em>
+      emx1
+     </em>
+     is expressed in the dorsal telencephalon,
+     <em>
+      pax2
+     </em>
+     is expressed at the prospective midbrain–hindbrain boundary (MHB), and
+     <em>
+      krox20
+     </em>
+     is expressed exclusively in rhombomeres 3 and 5 (
+     <xref ref-type="bibr">
+      Krauss et al, 1991
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Oxtoby and Jowett, 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Morita et al, 1995
+     </xref>
+     ). Compared with uninjected embryos and embryos injected with GFP-FGFR1-WT RNA,
+     <em>
+      emx1
+     </em>
+     and anterior
+     <em>
+      pax2
+     </em>
+     domains were absent and
+     <em>
+      krox20
+     </em>
+     could be found close to the anterior limit in many GFP-FGFR1-Δ6-injected embryos (13/20) (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Defective forebrain development of zebrafish expressing FGFR1-Δ6. Lateral and dorsal views of live and fixed embryos (showing marker expression) at the 12 somite stage. Embryos were left uninjected or were injected with 25 pg of GFP-FGFR1-WT or GFP-FGFR1-Δ6. GFP-FGFR1-Δ6 injection leads to developmental abnormalities including ventralized phenotypes with many injected embryos showing complete loss of the head, whereas similar levels of WT receptor results in few abnormalities compared with uninjected controls.
+       <em>
+        In situ
+       </em>
+       hybridization analysis shows RNA expression of
+       <em>
+        emx1
+       </em>
+       (forebrain),
+       <em>
+        pax2
+       </em>
+       (MHB), and
+       <em>
+        krox20
+       </em>
+       (hindbrain).
+       <em>
+        Emx1
+       </em>
+       is expressed in the dorsal telecephalon,
+       <em>
+        pax2
+       </em>
+       is expressed at the prospective MHB, and
+       <em>
+        krox20
+       </em>
+       is expressed exclusively in rhombomeres 3 and 5. In GFP-FGFR1-Δ6-injected embryos
+       <em>
+        emx1
+       </em>
+       and anterior
+       <em>
+        pax2
+       </em>
+       domains are absent and
+       <em>
+        krox20
+       </em>
+       could be found close to the anterior limit.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Taken together, these results demonstrate that expression of a FGFR1 mutant that cannot bind Nedd4-1 leads to developmental defects very similar to those observed upon expression of a constitutively active FGFR1, suggesting sustained/excessive FGFR1 signalling by the endocytosis-impaired FGFR1-Δ6 mutant in zebrafish embryos.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    In this paper, we describe several novel findings. (i) We identified Nedd4-1 (hNedd4-1, zNedd4a) as a critical E3 ubiquitin ligase that regulates cell surface stability and function of FGFR1, by promoting receptor endocytosis and attenuation of its downstream signalling. (ii) We identify a novel binding site on FGFR1 that mediates binding to Nedd4-1/Nedd4a, a sequence that binds primarily to the WW3 domain of Nedd4-1 (but also more weakly to the C2 domain). This novel motif is distinct from the PY motif that usually serves as the recognition sequence for WW domains of the Nedd4 family (
+    <xref ref-type="bibr">
+     Staub et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kanelis et al, 2001
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ) and likely binds another surface on the WW3 domain than that binding to the PY motif (see below). (iii) By regulating endocytosis and downstream signalling of FGFR1, Nedd4-1 controls key physiological functions, such as neural stem cell differentiation, as well as anterior–posterior neuronal patterning and development in zebrafish.
+   </p>
+   <p>
+    A large body of literature has documented the regulation of sorting (and in some cases endocytosis) of several RTKs, especially the EGFR, by the ubiquitin system (
+    <xref ref-type="bibr">
+     Marmor and Yarden, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Goh et al, 2010
+    </xref>
+    ). In contrast, regulation of endocytosis of FGFR1, a critically important RTK that controls cellular differentiation and animal development (
+    <xref ref-type="bibr">
+     Eswarakumar et al, 2005
+    </xref>
+    ) by that system has been only sparsely studied, and the ubiquitin ligase involved had not been identified until now. An earlier study demonstrated that mutating the binding site for PLCγ on FGFR1 (Y766F;
+    <xref ref-type="bibr">
+     Mohammadi et al, 1991
+    </xref>
+    ) resulted in defective internalization of activated FGFR1 expressed in mouse or rat cells (
+    <xref ref-type="bibr">
+     Sorokin et al, 1994
+    </xref>
+    ). Since regulation of FGFR1 endocytosis by hNedd4-1 also required receptor activation (
+    <xref ref-type="fig">
+     Figure 3
+    </xref>
+    ), we tested the possibility that Nedd4-1 may interact with PLCγ to promote FGFR1 endocytosis. However, our unpublished experiments reveal no difference in the ability of hNedd4-1 to bind FGFR1-Y766F relative to FGFR1-WT, suggesting that the Y766:PLCγ and the VL
+    <sup>
+     ***
+    </sup>
+    PSR:Nedd4-1 associations constitute distinct mechanisms to internalize FGFR1. A separate study suggested that cCbl (in complex with Grb2) is recruited to FGFR1 via FRS2α, and contributes to receptor endocytosis, albeit to a small extent (
+    <xref ref-type="bibr">
+     Wong et al, 2002
+    </xref>
+    ). However, double knockdown of cCbl and CblB in a recent study (
+    <xref ref-type="bibr">
+     Haugsten et al, 2008
+    </xref>
+    ), and in our study (
+    <a>
+     Supplementary Figure S4A
+    </a>
+    ), revealed no effect on stability of Tyr-phosphorylated FGFR1, nor on FGFR1 endocytosis, suggesting that unlike in other RTKs, cCbl does not significantly contribute to FGFR1 internalization, although it may contribute to its sorting (
+    <xref ref-type="bibr">
+     Nowak et al, 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    A role for ubiquitylation in mediating internalization versus sorting of RTKs has been debated for some time. A recent study has demonstrated that FGFR1 is ubiquitylated by an unknown E3 ligase and that removal of most of the Lys residues (ubiquitin acceptor sites) in the FGFR1 intracellular domain resulted in severe loss of receptor ubiquitylation and defective sorting, but unaltered receptor internalization (
+    <xref ref-type="bibr">
+     Haugsten et al, 2008
+    </xref>
+    ). Our results identify hNedd4-1 as a prominent E3 ligase for FGFR1, but demonstrate that it has a major role in regulating receptor internalization. We currently do not know the reason for the difference between our results and those of Haugsten
+    <em>
+     et al
+    </em>
+    , but can speculate that the remaining Lys residues in their study can still become ubiquitylated and contribute to internalization, or that hNedd4-1 has other functions in addition to ubiquitylation of the receptor. Moreover, it is possible that once internalized, sorting of FGFR1 also involves Nedd4-1-mediated ubiquitylation.
+   </p>
+   <p>
+    While our results here demonstrate a critical role of Nedd4-1 in regulating FGFR1, it is clear that Nedd4-1 has other cellular targets and likely regulates other functions, such as cellular growth. For example, the IGF-1R indirectly interacts with Nedd4-1 via its adapter protein Grb10 (
+    <xref ref-type="bibr">
+     Vecchione et al, 2003
+    </xref>
+    ). However, the consequence of this interaction has been disputed, with one study suggesting it attenuates IGF-1R signalling by promoting its endocytosis and degradation (
+    <xref ref-type="bibr">
+     Vecchione et al, 2003
+    </xref>
+    ), while the other, using Nedd4-1 knockout mice, suggested that Nedd4-1 promotes IGF-1R signalling and cellular growth (
+    <xref ref-type="bibr">
+     Cao et al, 2008
+    </xref>
+    ). Our own published (
+    <xref ref-type="bibr">
+     Fouladkou et al, 2010
+    </xref>
+    ) and unpublished work also identified Nedd4-1 as a promoter of cell proliferation, although it is not known if the IGF-1R is the (only) target for this effect. In addition, the close relative of Nedd4, Nedd4-2 (Nedd4L), was shown to ubiquitylate the neurotrophin receptor TrkA in response to NGF stimulation, leading to receptor internalization and downregulation, thus regulating neuronal cell survival (
+    <xref ref-type="bibr">
+     Arevalo et al, 2006
+    </xref>
+    ).
+   </p>
+   <p>
+    An important observation described here is the requirement of FGFR1 activation for hNedd4-1 binding to the receptor. Since Nedd4 proteins do not possess SH2, PTB or any other known phospho-Tyr binding domains and it can directly bind (
+    <em>
+     in vitro
+    </em>
+    ) the FGFR1-VL
+    <sup>
+     ***
+    </sup>
+    PSR motif, which is not phosphorylated, it is currently unclear why an active receptor is required for hNedd4-1 recognition. One possibility is that conformational changes upon FGFR1 activation (
+    <xref ref-type="bibr">
+     Mohammadi et al, 1996
+    </xref>
+    ) expose the VL
+    <sup>
+     ***
+    </sup>
+    PSR sequence to allow access of hNedd4-1.
+   </p>
+   <p>
+    It is curious that while both hNedd4-2 and hNedd4-1 possess WW3 (which is not found in any other Nedd4 family relatives), only hNedd4-1 was able to bind FGFR1. There are only three residues that differ between these WW3 domains, two of which map to a β strand (β1) in a region distinct from the binding surface of WW3 to the PY motif, in accord with our observations of lack of competition for binding to hNedd4-1-WW3 between the PY motif and the VL
+    <sup>
+     ***
+    </sup>
+    PSR motif. Future structure determination will establish the exact binding features of hNedd4-1-WW3 domain: VL
+    <sup>
+     ***
+    </sup>
+    PSR motif complex. It is also clear that hydrophobic residues, especially Val and Leu, at the first two positions in the VL
+    <sup>
+     ***
+    </sup>
+    PSR motif are critical for binding, since their mutation to Ala abolishes binding and their substitution to Gly–Met in the zebrafish FGFR1 leads to reduced binding strength. Rat or mouse Nedd4-1 do not possess WW3 domain (although their FGFR1 contains the VL
+    <sup>
+     ***
+    </sup>
+    PSR sequence). This would explain our inability to detect direct binding between rNedd4-1 and FGFR1, although weak binding, below our detection limits, may still take place via the C2 domain.
+   </p>
+   <p>
+    The regulation of FGFR1 by hNedd4-1 is likely unique to this receptor, since the VL
+    <sup>
+     ***
+    </sup>
+    PSR sequence is only found in FGFR1 and not in FGFR2, FGFR3 or FGFR4 (nor in other RTKs). Curiously, the intervening sequence corresponding to
+    <sup>
+     ***
+    </sup>
+    (i.e. LVR) is highly conserved in all FGFR family members. This suggests a highly specific regulation of FGFR1 by Nedd4-1. Indeed, our recent experiments (
+    <a>
+     Supplementary Figure S7B
+    </a>
+    ) reveal lack of binding between hNedd4-1 and FGFR3, used here as a representative of other FGFR family members. A database search for other human proteins that possess the VL
+    <sup>
+     ***
+    </sup>
+    PSR sequence reveal only a few that include it (
+    <a>
+     Supplementary Table SI
+    </a>
+    ). Whether any of them is also regulated by Nedd4-1 remains to be established.
+   </p>
+   <p>
+    During vertebrate embryogenesis, FGF signalling at the MHB has a critical role in the patterning and regionalization of the developing brain. In mouse and chick, ectopic FGF8 can induce midbrain gene expression (
+    <xref ref-type="bibr">
+     Liu et al, 1999
+    </xref>
+    ) and the formation of ectopic midbrain structures (
+    <xref ref-type="bibr">
+     Martinez et al, 1999
+    </xref>
+    ), while in mouse conditional inactivation of
+    <em>
+     Fgf8
+    </em>
+    at the MHB results in developmental defects including the loss of midbrain and anterior hindbrain structures (
+    <xref ref-type="bibr">
+     Chi et al, 2003
+    </xref>
+    ). Although the role of FGF receptors during embryonic patterning appears to be partially redundant among FGFR paralogues, antisense morpholino oligonucleotide knockdown of
+    <em>
+     FGFR1
+    </em>
+    in zebrafish or knockout of
+    <em>
+     fgfr1
+    </em>
+    in the mouse both result in malformation of the MHB organizer (
+    <xref ref-type="bibr">
+     Trokovic et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Scholpp et al, 2004
+    </xref>
+    ). Conversely, hyperactivation of FGF signalling through ectopic expression of constitutively active FGFR results in brain caudalization by the preferential selection of ventral fates in the region of the MHB at the expense of dorsal or more anterior tissue fates (
+    <xref ref-type="bibr">
+     Ota et al, 2010
+    </xref>
+    ). Remarkably, we have demonstrated that ectopic expression of FGFR1-Δ6 in the developing zebrafish embryo disrupts endocytosis of activated receptors, resulting in sustained FGFR activation that causes neuronal patterning defects consistent with those observed upon injection of constitutively activated FGFR (
+    <xref ref-type="bibr">
+     Ota et al, 2010
+    </xref>
+    ). Our attempts to ‘knockdown' endogenous zNedd4-1 (zNedd4a) using two different morpholinos were unsuccessful (possibly due to an early and large deposition of maternal zNedd4a mRNA—
+    <a>
+     Supplementary Figure S7C
+    </a>
+    ), and massive overexpression of a catalytically inactive zNedd4-1 (CS) resulted in cell death, in line with the known role of Nedd4-1 in promoting cellular growth described above.
+   </p>
+   <p>
+    In summary, our work demonstrates an important role for Nedd4-1 in promoting endocytosis of FGFR1 and downregulation of its signalling activity, with important consequences to neural stem cell differentiation, embryonic patterning, and brain development.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Reagents, cell lines, constructs, transfections, protein purification,
+     <em>
+      in vitro
+     </em>
+     binding assays and peptide array screens
+    </title>
+    <p>
+     Detailed in the
+     <a>
+      Supplementary data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence polarization experiments
+    </title>
+    <p>
+     A total of 20 nM of Alexa-488-conjugated peptide 2 were incubated with the indicated concentrations of 6xHis-hNedd4-1-WW3 (WT or WA mutant that cannot bind the PY motif), 6xHis-hNedd4-1 C2 (in the absence or presence of 1 μM or 1 mM of CaCl
+     <sub>
+      2
+     </sub>
+     ) or 6xHis-hNedd4-1 C2–WW3 in binding buffer (PBS, 1 mM DTT, 100 μg/ml BSA) in a 384-well plate (black; polystyrene; flat-bottom; Corning 3574). For competition experiment, 20 nM Alexa-488-conjugated peptide 2 or βENaC PY motif peptide were incubated with 0.5 μM 6xHis-hNedd4-1-WW3 domain in binding buffer plus the indicated concentrations of unlabelled competitor βENaC PY peptide. All experiments were performed in duplicate at 24°C. Fluorescence intensities were determined after 2 h, using an Analyst HT fluorimeter (Molecular Devices; excitation filter: 485 nm with 20 nm bandwidth; emission filter: 530 nm with 25 nm bandwidth; three readings per well; time between readings: 100 ms; integration time: 1 s) and fluorescence polarization calculated according to the formula
+     <em>
+      P
+     </em>
+     =(
+     <em>
+      F
+     </em>
+     <sub>
+      parallel
+     </sub>
+     −
+     <em>
+      F
+     </em>
+     <sub>
+      perpendicular
+     </sub>
+     )/(
+     <em>
+      F
+     </em>
+     <sub>
+      parallel
+     </sub>
+     +
+     <em>
+      F
+     </em>
+     <sub>
+      perpendicular
+     </sub>
+     ) using the LJL Criterion Host software (G-factor=0.92;
+     <em>
+      P
+     </em>
+     , fluorescence polarization;
+     <em>
+      F
+     </em>
+     <sub>
+      parallel
+     </sub>
+     and
+     <em>
+      F
+     </em>
+     <sub>
+      perpendicular
+     </sub>
+     , fluorescence intensities parallel and perpendicular to excitation plane). The change relative to baseline FP (in the absence of protein) was plotted in millipolarization units (mP). To obtain dissociation constants (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ), baseline-corrected FP values were analysed by non-linear regression in GraphPad Prism, using a one-site specific binding model. The indicated errors of the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values correspond to standard error of the fit. For the competition experiments, raw FP values (mP) were plotted and analysed using a one-site competitive binding model for (PY+WW3+PYcompetitor) and linear best fit model for (VL
+     <sup>
+      ***
+     </sup>
+     PSR+WW3+PY competitor).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Competition experiment (western blotting)
+    </title>
+    <p>
+     A total of 10 μg of purified 6xHis-hNedd4-1-WW3 domain immobilized on Ni
+     <sup>
+      2+
+     </sup>
+     NTA resin was incubated with 10 μg of biotin-labelled peptide 2 in PBS for 2 h at 4°C. Aliquots from each sample were taken before competition. Increasing concentrations of competitor (unlabelled βENaC PY peptide) was added to the reaction and the mixture was further incubated for 1 h at 4°C. Samples were washed (× 2) with HNTG and binding of biotin-peptide 2 to hNedd4-1-WW3 domain before and after competition was detected by blotting with streptavidin-HRP. Precipitation of 6xHis-hNedd4-1-WW3 domain was detected by immunoblotting with anti-His antibodies. As a positive control, a similar experiment was performed using biotin-labelled PY peptide.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     IP and ubiquitylation experiments in cells
+    </title>
+    <p>
+     Cells were transfected with human FGFR1 (WT and mutants) and V5-tagged hNedd4-1 (WT or catalytically inactive CS mutant) and lysed in lysis buffer as described (
+     <xref ref-type="bibr">
+      Persaud et al, 2009
+     </xref>
+     ). To detect receptor ubiquitylation, 1 mg of cleared cell lysates was treated with 1% SDS and boiled for 5 min to dissociate protein complexes. The boiled lysates were then diluted 11 times with lysis buffer before IP of the receptor with anti-GFP and blotting with anti-ubiquitin (anti-Ub) antibodies. Co-IP of FGFR1 variants with hNedd4-1 was determined by IP of the receptor from (unboiled) cell lysate with anti-GFP and immunoblotted with anti-V5 antibodies for hNedd4-1. For co-IP of endogenous proteins, 1.5 mg proteins from lysed embryonic neural stem cells (grown in the presence of FGF2) were immunoprecipitated with anti-FGFR1 antibody (Flg (C-15); Santa Cruz) and immunoblotted with anti-hNedd4-1 antibodies.
+    </p>
+    <p>
+     For knockdown experiments, HeLa cells were transfected with hFGFR1-GFP, 6xHis-Ub, and two shRNAmirs directed against hNedd4-1 (OpenBiosystems: V2LHS_254872 and V2LHS_72553, all in pGIPZ). Cells were serum starved 1 day after transfection in DMEM for 36 h and then treated with 100 ng/ml hFGF2+10 μg/ml heparin for the indicated times before lysis and performing ubiquitylation and binding experiments. For knockdown experiments in human neural stem cells, we transfected cells with hNedd4-1 directed (V2LHS_72553) or non-specific shRNAmir (RHS4346) in pGIPZ. The next day, the medium was supplemented with 0.5 μg/ml puromycin to enrich for transfected cells for another 3 days. Cells were grown for another day without puromycin before lysis and IP of FGFR1 as described above.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Signalling experiments
+    </title>
+    <p>
+     HeLa cells were transfected with GFP-tagged hFGFR1-WT or hFGFR1-6. They were serum starved and stimulated with human FGF2 (100 ng/ml)+Heparin (10 μg/ml) for the indicated times, lysed, the receptor immunoprecipitated with anti-GFP antibodies and its activation determined by immunoblotting with anti-phospho-FGFR1-Y653 antibodies. Lysates were immunoblotted with the indicated antibodies to detect total or phosphorylated proteins.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Immunofluorescence and flow cytometry analyses
+    </title>
+    <p>
+     For knockdown experiments, HeLa cells stably expressing shRNA pGIPZ V2LHS_72553 or pGIPZ control (RHS4346) were transfected with GFP-hFGFR1 as above, plated onto glass coverslips and starved overnight. Cells were then stimulated with 100 ng/ml FGF2+10 μg/ml Heparin for the indicated times, fixed in 4% PFA, stained with anti-GFP antibodies and imaged on a LSM510 (Zeiss) confocal microscope.
+    </p>
+    <p>
+     To analyse endocytosis of hFGFR1 (WT or mutants) by microscopy, we biotinylated human FGF2 on Cys residues as described (
+     <xref ref-type="bibr">
+      Lee et al, 1989
+     </xref>
+     ). HeLa cells were transfected with GFP-hFGFR1 (WT or mutant) cDNA, transferred to coverslips, starved, incubated with biotinylated FGF2 (100 ng/ml+10 μg/ml Heparin) for 45 min at 4°C, washed and incubated with Streptavidin conjugated to Cy3 or Cy5 for 15 min at 4°C. Cells were kept on ice or transferred to 37°C for the indicated times before fixation and analysis by confocal microscopy.
+    </p>
+    <p>
+     For quantification of receptor downregulation or endocytosis, HeLa cells were transfected with GFP-hFGFR1 (WT or mutant) and starved as above. Cells were trypsinized and kept in suspension at 37°C for 4 h in starvation medium for recovery, then incubated with 100 ng/ml biotinylated FGF2+10 μg/ml Heparin at 4°C for 45 min. To measure net removal of FGFR1 from the PM under constant stimulation conditions (i.e. receptor downregulation), cells were transferred to 37°C for the indicated times in the continued presence of biotinylated FGF2, washed and Streptavidin-Cy5 added for another 20 min at 4°C. To determine kinetics of endocytosis of FGFR1 bound to its ligand, cells were pulsed with 100 ng/ml biotinylated FGF2+10 μg/ml Heparin at 4°C as above, washed and chased at 37°C for the indicated times followed by incubation with Streptavidin-Cy5 as above. Alternatively, cells were incubated at 4°C with FGF2-Biotin, washed, incubated with Streptavidin-Cy5, returned to 37°C for the indicated times, followed by acid stripping with ice-cold stripping buffer (0.2 M Glycine pH 2.5 and 0.5 M NaCl). In all experiments, GFP and Cy5 fluorescence intensity was measured by FACS using a FACSCalibur or LSRII (BD Instruments). Data were analysed with FlowJo software by gating on living, GFP-positive cells and measuring associated Cy5 fluorescence. All experiments were performed in duplicates and repeated 2–3 times. Differences between control and test groups were evaluated statistically by pooling data from independent experiments and performing an unpaired Student's
+     <em>
+      t
+     </em>
+     -test.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Differentiation of human neural stem cells
+    </title>
+    <p>
+     Human embryonic neural stem cells (clone hf 5205;
+     <xref ref-type="bibr">
+      Pollard et al, 2009
+     </xref>
+     ) were transfected with GFP-FGFR1 (WT or Δ6 mutant). To induce differentiation, EGF was removed and FGF2 reduced to 50%. After 3 days, cells were re-plated onto laminin-coated coverslips and grown for 4 days in the same medium. Differentiation status of cells was then determined by confocal microscopy with the indicated markers and scored blindly by eye by two independent observers.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Zebrafish experiments
+    </title>
+    <p>
+     Injection and analysis were performed using the TLxAB background. One-cell stage embryos were injected with 25 pg of GFP-FGFR1-WT, GFP-FGFR1-Δ6, GFP-zFGFR1-WT, GFP-zFGFR1-Δ6, or kinase-inactive FGFR1-KI mRNA synthesized using the mMESSAGE mMACHINE system (Ambion) from linearized plasmids as per the manufacturer's instruction. Fluorescence imaging was done by immobilizing live embryos on a coverslip in 0.8% agarose, and imaging using a Zeiss 710 laser scanning confocal microscope.
+    </p>
+    <p>
+     Antisense RNA probes were produced with a digoxygenin RNA-labelling kit (Roche) according to the manufacturer's instructions using plasmids containing cDNA for
+     <em>
+      emx1
+     </em>
+     ,
+     <em>
+      pax2
+     </em>
+     , and
+     <em>
+      krox20
+     </em>
+     . Embryos were cleared in 100% methanol, mounted in benzylbenzoate/benzylalcohol (2:1), and imaged on an Axio Imager.M1 (Zeiss) compound microscope.
+    </p>
+    <p>
+     Reverse transcriptase PCR was performed by collecting roughly 50–100 embryos at 1-cell, 8-cell, and 1000-cell stage embryos and extracting total RNA using TRIzol reagent (Invitrogen) according to the manufacturer's instructions. In all, 1 μg of total RNA was used to generate first-strand cDNA using SuperScript II reverse transcriptase (Invitrogen) and Oligo (dT)
+     <sub>
+      12−18
+     </sub>
+     primer (Invitrogen). The primers designed to test the presence of zebrafish Nedd4a were as follows: forward 5′-TCCAGCATCCCCGATGGCCA, and reverse 5′-ATACCAGCCACCCGGCCGAT. PCR amplification was performed with Phusion High Fidelity DNA Polymerase (NEB) with the following conditions: 98°C for 30 s, 35 cycles of 98°C for 10 s, 68°C for 30 s, 72°C for 45 s, followed by 72°C for 10 min.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (532K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (254K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

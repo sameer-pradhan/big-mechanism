@@ -1,0 +1,1182 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3298002
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structure of a novel phosphotyrosine-binding domain in Hakai that targets E-cadherin
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Phosphotyrosine-binding domains, typified by the SH2 (
+     <span>
+      S
+     </span>
+     rc
+     <span>
+      h
+     </span>
+     omology 2) and PTB domains, are critical upstream components of signal transduction pathways. The E3 ubiquitin ligase Hakai targets tyrosine-phosphorylated E-cadherin via an uncharacterized domain. In this study, the crystal structure of Hakai (amino acids 106–206) revealed that it forms an atypical, zinc-coordinated homodimer by utilizing residues from the phosphotyrosine-binding domain of two Hakai monomers. Hakai dimerization allows the formation of a phosphotyrosine-binding pocket that recognizes specific phosphorylated tyrosines and flanking acidic amino acids of Src substrates, such as E-cadherin, cortactin and DOK1. NMR and mutational analysis identified the Hakai residues required for target binding within the binding pocket, now named the HYB domain. ZNF645 also possesses a HYB domain but demonstrates different target specificities. The HYB domain is structurally different from other phosphotyrosine-binding domains and is a potential drug target due to its novel structural features.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Hakai, phosphotyrosine, Src substrates, ubiquitin ligases, zinc fingers
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In eukaryotic cells, phosphorylation events regulate cell signalling by providing docking sites for protein domains, such as the
+    <span>
+     S
+    </span>
+    rc
+    <span>
+     h
+    </span>
+    omology 2 (SH2) and
+    <span>
+     p
+    </span>
+    hospho
+    <span>
+     t
+    </span>
+    yrosine-
+    <span>
+     b
+    </span>
+    inding (PTB) domains (
+    <xref ref-type="bibr">
+     Forman-Kay and Pawson, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yaffe, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pawson and Nash, 2003
+    </xref>
+    ). The SH2 was the first signalling domain to be identified and has been extensively characterized (
+    <xref ref-type="bibr">
+     Songyang et al, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Forman-Kay and Pawson, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yaffe, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pawson and Nash, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Liu et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Filippakopoulos et al, 2009
+    </xref>
+    ). The SH2 is a dedicated phosphotyrosine-binding domain and plays a critical role in signal transduction, hence making it a target for drug development (
+    <xref ref-type="bibr">
+     Pawson and Nash, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Machida and Mayer, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Taylor et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kasembeli et al, 2009
+    </xref>
+    ). Binding specificity of SH2 domains is generally conferred by the sequences flanking the C-terminus of the phosphotyrosine (pTyr), and motif recognition is usually relatively inflexible. The other major class of pTyr-binding domain is the PTB domain. The specificity of binding to the PTB domain is conferred typically by residues on the target that are N-terminal to the pTyr. However, the PTB domain also recognizes non-pTyr motifs (
+    <xref ref-type="bibr">
+     Forman-Kay and Pawson, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yaffe, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pawson and Nash, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Farooq and Zhou, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Smith et al, 2006
+    </xref>
+    ). Atypical phosphotyrosine-binding domains have also been detected in PKCδ and the human M2 pyruvate kinase (PKM2) (
+    <xref ref-type="bibr">
+     Benes et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Christofk et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    In 2002,
+    <xref ref-type="bibr">
+     Fujita et al (2002)
+    </xref>
+    discovered a novel ubiquitin E3 ligase protein that targeted pTyr sites on E-cadherin. The E3 ligase, Hakai, possesses three domains: a RING domain, a short pTyr recognition sequence and a proline-rich domain (
+    <xref ref-type="bibr">
+     Fujita et al, 2002
+    </xref>
+    ). Hakai is involved in the regulation of cell adhesion, cell migration and embryogenesis (
+    <xref ref-type="bibr">
+     Figueroa et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kaido et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gong et al, 2010
+    </xref>
+    ). Among the reported protein interactions of Hakai, its association with and ubiquitination of E-cadherin upon Src activation is the best characterized (
+    <xref ref-type="bibr">
+     Fujita et al, 2002
+    </xref>
+    ).
+   </p>
+   <p>
+    Based on molecular modelling,
+    <xref ref-type="bibr">
+     Fujita et al (2002)
+    </xref>
+    assumed the pTyr-binding domain of Hakai to be a derivative SH2 domain. Our previous experience analysing the SH2 domain of a similar E3 ubiquitin ligase, c-Cbl (
+    <xref ref-type="bibr">
+     Ng et al, 2008
+    </xref>
+    ) led us to examine the nature of the Hakai pTyr-binding domain to provide structural insights into its interaction with E-cadherin. In this study, we report that the Hakai pTyr-binding (HYB) domain consists of a homodimer formed at a structurally novel interface. Each monomer consists of two zinc-finger domains: a RING domain and a minimum pTyr-binding domain that incorporates a novel, atypical zinc coordination motif. Both domains play key roles in dimerization. The HYB domain is therefore composed of four zinc-binding domains cooperating to bind pTyr residues surrounded by acidic amino acids. Whereas the RING domain appears in other proteins, the atypical zinc-binding domain component is a novel protein fold that incorporates an intertwined configuration. In order to obtain its consensus target sequence, we have characterized the recognition motif of the HYB domain and identified several Src substrates that are also targeted. In addition, the HYB domain can also be found in a testis-specific ubiquitin E3 ligase, ZNF645, and possibly Ligand-of-Numb protein X1 and 2 (LNX1 and LNX2).
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     A novel protein fold in Hakai
+    </title>
+    <p>
+     We experimentally established that the minimum E-cadherin phosphotyrosine-binding sequence in Hakai was contained within amino acids 148–206 (aa 148–206) (
+     <a>
+      Supplementary Figure S1A–G
+     </a>
+     ). Circular dichroism analysis however revealed that purified Hakai (aa 148–206) was unstructured (
+     <a>
+      Supplementary Figure S1H
+     </a>
+     ), and was not suitable for crystallization. Therefore, the Hakai sequence spanning amino-acid residues 106–206 (aa 106–206) that contained both the RING domain and the minimum pTyr-binding domain, as represented schematically in
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , was purified and crystallized.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       A novel protein fold in Hakai. (
+       <strong>
+        A
+       </strong>
+       ) A schematic diagram of the Hakai protein. (
+       <strong>
+        B
+       </strong>
+       ) The crystal structure of Hakai (aa 106–206) reveals a dimer in an anti-parallel configuration. Each monomer contains three zinc coordination sites. Sites 1 and 2 lie in the RING domain. Site 3 is shared between the two monomers. (
+       <strong>
+        C
+       </strong>
+       ) The coordination of zinc ions (purple spheres) by the RING domain of Hakai is shown for one of the monomers. (
+       <strong>
+        D
+       </strong>
+       ) A schematic diagram of the cross-brace arrangement of the Hakai RING domain as shown in (
+       <strong>
+        C
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) The Hakai dimer forms an intertwined configuration spanning the points indicated in circles, with the entry and exit paths shown in green and brown arrows. The zinc-interacting side chains are shown as green and brown sticks. (
+       <strong>
+        F
+       </strong>
+       ) The backbone of the Hakai (aa 106–206) residues involved in intermolecular main-chain H-bonding and the zinc-coordinating side chains of adjacent monomers at the dimer interface are shown in cyan and yellow. The pink dots indicate the main-chain H-bonds; the red dots indicate the zinc coordination bonds. (
+       <strong>
+        G
+       </strong>
+       ) The monomers of the interlinked Hakai dimer are shown in surface representation and Cα trace, respectively. The Cα trace monomer enters and exits the other monomer at the red and black circles, respectively. Brown arrows show its entry and exit path. (
+       <strong>
+        H
+       </strong>
+       ) A schematic diagram of the novel Hakai interlinked arrangement as shown in (
+       <strong>
+        G
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The crystal structure of Hakai (aa 106–206) was solved at 1.9 Å resolution (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1I
+     </a>
+     ;
+     <a>
+      Supplementary Table SI
+     </a>
+     ). The striking feature of the crystal structure was the formation of a dimer from paired, anti-parallel Hakai (aa 106–206) monomers. Each monomer consisted of an N-terminal RING domain, followed by the C-terminal atypical zinc-binding domain that is contained within the experimentally derived minimum pTyr-binding domain. Furthermore, each monomer contained three zinc ions at three distinct sites. One zinc ion coordinated with the atypical zinc-binding domains of both monomers (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). The Hakai RING domain (residues 106–148) adopted a typical RING domain fold stabilized by coordinating with two zinc ions, forming a cross-brace arrangement (
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Borden, 2000
+     </xref>
+     ). The zinc-coordinating residues in the RING domain are also indicated in
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     .
+    </p>
+    <p>
+     The uniqueness of the Hakai (aa 106–206) region was revealed when the structure was compared with other proteins in the PDB (Protein Data Bank) using the DALI server (
+     <a>
+      http://ekhidna.biocenter.helsinki.fi/dali_server/
+     </a>
+     ). The results show that only the RING domain of Hakai is structurally similar to RING domains of other proteins. There is, however, no similarity beyond amino-acid residue 159 of the Hakai minimum pTyr-binding domain, which is located on the dimerization interface. The minimal pTyr-binding domain of Hakai adopts a novel, three-dimensional fold and contains three β-strands (β4, β5 and β6) and a C-terminal α-helix. The β-strands β4, β5 and β6 were in an extended configuration and formed anti-parallel β-sheets with the corresponding β-strands of the monomeric partner during homodimerization (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). The atypical zinc-finger motif within this region is formed by two histidine residues (H185 and H190) and one cysteine residue (C172) from one monomer and a second cysteine residue (C166) from the adjacent monomer (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S2
+     </a>
+     ), unlike a classical C2H2 zinc finger (ZnF). Although the Hakai (aa 106–206) region in each monomer fulfils the required criteria of the zinc coordination consensus pattern of cysteine and histidine residues [C-x(5)-C-x(12)-H-x(4)-H], it is not capable of forming the zinc coordination sphere by itself, since a second cysteine residue is required of its anti-parallel monomeric partner (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). Therefore, each dimer contains two atypical zinc-finger motifs.
+    </p>
+    <p>
+     The crystal structure of Hakai also shows that the two Hakai monomers intertwine through a stretch of residues ranging from F164 to Y176 during dimerization, resulting in the formation of three β-sheets based on 12 main-chain hydrogen bonds (
+     <xref ref-type="fig">
+      Figure 1E–H
+     </xref>
+     ). This novel interlinked configuration and the two atypical zinc ion interactions at the dimer interface are unique features of this distinctive homodimeric assembly. A surface area of ∼1650 Å
+     <sup>
+      2
+     </sup>
+     of each monomer (or ∼21% of each monomer surface) was formed at the dimer interface of Hakai (aa 106–206), with 34 hydrogen bond contacts between the monomers, as analysed by the PISA server (
+     <xref ref-type="bibr">
+      Krissinel and Henrick, 2007
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hakai forms a dimer in solution
+    </title>
+    <p>
+     A previous study alluded to the similarity between the Hakai (aa 106–206) polypeptide with the dimerization domain of the V(D)J recombination-activating protein RAG1 (
+     <xref ref-type="bibr">
+      Fujita et al, 2002
+     </xref>
+     ). In addition to the crystal structure, the intermolecular NOE cross-peaks corresponding to the amides of residues at the dimer interface also indicates that Hakai (aa 106–206) forms a dimer in solution (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). Significantly, the structures of the dimerization interface of the RAG1 domain (
+     <xref ref-type="bibr">
+      Bellon et al, 1997
+     </xref>
+     ) and Hakai (aa 106–206), as described in this study, are completely dissimilar. The formation of Hakai (aa 106–206) dimers in solution is also supported by the results obtained through dynamic light scattering, which show an apparent molecular weight of 24.1 kDa, twice than that of the monomer (
+     <a>
+      Supplementary Figure S3A
+     </a>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Hakai forms a dimer in solution. (
+       <strong>
+        A
+       </strong>
+       ) A 3D
+       <sup>
+        15
+       </sup>
+       N-NOESY spectrum showing the intermolecular NOE cross-peaks of amides corresponding to residues of Hakai (aa 106–206). (
+       <strong>
+        B
+       </strong>
+       ) WT Hakai (aa 106–206) and four Hakai (aa 106–206) point mutants were each separately used for gel-filtration chromatography. Their respective elution profiles were overlain and compared. (
+       <strong>
+        C
+       </strong>
+       ) HA- and FLAG-tagged Hakai were overexpressed in the presence of Src in HEK293 cells. FLAG immunoprecipitates were analysed for HA-tagged Hakai. (
+       <strong>
+        D
+       </strong>
+       ) A schematic representation of the point mutations made to C166, C172, H185 and H190 in Hakai. (
+       <strong>
+        E
+       </strong>
+       ) Cell lysates containing WT Hakai or Hakai mutants were used to analyse the effects of Hakai dimerization on E-cadherin recognition.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next examined whether zinc coordination is necessary for the dimerization of Hakai and its ability to interact with its target. We first investigated whether mutations of the zinc-coordinating residues within the minimum pTyr-binding domain (C166, C172, H185 and H190) would affect the proposed Hakai dimerization. The Hakai (aa 106–206) polypeptides containing point mutations at these residues were separated on a calibrated gel-filtration column. Their gel-filtration elution profiles show that each point mutant had an apparent molecular weight equivalent to a monomeric unit of wild-type (WT) Hakai (aa 106–206) protein (∼12 kDa), whereas WT Hakai eluted as a dimer (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). Furthermore, circular dichroism performed using all the Hakai (aa 106–206) mutants ascertained that each one has maintained a well-defined secondary structure (
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ). These findings suggest that each zinc-coordinating residue is instrumental in forming the dimer interface.
+    </p>
+    <p>
+     Having determined that Hakai (aa 106–206) dimerizes in solution, we next examined if this occurs with full-length proteins. Full-length FLAG-tagged Hakai was observed to bind to its HA-tagged counterpart (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), indicating that dimerization also occurs between the full-length proteins. To further determine whether Hakai dimerization is required for its function in binding its targets, the full-length proteins containing alanine point mutations of the zinc-coordinating residues (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ) were tested for their ability to bind to tyrosine-phosphorylated E-cadherin. HEK293 cells were used for such studies as they did not express detectable levels of endogenous E-cadherin, which could have interfered with the mammalian cellular assays used. The evidence presented in
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     indicates that none of the four Hakai point mutants interacted with tyrosine-phosphorylated E-cadherin. The collective results therefore show that zinc coordination is necessary for both dimerization of Hakai and its subsequent function in interacting with its target.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hakai domain recognizes acidic residues
+    </title>
+    <p>
+     Having established the novel characteristics of the Hakai zinc-coordinated homodimer, we sought to identify the target motif of this new domain. At this point, the only described target motif was in Src-phosphorylated E-cadherin. Within this motif, two (Y755 and Y756 in mouse; Y753 and Y754 in humans) of three consecutive tyrosine residues were reported to be involved in the interaction with Hakai (
+     <xref ref-type="bibr">
+      Fujita et al, 2002
+     </xref>
+     ). To analyse the relative contributions of the three tyrosine residues in binding to Hakai, mutations were made to the tyrosine residues (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). To determine which of the tyrosines were phosphorylated, we analysed the patterns of the tyrosine phosphorylation of the point mutants after v-Src activation. The pTyr signals shown in
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     indicate that all three adjacent tyrosines were phosphorylated.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Hakai domain recognizes acidic residues. (
+       <strong>
+        A
+       </strong>
+       ) Y753, Y754 and Y755 (red) of E-cadherin were mutated to phenylalanine (blue) in different combinations. (
+       <strong>
+        B
+       </strong>
+       ) The WT E-cadherin and the mutants shown in (
+       <strong>
+        A
+       </strong>
+       ) were overexpressed in HEK293 cells with v-Src to analyse their pTyr signals. (
+       <strong>
+        C
+       </strong>
+       ) HEK293 cells were co-transfected with WT E-cadherin or its mutants together with Hakai to identify the tyrosine residues recognized by Hakai. (
+       <strong>
+        D
+       </strong>
+       ) The Y754-phosphorylated and non-phosphorylated E-cadherin peptides were titrated against Hakai (aa 106–206) using ITC. The top panels show the heat release profiles after baseline correction and the lower panels indicate the binding isotherms for the interactions. The dissociation constant (
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       ) and binding stoichiometry (
+       <em>
+        N
+       </em>
+       ) are shown in the table. (
+       <strong>
+        E
+       </strong>
+       ) The E-cadherin aa 747–758 were each substituted with alanine. (
+       <strong>
+        F
+       </strong>
+       ) The E-cadherin mutants from (
+       <strong>
+        E
+       </strong>
+       ) and Hakai were co-transfected into HEK293 cells to identify the target motif on E-cadherin. (
+       <strong>
+        G
+       </strong>
+       ) E-cadherin and Hakai were co-transfected into HEK293 cells. Their interaction was analysed through immunoprecipitation of FLAG-tagged Hakai. (
+       <strong>
+        H
+       </strong>
+       ) Cortactin was co-transfected into HEK293 cells with Hakai. The interaction between cortactin and Hakai was compared with that in (
+       <strong>
+        G
+       </strong>
+       ). (
+       <strong>
+        I
+       </strong>
+       ) Y482 and Y485 (red) were separately substituted with phenylalanine (blue). (
+       <strong>
+        J
+       </strong>
+       ) WT and mutated cortactin were co-transfected into HEK293 cells with Hakai, in the absence or presence of v-Src. The pTyr signal of cortactin and its interaction with Hakai were analysed. (
+       <strong>
+        K
+       </strong>
+       ) An alanine scan of cortactin aa 478–489. Each residue was substituted with alanine (blue). G484 was not mutated as glycine mutations affect the protein structure. (
+       <strong>
+        L
+       </strong>
+       ) The cortactin mutants described in (
+       <strong>
+        K
+       </strong>
+       ) were co-transfected into HEK293 cells with Hakai. The interaction between the cortactin mutants and Hakai was determined using immunoprecipitation.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next examined the importance of the three tyrosine residues in E-cadherin for its interaction with Hakai. The E-cadherin mutants used in the earlier experiment were analysed for their potential to bind to WT Hakai. The results shown in
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     indicate that Y754 is the only tyrosine significantly involved in binding; each mutant containing a substitution in this position did not bind Hakai, whereas all other mutants showed significant binding. These combined results also show that while Src binds to and phosphorylates most of the E-cadherin mutants, all the mutants with a Y754F substitution do not bind to Hakai, even when phosphorylated. This implies that the interaction between Hakai and E-cadherin depends on the direct recognition of specific pTyr residues on E-cadherin by Hakai. To verify the necessity of Y754 phosphorylation for the interaction between E-cadherin and Hakai, isothermal titration calorimetry (ITC) was performed using phosphorylated and non-phosphorylated E-cadherin peptides corresponding to aa 749–761 with Hakai (aa 106–206). The results in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     show that binding occurred only with the phosphorylated peptide. Furthermore, the results also indicate that only one E-cadherin peptide binds to the Hakai (aa 106–206) dimer at any one time.
+    </p>
+    <p>
+     In a similar manner, we analysed the importance of the amino-acid residues flanking the tyrosines for the interaction between the two proteins via an alanine scan (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). The immunoprecipitation results in
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     show that there were profound contributions from the aspartic acid D756 and glutamic acid E757, and significant contributions from valine V752 and aspartic acid D750. Consequently, a cluster of negative charges from the acidic amino acids is formed around the centrally binding tyrosine 754 of E-cadherin.
+    </p>
+    <p>
+     To verify the motif recognized by Hakai, additional target proteins were identified. This identification was accomplished by analysing Hakai-binding proteins phosphorylated by Src using mass spectrometry. A list of the proteins obtained from a typical experiment is appended in
+     <a>
+      Supplementary Figure S4A and B
+     </a>
+     , in which cortactin was identified as a potential target. Mouse cortactin is phosphorylated by Src primarily on Y482 and Y485 (
+     <xref ref-type="bibr">
+      Ren et al, 2009
+     </xref>
+     ). Interestingly, these two tyrosines are also surrounded by several acidic residues. We investigated whether Hakai binds to Src-phosphorylated cortactin, as well as the importance of Y482, Y485 and their flanking residues in this interaction. In addition to the WT proteins, phenylalanine substitution and alanine scan experiments were also performed on cortactin as described for E-cadherin. The results for cortactin mirror those obtained for E-cadherin. Like E-cadherin, cortactin interacts with Hakai only when phosphorylated by Src (
+     <xref ref-type="fig">
+      Figure 3G and H
+     </xref>
+     ). Phenylalanine substitutions of the Src-phosphorylated tyrosine residues revealed that Y482 is the main tyrosine residue involved in Hakai binding (
+     <xref ref-type="fig">
+      Figure 3I and J
+     </xref>
+     ). Furthermore, the acidic residues (E478, D480 and E486) surrounding Y482 contributed profoundly to the interaction between Hakai and E-cadherin, and significant contribution was also observed from S487 (
+     <xref ref-type="fig">
+      Figure 3K and L
+     </xref>
+     ).
+    </p>
+    <p>
+     To further verify that Hakai targets pTyrs of Src substrates with surrounding acidic residues, another Src substrate was selected: DOK1, which also contains pTyrs with adjacent acidic groups (
+     <xref ref-type="bibr">
+      Luo et al, 2008
+     </xref>
+     ). One such particular tyrosine residue was found to be a primary phosphorylation site of Src (
+     <xref ref-type="bibr">
+      Luo et al, 2008
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). The results show that DOK1 interacts with Hakai. Furthermore, DOK1 competed with endogenous cortactin for Hakai, implying that DOK1 and cortactin bind Hakai on the same site (
+     <xref ref-type="fig">
+      Figure 4A–C
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       DOK1 interacts with Hakai. (
+       <strong>
+        A
+       </strong>
+       ) The sequence alignment of the different Src phosphorylation target sites in E-cadherin, cortactin and DOK1. The acidic amino-acid residues flanking the phosphorylated tyrosine are shown in blue. (
+       <strong>
+        B
+       </strong>
+       ) Hakai and DOK1 were overexpressed in HEK293 cells in the absence or presence of Src. FLAG immunoprecipitates were analysed for DOK1 interaction. (
+       <strong>
+        C
+       </strong>
+       ) DOK1 was co-transfected into HEK293 cells with Hakai to study its competition with endogenous cortactin for binding to Hakai. FLAG immunoprecipitates were immunoblotted for cortactin.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Target-binding amino acids of Hakai
+    </title>
+    <p>
+     To identify the residues in Hakai within aa 106–206 necessary for its interaction with E-cadherin, 2D
+     <sup>
+      1
+     </sup>
+     H–
+     <sup>
+      15
+     </sup>
+     N-HSQC spectra of
+     <sup>
+      15
+     </sup>
+     N-labelled Hakai (aa 106–206) were acquired in the absence and presence of a pTyr peptide derived from amino-acid residues 749–761 of E-cadherin. Based on the changes in the NMR spectrum of Hakai (aa 106–206), several residues underwent perturbations in chemical shift (
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     ). A minimum criterion of a chemical shift difference Δδ
+     <sub>
+      p.p.m.
+     </sub>
+     &gt;0.15 p.p.m. was applied. Five residues were identified (Y176, H185, N187, H188 and R189), which resided in the Hakai minimum pTyr-binding domain, whereas a sixth residue (H127) was from the RING domain (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). However, the crystal structure shows that only four of these six residues reside in a close three-dimensional spatial proximity. While H127, Y176, H185 and R189 face the interior of the E-cadherin-binding site (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ) and form a positively charged pocket, N187 and H188 face outward and are not part of the pocket (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Target-binding amino acids of Hakai. (
+       <strong>
+        A
+       </strong>
+       ) An overlay of the
+       <sup>
+        1
+       </sup>
+       H–
+       <sup>
+        15
+       </sup>
+       N-HSQC spectra of Hakai (aa 106–206) in the absence (green) or the presence (red) of an tyrosine-phosphorylated E-cadherin peptide. (
+       <strong>
+        B
+       </strong>
+       ) A graphical representation of the combined chemical shift perturbation (p.p.m.) plotted against all Hakai (aa 106–206) residues, with the cutoff at the combined chemical shift perturbation of 0.15 p.p.m. (
+       <strong>
+        C
+       </strong>
+       ) The six potential E-cadherin-interacting residues in Hakai (aa 106–206) are highlighted as sticks in the ribbon representation of the crystal structure. (
+       <strong>
+        D
+       </strong>
+       ) An electrostatic surface potential representation of Hakai (aa 106–206) shows that H127, Y176, H185 and R189 form part of the positively charged pocket. (
+       <strong>
+        E
+       </strong>
+       ) The interaction between E-cadherin and the Hakai mutants of the residues identified in (
+       <strong>
+        C
+       </strong>
+       ) was analysed by immunoprecipitating FLAG-tagged Hakai. (
+       <strong>
+        F
+       </strong>
+       ) HEK293 cells were transfected with the identified Hakai mutants, and their interaction with endogenous cortactin was studied. (
+       <strong>
+        G
+       </strong>
+       ) Immunoprecipitates of either WT Hakai or the Hakai zinc-coordinating mutants were tested for interaction with endogenous cortactin. (
+       <strong>
+        H
+       </strong>
+       ) A schematic representation of the Hakai dimer and the HYB domain.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     These residues identified through
+     <em>
+      in vitro
+     </em>
+     peptide-domain binding assays were then further tested by expressing full-length point mutants in HEK293 cells. The immunoprecipitation results shown in
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     indicate that the residues identified in the NMR analysis also abrogated binding when mutated, with the exception of residues N187 and H188. As expected, the required residues were situated on the interior of the target-binding domain, whereas the non-binding residues, N187 and H188, were on the exterior. Similar results were obtained with experiments using cortactin (
+     <xref ref-type="fig">
+      Figure 5F
+     </xref>
+     ), demonstrating the importance of these Hakai residues. Furthermore, dimerization of Hakai is also required, as with E-cadherin, as cortactin was unable to bind to Hakai containing mutations to its zinc-coordinating residues (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     ).
+    </p>
+    <p>
+     Based on the evidence obtained, it can be concluded that two Hakai monomers interact in an anti-parallel manner to form a dimer via the interlinked zinc-coordinating domain. This domain binds pTyrs flanked by acidic amino acids in Src substrates. The target-binding domain resulting from this dimerization process represents the functional Hakai phosphotyrosine-binding domain, henceforth referred to as the HYB (
+     <span>
+      H
+     </span>
+     akai p
+     <span>
+      Y
+     </span>
+     -
+     <span>
+      b
+     </span>
+     inding) domain (
+     <xref ref-type="fig">
+      Figure 5H
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S5
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The HYB domain in other proteins
+    </title>
+    <p>
+     We next investigated whether the HYB domain is found in other proteins. Literature and database searches revealed that the testis-specific ubiquitin E3 ligase ZNF645 exhibited high-sequence homology with Hakai (
+     <xref ref-type="bibr">
+      Liu et al, 2010
+     </xref>
+     ), as shown in
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     . We therefore questioned whether ZNF645 could also interact with E-cadherin and cortactin. The results in
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     show that ZNF645 bound to v-Src-phosphorylated E-cadherin but not to cortactin (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). This result implies that although there is significant homology between Hakai and ZNF645, they are likely to have their own sets of targets due to the differences in their sequences between the key zinc-coordinating residues.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       The HYB domain in other proteins. (
+       <strong>
+        A
+       </strong>
+       ) A comparison of the Hakai protein from amino-acid residues 127–191 and the equivalent sequence in ZNF645. (
+       <strong>
+        B
+       </strong>
+       ) E-cadherin and ZNF645 were analysed for their interaction using immunoprecipitation. Hakai was used as a positive control. The dotted arrow indicates a non-specific band; the solid arrow indicates the ZNF645 band. (
+       <strong>
+        C
+       </strong>
+       ) ZNF645 was overexpressed in HEK293 cells and its interaction with endogenous cortactin was analysed using immunoprecipitation. (
+       <strong>
+        D
+       </strong>
+       ) Sequence alignment of LNX1 and LNX2 with Hakai and ZNF645 based on the conserved zinc-coordinating residues from Hakai aa 106–206.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Based on the key amino-acid residues involved in zinc coordination and binding in HYB, we searched the NCBI database to analyse gene origins and protein homologies (
+     <a>
+      Supplementary Table SII
+     </a>
+     ). Two interesting results emerged. First, a comparison of the species distribution of the Hakai and ZNF645 gene products indicated that the latter, found only in primates, is most likely a recent copy of the former. Second, ZNF645 is an intronless gene, implying that it is a retrotransposed copy of Hakai.
+    </p>
+    <p>
+     Further database searches based on the conserved zinc-coordinating cysteine and histidine residues within the HYB domain showed that a similar series of residues is present in LNX1 and LNX2 (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). This implies that the HYB domain may be distributed in other proteins, although the latter observation requires experimental confirmation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Novel structure of the HYB domain
+    </title>
+    <p>
+     The structures of the five pTyr-binding domains that have been discovered to date are illustrated in
+     <xref ref-type="fig">
+      Figure 7A and B
+     </xref>
+     . All of the domains, except for the HYB domain, are contained within one monomer. The HYB domain consists of a pair of monomers arranged in an anti-parallel configuration and is composed of two RING and two atypical zinc-coordinating domains. From this comparison, it is apparent that all five of these pTyr domains have completely different structures, with different strategies to recognize tyrosine phosphorylation.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Novel structure of the HYB domain. (
+       <strong>
+        A
+       </strong>
+       ) Representative structures of SH2 (PDB code 1SHB), PTB (PDB code 1SHC), PKCδ C2 (PDB code 1YRK) and PKM2 (PDB code 3BJF) in ligand-free forms are compared with the HYB domain. (
+       <strong>
+        B
+       </strong>
+       ) The corresponding topologies of the domains in (
+       <strong>
+        A
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    ZnFs consist of a diverse group of protein domains that are able to bind to zinc ions. Initially thought to bind only nucleic acids, ZnFs were later shown to mediate protein–protein interactions (
+    <xref ref-type="bibr">
+     Gamsjaeger et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Klug, 2010
+    </xref>
+    ). The common structural feature in the different ZnF classes, where determined, is that the zinc-coordinating cysteine and histidine residues are all situated on the same monomer. The evidence in this study has shown that Hakai, in addition to having a typical RING domain, possesses an atypical ZnF with a novel structural fold. In contrast to previously reported structures, the formation of this atypical ZnF requires amino-acid residues from two intertwining Hakai monomers. Three of the four residues are contributed by one monomer, whereas one cysteine residue comes from another monomer, implying that the formation of this ZnF is accompanied by dimerization. Although this particular ZnF is novel by itself, it is made more intriguing by the fact that this domain lies within a pTyr-binding region. The results from our study demonstrate that in conjunction with the RING domain of Hakai, dimerization of Hakai through the formation of the atypical ZnF creates a novel pTyr-binding domain, called the HYB domain. Originally postulated to recognize multiple consecutive pTyrs, it was instead found that the HYB domain recognizes a single pTyr residue flanked by acidic amino acids. Interestingly, this may indicate a bias towards Src substrates because Src kinase has a preferred, but not strict, recognition sequence of Y(p)-E-E-I/V (
+    <xref ref-type="bibr">
+     Yeatman, 2004
+    </xref>
+    ).
+   </p>
+   <p>
+    The zinc-coordinating residues of each Hakai monomer consist of a conserved series of nine cysteine and three histidine residues that facilitate Hakai dimerization. Based on sequence analysis, LNX1 and LNX2 also harbour such a sequence motif, although the last conserved histidine is replaced by cysteine. While the full structures of the LNX proteins are currently unknown, it is possible that, based on sequence homology, they also contain the HYB domain. As the HYB domain contains a RING domain, its occurrence would be predominantly in E3 ubiquitin ligases, which has implications in the way these proteins recognize their targets and effect downstream signalling.
+   </p>
+   <p>
+    Although the zinc-coordinating residues within the ZnFs of the HYB domain are critical, the protein folding of the primary sequences surrounding the cysteine and histidine residues are also important in defining its characteristics. This chelation-derived folding provides the necessary three-dimensional structure while specific amino acids within the sequences between the zinc-coordinating residues are instrumental in recognizing and binding phosphorylated tyrosines of target proteins. In the case of Hakai, four residues were identified through NMR studies to bind to E-cadherin, H127, Y176, H185 and R189. It is noteworthy that there is strict conservation of these residues between Hakai and ZNF645. On the other hand, the differences in their binding targets are most likely dictated by amino acids that are not common to both proteins, although this aspect requires further study. It would also be interesting to observe if LNX1 or LNX2 binds phosphorylated tyrosine residues. Based on sequence homology, both LNX1 and LNX2 harbour most of the zinc-coordinating residues of the HYB domain. However, only LNX2 has the equivalent of R189 of Hakai. Neither of the LNX proteins has the equivalent of Y176. It is possible that these two proteins bind a different set of tyrosine-phosphorylated proteins by utilizing different residues within their sequences. Thus, while the basic sequence required to provide a unique pTyr-binding structure is apparent within the four proteins, a number of questions regarding the exact pTyr-binding requirements of these proteins remain unanswered.
+   </p>
+   <p>
+    In conclusion, we have identified a novel HYB domain, made up of two structurally atypical ZnF domains, which recognize a previously unidentified pTyr motif. Our structural data indicate that the HYB domain forms a positively charged pocket, implying that it represents a highly suitable drug target. As dysfunctional E3 ubiquitin ligases are often associated with diseases (
+    <xref ref-type="bibr">
+     Burger et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lohr et al, 2010
+    </xref>
+    ), the presence of the HYB domain in these proteins offers a specific target for directed therapies.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Plasmids
+    </title>
+    <p>
+     Mouse Hakai, human E-cadherin and avian v-Src were gifts from W Birchmeier (Max-Delbrück-Center for Molecular Medicine, Germany), W Hunziker (IMCB, Singapore) and XM Cao (IMCB, Singapore), respectively. Mouse cortactin was from Addgene (Cambridge, MA) (plasmid 26722, deposited by A Weaver). Human ZNF645 and DOK1 were from Origene (Rockville, MD). Where necessary, the genes were cloned into pXJ40–HA or pXJ40–FLAG. For structural studies, Hakai constructs were cloned into pGEX6P-1 (GE Healthcare, UK). Point mutants and truncates were generated using the proofreading
+     <em>
+      Pfu
+     </em>
+     DNA polymerase.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Antibodies and reagents
+    </title>
+    <p>
+     Mouse anti-FLAG M2, rabbit anti-FLAG and anti-HA and agarose-conjugated anti-FLAG M2 beads were obtained from Sigma-Aldrich (St Louis, MO). Rabbit GST, cortactin, E-cadherin and DOK1 antibodies were purchased from Santa Cruz Biotechnology (Santa Cruz, CA). Protein-A-conjugated agarose beads were from Roche Molecular Biochemicals (Germany). Mouse anti-E-cadherin and HRP-conjugated anti-pTyr PY20 were from BD Transduction Laboratories (Lexington, KY). Mouse anti-β-actin was obtained from Abcam (Cambridge, MA).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell lines and transfection
+    </title>
+    <p>
+     HEK293 cells were purchased from ATCC (Manassas, VA) and maintained as described (
+     <xref ref-type="bibr">
+      Yusoff et al, 2002
+     </xref>
+     ). Transfections were performed using Lipofectamine 2000 (Invitrogen, Carlsbad, CA) according to the manufacturer's instructions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Immunoprecipitation and immunoblotting
+    </title>
+    <p>
+     Immunoprecipitation and immunoblotting were carried out as described (
+     <xref ref-type="bibr">
+      Yusoff et al, 2002
+     </xref>
+     ) with the following modifications. HEK293 cells were harvested 24 h post-transfection with a lysis buffer containing protease inhibitors (Roche) and 1 mM Na
+     <sub>
+      3
+     </sub>
+     VO
+     <sub>
+      4
+     </sub>
+     . Immunoprecipitations were performed using agarose-conjugated anti-FLAG or protein-specific antibodies followed by incubation with protein-A-conjugated agarose beads at 4°C.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Liquid chromatography–mass spectrometry/mass spectrometry
+    </title>
+    <p>
+     Immunoprecipitates were separated by SDS–PAGE, and stained with Coomassie Blue G250. Protein bands were excised and washed with 25 mM ammonium bicarbonate (ABB) in 50% acetonitrile (ACN) buffer thrice. The proteins in the gel were reduced with 10 mM DTT in 25 mM ABB buffer, alkylated with 5 mM iodoacetamide, dehydrated and digested with trypsin overnight. After in-gel digestion, the solution was transferred to a clean tube and sonicated for 30 min in the presence of 50 μl 50% ACN and 5% acetic acid for protein extraction. This extraction procedure was repeated three times; the pooled extracts were dried with a vacuum concentrator. The samples were processed and analysed as described (
+     <xref ref-type="bibr">
+      Zhang et al, 2010
+     </xref>
+     ) using a LTQ-FT ultra mass spectrometer.
+    </p>
+    <p>
+     For each experiment, MS/MS (dta) spectra were extracted from the raw data files using the extract_msn program in Biowork 3.3 (ThermoFinnigan). The extracted dta files were combined into a single file in the Mascot generic file (mgf) format. Except for the conversion of precursor mass from MH+ in dta to
+     <em>
+      m
+     </em>
+     /
+     <em>
+      z
+     </em>
+     in mgf, the fragment ion
+     <em>
+      m
+     </em>
+     /
+     <em>
+      z
+     </em>
+     and intensity values were used as determined. Proteins were identified by searching the combined data against the IPI human database (downloaded on 25 November 2009, including 86 845 sequences and 35 122 444 residues) via an in-house Mascot server (version 2.2.07). Two missing cleavages were allowed. Precursor ion and MS/MS fragment ion error tolerances were set to &lt;10 p.p.m. and &lt;0.8 Da, respectively. A protein was accepted as a true positive if it had a significant score (
+     <em>
+      P
+     </em>
+     &lt;0.05) and at least two unique peptides.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein purification and gel-filtration chromatography
+    </title>
+    <p>
+     The GST-tagged Hakai (aa 106–206) constructs were expressed in
+     <em>
+      Escherichia coli
+     </em>
+     BL21 (DE3) and purified using glutathione-conjugated sepharose (GE Healthcare). The GST-tag was cleaved using GST-PreScission Protease (GE Healthcare) and the proteins were applied to a Superdex 75 size-exclusion column (GE Healthcare) equilibrated using 10 mM Bis-Tris, pH 6.5, 250 mM NaCl and 5 mM DTT and pre-calibrated using a gel-filtration standard (Bio-Rad).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR spectroscopy and chemical shift perturbation analysis
+    </title>
+    <p>
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C-labelled Hakai (aa 106–206) was obtained from cultures grown in M9 media supplemented with
+     <sup>
+      15
+     </sup>
+     N-labelled ammonium chloride and
+     <sup>
+      13
+     </sup>
+     C-labelled glucose as the sole nitrogen and carbon sources, respectively. The labelled proteins were purified as described above. NMR spectra were acquired at 298 K in an 800-MHz NMR spectrometer (Bruker, Karlsruhe, DE). The backbone assignment was obtained using standard
+     <sup>
+      15
+     </sup>
+     N-edited HSQC, HNCACB and CBCA (CO)NH experiments; side chains were assigned using standard 3D-TOCSY, 3D-NOESY and HCCH-TOCSY experiments. NMR data were processed using NMRPipe (
+     <xref ref-type="bibr">
+      Delaglio et al, 1995
+     </xref>
+     ) and analysed by NMRView (
+     <xref ref-type="bibr">
+      Johnson and Blevins, 1994
+     </xref>
+     ).
+    </p>
+    <p>
+     For the chemical shift perturbation analysis, the 2D
+     <sup>
+      1
+     </sup>
+     H–
+     <sup>
+      15
+     </sup>
+     N-HSQC spectra for the
+     <sup>
+      15
+     </sup>
+     N-labelled Hakai (aa 106–206) were acquired in the absence or presence of the phosphorylated E-cadherin peptide. Perturbed residues on Hakai were assigned by superimposing the two HSQC spectra.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structure determination
+    </title>
+    <p>
+     SelMet-substituted Hakai (aa 106–206) was expressed in a methionine auxotroph (
+     <xref ref-type="bibr">
+      Doublie, 1997
+     </xref>
+     ) and purified as described above. SelMet incorporation was verified by MALDI-TOF.
+    </p>
+    <p>
+     SelMet Hakai (aa 106–206) crystals were grown at 289 K by the hanging drop vapour diffusion method. The protein (30 mg/ml) was mixed with an equal volume of reservoir solution (140 mM Li
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     ; 100 mM Tris, pH 7.8; 15 mM Na
+     <sub>
+      2
+     </sub>
+     S
+     <sub>
+      2
+     </sub>
+     O
+     <sub>
+      3
+     </sub>
+     ; 20–22% PEG 5000 MME; 1% isopropanol and 20–25% ethylene glycol). A complete SAD data set was collected to 1.9 Å resolution at the synchrotron beamlines (NSLS, Brookhaven National Laboratory and the National Synchrotron Radiation Research Center [NSRRC], Taiwan) using a Quantum4-CCD detector (Area Detector Systems Corp., Poway, CA). The data sets were processed and scaled using HKL2000 (
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ). The crystals belonged to space group P6
+     <sub>
+      2
+     </sub>
+     22 with
+     <em>
+      a
+     </em>
+     =64.66 Å,
+     <em>
+      b
+     </em>
+     =64.66 Å,
+     <em>
+      c
+     </em>
+     =121.04 Å, and contained one molecule in the asymmetric unit.
+    </p>
+    <p>
+     All four expected selenium sites in the asymmetric unit were located by SOLVE (
+     <xref ref-type="bibr">
+      Terwilliger and Berendzen, 1999
+     </xref>
+     ). Initial phases were developed by RESOLVE (
+     <xref ref-type="bibr">
+      Terwilliger, 2003
+     </xref>
+     ); the overall figure of merit was improved to 0.83, and over 90% of the molecule was built automatically. The remaining parts of the model were built manually using COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ) and alternatively refined by CNS (
+     <xref ref-type="bibr">
+      Brunger et al, 1998
+     </xref>
+     ) and PHENIX (
+     <xref ref-type="bibr">
+      Adams et al, 2002
+     </xref>
+     ). The final model was refined to a 1.9-Å resolution with an R-factor of 0.2175 (
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     =0.2396) and analysed using PROCHECK (
+     <xref ref-type="bibr">
+      Laskowski et al, 1993
+     </xref>
+     ). All structure-related figures were prepared using PyMOL (
+     <xref ref-type="bibr">
+      DeLano, 2002
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Circular dichroism spectrometry
+    </title>
+    <p>
+     Far UV spectra (260–190 nm) of Hakai (aa 148–206) and Hakai (aa 106–206) and its mutants were measured using a Jasco J-810 spectropolarimeter in phosphate buffer (pH 7.5) at room temperature using a 0.1-cm path length and stoppered cuvettes. Six scans were recorded, averaged and the baseline subtracted.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Dynamic light scattering
+    </title>
+    <p>
+     Dynamic light scattering studies were carried out on a DynaPro Light Scattering instrument (Protein Solutions, USA) at a protein concentration of 2 mg/ml, in a buffer containing 10 mM Bis-Tris pH 6.5, 250 mM NaCl and 5 mM DTT.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     Phosphorylated and non-phosphorylated peptides of E-cadherin corresponding to amino-acid residues 749–761 were titrated at a molar concentration of 800 μM against 100 μM of Hakai (aa 106–206) dimer in a VP-ITC microcalorimeter (Microcal, Northhampton, UK) at 293 K. The titrations were carried out using 30 10-μl injections of the appropriate peptide into the sample cell containing Hakai (aa 106–206) and the data were analysed with a one-site binding model using the Origin software package v7.0 supplied by Microcal. All measurements were repeated twice.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession number
+    </title>
+    <p>
+     The coordinates and structure factors have been deposited at the Protein Data Bank (PDB) with the accession code
+     <a>
+      3VK6
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.1M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (197K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

@@ -1,0 +1,705 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2775171
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Efficient protection and isolation of ubiquitylated proteins using tandem ubiquitin-binding entities
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Post-translational modification with ubiquitin is one of the most important mechanisms in the regulation of protein stability and function. However, the high reversibility of this modification is the main obstacle for the isolation and characterization of ubiquitylated proteins. To overcome this problem, we have developed tandem-repeated ubiquitin-binding entities (TUBEs) based on ubiquitin-associated (UBA) domains. TUBEs recognize tetra-ubiquitin with a markedly higher affinity than single UBA domains, allowing poly-ubiquitylated proteins to be efficiently purified from cell extracts in native conditions. More significant is the fact that TUBEs protect poly-ubiquitin-conjugated proteins, such as p53 and IκBα, both from proteasomal degradation and de-ubiquitylating activity present in cell extracts, as well as from existing proteasome and cysteine protease inhibitors. Therefore, these new ‘molecular traps' should become valuable tools for purifying endogenous poly-ubiquitylated proteins, thus contributing to a better characterization of many essential functions regulated by these post-translational modifications.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     purification, ubiquitin, proteasome, UBA, DUBs
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Post-translational modification offers immense possibilities for proteins to modulate their properties. In addition to a variety of modifications involving small chemical moieties, such as phosphorylation, proteins can also be modified by conjugation to other proteins. The first described protein modifier was the 8.5 kDa ubiquitin, which is ligated to lysines in target proteins through an ATP-dependent thio-ester cascade. This process is termed ‘ubiquitylation', and involves three families of enzymes: E1 (ubiquitin-activating enzyme), E2 (ubiquitin-conjugating enzyme) and E3 (ubiquitin ligase).
+   </p>
+   <p>
+    Substrate proteins might be modified by a single ubiquitin at one acceptor site (mono-ubiquitylation), by several ubiquitins at different acceptor sites (multiple mono-ubiquitylation) or by poly-ubiquitin chains resulting from the modification of ubiquitin on any of its seven lysines. In general, chains linked through lysine 48 (Lys 48) are considered to mediate proteasomal degradation, whereas those coupled through lysine 63 (Lys 63) are involved in diverse processes such as signal transduction and DNA repair (
+    <xref ref-type="bibr">
+     Ikeda &amp; Dikic, 2008
+    </xref>
+    ). Further complexity arises from the existence of forked ubiquitin chains (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and heterogeneous chains incorporating ubiquitin-like (Ubl) molecules (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Similarly to phosphorylation, ubiquitylation is a reversible process, as de-ubiquitylating enzymes (DUBs) continuously de-conjugate ubiquitylated substrates by different catalytic mechanisms (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). However, most known DUBs are cysteine proteases.
+   </p>
+   <p>
+    Various strategies have been used to analyse the ubiquitylated proteome—or ‘ubiquitome' (
+    <xref ref-type="bibr">
+     Hjerpe &amp; Rodriguez, 2008b
+    </xref>
+    ). However, both in studies spanning the entire ubiquitome and in those focusing on a single protein, reliable detection or characterization of protein ubiquitylation is hampered by the de-conjugation mediated by DUBs. A well-known solution to this is to purify His
+    <sub>
+     6
+    </sub>
+    -tagged ubiquitylated conjugates under denaturing conditions. The reliability of this method is questionable as His
+    <sub>
+     6
+    </sub>
+    modification of ubiquitin and its overexpression and competition with endogenous ubiquitin could result in artefactual ubiquitylation patterns.
+   </p>
+   <p>
+    Ubiquitin-binding domains are a category of at least 20 protein module families that bind to ubiquitin and poly-ubiquitin chains with varying affinities (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The ubiquitin-associated (UBA) domain and ubiquitin-interacting motif have previously been used to enrich cell extracts in proteins modified by endogenous ubiquitin (
+    <xref ref-type="bibr">
+     Hjerpe &amp; Rodriguez, 2008b
+    </xref>
+    ). To preserve the native ubiquitylation, cysteine protease inhibitors, such as iodoacetamide (IAA) and
+    <em>
+     N
+    </em>
+    -ethylmaleimide (NEM), are often required. However, the use of IAA was recently reported to lead to the formation of protein adducts with the same mass signature as that of a double glycine (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), potentially leading to misinterpretation of mass spectrometry data. On the basis of the evidence that dual ubiquitin-binding domains can bind cooperatively to poly-ubiquitin (
+    <xref ref-type="bibr">
+     Raasi &amp; Pickart, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), we report here the design and development of tandem-repeated ubiquitin-binding entities (TUBEs) based on UBA domains. We show that, in native conditions, TUBEs efficiently bind to and thereby protect poly-ubiquitylated proteins such as IκBα and p53, thus opening up new ways in which to study these post-translational modifications.
+   </p>
+   <sec>
+    <title>
+     TUBEs retain ubiquitin-binding capacity
+    </title>
+    <p>
+     Tandem-repeated ubiquitin-binding entities were designed by using four tandem UBA domains, on the basis of the theory that tetra-ubiquitin at least is required for efficient proteasomal degradation (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). To generate tools that can capture various types of ubiquitin chain linkage, UBA domains from the proteins ubiquilin 1 and human HR23A (UBA1) were cloned and separated by a flexible linker (
+     <xref ref-type="fig">
+      Fig 1A
+     </xref>
+     ). Several tags were added to facilitate TUBE detection using glutathione
+     <em>
+      S
+     </em>
+     -transferase (GST), His
+     <sub>
+      6
+     </sub>
+     or SV5 antibodies (
+     <xref ref-type="fig">
+      Fig 1B
+     </xref>
+     ). Surface plasmon resonance assays showed that tandem coupling of UBA domains in TUBEs has no negative effect on their affinity for mono-ubiquitin. Interestingly, mono-ubiquitin binds to TUBEs with a molar ratio of 4:1, in contrast to the 1:1 stoichiometry observed for single UBA domains (
+     <xref ref-type="fig">
+      Fig 1C
+     </xref>
+     ), showing that each UBA domain in the tandem retains its capacity to bind to ubiquitin. No binding was detected between immobilized TUBEs and the Ubl molecules small ubiquitin-related modifier (SUMO)-1, -2, -3 and NEDD8 at concentrations as high as 200 μM, which almost saturates TUBEs with ubiquitin (
+     <a>
+      supplementary Fig S1
+     </a>
+     online). Thus, the tandem coupling of UBA domains preserves both their affinity and specificity for mono-ubiquitin.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The tandem disposition of ubiquitin-associated domains preserves their ubiquitin-binding capacity. (
+       <strong>
+        A
+       </strong>
+       ) Cartoon illustrating the design of TUBEs. UBA domains (at scale) are separated by a flexible linker. (
+       <strong>
+        B
+       </strong>
+       ) Purified TUBEs can readily be detected by GST, His
+       <sub>
+        6
+       </sub>
+       and SV5 antibodies. (
+       <strong>
+        C
+       </strong>
+       ) The interaction of mono-ubiquitin with single and tandem UBA domains from human HR23A and ubiquilin 1 was monitored by real-time SPR. UBA domains or TUBEs were captured on an anti-GST surface through their GST moiety, to a level of 150–220 RU, and ubiquitin (60 nM–1.5 mM; twofold dilution series) was then injected in a randomized order (insets). Equilibrium constants (
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       ), binding stoichiometries (
+       <em>
+        n
+       </em>
+       ) and their respective standard deviations were determined. GST, glutathione
+       <em>
+        S
+       </em>
+       -transferase; RU, resonance unit; SPR, surface plasmon resonance; SV5, simian virus 5; TUBEs, tandem-repeated ubiquitin-binding entities; UBA, ubiquitin-associated.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     TUBEs show superior binding to poly-ubiquitin
+    </title>
+    <p>
+     The hypothesis of a synergy between tandem-coupled UBA domains for poly-ubiquitin binding was examined using Lys 48 and Lys 63 linked tetra-ubiquitin. To determine the affinity of tetra-ubiquitin for the HR23A and ubiquilin 1 TUBEs, we analysed the tetra-ubiquitin concentration dependence of the steady-state surface plasmon resonance signal measured on low-density surfaces after long injection times (
+     <xref ref-type="fig">
+      Fig 2A–D
+     </xref>
+     ). The calculated equilibrium dissociation constants (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ) showed 100–1,000-fold decreases compared with the values that we measured for single UBA domains (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). These estimated
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values for the interaction between tetra-ubiquitin and single UBA domains are consistent with those that have been reported previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), and no significant interaction of Lys 48 and Lys 63 tetra-ubiquitin with single UBA domains was seen at concentrations of up to 80 nM and 40 nM, respectively (
+     <xref ref-type="fig">
+      Fig 2E
+     </xref>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     decreases were correlated with marked decreases in the off-rate (about 1,000-fold), probably because of the multivalent binding of individual ubiquitin units in a poly-ubiquitin to tetravalent TUBEs. Thus, in the case of tetra-ubiquitin, once bound, several ubiquitin moieties (statistically two) would need to dissociate simultaneously from the TUBE in order to lead to a detectable dissociation event. Further studies will be required to understand fully the binding mechanism of tetra-ubiquitin to TUBEs.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       TUBEs show enhanced binding to tetra-ubiquitin. (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) SPR monitoring of the interaction of Lys 48 and Lys 63 tetra-ubiquitin with human HR23A and ubiquilin 1 TUBEs, as indicated. TUBEs were captured to a density of 30 RU, over which twofold dilution series of Lys 48 tetra-ubiquitin (1.25–80 nM) or Lys 63 tetra-ubiquitin (0.11–30 nM) were injected (insets). Equilibrium constants (
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       ), binding stoichiometries (
+       <em>
+        n
+       </em>
+       ) and their respective standard deviations were determined. (
+       <strong>
+        E
+       </strong>
+       ) No interaction can be detected between single UBA domains and tetra-ubiquitin, up to concentrations of 80 nM (Lys 48 tetra-ubiquitin) and 40 nM (Lys 63 tetra-ubiquitin). RU, resonance unit; SPR, surface plasmon resonance; TUBEs, tandem-repeated ubiquitin-binding entities; UBA, ubiquitin-associated.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Equilibrium dissociation constants (
+        <em>
+         K
+        </em>
+        <sub>
+         D
+        </sub>
+        ) of the interactions between Lys 48 or Lys 63 tetra-ubiquitin and TUBEs or single UBAs
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     TUBEs purify ubiquitylated proteins from cell extracts
+    </title>
+    <p>
+     To analyse whether the increased affinity of the TUBEs for pure tetra-ubiquitin chains resulted in improved binding to ubiquitylated proteins, we tested the TUBEs and the single UBA domains for their capacity to pull down IκBα, a protein known to be ubiquitylated on stimulation by tumour necrosis factor α (TNF-α;
+     <xref ref-type="bibr">
+      Lang &amp; Rodriguez, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hjerpe &amp; Rodriguez, 2008a
+     </xref>
+     ). The total amount of poly-ubiquitylated protein pulled down was detected in parallel. A conventional GST pull-down with both TUBEs was carried out (
+     <xref ref-type="fig">
+      Fig 3A
+     </xref>
+     ) using TNF-α-stimulated cells lysed in a TUBE lysis buffer (see Methods) containing IAA or NEM. The results were compared with those produced by using a modified method, in which lysis was carried out in the same buffer containing each TUBE, but without IAA or NEM (
+     <xref ref-type="fig">
+      Fig 3B
+     </xref>
+     ). In both methods, a control using a sixfold molar excess of single UBA domains was included to analyse whether the pull-down efficiency was determined by the ‘local' or ‘global' UBA concentration. In every case, the TUBEs pulled down more ubiquitylated IκBα and poly-ubiquitylated proteins than single UBA domains (
+     <xref ref-type="fig">
+      Fig 3C,D
+     </xref>
+     ). Although single UBA domains were virtually unable to capture any ubiquitylated protein in the modified set-up (
+     <xref ref-type="fig">
+      Fig 3D
+     </xref>
+     ), the efficiencies of the TUBEs, which were markedly increased, remained equivalent, irrespective of the protocol used (
+     <xref ref-type="fig">
+      Fig 3C,D
+     </xref>
+     ). These results show that the increased affinity of TUBEs for tetra-ubiquitin is correlated with an improved capacity to capture poly-ubiquitylated proteins from complex cell lysates. This improvement could not be mimicked by increasing the concentration of single UBA domains, underlining the importance of the tandem arrangement for the optimal capture of poly-ubiquitylated proteins.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       TUBEs efficiently purify ubiquitylated proteins from cell extracts. Schematic representation of (
+       <strong>
+        A
+       </strong>
+       ) the traditional GST pull-down method, using DUB inhibitors IAA and NEM, and (
+       <strong>
+        B
+       </strong>
+       ) the modified pull-down method using TUBEs in the absence of IAA and NEM. TUBEs (shown as clipped grey circles) form complexes with poly-ubiquitylated proteins during lysis, and intact complexes are then pulled down using glutathione agarose beads. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) Western blot analysis of cell lysates prepared according to schemes (
+       <strong>
+        A
+       </strong>
+       ) and (
+       <strong>
+        B
+       </strong>
+       ), respectively: detection using either Ponceau staining or the indicated antibodies. The asterisk denotes IκBα (the same membrane was used for SV5 and IκBα detection). DUB, de-ubiquitylating enzyme; IAA, iodoacetamide; GST, glutathione
+       <em>
+        S
+       </em>
+       -transferase; NEM,
+       <em>
+        N
+       </em>
+       -ethylmaleimide; SV5, simian virus 5; TUBEs, tandem-repeated ubiquitin-binding entities; UBA, ubiquitin-associated.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     TUBEs protect ubiquitylated proteins
+    </title>
+    <p>
+     To explore whether the efficacy of TUBEs could be partly due to a protective effect from DUBs, we detected the amount of poly-ubiquitylated proteins that remained after incubation of cell lysates for 90 min at 25°C in different conditions (
+     <xref ref-type="fig">
+      Fig 4A
+     </xref>
+     ). The results showed that single UBA domains and IAA and NEM protected proteins from DUBs to similar levels, whereas TUBEs prevent de-ubiquitylation to a much higher extent. In addition, this protective capacity was unaffected after 16 h of incubation (
+     <xref ref-type="fig">
+      Fig 4B
+     </xref>
+     ) and was detectable down to TUBE concentrations as low as 0.14 μM (
+     <xref ref-type="fig">
+      Fig 4C,D
+     </xref>
+     ). The efficient stabilization of ubiquitylated proteins observed in the presence of TUBEs might be due to their simultaneous protection from DUBs and the proteasome. To investigate further,
+     <em>
+      in vitro
+     </em>
+     transcribed–translated p53 was subjected to proteasomal degradation using either reticulocyte extract or purified proteasomes (
+     <xref ref-type="fig">
+      Fig 4E,F
+     </xref>
+     , respectively). The degradation of
+     <em>
+      in vitro
+     </em>
+     expressed p53 or IκBα (data not shown) seen on addition of either purified proteasomes or the reticulocyte extract is blocked by the HR23A TUBE, at least as efficiently as by the proteasome inhibitor MG132 at a final concentration of 500 μM. Thus, taken together, these results show that TUBEs very efficiently protect ubiquitylated proteins from both de-conjugation and proteasomal degradation.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       TUBEs efficiently protect ubiquitylated proteins from de-ubiquitylation and proteasomal degradation. (
+       <strong>
+        A
+       </strong>
+       ) Ubiquitin de-conjugation in cell extracts, in the presence of purified TUBEs (3 μM), UBA domains (4.4 μM) or IAA/NEM (10 mM) was monitored by western blot analysis with poly-ubiquitin (FK1) and SV5 antibodies. (
+       <strong>
+        B
+       </strong>
+       ) Evaluation of the protective effect over time of IAA/NEM (10 mM) or TUBEs (7.2 μM). Anti-Sam68 (charge control) and Ponceau staining are included as loading controls. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) Evaluation of the protective efficiency of TUBEs at decreasing concentrations, starting at 7.18 μM. (
+       <strong>
+        E
+       </strong>
+       ,
+       <strong>
+        F
+       </strong>
+       ) Evaluation of the proteasomal degradation of
+       <em>
+        in vitro
+       </em>
+       transcribed–translated p53 by rabbit RE or purified 26S proteasome, respectively, in the presence of a proteasome inhibitor (MG132; 500 μM) or TUBE HR23A (7 μM). IAA, iodoacetamide; NEM,
+       <em>
+        N
+       </em>
+       -ethylmaleimide; RE, reticulocyte extract; SV5, simian virus 5; TUBEs, tandem-repeated ubiquitin-binding entities; UBA, ubiquitin-associated.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     TUBEs capture endogenously ubiquitylated p53 and MDM2
+    </title>
+    <p>
+     The p53 tumour suppressor is tightly downregulated by ubiquitin-mediated proteasomal degradation, which is largely determined by the ubiquitin E3 MDM2 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). In response to genotoxic insult, p53 accumulates and induces cell-cycle arrest or apoptosis (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). To determine whether TUBEs could be used to detect oscillations of p53 poly-ubiquitylation during the DNA damage response, we used doxorubicin in a pulse-chase experiment and monitored the amounts of both total p53 and ubiquitylated p53 in MCF-7 cells. At 3 h after the pulse (1 μM doxorubicin for 1 h), p53 levels increased markedly, and started to decrease 16 h after the pulse (
+     <xref ref-type="fig">
+      Fig 5A
+     </xref>
+     ). Using TUBEs we carried out a pull-down experiment as described in
+     <xref ref-type="fig">
+      Fig 3B
+     </xref>
+     , without adding either proteasome (MG132) or DUB (IAA/NEM) inhibitors. Both HR23A and ubiquilin 1 TUBEs efficiently purified ubiquitylated p53 (
+     <xref ref-type="fig">
+      Fig 5B
+     </xref>
+     ). Despite its low abundance, ubiquitylated MDM2 (
+     <xref ref-type="bibr">
+      Honda &amp; Yasuda, 2000
+     </xref>
+     ) could be detected using TUBEs under both basal and stressed conditions (
+     <xref ref-type="fig">
+      Fig 5B
+     </xref>
+     ). It is to be noted that ubiquitylated p53 captured by the TUBEs can be further purified by immunoprecipitation without losing the modified material (
+     <xref ref-type="fig">
+      Fig 5C
+     </xref>
+     ). Coupled TUBE–immunoprecipitation will allow the further characterization of post-modification events. The different p53 ubiquitylation patterns obtained with HR23A or ubiquilin 1 TUBEs suggest that different types of ubiquitin chains can be captured (
+     <xref ref-type="fig">
+      Fig 5B,C
+     </xref>
+     ). Furthermore, a cooperative effect can be seen for the capture of poly-ubiquitylated p53 using both TUBEs in conditions in which these are not saturated (
+     <a>
+      supplementary Fig S2
+     </a>
+     online). Therefore, we show that TUBEs are sensitive enough for the analysis of ubiquitylation of crucial endogenous factors during a particular stimulation or cellular event. The efficiency of purification of ubiquitylated p53 using TUBES is largely better than that using His
+     <sub>
+      6
+     </sub>
+     -ubiquitin/nickel beads or the ubiquitin monoclonal antibody FK2. When cells are pre-treated with proteasome inhibitors, capture of poly-ubiquitylated proteins by TUBEs is improved (
+     <xref ref-type="fig">
+      Fig 5D
+     </xref>
+     ). Poly-ubiquitylated p53 forms will preferentially be captured by TUBEs if these forms are abundant (
+     <xref ref-type="fig">
+      Fig 5E
+     </xref>
+     , condition: wild type (wt) p53 and wt ubiquitin), but multiple mono-ubiquitylated p53 forms can be captured if these species are the main population (
+     <xref ref-type="fig">
+      Fig 5E
+     </xref>
+     , condition: wt p53 and knockout ubiquitin). It should be noted that binding to poly-ubiquitylated p53 species might indirectly recruit unmodified and multiple mono-ubiquitylated p53 forms present in a heterotetramer. By contrast, if multiple mono-ubiquitylated p53 forms are less abundant than poly-ubiquitylated p53 forms, they will not be trapped by TUBEs. This occurs when oligomerization/ubiquitylation-deficient p53 mutants (ODs) are captured by using HR23A TUBE (
+     <xref ref-type="fig">
+      Fig 5E
+     </xref>
+     ;
+     <a>
+      supplementary Fig S3
+     </a>
+     online and unpublished results). Thus, TUBEs seem to have a preference—but not exclusivity—for poly-ubiquitylated proteins in cell extracts.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Detection of endogenous ubiquitylated p53 and MDM2 using TUBEs. (
+       <strong>
+        A
+       </strong>
+       ) wt p53 MCF-7 breast cancer cells were pulsed with doxorubicin (1 μM, 1 h), after which cells were replenished with fresh DMEM. Cells were then collected at the indicated times, and western blot analysis was carried out to detect p53 or MDM2. Sam68 was detected as a charge control. (
+       <strong>
+        B
+       </strong>
+       ) wt p53 MCF-7 cells were treated as in (
+       <strong>
+        A
+       </strong>
+       ), and subjected to pull-down using TUBEs (7.2 μM). Western blot analysis was carried out with the indicated antibodies. (
+       <strong>
+        C
+       </strong>
+       ) Under the same conditions as in (
+       <strong>
+        B
+       </strong>
+       ), the material captured by TUBEs was immunoprecipitated with 4 μg of DO.1 antibody per point and detected by western blot with the indicated antibody. (
+       <strong>
+        D
+       </strong>
+       ) wt p53 MCF-7 cells were treated as in (
+       <strong>
+        A
+       </strong>
+       ) (3 h post pulse). Ubiquitylated proteins were purified by using TUBE HR23A, ubiquitin antibodies FK2 or nickel beads. In the last method, cells expressed His
+       <sub>
+        6
+       </sub>
+       -ubiquitin construct 24 h before collection. His
+       <sub>
+        6
+       </sub>
+       -ubiquitin purification was carried out under denaturing conditions. HA-IP was used as a control. (
+       <strong>
+        E
+       </strong>
+       ) OD1 and wt p53 were expressed together with MDM2 and His
+       <sub>
+        6
+       </sub>
+       -ubiquitin wt or His
+       <sub>
+        6
+       </sub>
+       -ubiquitin KO in p53 null H1299 cells. After 4 h of treatment with 20 μM MG132, ubiquitylated proteins were purified by using TUBE HR23A. Western blot analysis was carried out with the indicated antibodies. Mono-ubiquitylated p53 migrates around 61 kDa, multiple mono-ubiquitylated p53 overlaps with poly-ubiquitylated p53 species (short chains) and migrates between approximately 69 kDa and 101 kDa. Above 101 kDa, mainly poly-ubiquitylated p53 is observed. The dots indicate mono-ubiquitin and multiple mono-ubiquitylated/short ubiquitin chain forms. DMEM, Dulbecco's modified Eagle's medium; HA-IP, haemagglutinin-immunoprecipitation; KO, knockout; MDM2, mouse double minute 2; OD, oligomerization-deficient mutant; TUBEs, tandem-repeated ubiquitin-binding entities; wt, wild type.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     <em>
+      In vivo
+     </em>
+     , several proteins contain more than one ubiquitin or Ubl-binding domain (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), indicating an evolutionary functional advantage of increased avidity for poly-ubiquitylated proteins. Here, we show that this property can be exploited to protect and purify endogenous poly-ubiquitylated proteins from cell extracts in native conditions, without using overexpression methods that could perturb molecular machineries and lead to the formation of irrelevant ubiquitin chains. Furthermore, we show that the TUBEs can in principle be used with other specific purification steps, which implies the possibility of obtaining purified endogenously ubiquitylated proteins. Moreover, the TUBEs are economical and easy to manipulate and might, therefore, constitute instrumental proteomic tools for reliable characterization of the ubiquitome by mass spectrometry, thus contributing to a better understanding of multiple and synchronous ubiquitylation events that occur during various essential cellular events.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Methods
+   </title>
+   <p>
+    <strong>
+     Cloning, protein expression and purification.
+    </strong>
+    Single and tandem UBA domains were cloned in pGEX-6P1 (GE Healthcare Life Sciences, Chalfont St Giles, UK) and were modified to code for His
+    <sub>
+     6
+    </sub>
+    - and simian virus 5 tags 5′ and 3′ of the multiple cloning site, respectively. Tandem repeats were constructed using
+    <em>
+     Bgl
+    </em>
+    II and
+    <em>
+     Bam
+    </em>
+    HI restriction sites, allowing consecutive cloning of the UBA domains of HR23A and ubiquilin 1 with a poly-glycine linker between every two domains (see
+    <a>
+     supplementary information
+    </a>
+    online). All proteins were inducibly expressed in
+    <em>
+     Escherichia coli
+    </em>
+    C41(DE3) for 4 h at 30°C. Cells were lysed by sonication in buffered saline phosphate supplemented with 2 mM benzamidine, and the lysates were clarified by 1 h centrifugation at 10,000 r.p.m., before being subjected to standard glutathione agarose affinity purification (Sigma-Aldrich, St Louis, MO, USA) according to the manufacturer's instructions. TUBEs will be available from Life-Sensors, Inc (Malvern, PA, USA).
+   </p>
+   <p>
+    <strong>
+     Surface plasmon resonance experiments.
+    </strong>
+    Surface plasmon resonance experiments were carried out on a Biacore 3000 system, equilibrated at 25°C in HBS–EP buffer (0.01 M HEPES pH 7.4, 0.15 M NaCl, 3 mM EDTA, 0.005% surfactant P20; GE Healthcare, Chalfont St Giles, UK), using a CM5 sensor chip with a density of about 9,000 resonance units (RU≈pg/mm
+    <sup>
+     2
+    </sup>
+    ) of covalently immobilized GST antibody (GE Healthcare). Single and tandem GST-fused UBA domains were captured on the sensor chip at low (30–55 RU) and high (130–220 RU) densities. Mono-ubiquitin (Sigma-Aldrich) or the Ubl molecules SUMO-1, -2, -3 (produced as previously described;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and NEDD8 (Boston Biochem, Cambridge, MA, USA) were then injected for 30 s at a flow rate of 30 μl/min, and tetra-ubiquitin (Boston Biochem) for 1,500 s at 10 μl/min. All injections were carried out as randomized duplicates, and each experiment was repeated in triplicate (mono-ubiquitin experiments) or duplicate (tetra-ubiquitin experiments). Values of
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    and
+    <em>
+     n
+    </em>
+    are reported as the means of independent experiments with corresponding standard deviations.
+   </p>
+   <p>
+    <strong>
+     Cell culture, transfections, cell lysis and immunodetection.
+    </strong>
+    Cells were grown in Dulbecco's modified Eagle's medium (Invitrogen, Carlsbad, CA, USA) supplemented with 10% fetal bovine serum and antibiotics. For IκBα experiments, human embryonic kidney 293 cells were pre-treated for 3 h with 20 μM MG132, and then stimulated with 10 ng/ml TNF-α. At 3 h after TNF-α stimulation, cells were lysed and processed. For p53 experiments, p53 wt MCF-7 cells were pulsed for 1 h with 1 μM doxorubicin, and then lysed at the indicated time points. H1299 cells were transfected with 300 ng pcDNA3 plasmids encoding OD1, OD2 or wt p53, 2 μg His
+    <sub>
+     6
+    </sub>
+    -ubiquitin in the absence or presence of 5 μg MDM2. The pcDNA3 His
+    <sub>
+     6
+    </sub>
+    -ubiquitin knockout plasmid encodes a molecule without lysine residues available for conjugation (lysine to arginine mutations). After 24 h of expression, cells were collected and purified by TUBEs or nickel chromatography under denaturing conditions (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). MCF-7 cells were transfected using lipofectamine (Invitrogen) with 6 μg of pcDNA3-His
+    <sub>
+     6
+    </sub>
+    -ubiquitin plasmid and maintained in culture for 24 h before the experiment. His
+    <sub>
+     6
+    </sub>
+    -ubiquitylated proteins were purified using denaturing conditions and nickel chromatography. Immunoprecipitations with the ubiquitin monoclonal antibody FK2 (BIOMOL, Plymouth Meeting, PA, USA) or the mouse monoclonal HA antibody (Serotec, Kidlington, Oxford, UK) were carried out using 40 μg of antibody. In all cases, cells were lysed for 15 min on ice in TUBEs lysis buffer (50 mM sodium fluoride, 5 mM tetra-sodium pyrophosphate, 10 mM β-glyceropyrophosphate, 1% Igepal CA-630, 2 mM EDTA, 20 mM Na
+    <sub>
+     2
+    </sub>
+    HPO
+    <sub>
+     4
+    </sub>
+    , 20 mM NaH
+    <sub>
+     2
+    </sub>
+    PO
+    <sub>
+     4
+    </sub>
+    , 1 mM Pefablock and 1.2 mg/ml complete protease inhibitor cocktail; Roche, Basel, Switzerland). This buffer was supplemented with the indicated concentrations of TUBEs or 10 mM IAA/NEM. Lysates were isolated by cold centrifugation at 13,000 r.p.m. for 10 min, and added to 50 μl of glutathione agarose beads (Sigma-Aldrich), either empty or pre-bound to GST-fusion proteins. For two-step purification using TUBEs and immunoprecipitation, the captured ubiquitylated material was first eluted with 10 mM of glutathione in 50 mM Tris pH 9. The eluted material was dialysed for 2 h at 25°C using the Slide-A-Lyzer-7 kDa system (Pierce, Rockford, IL, USA) against cold dialysis buffer (50 mM Tris pH 8.5, 150 mM NaCl, 5 mM EDTA and 0.1% NP40) before immunoprecipitation with 4 μg of DO.1 antibody.
+   </p>
+   <p>
+    Immunodetections were carried out using the following primary antibodies: TUBEs—mouse monoclonal SV5 (Serotec); p53—mouse monoclonal DO.1 (Santa Cruz Biotechnology, Santa Cruz, CA, USA); MDM2—mouse monoclonal Ab5 (Calbiochem, San Diego, CA, USA); poly-ubiquitin—P4D1 (Santa Cruz Biotechnology); IκBα—rabbit polyclonal (Santa Cruz Biotechnology); and Sam68—rabbit polyclonal (Santa Cruz Biotechnology). The secondary antibodies used were rabbit anti-mouse polyclonal and goat anti-rabbit polyclonal (Jackson Immunoresearch, Suffolk, USA).
+   </p>
+   <p>
+    <strong>
+     Supplementary information
+    </strong>
+    is available at
+    <em>
+     EMBO reports
+    </em>
+    online (
+    <a>
+     http://www.emboreports.org
+    </a>
+    ).
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <p>
+     Supplementary Figs 1 and 3
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.4M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

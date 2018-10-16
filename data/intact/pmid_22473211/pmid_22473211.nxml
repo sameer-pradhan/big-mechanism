@@ -1,0 +1,1503 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3364754
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    FtsA forms actin-like protofilaments
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     FtsA is an early component of the Z-ring, the structure that divides most bacteria, formed by tubulin-like FtsZ. FtsA belongs to the actin family of proteins, showing an unusual subdomain architecture. Here we reconstitute the tethering of FtsZ to the membrane via FtsA's C-terminal amphipathic helix
+     <em>
+      in vitro
+     </em>
+     using
+     <em>
+      Thermotoga maritima
+     </em>
+     proteins. A crystal structure of the FtsA:FtsZ interaction reveals 16 amino acids of the FtsZ tail bound to subdomain 2B of FtsA. The same structure and a second crystal form of FtsA reveal that FtsA forms actin-like protofilaments with a repeat of 48 Å. The identical repeat is observed when FtsA is polymerized using a lipid monolayer surface and FtsAs from three organisms form polymers in cells when overexpressed, as observed by electron cryotomography. Mutants that disrupt polymerization also show an elongated cell division phenotype in a temperature-sensitive FtsA background, demonstrating the importance of filament formation for FtsA's function in the Z-ring.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     actin, bacterial cytoskeleton, cell division, cytomotive, FtsZ
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    A key step in bacterial cell division is the formation of the Z-ring composed of polymers of the tubulin-like protein FtsZ (for recent reviews:
+    <xref ref-type="bibr">
+     Dajkovic and Lutkenhaus, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Adams and Errington, 2009
+    </xref>
+    ). FtsZ finds the middle of the cell through two independent mechanisms in
+    <em>
+     E. coli
+    </em>
+    , nucleoid exclusion (
+    <xref ref-type="bibr">
+     Woldringh et al, 1991
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wu and Errington, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bernhardt
+    </xref>
+    and ) and the oscillating MinCDE system (
+    <xref ref-type="bibr">
+     Raskin
+    </xref>
+    and ;
+    <xref ref-type="bibr">
+     Lutkenhaus, 2007
+    </xref>
+    ). The Z-ring constricts and through interaction with other components engages in remodelling cell wall and membranes in order to yield two daughter cells.
+   </p>
+   <p>
+    During this process FtsZ is known to interact with FtsA and then recruits other components of the divisome, the cell division apparatus. The divisome is currently known to contain more than 20 components and can be divided into inner and outer divisome (
+    <xref ref-type="bibr">
+     Vicente and Rico, 2006
+    </xref>
+    ). This distinction reflects the fact that it needs to remodel the inner cell membrane, but also the rigid cell wall, and a direct link with enzymes for cell wall remodelling is made. The mechanism of constriction is currently unclear, but the potential or theoretical sources of energy in the system (apart from binding energies) are nucleotides associated with FtsA and FtsZ (inner divisome), as well as cell wall synthesis from precursors in the periplasm (outer divisome).
+   </p>
+   <p>
+    FtsA belongs to the actin/HSP70 family of proteins (
+    <xref ref-type="bibr">
+     Bork et al, 1992
+    </xref>
+    ), although its fold was shown to considerably deviate from the canonical actin fold by a subdomain deletion and addition (
+    <xref ref-type="bibr">
+     van den Ent
+    </xref>
+    and ). It has been shown
+    <em>
+     in vivo
+    </em>
+    that a deletion of 12 amino acids from the highly conserved C-terminal tail of
+    <em>
+     E. coli
+    </em>
+    FtsZ failed to complement chromosomal
+    <em>
+     ftsZ
+    </em>
+    mutants and failed to interact with FtsA (
+    <xref ref-type="bibr">
+     Ma and Margolin, 1999
+    </xref>
+    ). Interestingly, the same FtsZ interaction site is used in
+    <em>
+     E. coli
+    </em>
+    by another protein, ZipA (
+    <xref ref-type="bibr">
+     Ma and Margolin, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mosyak et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Haney et al, 2001
+    </xref>
+    ), that also shows some functional overlap with FtsA, despite being a very different protein in sequence and the exact functions of these proteins, FtsA and ZipA and their relationship with FtsZ have remained enigmatic.
+   </p>
+   <p>
+    Genetic screening has identified residues within the 2B subdomain of FtsA required for binding to FtsZ, indicating that this could be the interaction site on FtsA with FtsZ (
+    <xref ref-type="bibr">
+     Pichoff and Lutkenhaus, 2007
+    </xref>
+    ). Moreover, analysis of FtsA sequences revealed a conserved C-terminal motif (
+    <xref ref-type="bibr">
+     Löwe
+    </xref>
+    and ), which is predicted to form an amphipathic helix and has been shown to localize FtsA (and with it FtsZ) to the membrane (
+    <xref ref-type="bibr">
+     Pichoff and Lutkenhaus, 2005
+    </xref>
+    ).
+   </p>
+   <p>
+    As FtsA belongs to the actin/HSP70 family of proteins, with many members being able to form filaments, it is a long-standing question of whether FtsA is able to polymerize (
+    <xref ref-type="bibr">
+     Löwe et al, 2004
+    </xref>
+    ). Three pieces of evidence currently exist that it could: expression of a mutant form of FtsA in
+    <em>
+     E. coli
+    </em>
+    leads to massive cylindrical structures formation in the cytoplasm and changes in cell shape (
+    <xref ref-type="bibr">
+     Gayda et al, 1992
+    </xref>
+    ). GFP–FtsA C-terminal truncations lead to filamentous structures in cells as seen by fluorescence microscopy (
+    <xref ref-type="bibr">
+     Pichoff and Lutkenhaus, 2007
+    </xref>
+    ). In another case, FtsA from
+    <em>
+     Streptococcus pneumoniae
+    </em>
+    has been demonstrated to form helical filaments
+    <em>
+     in vitro
+    </em>
+    , but no information is available on how that would be possible given that the canonical actin fold is incomplete in FtsA and on what FtsA protofilaments would look like (
+    <xref ref-type="bibr">
+     Lara et al, 2005
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we reconstitute the FtsZ/FtsA/membrane system
+    <em>
+     in vitro
+    </em>
+    using
+    <em>
+     Thermotoga maritima
+    </em>
+    proteins and provide a crystal structure of the FtsA/FtsZ complex. This led us to the discovery that FtsA might be able to form actin-like filaments. We then investigated the polymerization of the FtsA actin-like protein and for the first time demonstrate that an actin-like protein of different subdomain architecture can form a canonical actin-like protofilament. Polymerization of FtsA is required for its proper biological function, as shown through genetically engineered
+    <em>
+     Bacillus
+    </em>
+    <em>
+     subtilis
+    </em>
+    strains.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     The last 8–16 residues of T. maritima FtsZ are necessary and sufficient to interact with T. maritima FtsA in vitro
+    </title>
+    <p>
+     In order to investigate the interaction between the cell division proteins FtsZ and FtsA, we reconstituted the system
+     <em>
+      in vitro
+     </em>
+     using purified
+     <em>
+      T. maritima
+     </em>
+     FtsA (TmFtsA) and FtsZ (TmFtsZ) proteins as well as liposomes made from
+     <em>
+      E. coli
+     </em>
+     total lipid extract. TmFtsA and TmFtsZ were purified as either full-length (TmFtsa 1–419, TmFtsZ 1–351) or C-terminally truncated proteins (TmFtsAΔ8 1–411, TmFtsZΔ8 1–343,
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). The C-terminal tail of FtsZ is known to interact with FtsA (
+     <xref ref-type="bibr">
+      Ma and Margolin, 1999
+     </xref>
+     ), whereas the C-terminal tail of FtsA is thought to directly interact with the membrane via an amphipathic helix (
+     <xref ref-type="bibr">
+      Pichoff and Lutkenhaus, 2005
+     </xref>
+     ). No extra residues were introduced at either end and great care was taken not to lose the tails through proteolysis during purification, as we found to happen easily when monitored by high-resolution mass spectrometry. The proteins were then tested in pelleting assays in the presence of GTP (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). In the presence of GTP, TmFtsZ forms polymers that easily sediment, and if these polymers interact with TmFtsA, both proteins will be found in the pellet. This assay revealed that the last eight amino acids of TmFtsZ are necessary for the interaction with TmFtsA, as TmFtsZΔ8 failed to recruit TmFtsA to the pellet fraction. To discover whether or not the highly conserved C-terminal TmFtsZ fragment is sufficient for this interaction, we constructed a hybrid protein consisting of the actin-like protein ParM followed by an artificial linker and the last 16 residues of TmFtsZ. ParM polymerizes in an ATP-dependent manner (
+     <xref ref-type="bibr">
+      van den Ent et al, 2002
+     </xref>
+     ) and does not interact with FtsA alone (not shown). A pelleting assay in the presence of ATP (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ) demonstrated that the hybrid protein ParM-Z efficiently interacted with TmFtsA when polymerized; however, when the last eight residues of this hybrid protein are removed (ParM-ZΔ8), the interaction is significantly reduced and the trace amount of FtsA in the pellet fraction is probably a result of some unspecific interactions. We conclude that the last 8–6 residues of TmFtsZ are both necessary and sufficient for interaction with TmFtsA.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       <em>
+        In vitro
+       </em>
+       reconstitution of the FtsZ/FtsA/membrane complex using
+       <em>
+        T. maritima
+       </em>
+       proteins. (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of
+       <em>
+        T. maritima
+       </em>
+       proteins used. Dotted violet squares represent enlarged views of the C-terminal regions, which are crucial for the experimental design. (
+       <strong>
+        B
+       </strong>
+       ) FtsA-FtsZ co-pelleting assay. S: supernatant, P: pellet. The C-terminal eight residues of FtsZ are necessary to interact with FtsA. (
+       <strong>
+        C
+       </strong>
+       ) The C-terminal 16 residues of FtsZ are sufficient to interact with FtsA as shown in a ParM-Z-FtsA co-pelleting assay. A hybrid protein consisting of R1 ParM and the last 16 residues of FtsZ binds to FtsA. (
+       <strong>
+        D
+       </strong>
+       ) Full-length FtsA binds to the membrane via its C-terminal amphipathic helix and tethers FtsZ to the membrane as shown by a liposome co-sedimentation assay. FtsZ does not have affinity for lipids itself.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     What residues are then required for FtsA to tether itself and FtsZ to the membrane? To address this question we reconstituted the FtsZ/FtsA/membrane complex by performing a co-sedimentation assay in the absence of any nucleotides (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). This showed that TmFtsA recruits TmFtsZ to the membrane (lane 1) and TmFtsZ does not have an affinity for the lipid bilayer itself (lane 3). Also, this assay confirms that both truncated TmFtsA and TmFtsZ are not functional: TmFtsZΔ8 is not able to interact with TmFtsA (lane 8), whereas TmFtsAΔ8 does not bind to liposomes (lane 6), emphasizing the role of the C-terminal amphipathic helix, as had previously been deduced for the
+     <em>
+      E. coli
+     </em>
+     proteins
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      Pichoff and Lutkenhaus, 2005
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystal structure of the FtsA binding motif of TmFtsZ bound to TmFtsA at 1.8 Å resolution
+    </title>
+    <p>
+     Crystallization trials using the full-length proteins failed, probably due to the flexible linker connecting FtsZ's core and C-terminal subdomains, so we replaced FtsZ with the peptide corresponding to the last 16 residues of the protein. The complex crystallized with two TmFtsA molecules per asymmetric unit, each with the TmFtsZ peptide bound on the surface of subdomain 2B between helices H6 and H8 of TmFtsA (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , left). The FtsZ peptide is far away from the nucleotide-binding site of FtsA (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , right), which contains an endogenous ATP molecule at 0.65 occupancy. We identified three salt bridges between the peptide and residues belonging to the H8 helix of the 2B domain, TmFtsA(Arg301) to TmFtsZ(Asp338), TmFtsA(Glu304) to TmFtsZ(Arg344) and one involving TmFtsA(Lys293) and the carboxyl group of the very last Leu351 of the TmFtsZ peptide. The peptide is in predominantly helical conformation (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), but is not just a single, straight helix. Binding of the FtsZ peptide to FtsA is in the micromolar range with a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 45–58 μM, as determined by two independent isothermal titration calorimetry experiments (ITC,
+     <a>
+      Supplementary Figure 1
+     </a>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Crystal structure and solution NMR studies show that FtsZ binds to FtsA's surface between helices H6 and H8 within subdomain 2B. (
+       <strong>
+        A
+       </strong>
+       ) Crystallographic asymmetric unit containing two FtsA molecules, each with the C-terminal 16-residue FtsZ peptide bound (left). FtsA has been colour-coded according to the conserved actin family of proteins subdomain architecture. The peptide (purple) is bound on the surface of subdomain 2B (green). ATP is shown as spheres. (
+       <strong>
+        B
+       </strong>
+       ) Solution NMR studies identifying amide resonances perturbed upon addition of the FtsZ peptide (red). These results support the crystal structure as well as previous
+       <em>
+        in vivo
+       </em>
+       mutations by
+       <xref ref-type="bibr">
+        Pichoff-Lutkenhaus (2007)
+       </xref>
+       (yellow). Residues highlighted by both
+       <em>
+        in vivo
+       </em>
+       and NMR studies are in blue. (
+       <strong>
+        C
+       </strong>
+       ) A stereo representation of the FtsA–FtsZ interacting site. The peptide is depicted in purple, and 2B subdomain in green. Three salt bridges have been identified: FtsA(Arg301)–FtsZ(Asp338), FtsA(Glu304)–FtsZ(Arg344) and FtsA(Lys293)–FtsZ(Leu351) (C-terminal carboxyl group).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Data collection and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Identification of the TmFtsZ binding site on TmFtsA by solution NMR
+    </title>
+    <p>
+     Although the peptide fitted very well into the electron density map (
+     <a>
+      Supplementary Figure 2
+     </a>
+     ), we then aimed at confirming the binding site by solution NMR. Triple labelled
+     <sup>
+      15
+     </sup>
+     N
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      2
+     </sup>
+     H TmFtsA (47 kDa) yielded high-quality TROSY spectra at 50 °C (
+     <a>
+      Supplementary Figure 3
+     </a>
+     ). Comparison of the spectra recorded in the absence and presence of the same 16 residue FtsZ peptide revealed chemical shift perturbations (c.s.ps) as well as resonances that were exchange broadened beyond detection, as a result of FtsZ peptide binding (
+     <a>
+      Supplementary Figure 4A
+     </a>
+     ). On the basis of a standard set of TROSY triple resonance experiments, over 80% of backbone resonances of TmFtsA's primary sequence were assigned (see Materials and methods and
+     <a>
+      Supplementary Figure 4B
+     </a>
+     ). This enabled us to identify all perturbed resonances (
+     <a>
+      Supplementary Figure 4C
+     </a>
+     ) and map these onto the crystal structure (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). Satisfyingly, both solution NMR and the X-ray structure agree on the binding site of the FtsZ C-terminal tail on the surface of subdomain 2B of FtsA, and both agree well with prior knowledge from mutants (
+     <xref ref-type="bibr">
+      Pichoff and Lutkenhaus, 2007
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FtsA forms actin-like protofilaments
+    </title>
+    <p>
+     On the basis of its fold, FtsA was originally classified as a member of the actin/HSP70 family of proteins, alongside actin and prokaryotic actin-like MreB (
+     <xref ref-type="bibr">
+      Bork et al, 1992
+     </xref>
+     ), although a large deviation from the canonical fold was reported, replacing subdomain 1B with 1C on the other side of the protein (
+     <xref ref-type="bibr">
+      van den Ent
+     </xref>
+     and ). This raised the important question of whether FtsA would be able to polymerize into filaments. The canonical actin fold is shown in
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     using MreB (
+     <xref ref-type="bibr">
+      van den Ent et al, 2001
+     </xref>
+     ): it consists of subdomains 1A, 1B, 2A and 2B (
+     <xref ref-type="fig">
+      Figure 3A and B
+     </xref>
+     ), and in the protofilament, the conserved subfilament that all polymerizing members of the actin family share, polymerization utilizes a contact between subdomains 1B and 2B on one subunit, and 1A and 2A on the other. FtsA has a distinct subdomain architecture: it contains subdomains 1A, 2A and 2B, but subdomain 1B is replaced with 1C, located on the other side of the protein, when interpreting it in terms of the protofilament architecture (
+     <xref ref-type="fig">
+      Figures 2A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Crystallographic and EM analysis reveal that FtsA, in spite of its unusual subdomain architecture, is able to form actin-like protofilaments. (
+       <strong>
+        A
+       </strong>
+       ) FtsA, in the presence of ATPγS, crystallized as a continuous polymer (crystallographic unit cell edge a is aligned with the longitudinal axis of the protofilament). The packing remarkably resembles that of MreB, which has the canonical actin-like fold (subdomains 1A, 1B, 2A, 2B) and forms actin-like, straight protofilaments. The longitudinal spacings are 51.1 and 48.0 Å for MreB and FtsA, respectively. (
+       <strong>
+        B
+       </strong>
+       ) A more detailed view of FtsA and MreB dimers. Monomeric subunits are rimmed in red. FtsA and MreB adopt a similar subdomain architecture; however, the 1B subdomain of MreB (yellow) is missing in FtsA and instead subdomain 1C in FtsA is located on the other side of the molecule. It therefore appears that FtsA is a subdomain variation of the actin fold that still enables the formation of canonical protofilaments. (
+       <strong>
+        C
+       </strong>
+       ) FtsA polymerizes on a lipid monolayer forming long filaments, which often form doublets. (
+       <strong>
+        D
+       </strong>
+       ) Occasionally, FtsA forms 2D sheets on the lipid monolayer. Fourier transformation of a sheet (white dotted square) reveals the same longitudinal spacing of about 48 Å, which matches the spacing present in the crystal structure.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Inspection of our new FtsA/FtsZ crystal structure (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , left) reveals that the TmFtsA dimer resembles an actin-like protofilament. Furthermore, when co-crystallized with ATPγS, TmFtsA produced another crystal form containing continuous protofilaments that closely resemble the previous dimer and are again actin-like (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     and
+     <a>
+      Supplementary Figure 5
+     </a>
+     ). No FtsZ peptide electron density could be found in this case. In the ATPγS crystals, the longitudinal axis of the protofilament is aligned with the crystallographic
+     <em>
+      a
+     </em>
+     axis, providing the repeat of 48.0 Å (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). The protofilament structure clearly resembles that of MreB (longitudinal spacing 51.1 Å;
+     <xref ref-type="bibr">
+      van den Ent et al, 2001
+     </xref>
+     ) and all other polymerizing actin-like proteins (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ).
+    </p>
+    <p>
+     This leads to the question of how FtsA forms the same protofilament when it has a different subdomain architecture. FtsA and MreB comprise the 1A, 2A and 2B subdomains, which are similarly arranged in both proteins. However, the 1B subdomain of MreB, which in the polymer structure makes a contact with the 1A subdomain of the succeeding subunit (
+     <xref ref-type="bibr">
+      van den Ent et al, 2001
+     </xref>
+     ), in FtsA is replaced with the 1C subdomain occurring on the opposite side of the molecule, which in the polymer structure contacts the 1A subdomain of the preceding subunit (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). In other words: the subdomain can be loosely described as having been swapped from one side of the FtsA molecule to the other, but its relative position within the protofilament has been conserved when compared with canonical actin-like protofilaments (Figure 6A).
+    </p>
+    <p>
+     This alteration has implications for the polymer appearance. First, the ends of the polymers will look very different, with the 1C subdomain of FtsA explicitly projecting at one terminus and the 2B subdomain at the other. Second, as FtsA's 1C subdomain contains nearly twice the number of residues compared with MreB's 1B subdomain and has a dissimilar topology (Figure 6B), there are important differences between the two polymer structures. MreB protofilaments are flat when observed along the longitudinal axis, whereas FtsA's 1C subdomain protrudes out, placing monomeric FtsA subunits at an angle with respect to the longitudinal axis and making the polymer structure thicker (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     right,
+     <a>
+      Supplementary Figure 5
+     </a>
+     ). Also, in the structure of the MreB filament, the tip of the subdomain 2A consisting of helices H8 and H9 is inserted in the cleft between subdomains 1B and 2B. A similar arrangement in the FtsA protofilament is obviously not possible, so the 2A subdomain stays in contact only with the 2B subdomain and is positioned somewhat behind it when looking from the front of the molecule (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). However, given that FtsA and MreB (also actin and ParM) are only ∼15% identical in sequence, their protofilaments are remarkably analogous. We conclude that it appears that FtsA is a variation of the actin fold that still enables the formation of canonical actin-like protofilaments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     TmFtsA protofilaments formed on lipid monolayers are identical to the filaments observed in crystals
+    </title>
+    <p>
+     To demonstrate that FtsA filaments exist outside crystals we used purified TmFtsA for
+     <em>
+      in vitro
+     </em>
+     electron microscopy. Conventional, negatively stained electron microscopy on carbon-coated grids failed, as the proteins (TmFtsA and TmFtsAΔ8) did not exhibit any polymeric structures but remained apparently monomeric. We then took advantage of FtsA's affinity for membranes through polymerization on a lipid monolayer (
+     <xref ref-type="fig">
+      Figure 3C and D
+     </xref>
+     ). By using this technique we revealed several hundred nanometre long filaments, often present as doublets or higher-order structures. Interestingly, no exogenous nucleotide was required to obtain these, but it is important to note that the protein contains some bound ATP carried over from the purification, as is evident from the ATP in the crystal structure, which was not added. Occasionally, two-dimensional sheets were observed (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). Fourier transformations of sheets (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     , top right) revealed a longitudinal spacing of around 48 Å, corresponding to the spacing found in the crystal. This implies that the TmFtsA polymers visualized by electron microscopy and seen in atomic detail in the crystal structures are very similar or identical.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FtsA proteins from T. maritima, E. coli and B. subtilis all form filaments in E. coli cells when overexpressed
+    </title>
+    <p>
+     Our previous experiments showed that TmFtsA polymerizes to form actin-like protofilaments
+     <em>
+      in vitro
+     </em>
+     on lipid monolayers. We investigated a broader range of species by including
+     <em>
+      E. coli
+     </em>
+     FtsA (EcFtsA) and
+     <em>
+      B. subtilis
+     </em>
+     FtsA (BsFtsA) proteins in our
+     <em>
+      in vivo
+     </em>
+     analysis. First, we overexpressed mCherry-tagged FtsAs deprived of the C-terminal amphipathic helices in
+     <em>
+      E. coli
+     </em>
+     and visualized them with conventional EPI as well as high-resolution SIM (Structured Illumination Microscopy) fluorescence microscopy. The amphipathic helices were removed for fluorescence microscopy in order to see filaments in the cytoplasm rather than membrane-associated polymers, which would be difficult to observe. Cells displayed strong fluorescence and contained long filaments: mCherry–EcFtsA 1–405, when overexpressed in
+     <em>
+      E. coli
+     </em>
+     , forms distinct, elongated polymer structures that tend to bend the cells into a tight curvature (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , top panels,
+     <a>
+      Supplementary Figure 6
+     </a>
+     ). Note that an earlier study found cytoplasmic aggregated structures formed by a similar C-terminal EcFtsA truncation (
+     <xref ref-type="bibr">
+      Gayda et al, 1992
+     </xref>
+     ). mCherry–BsFtsA 1–425 produced large polymers as well (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , second top panels,
+     <a>
+      Supplementary Figure 6
+     </a>
+     ); however, in this case the cells remained straight. Overexpression of mCherry–TmFtsA 1–411 formed inclusion bodies (data not shown) so it was not included in subsequent analysis by electron cryotomography.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       FtsA polymers can be visualized in living cells by fluorescence microscopy and electron cryotomography. (
+       <strong>
+        A
+       </strong>
+       ) N-terminal mCherry fusions to EcFtsA and BsFtsA (C-terminal amphipathic helix removed) as well as to four BsFtsA mutants have been overexpressed in
+       <em>
+        E. coli
+       </em>
+       using a T7 expression system. Membranes were stained with FM1-43. The three top panels show distinct, polymeric structures and the three bottom panels show that some mutations introduced within the polymerization interface prevent polymerization, leading to diffuse localization. The locations of these mutations are shown in
+       <a>
+        Supplementary Figure 7A
+       </a>
+       . All images using SIM. For conventional EPI images and more examples please consult
+       <a>
+        Supplementary Figure 6
+       </a>
+       . (
+       <strong>
+        B
+       </strong>
+       ) Untagged
+       <em>
+        E. coli
+       </em>
+       ,
+       <em>
+        B. subtilis
+       </em>
+       and TmFtsA proteins were overexpressed in
+       <em>
+        E. coli
+       </em>
+       cells and imaged by electron cryotomography. EcFtsA without the amphipathic helix (top left) forms long, straight bundles in the middle of the cell (navy blue dotted line represents cross-section's orientation). Full-length TmFtsA (top right) causes membrane distortion and forming of lipid tubes (turquoise) that are coated with protein polymers (red) in the cell membrane's proximity (see
+       <a>
+        Supplementary movie 1
+       </a>
+       ). The bottom panels show either full-length BsFtsA (right) or BsFtsA truncated for the amphipathic helix (left). As expected, they trigger membrane distortion and straight filaments, respectively. White dotted areas are shown enlarged in the insets.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To investigate the subcellular organization and appearance of FtsA filaments in more detail, we imaged EcFtsA 1–405, BsFtsA 1–425, BsFtsA and TmFtsA in intact cells by electron cryotomography. Both BsFtsA and TmFtsA polymers, containing the C-terminal amphipathic helices, bind to the inner surface of the cytoplasmic membrane, thereby distorting it (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , right panels). This causes the formation of elongated lipid tubes coated with protofilaments roughly parallel to the long axis of these tubes (
+     <a>
+      Supplementary movie 1
+     </a>
+     ). It is highly likely that the protofilaments are made of FtsA. In the absence of the amphipathic helix, EcFtsA 1-405 and BsFtsA 1-425 formed long, straight filaments visible in the cytoplasm that do not invaginate the membrane (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , left panels). EcFtsA 1–405 filaments were exceptionally prominent and assembled into large bundles aligned along the direction of the long axis of the cell (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , top left panel). Fourier transform of these gave a longitudinal repeat of 57 Å, which does not match the TmFtsA spacing of 48 Å that we determined above. Because of the low resolution of the tomograms it is not clear from the pictures that this repeat actually measures along the protofilament axis, as the
+     <em>
+      E. coli
+     </em>
+     polymers appear to be helical (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , top left panel inset). In cells overexpressing BsFtsA 1–425, similar fibres and localization patterns to those cells overexpressing EcFtsA 1–405 were observed (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , bottom left panel).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     BsFtsA filaments are required for efficient cell division
+    </title>
+    <p>
+     Next we investigated whether FtsA polymerization is needed for its function in cell division. For this, we rationally designed potential polymerization-deficient mutants (
+     <a>
+      Supplementary Figure 7A
+     </a>
+     ) based on manual inspection of the protofilament crystal structures described above (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). The mutated proteins were then analysed by fluorescence microscopy after expressing them as mCherry fusion proteins in
+     <em>
+      E. coli
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ,
+     <a>
+      Supplementary Figure 6
+     </a>
+     ). The
+     <em>
+      in vivo
+     </em>
+     fluorescence assay seems to be the most reliable test for FtsA polymerization, as it shows that the protein is made, does not form inclusion bodies and discrimination between fibres and uniform fluorescence is unambiguous, certainly using SIM. Western blot analysis with anti-
+     <em>
+      B. subtilis
+     </em>
+     FtsA antibodies was used to confirm that comparable amounts of mutants are made (
+     <a>
+      Supplementary Figure 7B
+     </a>
+     ). BsFtsA(S46F) 1–425 showed the same pattern as BsFtsA 1–425 (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , third top panels,
+     <a>
+      Supplementary Figure 6
+     </a>
+     ) demonstrating that it still polymerizes. In contrast, three BsFtsA 1–425 mutants K145A, M147E and I278K displayed evenly distributed fluorescence in cells and did not feature any distinct polymer-like structures (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , three bottom panels). We conclude that BsFtsA(K145A), M147E and I278K are unable to form polymers, whereas BsFtsA(S46F) forms polymers similar or identical to the wild type. Moreover, BsFtsA(I47D), P144K and G279R formed inclusion bodies (data not shown). Also, a recent report from the Lutkenhaus's group (
+     <xref ref-type="bibr">
+      Pichoff et al, 2012
+     </xref>
+     ,
+     <a>
+      Supplementary Figure 8
+     </a>
+     ) strengthens our argument by producing mutants deficient in FtsA self-interaction that map nicely to the FtsA interaction surfaces in the protofilament structure described here.
+    </p>
+    <p>
+     Having identified BsFtsA polymerization-deficient mutants, we wanted to study whether or not FtsA polymers are of biological significance
+     <em>
+      in vivo
+     </em>
+     . A complementation experiment was performed in a BsFtsA temperature-sensitive (ts) background at 42
+     <sup>
+      °
+     </sup>
+     C (see Materials and methods,
+     <xref ref-type="bibr">
+      Beall and Lutkenhaus, 1992
+     </xref>
+     and
+     <xref ref-type="bibr">
+      Karmazyn-Campelli et al, 1992
+     </xref>
+     ). Under elevated temperature, the ts-FtsA protein is unable to support cell division and the cells acquire a filamentous appearance that is straightforward to distinguish and quantify. We then complemented the endogenous ts-FtsA with a series of mutant versions of FtsA, inserted into the
+     <em>
+      aprE
+     </em>
+     locus, under the control of the IPTG-inducible
+     <em>
+      Pspac
+     </em>
+     promoter. We tested six different variants: wild-type FtsA, FtsA(Q87Stop; truncated protein product), FtsA(K145A), FtsA(M147E), FtsA(I278K) and FtsA(S46F). We used this experimental setup as it has been shown (
+     <xref ref-type="bibr">
+      Beall and Lutkenhaus, 1992
+     </xref>
+     ) that wild-type
+     <em>
+      ftsA
+     </em>
+     expressed from the
+     <em>
+      Pspac
+     </em>
+     promoter complemented the filamentation phenotype triggered by the ts-FtsA protein, and we were wondering if our polymerization-deficient mutants would behave similarly. As is shown in
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     , the wild-type and S46F cells were of normal length, whereas the Q87Stop and the three polymerization-deficient mutants K145A, M147E and I278K grew as elongated, filamentous cells (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). These were long cells of varying length and it stays in accordance with previous studies (
+     <xref ref-type="bibr">
+      Jensen et al, 2005
+     </xref>
+     ) on an
+     <em>
+      ftsA
+     </em>
+     -null
+     <em>
+      B. subtilis
+     </em>
+     strain where the average cell length was 22.6±11.9 μm. Quantification also reflects that fact (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ) with significant standard deviations associated with the FtsA polymerization-deficient mutants and the Q87Stop mutant. The average cell length of the FtsA mutants is larger than that of the wild type; however, the phenotype is not as severe as in case of Q87Stop. Also, assuming that the length per nucleoid is constant and the wild-type FtsA cells undergo correct cell divisions, we calculated a fraction of successful cell divisions (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). In case of Q87Stop about 0.43 cytokineses are fine, and for the FtsA polymerization-deficient mutants it varies between 0.59 (M147E) and 0.71 (K145A). This suggests that cell division in the absence of FtsA filaments (monomeric FtsA is still present) is much less efficient than usual. This is not totally unexpected and it seems as if the Z-ring binding to the membrane by monomeric FtsA is not as effective as by FtsA protofilaments. It implies a role for FtsA polymerization in bacterial cell division.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Replacing thermo-sensitive FtsA with either polymerization-deficient mutants or a non-functional version has dramatic effects on cell division in
+       <em>
+        B. subtilis
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) DIC images of genetically engineered
+       <em>
+        B. subtilis
+       </em>
+       strains showing that non-polymerizing FtsAs (K145A, M147E, I278K) do not fully complement the thermo-sensitive
+       <em>
+        spoIIN279(ts)
+       </em>
+       allele. As a control, non-functional FtsA (Q87Stop) shows a very severe cell division defect. S46F, which was found to still polymerize (
+       <xref ref-type="fig">
+        Figure 4A
+       </xref>
+       ), shows no effect on cell division. (
+       <strong>
+        B
+       </strong>
+       ) A chart showing the average cell lengths of strains bearing tested FtsA variants. The wild type was 5.89±1.74 μm and S46F exhibits similar values. Cells of the Q87Stop variant were 13.40±8.30 μm, and the three polymerization-deficient mutants were as follows: K145A 8.29±4.36 μm, M147E 9.93±6.6 μm and I278K 9.04±4.86 μm. (
+       <strong>
+        C
+       </strong>
+       ) Fractions of successful cell divisions were calculated referring to the wild-type FtsA variant.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    We have reconstituted
+    <em>
+     in vitro
+    </em>
+    the
+    <em>
+     T. maritima
+    </em>
+    membrane-bound complex of FtsA and FtsZ, and regions indispensable for complex formation have been identified. This work confirms and refines previous
+    <em>
+     in vivo
+    </em>
+    findings and leads to the FtsZ-tethering model depicted in
+    <xref ref-type="fig">
+     Figure 6C
+    </xref>
+    .
+   </p>
+   <fig id="f6" position="float">
+    <label>
+     Figure 6
+    </label>    <caption>
+     <p>
+      FtsA is a subdomain variation of the actin fold that still enables the formation of similar protofilaments. (
+      <strong>
+       A
+      </strong>
+      ) The 1C subdomain is present on the other side of a monomeric subunit in respect to 1B subdomain of MreB. (see also
+      <xref ref-type="fig">
+       Figure 3A and B
+      </xref>
+      ). (
+      <strong>
+       B
+      </strong>
+      ) Both the 1C subdomain of FtsA and the 1B subdomain of MreB consist of an α-alpha helix and a three-stranded β-sheet, but the topology is different. For 1C it is S5-H2-S6-S7 and for 1B it is S4-S5-H1-S6. (
+      <strong>
+       C
+      </strong>
+      ) Architecture of the FtsA/FtsZ membrane-bound complex, as analysed here for
+      <em>
+       T. maritima
+      </em>
+      . (
+      <strong>
+       D
+      </strong>
+      ) The Z-ring made of polymerized tubulin-like FtsZ may be attached to the membrane by an ‘A-ring', in turn made of polymerized actin-like FtsA or short stretches of FtsA polymers, based on the relative number of FtsZ and FtsA molecules in cells.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Importantly, the structural work on the FtsA/FtsZ complex led us to the discovery that FtsA is able to assemble into filaments that resemble actin-like protofilaments and we show that these filaments are formed by FtsAs from three different model organisms. The protofilaments are formed despite FtsA having unusual subdomain architecture. Finally, we demonstrate that polymerization-deficient FtsA mutants show a modest phenotype in cell division in a thermo-sensitive-FtsA complementation assay in
+    <em>
+     B. subtilis.
+    </em>
+   </p>
+   <p>
+    It has previously been shown that the last 15–20 residues of FtsZ are highly conserved and form a region for interactions with other proteins, such as ZipA, MinC and FtsA (
+    <xref ref-type="bibr">
+     Shen and Lutkenhaus, 2009
+    </xref>
+    ), and an
+    <em>
+     E. coli
+    </em>
+    FtsA R286W mutant protein could be co-pelleted with FtsZ (
+    <xref ref-type="bibr">
+     Beuria et al, 2009
+    </xref>
+    ). We have now shown that the interaction between unmodified and wild-type FtsZ and FtsA can be observed
+    <em>
+     in vitro
+    </em>
+    and we could identify and characterize the interactions in detail. We show the tail of FtsZ binding to subdomain 2B of FtsA, as was implied by earlier mutant work (
+    <xref ref-type="bibr">
+     Pichoff and Lutkenhaus, 2007
+    </xref>
+    ). We could not find any effect of FtsZ tail binding on FtsA's nucleotide binding or hydrolysis activity, nor on FtsA polymerization, and it currently seems to be a purely architectural interaction leading to the membrane tethering of the Z-ring. Our model in
+    <xref ref-type="fig">
+     Figure 6C
+    </xref>
+    does suggest that the Z-ring of bacterial cell division is some distance from the membrane, and this has been reported earlier by electron tomography data (
+    <xref ref-type="bibr">
+     Li et al, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    The structure of
+    <em>
+     E. coli
+    </em>
+    FtsZ peptide in complex with ZipA has previously been solved (
+    <xref ref-type="bibr">
+     Mosyak et al, 2000
+    </xref>
+    ). Comparing the two structures unveils some similarities, although they are largely confined to a small α-helical region and the termini point in different directions (
+    <a>
+     Supplementary Figure 9
+    </a>
+    ). Certainly, the binding pockets on ZipA and FtsA for the same FtsZ tail seem to be quite diverse (as can be judged from looking at structures from different organisms). Therefore, it seems likely that the FtsZ tail adopts different conformations, at least partly, to bind to ZipA and FtsA, not simultaneously (
+    <a>
+     Supplementary Figure 9
+    </a>
+    ). This is conceivable in the light of overlapping functions of ZipA and FtsA (
+    <xref ref-type="bibr">
+     Pichoff and Lutkenhaus, 2002
+    </xref>
+    ).
+   </p>
+   <p>
+    Our work shows that FtsA is more actin-like than was previously assumed. FtsA forms protofilaments on lipid monolayers and in cells when overexpressed. FtsA forms actin-like protofilaments, although they diverge significantly from the ones formed by actin, MreB and ParM. These differences are most likely caused by the aberration in structure, fold and size of subdomain 1C that replaces 1B on the other side of the molecule (
+    <xref ref-type="bibr">
+     van den Ent
+    </xref>
+    and ). The topology of FtsA's 1C subdomain is S5-H2-S6-S7, whereas MreB's 1B subdomain is S4-S5-H1-S6 (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ). The origin of the 1C subdomain during evolution is unknown, although it seems unlikely that it is related to 1B. This suggests that 1C is not simply a domain swap (moving the subdomain into another loop region of the actin fold) but a more complicated domain replacement with something different, in a various location that still enables similar filament formation. A DALI search for the most similar fold to subdomain 1C returns RNA polymerase II chain G (PDB id: 3H0G) with a Z-score of 6.3 and 10% sequence identity over 61 aligned residues (
+    <a>
+     Supplementary Figure 10
+    </a>
+    ). This is a significant hit, but to us does not provide any clues.
+   </p>
+   <p>
+    Tendency of FtsA to dimerize, oligomerize or polymerize has been studied using genetics methods (
+    <xref ref-type="bibr">
+     Yim et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rico et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shiomi and Margolin, 2007
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ); however, we now provide structural data on how the filament formation is possible in light of the deviant FtsA domain architecture. Previous reports are based mainly on either yeast or bacterial two-hybrid assays that do not distinguish between dimerization and polymerization. Importantly, two recent reports (
+    <xref ref-type="bibr">
+     Krupka et al, 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pichoff et al, 2012
+    </xref>
+    ) support our model of the FtsA protofilament.
+    <xref ref-type="bibr">
+     Krupka et al (2012)
+    </xref>
+    show that the 1C subdomain is present within the polymerization interface.
+    <xref ref-type="bibr">
+     Pichoff et al (2012)
+    </xref>
+    list mutants, deficient in FtsA self-interaction, that map nicely to the FtsA–FtsA interfaces generated by our protofilament structure. Interestingly, the FtsA mutants impaired in self-interaction, identified in the study by
+    <xref ref-type="bibr">
+     Pichoff et al (2012)
+    </xref>
+    , can bypass the requirement for ZipA, which is another Z-ring membrane anchor in
+    <em>
+     E. coli
+    </em>
+    and still support cell division. This is most likely possible because recruitment of downstream proteins by FtsA is unaffected and the protein is still functional in the absence of ZipA. In contrast, FtsA in
+    <em>
+     B. subtilis
+    </em>
+    is presumably the only membrane-tethering agent for FtsZ and as shown in this work, polymerization-deficient mutants trigger elongated cells.
+   </p>
+   <p>
+    FtsA and FtsZ are the only nucleotide-binding components of the inner divisome machinery, with the potential to produce energy by nucleotide turnover. FtsZ's GTP binding and hydrolysis is now relatively well-understood (
+    <xref ref-type="bibr">
+     Oliva et al, 2004
+    </xref>
+    ) and nucleotide is efficiently hydrolysed only upon filament formation. In contrast, less is known about FtsA's ATPase activity. Clearly, TmFtsA can bind to ATP and ATPγS as demonstrated by the crystal structures (presented here and
+    <xref ref-type="bibr">
+     van den Ent
+    </xref>
+    and ), but it still has not been shown conclusively that the protein, from any organism, exhibits ATPase activity (with one exception, which might represent contamination:
+    <xref ref-type="bibr">
+     Feucht et al, 2001
+    </xref>
+    ). In the course of this work, we performed ATPase assays with purified TmFtsA in the presence of miscellaneous ligands, including divalent metal cations, the FtsZ C-terminal peptide and liposomes, and they did not yield any detectable activity of the protein (data not shown). Also, in our
+    <em>
+     in vitro
+    </em>
+    experiment on lipid monolayers, polymers formed in the absence of exogenous nucleotide, although some ATP from purification is bound to the protein. Similarly, previous work on
+    <em>
+     S. pneumoniae
+    </em>
+    FtsA showed ATP-dependent polymerization (
+    <xref ref-type="bibr">
+     Lara et al, 2005
+    </xref>
+    ); however, no membrane was present. It is worth noting that our assay was performed with
+    <em>
+     Thermotoga
+    </em>
+    protein and this might be a special case because of the extreme temperature adaptation of this protein. Full length FtsA proteins containing the C-terminal amphipathic helix are very difficult to be produced in a pure and well-behaved form, particularly when they originate from mesophilic organisms. This situation is somewhat similar to MreB, where it was very recently shown that an N-terminal amphipathic helix hinders biochemical experiments on most proteins, except
+    <em>
+     Thermotoga
+    </em>
+    (
+    <xref ref-type="bibr">
+     Salje et al, 2011
+    </xref>
+    ). However, removal of the amphipathic helix will alter the protein's properties and polymerization may then not be observed
+    <em>
+     in vitro
+    </em>
+    .
+    <em>
+     In vivo
+    </em>
+    , the system may be balanced so that membrane interaction and charge compensation are required for efficient polymerization, and it seems that ATP hydrolysis is not required for polymerization on the lipid surface (see
+    <xref ref-type="fig">
+     Figure 3C and D
+    </xref>
+    ). However, in this case membrane binding might be the energy-reducing factor acting
+    <em>
+     in lieu
+    </em>
+    of ATPase activity, which might still be essential in solution or cells. To address this question more work using putative ATPase mutants
+    <em>
+     in vivo
+    </em>
+    will be needed.
+   </p>
+   <p>
+    Why might FtsA polymerization be required in cells? It is thought that cell division in most bacteria proceeds through constriction of the Z-ring. The ring might either produce mechanical force or direct the position of cell-wall synthesizing machinery in the periplasm, where force may then be generated. It has been shown in
+    <em>
+     C. crescentus
+    </em>
+    by tomography that the Z-ring may consist of short (∼100 nm) filaments situated randomly near the division sites rather than one, long filament encircling the cell (
+    <xref ref-type="bibr">
+     Li et al, 2007
+    </xref>
+    ) and this has been recently supported by PALM microscopy in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Fu et al, 2010
+    </xref>
+    ). Also, it has been estimated in
+    <em>
+     B. subtilis
+    </em>
+    that there are around 1000 and 5000 molecules of FtsA and FtsZ, respectively, per cell (
+    <xref ref-type="bibr">
+     Feucht et al, 2001
+    </xref>
+    ) and it is unclear whether this is enough to cover the entire cell circumference.
+   </p>
+   <p>
+    Our work shows that the Z-ring might be tethered to the membrane by an ‘A-ring' made of FtsA polymer(s) (
+    <xref ref-type="fig">
+     Figure 6D
+    </xref>
+    ). Because there is most likely less FtsA in a cell than FtsZ, the A-ring is probably non-continuous. This would lead to a putative constriction model, whereby FtsZ and FtsA polymers are parallel to the inner surface of the cytoplasmic membrane, and the mismatch of spacings between the two proteins (FtsA ∼48 Å and FtsZ ∼44 Å) could trigger FtsZ/FtsA filament curvature and in turn membrane constriction (
+    <xref ref-type="bibr">
+     Li et al, 2007
+    </xref>
+    ). Alternatively, FtsZ filaments could be attached to the membrane by short stretches of FtsA polymers only every several FtsZ subunits. Depolymerization of such rarely membrane-attached FtsZ protofilaments would also lead to constriction. As a third alternative, FtsA could polymerize perpendicular to the FtsZ filament axis, restricting the number of FtsZ filaments in a bundle. To distinguish between these models, more electron cryotomography will be required to determine how FtsA and FtsZ protofilaments are mutually oriented in cells, how they are arranged with respect to the membrane and how the flexible linkers in both proteins are organized.
+   </p>
+   <p>
+    Finally, how did the 1C/1B subdomain variation happen? The FtsA 1B/1C subdomains' fold topology is reversed and they vary in size. Analysis of actin-like protein sequences and structures, including actin, MreB (
+    <xref ref-type="bibr">
+     van den Ent et al, 2001
+    </xref>
+    ) and ParM (
+    <xref ref-type="bibr">
+     van den Ent et al, 2002
+    </xref>
+    ), reveals that the 1B subdomain is the most variable and FtsA is the most evolutionary distant from other actin-like proteins. All these proteins play key roles in distinct cellular processes relying on their actin-like filamentous nature. Opposite orientations of the 1C and 1B subdomains could be explained by the fact that the former is preceded by S1-S2-S3-H1-S4 of the FtsA 1A subdomain, whereas the latter is preceded by only S1-S2-S3 and is followed by H2-S7 of the MreB 1A subdomain, thus it seems they are ‘inserted' in slightly different regions of 1A's primary sequence. It would be compelling to find out whether the last common ancestor of actin and FtsA was more ‘actin-like' or ‘FtsA-like' or it rather existed as a three-subdomain protein (1A, 2A, 2B) and later acquired either the 1C or 1B subdomain.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Plasmids and strains
+    </title>
+    <p>
+     Plasmids and strains used in this work are listed in
+     <a>
+      Supplementary Tables 1 and 2
+     </a>
+     , respectively.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein purification
+    </title>
+    <p>
+     TmFtsA (from plasmid pSZ8) and FtsZ (pSZ7) proteins as well as the ParM-FtsZ (pSZ19) hybrid protein for
+     <em>
+      in vitro
+     </em>
+     assays were purified using the IMPACT system (NEB). The proteins were expressed at 37 °C in C41(DE3) cells for 4 h. Cells were lysed in buffer A (50 mM Tris, 10 mM EDTA, 2 mM 1,10-phenantroline, 1 mM PMSF, pH 8.5) by passing through a Constant Systems cell disruptor at 25 kpsi. The soluble fraction was loaded on a chitin column (NEB), which was then thoroughly washed with buffer B (A+50 mM NaCl) and finally with 2 column volumes of buffer C (B+50 mM DTT) and left overnight at 4 °C to cleave off the intein tag. The untagged proteins were eluted with buffer B, and pooled fractions were passed over an ion-exchange Q column (HiTrap, GE Healthcare). The column was washed with buffer D (20 mM Tris, 10 mM EDTA, 2 mM 1,10-phenantroline, 1 mM PMSF, pH 7.5) and the proteins were eluted by applying a gradient of buffer E (D+1 M NaCl). Peak fractions were pooled, concentrated and subjected to size-exclusion chromatography on Sephacryl S200 (GE Healthcare) in buffer F (50 mM Tris, 1 mM NaN
+     <sub>
+      3
+     </sub>
+     , 1 mM EDTA, pH 7.5). Peak fractions were concentrated to 10 mg/ml and stored at −80 °C. This protocol yielded full-length TmFtsA, TmFtsZ and ParM-Z. For the proteins lacking the C-terminal amino acids the same protocol was performed, but 1,10-phenantroline and PMSF were omitted, which resulted in efficient and specific cleavage of the last eight amino acids by an unknown
+     <em>
+      E. coli
+     </em>
+     protease. The protein's identity and correct molecular masses were confirmed by N-terminal sequencing and electrospray mass spectroscopy displaying 38 307 Da for TmFtsZ, 37 404 Da for TmFtsZΔ8, 47 015 Da for TmFtsA, 45 968 Da for TmFtsAΔ8, 42 011 for ParM-Z and 41 109 form ParM-ZΔ8.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Co-pelleting assay
+    </title>
+    <p>
+     Purified proteins were mixed at a final concentration of 15 μM each. The samples were pre-spun at 57 k r.p.m. in a Beckman TLA100 rotor for 30 min, supernatants transferred to new tubes and GTP (in case of FtsZ) or ATP (in case of ParM-Z hybrid) to a final concentration of 2.5 mM was added. Next, the tubes were centrifuged at 57 k at 20 °C for 30 min. The supernatants were removed for analysis and the pellets washed with buffer containing the same components as the reaction buffer aside from proteins. Pellets were solubilized with SDS gel loading buffer (same volume as for the supernatants) and samples were analysed by SDS–PAGE.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Co-sedimentation assay
+    </title>
+    <p>
+     Vesicles were prepared using
+     <em>
+      E. coli
+     </em>
+     total lipid extract (Avanti Polar Lipids) in buffer F using sonication and extrusion, using a pore size of 1 μm. Vesicles were mixed with pre-spun proteins at a final concentration of 15 μM and centrifuged at 40 k r.p.m. at 20 °C for 15 min in a Beckman TLA100 rotor. The supernatants were removed for analysis, the pellets washed with buffer F and solubilized with SDS gel loading buffer (same volume as for the supernatants) and samples were analysed by SDS–PAGE.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structure determination
+    </title>
+    <p>
+     Full-length TmFtsA was co-crystallized with either the C-terminal TmFtsZ peptide (336 H
+     <sub>
+      2
+     </sub>
+     N-EGDIPAIYRYGLEGLL-COOH 351) or the peptide and ATPγS. The protein was at 10 mg/ml, the peptide at 10× molar excess and the nucleotide at 2 mM. FtsA and the peptide yielded crystals in the following conditions: 0.1 M bisTris, pH 5.5, 12% (w/v) PEG 10 k, 0.15 M ammonium acetate. Crystals were moved to the same conditions supplemented with 18% (v/v) PEG 200 and flash-frozen in liquid nitrogen. Crystals of FtsA in complex with ATPγS grew from 0.1 M Tris, pH 6.7, and 42% ethanol. Crystals were transferred into the same conditions supplemented with 25% (v/v) PEG 200 before flash freezing. Data were collected at 100 K at ESRF in Grenoble, France (beamlines ID29 and ID23.1). Both crystal forms diffracted to 1.8 Å. The data were processed with MOSFLM and SCALA (
+     <xref ref-type="bibr">
+      CCP4
+     </xref>
+     ). Phases were calculated by molecular replacement with TmFtsA Protein Data Bank (PDB) entry 1E4F as a model using PHASER (
+     <xref ref-type="bibr">
+      McCoy et al, 2007
+     </xref>
+     ). The structures were refined with REFMAC (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ) or PHENIX (
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ). Residues (91.2%) for FtsA+peptide+ATP and residues (91.4%) for FtsA+ATPγS were in the most favored regions of the Ramachandran plot as determined by PROCHECK (
+     <xref ref-type="bibr">
+      CCP4 1994
+     </xref>
+     ). Crystallographic data are summarized in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     . Structures were deposited in the PDB with codes 4A2A and 4A2B.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     The experiment was performed at 35 °C on an ITC
+     <sub>
+      200
+     </sub>
+     instrument. The sample cell was filled with 55 μM TmFtsA in buffer F and titrated with 500 μM FtsZ peptide in buffer F while stirring at 1000 r.p.m. Twenty aliquots of the peptide (2 μl) were injected at 120 s intervals. Data analysis was performed using the Origin-ITC analysis package in ‘one set of sites' mode. The experiment was repeated using 70 μM TmFtsA and 730 μM FtsZ peptide.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Solution NMR
+    </title>
+    <p>
+     To assign the backbone resonances of the 47 kDa FtsA (pSZ1) protein from
+     <em>
+      T. maritima,
+     </em>
+     we overexpressed
+     <sup>
+      15
+     </sup>
+     N
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      2
+     </sup>
+     H triple-labelled FtsA protein growing bacteria on MOPS minimal media using
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl as the sole nitrogen source,
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      2
+     </sup>
+     H glucose as the sole carbon source and
+     <sup>
+      2
+     </sup>
+     H
+     <sub>
+      2
+     </sub>
+     O as the solvent. The protein was purified using standard nickel-NTA chromatography followed by size-exclusion chromatography on Sephacryl S200 in buffer F. 3D TROSY experiments (HNCO, HN(CA)CO, HNCA, HN(CO)CA, HN(CO)CACB and HNCACB) were recorded at 50 °C on a Bruker Avance II+ 700 MHz spectrometer at a sample concentration of 85 μM in buffer F. All data were processed in Topspin 2.1 (Bruker, Karlsruhe), analysed in SPARKY (
+     <xref ref-type="bibr">
+      Goddard-Kneller
+     </xref>
+     ) and backbone connectivities were obtained with MARS (
+     <xref ref-type="bibr">
+      Jung and Zweckstetter, 2004
+     </xref>
+     ), MAPPER (
+     <xref ref-type="bibr">
+      Guntert et al, 2000
+     </xref>
+     ) or in-house scripts. To confirm and extend obtained assignments,
+     <sup>
+      15
+     </sup>
+     N selectively labelled (
+     <sup>
+      15
+     </sup>
+     N Leu and
+     <sup>
+      15
+     </sup>
+     N Ile) FtsA samples yielded amide resonances of Leu (Ile) residues, respectively. Weighted c.s.p. maps were based on TROSY HSQC spectra acquired in the absence or presence of the FtsZ C-terminal peptide (2.5 molar excess). Weighted c.s.ps larger than 0.04 p.p.m. or disappearing resonances were assumed to be involved in peptide binding and mapped onto the crystal structure. The assignment data were deposited in the Biological Magnetic Resonance Data Bank with accession code
+     <em>
+      18339
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Monolayer assay
+    </title>
+    <p>
+     2D lipid monolayers were prepared from
+     <em>
+      E. coli
+     </em>
+     total lipid extract (Avanti Polar Lipids). Teflon block wells were filled with 50 μl of buffer F, next, a drop of lipid solution in chloroform was applied on top and incubated for an hour to let the chloroform evaporate, leaving a monolayer of lipid on the surface of the buffer. EM carbon-coated grids (carbon side down) were placed on the top of each well and the protein applied into the side injection well, underneath the surface. After 1 h, the grids were stained with 2% uranyl acetate and visualized using a Philips electron microscope operating at 80 kV.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electron cryotomography
+    </title>
+    <p>
+     C41(DE3) cells containing the plasmid for FtsA over-expression (pSZ6, pSZ41, pSZ47, pMZ114) were grown in M9 minimal medium supplemented with 0.2% glycerol at 30 °C. FtsA over-expression was induced by adding 0.2% agarose to the cultures at an OD
+     <sub>
+      600
+     </sub>
+     of 0.2. After 3 h, the cells were collected, washed in PBS once, mixed with 10 nm protein-A-coated gold beads (Sigma-Aldrich, USA), and plunge-frozen onto Quantifoil R3.5/1 holey carbon grids using an FEI Vitrobot (FEI Company, USA). Cells were imaged using an FEI Polara Electron Microscope operating at 300 kV, equipped with a Gatan imaging filter set at the zero-loss peak with a slit-width of 20 eV. A Gatan Ultrascan 4000 CCD camera binned to 2 k × 2 k was used for imaging with SerialEM software (
+     <xref ref-type="bibr">
+      Mastronarde, 2005
+     </xref>
+     ). Cells were imaged at a magnification of 41 k, corresponding to a pixel size of 5.8 Å at the specimen. The specimen was tilted from approximately −50° to 50° with a 1° increment during tilt series acquisition, and the defocus was set at 10 μm. The total dose for each tilt series is between 150 to 200 e/Å
+     <sup>
+      2
+     </sup>
+     . Tomographic reconstruction was calculated using the IMOD tomography reconstruction package (
+     <xref ref-type="bibr">
+      Kremer et al, 1996
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence microscopy
+    </title>
+    <p>
+     <em>
+      E. coli
+     </em>
+     C41(DE3) cells were transformed with vectors encoding N-terminal mCherry fusions to the
+     <em>
+      E. coli
+     </em>
+     (pSZ49) or BsFtsA (pSZ50a-e) proteins, deprived of the C-terminal amphipathic helices, and the expression was induced with 1 mM IPTG at OD
+     <sub>
+      600
+     </sub>
+     0.2 for 1 h at 37 °C. Cells were stained with FM1-43 stain (Invitrogen), mounted on an agarose pad and visualized using a Nikon N-SIM microscope equipped with a Nikon APO TIRF ×100/1.49 lens in both EPI and 2D-SIM modes with the 488- and 543-nm solid state lasers. The final pixel size was 64 nm in the EPI mode and 32 nm in the SIM mode.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Strain construction and in vivo complementation experiment
+    </title>
+    <p>
+     To obtain genetically modified
+     <em>
+      B. subtilis
+     </em>
+     strains, first, we constructed integration vectors (pSZ61a-f) consisting of a spectinomycin-resistance cassette and an FtsA point mutant (K145A, M147E, I278K, Q87Stop, S46F) in between the
+     <em>
+      aprE
+     </em>
+     flanking sequences (using pAPNC213 (
+     <xref ref-type="bibr">
+      Morimoto et al, 2002
+     </xref>
+     )). These constructs were used to transform the
+     <em>
+      B. subtilis
+     </em>
+     S62 strain (BGSC no.: 1S62, possessing the
+     <em>
+      spoIIN279(ts) ftsA
+     </em>
+     mutation (
+     <xref ref-type="bibr">
+      Beall and Lutkenhaus, 1992
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Karmazyn-Campelli et al, 1992
+     </xref>
+     )). Transformants were selected on spectinomycin (100 μg/ml) containing LB plates and the correct location and orientation of the insert was checked by PCR and sequencing. The strains were grown at 42 °C (to inactivate the endogenous thermo-sensitive FtsA protein) in LB medium in the presence of 1 mM IPTG (to induce the synthesis of the FtsA mutants). At OD
+     <sub>
+      600
+     </sub>
+     0.4–0.5, cells were harvested, washed with PBS and visualized using a Zeiss LSM5 microscope.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell measurements and statistical analysis
+    </title>
+    <p>
+     About 500 cells for each FtsA variant were manually inspected and measured. Then average cell lengths and standard deviations over the given number of cells were calculated for each FtsA variant and plotted as bars and error bars, respectively, shown in
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     . Fractions of successful cell divisions were obtained as a quotient of the number of observed cells for each variant by the number of possible cells. The number of possible cells was calculated (assuming that the length per nucleoid is constant and the wild-type FtsA cells undergo correct cell divisions) by dividing the sum of all cell lengths for each variant by the average wild-type FtsA cell length.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (18M, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Movie 1:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (32M, mov)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (300K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

@@ -1,0 +1,1165 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2637334
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural basis for translational inhibition by the tumour suppressor Pdcd4
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Pdcd4 is a tumour suppressor protein. It inhibits translation through interaction with translation initiator eIF4A, resulting in the suppression of neoplastic transformation and tumour invasion. Here, we present the crystal structures of an N-terminal-truncated Pdcd4 in free form and in complex with eIF4A. Upon binding to eIF4A, Pdcd4 undergoes a marked conformational change to form a heterotrimeric complex with eIF4A, with one Pdcd4 binding to two eIF4A molecules in two different modes. The binding of Pdcd4 to eIF4A is required to inhibit the enzymatic activity of eIF4A, translation initiation, and AP-1-dependent transcription. Both MA3 domains are required to efficiently compete with the C-terminal domain of eIF4G (eIF4Gc) for binding to eIF4A whereas a single MA3 is sufficient to inhibit translation. Our structural and mutational analyses reveal that Pdcd4 inhibits translation initiation by trapping eIF4A in an inactive conformation, and blocking its incorporation into the eIF4F complex.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Pdcd4, RNA helicase, translation initiation, translational control, tumour suppressor
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The
+    <em>
+     PDCD4
+    </em>
+    gene was first isolated as an MA-3 gene (also known as TIS/H731/DUG) in a differential display search for genes upregulated in apoptosis-induced mouse cells (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Subsequently, the Pdcd4 protein was identified as a tumour suppressor in a mouse model of tumour promotion, in which high level of Pdcd4 was shown to suppress neoplastic transformation and tumour phenotype (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2003
+    </xref>
+    ). Pdcd4 has been shown to suppress skin tumorigenesis and tumour progression in transgenic mice (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Loss of Pdcd4 expression has been strongly implicated in the development and progression of lung, colon, and breast cancer (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Pdcd4 protein levels have been shown to be reduced in human lung-, renal- and glia-derived tumours (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). More recently, downregulation of Pdcd4 has been shown to promote tumour invasion and activate both β-catenin/Tcf and AP-1-dependent transcription in colon carcinoma cells (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Pdcd4 has two potential phosphorylation sites at Ser67 and Ser457 and has been shown to be a regulatory target of the protein kinases Akt (protein kinase B) (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and S6K1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Phosphorylation of Pdcd4 by these kinases leads to its rapid degradation mediated by the E3 ubiquitin ligase complex SCF
+    <sup>
+     βTrCP
+    </sup>
+    , thereby promoting protein translation and cell growth (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Recently, oncogenic micro-RNA miR-21 was shown to target the
+    <em>
+     PDCD4
+    </em>
+    gene and to downregulate its expression in cancer cells (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Pdcd4 inhibits tumour promoter-induced transformation by inhibiting transactivation of the activator protein 1 (AP-1) transcription factor (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and this inhibitory effect is achieved through interaction with translation initiation factor eIF4A (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), the key component of the eIF4F complex, which includes two other translation initiation factors eIF4E and eIF4G. eIF4A is a member of the DEAD-box protein family, and functions as an ATP-dependent RNA helicase to catalyze the unwinding of mRNA secondary structure at the 5′UTR (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). eIF4G is a scaffold protein containing two eIF4A-binding sites: one located within the middle one-third (eIF4Gm) and the other located within the C-terminal one-third (eIF4Gc) (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The binding of eIF4A to eIF4Gm increases helicase activity and is sufficient for cap-dependent translation (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ) whereas the interaction of eIF4A with eIF4Gc is thought to provide a modulatory function (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Pdcd4 contains two tandem MA3 domains, both of which are protein-interaction modules that belong to the functionally diverse HEAT-repeat family of proteins. Pdcd4 interacts with eIF4A and eIF4G through its highly conserved MA3 domains (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Both MA3 domains are required for efficient binding to eIF4A whereas the C-terminal MA3 domain competes with eIF4Gc for binding to eIF4A (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Through its association with eIF4A, Pdcd4 inactivates the helicase function of eIF4A and suppresses cap-dependent translation (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), and consequently inhibits AP-1 transactivation (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2003
+    </xref>
+    ). The observation that Pdcd4 inhibits both tumour formation and tumour progression by targeting translation is consistent with the evidence that translation initiation factors are linked to carcinogenesis (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    The structure of the C-terminal MA3 domain of mouse Pdcd4 has been determined by both crystallography and NMR (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The C-terminal MA3 domain is structurally very similar to the MA3 domain of eIF4Gc (eIF4G-MA3), competes with eIF4Gc for binding to eIF4A and is sufficient to inhibit cap-dependent translation (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The most recently reported structure of the N-MA3 domain of human Pdcd4 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) showed that the two MA3 domains are structurally very similar and have similar eIF4A-binding surfaces. Moreover, like the C-terminal MA3, the N-terminal MA3 competes efficiently with eIF4G-MA3 for binding to eIF4A (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), suggesting both MA3 domains are structurally and functionally similar. However, how two MA3 domains act cooperatively to bind eIF4A and inhibit translation remains elusive although the interaction of both MA3 domains with eIF4A has been shown to form a more stable complex (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we report the crystal structures of an N-terminal-truncated human Pdcd4 containing both MA3 domains (Pdcd4ΔN) in free form and in complex with full-length eIF4AI. The structure revealed how two tandem MA3 domains of Pdcd4 act synergistically to bind eIF4A specifically and inhibit translation. Structure-based mutagenesis confirmed that the interaction between Pdcd4 and eIF4A is required for Pdcd4 to exert its inhibitory effects on translation and AP-1-dependent transcription, as well as the helicase activity of eIF4A. Our results have unraveled a mechanism underlying the translational inhibition by Pdcd4.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Structure determination
+    </title>
+    <p>
+     Full length human Pdcd4 (hPdcd4FL) contains an N-terminal putative RNA-binding domain (hPdcd4-NTD, residues 1–140) and two conserved MA3 domains, designated as nMA3 and cMA3, respectively (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). As purified full-length protein failed to crystallize, we set out to identify a truncated protein which was amenable for crystallization. Limited proteolysis yielded a fragment from residue 153 onwards as the minimum portion that supports binding to eIF4AI. This data combined with sequence alignments and secondary structure predictions led to the identification of a compact fragment of hPdcd4 containing both the nMA3 and cMA3 domains (hPdcd4ΔN; residues 157 to 469). Purified hPdcd4ΔN yielded diffraction-quality crystals, which belonged to space group P3
+     <sub>
+      1
+     </sub>
+     21 and contained two molecules in the asymmetric unit (AU). The structure was solved by the single-wavelength anomalous dispersion phasing method and refined at a resolution of 2.87 Å to working and free R factors of 23.1 and 27.3%, respectively with no outliers in the Ramachandran plot. The final refined model lacks the linker region (residues 307–323) between the two MA3 domains and the C-terminal tail (residues 451–469) as no interpretable electron density was observed in these regions, which are assumed to be disordered.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The structures of hPdcd4ΔN and the mPdcd4ΔN-eIF4A complex. (
+       <strong>
+        A
+       </strong>
+       ) Domain architecture of human/mouse Pdcd4 showing the putative N-terminal RNA-binding domain (purple), the N-terminal MA3 domain (nMA3; salmon), and the C-terminal MA3 domain (cMA3; blue). Numbers below the schematic protein outline represents the amino acid position for the domain boundaries. (
+       <strong>
+        B
+       </strong>
+       ) Overall structure of hPdcd4ΔN. The ribbon diagrams of nMA3 and cMA3 are shown in salmon and blue, respectively. (
+       <strong>
+        C
+       </strong>
+       ) Overall structure of the mPdcd4ΔN–eIF4A complex. The colouring scheme for nMA3 and cMA3 of Pdcd4, and the orientation of nMA3 are as in (B). The two copies of eIF4A, eIF4A-A and eIF4A-D are shown in green and yellow, respectively. Individual domains are labelled. (
+       <strong>
+        D
+       </strong>
+       ) The subcomplex comprising of mPdcd4ΔN and one copy of eIF4A (eIF4A-A). In this binding mode, the nMA3 of Pdcd4 interacts with both the NTD and CTD of eIF4A with additional interactions mediated by the cMA3 domain and the CTD of eIF4A. The view and colouring scheme are as in (C). (
+       <strong>
+        E
+       </strong>
+       ) The subcomplex consisting of mPdcd4ΔN and another copy of eIF4A (eIF4A-D). In this binding mode, only the cMA3 domain interacts with both the NTD and CTD of eIF4A-D. The ribbon diagram is re-oriented by superposition of eIF4A-D and eIF4A-A at NTD. The colour coding is as in (C). (
+       <strong>
+        F
+       </strong>
+       ) Conformational change of Pdcd4 upon binding to eIF4A. Stereo views of the nMA3 of hPdcd4ΔN superimposed with that of mPdcd4ΔN in the mPdcd4ΔN-eIF4A complex. Pdcd4 in free form and in complex with eIF4A are shown in orange and blue, respectively, and two copies of eIF4A are shown in worm with the same colours as in (C).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The structure of mouse Pdcd4 (mPdcd4ΔN, residues 120–469) in complex with full-length mouse eIF4AI (designated as mPdcd4ΔN–eIF4A) was solved by the method of molecular replacement using the MA3 domains of hPdcd4ΔN, and the two RecA-like domains of
+     <em>
+      Saccharomyces cerevisiae
+     </em>
+     eIF4AI as search models, and refined at a resolution of 3.5 Å to working and free R factors of 25.0 and 29.0%, respectively. The final model of the mPdcd4ΔN–eIF4A complex contains one mPdcd4ΔN and two eIF4A molecules (designated as eIF4A-A and eIF4A-D) in the AU, with the model of eIF4A-D being more complete than that of eIF4A-A. In mPdcd4ΔN, the N- and C termini and a portion of the linker region are disordered, whereas the disordered regions in eIF4A are located mostly in the loop regions. Statistics of structural determination and refinement for hPdcd4ΔN and mPdcd4ΔN-eIF4A are summarized in
+     <a>
+      Supplementary Table S1
+     </a>
+     (see Materials and methods).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structural overview
+    </title>
+    <p>
+     As shown in
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     , the structure of hPdcd4ΔN contains two α-helical MA3 domains of the HEAT-repeat family that resemble a short solenoid. The two MA3 domains interact with each other to create an inter-domain interface. This observation is consistent with the finding by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     , which showed that two MA3 domains interact in
+     <em>
+      cis
+     </em>
+     through electrostatic interactions.
+    </p>
+    <p>
+     The structure of the mPdcd4ΔN–eIF4A complex (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ) shows that Pdcd4 is sandwiched between two eIF4A molecules to create a compact global architecture, with each MA3 domain of Pdcd4 binding to one eIF4A molecule respectively, giving rise to a 1:2 binding stoichiometry between Pdcd4 and eIF4A in the AU. The nMA3 and cMA3 domains of Pdcd4 bind to eIF4A in a nearly perpendicular manner with each MA3 domain contacting both the NTD and CTD of eIF4A, which fixes their relative orientation with respect to each other.
+    </p>
+    <p>
+     In the mPdcd4ΔN–eIF4A complex, one Pdcd4 binds to the two eIF4A molecules in two different modes. In one mode, the two MA3 domains of Pdcd4 interact with both the NTD and CTD of eIF4A (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ) to create three interfaces, nMA3–NTD-A, nMA3–CTD-A, and cMA3–CTD-A with a total buried surface area of 3445 Å
+     <sup>
+      2
+     </sup>
+     . In the other mode, only the cMA3 domain interacts with eIF4A in two interfaces cMA3–NTD-D and cMA3–CTD-D (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ) with the buried surface area of 1974 Å
+     <sup>
+      2
+     </sup>
+     . The observation that the CTD of eIF4A is involved in more interactions with Pdcd4 contradicts the finding that Pdcd4 binds to eIF4A-NTD but not to eIF4A-CTD (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     The overall structure of the individual MA3 domain is largely unchanged upon complex formation. Superposition of the isolated domains of free Pdcd4 with those in the complexed form gives an r.m.s.d. of 0.60 Å for equivalent Cα atoms. However, the orientation of cMA3 relative to nMA3 differs by 65° when the nMA3 in the complex is superimposed with that in the free form. Such a marked conformational change relieves the steric hindrance between one of the MA3 domains and eIF4A and allows both MA3 domains to interact with eIF4A to form a stable complex (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ).
+    </p>
+    <p>
+     eIF4A is comprised of two RecA-like domains (NTD and CTD) joined by a flexible linker. The individual domains of two eIF4A molecules are very similar with an r.m.s.d. of 0.60–1.0 Å for all Cα atoms. Despite these high structural similarities, the orientation of CTD relative to NTD in two eIF4A molecules differs by 15° when the NTD is superimposed (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ). Each eIF4A molecule in the complex adopts an open dumbbell-like conformation with no interactions between its NTD and CTD.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Pdcd4 and eIF4A bind in a 1:2 stoichiometry in solution
+    </title>
+    <p>
+     Consistent with a 1:2 stoichiometry between Pdcd4 and eIF4A observed in the crystal, size-exclusion chromatography analyses (data not shown) indicated the presence of a complex with a higher molecular weight than would be expected for a heterodimer, that is, 1:1 stoichiometric ratio (85 kDa). To validate the 1:2 stoichiometry in the crystal, analytical ultracentrifugation was employed to examine the association state between Pdcd4 and eIF4A. We first analyzed the purified mPdcd4ΔN–eIF4A complex by sedimentation velocity. The data fitted well to the c(S) and c(M) distributions, giving a peak that corresponds to a molecular mass of 117 kDa (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). As the calculated molecular weights of monomeric mPdcd4ΔN and eIF4A are 39 kDa and 46 kDa, respectively, the calculated molecular mass of a 1:2 mPdcd4ΔN-eIF4A heterotrimeric complex is 131 kDa, which agrees with the molecular mass measured by sedimentation velocity. The complexes of hPdcd4FL with eIF4A and the nMA3 domain of hPdcd4 with eIF4A were also analyzed by sedimentation velocity. The data of hPdcd4FL-eIF4A or nMA3-eIF4A fitted well to the c(S) and c(M) distributions and generated a single peak corresponding to a molecular weight of 120 kDa or 55 kDa, respectively (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). These derived molecular weights are close to the calculated values for a 1:2 hPdcd4FL–eIF4A complex (144 kDa) and a 1:1 nMA3–eIF4A complex (62 kDa).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Pdcd4 binds to eIF4A with a 1:2 stoichiometry in solution. (
+       <strong>
+        A
+       </strong>
+       ) The complexes of hPdcd4 nMA3–eIF4A, mPdcd4ΔN–eIF4A, and hPdcd4FL-eIF4A were analyzed by sedimentation velocity and fitted to the c(S) and c(M) size-distribution functions. The molar mass distribution, c(M) is shown for all three samples. (
+       <strong>
+        B
+       </strong>
+       ) The mPdcd4ΔN–eIF4A complex was also analyzed by sedimentation equilibrium and fitted to an ideal single-species model. A representative fit is shown.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The mPdcd4ΔN–eIF4A complex was further analyzed by sedimentation equilibrium over a wide concentration range. After correcting for buoyancy and viscosity, the data fitted well to an ideal single-species model, giving an apparent weight—average molecular weight of 123 kDa (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ), very close to that of the heterotrimer. Taken together, these results demonstrated that one Pdcd4 molecule binds to two eIF4A molecules in solution and indicated that the 1:2 stoichiometry between Pdcd4 and eIF4A observed in the crystal is functionally relevant.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Pdcd4–eIF4A interface
+    </title>
+    <p>
+     Except for the cMA3–CTD-A interface, both MA3 domains make strikingly similar contacts with their respective eIF4A partner, with the interfaces of nMA3–NTD-A and nMA3–CTD-A equivalent to cMA3–NTD-D and cMA3–CTD-D, respectively (
+     <xref ref-type="fig">
+      Figures 3A to D
+     </xref>
+     ). Specifically, the α3-α4 and α5-α6 loops, and helix α5 in the nMA3 domain, which are equivalent to the α11-α12 and α13-α14 loops, and helix α13 in the cMA3 domains fit into the shallow groove formed by the β2-α4, α7-α8, and β4-α6 loops in the NTD of eIF4A whereas the helices α1 and α2 in the nMA3, which correspond to the helices α9 and α10 in the cMA3 domain binds to the groove formed by the β9-α11, β11-β12, and β12-α13 loops in the CTD of eIF4A (
+     <xref ref-type="fig">
+      Figures 3A to D
+     </xref>
+     ). This observation is consistent with the findings that both MA3 domains are structurally similar and bind to eIF4A using similar binding interfaces (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The Pdcd4–eIF4A interface. Colour codings are as in
+       <xref ref-type="fig">
+        Figure 1C
+       </xref>
+       with the view rotated 45° around
+       <em>
+        x
+       </em>
+       axis relative to the orientation in
+       <xref ref-type="fig">
+        Figure 1C
+       </xref>
+       . Secondary structures and residues involved in the interface are labelled. Superposition of eIF4A-A and eIF4A-D at the NTD showing that nMA3 and cMA3 of Pdcd4 make similar contacts with their respective eIF4A molecules to generate two pairwise equivalent interfaces, nMA3–NTD-A (
+       <strong>
+        A
+       </strong>
+       ) and cMA3–NTD-D (
+       <strong>
+        B
+       </strong>
+       ). Superposition of eIF4A-A and eIF4A-D at the CTD showing that nMA3 and cMA3 of Pdcd4 make similar contacts with their respective eIF4A molecules to generate two more pairwise equivalent interfaces, nMA3–CTD-A (
+       <strong>
+        C
+       </strong>
+       ) and cMA3–CTD-D (
+       <strong>
+        D
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) Stereo view showing the additional interface formed between cMA3 and the CTD of eIF4A-A (cMA3-CTD-A).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The interactions of Pdcd4 to eIF4A in the pairwise equivalent interfaces (nMA3–NTD-A versus cMA3–NTD-D and nMA3–CTD-A versus cMA3–CTD-D) are mediated by conserved residues from both proteins (
+     <a>
+      Supplementary Figures S2 and S3
+     </a>
+     ) through primarily a combination of salt bridges and hydrogen bonds. For example, in the nMA3–NTD-A interface, Glu249 and Asp253 in nMA3 form salt bridges with Arg161 and Arg110 in eIF4A-A (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Similarly, Asp414 and Asp418 in cMA3 are salt bridged to Arg161 and Arg110 in eIF4A-D (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). In support of the importance of these salt bridge interactions, mutations of Glu249, Asp253, Asp414 and Asp418 on Pdcd4 dramatically reduced its binding to eIF4A, and the mutant proteins failed to efficiently inhibit translation (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ).
+    </p>
+    <p>
+     Further recognition specificities between Pdcd4 and eIF4A are provided by the cMA3–CTD-A interface (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). In this interface, the linker region between the MA3 domains of Pdcd4, the α10-α11 loop and part of α13 interact with the surface groove formed by the β12-α13, α14-β14 loops and β13 of the CTD of eIF4A-A through predominantly hydrophobic interactions (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). The hydrophobic patch comprising of Val356, Pro357, His358 and Phe359 in Pdcd4 interacts with Ile357, Phe390 and Tyr391 in the CTD of eIF4A-A. The extensive interactions of the conserved residues in the cMA3 domain of Pdcd4 with eIF4A suggest that this interface may have an important function in the formation of the mPdcd4ΔN–eIF4A complex.
+    </p>
+    <p>
+     To test the role of the interfaces in the mPdcd4ΔN–eIF4A complex, we selected 10 pairs of residues in Pdcd4, which are conserved between the nMA3 and cMA3 domains and have equivalent interactions with eIF4A molecules, and one additional residue His358 in the cMA3–CTD-A interface (
+     <a>
+      Supplementary Table S2
+     </a>
+     ). These include the previously characterized residues Glu249, Asp253, Asp414 and Asp418 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ). We mutated these residues to Ala in the context of hPdcd4FL and examined the effects of these mutations on the interactions of Pdcd4 with eIF4A using isothermal titration calorimetry (ITC). As shown in
+     <a>
+      Supplementary Table S3
+     </a>
+     , wild-type Pdcd4 binds tightly to eIF4A with an equilibrium dissociation constant (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) of 110 nM, whereas all of the mutants with the exception of R403A displayed weaker affinities to different extents. Most mutations showed moderately reduced binding affinities (1.5–8.7 fold) with L252A, D253A, H358A, D414A and P420A showing strong defects (13–79 fold). These results indicated that the residues in all five interfaces are required for the binding of Pdcd4 to eIF4A. The observation that single mutations in one MA3 domain failed to disrupt the Pdcd4–eIF4A interaction is consistent with the structural data showing that both domains are required for efficient eIF4A binding.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutations that affect mPdcd4DN–eIF4A interaction reduce translation inhibition and AP-1-dependent transcription
+    </title>
+    <p>
+     To determine whether the Pdcd4 mutants that showed reduced binding to eIF4A lose the ability to inhibit translation and AP-1-dependent transcription
+     <em>
+      in vivo
+     </em>
+     , wild-type Pdcd4 and its mutants E174A, E210A, L252A, D253A, P255A, D414A, L417A, D418A and P420A were overexpressed in JB6 RT101 cells, and luciferase activity was assessed after transient cotransfection with a luciferase reporter construct containing a stem-loop structure in the 5′-untranslated region. Although wild-type Pdcd4 resulted in a 55% inhibition of luciferase mRNA translation, all the mutations lost their abilities to inhibit translation (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). An AP-1-dependent transcription assay showed a similar trend of results in which all the mutants tested lost their inhibitory abilities when compared with the wild-type Pdcd4 (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Importantly, the inabilities of these mutants to inhibit translation and AP-1-dependent transcription are correlated strongly with the reduced binding activities to eIF4A (
+     <a>
+      Supplementary Table S3 and Figure S5
+     </a>
+     ), strengthening the notion that the binding of Pdcd4 to eIF4A is required for inhibition of translation and AP-1-dependent transcription (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Functional analysis of the Pdcd4–eIF4A interaction. (
+       <strong>
+        A
+       </strong>
+       )
+       <em>
+        In vivo
+       </em>
+       translational inhibition by wild-type (WT) and mutants Pdcd4 proteins. The luciferase activity in the absence of Pdcd4 is designated as 100%. The mean values and s.d. from three independent experiments are shown. (
+       <strong>
+        B
+       </strong>
+       ) Inhibition of
+       <em>
+        in vivo
+       </em>
+       AP-1 dependent transcription by WT Pdcd4 and its variants measured by the relative luciferase activity. The mean values and s.d. from three independent experiments are shown. (
+       <strong>
+        C
+       </strong>
+       ) Similar expression levels of wild-type and mutant Pdcd4. RT101 cell lysates (10 μg) from transient transfection with wild-type Pdcd4 and Pdcd4 mutant expression plasmids were separated on 4–20% Bis–Tris NuPage gels, transferred to nitrocellulose, and subjected to immunoblotting with Pdcd4 antibody, with visualization by chemiluminescent detection. (
+       <strong>
+        D
+       </strong>
+       ) Defective eIF4A-binding mutants of Pdcd4 are unable to inhibit the ATP hydrolysis activity of eIF4A, depicted as percentage of eIF4A ATPase activity in the absence of Pdcd4 (mean values of three independent experiments±s.d.). (
+       <strong>
+        E
+       </strong>
+       ) Inhibition of eIF4A RNA helicase activity by WT Pdcd4 and its mutants depicted as percentage of eIF4A helicase activity in the absence of Pdcd4. (mean values of three independent experiments±s.d.). (
+       <strong>
+        F
+       </strong>
+       ) Similar protein expression levels of WT and mutant Pdcd4. Purified proteins were separated on 12% SDS–PAGE gels and stained with Coomassie blue.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The binding of Pdcd4 to eIF4A is required to inhibit its enzymatic activities
+    </title>
+    <p>
+     eIF4A exhibited RNA-dependent ATPase and ATP-dependent RNA helicase activities (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Previous biochemical data showed that Pdcd4 inhibits translation at least in part by inactivating the helicase activity of eIF4A (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). To examine whether the Pdcd4 mutants, which showed correlated defects in eIF4A binding, inhibition of translation and AP-1-dependent transcription, lose the ability to inhibit the ATPase and RNA helicase activities, ATPase and RNA helicase assays of eIF4A were performed in the presence of wild-type and mutant Pdcd4 proteins. As shown in
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     , wild-type Pdcd4 inhibited the RNA-dependent ATPase activity of eIF4A by 60%, whereas all the mutants showed reduced inhibitory effects with D253A restoring ATP hydrolysis to the level comparable to that in the absence of Pdcd4.
+    </p>
+    <p>
+     A fluorescence-based helicase assay showed wild-type Pdcd4 inhibited the helicase activity of eIF4A by ∼65% whereas all of the Pdcd4 mutants inhibited the helicase activity of eIF4A to a much lesser extent (
+     <xref ref-type="fig">
+      Figure 4E
+     </xref>
+     ). In particular, the inhibition was most severely reduced by E174A, E210A, L255A, D253A and P255A, which restored 60% of the helicase activity. These results indicate that the interaction with eIF4A is equally important for Pdcd4 to mediate its effects on the helicase and ATPase activities of eIF4A.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structural basis for inhibiting the helicase activity of eIF4A by Pdcd4
+    </title>
+    <p>
+     Insights into the structural basis for inhibition of eIF4A by Pdcd4 come from the structural comparison of the eIF4A in our complex structure with eIF4AIII in the exon junction complex (EJC), a close homologue of eIF4AI, which exhibited a closed productive conformation with bound RNA and ATP (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Superposition of Pdcd4-bound eIF4A and eIF4AIII in the EJC complex on the NTD of eIF4A shows that the orientations of the CTDs between these two structures differ by 55° (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). As a result of this striking conformational difference between eIF4A and eIF4AIII, motifs IV, V, VI in the CTD of the Pdcd4-bound eIF4A face the solvent region rather than facing the NTD (
+     <xref ref-type="fig">
+      Figures 5B and C
+     </xref>
+     ), thereby disrupting the RNA-binding site and leaving the ATP-binding site open. Moreover, motif I (Walker A motif or P loop) in the NTD which is involved in binding to the phosphate groups of ATP, moves upwards by ∼5 Å towards the central β-sheet to occupy the position of the phosphate groups of ATP (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). Finally, the binding of each MA3 domain of Pdcd4 to both the NTD and CTD of eIF4A has two consequences. First, it sterically clashes with the RNA substrate (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ), which is consistent with the NMR competition assay showing that Pdcd4 displaced RNA from eIF4A (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Second, it blocks the domain closure of eIF4A, thus fixing it in an open nonproductive conformation. Taken together, these results suggest that Pdcd4 inactivates eIF4A by blocking RNA binding directly, disrupting RNA- and ATP-binding sites, and preventing the conformational transition of eIF4A from an open nonproductive state to a closed productive state.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Structural basis for inhibiting eIF4A by Pdcd4. (
+       <strong>
+        A
+       </strong>
+       ) Stereo view showing the superposition of eIF4AIII (in the EJC; grey) and Pdcd4-bound eIF4A (eIF4A-A; green). RNA is shown in magenta, ATP in ball-and-stick model and nMA3 of Pdcd4 in salmon. The view of eIF4A-A is as in
+       <xref ref-type="fig">
+        Figure 1C
+       </xref>
+       . (
+       <strong>
+        B
+       </strong>
+       ) Ribbon diagram showing the open nonproductive conformation of Pdcd4-bound eIF4A. Motifs Q, I, Ia, Ib, GG, II and III in the NTD are shown in orange whereas motifs IV, V, VI in the CTD are shown in blue. The view is as in (A). (
+       <strong>
+        C
+       </strong>
+       ) Ribbon diagram of the close active conformation of eIF4AIII with bound RNA and ATP in the EJC. The colouring scheme for the motifs is as in (B). and the view is as in (A). (
+       <strong>
+        D
+       </strong>
+       ) A close-up view in stereo showing the conformational difference of P loop in Pdcd4-bound eIF4A and eIF4AIII in EJC.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     A single MA3 domain is sufficient to inhibit translation but both MA3 domains are required to compete with eIF4Gc for eIF4A binding
+    </title>
+    <p>
+     The cMA3 domain alone has been reported to be sufficient to inhibit translation (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Given that nMA3 and cMA3 domains are structurally similar, nMA3 might have the same inhibitory effect on translation as the cMA3. Consistent with this view, our
+     <em>
+      in vivo
+     </em>
+     functional assays showed that nMA3 or cMA3 alone is capable of inhibiting translation and AP-1 transcription with the efficiency comparable to that of the full-length protein (
+     <xref ref-type="fig">
+      Figures 4A and B
+     </xref>
+     ), suggesting that both MA3 domains are functionally similar.
+    </p>
+    <p>
+     Previous data showed that Pdcd4 competes with eIF4Gc for eIF4A binding to inhibit translation (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ). Moreover, both the nMA3 domain and cMA3 domain alone have been shown to efficiently compete with eIF4Gc for binding to eIF4A (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). However, a surface plasmon resonance (SPR) assay showed that each MA3 domain alone binds to eIF4A at least 8-fold more weakly compared with the MA3-dual that contains both MA3 domains (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Deletion mutation studies showed that partial deletion of either the nMA3 or cMA3 domain of Pdcd4 dramatically decreased its binding to eIF4A (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Our ITC data showed that eIF4Gc binds to eIF4A very tightly with a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 60 nM (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ) whereas a single nMA3 or cMA3 domain of Pdcd4 binds to eIF4A with
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values of 1.75 μM and 28.25 μM respectively (
+     <a>
+      Supplementary Table S3
+     </a>
+     ). Altogether these results indicated that a single MA3 domain may not be sufficient to compete with eIF4Gc for eIF4A binding.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Both MA3 domains of Pdcd4 are required to compete with eIF4Gc for binding to eIF4A. (
+       <strong>
+        A
+       </strong>
+       ) Measurement of the binding affinity of eIF4Gc to eIF4A using isothermal titration calorimetry (ITC) by titration of eIF4Gc in the syringe into eIF4A in the cell. The upper panel shows the experimental data and the lower panel shows the integrated heat for each injection and fitted to a single-site binding model. See
+       <a>
+        Supplementary Data Table S3
+       </a>
+       for dissociation constant (
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       ) and stoichiometric (N) measurements. (
+       <strong>
+        B–F
+       </strong>
+       ) ITC titrations of Pdcd4 FL WT (B), Pdcd4 nMA3 (C), Pdcd4 cMA3 (D), D253A (E), or P420A (F) in the injection syringe into the eIF4A–eIF4Gc complex in the cell. The data were fitted to a single-site model, where possible.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To test whether both MA3 domains of Pdcd4 are required to efficiently compete with eIF4Gc for eIF4A binding, we analyzed the binding of wild-type and mutant Pdcd4 proteins to the purified eIF4A–eIF4Gc complex by ITC. Wild-type Pdcd4 efficiently competed with eIF4Gc for eIF4A binding with an apparent
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 0.19 μM (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ) whereas neither the nMA3 nor cMA3 alone outcompeted eIF4Gc for binding to eIF4A (
+     <xref ref-type="fig">
+      Figures 6C and D
+     </xref>
+     ). Furthermore, mutation D253A in the nMA3 domain, which showed the strongest defect for binding to eIF4A, failed to compete with eIF4Gc whereas P420A in the cMA3 domain, which had a 12-fold reduced eIF4A-binding affinity, competed with eIF4Gc for eIF4A binding albeit less efficiently (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 10 μM) (
+     <xref ref-type="fig">
+      Figures 6E and F
+     </xref>
+     ). In contrast, D190A, which had a comparable binding affinity to that of WT Pdcd4, competed efficiently with eIF4Gc for binding to eIF4A (
+     <a>
+      Supplementary Table S3
+     </a>
+     ). These results demonstrated that both MA3 domain of Pdcd4 are required to compete with eIF4Gc for eIF4A binding, and a single MA3 domain is not sufficient to prevent eIF4Gc binding to eIF4A in contrary to the previous reports (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The observation that a single MA3 domain failed to compete with eIF4Gc for eIF4A binding seems at odds with the finding that either nMA3 or cMA3 alone is sufficient to inhibit translation (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). The simplest explanation for this discrepancy is that a single MA3 domain still retains sufficient affinity for binding to eIF4A, thus inactivating its helicase activity and inhibiting translation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Pdcd4 and eIF4Gm have distinct binding sites on eIF4A
+    </title>
+    <p>
+     Pdcd4 has been shown to bind to eIF4Gm in the absence or presence of eIF4A (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). More recently, the crystal structure of eIF4A in complex with eIF4Gm has been solved (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), therefore allowing us to examine whether Pdcd4 and eIF4Gm can bind simultaneously to eIF4A at the molecular level. Superposition of the mPdcd4ΔN–eIF4A complex and the eIF4Gm–eIF4A complex on the NTD of eIF4A-A showed that Pdcd4 and eIF4Gm occupy diametrically opposite positions on eIF4A (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ), suggesting that the binding of Pdcd4 and eIF4Gm to eIF4A are not mutually exclusive. Structural superposition also showed that the CTDs in Pdcd4- and eIF4G-bound eIF4A differ in such a way that their central β-sheets lie almost perpendicular to each other (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). As a result of such a marked conformational difference, the interaction of the CTD of eIF4A with the MA3 domain of Pdcd4 is weakened due to steric hindrance and the displacement of the regions involved in interactions with Pdcd4 upon eIF4Gm binding. Similarly weakened interactions of the CTD of eIF4A with eIF4Gm would occur upon Pdcd4 binding. These results suggest that Pdcd4 and eIF4Gm could bind to eIF4A simultaneously to form a ternary complex (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ), albeit the association of Pdcd4 or eIF4Gm to eIF4A is less tight as compared with their respective binary complexes.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       The putative models of eIF4A-eIF4Gm-MA3 and eIF4A-eIF4Gm-eIF4Gc. (
+       <strong>
+        A
+       </strong>
+       ) Superposition of eIF4A-eIF4Gm (hot pink) and mPdcd4ΔN-eIF4A on the NTD of eIF4A-A (grey surface representation). The CTD of eIF4A and the nMA3 domain of mPdcd4ΔN-eIF4A are coloured in green and salmon respectively. The secondary structures in the regions involved in interactions with nMA3 of Pdcd4 are labelled. The view of eIF4A-A is as in
+       <xref ref-type="fig">
+        Figure 3A
+       </xref>
+       . (
+       <strong>
+        B
+       </strong>
+       ) The putative model of the eIF4A–eIF4Gm–eIF4Gc complex. The model is generated by superposition of eIF4A–eIF4Gm (hot pink) and mPdcd4ΔN–eIF4A on the NTD of eIF4A-A (grey surface representation), and superposition of the MA3 domain (salmon) of eIF4Gc (blue) with the nMA3 domain (not shown for clarity) of Pdcd4 in the mPdcd4ΔN–eIF4A complex. The view of eIF4A-A is as in
+       <xref ref-type="fig">
+        Figure 3A
+       </xref>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Previous reports based on competition experiments suggested that eIF4A interacts with eIF4Gm and eIF4Gc using different binding surfaces (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The high structural similarity between the MA3 domains of eIF4Gc and Pdcd4 allows us to examine the validity of this notion. Superposition of eIF4Gc and eIF4A-bound Pdcd4 on the nMA3 domain suggested that the MA3 domain of eIF4Gc would bind the same site on eIF4A occupied by nMA3 or cMA3 of Pdcd4 (
+    <xref ref-type="fig">
+     Figure 7B
+    </xref>
+    ). Given that Pdcd4 and eIF4Gm could bind to the opposite sites of eIF4A, eIF4Gc, and eIF4Gm would bind eIF4A at the same time with eIF4A sandwiched in between (
+    <xref ref-type="fig">
+     Figure 7B
+    </xref>
+    ). This view is consistent with the model proposed by Sonenberg and co-workers (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) whereby eIF4A has two different binding surfaces for binding to eIF4G, allowing it to be sandwiched between eIF4Gm and eIF4Gc. Similar to the modeled ternary complex of Pdcd4–eIF4Gm–eIF4A wherein Pdcd4 or eIF4Gm binding would weaken the interaction of the other with eIF4A, the binding of eIF4Gm to eIF4A may cause the weakened interaction between eIF4Gc and eIF4A or
+    <em>
+     vice versa
+    </em>
+    . Biochemical data showed that the binding of eIF4Gm to eIF4A increased its helicase activity whereas the binding of eIF4Gc to eIF4A just played a modulatory role (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ). One possible explanation for the distinct roles of eIF4Gm and eIF4Gc is that the MA3 domain of eIF4Gc first binds to eIF4A to inactivate its helicase activity. Subsequently, the binding of eIF4Gm on the other side of eIF4A changes the relative orientation of the two domains of eIF4A. This change in orientation of eIF4A not only reduces the binding of eIF4Gc to eIF4A but also allows eIF4A to adopt a productive conformation.
+   </p>
+   <p>
+    Several tumours and tumour cell lines showed elevated levels of translation initiation factors such as eIF4E (
+    <xref ref-type="bibr">
+     De Benedetti and Harris, 1999
+    </xref>
+    ), eIF4A (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and eIF4G (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) suggesting that these translation factors may function as oncogenic proteins. Therefore, downregulation or inactivation of these translation factors may offer new approaches to develop anticancer drugs that target translation factors including eIF4A. Two natural products pateamine A (PatA) and hippuristanol, and a signalling lipid molecule 15d-PGJ2 have been shown to inhibit translation by regulating the eIF4A activities (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). PatA and 15d-PGJ2 bind to eIF4A to block the interaction between eIF4A and eIF4G whereas hippuristanol specifically binds to the CTD of eIF4A to inhibit its RNA-binding activity. Our structure showed that Pdcd4 inhibits translation in a manner different from that of these compounds by blocking the binding of eIF4Gc to eIF4A and by trapping eIF4A in an inactive conformation. Given that a single MA3 domain of Pdcd4 makes bipartite contacts with both the NTD and CTD of eIF4A to block the domain closure of eIF4A, one strategy for inhibiting eIF4A is to design a peptide molecule that interacts with eIF4A across its domains. This study would pave a way for further structural, chemical, and functional approaches that are required for the development of anticancer agents targeting eIF4A.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Structure determination of hPdcd4DN
+    </title>
+    <p>
+     Details of cloning, expression, and purification are described in
+     <a>
+      Supplementary Data
+     </a>
+     . Crystals of SeMet-hPdcd4ΔN were grown at 15°C by hanging-drop vapour diffusion. Equal volumes of protein and crystallization reagent (20% (w/v) PEG MME 2000, 0.1 M Tris–HCl pH 8.5, 0.2 M Trimethylamine N-oxide (TMAO), 10 mM DTT, 10 mM Sarcosine) were mixed. Prior to data collection, the crystals were cryoprotected using mother liquor containing 15% (v/v) ethylene glycol and flash-frozen in liquid nitrogen. Diffraction data were collected at the peak of the selenium K edge (λ=0.9798 Å) on the UK CRG beamline BM14 (ESRF, Grenoble, France) and processed using the CCP4 suite (
+     <xref ref-type="bibr">
+      CCP4, 1994
+     </xref>
+     ). Here, 17 selenium sites were located using the program SnB (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), followed by refinement of the heavy atom sites and phasing with SHARP (
+     <xref ref-type="bibr">
+      De la Fortelle and Bricogne, 1997
+     </xref>
+     ). Subsequent model building was carried out using the program O (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and the fitted model was refined with CNS (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and REFMAC5 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The final refinement statistics for hPdcd4ΔN are summarized in
+     <a>
+      Supplementary Table S1
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structure determination of the mPdcd4DN–eIF4A complex
+    </title>
+    <p>
+     The crystals of mPdcd4ΔN–eIF4A were obtained at 15°C by hanging-drop vapour diffusion. An equal volume of protein was mixed with crystallization reagent containing 20% (w/v) PEG 3350, 0.1 M Bis-Tris Propane pH 6.5, 0.2 mM Sodium citrate, 0.1 M Taurine. The crystals were transferred to a cryoprotectant buffer containing mother liquor and 20% (v/v) glycerol and flash-frozen in liquid nitrogen. Diffraction data were collected on beamline ID14-4 (ESRF, Grenoble, France) and processed using the CCP4 suite (
+     <xref ref-type="bibr">
+      CCP4, 1994
+     </xref>
+     ). The structure of the mPdcd4ΔN–eIF4A complex was solved by molecular replacement using PHASER (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Two MA3 domains of hPdcd4ΔN, and the ATPase domain and C-terminal domain of
+     <em>
+      S. cerevisiae
+     </em>
+     eIF4AI (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) were taken as search models. Refinement was performed with CNS (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and REFMAC5 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and model building was carried out using COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ). The final refinement statistics for the mPdcd4ΔN–eIF4A complex are summarized in
+     <a>
+      Supplementary Table S1
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Analytical ultracentrifugation
+    </title>
+    <p>
+     Sedimentation velocity experiments were performed at 42 000 r.p.m. and 20°C using a ProteomeLab XL-A analytical ultracentrifuge (Beckman Coulter) in 2-channel centrepieces. Radial scans were collected at 4 min intervals at 280 nm. Prior to centrifugation, proteins were dialyzed against 100 mM NaCl, 20 mM Tris–HCl pH 7.6 and 10 μM Tris[2-carboxyethyphosphine] hydrochloride (TCEP). The solvent density, viscosity, and protein partial specific volumes were calculated using the SEDNTERP program (Sednterp version 1.09,
+     <a>
+      http://www.rasmb.bbri.org
+     </a>
+     ). With the program SEDFIT (
+     <xref ref-type="bibr">
+      Schuck, 2000
+     </xref>
+     ), the data were directly fitted to the boundaries using numerical solutions to the Lamm equation to obtain the sedimentation coefficient distribution c(S) and molar mass distribution c(M).
+    </p>
+    <p>
+     Sedimentation equilibrium experiments were performed at 20°C in six-channel centrepieces using a ProteomeLab XL-A (Beckman Coulter). Radial scans were taken at 230, 250, and 280 nm. Prior to the run, protein samples were dialyzed into the same buffer as for the velocity run. Samples were centrifuged for 22 h at each speed of 4000, 6000, and 8000 r.p.m. and a further 2 h for data acquisition. After the samples reached equilibrium and no further change could be seen in the distribution, a final 10 h scan at 42 000 r.p.m. was taken to measure the residual absorbance for initial offset values. The data were analyzed using the HETEROANALYSIS program (
+     <a>
+      http://www.biotech.uconn.edu/auf/
+     </a>
+     ) and the absorbance gradient was fitted to an ideal single species.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     ITC measurements were performed at 20°C in a VP-ITC microcalorimeter (MicroCal Inc.). Protein samples were dialyzed into a buffer containing 100 mM NaCl, and 20 mM Tris–HCl pH 7.6. For analyzing the binding of Pdcd4 to eIF4A, 100–180 μM wild-type (WT) or mutant Pdcd4 proteins were injected into the calorimetric cell containing eIF4A at 20–30 μM. For the competition-binding assay, the cell was loaded with 20–30 μM of the purified eIF4A–eIF4Gc complex and the injection syringe contained 120–180 μM of hPdcd4 WT or mutants or the nMA3/cMA3 domain at a concentration of 400 μM. Titrations were initiated with one 2 μl injection, followed by twenty-eight 10 μl injections, with 240 s equilibration time between injections. The heat of dilution was measured by additional injections of syringe sample after saturation and subtracted to obtain the effective heat of binding, which was plotted versus the molar ratio of injectant/cell. Data were analyzed using the Origin 7.0 program and fitted to a single-site binding model to obtain the parameters
+     <em>
+      K
+     </em>
+     <sub>
+      <em>
+       d
+      </em>
+     </sub>
+     , ΔH, and stoichiometry (N).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ATPase assays
+    </title>
+    <p>
+     ATPase assays were performed using an enzyme-linked assay that couples the hydrolysis of ATP to the oxidation of NADH using pyruvate kinase and lactate dehydrogenase, resulting in a decrease in NADH absorbance at 340 nm, which is proportional to the rate of steady-state ATP hydrolysis. The raw absorbance was converted into the rate of steady-state ATP hydrolysis (nmol s
+     <sup>
+      −1
+     </sup>
+     ) using the extinction coefficient for NADH of 6300 M
+     <sup>
+      −1
+     </sup>
+     cm
+     <sup>
+      −1
+     </sup>
+     . Reactions (200 μl) containing 50 mM NaCl, 50 mM Tris–HCl pH 7.5, 5 mM DTT, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 2 mM ATP, 1 mM phosphoenolpyruvate (PEP), 0.4 mM NADH, 1% (v/v) PK/LDH (Sigma), 200 mg ml
+     <sup>
+      −1
+     </sup>
+     total yeast RNA (Sigma), and 500 nM eIF4A were assayed at 25°C in a 96-well plate using a Benchmark Plus spectrophotometer (Bio-Rad). For analysis of WT and mutant hPdcd4, 5 μM of heIF4AI and 2.5 μM of hPdcd4 were used. The rates were calculated by linear regression analysis using the GraphPad Prism 4.0 program (GraphPad Software Inc.).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Helicase assays
+    </title>
+    <p>
+     The substrate used in the fluorescence-based helicase assay was prepared by annealing at a 1:1.2 molar ratio, a 3′ Cy3-labelled 36-mer (GGGGAGA(A
+     <sub>
+      4
+     </sub>
+     C)
+     <sub>
+      3
+     </sub>
+     UAGCACCGUAAAGC) (metaBIOn International AG) to a 5′ BHQ-2-labelled 12-mer (GCUUUACGGUGC) (Biosearch Technologies), both RP-HPLC-purified, in 20 mM Tris–HCl pH 7.5, by heating to 90°C for 2 min and cooling slowly to room temperature. Helicase assays (200 μl) containing 1 μM heIF4AI and 1 μM heIF4B were performed in 30 mM Tris–HCl pH 7.5, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 0.075% Triton X-100, 0.05% sodium azide, 25 nM substrate, 312.5 nM unlabelled capture strand (GCACCGUAAAGC) (metaBIOn International AG) and 2.5 mM ATP. Where indicated, WT or mutant Pdcd4 proteins were included at 5 μM. Unwinding was initiated by the addition of ATP and was carried out at 37°C for 90 min. Fluorescence measurements were carried out in a 96-well plate on a Tecan SPECTRAFluor Plus at the excitation and emission wavelengths of 540 and 595 nm respectively, with readings taken every 30 s. Initial rates of unwinding were calculated from the linear region of the assay using the GraphPad Prism 4.0 program (GraphPad Software Inc.).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      In vivo
+     </em>
+     translation and AP-1 transcription assays
+    </title>
+    <p>
+     RT101 cells (1 × 10
+     <sup>
+      4
+     </sup>
+     cells) were seeded in 24-well plates in EMEM medium containing 4% FBS. For AP-1-dependent transcription assay, cells were transfected with 1 μg of Pdcd4 (or mutant) expressing plasmid, 0.2 μg of AP-1 luciferase reporter plasmid (4 × AP-1-LUC), and 10 ng of Renilla reporter plasmid (pRL-SV40, Promega) using 3.6 μl of TransIT-LT1 reagent (Mirus). After transfection, cells were incubated for 48 h. For translation assay, cells were transfected with 0.5 μg of Pdcd4 (or mutant) expressing plasmid, 0.1 μg of pCMV-SL-LUC (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), and 10 ng of pRL-SV40 using 1.8 μl of TransIT-LT1 reagent (Mirus). After 24 h, cells were then serum starved with 0.1% FBS in EMEM medium for 24 h, followed by incubation in EMEM medium containing 4% FBS for additional 24 h. Cells were lysed in 1 × Passive lysis buffer (Promega) and luciferase activity was measured as previously described (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession numbers
+    </title>
+    <p>
+     The coordinates and structure-factor amplitudes of hPdcd4ΔN and the mPdcd4ΔN–eIF4A complex have been deposited in the Protein Data Bank with accession codes 3EIJ and 3EIQ, respectively.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <p>
+     Supplementary Information
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (5.3M, doc)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

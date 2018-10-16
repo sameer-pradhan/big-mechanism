@@ -1,0 +1,1366 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2845278
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    VHS domains of ESCRT-0 cooperate in high-avidity binding to polyubiquitinated cargo
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     VHS (Vps27, Hrs, and STAM) domains occur in ESCRT-0 subunits Hrs and STAM, GGA adapters, and other trafficking proteins. The structure of the STAM VHS domain–ubiquitin complex was solved at 2.6 Å resolution, revealing that determinants for ubiquitin recognition are conserved in nearly all VHS domains. VHS domains from all classes of VHS-domain containing proteins in yeast and humans, including both subunits of ESCRT-0, bound ubiquitin
+     <em>
+      in vitro
+     </em>
+     . ESCRTs have been implicated in the sorting of Lys63-linked polyubiquitinated cargo. Intact human ESCRT-0 binds Lys63-linked tetraubiquitin 50-fold more tightly than monoubiquitin, though only 2-fold more tightly than Lys48-linked tetraubiquitin. The gain in affinity is attributed to the cooperation of flexibly connected VHS and UIM motifs of ESCRT-0 in avid binding to the polyubiquitin chain. Mutational analysis of all the five ubiquitin-binding sites in yeast ESCRT-0 shows that cooperation between them is required for the sorting of the Lys63-linked polyubiquitinated cargo Cps1 to the vacuole.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Cps1, crystal structure, protein structure, vacuole, yeast genetics
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The covalent addition of ubiquitin (Ub) is one of the most widespread of all regulatory post-translational modifications of proteins (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Ubiquitination is a major signal for the endocytosis of receptors and other plasma membrane proteins (
+    <xref ref-type="bibr">
+     Hicke and Dunn, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kirkin and Dikic, 2007
+    </xref>
+    ), as well as for a subset of cargo that transit from the trans-golgi to endosomes. A distinctive property of Ub, in comparison to many other modifying moieties, is its ability to form covalent chains. Ub contains seven Lys residues, any one of which can participate in chain formation through a covalent bond with the C-terminal carboxylate of the subsequent Ub moiety. Monoubiquitination alone is, in some cases, a competent endocytic signal (
+    <xref ref-type="bibr">
+     Hicke and Dunn, 2003
+    </xref>
+    ), but endocytosed receptors are also abundantly modified by Lys63-linked polyUb (K63-Ub) and other forms of multiubiquitination (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kirkin and Dikic, 2007
+    </xref>
+    ). Some endosomal cargo is recycled, whereas other cargo is directed via the ESCRT pathway to the lysosome (or vacuole in yeast) for degradation. K63 ubiquitination is required for the degradative sorting of some, and perhaps most, cargo, such as the yeast permease Gap1 and the hydrolase Cps1, into the lysosomal/vacuolar branch of the pathway (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In mammalian cells, polyubiquitination promotes the degradative sorting of the EGF receptor via ESCRT-0 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The ESCRT-0, -I, and -II complexes all contain Ub-binding domains (UBDs) (
+    <xref ref-type="bibr">
+     Raiborg and Stenmark, 2009
+    </xref>
+    ). Indeed the role of the ESCRT system in sorting ubiquitinated cargo was discovered based on the presence of a predicted UBD in the ESCRT-I subunit Vps23 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).Therefore, a key question is whether any of the ESCRT complexes bind preferentially to polyUb, and to K63-Ub in particular. Here we show that ESCRT-0 binds with high avidity to polyUb chains.
+   </p>
+   <p>
+    As the furthest upstream component of the ESCRT machinery, ESCRT-0 acts at a branchpoint in endosomal traffic to bind to a certain cargo and commit it to the lysosomal pathway (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In the absence of an interaction with ESCRT-0, these cargo will typically be recycled instead of being degraded (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). ESCRT-0 consists of two subunits, known as Hrs and STAM in humans, and Vps27 and Hse1 in yeast. Both subunits contain UBDs that engage cargo (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Hrs binds monoUb at two sites on its DUIM motif (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), whereas Vps27 also binds two monoUb moieties through its tandem UIM1 and UIM2 motifs (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). STAM and Hse1 each contain a single Ub-binding UIM motif. In addition to UIM and other motifs, Hrs, STAM, and their yeast orthologs contain N-terminal VHS domains.
+   </p>
+   <p>
+    VHS domains (
+    <xref ref-type="bibr">
+     Lohi and Lehto, 1998
+    </xref>
+    ) are octahelical bundles (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), whose functions have only been defined in a few cases. The VHS domains of the human GGA trafficking adapters bind to the C-terminal tails of mannose 6-phosphase receptors (MPRs) via helices 6 and 8 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), but the MPR-binding site is not conserved in other VHS domains. The VHS domain of STAM binds to Ub (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) through the canonical Ile44 patch (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Here we report the crystal structure of the STAM1 VHS domain–Ub complex, shows that the Ub binding motif in STAM is also present in the large majority of other VHS domains, and directly confirm that Ub binding is a widespread, conserved property of VHS domains.
+   </p>
+   <p>
+    VHS domains are present in the sequences of ESCRT-0 subunits, the GGA trafficking adapters (
+    <xref ref-type="bibr">
+     Bonifacino, 2004
+    </xref>
+    ), and the GGA-like Tom1 and Tom1-like family of proteins. All of these proteins have in common a role in endosomal sorting, and all of them contain at least one other UBD in addition to the VHS domain. In addition to the UIM and DUIM motifs of ESCRT-0 subunits, the GGA and Tom1 families of proteins contain Ub-binding GAT domains. We sought to understand the significance of the co-occurrence of the VHS domain with other UBDs using ESCRT-0 as a model system. We show that the cooperation of VHS domains with UIMs is essential for function in yeast, and contributes to avid binding to polyUb chains
+    <em>
+     in vitro
+    </em>
+    . These observations explain the conservation of VHS domains and suggest a molecular mechanism for the recognition and sorting of polyubiquitinated proteins into the lysosomal degradation pathway by the ESCRT system.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     The STAM1 VHS domain–Ub complex
+    </title>
+    <p>
+     MonoUb was co-crystallized with the human STAM1 VHS domain, and the structure determined to 2.6 Å resolution (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). The asymmetric unit contains three copies of the VHS–Ub complex, and one copy of an uncomplexed VHS domain. The three copies of the complex are essentially identical in conformation, with r.m.s.d. values of 1.0 Å for all Cα atoms in the complex when both the VHS domain and Ub are superimposed simultaneously. The Ub-binding site of the uncomplexed VHS domain is blocked by a lattice contact, and shows small structural differences in side-chains of residues 23–28. The three crystallographically independent VHS–Ub complexes provide a highly consistent picture of the interaction. The interface covers 360 Å
+     <sup>
+      2
+     </sup>
+     of accessible surface area, a value typical of the low-affinity complexes of trafficking domains with Ub (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). On Ub, the interface centers on Ile44 (
+     <xref ref-type="fig">
+      Figure 1A–C
+     </xref>
+     ). Both Ile44 and Gly47 are completely buried in the interface, whereas Arg42, Lys48, Gln49, His68, and Val70 are partially buried. On the VHS domain, helices α2 and α4 form the binding site for Ub (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Trp26 and Leu30 together contribute more than half the total interaction area on the VHS domain. Gly27, Asp31, Asp34, Ala71, Ser74, and Asn75 are the other major interactors on the VHS domain. These interacting residues are consistent with those identified in solution using NMR chemical shift perturbation analysis (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Hydrogen bonds are observed between the side chains of STAM1 Asp31and Asp43 and Ub Arg42, and between the side-chain of STAM1 Asn75 and Ub Gly47 carbonyl oxygen and Lys48 ɛ-amino group (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The STAM VHS (Vps27, Hrs, and STAM) domain–ubiquitin (Ub) complex. (
+       <strong>
+        A
+       </strong>
+       ) Overall structure of the complex with the STAM1 VHS domain shown in yellow and Ub in light blue. The side-chains of the key Ub residues Ile44, Lys48, and Lys63, are shown. (
+       <strong>
+        B
+       </strong>
+       ) The STAM1 VHS domain binds to the hydrophobic patch (colored green) consisting of Ub Ile44, Gly47, and Val70. Basic residues Arg42, Lys48, and His68 involved in binding are colored dark blue, whereas Gln49 is colored white. The remainder of the non-interacting residues on the Ub surface are colored light blue. (
+       <strong>
+        C
+       </strong>
+       ) Interactions in the complex. Hydrogen bonds are shown with dashed lines. (
+       <strong>
+        D
+       </strong>
+       ) Binding of wild-type and mutant VHS domains to Ub. Binding curves for wild-type and mutant VHS domains are identified in the inset.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Crystallographic data collection and refinement
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The STAM1 VHS-domain binds to Ub with
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =220 μM as judged by surface plasmon resonance (SPR). In order to quantitate the roles of STAM1 residues in binding, the structural interaction residues were mutated and binding was measured by SPR. The residues that comprise the largest portion of the interface, Trp26 and Leu30, are essential for the interaction, as judged by the complete abolition of binding in the W26A and L30D mutants (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Mutations in the periphery of the interface leads to at most a two-fold increase in
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Ub binding is a conserved property of VHS domains
+    </title>
+    <p>
+     Diverse aligned sequences of VHS domains reveal that the key Ub-binding Trp26 and Leu30 residues of STAM1 are conserved in most other VHS domains (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ,
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). In some cases, Trp26 is replaced by another large hydrophobic residue, Leu. Some peripheral residues, such as Asp31, Asp34, and Asn75, are also well-conserved. This suggested to us that Ub binding might be a conserved property of VHS domains. The VHS domains of the yeast and human ESCRT-0 subunits, GGAs, and human Tom1 and Tom1L1 were purified and their Ub binding was measured by SPR (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). All VHS domains were bound to Ub with affinities in the 100 μM–2 mM range, with the exception of human GGA1 and GGA2. In the GGA1 and 2 sequences, the residue corresponding to STAM1 Leu30 is either Asn or Gln, which probably explains the lack of binding. The weak binding to the Hrs VHS domain was surprising, in that the canonical Trp and Leu residues are preserved. Mutations in peripheral residues were chosen in part on the basis of the corresponding residues in Hrs, for example, G27E, D31Q, and S74K (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Two of these mutations decrease binding by approximately two-fold each, and it seems likely that the cumulative effect of these and other peripheral changes not tested must account for the weak binding to the Hrs VHS domain. Yeast Vps27, Gga1, and Gga2 VHS domains have a Leu residue in place of STAM1 Trp26, a replacement that is apparently well-tolerated.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       The structural ubiquitin (Ub)-binding motif is conserved in nearly all VHS (Vps27, Hrs, and STAM) domains. (
+       <strong>
+        A
+       </strong>
+       ) Aligned sequences of VHS domain-containing proteins in the region corresponding to the N-terminal half of the domain. The secondary structure of the human STAM1 VHS domain is shown with solid bars to indicate α-helices. Residues shown to be critical for VHS domain–Ub binding are shaded in red, and other residues involved in, but not essential for, the interaction are shaded in blue. Identically conserved residues that are not directly involved in binding are shaded gray. Species abbreviations: Hs,
+       <em>
+        Homo sapiens
+       </em>
+       ; Dm,
+       <em>
+        Drosophila melanogaster
+       </em>
+       ; and Sc,
+       <em>
+        Saccharomyces cerevisiae
+       </em>
+       . (
+       <strong>
+        B
+       </strong>
+       ) Schematic of the domain organization of selected VHS domain-containing proteins. Of the sequences shown in (
+       <strong>
+        A
+       </strong>
+       ), the domain structure of STAM2_Hs is like that of STAM1_Hs; Hrs_Dm like that of Hrs_Hs, GGA1_Hs, and GGA2_Hs like GGA3_Hs; and GGA2_Sc like GGA1_Sc. SH3, Src homology-3 domain; core, ESCRT-0 core GAT and coiled coil region responsible for heterodimerization; PSAP, PTAP, PSDP are ESCRT-I binding motifs; CB, clathrin binding; and GAE, γ-adaptin ear domain.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Ubiquitin binds to nearly all VHS (Vps27, Hrs, and STAM) domains. Surface plasmon resonance (SPR)-binding curves between ubiquitin (Ub )and the indicated VHS domains are identified by the key in the inset.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     UBDs of ESCRT-0 cooperate in polyubiquitin-chain binding
+    </title>
+    <p>
+     Trials for the mono- and polyUb binding of the complete ESCRT-0 complex and UBD-containing fragments thereof were carried out by SPR to determine whether polyUb binding could account for the biological function of ESCRT-0 in sorting polyubiquitinated substrates. Recombinant full-length human ESCRT-0 was purified from insect cells (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and immobilized for SPR analysis. In spite of the presence of multiple UBDs, binding to monoUb could be fit to a single-site model allowing for a non-saturable non-specific component, yielding
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =920 μM (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ,
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). The low affinity reflects the average behavior of higher- (STAM VHS, UIM, and Hrs DUIM) and lower- (Hrs VHS domain)affinity sites. K48-Ub and linear head-to-tail (NC-Ub) chains are not known to have a role in endosomal sorting, but they were studied here as controls to assess the chain specificity of ESCRT-0 and its fragments. Binding to ESCRT-0 to Ub
+     <sub>
+      2
+     </sub>
+     chains was significantly enhanced compared with monoUb, with three-fold increases for K48-Ub
+     <sub>
+      2
+     </sub>
+     and NC-Ub
+     <sub>
+      2
+     </sub>
+     , and a nine-fold increase for K63-Ub
+     <sub>
+      2
+     </sub>
+     . Binding of ESCRT-0 to K48- and K63-Ub
+     <sub>
+      4
+     </sub>
+     was tighter than to either monoUb or diUb, as expected. The increase in affinity for NC-Ub
+     <sub>
+      4
+     </sub>
+     was 7-fold, with larger increases of 21-fold for K48-Ub
+     <sub>
+      4
+     </sub>
+     and 50-fold for K63-Ub
+     <sub>
+      4
+     </sub>
+     . The reason for the lack of more avid binding to NC-Ub
+     <sub>
+      4
+     </sub>
+     is not clear. In terms of chain specificity, the main conclusion from these experiments is that ESCRT-0 has a modest 2.4-fold preference for K63-Ub in the context of a Ub
+     <sub>
+      4
+     </sub>
+     chain, and a somewhat greater 3.7-fold preference in the context of a Ub
+     <sub>
+      2
+     </sub>
+     chain.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       ESCRT-0 and VHS (Vps27, Hrs, and STAM) domain-containing fragments of STAM1 bind polyubiquitin chains avidly. (
+       <strong>
+        A
+       </strong>
+       ) Surface plasmon resonance (SPR) curves for full length ESCRT-0. (
+       <strong>
+        B
+       </strong>
+       ) SPR curves for STAM VHS domain and VHS–UIM construct. (
+       <strong>
+        C
+       </strong>
+       ) SPR curves for Hrs DUIM and VHS–FYVE–DUIM construct. SPR binding curves between the constructs noted at top and the ubiquitin (Ub) chains identified by the key in the inset. Binding curves are normalized to 100% for the saturable component. The total binding includes a non-saturable, non-specific component in some cases, leading to values higher than 100%. (
+       <strong>
+        D
+       </strong>
+       ) Model for mono and polyubiquitinated cargo recognition by human and yeast ESCRT-0.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Dissociation constants (
+         <em>
+          K
+         </em>
+         <sub>
+          d
+         </sub>
+         ) of ESCRT-0 UBDs binding to monoUb or polyUb as obtained from SPR experiments
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The STAM VHS domain showed increased affinity for K63-Ub
+     <sub>
+      4
+     </sub>
+     over monoUb, with a slightly smaller increase for K48-Ub
+     <sub>
+      4
+     </sub>
+     (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). This VHS domain and the other single and multi-domain fragments tested consistently showed a 3–5-fold preference for K63-Ub
+     <sub>
+      2
+     </sub>
+     over K48-Ub
+     <sub>
+      2
+     </sub>
+     (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <a>
+      Supplementary Figure S2
+     </a>
+     ), compared with a 1.5- to 2.5-fold preference for K63-Ub
+     <sub>
+      4
+     </sub>
+     over K48-Ub
+     <sub>
+      4
+     </sub>
+     (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). The only exception was that the Vps27 UIM1-2 construct displayed a two-fold preference for K63-Ub that was independent of chain length (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). A STAM fragment comprising only the VHS and UIM domains was investigated to determine if this domain combination bound chains cooperatively. A 19-fold increase was observed for binding to K63-Ub
+     <sub>
+      4
+     </sub>
+     over Ub (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). A somewhat smaller six-fold increase was observed for K48-Ub
+     <sub>
+      4
+     </sub>
+     relative to Ub (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). The 19- and 6-fold increases in binding to the two types of chains account for a significant fraction of the corresponding 50-fold and 21-increases seen in the complete ESCRT-0 complex. Even more strikingly, the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values for the two types of chains are nearly identical in the full-length ESCRT-0 complex and the tandem UBD fragment of STAM.
+    </p>
+    <p>
+     In order to complete the characterization of all known Ub-binding regions of ESCRT-0, the N-terminal region of Hrs with and without the VHS domain was characterized. The Hrs DUIM domain had similar 30–40 μM affinities for both K63 and K48-Ub
+     <sub>
+      4
+     </sub>
+     (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ,
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). The Hrs DUIM had strikingly poor binding to K48-Ub
+     <sub>
+      2
+     </sub>
+     as opposed to other Ub
+     <sub>
+      2
+     </sub>
+     chains, but this selectivity disappeared at the level of Ub
+     <sub>
+      4
+     </sub>
+     chains. The larger fragment, including both the VHS domain and the FYVE domain and linker regions between the VHS and DUIM, bound somewhat more tightly to both types of Ub chain. As seen for the dual UBD construct for STAM, the VHS–FYVE–DUIM construct of Hrs bound Ub chains with affinities that are close to those of the intact ESCRT-0 complex. From these analyses, we conclude that ESCRT-0 binds avidly, but without significant linkage selectivity, to long polyubiquitin chains. A moderate degree of specificity for K63&gt;K48 is seen only in the context of diubiquitin chains. The similar polyubiquitin-binding properties of the N-terminal multiple UBD-containing fragments of Hrs and STAM can account for the behavior of the full complex.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     VHS and UIM domains of ESCRT-0 cooperate in sorting Cps1
+    </title>
+    <p>
+     Tetra-K63-Ub bound ESCRT-0 with sufficiently high affinity that it seemed likely to us to be involved in the physiological sorting function of the complex. We proceeded to test the hypothesis that ESCRT-0 UBDs cooperate to avidly bind Ub chains. ESCRT-0 is a heterodimer (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) which, including the newly identified Ub-binding activities of the Hrs, Vps27, and Hse1 VHS domains, contains a total of five known Ub-binding sites in both yeast and human complexes. Yeast Vps27 contains two UIMs, Hse1 contains one, and all three are competent to bind Ub (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). In order to determine whether the two VHS domains of yeast ESCRT-0 subunits cooperate with the three UIMs in sorting polyubiquitinated cargo, we adapted the approach previously used to study the cooperativity of UBDs in cargo sorting by ESCRT-I and II (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Cps1 is a vacuolar hydrolase that is K63-ubiquitinated and is normally sorted to the lumen of the vacuole by the ESCRT pathway. Disruption of the ESCRT pathway can be diagnosed by the mislocalization of Cps1 to the limiting membrane of the vacuole and to aberrant structures that appear as puncta in light microscopy and are known as ‘class E compartments'.
+    </p>
+    <p>
+     The VHS domains of the yeast ESCRT-0 subunits Vps27 and Hse1 were mutationally inactivated alone and in combination with UIMs. The sorting of the Lys63-polyubiquitination-dependent cargo Cps1 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) to MVBs was monitored in
+     <em>
+      vps27
+     </em>
+     Δ
+     <em>
+      hse1
+     </em>
+     Δ cells complemented with rescue plasmids bearing various combinations of UIM and VHS domain mutants of
+     <em>
+      VPS27
+     </em>
+     and
+     <em>
+      HSE1
+     </em>
+     . The VHS domains of Vps27 and Hse1 were inactivated by the mutations W28A–L32D and W25A–L29D, respectively. UIM domains were mutationally inactivated as follows: Vps27–UIM1, A266Q–S270D; Vps27–UIM2, A309Q–S313D; and Hse1–UIM, A170Q–S174D. These mutations are all on the exterior of the protein domain structures and are therefore expected to have no effects on the stability of the Vps27 and Hse1 proteins. Rescue of GFP-Cps1 sorting by expression of
+     <em>
+      VPS27
+     </em>
+     alone was partial (
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     ) consistent with the weak class E phenotype of
+     <em>
+      hse1
+     </em>
+     Δ (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Expression of
+     <em>
+      HSE1
+     </em>
+     alone did not rescue GFP-Cps1 sorting at all and manifested large class E puncta (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ), consistent with the strong class E phenotype of
+     <em>
+      vps27
+     </em>
+     Δ (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Expression of
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+     </sup>
+     with
+     <em>
+      HSE1
+     </em>
+     -manifested GFP fluorescence localized predominantly to the limiting membrane of the vacuole, but with some diffuse lumenal GFP fluorescence, indicated that a portion of the GFP-Cps1 was delivered to the vacuole (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). The
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     -expressing cells showed a few class E puncta, but they were markedly smaller and fewer in number than expected for a full block in ESCRT sorting. This is interpreted as a weak class E phenotype, and is consistent with reduced Cps1 sorting seen in a similar
+     <em>
+      VPS27
+     </em>
+     double UIM mutant (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Cps1 sorting in yeast depends on the cooperative action of ESCRT-0 Ub binding domains. The indicated plasmids were transformed into
+       <em>
+        vps27
+       </em>
+       Δ
+       <em>
+        hse1
+       </em>
+       Δ yeast cells and imaged for GFP-Cps1 (cargo) and FM4-64 (membrane) fluorescence as shown individually in panels (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        J
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Expression of
+     <em>
+      VPS27
+     </em>
+     and
+     <em>
+      HSE1
+     </em>
+     <sup>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     led to a weak class E phenotype (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ) similar to that of the
+     <em>
+      VPS27
+     </em>
+     double UIM mutant, indicating that Ub binding by the Hse1 VHS domain is involved in, but not critical for, Cps1 sorting. In contrast, the triple Ub-binding-site knockout,
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     <sup>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     showed almost no lumenal GFP-Cps1 (
+     <xref ref-type="fig">
+      Figure 5F
+     </xref>
+     ), hence its phenotype was significantly stronger than that of either
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     or
+     <em>
+      HSE1
+     </em>
+     <sup>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     . As might be expected, given these results, the quadruple knockout
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM
+      </em>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     ) had a strong class E phenotype, indicating that in the context of a triple UIM defect, the additional loss of Hse1 VHS domain-binding results in a complete loss of Cps1 sorting.
+    </p>
+    <p>
+     Because the Vps27 VHS domain bound Ub 10-fold more weakly than the Hse1 VHS domain,
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     was not expected to have a phenotype and was not tested by itself. In combination with the Vps27 UIM double knockout,
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     yielded a strong class E phenotype (
+     <xref ref-type="fig">
+      Figure 5H
+     </xref>
+     ). This demonstrated that the Ub-binding site on the Vps27 VHS domain does have a role in Cps1 sorting despite its low affinity for monoUb
+     <em>
+      in vitro
+     </em>
+     . Not surprisingly,
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     <sup>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5I
+     </xref>
+     ) and
+     <em>
+      VPS27
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM1–2
+      </em>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     <em>
+      HSE1
+     </em>
+     <sup>
+      Δ
+      <em>
+       UIM
+      </em>
+      Δ
+      <em>
+       VHS
+      </em>
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5J
+     </xref>
+     ) have the same strong phenotype. The threshold for partial loss of function thus appears to occur after mutation of one to two UBDs. Once three UBDs are mutated, the loss of function is nearly complete, so there is little further change when four or five UBDs are mutated. These data show that while the Ub-binding activities of the VHS domains of the Vps27 and Hse1 subunits are not essential on their own, their cooperation with the UIMs is required for sorting.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The VHS domain was identified as a conserved motif in trafficking proteins more than a decade ago (
+    <xref ref-type="bibr">
+     Lohi and Lehto, 1998
+    </xref>
+    ). Shortly after the identification of the VHS domain, the VHS domains of the human GGA proteins were shown to bind to mannose 6-phosphate receptors and sortilin, and to sort them from the TGN to the endolysosomal pathway (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The key residues on helices α6 and α8 that form the MPR/sortilin-binding site (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) were not conserved in GGAs of simple eukaryotes or in other VHS domain proteins. The Ub-binding property of the STAM VHS domain has been known for some time (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), yet its generalization to other VHS domains was not clear. Here we have shown that the VHS domain binds Ub through a conserved interface whose size and interaction strength is typical for UBDs. Ub binding was found in nearly every VHS domain tested, spanning most known VHS domain proteins in yeast and humans. The two notable exceptions are human GGA1 and GGA2, which may have gained the specialized ability to bind MPRs during evolution while losing their Ub-binding site. In the case of GGA3, whose VHS domain binds both MPRs and Ub, the two sites are at opposite ends of the domain structure and there is nothing to preclude their simultaneous binding to both types of ligand. Based on the results obtained here, Ub binding is a conserved function of the VHS domain, so at least one function can now be assigned to all known VHS domains in yeast and humans.
+   </p>
+   <p>
+    The human GGAs (
+    <xref ref-type="bibr">
+     Puertollano and Bonifacino, 2004
+    </xref>
+    ), yeast Ggas (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), and Tom1–Tom1L1-family proteins (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Puertollano, 2005
+    </xref>
+    ) all have roles in the sorting of ubiquitinated cargo. All of these proteins also contain Ub-binding GAT domains, and it has generally been accepted that the GAT domain was sufficient to recognize cargo. The identification of a second UBD in these proteins adds new complexity to the picture. In the case of yeast ESCRT-0, we found that the trafficking of the ubiquitination-dependent cargo Cps1 is robust to the inactivation of single UBDs but sensitive to inactivation of multiple UBDs. Sensitivity to multiple, but not single, UBD inactivation was previously shown for the yeast ESCRT-I–II supercomplex (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). This pattern of cooperative binding to polyubiquitinated proteins could be a common feature of the many multi-UBD proteins and complexes involved in trafficking, and likely extends to the recognition of multiubiquitinated proteins as well.
+   </p>
+   <p>
+    The presence of multiple VHS domains and UIMs within ESCRT-0 gives the complex the ability to bind avidly to polyubiquitin chains. The enhanced binding of polyubiquitin to ESCRT-0 explains how polyubiquitination could potentially serve as an effective signal to direct the cargo Cps1 into the MVB pathway. The level of specificity for K63- over K48-Ub is moderate, 3.7- or 2.4-fold depending on whether di- or tetraubiquitin chains, respectively, are examined. At present, the minimum length of Ub chains required for sorting of polyubiquitin-dependent ESCRT cargoes, such as Cps1, remains to be established. Indeed, polyubiquitination does not appear to be required for all ESCRT cargoes. A counterexample of monoubiquitin-dependent sorting into the MVB pathway is provided by Fth1. Fth1 is not normally an ESCRT cargo, but can be directed into the ESCRT pathway by gene fusion with a monoubiquitin mutant designed to block chain elongation through either Lys48 or Lys63 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The presence of multiple UBDs in ESCRT-0 may provide an effective mechanism for binding both monoubiquitinated and polyubiquitinated proteins (
+    <xref ref-type="fig">
+     Figure 4D
+    </xref>
+    ). Consistent with this view, ESCRT-0 can cluster a model monoubiquitinated cargo present in a bulk concentration of just 65 nM, provided that the cargo is tethered to a membrane containing the ESCRT-0-binding lipid phosphatidylinositol 3-phosphate (
+    <xref ref-type="bibr">
+     Wollert and Hurley, 2010
+    </xref>
+    ). The presence of multiple Ub moieties in a polyubiquitin chain may be more important in some cases than others, such as for substrates present at low concentrations in the cell. We have found that polyubiquitination can enhance ESCRT-0 binding relative to monoubiquitination by nearly two orders of magnitude. Our other observations suggest that membrane tethering of both Ub and ESCRT-0 can enhance affinity by more than three orders of magnitude (
+    <xref ref-type="bibr">
+     Wollert and Hurley, 2010
+    </xref>
+    ), increasing the affinity for even monoUb to the point where physiological levels of cargo are efficiently bound. Thus, the multiplicity of UBDs in ESCRT-0 appears to confer multiple functions in mono- and polyubiquitinated cargo sorting. Here we have shown that the VHS domain is a conserved UBD and has a key role in the ability of ESCRT-0 to avidly bind Ub chains. We have shown Ub recognition by VHS domains is important in sorting Cps1. Other functions will be interesting to explore in the future.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein expression and purification
+    </title>
+    <p>
+     DNA coding for human STAM1 residues 2–143 was subcloned into the pGST2 vector (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), providing for an N-terminal glutathione
+     <em>
+      S
+     </em>
+     -transferase (GST) tag followed by a TEV protease cleavage site. Plasmids were transformed into
+     <em>
+      Escherichia coli
+     </em>
+     BL21 (DE3) cells and overexpressed in ZYM-5052 autoinduction medium (
+     <xref ref-type="bibr">
+      Studier, 2005
+     </xref>
+     ). Pellets were resuspended in 1 × PBS buffer (pH 7.4), 5 mM β-ME, and protease inhibitors (Sigma), and lysed by sonication. The clarified supernatant was purified using a glutathione–sepharose column (GE Healthcare). Samples for crystallized were incubated with His
+     <sub>
+      6
+     </sub>
+     -tagged TEV protease to cleave the histidine tag, followed by passage through Ni-NTA resin. The protein was concentrated and purified on a Superdex 75 column (GE Healthcare) in 20 mM Tris pH 7.4, 50 mM NaCl, 5 mM DTT. Bovine Ub (Sigma) was dissolved in 20 mM Tris pH 7.4, and then further purified on a Superdex 75 column before use in crystallization experiments. Site-directed mutants of STAM1 (1–143) were generated using the Quick change kit (Stratagene). For SPR studies of VHS domains of various proteins and fragments of various ESCRT-0 subunits, the appropriate DNA fragments (
+     <a>
+      Supplementary Table S1
+     </a>
+     ) were PCR amplified and subcloned into pGST1 (for Hse1, the pGST2 vector was used). All constructs were verified by DNA sequencing. Plasmids were transformed into BL21 (DE3) cells, and then overexpressed in LB medium. Cells were induced with 0.2 mM IPTG and grown at 18°C overnight. The lysate was purified using glutathione–sepharose column, and then applied to Superdex 200 column in 10 mM HEPES pH 7.0, 150 mM NaCl. The insect cell expression and purification of the full-length human Hrs–STAM1 complex was described previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The masses of all recombinant proteins were confirmed by electrospray mass spectrometry.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization, data collection, and structure determination
+    </title>
+    <p>
+     Ubiquitin and STAM1 VHS domain were mixed at a 1:1 molar ratio and concentrated. Crystals of the complex were obtained at 35 mg ml
+     <sup>
+      −1
+     </sup>
+     protein and equilibrated against 0.2 M Na thiocyanate, 20% PEG3350, and 0.1 M imidazole pH 8.0 in hanging drops. Crystals were cryoprotected in reservoir solution supplemented with 25% glycerol and frozen in liquid nitrogen. Data were collected at 2.6 Å resolution from a single frozen crystal using a MAR CCD detector at beamline 22-ID, Advanced Photon Source. A molecular replacement solution was found using STAM2 VHS domain structure (PDB: 1X5B) as a search model with Phaser (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) in the space group
+     <em>
+      P
+     </em>
+     2
+     <sub>
+      1
+     </sub>
+     . Model building and refinement was using coot (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ), CNS (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and AutoBuster (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Structural figures were generated in PyMol (W Delano,
+     <a>
+      http://pymol.sourceforge.net/
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Polyubiquitin synthesis
+    </title>
+    <p>
+     K48- and K63-Ub chains were synthesized following the procedure of (
+     <xref ref-type="bibr">
+      Pickart and Raasi, 2005
+     </xref>
+     ). Briefly, His-tagged mouse Ub-activating enzyme E1 was purified from baculovirus-infected Hi5 insect cells. Ub-K48C and Ub-D77, human E2-25K (E2) were used to make the K48-linked chain. Ub-K63R, Ub-D77, yeast Ubc13-Mms2 complex (E2), and Yuh1 hydrolase for the K63-linked chain.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Surface plasmon resonance
+    </title>
+    <p>
+     The binding of Ub to different VHS fragments and mutants was measured using a Biacore T100 instrument. Anti-GST (GE Healthcare) was immobilized on a CM5 chip by amine coupling following the manufacturer's protocol. GST-fusion proteins were captured on this surface to a density of 700–1000 U; the monoUb or polyUb analyte was injected at a flow rate of 20 μl min
+     <sup>
+      −1
+     </sup>
+     in 10 mM HEPES pH 7.0, 150 mM NaCl, and 0.005% P20 at 25°C. A total of 10 mM glycine–HCl pH 2.0 was used for surface regeneration. Each protein was chromatographed by gel filtration immediately before SPR experiments in order to avoid immobilizing any aggregated material. The data were processed using BioEvaluation software (Biacore), and curve fitting was carried out with Origin software (OriginLab). A single-site-binding model is used to fit monoUb binding, but this model did not provide acceptable fits for most of the polyUb binding curves. A non-specific binding model incorporated a linear term was used to fit polyUb binding as follows:
+    </p>
+    <sec>
+     <sec>
+      <sec>
+       <img/>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     For plotting, data were scaled such that
+     <em>
+      R
+     </em>
+     <sub>
+      max
+     </sub>
+     =100. As a control to determine whether the immobilization for SPR or the fitting procedure had introduced systematic errors into the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values for polyUb binding, the tandem UIMs of Vps27 were purified and polyUb binding was assessed (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ,
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values obtained by fitting to the above equation were 16 and 32 μM, respectively, for K63-Ub
+     <sub>
+      4
+     </sub>
+     and K48-Ub
+     <sub>
+      4
+     </sub>
+     . These are similar to the corresponding values of 29 and 31 μM obtained from fluorescence anisotropy-binding measurements in solution (
+     <xref ref-type="bibr">
+      Sims and Cohen, 2009
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Plasmid construction and yeast strains
+    </title>
+    <p>
+     The yeast strain
+     <em>
+      vps27
+     </em>
+     Δ∷KanR was purchased from Open Biosystems. The
+     <em>
+      vps27
+     </em>
+     Δ
+     <em>
+      hse1
+     </em>
+     Δ strain was prepared by replacing
+     <em>
+      HSE1
+     </em>
+     with a nourseothricin-resistance gene from the
+     <em>
+      hse1
+     </em>
+     Δ strain by homologous recombination. The complete expression cassettes of
+     <em>
+      VPS27
+     </em>
+     and
+     <em>
+      HSE1
+     </em>
+     were amplified from yeast genomic DNA (Invitrogen) and cloned into the single-copy plasmids Ycplac111 and Ycplac22, respectively. Plasmids used in this study are listed in
+     <a>
+      Supplementary Table S2
+     </a>
+     . The Ub-binding inactivation mutants were generated by site-directed Quickchange mutagenesis (Stratagene), and confirmed by DNA sequencing. Plasmids bearing wild-type and mutant
+     <em>
+      VPS27
+     </em>
+     and
+     <em>
+      HSE1,
+     </em>
+     and
+     <em>
+      GFP-CPS1
+     </em>
+     (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) were co-transformed into
+     <em>
+      vps27
+     </em>
+     Δ
+     <em>
+      hse1
+     </em>
+     Δ. The strains were used in this study were: BY4741 (MATa
+     <em>
+      his3
+     </em>
+     Δ1
+     <em>
+      leu2
+     </em>
+     Δ0
+     <em>
+      met15
+     </em>
+     Δ0
+     <em>
+      ura3
+     </em>
+     Δ0), BY4741
+     <em>
+      vps27
+     </em>
+     Δ∷KanR, BY4741
+     <em>
+      vps27
+     </em>
+     Δ∷KanR
+     <em>
+      hse1
+     </em>
+     Δ∷NATR.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Microscopy
+    </title>
+    <p>
+     Yeast strains expressing the appropriate alleles were harvested at an A600 of 0.3–0.5 and labeled with FM4-64 for vacuolar membrane staining (
+     <xref ref-type="bibr">
+      Vida and Emr, 1995
+     </xref>
+     ). Uptake of FM4-64 by live cells was performed at 30°C for 1 h, after which cells were resuspended in selection media and incubated for 30 min at 30°C. Visualization of cells was performed on an LSM510 fluorescence microscope (Carl Zeiss MicroImaging) equipped with fluorescein isothiocyanate (FITC) and rhodamine filters and captured with a digital camera.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Figures and Tables:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.2M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (402K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

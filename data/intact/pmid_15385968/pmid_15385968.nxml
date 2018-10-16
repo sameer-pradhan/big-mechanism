@@ -1,0 +1,1574 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC522785
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Xrcc4 physically links DNA end processing by polynucleotide kinase to DNA ligation by DNA ligase IV
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Nonhomologous end joining (NHEJ) is the major DNA double-strand break (DSB) repair pathway in mammalian cells. A critical step in this process is DNA ligation, involving the Xrcc4–DNA ligase IV complex. DNA end processing is often a prerequisite for ligation, but the coordination of these events is poorly understood. We show that polynucleotide kinase (PNK), with its ability to process ionizing radiation-induced 5′-OH and 3′-phosphate DNA termini, functions in NHEJ via an FHA-dependent interaction with CK2-phosphorylated Xrcc4. Analysis of the PNK FHA–Xrcc4 interaction revealed that the PNK FHA domain binds phosphopeptides with a unique selectivity among FHA domains. Disruption of the Xrcc4–PNK interaction
+     <em>
+      in vivo
+     </em>
+     is associated with increased radiosensitivity and slower repair kinetics of DSBs, in conjunction with a diminished efficiency of DNA end joining
+     <em>
+      in vitro
+     </em>
+     . Therefore, these results suggest a new role for Xrcc4 in the coordination of DNA end processing with DNA ligation.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     DNA double-strand breaks, DNA repair, FHA domain, nonhomologous end joining, Xrcc4
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    DNA double-strand breaks (DSBs) pose a major threat to cell survival and genome stability. If left unrepaired, DSBs can result in the loss of genetic material or cell death. Moreover, mutations or gross genetic aberrations can occur if DSB repair (DSBR) is inaccurate (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Great efforts are therefore made by the cell to prevent, detect, signal and repair DSBs.
+   </p>
+   <p>
+    In vertebrates, a major DSBR pathway is nonhomologous end joining (NHEJ). NHEJ is active throughout the cell cycle, although it predominates during G0/G1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In addition, NHEJ plays a key role in the processing and repair of the developmentally regulated DSBs that occur during V(D)J recombination, the process by which T-cell receptor and antibody diversity is established (
+    <xref ref-type="bibr">
+     Gellert, 2002
+    </xref>
+    ). NHEJ has several known components: the DNA-PK holoenzyme (composed of the DNA end-binding complex Ku70/Ku80 and the DNA-PKcs serine/threonine kinase;
+    <xref ref-type="bibr">
+     Smith and Jackson, 1999
+    </xref>
+    ), the Artemis nuclease and the Xrcc4–DNA ligase IV complex (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Mammalian cells deficient in these NHEJ components share phenotypes that include sensitivity to ionizing radiation (IR) and impaired V(D)J recombination, underscoring their critical role in DSBR (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Most models of mammalian NHEJ do not take into account the requirement for DNA end processing prior to ligation. Indeed, most sources of DNA damage either produce nonligatable chemical modifications or generate protein–DNA adducts at DNA termini that must require processing prior to DNA ligation. For example, IR produces nonligatable 5′-OH and 3′-phosphate DNA termini among other types of ends (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Therefore, the recruitment and regulation of specific DNA end processors is critical for NHEJ depending on the type of terminal groups present at DSBs.
+   </p>
+   <p>
+    The Artemis protein was recently shown to possess overhang endonucleolytic activity and is perhaps the best characterized example of a DNA end processor associated with NHEJ (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Artemis forms a complex with DNA-PKcs and its interaction with, along with its phosphorylation by, DNA-PKcs is required to convert Artemis from an exonuclease to an endonuclease (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). These findings link DSB detection by DNA-PK to DNA end processing by Artemis. However, Artemis cannot process every type of nonligatable ends and therefore other types of end-processing enzymes must act during NHEJ. The mammalian polynucleotide kinase (PNK) enzyme is a good candidate for an NHEJ DNA end processor as it contains both 5′-DNA kinase and 3′-DNA phosphatase activities that could specifically act during the repair of 5′-OH and 3′-phosphate-modified DNA termini (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Interestingly, recent studies from Chappell and colleagues, using an
+    <em>
+     in vitro
+    </em>
+    NHEJ system, identified PNK as a key factor for the processing of DSBs with 5′-OH DNA termini
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    In addition to its potential role in NHEJ, PNK has a well-established role in single-strand break repair (SSBR), where it interacts with a multi-protein complex that includes the protein Xrcc1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In metazoans, from
+    <em>
+     Drosophila
+    </em>
+    to humans, PNK orthologs also harbor a putative FHA domain N-terminal to their catalytic domains. The FHA domain is found in a number of proteins of diverse functions, where it acts as a phosphothreonine-binding module (
+    <xref ref-type="bibr">
+     Durocher and Jackson, 2002
+    </xref>
+    ). The presence of an FHA domain on PNK therefore suggests that PNK engages in phosphorylation-dependent interactions and indicates that the assembly of the SSBR or DSBR machineries may be in part controlled by phosphorylation.
+   </p>
+   <p>
+    In this study, we sought to identify phosphorylation-dependent PNK-interacting proteins, identify the kinase(s) responsible for these interactions, as well as characterize the functional importance of these interactions in DNA repair. Here, we show that PNK physically interacts with Xrcc4 in a phosphorylation- and FHA-dependent manner. Disruption of the Xrcc4–PNK interaction is associated with increased sensitivity to IR, concomitant with a diminished efficiency of DNA end joining
+    <em>
+     in vitro
+    </em>
+    . This study therefore identifies the mechanism by which PNK participates in NHEJ and uncovers a new role for Xrcc4 in the coordination of DNA end processing with DNA ligation.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     PNK interacts with Xrcc4 in an FHA-dependent manner
+    </title>
+    <p>
+     To identify proteins that specifically interact with the PNK FHA domain, we purified the PNK FHA domain as a GST fusion protein (PNK
+     <sup>
+      FHA
+     </sup>
+     ) and separately purified a mutated version of the PNK FHA domain substituting a conserved arginine residue (Arg35) to alanine (PNK
+     <sup>
+      FHA-R35A
+     </sup>
+     ), a mutation shown in other FHA domains to be essential for phosphothreonine binding (
+     <xref ref-type="bibr">
+      Durocher and Jackson, 2002
+     </xref>
+     ). Both purified fusion proteins were immobilized on glutathione–sepharose beads and incubated with whole-cell extracts (WCEs) from human HEK293T cells. We excised a total of 18 bands that displayed selective interaction with the PNK
+     <sup>
+      FHA
+     </sup>
+     domain and prepared them for tandem mass spectrometry. As a control to ensure identification of proteins retrieved in a PNK
+     <sup>
+      FHA
+     </sup>
+     -dependent fashion, corresponding gel slices in the PNK
+     <sup>
+      FHA-R35A
+     </sup>
+     lane were also excised and analyzed by mass spectrometry. As shown in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , the PNK
+     <sup>
+      FHA
+     </sup>
+     protein, in contrast to PNK
+     <sup>
+      FHA-R35A
+     </sup>
+     , selectively retrieved SSBR components known to interact with PNK (Xrcc1, DNA ligase III and PARP;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), indicating that PNK may interact with Xrcc1 in an FHA domain-dependent manner, a result recently confirmed by the Caldecott group (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ; see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). We also identified a number of novel PNK interactors such as NHEJ components (Xrcc4, the Ku70/Ku80 heterodimer and DNA-PKcs), as well as other regulators of DNA repair and chromatin remodeling such as components of the FACT complex (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). The interaction between PNK and NHEJ components was of particular interest, given the recent report by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     that suggests a role for PNK during NHEJ. The physical and functional association of PNK with NHEJ components was therefore further investigated.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Summary of MS data
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     We first sought to determine whether the NHEJ components identified by mass spectrometry interacted with full-length PNK in an FHA-dependent manner. Full-length, epitope-tagged, PNK or PNK
+     <sup>
+      R35A
+     </sup>
+     were expressed in human HEK293T cells and tested for their ability to physically interact with NHEJ proteins in co-immunoprecipitation experiments. As shown in
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     , PNK co-immunoprecipitates with Xrcc4 and DNA ligase IV, and these interactions are dependent on the phosphothreonine-binding activity of the FHA domain, as PNK
+     <sup>
+      R35A
+     </sup>
+     fails to interact with either protein. However, the potential interaction between PNK and the DNA-PK holoenzyme was not confirmed by co-immunoprecipitation and therefore was not investigated further. The PNK–DNA ligase IV interaction is also detected when the direction of the co-immunoprecipitation is reversed (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ) and, importantly, the interaction between PNK and the Xrcc4-DNA ligase IV complex is not bridged by DNA since the interaction is resistant to 50 μg/ml of the DNA intercalating agent ethidium bromide (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Finally, co-immunoprecipitation experiments using anti-PNK antibodies confirmed that the interaction between endogenous Xrcc4 and PNK occurs
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). These results indicate that PNK interacts with the Xrcc4–DNA ligase IV complex in human cells and that their association is dependent on a functional PNK FHA domain.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       PNK physically interacts with Xrcc4 in an FHA-dependent manner. (
+       <strong>
+        A
+       </strong>
+       ) Recombinant GST-PNK
+       <sup>
+        FHA
+       </sup>
+       and -PNK
+       <sup>
+        FHA-R35A
+       </sup>
+       proteins were incubated with HEK293T WCEs, the interacting proteins were resolved on SDS–PAGE, stained with GelCode, and prepared for mass spectrometry. The identities of the proteins found in gel slices are found in
+       <a>
+        <span>
+         Table I
+        </span>
+       </a>
+       . (
+       <strong>
+        B
+       </strong>
+       ) WCE from HEK293T cells transfected with V5-tagged PNK, PNK
+       <sup>
+        R35A
+       </sup>
+       or empty vector (V) were immunoprecipitated with an anti-V5 antibody. The precipitates or WCEs were separated on SDS–PAGE, and probed to detect PNK, Xrcc4, DNA ligase IV, DNA-PKcs and Ku70/Ku80 as indicated. (
+       <strong>
+        C
+       </strong>
+       ) WCEs from HEK293T cells transfected with DNA ligase IV, V5-tagged PNK or empty vector were immunoprecipitated with anti-DNA ligase IV antibody, followed by anti-V5 immunoblotting (top panel). WCEs were also probed with anti-DNA ligase IV antibody (middle panel) and anti-V5 antibody (bottom panel). We note that, for the Xrcc4–PNK interaction, the immunoprecipitation cannot be reversed for technical reasons. (
+       <strong>
+        D
+       </strong>
+       ) WCEs from (A) treated with or without ethidium bromide were immunoprecipitated with anti-V5 antibody and probed with anti-Xrcc4 and DNA ligase IV antibodies. (
+       <strong>
+        E
+       </strong>
+       ) HEK293T WCEs were immunoprecipitated with anti-PNK antibody, followed by immunoblotting with anti-Xrcc4 antibody or anti-PNK antibody. (
+       <strong>
+        F
+       </strong>
+       ) Recombinant GST, PNK
+       <sup>
+        FHA
+       </sup>
+       , or PNK
+       <sup>
+        FHA-R35A
+       </sup>
+       were mixed in PD assays with HEK293T WCEs treated with or without λ protein phosphatase (λp'tase) as indicated. As a control, 2.5% of input WCE was loaded. The samples were resolved on SDS–PAGE and probed with anti-Xrcc4 antibody.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Since FHA domains are phosphothreonine recognition modules, we examined if protein phosphorylation was required for the PNK–Xrcc4 interaction. We used the PNK
+     <sup>
+      FHA
+     </sup>
+     pull-down (PD) assay used in
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , as a means to rapidly monitor the PNK
+     <sup>
+      FHA
+     </sup>
+     –Xrcc4 interaction. As shown in
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     , PNK
+     <sup>
+      FHA
+     </sup>
+     efficiently retrieves Xrcc4 from WCEs and the interaction is essentially abolished by the Arg35Ala mutation. Furthermore, λ protein phosphatase treatment of cell extracts prior to incubation with PNK
+     <sup>
+      FHA
+     </sup>
+     completely abolishes the interaction between Xrcc4 and PNK
+     <sup>
+      FHA
+     </sup>
+     . These results support the notion that the interaction is phosphorylation-dependent and indicate that the PNK FHA domain is both sufficient and essential to promote an interaction with Xrcc4.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Threonine 233 (Thr233) of Xrcc4 is required for binding to PNK
+    </title>
+    <p>
+     Next, we sought to determine the region of Xrcc4 required for its association with PNK. A series of epitope-tagged Xrcc4 constructs were generated (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), expressed in HEK293T cells and tested for their ability to interact with PNK
+     <sup>
+      FHA
+     </sup>
+     in PD assays. As shown in
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     , PNK
+     <sup>
+      FHA
+     </sup>
+     efficiently retrieves Xrcc4 and Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     from WCEs, but is unable to interact with Xrcc4
+     <sup>
+      213Δ
+     </sup>
+     or Xrcc4
+     <sup>
+      179Δ
+     </sup>
+     . From these observations, we conclude that the PNK–Xrcc4 interaction requires a region of Xrcc4 encompassing amino-acid residues 213–250.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       The Xrcc4 Thr233 residue is required for interaction with PNK. (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of Xrcc4 proteins analyzed for interaction with PNK: wild-type Xrcc4; Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       (residues 1–250); Xrcc4
+       <sup>
+        213Δ
+       </sup>
+       (residues 1–213); Xrcc4
+       <sup>
+        179Δ
+       </sup>
+       (residues 1–179). Also indicated is the DNA-ligase IV Xrcc4-interacting region (residues 179–213), and the portion of Xrcc4 important for mediating homodimerization (residues 115–204). (
+       <strong>
+        B
+       </strong>
+       ) WCEs from HEK293T cells transfected with V5-tagged Xrcc4 constructs (or empty vector as control) were incubated with recombinant GST-PNK
+       <sup>
+        FHA
+       </sup>
+       in PD assays. PNK
+       <sup>
+        FHA
+       </sup>
+       -interacting proteins were resolved by SDS–PAGE, and detected with an anti-V5 antibody (top panel). As a control, 20 μg of WCE was analyzed by immunoblotting (bottom panel). (
+       <strong>
+        C
+       </strong>
+       ) Conserved threonine residues of Xrcc4 were mutated to alanine, and the resulting mutants were expressed in HEK293T cells. PD assays were carried out with PNK
+       <sup>
+        FHA
+       </sup>
+       , and Xrcc4 was detected by anti-V5 immunoblotting (top panel). In the bottom panel, 20 μg of WCE was immunoblotted with anti-V5 antibody to control for protein expression. (
+       <strong>
+        D
+       </strong>
+       ) CHO
+       <em>
+        Xrcc4
+       </em>
+       -deficient (XR-1) cell lines stably transfected with Xrcc4
+       <sup>
+        WT
+       </sup>
+       , Xrcc4
+       <sup>
+        T233A
+       </sup>
+       , Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       , Xrcc4
+       <sup>
+        250ΔT233A
+       </sup>
+       , or an empty vector were treated with or without 10 Gy of X-rays and assessed for their ability to interact with PNK
+       <sup>
+        FHA
+       </sup>
+       in PD assays and detected by immunoblotting (IB) with anti-V5 antibody (top panel). The blot was stripped and immunoblotted with anti-DNA ligase IV antibody (middle panel). Examination of WCEs (bottom panel) by anti-V5 immunoblotting revealed similar expression levels between the cell lines. (
+       <strong>
+        E
+       </strong>
+       ) WCEs from XR-1 lines transfected with Xrcc4
+       <sup>
+        WT
+       </sup>
+       , Xrcc4
+       <sup>
+        T233A
+       </sup>
+       or a control vector were immunoprecipitated (IPs) with the anti-V5 antibody and probed for the presence of DNA ligase IV by anti-DNA ligase IV immunoblotting. DNA ligase IV was expressed at similar levels in both cell lines, as revealed by anti-DNA ligase IV immunoblotting from WCEs. DNA-ligase IV is indicated by the top arrow, and the bottom arrow represents a faster migrating nonspecific (NS) band.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Since FHA domains are phosphothreonine-binding modules, we next assessed whether conserved threonine residues on Xrcc4 are required for the Xrcc4–PNK interaction. Five highly conserved threonine residues in Xrcc4 were mutated to alanine (Thr233, 264, 282, 306 and 321; see
+     <a>
+      Supplementary Figure 1A
+     </a>
+     ). Of these, Thr321 is known to be phosphorylated by DNA-PK (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), making it a particularly interesting candidate. The resulting Xrcc4 mutants were expressed in HEK293T cells and assessed for binding to PNK
+     <sup>
+      FHA
+     </sup>
+     in PD assays (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). We found that only the Thr233Ala mutation resulted in the impairment of the Xrcc4–PNK
+     <sup>
+      FHA
+     </sup>
+     interaction. Notably, the location of this residue in Xrcc4 is in agreement with the regional mapping data presented in
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     , which located the PNK-binding site between amino-acid residues 213 and 250, and suggests that the PNK FHA domain recognizes an epitope encompassing Thr233 on Xrcc4.
+    </p>
+    <p>
+     Since Xrcc4 is oligomeric in nature (dimeric or tetrameric;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), we sought to ensure that multimerization with endogenous Xrcc4 present in HEK293T extracts did not enable some Xrcc4 mutants to interact with the PNK FHA domain. We therefore generated stable cell lines expressing V5-epitope-tagged Xrcc4, Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     , Xrcc4
+     <sup>
+      T233A
+     </sup>
+     and Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     in the
+     <em>
+      Xrcc4
+     </em>
+     -deficient CHO cell line XR-1, and tested their ability to be bound by PNK
+     <sup>
+      FHA
+     </sup>
+     in PD assays (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). Again, we confirmed that the Xrcc4 Thr233 residue is critical for association with the PNK FHA domain, both in the context of full-length Xrcc4 and Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     proteins (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). Interestingly, the association between Xrcc4 and PNK is not modulated by DNA damage as the interaction is observed at similar levels after 10 Gy of X-rays (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). In addition, the binding of DNA ligase IV to PNK
+     <sup>
+      FHA
+     </sup>
+     also depends on the Xrcc4 Thr233 residue (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). This observation raises the possibility that DNA ligase IV interacts with PNK via a bridging interaction with Xrcc4. To rule out the possibility that the loss of the DNA ligase IV–PNK interaction in cells expressing Xrcc4
+     <sup>
+      T233A
+     </sup>
+     was due to a disruption of the Xrcc4–DNA ligase IV complex, Xrcc4 or Xrcc4
+     <sup>
+      T233A
+     </sup>
+     proteins were immunoprecipitated from XR-1 stable transfectants and examined for association with DNA ligase IV (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ). We found that DNA ligase IV interacts equally well with wild-type Xrcc4 or with Xrcc4
+     <sup>
+      T233A
+     </sup>
+     . As DNA ligase IV stability is dependent on its association with Xrcc4 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), we also note that Xrcc4
+     <sup>
+      T233A
+     </sup>
+     stabilizes endogenous DNA ligase IV to the same extent as wild-type Xrcc4. Collectively, these results are consistent with the formation of a tripartite complex comprising PNK, Xrcc4 and DNA ligase IV and that the PNK–Xrcc4 interaction requires Thr233 on Xrcc4.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PNK FHA domain displays a novel phosphothreonine-binding mode
+    </title>
+    <p>
+     The results presented above suggest that Thr233 may be phosphorylated and bound by the PNK FHA domain. We thus tested if peptides derived from Xrcc4 and containing the sequence surrounding Thr233 could interact with PNK
+     <sup>
+      FHA
+     </sup>
+     or PNK
+     <sup>
+      FHA-R35A
+     </sup>
+     proteins in peptide PD assays. Biotinylated, Thr233-phosphorylated and unphosphorylated Xrcc4-derived peptides (designated as T233P and T233 peptides, respectively;
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) were employed in peptide-binding assays to assess whether the interaction is phosphorylation-dependent. Both peptides were coupled to streptavidin magnetic beads and incubated with PNK and PNK
+     <sup>
+      R35A
+     </sup>
+     . As shown in
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     , only the phosphorylated peptide (T233P) is able to bind appreciably to PNK. Conversely, when PNK and PNK
+     <sup>
+      R35A
+     </sup>
+     were compared for their ability to bind to T233P, only PNK bound efficiently (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). These results indicate that the FHA domain of PNK is required to directly interact with an epitope on Xrcc4 surrounding the phosphorylated threonine at position 233.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The PNK FHA domain binds to phosphorylated Thr233. (
+       <strong>
+        A
+       </strong>
+       ) Sequence (in single-letter amino acids) of the biotinylated unphosphorylated (T233) and phosphorylated (T233P) peptides from Xrcc4 corresponding to amino acids 229–238. Two C-terminal lysines and two N-terminal glycine residues were also added. (
+       <strong>
+        B
+       </strong>
+       ) The immobilized T233P peptide was mixed with recombinant GST fusion proteins (PNK or PNK
+       <sup>
+        R35A
+       </sup>
+       proteins), and peptide binding was detected by anti-GST immunoblotting (top panel). In the bottom panel, PNK was incubated with the T233 or T233P coupled peptides, and association was assessed by anti-GST immunoblotting. Input amounts of the recombinant proteins (for both the upper and lower panels) are indicated in the middle panel, and have also been detected by probing with anti-GST antibody.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The PNK FHA domain is part of a newly identified class of FHA domains comprising the FHA domain of aprataxin (
+     <xref ref-type="bibr">
+      Caldecott, 2003
+     </xref>
+     ). Interestingly, iterative BLAST searches with the FHA domain of PNK identify a third member of this subfamily of FHA domains (MGC47799,
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). In order to test whether this FHA domain subfamily may display a unique mode of phosphopeptide recognition, we characterized the binding properties of the PNK FHA domain in more detail. First, we determined the dissociation constant for the interaction between purified PNK
+     <sup>
+      FHA
+     </sup>
+     and the T233P peptide using isothermal titration calorimetry (ITC;
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ) and fluorescence polarization (FP), using a fluorescein-labeled version of the T233P peptide (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). We obtained a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 4.1 μM using ITC and 4.2 μM by FP. A similar dissociation constant is also obtained when full-length recombinant PNK is used in ITC experiments (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 2.5 μM; Mark Glover, personal communication). The low micromolar affinity of the T233P peptide–PNK
+     <sup>
+      FHA
+     </sup>
+     interaction is within the range of dissociation constants calculated for other FHA-peptide-binding interactions (
+     <xref ref-type="bibr">
+      Durocher and Jackson, 2002
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       The PNK FHA domain demonstrates unique phosphopeptide-binding selectivity. (
+       <strong>
+        A
+       </strong>
+       ) Peptide-binding affinity determined by ITC. A representative ITC trace is shown outlining the binding of the T233P phosphopeptide to recombinant PNK
+       <sup>
+        FHA
+       </sup>
+       . (
+       <strong>
+        B
+       </strong>
+       ) PNK
+       <sup>
+        FHA
+       </sup>
+       binding to fluorescein-labeled 7816 peptide was quantitated by FP. The calculated dissociation constant is indicated. (
+       <strong>
+        C
+       </strong>
+       ) PNK
+       <sup>
+        FHA
+       </sup>
+       domain binding to a filter array of peptides. The PNK
+       <sup>
+        FHA
+       </sup>
+       domain was detected by immunoblotting with anti-GST antibody. The resulting consensus binding motif is indicated on the right column. ‘X' indicates no dominant selection, and letters enclosed in square brackets are specifically counter-selected. The left row indicates the amino acid that was substituted in the Xrcc4 peptide sequence and the top row indicates to which amino acid the residue was substituted for. (
+       <strong>
+        D, E
+       </strong>
+       ) PNK
+       <sup>
+        FHA
+       </sup>
+       binding to 7814 (D) or 7815 peptides (E) was quantitated by FP. A dissociation constant could not be calculated for the 7815 peptide.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To further characterize the binding specificity of the PNK FHA domain, we synthesized a peptide array based on the sequence encompassing Thr233 of Xrcc4 on a cellulose membrane, using a SPOT peptide synthesizer. We tested the ability of PNK
+     <sup>
+      FHA
+     </sup>
+     to interact with the peptide array using Southwestern blotting. As shown in
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , substitution of residues located C-terminal to the phosphothreonine does not, in large part, affect binding to PNK
+     <sup>
+      FHA
+     </sup>
+     . However, substitution at the -2 or -3 positions relative to pThr can only be tolerated by a few amino acids (Arg/Asp/Cys/Glu at -2, and Asn/Asp/Cys/Trp at -3), indicating that the binding selectivity of the PNK FHA domain resides N-terminal to the phosphothreonine residue. This result was unexpected given that every FHA domain characterized to date possesses major binding selectivity determinants C-terminal to the phosphothreonine (
+     <xref ref-type="bibr">
+      Durocher and Jackson, 2002
+     </xref>
+     ). To confirm this unique binding selectivity, we generated two additional fluorescein-labeled peptides (
+     <xref ref-type="fig">
+      Figure 4D and E
+     </xref>
+     ), designed to either disrupt or maintain PNK
+     <sup>
+      FHA
+     </sup>
+     binding, and examined the interactions using FP. As predicted from the peptide array data, the peptide containing alanine substitutions at the -2 and -3 positions abolished PNK
+     <sup>
+      FHA
+     </sup>
+     binding (
+     <xref ref-type="fig">
+      Figure 4E
+     </xref>
+     ). In contrast, substitution of five out of nine amino acids in the native Xrcc4 sequence for residues expected to maintain binding did in fact augment PNK
+     <sup>
+      FHA
+     </sup>
+     -binding affinity relative to the wild-type peptide (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 2.3 versus 4.2 μM, respectively;
+     <xref ref-type="fig">
+      Figure 4B and D
+     </xref>
+     ). These results are consistent with the notion that positions N-terminal to the phosphothreonine site, in particular the -2 and -3 positions, are important for determining PNK
+     <sup>
+      FHA
+     </sup>
+     -binding specificity. Therefore, among FHA domains, PNK
+     <sup>
+      FHA
+     </sup>
+     recognizes phosphopeptides with a unique mode of binding selectivity.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Xrcc4 Thr233 is a CK2 phosphorylation site
+    </title>
+    <p>
+     The amino-acid sequence surrounding Thr233 (Asp–Glu–Ser–Thr233–Asp–Glu–Glu) is highly acidic and suggests that Thr233 may be a target for acidophilic kinases. Indeed, analysis of the Xrcc4 sequence in Scansite (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) reveals that the sequence encompassing Thr233 conforms to a consensus CK2 phosphorylation site (along with Ser232). We therefore tested if the Xrcc4-derived peptide containing Thr233 (T233 peptide, and see above) could act as a substrate for CK2. As shown in
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , the T233 peptide is efficiently phosphorylated by recombinant CK2. As a control, we also assessed if the phosphorylated T233P peptide could act as a substrate for CK2.
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     shows that the T233P peptide is a much poorer substrate for recombinant CK2 relative to the T233 peptide. The residual phosphorylation of the phosphopeptide may be explained by some phosphorylation at the serine equivalent to Ser232 on Xrcc4, which also conforms to a CK2 consensus phosphorylation site.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       The Thr233 residue of Xrcc4 is phosphorylated by CK2. (
+       <strong>
+        A
+       </strong>
+       ) The T233 and T233P peptides were used in CK2 protein kinase assays. The histogram values represent the corrected means of at least two independent experiments done in duplicate or quadruplicate and the error bars represent standard deviations. (
+       <strong>
+        B
+       </strong>
+       ) Coomassie Blue staining of His-tagged Xrcc4
+       <sup>
+        WT
+       </sup>
+       or Xrcc4
+       <sup>
+        T233A
+       </sup>
+       proteins used in the kinase assay in (C). (
+       <strong>
+        C
+       </strong>
+       ) An amount of 1 μg of each recombinant protein shown in (B) was used in CK2 kinase assays. A typical experiment is shown. An autoradiograph is shown in the upper panel and normalized, relative phosphorylation values were determined using NIH image software. Input protein was assessed by GelCode staining. (
+       <strong>
+        D
+       </strong>
+       ) Recombinant Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       and Xrcc4
+       <sup>
+        250ΔT233A
+       </sup>
+       proteins phosphorylated (+) or not (−) by CK2 were incubated with PNK
+       <sup>
+        FHA
+       </sup>
+       in PD assays (top panel). Input from the kinase reactions was also assessed by anti-Xrcc4 immunoblotting (bottom panel).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, we assayed the ability of recombinant CK2 to phosphorylate recombinant Xrcc4. To do so, protein kinase assays were carried out with CK2 on recombinant Xrcc4 and Xrcc4
+     <sup>
+      T233A
+     </sup>
+     proteins (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). Wild-type Xrcc4 is efficiently phosphorylated by CK2, as illustrated by the incorporation of radiolabeled phosphate into Xrcc4, with a concomitant reduction in mobility on SDS–PAGE (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , bottom panel). By contrast, when Xrcc4
+     <sup>
+      T233A
+     </sup>
+     is used as a CK2 substrate, incorporation of radio-labeled phosphate is reduced by approximately three-fold, along with a less pronounced mobility shift compared to Xrcc4. Collectively, these results indicate that Thr233 can be a substrate for CK2 phosphorylation.
+    </p>
+    <p>
+     To determine if CK2-phosphorylated recombinant Xrcc4 can be efficiently bound by the PNK FHA domain, recombinant Xrcc4 proteins were phosphorylated by CK2
+     <em>
+      in vitro
+     </em>
+     , incubated with PNK
+     <sup>
+      FHA
+     </sup>
+     , and binding was assessed in PD assays.
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     reveals that only CK2-phosphorylated Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     binds efficiently to the PNK FHA domain. This finding contrasts to the severely impaired association of CK2-phosphorylated Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     with PNK
+     <sup>
+      FHA
+     </sup>
+     . These results strongly suggest that Xrcc4 can directly bind to PNK and that Thr233 phosphorylation is important for their association. Moreover, it indicates that CK2 can act as the kinase responsible for directing the Xrcc4–PNK interaction.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      In vivo
+     </em>
+     phosphorylation of Xrcc4 Thr233 is sensitive to CK2 inhibition
+    </title>
+    <p>
+     To determine whether Thr233 is phosphorylated
+     <em>
+      in vivo
+     </em>
+     , we immunoprecipitated Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     from stably transfected XR-1 cells and employed an anti-phosphothreonine (anti-pThr) antibody to probe the phosphorylation status of Thr233.
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     shows that the Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     protein is recognized by the anti-pThr antibody, whereas the Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     is not, strongly suggesting that the Thr233 residue is phosphorylated
+     <em>
+      in vivo
+     </em>
+     . In parallel, in order to assess whether CK2 is responsible for the observed anti-pThr reactivity, we treated cells with the highly selective CK2 inhibitor, 4,5,6,7-tetrabromo-2-azabenzamidazole (TBB;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and probed the phosphorylation status of Thr233 with the anti-pThr antibody. As shown in
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , TBB treatment of cells prior to cell extraction essentially abolishes the anti-pThr reactivity of Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     . Since the observed anti-pThr reactivity is dependent on the Thr233 residue, we conclude that Thr233 phosphorylation is dependent on CK2 activity.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Phosphorylation of Xrcc4 Thr233 is sensitive to CK2 inhibition
+       <em>
+        in vivo
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) XR-1 cells stably expressing Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       and Xrcc4
+       <sup>
+        250ΔT233A
+       </sup>
+       were incubated in the presence of 75 μM TBB or DMSO for 4 h. WCEs were then examined by anti-phosphothreonine (upper panels) or anti-Xrcc4 immunoblotting (lower panels). (
+       <strong>
+        B
+       </strong>
+       ) WCEs from the Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       XR-1 cell line treated as in (A) were mixed with PNK
+       <sup>
+        FHA
+       </sup>
+       in a PD assay, followed by immunoblotting with anti-V5 antibody (to detect V5-tagged Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       ) and anti-GST antibody. (
+       <strong>
+        C
+       </strong>
+       ) HEK293T cells transiently expressing V5-tagged PNK were treated with 75 μM TBB for 4 or 24 h, or DMSO as a control, harvested and the WCEs were immunoprecipitated with anti-V5 antibody. The WCEs and immunoprecipitates were then examined by anti-Xrcc4, anti-V5 (PNK) immunoblotting as indicated.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, we tested whether CK2 inhibition by TBB alters the ability of PNK to interact with Xrcc4. As shown in
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , the ability of the PNK
+     <sup>
+      FHA
+     </sup>
+     domain to interact with Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     is severely decreased when cells are treated with TBB prior to lysis. Furthermore, TBB treatment of HEK293T cells results in a decrease of greater than 50% in the amount of endogenous Xrcc4 immunoprecipitated by PNK, while the overall protein levels remained unchanged (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). Although our data do not exclude the possibility that other acidophilic kinases might also phosphorylate Xrcc4 at the Thr233 site, these results are in agreement with the notion that CK2 phosphorylates Xrcc4 at Thr233
+     <em>
+      in vivo
+     </em>
+     and thereby controls the Xrcc4–PNK interaction.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PNK stimulates end joining of 5′-hydroxyl ends by Xrcc4-DNA ligase IV
+    </title>
+    <p>
+     The PNK–Xrcc4 interaction suggests that Xrcc4 may recruit PNK to DSBs in order to facilitate processing of DNA termini with 5′-OH or 3′-phosphate ends. Recombinant Xrcc4 purified from insect cells is phosphorylated and can be readily bound by PNK
+     <sup>
+      FHA
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ), indicating that it can be used as a source of Xrcc4 to study the impact of the PNK–Xrcc4 interaction
+     <em>
+      in vitro
+     </em>
+     . We therefore tested whether PNK can stimulate the ligation of dephosphorylated, linearized plasmid DNA catalyzed by the Xrcc4–DNA ligase IV complex. As expected, the Xrcc4-DNA ligase IV complex alone is unable to ligate the dephosphorylated plasmid substrate (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). However, inclusion of PNK in the end-joining reaction efficiently stimulates Xrcc4-DNA ligase IV-mediated end joining of 5′-OH DNA termini, as measured by the generation of linear DNA multimers. To test whether this requirement for PNK is dependent on its FHA domain, we sought to compare PNK
+     <sup>
+      WT
+     </sup>
+     versus PNK
+     <sup>
+      R35A
+     </sup>
+     in the end-joining assay. As shown in
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     , PNK
+     <sup>
+      R35A
+     </sup>
+     , despite having robust 5′-DNA kinase activity (data not shown), only poorly stimulates end joining by Xrcc4–DNA ligase IV. Finally, we examined whether inhibiting the PNK–Xrcc4 interaction with the Xrcc4-derived peptides T233 and T233P would affect the outcome of the end-joining assay.
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     shows that increasing amounts of the T233P peptide, in contrast to the T233 peptide, impairs
+     <em>
+      in vitro
+     </em>
+     end joining, without affecting PNK 5′-kinase activity (
+     <xref ref-type="fig">
+      Figure 7E
+     </xref>
+     ). Collectively, these results indicate that the FHA- and phospho-dependent interaction between PNK and the Xrcc4–DNA ligase IV complex is important for efficient
+     <em>
+      in vitro
+     </em>
+     end joining of 5′-OH DNA termini.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       PNK stimulates the efficiency of end joining by Xrcc4-DNA ligase IV via an FHA- and phospho-dependent interaction with Xrcc4. (
+       <strong>
+        A
+       </strong>
+       ) Recombinant Xrcc4–DNA ligase IV complex purified from insect cells was assessed for its ability to interact with PNK
+       <sup>
+        FHA
+       </sup>
+       in PD assays. The interaction is dependent on the phosphorylation of the complex and the FHA domain of PNK. (
+       <strong>
+        B
+       </strong>
+       ) The effect of increasing amounts of PNK was examined in end joining assays using linearized, phosphatased DNA as a substrate and in the presence (+) and absence (−) of the Xrcc4-DNA ligase IV complex. (
+       <strong>
+        C
+       </strong>
+       ) Increasing amounts of PNK
+       <sup>
+        FHA
+       </sup>
+       or PNK
+       <sup>
+        FHA-R35A
+       </sup>
+       proteins were added to a constant amount of Xrcc4–DNA ligase IV complex in end joining assays, and analyzed as described in (B). (
+       <strong>
+        D
+       </strong>
+       ) End joining reactions were performed in the absence (−) or presence of increasing amounts (0.1, 1 and 10 μM final concentration) of the T233 and T233P peptides. Reaction products were visualized as above. (
+       <strong>
+        E
+       </strong>
+       ) Increasing amounts (0.1, 1, 10, 100 μM final concentration) of the T233 (lanes 3–6) and T233P peptides (lanes 7–10) were added in PNK 5′-DNA kinase assays and visualized by autoradiography. In lane 1 no PNK has been added, and in lane 2 the kinase reaction was performed in the absence of peptide.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Xrcc4–PNK interaction is required for optimal DSBR
+     <em>
+      in vivo
+     </em>
+    </title>
+    <p>
+     We next examined whether the PNK–Xrcc4 interaction is important for DNA end joining
+     <em>
+      in vivo
+     </em>
+     . To investigate this possibility, we assessed whether mutation of Thr233 in Xrcc4 leads to radiosensitivity in clonogenic survival assays. XR-1 cell lines were stably transfected with plasmids encoding for Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     (the C-terminal residues 250–334 of Xrcc4 are not required to complement the IR sensitivity of XR-1 cells;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     or with an empty vector control. The resulting cell lines were exposed to increasing doses of X-irradiation, plated at different dilutions and the number of viable colonies was counted 7 days later. As shown in
+     <xref ref-type="fig">
+      Figure 8A
+     </xref>
+     , a dose of 2 Gy results in a reduction in clonogenic survival of approximately 30% in cells expressing Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     compared to Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     . The observed decrease in clonogenic survival of the cells expressing Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     cannot be explained by differences in protein expression as the Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     and Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     proteins are expressed at similar levels in both cell lines and both proteins are predominantly nuclear (
+     <xref ref-type="fig">
+      Figure 8B and C
+     </xref>
+     ). This result therefore strongly suggests that Thr233 is important for mediating full resistance to X-irradiation.
+    </p>
+    <fig id="f8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <p>
+       Thr233 of Xrcc4 is required for DSB repair
+       <em>
+        in vivo
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) XR-1 cell lines stably expressing Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       , Xrcc4
+       <sup>
+        250ΔT233A
+       </sup>
+       and empty vector were treated with 2 Gy of X-irradiation and viability was assessed by clonogenic assays. The values represent at least three experiments carried out in triplicate and the data are presented as the percentage of surviving colonies compared to unirradiated controls. Error bars represent standard deviations. (
+       <strong>
+        B
+       </strong>
+       ) XR-1 cells (used in A) stably expressing empty vector, Xrcc4
+       <sup>
+        250Δ
+       </sup>
+       and Xrcc4
+       <sup>
+        250ΔT233A
+       </sup>
+       were examined with anti-V5 (Xrcc4) immunoblotting (upper panel). An anti-actin immunoblot was used as a protein-loading control (bottom panel). (
+       <strong>
+        C
+       </strong>
+       ) The cell lines in (A) were examined using indirect immunofluorescence, staining with anti-V5 antibody and DAPI. (
+       <strong>
+        D
+       </strong>
+       ) The cell lines in (A) were exposed to 2 Gy of X-rays, and examined for γ-H2AX foci formation at different time points using fluorescence microscopy. Each data point represents the mean of four independent readings from two independent experiments. Error bars represent standard deviations. (
+       <strong>
+        E
+       </strong>
+       ) Apoptosis in the cell lines from (A) and the lymphoid BaF3 line was assessed 8 h following 0 or 2 Gy of X-rays. Formation of the 89 kDa PARP apoptotic cleavage fragment (
+       <sup>
+        *
+       </sup>
+       ) was detected by anti-PARP immunoblotting (top panel). The WCEs were also examined by anti-V5 (Xrcc4) immunoblotting (bottom panel).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To test whether the increased radiosensitivity of Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     -expressing cells is correlated with a defect in DSBR, we monitored the kinetics of irradiation-induced DSBs by γ-H2AX immunofluorescence. XR-1 cell lines stably transfected with Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     , Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     or vector control were irradiated with 2 Gy of X-rays, and the presence of γ-H2AX foci was assessed by immunofluorescence at different time points (
+     <xref ref-type="fig">
+      Figure 8D
+     </xref>
+     ). As shown in
+     <xref ref-type="fig">
+      Figure 8D
+     </xref>
+     , the initial appearance of γ-H2AX foci-positive cells was similar between the tested cell lines up to 4 h post-irradiation. However, at 8 h post-irradiation, we noted a difference in the percentage of foci-positive cells (
+     <xref ref-type="fig">
+      Figure 8D
+     </xref>
+     ). Specifically, when compared to cells expressing Xrcc4
+     <sup>
+      250Δ
+     </sup>
+     , Xrcc4
+     <sup>
+      250ΔT233A
+     </sup>
+     -expressing cells demonstrated a persistence of γ-H2AX foci. Notably, this difference was not attributable to an increase in apoptosis, as judged by PARP cleavage (
+     <xref ref-type="fig">
+      Figure 8E
+     </xref>
+     ). These results suggest that the presence of the Xrcc4 Thr233 residue impacts on the kinetics of DSBR and are consistent with the Xrcc4–PNK interaction being important for DSBR
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <sec>
+    <title>
+     A PNK–Xrcc4–DNA ligase IV complex
+    </title>
+    <p>
+     As a means to understanding the role of phosphorylation-dependent interactions imparted by the PNK FHA domain in DNA repair, we employed a proteomic strategy to identify proteins and pathways that physically interact with PNK. In this study, we report the characterization of a physical and functional interaction between PNK and the NHEJ factor Xrcc4, in human cells. This interaction occurs via the FHA domain of PNK and an epitope on Xrcc4 comprising the phosphorylated Thr233 residue. In addition, DNA ligase IV is found in PNK immunoprecipitates, indicating that a tripartite complex consisting of Xrcc4, PNK and DNA ligase IV exists in human cells. Our results indicate that Xrcc4 bridges the PNK–DNA ligase IV interaction, but we cannot exclude the possibility that Xrcc4 and PNK can associate independently of DNA ligase IV under certain conditions. Indeed, it has been recently shown that the Xrcc4–DNA ligase IV complex is in equilibrium with a tetrameric form of Xrcc4 that excludes DNA ligase IV (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Whether PNK can bind to Xrcc4 tetramers remains to be tested.
+    </p>
+    <p>
+     The elegant studies of
+     <xref ref-type="bibr">
+      None
+     </xref>
+     first identified a role for PNK in NHEJ
+     <em>
+      in vitro
+     </em>
+     . Our work supports their findings and describes the mechanism by which PNK acts during NHEJ. The phospho-dependent Xrcc4–PNK interaction is functionally important for NHEJ since its disruption reduces the efficiency of DNA ligase IV-dependent end joining of plasmids with 5′-OH termini (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ). The possible additional role of PNK in the stimulation of
+     <em>
+      in vitro
+     </em>
+     end joining of 5′-phosphorylated or 3′-OH termini, not expected to require PNK activity, is intriguing (
+     <a>
+      Supplementary Figure 3
+     </a>
+     ). Given that PNK possesses DNA-binding activity, it is possible that PNK may assist in recruiting Xrcc4-DNA ligase IV to DNA ends. However, since deletion of the PNK-interacting site (Thr233) does not affect V(D)J recombination (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), this activity may only play a minor role in the function of the Xrcc4-DNA ligase IV complex on 5′-phosphorylated ends.
+    </p>
+    <p>
+     Interestingly, whereas the first 200 amino-acid residues of Xrcc4 have been described to be sufficient for its interaction with DNA ligase IV and complementation of the V(D)J recombination defects in CHO-derived
+     <em>
+      Xrcc4
+     </em>
+     -deficient cells (XR-1 cells;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), this region of Xrcc4 exhibits an approximate 20% reduction in radioresistance compared to wild-type Xrcc4 in XR-1 cells with 2 Gy of IR (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). By contrast, deletion of Xrcc4 residues 250–334 does not impact IR sensitivity in this system (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). These observations suggest that the Xrcc4–DNA ligase IV interaction does not account for all the activities of Xrcc4 and that a putative additional activity may lie between amino acids residues 200–250. Our results (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ) are consistent with these observations and suggest that the PNK–Xrcc4 interaction is required for NHEJ
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     A role for basal Xrcc4 phosphorylation in NHEJ
+    </title>
+    <p>
+     In human cells, Xrcc4 exists as a phosphoprotein whether or not cells have experienced DNA damage. The role of this ‘basal' post-translational modification has remained, until now, unclear. Based on the observation that Xrcc4 can act as an efficient substrate for DNA-PK (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), most studies have focused on the impact of DNA-PK-mediated phosphorylation on Xrcc4 function (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). However, DNA-PK-dependent phosphorylation of Xrcc4 does not appear to play a role in mediating resistance to IR or V(D)J recombination (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), and the modest DNA-PK-dependent phosphorylation of Xrcc4 observed
+     <em>
+      in vivo
+     </em>
+     is only seen when cells are treated with doses approaching 100 Gy (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). We have also observed that pretreatment of HEK293T cells with wortmannin does not affect the Xrcc4–PNK interaction, and the interaction is still detected in DNA-PK-deficient cells (
+     <a>
+      Supplementary Figure 4
+     </a>
+     ). Although these observations indicate that Xrcc4 must be phosphorylated by kinases other than DNA-PK to mediate the FHA-dependent interaction with PNK, they do not exclude a role for DNA-PK in regulating some aspects of Xrcc4 function, such as its DNA-binding activity (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Our data are consistent with a role for CK2 in phosphorylating Xrcc4 based on the following observations: (i) the Thr233 residue of Xrcc4 is part of a consensus CK2 site, (ii) Thr233 can be efficiently phosphorylated by CK2
+     <em>
+      in vitro
+     </em>
+     , (iii) CK2-phosphorylated Xrcc4 can be bound directly by PNK, (iv) Thr233 is phosphorylated
+     <em>
+      in vivo
+     </em>
+     as measured by anti-phosphothreonine immunoreactivity, (v) the anti-phosphothreonine immunoreactivity imparted by Thr233 is sensitive to the highly specific CK2 inhibitor TBB, and (vi) treatment of cells with TBB strikingly decreases the PNK–Xrcc4 interaction as measured by co-immunoprecipitations and PD assays. Therefore, given the functional requirement of the Xrcc4–PNK interaction for the repair of a subset of DSBs, our results suggest that CK2 phosphorylation of Xrcc4 plays a role in NHEJ. Interestingly, CK2 has been described as a constitutively active enzyme (
+     <xref ref-type="bibr">
+      Pinna, 2002
+     </xref>
+     ) that may explain, at least in part, how basal phosphorylation of Xrcc4 is accomplished. Constitutive phosphorylation of Xrcc4 by CK2 is consistent with our observation that the PNK–Xrcc4–DNA ligase IV complex exists under undamaged conditions. Interestingly, a remarkably similar mechanism of interaction between Xrcc1 and PNK has been recently described, suggesting that the SSBR protein Xrcc1 may be constitutively phosphorylated by CK2 as well and that phosphorylated Xrcc1 complexes with PNK under undamaged conditions (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Based on our observations, we suggest that the PNK–Xrcc4–DNA ligase IV complex may be pre-formed, rather than sequentially assembled, and that other signals or protein activities are required to direct this complex to DSBs.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The PNK FHA domain has a novel mode of phosphopeptide recognition
+    </title>
+    <p>
+     The FHA domain is an ancient signal transduction module that recognizes linear phosphothreonine epitopes on proteins (
+     <xref ref-type="bibr">
+      Durocher and Jackson, 2002
+     </xref>
+     ). The PNK FHA domain is a divergent member of this family (
+     <xref ref-type="bibr">
+      Caldecott, 2003
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1
+     </a>
+     ) and is not readily identified as an FHA domain by common domain recognition algorithms. Thus, a goal of this study was to uncover if the apparent divergence in sequence impacted on the way PNK recognizes phosphopeptides. Remarkably, and in contrast to other FHA domains, sequences N-terminal to the phosphorylated threonine residue are important determinants for PNK FHA binding, demonstrating flexibility in FHA domain sequence recognition. The capacity to recognize residues either N- or C-terminal of the phosphoresidue appears to be a novel feature of the FHA domain not shared by other phosphopeptide-binding domains such as the SH2 or the PTB domains (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The structural basis for this selectivity may be due to the way the phosphopeptide sits atop the loops connecting the β strands of the FHA domain (
+     <xref ref-type="bibr">
+      Durocher and Jackson, 2002
+     </xref>
+     ). An immediate implication of this study is that FHA domains may recognize a wider repertoire of phosphothreonine sequences than previously anticipated. It will be informative to determine the three-dimensional structure of the PNK FHA domain complexed to an optimal phosphopeptide in order to understand the basis of this selectivity.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Xrcc4 and Xrcc1 as DNA repair scaffolds linking DNA end processing to DNA ligation
+    </title>
+    <p>
+     Since its discovery in 1995 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), the exact role of Xrcc4 in NHEJ has remained poorly understood. Xrcc4 does not appear to have any catalytic activity, but Xrcc4 was found to bind, stabilize and stimulate DNA ligase IV (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Furthermore, Xrcc4 is able to bind DNA and to recruit DNA ligase IV to DNA
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). These results suggest that Xrcc4 recruits DNA ligase IV to DSBs, a model supported by chromatin-immunoprecipitation studies on the budding yeast homolog of Xrcc4, Lif1 (
+     <xref ref-type="bibr">
+      Teo and Jackson, 2000
+     </xref>
+     ). Based on our observation that Xrcc4 controls the formation of a tripartite complex consisting of Xrcc4, DNA ligase IV and PNK, we propose that Xrcc4 acts as an NHEJ scaffold, targeting PNK and DNA ligase IV to DSBs, and thereby physically linking the enzymatic reactions of DNA end processing and DNA ligation.
+    </p>
+    <p>
+     Scaffolds are a common theme in signal transduction pathways, where they alter signaling by physically ordering catalytic steps or by controlling subcellular colocalization of signaling components (
+     <xref ref-type="bibr">
+      Burack and Shaw, 2000
+     </xref>
+     ). We propose that Xrcc4 acts in a fashion analogous to signal transduction scaffolds, where it could function to recruit PNK and DNA ligase IV to DSBs and/or ensure that the DNA end processing activities of PNK are physically linked to the DNA ligase activity of DNA ligase IV. The coordination of these catalytic steps by Xrcc4 may be important for reasons other than simply increasing the rate of NHEJ. For example, one can envision that linking end processing to DNA ligation may promote more accurate and less mutagenic repair.
+    </p>
+    <p>
+     The complex assembled by Xrcc4 is remarkably analogous to the Xrcc1-dependent protein complex assembled during SSBR. Xrcc4 and Xrcc1 both interact with a DNA ligase (DNA ligase IV and DNA ligase III, respectively) and also interact with at least one common factor, PNK. The human tyrosyl-DNA phosphodiesterase Tdp1 has been shown to process DSBs bearing 3′-phosphoglycolates (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and also interacts with Xrcc1 to repair camptothecin-induced SSBs (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Therefore, it is reasonable to predict that Tdp1 may also play a role in NHEJ and it will be interesting to test whether Tdp1 can interact with Xrcc4. Interestingly, the parallels seen between these two repair complexes also seem to extend to their modes of regulation. In particular, our preliminary results have defined three putative CK2 threonine phosphorylation sites in Xrcc1 that appear to play a critical role in regulating the FHA-dependent PNK–Xrcc1 interaction, extending the work of Loizou
+     <em>
+      et al
+     </em>
+     (
+     <a>
+      Supplementary Figure 2
+     </a>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Therefore, the physical linking of DNA end processing to DNA ligation appears to be a common theme of both SSBR and DSBR in metazoans.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <p>
+    Detailed description of Molecular Biology, Peptides and Mass Spectrometry methods can be found in the
+    <a>
+     Supplementary data
+    </a>
+    .
+   </p>
+   <sec>
+    <title>
+     Expression and purification of fusion proteins
+    </title>
+    <p>
+     PNK and Xrcc4 recombinant proteins were produced in
+     <em>
+      Escherichia coli
+     </em>
+     BL21(DE3)/pLysS (Novagen), according to the manufacturer's protocol. See
+     <a>
+      Supplementary Methods
+     </a>
+     for more detailed information.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture
+    </title>
+    <p>
+     All cell lines were grown at 37°C in a humidified atmosphere containing 5% CO
+     <sub>
+      2
+     </sub>
+     . HEK293T cells were grown in Dulbecco's modified Eagle medium supplemented with 10% fetal bovine serum (FBS) and 50 U of penicillin and 50 μg of streptomycin antibiotics per ml. The
+     <em>
+      Xrcc4
+     </em>
+     -deficient Chinese hamster ovary (CHO) cell line, XR-1 (Coriell Cell Repositories), was grown in F-12 media supplemented with 5% FBS and antibiotics. The murine pre-B cell line BaF3 was grown in RPMI containing 10% FBS and 5% WEHI-3 conditioned media.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <p>
+     Supplementary Methods
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (135K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Figures
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (85K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Data
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (128K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

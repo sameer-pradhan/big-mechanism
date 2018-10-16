@@ -1,0 +1,1407 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2735178
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structure and function of a novel endonuclease acting on branched DNA substrates
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     We show that
+     <em>
+      Pyrococcus abyssi
+     </em>
+     PAB2263 (dubbed NucS (
+     <span>
+      nuc
+     </span>
+     lease for
+     <span>
+      s
+     </span>
+     s DNA) is a novel archaeal endonuclease that interacts with the replication clamp PCNA. Structural determination of
+     <em>
+      P. abyssi
+     </em>
+     NucS revealed a two-domain dumbbell-like structure that in overall does not resemble any known protein structure. Biochemical and structural studies indicate that NucS orthologues use a non-catalytic ssDNA-binding domain to regulate the cleavage activity at another site, thus resulting into the specific cleavage at double-stranded DNA (dsDNA)/ssDNA junctions on branched DNA substrates. Both 3′ and 5′ extremities of the ssDNA can be cleaved at the nuclease channel that is too narrow to accommodate duplex DNA. Altogether, our data suggest that NucS proteins constitute a new family of structure-specific DNA endonucleases that are widely distributed in archaea and in bacteria, including
+     <em>
+      Mycobacterium tuberculosis
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     branched DNA structures, DNA repair, novel endonuclease, RecB family, structure–function studies
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Branched DNA structures are created either by DNA damage or occur as intermediates during DNA replication, repair and recombination. To restore the genomic integrity, these DNA structures must be resolved and processed by specialized enzymes. In human cells, XPF-family endonucleases are key enzymes participating in processing of these anomalous DNA structures. These nucleases are often formed by an amino-terminal helicase domain that is fused to the ERCC4 nuclease domain. Strikingly, at least six different XPF-family members can be found in human cells (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Among these, Mus81 and XPF are active endonucleases that preferentially act on branched DNA substrates, whereas the ERCC4 nuclease domains in EME1 and 2, FAAP24, ERCC1 and FANCM are predicted to be inactive. Eukaryotic XPF and Mus81 endonucleases form heterodimers with ERCC1 and Eme1/2, respectively (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Although being evolutionarily related, Mus81 and XPF have different substrate specificities. For instance, Mus81 cleaves the 3′-flap structures that could occur downstream of replication-fork collapse and XPF cleaves the simple Y-forks containing unpaired 5′ and 3′ regions (‘splayed arm') and stem-loop substrates. Recent studies have broadened the substrate specificity of the Mus81 complex to splayed-arm (Y-forks) substrates as well as 3′ and 5′ flaps (
+    <xref ref-type="bibr">
+     Ehmsen and Heyer, 2008
+    </xref>
+    ). FANCM is a key component of the Fancomi anemia core complex, indicating a functional role in repair of DNA cross-links. Recent studies have showed that human FANCM interacts with FAAP24 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and binds various branched DNA molecules (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Human FAAP24/FANCM complex does not seem to function as a nuclease, but can promote branch migration of Holliday junctions and replication forks. These observations indicate that these numerous-related proteins have evolved to counteract a variety of DNA damages.
+   </p>
+   <p>
+    The archaeal
+    <em>
+     Pyrococcus
+    </em>
+    and
+    <em>
+     Sulfolobus
+    </em>
+    species contain only one member of XPF-endonuclease family that
+    <em>
+     a priori
+    </em>
+    could correspond to the ancestor of eukaryotic XPF-family members. These proteins are very stable and provide an excellent model for understanding structure–function relationships of XPF-family members.
+    <em>
+     P. furiosus
+    </em>
+    XPF homologue, dubbed Hef (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005b
+    </xref>
+    ), contains active helicase and nuclease domains that are related to human FANCM protein (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The nuclease domain of
+    <em>
+     P. furiosus
+    </em>
+    Hef is active but, differently from eukaryotic XPF/ERCC1 complex, it does not cleave splayed-arm substrates (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The substrate specificity of this archaeal protein is thus distinct from eukaryotic XPF proteins. On the other hand, activity profile of
+    <em>
+     Sulfolobus
+    </em>
+    species XPF shares similarities both with the eukaryotic Mus81 and XPF (
+    <xref ref-type="bibr">
+     Roberts and White, 2005
+    </xref>
+    ). However, the nuclease domain of
+    <em>
+     Sulfobus
+    </em>
+    XPF is not fused to the helicase domain, but its activity is strictly regulated by the replication clamp (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). An additional difference with heterodimeric eukaryotic XPF-family members is that archaeal proteins function as homodimers in their cellular context (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Structural studies have indicated that a nuclease domain of XPF-family members is followed by two consecutive DNA-binding helix-hairpin-helix motifs. DNA binding often requires conformational adjustment between different domains (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Clearly, many functionally distinct, but structurally related structure-specific nucleases have evolved for processing branched DNA substrates. To understand the molecular basis for the cleavage specificity of structure-specific DNA endonucleases and their chromatin loading requires further experimental attention.
+   </p>
+   <p>
+    Experimental observations indicating that
+    <em>
+     Pyrococcus
+    </em>
+    Hef does not cleave splayed-arm substrates containing unpaired 3′ and 5′ extremities raised a possibility that additional structure-specific endonucleases specifically acting on ssDNA extremities exist in
+    <em>
+     Pyrococcus
+    </em>
+    species (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). This possibility was further favoured by the observation that the damage recognition proteins XPA and XPC have not been identified in archaeal genomes (
+    <xref ref-type="bibr">
+     Kelman and White, 2005
+    </xref>
+    ), suggesting that detection of DNA damage could be mediated by detecting single-stranded DNA (ssDNA) carried by branched DNA replication/repair intermediates (
+    <xref ref-type="bibr">
+     Cubeddu and White, 2005
+    </xref>
+    ). We show here that an earlier uncharacterized member of RecB-family nuclease
+    <em>
+     Pyrococcus abyssi
+    </em>
+    PAB2263 cleaves single-stranded regions in branched DNA structures.
+    <em>
+     In silico
+    </em>
+    observations and biochemical studies proposed that NucS orthologues of hyperthermophilic archaea may participate in processing of branched DNA structures. Crystallographic studies revealed that
+    <em>
+     P. abyssi
+    </em>
+    NucS possesses unique structural features for the binding and processing of the exposed single-stranded regions of the different types of branched DNA substrates. Unexpectedly, sequence similarity searches revealed that, in addition to archaea, several bacteria, including
+    <em>
+     Mycobacterium tuberculosis
+    </em>
+    , contain the NucS orthologue.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     <strong>
+      Pyrococcus abyssi
+     </strong>
+     NucS (PAB2263) interacts with the replication clamp
+    </title>
+    <p>
+     Using a combination of motif searches and combinatorial peptide synthesis, we have recently shown that the short peptide corresponding to 12 carboxy-terminal amino-acid residues of the
+     <em>
+      P. abyssi
+     </em>
+     NucS (indicated ‘PIP' in the
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) binds strongly to the homotrimeric replication clamp of this organism (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+     <em>
+      Pyrococcus
+     </em>
+     species NucS is encoded nearby the evolutionary conserved replication origin (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), and genome sequence of
+     <em>
+      Thermococcus kodakarensis
+     </em>
+     KOD1_4 has indicated that the NucS orthologue is translationally coupled with RadA recombinase (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Biochemical characterization of
+       <em>
+        P. abyssi
+       </em>
+       NucS (PAB2263). (
+       <strong>
+        A
+       </strong>
+       ) The domain structure of the
+       <em>
+        P. abyssi
+       </em>
+       NucS protein. The conserved residues of the RecB-family nucleases are shown. Note also that protein contains the putative PCNA interacting peptide (PIP) at its extreme carboxy-terminus. In addition, the genomic organization of the
+       <em>
+        P. abyssi
+       </em>
+       (
+       <em>
+        Pab
+       </em>
+       ) NucS in the vicinity of the replication origin (
+       <em>
+        oriC
+       </em>
+       ) and a likely translational coupling of
+       <em>
+        Thermococcus kodakarensis
+       </em>
+       KOD1_4 (Tkod) NucS with the RadA recombinase are shown below the dotted line. (
+       <strong>
+        B
+       </strong>
+       ) The proteins used in this study: 1 μg of
+       <em>
+        P. abyssi
+       </em>
+       NucS wild-type and mutant proteins were separated on 11% SDS–PAGE. (
+       <strong>
+        C
+       </strong>
+       ) SPR experiment on the PCNA chip. Indicated amounts of
+       <em>
+        P. abyssi
+       </em>
+       NucS were injected at time 0 over the PCNA chip. All data are indicated in resonance units (RU) as a function of time. The background resulting from the buffer injection was subtracted from the observed signals. The inset shows the pull-down experiment using
+       <em>
+        P. abyssi
+       </em>
+       NucS (PAB2263) attached into magnetic beads. Western blot analysis of PCNA using antibody raised against
+       <em>
+        P. abyssi
+       </em>
+       PCNA is shown. (
+       <strong>
+        D
+       </strong>
+       ) Dynamic light scattering
+       <em>
+        experiment
+       </em>
+       of
+       <em>
+        P. abyssi
+       </em>
+       NucS (1 mg/ml) with and without a single-stranded oligonucleotide. Mean particle diameters 12.5 and 7.5 nm were observed with and without single-stranded oligonucleotide, respectively. (
+       <strong>
+        E
+       </strong>
+       ) Sucrose gradient centrifugation analysis of the
+       <em>
+        P. abyssi
+       </em>
+       NucS; 1 mg of protein was loaded on the top of 5–20% sucrose gradient in 300 mM NaCl (pH 8). Gradients indicate that the
+       <em>
+        P. abyssi
+       </em>
+       NucS co-sediments with BSA (66 kDa).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Preliminary activity measurements indicated that NucS proteins posses a potent nuclease activity specific for ssDNA (data not shown, see also Figure 5). We thus refer to this protein as
+     <em>
+      P. abyssi
+     </em>
+     NucS (
+     <span>
+      nuc
+     </span>
+     lease specific for
+     <span>
+      s
+     </span>
+     sDNA).
+     <em>
+      P. abyssi
+     </em>
+     NucS (and other representatives of DUF91 family) contains the carboxy-terminal domain that carries the characteristic residues for the ‘RecB'-family nucleases that are found in a variety of endonucleases and DNA repair enzymes (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). The related nuclease domain can also be found in a large number of additional bacterial, archaeal and viral proteins without the known function (see
+     <a>
+      Supplementary Table 1
+     </a>
+     ). To study
+     <em>
+      in vitro
+     </em>
+     formation of the NucS–PCNA complex, we used surface plasmon resonance (SPR). First, NucS carrying a six-histidine tag at the N-terminus was produced for SPR measurements and purified to &gt;99% homogeneity using Ni-NTA agarose and gel filtration chromatography (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). SPR measurements with immobilized homotrimeric PCNA were performed to analyse the physical interactions of
+     <em>
+      P. abyssi
+     </em>
+     NucS with PCNA (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). A
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of 15 nM, which reflects strong binding, was estimated for this interaction through global fitting analysis, accounting for both association and dissociation phases using a 1:1 interaction model. The high affinity for the observed interaction
+     <em>
+      in vitro
+     </em>
+     also explains why the NucS–PCNA complex can be readily detected using the pull-down experiments and western blotting analyses in
+     <em>
+      P. abyssi
+     </em>
+     cell-free extracts (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , inset).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <strong>
+      P. abyssi
+     </strong>
+     NucS co-precipitates with PAB0190 (Hef) in cell-free extracts
+    </title>
+    <p>
+     We attempted to identify the additional interaction partners for
+     <em>
+      P. abyssi
+     </em>
+     NucS (or a stable NucS–PCNA complex) in cell-free extracts. Pull-down experiments were initiated by incubating 20 μg of hexa-histidine tagged bait protein bound to Co
+     <sup>
+      2+
+     </sup>
+     magnetic microbeads with the cell-free extracts prepared from the exponentially grown cultures. After extensive washes, proteins bound to the bait protein were eluted in SDS sample buffer, followed by 12% SDS–PAGE separation and Coomassie blue staining.
+     <a>
+      Supplementary Figure S1
+     </a>
+     shows the SDS–PAGE image of the proteins specifically interacting with
+     <em>
+      P. abyssi
+     </em>
+     NucS, revealing several candidate proteins that directly or indirectly interact with the bait protein. Notably, these proteins were absent from the negative control reaction (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ) and pull-down experiments performed with additional DNA interacting proteins (data not shown). The seven major protein bands were excised from the gel and subjected to in-gel tryptic digestion. The obtained peptides were extracted from the gel and analysed, leading to identification of nine proteins that co-precipitated with NucS and/or a highly stable (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =15 nM) NucS–PCNA complex (indicated
+     <em>
+      a
+     </em>
+     through
+     <em>
+      i
+     </em>
+     (note that some bands corresponded to two individual proteins)). The following proteins were identified in this experiment: Hef (PAB0190), PCNA (confirming the above results shown in
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ), small and large subunit of the replication factor C (the clamp loader) and two subunits of topoisomerase VI.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The two-domain subunit structure of NucS
+    </title>
+    <p>
+     To reveal the structural basis for its enzymatic activity, we determined the crystal structure of
+     <em>
+      P. abyssi
+     </em>
+     NucS. Each subunit of this protein clearly displays a dumbbell-like two-domain structure. The N- and C-terminal domains are separated from each other by a distance of about 28 Å and connected by a stretched polypeptide linker, consisting of residues 115–125 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). Neither the subunit as a whole nor any of the domains displays structural similarities to functionally characterized flap endonucleases.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       The structure of
+       <em>
+        P. abyssi
+       </em>
+       NucS. (
+       <strong>
+        A
+       </strong>
+       ) The dumbbell-like two-domain structure of PAB2263 subunit. A water molecule at the C-terminal nuclease active site is shown as a ball. (
+       <strong>
+        B
+       </strong>
+       ) The β-barrel structure of the N-terminal domain with a half-closed bottom of one side and gathered loops on the opposite side that form a shaped ssDNA-binding site. (
+       <strong>
+        C
+       </strong>
+       ) Superposition of the NucS C-terminal domain and
+       <em>
+        E. coli
+       </em>
+       RecB nuclease domain, which are coloured in light brown and blue, respectively. The bound magnesium ion in RecB and a water molecule in NucS at the active sites are shown as balls. (
+       <strong>
+        D
+       </strong>
+       ) The assembly of dimer and tetramer in the crystal because of crystallographic contacts. Each subunit chain is coloured differently to illustrate domain swapping. The side chains of the conserved W75 and nearby basic residues are shown. R42 sticks out from dimer surface into the elliptical hole of the tetramer. All structural images in this publication were created by the program Pymol (DeLano, WL 2002. The PyMOL Molecular Graphics System,
+       <a>
+        http://www.pymol.org
+       </a>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The N-terminal domain (residues 1–114) basically has a unique half-closed β-barrel structure (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). Eight β-strands form two anti-parallel β-sheets that are packed orthogonally onto each other, generating two layers of anti-parallel β-sheets: the six-stranded sheet β1β8β2β3β4β5 and the five-stranded sheet β6β7β8β2β3. In the middle of the β-barrel, there are three long β-strands (β8, β2, β3) that fold over and span into both sheets to constitute the backbones of the β-barrel. Their curved turns form a closed bottom of the barrel on one side. The other five β-strands and helix α1 are distributed equally in the two layers of the β-barrel surrounding the three long strands. Loops connecting the β-strands gather on one side of the β-barrel opposite to the closed bottom. Although structural comparison did not reveal any apparent similar folds in the Protein Data Bank, the N-terminal β-barrel can be viewed remotely analogous to the Sm-fold of the eukaryotic RNA-binding domain of small nuclear ribonucleoproteins (Sm proteins) and the OB-fold of ssDNA-binding proteins (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ; see also
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). Proteins in these two families also form a β-barrel or barrel-like structure, but with a smaller scaffold consisting of one helix and five strands arranged in different topological placements.
+    </p>
+    <p>
+     The C-terminal domain of
+     <em>
+      P. abyssi
+     </em>
+     NucS (residues 126–233) possesses an α/β structure with a five-stranded central β-sheet and four flanking α-helices (
+     <xref ref-type="fig">
+      Figure 2A and C
+     </xref>
+     ), representing a minimal-endonuclease fold (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The C-terminal domain hosts an active site with a sequence motif conserved in the family of RecB-like nucleases (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), although the size of the C-terminal domain (108 residues) is much smaller than that of the
+     <em>
+      Escherichia coli
+     </em>
+     RecB nuclease domain (108 residues versus 274 residues) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Structural alignment of their cores gives a root-mean-square deviation of 3.2 Å for 82 Cα atoms (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Oligomerization of
+     <strong>
+      P. abyssi
+     </strong>
+     NucS in the crystal
+    </title>
+    <p>
+     The dumbbell-like subunit structure of NucS has a large hydrophobic patch exposed on the six-stranded N-terminal β-sheet. By domain swapping, the subunits assemble to form a dimer that constitutes the asymmetric unit. The dimer displays a crescent shape and the four domains of the two subunits are arranged in the order of C
+     <sub>
+      1
+     </sub>
+     N
+     <sub>
+      2
+     </sub>
+     N
+     <sub>
+      1
+     </sub>
+     C
+     <sub>
+      2
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). On dimer formation, the hydrophobic patches are buried to form a large hydrophobic core in the middle between the two N-terminal β-barrels, resulting in the formation of an interface β-barrel because of the back-to-back packing of the two six-stranded sheets. From the structural point of view, dimer formation seems critical for the folding and stabilization of the NucS structure. The crystal NucS dimers further aggregate to form tetramers because of crystallographic two-fold symmetry. However, although the formation of dimer from monomer results in a buried accessible surface area of 2880 Å
+     <sup>
+      2
+     </sup>
+     for each subunit (20% of the surface area of the subunit), tetramer formation only buries 424 Å
+     <sup>
+      2
+     </sup>
+     more for each subunit (which is about 3% of the subunit surface area), indicative of a weak inter-dimer association that may result from crystal contacts.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     DNA induced oligomerization in solution
+    </title>
+    <p>
+     To investigate the properties of
+     <em>
+      P. abyssi
+     </em>
+     NucS in solution, we performed dynamic light scattering and sucrose gradient centrifugation experiments. The predicted molecular weights of the
+     <em>
+      P. abyssi
+     </em>
+     NucS dimer and tetramer are 60 and 120 kDa, respectively.
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     indicates that in 600 mM NaCl, pH 8.0, the mean diameter of NucS protein in solution is approximately 7.5 nm, which corresponds to an approximate molecule weight of 59–63 kDa. In agreement with this observation,
+     <em>
+      P. abyssi
+     </em>
+     NucS co-sediments with bovine serum albumin (BSA) (66 kDa) in 5–20% sucrose gradients (300 mM NaCl, pH 8 (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     )), also indicating dimeric solution structure. However, when a single-stranded oligonucleotide (87-mer (30 kDa), molar protein monomer: oligonucleotide ratio 4:1) was combined with the protein sample, the particle size significantly increased to a value of 12.5 nm.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Identification of a putative ssDNA binding and the nuclease active site
+    </title>
+    <p>
+     On the concave surface of the dimer exists a groove that is enclosed by the loops gathering on one side of the N-terminal β-barrel (
+     <xref ref-type="fig">
+      Figures 2B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Structural comparison (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ) raised a possibility that this groove is equivalent to the single-stranded nucleic acid-binding sites found in OB-/Sm-family proteins. This potential ssDNA-binding site (site I) was verified by our mutagenesis studies (see below). On one side of the groove, a conserved tryptophane residue, W75, and residues 68–71 form a surface protrusion close to the dimer interface (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). Two such neighbouring protrusions separate the two site I clefts related by the non-crystallographic two-fold axis. The bottom surface of site I is essentially hydrophobic and is surrounded by more than a dozen charged residues, notably among which are two clusters of basic residues that consist of K68, K69, R70 and R93, R94, R95, respectively. They are located on different sides of the cleft (
+     <xref ref-type="fig">
+      Figure 3A and B
+     </xref>
+     ). R42 sticks out from the surface and is conserved in all NucS sequences (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). It resides on the side neighbouring R93-R95. The surface of the cleft is, therefore, rather basic (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). The site I cleft has a length of about 33 Å with a depth of 9 Å and a width of 13 Å, appropriately sized to accommodate ssDNA. It is plausible that on the binding of ssDNA, the phosphate backbone would form charged interactions or hydrogen bonds with the basic residues, whereas the DNA bases forge hydrophobic interactions and hydrogen bonds with the residues constituting the bottom and side surface of the cleft. The side chains of aromatic residues Y39 and W75 that participate in the formation of the walls of site I are ideally orientated and may form stacking interactions with DNA bases (
+     <xref ref-type="fig">
+      Figure 3A and C
+     </xref>
+     ). The aromatic rings of these two residues roughly face each other from the two sides of the cleft and both point outwards from the surface.
+     <a>
+      Supplementary Figure S4A
+     </a>
+     shows the electron densities at this region. The residues Y39 and W75 of
+     <em>
+      P. abyssi
+     </em>
+     NucS are evolutionary conserved (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ), indicating their functional importance.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The ssDNA-binding sites. (
+       <strong>
+        A
+       </strong>
+       ) Two different ssDNA-binding sites (site I and II) are formed in the dimer. The basic residues surrounding the binding sites and a water molecule at the nuclease active sites are displayed. (
+       <strong>
+        B
+       </strong>
+       ) The concave surface of the dimer, viewed with a 90 degrees rotation relative to (A). The site I groove is outlined with dotted lines and the positions of the charged residues surrounding the ssDNA-binding sites are highlighted. Residues from a different subunit are marked by asterisks. (
+       <strong>
+        C
+       </strong>
+       ) A close view of the nuclease channel together with a part of site I. The nuclease active site residues in the channel are shown, as well as W75 and Y39 of site I that may forge stacking interactions with DNA.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       ssDNA-binding studies of
+       <em>
+        P. abyssi
+       </em>
+       NucS (
+       <strong>
+        A
+       </strong>
+       ) SPR study using an ssDNA chip with an 87-mer oligonucleotide that was immobilized onto a Streptavidin chip through a biotin moiety located at the 3′ extremity. Various amounts of NucS were injected over the chip at the time 0. Binding data are reported in RU as a function of time. (
+       <strong>
+        B
+       </strong>
+       ) EMSA assay (20 μl) using an oligonucleotide marked with a Cy5.5 fluorophor. Dotted grey lines indicate the 95% confidence interval for the non-linear fit assuming 1:1 binding. (
+       <strong>
+        C
+       </strong>
+       ) Quantification of ssDNA binding for indicated mutant proteins are shown. Experiments were performed with two different protein concentrations using 1 pmol of an oligonucleotide indicated in (C). The results shown are averages of two independent measurements. (
+       <strong>
+        D
+       </strong>
+       ) Structure guided amino-acid sequence alignment of the representative NucS orthologues from archaea and bacteria. The secondary structural regions of
+       <em>
+        P. abyssi
+       </em>
+       NucS (PAB2263) are indicated. The homologous regions of the sequences are boxed and the conserved residues are shaded. The active sites residues in the conserved sequence motif of RecB-like nuclease family are indicated by filled triangles. The positions that have been tested by mutagenesis are indicated by filled circles. Note that the PCNA-binding peptide in the C-terminus of
+       <em>
+        P. abyssi
+       </em>
+       NucS is not conserved in all orthologues. The picture was prepared using the program ALSCRIPT (
+       <xref ref-type="bibr">
+        Barton, 1993
+       </xref>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The nuclease active site (site II) sits in a dimer interface cleft that is capped by the flexible linker connecting the N- and C-terminal domains (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). Several active site residues that are conserved in the RecB motif (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ), including D160, E174, K176, Q187 and Y191, are located at the bottom of the cleft. A cluster of basic residues, including K176, R177, R178, K179, flanks the cleft on one side. The linker region ranging from residue 121 to 125 shows weak electron densities and forms a bridge above the conserved active site residues, making site II a channel that penetrates through the wall of the protein (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     ), which indicates that the substrate for the enzyme must have a free end, such as that of a broken DNA strand. Compared with site I, site II is more hydrophilic and has a length of about 20 Å with a depth of 13 Å. It is conceivable that on the binding of ssDNA, the phosphate backbone would probably make contacts with the bottom of the channel by forging hydrogen bonds or charged interactions with the conserved active site residues of E127, D160, E174 and K176 to facilitate the digestion of phosphodiester bonds (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ).
+    </p>
+    <p>
+     The orientations of sites I (N-terminal ssDNA-binding domain) and II (active site) are roughly perpendicular to each other with a cross-angle of about 50–60 degrees. On superposition, the active site region of NucS can be aligned well with that of the
+     <em>
+      E. coli
+     </em>
+     RecB nuclease domain (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), suggesting that they share a similar nuclease mechanism (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Consequently, the conserved acidic residues of E127, D160 and E174 in
+     <em>
+      P. abyssi
+     </em>
+     NucS likely function in catalysis to ligate a magnesium ion required for catalysis, allowing stabilization of a deprotonated water molecule (in fact a hydroxyl ion) that will hydrolyse the phosphodiester bond of DNA. Compared with the other enzymes, the N-terminal domain of NucS provides an extra basic residue, K44, to the active site, which together with the conserved K176 may help to stabilize negatively charged transition states in the reaction (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). Electron densities at the active site region are shown in
+     <a>
+      Supplementary Figure S4B
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Site I is sufficient and necessary for high-affinity binding of ssDNA
+    </title>
+    <p>
+     We tested the hypothesis that site I of NucS proteins could contain a high-affinity-binding site for ssDNA through biochemical studies. This study was performed either using SPR analysis on the oligonucleotide immobilized through the biotin moiety carried in the 3′ terminus of an ssDNA oligonucleotide (87-mer) or by electrophoretic mobility shift assays (EMSA) (oligonucleotides used are indicated in
+     <a>
+      Supplementary Table 2
+     </a>
+     ). SPR measurements indicated that
+     <em>
+      P. abyssi
+     </em>
+     NucS physically interacted with ssDNA that was immobilized trough the 3′ extremity at nanomolar concentrations (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =4 nM at 25°C (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     )). This result was confirmed by EMSA assays, in which DNA–protein complexes were allowed to form at 46°C in the presence of varying concentrations of the single-stranded oligonucleotide. Under these experimental conditions, we detected a formation of a high-affinity ssDNA–NucS complex with an apparent
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of 150 nM (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ).
+    </p>
+    <p>
+     Guided by structural data, we constructed and purified several mutant proteins (
+     <xref ref-type="fig">
+      Figure 4C and D
+     </xref>
+     ) that were expected to show reduced binding for ssDNA. Indeed, we show that, differently from the wild-type protein, the mutant proteins W75S, R42A, R70A and a double mutant R42A W75S failed to bind ssDNA under stoichiometric-binding conditions used (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). These experiments provide experimental proof that the ssDNA-binding site suggested by structural studies is necessary and sufficient for the high-affinity ssDNA binding. Note that the residues shown to be crucial for high-affinity ssDNA binding in this study (filled circles in
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ) are conserved in the archaeal or bacterial NucS homologues.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NucS slides onto 3′ or 5′ flaps before a specific cleavage at the ssDNA/dsDNA junction
+    </title>
+    <p>
+     Keeping in mind that the active site of NucS proteins is not suited to accommodate dsDNA, we used single-stranded 5′- and/or 3′-flap substrates (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ) in nuclease assays in which protein quantities were varied over a wide range.
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     shows that
+     <em>
+      P. abyssi
+     </em>
+     NucS can cleave either 5′ or 3′ flaps. Another case of bipolar cleavage activity has been shown for a
+     <em>
+      Saccharomyces cerevisiae
+     </em>
+     Mus81-Mms4/Eme1 endonuclease recently (
+     <xref ref-type="bibr">
+      Ehmsen and Heyer, 2008
+     </xref>
+     ). The appearance of the specific reaction products of approximately 25 (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) and 22 nucleotides (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ) indicates specific cleavages of the 5′ and 3′ flaps around the ssDNA/dsDNA junction. This activity does not result from the contaminating exo- or endonuclease activity, as substitutions in the conserved ‘RecB' nuclease motif residues are catalytically inactive (
+     <a>
+      Supplementary Figure S5
+     </a>
+     and data not shown). We also observed that addition of excess protein resulted into the formation of a ‘smear' corresponding to reaction products ranging from 8 to 12 nucleotides. This finding is analogous to what has been observed earlier for the
+     <em>
+      P. furiosus
+     </em>
+     Hef protein that is able to introduce unpairing of the base pairs close to the junction (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2005b
+     </xref>
+     ). To test whether
+     <em>
+      P. abyssi
+     </em>
+     NucS directly binds to the ssDNA/dsDNA junction, or whether the 3′or 5′ flaps must slide into the nuclease active site before the cleavage, we repeated the above activity measurements with biotinylated 3′- and 5′-flap substrates.
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     shows that streptavidin conjugation of the biotinylated flap substrates abolished the detectable nuclease activity. In agreement with our structural data, these observations suggest the blockage of the tracking reaction along the flap.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Nuclease activity of
+       <em>
+        P. abyssi
+       </em>
+       NucS with model substrates. The sizes of the predicted reaction products are also indicated at the left side of each panel. (
+       <strong>
+        A
+       </strong>
+       ) NucS activity on the 5′ flap (27 nucleotides) using 1 pmol in 20 μl of non-modified substrate depicted at the bottom of the figure (the left panel). Reactions were performed with indicated protein amounts. The right panel shows an experiment in which the 3′-biotin moiety had reacted with the streptavidin. The asterisk refers to a
+       <sup>
+        32
+       </sup>
+       P label used to mark the substrate. The oligo names include their lengths in nucleotides. (
+       <strong>
+        B
+       </strong>
+       ) NucS activity on the 3′ flap (22 nucleotides). The experiment was performed as indicated in (A). (
+       <strong>
+        C
+       </strong>
+       ) NucS activity on a single-stranded oligonucleotide (the left panel) and the splayed-arm substrate (the middle and the right panel). Where indicated, experiments were performed using either wild type or the mutant R42A W75S that does not bind ssDNA. (
+       <strong>
+        D
+       </strong>
+       ) PCNA increases the cleavage specificity of
+       <em>
+        P. abyssi
+       </em>
+       NucS at the ssDNA/dsDNA junction; 2.5 pmol of NucS, 10 pmol of PCNA and 10 pmol of BSA were included in reaction mixtures. The bars indicate the standard deviations of three independent measurements.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     ssDNA binding and formation of a PCNA complex modulate the cleavage specificity of
+     <strong>
+      P. abyssi
+     </strong>
+     NucS
+    </title>
+    <p>
+     We performed additional enzymatic tests using a single-stranded oligonucleotide and when it was hybridized to form the splayed-arm structure that carries both the 3′- and 5′-protruding flaps.
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     shows that
+     <em>
+      P. abyssi
+     </em>
+     NucS can specifically cleave ssDNA substrates, suggesting that there is some specific end recognition. This notion is also supported by the observation that the long single-stranded oligonucleotide is cleaved into the several, apparently regularly spaced, DNA fragments (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ). Although
+     <em>
+      P. abyssi
+     </em>
+     NucS was able to cleave the splayed-arm structure also, the reaction products observed for ssDNA and splayed-arm substrate were different. First, the sizes of the specific reaction products are not identical for single-stranded and splayed-arm substrates (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ; compare the left and the middle panel). Moreover, a ‘smear' similar to what we putatively assumed above for melting the base pairs nearby the junction was only observed for the splayed-arm substrate. These measurements thus indicate that the unpaired DNA strand opposite to the strand that is cleaved and/or duplex regions in the substrate modulates the cleavage specificity.
+    </p>
+    <p>
+     To investigate the functional role of the ssDNA binding mediated by the site I, we performed enzymatic tests with the splayed-arm template, using the double mutant R42A W75S that failed completely to bind single-stranded oligonucleotide in our EMSA assays (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). This mutant was still catalytically active, as the formation of ‘smear' of 8–12 nucleotides was still detected. However, we did not detect the formation of the specific cleavage at the junction (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , the right panel), thus revealing that the high-affinity ssDNA binding at the site I regulates the catalytic activity of this class of enzymes. We found that the addition of PCNA, which encircles dsDNA in the cellular context, increases the cleavage specificity of NucS proteins (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). This weak activation results from inhibition of non-specific activity in our nuclease assays using splayed-arm substrate. We have not observed a modulation of the NucS activity by the replication clamp on the 5′ single-stranded extremity of the splayed-arm template used in
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Our structural and functional studies indicate that NucS proteins constitute a novel family of DNA endonucleases that act on branched DNA structures.
+    <em>
+     P. abyssi
+    </em>
+    NucS does not show any overall structural similarities to other proteins, including functionally characterized flap endonucleases. The two identified DNA-binding sites are constructed to accommodate single-strand nucleic acids only and serve as regulatory and ssDNA digestion sites, respectively. The aromatic residues of W75 and Y39 at site I in one subunit can form strong stacking interactions with exposed DNA bases, so as to hold the intact strand, which would in turn help to feed the damaged strand into the nuclease site of the other subunit. We have observed that the ssDNA binding at the site I regulates the cleavage of splayed-arm substrates (
+    <xref ref-type="fig">
+     Figure 5C
+    </xref>
+    ), indicating that the non-catalytic DNA-binding site regulates the cleavage of ssDNA at the active site channel. It is feasible that the distinct ssDNA arms (i.e. 3′ and 5′ flaps) could be bound in the two neighbouring anti-parallel clefts of site I related by the non-crystallographic symmetry. It can be inferred from the
+    <em>
+     P. abyssi
+    </em>
+    NucS structure that a continuous strand can only make contacts with the site I, whereas a broken strand with a free end can further slide into the nuclease channel (site II) and then be digested. Taken together, our biochemical and structural analyses indicate that the coordination between the two DNA-binding sites and subunits is crucial for regulating NucS activity (
+    <xref ref-type="fig">
+     Figure 5C
+    </xref>
+    ).
+   </p>
+   <p>
+    <xref ref-type="fig">
+     Figure 6A
+    </xref>
+    shows two models of a possible interaction of the flapped (Model I) and splayed (Model II)-DNA substrates with NucS dimers based on our experimental data. These models emphasize the contacts of NucS with single-stranded regions of the DNA substrates. Although the NucS dimer carrying the two-binding sites is sufficient for processing both the 3′ and 5′ extremities of ssDNA, our dynamic light scattering experiments indicate that two NucS dimers may bind to ssDNA substrate. This observation suggests that the binding of two individual NucS dimers to the single-stranded 5′ and 3′ extremities could occur simultaneously, or, alternatively,
+    <em>
+     P. abyssi
+    </em>
+    NucS dimers could form a ring-shaped nuclease assembly similar to that observed in the crystals. Strikingly, the observed ‘tetrameric' structure (i.e. dimer of dimers (
+    <xref ref-type="fig">
+     Figure 3
+    </xref>
+    )) somewhat resembles the ring-shaped structures of the sliding clamps of DNA polymerases and the prokaryotic DNA repair mediator protein RecR (
+    <xref ref-type="bibr">
+     Hingorani and O'Donnell, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Thus, the topological restraints brought about by stabilization of a ring structure may increase the processivity of nuclease activity by ensuring that the protein remains bound to its substrate (
+    <xref ref-type="bibr">
+     Hingorani and O'Donnell, 1998
+    </xref>
+    ).
+   </p>
+   <fig id="f6" position="float">
+    <label>
+     Figure 6
+    </label>    <caption>
+     <p>
+      (
+      <strong>
+       A
+      </strong>
+      ) Hypothetical models showing the binding of a flapped (Model I) and splayed (Model II)-DNA substrate by the
+      <em>
+       P. abyssi
+      </em>
+      NucS dimer. Note that in these models only the single-stranded region of the DNA substrates makes close contacts with NucS. The surface areas corresponding to W75 in the DNA-binding site I are coloured in blue. (
+      <strong>
+       B
+      </strong>
+      ) A proposed mechanism suggesting the coordination between PCNA and NucS during the processing of the splayed-arm substrate. For detailed description of distinct steps, see text.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Although the molecular function of NucS proteins waits for further exploration, the genomic context data of
+    <em>
+     Pyrococcus
+    </em>
+    and
+    <em>
+     Thermococcus
+    </em>
+    species
+    <em>
+     nucS
+    </em>
+    (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ) have raised a possibility that hyperthermophilic NucS orthologues could function in recombinatorial DNA repair. Moreover,
+    <em>
+     P. abyssi
+    </em>
+    NucS interacts strongly with the replication clamp both
+    <em>
+     in vitro
+    </em>
+    and
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="fig">
+     Figure 1C
+    </xref>
+    ) and our pull-down experiments (
+    <a>
+     Supplementary Figure S1
+    </a>
+    ) suggested that the NucS proteins may interact directly or indirectly with Hef, an archaeal FANCM orthologue.
+    <em>
+     P. furiosus
+    </em>
+    Hef nuclease domain is thought to participate in endonuclease processing of double-stranded regions of stalled replication forks (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005b
+    </xref>
+    ) and vertebrate orthologues promote branch migration of replication forks (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). NucS proteins may thus play a specialized role in processing of ssDNA extremities created by archaeal Hef proteins (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Finally, gene expression omnibus records GDS2677 and GDS326 (
+    <a>
+     www.ncbi.nih.gov
+    </a>
+    ) indicate that in
+    <em>
+     M. tuberculosis
+    </em>
+    , NucS (Rv1321) is expressed in stressed cells.
+   </p>
+   <p>
+    We propose a functional model of how the interactions of
+    <em>
+     P. abyssi
+    </em>
+    NucS with PCNA could assist in appropriate processing of the splayed-arm substrate (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ). First, the sliding replication clamp PCNA, in association with other proteins, is bound at the duplex region of the splayed-arm substrate, whereas NucS dimers are not chromatin bound. Then, the high affinity of
+    <em>
+     P. abyssi
+    </em>
+    NucS for PCNA and ssDNA could permit the loading of NucS at the single-stranded unpaired extremities of the model substrate. After that, PCNA and the high-affinity ssDNA-binding site I will direct the cleavage at the 3′-protruding strand to the junction of ss/dsDNA. The effect of PCNA in increasing cleavage specificity likely results from inhibition of the melting of base pairs at the vicinity of the junction (
+    <xref ref-type="fig">
+     Figure 5D
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S6
+    </a>
+    ). As the concave surface of the
+    <em>
+     P. abyssi
+    </em>
+    NucS dimer is predominantly basic, and duplex regions modulate NucS activity (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ), NucS may, together with PCNA, interact with the duplex DNA. Note also that the very high affinity of NucS for ssDNA could allow direct chromatin loading of NucS without PCNA, as well as dissociation of RPA (or other proteins) from ssDNA.
+   </p>
+   <p>
+    In conclusion, we have identified a novel class of DNA endonucleases that in some species co-operates with the replication clamp and possibly with additional proteins (such as the Hef, RF-C and topoisomerase VI (not shown in
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    )) in the processing of branched DNA structures. Strikingly, NucS homologues can be found not only in archaea, but also in bacteria, suggesting unexpected functional parallels between archaeal and bacterial species (particularly in high GC% Gram-positive bacteria).
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <p>
+    Further experimental details are given in
+    <a>
+     Supplementary data
+    </a>
+    .
+   </p>
+   <sec>
+    <title>
+     Protein purification, site-directed mutagenesis and molecular genetic techniques
+    </title>
+    <p>
+     <em>
+      P. abyssi
+     </em>
+     PCNA and NucS (PAB2263) were purified as described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Site-directed mutagenesis used the single primer mutagenesis kit (Stratagene) following manufacturer's instructions. Sequences of all oligonucleotides used are indicated in
+     <a>
+      Supplementary Table 2
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SPR experiments
+    </title>
+    <p>
+     SPR analyses were performed in a BIAcore X apparatus (Biacore, Sweden). The interactions were monitored at 25°C at a flow rate of 30 μl/min in HBS-P buffer (10 mM Hepes, pH 7.4; 150 mM NaCl and 0.005% (v/v) P20). Experiments with the PCNA chip were performed as already described (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). When DNA was fixed on a chip, 20 nM of 3′-biotinylated single-strand oligonucleotide was injected over a Streptavidin chip (Biacore) during 2 min at the flow rate 5 μl/min. The affinity constant (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ) values were estimated from the simultaneous fit of association and dissociation phases using the Biaevaluation Software version 3.2, assuming 1:1 binding model. Pull-down experiments were essentially performed as earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Dynamic light scattering and sucrose gradient centrifugation
+    </title>
+    <p>
+     For dynamic light scattering experiments, NucS (1 mg/ml) in 50 mM Hepes pH 8, 600 mM NaCl was used. When DNA was present in the samples, 0.2 nmoles of an 87 bases single-strand oligonucleotide was added to obtain an NucS (monomer): DNA ratio of 4:1. The samples were filtered through a 0.1-μm filter (Ultrafree-MC, millipore). A 25-μl aliquot was transferred to the sample container in the Zetasizer Nano ZS (Malvern Instruments Ltd). Dynamic light scattering was measured at a temperature of 20°C (2 individual rounds of 11 runs in 10 s). The results shown are the values for Z-averages of the hydrodynamic size corresponding to intensity weighted mean diameter. Number distributions were calculated using the integrated software (Malvern). The size of free oligonucleotide was measured within the experimental pH and salt range as controls. The molecular weight of NucS assemblies were estimated using a calibration curve plotting the Z-averages against the molecular weight of cytochrome C (12.4 kDa), carbonic anhydrase (29 kDa), stanniocalcin (54 kDa), BSA (66 kDa) and a glycoside hydrolase (100 kDa); 5–20% sucrose gradients were run in 50 mM HEPES, pH 8, 300 mM NaCl using a SW41 rotor (35 000 r.p.m., 43 h, +4°C). A measure of 250 μl fractions was collected from the top of the gradients. The proteins were localized and quantified using A
+     <sub>
+      280
+     </sub>
+     readings and SDS–PAGE. Carbonic anhydrase (29 kDa), BSA (66 kDa) and PBCV-1 ThyX (92 kDa) were used as standards.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and data collection
+    </title>
+    <p>
+     Owing to the low content of methionines (3 in 257 residues) and local structural disorders, an initial attempt of structural solution by the multi-wavelength anomalous diffraction method (MAD) was not successful using seleno-methionine substituted wild-type protein. To improve the anomalous diffraction signal, a triple mutant (I89M/L188M/L246M) was prepared using site-directed mutagenesis. The SeMet-substituted mutant was crystallized by the sitting-drop vapour diffusion method at 293 K by mixing 2 μl of protein at 4 mg/ml (30 mM HEPES pH 8.0 and 0.57 M NaCl) with 2 μl reservoir solution (0.1 M Tris–HCl pH 8.5, 0.2 M ammonium sulphate and 25% PEG 3350). A three-wavelength Se MAD data set was collected at 100 K on beamline BM14 at ESRF (Grenoble, France) with an MAR225 CCD detector (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). The reservoir solution, added with 20% (v/v) glycerol, was used as the cryo-protectant. The data were processed using the HKL2000 package. The crystals belonged to the space group
+     <em>
+      C
+     </em>
+     222
+     <sub>
+      1
+     </sub>
+     with cell dimensions of
+     <em>
+      a
+     </em>
+     =78.9 Å,
+     <em>
+      b
+     </em>
+     =100.6 Å and
+     <em>
+      c
+     </em>
+     =157.6 Å.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Structure determination and refinement statistics
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Structure determination and refinement
+    </title>
+    <p>
+     The structure of
+     <em>
+      P. abyssi
+     </em>
+     NucS triple mutant was solved by MAD using the programme suite CNS (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Heavy atom search with anomalous Patterson function calculation identified eight sites using data up to 3.2 Å, corresponding to four sites per subunit of the dimer that constitutes the crystallographic asymmetric unit. There were still two sites that could not be located in each subunit because of structural disorders. Although phase calculation at 3.2 Å gave an overall figure of merit of 0.68, density modification was used to further improve and extend the phases to 2.8 Å resolution. The calculated electron density was of good quality, enabling the tracing of polypeptide chain.
+    </p>
+    <p>
+     Model building was carried out with the programme O (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The models were refined with REFMAC5 in CCP4 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), using a second data set collected at the remote wavelength. A measure of 5% of the diffraction data were set apart to monitor the free
+     <em>
+      R
+     </em>
+     -factor (
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     ) throughout the refinement process. Electron density averaging was used with the local two-fold symmetry to improve the maps. Strict non-crystallographic symmetry restrains were applied during refinement. The regions that were apparently disordered and not visible in the electron density maps include the N-terminal His-tag and C-terminal residues of 234–251 for both subunits and residues of 1–2 for subunit B. Weak and discontinuous electron densities were observed for the residues of 121–125, which constitute a part of an extended flexible linker. These five residues were set to alanine or glycine according to the protein sequence and their weights were put to zero during refinement. The final model of the dimer consists of 464 residues and 124 waters with a calculated
+     <em>
+      R
+     </em>
+     -factor of 22.6% and
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     of 23.8% for all the diffraction data up to 2.6 Å resolution. Structure determination and refinement statistics for the triple mutant are shown in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Nuclease and EMSA assays
+    </title>
+    <p>
+     Nuclease assays at 46 or 56°C were performed using substrates described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), with reduced incubation times (10 min). Reaction mixtures (20 μl in all experiments) contained
+     <em>
+      P. abyssi
+     </em>
+     NucS and labelled oligonucleotides in 20 mM HEPES, pH 8; 50 mM NaCl and 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     . MnCl
+     <sub>
+      2
+     </sub>
+     was able to replace MgCl
+     <sub>
+      2
+     </sub>
+     required for catalytic activity. Reactions were analysed on 20% denaturing polyacrylamide gels. The effect of the PCNA on the NucS nuclease activity was quantified through formation of specific cleavage product, reflecting the cleavage at the ss/ds DNA junction.
+    </p>
+    <p>
+     Reaction mixtures (20 μl in all experiments) for EMSA assays contained 10 mM Tris, pH 7.5, 20% (v/v) glycerol, 1 mM EDTA (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), 100 μg/ml of BSA and 1 mg/ml of Orange G. DNA–protein complexes were formed during 30 min incubation at 46°C. Magnesium was omitted from reaction mixtures to prevent degradation of oligonucleotide substrates that were marked either with
+     <sup>
+      32
+     </sup>
+     P or Cy5.5 fluorophor. Native 10% polyacrylamide gels were run in the cold room. Gel images were acquired, analysed and quantified using either Storm Phosphorimager (Amersham) or Licor Odyssey imaging systems.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession numbers
+    </title>
+    <p>
+     The atomic coordinates of
+     <em>
+      P. abyssi
+     </em>
+     NucS (PAB2263) have been deposited with the Protein Data Bank (accession code 2VLD).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <p>
+     Supplemental material
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (18M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

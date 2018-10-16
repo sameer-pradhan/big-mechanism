@@ -1,0 +1,4217 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3961636
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Targeting γ-Herpesvirus 68 Bcl-2-mediated Down-regulation of Autophagy*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     γ-herpesviruses (γHVs) are common human pathogens that encode homologs of the anti-apoptotic cellular Bcl-2 proteins, which are critical to viral reactivation and oncogenic transformation. The murine γHV68 provides a tractable
+     <em>
+      in vivo
+     </em>
+     model for understanding general features of these important human pathogens. Bcl-X
+     <sub>
+      L
+     </sub>
+     , a cellular Bcl-2 homolog, and the murine γHV68 Bcl-2 homolog, M11, both bind to a BH3 domain within the key autophagy effector Beclin 1 with comparable affinities, resulting in the down-regulation of Beclin 1-mediated autophagy. Despite this similarity, differences in residues lining the binding site of M11 and Bcl-X
+     <sub>
+      L
+     </sub>
+     dictate varying affinities for the different BH3 domain-containing proteins. Here we delineate Beclin 1 differential specificity determinants for binding to M11 or Bcl-X
+     <sub>
+      L
+     </sub>
+     by quantifying autophagy levels in cells expressing different Beclin 1 mutants and either M11 or Bcl-X
+     <sub>
+      L
+     </sub>
+     , and we show that a G120E/D121A Beclin 1 mutant selectively prevents down-regulation of Beclin 1-mediated autophagy by Bcl-X
+     <sub>
+      L
+     </sub>
+     , but not by M11. We use isothermal titration calorimetry to identify a Beclin 1 BH3 domain-derived peptide that selectively binds to M11, but not to Bcl-X
+     <sub>
+      L
+     </sub>
+     . The x-ray crystal structure of this peptide bound to M11 reveals the mechanism by which the M11 BH3 domain-binding groove accommodates this M11-specific peptide. This information was used to develop a cell-permeable peptide inhibitor that selectively inhibits M11-mediated, but not Bcl-X
+     <sub>
+      L
+     </sub>
+     -mediated, down-regulation of autophagy.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Autophagy, Bcl-2 Family Proteins, Crystal Structure, Herpesvirus, Host Defense, Host-Pathogen Interactions, Protein-Protein Interactions
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    γ-Herpesviruses (γHVs)
+    <sup>
+     <a>
+      2
+     </a>
+    </sup>
+    are common human pathogens that infect ∼95% of all adults. Epstein-Barr virus, first isolated from Burkitt's lymphoma, has been detected in several malignant tumors originating in both lymphoid and epithelial tissues (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ). Epstein-Barr virus is also the causative agent for infectious mononucleosis and may be responsible for chronic fatigue syndrome. Kaposi's sarcoma-associated herpesvirus (KSHV) is associated with Kaposi sarcoma tumors, which show a high incidence among immunocompromised individuals, such as patients with HIV infection and transplant recipients. Another mammalian γHV, murine γHV68 does not infect humans but provides a tractable model for studying γHV infections
+    <em>
+     in vivo
+    </em>
+    . A murine model has been developed to study the mechanisms and pathogenesis of γHV induction of lympho-proliferative disease (
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ). All γHVs encode homologs of the anti-apoptotic, cellular Bcl-2 proteins (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ), suggesting that these proteins play an important role in the pathogenesis of these viruses.
+   </p>
+   <p>
+    Bcl-2 was the first cellular protein shown to function as an oncogene by blocking apoptotic cell death rather than by increasing cellular proliferation (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ). Bcl-2 family members have now been shown to be multifunctional proteins influencing diverse cellular processes such as autophagy, cell cycle progression, calcineurin signaling, glucose homeostasis, and transcription regulation (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ). Members of the Bcl-2 family are identified by the presence of different Bcl-2 homology (BH) domains. This family includes several, pro-apoptotic, BH3-only proteins, such as BIM and BAD; pro-apoptotic homologs with three BH domains (BH3, BH1, and BH2), such as BAX and BAK; and anti-apoptotic homologs with four BH domains (BH4, BH3, BH1, and BH2), such as Bcl-2 and Bcl-X
+    <sub>
+     L
+    </sub>
+    . Anti-apoptotic Bcl-2 homologs down-regulate apoptosis by binding to the BH3 domain of pro-apoptotic proteins to inhibit their pro-apoptotic function.
+   </p>
+   <p>
+    The anti-apoptotic γHV Bcl-2 homologs appear to be critical for viral reactivation from latency and replication in immunocompromised hosts (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ). Thus, they play important roles in latent and chronic infection. One mechanism by which γHV Bcl-2 homologs may accomplish these physiological functions is by the down-regulation of apoptosis. KSHV Bcl-2 blocks apoptosis stimulated by overexpression of Bax or v-cyclin or by Sindbis virus infection (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ); however, in cellular assays, it does not appear to heterodimerize with pro-apoptotic Bcl-2 family members, such as Bax and Bak (
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ). Epstein-Barr virus encodes a Bcl-2 homolog, BHRF1, which is expressed as an early lytic cycle protein, has anti-apoptotic activity, heterodimerizes with Bax and Bak, and also disrupts the differentiation of epithelial cells (
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ). The γHV68 Bcl-2 homolog, M11, has been shown to down-regulate apoptosis induced by Fas, TNFα, and Sindbis virus infection (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). More recently it has been shown that KSHV Bcl-2 and γHV68 M11 also down-regulate autophagy in cell culture by binding to an essential autophagy effector, Beclin 1 (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). M11 is the only γHV Bcl-2 that has been demonstrated to play a role during infection
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). Thus, the γHV and cellular Bcl-2 homologs are dual regulators of autophagy and apoptosis and serve as a node of cross-talk between these pathways (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ).
+   </p>
+   <p>
+    Although human cellular Bcl-2 paralogs share less than 50% sequence identity, known human and murine Bcl-2 ortholog pairs share &gt;85% sequence identity. All anti-apoptotic Bcl-2 homologs have similar three-dimensional structures, consisting of a central hydrophobic α-helix surrounded by six or seven amphipathic helices (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). Previous structural and mutagenic analyses demonstrated that the amphipathic, α-helical BH3 domains of pro-apoptotic proteins bind to a hydrophobic surface groove on Bcl-2 homologs (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     33
+    </xref>
+    ), with the hydrophobic face of the helix buried in a hydrophobic groove on the surface of the Bcl-2 homolog. Different Bcl-2 homologs have widely varying affinities for BH3 domains from different pro-apoptotic proteins (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     35
+    </xref>
+    ). The molecular determinants that enforce these varying specificities are not well understood.
+   </p>
+   <p>
+    It has now been shown that the pro-autophagic effector Beclin 1 also contains a BH3 domain that binds to a hydrophobic surface groove of cellular and γHV Bcl-2 homologs (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     36
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     38
+    </xref>
+    ). Given the differential affinity of Bcl-2 homologs, it is not surprising that although Bcl-2 and Bcl-X
+    <sub>
+     L
+    </sub>
+    bind to Beclin 1, other cellular Bcl-2 paralogs, Mcl-1, A1, and Bcl-W (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     40
+    </xref>
+    ), bind only weakly or not at all. The Beclin 1 BH3 domain is the primary determinant of binding to cellular and γHV Bcl-2 homologs (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     36
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     38
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     41
+    </xref>
+    ), binding to different Bcl-2 homologs with affinities in the micromolar range, for example with a
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    of ∼54 μ
+    <span>
+     m
+    </span>
+    to KSHV Bcl-2 (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ) and ∼9 μ
+    <span>
+     m
+    </span>
+    to Bcl-2 (
+    <xref ref-type="bibr">
+     42
+    </xref>
+    ).
+   </p>
+   <p>
+    The hypothesis behind this study was that despite the similar general mode of binding of the Beclin 1 BH3 domain to viral M11 and cellular Bcl-X
+    <sub>
+     L
+    </sub>
+    , the BH3 domain binding grooves of these two homologs are lined by different residues, which results in different atomic details of interaction and different thermodynamic contributions from the interactions of each residue, that would lead to differential affinities for mutant BH3 domain-derived peptides. Further, based on the promiscuity of M11 relative to Bcl-X
+    <sub>
+     L
+    </sub>
+    for different BH3 domains that has been previously reported (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     35
+    </xref>
+    ), we expected that a systematic mutagenesis approach would enable us to find a peptide that binds to M11 but does not bind to the cellular Bcl-2 homologs, which have a more stringent binding specificity (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ).
+   </p>
+   <p>
+    Therefore, we used cellular assays to identify Beclin 1 mutations that selectively abrogate down-regulation of autophagy by Bcl-X
+    <sub>
+     L
+    </sub>
+    , but not M11, then used isothermal titration calorimetry (ITC) to identify a peptide that binds selectively to M11, but not to Bcl-X
+    <sub>
+     L
+    </sub>
+    . Further, we determined the x-ray crystal structure of this selective peptide bound to M11 to elucidate the mechanism by which it binds to M11. Lastly, we demonstrate that a cell-permeable version of this selective peptide serves as an M11-specific inhibitor that abrogates M11-mediated down-regulation of autophagy in cells. These combined results help explain the atomic bases of the differential specificity of M11 and Bcl-X
+    <sub>
+     L
+    </sub>
+    and provide a unique tool to target M11-BH3 domain interactions
+    <em>
+     in vivo
+    </em>
+    . This study reports the rational design of an inhibitor that selectively targets M11, which will be valuable in studying its interactions and roles in cell culture and
+    <em>
+     in vivo
+    </em>
+    .
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Protein Expression and Purification
+      </title>
+      <p>
+       cDNA sequences corresponding to the γHV68 M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       genes lacking the C-terminal transmembrane helix were cloned and expressed to enable purification of soluble constructs similar to those used for previous structural studies (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ). γHV68 M11 residues 1–136 were expressed and purified as previously described (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ). The double mutant variant of Bcl-X
+       <sub>
+        L
+       </sub>
+       (N52D/N66D) was created by two rounds of site-directed mutagenesis using the QuikChange II site-directed mutagenesis kit (Agilent Technologies) and then cloned, along with a C-terminal His
+       <sub>
+        6
+       </sub>
+       tag for purification, into the NdeI and NotI restriction sites of pET 29b. The His
+       <sub>
+        6
+       </sub>
+       -tagged Bcl-X
+       <sub>
+        L
+       </sub>
+       (residues 1–208, N52D/N66D) was expressed in
+       <em>
+        Escherichia coli
+       </em>
+       BL21(DE3)pLysS cells, and soluble protein in the cell lysate was purified to homogeneity by immobilized metal affinity chromatography using two tandem 5-ml His-Trap HP columns (GE Healthcare) followed by ion exchange chromatography using a Mono Q HR 10/10 column (GE Healthcare) and size exclusion chromatography using a preparative 16/60 Superdex 200 column (GE Healthcare).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Peptide Synthesis
+      </title>
+      <p>
+       Various Beclin 1 BH3 domain-derived peptides were chemically synthesized and HPLC-purified to &gt;95% purity, with peptide purity confirmed by electrospray mass spectrometry (RSSynthesis/Protein Chemistry Technology Core at the University of Texas Southwestern Medical Center, Dallas, TX).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Isothermal Titration Calorimetry
+      </title>
+      <p>
+       ITC was performed using a Low Volume Nano ITC (TA Instruments). For all ITC experiments, samples were loaded into separate dialysis cassettes, and co-dialyzed into ITC buffer. The ITC buffer for all experiments comprised of 25 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5, 100 m
+       <span>
+        m
+       </span>
+       NaCl, and 2 m
+       <span>
+        m
+       </span>
+       β-mercaptoethanol. ITC was performed at 25 °C with 25 injections of 2 μl each. The data were analyzed using NanoAnalyze Software (TA Instruments) with an independent model. The poor solubility of the D121A peptide in aqueous buffers necessitated a different solubilization and data analysis protocol for ITC. The D121A peptide was mixed into ITC buffer to a concentration of 1 m
+       <span>
+        m
+       </span>
+       and rocked at room temperature overnight. Despite this, a significant fraction of the peptide remained insoluble. This insoluble fraction was pelleted by centrifugation at 13,000 ×
+       <em>
+        g
+       </em>
+       for 10 min. The supernatant was collected and co-dialyzed with M11 or Bcl-X
+       <sub>
+        L
+       </sub>
+       as described above and then used for ITC. Stoichiometry was forced to 1 during data analysis, and the concentration of the D121A peptide was estimated from the fit.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Crystallization
+      </title>
+      <p>
+       The M11-DS peptide complex was crystallized at 20 °C by hanging drop vapor diffusion from a 1:1 mixture of protein stock (5 mg/ml complex in 20 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5, 100 m
+       <span>
+        m
+       </span>
+       NaCl, 1 m
+       <span>
+        m
+       </span>
+       TCEP) and well solution (2.5
+       <span>
+        m
+       </span>
+       (NH
+       <sub>
+        4
+       </sub>
+       )
+       <sub>
+        2
+       </sub>
+       SO
+       <sub>
+        4
+       </sub>
+       and 8% v/v 2-propanol). Plate-shaped crystals were harvested and cryoprotected in a cryosolution consisting of 2.5
+       <span>
+        m
+       </span>
+       (NH
+       <sub>
+        4
+       </sub>
+       )
+       <sub>
+        2
+       </sub>
+       SO
+       <sub>
+        4
+       </sub>
+       and 25% (v/v) glycerol and then immediately flash-frozen in liquid N
+       <sub>
+        2
+       </sub>
+       .
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Data Collection, Structure Solution, and Refinement
+      </title>
+      <p>
+       Diffraction intensities from these crystals were recorded at 100 K using 1-s exposures over 0.5° crystal rotation per image, on a 4 × 4 tiled MARmosaic CCD detector (Rayonix) at a crystal to detector distance of 250 mm at Beamline 23ID-D of GMCA@APS (Argonne National Laboratory, Chicago, IL). The data used to solve the structure were collected at an x-ray wavelength of 0.97934 Å in a 360° sweep from a single crystal. The data were processed using HKL2000 (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ). The data statistics are summarized in
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       .
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 1
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Summary of crystallographic data statistics
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <p>
+       Crystals belonged to the space group C2
+       <sub>
+        1
+       </sub>
+       with unit cell parameters of
+       <em>
+        a
+       </em>
+       = 70.6 Å,
+       <em>
+        b
+       </em>
+       = 140.8 Å,
+       <em>
+        c
+       </em>
+       = 54.0 Å, and β = 127.8°. The crystals contained two copies of the M11-DS peptide complex per asymmetric unit. The positions and orientations of the two M11 (residues 1–136) molecules, monomer A and B, were determined by molecular replacement using HKL3000/MOLREP (
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ), and a search model extracted from Protein Data Bank code
+       <span>
+        3DVU
+       </span>
+       , consisting of a single M11 monomer with flexible loop residues 52–73 removed. A helix corresponding to the Beclin 1 BH3 domain (from Protein Data Bank code
+       <span>
+        3DVU
+       </span>
+       , chain C), with Asp
+       <sup>
+        121
+       </sup>
+       mutated to Ala, was manually placed into appropriate density next to monomer A using the program Coot (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ) A Glu side chain was built into clear electron density at position 120 after the first cycle of refinement. This defined the structure of the DS peptide. The NCS operator required to superimpose M11 monomer A onto B was used to place a second copy of the DS peptide into appropriate density next to monomer B. The model was refined in the program Refmac5 (
+       <xref ref-type="bibr">
+        46
+       </xref>
+       ) using imperfect 2-fold NCS restraints (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). The final model is deposited in the Research Collaboratory for Structural Bioinformatics Protein Data Bank with accession code
+       <span>
+        4MI8
+       </span>
+       . Bcl-2-peptide interactions in different structures were analyzed using PISA (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ).
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 2
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Summary of crystallographic refinement statistics
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Autophagy Assay
+      </title>
+      <p>
+       Quantification of fluorescent autophagosomes in MCF7 cells co-transfected with GFP-LC3 (1.6 μg), Beclin 1 (1.2 μg), and either Bcl-X
+       <sub>
+        L
+       </sub>
+       (1.2 μg) or M11 (1.2 μg) expression plasmids (4 μg of total plasmid) was performed using an inverted Axio Observer (Zeiss). Cells were cultured in DMEM with 10% fetal calf serum (growth medium) in 8-well slides (Millipore) and transfected at 80% confluency with Lipofectamine (Invitrogen). After transfection, cells were either starved overnight in Earle's balanced salt solution (starvation medium) or grown in nutrient-rich media with the addition of 2× essential amino acids and 2× nonessential amino acids. The number of GFP-LC3 puncta per GFP-LC3-positive cell was assessed by counting a minimum of 50 cells via Image ProPlus for duplicate samples per condition in three independent experiments. The significance of alterations in autophagy levels were determined by a two-tailed, heteroscedastic Student's
+       <em>
+        t
+       </em>
+       test, wherein
+       <em>
+        p
+       </em>
+       ≤ 0.05 is considered significant. The effect of a potential inhibitory peptide was investigated by comparing autophagy levels in the absence or presence of 30 μ
+       <span>
+        m
+       </span>
+       control or inhibitory peptides.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Western Blot
+      </title>
+      <p>
+       Expression levels of FLAG-tagged Beclin 1, Bcl-X
+       <sub>
+        L
+       </sub>
+       , and M11 in MCF7 cells were verified by Western blot analysis using commercial mouse monoclonal anti-FLAG M2-peroxidase antibody (Sigma). As a loading control, the levels of actin in MCF7 cell lysates were detected with mouse anti-actin (Chemicon).
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Selection of Beclin 1 Residues Important for Binding to Both M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+      </title>
+      <p>
+       Both Beclin 1 and Bcl-X
+       <sub>
+        L
+       </sub>
+       are highly conserved between human and mice. Human and mouse Beclin 1 orthologs are 99% identical, and their BH3 domains are 100% identical. Similarly, human and murine Bcl-X
+       <sub>
+        L
+       </sub>
+       orthologs are 97% identical, whereas residues lining the BH3 domain-binding groove are 100% identical (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). Therefore, there is no difference in the binding of different BH3 domains, particularly the Beclin 1 BH3 domain, to mouse or human Bcl-X
+       <sub>
+        L
+       </sub>
+       orthologs.
+      </p>
+      <fig id="F1" position="float">
+       <label>
+        FIGURE 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Sequence alignment of γHV Bcl-2 and Bcl-X
+          <sub>
+           L
+          </sub>
+          homologs.
+         </strong>
+         The
+         <em>
+          top sequence
+         </em>
+         is γHV68 M11, and the
+         <em>
+          bottom sequences
+         </em>
+         are human and mouse Bcl-X
+         <sub>
+          L
+         </sub>
+         as indicated. The
+         <em>
+          numbers
+         </em>
+         after each alignment block indicate the last residue of each sequence in that block.
+         <em>
+          Green
+         </em>
+         or
+         <em>
+          red backgrounds
+         </em>
+         indicate residues lining the BH3 binding groove in either M11 or Bcl-X
+         <sub>
+          L
+         </sub>
+         , respectively. Sequence conservation between all three homologs is indicated above the sequence alignment, whereas that between human and mouse Bcl-X
+         <sub>
+          L
+         </sub>
+         is indicated below the alignment.
+         <em>
+          Asterisks
+         </em>
+         denote invariant residues,
+         <em>
+          double dots
+         </em>
+         indicate highly conserved residues, and
+         <em>
+          single dots
+         </em>
+         indicate similar residues.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       In contrast, M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       share only 16.2% sequence identity (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ), although they also have similar functions, three-dimensional structures, and modes of binding. A comparison of complex structures of the Beclin 1 BH3 domain bound to M11 (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ) or Bcl-X
+       <sub>
+        L
+       </sub>
+       (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ) demonstrates that each interaction involves the same 12 Beclin 1 residues (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ) and buries 978 and 1052 Å
+       <sup>
+        2
+       </sup>
+       respectively, of surface area from each molecule at the interface, as calculated using PISA (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ). Among these 12 Beclin 1 BH3 domain residues, the six that have the most extensive interactions (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ) are also highly conserved among other BH3 domains (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ). Therefore these six residues were selected for mutagenesis. Of these residues, Leu
+       <sup>
+        112
+       </sup>
+       , Leu
+       <sup>
+        116
+       </sup>
+       , and Gly
+       <sup>
+        120
+       </sup>
+       are completely buried; Phe
+       <sup>
+        123
+       </sup>
+       is partially buried; the aliphatic part of the Lys
+       <sup>
+        117
+       </sup>
+       side chain hydrophobically packs against M11 residues Asp
+       <sup>
+        81
+       </sup>
+       and Arg
+       <sup>
+        87
+       </sup>
+       , whereas the amino group makes polar and charged interactions; and Gly
+       <sup>
+        120
+       </sup>
+       and Asp
+       <sup>
+        121
+       </sup>
+       interact with a Gly-Arg pair conserved in most Bcl-2 homologs, including Bcl-X
+       <sub>
+        L
+       </sub>
+       and M11 (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ). This Gly-Arg pair, especially the Arg, has been shown to contribute significantly to the interaction of many Bcl-2 homologs with diverse BH3 domains (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ). Gly
+       <sup>
+        120
+       </sup>
+       is packed against the conserved Bcl-2 Gly-Arg main chain, while the BH3 domain Asp
+       <sup>
+        121
+       </sup>
+       makes a bidentate salt bridge with the conserved Bcl-2 Arg. Therefore, Leu
+       <sup>
+        112
+       </sup>
+       , Leu
+       <sup>
+        116
+       </sup>
+       , Lys
+       <sup>
+        117
+       </sup>
+       , Gly
+       <sup>
+        120
+       </sup>
+       , Asp
+       <sup>
+        121
+       </sup>
+       , and Phe
+       <sup>
+        123
+       </sup>
+       were selected for further investigation in this study.
+      </p>
+      <fig id="F2" position="float">
+       <label>
+        FIGURE 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          Comparison of the WT Beclin 1 BH3 domain bound to Bcl-X
+          <sub>
+           L
+          </sub>
+          (Protein Data Bank code
+          <span>
+           2PIL
+          </span>
+          ,
+          <em>
+           A
+          </em>
+          ) and M11 (Protein Data Bank code
+          <span>
+           3DVU
+          </span>
+          ,
+          <em>
+           B
+          </em>
+          ).
+         </strong>
+         Each complex is shown in a superimposable view with Bcl-X
+         <sub>
+          L
+         </sub>
+         and M11 shown as molecular surface colored by atom type: oxygen,
+         <em>
+          red
+         </em>
+         ; nitrogen,
+         <em>
+          blue
+         </em>
+         ; sulfur,
+         <em>
+          yellow
+         </em>
+         ; and carbon,
+         <em>
+          light gray
+         </em>
+         . In each complex structure, the WT BH3 domain is rendered as
+         <em>
+          teal ribbon
+         </em>
+         , and residues are displayed in
+         <em>
+          stick
+         </em>
+         . The 12 BH3 domain residues involved in binding to both Bcl-X
+         <sub>
+          L
+         </sub>
+         and M11 are labeled, with the residues selected for mutagenesis highlighted in
+         <em>
+          red
+         </em>
+         . This and all other molecular figures were prepared with the program PyMOL.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       The Beclin 1 BH3 domain binds with a very similar, moderate binding affinity of ∼1.5 μ
+       <span>
+        m
+       </span>
+       to both M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       (see
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ). Further, for both interactions, the favorable free energy of association (Δ
+       <em>
+        G
+       </em>
+       ) is due to enthalpic contributions (Δ
+       <em>
+        H
+       </em>
+       <sub>
+        app
+       </sub>
+       ) rather than due to entropic contributions (Δ
+       <em>
+        S
+       </em>
+       <sub>
+        app
+       </sub>
+       ), which are negative in each case (see
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ). We have recently shown that the Beclin 1 BH3 domain is disordered in solution and that BH3 domain residues 116–127 appear to serve as an “anchor” that nucleates concomitant folding and binding of the Beclin 1 BH3 domain to Bcl-2 and includes most of the residues important for binding to Bcl-2 (
+       <xref ref-type="bibr">
+        42
+       </xref>
+       ). Therefore, the negative Δ
+       <em>
+        S
+       </em>
+       <sub>
+        app
+       </sub>
+       likely reflects BH3 domain desolvation and increased structure upon binding, which proceeds despite the negative Δ
+       <em>
+        S
+       </em>
+       <sub>
+        app
+       </sub>
+       , because of enthalpic compensation.
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 3
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Thermodynamic parameters for binding of various Beclin 1 BH3 domain-derived peptides to M11 and Bcl-X
+           <sub>
+            L
+           </sub>
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <p>
+       Despite the general overall similarity in the interaction of the Beclin 1 BH3 domain with M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       described above, the specific interactions of each BH3 domain residue with residues in the two homologs are different, suggesting that each BH3 domain residue will have a different thermodynamic contribution to the overall binding. Indeed, despite the similar Δ
+       <em>
+        G
+       </em>
+       of binding to M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       , the magnitudes of the entropic and enthalpic contributions to binding are different, with Δ
+       <em>
+        H
+       </em>
+       <sub>
+        app
+       </sub>
+       for binding to M11 being ∼2-fold higher, and
+       <em>
+        T
+       </em>
+       Δ
+       <em>
+        S
+       </em>
+       <sub>
+        app
+       </sub>
+       being ∼4-fold lower than that for binding to Bcl-X
+       <sub>
+        L
+       </sub>
+       (see
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ). This supports the hypothesis that the different binding interactions of each BH3 domain residue dictate a different thermodynamic contribution to the overall similar affinity of binding in the interaction with M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       . Thus, the similar interactions of the Beclin 1 BH3 domain with M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       provide a good model system for a detailed mutational and thermodynamic analysis elucidating how differences in the binding determinants of M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       can translate to differential affinities for various BH3 domain-containing proteins, despite a similar overall mode of binding.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Specific Beclin 1 Mutations Abrogate Autophagy Down-regulation by Bcl-X
+       <sub>
+        L
+       </sub>
+       but Not by M11
+      </title>
+      <p>
+       Based on the analysis above, we created the following single mutant Beclin 1 constructs: L112A, L116A, K117A, G120E, and F123A. The D121A mutant was not investigated using cellular assays because our previously published results show that M11 binds to a Beclin 1 G120A/D121A mutant (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ). Expression of all Beclin 1 mutants was comparable to that of WT Beclin 1 in both starvation and nutrient-rich conditions (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       ). Bcl-X
+       <sub>
+        L
+       </sub>
+       and M11 also had comparable expression in both starvation and nutrient-rich conditions.
+      </p>
+      <fig id="F3" position="float">
+       <label>
+        FIGURE 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          Effect of different Beclin 1 mutations on down-regulation of autophagy by Bcl-X
+          <sub>
+           L
+          </sub>
+          or M11.
+         </strong>
+         <em>
+          A
+         </em>
+         , Western blots of MCF7 cell extracts indicating comparable expression levels of WT and mutant FLAG-tagged Beclin 1 constructs and of Bcl-X
+         <sub>
+          L
+         </sub>
+         and M11 in starvation and nutrient-rich conditions, with actin as a loading control.
+         <em>
+          B–D
+         </em>
+         , bar graphs representing light microscopy quantification of the number of discrete GFP-LC3 puncta per cell in GFP-positive MCF7 cells co-transfected with GFP-LC3, WT, or mutant Beclin 1 as indicated below the
+         <em>
+          x
+         </em>
+         axis and either no Bcl-2 homolog (
+         <em>
+          B
+         </em>
+         ), Bcl-X
+         <sub>
+          L
+         </sub>
+         (
+         <em>
+          C
+         </em>
+         ), or M11 (
+         <em>
+          D
+         </em>
+         ).
+        </p>
+       </caption>
+      </fig>
+      <p>
+       Assays to monitor autophagy levels were performed using MCF7 cells, which express low levels of Beclin 1 and do not show starvation-induced increases in autophagy unless Beclin 1 is ectopically expressed (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ) (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ). This allows the effect of Beclin 1 mutants to be assayed in the absence of endogenous Beclin 1. Earlier studies have utilized multiple diverse methods to conclusively demonstrate that in starvation conditions cellular and γHV Bcl-2 homologs, including Bcl-X
+       <sub>
+        L
+       </sub>
+       and γHV68 M11, reduce autophagic flux by binding to Beclin 1 (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        40
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        52
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        54
+       </xref>
+       ). Therefore, here we monitored autophagy levels simply by quantifying the change in cellular localization of a GFP-tagged, transiently expressed mammalian autophagy-specific marker, LC3 (GFP-LC3) from a diffuse cytoplasmic distribution to localized punctae corresponding to autophagosomal structures (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ). Transient expression of Beclin 1 in MCF7 cells led to a marked increase in autophagy upon starvation (
+       <em>
+        p
+       </em>
+       = 0.00060 for starved
+       <em>
+        versus
+       </em>
+       nutrient-rich cells;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ,
+       <em>
+        B–D
+       </em>
+       ). Basal autophagy levels in nutrient-rich media are typically much lower and less consistent than in starvation conditions; therefore here we focus on the autophagy levels observed in starvation conditions. The levels of autophagy mediated by each Beclin 1 mutant tested was comparable to that mediated by WT Beclin 1 (ranging between
+       <em>
+        p
+       </em>
+       = 0.10915 and 0.93428 for mutants
+       <em>
+        versus
+       </em>
+       WT Beclin 1;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        B
+       </em>
+       ).
+      </p>
+      <p>
+       The transient co-expression of either Bcl-X
+       <sub>
+        L
+       </sub>
+       or M11 was used to assay the ability of these homologs to down-regulate autophagy upon expression of each Beclin 1 single mutant (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ). Starvation-induced, Beclin 1-dependent autophagy is significantly down-regulated by expression of either Bcl-X
+       <sub>
+        L
+       </sub>
+       (
+       <em>
+        p
+       </em>
+       = 0.00033 for Bcl-X
+       <sub>
+        L
+       </sub>
+       <em>
+        versus
+       </em>
+       empty vector;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ) or M11 (
+       <em>
+        p
+       </em>
+       = 0.00434 for M11
+       <em>
+        versus
+       </em>
+       empty vector;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ), as has been previously shown (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ). We find that M11 down-regulates starvation-induced autophagy at least as potently as Bcl-X
+       <sub>
+        L
+       </sub>
+       (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ,
+       <em>
+        C
+       </em>
+       and
+       <em>
+        D
+       </em>
+       ), and in general, Beclin 1 BH3 domain mutations are less deleterious for the M11-mediated down-regulation of Beclin 1-dependent autophagy.
+      </p>
+      <p>
+       Under starvation conditions, Bcl-X
+       <sub>
+        L
+       </sub>
+       down-regulates autophagy mediated by the K117A Beclin 1 mutant as effectively as that mediated by WT Beclin 1 (
+       <em>
+        p
+       </em>
+       = 0.50430 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ). However, Bcl-X
+       <sub>
+        L
+       </sub>
+       -mediated down-regulation of autophagy is less pronounced upon expression of L112A (
+       <em>
+        p
+       </em>
+       = 0.06209 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1) or G120E (
+       <em>
+        p
+       </em>
+       = 0.01190 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1) Beclin 1 mutants (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ). Among the Beclin 1 single mutants, the most substantial abrogation of Bcl-X
+       <sub>
+        L
+       </sub>
+       -mediated down-regulation of autophagy was observed upon expression of the mutants F123A (
+       <em>
+        p
+       </em>
+       = 0.00246 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1) and L116A (
+       <em>
+        p
+       </em>
+       = 0.00212 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ).
+      </p>
+      <p>
+       Similar to Bcl-X
+       <sub>
+        L
+       </sub>
+       , expression of the Beclin 1 K117A mutant (
+       <em>
+        p
+       </em>
+       = 0.15725 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1) did not affect M11-mediated down-regulation of autophagy (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ). M11-mediated autophagy down-regulation is significantly weaker upon expression of the mutants F123A (
+       <em>
+        p
+       </em>
+       = 0.01070 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1) and L112A (
+       <em>
+        p
+       </em>
+       = 0.00065 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1). The most substantial abrogation of M11-mediated autophagy down-regulation is observed when L116A mutant Beclin 1 was expressed (
+       <em>
+        p
+       </em>
+       = 0.04316 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1).
+      </p>
+      <p>
+       Surprisingly however, and contrary to expectations from structural analysis, M11 effectively down-regulates autophagy upon expression of the G120E single mutant (
+       <em>
+        p
+       </em>
+       = 0.03131 for mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1). Despite the previous cellular co-immunoprecipitation assays showing that a Beclin 1 G120A/D121A mutant binds to M11 (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ), we expected that the mutation of G120 to the large and negatively charged Glu residue would disrupt binding to both Bcl-X
+       <sub>
+        L
+       </sub>
+       and M11, consequently abrogating the down-regulation of autophagy by these Bcl-2 homologs. However, our data indicate that unlike Bcl-X
+       <sub>
+        L
+       </sub>
+       (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ), the M11 binding site accommodates the Glu side chain, allowing M11 to effectively down-regulate autophagy mediated by G120E Beclin 1 (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ).
+      </p>
+      <p>
+       Therefore, we further examined the role of Asp
+       <sup>
+        121
+       </sup>
+       in the context of the G120E mutation by assaying the ability of Bcl-X
+       <sub>
+        L
+       </sub>
+       and M11 to down-regulate autophagy mediated by a G120E/D121A Beclin 1 double mutant. As expected, expression of the G120E/D121A double mutant resulted in abrogation of Bcl-X
+       <sub>
+        L
+       </sub>
+       -mediated autophagy down-regulation (
+       <em>
+        p
+       </em>
+       = 0.00079 for double mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1), comparable to the effect seen upon expression of the L116A mutant Beclin 1 (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ). However, in complete contrast to Bcl-X
+       <sub>
+        L
+       </sub>
+       , M11 effectively down-regulates autophagy mediated by the G120E/D121A Beclin 1 double mutant (
+       <em>
+        p
+       </em>
+       = 0.22842 for double mutant
+       <em>
+        versus
+       </em>
+       WT Beclin 1;
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ). Thus, the G120E mutation enables selective inhibition of autophagy by M11.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Identification of Peptides That Bind to M11, but Not to Bcl-X
+       <sub>
+        L
+       </sub>
+       .
+      </title>
+      <p>
+       We used ITC to quantify and compare binding of a systematic set of Beclin 1 BH3 domain-derived peptides whose residues are numbered according to the Beclin 1 sequence. In general, each residue substitution impacted binding to Bcl-X
+       <sub>
+        L
+       </sub>
+       more than to M11, with the different substitutions having very diverse thermodynamic effects on binding to either M11 or Bcl-X
+       <sub>
+        L
+       </sub>
+       (
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ). All substitutions weakened binding to Bcl-X
+       <sub>
+        L
+       </sub>
+       , but not to M11, and the binding affinity was generally consistent with results monitoring the effect of these mutations on down-regulation of autophagy by Bcl-X
+       <sub>
+        L
+       </sub>
+       and M11. The L112A substitution weakened binding to Bcl-X
+       <sub>
+        L
+       </sub>
+       to barely detectable levels but reduced binding to M11 by only ∼3-fold. Similarly, the F123A substitution weakened binding to Bcl-X
+       <sub>
+        L
+       </sub>
+       by ∼200-fold and to M11 by ∼4-fold, although the equivalent mutation in Beclin 1 had a more dramatic impact on the down-regulation of cellular autophagy by M11, suggesting that this mutation is more deleterious in the context of full-length Beclin 1 interactions in the cell (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ). Interestingly, although relative to the WT BH3 domain, the K117A peptide bound with ∼10-fold weaker affinity to Bcl-X
+       <sub>
+        L
+       </sub>
+       , it actually bound with ∼2-fold tighter affinity to M11 (
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ). Lastly, no single substitution abolished binding to M11, but three single substitutions, L116A, G120E, and D121A, abrogated binding to Bcl-X
+       <sub>
+        L
+       </sub>
+       . The L116A and G120E substitutions were also the most deleterious for binding to M11, reducing binding affinity for M11 more than 120- and 26-fold, respectively (
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ), but binding to M11 seems unaffected by the D121A substitution.
+      </p>
+      <p>
+       Contrary to initial expectations based on the structure of the WT BH3 domain bound to M11, but consistent with the cellular autophagy assays, the G120E and D121A peptides are still able to bind to M11 (
+       <a>
+        <span>
+         Table 3
+        </span>
+       </a>
+       ). Therefore, we quantified and compared the ability of a G120E/D121A double-substituted peptide (DS peptide) to bind to Bcl-X
+       <sub>
+        L
+       </sub>
+       and M11. Consistent with our cellular experiments in the previous section, the DS peptide does not bind to Bcl-X
+       <sub>
+        L
+       </sub>
+       , but importantly, it binds to M11 with ∼5.7-fold better affinity compared with the G120E peptide and only ∼4.7-fold weaker affinity compared with the WT BH3 domain. Thus, in the context of the G120E substitution, the removal of the carboxylate group at the 121 position improves binding.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structure of the DS Peptide Bound to M11
+      </title>
+      <p>
+       To elucidate the mechanism by which M11 is able to bind the DS peptide, we determined the x-ray crystal structure of the M11-DS peptide complex to 2.1 Å resolution. Residues altered in the DS peptide, Glu
+       <sup>
+        120
+       </sup>
+       and Ala
+       <sup>
+        121
+       </sup>
+       , have very well defined electron density (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        A
+       </em>
+       ). Both the DS peptide (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        A
+       </em>
+       ) and the WT BH3 domain (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        B
+       </em>
+       ) bind by a similar mode within the M11 hydrophobic surface groove. The two complexes superimpose with an RMSD of 0.451 Å over 148 Cα atoms, indicating that they are fairly similar, although the superposition is somewhat worse than that of the two complexes within the asymmetric units of structures of either the M11-DS peptide complex (0.162 Å) or the WT BH3 domain complex (0.031 Å). Despite this similarity of interaction, the surface area of each molecule buried in the interaction interface is significantly reduced in the M11-DS peptide complex, to 868 Å
+       <sup>
+        2
+       </sup>
+       , compared with 978 Å
+       <sup>
+        2
+       </sup>
+       in the M11-WT BH3 domain complex. This reduced buried surface area likely accounts for the reduced binding affinity of the DS peptide and is the result of the substantial main chain shifts and side chain movements in the bound DS peptide relative to the WT BH3 domain, as well as subtle compensatory side chain changes in M11 that facilitate binding of the DS peptide.
+      </p>
+      <fig id="F4" position="float">
+       <label>
+        FIGURE 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          Stereo view of complexes of M11 bound to DS peptide (
+          <em>
+           A
+          </em>
+          ) and WT BH3 domain (
+          <em>
+           B
+          </em>
+          ) (Protein Data Bank code
+          <span>
+           3DVU
+          </span>
+          ).
+         </strong>
+         Atoms are colored by type as in
+         <xref ref-type="fig">
+          Fig. 2
+         </xref>
+         , with M11 shown as molecular surface, whereas the DS peptide (
+         <em>
+          magenta
+         </em>
+         carbons) and WT BH3D (
+         <em>
+          teal
+         </em>
+         carbons) are displayed in atomic detail. The
+         <em>
+          blue mesh
+         </em>
+         represents the electron density contoured at 1 σ above the mean for a 1.6 Å radius around the peptide atoms from the 2
+         <em>
+          F
+         </em>
+         <sub>
+          o
+         </sub>
+         −
+         <em>
+          F
+         </em>
+         <sub>
+          c
+         </sub>
+         map at 2.1 Å for the DS peptide and at 2.5 Å for the WT BH3 domain complexes. Labels indicate residues substituted in the DS peptide.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       Separate superpositions of the M11 molecule in each complex indicate that there is limited conformational change in the M11 structure (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        A
+       </em>
+       ), with RMSDs of 0.38 Å over 130 Cα atoms. This superposition is slightly worse than superposition of two M11 subunits within the asymmetric unit of either the M11-DS peptide complex (0.17 Å) or the WT BH3 domain complex (0.03 Å) but lies within experimental error for these structures. Maximal M11 conformational change is seen not at the BH3 domain binding groove but rather at the flexible α1-α2 loop, which is distant from the binding site; however, this change is similar to conformational variation in this loop between different copies of the same complex present in the asymmetric unit of each crystal. Therefore, the conformational changes in this flexible loop do not relate to the binding of different peptides to M11.
+      </p>
+      <fig id="F5" position="float">
+       <label>
+        FIGURE 5.
+       </label>       <caption>
+        <p>
+         <strong>
+          Superposition of complexes of M11 bound to DS peptide and WT BH3D.
+         </strong>
+         <em>
+          A
+         </em>
+         , M11-DS peptide and M11-WT BH3 domain (Protein Data Bank code
+         <span>
+          3DVU
+         </span>
+         ) are aligned and colored by RMSD, with colors from
+         <em>
+          blue
+         </em>
+         to
+         <em>
+          red
+         </em>
+         corresponding to the range of pairwise RMSDs from a minimum of 0.07 to a maximum of 4.30. The M11 flexible loop located on the M11 face opposite the BH3 domain-binding groove was not included in these calculations and is colored
+         <em>
+          black
+         </em>
+         . Besides this loop, the most significant shift between the two complexes is observed in the C-terminal half of the peptide, as indicated by the
+         <em>
+          red color. B
+         </em>
+         , pairwise Cα shifts between DS peptide (
+         <em>
+          magenta
+         </em>
+         ) and WT BH3 domain (
+         <em>
+          teal
+         </em>
+         ). Atoms are color-coded as in
+         <xref ref-type="fig">
+          Fig. 4
+         </xref>
+         . Pairwise shifts between the WT BH3 domain and DS peptide are displayed in Å, with
+         <em>
+          superscript numbers
+         </em>
+         denoting residue numbers relative to the Beclin 1 BH3 domain.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       In contrast to M11, significant changes are seen between the bound DS peptide and WT BH3 domain conformations (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ). The bound WT and DS peptides superimpose with an RMSD of 0.99 Å over 18 Cα atoms, with the comparatively poorer alignment chiefly attributable to the shifted positions of residues 117–125. The identical N-terminal halves of the two peptides superimpose fairly well between the WT BH3 domain and DS peptide structures, with an RMSD of 0.38 Å over 9 Cα atoms. However, superposition of the C-terminal half is poorer, with an RMSD of 1.35 Å over 9 Cα atoms. Thus, binding to M11 is enabled by significant shifts of the DS peptide main chain, especially of its C-terminal half (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ), relative to WT BH3 domain.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Differences in the Interactions of M11 with the DS Peptide or the WT BH3 Domain
+      </title>
+      <p>
+       Peptide amino acids corresponding to BH3 domain residues Leu
+       <sup>
+        112
+       </sup>
+       and Leu
+       <sup>
+        116
+       </sup>
+       bind in similar locations in the DS peptide and WT BH3 domain complexes, with pairwise differences in the Cα positions being 0.4 and 0.5 Å, respectively (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ). The packing of Leu
+       <sup>
+        112
+       </sup>
+       is virtually identical in each complex, with Leu
+       <sup>
+        112
+       </sup>
+       being sandwiched between Met
+       <sup>
+        109
+       </sup>
+       and Leu
+       <sup>
+        116
+       </sup>
+       , which are approximately one helical turn away on each side within the peptide, and surrounded by a hydrophobic pocket lined by M11 residues Tyr
+       <sup>
+        60
+       </sup>
+       , Ala
+       <sup>
+        63
+       </sup>
+       , and Leu
+       <sup>
+        74
+       </sup>
+       . Similarly, in each complex Leu
+       <sup>
+        116
+       </sup>
+       is packed into a hydrophobic pocket lined by M11 residues Phe
+       <sup>
+        48
+       </sup>
+       , Tyr
+       <sup>
+        60
+       </sup>
+       , Leu
+       <sup>
+        78
+       </sup>
+       , and Val
+       <sup>
+        94
+       </sup>
+       , although there are some subtle differences in the atomic details of the interaction (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       ).
+      </p>
+      <fig id="F6" position="float">
+       <label>
+        FIGURE 6.
+       </label>       <caption>
+        <p>
+         <strong>
+          Stereo view showing details of M11 residue interactions with the DS peptide (
+          <em>
+           A
+          </em>
+          ) and the WT BH3 domain (
+          <em>
+           B
+          </em>
+          ) (Protein Data Bank code
+          <span>
+           3DVU
+          </span>
+          ).
+         </strong>
+         Bond lengths are shown for polar interactions. Atoms are color-coded as in
+         <xref ref-type="fig">
+          Fig. 5
+         </xref>
+         , and residue labels are color-coded by molecule.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       Starting at Lys
+       <sup>
+        117
+       </sup>
+       , there are incrementally increasing shifts in the DS peptide residue positions relative to those in the WT BH3 domain. The pairwise shift at Lys
+       <sup>
+        117
+       </sup>
+       Cα is 1.1 Å (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ), which enables additional interactions between Lys
+       <sup>
+        117
+       </sup>
+       and M11 in the DS peptide complex. The aliphatic part of Lys
+       <sup>
+        117
+       </sup>
+       packs against the aliphatic parts of M11 Asp
+       <sup>
+        81
+       </sup>
+       and Arg
+       <sup>
+        87
+       </sup>
+       in both complexes (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       ) but in the DS peptide complex also interacts with M11 Leu
+       <sup>
+        78
+       </sup>
+       and Ser
+       <sup>
+        77
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ). Further, although the Lys
+       <sup>
+        117
+       </sup>
+       amino group does not make any interactions in the WT complex (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ), in the DS complex it electrostatically bonds with the M11 Asp
+       <sup>
+        81
+       </sup>
+       carboxylate and hydrogen bonds the Ser
+       <sup>
+        77
+       </sup>
+       hydroxyl (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ). Similarly, the next peptide residue, Val
+       <sup>
+        118
+       </sup>
+       , is solvent-exposed and does not interact with M11 in the WT BH3 domain complex, but a 1.3 Å Cα shift (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ) at this position in the DS peptide complex results in packing against M11 Tyr
+       <sup>
+        56
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ). The following residue, Thr
+       <sup>
+        119
+       </sup>
+       , has a smaller Cα shift between the WT BH3 domain and DS peptide (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ), and maintains similar, but slightly different, interactions in both complexes, with the aliphatic parts of the side chain packed against M11 residues Phe
+       <sup>
+        48
+       </sup>
+       , Tyr
+       <sup>
+        52
+       </sup>
+       , and the His
+       <sup>
+        51
+       </sup>
+       main chain (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       ).
+      </p>
+      <p>
+       The next two residues are altered in the DS peptide: Glu
+       <sup>
+        120
+       </sup>
+       and Ala
+       <sup>
+        121
+       </sup>
+       , compared with Gly
+       <sup>
+        120
+       </sup>
+       and Asp
+       <sup>
+        121
+       </sup>
+       in the WT BH3 domain. The incremental shifts preceding these residues result in a shift of 1.1 Å at the Glu
+       <sup>
+        120
+       </sup>
+       Cα from the WT BH3 domain Gly
+       <sup>
+        120
+       </sup>
+       Cα position, and of a maximal shift of 2.0 Å at the Cα of residue 121. The Cα shift at residue 121 corresponds to approximately half a helical turn relative to the WT BH3 domain-M11 complex (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ). In the M11-WT BH3 domain complex (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ), the Gly
+       <sup>
+        120
+       </sup>
+       –Asp
+       <sup>
+        121
+       </sup>
+       main chain packs in an anti-parallel manner against the main chain of two conserved M11 residues: Gly
+       <sup>
+        86
+       </sup>
+       and Arg
+       <sup>
+        87
+       </sup>
+       . In contrast, in the M11-DS peptide complex (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ), Glu
+       <sup>
+        120
+       </sup>
+       extends across the M11 hydrophobic groove, with the aliphatic part of the side chain packed against the M11 Gly
+       <sup>
+        86
+       </sup>
+       main chain and the aliphatic parts of Arg
+       <sup>
+        87
+       </sup>
+       and Phe
+       <sup>
+        48
+       </sup>
+       , to make one salt bridge with M11 Arg
+       <sup>
+        87
+       </sup>
+       . Thus, the M11 binding groove accommodates the larger Glu side chain and stabilizes the altered Glu
+       <sup>
+        120
+       </sup>
+       by electrostatic interactions with the conserved M11 Arg
+       <sup>
+        87
+       </sup>
+       . Further, although in the WT BH3 domain complex (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ) the Asp
+       <sup>
+        121
+       </sup>
+       side chain is stabilized by packing against the aliphatic part of Arg
+       <sup>
+        87
+       </sup>
+       and a bidentate salt bridge to M11 Arg
+       <sup>
+        87
+       </sup>
+       , in the DS peptide complex (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ) Ala
+       <sup>
+        121
+       </sup>
+       makes no contacts with M11 and is completely solvent-exposed as a consequence of the main chain shifts.
+      </p>
+      <p>
+       Leu
+       <sup>
+        122
+       </sup>
+       , the peptide residue that follows the two altered residues, is also significantly shifted and has a completely different environment in the WT BH3 domain and DS peptide structures (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       ). In the WT peptide, Leu
+       <sup>
+        122
+       </sup>
+       is solvent-exposed and makes no contacts with M11 (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ), whereas in the DS peptide complex, it is shifted to pack against M11 His
+       <sup>
+        51
+       </sup>
+       and Val
+       <sup>
+        55
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ) with this interaction being accommodated by a rotation of the His
+       <sup>
+        51
+       </sup>
+       imidazole.
+      </p>
+      <p>
+       Pairwise Cα shifts between the M11-bound DS peptide and WT BH3 domain decrease to 0.7 Å at Phe
+       <sup>
+        123
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ), which allows the side chain to bind in equivalent M11 hydrophobic surface pockets comprised of residues Leu
+       <sup>
+        44
+       </sup>
+       , Glu
+       <sup>
+        47
+       </sup>
+       , Phe
+       <sup>
+        48
+       </sup>
+       , His
+       <sup>
+        51
+       </sup>
+       , Gly
+       <sup>
+        86
+       </sup>
+       , and Val
+       <sup>
+        89
+       </sup>
+       in each complex, but with an altered orientation of the Phe
+       <sup>
+        123
+       </sup>
+       aromatic ring and subtly different interactions with M11 (
+       <xref ref-type="fig">
+        Figs. 4
+       </xref>
+       and
+       <xref ref-type="fig">
+        None
+       </xref>
+       ). The relative shifts between the WT BH3 domain and DS peptide are retained at the Asp
+       <sup>
+        124
+       </sup>
+       Cα position (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ). This allows the aliphatic part of the Asp
+       <sup>
+        124
+       </sup>
+       side chain to pack against the M11 G86 Cα in both complexes. In addition, it packs against the aliphatic parts of M11 Asn
+       <sup>
+        84
+       </sup>
+       in the WT BH3 domain complex and against the peptide Glu
+       <sup>
+        120
+       </sup>
+       in the DS peptide complex. Further, the Asp
+       <sup>
+        124
+       </sup>
+       carboxylate group of the WT BH3 domain (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ) hydrogen bonds to the M11 Gly
+       <sup>
+        86
+       </sup>
+       amide, but a similar interaction is not seen in the DS peptide complex (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ).
+      </p>
+      <p>
+       Thus, the main chain shifts of the DS peptide enable the Glu
+       <sup>
+        120
+       </sup>
+       -M11 Arg
+       <sup>
+        87
+       </sup>
+       interaction and remove Ala
+       <sup>
+        121
+       </sup>
+       from M11 interactions. It is likely that the improved binding of M11 to the DS peptide, relative to the G120E peptide, is due to the elimination of the competition between the G120E and Asp
+       <sup>
+        121
+       </sup>
+       carboxylates for the M11 Arg
+       <sup>
+        87
+       </sup>
+       interaction and the helix strain associated with the binding of the latter peptide.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       A Cell-permeable DS Peptide Selectively Abrogates Down-regulation of Autophagy by M11, but Not by Bcl-X
+       <sub>
+        L
+       </sub>
+      </title>
+      <p>
+       Lastly, we investigated whether the DS peptide would specifically prevent M11-mediated, but not Bcl-X
+       <sub>
+        L
+       </sub>
+       -mediated, down-regulation of Beclin 1-dependent autophagy. To make the peptide cell-permeable, the transactivating HIV-1 transcriptional activator protein transduction domain (TAT), which is a cell-penetrating peptide previously shown to facilitate entry of extended polypeptides into mammalian cells under the conditions used here (
+       <xref ref-type="bibr">
+        55
+       </xref>
+       ), was attached via a diglycine linker to the N terminus of the DS peptide (TAT-DS peptide). As a control we also assayed the effect of a TAT-BH3 domain fused peptide (TAT-WT peptide) on M11-and Bcl-X
+       <sub>
+        L
+       </sub>
+       -mediated down-regulation of Beclin 1-dependent autophagy.
+      </p>
+      <p>
+       Treatment of Beclin 1-transfected MCF7 cells with the TAT-WT peptides did not significantly increase levels of autophagy in either nutrient-rich or starvation conditions (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       ). As expected, compared with untreated cells, TAT-WT peptide treatment markedly increases autophagy levels in cells that are transiently transfected with either M11 (
+       <em>
+        p
+       </em>
+       = 0.00194 for treated
+       <em>
+        versus
+       </em>
+       untreated cells;
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       ) or Bcl-X
+       <sub>
+        L
+       </sub>
+       (
+       <em>
+        p
+       </em>
+       = 0.00007 for treated
+       <em>
+        versus
+       </em>
+       untreated cells;
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       ). This suggests that the TAT-WT peptide binds to both M11 and Bcl-X
+       <sub>
+        L
+       </sub>
+       , preventing both Bcl-2 homologs from down-regulating Beclin 1-mediated autophagy.
+      </p>
+      <fig id="F7" position="float">
+       <label>
+        FIGURE 7.
+       </label>       <caption>
+        <p>
+         <strong>
+          Effect of TAT-DS peptide treatment on down-regulation of autophagy by Bcl-X
+          <sub>
+           L
+          </sub>
+          and M11.
+         </strong>
+         <em>
+          A
+         </em>
+         , light microscopy quantification of the number of discrete GFP-LC3 puncta per cell in GFP-positive MCF7 cells are co-transfected with GFP-LC3, WT Beclin 1, and either WT M11 or Bcl-X
+         <sub>
+          L
+         </sub>
+         and then treated with either no peptide, TAT-WT, or TAT-DS peptide.
+         <em>
+          B
+         </em>
+         , representative images of GFP-LC3 staining in these cells corresponding to cells that were untreated (
+         <em>
+          top row
+         </em>
+         ), TAT-WT treated (
+         <em>
+          middle row
+         </em>
+         ), and TAT-DS treated (
+         <em>
+          bottom row
+         </em>
+         ).
+        </p>
+       </caption>
+      </fig>
+      <p>
+       TAT-DS peptide treatment of MCF7 cells that express Beclin 1, but not Bcl-X
+       <sub>
+        L
+       </sub>
+       or M11, causes an insignificant elevation in autophagy levels relative to untreated cells (
+       <em>
+        p
+       </em>
+       = 0.20340 for treated
+       <em>
+        versus
+       </em>
+       untreated cells;
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       ). TAT-DS peptide treatment of cells that transiently express Bcl-X
+       <sub>
+        L
+       </sub>
+       in addition to Beclin 1 had an insignificant effect compared with untreated cells (
+       <em>
+        p
+       </em>
+       = 0.92294 for treated
+       <em>
+        versus
+       </em>
+       untreated cells;
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       ), presumably because the TAT-DS peptide does not bind to Bcl-X
+       <sub>
+        L
+       </sub>
+       and so does not prevent Bcl-X
+       <sub>
+        L
+       </sub>
+       from down-regulating autophagy. Strikingly, however, TAT-DS peptide treatment of cells that transiently express M11 in addition to Beclin 1 markedly increases autophagy levels compared with untreated cells (
+       <em>
+        p
+       </em>
+       = 0.042479 for treated
+       <em>
+        versus
+       </em>
+       untreated cells;
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       ), indicating that the TAT-DS peptide binds to M11, preventing M11 from down-regulating Beclin 1-mediated autophagy. Thus, the TAT-DS peptide inhibits M11-mediated down-regulation of autophagy, but not Bcl-X
+       <sub>
+        L
+       </sub>
+       -mediated down-regulation of autophagy.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    In this study we have shown that despite the similar general mode of binding of the Beclin 1 BH3 domain to M11 and Bcl-X
+    <sub>
+     L
+    </sub>
+    , the different residues lining the binding grooves of each homolog dictate differences in the atomic details and the thermodynamics of each interaction and consequently affect biological function. We detailed the effect of mutations on binding of the BH3 domain to two different Bcl-2 homologs, which combined with our structural information, helps illuminate the atomic bases of the differential specificity of these homologs for different BH3 domain-containing binding partners. We found that, consistent with the promiscuity of M11 and specificity of Bcl-X
+    <sub>
+     L
+    </sub>
+    for diverse BH3 domains, the M11 binding site accommodates more peptide residue substitutions than the binding sites of Bcl-X
+    <sub>
+     L
+    </sub>
+    or Bcl-2 (
+    <xref ref-type="bibr">
+     42
+    </xref>
+    ). These changes are accommodated chiefly by subtle M11 side chain conformational changes that allow for more dramatic changes in the bound peptide, which enable alternate interactions with M11. Either the G120E or D121A mutation is sufficient for preventing binding to Bcl-X
+    <sub>
+     L
+    </sub>
+    or Bcl-2 (
+    <xref ref-type="bibr">
+     42
+    </xref>
+    ), suggesting that unlike for M11, Bcl-2 and Bcl-X
+    <sub>
+     L
+    </sub>
+    cannot accommodate a large side chain at the Gly
+    <sup>
+     120
+    </sup>
+    position and that the salt bridge formed with Arg
+    <sup>
+     87
+    </sup>
+    of Bcl-X
+    <sub>
+     L
+    </sub>
+    is critical for binding to Bcl-X
+    <sub>
+     L
+    </sub>
+    and Bcl-2, but not to M11. Based on superpositions of the complexes of M11-DS peptide, M11-WT BH3 domain, and Bcl-X
+    <sub>
+     L
+    </sub>
+    -WT BH3 domain, it appears that the peptide shifts observed in the M11-DS peptide complex, which enable the G120E to interact with Arg
+    <sup>
+     87
+    </sup>
+    , would not be easily accommodated in Bcl-X
+    <sub>
+     L
+    </sub>
+    . For instance, an obvious steric clash would occur between the Leu
+    <sup>
+     122
+    </sup>
+    main chain of the shifted DS peptide and the Bcl-X
+    <sub>
+     L
+    </sub>
+    R100, whose conformation is stabilized by salt bridge networks (
+    <xref ref-type="bibr">
+     56
+    </xref>
+    ). This information adds significantly to our understanding of interactions between Bcl-2 homologs and BH3 domain-containing proteins, explaining how mutated or diverse BH3 domains may be bound by one homolog and not another, thus also adding to our repertoire of information on protein-protein interactions in general.
+   </p>
+   <p>
+    Consistent with our expectations, we were able to exploit the subtle differences in binding by M11 and Bcl-X
+    <sub>
+     L
+    </sub>
+    to design specific inhibitors of M11 that abrogate M11 function in cells. Our results provide a tool to directly target M11-BH3 domain interactions in cellular studies. The selective peptide inhibitor identified in this study will be useful in studying the role of M11 at different stages of the γHV68 life-cycle, by treating virus-infected cells with the peptide at different time points and assaying the effects on viral infection.
+    <em>
+     In vivo
+    </em>
+    studies in mice may require the development of more bio-stable small molecules. The structural information presented here will be invaluable for the future rational design of such small molecules that can selectively inhibit M11, but do not affect cellular Bcl-2 homologs. Although a general M11-specific inhibitor would help elucidate the general function of M11, a specific inhibitor that selectively inhibits only the γHV Bcl-2-Beclin 1 interaction would remove only the γHV blockade of autophagy and therefore would be an extremely useful tool to study the role of autophagy in regulating γHV infections.
+   </p>
+   <p>
+    Lastly, this study also elucidates methods that may allow us to identify determinants specific for binding to other Bcl-2 homologs, especially those from other γHVs such as KSHV and Epstein-Barr virus. Such studies will provide basic mechanistic explanations about their ability to bind to diverse BH3 domain-containing proteins, and consequently their ability to differentially regulate various pathways, and may further enable us to design inhibitors that specifically target these proteins. Thus, this research will substantially assist and inform future research on the pathogenesis of infections caused by γHVs. Ultimately, such small molecule inhibitors may even form the basis of novel therapeutics to treat γHV infection, which currently cannot be cured, by promoting the autophagic degradation of viruses, apoptotic destruction of infected host cells, and/or restoration of the tumor suppressor activity of Beclin 1.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Roizman B., Pellet P. E. (2001)
+      <span>
+       The family herpesviridae. A brief introduction
+      </span>
+      . In
+      <span>
+       Field's Virology
+      </span>
+      (Knipe D. M., Howley P. M., editors. , eds) pp. 2381–2398, Lippincott Williams &amp; Wilkins, Philadelphia, PA
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Tarakanova V. L., Suarez F., Tibbetts S. A., Jacoby M. A., Weck K. E., Hess J. L., Speck S. H., Virgin H. W. (2005)
+      <span>
+       Murine gammaherpesvirus 68 infection is associated with lymphoproliferative disease and lymphoma in BALB beta2 microglobulin-deficient mice
+      </span>
+      .
+      <span>
+       J. Virol
+      </span>
+      .
+      <span>
+       79
+      </span>
+      , 14668–14679
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Gangappa S., van Dyk L. F., Jewett T. J., Speck S. H., Virgin H. W. (2002)
+      <span>
+       Identification of the
+       <em>
+        in vivo
+       </em>
+       role of a viral Bcl-2
+      </span>
+      .
+      <span>
+       J. Exp. Med
+      </span>
+      .
+      <span>
+       195
+      </span>
+      , 931–940
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Cuconati A., White E. (2002)
+      <span>
+       Viral homologs of Bcl-2. Role of apoptosis in the regulation of virus infection
+      </span>
+      .
+      <span>
+       Genes Dev
+      </span>
+      .
+      <span>
+       16
+      </span>
+      , 2465–2478
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Vaux D. L., Cory S., Adams J. M. (1988)
+      <span>
+       Bcl-2 gene promotes haemopoietic cell survival and cooperates with c-myc to immortalize pre-B cells
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       335
+      </span>
+      , 440–442
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      McDonnell T. J., Deane N., Platt F. M., Nunez G., Jaeger U., McKearn J. P., Korsmeyer S. J. (1989)
+      <span>
+       <em>
+        bcl-2
+       </em>
+       -immunoglobulin transgenic mice demonstrate extended B cell survival and follicular lymphoproliferation
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       57
+      </span>
+      , 79–88
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Reed J. C. (1998)
+      <span>
+       Bcl-2 family proteins
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       17
+      </span>
+      , 3225–3236
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Danial N. N., Korsmeyer S. J. (2004)
+      <span>
+       Cell death. Critical control points
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       116
+      </span>
+      , 205–219
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Hardwick J. M. (1998)
+      <span>
+       Viral interference with apoptosis
+      </span>
+      .
+      <span>
+       Semin. Cell. Dev. Biol
+      </span>
+      .
+      <span>
+       9
+      </span>
+      , 339–349
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Benedict C. A., Norris P. S., Ware C. F. (2002)
+      <span>
+       To kill or be killed. Viral evasion of apoptosis
+      </span>
+      .
+      <span>
+       Nat. Immunol
+      </span>
+      .
+      <span>
+       3
+      </span>
+      , 1013–1018
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Sarid R., Sato T., Bohenzky R. A., Russo J. J., Chang Y. (1997)
+      <span>
+       Kaposi's sarcoma-associated herpesvirus encodes a functional
+       <em>
+        bcl-2
+       </em>
+       homologue
+      </span>
+      .
+      <span>
+       Nat. Med
+      </span>
+      .
+      <span>
+       3
+      </span>
+      , 293–298
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Ojala P. M., Tiainen M., Salven P., Veikkola T., Castaños-Vélez E., Sarid R., Biberfeld P., Mäkelä T. P. (1999)
+      <span>
+       Kaposi's sarcoma-associated herpesvirus-encoded v-cyclin triggers apoptosis in cells with high levels of cyclin-dependent kinase 6
+      </span>
+      .
+      <span>
+       Cancer Res
+      </span>
+      .
+      <span>
+       59
+      </span>
+      , 4984–4989
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Cheng E. H., Nicholas J., Bellows D. S., Hayward G. S., Guo H.-G., Reitz M. S., Hardwick J. M. (1997)
+      <span>
+       A Bcl-2 homolog encoded by Kaposi's sarcoma-associated virus, human herpesvirus 8, inhibits apoptosis but does not heterodimerize with Bax or Bak
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       94
+      </span>
+      , 690–694
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Henderson S., Huen D., Rowe M., Dawson C., Johnson G., Rickinson A. (1993)
+      <span>
+       Epstein-Barr virus-encoded BHRF1 protein, a viral homologue of Bcl-2, protects human B-cells from programmed cell death
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       90
+      </span>
+      , 8479–8483
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Foghsgaard L., Jäättelä M. (1997)
+      <span>
+       The ability of BHRF1 to inhibit apoptosis is dependent on stimulus and cell type
+      </span>
+      .
+      <span>
+       J. Virol
+      </span>
+      .
+      <span>
+       71
+      </span>
+      , 7509–7517
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Marshall W. L., Yim C., Gustafson E., Graf T., Sage D. R., Hanify K., Williams L., Fingeroth J., Finberg R. W. (1999)
+      <span>
+       Epstein-Barr virus encodes a novel homolog of the Bcl-2 oncogene that inhibits apoptosis and associates with Bax and Bak
+      </span>
+      .
+      <span>
+       J. Virol
+      </span>
+      .
+      <span>
+       73
+      </span>
+      , 5181–5185
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Theodorakis P., D'Sa-Eipper C., Subramanian T., Chinnadurai G. (1996)
+      <span>
+       Unmasking of a proliferation-restraining activity of the anti-apoptosis protein EBV BHRF1
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       12
+      </span>
+      , 1707–1713
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Wang G.-H., Garvey T. L., Cohen J. I. (1999)
+      <span>
+       The murine gammaherpesvirus-68 M11 protein inhibits Fas- and TNF- induced apoptosis
+      </span>
+      .
+      <span>
+       J. Gen. Virol
+      </span>
+      .
+      <span>
+       80
+      </span>
+      , 2737–2740
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Loh J., Huang Q., Petros A. M., Nettesheim D., van Dyk L. F., Labrada L., Speck S. H., Levine B., Olejniczak E. T., Virgin H. W. (2005)
+      <span>
+       A surface groove essential for viral Bcl-2 function during chronic infection
+       <em>
+        in vivo
+       </em>
+      </span>
+      .
+      <span>
+       PLoS Pathog
+      </span>
+      .
+      <span>
+       1
+      </span>
+      , e10.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Pattingre S., Tassa A., Qu X., Garuti R., Liang X. H., Mizushima N., Packer M., Schneider M. D., Levine B. (2005)
+      <span>
+       Bcl-2 antiapoptotic proteins inhibit Beclin 1-dependent autophagy
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       122
+      </span>
+      , 927–939
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Ku B., Woo J.-S., Liang C., Lee K.-H., Hong H.-S., Xiaofei E., Kim K.-S., Jung J. U., Oh B.-H. (2008)
+      <span>
+       Structural and biochemical bases for the inhibition of autophagy and apoptosis by viral Bcl-2 of murine γ-Herpesvirus 68
+      </span>
+      .
+      <span>
+       PLoS Pathog
+      </span>
+      .
+      <span>
+       4
+      </span>
+      , e25.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Sinha S., Colbert C. L., Becker N., Wei Y., Levine B. (2008)
+      <span>
+       Molecular basis of the regulation of Beclin 1-dependent autophagy by the γ-herpesvirus 68 Bcl-2 homolog M11
+      </span>
+      .
+      <span>
+       Autophagy
+      </span>
+      <span>
+       4
+      </span>
+      , 989–997
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Wei Y., Sinha S., Levine B. (2008)
+      <span>
+       Dual role of JNK1-mediated phosphorylation of Bcl-2 in autophagy and apoptosis regulation
+      </span>
+      .
+      <span>
+       Autophagy
+      </span>
+      <span>
+       4
+      </span>
+      , 949–951
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Levine B., Sinha S., Kroemer G. (2008)
+      <span>
+       Bcl-2 family members. Dual regulators of apoptosis and autophagy
+      </span>
+      .
+      <span>
+       Autophagy
+      </span>
+      <span>
+       4
+      </span>
+      , 600–606
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Maiuri M. C., Criollo A., Kroemer G. (2010)
+      <span>
+       Crosstalk between apoptosis and autophagy within the Beclin 1 interactome
+      </span>
+      .
+      <span>
+       EMBO J
+      </span>
+      .
+      <span>
+       29
+      </span>
+      , 515–516
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Kang R., Zeh H. J., Lotze M. T., Tang D. (2011)
+      <span>
+       The Beclin 1 network regulates autophagy and apoptosis
+      </span>
+      .
+      <span>
+       Cell Death Differ
+      </span>
+      .
+      <span>
+       18
+      </span>
+      , 571–580
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Su M., Mei Y., Sinha S. (2013)
+      <span>
+       Role of the crosstalk between autophagy and apoptosis in cancer
+      </span>
+      .
+      <span>
+       J. Oncol
+      </span>
+      .
+      <span>
+       2013
+      </span>
+      , 102735.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Muchmore S. W., Sattler M., Liang H., Meadows R. P., Harlan J. E., Yoon H. S., Nettesheim D., Chang B. S., Thompson C. B., Wong S. L., Ng S. L., Fesik S. W. (1996)
+      <span>
+       X-ray and NMR structure of human Bcl-X
+       <sub>
+        L
+       </sub>
+       , an inhibitor of programmed cell death
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       381
+      </span>
+      , 335–341
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Liu X., Dai S., Zhu Y., Marrack P., Kappler J. W. (2003)
+      <span>
+       The structure of a Bcl-x
+       <sub>
+        L
+       </sub>
+       /Bim fragment complex. Implications for Bim function
+      </span>
+      .
+      <span>
+       Immunity
+      </span>
+      <span>
+       19
+      </span>
+      , 341–352
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Petros A. M., Nettesheim D. G., Wang Y., Olejniczak E. T., Meadows R. P., Mack J., Swift K., Matayoshi E. D., Zhang H., Thompson C. B., Fesik S. W. (2000)
+      <span>
+       Rationale for Bcl-x
+       <sub>
+        L
+       </sub>
+       /BAD peptide complex formation from structure, mutagenesis, and biophysical methods
+      </span>
+      .
+      <span>
+       Protein Sci
+      </span>
+      .
+      <span>
+       9
+      </span>
+      , 2528–2534
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Sattler M., Liang H., Nettesheim D., Meadows R. P., Harlan J. E., Eberstadt M., Yoon H. S., Shuker S. B., Chang B. S., Minn A. J., Thompson C. B., Fesik S. W. (1997)
+      <span>
+       Structure of the Bcl-X
+       <sub>
+        L
+       </sub>
+       -Bak peptide complex. Recognition between regulators of apoptosis
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       275
+      </span>
+      , 983–986
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Huang Q., Petros A. M., Virgin H. W., Fesik S. W., Olejniczak E. T. (2002)
+      <span>
+       Solution structure of a Bcl-2 homolog from Kaposi sarcoma virus
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       99
+      </span>
+      , 3428–3433
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Huang Q., Petros A. M., Virgin H. W., Fesik S. W., Olejniczak E. T. (2003)
+      <span>
+       Solution structure of the BHRF1 protein from Epstein-Barr virus, a homolog of human Bcl-2
+      </span>
+      .
+      <span>
+       J. Mol. Biol
+      </span>
+      .
+      <span>
+       332
+      </span>
+      , 1123–1130
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Chen L., Willis S. N., Wei A., Smith B. J., Fletcher J. I., Hinds M. G., Colman P. M., Day C. L., Adams J. M., Huang D. C. (2005)
+      <span>
+       Differential targeting of prosurvival Bcl-2 proteins by their BH3-only ligands allows complementary apoptotic funciton
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       17
+      </span>
+      , 393–403
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      DeBartolo J., Dutta S., Reich L., Keating A. E. (2012)
+      <span>
+       Predictive Bcl-2 family binding models rooted in experiment or structure
+      </span>
+      .
+      <span>
+       J. Mol. Biol
+      </span>
+      .
+      <span>
+       422
+      </span>
+      , 124–144
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Oberstein A., Jeffrey P. D., Shi Y. (2007)
+      <span>
+       Crystal structure of the Bcl-XL-Beclin 1 peptide complex. Beclin 1 is a novel BH3-only protein
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       282
+      </span>
+      , 13123–13132
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Feng W., Huang S., Wu H., Zhang M. (2007)
+      <span>
+       Molecular basis of Bcl-X
+       <sub>
+        L
+       </sub>
+       's target recognition versatility revealed by the structure of Bcl-X
+       <sub>
+        L
+       </sub>
+       in complex with the BH3 domain of Beclin-1
+      </span>
+      .
+      <span>
+       J. Mol. Biol
+      </span>
+      .
+      <span>
+       372
+      </span>
+      , 223–235
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Sinha S., Levine B. (2008)
+      <span>
+       The autophagy effector Beclin 1. A novel BH3-only protein
+      </span>
+      .
+      <span>
+       Oncogene
+      </span>
+      <span>
+       27
+      </span>
+      , S137–S148
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Liang X. H., Kleeman L. K., Jiang H. H., Gordon G., Goldman J. E., Berry G., Herman B., Levine B. (1998)
+      <span>
+       Protection against fatal Sindbis virus encephalitis by Beclin 1, a novel Bcl-2-interacting protein
+      </span>
+      .
+      <span>
+       J. Virol
+      </span>
+      .
+      <span>
+       72
+      </span>
+      , 8586–8596
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Erlich S., Mizrachy L., Segev O., Lindenboim L., Zmira O., Adi-Harel S., Hirsch J. A., Stein R., Pinkas-Kramarski R. (2007)
+      <span>
+       Differential interactions between Beclin 1 and Bcl-2 family members
+      </span>
+      .
+      <span>
+       Autophagy
+      </span>
+      <span>
+       3
+      </span>
+      , 561–568
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Maiuri M. C., Le Toumelin G., Criollo A., Rain J. C., Gautier F., Juin P., Tasdemir E., Pierron G., Troulinaki K., Tavernarakis N., Hickman J. A., Geneste O., Kroemer G. (2007)
+      <span>
+       Functional and physical interaction between Bcl-X
+       <sub>
+        L
+       </sub>
+       and a BH3-like domain in Beclin-1
+      </span>
+      .
+      <span>
+       EMBO J
+      </span>
+      .
+      <span>
+       26
+      </span>
+      , 2527–2539
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Mei Y., Su M., Soni G., Salem S., Colbert C. L., Sinha S. C. (2013)
+      <span>
+       Intrinsically disordered regions in autophagy proteins
+      </span>
+      .
+      <span>
+       Proteins
+      </span>
+      10.1002/prot.24424
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        Cross Ref
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Otwinowski Z., Minor W. (1997)
+      <span>
+       Processing of x-ray diffraction data collected in oscillation mode
+      </span>
+      .
+      <span>
+       Methods Enzymol
+      </span>
+      .
+      <span>
+       276
+      </span>
+      , 307–326
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Kissinger C. R., Gehlhaar D. K., Fogel D. B. (1999)
+      <span>
+       Rapid automated molecular replacement by evolutionary search
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       55
+      </span>
+      , 484–491
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Emsley P., Lohkamp B., Scott W. G., Cowtan K. (2010)
+      <span>
+       Features and development of
+       <em>
+        Coot
+       </em>
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       66
+      </span>
+      , 486–501
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Brünger A. T., Adams P. D., Clore G. M., DeLano W. L., Gros P., Grosse-Kunstleve R. W., Jiang J. S., Kuszewski J., Nilges M., Pannu N. S., Read R. J., Rice L. M., Simonson T., Warren G. L. (1998)
+      <span>
+       Crystallography &amp; NMR system (CNS). A new software suite for macromolecular structure determination
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       54
+      </span>
+      , 905–921
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Krissinel E., Henrick K. (2007)
+      <span>
+       Inference of macromolecular assemblies from crystalline state
+      </span>
+      .
+      <span>
+       J. Mol. Biol
+      </span>
+      .
+      <span>
+       372
+      </span>
+      , 774–797
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Moroy G., Martin E., Dejaegere A., Stote R. H. (2009)
+      <span>
+       Molecular basis for Bcl-2 homology 3 domain recognition in the Bcl-2 protein family. Identification of conserved hot spot interactions
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       284
+      </span>
+      , 17499–17511
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Liang X. H., Jackson S., Seaman M., Brown K., Kempkes B., Hibshoosh H., Levine B. (1999)
+      <span>
+       Induction of autophagy and inhibition of tumorigenesis by Beclin 1
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       402
+      </span>
+      , 672–676
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Liang X. H., Yu J., Brown K., Levine B. (2001)
+      <span>
+       Beclin 1 contains a leucine-rich nuclear export signal that is required for its autophagy and tumor suppressor function
+      </span>
+      .
+      <span>
+       Cancer Res
+      </span>
+      .
+      <span>
+       61
+      </span>
+      , 3443–3449
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Furuya N., Yu J., Byfield M., Pattingre S., Levine B. (2005)
+      <span>
+       The evolutionarily conserved domain of Beclin 1 is required for Vps34 binding, autophagy and tumor suppressor function
+      </span>
+      .
+      <span>
+       Autophagy
+      </span>
+      <span>
+       1
+      </span>
+      , 46–52
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Wei Y., Pattingre S., Sinha S., Bassik M., Levine B. (2008)
+      <span>
+       JNK1-mediated phosphorylation of Bcl-2 regulates starvation-induced autophagy
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      .
+      <span>
+       30
+      </span>
+      , 678–688
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Ku B., Woo J.-S., Liang C., Lee K.-H., Jung J. U., Oh B.-H. (2008)
+      <span>
+       An insight into the mechanistic role of Beclin 1 and its inhibition by prosurvival Bcl-2 family proteins
+      </span>
+      .
+      <span>
+       Autophagy
+      </span>
+      <span>
+       4
+      </span>
+      , 519–520
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Pattingre S., Bauvy C., Levade T., Levine B., Codogno P. (2009)
+      <span>
+       Ceramide-induced autophagy. To junk or to protect cells?
+      </span>
+      <span>
+       Autophagy
+      </span>
+      <span>
+       5
+      </span>
+      , 558–560
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Shoji-Kawata S., Sumpter R., Leveno M., Campbell G. R., Zou Z., Kinch L., Wilkins A. D., Sun Q., Pallauf K., MacDuff D., Huerta C., Virgin H. W., Helms J. B., Eerland R., Tooze S. A., Xavier R., Lenschow D. J., Yamamoto A., King D., Lichtarge O., Grishin N. V., Spector S. A., Kaloyanova D. V., Levine B. (2013)
+      <span>
+       Identification of a candidate therapeutic autophagy-inducing peptide
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       494
+      </span>
+      , 201–206
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Maity A., Yadav S., Verma C. S., GhoshDastidar S. (2013)
+      <span>
+       Dynamics of Bcl-xL in water and membrane. Molecular simulations
+      </span>
+      .
+      <span>
+       PLoS One
+      </span>
+      <span>
+       8
+      </span>
+      , e76837.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

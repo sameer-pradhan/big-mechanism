@@ -1,0 +1,3248 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3133091
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    The Dimer Interface of Agrobacterium tumefaciens VirB8 Is Important for Type IV Secretion System Function, Stability, and Association of VirB2 with the Core Complex▿
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Type IV secretion systems are virulence factors used by many Gram-negative bacteria to translocate macromolecules across the cell envelope. VirB8 is an essential inner membrane component of type IV secretion systems, and it is believed to form a homodimer. In the absence of VirB8, the levels of several other VirB proteins were reduced (VirB1, VirB3, VirB4, VirB5, VirB6, VirB7, and VirB11) in
+     <em>
+      Agrobacterium tumefaciens
+     </em>
+     , underlining its importance for complex stability. To assess the importance of dimerization, we changed residues at the predicted dimer interface (V97, A100, Q93, and E94) in order to strengthen or to abolish dimerization. We verified the impact of the changes on dimerization
+     <em>
+      in vitro
+     </em>
+     with purified V97 variants, followed by analysis of the
+     <em>
+      in vivo
+     </em>
+     consequences in a complemented
+     <em>
+      virB8
+     </em>
+     deletion strain. Dimer formation was observed
+     <em>
+      in vivo
+     </em>
+     after the introduction of a cysteine residue at the predicted interface (V97C), and this variant supported DNA transfer, but the formation of elongated T pili was not detected by the standard pilus isolation technique. Variants with changes at V97 and A100 that weaken dimerization did not support type IV secretion system functions. The T-pilus component VirB2 cofractionated with high-molecular-mass core protein complexes extracted from the membranes, and the presence of VirB8 as well as its dimer interface were important for this association. We conclude that the VirB8 dimer interface is required for T4SS function, for the stabilization of many VirB proteins, and for targeting of VirB2 to the T-pilus assembly site.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    The oligomerization of proteins is often important for their stability, and a dynamic interplay between proteins and other macromolecules is necessary for cell functions. Type IV secretion (T4S) systems constitute an example of macromolecular assemblies comprising multiple protein oligomers that interact with each other during the complex assembly and function (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     37
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ). They are important determinants of virulence in many Gram-negative pathogens, e.g.,
+    <em>
+     Agrobacterium tumefaciens
+    </em>
+    ,
+    <em>
+     Bartonella henselae
+    </em>
+    ,
+    <em>
+     Bordetella pertussis
+    </em>
+    ,
+    <em>
+     Brucella
+    </em>
+    species,
+    <em>
+     Helicobacter pylori
+    </em>
+    , and
+    <em>
+     Legionella pneumophila
+    </em>
+    (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ). T4S systems span the inner and outer membrane and translocate proteins or DNA-protein complexes across the cell envelope. The best-characterized T4S model system is from the plant pathogen
+    <em>
+     A. tumefaciens
+    </em>
+    , and it translocates proteins and a single-stranded DNA–protein complex into plant cells (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     36
+    </xref>
+    ). T4S system assembly and functions are energized by three ATPases (VirB4, VirB11, and VirD4) that localize mainly in the cytoplasm, but they traverse the inner membrane and contact the core complex (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     42
+    </xref>
+    ). The core components (VirB3, VirB6, VirB7, VirB8, VirB9, VirB10, and VirB11) bridge the inner and outer membrane and are linked to the surface-exposed pilus components (VirB2 and VirB5) (
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). The interactions between individual VirB proteins were studied extensively, and models of T4S assembly have been proposed (
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). However, the information on the mechanistic contributions of individual proteins to T4S assembly and function is limited. The availability of high-resolution structures of VirB proteins has greatly advanced our ability to study mechanistic questions (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ), and we here exploit such information for analysis of the VirB8 protein.
+   </p>
+   <p>
+    VirB8 from
+    <em>
+     A. tumefaciens
+    </em>
+    is a bitopic inner-membrane protein comprising a cytoplasmic N-terminal domain (42 amino acids), followed by a transmembrane helix (20 amino acids) and a C-terminal domain in the periplasm (175 amino acids) (
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ). VirB8 was shown to interact with many other T4S proteins, such as VirB1, VirB4, VirB5, and VirB9 to VirB11 (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ), and it was proposed to be a nucleating factor enabling the assembly and polar localization of the T4S complex (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). More recently, it was shown to form a helical array in the cell envelope, suggesting that T4S system assembly may not occur in a strictly polar fashion (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ). We provided evidence for a model implying that the VirB8-VirB4 complex is required for the formation of a pilus preassembly complex comprising VirB2 and VirB5, followed by its incorporation into T pili (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ).
+   </p>
+   <p>
+    Analysis of the crystal structures of VirB8 from
+    <em>
+     Agrobacterium
+    </em>
+    and
+    <em>
+     Brucella
+    </em>
+    showed that they consist of four β-sheets and five α-helices, and their overall fold is similar to that of the nuclear transport factor 2 (NTF2) (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ). Analysis of the crystal structures,
+    <em>
+     in vitro
+    </em>
+    analyses with purified proteins, and assays with the bacterial two-hybrid system suggested that VirB8 forms a dimer (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     44
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ). We found that VirB8 dimer site residues are important for survival of
+    <em>
+     Brucella
+    </em>
+    in macrophages, suggesting that VirB8 dimerization is functionally relevant (
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ). Swapping of the transmembrane domain of
+    <em>
+     Brucella suis
+    </em>
+    VirB8 with the transmembrane domain from an
+    <em>
+     Escherichia coli
+    </em>
+    plasmid homolog (TraJ) resulted in a stronger dimer as assessed by the bacterial two-hybrid system. However, this chimeric protein was not able to complement the
+    <em>
+     virB8
+    </em>
+    gene deletion and had a dominant negative effect when expressed in wild-type
+    <em>
+     Brucella
+    </em>
+    (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     40
+    </xref>
+    ), suggesting that increased dimerization may be deleterious for T4S system function. Whereas dimerization is well documented, it was never demonstrated
+    <em>
+     in vivo
+    </em>
+    in the context of a functional T4S system, and its mechanistic contribution to T4S system function is not understood.
+   </p>
+   <p>
+    We here sought to understand the contribution of the VirB8 dimer site interface and of the dimerization process to T4S system assembly and function. To this end, we first analyzed the VirB8 crystal structures to predict residues that are likely required for dimerization. We then engineered selected dimer site variants of
+    <em>
+     Agrobacterium
+    </em>
+    VirB8 and verified the effects with purified proteins
+    <em>
+     in vitro
+    </em>
+    . Next, we complemented a
+    <em>
+     virB8
+    </em>
+    deletion strain with dimer site variants to assess the importance of dimerization for T4S system functions. To determine the impact of dimer site changes on T4S complex assembly, we analyzed the composition of detergent-extracted VirB protein complexes. Based on these results, we show that the VirB8 dimer site interface is important for different aspects of T4S system function.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    MATERIALS AND METHODS
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Bacterial strains and growth conditions.
+    </title>
+    <p>
+     <em>
+      E. coli
+     </em>
+     strains were grown at 37°C in LB medium (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ). The following antibiotics were added to the medium for plasmid propagation (carbenicillin [Car], 100 μg/ml; streptomycin [Str], 50 μg/ml; spectinomycin [Spc], 50 μg/ml; kanamycin [Kan], 50 μg/ml; erythromycin [Ery], 150 μg/ml).
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     lists all the strains and plasmids used in this study.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1.
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Bacterial strains and plasmids
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     <em>
+      E. coli
+     </em>
+     strain BL21star (λDE3) was cultivated by shaking at 200 rpm at 37°C in LB medium (1% tryptone, 0.5% yeast extract, 1% NaCl) to exponential phase (optical density at 600 nm [OD
+     <sub>
+      600
+     </sub>
+     ] of 0.4 to 0.8), at which point protein production was induced by the addition of 0.5 mM IPTG (isopropyl-β-
+     <span>
+      d
+     </span>
+     -thiogalactopyranoside). Subsequently, the overproduction continued under aerobic conditions at 26°C for 16 h.
+    </p>
+    <p>
+     <em>
+      A. tumefaciens
+     </em>
+     strains were cultivated for 12 h in YEB medium (0.5% beef extract, 0.5% peptone, 0.1% yeast extract, 0.5% sucrose, 2 mM MgSO
+     <sub>
+      4
+     </sub>
+     ) at 26°C. Virulence gene induction was conducted in AB glycerol minimal medium (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ) for 48 h in liquid culture or on AB agar plates for 3 days at 20°C by the addition of 200 μM acetosyringone (AS). Plasmid-borne genes were expressed by the addition of 0.5 mM IPTG. For conjugation experiments, AS was added at a concentration of 500 μM.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Construction of genes encoding protein variants and strains.
+    </title>
+    <p>
+     Standard methods were used for all DNA constructions (
+     <xref ref-type="bibr">
+      35
+     </xref>
+     ). The
+     <em>
+      A. tumefaciens
+     </em>
+     C58
+     <em>
+      virB7
+     </em>
+     and
+     <em>
+      virB8
+     </em>
+     genes were PCR amplified from plasmid pGK217, which contains the
+     <em>
+      virB
+     </em>
+     operon with specific oligonucleotides (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). Site-directed mutagenesis of the
+     <em>
+      virB8
+     </em>
+     gene was conducted using pT7-7StrepIIVirB7VirB8 as a template for inverse PCR with overlapping primers (
+     <xref ref-type="bibr">
+      3
+     </xref>
+     ) (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). The wild-type
+     <em>
+      virB7
+     </em>
+     and
+     <em>
+      virB8
+     </em>
+     genes and all the variants were then subcloned into
+     <em>
+      Agrobacterium
+     </em>
+     expression vector pTrc200 using EcoRI and BamHI restriction sites. Site-directed mutagenesis in the gene encoding
+     <em>
+      A. tumefaciens
+     </em>
+     periplasmic VirB8 (“ap” in protein names stands for
+     <span>
+      p
+     </span>
+     eriplasmic domain of
+     <span>
+      <em>
+       A
+      </em>
+     </span>
+     <em>
+      grobacterium
+     </em>
+     VirB8) were performed using pT7-7StrepIIVirB8ap as a template for inverse PCR.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2.
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Oligonucleotide sequences
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Functional analysis of T4S functions.
+    </title>
+    <p>
+     Experiments involving assessment of T4SS functions (T-pilus formation, conjugation, and tumor formation) were conducted as described before (
+     <xref ref-type="bibr">
+      25
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Analytical ultracentrifugation.
+    </title>
+    <p>
+     Sedimentation equilibrium studies were performed as described before (
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ). Briefly, 120 μl of StrepIIVirB8ap and variants were analyzed at three different concentrations (
+     <em>
+      A
+     </em>
+     <sub>
+      280
+     </sub>
+     of 0.1, 0.3, and 0.5) at 4°C and at three different rotor speeds (20,000, 24,000, and 28,000 rpm), respectively. The SEDENTERP program was used to calculate the partial specific volumes and solvent density of StrepIIVirB8ap and variants. The partial specific volumes and solvent densities of StrepIIVirB8ap and variants VirB8
+     <sup>
+      V97A
+     </sup>
+     , VirB8
+     <sup>
+      V97R
+     </sup>
+     , VirB8
+     <sup>
+      V97C
+     </sup>
+     , and VirB8
+     <sup>
+      V97T
+     </sup>
+     were 0.718 ml/g and 1.00925 g/ml, respectively. Calculation of the molar dissociation constant (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     ) was performed as described previously (
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ). The molar extinction coefficient for StrepIIVirB8ap and variants was 29,910 cm
+     <sup>
+      −1
+     </sup>
+     M
+     <sup>
+      −1
+     </sup>
+     .
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Isolation and fractionation of membrane proteins.
+    </title>
+    <p>
+     Detergent extraction of membranes from
+     <em>
+      A. tumefaciens
+     </em>
+     using 2% dodecyl-β-
+     <span>
+      d
+     </span>
+     -maltopyranoside (DDM) was carried out as previously specified (
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ). Blue native gel electrophoresis and gel filtration for fractionation of the isolated membrane proteins were performed as reported before (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Protein analysis.
+    </title>
+    <p>
+     The sample preparation for electrophoresis of proteins and cells was performed as described previously (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ). Laemmli gels were used for electrophoresis of proteins larger than 20 kDa, and the Schägger and von Jagow system was used for detection of proteins smaller than 20 kDa (
+     <xref ref-type="bibr">
+      33
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      43
+     </xref>
+     ). Western blotting was carried out using antisera specific for VirB proteins as per standard protocols (
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Purification of fusion proteins.
+    </title>
+    <p>
+     N-terminally StrepII-tagged proteins (StrepIIVirB8ap and derivatives) were purified as described previously (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Rationale and construction of
+     <em>
+      Agrobacterium
+     </em>
+     VirB8 dimer site variants.
+    </title>
+    <p>
+     There is only 29.2% sequence identity between
+     <em>
+      Brucella
+     </em>
+     and
+     <em>
+      Agrobacterium
+     </em>
+     VirB8, but their overall fold is very similar (
+     <xref ref-type="bibr">
+      5
+     </xref>
+     ). Analysis of the X-ray structure of periplasmic VirB8 of
+     <em>
+      Brucella
+     </em>
+     predicted that the region with the largest and most conserved crystal packing interaction is in the N terminus of VirB8, and the residues M102, Y105, and E214 were suggested to be involved in self-association (
+     <xref ref-type="bibr">
+      46
+     </xref>
+     ). Importantly, the follow-up work on variants of these residues showed a strong reduction of self-association in case of variants of M102 and Y105 (
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ). Expression of
+     <em>
+      Brucella
+     </em>
+     VirB8 did not complement an
+     <em>
+      A. tumefaciens virB8
+     </em>
+     deletion strain (not shown), and we therefore could not use the previously analyzed variants of the
+     <em>
+      Brucella
+     </em>
+     homolog (
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ) for this study. Therefore, we “transplanted” the dimer site changes that negatively impacted
+     <em>
+      Brucella
+     </em>
+     VirB8 functions to the
+     <em>
+      Agrobacterium
+     </em>
+     homolog, exploiting sequence alignments and the overall very similar structures (
+     <xref ref-type="bibr">
+      5
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      46
+     </xref>
+     ). The residues involved in dimerization of
+     <em>
+      Brucella
+     </em>
+     VirB8 (M102 and Y105) correspond to V97 and A100 in
+     <em>
+      Agrobacterium
+     </em>
+     VirB8, where they form part of the largest contact region. This region has predominantly hydrophobic character, and V97 and A100 from one VirB8 monomer are predicted to bind V97 and A100 of the second monomer of VirB8 (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ). In addition, it was proposed that a hydrogen bond between the Q93 of one and E94 of another monomer in the same hydrophobic region contributes to dimerization of
+     <em>
+      Agrobacterium
+     </em>
+     VirB8 (
+     <xref ref-type="bibr">
+      5
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Fig. 1.
+     </label>     <caption>
+      <p>
+       Ribbon diagrams of the periplasmic domain of
+       <em>
+        Agrobacterium
+       </em>
+       VirB8. The residues involved in dimerization are highlighted, and images were generated with MacPyMOL (
+       <a>
+        http://www.pymol.org
+       </a>
+       ) with structural information from the Protein Data Bank (
+       <a>
+        http://www.pdb.org
+       </a>
+       ) file PDB
+       <span>
+        2CC3
+       </span>
+       . (A) Residues postulated to be involved in dimerization in
+       <em>
+        Agrobacterium
+       </em>
+       VirB8 that were changed in this work. VirB8
+       <sup>
+        Q93
+       </sup>
+       and VirB8
+       <sup>
+        E94
+       </sup>
+       (postulated to form a hydrogen bond) are shown in blue, and hydrophobic residues VirB8
+       <sup>
+        V97
+       </sup>
+       and VirB8
+       <sup>
+        A100
+       </sup>
+       are shown in red and green, respectively. (B) Distance measurement of atoms that are in close proximity at the dimer interface of
+       <em>
+        Agrobacterium
+       </em>
+       VirB8.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Changes were introduced into the
+     <em>
+      virB8
+     </em>
+     gene that were predicted to destroy (VirB8
+     <sup>
+      V97A
+     </sup>
+     , VirB8
+     <sup>
+      V97R
+     </sup>
+     , VirB8
+     <sup>
+      A100V
+     </sup>
+     , VirB8
+     <sup>
+      A100R
+     </sup>
+     , VirB8
+     <sup>
+      Q93D
+     </sup>
+     , VirB8
+     <sup>
+      Q93E
+     </sup>
+     , VirB8
+     <sup>
+      E94K
+     </sup>
+     , VirB8
+     <sup>
+      E94Q
+     </sup>
+     ), to preserve (VirB8
+     <sup>
+      V97T
+     </sup>
+     ), and to restore (VirB8
+     <sup>
+      Q93E,E94Q
+     </sup>
+     , VirB8
+     <sup>
+      Q93D,E94K
+     </sup>
+     ) dimer formation based on the amino acid side chain length and charge properties as deduced from the X-ray structure. In addition, we sought to stabilize the VirB8-VirB8 interaction
+     <em>
+      in vivo
+     </em>
+     by introducing Cys residues at the dimer interface (VirB8
+     <sup>
+      V97C
+     </sup>
+     , VirB8
+     <sup>
+      Q93C,E94C
+     </sup>
+     ) that would oxidate if they were closely juxtaposed in the periplasm (
+     <xref ref-type="bibr">
+      34
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     The dimer site residues of VirB8 are required for T-pilus formation and substrate transfer.
+    </title>
+    <p>
+     The functionality of VirB8 variants was determined next using a series of assays for the functionality of the T4S in
+     <em>
+      A. tumefaciens
+     </em>
+     . First, surface-exposed T pili were isolated from the cells by shearing, followed by ultracentrifugation, and the major pilus component VirB2 and the minor component VirB5 were detected by SDS-PAGE and Western blotting. This method detects elongated T pili but may miss short pili produced by assembly defective strains. Pilus formation was not observed in CB8 and in CB8 strains producing VirB8
+     <sup>
+      A100R
+     </sup>
+     , VirB8
+     <sup>
+      A100V
+     </sup>
+     , VirB8
+     <sup>
+      V97C
+     </sup>
+     , VirB8
+     <sup>
+      V97R
+     </sup>
+     , VirB8
+     <sup>
+      V97A
+     </sup>
+     , and VirB8
+     <sup>
+      Q93C,E94C
+     </sup>
+     (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ). The other VirB8 variants complemented T-pilus formation at least to some extent as assessed by Western blotting (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ). The VirB8 variants were synthesized in the cells at comparative levels as observed by Western blotting using VirB8-specific antiserum (not shown), with the exception of VirB8
+     <sup>
+      V97R
+     </sup>
+     , whose level was reduced (see
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). Second, we assessed the ability of CB8 and complemented strains to induce tumor formation after infection of the plant
+     <em>
+      Kalanchoë daigremontiana
+     </em>
+     (
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     ). Similar to the results of the T-pilus formation assays, CB8 and the strains producing VirB8
+     <sup>
+      A100
+     </sup>
+     variants, VirB8
+     <sup>
+      V97A
+     </sup>
+     , VirB8
+     <sup>
+      V97R
+     </sup>
+     , and VirB8
+     <sup>
+      Q93C,E94C
+     </sup>
+     did not form tumors showing defects of T-complex transfer. However, despite our inability to detect elongated T pili, CB8 expressing VirB8
+     <sup>
+      V97C
+     </sup>
+     induced tumor formation, albeit at a lower level than the wild type. Third, we used the T4S system-mediated IncQ plasmid pLS1 transfer between
+     <em>
+      Agrobacterium
+     </em>
+     cells as quantitative measure of secretion system function. The conjugative transfer of pLS1 was complemented by VirB8 and VirB8
+     <sup>
+      Q93E
+     </sup>
+     but not by synthesis of VirB8
+     <sup>
+      A100
+     </sup>
+     variants, VirB8
+     <sup>
+      V97A
+     </sup>
+     , VirB8
+     <sup>
+      V97R
+     </sup>
+     , and VirB8
+     <sup>
+      Q93C,E94C
+     </sup>
+     (
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     ). In addition, the level of conjugation was severely reduced in CB8 producing VirB8
+     <sup>
+      Q93
+     </sup>
+     variants, VirB8
+     <sup>
+      V97C
+     </sup>
+     , and VirB8
+     <sup>
+      V97T
+     </sup>
+     . The results from the conjugation experiments are qualitatively similar to those of the tumor formation experiments, and the VirB8
+     <sup>
+      V97C
+     </sup>
+     and VirB8
+     <sup>
+      V97T
+     </sup>
+     variants were partly functional. Since the VirB8
+     <sup>
+      V97
+     </sup>
+     variants gave clear negative (VirB8
+     <sup>
+      V97A
+     </sup>
+     , VirB8
+     <sup>
+      V97R
+     </sup>
+     ) but also extremely partial (VirB8
+     <sup>
+      V97C
+     </sup>
+     , VirB8
+     <sup>
+      V97T
+     </sup>
+     ) phenotypes, we concluded that this residue is the most interesting one for more detailed analyses of the role of the VirB8 dimerization interface. Therefore, we focused the following more mechanistic studies on VirB8
+     <sup>
+      V97
+     </sup>
+     variants.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Fig. 2.
+     </label>     <caption>
+      <p>
+       Analysis of T-pilus formation. The
+       <em>
+        virB8
+       </em>
+       deletion strain (CB8) was complemented with
+       <em>
+        A. tumefaciens
+       </em>
+       VirB8 and its variants with changes at the dimer interface. The strains were cultivated under virulence gene-inducing (+AS) or noninducing (−AS) conditions in the presence of ITPG for expression of the plasmid-borne genes. Examination of pilus formation was conducted by shearing of surface-exposed pili from the cells, followed by ultracentrifugation to sediment the pili, SDS-PAGE, and Western blotting to detect the pilus components VirB2 and VirB5. Molecular masses of reference proteins are shown on the right in kDa. Representative blots are shown of experiments conducted at least three independent times.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3.
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Tumor formation by and conjugative transfer of pLS1 between the
+        <em>
+         A. tumefaciens
+        </em>
+        wild type and
+        <em>
+         virB8
+        </em>
+        deletion strains expressing different VirB8 variants
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <fig id="F5" position="float">
+     <label>
+      Fig. 5.
+     </label>     <caption>
+      <p>
+       Stabilization of VirB proteins in
+       <em>
+        A. tumefaciens
+       </em>
+       strains by VirB8 and its V97 variants. Wild-type C58 and CB8 and its complemented variants were grown on AB minimal medium with and without virulence inducer (AS) and in the presence of IPTG. Cell lysates were separated by SDS-PAGE, followed by Western blotting using specific antisera. (A) Effects of the deletion of
+       <em>
+        virB8
+       </em>
+       and restoration in
+       <em>
+        trans
+       </em>
+       . (B) Stabilization by VirB8
+       <sup>
+        V97
+       </sup>
+       variants. The protein levels of VirB8
+       <sup>
+        V97R
+       </sup>
+       are reduced, correlating with reduced amounts of many VirB proteins, as indicated by the black arrowhead. VirB1, VirB3, VirB5, and VirB6 levels are not restored to wild-type levels (indicated by stars) by any V97 variant. Molecular masses of reference proteins are shown on the right in kDa.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     VirB8
+     <sup>
+      V97
+     </sup>
+     participates in dimerization.
+    </title>
+    <p>
+     To assess whether residue V97 is indeed involved in dimerization, we conducted
+     <em>
+      in vivo
+     </em>
+     and
+     <em>
+      in vitro
+     </em>
+     experiments. First, the
+     <em>
+      virB8
+     </em>
+     gene deletion strain CB8, complemented with plasmids producing VirB8 and selected variants, was cultivated under virulence gene-inducing conditions, and the cell lysates were electrophoresed under nonreducing conditions. Analysis by Western blotting showed the presence of a signal at approximately 54 kDa in case of the strain synthesizing the VirB8
+     <sup>
+      V97C
+     </sup>
+     variant (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     ). This corresponds to twice the molecular mass of the VirB8 monomer (27 kDa), indicating partial dimer formation. This observation is consistent with the notion that VirB8
+     <sup>
+      V97
+     </sup>
+     localizes at the dimer interface, and the 54-kDa signal disappeared under reducing conditions (not shown). In contrast, we did not obtain evidence for dimerization in case of the VirB8
+     <sup>
+      Q93C,E94C
+     </sup>
+     variant.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Fig. 3.
+     </label>     <caption>
+      <p>
+       Analysis of the stability and dimerization of VirB8 variants. The
+       <em>
+        virB8
+       </em>
+       deletion strain (CB8) was complemented with
+       <em>
+        A. tumefaciens
+       </em>
+       VirB8 and its variants with changes at the dimer interface. The strains were cultivated under virulence gene-inducing (+AS) or noninducing (−AS) conditions in the presence of ITPG for expression of the plasmid-borne gene. The cell lysates were separated by SDS-PAGE under nonreducing conditions. Western blotting was performed using VirB8-specific antiserum, and signals corresponding to VirB8 monomer (∼27 kDa) and dimer (∼54 kDa) are shown by arrows. The molecular masses of reference proteins are shown on the right in kDa.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Second, VirB8 and the VirB8
+     <sup>
+      V97
+     </sup>
+     variants were overproduced in
+     <em>
+      E. coli
+     </em>
+     and purified. Analysis by circular dichroism (CD) spectroscopy did not show any differences, suggesting that the variants fold and adopt a secondary structure very similar to that of wild-type VirB8 (not shown). Next, analytical ultracentrifugation was conducted to determine the dissociation constants. The results of the wild-type protein fit a monomer/dimer equilibrium model with a dissociation constant of 0.68 mM (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ), about six times weaker than that of
+     <em>
+      B. suis
+     </em>
+     VirB8 (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     of 116 μM) (
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ). In case of VirB8
+     <sup>
+      V97T
+     </sup>
+     , we determined a
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     of 0.59 mM (not shown), similar to that of the wild type, suggesting that, as predicted, Thr stabilizes the dimer in a manner similar to that of Val. The results in case of VirB8
+     <sup>
+      V97R
+     </sup>
+     (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ) and VirB8
+     <sup>
+      V97A
+     </sup>
+     (not shown) both fit the monomer/dimer model, but their
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     values were reduced to 1 mM and 4.64 mM, respectively, suggesting that these changes indeed reduced dimerization. Finally, we found that VirB8
+     <sup>
+      V97C
+     </sup>
+     existed predominantly as a dimer with a
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     of 1 μM (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ), which is in accord with the
+     <em>
+      in vivo
+     </em>
+     observations. Next, we characterized the molecular basis of the effects in strains complemented with these variants in more detail.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Fig. 4.
+     </label>     <caption>
+      <p>
+       Analysis of self-association of VirB8 and variants by analytical ultracentrifugation. Sedimentation equilibrium analysis of StrepIIVirB8 (VirB8wt), VirB8
+       <sup>
+        V97C
+       </sup>
+       , and VirB8
+       <sup>
+        V97R
+       </sup>
+       were performed using a Beckman Coulter XL-A analytical ultracentrifuge. The representative fits of the experimental data to monomer/dimer equilibrium are shown in the lower graphs, with the upper graphs displaying the residuals of the fit. The fits shown here are representative from data obtained for proteins at concentration of
+       <em>
+        A
+       </em>
+       <sub>
+        280
+       </sub>
+       of 0.3 and at speeds of 20, 24, and 28 krpm.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     VirB8 stabilizes several VirB proteins.
+    </title>
+    <p>
+     A common approach to assess the contribution of individual proteins to complex assembly is to determine whether the levels of other components are reduced in their absence. To this end, complemented strain CB8 was cultivated under virulence gene-inducing conditions, and the levels of other VirB proteins were analyzed by Western blotting. Compared to wild-type C58, the levels of VirB3 and VirB6 were strongly reduced in CB8, more modest reductions were observed in the case of VirB1, VirB4, VirB5, VirB7, and VirB11, and production of VirB8 restored protein levels (
+     <xref ref-type="fig">
+      Fig. 5A
+     </xref>
+     ). Subsequently, we analyzed VirB protein levels in CB8 synthesizing the VirB8
+     <sup>
+      V97
+     </sup>
+     variants. The level of VirB8
+     <sup>
+      V97R
+     </sup>
+     was most reduced compared to those of the other variants (VirB8
+     <sup>
+      V97A
+     </sup>
+     , VirB8
+     <sup>
+      V97C
+     </sup>
+     , and VirB8
+     <sup>
+      V97T
+     </sup>
+     ), and we also observed reduced amounts of VirB1, VirB3, VirB5, VirB6, and VirB7 (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). Whereas this effect may be explained by the absence of stabilization by VirB8, production of the other VirB8
+     <sup>
+      V97
+     </sup>
+     variants that accumulate at the wild-type level and that fold similarly to the wild type as assessed by CD spectroscopy did not fully restore the levels of VirB1, VirB3, VirB5, and VirB6. Thus, the presence of VirB8 alone was not sufficient to stabilize these proteins, and its interactions, possibly via amino acids at the dimer interface, are required for stabilization. The effects of the changes are different (VirB8
+     <sup>
+      V97A
+     </sup>
+     , weaker dimers; VirB8
+     <sup>
+      V97C
+     </sup>
+     , more stable dimers; VirB8
+     <sup>
+      V97T
+     </sup>
+     , dimers like those of the wild type), but they had similar impacts on the stabilization of other VirB proteins. All the VirB8
+     <sup>
+      V97
+     </sup>
+     variants restored VirB4, VirB7, and VirB11 levels in the cells, showing that even reduced amounts of VirB8 are sufficient and that changes of dimerization do not necessarily impact stabilization of these proteins.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     VirB8 and its dimerization are required for the association of VirB2 with the T4S core complex.
+    </title>
+    <p>
+     The VirB8
+     <sup>
+      V97
+     </sup>
+     variants have differential effects on T4S functions (pilus formation, tumor formation, and plasmid transfer), and this could be due to changes of interactions within the complex for which VirB8 and its dimer interface are necessary. To test this possibility, we analyzed the formation of VirB2-VirB5 complexes, which are believed to reflect a key step in T-pilus assembly (
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ). To this end, we extracted membranes from CB8 complemented with wild-type VirB8 and the VirB8
+     <sup>
+      V97
+     </sup>
+     variants with the mild detergent dodecyl-β-
+     <span>
+      d
+     </span>
+     -maltoside (DDM), followed by fractionation by blue native PAGE (BN-PAGE) and gel filtration. To increase the likelihood of isolating T-pilus preassembly states, we analyzed strains grown in liquid cultures and not on agar plates that are used for the isolation of T pili.
+    </p>
+    <p>
+     Analysis of cell extracts separated by BN-PAGE revealed that the presence of VirB8 is not required for the formation of low-molecular-weight (LMW) VirB2-VirB5 complexes of about 100 kDa (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     ). However, we noticed that VirB2, and to a lesser extent VirB5, cofractionated in the higher-molecular-weight portion of the gel, where complexes of core proteins, such as VirB8, VirB9, and VirB10, are detected (
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ). This cofractionation was not observed in the absence of VirB8 and in CB8 producing VirB8
+     <sup>
+      V97A
+     </sup>
+     and VirB8
+     <sup>
+      V97R
+     </sup>
+     variants (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     ). The production of variants VirB8
+     <sup>
+      V97C
+     </sup>
+     and VirB8
+     <sup>
+      V97T
+     </sup>
+     that form dimers restored the cofractionation of VirB2 with higher-molecular-weight proteins (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     ).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Fig. 6.
+     </label>     <caption>
+      <p>
+       Separation of DDM-extracted membrane proteins from
+       <em>
+        Agrobacterium
+       </em>
+       using blue native PAGE. CB8 and complemented variants were cultivated with and without virulence inducer (AS) in liquid medium, followed by the isolation of membranes and extraction with the mild detergent DDM. Samples were mixed with 5% Coomassie blue G-250 and electrophoresed on a 15% blue native acrylamide gel, followed by Western blotting with VirB-specific antiserum. VirB2 and VirB5 cofractionate in the low-molecular-weight (LMW) region of about 100 kDa, whereas other VirB proteins, such as VirB8 and VirB9 (not shown), fractionate predominantly with high-molecular-weight (HMW) complexes. The arrow shows cofractionation of VirB2 in the HMW region of the gel. Molecular masses of reference proteins are shown on the right in kDa.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next conducted gel filtration that permits the analysis of the localization of all membrane-extracted VirB proteins at a higher resolution. Similar to the results obtained by BN-PAGE, we detected VirB2 in low (indicated by stars)- but also in high-molecular-weight fractions in the wild-type (wt) strain (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     , arrows). In the absence of VirB8 (CB8), VirB5 levels were significantly reduced and VirB2 accumulated exclusively in the low-molecular-mass fraction. Production of VirB8
+     <sup>
+      V97C
+     </sup>
+     restored the cofractionation of VirB2 with high-molecular-mass complexes, whereas synthesis of VirB8
+     <sup>
+      V97A
+     </sup>
+     resulted in a situation similar to CB8 (
+     <xref ref-type="fig">
+      Fig. 7A
+     </xref>
+     ). Production of neither variant restored the level of VirB5 to wild-type levels. The fractionation patterns of other VirB proteins were not changed in the presence or the absence of VirB8, but the levels of some of them were reduced in the absence of VirB8 as shown above (
+     <xref ref-type="fig">
+      Fig. 7B
+     </xref>
+     ). We conclude that VirB8 impacts the stabilization of VirB5 and the association of VirB2 with high-molecular-mass complexes, and this is likely required for T-pilus assembly.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Fig. 7.
+     </label>     <caption>
+      <p>
+       Separation of DDM-extracted membrane proteins from
+       <em>
+        Agrobacterium
+       </em>
+       using gel filtration. Detection of VirB2 and VirB5 fractionation for
+       <em>
+        A. tumefaciens
+       </em>
+       strain CB8 expressing VirB8, a strain deleted in the
+       <em>
+        virB8
+       </em>
+       gene (CB8), CB8 expressing VirB8
+       <sup>
+        V97C
+       </sup>
+       , and VirB8 expressing VirB8
+       <sup>
+        V97A
+       </sup>
+       (A) and fractionation of other VirB proteins shown in panel B were cultivated in virulence gene-inducing liquid medium, followed by the isolation of membranes and extraction. Fractionation of VirB2 and VirB5 in low-molecular-weight (LMW) fractions is indicated by stars, and fractionation of both VirB2 and VirB5 in high-molecular-weight (HMW) fractions is indicated by arrows. Molecular masses of reference proteins are shown on the right in kDa, and the corresponding fractions at which the gel filtration calibration proteins eluted are indicated above the Western blots in kDa.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    VirB8 is a key T4S component that undergoes multiple interactions with other VirB proteins. A detailed characterization of its contribution to T4S system assembly and function is therefore of high interest for the field. In this study, we investigated the contribution of VirB8 dimerization toward T4S system assembly and function. Based on the results of the X-ray analysis of
+    <em>
+     Brucella
+    </em>
+    and
+    <em>
+     Agrobacterium
+    </em>
+    VirB8 (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ) and our subsequent structure-function analysis of the
+    <em>
+     Brucella
+    </em>
+    homolog (
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ), we conducted a detailed analysis of the functional consequences of changes at the dimer interface in the
+    <em>
+     Agrobacterium
+    </em>
+    system. Our results provide insights into the mechanistic contribution of this protein and of its dimerization toward T-pilus assembly.
+   </p>
+   <p>
+    Residues that were predicted to localize at the dimer interface and to contribute to the interaction were changed, and complementation experiments revealed that many of them (VirB8
+    <sup>
+     Q93
+    </sup>
+    , VirB8
+    <sup>
+     V97
+    </sup>
+    , VirB8
+    <sup>
+     A100
+    </sup>
+    ) are indeed required for VirB8 functions. In contrast, changes of VirB8
+    <sup>
+     E94
+    </sup>
+    , a residue predicted to stabilize the dimer via a hydrogen bond to VirB8
+    <sup>
+     Q93
+    </sup>
+    on the neighboring VirB8, had no major effects, suggesting that this interaction is not important for protein function or that the changes (VirB8
+    <sup>
+     E94K
+    </sup>
+    , VirB8
+    <sup>
+     E94Q
+    </sup>
+    , and VirB8
+    <sup>
+     Q93E
+    </sup>
+    ) preserved the dimer. Introducing “compensatory” changes, such as VirB8
+    <sup>
+     Q93D,E94K
+    </sup>
+    , did not restore function compared to VirB8
+    <sup>
+     Q93D
+    </sup>
+    alone, suggesting that the specific lengths of the respective side chains play a role in function of VirB8. Therefore, we were not able to provide conclusive evidence that VirB8
+    <sup>
+     Q93
+    </sup>
+    and VirB8
+    <sup>
+     E94
+    </sup>
+    bind to each other, and it might be that the changes had other negative effects, e.g., on protein folding and/or stability. Changes of VirB8
+    <sup>
+     A100
+    </sup>
+    abolished VirB8 functions, presumably a consequence of reduced dimerization. This is in line with our own work on the corresponding change in
+    <em>
+     Brucella
+    </em>
+    VirB8 (
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ). Yeast two-hybrid studies identified that the N terminus of VirB8 was involved in self-interaction (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ), and previous analyses of the
+    <em>
+     A. tumefaciens
+    </em>
+    VirB8 variant VirB8
+    <sup>
+     S87L
+    </sup>
+    showed a semidominant phenotype when produced in cells that synthesize wild-type VirB8, thereby providing evidence that VirB8 forms oligomers (
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ). However, using yeast-two hybrid analysis, the authors showed that variants VirB8
+    <sup>
+     S87L
+    </sup>
+    and VirB8
+    <sup>
+     A100V
+    </sup>
+    retained self-interaction (
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ), although it was negatively affected in T4SS function. In our study, we also found that changes of VirB8 at A100 were negatively affected in function, but we did not perform
+    <em>
+     in vitro
+    </em>
+    experiments since VirB8
+    <sup>
+     A100
+    </sup>
+    variants were all nonfunctional and therefore not the most informative. The yeast two-hybrid assays previously conducted may not have been sensitive enough to monitor the effect of the dimer site change on self-interaction. We used sedimentation equilibrium analysis using analytical ultracentrifugation to assess self-association of VirB8 and variants. Furthermore, we chose residue VirB8
+    <sup>
+     V97
+    </sup>
+    for a more comprehensive analysis, as the spacing between the interacting amino acids at the dimer interface (hydrophobic V97-V97 interaction predicted) permitted interesting possibilities for engineering and modulation of the interaction. The VirB8
+    <sup>
+     V97A
+    </sup>
+    and VirB8
+    <sup>
+     V97R
+    </sup>
+    changes were predicted to destroy the interaction, and indeed these variants did not complement the
+    <em>
+     virB8
+    </em>
+    deletion strain. The nonfunctionality of the VirB8
+    <sup>
+     V97R
+    </sup>
+    variant could be attributed to the positive charge at the interface that would repel neighboring VirB8, making it a very weak dimer (
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    of 4.64 mM). In the case of VirB8
+    <sup>
+     V97A
+    </sup>
+    , the nonfunctionality could be attributed to the fact that spacing of the residues at the protein interface is increased from 3.56 Å to 5.96 Å, also creating a weaker dimer (
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    of 1 mM). In contrast, the VirB8
+    <sup>
+     V97T
+    </sup>
+    variant that forms dimers at wild-type levels (
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    of 0.59 mM) partly complemented the
+    <em>
+     virB8
+    </em>
+    defect in all functional assays, suggesting that the hydrophobic V97-V97 interaction can be replaced by the hydrophilic T97-T97 interaction. Changing V97 to Cys resulted in the partial formation of a dimer in the oxidative environment of the periplasm, showing that VirB8 does indeed self-associate under physiological conditions. Interestingly, we did not detect any elongated pili on CB8 expressing VirB8
+    <sup>
+     V97C
+    </sup>
+    , but the T4S system translocated substrates to a reduced extent. This makes VirB8
+    <sup>
+     V97C
+    </sup>
+    a so-called “uncoupling” variant that translocates substrates but does not form T pili as detected by the standard isolation method, which would not detect very short pili. Such variants were already described in the case of VirB6, VirB9, and VirB11 (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     41
+    </xref>
+    ), and our work adds further evidence to the notion that the dual roles of the T4S system in pilus assembly and substrate translocation can be separated.
+   </p>
+   <p>
+    The results obtained in case of the partly functional variants VirB8
+    <sup>
+     V97C
+    </sup>
+    and VirB8
+    <sup>
+     V97T
+    </sup>
+    raise interesting questions. The overall geometry of the dimer should not be influenced by these changes; the calculated distances at the interface are predicted to be 3.08 Å (VirB8
+    <sup>
+     V97C
+    </sup>
+    ) and 3.73 Å (VirB8
+    <sup>
+     V97T
+    </sup>
+    ), respectively, which are close to the distance of 3.56 Å in the wild type. The change is predicted to strengthen dimer formation in case of the covalent bond formed by VirB8
+    <sup>
+     V97C
+    </sup>
+    , whereas the dimer should remain flexible in case of VirB8
+    <sup>
+     V97T
+    </sup>
+    . The fact that increasing the strength of dimer formation (VirB8
+    <sup>
+     V97C
+    </sup>
+    ) as well as weakening it (VirB8
+    <sup>
+     V97A/R
+    </sup>
+    ) reduced complementation raises the possibility that not only the presence of VirB8 and its self-association but also the dissociation of the dimer may be important for T4S function. Moreover, the dissociation constants calculated by sedimentation equilibrium studies are high, and this suggests that the influence of the cytoplasmic and transmembrane domain may enhance the dimerization
+    <em>
+     in vivo
+    </em>
+    and influence the interactions with other VirB proteins. In addition, we cannot exclude that the changes induce more subtle changes in the three-dimensional structure of the protein that may explain these effects, but as assessed by CD spectroscopy (provides information on the secondary structure, sensitivity for detection of about 10% change), the overall folding of the VirB8 variants is preserved. Subtle changes of protein structure that impact its functions could also explain the observation that many stable VirB8 dimer variants do not stabilize VirB1, VirB3, VirB5, and VirB6.
+   </p>
+   <p>
+    VirB8 is required for the stabilization of VirB1, VirB3, VirB4, VirB5, VirB6, VirB7, and VirB11. This is consistent with similar observations on reduced amounts of several VirB proteins in
+    <em>
+     Brucella
+    </em>
+    carrying a deletion of
+    <em>
+     virB8
+    </em>
+    (
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ). VirB8 was previously shown to interact with itself, VirB1, VirB4, VirB5, VirB9, VirB10, and VirB11 (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). VirB8 wild-type protein complemented the deletion strain CB8 and restored VirB protein levels, which is consistent with stabilization by direct interactions. However, the VirB8
+    <sup>
+     V97
+    </sup>
+    variants did not restore the wild-type levels of VirB1, VirB3, VirB5, and VirB6 despite the presence of wild-type levels of VirB8 in most cases. This result suggests that the VirB8 dimer interface may be a binding site for VirB1, VirB3, VirB5, and VirB6 that stabilizes these proteins by direct interaction. Moreover, it is interesting that despite the reduced levels of VirB1, VirB3, VirB5, and VirB6, the VirB8
+    <sup>
+     V97C
+    </sup>
+    and VirB8
+    <sup>
+     V97T
+    </sup>
+    variants partly complemented T4S functions, and this is consistent with results from a previous study showing that low levels of VirB8 are sufficient to support T4SS function (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). The level of T-pilus formation in CB8 producing VirB8
+    <sup>
+     V97T
+    </sup>
+    was at wild-type levels, whereas we did not detect T pili in CB8 expressing VirB8
+    <sup>
+     V97C
+    </sup>
+    . These results point to an involvement of the VirB8 dimer interface in T-pilus formation.
+   </p>
+   <p>
+    Based on our previous work, we postulated a VirB4-VirB8-VirB5-VirB2 T-pilus assembly sequence (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). To examine the role of VirB8 and of its dimerization in this sequence, we characterized the T4S complex subassemblies in the
+    <em>
+     virB8
+    </em>
+    deletion strain CB8 and after complementation with the VirB8
+    <sup>
+     V97
+    </sup>
+    variants. This approach revealed that the presence of VirB8 and its dimer site interface were required for the cofractionation of VirB2 with a higher-molecular-mass complex of VirB components (VirB6-VirB8-VirB9-VirB10). In the absence of VirB8, VirB5 levels were reduced, presumably due to lack of a direct stabilizing VirB8-VirB5 interaction (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ) that may also imply VirB6 (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). In addition, VirB2 fractionated only in a low-molecular-mass complex of about 100 kDa together with VirB5 and did not cofractionate with other VirB proteins in a high-molecular-mass complex. VirB4 may be a key modulator for VirB2 incorporation into pili, as we previously showed that VirB2 and VirB5 fail to form high-molecular-mass complexes in the absence of VirB4 (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). In addition, it was recently shown that VirB4 and VirB2 interact, and the importance of VirB4 ATPase for recruitment and pilus incorporation of VirB2 was demonstrated (
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ). VirB8 is required at the next step of the pilus assembly process and mediates the association of VirB2 and of VirB5 with the high-molecular-mass complex, presumably followed by T-pilus assembly. The VirB8
+    <sup>
+     V97
+    </sup>
+    variants did not restore VirB5 levels in the cells to wild-type levels, but the partly functional variants VirB8
+    <sup>
+     V97C
+    </sup>
+    and VirB8
+    <sup>
+     V97T
+    </sup>
+    restored the cofractionation of VirB2 with the high-molecular-mass VirB6-VirB8-VirB9-VirB10 complex, suggesting that dimerization of VirB8 is required at this step of pilus assembly. Moreover, the observation that the VirB8
+    <sup>
+     V97C
+    </sup>
+    variant did not enable pilus formation provides evidence to suggest the possibility that assembly but also dissociation of the VirB8 dimer may be required for pilus formation.
+   </p>
+   <p>
+    Taking all the findings together, we propose that the analysis of VirB8 dimer variants reveals one of the missing pieces of our understanding of how the major pilus component (VirB2) is targeted to form T pili. Current understanding of T4S system assembly implies that VirB8 first interacts with VirB1 (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ), followed by interactions with other VirB proteins to facilitate polar assembly. VirB4 stabilizes VirB3 and VirB8, which targets VirB2 to the higher-molecular-mass complex, and at some point of this process it interacts with VirB5 (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). Here, we also observed that VirB6 levels were reduced in the absence of VirB8, which is consistent with a VirB6-VirB8 interaction that has not yet been directly shown. VirB6 colocalization with VirB8 was previously reported using immunofluorescence microscopy (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). The transfer immunoprecipitation assay revealed a T-DNA transfer step dependent on VirB6 and VirB8, which also supports the notion that these two proteins interact (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ). The fact that VirB6 is known to stabilize VirB3 and VirB5 in the cells (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ) can also be understood in this context, and we here propose that VirB8, in conjunction with VirB6, orients the VirB2-VirB5 complexes to VirB3. Alternatively, VirB3 may work in concert with VirB4 (
+    <xref ref-type="bibr">
+     38
+    </xref>
+    ) in order to mediate the transfer of VirB2-VirB5 complexes to VirB8. An intact VirB8 dimer interface was necessary for full complementation. These observations led to the hypothesis that a VirB8 monomer-dimer cycle may be important for T-pilus assembly, and this possibility will be tested in future studies (
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ). Alternatively, the VirB8 dimer interface may serve as a binding site for other VirB proteins, which would explain the fact that there is no evident correlation between the capacity for dimer formation and the restoration of the levels of VirB1, VirB3, VirB5, and VirB6. Finally, the changes may alter the overall structure and thereby impact protein turnover and spatial localization, which could also explain some of the observed effects. Future studies will involve the identification of VirB8 domain(s) necessary for interaction(s) with VirB1, VirB5, and VirB6 to unravel additional details of the mechanistic contribution of this T4S system assembly factor, and we will also assess the involvement of the N terminus (cytoplasmic and transmembrane domain) of VirB8. Similarly, it will be important to track the interactions of the VirB2-VirB5 complex with components of the T4S core complex in order to understand how the pilus structure assembles on the surface of
+    <em>
+     Agrobacterium
+    </em>
+    . Moreover, in order to further provide information on spatial localization of VirB8, we will assess the VirB8 dimer variants' effects on polar localization of other VirB proteins. This work constitutes an important step forward toward understanding the protein-protein interactions guiding the assembly of T4S complexes and constitutes a prerequisite for mechanistic understanding of T-pilus assembly.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGMENTS
+   </title>
+   <sec>
+    <p>
+     We thank Benoit Bessette for helping with the tumor infection experiments. We are grateful to Raquel Epand for help with CD spectroscopy. We thank Chan Gao for creation of pTrc200B7B8a.
+    </p>
+    <p>
+     Work in the laboratory of C.B. is supported by grants from the Canadian Institutes of Health Research (CIHR grants
+     <span>
+      MOP-64300
+     </span>
+     and
+     <span>
+      MOP-84239
+     </span>
+     ), the Bristol Myers-Squibb Chair Hans Selye and the Canada Foundation for Innovation (CFI), the Ontario Innovation Trust (OIT), and the FRSQ (Fonds de la recherche en santé du Québec).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Aguilar J., Zupan J., Cameron T. A., Zambryski P. C. 2010.
+      <span>
+       Agrobacterium type IV secretion system and its substrates form helical arrays around the circumference of virulence-induced cells
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       107
+      </span>
+      :3758–3763
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Aly K., Baron C. 2007.
+      <span>
+       VirB5 initiates T-pilus assembly in Agrobacterium tumefaciens and localizes at the pilus tip
+      </span>
+      .
+      <span>
+       Microbiology
+      </span>
+      <span>
+       153
+      </span>
+      :3766–3775
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Ansaldi M., Lepelletier M., Mejean V. 1996.
+      <span>
+       Site-specific mutagenesis by using an accurate recombinant polymerase chain reaction method
+      </span>
+      .
+      <span>
+       Anal. Biochem.
+      </span>
+      <span>
+       234
+      </span>
+      :110–111
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Atmakuri K., Cascales E., Christie P. J. 2004.
+      <span>
+       Energetic components VirD4, VirB11 and VirB4 mediate early DNA transfer reactions required for bacterial type IV secretion
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       54
+      </span>
+      :1199–1211
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Bailey S., Ward D., Middleton R., Grossmann J. G., Zambryski P. 2006.
+      <span>
+       Agrobacterium tumefaciens VirB8 structure reveals potential protein-protein interactions sites
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       103
+      </span>
+      :2582–2587
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Baron C. 2005.
+      <span>
+       From bioremediation to biowarfare: on the impact and mechanism of type IV secretion systems
+      </span>
+      .
+      <span>
+       FEMS Microbiol. Lett.
+      </span>
+      <span>
+       253
+      </span>
+      :163–170
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Berger B. R., Christie P. J. 1994.
+      <span>
+       Genetic complementation analysis of the Agrobacterium tumefaciens
+       <em>
+        virB
+       </em>
+       operon:
+       <em>
+        virB2
+       </em>
+       through
+       <em>
+        virB11
+       </em>
+       are essential virulence genes
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       176
+      </span>
+      :3646–3660
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Bohne J., Yim A., Binns A. N. 1998.
+      <span>
+       The Ti plasmid increases the efficiency of Agrobacterium tumefaciens as a recipient in
+       <em>
+        virB
+       </em>
+       -mediated conjugal transfer of an IncQ plasmid
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       95
+      </span>
+      :7057–7062
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Bourg G., Sube R., O'Callaghan D., Patey G. 2009.
+      <span>
+       Interactions between Brucella suis VirB8 and its homolog TraJ from the plasmid pSB102 underline the dynamic nature of type IV secretion systems
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       191
+      </span>
+      :2985–2992
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Cascales E., Christie P. J. 2004.
+      <span>
+       Definition of a bacterial type IV secretion pathway for a DNA substrate
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       304
+      </span>
+      :1170–1173
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Cascales E., Christie P. J. 2003.
+      <span>
+       The versatile bacterial type IV secretion systems
+      </span>
+      .
+      <span>
+       Nat. Rev. Microbiol.
+      </span>
+      <span>
+       1
+      </span>
+      :137–149
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Chaillan-Huntington C., et al.  2001.
+      <span>
+       NTF2 monomer-dimer equilibrium
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       314
+      </span>
+      :465–477
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Chandran V., et al.  2009.
+      <span>
+       Structure of the outer membrane complex of a type IV secretion system
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       462
+      </span>
+      :1011–1015
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Christie P. J., Atmakuri K., Krishnamoorthy V., Jakubowski S., Cascales E. 2005.
+      <span>
+       Biogenesis, architecture, and function of bacterial type IV secretion systems
+      </span>
+      .
+      <span>
+       Annu. Rev. Microbiol.
+      </span>
+      <span>
+       59
+      </span>
+      :415–485
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Das A., Xie Y.-H. 1998.
+      <span>
+       Construction of transposon Tn3phoA: its application in defining the membrane topology of the Agrobacterium tumefaciens DNA transfer proteins
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       27
+      </span>
+      :405–414
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Das A., Xie Y. H. 2000.
+      <span>
+       The Agrobacterium T-DNA transport pore proteins VirB8, VirB9, and VirB10 interact with one another
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       182
+      </span>
+      :758–763
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      den Hartigh A. B., Rolan H. G., de Jong M. F., Tsolis R. M. 2008.
+      <span>
+       VirB3 to VirB6 and VirB8 to VirB11, but not VirB7, are essential for mediating persistence of Brucella in the reticuloendothelial system
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       190
+      </span>
+      :4427–4436
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Ding Z., et al.  2002.
+      <span>
+       A novel cytology-based, two-hybrid screen for bacteria applied to protein-protein interaction studies of a type IV secretion system
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       184
+      </span>
+      :5572–5582
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Fernandez D., Spudich G. M., Zhou X.-R., Christie P. J. 1996.
+      <span>
+       The Agrobacterium tumefaciens VirB7 lipoprotein is required for stabilization of VirB proteins during assembly of the T-complex transport apparatus
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       178
+      </span>
+      :3168–3176
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Fronzes R., Christie P. J., Waksman G. 2009.
+      <span>
+       The structural biology of type IV secretion systems
+      </span>
+      .
+      <span>
+       Nat. Rev. Microbiol.
+      </span>
+      <span>
+       7
+      </span>
+      :703–714
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Gelvin S. B. 2010.
+      <span>
+       Plant proteins involved in agrobacterium-mediated genetic transformation
+      </span>
+      .
+      <span>
+       Annu. Rev. Phytopathol.
+      </span>
+      <span>
+       48
+      </span>
+      :45–68
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Hapfelmeier S., Domke N., Zambryski P. C., Baron C. 2000.
+      <span>
+       VirB6 is required for stabilization of VirB5 and VirB3 and formation of VirB7 homodimers in Agrobacterium tumefaciens
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       182
+      </span>
+      :4505–4511
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Harlow E., Lane D., editors.  (ed.). 1988.
+      <span>
+       Antibodies: a laboratory manual
+      </span>
+      . Cold Spring Harbor Laboratory, Cold Spring Harbor, NY
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Höppner C., Carle A., Sivanesan D., Hoeppner S., Baron C. 2005.
+      <span>
+       The putative lytic transglycosylase VirB1 from Brucella suis interacts with the type IV secretion system core components VirB8, VirB9 and VirB11
+      </span>
+      .
+      <span>
+       Microbiology
+      </span>
+      <span>
+       151
+      </span>
+      :3469–3482
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Höppner C., Liu Z., Domke N., Binns A. N., Baron C. 2004.
+      <span>
+       VirB1 orthologs from Brucella suis and pKM101 complement defects of the lytic transglycosylase required for efficient type IV secretion from Agrobacterium tumefaciens
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       186
+      </span>
+      :1415–1422
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Jakubowski S. J., Cascales E., Krishnamoorthy V., Christie P. J. 2005.
+      <span>
+       Agrobacterium tumefaciens VirB9, an outer-membrane-associated component of a type IV secretion system, regulates substrate selection and T-pilus biogenesis
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       187
+      </span>
+      :3486–3495
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Jakubowski S. J., Krishnamoorthy V., Christie P. J. 2003.
+      <span>
+       Agrobacterium tumefaciens VirB6 protein participates in formation of VirB7 and VirB9 complexes required for type IV secretion
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       185
+      </span>
+      :2867–2878
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Judd P. K., Kumar R. B., Das A. 2005.
+      <span>
+       Spatial location and requirements for the assembly of the Agrobacterium tumefaciens type IV secretion apparatus
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       102
+      </span>
+      :11498–11503
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Kerr J. E., Christie P. J. 2010.
+      <span>
+       Evidence for VirB4-mediated dislocation of membrane-integrated VirB2 pilin during biogenesis of the Agrobacterium VirB/VirD4 type IV secretion system
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       192
+      </span>
+      :4923–4934
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Krall L., et al.  2002.
+      <span>
+       Detergent extraction identifies different VirB protein subassemblies of the type IV secretion machinery in the membranes of Agrobacterium tumefaciens
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       99
+      </span>
+      :11405–11410
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Kuldau G. A., De Vos G., Owen J., McCaffrey G., Zambryski P. 1990.
+      <span>
+       The virB operon of Agrobacterium tumefaciens pTiC58 encodes 11 open reading frames
+      </span>
+      .
+      <span>
+       Mol. Gen. Genet.
+      </span>
+      <span>
+       221
+      </span>
+      :256–266
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Kumar R. B., Das A. 2001.
+      <span>
+       Functional analysis of the Agrobacterium tumefaciens T-DNA transport pore protein VirB8
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       183
+      </span>
+      :3636–3641
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Laemmli U. K. 1970.
+      <span>
+       Cleavage of structural proteins during the assembly of the head of bacteriophage T4
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       227
+      </span>
+      :680–685
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Lai W. C., Hazelbauer G. L. 2007.
+      <span>
+       Analyzing transmembrane chemoreceptors using in vivo disulfide formation between introduced cysteines
+      </span>
+      .
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       423
+      </span>
+      :299–316
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Maniatis T. A., Fritsch E. F., Sambrook J. 1982.
+      <span>
+       Molecular cloning: a laboratory manual
+      </span>
+      . Cold Spring Harbor Laboratory, Cold Spring Harbor, NY
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      McCullen C. A., Binns A. N. 2006.
+      <span>
+       Agrobacterium tumefaciens and plant cell interactions and activities required for interkingdom macromolecular transfer
+      </span>
+      .
+      <span>
+       Annu. Rev. Cell Dev. Biol.
+      </span>
+      <span>
+       22
+      </span>
+      :101–127
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Meng G., Fronzes R., Chandran V., Remaut H., Waksman G. 2009.
+      <span>
+       Protein oligomerization in the bacterial outer membrane (review)
+      </span>
+      .
+      <span>
+       Mol. Membr. Biol.
+      </span>
+      <span>
+       26
+      </span>
+      :136–145
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Mossey P., Hudacek A., Das A. 2010.
+      <span>
+       Agrobacterium tumefaciens type IV secretion protein VirB3 is an inner membrane protein and requires VirB4, VirB7, and VirB8 for stabilization
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       192
+      </span>
+      :2830–2838
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Paschos A., et al.  2006.
+      <span>
+       Dimerization and interactions of Brucella suis VirB8 with VirB4 and VirB10 are required for its biological activity
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       103
+      </span>
+      :7252–7257
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Patey G., Qi Z., Bourg G., Baron C., O'Callaghan D. 2006.
+      <span>
+       Swapping of periplasmic domains between Brucella suis VirB8 and a pSB102 VirB8 homologue allows heterologous complementation
+      </span>
+      .
+      <span>
+       Infect. Immun.
+      </span>
+      <span>
+       74
+      </span>
+      :4945–4949
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Sagulenko V., Sagulenko E., Jakubowski S., Spudich E., Christie P. J. 2001.
+      <span>
+       VirB7 lipoprotein is exocellular and associates with the Agrobacterium tumefaciens T-pilus
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       183
+      </span>
+      :3642–3651
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Savvides S. N., et al.  2003.
+      <span>
+       VirB11 ATPases are dynamic hexameric assemblies: new insights into bacterial type IV secretion
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       22
+      </span>
+      :1969–1980
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Schägger H., von Jagow G. 1987.
+      <span>
+       Tricine-sodium dodecyl sulfate-polyacrylamide gel electrophoresis for the separation of proteins in the range of 1 to 100 kDa
+      </span>
+      .
+      <span>
+       Anal. Biochem.
+      </span>
+      <span>
+       166
+      </span>
+      :368–379
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Sivanesan D., Hancock M. A., Villamil Giraldo A. M., Baron C. 2010.
+      <span>
+       Quantitative analysis of VirB8-VirB9-VirB10 interactions provides a dynamic model of type IV secretion system core complex assembly
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       49
+      </span>
+      :4483–4493
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Stahl L. E., Jacobs A., Binns A. N. 1998.
+      <span>
+       The conjugal intermediate of plasmid RSF1010 inhibits Agrobacterium tumefaciens virulence and VirB-dependent export of VirE2
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       180
+      </span>
+      :3933–3939
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Terradot L., et al.  2005.
+      <span>
+       Crystal structures of the periplasmic domains of two core subunits of the bacterial type IV secretion system, VirB8 from Brucella suis and ComB10 from Helicobacter pylori
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       102
+      </span>
+      :4596–4601
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      van Larebeke N., et al.  1974.
+      <span>
+       Large plasmids in Agrobacterium tumefaciens essential for crown gall-inducing ability
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       252
+      </span>
+      :169–170
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Ward D., Draper O., Zupan J. R., Zambryski P. C. 2002.
+      <span>
+       Peptide linkage mapping of the A. tumefaciens
+       <em>
+        vir
+       </em>
+       -encoded type IV secretion system reveals novel protein subassemblies
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       99
+      </span>
+      :11493–11500
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Yanisch-Perron C., Viera J., Messing J. 1985.
+      <span>
+       Improved M13 phage cloning vectors and host strains: nucleotide sequence of the M13mp18 and pUC18 vectors
+      </span>
+      .
+      <span>
+       Gene
+      </span>
+      <span>
+       33
+      </span>
+      :103–119
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Yuan Q., et al.  2005.
+      <span>
+       Identification of the VirB4-VirB8-VirB5-VirB2 pilus assembly sequence of type IV secretion systems
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       280
+      </span>
+      :26349–26359
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

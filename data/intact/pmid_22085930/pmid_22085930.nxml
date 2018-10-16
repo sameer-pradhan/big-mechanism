@@ -1,0 +1,1878 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3261564
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Insights into ubiquitin-conjugating enzyme/ co-activator interactions from the structure of the Pex4p:Pex22p complex
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Ubiquitin-conjugating enzymes (E2s) coordinate distinct types of ubiquitination via specific E3 ligases, to a large number of protein substrates. While many E2 enzymes need only the presence of an E3 ligase for substrate ubiquitination, a number of E2s require additional, non-canonical binding partners to specify their function. Here, we have determined the crystal structure and function of an E2/co-activator assembly, the Pex4p:Pex22p complex. The peroxisome-associated E2 enzyme Pex4p binds the peroxisomal membrane protein Pex22p through a binding site that does not overlap with any other known interaction interface in E2 enzymes. Pex22p association enhances Pex4p's ability to transfer ubiquitin to a substrate
+     <em>
+      in vitro
+     </em>
+     , and Pex22p binding-deficient forms of Pex4p are unable to ubiquitinate the peroxisomal import receptor Pex5p
+     <em>
+      in vivo
+     </em>
+     . Our data demonstrate that the Pex4p:Pex22p assembly, and not Pex4p alone, functions as the E2 enzyme required for Pex5p ubiquitination, establishing a novel mechanism of E2 enzyme regulation.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     E2 co-activator complex, peroxisomal receptor recycling, Pex22p, Pex4p, ubiquitin-conjugating enzyme structure
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The ubiquitin (Ub) cascade sequentially requires the activity of three different enzymes to attach Ub to a substrate. First, Ub is activated in an ATP-dependent manner by a ubiquitin-activating enzyme (E1), then transferred to the active site cysteine residue of a ubiquitin-conjugating enzyme (E2) and finally, with the aid of a ubiquitin ligase (E3), attached to the substrate. E2s play a coordinating role in the cascade, through highly dynamic interactions with many E3 ligases, ultimately determining the fate of hundreds of substrates for functional regulation, or alternatively for degradation by the proteasome (
+    <xref ref-type="bibr">
+     Capili and Lima, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dye and Schulman, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kleiger et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ye and Rape, 2009
+    </xref>
+    ). Since E2 enzymes are largely conserved in structure and sequence, a number of common principles are shared by all members, including conserved binding sites for the E1 and E3 (
+    <xref ref-type="bibr">
+     Wenzel et al, 2011
+    </xref>
+    ). However, many E2 enzymes are required to perform specific ubiquitination events in the cell, such as the attachment of ubiquitin to a certain side chain within a given substrate. While our understanding of how E2s coordinate these events is still incomplete, recent data may suggest an important role for non-canonical binding partners. For example, the ERAD-associated E3 ligase gp78 binds the ‘backside' of Ube2g2 (an E2) through a region distinct from its ligase domain, and this binding event enhances Ube2g2's ubiquitin-conjugating activity (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ). Two additional examples include the non-catalytic ubiquitin E2 variant (UEV) protein Mms2, which binds to the E2 Ube2n, allowing it to specifically build lysine 63-linked polyubiquitin chains (
+    <xref ref-type="bibr">
+     VanDemark et al, 2001
+    </xref>
+    ), and the non-covalent binding of ubiquitin itself to a number of E2s, which may play a role in processive Ub chain formation (
+    <xref ref-type="bibr">
+     Brzovic et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Knipscheer et al, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    While the above mentioned examples demonstrate regulation of an E2 by a co-factor already implicated in the Ub cascade (Ub, UEV, E3), the peroxisome-associated E2 enzyme Pex4p (Ubc10p) requires the presence of an additional co-factor, the trans-membrane (TM) domain-containing protein Pex22p (
+    <xref ref-type="bibr">
+     Koller et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Collins et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zolman et al, 2005
+    </xref>
+    ). Pex4p is an unusual E2 enzyme in that it facilitates site-specific cysteine ubiquitination of its substrate, the cycling receptor Pex5p (
+    <xref ref-type="bibr">
+     Wiebel and Kunau, 1992
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Platta et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Williams et al, 2007
+    </xref>
+    ). Pex5p, required for import of proteins bearing a Peroxisomal Targeting Signal type-1 (PTS1) into peroxisomes, is modified on a conserved cysteine residue at its N-terminus by the addition of two Ub moieties (
+    <xref ref-type="bibr">
+     Kragt et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Williams et al, 2007
+    </xref>
+    ). Pex4p-dependent ubiquitination of Pex5p (sometimes referred to as Pex5p monoubiquitination), which occurs on the peroxisomal membrane and at a point after the receptor has delivered its cargo into the peroxisomal lumen, regulates the dissociation of Pex5p from the peroxisomal membrane (
+    <xref ref-type="bibr">
+     Williams et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Platta et al, 2008
+    </xref>
+    ). However, this is not the only form of Pex5p ubiquitination. Under certain conditions, for example in the absence of Pex4p or in other mutants disturbed in the membrane dissociation step, Pex5p is modified by another E2 enzyme, Ubc4p (
+    <xref ref-type="bibr">
+     Platta et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kragt et al, 2005
+    </xref>
+    ). Ubc4p attaches between 1 and 4 Ub moieties to conserved lysine residues in Pex5p (sometimes referred to as Pex5p polyubiquitination), which targets the receptor for proteasome-mediated degradation (
+    <xref ref-type="bibr">
+     Williams et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Platta et al, 2008
+    </xref>
+    ). For clarity, we will refer to the two forms of Pex5p modification as Pex4p- and Ubc4p-dependent ubiquitination.
+   </p>
+   <p>
+    Both the Pex4p- and Ubc4p-dependent ubiquitination of Pex5p require Pex2p, Pex10p and Pex12p, three RING domain-containing proteins that form a complex at the peroxisomal membrane (
+    <xref ref-type="bibr">
+     Kragt et al, 2005
+    </xref>
+    ). Each RING domain exhibits E3 ligase activity
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Williams et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Platta et al, 2009
+    </xref>
+    ) yet the situation
+    <em>
+     in vivo
+    </em>
+    is complicated by the requirement of each RING domain for complex formation (
+    <xref ref-type="bibr">
+     Eckert and Johnsson, 2003
+    </xref>
+    ) and consequently, for Pex5p modification (
+    <xref ref-type="bibr">
+     Kragt et al, 2005
+    </xref>
+    ). While Pex10p's E3 ligase activity is required for Ubc4p-dependent ubiquitination of Pex5p
+    <em>
+     in vivo
+    </em>
+    , loss of this activity does not affect the Pex4p-dependent modification (
+    <xref ref-type="bibr">
+     Williams et al, 2008
+    </xref>
+    ). Consequently, the identity of the E3 ligase functioning with Pex4p remains elusive.
+   </p>
+   <p>
+    Despite recent advances in the field, a number of key issues remain concerning Pex4p-dependent ubiquitination of Pex5p including crucially, the role of Pex4p's binding partner Pex22p in this process. Here, we report that Pex22p not only provides a docking platform for Pex4p on the peroxisomal membrane but also functions as an E2 co-activator, required for Pex4p's ability to ubiquitinate its substrate, the PTS1 receptor Pex5p. The crystal structure of the Pex4p:Pex22p complex from
+    <em>
+     Saccharomyces cerevisiae
+    </em>
+    reveals a previously unobserved mode of binding for an E2 enzyme and, together with our functional data, provides important insights into how a non-canonical binding partner regulates the activity of an E2 enzyme.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Pex22p specifically stimulates Pex4p's ubiquitin-conjugating activity
+     <em>
+      in vitro
+     </em>
+    </title>
+    <p>
+     Pex22p contains an N-terminal TM segment and a large cytosol-exposed region of unknown fold. Using secondary structure and domain predictions, a number of truncated versions of Pex22p were constructed and their ability to interact with Pex4p was tested using the yeast two-hybrid system (
+     <a>
+      Supplementary Table S1
+     </a>
+     ). The minimal region required for Pex4p binding consists of residues 54–180, corresponding to the soluble region of Pex22p (referred to as Pex22
+     <sup>
+      S
+     </sup>
+     ). Likewise, we observed that the first 14 amino acids of Pex4p were not required for Pex22
+     <sup>
+      S
+     </sup>
+     binding and consequently, we have used this truncated version, termed Pex4
+     <sup>
+      15–183
+     </sup>
+     , in subsequent experiments. We quantified the Pex4
+     <sup>
+      15–183
+     </sup>
+     :Pex22
+     <sup>
+      S
+     </sup>
+     interaction using isothermal titration microcalorimetry (ITC), confirming it to be direct, with a 1:1 stoichiometry and to be of high affinity, with a measured dissociation constant (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) of 2 nM (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). In contrast, we were unable to detect an interaction between Pex22
+     <sup>
+      S
+     </sup>
+     and the other ubiquitin-conjugating enzyme involved in Pex5p ubiquitination, Ubc4p (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Summary of the ITC data
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     To test the effect such a tight binding partner would have on Pex4p's activity
+     <em>
+      in vitro
+     </em>
+     Pex4
+     <sup>
+      15–183
+     </sup>
+     , together with E1 and Ub was incubated in the presence or absence of ATP and Pex22
+     <sup>
+      S
+     </sup>
+     and ubiquitin-conjugating activity was followed using an E2 self-ubiquitination assay (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S2A
+     </a>
+     ). In line with our previous results (
+     <xref ref-type="bibr">
+      Williams et al, 2008
+     </xref>
+     ), purified Pex4
+     <sup>
+      15–183
+     </sup>
+     exhibited ubiquitin-conjugating activity, as seen by the formation of an anti-Ub and anti-Pex4p reactive species in reactions containing ATP (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). The estimated molecular mass of this species (26 kDa) correlates well with that of Pex4
+     <sup>
+      15–183
+     </sup>
+     attached to Ub (19.5+8 kDa). Interestingly, the addition of Pex22
+     <sup>
+      S
+     </sup>
+     to the reaction resulted not only in an enhanced production of Ub–Pex4
+     <sup>
+      15–183
+     </sup>
+     , but also in the formation of additional, higher molecular mass species, corresponding to Pex4
+     <sup>
+      15–183
+     </sup>
+     attached to 2 (35.5 kDa), 3 (43.5 kDa) or 4 (51.5 kDa) Ub moieties (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). All these species are lysine linked, as they are resistant to the reducing agent β-mercaptoethanol. Pex22
+     <sup>
+      S
+     </sup>
+     alone exhibited no activity (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     , last lane). Next, we analysed Pex4
+     <sup>
+      15–183
+     </sup>
+     's ubiquitin-conjugating activity in the presence of a mutant form of Ub where the lysine at position 48 was mutated to an arginine (K48R). Interestingly, inclusion of K48R Ub effectively blocked the formation of the additional, higher molecular mass Ub species, indicating that Pex22
+     <sup>
+      S
+     </sup>
+     binding allows Pex4
+     <sup>
+      15–183
+     </sup>
+     to make lysine 48 linked Ub chains (
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ). The ubiquitin-conjugating activity of Ubc4p remained unaffected upon addition of Pex22
+     <sup>
+      S
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ), confirming Pex22
+     <sup>
+      S
+     </sup>
+     's specificity for Pex4
+     <sup>
+      15–183
+     </sup>
+     .
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Pex22p acts as a specific co-activator for Pex4p
+       <em>
+        in vitro
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        E
+       </strong>
+       ) E2 self-ubiquitination assays containing some of the following: 0.2 μM E1 enzyme, 11 μM wild type (WT) or a lysine 48 to arginine mutant form (K48R) of Ub (Sigma), 5 mM ATP, 1.2 μM Pex4
+       <sup>
+        15–183
+       </sup>
+       , 1.2 μM Ubc4p and 1.7 μM Pex22
+       <sup>
+        S
+       </sup>
+       , probed with either anti-Pex4p (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ) or anti-Ub antibodies (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       and
+       <strong>
+        E
+       </strong>
+       ).
+       <sup>
+        *
+       </sup>
+       Defines an anti-Ub crossreactive species, likely to be Ubc4p. The presence of Pex22
+       <sup>
+        S
+       </sup>
+       stimulates the ubiquitin-conjugating activity of Pex4
+       <sup>
+        15–183
+       </sup>
+       and additionally allows Pex4
+       <sup>
+        15–183
+       </sup>
+       to produce Ub chains (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ), linked through lysine 48 in Ub (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) but does not affect Ubc4p's activity (
+       <strong>
+        E
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To gain further insight into the role of Pex22
+     <sup>
+      S
+     </sup>
+     binding, we examined the rate of Pex4
+     <sup>
+      15–183
+     </sup>
+     charging by E1 in the presence and absence of Pex22
+     <sup>
+      S
+     </sup>
+     . Samples of the reactions were taken soon after initiation (1, 3, 5 and 10 min) and were subjected to non-reducing SDS–PAGE, western blotting and anti-Pex4p immunoblotting (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S2B
+     </a>
+     ). As the presence of Pex22
+     <sup>
+      S
+     </sup>
+     is not required for the production of thioester-linked Ub–Pex4
+     <sup>
+      15–183
+     </sup>
+     , nor does its presence enhance production of this species (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), we conclude that Pex22
+     <sup>
+      S
+     </sup>
+     does not stimulate Pex4p's activity by enhancing Ub transfer from E1 to Pex4p.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Pex22p binding stimulates transfer of Ub to a substrate. (
+       <strong>
+        A
+       </strong>
+       ) Pex4
+       <sup>
+        15–183
+       </sup>
+       charging assays, performed in the absence (left panel) or presence (right panel) of Pex22
+       <sup>
+        S
+       </sup>
+       , with protein concentrations as follows: 0.27 μM E1, 29 μM Ub, 10 mM ATP, 8.3 μM Pex4
+       <sup>
+        15–183
+       </sup>
+       and 11 μM Pex22
+       <sup>
+        S
+       </sup>
+       . Charging of E2 was assessed by following the formation of thioester-linked Ub–Pex4
+       <sup>
+        15–183
+       </sup>
+       . Reactions were quenched in non-reducing loading buffer at the indicated times, subjected to SDS–PAGE and probed with anti-Pex4p antibodies. To gauge background levels of lysine-linked Ub–Pex4
+       <sup>
+        15–183
+       </sup>
+       , samples taken after 10 min were also analysed after treatment with β-mercaptoethanol (T
+       <sub>
+        10
+       </sub>
+       +).
+       <sup>
+        *
+       </sup>
+       Represents a dimeric form of Pex4p visible when DTT is absent from the reaction. (
+       <strong>
+        B
+       </strong>
+       ) E2 self-ubiquitination assay, with protein concentrations as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       , using the K48R form of Ub. Samples of reactions were taken at the time points indicated and subjected to SDS–PAGE, western blotting and anti-Pex4p staining. Pex22
+       <sup>
+        S
+       </sup>
+       binding is not involved in promoting the charging of Pex4p by E1 (
+       <strong>
+        A
+       </strong>
+       ) but enhances the transfer of Ub to a substrate (
+       <strong>
+        B
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Consequently, our results led us to believe that the role of Pex22
+     <sup>
+      S
+     </sup>
+     involves the Ub-to-substrate transfer step. To test this hypothesis, we examined the rate of Pex4
+     <sup>
+      15–183
+     </sup>
+     self-ubiquitination using the K48R form of Ub (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S2C
+     </a>
+     ), which blocks the formation of Ub chains, allowing us to gauge the rate of formation of a single Ub–Pex4p species. We observed that the presence of Pex22
+     <sup>
+      S
+     </sup>
+     enhances production of Ub–Pex4
+     <sup>
+      15–183
+     </sup>
+     by around 2–3-fold (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ), confirming the theory that Pex22p binding influences the transfer of Ub to a substrate.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Overall structure of the Pex4
+     <sup>
+      15–183
+     </sup>
+     :Pex22
+     <sup>
+      S
+     </sup>
+     complex
+    </title>
+    <p>
+     To unravel the molecular basis of Pex4p binding to Pex22p, we determined the crystal structure of Pex4
+     <sup>
+      15–183
+     </sup>
+     in complex with Pex22
+     <sup>
+      S
+     </sup>
+     at 2.6 Å (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). The structure is complete, with the exception of the termini of Pex4
+     <sup>
+      15–183
+     </sup>
+     and the three N-terminal residues and one loop (residues 145–151) in Pex22
+     <sup>
+      S
+     </sup>
+     . Pex4
+     <sup>
+      15–183
+     </sup>
+     adopts a typical UBC fold (
+     <xref ref-type="bibr">
+      Cook et al, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Worthylake et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Merkley and Shaw, 2004
+     </xref>
+     ), containing a core domain of four anti-parallel β-strands (β1–β4) with one α-helix (α2), a small 3
+     <sub>
+      10
+     </sub>
+     helix (3
+     <sub>
+      10
+     </sub>
+     ), an N-terminal helix (α1) and a helix-turn-helix (α3–α4) at the C-terminus (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). As in other E2 structures, the active site cysteine (Cys115,
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) is situated in a cleft formed by the 3
+     <sub>
+      10
+     </sub>
+     -helix and the loop region between α2 and α3.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Molecular basis of Pex4p:Pex22p complex formation. (
+       <strong>
+        A
+       </strong>
+       ) Overall structure of Pex4
+       <sup>
+        15–183
+       </sup>
+       (green) in complex with Pex22
+       <sup>
+        S
+       </sup>
+       (orange) in two different orientations. The interface is formed by the C-terminal helices α3 and α4 from Pex4
+       <sup>
+        15–183
+       </sup>
+       and helices α4 and α5 and β-strand β3 from Pex22
+       <sup>
+        S
+       </sup>
+       (boxed). Pex4p's active site (Cys115) is indicated in sphere presentation (carbon, green; sulphur, yellow). The termini of the Pex4
+       <sup>
+        15–183
+       </sup>
+       and Pex22
+       <sup>
+        S
+       </sup>
+       sequences and secondary structural elements are labelled. (
+       <strong>
+        B
+       </strong>
+       ) Specific residue interactions found in the Pex4
+       <sup>
+        15–183
+       </sup>
+       :Pex22
+       <sup>
+        S
+       </sup>
+       interface. Residues that participate in hydrogen bonding (dotted lines) are shown in stick representation and labelled. Nitrogen and oxygen atoms are coloured blue and red, respectively, with carbon atoms coloured as in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) Surface representation of Pex22
+       <sup>
+        S
+       </sup>
+       (orange) showing residues involved in hydrophobic contacts (cyan) with Tyr172 of Pex4
+       <sup>
+        15–183
+       </sup>
+       (green). Nitrogen and oxygen atoms are coloured blue and red, respectively.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Sequence alignment of
+       <em>
+        Saccharomyces cerevisiae
+       </em>
+       Pex4p and Pex22p. (
+       <strong>
+        A
+       </strong>
+       ) ScPex4p aligned with a selection of homologous Pex4p sequences and a number of other ubiquitin-conjugating enzymes, allowing comparison with E2s whose functions are not dependent on Pex22p. Secondary structure elements in Pex4
+       <sup>
+        15–183
+       </sup>
+       are shown above the alignment. The active site cysteine is indicated with an asterisk. Pex4
+       <sup>
+        15–183
+       </sup>
+       residues involved in interface formation with Pex22
+       <sup>
+        S
+       </sup>
+       are indicated with triangles below the alignment, with open triangles denoting residues involved in residue-specific polar interactions. Black shading indicates identity and grey shading similarity when present in at least five of the ten sequences aligned. Sc,
+       <em>
+        Saccharomyces cerevisiae
+       </em>
+       ; Cg,
+       <em>
+        Candida glabrata
+       </em>
+       ; Ag,
+       <em>
+        Ashbya gossypii
+       </em>
+       ; Kl,
+       <em>
+        Kluyveromyces lactis
+       </em>
+       . (
+       <strong>
+        B
+       </strong>
+       ) Sequence alignment of Pex22p with homologous sequences. Secondary structure elements, as well as the trans-membrane segment (TM) in ScPex22p, are indicated above the rows. Residues involved in interface formation with Pex4
+       <sup>
+        15–183
+       </sup>
+       are indicated as in (
+       <strong>
+        A
+       </strong>
+       ). When present in at least three of the four sequences aligned, conservation is indicated as in (
+       <strong>
+        A
+       </strong>
+       ). The four organisms selected in the Pex22p alignment have unambiguously identified Pex4p sequences (
+       <strong>
+        A
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Data collection and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Pex22
+     <sup>
+      S
+     </sup>
+     also comprises a mixed β-sheet/α-helical fold, consisting of five parallel β-strands in the order β3–β2–β1–β4–β5, which form a central β-sheet that is tightly sandwiched on both sides by eight α-helices (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). At first glance, the secondary structural topology of Pex22
+     <sup>
+      S
+     </sup>
+     is suggestive of a Rossmann-like fold, particularly as each β-strand is linked (N- and C-terminally) to two α-helices (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ), a topology typical for Rossmann and Rossmann-like folds (
+     <xref ref-type="bibr">
+      Rao and Rossmann, 1973
+     </xref>
+     ). However, although a similarity search using PDBeFOLD (
+     <xref ref-type="bibr">
+      Krissinel and Henrick, 2004
+     </xref>
+     ) did identify a number of potential homologous Rossmann-like fold structures, the observation that homology was, for the most part, confined to the central β-sheet, coupled with the low
+     <em>
+      Q
+     </em>
+     -scores (highest
+     <em>
+      Q
+     </em>
+     -score: 0.193), leads us to the conclusion that the overall fold of Pex22
+     <sup>
+      S
+     </sup>
+     is novel.
+    </p>
+    <p>
+     Examination of the residue-average B-factors in the co-crystal structure, an evaluation of the fluctuation of atoms in a protein structure relative to their average positions (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ) suggests the presence of some highly flexible ‘hotspots' in Pex4
+     <sup>
+      15–183
+     </sup>
+     —the α1–β1 loop, 3
+     <sub>
+      10
+     </sub>
+     –α2 loop and α2–α3 loop. It could be suggested that these flexible loops effectively segment Pex4
+     <sup>
+      15–183
+     </sup>
+     into three, loosely associated subdomains, a ‘cap' comprising α1, a ‘core' domain consisting of β1–β2–β3–β4–3
+     <sub>
+      10
+     </sub>
+     –α2 and an interaction motif formed by α-helices α3 and α4. These subdomains could form the basis of the series of folding/unfolding intermediates seen using CD (see
+     <a>
+      Supplementary Data
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Molecular details of the Pex4p–Pex22p interface
+    </title>
+    <p>
+     The Pex4
+     <sup>
+      15–183
+     </sup>
+     :Pex22
+     <sup>
+      S
+     </sup>
+     high affinity binding site is established by the insertion of helix α5 from Pex22
+     <sup>
+      S
+     </sup>
+     into the V-shaped arrangement of the C-terminal helices α3 and α4 of Pex4
+     <sup>
+      15–183
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Additional interactions are formed by the exposed surface of helix α4 from Pex4
+     <sup>
+      15–183
+     </sup>
+     and strand β3, helix α4 and the joining loop region from Pex22
+     <sup>
+      S
+     </sup>
+     , effectively burying around 750 Å
+     <sup>
+      2
+     </sup>
+     of the solvent-accessible interface area. In Pex4
+     <sup>
+      15–183
+     </sup>
+     , a total of 19 residues participate in interface formation, as determined by PISA (
+     <xref ref-type="bibr">
+      Krissinel and Henrick, 2007
+     </xref>
+     ). Interface formation involves both polar and hydrophobic contacts (
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and a number of interfacing residues, specifically Asp151, Ala165, Gly168, Ile169 and Tyr172, are conserved in homologous Pex4p sequences, but not in other ubiquitin-conjugating enzymes (
+     <xref ref-type="fig">
+      Figures 4
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Particularly, the contribution of Tyr172 to the interaction, beyond the hydrogen bond to Lys133 from Pex22
+     <sup>
+      S
+     </sup>
+     , extends into extensive Van-der-Waals interactions, involving Val86, His113, Lys114, Leu116 and Leu131 from Pex22
+     <sup>
+      S
+     </sup>
+     , residues that are, for a large part conserved within the Pex22p family (
+     <xref ref-type="fig">
+      Figures 3C
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). To test the prominent role of Tyr172 in complex formation, we mutated this residue to both an alanine and a phenylalanine and quantitatively measured the effect on Pex22
+     <sup>
+      S
+     </sup>
+     binding with ITC. The Y172F mutation reduced the ability of Pex4
+     <sup>
+      15–183
+     </sup>
+     to interact with Pex22
+     <sup>
+      S
+     </sup>
+     by a factor of 12 and likewise, mutation of Lys133 in Pex22
+     <sup>
+      S
+     </sup>
+     to an alanine reduced Pex4
+     <sup>
+      15–183
+     </sup>
+     binding by a factor of 9 (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Interestingly, we were unable to detect an interaction between Pex22
+     <sup>
+      S
+     </sup>
+     and the Y172A form of Pex4
+     <sup>
+      15–183
+     </sup>
+     using ITC (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Therefore, in order to assess further the affect of the Y172A mutation on complex formation, we performed native gel electrophoresis and
+     <em>
+      in-vitro
+     </em>
+     ubiquitination assays (
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ). We saw no evidence of complex formation between Pex4
+     <sup>
+      15–183
+     </sup>
+     Y172A and Pex22
+     <sup>
+      S
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ) and additionally, the ubiquitin-conjugating activity of the mutant in the presence of Pex22
+     <sup>
+      S
+     </sup>
+     was considerably reduced, although not abolished (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). This low level of Pex22
+     <sup>
+      S
+     </sup>
+     -induced activity may be due to a weak and/or transient interaction between Pex4
+     <sup>
+      15–183
+     </sup>
+     Y172A and Pex22
+     <sup>
+      S
+     </sup>
+     that is below the detection levels of our assays. Importantly, Pex4
+     <sup>
+      15–183
+     </sup>
+     Y172A retained levels of ubiquitin-conjugating activity similar to the wild-type protein in the absence of Pex22s (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Interfacing residues are conserved within homologous Pex4p and Pex22p sequences. (
+       <strong>
+        A
+       </strong>
+       ) View of the Pex4
+       <sup>
+        15–183
+       </sup>
+       (surface representation) Pex22
+       <sup>
+        S
+       </sup>
+       complex (cartoon), indicating the region of Pex22
+       <sup>
+        S
+       </sup>
+       (shown in red and labelled) that forms the interface with Pex4
+       <sup>
+        15–183
+       </sup>
+       . (
+       <strong>
+        B
+       </strong>
+       ) Surface representation of the Pex22
+       <sup>
+        S
+       </sup>
+       binding site in Pex4
+       <sup>
+        15–183
+       </sup>
+       , showing residues involved in interface formation which are invariant (blue), partially conserved (cyan) or not-conserved (grey) within homologous Pex4p sequences. (
+       <strong>
+        C
+       </strong>
+       ) Mode of binding of Pex4
+       <sup>
+        15–183
+       </sup>
+       (cartoon) to Pex22
+       <sup>
+        S
+       </sup>
+       (surface representation) indicating the interface forming helices α3 and α4 in Pex4
+       <sup>
+        15–183
+       </sup>
+       (blue). (
+       <strong>
+        D
+       </strong>
+       ) Surface conservation within the Pex4
+       <sup>
+        15–183
+       </sup>
+       binding site in homologous Pex22p sequences, indicating residues which are invariant (blue), partially conserved (cyan) or not-conserved (grey).
+      </p>
+     </caption>
+    </fig>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       <em>
+        In-vitro
+       </em>
+       characteristics of the Y172A mutant form of Pex4
+       <sup>
+        15–183
+       </sup>
+       . (
+       <strong>
+        A
+       </strong>
+       ) Native gel electrophoresis analysis of the ability of wild-type and Y172A forms of Pex4
+       <sup>
+        15–183
+       </sup>
+       to bind Pex22
+       <sup>
+        S
+       </sup>
+       . (
+       <strong>
+        B
+       </strong>
+       ) E2 self-ubiquitination assay performed as in
+       <xref ref-type="fig">
+        Figure 2B
+       </xref>
+       and containing E1, ATP, wild-type or Y172A forms of Pex4
+       <sup>
+        15–183
+       </sup>
+       in the presence or absence of Pex22
+       <sup>
+        S
+       </sup>
+       . Samples of the reactions were taken at the time points indicated and probed with anti-Ub antibodies. The Y172A mutation, which disturbs Pex22
+       <sup>
+        S
+       </sup>
+       binding (
+       <strong>
+        A
+       </strong>
+       ), does not affect the intrinsic activity of Pex4
+       <sup>
+        15–183
+       </sup>
+       (
+       <strong>
+        B
+       </strong>
+       , left panel) but inhibits the Pex22
+       <sup>
+        S
+       </sup>
+       -dependent enhancement of Pex4p activity (
+       <strong>
+        B
+       </strong>
+       , right panel).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Pex22
+     <sup>
+      S
+     </sup>
+     binding is an essential requirement for Pex4p's activity
+     <em>
+      in vivo
+     </em>
+    </title>
+    <p>
+     Our data indicate that the function of Pex22p goes beyond simply targeting Pex4p to the peroxisomal membrane (
+     <xref ref-type="bibr">
+      Koller et al, 1999
+     </xref>
+     ). To investigate the additional role(s) of Pex22p, we carried out an
+     <em>
+      in-vivo
+     </em>
+     growth assay, testing the ability of
+     <em>
+      pex4
+     </em>
+     Δ yeast cells expressing Pex4p variants disturbed in Pex22p binding to grow on oleic acid, a carbon source requiring functional peroxisomes for its metabolism (
+     <xref ref-type="bibr">
+      Williams et al, 2007
+     </xref>
+     ). Furthermore, we analysed the status of Ubc4p-dependent Pex5p ubiquitination, a phenotype indicative of a loss of Pex4p activity and consequently, a deficiency in Pex5p recycling (
+     <xref ref-type="bibr">
+      Platta et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Williams et al, 2007
+     </xref>
+     ). To separate Pex22p's role in Pex4p targeting from its hypothesised role as E2 co-activator, we tethered Pex4p (complete with C-terminal FLAG tag) to the peroxisomal membrane by fusing the first 54 amino acids of Pex22p, containing the TM segment, to its N-terminus. Expression of this chimeric protein, referred to as TM-Pex4p–FLAG, under control of the Pex4p promoter rescues the growth of
+     <em>
+      pex4
+     </em>
+     Δ cells on oleic acid (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , upper panel), indicating that TM-Pex4p–FLAG is a functional protein. However,
+     <em>
+      pex4
+     </em>
+     Δ cells expressing the Y172A form of TM-Pex4p–FLAG are severely disturbed in their ability to grow under these conditions and additionally, exhibit Ubc4p-dependent ubiquitination of Pex5p (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , lower panel), an observation that signifies a loss of Pex4p function. To confirm that the effect we observed with the Y172A mutant is indeed due to a loss of interaction, we assessed its ability to bind Pex22p
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). Unfortunately, we are unable to detect Pex4p in cells when expressed under control of its own promoter, employing either anti-Pex4p or anti-FLAG antibodies. Therefore, we placed our constructs under control of the catalase promoter and subjected cells overexpressing either wild-type or Y172A forms of Pex4p–FLAG and TM-Pex4p–FLAG, together with 3 × HA-tagged Pex22
+     <sup>
+      S
+     </sup>
+     , to co-immunoprecipitation with anti-FLAG antibodies. Wild-type, but not the Y172A mutant form of Pex4p–FLAG and TM-Pex4p–FLAG was able to co-immunoprecipitate Pex22
+     <sup>
+      S
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ), confirming that the Y172A mutant is indeed unable to bind Pex22p
+     <em>
+      in vivo
+     </em>
+     and accordingly, that Pex22p binding plays an essential role in Pex4p's activity
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       <em>
+        In vivo
+       </em>
+       analysis of the Pex4p:Pex22p complex. (
+       <strong>
+        A
+       </strong>
+       ) Phenotypical analysis of Pex4p mutants disturbed in Pex22p binding.
+       <em>
+        pex4
+       </em>
+       Δ cells expressing Pex4p variants or an empty vector were grown on media containing oleic acid as sole carbon source for 6 days at 28°C (upper panel) or lysed and samples subjected to SDS–PAGE, western blotting and staining with anti-Pex5p antibodies (lower panel). Ub–Pex5p denotes Ubc4p-modified forms of Pex5p. (
+       <strong>
+        B
+       </strong>
+       ) Pex22p binding capabilities of Pex4p
+       <em>
+        in vivo
+       </em>
+       . Lysates of cells (lower panels) expressing wild-type or mutant forms of Pex4p–FLAG and TM-Pex4p–FLAG, together with 3 × HA-tagged Pex22
+       <sup>
+        S
+       </sup>
+       were subjected to co-immunoprecipitation with anti-FLAG antibodies and samples were probed with anti-FLAG and anti-HA (upper panels). (
+       <strong>
+        C
+       </strong>
+       ) Ability of Pex4p mutants disturbed in Pex22p binding to modify Pex5p.
+       <em>
+        pex4
+       </em>
+       Δ
+       <em>
+        pex5
+       </em>
+       Δ cells, co-expressing Myc-tagged Ub, the Pex5p K0N variant and different Pex4p mutants, were lysed and subjected to immunoprecipitation using Pex5p antibodies. Immunoprecipitates were probed with SDS–PAGE, western blotting and staining with anti-Myc (upper panel) or anti-Pex5p (lower panel) antibodies. Disturbing the interaction between Pex4p and Pex22p (
+       <strong>
+        B
+       </strong>
+       ) results in a growth defect on oleic acid (
+       <strong>
+        A
+       </strong>
+       ) and Ubc4p-dependent ubiquitination of Pex5p (
+       <strong>
+        A
+       </strong>
+       ), a phenotype caused by the inability of Pex4p to ubiquitinate Pex5p on its conserved cysteine residue (
+       <strong>
+        C
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Taking our analysis one step further, we directly assayed the effect of disturbing the Pex4p:Pex22p interaction on Pex4p's ability to attach Ub to its substrate, the cycling receptor Pex5p (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     ). Since the Y172A mutation in TM-Pex4p–FLAG causes Ubc4p-dependent ubiquitination of Pex5p, we used the Pex5p K0N variant, in which all lysine residues in the N-terminal domain of Pex5p are mutated to arginines. This Pex5p mutant, which is severely restricted in Ubc4p-dependent but unaffected in Pex4p-dependent ubiquitination, allows us to assess the ability of our constructs to ubiquitinate Pex5p on its conserved cysteine residue
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      Williams et al, 2007
+     </xref>
+     ). Using immunoprecipitation analysis, we could confirm that TM-Pex4p–FLAG is able to complement the
+     <em>
+      pex4
+     </em>
+     Δ knockout phenotype (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ) due to its ability to modify Pex5p, in a manner comparable to that of the wild-type protein (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     , compare lanes 3 and 5). Significantly, the ability of TM-Pex4p–FLAG Y172A to modify Pex5p was strongly reduced, confirming the vital role Pex22p binding plays in Pex4p's ability to transfer ubiquitin to a substrate and ultimately, its cellular role.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    In this contribution, we have presented the crystal structure of an E2/co-activator complex, consisting of the ubiquitin-conjugating enzyme Pex4p and the peroxisomal membrane protein Pex22p from
+    <em>
+     S. cerevisiae
+    </em>
+    . When comparing the Pex4p:Pex22p interface with other E2-complex structures, there is no overlap with established interfaces of any E3 ligase category (both canonical and non-canonical), as well as known E1, ubiquitin and UEV binding sites (
+    <xref ref-type="bibr">
+     Dye and Schulman, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ye and Rape, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van Wijk and Timmers, 2010
+    </xref>
+    ). This observation even holds for complexes of more distantly related SUMO- and NEDD8-conjugating enzymes. However, a partial overlap is seen with one of the interfaces used by the SUMO conjugating enzyme Ube2L when binding to Importin13 (
+    <xref ref-type="bibr">
+     Grünwald and Bono, 2010
+    </xref>
+    ), as well as when Ube2L binds to its substrate, RanGAP1 (
+    <xref ref-type="bibr">
+     Reverter and Lima, 2005
+    </xref>
+    ). In both cases, Ube2L utilises elements of α-helix 3 in the interaction. While the Ube2L:Importin13 interaction plays a role in the nuclear targeting, rather than the SUMO conjugating activity of Ube2L (
+    <xref ref-type="bibr">
+     Grünwald and Bono, 2010
+    </xref>
+    ), contacts made by α-helix 3 allow the target lysine in RanGAP1 to come into close proximity of Ube2L's active site cysteine (
+    <xref ref-type="bibr">
+     Reverter and Lima, 2005
+    </xref>
+    ). Taking into account that many functional features of E2 enzymes with different substrate specificities can be conserved (
+    <xref ref-type="bibr">
+     Dye and Schulman, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ye and Rape, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van Wijk and Timmers, 2010
+    </xref>
+    ), this observation may suggest that Pex22p binding is involved in positioning Pex4p close to its target, the conserved cysteine residue in the N-terminal region of Pex5p.
+    <xref ref-type="bibr">
+     Cadwell and Coscoy (2008)
+    </xref>
+    reported that attachment of Ub to a substrate can be dependent upon the position of the target residue in the substrate, rather than the type of residue, since both cysteine and lysine residues could be utilised when present at equivalent positions in a substrate. Recently,
+    <xref ref-type="bibr">
+     Grou et al (2009)
+    </xref>
+    showed that replacement of the conserved cysteine in human Pex5p with a more conventional lysine residue does not affect ubiquitination or function of the protein, suggesting that positioning is more important than the type of target residue for Pex5p ubiquitination. The presence of Pex22p may therefore allow for site-specific ubiquitination of the conserved cysteine, by correct positioning of Pex4p in relation to the exposed N-terminus of Pex5p.
+   </p>
+   <p>
+    As Pex22p stimulates the intrinsic Ub-to-substrate transfer activity of Pex4p, but does not contain a RING/U-box or HECT domain, it would be possible to describe the protein as non-canonical E3 ligase, similar to the SUMO E3 RanBP2 or the Replication Transcriptional Activator (RTA) Ub E3 ligase (
+    <xref ref-type="bibr">
+     Pichler et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yu et al, 2005
+    </xref>
+    ). These proteins lack recognisable E3 ligase domains but can catalyse the transfer of Ub/SUMO from E2 to substrates. In the case of RanBP2, the comparison is particularly relevant since RanBP2 binding to Ube2L, as with Pex22p binding to Pex4p, causes changes in intrinsic E2 activity, probably through an allosteric mechanism, rather than by providing a bridge between E2 and substrate (
+    <xref ref-type="bibr">
+     Pichler et al, 2004
+    </xref>
+    ). However,
+    <em>
+     in vivo
+    </em>
+    , Pex4p-dependent ubiquitination of Pex5p still requires the presence of three RING domain-containing proteins, all of which exhibit E3 ligase activity
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Williams et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Platta et al, 2009
+    </xref>
+    ), suggesting that the role of Pex22p is more fundamental to Pex4p's activity and that additionally, Pex22p's function also precedes the step requiring an E3 ligase.
+   </p>
+   <p>
+    <em>
+     In vitro
+    </em>
+    , binding of Pex22p allows Pex4p to produce lysine 48 linked Ub chains and
+    <em>
+     in vivo
+    </em>
+    , Pex22p binding is crucial for Pex4p's ability to attach two Ub moieties to the cycling receptor Pex5p, a modification required for Pex5p recycling (
+    <xref ref-type="bibr">
+     Platta et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Williams et al, 2007
+    </xref>
+    ). Although currently, the type of linkage used to attach the second Ub to Pex5p has not been established
+    <em>
+     in vivo
+    </em>
+    , observations from the related yeast
+    <em>
+     H. polymorpha
+    </em>
+    are worthy of note (
+    <xref ref-type="bibr">
+     Kiel et al, 2005
+    </xref>
+    ). Expression of the K48R mutant form of Ub in this organism blocks peroxisomal matrix protein import, but only in the presence of Pex4p, providing a link between the synthesis of K48-linked Ub chains and the function of Pex4p. Whether K48-linked Ub chains are formed on the target Pex5p
+    <em>
+     in vivo
+    </em>
+    remains to be investigated.
+   </p>
+   <p>
+    Interestingly, the ‘α3–α4' binding site (employing the surface exposed regions of α-helices α3 and α4) represents the only surface on an E2 for which to date, no binding partner has been identified (
+    <xref ref-type="bibr">
+     Wenzel et al, 2011
+    </xref>
+    ). This mode of binding to an E2 would not occlude binding of E1 and/or E3, therefore negating a requirement for the complex to dissociate in order to allow procession of the Ub cascade. Consequently, the α3–α4 binding site provides an additional level of specificity for ubiquitin-conjugating enzymes, potentially allowing them to associate with proteins regulating their cellular localisation and/or activity, without compromising E1/E3 binding. Pex22p binding does not appear to alter the overall secondary structure of Pex4p (
+    <a>
+     Supplementary Table S2
+    </a>
+    ) but, as our efforts to gain structural data on Pex4p alone have so far been unsuccessful, we cannot rule out that subtle changes in conformation do occur upon Pex22p binding. Indeed, two recent reports on E2 activity regulation offer interesting comparisons. Binding of the E3 ligase gp78 to Ube2g2 induces allosteric changes within the E2, which enhance E2:RING-domain interactions and in turn, ubiquitin conjugation (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ). Equally,
+    <xref ref-type="bibr">
+     Ceccarelli et al (2011)
+    </xref>
+    reported on an inhibitor of the ubiquitin-conjugating enzyme Cdc34, the binding of which causes a subtle repositioning of secondary structure elements within the E2, leading to an inhibition of activity. In both cases, the overall secondary structure of the E2 was not altered by ligand binding. Therefore, we propose that the influence Pex22p exerts on Pex4p is comparable and consists of a general ‘rigidification' or ‘tightening up' of the loosely associated Pex4p structure, effectively locking Pex4p in a conformation favourable for Ub-to-substrate transfer. However, Pex22p binding may also convey a signal through Pex4p to additional peroxisomal membrane components, such as the RING proteins. Therefore, an attractive model arises where the presence of Pex22p would not only secure the E2 in a conformation favourable for transferring Ub to a substrate, but would also play a role in recruiting the E3 ligase platform and in positioning Pex4p correctly in relation to its target, ultimately leading to site-specific ubiquitination of Pex5p. Accordingly, an important part of future research will be to address the affect Pex22p binding has on Pex4p:RING protein interactions.
+   </p>
+   <p>
+    Our ITC analysis indicates that the Pex4p:Pex22p interaction is of a high affinity and the considerable free energy change upon association (ΔG=−11.9 kcal mol
+    <sup>
+     –1
+    </sup>
+    ) points towards a highly stable complex. Once bound, Pex4p will very likely remain in complex with Pex22p at the peroxisomal membrane, a situation that would increase the local concentration of Pex4p while concomitantly ensuring that active Pex4p is only present at its site of action. In line with this, Pex4p from the yeast
+    <em>
+     P. pastoris
+    </em>
+    is found predominantly associated with peroxisomes
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="bibr">
+     Crane et al, 1994
+    </xref>
+    ). This, coupled with the central role Pex22p plays in Pex4p's activity, leads us to conclude that the E2 required for cysteine-specific ubiquitination of Pex5p is best described in terms of the Pex4p:Pex22p complex, rather than Pex4p alone.
+   </p>
+   <p>
+    Here, we present data showing how a ubiquitin-conjugating enzyme can be regulated by an interacting partner not previously implicated in the Ub cascade. While the Pex4p:Pex22p complex represents the first structure of an E2/co-activator complex, the requirement of additional, non-canonical binding partners in the Ub cascade has been known for some time. One well-characterised example is the ERAD-specific E2 enzyme Ubc7p, which requires binding of the ER membrane protein Cue1p for full ERAD to occur (
+    <xref ref-type="bibr">
+     Bazirgan and Hampton, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kostova et al, 2009
+    </xref>
+    ). Interestingly, as with Pex22p, Cue1p does not affect the activity of other E2 enzymes (
+    <xref ref-type="bibr">
+     Bazirgan and Hampton, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kostova et al, 2009
+    </xref>
+    ). Another protein in this class is RSUME (
+    <xref ref-type="bibr">
+     Carbia-Nagashima et al, 2007
+    </xref>
+    ). This RWD domain-containing protein binds to Ube2L and stimulates the SUMOylation of a number of substrates through an unknown mechanism. Again, RSUME's action is specific, as it does not influence the activity of other E2s (
+    <xref ref-type="bibr">
+     Carbia-Nagashima et al, 2007
+    </xref>
+    ). Currently, our understanding of how such a small number of E2 enzymes can control substrate-specific ubiquitination in the presence of the huge number of E3 ligases present in the cell is incomplete. We propose, based on our own results and those previously reported that, for at least a subset of E2 enzymes, non-canonical binding partners not previously linked to the Ub cascade play a crucial role in substrate-specific ubiquitination, by regulating E2 activity and/or localisation. A number of large-scale two-hybrid and proteomics approaches have identified numerous E2 binding partners (
+    <xref ref-type="bibr">
+     Ewing et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van Wijk et al, 2009
+    </xref>
+    ), many of which are not E3 ligases. Therefore, a challenge of future research will be to define the role these interacting partners play in site-specific and target-specific ubiquitination and the mechanistic details thereof.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Strains, growth conditions, plasmids and protein preparation
+    </title>
+    <p>
+     Plasmids are described in
+     <a>
+      Supplementary Table S3
+     </a>
+     . Yeast strains used in this study are
+     <em>
+      S. cerevisiae
+     </em>
+     BJ1991
+     <em>
+      pex4
+     </em>
+     Δ (
+     <xref ref-type="bibr">
+      Hettema et al, 2000
+     </xref>
+     ) and BJ1991
+     <em>
+      pex4
+     </em>
+     Δ
+     <em>
+      pex5
+     </em>
+     Δ (
+     <em>
+      MATα
+     </em>
+     ,
+     <em>
+      pex5
+     </em>
+     ∷
+     <em>
+      KanMX4, pex4
+     </em>
+     ∷
+     <em>
+      loxP, leu2
+     </em>
+     ,
+     <em>
+      ura3-251
+     </em>
+     ,
+     <em>
+      trp1
+     </em>
+     ,
+     <em>
+      prb1-1122
+     </em>
+     ,
+     <em>
+      pep4-3
+     </em>
+     ,
+     <em>
+      gal2
+     </em>
+     ). For (co-) immunoprecipitations and trichloroacetic acid (TCA) lysates, yeast cells were grown on 0.67% YNB containing 0.3% glucose for 24 h and then shifted to 0.1% oleate medium containing 0.5% potassium phosphate buffer pH 6.0, 0.3% yeast extract, 0.5% peptone, 0.2% Tween-40 and grown for between 7 and 16 h. Mutant plasmids were constructed using the Quikchange™ site directed mutagenesis kit (Stratagene). Ubc4p and wild-type and mutant forms of Pex4
+     <sup>
+      15–183
+     </sup>
+     and Pex22
+     <sup>
+      S
+     </sup>
+     were expressed and purified as described in
+     <xref ref-type="bibr">
+      Williams et al (2008)
+     </xref>
+     . Selenomethionine (SeMet) incorporation into Pex22
+     <sup>
+      S
+     </sup>
+     was achieved using the B834 pRARE
+     <em>
+      E. coli
+     </em>
+     strain (Novagen) and confirmed using mass spectrometry. Protein concentration was determined by specific absorbance at 280 nm using a NanoDrop™ (
+     <a>
+      http://www.nanodrop.com
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallisation
+    </title>
+    <p>
+     Proteins were mixed and gel filtrated into GF buffer (25 mM Tris pH 7.5, 100 mM NaCl, 1% glycerol, 3 mM β-mercaptoethanol) using a Superdex 75 (10/300) column (GE Healthcare). Crystals of the resulting complex (at 10 mg ml
+     <sup>
+      –1
+     </sup>
+     ) were obtained using hanging drop vapour diffusion at 20°C: native Pex4:Pex22
+     <sup>
+      S
+     </sup>
+     complex 1 (Native 1) 1.5 M sodium malonate pH 7; native Pex4:Pex22
+     <sup>
+      S
+     </sup>
+     complex 2 (Native 2); SeMet-labelled Pex4:Pex22
+     <sup>
+      S
+     </sup>
+     complex, Native 2 condition plus 10 mM 5-Amino-2,4,6-triiodoisophthalic acid (I3C, Sigma). Cryoprotectant was 6 M sodium formate or 12% (v/v) ethylene glycol.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     X-ray data collection and structure determination
+    </title>
+    <p>
+     Single wavelength X-ray data sets were collected on ID23eh2 (Native 1) and ID14eh1 (Native 2) at the ESRF, Grenoble. The multiple wavelength, anomalous diffraction (MAD) X-ray data set was collected on X12 at EMBL/DESY, Hamburg. All data were processed using XDS (
+     <xref ref-type="bibr">
+      Kabsch, 1988
+     </xref>
+     ) and COMBAT and scaled using SCALA (
+     <xref ref-type="bibr">
+      Evans, 1993
+     </xref>
+     ). Using the MAD data set, three selenium sites were located with autoSHARP (
+     <xref ref-type="bibr">
+      Vonrhein et al, 2007
+     </xref>
+     ) and AUTORICKSHAW (
+     <xref ref-type="bibr">
+      Panjikar et al, 2005
+     </xref>
+     ) and the phases were improved using RESOLVE (
+     <xref ref-type="bibr">
+      Terwilliger, 2000
+     </xref>
+     ). Further improvements were made using DMMULTI (
+     <xref ref-type="bibr">
+      Collaborative Computational Project Number 4, 1994
+     </xref>
+     ), carrying out multi-crystal averaging with the MAD and Native 1 data set phases. The resulting model was enhanced manually using COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ) and used as molecular replacement template for the Native 2 data set, from which the final model is derived. Refinement was carried out using CNS (
+     <xref ref-type="bibr">
+      Brunger, 2007
+     </xref>
+     ) and REFMAC (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ), applying TLS parameters (
+     <xref ref-type="bibr">
+      Winn et al, 2001
+     </xref>
+     ). Model quality was assessed with Molprobity (
+     <xref ref-type="bibr">
+      Chen et al, 2010
+     </xref>
+     ). The interface between Pex4
+     <sup>
+      15–183
+     </sup>
+     and Pex22
+     <sup>
+      S
+     </sup>
+     was analysed using PISA (
+     <xref ref-type="bibr">
+      Krissinel and Henrick, 2007
+     </xref>
+     ). All structure representations were made with PyMOL (
+     <a>
+      http://www.pymol.org
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration microcalorimetry
+    </title>
+    <p>
+     Prior to measurement, proteins were dialysed against GF buffer without glycerol. Measurements with Ubc4p or Pex4
+     <sup>
+      15–183
+     </sup>
+     at 10 μM as a sample and Pex22
+     <sup>
+      S
+     </sup>
+     at 100 μM as the titration ligand were carried out at 25°C on a MicroCal VP-ITC and data were fitted using MicroCal Origin 7.0.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In-vitro ubiquitination assays
+    </title>
+    <p>
+     <em>
+      In-vitro
+     </em>
+     ubiquitination reactions, performed as described in
+     <xref ref-type="bibr">
+      Williams et al (2008)
+     </xref>
+     , contained 25 mM Tris pH 7.5, 75 mM NaCl, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 1 mM DTT, 5 mM ATP and proteins at the concentrations indicated. E2 charging experiments (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ) were performed in 25 mM Tris pH 7.5, 75 mM NaCl, 10 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 10 mM ATP. Reactions were initiated by the addition of ATP and incubated at 28°C with gentle shaking. Samples were taken after 60 min, unless otherwise stated, quenched with SDS–PAGE loading buffer containing 5% β-mercaptoethanol (except in E2 charging experiments) and subjected to SDS–PAGE. Western blots were probed with anti-Pex4p (Rabbit, polyclonal) and anti-Ub (FK2 clone, Biotrend).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Co-immunoprecipitation assays
+    </title>
+    <p>
+     Oleate grown cells (20 A
+     <sub>
+      600
+     </sub>
+     units) were lysed with glass beads in 300 μl lysis buffer (PBS pH 7.4, containing 0.5% NP-40, 1 mM PMSF, 0.5 mM DTT and yeast Protease Inhibitor Cocktail; Sigma) at 4°C. Debris was removed by centrifugation and lysates were incubated end over end with 1 μl of mouse monoclonal FLAG antiserum (M2 monoclonal F3165, Sigma) at 4°C. After 2 h, 100 μl of Protein G-Sepharose beads (GE Healthcare) was added and lysates were incubated for 1 h at 4°C. Precipitates were washed two times with lysis buffer and once with PBS and elution was carried out by heating the beads in 50 μl of IP-elution buffer (125 mM Tris, pH 6.8, 1.5% SDS, 6 M urea and 20% glycerol) for 10 min at 37°C. Samples were analysed by SDS–PAGE and immunoblotting, using antibodies raised against the FLAG or HA (Mouse monoclonal 12CA5) tags.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Native gel electrophoresis
+    </title>
+    <p>
+     Prior to loading, purified proteins (1:1 molar ratio for complex analysis) were incubated end over end for 5 min at 21°C in 25 mM Tris pH 7.5, 75 mM NaCl. Samples were subjected to native electrophoresis using 4–20% TBE gels (Invitrogen) according to the manufacturer's instructions and proteins were visualised with Coomassie brilliant blue staining.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Miscellaneous
+    </title>
+    <p>
+     Protocols used for yeast two-hybrid analysis (
+     <xref ref-type="bibr">
+      Williams et al, 2005
+     </xref>
+     ), TCA lysates, immunoprecipitation and growth analysis experiments (
+     <xref ref-type="bibr">
+      Williams et al, 2007
+     </xref>
+     ) are described elsewhere.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (6.7M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (253K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

@@ -1,0 +1,2597 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3642676
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A direct proofreader–clamp interaction stabilizes the Pol III replicase in the polymerization mode
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Processive DNA synthesis by the αɛθ core of the
+     <em>
+      Escherichia coli
+     </em>
+     Pol III replicase requires it to be bound to the β
+     <sub>
+      2
+     </sub>
+     clamp
+     <em>
+      via
+     </em>
+     a site in the α polymerase subunit. How the ɛ proofreading exonuclease subunit influences DNA synthesis by α was not previously understood. In this work, bulk assays of DNA replication were used to uncover a non-proofreading activity of ɛ. Combination of mutagenesis with biophysical studies and single-molecule leading-strand replication assays traced this activity to a novel β-binding site in ɛ that, in conjunction with the site in α, maintains a closed state of the αɛθ–β
+     <sub>
+      2
+     </sub>
+     replicase in the polymerization mode of DNA synthesis. The ɛ–β interaction, selected during evolution to be weak and thus suited for transient disruption to enable access of alternate polymerases and other clamp binding proteins, therefore makes an important contribution to the network of protein–protein interactions that finely tune stability of the replicase on the DNA template in its various conformational states.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     beta sliding clamp, DNA polymerase III, DNA replication,
+     <em>
+      Escherichia coli
+     </em>
+     , proofreading exonuclease
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The
+    <em>
+     Escherichia coli
+    </em>
+    replicase provides a well-characterized system to discover design principles for evolution of structure and function of Nature's dynamic molecular machines. At its heart is the DNA polymerase III holoenzyme (Pol III HE), a complex of at least 17 subunits that include two (or three;
+    <xref ref-type="bibr">
+     McInerney et al, 2007
+    </xref>
+    ) αɛθ cores, two (or three) β
+    <sub>
+     2
+    </sub>
+    sliding clamps, and a δδ′τ
+    <sub>
+     3
+    </sub>
+    ψχ clamp loader assembly in which one (or non-functionally, two or three) of the τ subunits may be substituted by a C-terminally truncated form called γ (
+    <xref ref-type="bibr">
+     McHenry, 2011
+    </xref>
+    ). The Pol III replicase is dynamic in that many of its subunits change conformation and even binding partners as it carries out coordinated synthesis of both DNA strands at replication forks.
+   </p>
+   <p>
+    Work over the past two decades (reviewed by
+    <xref ref-type="bibr">
+     Johnson and O'Donnell, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schaeffer et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hamdan and Richardson, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     McHenry, 2011
+    </xref>
+    ) has resulted in (i) determination of static high resolution structures of essentially all of the replicase components, (ii) identification of many pairwise protein–protein interactions that show a finely tuned hierarchy of binding energies, (iii) demonstration that many of the dynamic protein–protein interactions are mediated by intrinsically unstructured segments of subunits that become structured upon interaction with partner proteins (e.g., see
+    <xref ref-type="bibr">
+     Ozawa et al, 2005
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jergic et al, 2007
+    </xref>
+    ), and (iv) revelation that many of these interactions occur at sites at which binding partners change places in a particular order during the replication cycles, especially during Okazaki fragment synthesis on the lagging strand. These attributes, when combined with irreversible chemical steps involving dNTP incorporation and ATP hydrolysis, provide the underlying design rules for replicase function as a dynamic machine. In particular, the many weak interactions within the Pol III replicase allow it to transit rapidly from one conformational state to another by breaking and remaking of interactions, without risk of the whole complex dissociating from the template DNA. The proximity effects of nearby interactions effectively reduce the apparent dissociation constants (
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    ) of protein–protein complexes in the context of the whole replisome relative to values for pairwise interactions. It is thus more likely to uncover weak but nonetheless important interactions using functional assays, rather than by biophysical studies of protein–protein interactions in a pairwise manner.
+   </p>
+   <p>
+    Here, we focus on the complex of the αɛθ replicase core with the β
+    <sub>
+     2
+    </sub>
+    sliding clamp on primer-template DNA, required for both leading- and lagging-strand synthesis. This complex is expected to have at least two (and probably more) major conformational states, one of which ensures the efficiency and processivity of DNA synthesis (polymerization mode) and the other contributes to fidelity by exonucleolytic editing of polymerase insertion errors (proofreading mode). Protein interactions that affect the transition between these two modes are not currently understood, and are the focus of this article.
+   </p>
+   <p>
+    The β
+    <sub>
+     2
+    </sub>
+    sliding clamp is a ring-shaped dimer (
+    <xref ref-type="bibr">
+     Kong et al, 1992
+    </xref>
+    ) that has to be opened by interactions with a clamp loader complex to be loaded onto a primer-template DNA in a first step to initiate primer extension DNA synthesis (reviewed by
+    <xref ref-type="bibr">
+     Bloom, 2009
+    </xref>
+    ). The clamp ensures replicase processivity by interaction with the α polymerase subunit of the core. In the polymerase mode, α interacts at only one of the two symmetry-related protein-binding sites in the β dimer (
+    <xref ref-type="bibr">
+     Dohrmann and McHenry, 2005
+    </xref>
+    )
+    <em>
+     via
+    </em>
+    a short peptide motif. Related clamp binding motifs (CBMs) occur in disordered segments or loops in the many β-binding proteins (
+    <xref ref-type="bibr">
+     Dalrymple et al, 2001
+    </xref>
+    ). Thus, having two equivalent sites in the β
+    <sub>
+     2
+    </sub>
+    ring enables it to bind two different proteins at the same time. This is suggested to be important for reversible handover of a primer-template from α to a repair polymerase (e.g., Pol II, IV, or V) during bypass of a lesion in the template DNA (
+    <xref ref-type="bibr">
+     López de Saro et al, 2003a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Indiani et al, 2005
+    </xref>
+    ).
+   </p>
+   <p>
+    The Pol III core contains the polymerase subunit α (1160 residues in
+    <em>
+     E. coli
+    </em>
+    ), the proofreading 3′–5′ exonuclease ɛ (243 residues), and the small θ subunit of unknown function (
+    <xref ref-type="bibr">
+     McHenry and Crow, 1979
+    </xref>
+    ); α interacts with ɛ but not with θ, while θ interacts only with ɛ (
+    <xref ref-type="bibr">
+     Studwell-Vaughan and O'Donnell, 1993
+    </xref>
+    ). The
+    <em>
+     E. coli
+    </em>
+    α subunit contains two β-binding sites, a conserved internal CBM used for processive DNA synthesis (
+    <xref ref-type="bibr">
+     Dohrmann and McHenry, 2005
+    </xref>
+    ) and a C-terminal site (
+    <xref ref-type="bibr">
+     Kim and McHenry, 1996b
+    </xref>
+    ) that may have a role in polymerase recycling from the ends of completed Okazaki fragments (
+    <xref ref-type="bibr">
+     López de Saro et al, 2003b
+    </xref>
+    ). X-ray crystal structures of a large N-terminal portion of
+    <em>
+     E. coli
+    </em>
+    α (that terminates just before the internal CBM at residue 917;
+    <xref ref-type="bibr">
+     Lamers et al, 2006
+    </xref>
+    ), of the closely related full-length
+    <em>
+     Thermus aquaticus
+    </em>
+    (
+    <em>
+     Taq
+    </em>
+    ) α by itself (
+    <xref ref-type="bibr">
+     Bailey et al, 2006
+    </xref>
+    ) and bound to primer-template DNA (
+    <xref ref-type="bibr">
+     Wing et al, 2008
+    </xref>
+    ), and of β
+    <sub>
+     2
+    </sub>
+    bound separately to CBM peptides (e.g.,
+    <xref ref-type="bibr">
+     Georgescu et al, 2008a
+    </xref>
+    ) and double-stranded (ds) DNA (
+    <xref ref-type="bibr">
+     Georgescu et al, 2008b
+    </xref>
+    ) allow construction of a plausible model of the α–β
+    <sub>
+     2
+    </sub>
+    –DNA complex in the polymerization mode (
+    <xref ref-type="bibr">
+     Wing et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    The precise location of the ɛ proofreading subunit in the replicase is uncertain. It has two domains (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ): its N-terminal exonuclease domain (residues 2–180;
+    <xref ref-type="bibr">
+     Hamdan et al, 2002
+    </xref>
+    ) interacts with θ (
+    <xref ref-type="bibr">
+     Pintacuda et al, 2006
+    </xref>
+    ), and residues following Ala209 in its intrinsically unstructured C-terminal segment (ɛ
+    <sub>
+     CTS
+    </sub>
+    , Gly181–Ala243) interact with the N-terminal PHP domain of α (
+    <xref ref-type="bibr">
+     Wieczorek and McHenry, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ozawa et al, 2008
+    </xref>
+    ). The location of the proofreader is a little more clearly defined in the PolC replicase of Firmicutes, where it is integrated as an insertion into the PHP domain, but was removed for PolC structure determination (
+    <xref ref-type="bibr">
+     Evans et al, 2008
+    </xref>
+    ).
+   </p>
+   <fig id="f1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      A clamp-binding motif (CBM) is located in the C-terminal segment of the ɛ subunit of Pol III (ɛ
+      <sub>
+       CTS
+      </sub>
+      ). (
+      <strong>
+       A
+      </strong>
+      ) Two-domain organization of ɛ. The flexible ɛ
+      <sub>
+       CTS
+      </sub>
+      that interacts with α (
+      <xref ref-type="bibr">
+       Ozawa et al, 2008
+      </xref>
+      ) extends from the N-terminal exonuclease domain. (
+      <strong>
+       B
+      </strong>
+      ) Sequence alignment of ɛ
+      <sub>
+       CTS
+      </sub>
+      from representative α-, β-, and γ-proteobacteria shows conservation of the CBM. Residue numbering is based on the
+      <em>
+       E. coli
+      </em>
+      sequence, and boxes denote putative CBMs.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    We envisaged that a useful strategy to uncover new protein–protein interactions in the replicase would be to challenge it to make DNA under difficult conditions, so that even the weakest interactions become essential. For example, there has not previously been an assay that depends absolutely on the presence of ɛ in the replicase; ɛ was observed to stimulate the rate (
+    <xref ref-type="bibr">
+     Kim and McHenry, 1996a
+    </xref>
+    ) and processivity (
+    <xref ref-type="bibr">
+     Studwell and O'Donnell, 1990
+    </xref>
+    ) of DNA synthesis in replication assays under conditions where proofreading is not expected to be limiting, and had more subtle effects on coupled leading- and lagging-strand synthesis by full replisomes (
+    <xref ref-type="bibr">
+     Marians et al, 1998
+    </xref>
+    ). This is in spite of genetic evidence that the very poor growth phenotype of disruption of the chromosomal
+    <em>
+     dnaQ
+    </em>
+    gene (encoding ɛ) can be rescued by suppressor mutations in
+    <em>
+     dnaE
+    </em>
+    (encoding α) like
+    <em>
+     spq2
+    </em>
+    (α
+    <sub>
+     V832G
+    </sub>
+    ) that do not relieve the
+    <em>
+     dnaQ
+    </em>
+    mutator phenotype. It was argued that this indicates an additional role for ɛ in stabilizing the replicase that does not depend on its proofreading capability (
+    <xref ref-type="bibr">
+     Lancy et al, 1989
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lifsics et al, 1992
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Slater et al, 1994
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we report situations where replication of DNA templates by replisomes assembled
+    <em>
+     in vitro
+    </em>
+    becomes highly dependent on ɛ, but do not require it to be active as an exonuclease. This non-proofreading activity is traced to a relatively weak interaction of a CBM we identify in ɛ with one of the protein-binding sites in β
+    <sub>
+     2
+    </sub>
+    . We show using single-molecule (SM) replication experiments that it also makes an important contribution to both rate and processivity in helicase-coupled leading-strand synthesis, without affecting the lifetimes of active replisomes. We conclude that the ɛ–β interaction is maintained in the polymerization mode of DNA synthesis by the full replicase and that it is disrupted in transitions to other conformational states.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Efficient strand-displacement synthesis by Pol III HE requires ɛ
+    </title>
+    <p>
+     We set up a simplified assay for DNA synthesis by Pol III HE on oligonucleotide-primed circular single-stranded (ss) M13 DNA (6.4 kb); the products were separated on an agarose gel and stained with a dye that detects both ss and dsDNA. In addition to the expected strand-extension synthesis of the fully ds circular product (TFII), we observed robust helicase-independent synthesis of products greater than unit length (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). These long products arise from strand-displacement (SD) DNA synthesis, a process studied by
+     <xref ref-type="bibr">
+      Yuan and McHenry (2009)
+     </xref>
+     . Although the conditions we used are somewhat different (e.g., physiological ionic strength), we confirmed that SD synthesis requires high concentrations of dNTPs, works also with isolated pre-filled TFII, and is dependent on ssDNA-binding protein (SSB) with an intact C-terminal protein-binding motif. It also requires loading of β
+     <sub>
+      2
+     </sub>
+     on the primer template and interaction of αɛθ with at least one τ subunit in a clamp loader that also contains ψ and χ for interaction with SSB.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Pol III strand-displacement (SD) DNA synthesis provides functional evidence for the ɛ–β interaction. (
+       <strong>
+        A
+       </strong>
+       ) Efficient SSB-dependent SD DNA synthesis by the complete Pol III HE under standard conditions (see Materials and methods). Time course of flap-primer extension on M13 ssDNA shows larger than unit length dsDNA (tailed form II, TFII) products produced by SD synthesis. (
+       <strong>
+        B
+       </strong>
+       ) The ɛ subunit, but not θ, contributes to SD synthesis. Assays (20 min) used Pol III HE with purified αɛθ or assembled
+       <em>
+        in situ
+       </em>
+       with α±ɛ±θ. (
+       <strong>
+        C
+       </strong>
+       ) The ɛ contribution to SD synthesis does not require proofreading and determinants of it are located in the ɛ
+       <sub>
+        CTS
+       </sub>
+       . SD DNA synthesis by Pol III HE containing indicated core sub-complexes assembled
+       <em>
+        in situ
+       </em>
+       . (
+       <strong>
+        D
+       </strong>
+       ) Mutations within the β-binding motif of ɛ affect SD synthesis. Time course of DNA synthesis by Pol III HE with purified wild-type or mutated αɛθ cores; ɛ
+       <sub>
+        Q
+       </sub>
+       does not bind significantly to β while ɛ
+       <sub>
+        L
+       </sub>
+       has a strengthened binding site. (
+       <strong>
+        E
+       </strong>
+       ) Both protein interaction sites in β
+       <sub>
+        2
+       </sub>
+       are engaged during SD synthesis. Assays had wild-type (β
+       <sub>
+        wt
+       </sub>
+       )
+       <sub>
+        2
+       </sub>
+       substituted by modified clamps His
+       <sub>
+        6
+       </sub>
+       -β
+       <sub>
+        wt
+       </sub>
+       /β
+       <sub>
+        wt
+       </sub>
+       (no site occluded), His
+       <sub>
+        6
+       </sub>
+       -β
+       <sup>
+        C
+       </sup>
+       /β
+       <sub>
+        wt
+       </sub>
+       (one site occluded) or (His
+       <sub>
+        6
+       </sub>
+       -β
+       <sup>
+        C
+       </sup>
+       )
+       <sub>
+        2
+       </sub>
+       (both sites occluded), or no clamp. (
+       <strong>
+        F
+       </strong>
+       ) The
+       <em>
+        spq2
+       </em>
+       suppressor (α
+       <sub>
+        V832G
+       </sub>
+       ) polymerase is capable of more efficient SD synthesis than wild-type α. Assays (20 min) were under standard conditions except that NaCl was at 100 mM, with versions of Pol III HE assembled
+       <em>
+        in situ
+       </em>
+       . All panels show photographic negative images of gels that had been stained with SYBR gold nucleic acid stain (Invitrogen).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The SD reaction is demanding in terms of its requirement for all but one of the HE subunits. Indeed, hoping to detect a novel function of the θ subunit, we examined the dependence of SD synthesis on the Pol III core subunits. Although we found θ to be dispensable under our standard conditions, SD synthesis was absolutely dependent on the ɛ proofreading subunit (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). This is the first report of a replication assay that is so strongly dependent on ɛ.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SD synthesis does not require the exonuclease domain of ɛ
+    </title>
+    <p>
+     The ɛ subunit contains a binuclear Mn
+     <sup>
+      2+
+     </sup>
+     or Mg
+     <sup>
+      2+
+     </sup>
+     metallocentre at its active site coordinated by carboxylates of Asp12, Glu14, and Asp102 (
+     <xref ref-type="bibr">
+      Hamdan et al, 2002
+     </xref>
+     ), and its D12A and D12A/E14A mutants have no residual 3′–5′ exonuclease (proofreading) activity (
+     <xref ref-type="bibr">
+      Fijalkowska and Schaaper, 1996
+     </xref>
+     ). Nevertheless, we found that both mutants were capable of sustaining extensive SD synthesis (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), indicating that proofreading is not required for this process.
+    </p>
+    <p>
+     To determine if the ɛ
+     <sub>
+      CTS
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), decoupled from the exonuclease domain, is itself sufficient to support SD synthesis, we fused it to the C-terminus of human ubiquitin (as a small soluble tag) to produce ubq-ɛ
+     <sub>
+      CTS
+     </sub>
+     (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ). Although ubq-ɛ
+     <sub>
+      CTS
+     </sub>
+     was partly proteolysed during expression in
+     <em>
+      E. coli
+     </em>
+     (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ), the intact protein in this preparation still interacted strongly with α (
+     <a>
+      Supplementary Figure S1C
+     </a>
+     ), and a mixture of α and ubq-ɛ
+     <sub>
+      CTS
+     </sub>
+     could still sustain robust SD synthesis (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). This provides clear evidence for a non-proofreading role of ɛ in DNA replication, dependent only on residues within the ɛ
+     <sub>
+      CTS
+     </sub>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     A potential clamp-binding site in the C-terminal segment of ɛ
+    </title>
+    <p>
+     Sequence alignment of the ɛ subunit in species of the α-, β-, and γ-proteobacteria shows conservation of the structured nuclease domain, but much greater variability in the ɛ
+     <sub>
+      CTS
+     </sub>
+     . An exception is a short moderately conserved region immediately following the structured domain (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ) that resembles a CBM in other proteins (
+     <xref ref-type="bibr">
+      Dalrymple et al, 2001
+     </xref>
+     ); CBMs are either penta- (optimally QL
+     <sup>
+      S
+     </sup>
+     /
+     <sub>
+      D
+     </sub>
+     LF) or hexapeptides (Q
+     <em>
+      xx
+     </em>
+     Φ
+     <em>
+      x
+     </em>
+     Φ, where
+     <em>
+      x
+     </em>
+     is any residue and Φ is hydrophobic). The regions in the ɛ subunits of various species mostly resemble the hexapeptide (QTSMAF in
+     <em>
+      E. coli
+     </em>
+     ), but some also have pentapeptide motifs.
+    </p>
+    <p>
+     Studies of binding of many synthetic peptides to β
+     <sub>
+      2
+     </sub>
+     enable reliable prediction of binding strengths of CBMs (
+     <xref ref-type="bibr">
+      Wijffels et al, 2004
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2011
+     </xref>
+     ). Thus, we made two mutants of wild-type ɛ (ɛ
+     <sub>
+      wt
+     </sub>
+     ) that we call ɛ
+     <sub>
+      Q
+     </sub>
+     , in which the conserved first residue (Gln182) of the motif is changed to Ala, and ɛ
+     <sub>
+      L
+     </sub>
+     , with the motif changed to QLSLPL. The ɛ
+     <sub>
+      Q
+     </sub>
+     motif is predicted to bind more weakly to β
+     <sub>
+      2
+     </sub>
+     than the ɛ
+     <sub>
+      wt
+     </sub>
+     motif, while the ɛ
+     <sub>
+      L
+     </sub>
+     motif is one of the tighter binding CBMs, from the replication initiation factor Hda (
+     <xref ref-type="bibr">
+      Wijffels et al, 2004
+     </xref>
+     ). We confirmed that both ɛ
+     <sub>
+      Q
+     </sub>
+     and ɛ
+     <sub>
+      L
+     </sub>
+     interact with α as expected, and could be used to assemble stable isolable αɛθ core complexes.
+    </p>
+    <p>
+     These isolated Pol III cores containing ɛ
+     <sub>
+      Q
+     </sub>
+     , ɛ
+     <sub>
+      L
+     </sub>
+     , and wild-type ɛ
+     <sub>
+      wt
+     </sub>
+     were compared for their ability to support Pol III SD DNA synthesis (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). The results were consistent with the predicted ɛ–β binding strength; the αɛ
+     <sub>
+      Q
+     </sub>
+     θ complex could no longer sustain SD synthesis, while αɛ
+     <sub>
+      L
+     </sub>
+     θ promoted more extensive synthesis than the wild-type complex. Therefore, the putative CBM in ɛ is required for SD DNA synthesis.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Efficient SD DNA synthesis by Pol III HE requires two β-binding sites
+    </title>
+    <p>
+     We predicted that SD synthesis by the Pol III HE would require that the two protein interaction sites in the β dimer be occupied simultaneously by a CBM of α and the newly discovered site in ɛ. To test this, we prepared a hemi-mutant β dimer made up of one native subunit that contains an intact protein interaction site and one that does not (β
+     <sup>
+      C
+     </sup>
+     , a mutant lacking five C-terminal residues that comprise part of the CBM-binding cleft).
+     <xref ref-type="bibr">
+      Scouten Ponticelli et al (2009)
+     </xref>
+     had earlier made a hemi-mutant β
+     <sup>
+      C
+     </sup>
+     /β
+     <sub>
+      wt
+     </sub>
+     dimer
+     <em>
+      in vivo
+     </em>
+     , isolated and characterized it. They showed that it could be efficiently loaded on a primer-template DNA by the clamp loader, and was proficient for DNA strand extension. We used subunit exchange and chromatography to isolate a similar His
+     <sub>
+      6
+     </sub>
+     -β
+     <sup>
+      C
+     </sup>
+     /β
+     <sub>
+      wt
+     </sub>
+     hemi-mutant dimer, and its composition and absence of contamination by (β
+     <sub>
+      wt
+     </sub>
+     )
+     <sub>
+      2
+     </sub>
+     was confirmed by electrospray ionization mass spectrometry (ESI-MS) under native conditions (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). The hemi-mutant β was inactive in the Pol III SD reaction (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ), showing that both protein interaction sites in β
+     <sub>
+      2
+     </sub>
+     are utilized, presumably being bound simultaneously to the CBMs in α and ɛ. In contrast, and consistent with previous work showing that a single binding cleft in the clamp is sufficient to stimulate replication by Pol III both
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      Scouten Ponticelli et al, 2009
+     </xref>
+     ) and
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      Sutton et al, 2010
+     </xref>
+     ), the hemi-mutant β was still able to support efficient primer extension to form TFII (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The α
+     <sub>
+      V832G
+     </sub>
+     mutation suppresses the requirement for ɛ in SD DNA synthesis
+    </title>
+    <p>
+     The phenotype of the
+     <em>
+      spq2
+     </em>
+     mutation in
+     <em>
+      dnaE
+     </em>
+     (α
+     <sub>
+      V832G
+     </sub>
+     ) argues for an important non-proofreading function of ɛ
+     <em>
+      in vivo
+     </em>
+     , so we studied the activity of α
+     <sub>
+      V832G
+     </sub>
+     in SD synthesis (
+     <xref ref-type="fig">
+      Figure 2F
+     </xref>
+     ) and found that (i) it is still active even in the absence of ɛ and (ii) its activity is stimulated by ɛ to a level higher than wild-type α. These observations suggest that α
+     <sub>
+      V832G
+     </sub>
+     forms more stable interactions with proteins or DNA that can partially compensate for the absence of ɛ, and that ɛ normally makes an important contribution to the protein and DNA interaction network that stabilizes the wild-type polymerase on the DNA template.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Physical evidence for interaction of β
+     <sub>
+      2
+     </sub>
+     with ɛ in the αɛθ core complex
+    </title>
+    <p>
+     We next used surface plasmon resonance (SPR) to confirm the predicted strengths of interactions of β
+     <sub>
+      2
+     </sub>
+     with the ɛ
+     <sub>
+      wt
+     </sub>
+     , ɛ
+     <sub>
+      Q
+     </sub>
+     , and ɛ
+     <sub>
+      L
+     </sub>
+     peptides. Synthetic biotinylated peptides were immobilized on a streptavidin-coated SPR chip, and solutions of β
+     <sub>
+      2
+     </sub>
+     were made to flow over it. Binding isotherms (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ; sensorgrams in
+     <a>
+      Supplementary Figure S3A
+     </a>
+     ) showed β
+     <sub>
+      2
+     </sub>
+     bound the ɛ
+     <sub>
+      L
+     </sub>
+     peptide with
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =0.38±0.04 μM, consistent with previous data (0.38–0.45 μM) for very similar peptides (
+     <xref ref-type="bibr">
+      Wijffels et al, 2004
+     </xref>
+     ). The ɛ
+     <sub>
+      wt
+     </sub>
+     peptide was bound 550-fold more weakly, with
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =210±50 μM, while essentially no binding was detected with ɛ
+     <sub>
+      Q
+     </sub>
+     (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     &gt;2 mM).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Physical interaction occurs between β
+       <sub>
+        2
+       </sub>
+       and the clamp-binding motif (CBM) of ɛ in the αɛθ–β
+       <sub>
+        2
+       </sub>
+       complex. (
+       <strong>
+        A
+       </strong>
+       ) β
+       <sub>
+        2
+       </sub>
+       binds to a peptide containing the ɛ
+       <sub>
+        wt
+       </sub>
+       CBM. SPR binding isotherms (
+       <em>
+        R
+       </em>
+       /
+       <em>
+        R
+       </em>
+       <sub>
+        max
+       </sub>
+       ) for the interaction of β
+       <sub>
+        2
+       </sub>
+       with immobilized decapeptides containing CBMs from ɛ
+       <sub>
+        L
+       </sub>
+       (diamonds), ɛ
+       <sub>
+        wt
+       </sub>
+       (circles), and ɛ
+       <sub>
+        Q
+       </sub>
+       (squares) are shown; sensorgrams are in
+       <a>
+        Supplementary Figure S3A
+       </a>
+       . Fits to data using a 1:1 binding model (ɛ
+       <sub>
+        L
+       </sub>
+       and ɛ
+       <sub>
+        wt
+       </sub>
+       peptides) are shown as solid lines. The small responses with the ɛ
+       <sub>
+        Q
+       </sub>
+       peptide at the highest [β
+       <sub>
+        2
+       </sub>
+       ] indicate
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       &gt;2 mM (see
+       <a>
+        Supplementary Figure S3A
+       </a>
+       ). (
+       <strong>
+        B
+       </strong>
+       ) The CBM in ɛ
+       <sub>
+        L
+       </sub>
+       is accessible to β
+       <sub>
+        2
+       </sub>
+       . NanoESI mass spectra of 1 μM β
+       <sub>
+        2
+       </sub>
+       alone or with 20 μM ɛ
+       <sub>
+        wt
+       </sub>
+       , ɛ
+       <sub>
+        Q
+       </sub>
+       , or ɛ
+       <sub>
+        L
+       </sub>
+       show that ɛ
+       <sub>
+        L
+       </sub>
+       interacts more strongly with β
+       <sub>
+        2
+       </sub>
+       than does ɛ
+       <sub>
+        wt
+       </sub>
+       . Proteins were in 140 mM NH
+       <sub>
+        4
+       </sub>
+       OAc, and ions due to free monomeric ɛ (1700–3400
+       <em>
+        m
+       </em>
+       /
+       <em>
+        z
+       </em>
+       ) have been omitted for clarity. (
+       <strong>
+        C
+       </strong>
+       ) Wild-type ɛ contacts β
+       <sub>
+        2
+       </sub>
+       in the αɛθ–β
+       <sub>
+        2
+       </sub>
+       complex, shown by a shift in the αɛθ: αɛθβ
+       <sub>
+        2
+       </sub>
+       equilibrium (in excess β
+       <sub>
+        2
+       </sub>
+       ) with progressive increase in ɛ–β binding strength. NanoESI-MS of 2.8 μM β
+       <sub>
+        2
+       </sub>
+       with 1.8 μM purified αɛθ cores in 140 mM NH
+       <sub>
+        4
+       </sub>
+       OAc. Ions due to free β
+       <sub>
+        2
+       </sub>
+       (4000–5000
+       <em>
+        m
+       </em>
+       /
+       <em>
+        z
+       </em>
+       ) are not shown.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Because of the proximity of the putative CBM to the structured domain of ɛ (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), we thought it might not be accessible to a protein as large as β
+     <sub>
+      2
+     </sub>
+     . Gel filtration of a mixture of β
+     <sub>
+      2
+     </sub>
+     with ɛ
+     <sub>
+      L
+     </sub>
+     (
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ) confirmed CBM accessibility since much of the ɛ
+     <sub>
+      L
+     </sub>
+     eluted in a peak coincident with β
+     <sub>
+      2
+     </sub>
+     . In the same conditions, however, neither ɛ
+     <sub>
+      wt
+     </sub>
+     nor ɛ
+     <sub>
+      Q
+     </sub>
+     showed much evidence of complex formation. To characterize the weak ɛ–β interaction with the native proteins, we turned to electrospray-ionization mass spectrometry (ESI-MS) in ammonium acetate (NH
+     <sub>
+      4
+     </sub>
+     OAc) buffers at neutral pH.
+    </p>
+    <p>
+     While it is difficult to determine accurate
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values of protein complexes in solution by ESI-MS because different species ionize with different efficiencies, it can be used reliably to detect and rank the stabilities of complexes containing similar species in solution, for example, mutant proteins (
+     <xref ref-type="bibr">
+      Kapur et al, 2002
+     </xref>
+     ). This follows from the argument: For two proteins A and B at equilibrium,
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =[A][B]/[AB]. If [A] is kept constant and in excess of [B], then the ratio of observed ions corresponding to B and AB is related to the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of AB by a constant (
+     <em>
+      c
+     </em>
+     ) determined by [A] and their relative ionization efficiencies,
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =
+     <em>
+      c
+     </em>
+     × [B]/[AB]. Thus, provided the reasonable assumption is made that mutations in B do not greatly affect its ionization efficiency or that of the AB complex,
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values of similar complexes can be ranked using the ratios of ions corresponding to free B and AB.
+    </p>
+    <p>
+     The ESI-mass spectra of equilibrium mixtures of excess ɛ
+     <sub>
+      Q
+     </sub>
+     or ɛ
+     <sub>
+      wt
+     </sub>
+     with β
+     <sub>
+      2
+     </sub>
+     showed only small amounts of ɛβ
+     <sub>
+      2
+     </sub>
+     complexes (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ), providing little evidence for a significant ɛ–β interaction. In contrast, the ɛ
+     <sub>
+      L
+     </sub>
+     protein, engineered to contain a strong β-binding site, shows clear evidence of species that contain one or two ɛ
+     <sub>
+      L
+     </sub>
+     bound to one or both CBM-binding sites in the β dimer. However, although consistent with the gel filtration data, these data do not yet show that ɛ
+     <sub>
+      wt
+     </sub>
+     interacts with β
+     <sub>
+      2
+     </sub>
+     .
+    </p>
+    <p>
+     To demonstrate this, we used mixtures of β
+     <sub>
+      2
+     </sub>
+     (in excess) with isolated αɛθ complexes containing the three ɛ variants. The results (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ) clearly show the existence of an αɛ
+     <sub>
+      wt
+     </sub>
+     θ–β
+     <sub>
+      2
+     </sub>
+     complex (ratio of ions αɛ
+     <sub>
+      wt
+     </sub>
+     θ–β
+     <sub>
+      2
+     </sub>
+     /αɛ
+     <sub>
+      wt
+     </sub>
+     θ is ∼1); the role of the putative CBM in ɛ
+     <sub>
+      wt
+     </sub>
+     in this interaction over and above the α–β
+     <sub>
+      2
+     </sub>
+     interaction (see middle panel in
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ) is further demonstrated by the relative absence of complex formation with αɛ
+     <sub>
+      Q
+     </sub>
+     θ, and the nearly quantitative formation of an apparently stable αɛ
+     <sub>
+      L
+     </sub>
+     θ–β
+     <sub>
+      2
+     </sub>
+     complex.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Physical evidence that the ɛ subunit and the internal CBM in α synergistically sequester β
+       <sub>
+        2
+       </sub>
+       in the αɛθ–β
+       <sub>
+        2
+       </sub>
+       complex. (
+       <strong>
+        A
+       </strong>
+       ) Of the two CBMs in α, the internal site interacts preferentially with β
+       <sub>
+        2
+       </sub>
+       . NanoESI-MS of 2 μM β
+       <sub>
+        2
+       </sub>
+       and 0.9 μM αΔ7, α
+       <sub>
+        wt
+       </sub>
+       , or α
+       <sub>
+        L
+       </sub>
+       in 400 mM NH
+       <sub>
+        4
+       </sub>
+       OAc. Ions due to free β
+       <sub>
+        2
+       </sub>
+       (4000–5000
+       <em>
+        m
+       </em>
+       /
+       <em>
+        z
+       </em>
+       ) are not shown. (
+       <strong>
+        B
+       </strong>
+       ) Both ɛ and the internal CBM in α bind β
+       <sub>
+        2
+       </sub>
+       in the αɛθ–β
+       <sub>
+        2
+       </sub>
+       complex. NanoESI-MS of 2 μM β
+       <sub>
+        2
+       </sub>
+       and cores assembled
+       <em>
+        in situ
+       </em>
+       with 0.9 μM αΔ7, α
+       <sub>
+        wt
+       </sub>
+       , or α
+       <sub>
+        L
+       </sub>
+       , 2 μM ɛ
+       <sub>
+        wt
+       </sub>
+       and 5 μM θ in 400 mM NH
+       <sub>
+        4
+       </sub>
+       OAc. Ions due to excess ɛ (1700–3400), θ (1000–3000), β
+       <sub>
+        2
+       </sub>
+       (4000–5000), and the β
+       <sub>
+        2
+       </sub>
+       ɛθ complex (4800–5800
+       <em>
+        m
+       </em>
+       /
+       <em>
+        z
+       </em>
+       ) are not shown.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     β
+     <sub>
+      2
+     </sub>
+     in the αɛθ–β
+     <sub>
+      2
+     </sub>
+     complex interacts with ɛ and the internal CBM in α
+    </title>
+    <p>
+     Essentially identical ESI-MS results were obtained when αɛθ cores were assembled
+     <em>
+      in situ
+     </em>
+     from mixtures of separately dialysed subunits (middle panels in
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     and
+     <a>
+      Supplementary Figure S4A and B
+     </a>
+     , cf.
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ), which enabled study of β
+     <sub>
+      2
+     </sub>
+     binding to αɛθ cores with mutations in both α and ɛ.
+     <em>
+      E. coli
+     </em>
+     α contains two CBMs, but only the conserved internal motif is required for processive DNA synthesis (
+     <xref ref-type="bibr">
+      Dohrmann and McHenry, 2005
+     </xref>
+     ). We used three variants of α to probe which of these sites binds β
+     <sub>
+      2
+     </sub>
+     in the αɛθ–β
+     <sub>
+      2
+     </sub>
+     complex: α
+     <sub>
+      wt
+     </sub>
+     , and the mutants αΔ7, which misses the last seven residues that comprise the C-terminal CBM (
+     <xref ref-type="bibr">
+      López de Saro et al, 2003a
+     </xref>
+     ), and one we term α
+     <sub>
+      L
+     </sub>
+     that has a strengthened internal CBM (QADMF changed to QLDLF;
+     <xref ref-type="bibr">
+      Dohrmann and McHenry, 2005
+     </xref>
+     ). ESI-MS of binding of these α variants to (excess) β
+     <sub>
+      2
+     </sub>
+     showed clear evidence of an interaction with α
+     <sub>
+      L
+     </sub>
+     , but only weak binding to α
+     <sub>
+      wt
+     </sub>
+     and αΔ7 (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). We then assembled αɛθ cores
+     <em>
+      in situ
+     </em>
+     with all combinations of α
+     <sub>
+      wt
+     </sub>
+     , αΔ7, or α
+     <sub>
+      L
+     </sub>
+     with ɛ
+     <sub>
+      wt
+     </sub>
+     , ɛ
+     <sub>
+      Q
+     </sub>
+     , or ɛ
+     <sub>
+      L
+     </sub>
+     , and mixed them with excess β
+     <sub>
+      2
+     </sub>
+     . Regardless of which ɛ variant was used, ESI-MS showed that α
+     <sub>
+      wt
+     </sub>
+     ɛθ and αΔ7ɛθ cores bound β
+     <sub>
+      2
+     </sub>
+     with very similar efficiency, while α
+     <sub>
+      L
+     </sub>
+     ɛθ formed a much stronger complex (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). This clearly shows that only the internal CBM of α is required for formation of the αɛθ–β
+     <sub>
+      2
+     </sub>
+     complex detected by ESI-MS, and that β
+     <sub>
+      2
+     </sub>
+     in this complex is sequestered by simultaneous interactions with two CBMs—a stronger one in α and a weaker one in ɛ.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Role of ɛ–β interaction in strand extension by the Pol III core
+    </title>
+    <p>
+     While the data clearly show (i) that ɛ contains a CBM in the intrinsically unstructured region immediately following its exonuclease domain (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) and (ii) that interaction of β
+     <sub>
+      2
+     </sub>
+     at this site promotes SD synthesis by Pol III HE (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ), they do not yet establish if this interaction occurs during regular DNA synthesis. That ɛ increases the processivity of α in a β
+     <sub>
+      2
+     </sub>
+     - and SSB-dependent synthesis reaction (
+     <xref ref-type="bibr">
+      Studwell and O'Donnell, 1990
+     </xref>
+     ) suggests this to be true, but this effect could be mediated solely through stabilization of α through its contacts with ɛ
+     <sub>
+      CTS
+     </sub>
+     .
+    </p>
+    <p>
+     To further demonstrate the significance of ɛ–β interaction in the αɛθ–β
+     <sub>
+      2
+     </sub>
+     –DNA complex, we used an additional DNA synthesis assay, under ‘difficult' conditions. We found salt conditions (130 mM NaCl) where primer extension by Pol III core is strongly dependent on both β
+     <sub>
+      2
+     </sub>
+     (
+     <a>
+      Supplementary Figure S5A
+     </a>
+     ) and the CBM of ɛ (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ); proofreading activity is again not required (
+     <a>
+      Supplementary Figure S5B
+     </a>
+     ). In this assay, β
+     <sub>
+      2
+     </sub>
+     is loaded onto primed ssDNA by the minimal γ
+     <sub>
+      3
+     </sub>
+     δδ′ clamp loader complex, thus disabling contacts between α and τ necessary for processivity. Moreover, SSB, required to melt secondary structures in the DNA, is omitted. Synthesis by the αɛ
+     <sub>
+      wt
+     </sub>
+     θ core shows stalls (appearing as bands in the gel analysis) and it is slow, taking about 5 min before half of the template strands are fully replicated (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , αɛ
+     <sub>
+      wt
+     </sub>
+     θ core). Use of α alone or the αɛ
+     <sub>
+      Q
+     </sub>
+     θ core results in very little primer extension, while &gt;5-fold more extensive synthesis (fully replicated strands in &lt;2 min) is achieved by strengthening the CBM using ɛ
+     <sub>
+      L
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , αɛ
+     <sub>
+      L
+     </sub>
+     θ core). Consistent with the ESI-MS studies, this τ-independent strand-extension reaction involves simultaneous interactions of β
+     <sub>
+      2
+     </sub>
+     with ɛ and the internal CBM in α, since αΔ7ɛ
+     <sub>
+      wt
+     </sub>
+     θ is as active as wild-type αɛθ (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ); DNA synthesis is also stimulated by use of an α
+     <sub>
+      L
+     </sub>
+     ɛ
+     <sub>
+      wt
+     </sub>
+     θ core, with the strengthened internal CBM in α. These data indicate that in the absence of SSB, the α–β
+     <sub>
+      2
+     </sub>
+     complex is poorly processive and stalls readily on encounter with secondary structures in ssDNA, whereas the additional stabilization contributed by the ɛ–β interaction in the core–β
+     <sub>
+      2
+     </sub>
+     complex allows it to progress more efficiently.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Functional evidence that ɛ and the internal (but not the external) CBM in α synergistically bind β
+       <sub>
+        2
+       </sub>
+       in the αɛθ–β
+       <sub>
+        2
+       </sub>
+       complex. Interactions of the CBM in ɛ (
+       <strong>
+        A
+       </strong>
+       ) and the internal (but not the external) CBM in α (
+       <strong>
+        B
+       </strong>
+       ) with β
+       <sub>
+        2
+       </sub>
+       stimulate primer extension DNA synthesis. Time courses of primer extension ‘under difficult conditions', using the γ
+       <sub>
+        3
+       </sub>
+       δδ′ clamp loader in the absence of SSB, with 200 nM β
+       <sub>
+        2
+       </sub>
+       and 150 nM α or isolated αɛθ complexes, as indicated. Both panels show photographic negative images of gels that had been stained with SYBR gold nucleic acid stain (Invitrogen).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The ɛ–β interaction stabilizes the Pol III replicase in the polymerization mode
+    </title>
+    <p>
+     An important question is whether the ɛ–β interaction contributes to DNA synthesis by the replicase in the polymerization, as opposed to the proofreading mode, since this would contribute to understanding of structures of the αɛθ–β
+     <sub>
+      2
+     </sub>
+     –DNA complex during processive DNA synthesis, and lead to new hypotheses. To answer this question, we used SM observations of DnaB helicase-dependent leading-strand synthesis (
+     <xref ref-type="bibr">
+      Tanner et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tanner and van Oijen, 2009
+     </xref>
+     ) to monitor replication in the context of a complete replisome. Since DNA synthesis must pause transiently (likely for periods of a few ms) during proofreading, progressive strengthening of the ɛ–β interaction should generate higher synthesis rates if this interaction was important in the polymerization mode, while the converse would be the case if the ɛ-binding site in β was more important for proofreading.
+    </p>
+    <p>
+     In the SM assays, one strand of oligonucleotide-primed phage λ dsDNA is tethered between a glass surface at one end and a 2.8-μm bead at the other, and the DNA is extended in a laminar buffer flow (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). At the force generated (∼3 pN), the DNA shortens during conversion of the surface-tethered strand from ds to ssDNA by Pol III HE-dependent DnaB activity, thereby displacing the bead in the direction opposite the flow. The position of the bead is tracked in real time; trajectories (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S6
+     </a>
+     ) reveal rates, extents, and durations of leading-strand synthesis events. By combining data from many such trajectories recorded using Pol III HE containing the αɛ
+     <sub>
+      wt
+     </sub>
+     θ core, we previously obtained an average rate of synthesis of 417±8 bp/s and processivity of 10.5±0.9 kb (
+     <xref ref-type="bibr">
+      Tanner et al, 2008
+     </xref>
+     ). These numbers were in accord with bulk assays with the same reagents, and reasonably reflected synthesis by an authentic fully constituted replicase.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Single-molecule DNA replication assays demonstrate that the ɛ–β interaction stabilizes the replicase in the polymerization mode. (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of the experimental set-up to study leading-strand replication. All proteins are present continuously in the buffer flow. (
+       <strong>
+        B
+       </strong>
+       ) Example single-molecule trajectories showing pauses (dashed lines) during DNA synthesis by isolated αɛ
+       <sub>
+        wt
+       </sub>
+       θ core at 20 or 60 nM. (
+       <strong>
+        C
+       </strong>
+       ) Exchange of αɛ
+       <sub>
+        wt
+       </sub>
+       θ cores from solution occurs during pauses, since pause times (
+       <em>
+        N
+       </em>
+       events fit with a single exponential) are inversely related to αɛ
+       <sub>
+        wt
+       </sub>
+       θ concentration. (
+       <strong>
+        D
+       </strong>
+       ) However, cores do not exchange from solution during single events, since processivity (event size;
+       <em>
+        N
+       </em>
+       events fit with a single exponential) is unaffected by αɛ
+       <sub>
+        wt
+       </sub>
+       θ concentration (8.4±1.1 and 8.7±0.4 kb at 20 and 60 nM core, respectively). (
+       <strong>
+        E
+       </strong>
+       ) Average DNA synthesis rate with the wild-type αɛθ core is 890±50 bp/s (
+       <em>
+        N
+       </em>
+       events fit to a Gaussian distribution). (
+       <strong>
+        F
+       </strong>
+       ) Termination of individual replication events with the αɛθ core is a first-order process with a lifetime τ=10.3±1.1 s. (
+       <strong>
+        G
+       </strong>
+       ) Progressive strengthening of the ɛ–β interaction
+       <em>
+        increases
+       </em>
+       both rates and processivities of DNA synthesis, but does not affect the lifetime of active replisomes. Derived processivities (left), rates (centre), and lifetimes (right) of replicases containing α or isolated αɛθ cores. Fit values of parameters are given, with standard errors in parentheses (see
+       <a>
+        Supplementary Figure S8
+       </a>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In the current study (
+     <xref ref-type="fig">
+      Figure 6D and E
+     </xref>
+     ), we observed similar processivity with the αɛ
+     <sub>
+      wt
+     </sub>
+     θ core (8.7±0.4 kb), but higher rates (890±50 bp/s) that closely approach estimates of those that occur
+     <em>
+      in vivo
+     </em>
+     . In 61% of the replicated molecules, we also observed long pauses (defined as being ≥3 s, and often more than one), followed by further synthesis (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). Note that all proteins are present continuously in the buffer flow, and replication events on any single template DNA commence at random times during these experiments. This reflects the low efficiency of DnaC-dependent loading of DnaB in this situation where the template has no free 5′ end and no replication origin (
+     <xref ref-type="bibr">
+      Tanner et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ribeck et al, 2010
+     </xref>
+     ). Thus, DnaB must remain bound at the fork while another replisomal component dissociates during pausing. That, at a constant concentration of the clamp loader, the mean duration of these long pauses was inversely proportional to the concentration of αɛ
+     <sub>
+      wt
+     </sub>
+     θ, whereas processivity remained constant (
+     <xref ref-type="fig">
+      Figure 6C and D
+     </xref>
+     ), indicates that it is the core that dissociates and re-associates during pauses. Therefore, we treated synthesis between pauses as discrete events. The higher rates we measured compared with the previous study (
+     <xref ref-type="bibr">
+      Tanner et al, 2008
+     </xref>
+     ) seem to be due to use of a preformed and isolated (DnaB
+     <sub>
+      6
+     </sub>
+     )DnaC
+     <sub>
+      6
+     </sub>
+     complex for helicase loading, rather than an approximately stoichiometric mixture of the two proteins (as used by
+     <xref ref-type="bibr">
+      Tanner et al (2008)
+     </xref>
+     ; see
+     <a>
+      Supplementary Figure S7
+     </a>
+     <em>
+      cf.
+     </em>
+     <xref ref-type="fig">
+      Figure 6D and E
+     </xref>
+     ). The basis for inhibition of helicase activity by small amounts of free DnaC in this assay is a topic for further investigation (cf.
+     <xref ref-type="bibr">
+      Allen and Kornberg, 1991
+     </xref>
+     ).
+    </p>
+    <p>
+     Having characterized the system, we were able to study leading-strand synthesis by replisomes containing α alone or αɛθ cores made with ɛ
+     <sub>
+      Q
+     </sub>
+     , ɛ
+     <sub>
+      wt
+     </sub>
+     , and ɛ
+     <sub>
+      L
+     </sub>
+     , thus progressively strengthening the ɛ–β interaction (
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S8
+     </a>
+     ). We found that although both the measured rates and processivities increased as the ɛ–β interaction was strengthened, the lifetime (τ=1/
+     <em>
+      k
+     </em>
+     <sub>
+      obs
+     </sub>
+     ) describing dissociation of cores from the replisome, as measured from the duration of events, remained constant at about 10 s (
+     <xref ref-type="fig">
+      Figure 6G
+     </xref>
+     ). This constant lifetime must therefore reflect a common rate-limiting step in dissociation of α and the cores, which clearly must involve protein–protein or protein–DNA interactions that occur even in the absence of ɛ and are much stronger than that between ɛ and β (e.g., the α–τ interaction;
+     <xref ref-type="bibr">
+      Jergic et al, 2007
+     </xref>
+     ).
+    </p>
+    <p>
+     We propose that on the timescale of these measurements, the replicase oscillates rapidly between two (or more) conformational states without the core dissociating from the DNA template, where one of these is a closed state that involves ɛ–β interaction and is responsible for DNA synthesis in the polymerization mode, and the other is an open inactive state in which this contact is broken. When the ɛ–β interaction is strengthened, the replicase therefore spends a greater proportion of time in the active mode, leading to increased rate and processivity. Known structures of the various components (discussed below) can be used to derive models of the open and closed states, as shown in
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     .
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Structural models of α–β
+       <sub>
+        2
+       </sub>
+       complexes. (
+       <strong>
+        A
+       </strong>
+       ) Binding of
+       <em>
+        E. coli
+       </em>
+       β
+       <sub>
+        2
+       </sub>
+       to the β-binding domain of
+       <em>
+        Taq
+       </em>
+       α (tan) in the ‘closed' DNA-bound form, modelled on the structure of the ternary complex of
+       <em>
+        Taq
+       </em>
+       α with DNA and dNTP (as described in
+       <xref ref-type="bibr">
+        Wing et al, 2008
+       </xref>
+       ). Space exists to accommodate ɛθ between the ɛ-binding site in β
+       <sub>
+        2
+       </sub>
+       (yellow) and the PHP domain of α (orange), spanned by residues 188–210 of ɛ that remain flexible in the αɛθ complex (
+       <xref ref-type="bibr">
+        Ozawa et al, 2008
+       </xref>
+       ). The location of Leu888 in
+       <em>
+        Taq
+       </em>
+       α (Val832 in
+       <em>
+        E. coli
+       </em>
+       ) is shown. (
+       <strong>
+        B
+       </strong>
+       ) Model of the ‘open' complex (DNA not shown) derived by rigid body transformation of the β-binding domain–β
+       <sub>
+        2
+       </sub>
+       moiety in (
+       <strong>
+        A
+       </strong>
+       ) to superimpose on the β-binding domain in the structure of
+       <em>
+        Taq
+       </em>
+       α without DNA (
+       <xref ref-type="bibr">
+        Bailey et al, 2006
+       </xref>
+       ). Figures were produced using PyMOL (DeLano Scientific, San Carlos CA).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Genetic studies by the Maurer group 20 years ago identified an essential non-proofreading role of the ɛ subunit of the Pol III core in DNA replication. That a suppressor mutation (
+    <em>
+     spq2
+    </em>
+    ) in
+    <em>
+     dnaE
+    </em>
+    (encoding α
+    <sub>
+     V832G
+    </sub>
+    ) rescued the severe growth defect but not the mutator phenotype of disruption of
+    <em>
+     dnaQ
+    </em>
+    (encoding ɛ) prompted the hypothesis that ɛ stabilizes the replisome through additional contacts with the β sliding clamp or clamp loader subunits (
+    <xref ref-type="bibr">
+     Lancy et al, 1989
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lifsics et al, 1992
+    </xref>
+    ). Here, we identified an ɛ–β contact as an important contributor to the network of protein–protein interactions essential for stabilization of the replicase on its template DNA; the absence of this contact in the cell can be compensated by a mutation in α that enables regain of lost stability of the replicase–DNA complex to re-establish replicative competence.
+   </p>
+   <p>
+    We were able to detect a clear requirement for ɛ in DNA synthesis, independent of its proofreading activity, initially with an assay that detects helicase-independent SD DNA synthesis by the complete chromosomal replicase (
+    <xref ref-type="fig">
+     Figure 2
+    </xref>
+    ). We traced this by mutagenesis to a binding site (CBM) for the sliding clamp that is conserved in bacterial proofreading subunits (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    ). This hexapeptide CBM is in the unstructured region of ɛ just following the nuclease domain, preceding the region that interacts with the polymerase subunit α. Mutants of ɛ engineered to contain stronger or weaker CBMs affect, in predictable ways, not only SD synthesis but also replicase rates and processivities in SM leading-strand replication assays (
+    <xref ref-type="fig">
+     Figure 6
+    </xref>
+    ), as well as net DNA synthesis in a primer extension assay under difficult conditions (without the benefit of α–τ or SSB–ssDNA interactions;
+    <xref ref-type="fig">
+     Figure 5A
+    </xref>
+    ). Moreover, the α
+    <sub>
+     V832G
+    </sub>
+    mutation was able to suppress the requirement for ɛ in SD synthesis (
+    <xref ref-type="fig">
+     Figure 2F
+    </xref>
+    ). We are therefore able fully to explain the earlier suggestion of a proofreading-independent role of ɛ in chromosomal DNA synthesis.
+   </p>
+   <p>
+    We were also able to confirm weak binding of β
+    <sub>
+     2
+    </sub>
+    (
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    ∼200 μM) to the predicted CBM in ɛ using the same series of mutant ɛ proteins (or corresponding peptides) in SPR and ESI-MS experiments (
+    <xref ref-type="fig">
+     Figure 3
+    </xref>
+    ), and to show that both protein-binding sites in β
+    <sub>
+     2
+    </sub>
+    are utilized for the Pol III SD reaction (
+    <xref ref-type="fig">
+     Figure 2E
+    </xref>
+    ).
+   </p>
+   <p>
+    Our data strongly suggest that the two sites in the β dimer are occupied simultaneously by ɛ and the internal CBM of α during processive DNA replication. There are at least two situations where synthesis by α might stall to signal a conformational switch to break just the ɛ–β contact without the polymerase dissociating from the DNA template, or at least change the location of the ɛ active site in the replicase complex. These are (i) during lesion bypass or repair synthesis by the alternate polymerases Pol II, IV, or V (
+    <xref ref-type="bibr">
+     Indiani et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Furukohri et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Heltzel et al, 2009
+    </xref>
+    ) and (ii) during proofreading. It has been suggested that in PolC (
+    <xref ref-type="bibr">
+     Evans et al, 2008
+    </xref>
+    ), entry of alternate polymerases occurs
+    <em>
+     via
+    </em>
+    transition from the closed primer template-bound structure (similar to the model in
+    <xref ref-type="fig">
+     Figure 7A
+    </xref>
+    ) to an open one reminiscent of α in the absence of DNA (
+    <xref ref-type="fig">
+     Figure 7B
+    </xref>
+    ). This transition would require that the ɛ–β contact be broken, providing access of the CBM of the incoming polymerase to β
+    <sub>
+     2
+    </sub>
+    .
+   </p>
+   <p>
+    There are two separate models for how primer-template DNA is switched from α to an alternate polymerase (reviewed by
+    <xref ref-type="bibr">
+     Sutton, 2010
+    </xref>
+    ). In the toolbelt model (
+    <xref ref-type="bibr">
+     Pagès and Fuchs, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     López de Saro et al, 2003a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Indiani et al, 2005
+    </xref>
+    ), a repair or lesion-bypass polymerase would trap the replicase in the open state by temporarily replacing ɛ at its binding site in β
+    <sub>
+     2
+    </sub>
+    to access the primer terminus while α remains attached at the other; ɛ would remain tethered to α through a flexible linker (
+    <xref ref-type="bibr">
+     Ozawa et al, 2008
+    </xref>
+    ), enabling it to re-establish contact with β
+    <sub>
+     2
+    </sub>
+    when processive synthesis by α is resumed. The second model, demonstrated with Pol IV, involves switching of polymerases at the same protein binding site on the β
+    <sub>
+     2
+    </sub>
+    ring (
+    <xref ref-type="bibr">
+     Heltzel et al, 2009
+    </xref>
+    ), and requires a secondary contact between Pol IV and β. Evidence for this model is that Pol III/IV switching can still occur efficiently on a β
+    <sup>
+     C
+    </sup>
+    /β
+    <sub>
+     wt
+    </sub>
+    heterodimer that has only one functional protein-binding site. In this more desperate situation, the Pol III core is apparently able to disengage from β
+    <sub>
+     2
+    </sub>
+    while still remaining in the replicase through its contacts with τ. This may not be an unusual situation, since exchange of τ-bound Pol III cores between different clamps certainly occurs during their recycling to new primer termini on completion of lagging-strand Okazaki fragment synthesis. In this process, contacts of both α and ɛ with β
+    <sub>
+     2
+    </sub>
+    must be broken. The differences, if any, among replicase stalling signals in these various situations and how they affect transactions of CBMs on the sliding clamp is an area where we still have much to learn.
+   </p>
+   <p>
+    Proofreading also involves replicase stalling and requires transfer of a mismatched primer template from the active site of α to that of ɛ. It has been suggested (
+    <xref ref-type="bibr">
+     Evans et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wing et al, 2008
+    </xref>
+    ) that this might also require at least partial opening of the closed DNA-bound structure (as in
+    <xref ref-type="fig">
+     Figure 7A
+    </xref>
+    ) to pull the primer template from the polymerase site to access the exonuclease site of ɛ. There is some evidence for this opening. The Pol III replicase can be stalled in a stable complex at a primer terminus when only two of the four dNTPs are present, where it undergoes futile cycles of nucleotide misincorporation and proofreading. In this situation, it has been found to be more prone to exchange with an alternate polymerase than when it is actively replicating DNA (
+    <xref ref-type="bibr">
+     Indiani et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Furukohri et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Heltzel et al, 2009
+    </xref>
+    ). This would be nicely explained if breakage of the ɛ–β contact occurred during proofreading to allow easier access of the incoming polymerase.
+   </p>
+   <p>
+    It is instructive to reflect on why the ɛ–β interaction remained undetected for so long. The first reason is that knowledge of the functions, and especially structures, of replicase components can now guide us to find and understand new protein–protein contacts. Pairwise interaction between ɛ and β
+    <sub>
+     2
+    </sub>
+    is weak, and is not easily observable by classical biophysical techniques. Previous measurements (
+    <xref ref-type="bibr">
+     Stukenberg et al, 1991
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim and McHenry, 1996b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dohrmann and McHenry, 2005
+    </xref>
+    ) suggest only up to a 4-fold enhancement by ɛθ of the strength of the α–β interaction, which could be thought to be due simply to stabilization of α through its interactions with the ɛ
+    <sub>
+     CTS
+    </sub>
+    . However, the structures of
+    <em>
+     Taq
+    </em>
+    α (
+    <xref ref-type="bibr">
+     Bailey et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wing et al, 2008
+    </xref>
+    ) suggest that in the absence of primer-template DNA, the polymerase has an open structure that closes by an ∼20° rotation of the β-binding domain to a closed structure in the DNA-bound form. Curiously, Val832 (Gly in the
+    <em>
+     spq2
+    </em>
+    mutant; Leu888 in
+    <em>
+     Taq
+    </em>
+    α) is at the base of this domain (
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    ), where it could modulate this structural transition. In the corresponding open structure of the αɛθ core, the two CBMs, one at the tip of the β-binding domain of α and the other just following the exonuclease domain of ɛ, are probably too distant to be bound simultaneously at the two sites on a single β
+    <sub>
+     2
+    </sub>
+    ring (
+    <xref ref-type="fig">
+     Figure 7B
+    </xref>
+    ). In the closed structure of the α(ɛθ)–β
+    <sub>
+     2
+    </sub>
+    –DNA complex (modelled in
+    <xref ref-type="fig">
+     Figure 7A
+    </xref>
+    ), the free protein-binding site in β
+    <sub>
+     2
+    </sub>
+    would be located proximal to the ɛ
+    <sub>
+     CTS
+    </sub>
+    -binding PHP domain of α in a position that would favour more optimal ɛ–β contact, with a gap between subunits still large enough to accommodate the structured part of ɛθ. Thus, primer-template DNA interactions would be expected to increase the significance of the ɛ–β interaction in the context of a functioning replicase, and allow its strength to be modulated by conformational change in α.
+   </p>
+   <p>
+    Both processivities and rates of leading-strand synthesis, as measured in our SM experiments, are affected similarly by changes in the strength of the ɛ–β interaction, while the lifetime of the complex is determined by a different and stronger replisomal interaction (
+    <xref ref-type="fig">
+     Figure 6
+    </xref>
+    ). This is consistent with the idea that the ɛ–β contact shifts a rapid equilibrium towards the closed state of the replicase, that is, the state where the chemistry of DNA synthesis happens in the polymerization mode.
+   </p>
+   <p>
+    Inspection of the putative CBMs in other bacterial ɛ subunits (e.g., in
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    ) shows that they have been preserved as weak sites during evolution. This is as expected for a situation where the ɛ–β interaction needs to be sufficiently strong to maintain the replicase in the polymerization mode, but weak enough that it can be easily disrupted during a structural change necessary for transition to other conformational states. Evolutionary fine tuning of strengths of pairwise interactions between components of dynamic molecular machines is emerging as a key aspect of functional importance. The ɛ–β interaction in the bacterial replicase is a clear example of this.
+   </p>
+   <p>
+    A second reason that the ɛ–β contact was not detected earlier is that the majority of
+    <em>
+     in vitro
+    </em>
+    studies of replicase functions are carried out at low (&lt;20 mM) or moderate (&lt;100 mM) ionic strength conditions where requirements for weak contacts are masked by the relative strengthening of others. For example, primer extension assays in the absence of SSB show no synthesis by α alone in the presence of β
+    <sub>
+     2
+    </sub>
+    and γ
+    <sub>
+     3
+    </sub>
+    δδ′ at higher ionic strengths (130 mM NaCl+10 mM MgCl
+    <sub>
+     2
+    </sub>
+    ). However, as expected based on the literature (e.g.,
+    <xref ref-type="bibr">
+     Studwell and O'Donnell, 1990
+    </xref>
+    ), α alone is capable of relatively efficient synthesis at low ionic strength (10 mM MgCl
+    <sub>
+     2
+    </sub>
+    ; not shown). While the apparent strengthening of replisomal protein–protein and protein–DNA interactions in the low salt conditions of biochemical assays can provide efficient systems to dissect roles of the many actors, it can mask requirements for weak interactions that only become apparent under more physiological conditions.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Replication proteins
+    </title>
+    <p>
+     Mutations were introduced into the
+     <em>
+      dnaE
+     </em>
+     and
+     <em>
+      dnaQ
+     </em>
+     genes in plasmids that direct expression of the Pol III α and ɛ subunits by standard methods, and the proteins were isolated as for the wild-type versions (
+     <xref ref-type="bibr">
+      Scheuermann and Echols, 1984
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wijffels et al, 2004
+     </xref>
+     ). Described methods (see
+     <a>
+      Supplementary data
+     </a>
+     ) were used to isolate other Pol III subunits and sub-assemblies: β
+     <sub>
+      2
+     </sub>
+     (
+     <xref ref-type="bibr">
+      Oakley et al, 2003
+     </xref>
+     ); αɛθ and τ
+     <sub>
+      3
+     </sub>
+     δδ′ψχ complexes (
+     <xref ref-type="bibr">
+      Tanner et al, 2008
+     </xref>
+     ); PriA, PriB, and DnaT (
+     <xref ref-type="bibr">
+      Marians, 1995
+     </xref>
+     ); SSB (
+     <xref ref-type="bibr">
+      Mason et al, 2013
+     </xref>
+     ). New methods to make the ubq-ɛ
+     <sub>
+      CTS
+     </sub>
+     construct, the modified β
+     <sub>
+      2
+     </sub>
+     homo- and heterodimers, the γ
+     <sub>
+      3
+     </sub>
+     δδ′ clamp loader, and the DnaB
+     <sub>
+      6
+     </sub>
+     (DnaC)
+     <sub>
+      6
+     </sub>
+     complex are given in
+     <a>
+      Supplementary data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Bulk DNA replication assays
+    </title>
+    <p>
+     The flap-primed ssDNA template was made by annealing M13 ssDNA to a 30-fold excess of a primer consisting of a 33-Nt complementary segment preceded by a 36-Nt non-complementary flap. The standard coupled strand extension and Pol III SD reaction contained 2.5 nM primed DNA template, 1 mM ATP, 0.5 mM of each dNTP, 30 nM τ
+     <sub>
+      3
+     </sub>
+     δδ′ψχ, 90 nM αɛθ, 200 nM β
+     <sub>
+      2
+     </sub>
+     , and 750 nM SSB
+     <sub>
+      4
+     </sub>
+     in 25 mM Tris–HCl pH 7.6, 10 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 10 mM dithiothreitol and 130 mM NaCl, in a final volume of 13 μl. Assays containing some core complexes assembled
+     <em>
+      in situ
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 2B, C
+     </xref>
+     ) contained 100 nM α or α
+     <sub>
+      V832G
+     </sub>
+     +350 nM ɛ, ɛ
+     <sub>
+      D12A
+     </sub>
+     , ɛ
+     <sub>
+      D12A,E14A
+     </sub>
+     or ubq-ɛ
+     <sub>
+      CTS
+     </sub>
+     ±1 μM θ. Primer extension assays under ‘difficult' conditions were done identically, except that SSB was omitted, 40 nM γ
+     <sub>
+      3
+     </sub>
+     δδ' clamp loader was used in place of τ
+     <sub>
+      3
+     </sub>
+     δδ'ψχ and α or the αɛθ cores were present at 150 nM. Components (except DNA) were mixed and treated for 5 min at room temperature, cooled in ice and DNA added. Reactions were initiated at 30°C, and quenched after 20 min (unless indicated otherwise) by addition of EDTA to ∼100 mM and SDS to ∼1%. Products were separated by agarose gel electrophoresis and stained with SYBR Gold (Invitrogen, Carlsbad, CA, USA).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SM leading-strand replication assays
+    </title>
+    <p>
+     Leading-strand SM assays were essentially as described (
+     <xref ref-type="bibr">
+      Tanner et al, 2008
+     </xref>
+     ), with a few modifications. Replication proteins were introduced in 50 mM HEPES–KOH pH 7.9, 80 mM KCl, 12 mM Mg(OAc)
+     <sub>
+      2
+     </sub>
+     , 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 5 mM dithiothreitol, 0.1 mg/ml BSA, 1 mM ATP, and 195 μM of each dNTP, and were present continuously in the flow at the following concentrations: 60 nM α or αɛθ, 30 nM τ
+     <sub>
+      3
+     </sub>
+     δδ′χψ, 30 nM β
+     <sub>
+      2
+     </sub>
+     , 30 nM DnaB
+     <sub>
+      6
+     </sub>
+     (DnaC)
+     <sub>
+      6
+     </sub>
+     , 20 nM PriA, 40 nM PriB, and 480 nM DnaT. Experiments were at 32–34°C. Data were acquired and treated as before except that pauses were defined as a minimum of six data points (images at 2 Hz) with amplitude fluctuations less than three times the standard deviation of the noise.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SPR analysis of ɛ
+     <sub>
+      pep
+     </sub>
+     –β
+     <sub>
+      2
+     </sub>
+     interactions
+    </title>
+    <p>
+     A ProteOn XPR-36 SPR with an NLC sensor chip (Bio-Rad) was used at 20°C. Solutions of ɛ
+     <sub>
+      Lpep
+     </sub>
+     , ɛ
+     <sub>
+      WTpep
+     </sub>
+     , and ɛ
+     <sub>
+      Qpep
+     </sub>
+     in SPR buffer (50 mM Tris–HCl pH 7.6, 50 mM NaCl, 0.5 mM TCEP, 0.2 mM EDTA, 0.005% surfactant P20) were used to immobilize ∼50, 70, and 60 RU, respectively, across six interaction spots. After rotation of the chip, three different serially diluted concentration series of β
+     <sub>
+      2
+     </sub>
+     in SPR buffer were injected sequentially at 100 μl/min for 60 s followed by SPR buffer for 300 s. The final sensorgrams were generated by double reference subtraction and equilibrium responses at different [β
+     <sub>
+      2
+     </sub>
+     ] used to generate binding isotherms to determine values of
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     (ɛ
+     <sub>
+      pep
+     </sub>
+     –β
+     <sub>
+      2
+     </sub>
+     ) as described in
+     <a>
+      Supplementary data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Assessment of
+     <em>
+      ɛ
+     </em>
+     –
+     <em>
+      β
+     </em>
+     <sub>
+      2
+     </sub>
+     interactions by ESI-MS
+    </title>
+    <p>
+     Protein samples were dialysed against NH
+     <sub>
+      4
+     </sub>
+     OAc buffers at pH 7.6, 1 mM in β-mercaptoethanol (as specified in figure legends). ESI-mass spectra of ɛ or purified αɛθ variants with β
+     <sub>
+      2
+     </sub>
+     were acquired in positive ion mode using nanoelectrospray ionization (nanoESI) on a Waters (Wythenshawe, UK) extended mass range Q-ToF Ultima spectrometer fitted with a Z-spray ESI source under optimized conditions, while interactions between β
+     <sub>
+      2
+     </sub>
+     and
+     <em>
+      in-situ
+     </em>
+     assembled αɛθ complexes similarly used nanoESI on a Waters Synapt HDMS spectrometer with a
+     <em>
+      Z
+     </em>
+     -spray source. Spectra were acquired over a
+     <em>
+      m
+     </em>
+     /z range of 500–15 000; 100–150 acquisitions were combined and spectra were baseline subtracted and smoothed using the Savitzky-Golay algorithm.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (7.1M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (276K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

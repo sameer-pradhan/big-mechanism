@@ -1,0 +1,1423 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3572780
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    The C-terminal Domain of Human Rev1 Contains Independent Binding Sites for DNA Polymerase η and Rev7 Subunit of Polymerase ζ
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Human Rev1 is a translesion synthesis (TLS) DNA polymerase involved in bypass replication across sites of DNA damage and postreplicational gap-filling. Rev1 plays an essential structural role in TLS by providing a binding platform for other TLS polymerases that insert nucleotides across DNA lesions (polη, polι, polκ) and extend the distorted primer-terminus (polζ). We use NMR spectroscopy to demonstrate that the Rev1 C-terminal domain utilizes independent interaction interfaces to simultaneously bind a fragment of the 'inserter' polη and Rev7 subunit of the 'extender' polζ, thereby serving as a cassette that may accommodate several polymerases making them instantaneously available for TLS.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     DNA damage tolerance, translesion synthesis, TROSY NMR, chemical shifts, spin-relaxation
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    1. Introduction
+   </title>
+   <p>
+    Sites of DNA damage (lesions) encountered by replication machinery in the process of cell division stall replication fork progression, threatening the survival of dividing cells. DNA damage tolerance pathways provide the means to bypass DNA lesions while temporarily leaving them unrepaired, thus rescuing replication from coming to a halt [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. Bypass DNA replication in human cells is carried out by low-fidelity translesion synthesis (TLS) polymerases, including Rev1, polη, polι, polκ (Y-type) and polζ (B-type), which constitute a mutagenic branch of DNA damage tolerance [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. Recent reports suggest that TLS enzymes also play a role in postreplicational gap filling [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ]. TLS polymerases represent the primary source of mutations introduced into the genome, with Rev1 and polζ responsible for most damage-induced and spontaneous mutagenesis [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ].
+   </p>
+   <p>
+    Rev1/polζ-dependent TLS allows bypass replication across bulky DNA lesions such as
+    <em>
+     N
+    </em>
+    <sup>
+     2
+    </sup>
+    -benzo[a]pyrene-dG and cisplatin adducts, or [
+    <xref ref-type="bibr">
+     6
+    </xref>
+    -
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ] photoproduct, involving the concerted action of several TLS polymerases [
+    <xref ref-type="bibr">
+     5
+    </xref>
+    –
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ]. In this process the 'inserter' TLS enzyme replaces the replicative DNA polymerase (polδ, polε) at stalled replication fork in response to Rad6/Rad18-dependent mono-ubiquitination of PCNA [
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ] and inserts a nucleotide across from the lesion. Subsequently, the 'inserter' enzyme is replaced by 'extender' TLS polymerase (most frequently polζ) capable of extending the distorted DNA primer terminus [
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ]. The recruitment of TLS polymerases to sites of DNA damage and polymerase switching upon DNA lesion bypass are mediated by a variety of protein-protein interactions [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. In spite of their major role in TLS, the key interactions of TLS polymerases that govern the selection of lesion-specific enzymes, and determine the order of polymerase switching events are not yet structurally characterized.
+   </p>
+   <p>
+    Besides exhibiting limited catalytic activity, Rev1 serves as an interaction platform for other major TLS polymerases, thereby playing a key role in coordinating the TLS pathway [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. Unlike other Y-type polymerases, Rev1 possesses two unique interaction domains: an N-terminal BRCT domain that binds PCNA and a C-terminal domain (Rev1-CT) responsible for Rev1 interaction with major TLS polymerases [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. Specifically, in vertebrates the Rev1-CT domain, encompassing the C-terminal ~100aa of Rev1, is required for binding polη, polι, polκ and Rev7 subunit of polζ [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ]. Considerable evidence suggests that Rev1 and polζ (a complex of accessory Rev7 and catalytic Rev3 subunits) act together in mutagenic DNA lesion bypass [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ]. Thus, cells deficient in Rev1, Rev3 or Rev7 proteins exhibit increased sensitivity to DNA damage and substantially reduced rate of mutations [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ]. It is notable that Rev1 mutants lacking the C-terminal domain fail to complement Rev1 deficiency [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ], suggesting that protein-protein interactions mediated by Rev1-CT are critical for Rev1/polζ-dependent TLS.
+   </p>
+   <p>
+    Recently, we have determined the solution NMR structures of human Rev1-CT domain (residues 1157–1251) alone and in complex with one of the two Rev1-interacting regions (RIRs) from polη (residues 524–539) (PDB: 2LSY,2LSK) [
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ]. The domain adopts a four-helix bundle fold, with the binding site for polη-RIR formed by the N-terminal β-hairpin and the following two α-helices. Human Y-type polymerases polη, polι, polκ contain RIR-motifs including two consecutive Phe residues that fit into a hydrophobic pocket in the N-terminal part of Rev1-CT [
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ], thus utilizing a similar mode for Rev1-CT binding. Moreover, recently reported spatial structure of mouse Rev1-CT in complex with polκ-RIR [
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ] revealed that polη and polκ utilize identical modes of Rev1-CT binding, suggesting that RIR-motifs of Y-type polymerases are likely to compete for the same binding site on the Rev1-CT domain.
+   </p>
+   <p>
+    In contrast, no RIR-motifs have been identified in Rev7 subunit of polζ, indicating that its mode of Rev1-CT interaction is different from that of polη, polι and polκ. The crystal structure of human Rev7 (R124A; PDB: 3ABD, 3ABE) has been determined in complex with a peptide from the catalytic subunit of polζ, Rev3 (residues 1847–1898), and several residues of Rev7 involved in Rev1-CT interaction have been identified by mutational analysis [
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ]. This analysis revealed that Rev7 interacts with Rev1-CT and Rev3 through different interfaces and, therefore, can bind Rev1 and Rev3 simultaneously. Here we use NMR spectroscopy (i) to map previously undefined Rev1-CT binding site for Rev7 subunit of polζ, (ii) to show that this site is distinct from Rev1-CT binding interface for RIR-motifs of polη, ι, κ, and (iii) to demonstrate the possibility of assembling quadruple Rev1-CT/(Rev7/Rev3)/polη-RIR complex where Rev1-CT is bound to the fragments of polη and polζ. These results infer a possibility that Rev1-CT may serve as a scaffold that simultaneously binds one of the 'inserter' Y-type polymerases, polη, ι or κ, and the 'extender' polζ, thus facilitating the assembly of multi-polymerase complexes carrying out TLS.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    2. Materials and Methods
+   </title>
+   <sec>
+    <title>
+     2.1. Protein expression and purification
+    </title>
+    <p>
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H-labeled human Rev1-CT (11kDa) was produced as described elsewhere [
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ]. In brief, the protein was over-expressed in
+     <em>
+      E. coli
+     </em>
+     BL21(DE3) cells transformed with pET-28b(+) vector harboring the Rev1-CT gene (residues 1158–1251 following cleavage site for TEV protease). Cells were grown in 100%
+     <sup>
+      2
+     </sup>
+     H
+     <sub>
+      2
+     </sub>
+     O M9 medium using
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl and U-
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H-glucose as the sole nitrogen and carbon sources, respectively, followed by protein purification by Ni
+     <sup>
+      2+
+     </sup>
+     -affinity column, His-tag cleavage, and purification on a HiLoad Superdex-75 column.
+    </p>
+    <p>
+     The triple complex of
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H Rev1-CT(1158–1251) and unlabeled Rev7(R124A)/Rev3(1847–1898) (below referred to as Rev7/Rev3) was obtained by HiLoad Superdex-200 size-exclusion purification of a mixture of the Rev1-CT (11kDa) and an excess of Rev7/Rev3 (32kDa), with subsequent collection of a peak corresponding to Rev1-CT/Rev7/Rev3 assembly (43kDa). His-tagged Rev7(R124A) was co-expressed with Rev3(1847–1898) in
+     <em>
+      E. coli
+     </em>
+     BL21(DE3) cells transformed with pETDuet-1 vector harboring genes encoding both proteins [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]. Cells were grown on LB medium, followed by protein purification using Ni
+     <sup>
+      2+
+     </sup>
+     -affinity and HiLoad Superdex-200 columns.
+    </p>
+    <p>
+     The quadruple complex of
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H Rev1-CT(1158–1251), unlabeled Rev7(R124A)/Rev3(1847–1898), and unlabeled polη-RIR peptide (residues 524–539) was obtained by gradually titrating a concentrated 25mM solution of custom synthesized (GenScript) peptide into Rev1-CT/Rev7/Rev3 sample. The final samples of triple Rev1-CT/Rev7/Rev3 (43kDa) and quadruple Rev1-CT/Rev7/Rev3/polη-RIR (44kDa) complexes contained 0.4mM protein, 50mM NaH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     , 100mM NaCl, 1mM EDTA, 5mM DTT, 0.05% NaN
+     <sub>
+      3
+     </sub>
+     , 10% D
+     <sub>
+      2
+     </sub>
+     O, pH=7.0.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.2. NMR spectroscopy
+    </title>
+    <p>
+     Nearly complete
+     <sup>
+      1
+     </sup>
+     H/
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C NMR resonance assignments for the free Rev1-CT and Rev1-CT/polη-RIR complex (15°C) were reported elsewhere (BMRB: 18455, 18434) [
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ]. The backbone
+     <sup>
+      1
+     </sup>
+     H
+     <sup>
+      N
+     </sup>
+     ,
+     <sup>
+      15
+     </sup>
+     N,
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      α
+     </sup>
+     and
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      O
+     </sup>
+     assignments (35°C) for
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H Rev1-CT in complex with unlabeled (i) Rev7/Rev3 and (ii) Rev7/Rev3/polη-RIR were obtained in this work from a series of 2D
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC,
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N TROSY, and 3D TROSY-HNCO, TROSY-HNCA and
+     <sup>
+      15
+     </sup>
+     N-edited NOESY-HSQC spectra [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ] recorded on 18.8T Agilent VNMRS spectrometer equipped with cold-probe.
+    </p>
+    <sec>
+     <p>
+      The residues on Rev1-CT interaction interfaces with Rev7/Rev3 and polη-RIR were identified based on chemical shift changes for the backbone nuclei upon the formation of the complexes. Specifically, normalized chemical shift differences were calculated for each residue [
+      <xref ref-type="bibr">
+       17
+      </xref>
+      ]:
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mi>
+          Δ
+         </mi>
+         <mi>
+          ϖ
+         </mi>
+         <mspace>
+         </mspace>
+         <mo>
+          '
+         </mo>
+         <mo>
+          =
+         </mo>
+         <msqrt>
+          <mfrac>
+           <mn>
+            1
+           </mn>
+           <mi>
+            N
+           </mi>
+          </mfrac>
+          <mstyle>
+           <munderover>
+            <mo>
+             ∑
+            </mo>
+            <mrow>
+             <mi>
+              i
+             </mi>
+             <mo>
+              =
+             </mo>
+             <mn>
+              1
+             </mn>
+            </mrow>
+            <mi>
+             N
+            </mi>
+           </munderover>
+          </mstyle>
+          <msup>
+           <mrow>
+            <mo>
+             (
+            </mo>
+            <mfrac>
+             <mrow>
+              <mi>
+               Δ
+              </mi>
+              <msub>
+               <mi>
+                ϖ
+               </mi>
+               <mi>
+                i
+               </mi>
+              </msub>
+             </mrow>
+             <mrow>
+              <msub>
+               <mi>
+                ϖ
+               </mi>
+               <mrow>
+                <mtext>
+                 std
+                </mtext>
+                <mo>
+                 ,
+                </mo>
+                <mi>
+                 i
+                </mi>
+               </mrow>
+              </msub>
+             </mrow>
+            </mfrac>
+            <mo>
+             )
+            </mo>
+           </mrow>
+           <mn>
+            2
+           </mn>
+          </msup>
+         </msqrt>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1" display="block" overflow="scroll"><mi mathvariant="normal">Δ</mi><mi>ϖ</mi><mspace width="thinmathspace"></mspace><mo>'</mo><mo>=</mo><msqrt><mfrac><mn>1</mn><mi>N</mi></mfrac><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover></mstyle><msup><mrow><mo stretchy="true">(</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><msub><mi>ϖ</mi><mi>i</mi></msub></mrow><mrow><msub><mi>ϖ</mi><mrow><mtext mathvariant="italic">std</mtext><mo>,</mo><mi>i</mi></mrow></msub></mrow></mfrac><mo stretchy="true">)</mo></mrow><mn>2</mn></msup></msqrt></math>
+       </script>
+      </sec>
+      <sec>
+       (1)
+      </sec>
+     </sec>
+     <p>
+      where index
+      <em>
+       i
+      </em>
+      runs over
+      <em>
+       N
+      </em>
+      =4 nuclei used for the comparison:
+      <sup>
+       1
+      </sup>
+      H
+      <sup>
+       N
+      </sup>
+      ,
+      <sup>
+       15
+      </sup>
+      N,
+      <sup>
+       13
+      </sup>
+      C
+      <sup>
+       α
+      </sup>
+      and
+      <sup>
+       13
+      </sup>
+      C
+      <sup>
+       O
+      </sup>
+      , Δϖ
+      <sub>
+       <em>
+        i
+       </em>
+      </sub>
+      is chemical shift change for a nucleus
+      <em>
+       i
+      </em>
+      , ϖ
+      <sub>
+       std,
+       <em>
+        i
+       </em>
+      </sub>
+      is nucleus/residue specific normalization value equal to 1 standard deviation of chemical shift distribution in BMRB database (
+      <a>
+       www.bmrb.wisc.edu
+      </a>
+      ). The chemical shift differences, Δϖ', between (i) Rev1-CT/polη-RIR complex and the free Rev1-CT (15°C), and between (ii) Rev1-CT/Rev7/Rev3/polη-RIR and Rev1-CT/Rev7/Rev3 complexes (35°C) were used to assess Rev1-CT - polη-RIR binding, while Δϖ' between (iii) Rev1-CT/Rev7/Rev3 complex and an isolated Rev1-CT were used to map the Rev1-CT - Rev7 interaction interface. For the later comparison we used
+      <sup>
+       1
+      </sup>
+      H
+      <sup>
+       N
+      </sup>
+      and
+      <sup>
+       15
+      </sup>
+      N chemical shifts obtained at 20°C, assigned from a temperature series of
+      <sup>
+       1
+      </sup>
+      H-
+      <sup>
+       15
+      </sup>
+      N HSQC spectra recorded for the free domain and the complex, and
+      <sup>
+       13
+      </sup>
+      C
+      <sup>
+       α
+      </sup>
+      and
+      <sup>
+       13
+      </sup>
+      C
+      <sup>
+       O
+      </sup>
+      shifts obtained at 15°C (free Rev1-CT) and 35°C (Rev1-CT/Rev7/Rev3). Note that at temperatures above 20–25°C spectra of the free Rev1-CT deteriorate due to µs-ms exchange line-broadening [
+      <xref ref-type="bibr">
+       11
+      </xref>
+      ].
+     </p>
+    </sec>
+    <p>
+     <sup>
+      15
+     </sup>
+     N R
+     <sub>
+      1
+     </sub>
+     and R
+     <sub>
+      2
+     </sub>
+     relaxation measurements for the
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H Rev1-CT in complex with Rev7/Rev3 and Rev7/Rev3/polη-RIR (35°C, 18.8T) were performed using the pulse-sequences of Farrow et al. [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ]. Overall rotation correlation times, τ
+     <sub>
+      R
+     </sub>
+     , for the complexes were calculated from
+     <sup>
+      15
+     </sup>
+     N R
+     <sub>
+      2
+     </sub>
+     /R
+     <sub>
+      1
+     </sub>
+     ratios for residues from regular secondary structure elements of Rev1-CT (α-helices H1–H4), and were used to monitor the change in molecular size upon the formation of the complexes.
+     <sup>
+      15
+     </sup>
+     N relaxation measurements (15°C, 11.7T) and the analysis of molecular overall rotation for the free Rev1-CT and Rev1-CT/polη-RIR complex were reported previously [
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.3. Isothermal titration calorimetry
+    </title>
+    <p>
+     Rev1-CT - Rev7/Rev3 binding was additionally assessed by ITC performed at 30°C using nano-ITC low-volume unit (TA Instruments). Prior to ITC experiment, which consisted of 25 2µl injections of Rev1-CT into Rev7/Rev3 solution, samples were dissolved in 50mM NaH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     , 100mM NaCl, 1mM TCEP, pH=7.0, filtered, concentrated to 0.94mM (Rev1-CT) and 0.15mM (Rev7/Rev3) and degassed. The data were analyzed using NanoAnalyze software (TA Instruments), resulting in association enthalpy ΔH=−9.4±0.1kcal/M and dissociation constant K
+     <sub>
+      D
+     </sub>
+     =1.3±0.2µM for Rev1-CT - Rev7/Rev3 complex, which is an order of magnitude stronger than K
+     <sub>
+      D
+     </sub>
+     =8–69µM reported for Rev1-CT interaction with RIR-motifs from polη, polι, polκ [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ].
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    3. Results
+   </title>
+   <sec>
+    <title>
+     3.1. Rev1-CT can simultaneously bind polη-RIR and Rev7
+    </title>
+    <p>
+     To test the hypothesis that relatively small Rev1-CT can simultaneously bind several human TLS DNA polymerases we have monitored the formation Rev1-CT complexes with its interaction partners by NMR spectroscopy.
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     shows
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC spectra of 11kDa free Rev1-CT (black; plot A) and 43kDa complex of Rev1-CT with accessory Rev7 and a part of catalytic Rev3 subunits of DNA polymerase polζ (red; plot B). Rev1-CT forms a tight complex with the Rev7/Rev3 construct used in this study (
+     <em>
+      via
+     </em>
+     Rev7 subunit [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]) that elutes as a single peak from Superdex-200 size-excision column, consistent with K
+     <sub>
+      D
+     </sub>
+     =1.3±0.2µM (30°C) obtained by ITC (see Methods and
+     <a>
+      Supplementary Materials
+     </a>
+     ). Not surprisingly, a number of resonances in
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC spectrum changed their positions upon complex formation (arrows in
+     <xref ref-type="fig">
+      Fig. 1A,B
+     </xref>
+     ), suggesting that an extensive region of Rev1-CT is involved in interaction with Rev7. It is notable that a different set of Rev1-CT resonances is sensitive to the binding of polη-RIR motif (compare green and black spectra on
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ), pointing to the fact that Rev1-CT utilizes different interfaces for interaction with polζ and Y-type polymerases polη, polι, polκ.
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Superposition of
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N HSQC spectra (11.7T, 15°C) of the free
+       <sup>
+        15
+       </sup>
+       N/
+       <sup>
+        13
+       </sup>
+       C Rev1-CT (black) and
+       <sup>
+        15
+       </sup>
+       N/
+       <sup>
+        13
+       </sup>
+       C Rev1-CT complex with unlabeled polη-RIR peptide (green).
+       <strong>
+        (B)
+       </strong>
+       Superposition of
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N HSQC spectra (18.8T, 35°C) of
+       <sup>
+        15
+       </sup>
+       N/
+       <sup>
+        13
+       </sup>
+       C/
+       <sup>
+        2
+       </sup>
+       H Rev1-CT complex with unlabeled Rev7/Rev3 recorded in the absence (red) and presence (blue) of polη-RIR peptide. The shifts in peak positions upon Rev7 binding are shown with arrows for 9 Rev1-CT residues from the Rev7 binding site.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To check if Rev7 competes with RIR-motifs of Y-type polymerases for Rev1-CT binding we have performed the titration of Rev1-CT/Rev7/Rev3 complex with polη-RIR peptide and monitored chemical shift changes for the Rev1-CT in
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC spectra. Superposition of spectra of Rev1-CT/Rev7/Rev3 (red) and Rev1-CT/Rev7/Rev3 - polη-RIR 1:1 mixture (blue) is shown on
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     . Rev1-CT resonances that changed their positions upon the formation of Rev1-CT/Rev7/Rev3 complex (arrows in
+     <xref ref-type="fig">
+      Fig 1A,B
+     </xref>
+     ) were essentially unaffected by the addition of polη-RIR peptide, suggesting that polη-RIR motif is unable to displace Rev7 bound to Rev1-CT. On the other hand, a different set of Rev1-CT peaks shifted to their new positions upon addition of polη-RIR peptide to Rev1-CT/Rev7/Rev3 complex (compare blue and red spectra on
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ), corresponding to residues on the Rev1-CT - polη-RIR binding interface identified in our previous study [
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ]. This finding suggests that binding to Rev7 cannot prevent Rev1-CT from forming the complex with polη-RIR. Therefore, the comparison of the spectrum of Rev1-CT/Rev7/Rev3 - polη-RIR mixture with the spectra of Rev1-CT/Rev7/Rev3 complex, Rev1-CT/polη-RIR complex and the free Rev1-CT (
+     <xref ref-type="fig">
+      Fig 1
+     </xref>
+     ) clearly demonstrates the formation of the quadruple complex where Rev1-CT domain is simultaneously bound to the Rev7 subunit of polζ and polη-RIR peptide.
+    </p>
+    <p>
+     To confirm that the formation Rev1-CT complexes is accompanied by a proportional slowing down of molecular overall rotation we have performed
+     <sup>
+      15
+     </sup>
+     N R
+     <sub>
+      1
+     </sub>
+     and R
+     <sub>
+      2
+     </sub>
+     relaxation measurements for Rev1-CT bound to (i) Rev7/Rev3 subunits of polζ, and (ii) Rev7/Rev3 and polη-RIR peptide, and estimated overall rotation correlation time, τ
+     <sub>
+      R
+     </sub>
+     , for the complexes from
+     <sup>
+      15
+     </sup>
+     N R
+     <sub>
+      2
+     </sub>
+     /R
+     <sub>
+      1
+     </sub>
+     ratios.
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     shows
+     <sup>
+      15
+     </sup>
+     N R
+     <sub>
+      1
+     </sub>
+     and R
+     <sub>
+      2
+     </sub>
+     rates and calculated τ
+     <sub>
+      R
+     </sub>
+     values (adjusted to 35°C) for triple Rev1-CT/Rev7/Rev3 and quadruple Rev1-CT/Rev7/Rev3/polη-RIR assemblies, along with corresponding data obtained in our previous study for the free Rev1-CT and Rev1-CT/polη-RIR complex [
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ]. As expected, increase in τ
+     <sub>
+      R
+     </sub>
+     upon the formation of the complexes closely matches increase in molecular size. This observation suggests that Rev1-CT in the context of Rev7/Rev3 and Rev7/Rev3/polη-RIR tumbles as a part of larger molecular complex rather than as an isolated 11kDa domain.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       <sup>
+        15
+       </sup>
+       N R
+       <sub>
+        1
+       </sub>
+       and R
+       <sub>
+        2
+       </sub>
+       rates for the free Rev1-CT (blue) and Rev1-CT/polη-RIR complex (cyan) measured at 11.7T, 15°C; relaxation data for the triple Rev1-CT/Rev7/Rev3 (red) and quadruple Rev1-CT/Rev7/Rev3/polη (green) complexes obtained at 18.8T, 35°C.
+       <strong>
+        (B)
+       </strong>
+       Molecular weights (MW) and overall correlation times, τ
+       <sub>
+        R
+       </sub>
+       , estimated from
+       <sup>
+        15
+       </sup>
+       N R
+       <sub>
+        2
+       </sub>
+       /R
+       <sub>
+        1
+       </sub>
+       ratios (adjusted to 35°C) for Rev1-CT and its complexes.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     3.2. Rev1-CT utilizes independent sites for interaction with polη and Rev7
+    </title>
+    <p>
+     The residues of human Rev1-CT involved in interactions with its partners were identified based on binding-induced changes in the backbone
+     <sup>
+      1
+     </sup>
+     H
+     <sup>
+      N
+     </sup>
+     ,
+     <sup>
+      15
+     </sup>
+     N,
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      α
+     </sup>
+     ,
+     <sup>
+      13
+     </sup>
+     C
+     <sup>
+      O
+     </sup>
+     chemical shifts. The backbone resonance assignments of the per-deuterated
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      2
+     </sup>
+     H Rev1-CT in the context of 43kDa triple complex with Rev7/Rev3 and 44kDa quadruple complex with Rev7/Rev3 and polη-RIR were obtained from a set of TROSY-based triple-resonance NMR experiments [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ]. The Rev-CT binding interfaces with different partners were mapped by calculating normalized per-residue chemical shift differences, Δϖ' (
+     <a>
+      eq. 1
+     </a>
+     ), that reflect cumulative chemical shift change for the backbone nuclei upon the complex formation [
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ]. Thus, Δϖ'~0 are expected in protein regions with no structural changes, while Δϖ'~1 reflect binding-induced conformational rearrangements accompanied by significant chemical shift variations.
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     shows the comparison Δϖ' values between Rev1-CT and its complex with polη-RIR peptide obtained in the absence (blue) and presence of Rev7/Rev3 (green), while
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     displays Δϖ' for Rev1-CT domain obtained upon binding Rev7/Rev3 (red) and polη-RIR motif (blue) plotted
+     <em>
+      vs.
+     </em>
+     residue number.
+     <xref ref-type="fig">
+      Fig. 3C
+     </xref>
+     also illustrates Δϖ' values mapped onto the Rev1-CT structure, outlining the binding sites for Rev7 subunit of polζ (red) and polη-RIR motif (blue).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Normalized chemical shift changes, Δϖ' (
+       <a>
+        eq.1
+       </a>
+       ), for the backbone
+       <sup>
+        1
+       </sup>
+       H,
+       <sup>
+        15
+       </sup>
+       N,
+       <sup>
+        13
+       </sup>
+       C
+       <sup>
+        α
+       </sup>
+       ,
+       <sup>
+        13
+       </sup>
+       C
+       <sup>
+        O
+       </sup>
+       nuclei upon the formation of Rev1-CT (blue) and Rev1-CT/Rev7/Rev3 (green) complexes with polη-RIR peptide.
+       <strong>
+        (B,C)
+       </strong>
+       Chemical shift differences, Δϖ', between the free Rev1-CT and its complexes with Rev7/Rev3 (red) and with polη-RIR peptide (blue) (B) plotted
+       <em>
+        vs
+       </em>
+       . residue number and (C) mapped onto the structure of Rev1-CT bound to polη-RIR peptide (PDB: 2LSK), outlining Rev1-CT binding sites for Rev7 and polη-RIR.
+       <strong>
+        (D)
+       </strong>
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        1
+       </sup>
+       H strip-plots from
+       <sup>
+        15
+       </sup>
+       N-edited NOESY-HSQC of
+       <sup>
+        15
+       </sup>
+       N/
+       <sup>
+        13
+       </sup>
+       C/
+       <sup>
+        2
+       </sup>
+       H Rev1-CT in complex with unlabeled Rev7/Rev3/polη-RIR, showing NOE cross-peaks from
+       <sup>
+        1
+       </sup>
+       H
+       <sup>
+        N
+       </sup>
+       of per-deuterated Rev1-CT to
+       <sup>
+        1
+       </sup>
+       H of aliphatic side-chains of Rev7 (red).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The structure of Rev1-CT in complex with 16aa polη-RIR peptide [
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ] revealed that polη-RIR binding site encompasses the N-terminal β-hairpin, the end of α-helix H1, H1–H2 loop and the beginning of α-helix H2. As expected, the residues in this region exhibit noticeable chemical shift changes upon polη-RIR binding (
+     <xref ref-type="fig">
+      Fig 3A,C
+     </xref>
+     ). Very similar Δϖ' patterns are observed for polη-RIR binding to an isolated Rev1-CT and to a triple Rev1-CT/Rev7/Rev3 complex (
+     <xref ref-type="fig">
+      Fig 3A
+     </xref>
+     ), suggesting that the mode of Rev1-CT interaction with RIR-motifs of Y-type polymerases is unaffected by Rev7 binding.
+    </p>
+    <p>
+     Chemical shift changes upon the formation of Rev1-CT - Rev7/Rev3 complex suggest that two different non-overlapping regions of Rev1-CT are responsible for binding polη-RIR and Rev7 (
+     <xref ref-type="fig">
+      Fig. 3B,C
+     </xref>
+     ). The Rev7 binding site of Rev1-CT encompasses (i) residues 1201–1204 from H2–H3 loop and the beginning of α-helix H3, and (ii) residues 1241, 1244 and 1246–1251 from the end of α-helix H4 and the flexible C-terminal part of the domain. These spatially adjacent regions are located on the face of Rev1-CT opposite the interaction site for RIR-motifs of Y-type polymerases (
+     <xref ref-type="fig">
+      Fig. 3C
+     </xref>
+     ), allowing Rev1-CT to simultaneously bind fragments of two different TLS enzymes. Involvement of the very C-terminus of Rev1-CT in Rev7 binding is additionally confirmed by NOE cross-peaks from the backbone
+     <sup>
+      1
+     </sup>
+     H
+     <sup>
+      N
+     </sup>
+     of T1247, K1259, V1250, T1251 of per-deuterated Rev1-CT to
+     <sup>
+      1
+     </sup>
+     H-nuclei of aliphatic side-chains of the unlabeled Rev7 in
+     <sup>
+      15
+     </sup>
+     N-edited NOESY-HSQC spectrum of Rev1-CT/Rev7/Rev3/polη-RIR complex (
+     <xref ref-type="fig">
+      Fig. 3D
+     </xref>
+     ). Interestingly, the sequence alignment of Rev1-CT domains from different species identified a conserved region (referred to as
+     <em>
+      rev1-112
+     </em>
+     ) in the domain C-terminus [
+     <xref ref-type="bibr">
+      19
+     </xref>
+     ], including residues from the Rev7 interaction site identified in this work. The residues 1201–1204 from H2–H3 loop and the beginning of H3, displaying large Δϖ' upon Rev7 binding, also belong to a region conserved among eukaryotes, except
+     <em>
+      S. cerevisiae
+     </em>
+     and related yeasts [
+     <xref ref-type="bibr">
+      19
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     3.3. Rev7 binding triggers changes in Rev1-CT structure and dynamics
+    </title>
+    <p>
+     The chemical shifts of Rev1-CT and its complexes were used to assess changes in secondary structure and conformational flexibility of the domain upon binding its partners [
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ].
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     shows secondary structure of the isolated Rev1-CT and its complexes with fragments of one (Rev7/Rev3) and two (Rev7/Rev3/polη) TLS polymerases predicted from the backbone chemical shifts by TALOS+ [
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ], while
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     displays order parameters, S
+     <sup>
+      2
+     </sup>
+     , for the backbone amide groups predicted by RCI [
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ], where S
+     <sup>
+      2
+     </sup>
+     =1(0) corresponds to restricted(unconstrained) dynamics. It is clear that neither secondary structure nor backbone flexibility of the domain are affected by interaction with Rev7/Rev3 and/or polη-RIR, with the exception of the C-terminal part (residues 1246–1251) undergoing remarkable transformation upon Rev7 binding. This region, flexible in isolated Rev1-CT, is stabilized in complexes with Rev7/Rev3 and Rev7/Rev3/polη-RIR (
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     ) and adopts an extended β-strand conformation (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). Previous mutational analysis identified β-strands β8' and β8'' of Rev7 as interaction site for Rev1-CT domain (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ) [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]. Specifically, mutations of L186 of β8' and Q200, Y202 of β8'' on the outer surface of 5-stranded β-sheet of Rev7 were shown to decrease Rev1-CT binding. Our results indicate that the C-terminal residues 1246–1251 of Rev1-CT may provide an extension of the β-sheet of Rev7 by forming an additional β-strand that interacts with β8' (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). On the other hand, residues 1201–1204 from H2–H3 loop and α-helix H3 of Rev1-CT, exhibiting pronounced chemical shift changes upon Rev7 binding (
+     <xref ref-type="fig">
+      Fig. 3B,C
+     </xref>
+     ), may provide docking site for the outer surface of the Rev7 β-sheet.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       TALOS+ based [
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ] probability of α-helix, P(α), and β-sheet, P(β), and
+       <strong>
+        (B)
+       </strong>
+       RCI-based [
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ] backbone amide order parameters, S
+       <sup>
+        2
+       </sup>
+       , for the free Rev1-CT (red) and its complexes with Rev7/Rev3 (blue) and Rev7/Rev3/polη-RIR (green) derived from the backbone chemical shifts.
+       <strong>
+        (C)
+       </strong>
+       Putative mode of Rev1-CT - Rev7/Rev3 binding based on chemical shift analysis of Rev1-CT and its complexes. Regions of Rev1-CT exhibiting large chemical shifts changes, Δϖ', upon Rev7 binding (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ) are shown in orange; residues L1248, K1249 are shown as β-strand.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    4. Discussion
+   </title>
+   <p>
+    In human cells TLS is carried out by at least 5 of 15 known DNA polymerases, including low-fidelity Y-family Rev1, polη, polι, polκ and B-family polζ (Rev7/Rev3 complex) [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ]. The access of these error-prone enzymes to DNA primer termini is strictly regulated through multiple levels of protein-protein and protein-DNA interactions [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. The exchange of replicative to TLS DNA polymerases at stalled replication forks is triggered by Rad6/Rad18-dependent mono-ubiquitination of PCNA at K164 [
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ]. All eukaryotic Y-type polymerases contain ubiquitin-binding UBM or UBZ domains [
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ] in addition to the PCNA-interacting PIP-box motifs (or BRCT and PAD domains in Rev1) that facilitate the first polymerase exchange [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. Although some DNA lesions can be bypassed by a single TLS enzyme, as exemplified by efficient and accurate bypass of TT-CPDs (cyclobutane pyrimidine dimers) by polη [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ], TLS across most types of DNA damage involves the consecutive action of two or more TLS polymerases [
+    <xref ref-type="bibr">
+     5
+    </xref>
+    –
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ], which necessitates further polymerase switching events. Because of its ability to interact with other major TLS polymerases
+    <em>
+     via
+    </em>
+    the C-terminal domain [
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ], Rev1 likely plays a key role in coordinating these polymerase exchange events by helping match the 'inserter' polymerases polη, polι, polκ with their cognate DNA lesions and facilitating their subsequent exchange to polζ, which extends the distorted DNA primer terminus.
+   </p>
+   <p>
+    The likely 'inserters' in two-polymerase TLS, polη, polι and polκ, interact with Rev1-CT
+    <em>
+     via
+    </em>
+    short RIR-motifs [
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ] that bind the N-terminal part of Rev1-CT (
+    <xref ref-type="fig">
+     Fig. 3D
+    </xref>
+    , blue). In this work we have shown that the opposite face of Rev1-CT, involving the C-terminal part of the domain, is responsible for Rev1 interaction with Rev7 (
+    <xref ref-type="fig">
+     Fig. 3D
+    </xref>
+    , red). Consequently, we were able to reconstitute a quadruple Rev1-CT/Rev7/Rev3/polη-RIR complex where Rev1-CT is simultaneously bound to a fragment of the 'inserter' TLS polymerase polη and Rev7 subunit of the 'extender' polymerase polζ, making it tempting to speculate that these interactions may also occur in the context of full-size acting TLS polymerase complexes. This finding is contrary to earlier reports suggesting that Rev7 competes with Y-type polymerases for Rev1-CT binding [
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ]. The feasibility of Rev1-CT/polη/polζ complex formation would imply that DNA lesion bypass performed by several TLS enzymes may occur without polymerase dissociation with the aid of Rev1-CT domain, which serves as a scaffold for the assembly of TLS polymerase complexes where the 'extender' and 'inserter' enzymes are tied together and are instantaneously available for nucleotide insertion across DNA lesion and extension from the distorted base-pair.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (228K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Acknowledgements
+   </title>
+   <sec>
+    <p>
+     This work was supported by the NIH grant P30GM092369 and UCHC startup to D.M.K. The authors thank Dr. Hiroshi Hashimoto for kindly providing us with co-expression plasmid for Rev7(R124A)/Rev3(1847–1898), Zanna Aristarhova and Alexandra Pozhidaeva for assistance with sample preparation, and Drs. Sanjay D’Souza and Graham Walker for helpful discussions.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Abbreviations
+   </title>
+   <sec>
+    <sec>
+     <table>
+      <tbody>
+       <tr>
+        <td>
+         TLS
+        </td>
+        <td>
+         translesion synthesis
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Rev1-CT
+        </td>
+        <td>
+         C-terminal domain of Rev1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         RIR
+        </td>
+        <td>
+         Rev1 interacting region
+        </td>
+       </tr>
+       <tr>
+        <td>
+         NMR
+        </td>
+        <td>
+         nuclear magnetic resonance
+        </td>
+       </tr>
+       <tr>
+        <td>
+         TROSY
+        </td>
+        <td>
+         transverse relaxation optimized spectroscopy
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ITC
+        </td>
+        <td>
+         isothermal titration calorimetry
+        </td>
+       </tr>
+       <tr>
+        <td>
+         aa
+        </td>
+        <td>
+         amino acid
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

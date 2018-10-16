@@ -1,0 +1,1938 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3545299
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    APLF promotes the assembly and activity of non-homologous end joining protein complexes
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Non-homologous end joining (NHEJ) is critical for the maintenance of genetic integrity and DNA double-strand break (DSB) repair. NHEJ is regulated by a series of interactions between core components of the pathway, including Ku heterodimer, XLF/Cernunnos, and XRCC4/DNA Ligase 4 (Lig4). However, the mechanisms by which these proteins assemble into functional protein–DNA complexes are not fully understood. Here, we show that the von Willebrand (vWA) domain of Ku80 fulfills a critical role in this process by recruiting Aprataxin-and-PNK-Like Factor (APLF) into Ku-DNA complexes. APLF, in turn, functions as a scaffold protein and promotes the recruitment and/or retention of XRCC4-Lig4 and XLF, thereby assembling multi-protein Ku complexes capable of efficient DNA ligation
+     <em>
+      in vitro
+     </em>
+     and in cells. Disruption of the interactions between APLF and either Ku80 or XRCC4-Lig4 disrupts the assembly and activity of Ku complexes, and confers cellular hypersensitivity and reduced rates of chromosomal DSB repair in avian and human cells, respectively. Collectively, these data identify a role for the vWA domain of Ku80 and a molecular mechanism by which DNA ligase proficient complexes are assembled during NHEJ in mammalian cells, and reveal APLF to be a structural component of this critical DSB repair pathway.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     DNA repair, DNA strand break, end joining
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    DNA double-strand breaks (DSBs) are a major threat to genetic stability and hereditary defects in DSB repair result in a variety of disease pathologies (
+    <xref ref-type="bibr">
+     McKinnon and Caldecott, 2007
+    </xref>
+    ). To date, two cellular pathways have been identified that repair DSBs; a mechanism in which undamaged sister chromatids and homologous recombination are employed and a mechanism denoted non-homologous end joining (NHEJ) in which the DNA ends are spliced together (
+    <xref ref-type="bibr">
+     Jackson and Bartek, 2009
+    </xref>
+    ). Loss of homologous recombination-mediated repair is associated with increased predisposition to cancer, including hereditary breast cancer, whereas loss of NHEJ is typically associated with immunodeficiency and neurological dysfunction (
+    <xref ref-type="bibr">
+     McKinnon and Caldecott, 2007
+    </xref>
+    ). During the classical and most commonly employed pathway for NHEJ, DSBs are bound by the Ku heterodimer, which comprises 70 kDa (Ku70) and 80 kDa (Ku80) subunits (
+    <xref ref-type="bibr">
+     Mahaney et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lieber, 2010
+    </xref>
+    ). Ku then recruits a number of proteins to the DSB including DNA-PKcs, XLF/Cernunnos (from now on termed as XLF), and XRCC4-Lig4 complex. DNA-PKcs is a DNA-dependent protein kinase that is activated at DNA ends and promotes DNA end processing by Artemis (
+    <xref ref-type="bibr">
+     Ma et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Goodarzi et al, 2006
+    </xref>
+    ), whereas XLF and XRCC4-Lig4 facilitate the final step of DNA ligation (
+    <xref ref-type="bibr">
+     Ahnesorg et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Buck et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gu et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lu et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tsai et al, 2007
+    </xref>
+    ). With the exception of DNA-PKcs, which evolutionarily is a relatively recent addition, these proteins comprise the core components of NHEJ. Importantly, while NHEJ involves multiple interactions between the core components of this process, the mechanisms by which these interactions are regulated and/or organised is unclear.
+   </p>
+   <p>
+    Recently, Aprataxin-and-PNK-Like Factor (APLF; also denoted as PALF/C2orf13/XIP1) was identified as a novel component of NHEJ that promotes intracellular re-joining of transfected linear plasmid DNA molecules and accelerates the repair of chromosomal DSBs following γ-irradiation (
+    <xref ref-type="bibr">
+     Bekker-Jensen et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kanno et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Macrae et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ). APLF is recruited to sites of DNA strand breakage via interaction of a C-terminal tandem zinc finger domain with poly (ADP-ribose); a nucleic acid-like structure synthesised at sites of DNA breakage by poly (ADP-ribose) polymerases (
+    <xref ref-type="bibr">
+     Ahel et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rulten et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Eustermann et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 2010
+    </xref>
+    ). Importantly, APLF appears to accelerate the rate of chromosomal NHEJ during the first few hours following γ-irradiation, suggesting that it is an accessory factor for NHEJ (
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ). The molecular mechanism by which APLF accelerates NHEJ is unclear. One possibility is that APLF is an end processing factor, because it has been reported to possess nuclease activity
+    <em>
+     in vitro
+    </em>
+    , and thus may process incompatible DNA termini (
+    <xref ref-type="bibr">
+     Kanno et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 2011
+    </xref>
+    ). However, we recently demonstrated that APLF-depleted cells exhibit reduced levels of XRCC4 in chromatin, and that overexpression of XRCC4-Lig4 complex can circumvent the requirement for APLF for rapid rates of NHEJ, suggesting that APLF accelerates NHEJ primarily by promoting DNA ligase activity (
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ). It is possible that APLF promotes DNA ligation by modifying chromatin structure directly, since this protein interacts with histone H3/H4 and exhibits histone chaperone activity,
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Mehrotra et al, 2011
+    </xref>
+    ). However, APLF also possesses an amino-terminal fork-head associated (FHA) domain that interacts directly with the XRCC4 (
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kanno et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Macrae et al, 2008
+    </xref>
+    ) and an MID domain that interacts directly with Ku heterodimer (
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kanno et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Macrae et al, 2008
+    </xref>
+    ). The role and importance of these interactions remains unknown, but it seems likely that they will underpin the molecular mechanism by which APLF accelerates DNA ligation during NHEJ. Indeed, we show here that APLF promotes the assembly and activity of multi-protein Ku-DNA complexes containing all of the NHEJ factors required for DNA ligation, and describe the mechanism by which this is achieved. Collectively, our data identify APLF as a novel structural component of the NHEJ pathway, in mammalian cells.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Identification of a conserved peptide motif in APLF sufficient for binding Ku80
+    </title>
+    <p>
+     In a yeast 2-hybrid (Y2H) screen employing full-length human APLF as bait we recovered multiple clones encoding XRCC1 and XRCC4, both of which interact with the amino-terminal FHA domain of APLF (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). In addition, we recovered seven clones encoding the 80-kDa subunit of Ku (Ku80), but none encoding the 70-kDa subunit (Ku70). Additional Y2H experiments confirmed that the MID domain of APLF spanning residues 94–358 is sufficient for interaction with Ku80, consistent with a previously reported interaction of this region with Ku heterodimer (
+     <xref ref-type="bibr">
+      Macrae et al, 2008
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Close inspection of the MID domain revealed a conserved peptide motif between residues 182 and 191, comprising a short patch of 3 or 4 basic amino acids followed by a hydrophobic patch of 6–9 amino acids that includes an invariant tryptophan (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1
+     </a>
+     ). Mutation of the three basic residues RKR (182–184) resulted in an APLF protein that constitutively transactivated Y2H reporter genes, and so was uninformative (data not shown). However, mutation of the invariant tryptophan (W189) ablated Ku80-dependent activation of Y2H reporter genes, suggesting that W189 is critical for the interaction of APLF with Ku80 (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 2A
+     </a>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Identification of a novel peptide motif in APLF that binds Ku80. (
+       <strong>
+        A
+       </strong>
+       ) Recovery of human cDNA clones encoding XRCC1, XRCC4, or Ku80 in a yeast 2-hybrid (Y2H) screen employing APLF as bait. The number and relative representation of each clone type is indicated. (
+       <strong>
+        B
+       </strong>
+       ) Ku80 interacts with APLF residues 94–358, and requires W189 for this interaction. Y190 budding yeast harbouring pACT-Ku80 (library clone 5) and empty pGBKT7, pGBKT7-APLF
+       <sup>
+        94–358
+       </sup>
+       , or pGBKT7-APLF
+       <sup>
+        W189G
+       </sup>
+       was examined for activation of the
+       <em>
+        His3
+       </em>
+       and
+       <em>
+        LacZ
+       </em>
+       reporter genes by Y2H analysis. (
+       <strong>
+        C
+       </strong>
+       ) Schematic of APLF depicting a conserved Ku80-binding peptide motif in the MID domain.
+       <em>
+        Top
+       </em>
+       , APLF cartoon depicting the interaction domains; FHA domain that interacts with XRCC1 and XRCC4 (FHA), MID domain that interacts with Ku80, PBZ domain that interacts with poly (ADP-ribose), and C-terminal (CT) domain that interacts with histone H3/H4.
+       <em>
+        Bottom,
+       </em>
+       ClustalW alignment of the putative Ku80-binding peptide motif (grey box) from the indicated organisms. The NCBI accession numbers employed are
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"NP_775816","term_id":"27734905","term_text":"NP_775816"}}
+        </span>
+        NP_775816
+       </a>
+       ,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"NP_001163960","term_id":"281427262","term_text":"NP_001163960"}}
+        </span>
+        NP_001163960
+       </a>
+       ,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_419335","term_id":"363731334","term_text":"XP_419335"}}
+        </span>
+        XP_419335
+       </a>
+       ,
+       <a>
+        <span>
+         {"type":"entrez-nucleotide","attrs":{"text":"NM_001113131","term_id":"163914756","term_text":"NM_001113131"}}
+        </span>
+        NM_001113131
+       </a>
+       ,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_788055","term_id":"115844064","term_text":"XP_788055"}}
+        </span>
+        XP_788055
+       </a>
+       ,
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_001635068","term_id":"156389579","term_text":"XP_001635068"}}
+        </span>
+        XP_001635068
+       </a>
+       , and
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"XP_002117261","term_id":"196014805","term_text":"XP_002117261"}}
+        </span>
+        XP_002117261
+       </a>
+       . (
+       <strong>
+        D
+       </strong>
+       ) Mutation of the conserved peptide motif in APLF prevents Ku binding,
+       <em>
+        in vitro
+       </em>
+       . One microgram of wild-type APLF, APLF
+       <sup>
+        W189G
+       </sup>
+       , APLF
+       <sup>
+        RKR(182–184)EEE
+       </sup>
+       , or APLF
+       <sup>
+        347–511
+       </sup>
+       was slot blotted onto nitrocellulose and individual membrane strips stained with Amido black as a loading control (AB) or mock incubated (−) or incubated (+) with 100 nM of recombinant XRCC1, XRCC4-Lig4 heterodimer (LX), or Ku70/80 as indicated. (
+       <strong>
+        E
+       </strong>
+       ) The APLF conserved peptide motif is sufficient to bind Ku. The indicated fluorescein-labelled peptides spanning the wild-type (WT) or mutant APLF conserved peptide motif were examined for binding to Ku70/80ΔC by fluorescence polarisation. Data points are the average of three independent experiments, with error bars representing one standard deviation.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To confirm the importance of the conserved peptide motif for Ku80 binding, we slot-blotted wild-type and mutant recombinant APLF proteins onto nitrocellulose and measured Ku binding in solution. Whereas Ku heterodimer (Ku70/80) bound wild-type APLF in these experiments, it failed to bind a C-terminal fragment of APLF in which the MID domain was missing (APLF
+     <sup>
+      347–511
+     </sup>
+     ) or full-length APLF in which RKR (182–184) or W189 was mutated (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Neither of the point mutations disrupted binding of APLF to XRCC1 or XRCC4-Lig4 (LX), which are known to interact with the amino-terminal FHA domain of APLF (
+     <xref ref-type="bibr">
+      Bekker-Jensen et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kanno et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Macrae et al, 2008
+     </xref>
+     ). Next, we examined whether the conserved peptide motif is sufficient for interaction with Ku heterodimer, using fluorescence polarisation. We employed Ku heterodimer containing Ku80ΔC for these experiments, and for some of the experiments described later, because this protein lacks the highly flexible C-terminal 141 residues and appears to be more homogenous in structural conformation (
+     <xref ref-type="bibr">
+      Walker et al, 2001
+     </xref>
+     ). Notably, whereas an 18-mer synthetic peptide spanning the conserved peptide motif bound Ku with a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of ∼0.6 μM, Ku binding by a mutant peptide in which RKR (182–184) and W189 were mutated was too low to quantify (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). Together, these data identify a conserved peptide motif in APLF that is both required and sufficient for interaction with Ku80.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Ku80-binding motif is an autonomous module that recruits proteins into Ku-DNA complexes
+    </title>
+    <p>
+     To examine whether the Ku-binding motif is required to recruit APLF into DNA complexes containing Ku heterodimer (Ku70/80), we employed electrophoretic mobility shift assays (EMSAs). Whereas full-length APLF and a truncated derivative harbouring the MID domain (APLF
+     <sup>
+      1–469
+     </sup>
+     ) super-shifted DNA complexes containing Ku (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , lanes 7–12), N-terminal (APLF
+     <sup>
+      1–164
+     </sup>
+     ) and C-terminal (APLF
+     <sup>
+      360–511
+     </sup>
+     ) fragments lacking the MID domain did not (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , lanes 13–18). None of the APLF proteins bound DNA substrate in the absence of Ku, confirming that APLF did not bind DNA independently of Ku under the conditions employed (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , lanes 1–5). More importantly, mutation of the Ku-binding motif ablated the ability of APLF to super-shift Ku-DNA complexes, confirming that this motif is required for recruitment of APLF into DNA complexes containing Ku (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       The Ku-binding motif is a novel autonomous module for recruiting proteins into Ku-DNA complexes. (
+       <strong>
+        A
+       </strong>
+       ) The MID domain is required for APLF recruitment into DNA complexes containing Ku. A Cy3-labelled 30-bp duplex oligonucleotide (10 nM) harbouring blunt-ended termini was incubated with (+) or without (−) recombinant Ku70/80 (20 nM) in the absence (−) or presence of 150, 50, or 17 nM of the indicated recombinant APLF protein and employed in EMSA. Where a single concentration of APLF is indicated, the protein was employed at 150 nM. The composition of the protein DNA complexes is indicated on the right (arrows). (
+       <strong>
+        B
+       </strong>
+       ) The Ku-binding motif is required for APLF recruitment into DNA complexes containing Ku. EMSAs were conducted as above. Where indicated, Ku70/80 was present at 20 nM and the indicated wild-type and mutant APLF proteins were employed at 150, 50, 17, 6 and 2 nM. (
+       <strong>
+        C
+       </strong>
+       ) The Ku-binding motif is an autonomous module for protein recruitment into Ku-DNA complexes.
+       <em>
+        Top left
+       </em>
+       , alignment of the peptide sequences from APLF, XLF, and WRN that were fused to GST and analysed in the bottom panels, by EMSA. The conserved basic and hydrophobic patches that characterise the Ku-binding motif are indicated in blue and green, respectively.
+       <em>
+        Bottom left
+       </em>
+       , Cy3-labelled 30-bp duplex oligonucleotide (10 nM) was incubated with Ku70/80 (10 nM) in the presence of 0.5 μM of GST, the indicated GST peptides, full-length His-APLF (lane 2), or full-length XLF (lane 6), and employed in EMSAs as described above.
+       <em>
+        Bottom right
+       </em>
+       , Cy3-labelled 30-bp duplex oligonucleotide was incubated as above in the presence of GST (3 μM), His-APLF (0.5 μM), GST-XLF (1.6 μM), or the indicated GST-APLF (1.3 μM), GST-XLF (1.6 μM), or GST-WRN (3 μM) peptides.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next examined whether the Ku-binding motif can function autonomously, and thus target an unrelated protein into Ku-DNA complexes
+     <em>
+      in vitro
+     </em>
+     . Indeed, GST fusion proteins harbouring short peptides that span the Ku-binding motif in APLF were efficiently recruited into Ku complexes on a 30-bp duplex DNA substrate, whereas GST lacking the motif was not (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ,
+     <em>
+      bottom left
+     </em>
+     , lanes 1–5). Similar results were observed on a shorter, 19-bp, duplex substrate that is approximately the same size as the footprint of a single Ku heterodimer, suggesting that the GST peptides assemble into Ku-DNA complex by direct interaction Ku (
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). Indeed, none of the GST peptides bound the 19-bp duplex in the absence of Ku (
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). Intriguingly, sequence analyses revealed a similar motif at the C-terminus of XLF and two similar motifs in tandem at the C-terminus of Werner (WRN) protein (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ,
+     <em>
+      top left
+     </em>
+     ). Both XLF and WRN are involved in NHEJ and have been reported to interact with Ku via their C-termini, suggesting that the APLF-like motifs similarly might function as Ku binding modules in these proteins (
+     <xref ref-type="bibr">
+      Cooper et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Karmakar et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yano et al, 2011
+     </xref>
+     ). Consistent with this idea, GST fusion proteins harbouring the putative Ku-binding motif from XLF or the first of the two motifs from WRN (residues 1403–1418) were recruited into DNA complexes containing Ku, albeit less efficiently than the APLF motif (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     <em>
+      bottom panels
+     </em>
+     , lanes 7–9).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Ku80 binding promotes APLF accumulation at chromosome damage
+    </title>
+    <p>
+     APLF is recruited and/or retained at cellular DNA strand breaks via PBZ and FHA domain-mediated interactions with poly (ADP-ribose) and XRCC1/XRCC4, respectively (
+     <xref ref-type="bibr">
+      Bekker-Jensen et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kanno et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ahel et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Macrae et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rulten et al, 2008
+     </xref>
+     ). To address the contribution of the Ku-binding motif in this process, we compared YFP-tagged wild-type and mutant derivatives of APLF for ability to accumulate at sites of UVA laser damage. As expected, YFP-APLF
+     <sup>
+      R27A
+     </sup>
+     and YFP-APLF
+     <sup>
+      ZFD
+     </sup>
+     proteins harbouring mutated FHA and PBZ domains, respectively, were recruited and/or retained at sites of UVA laser damage to a lesser extent than was wild-type YFP-APLF (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ,
+     <em>
+      bottom
+     </em>
+     ; ‘R27A' and ‘ZFD'). However, YFP-APLF
+     <sup>
+      W189G
+     </sup>
+     (‘WG') harbouring a mutated Ku-binding motif also exhibited reduced retention at such sites, and the accumulation of YFP-APLF
+     <sup>
+      ZFD/W189G
+     </sup>
+     or YFP-APLF
+     <sup>
+      ZFD/R27A/W189G
+     </sup>
+     harbouring mutations in both the PBZ and Ku80-binding domains or in all three domains was reduced to ∼15 and 5% of wild type, respectively (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ,
+     <em>
+      bottom
+     </em>
+     ). We noted during these experiments that mutation of the Ku-binding motif affected the subcellular distribution of YFP- or mRFP-tagged APLF (
+     <a>
+      Supplementary Figure 3A
+     </a>
+     ). However this did not account for the impact of W189G on APLF accumulation at sites of UVA laser damage, because only cells harbouring similar levels of nuclear YFP-APLF or YFP-APLF
+     <sup>
+      W189G
+     </sup>
+     were scored in these experiments. Moreover, YFP-nls-APLF
+     <sup>
+      W189G
+     </sup>
+     protein, which harboured an engineered SV40 nuclear localisation signal and was entirely nuclear, similarly exhibited reduced retention at sites of UVA laser damage (
+     <a>
+      Supplementary Figure 3B
+     </a>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The Ku80-binding motif promotes APLF accumulation at chromosome damage. A549 cells were transiently transfected with constructs encoding wild-type YFP-APLF (WT) or YFP-APLF harbouring point mutations in the PBZ domain (YFP-APLF
+       <sup>
+        ZFD
+       </sup>
+       ; ‘ZFD'), FHA domain (YFP-APLF
+       <sup>
+        R27A
+       </sup>
+       ; ‘R27A'), Ku-binding motif (YFP-APLF
+       <sup>
+        W189G
+       </sup>
+       ; ‘WG'), or in combinations of these (‘ZFD/WG', ‘R27A/WG/ZFD'). mRFP-XRCC1 and GFP-XRCC4 were used as markers of recruitment to single- and double-strand breaks, respectively. Cells were irradiated with 4.36 J/m
+       <sup>
+        2
+       </sup>
+       (
+       <strong>
+        A
+       </strong>
+       ) or 0.22 J/m
+       <sup>
+        2
+       </sup>
+       (
+       <strong>
+        B
+       </strong>
+       ) using a UVA laser (arrow). Images were captured at 15 s intervals after laser irradiation. For each data point, data are normalised to the YFP fluorescence intensity prior to irradiation (set to 100%). Data are the mean (±s.e.m.) of 10 or more individual cells per data point. Representative examples of YFP-APLF, GFP-XRCC4, and mRFP-XRCC1 accumulation at sites of UVA laser damage are shown (top).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The amount of UVA damage introduced in the above experiments was sufficient to induce both single-strand breaks (SSBs) and DSBs, as indicated by the accumulation of both the SSB repair protein XRCC1 and the DSB repair protein, XRCC4 (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ,
+     <em>
+      top
+     </em>
+     ). Consequently, since APLF interacts with both of these proteins and is involved in the repair of both SSBs and DSBs, we wished to confirm that the Ku80-binding motif was required specifically for accumulation of APLF at the latter. To do this, we employed a 20-fold lower level of UVA damage; an experimental condition in which the level of SSB damage was still sufficient to trigger XRCC1 accumulation but in which the level of DSB damage was too low to trigger significant recruitment of XRCC4 or Ku (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ,
+     <em>
+      top
+     </em>
+     , and data not shown). The accumulation of APLF at sites of UVA laser damage remained dependent on the PBZ domain under these conditions, consistent with APLF recruitment at chromosomal SSBs, but was largely independent of W189 (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ,
+     <em>
+      bottom
+     </em>
+     ). Together, these data suggest that the Ku-binding motif is required to promote the retention of APLF at sites of chromosomal DSBs.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     APLF interacts with the von Willebrand-like domain of Ku80
+    </title>
+    <p>
+     The seven Ku80 cDNA clones recovered by APLF in our Y2H screen encoded only the amino-terminal 258–278 amino acids, and thus just the von-Willebrand Factor A (WA)-like domain (
+     <xref ref-type="bibr">
+      Aravind and Koonin, 2001
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). This observation is significant, because while this putative protein–protein interaction domain is highly conserved in eukaryotic Ku80, its protein partner/s have not yet been identified and its molecular function is unknown. Consequently, we attempted to map the site of APLF interaction in more detail. Given the partially hydrophobic character of the Ku-binding motif in APLF, we considered it likely that the corresponding interface in Ku80 is also hydrophobic. We therefore identified and mutated nine highly conserved hydrophobic residues predicted to be present on the surface of the vWA domain (
+     <a>
+      Supplementary Figure 4
+     </a>
+     ), and examined the impact of these mutations on the interaction of Ku80 with the APLF MID domain in Y2H experiments. Whereas six of the nine mutations did not measurably impact on the interaction with the APLF MID domain, three of the mutations (Ku80
+     <sup>
+      L68R
+     </sup>
+     , Ku80
+     <sup>
+      Y74R
+     </sup>
+     , and Ku
+     <sup>
+      I112R
+     </sup>
+     ) greatly reduced or ablated it (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Strikingly, these three residues co-localise in Ku80 on the surface of the vWA domain (
+     <xref ref-type="bibr">
+      Walker et al, 2001
+     </xref>
+     ), consistent with them forming part of a hydrophobic interface for the Ku-binding motif (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). Indeed, in contrast to wild-type Ku (Ku70/80ΔC), Ku
+     <sup>
+      L68R
+     </sup>
+     harbouring a mutant Ku80 vWA domain (Ku70/80ΔC
+     <sup>
+      L68R
+     </sup>
+     ) failed to recruit APLF into DNA complexes
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     , compare lanes 3–5 with 7–9). This was not a non-specific impact of L68R on Ku folding, because the mutant heterodimer bound DNA
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     , lane 6) and was recruited to sites of chromosome damage in cells (
+     <xref ref-type="fig">
+      Figure 4E
+     </xref>
+     ). To confirm the impact of mutating the vWA domain on APLF behaviour in cells, we exploited our observation that the nuclear retention of mRFP-APLF is increased by co-expression with recombinant Ku80 (see
+     <a>
+      Supplementary Figure 3A
+     </a>
+     ). Whereas co-transfection with GFP-Ku70/GFP-Ku80 increased the fraction of A549 cells harbouring predominantly nuclear mRFP-APLF, co-transfection with GFP-Ku70/GFP-Ku80
+     <sup>
+      L68R
+     </sup>
+     failed to do so (
+     <xref ref-type="fig">
+      Figure 4F
+     </xref>
+     ). Importantly, neither GFP-Ku70/GFP-Ku80 nor GFP-Ku70/GFP-Ku80
+     <sup>
+      L68R
+     </sup>
+     promoted the nuclear retention of mRFP-APLF
+     <sup>
+      W189G
+     </sup>
+     , confirming that the vWA domain promoted mRFP-APLF nuclear retention only if the Ku-binding motif was intact. Collectively, these results reveal that APLF interacts directly with the vWA domain of Ku80, thereby identifying a protein partner and molecular role for this domain.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       APLF interacts with the vWA domain of Ku80. (
+       <strong>
+        A
+       </strong>
+       ) Cartoon of Ku70 and Ku80, depicting the von Willebrand-like (‘vWA') domains, heterodimerisation domains (‘Het'), Ku70 SAP domain (‘S'), and Ku80 C-terminal domain (‘CTD'). The regions of Ku80 recovered by APLF in the Y2H screen depicted in
+       <xref ref-type="fig">
+        Figure 1A
+       </xref>
+       are shown (bottom). (
+       <strong>
+        B
+       </strong>
+       ) Mutation of the Ku80 vWA domain disrupts interaction with APLF. Y190 cells harbouring empty pGBKT7 or pGBKT7-APLF
+       <sup>
+        94–358
+       </sup>
+       (encoding the MID domain) and either empty pACT2 or the indicated wild-type or mutant derivative of pACT-Ku80
+       <sup>
+        1–258
+       </sup>
+       (clone 5) were examined for
+       <em>
+        His3
+       </em>
+       and
+       <em>
+        LacZ
+       </em>
+       reporter gene expression. (
+       <strong>
+        C
+       </strong>
+       ) Residues required for APLF interaction co-localise in a hydrophobic interface on the surface of the Ku80 vWA domain. The location of L68, Y74, and I112 within the Ku heterodimer (RCSB PDB entry; 1JEY) (
+       <xref ref-type="bibr">
+        Walker et al, 2001
+       </xref>
+       ) is shown. Blue and red denote basic and acidic regions, respectively. (
+       <strong>
+        D
+       </strong>
+       ) Mutation of the Ku80 vWA domain prevents recruitment of APLF into DNA complexes containing Ku. A Cy3-labelled 30-bp duplex (10 nM) was incubated with (+) or without (−) 10 nM wild-type Ku (Ku70/80Δ) or mutant Ku (Ku70/80Δ
+       <sup>
+        L68R
+       </sup>
+       ) in the absence (−) or presence of 700, 350, or 175 nM of the indicated recombinant APLF protein and employed in EMSA. (
+       <strong>
+        E
+       </strong>
+       ) Normal accumulation of Ku70/GFP-Ku80
+       <sup>
+        L68R
+       </sup>
+       at sites of chromosome damage. A549 cells were transiently co-transfected with His-Ku70 and either GFP-Ku80 or GFP-Ku80
+       <sup>
+        L68R
+       </sup>
+       prior to UVA laser irradiation. Images were captured at 30 s intervals after laser irradiation. (
+       <strong>
+        F
+       </strong>
+       ) Impact of mutations in the vWA domain on the subcellular localisation of APLF. mRFP localisation following co-transfection with mRFP-APLF or mRFP-APLF
+       <sup>
+        W189G
+       </sup>
+       and GFP vector, GFP-Ku70/GFP-Ku80, or GFP-Ku70/GFP-Ku80
+       <sup>
+        L68R
+       </sup>
+       . Data are the mean of three independent experiments (±s.e.m.).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     APLF promotes the stability of NHEJ protein complexes,
+     <em>
+      in vitro
+     </em>
+    </title>
+    <p>
+     The data described above define the mechanism by which APLF and Ku interact, and demonstrate that this interaction is important for APLF recruitment into Ku complexes and for retention at chromosome damage. However, these results do not explain how APLF accelerates DNA ligation during NHEJ. To address this question, we examined the impact of APLF on the stable assembly of the DNA ligase heterodimer, XRCC4-Lig4, into DNA complexes containing Ku. Surprisingly, despite the established ability of XRCC4-Lig4 to interact directly with Ku (
+     <xref ref-type="bibr">
+      Nick McElhinny et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hsu et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Costantini et al, 2007
+     </xref>
+     ), we observed little if any incorporation of XRCC4-Lig4 into DNA complexes containing Ku heterodimer (Ku70/80ΔC) in the absence of APLF, under the conditions employed (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , lanes 1 and 2). In contrast, in the presence of APLF, all of the DNA complexes containing Ku were super-shifted by XRCC4-Lig4 into a single protein complex of lower mobility (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , lanes 3 and 4). Importantly, both anti-XRCC4 and anti-APLF antibodies were able to super-shift these Ku–DNA complexes, confirming the presence of both APLF and XRCC4-Lig4 (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , lanes 4–6). In contrast, neither antibody super-shifted Ku-DNA complexes in the absence of APLF, confirming their specificity (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , lanes 7–9). Note that while Ku heterodimer harbouring Ku80ΔC was employed for the above experiments, similar results were observed for Ku heterodimer harbouring full-length Ku80 (
+     <a>
+      Supplementary Figure 6A
+     </a>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       APLF promotes NHEJ complex assembly. (
+       <strong>
+        A)
+       </strong>
+       Co-assembly of APLF and XRCC4-Lig4 into 19-bp DNA complexes containing Ku. A Cy3-labelled 19-bp duplex (10 nM) was incubated with Ku70/80ΔC (20 nM), in the absence or presence of APLF (0.4 μM) and/or XRCC4-Lig4 (LX; 0.4 μM) and then employed in EMSA. (
+       <strong>
+        B
+       </strong>
+       ) NHEJ protein complexes assembled by APLF are super-shifted by anti-APLF and anti-XRCC4 antibodies. A Cy3-labelled 19-bp duplex was incubated with Ku70/80ΔC as described above in the presence or absence of APLF (0.4 μM) and/or XRCC4-Lig4 (LX; 0.55 μM) and/or the indicated anti-XRCC4 (Santa Cruz; sc-8285) or anti-APLF (Abmart 2G11) antibody and employed in EMSA. (
+       <strong>
+        C
+       </strong>
+       ) Co-assembly of APLF and XRCC4-Lig4 into 60-bp DNA complexes containing Ku. A Cy3-labelled 60-bp duplex (10 nM) was incubated with full-length Ku70/80 (20 nM) in the presence and absence of APLF (0.4 μM) and 0–140 nM XRCC4-Lig4 (LX), as indicated. (
+       <strong>
+        D
+       </strong>
+       ) APLF promotes assembly of both XRCC4-Lig4 and XLF into Ku-DNA complexes and functions as a molecular scaffold. A Cy3-labelled 19-bp duplex (10 nM) was incubated in the absence or presence of full-length Ku70/80 (20 nM), XRCC4-Lig4 (LX; 0.2 μM), XLF (1 μM), and the indicated wild-type or mutant APLF (0.2 μM), and then employed in EMSA.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     It is worth noting that we employed a short DNA duplex probe of 19 bp in the above experiments, which is similar to the footprint of a single Ku heterodimer, to prevent DNA binding by XRCC4-Lig4 and so specifically address the role of protein–protein interactions on XRCC4-Lig4 assembly into Ku-DNA complexes (
+     <xref ref-type="bibr">
+      Kysela et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lu et al, 2007
+     </xref>
+     ). However, similar results were observed with a longer duplex probe (60 bp) that allows DNA binding by multiple Ku heterodimers and direct DNA binding by XRCC4-Lig4 (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). As reported previously (
+     <xref ref-type="bibr">
+      Nick McElhinny et al, 2000
+     </xref>
+     ), XRCC4-Lig4 was able to super-shift Ku complexes in the absence of APLF on the longer substrate, at the highest concentration of XRCC4-Lig4 employed at least (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , lane 2,
+     <em>
+      orange asterisk
+     </em>
+     ). Nevertheless, APLF promoted incorporation of XRCC4-Lig4 into Ku complexes even on this substrate, with almost all Ku complexes super-shifted by XRCC4-Lig4 in the presence of APLF even at the lowest concentration of ligase employed (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , lane 10,
+     <em>
+      blue asterisk
+     </em>
+     ).
+    </p>
+    <p>
+     Next, we expanded EMSAs to include XLF, since this protein is another core component of DNA ligation reactions during NHEJ (
+     <xref ref-type="bibr">
+      Ahnesorg et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Buck et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lu et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tsai et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Riballo et al, 2009
+     </xref>
+     ). In addition, since XRCC4-Lig4 and XLF most likely function together during DNA ligation, we examined whether APLF also promotes the assembly of larger Ku complexes containing both of these proteins. Indeed, whereas we failed to detect assembly of XLF and/or XRCC4-Lig4 into DNA complexes containing Ku heterodimer (Ku70/80) in the absence of APLF (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , lanes 2–5), in the presence of APLF more than half of the Ku-DNA complexes were super-shifted by XLF and/or XRCC4-Lig4 into complexes of lower mobility (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , lanes 7–9,
+     <em>
+      green, blue, and red asterisks
+     </em>
+     ). Importantly, the ability of APLF to stimulate assembly of NHEJ complexes containing XLF and/or XRCC4-Lig4 was completely dependent on the presence of Ku, because neither XLF nor XRCC4-Lig4 super-shifted DNA in the absence of Ku, irrespective of whether or not APLF was present (
+     <a>
+      Supplementary Figure 6B
+     </a>
+     ).
+    </p>
+    <p>
+     To understand how APLF promotes assembly of NHEJ complexes, we employed mutant derivatives of this protein. APLF
+     <sup>
+      W189G
+     </sup>
+     failed to promote the incorporation and/or retention of either XLF or XRCC4-Lig4 into Ku-DNA complexes, indicating that direct interaction with Ku80 is essential for APLF-mediated assembly of NHEJ complexes (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , compare lanes 6–9 with lanes 14–17) and thus that APLF functions as a molecular scaffold. Consistent with this idea, while APLF
+     <sup>
+      R27A
+     </sup>
+     protein harbouring a mutated FHA domain was still recruited into DNA complexes containing Ku (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , lane 10,
+     <em>
+      black asterisk
+     </em>
+     ), and was able to weakly promote incorporation of XLF into Ku-DNA complexes (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , lanes 11 and 13,
+     <em>
+      green asterisks
+     </em>
+     ), it was unable to promote the incorporation and/or retention of XRCC4-Lig4 (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , compare lanes 8 and 12,
+     <em>
+      blue asterisk
+     </em>
+     ). Consistent with the dependence on protein phosphorylation for interaction of the APLF FHA domain with XRCC4, pre-treatment of XRCC4-Lig4 complex with lambda protein phosphatase prevented wild-type APLF from promoting the assembly XRCC4-Lig4 into Ku-DNA complexes (
+     <a>
+      Supplementary Figure 6C
+     </a>
+     ). Collectively, these results reveal that APLF is a molecular scaffold protein that promotes the assembly and/or stability of Ku complexes containing the core components required for DNA ligation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     APLF promotes the retention of NHEJ DNA ligase proteins at sites of chromosome damage
+    </title>
+    <p>
+     To address the relevance of the above observations to the situation in cells, we examined the recruitment and retention of Ku, XLF, and XRCC4-Lig4 at sites of UVA laser-induced chromosomal damage in wild-type and APLF-depleted A549 cells. In agreement with our EMSAs, GFP-tagged Ku heterodimer accumulated at sites of UVA laser damage to a similar extent in wild-type and APLF-depleted A549 cells, supporting the idea that APLF functions downstream of Ku binding (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). In contrast, as reported previously (
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ), the accumulation of GFP-tagged XRCC4 at sites of UVA laser-induced chromosomal damage was reduced in APLF-depleted cells, again consistent with our EMSA data (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). More importantly, whereas co-transfection of expression construct encoding shRNA-resistant mRFP-APLF restored normal levels of GFP-XRCC4 accumulation at sites of UVA damage, co-transfection with empty vector or with expression constructs encoding shRNA-resistant mRFP-APLF that cannot bind XRCC4 (mRFP-APLF
+     <sup>
+      R27A
+     </sup>
+     ) or Ku80 (mRFP-APLF
+     <sup>
+      W189G
+     </sup>
+     ) failed to do so (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). Similar results were observed for GFP-tagged XLF, which also accumulated at sites of UVA damage to a lesser extent in APLF-depleted cells than in wild-type cells; a phenotype which again was complemented by co-expression of mRFP-APLF but not mRFP-APLF
+     <sup>
+      R27A
+     </sup>
+     or mRFP-APLF
+     <sup>
+      W189G
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). Note that the inability of mRFP-APLF
+     <sup>
+      W189G
+     </sup>
+     to support normal levels of GFP-XRCC4 or GFP-XLF accumulation at UVA damage did not reflect the reduced nuclear localisation of the mutant protein, because mRFP-nls-APLF
+     <sup>
+      W189G
+     </sup>
+     harbouring an SV40 nuclear localisation signal was similarly unable to support normal GFP-XRCC4 or GFP-XLF accumulation (
+     <a>
+      Supplementary Figure 7
+     </a>
+     ). Based on these experiments and our biochemical assays, we conclude that APLF is recruited into Ku complexes by interaction with Ku80 and, in turn, promotes the recruitment and/or retention of the key NHEJ factors required for DNA ligation.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       APLF promotes the recruitment and/or retention of XRCC4-Lig4 and XLF at sites of chromosome damage. (
+       <strong>
+        A)
+       </strong>
+       APLF is not required for recruitment/retention of Ku at sites of UVA damage. A549 cells mock depleted (WT) or stably depleted of APLF (APLF KD) were transiently transfected with expression constructs encoding GFP-Ku70 and GFP-Ku80 and images were captured at the indicated times after laser UVA micro-irradiation. For each data point, data are normalised to the GFP fluorescence intensity prior to irradiation (set to 100%). Data are the mean (±s.e.m.) of 10 or more individual cells. (
+       <strong>
+        B
+       </strong>
+       ) APLF promotes recruitment/retention of GFP-XRCC4 at sites of UVA damage. APLF KD cells were transiently transfected with GFP-XRCC4 and either mRFP vector (V) or shRNA-resistant mRFP-APLF (WT), mRFP-APLF
+       <sup>
+        W189G
+       </sup>
+       (WG), or mRFP-APLF
+       <sup>
+        R27A
+       </sup>
+       (R27A), and analysed as described above. (
+       <strong>
+        C
+       </strong>
+       ) APLF promotes recruitment/retention of GFP-XLF at sites of UVA damage. APLF KD cells were co-transfected with GFP-XLF and mRFP vector (V), mRFP-APLF (WT), mRFP-APLF
+       <sup>
+        W189G
+       </sup>
+       (WG), or mRFP-APLF
+       <sup>
+        R27A
+       </sup>
+       (R27A), and analysed as described above.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     APLF scaffold activity promotes NHEJ in human cells and resistance to
+     <em>
+      γ
+     </em>
+     irradiation in DT40
+    </title>
+    <p>
+     We have shown previously that APLF accelerates the rate of NHEJ in cells, most likely by promoting DNA ligation (
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ). The latter was suggested by the ability of XRCC4-Lig4 overexpression to restore normal rates of DSB repair in APLF-depleted cells. We therefore examined whether the novel role for APLF, described here, can influence DNA ligation by XRCC4-Lig4
+     <em>
+      in vitro
+     </em>
+     . Indeed, in experiments employing a 247-bp DNA duplex with a single ligatable blunt DSB terminus, APLF stimulated ligation by XRCC4-Lig4 above that observed in the presence of Ku alone (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , lanes 1–3). PCR amplification of the head-to-tail junctions of these reactions confirmed that at least 9 out 10 of the junctions were the product of direct ligation (
+     <a>
+      Supplementary Figure 8A
+     </a>
+     ). Mutation of either the FHA domain or Ku-binding motif reduced the impact of APLF, and mutation of both ablated it, confirming the collective importance of the Ku80 and XRCC4-Lig4 interactions for stimulation of DNA ligation by APLF,
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , lanes 4–6).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       APLF scaffold activity stimulates DNA ligation
+       <em>
+        in vitro
+       </em>
+       and is required for rapid repair of, and resistance to, chromosomal DSBs. (
+       <strong>
+        A
+       </strong>
+       ) APLF stimulates XRCC4-Lig4 activity
+       <em>
+        in vitro
+       </em>
+       . A Cy3-labelled 247-bp DNA duplex with one ligatable end was incubated for 30 min with recombinant XRCC4-Lig4 (10 nM) alone (‘buffer') or in the presence or absence as indicated of recombinant Ku70/80 (‘Ku'; 20 nM), wild-type APLF (‘WT'), APLF
+       <sup>
+        W189G
+       </sup>
+       (‘WG'), APLF
+       <sup>
+        R27A
+       </sup>
+       (‘RA'), or APLF
+       <sup>
+        W189G/R27A
+       </sup>
+       (‘RA/WG'). Reaction products were fractionated by denaturing PAGE. A representative image from one experiment is presented (
+       <em>
+        top
+       </em>
+       ), along with quantitative data from four independent experiments showing the mean (±s.e.m.) fraction of total DNA converted to a 494-bp product (
+       <em>
+        bottom
+       </em>
+       ). (
+       <strong>
+        B
+       </strong>
+       ) APLF scaffold activity is required to accelerate DSB repair. A549 cells were transiently co-transfected with empty pSUPER (‘Mock') or pSUPER-APLF (‘APLF KD') and either empty pcD2E expression vector (‘V') or pcD2E encoding shRNA-resistant wild-type APLF (‘WT'), APLF
+       <sup>
+        R27A
+       </sup>
+       (‘R27A'), or APLF
+       <sup>
+        W189G
+       </sup>
+       (‘W189G'). Transfected cells were mock irradiated or γ irradiated (2 Gy) and allowed to recover for the times indicated prior to immunostaining. Data are the mean number (±s.e.m.) of γH2AX foci scored in G1 cells from three independent experiments.
+       <em>
+        Inset
+       </em>
+       , immunoblotting for levels of APLF and histone H1 (loading control) in untreated cells and γ-irradiated cells (30 min after irradiation). (
+       <strong>
+        C
+       </strong>
+       ) Reduced plasmid re-joining in
+       <em>
+        APLF
+       </em>
+       <sup>
+        <em>
+         −/−
+        </em>
+       </sup>
+       DT40 cells. Wild-type (Clone 18) and
+       <em>
+        APLF
+       </em>
+       <sup>
+        <em>
+         −/−
+        </em>
+       </sup>
+       DT40 cells were co-transfected with circular RFP and linear GFP vector, 18 h before analysis by FACS. Data are the percentage of RFP-positive cells expressing GFP and are the mean (±s.e.m.) of five independent experiments. **
+       <em>
+        P
+       </em>
+       &lt;0.01 by Student's
+       <em>
+        t
+       </em>
+       -test. (
+       <strong>
+        D
+       </strong>
+       ) Hypersensitivity of
+       <em>
+        APLF
+       </em>
+       <sup>
+        <em>
+         −/−
+        </em>
+       </sup>
+       DT40 cells to γ radiation. Wild-type DT40 cells (clone 18),
+       <em>
+        APLF
+       </em>
+       <sup>
+        <em>
+         −/−
+        </em>
+       </sup>
+       DT40 cells, and
+       <em>
+        APLF
+       </em>
+       <sup>
+        <em>
+         −/−
+        </em>
+       </sup>
+       DT40 cells stably transfected with empty expression vector or with expression construct encoding myc-tagged wild-type (WT) human APLF or the indicated myc-tagged mutant human APLF were γ irradiated with the indicated dose and cell colonies counted 10 days after treatment.
+       <em>
+        Inset
+       </em>
+       , anti-myc Western blot depicting expression levels of the indicated recombinant APLF protein. Note that the APLF proteins expressed in these experiments were additionally tagged with an SV40 nuclear localisation signal.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To confirm the importance of the APLF scaffolding activity in cells, we examined the importance of the FHA domain and Ku-binding motif for chromosomal NHEJ and cellular resistance to DSBs. Consistent with our previous data (
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ), shRNA-mediated depletion of APLF reduced the rate of NHEJ in A549 cells at early times following γ irradiation, as measured by γH2AX immunostaining (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     , compare light blue and dark blue bars). γH2AX immunostaining is a reliable and sensitive marker for DSBs following γ irradiation, allowing accurate quantification of DSB repair rates at clinically relevant levels of DSB breakage (
+     <xref ref-type="bibr">
+      Löbrich et al, 2010
+     </xref>
+     ). Importantly, co-transfection of pSUPER-APLF with an expression construct encoding shRNA-resistant wild-type APLF prevented this reduction in DSB repair rate, confirming that reduced DSB repair was the result of APLF depletion (‘APLF KD+WT'; dark green bars). In contrast, co-transfection of pSUPER-APLF with expression constructs encoding either shRNA-resistant APLF
+     <sup>
+      R27A
+     </sup>
+     (‘APLF KD+R27A'; orange bars) or shRNA-resistant APLF
+     <sup>
+      W189G
+     </sup>
+     (‘APLF KD+W189G'; purple bars) failed to prevent the reduction in DSB repair rate. This was not due to differences in the level of expression of the mutant APLF proteins, because these were similar or greater than that of endogenous APLF (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ,
+     <em>
+      inset
+     </em>
+     ). Nor did this reflect the impact of W189G on nuclear localisation, because shRNA-resistant APLF
+     <sup>
+      W189G
+     </sup>
+     harbouring an SV40 NLS was similarly unable to support normal rates of DSB repair (
+     <a>
+      Supplementary Figure 8B
+     </a>
+     ). Together, these data demonstrate that the APLF FHA and Ku binding domains that promote assembly of NHEJ complexes
+     <em>
+      in vitro
+     </em>
+     are required to accelerate NHEJ, in cells.
+    </p>
+    <p>
+     As further support for the role of APLF in cellular NHEJ, we deleted this gene in avian DT40 cells (
+     <a>
+      Supplementary Figure 9
+     </a>
+     ). NHEJ efficiency was reduced 2- to 3-fold in
+     <em>
+      APLF
+     </em>
+     <sup>
+      <em>
+       −/−
+      </em>
+     </sup>
+     cells in plasmid re-joining assays, as measured by the level of GFP expression in cells transiently transfected with a linearised GFP reporter plasmid (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     ). In addition,
+     <em>
+      APLF
+     </em>
+     <sup>
+      <em>
+       −/−
+      </em>
+     </sup>
+     cells were hypersensitive to a range of DSB inducing agents, including etoposide and γ irradiation (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 9
+     </a>
+     ). Importantly, whereas wild-type human APLF restored the sensitivity of
+     <em>
+      APLF
+     </em>
+     <sup>
+      <em>
+       −/−
+      </em>
+     </sup>
+     cells to γ rays to normal, APLF
+     <sup>
+      W189G
+     </sup>
+     mutant protein that cannot assemble NHEJ complexes was unable to do so.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    A role for APLF in the NHEJ pathway for DSB repair is indicated by several observations. First, APLF-depleted or deleted cells exhibit a reduced ability to ligate linear plasmid DNA in human (
+    <xref ref-type="bibr">
+     Macrae et al, 2008
+    </xref>
+    ) and avian DT40 cells (this work), similar to cells harbouring defects in other components of NHEJ. Second, the rate of repair of γ ray-induced chromosomal DSBs is reduced in APLF-depleted human cells in G0/G1 phase of the cell cycle (
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ), conditions in which NHEJ is the primary mechanism for DSB repair. Third, DNA products of class switch recombination in
+    <em>
+     APLF
+    </em>
+    <sup>
+     <em>
+      −/−
+     </em>
+    </sup>
+    murine B cells exhibit mildly increased levels of microhomology at switched junctions
+    <em>
+     in vitro
+    </em>
+    , a phenotype consistent with a reduction in efficiency of the ‘classical' pathway for NHEJ (
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ). Fourth, APLF physically associates with Ku heterodimer and with XRCC4-Lig4 (
+    <xref ref-type="bibr">
+     Bekker-Jensen et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kanno et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Macrae et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ), both of which are core components of NHEJ, and overexpression of XRCC4-Lig4 circumvents the requirement for APLF for normal rates of DSB repair following γ irradiation (
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ). Collectively, these observations provide compelling evidence that APLF accelerates DSB repair, most likely by promoting DNA ligation during NHEJ.
+   </p>
+   <p>
+    While APLF clearly influences DSB repair it is important to note that this protein is an accessory factor that accelerates this process, rather than an essential component. This is suggested by the observation that APLF depletion slows DSB repair only at early times (first 1–2 h) after γ irradiation, such that after longer periods (&gt;4 h) the residual level of DSBs is similar irrespective of whether or not APLF is present. Consistent with this, neither APLF-depleted human cells nor
+    <em>
+     APLF
+    </em>
+    <sup>
+     <em>
+      −/−
+     </em>
+    </sup>
+    MEFs exhibit significant hypersensitivity to DNA damage (unpublished observations). Surprisingly,
+    <em>
+     APLF
+    </em>
+    <sup>
+     <em>
+      −/−
+     </em>
+    </sup>
+    DT40 cells are hypersensitive to ionising radiation, suggesting that APLF is required for cellular resistance to DNA damage in some cellular contexts. However, while the requirement for APLF for resistance to ionising radiation in DT40 required the Ku-binding motif, it did not require the FHA domain. It is thus likely that the hypersensitivity of
+    <em>
+     APLF
+    </em>
+    <sup>
+     <em>
+      −/−
+     </em>
+    </sup>
+    DT40 cells to ionising radiation reflects a role for the interaction between Ku and APLF other than that involving XRCC4-Lig4 recruitment.
+   </p>
+   <p>
+    In contrast to its accessory nature in cells, APLF was essential for the assembly of XRCC4-Lig4 into Ku complexes on a 19-bp DNA duplex,
+    <em>
+     in vitro
+    </em>
+    . This apparent contradiction is resolved by the observation that XRCC4-Lig4 can assemble into Ku complexes in the absence of APLF, albeit at reduced efficiency, if a longer DNA duplex (60 bp) is employed that enables direct DNA binding by XRCC4-Lig4 (this work and
+    <xref ref-type="bibr">
+     Nick McElhinny et al, 2000
+    </xref>
+    ). Collectively, these results suggest that DNA binding by XRCC4-Lig4 can enable incorporation of the ligase into Ku complexes, presumably in conjunction with the established interaction between XRCC4-Lig4 and Ku (
+    <xref ref-type="bibr">
+     Nick McElhinny et al, 2000
+    </xref>
+    ), but that this incorporation is promoted or stabilised by the interaction of APLF with both Ku and XRCC4-Lig4. In addition to XRCC4-Lig4, APLF also promoted the incorporation of XLF into Ku-DNA complexes, resulting in assembly of a complex putatively containing six polypeptides. To our knowledge, this is the first description of such a complex, and suggests that APLF promotes the assembly of a DNA ligase ‘holocomplex', during NHEJ.
+   </p>
+   <p>
+    Our finding that APLF interacts with the vWA domain of Ku80 is intriguing, because the role of this domain has remained elusive in human cells. To our knowledge, APLF is the first identified partner of this domain in human Ku80, thereby identifying a molecular function. Another notable finding is that APLF binds Ku80 via a conserved motif of 10–15 amino acids (spanning residues 177–193), and that this motif can function as an autonomous module that can target GST fusion proteins into DNA complexes containing Ku. Interestingly, the Ku80-binding motif is also present at the C-termini of XLF and WRN; two additional NHEJ proteins that bind Ku (
+    <xref ref-type="bibr">
+     Li and Comai, 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Karmakar et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yano et al, 2008
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2011
+    </xref>
+    ). The C-terminus of WRN contains two such motifs, only one of which (spanning residues 1403–1418) bound Ku-DNA complexes in EMSA. Of the two WRN motifs, WRN
+    <sup>
+     1403–1418
+    </sup>
+    is the most similar to the APLF motif and contains the highly conserved tryptophan (W
+    <sup>
+     1414
+    </sup>
+    in WRN). The XLF motif (XLF
+    <sup>
+     287–299
+    </sup>
+    ) lacks this residue but nevertheless still binds Ku-DNA complexes, albeit with lower affinity than that of either APLF
+    <sup>
+     177–193
+    </sup>
+    or WRN
+    <sup>
+     1403–1418
+    </sup>
+    . Despite this apparent lower affinity, deletion of C-terminal amino acids encoding the Ku-binding motif prevents XLF accumulation at sites of laser-induced chromosome damage, suggesting that the putative Ku-binding motif is important for XLF recruitment/retention in cells (
+    <xref ref-type="bibr">
+     Yano et al, 2011
+    </xref>
+    ). Given that both APLF and XLF bound a single Ku heterodimer in our EMSA experiments it seems unlikely that both proteins interact with the same region of Ku80. Perhaps the putative Ku-binding motif in XLF interacts with a different region of Ku80, or with the vWA domain in Ku70.
+   </p>
+   <p>
+    Both the Ku-binding motif and FHA domain were required for APLF to promote the assembly and/or stability of Ku complexes, consistent with APLF operating as a molecular scaffold protein. Our data support a model in which Ku80 recruits APLF into NHEJ complexes, which in turn promotes the recruitment/retention of XLF and XRCC4-Lig4. While it is clear that the FHA domain is critical for APLF-mediated recruitment/retention of XRCC4-Lig4 into Ku complexes, it is not clear how APLF promotes recruitment/retention of XLF. Perhaps, APLF interacts directly with XLF or, alternatively, exerts an allosteric impact on the interaction between XLF and Ku. Consistent with our EMSAs, APLF also stimulated the accumulation and/or retention of XLF and XRCC4-Lig4 at sites of chromosome damage. Moreover, this role required an intact Ku-binding motif in APLF, consistent with it reflecting the role of APLF in promoting the assembly/stability of NHEJ complexes. Notably, APLF also stimulated the enzymatic activity of XRCC4-Lig4
+    <em>
+     in vitro
+    </em>
+    and this again was greatly reduced by mutation of the Ku-binding motif, and was ablated by additional mutation of the FHA domain. Interestingly, mutating only the FHA domain reduced XRCC4-Lig4 activity only slightly, despite the severe impact of this mutation on APLF-mediated assembly of NHEJ complexes and APLF-mediated acceleration of NHEJ. The FHA domain-mediated interaction with XRCC4 is thus more important for DNA ligase activity in a cellular context; a notion consistent with our observation that depletion of APLF results in reduced concentrations of XRCC4 in chromatin (
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ). It is worth noting that the acidic C-terminal tail of APLF is also likely to be important for NHEJ in chromatin, since this domain interacts with histone H3/H4 and possesses histone chaperone activity
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Mehrotra et al, 2011
+    </xref>
+    ). It is also worth noting that APLF has been reported to possess nuclease activity, raising the possibility that this protein also functions during the end-processing step of NHEJ, upstream of DNA ligation (
+    <xref ref-type="bibr">
+     Kanno et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 2011
+    </xref>
+    ). However, as discussed above, overexpression of XRCC4-Lig4 complements the defect in DSB repair in APLF-depleted cells, suggesting that APLF accelerates NHEJ largely or solely by promoting the DNA ligase step, at γ ray-induced DSBs at least (
+    <xref ref-type="bibr">
+     Rulten et al, 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    Based on these observations, we propose the following model for APLF function (
+    <xref ref-type="fig">
+     Figure 8
+    </xref>
+    ). We suggest that APLF is initially recruited to chromosomal DSBs in part via interaction of its C-terminal tandem zinc finger (PBZ) domain with poly (ADP-ribose) (
+    <xref ref-type="bibr">
+     Ahel et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rulten et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Eustermann et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 2010
+    </xref>
+    ). The ribosylated target of the APLF PBZ domain has not yet been identified, but is most likely auto-ribosylated poly (ADP-ribose) polymerase or a trans-ribosylated component of chromatin (
+    <xref ref-type="bibr">
+     Rulten et al, 2008; 2011
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     36
+    </xref>
+    ). It is worth noting that even in some organisms that lack APLF, such as
+    <em>
+     Dictyostelium discoideum
+    </em>
+    , for example, NHEJ components such as Ku can contain their own PBZ domain, suggesting that the use of poly (ADP-ribose) to stimulate NHEJ is evolutionarily widespread (
+    <xref ref-type="bibr">
+     Iles et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Couto et al, 2011
+    </xref>
+    ). We suggest that APLF is then incorporated and retained in Ku complexes via interactions with Ku80, and to a lesser extent XRCC4, and in turn then promotes the recruitment and/or retention of XLF and XRCC4-Lig4. We propose that while XLF and XRCC4-Lig4 still bind Ku in the absence of APLF they do so less efficiently, resulting in reduced retention time at chromosomal DSBs and reduced rates of DNA ligation. The role of APLF interaction with Ku80 and XRCC4-Lig4 in stabilising assembly of multi-protein complexes is in agreement with recent models of NHEJ, in which interactions between Ku, XLF, and XRCC4-Lig4 are proposed to fulfill a similar function (
+    <xref ref-type="bibr">
+     Wu et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yano and Chen, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yano et al, 2008
+    </xref>
+    ). Our data demonstrate that APLF is a novel component in this respect; promoting the assembly of Ku complexes containing both XLF and XRCC4-Lig4 and thus all of the components required for DNA ligation.
+   </p>
+   <fig id="f8" position="float">
+    <label>
+     Figure 8
+    </label>    <caption>
+     <p>
+      A model for APLF scaffold activity during NHEJ. (
+      <strong>
+       A
+      </strong>
+      ) DSB induction. (
+      <strong>
+       B
+      </strong>
+      ) Ku heterodimer binds the DSB and recruits DNA-PKcs, and PARP3 ribosylates (
+      <em>
+       red wavy lines
+      </em>
+      ) nucleosomes (
+      <em>
+       blue cylinders
+      </em>
+      ) near to the break. (
+      <strong>
+       C
+      </strong>
+      ) APLF (
+      <em>
+       orange
+      </em>
+      ) binds ribosylated nucleosomes via its C-terminal poly (ADP-ribose)-binding domain (PBZ domain; ‘P') and histone-binding acidic tail, and binds Ku heterodimer via its Ku80-binding MID domain (‘M'). (
+      <strong>
+       D
+      </strong>
+      ) Binding and retention of the DNA ligase co-factors XLF and XRCC4-Lig4 is promoted by their interaction with both Ku and APLF, forming a ‘holocomplex' competent for ligation. We suggest that this complex is highly dynamic, allowing exchange between different NHEJ proteins and individual APLF domains as-and-when required. For example, APLF might be replaced by PNKP during DNA end processing, should the latter detect the presence of its DNA substrate, via interchange between their respective XRCC4-binding FHA domains. Similarly, APLF may exchange with WRN, via interchange between their respective Ku80-binding motifs. (
+      <strong>
+       E
+      </strong>
+      ) Following end processing (and gap filling if required), XLF and XRCC4-Lig4 ligate the DSB.
+     </p>
+    </caption>
+   </fig>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Constructs
+    </title>
+    <p>
+     A full description and table of constructs is included in
+     <a>
+      Supplementary data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell lines
+    </title>
+    <p>
+     Human A549 and DT40 cells were maintained as described (
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zeng et al, 2012
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Recombinant proteins
+    </title>
+    <p>
+     Recombinant His-APLF proteins were expressed from appropriate pET16b constructs in BL21(DE3) and purified by metal chelate affinity chromatography (IMAC) and gel filtration, as described previously (
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rulten et al, 2008
+     </xref>
+     ). Baculoviral co-expression of full length his-tagged Ku70 and Ku80 and co-expression of full-length XRCC4 and His-Lig4 were as previously described (
+     <xref ref-type="bibr">
+      Riballo et al, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Arosio et al, 2002
+     </xref>
+     ). Ku heterodimer (Ku70/80) and XRCC4-Lig4 were purified by IMAC followed by gel filtration in 20 mM Tris–HCl pH 7.5, 0.3 M NaCl, 5% glycerol, 1 mM DTT. Ku heterodimers composed of full-length Ku70 and wild-type or mutant (L68R) Ku80 with a C-terminal deletion (deleted amino acids 591–732) were expressed from pFBDM-His-Ku70/Ku80ΔC or pFBDM-His-Ku70/Ku80ΔC
+     <sup>
+      L68R
+     </sup>
+     using a baculovirus system and purified by IMAC and gel filtration (described in
+     <a>
+      Supplementary data
+     </a>
+     ). GST-XLF was expressed in BL21(DE3) from pGEX3-XLF and XLF released from glutathione beads by digestion with thrombin (
+     <xref ref-type="bibr">
+      Hentges et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Riballo et al, 2009
+     </xref>
+     ). Alternatively, where indicated, non-digested GST-XLF (or other GST-fusions) was eluted with 20 mM glutathione. Note that SDS–PAGE gels of the proteins used in this work are shown in
+     <a>
+      Supplementary Figure 5
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Antibodies
+    </title>
+    <p>
+     The antibodies employed in this study were anti-Xrcc1 (mAb 33-2-5), anti-Lig4 polyclonal (Abcam; Ab80514), anti-Ku80 Mab (Ab80592; Abcam), anti-APLF polyclonal (SK3595;
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ), anti-histone H1.2 polyclonal (Ab17677, Abcam), anti-CENPF (Abcam, ab5), anti-phospho-γH2AX (Ser 139, clone JBW301; Millipore) and anti-myc (Cell Signaling, 9B11).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Yeast 2-hybrid screen and analysis
+    </title>
+    <p>
+     For library screening, competent cells were generated from a single
+     <em>
+      Saccharomyces cerevisiae
+     </em>
+     Y190 clone harbouring pGBKT7-APLF (full length) and transformed with a pACT human cDNA library (a kind gift from S Elledge/J Diffley). Transformants were selected for histidine prototrophy (to detect activation of the
+     <em>
+      His3
+     </em>
+     reporter gene) on minimal medium plates supplemented with 40 μg/ml adenine and 50 mM 3-amino triazole (3-AT), and screened for β-galactosidase expression by colony lift assays (to detect activation of the
+     <em>
+      LacZ
+     </em>
+     reporter gene) (
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ). For interaction analysis, Y190 cells were co-transformed with the indicated plasmids and screened for activation of the
+     <em>
+      His3
+     </em>
+     and
+     <em>
+      LacZ
+     </em>
+     reporter genes by growth on media lacking histidine and containing 3-AT and by β-galactosidase filter lift assays, respectively.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Slot-blots
+    </title>
+    <p>
+     1 μg aliquots of APLF were applied to nitrocellulose membrane by vacuum and the membrane then cut into strips. One strip was stained with Amido black (Sigma) as a loading control and the others were blocked in non-fat dried milk (5% in PBS) for 2 h. The blocked strips were washed in binding buffer (BB; 20 mM Tris–HCl pH 7.5, 100 mM NaCl) (3 times, 5 min) and incubated with 100 nM of the indicated proteins in BB containing 5% non-fat dried milk (MBB) for 30 min at room temperature. Filters were rinsed three times for 5 min in BB, and incubated in MBB containing anti-XRCC1, anti-Lig4, or anti-Ku80 antibody as indicated, followed by an appropriate secondary antibody-HRP conjugate (DAKO).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence polarisation
+    </title>
+    <p>
+     Fluorescein-labelled peptides at a concentration of 100 nM were incubated at room temperature, for 10 min with increasing concentrations of Ku70/80ΔC in 20 mM HEPES pH 7.5, 200 mM NaCl, and 0.5 mM TCEP. The samples (50 μl) were then transferred to a black 96-well polypropylene plate for measurement of fluorescence polarisation in a POLARstar Omega microplate reader (BMG Labtech GmbH, Ortenberg, Germany). Fifty flashes were recorded for each well with an excitation wavelength of 485 nm, and simultaneous detection of emission at 520 nm with parallel and perpendicular polarisers in-line. Background fluorescence in wells containing only buffer was subtracted from all values obtained for the samples. Polarisation data were analysed using GraphPad Prism 5.0 by non-linear fitting with a one-site total binding model. All data represent the mean of three separate experiments, and error bars represent one standard deviation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophoretic mobility shift assays
+    </title>
+    <p>
+     5′ Cy3-labelled oligonucleotides (Cy3-rDNAF, Cy3-30F, and cy3-60F) were annealed to their complementary oligonucleotides (19B, 30B, and 60B) to generate 19, 30, and 60 bp blunt-ended duplex substrates, respectively (
+     <a>
+      Supplementary Table 3
+     </a>
+     ). The indicated recombinant proteins were incubated at the concentrations indicated in 10 μl binding buffer (20 mM Tris–HCl pH 7.5, 50 mM NaCl, 0.5% glycerol, 0.1 mg/ml BSA) containing 10 nM Cy3-labelled DNA substrate for 15 min at room temperature. Glycerol was then added to 5% total volume and the mixtures fractionated on 4.5% native PAGE gels (37:1 acrylamide:bis-acrylamide) in 0.4 × TBE at room temperature at 10 mA or less. Gels were scanned on a Fujifilm FLA-500 instrument using a 532-nm laser and Cy3 filter.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Ligation assay
+    </title>
+    <p>
+     To generate the 247-bp blunt-ended duplex for DNA ligation assays, rDNA (a kind gift from Jessica Downs, Sussex University) was employed as a template in PCRs using the Cy3-labelled rDNAF primer (see above), a 5′ phosphorylated reverse primer (rDNARP, 5′-GACAAGCGTGTCAGTACCTATCT-3′), and KOD polymerase (Merck). The Cy3-labelled 247-bp product was then purified by gel extraction (4.5% PAGE). The 247-bp DNA substrate (10 nM) was incubated in ligation buffer (50 mM triethanolamine pH 7.5, 2 mM Mg-acetate, 2 mM DTT, 0.1 mg/ml BSA, 12% polyethylene glycol MW 6000) (
+     <xref ref-type="bibr">
+      Kysela et al, 2003
+     </xref>
+     ) in the absence or presence of 20 nM Ku, 150 nM wild-type or mutant APLF, or 150 nM XLF as indicated. After equilibration at 30°C for 5 min, ligation reactions were initiated by the addition of 10 nM XRCC4-Lig4. Reactions were stopped when indicated with 50 mM EDTA, 1% SDS, and 2 mg/ml Proteinase K. Following digestion for 1 h at 37°C, reactions were fractionated on 4.5% polyacrylamide gels and reaction products detected by scanning as in EMSA. The percentage of substrate converted to the ligation product was quantified using ImageQuant TL (GE).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Laser micro-irradiation
+    </title>
+    <p>
+     Wild-type A549 cells, or A549 cells stably transfected with either empty pSUPER or pSUPER-APLF, were subjected to UVA laser micro-irradiation as previously described (
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ). A UVA dose of 4.36 J/m
+     <sup>
+      2
+     </sup>
+     was used unless otherwise stated. For complementation studies, stable APLF knockdown cells were co-transfected with equal amounts of pEGFP-XRCC4 or pEGFP-XLF and pmRFP-C1, shRNA-resistant pmRFP-C1-APLF or site-directed mutants thereof.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     RNA interference and
+     <em>
+      γ
+     </em>
+     H2AX assays
+    </title>
+    <p>
+     Transient APLF knockdown and complementation was carried out in A549 cells as described previously (
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ) using pSUPER-APLF (
+     <xref ref-type="bibr">
+      Iles et al, 2007
+     </xref>
+     ) and either pcD2E or shRNA targeting-resistant versions of pcD2E-APLF
+     <sup>
+      WT
+     </sup>
+     , pcD2E-APLF
+     <sup>
+      W189G
+     </sup>
+     , or pcD2E-APLF
+     <sup>
+      R27A
+     </sup>
+     at a ratio of 1 μg pSUPER-APLF:2 μg pcD2E construct. Transfected cells were γ irradiated (2 Gy), allowed to recover for the indicated repair periods and immunolabelled as previously described (
+     <xref ref-type="bibr">
+      Rulten et al, 2011
+     </xref>
+     ). γH2AX foci were counted in CENPF-negative (G1) cells only.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Generation of APLF mutant DT40 cells
+    </title>
+    <p>
+     The description of the generation of
+     <em>
+      APLF
+     </em>
+     <sup>
+      <em>
+       −/−
+      </em>
+     </sup>
+     DT40 cells is described in
+     <a>
+      Supplementary data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     DT40 survival assays
+    </title>
+    <p>
+     To measure survival, DT40 cells were treated where indicated with γ irradiation (in complete medium) or UVC (in PBS) and plated in medium containing 1.5% methylcellulose as described previously (
+     <xref ref-type="bibr">
+      Zeng et al, 2012
+     </xref>
+     ). Where indicated, media contained the indicated concentration of methyl methanesulfonate (MMS), cisplatin, or etoposide, throughout the growth period. Cells were incubated for 7–11 days and visible colonies counted.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Plasmid religation assay
+    </title>
+    <p>
+     5 μg
+     <em>
+      Nhe
+     </em>
+     I-linearised plasmid pEGFP-C1 was co-transfected with 5 μg circular pRFP-C1 into 5 × 10
+     <sup>
+      6
+     </sup>
+     wild-type (clone 18) or
+     <em>
+      APLF
+     </em>
+     <sup>
+      <em>
+       −/−
+      </em>
+     </sup>
+     DT40 cells by nucleofection using Amaxa (Lonza). Eighteen hours later, cells were harvested and analysed by FACS Canto (BD Biosciences). RFP-positive cells were counted, and plasmid religation efficiency was calculated as the percentage of GFP-positive cells within the RFP-positive population.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.1M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (261K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

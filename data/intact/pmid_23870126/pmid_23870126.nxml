@@ -1,0 +1,1737 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3761943
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Marking and measuring single microtubules by PRC1 and kinesin-4
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    SUMMARY
+   </title>
+   <sec>
+    <p>
+     Error-free cell division depends on the assembly of the spindle midzone, a specialized array of overlapping microtubules that emerges between segregating chromosomes during anaphase. The molecular mechanisms by which a subset of dynamic microtubules from the metaphase spindle are selected and organized into a stable midzone array are poorly understood. Here we show using
+     <em>
+      in vitro
+     </em>
+     reconstitution assays that PRC1 and kinesin-4, two microtubule associated proteins required for midzone assembly, can tag microtubule plus-ends. Remarkably, the size of these tags is proportional to filament length. We determine the crystal structure of the PRC1 homodimer and map the protein-protein interactions needed for tagging microtubule ends. Importantly, length-dependent microtubule plus-end tagging by PRC1 is also observed in dividing cells. Our findings suggest how biochemically similar microtubules can be differentially marked, based on length, for selective regulation during the formation of specialized arrays, such as those required for cytokinesis.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Accurate division of a cell into two daughters requires dramatic changes in the organization of the microtubule cytoskeleton. In particular, at anaphase onset, microtubules from the bipolar metaphase spindle are transformed into a spindle midzone, a stabilized array of overlapping filaments between segregating chromosomes. The spindle midzone keeps the separated chromosomes apart and helps recruit proteins required for cytokinesis to the site of cell cleavage (
+    <xref ref-type="bibr">
+     Eggert et al., 2006
+    </xref>
+    ). The spindle midzone assembles in part from highly dynamic metaphase spindle microtubules getting incorporated into an array characterized by suppressed filament dynamics (
+    <xref ref-type="bibr">
+     Eggert et al., 2006
+    </xref>
+    ). How a subset of metaphase spindle microtubules are differentially regulated to build the spindle midzone during anaphase is unclear.
+   </p>
+   <p>
+    One possibility is that specific proteins target to the plus-ends of a subset of microtubules and ‘mark’ these filaments for incorporation into the spindle midzone. Two lines of evidence suggest that PRC1 (Protein Required for Cytokinesis-1), a conserved non-motor microtubule associated protein (MAP), may be involved in this process. First, when anaphase is induced in monopolar cells, PRC1 localizes to the plus-end of a parallel microtubule bundle, proximal to the site of cell cleavage (
+    <xref ref-type="bibr">
+     Hu et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shrestha et al., 2012
+    </xref>
+    ). The microtubule end-localization of PRC1 in these monopolar cells depends on kinesin-4, a plus-end directed motor protein that can also suppress filament polymerization dynamics
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Hu et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bieling et al., 2010
+    </xref>
+    ). Second, when midzone formation is partially inhibited in bipolar cells by addition of taxol at anaphase onset, PRC1 localizes to a subset of microtubule ends that are close to the cell center (
+    <xref ref-type="bibr">
+     Shannon et al., 2005
+    </xref>
+    ). How PRC1, a non-motor MAP that has been shown to crosslink anti-parallel microtubules
+    <em>
+     in vitro
+    </em>
+    , targets to the ends of parallel microtubules remains unknown. Further, it is unclear if localization of PRC1 at microtubule ends occurs in unperturbed dividing cells.
+   </p>
+   <p>
+    Our understanding of the molecular mechanisms underlying spindle midzone formation is currently restricted by the lack of structural data for most of the MAPs required to assemble this microtubule-based structure. Thus far, the limited available data has revealed that PRC1’s microtubule interaction depends on a spectrin domain and a Arg/Lys rich C-terminal domain (
+    <xref ref-type="bibr">
+     Subramanian et al., 2010
+    </xref>
+    ). However, the N-terminal half of PRC1 remains structurally uncharacterized. This region of PRC1 has at least two important functions. First, it mediates key protein-protein interactions, such as kinesin-4 and kinesin-6 binding (
+    <xref ref-type="bibr">
+     Kurasawa et al., 2004
+    </xref>
+    ). Second, it is required for PRC1 homodimerization, so that the microtubule-binding domains are at opposite ends and crosslinked filaments are spaced ~ 35 nm apart (
+    <xref ref-type="bibr">
+     Bieling et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Subramanian et al., 2010
+    </xref>
+    ). Recent studies suggest that homodimer formation and consequently PRC1’s microtubule crosslinking is inhibited prior to anaphase by Cdk1 mediated phosphorylation of residues in PRC1’s C-terminal domain (
+    <xref ref-type="bibr">
+     Jiang et al., 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhu et al., 2006
+    </xref>
+    ). However, without additional structural information we cannot properly decipher how PRC1 is regulated and how it contributes to spindle midzone formation.
+   </p>
+   <p>
+    Here we use biochemical and TIRF-microscopy assays and show that PRC1 tags microtubule plus-ends by a kinesin-4 mediated transport-based mechanism. Remarkably, the size of the tags at filament ends increases linearly with microtubule length. We determine the X-ray crystal structure of the PRC1 dimer and map kinesin-4 binding sites to examine how the different protein-protein interactions contribute to the formation of a dynamic plus-end tag. We also find that PRC1 tags microtubule ends in human cells undergoing both chemical inhibitor-induced monopolar and unperturbed bipolar anaphase. In striking agreement with our findings with purified recombinant proteins, the size of these cellular end-tags also increase linearly with microtubule length, suggesting a molecular mechanism by which subsets of microtubules in dividing cells may be measured and marked.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     PRC1 and kinesin-4 tag the ends of single microtubules
+    </title>
+    <p>
+     We first wanted to establish that human PRC1 and kinesin-4, like the Xenopus homologs, interact directly. Studies in cell lysates suggest that a non-motor domain at kinesin-4’s C-terminus can interact with residues at PRC1’s N-terminus (
+     <xref ref-type="bibr">
+      Kurasawa et al., 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zhu and Jiang, 2005
+     </xref>
+     ). Therefore, we purified from bacteria recombinant human PRC1 (aa 1-486, hereafter, PRC1NSΔC), and human kinesin-4 (aa 733-1232, hereafter, kinesin-4ΔN) (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ). Pull-down assays indicated that these proteins bind directly (K
+     <sub>
+      D
+     </sub>
+     = 0.30±0.03 μM) (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       The PRC1-kinesin-4 complex tags the ends of single microtubules
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Schematic of PRC1 and kinesin-4’s domain organization and the constructs used in binding and microscopy assays. PRC1: N-terminal domain (blue); spectrin domain (red); C-terminal domain (black). Kinesin-4: motor domain (blue); coiled coil domain (gray); C-terminal Cys-rich domain (yellow).
+      </p>
+      <p>
+       <strong>
+        (B)
+       </strong>
+       Quantitative analysis of the PRC1-kinesin-4 binding interaction. Plot of the fraction kinesin4ΔN (0.3 μM) bound to varying amounts of PRC1NSΔC (0.5–10 μM) (n = 3, mean ± SD). The data were fit to a hyperbola (see methods) to determine the dissociation constant (K
+       <sub>
+        D
+       </sub>
+       = 0.3 ± 0.03 μM).
+      </p>
+      <p>
+       <strong>
+        (C)
+       </strong>
+       Schematic of the TIRF microscopy assay used for examining GFP-PRC1’s (purple) binding to a single microtubule (red). Microtubules were sparsely labeled with X-Rhodamine and biotin and immobilized on a glass surface (black line) via biotin-neutravidin linkages (black circles).
+      </p>
+      <p>
+       <strong>
+        (D–F)
+       </strong>
+       Representative image shows microtubules
+       <strong>
+        (D)
+       </strong>
+       , associated GFP-PRC1
+       <strong>
+        (E)
+       </strong>
+       and overlay of the two images (red: microtubules; green: PRC1)
+       <strong>
+        (F)
+       </strong>
+       .
+      </p>
+      <p>
+       <strong>
+        (G)
+       </strong>
+       Line-scan of GFP-PRC1-bound microtubule marked by an arrow in Fig. 1F.
+      </p>
+      <p>
+       <strong>
+        (H)
+       </strong>
+       Schematic of the assay used for examining kinesin-4-GFP’s (blue) binding to single microtubules.
+      </p>
+      <p>
+       <strong>
+        (I–K)
+       </strong>
+       Representative image shows microtubules
+       <strong>
+        (I),
+       </strong>
+       associated kinesin-4-GFP
+       <strong>
+        (J)
+       </strong>
+       and overlay of the two images (red: microtubules; green: kinesin-4-GFP)
+       <strong>
+        (K)
+       </strong>
+       .
+      </p>
+      <p>
+       <strong>
+        (L)
+       </strong>
+       Line-scan of kinesin-4-GFP-bound microtubule marked by an arrow in Fig. 1J.
+      </p>
+      <p>
+       <strong>
+        (M)
+       </strong>
+       Schematic of the assay used for examining GFP-PRC1’s (purple) binding to single microtubules in the presence of kinesin-4 (blue).
+      </p>
+      <p>
+       <strong>
+        (N–P)
+       </strong>
+       Representative image shows microtubules
+       <strong>
+        (N),
+       </strong>
+       associated GFP-PRC1 in the presence of kinesin-4
+       <strong>
+        (O)
+       </strong>
+       and overlay of the two images (red: microtubules; green: PRC1)
+       <strong>
+        (P)
+       </strong>
+       .
+      </p>
+      <p>
+       <strong>
+        (Q)
+       </strong>
+       Line-scan of GFP-PRC1 and kinesin-4 bound microtubule marked by an arrow in Fig. 1P. Assay conditions: PRC1 (0.25 nM) and kinesin-4 (1.5 nM, 1 mM MgATP). Scale bars = 2.5 μm. See also
+       <a>
+        Figure S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To examine the targeting of the PRC1-kinesin-4 complex to microtubules we generated recombinant human full-length GFP-labeled (hereafter, GFP-PRC1) and unlabeled PRC1 expressed in bacteria (
+     <xref ref-type="bibr">
+      Subramanian et al., 2010
+     </xref>
+     ), and full-length GFP-labeled (hereafter, kinesin-4-GFP) and unlabeled kinesin-4 expressed in insect cells (
+     <a>
+      Fig. S1A
+     </a>
+     ). Similar to other characterized kinesin-4 proteins (
+     <xref ref-type="bibr">
+      Bieling et al., 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sekine et al., 1994
+     </xref>
+     ), the human protein is a homodimer, based on single protein molecule fluorescence intensity analyses (
+     <a>
+      Fig. S1B
+     </a>
+     ). Human kinesin-4-GFP (3 nM, MgATP 1 mM) accumulated at one end of dynamic microtubules (
+     <a>
+      Figs. S1C–S1D
+     </a>
+     ) and suppressed polymerization dynamics (
+     <a>
+      Figs. S1E–S1F
+     </a>
+     ), similar to the
+     <em>
+      Xenopus laevis
+     </em>
+     homolog (
+     <xref ref-type="bibr">
+      Bieling et al., 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     To examine the distribution of PRC1 and kinesin-4 on single microtubules we used TIRF microscopy-based assays. Non-dynamic taxol-stabilized microtubules were used as kinesin-4 inhibits polymerization dynamics. GFP-PRC1 (0.25 nM) decorated immobilized microtubules and line-scans indicated no spatial bias (
+     <xref ref-type="fig">
+      Figs. 1C–1G
+     </xref>
+     ), as expected (
+     <xref ref-type="bibr">
+      Subramanian et al., 2010
+     </xref>
+     ). Kinesin-4-GFP (1.5 nM, MgATP 1 mM) alone accumulated at the very tips of the microtubules (
+     <xref ref-type="fig">
+      Figs. 1H–1L
+     </xref>
+     ). Remarkably, when both GFP-PRC1 (0.25 nM) and kinesin-4 (1.5 nM, MgATP 1mM) were incubated with single filaments, micron-sized tags at the microtubules ends (hereafter, called end-tags) were almost always observed (98%, N = 100) (
+     <xref ref-type="fig">
+      Figs. 1M–1P
+     </xref>
+     ). Line-scans indicated that GFP-PRC1 end-tags were significantly longer than those that were generated by kinesin-4-GFP alone (
+     <xref ref-type="fig">
+      Figs. 1Q, 1L
+     </xref>
+     ). Using fluorescent PRC1 and kinesin-4 we could show that these MAPs co-localize at end-tags (
+     <a>
+      Figs. S1G–S1I
+     </a>
+     ). Together, our data indicate that kinesin-4 can target PRC1, a non-motor MAP, to form micron-scale end-tags on single microtubules.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Size of the PRC1-kinesin-4 end-tag depends on microtubule length
+    </title>
+    <p>
+     Substantial variation in amount of protein accumulated and the size of the microtubule end-tags generated by PRC1 and kinesin-4 was apparent (
+     <xref ref-type="fig">
+      Figs. 1P
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). For example, a relatively short microtubule (2.8 μm) had a small end-tag (1.6 μm), while a longer filament (20 μm) had a substantially larger end-tag (6 μm) (
+     <xref ref-type="fig">
+      Figs. 2B–2D
+     </xref>
+     ). Therefore, we systematically examined the end-tag intensity for a wide range of filament lengths (2–14 μm) and generated a binned scatter-plot of end-tag intensity versus microtubule-length (
+     <xref ref-type="fig">
+      Fig. 2E
+     </xref>
+     ). These data could be fit to a straight line and indicated that a 7-fold increase in microtubule length results in a ~4.5-fold greater accumulation of GFP-PRC1 at the end-tag (
+     <xref ref-type="fig">
+      Fig. 2E
+     </xref>
+     , red data points and line). While a complete analysis of microtubules longer than 14 μm was not possible due to small sample size, we found that the end-tag intensity increased linearly with filament length even on the longest microtubules that we could analyze (up to 22 μm) (
+     <a>
+      Fig. S2A
+     </a>
+     ). Further, a binned-scatter plot of end-tag length versus microtubule length could also be fit to a straight line whose slope corresponds to the fraction of filament length that is end-tagged (
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     , red data points and line). These analyses indicate that the intensity and size of the end-tags generated by PRC1-kinesin-4 are proportional to microtubule length.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Size of the PRC1-kinesin-4 end-tag depends on microtubule length and protein concentration
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Schematic of the assay used for examining GFP-PRC1’s (purple) binding to single microtubules (red) in the presence of kinesin-4 (blue).
+      </p>
+      <p>
+       <strong>
+        (B–D)
+       </strong>
+       Representative images of microtubules of different lengths
+       <strong>
+        (B)
+       </strong>
+       , associated GFP-PRC1 (0.25 nM)
+       <strong>
+        (C)
+       </strong>
+       and
+       <strong>
+        (D)
+       </strong>
+       overlay of the two images (red: microtubules; green: PRC1). Kinesin-4 was at 1.5 nM.
+      </p>
+      <p>
+       <strong>
+        (E)
+       </strong>
+       Plot of end-tag intensity as a function of microtubule length in assays with kinesin-4 (1.5 nM) and GFP-PRC1: 0.1 nM (blue; slope = 756±56 a.u./μm, N = 195), 0.25 nM (red; slope = 1960±182 a.u./μm, N = 236), 0.5 nM (black; slope = 3561±183 a.u./μm, N = 275).
+      </p>
+      <p>
+       <strong>
+        (F)
+       </strong>
+       Plot of end-tag length as a function of microtubule length in assays with kinesin-4 (1.5 nM) and GFP-PRC1: 0.1 nM (blue; slope = 0.22±0.02, N = 195), 0.25 nM (red; slope = 0.26±0.02, N = 236) and 0.5 nM (black; slope = 0.42±0.02, N = 275).
+      </p>
+      <p>
+       <strong>
+        (G)
+       </strong>
+       Schematic of the assay used for examining kinesin-4-GFP’s binding to single microtubules.
+      </p>
+      <p>
+       <strong>
+        (H–J)
+       </strong>
+       Representative image of a microtubule
+       <strong>
+        (H)
+       </strong>
+       , associated kinesin-4-GFP (1.5 nM)
+       <strong>
+        (I)
+       </strong>
+       and overlay of the two images (red: microtubules; green: kinesin-4)
+       <strong>
+        (J)
+       </strong>
+       .
+      </p>
+      <p>
+       <strong>
+        (K)
+       </strong>
+       Schematic of the assay used for examining kinesin-4-GFP’s binding to single microtubules in the presence of PRC1.
+      </p>
+      <p>
+       <strong>
+        (L–N)
+       </strong>
+       Representative image of a microtubule
+       <strong>
+        (L)
+       </strong>
+       , associated kinesin-4-GFP (1.5 nM) in the presence PRC1 (0.4 nM)
+       <strong>
+        (M)
+       </strong>
+       , and overlay of the two images (red: microtubules; green: kinesin-4)
+       <strong>
+        (N)
+       </strong>
+       .
+      </p>
+      <p>
+       <strong>
+        (O)
+       </strong>
+       Plot of end-tag intensity as a function of microtubule length in assays with GFP-kinesin-4 (1.5 nM) and PRC1: 0 nM (blue; slope = 2116±171 a.u./μm, N =116), 0.1 nM (red; slope = 3085±357 a.u./μm, N =119) or 0.4 nM (black; slope = 5337±126 a.u./μm, N =172).
+      </p>
+      <p>
+       <strong>
+        (P)
+       </strong>
+       Plot of end-tag length as a function of microtubule length in assays with GFP-kinesin-4 (1.5 nM) and PRC1: 0 nM (blue; slope = 0.09±0.007, N =116), 0.1 nM (red; slope = 0.12±0.005, N =119) or 0.4 nM (black; slope = 0.27±0.03, N =172).
+      </p>
+      <p>
+       All experiments include 1mM MgATP. Error bars are standard deviations. Scale bar = 2.5 μm.
+      </p>
+      <p>
+       See also
+       <a>
+        Figure S2
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next examined the dependence of end-tag intensity and size on PRC1 concentration. Plots of end-tag intensity and length could be fit to straight lines whose slopes increased with GFP-PRC1 concentration (
+     <xref ref-type="fig">
+      Figs. 2E–2F
+     </xref>
+     ). Together, these analyses show that at higher PRC1 concentrations, the end-tags contained a greater number of PRC1 molecules and occupy a larger fraction of the microtubule length.
+    </p>
+    <p>
+     We next quantitatively analyzed the distribution of kinesin-4 at microtubule end-tags. In the absence of PRC1 (
+     <xref ref-type="fig">
+      Figs. 2G–2J
+     </xref>
+     ), the intensity of the end-tags formed by the motor protein exhibited a weak dependence on filament-length (
+     <xref ref-type="fig">
+      Fig. 2O
+     </xref>
+     , blue data points and line). Addition of PRC1 and kinesin-4-GFP (
+     <xref ref-type="fig">
+      Figs. 2K–2N
+     </xref>
+     ) resulted in a concentration-dependent increase in the end-tag intensity (
+     <xref ref-type="fig">
+      Fig. 2O
+     </xref>
+     ). In the absence of PRC1, the kinesin-4-GFP end-tag was less than 10% of microtubule length (
+     <xref ref-type="fig">
+      Fig. 2P
+     </xref>
+     , blue data points and line). As expected, we observed a PRC1 concentration-dependent increase in the fraction of microtubule length that was end-tagged by kinesin-4-GFP (
+     <xref ref-type="fig">
+      Fig. 2P
+     </xref>
+     ).
+    </p>
+    <p>
+     We next computed end-tag density, i.e. fluorescence intensity per unit length. We find that end-tag density is independent of filament length (
+     <a>
+      Fig. S2B
+     </a>
+     ) and is not significantly altered by increasing PRC1 concentration (
+     <a>
+      Fig. S2C
+     </a>
+     ). This constant density at the end-tag is likely due to the finite number of tubulin binding sites per unit filament length. Together, these data indicate that as PRC1 concentration or microtubule length is increased, a greater number of PRC1 and kinesin-4 molecules occupy increasing numbers of proximal binding sites on tubulin to yield longer end-tags.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PRC1-kinesin-4 microtubule end-tags are dynamic steady-state structures
+    </title>
+    <p>
+     We next examined how PRC1-kinesin-4 microtubule end-tags are established and maintained. For this analysis we generated fluorescence time-lapse images immediately after addition of GFP-PRC1 and kinesin-4 to immobilized microtubules (
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ). Time-lapse sequences revealed that the end-tag initiates at the microtubule tip (
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ) and grows by expanding towards the other end of the filament until it reaches a constant length (
+     <xref ref-type="fig">
+      Fig. 3C
+     </xref>
+     ). Kymograph generated from the time-lapse sequence in
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     shows that in ~3 mins the end-tag is 2.5 μm, after which there is no further increase in size (
+     <xref ref-type="fig">
+      Fig. 3D
+     </xref>
+     ). Continuous streaming of the GFP-signal along the microtubule towards the end-tag is apparent during end-tag growth and after constant length is reached (
+     <xref ref-type="fig">
+      Fig. 3E
+     </xref>
+     ). These observations suggest that steady state end-tags form by directional transport of GFP-PRC1 to microtubule plus-ends by kinesin-4.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       PRC1-kinesin-4 microtubule end-tags are dynamic steady-state structures
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Schematic of the assay used for examining end-tag formation by GFP-PRC1 (purple) and kinesin-4 (blue) on single microtubules (red).
+      </p>
+      <p>
+       <strong>
+        (B–C)
+       </strong>
+       Image of a microtubule
+       <strong>
+        (B)
+       </strong>
+       and associated GFP-PRC1
+       <strong>
+        (C)
+       </strong>
+       from a time-lapse sequence acquired during end-tag formation. Assay conditions: PRC1 (0.1 nM) and kinesin-4 (1.5 nM).
+      </p>
+      <p>
+       <strong>
+        (D)
+       </strong>
+       Kymograph corresponding to the time-lapse sequence in Fig. 3C.
+      </p>
+      <p>
+       <strong>
+        (E)
+       </strong>
+       Portion of the boxed region (yellow dashed rectangle) in Fig. 3D. Image contrast (greyscale) is adjusted to highlight the GFP-PRC1 signal along the microtubule.
+      </p>
+      <p>
+       <strong>
+        (F)
+       </strong>
+       Schematic of the ‘pulse-chase’ type assay for examining GFP-PRC1 dynamics at the end-tag.
+      </p>
+      <p>
+       <strong>
+        (G–H)
+       </strong>
+       Image of a microtubule
+       <strong>
+        (G)
+       </strong>
+       and associated GFP-PRC1
+       <strong>
+        (H)
+       </strong>
+       from a time-lapse sequence acquired after addition of unlabeled proteins to microtubules end-tagged with GFP-PRC1 and kinesin-4. Assay conditions: PRC1 (0.15 nM) and kinesin-4 (0.5 nM).
+      </p>
+      <p>
+       <strong>
+        (I)
+       </strong>
+       Kymograph corresponding to the time-lapse sequence in Fig. 3H.
+      </p>
+      <p>
+       All assays include 1mM MgATP. Scale bars: distance = 2.5 μm; time = 20 s.
+      </p>
+      <p>
+       See also
+       <a>
+        Figure S3
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The constant length of end-tags generated by kinesin-4 and PRC1, in the face of persistent transport, suggest protein turnover at the end-tag. To directly examine this, we performed a ‘pulse-chase’ type experiment. First, we generated end-tagged microtubules with GFP-PRC1 and kinesin-4. Once a constant steady-state end-tag length was established, the chamber was flushed with an equivalent concentration of non-fluorescent PRC1 and kinesin-4 (
+     <xref ref-type="fig">
+      Fig. 3F
+     </xref>
+     ). We find that the GFP-signal at the end-tag was first lost distal to the microtubule tip and then signal loss propagated towards the tip (
+     <xref ref-type="fig">
+      Fig. 3G–3I
+     </xref>
+     ). To directly visualize and confirm the exchange of GFP-PRC1 at the end-tag, we repeated this ‘pulse-chase’ experiment using PRC1 labeled with two different fluorescent tags (
+     <a>
+      Fig. S3A–D
+     </a>
+     ). Together, our findings indicate that the end-tags generated by PRC1 and kinesin-4 are dynamic steady-state assemblies resulting from constant binding along the microtubule lattice, transport to plus-ends, and dissociation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The PRC1 homodimer is an elongated rod-shaped molecule
+    </title>
+    <p>
+     To examine the molecular basis of how PRC1 and kinesin-4 interact to generate microtubule length- and protein concentration-dependent end-tags, we obtained crystals of PRC1NSΔC (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). This construct contains the microtubule-interacting spectrin domain (aa 351-466) as well as all the residues at PRC1’s N-terminus. The structure of PRC1NSΔC was determined by single anomalous dispersion experiments using a selenomethionine derivative crystal that diffracted to 3.6 Å (
+     <a>
+      Table S1
+     </a>
+     ). The asymmetric unit in the crystal comprised of two polypeptides that form the PRC1 homodimer. Twenty six of the thirty selenium sites in the asymmetric unit were identified and used to aid model building (
+     <a>
+      Figs. S4A, S4B
+     </a>
+     ). Crystal of the native protein diffracted to 3.3 Å. The main chain atoms of most of the N-terminal 486 residues in PRC1-NSΔC could be assigned, except the C-terminal 36 residues that were disordered in the crystal and not included in the final model (
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     ).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       PRC1 is an elongated rod-shaped molecule
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Schematic of PRC1’s domain organization and the construct used for x-ray crystallography (blue and orange: N-terminal domains; red: spectrin domain; black: C-terminal unstructured domain).
+      </p>
+      <p>
+       <strong>
+        (B)
+       </strong>
+       Ribbon diagram shows the structure of a single PRC1 polypeptide within the homodimer. Dimerization domain (blue): helices H1-H2 and loop L1, rod domain (orange): helices H2-H7 and loops L2-L6, spectrin domain (red): helices H7-H9 and loops L7-L8.
+      </p>
+      <p>
+       <strong>
+        (C)
+       </strong>
+       Secondary structure topology map corresponding to the ribbon diagram in Fig. 4B.
+      </p>
+      <p>
+       <strong>
+        (D)
+       </strong>
+       Examples of contacts between helices and loops mediated by conserved amino acid residues in the rod-domain of PRC1. Sidechain atoms of key amino-acid residues (labeled) in view are shown (N: blue; O: red; S: yellow, C: colored by percent conservation as in the scale bar).
+       <strong>
+        (i)
+       </strong>
+       Conserved contacts between helix H3 and helix H4.
+       <strong>
+        (ii)
+       </strong>
+       Conserved contacts between helix H4, helix H5 and loop L4.
+      </p>
+      <p>
+       See also
+       <a>
+        Figure S4
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The structure of each of the monomers in the PRC1-NSΔC homo-dimer can be divided into dimerization (aa 1-66, blue), rod (aa 67-350, orange), and spectrin domains (aa 352-466, red) (
+     <xref ref-type="fig">
+      Figs. 4B, 4C
+     </xref>
+     ). The spectrin domain in this structure is very similar (rmsd = 2.4 Å) to the x-ray structure of a truncated construct of this domain alone (PDB ID: 3NRY). This domain is connected to the rod domain by helix H7, which is one of the three helices that comprise the spectrin fold. The rod domain is linked to the dimerization domain by helix H2, which makes extensive hydrophobic interactions with conserved residues in proximal helices and loops (
+     <a>
+      Fig. S4C
+     </a>
+     ). These three domains, which include nine long helices (26-51 aa each), form an extended structure that is 22 nm long (
+     <xref ref-type="fig">
+      Figs. 4B, 4C
+     </xref>
+     ).
+    </p>
+    <p>
+     The rod domain is the longest of the three domains in PRC1. Two types of interactions are present between the helices (H2-H7) and loops (L2-L6) in this domain. First, the helices are staggered such that the mid-point of each is proximal to the C-terminus of the preceding helix and N-terminus of the one following it (
+     <xref ref-type="fig">
+      Figs. 4B, 4C
+     </xref>
+     ), resulting in two separate and extensive coiled-coil interactions per long helix. For example, residues in helix H3 (aa 69-82) and helix H4 (aa 103-114) form a large interaction surface that includes contacts between hydrophobic residues (e.g. H3: Ile69, Leu79, and H4: Leu103, Val107) and a salt-bridge (e.g. H3: Glu82 and H4: Lys114) (
+     <xref ref-type="fig">
+      Fig. 4D(i)
+     </xref>
+     ). Second, throughout the rod domain the residues connecting the long helices form loops or short helices and make extensive contacts at the junctions and contribute to structural stabilization (
+     <xref ref-type="fig">
+      Figs. 4D(ii)
+     </xref>
+     ,
+     <a>
+      S4D
+     </a>
+     ). For example, at the intersection of helices H4 and H5, residues from a short helix in L4 (Phe196, Val204) contact residues in the long helices H4 (Ile181, Leu182) and H5 (Leu218, L221) form a network of hydrophobic interactions (
+     <xref ref-type="fig">
+      Fig. 4D(ii)
+     </xref>
+     ). These structural features are likely to result in an extended molecule comprised of interlinked motifs.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PRC1 dimerization is mediated by bisecting helix-turn-helix motifs
+    </title>
+    <p>
+     At PRC1’s N-terminus is a short domain that links the two monomers to form a homodimer with the microtubule binding surface within each spectrin domain separated by 32 nm (
+     <xref ref-type="fig">
+      Fig. 5A
+     </xref>
+     ). This distance is comparable to the observed ~35 nm inter-filament spacing in electron micrographs of PRC1 crosslinked microtubules, suggesting that single PRC1 homodimers can bridge two crosslinked filaments (
+     <xref ref-type="bibr">
+      Subramanian et al., 2010
+     </xref>
+     ).
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       PRC1 dimerization is mediated by bisecting N-terminal helix-based hairpins
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Ribbon diagram of the PRC1NSΔC dimer. The two monomers that form the homodimer are colored red and blue.
+      </p>
+      <p>
+       <strong>
+        (B)
+       </strong>
+       Enlarged view of PRC1’s dimerization domain. Boxed sections are further enlarged in insets (i) and (ii). The views shown in the insets were generated by rotating the structure as indicated. Sidechain atoms of key amino-acid residues (labeled) mediating the interactions in PRC1’s dimerization domain are shown (N: blue; O: red; S: yellow, C: green).
+      </p>
+      <p>
+       <strong>
+        (C)
+       </strong>
+       Schematic of the constructs generated to test PRC1’s dimerization.
+      </p>
+      <p>
+       <strong>
+        (D)
+       </strong>
+       Elution profiles from size-exclusion chromatography of constructs PRC1NSΔC (gray), PRC1ΔN1SΔC (cyan), PRC1ΔN2SΔC (blue), PRC1ΔN3SΔC (black).
+      </p>
+      <p>
+       See also
+       <a>
+        Figure S5
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The dimerization domain is comprised of 66 amino-acids and forms a ‘U’-shaped hairpin that includes helix H1, a short loop L1, and the N-terminal half of helix H2 (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). Bisecting hairpins from each monomer assemble into a 4-helix bundle (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ,
+     <a>
+      S4A
+     </a>
+     ) that is unlike the more commonly seen side-by-side organization of helical hairpins (
+     <xref ref-type="bibr">
+      Hill et al., 2000
+     </xref>
+     ). The dimerization interface, which buries a surface area of ~1700 Å
+     <sup>
+      2
+     </sup>
+     , includes a hydrophobic core formed by conserved aliphatic amino acids (e.g. Leu22 in H1 and, residues Val43, Ile47, Leu51, Met54, Ile55 in H2) (
+     <xref ref-type="fig">
+      Figs. 5B(i)
+     </xref>
+     ,
+     <a>
+      S5A
+     </a>
+     ), capped by amino acids mediating hydrophobic (e.g. Trp26, Ile29, Ile31, Leu65) and electrostatic (e.g. salt bridge between Arg40 and Glu27) interactions (
+     <xref ref-type="fig">
+      Fig. 5B(ii)
+     </xref>
+     ).
+    </p>
+    <p>
+     To test our structural model for PRC1 dimerization, we expressed in bacteria and purified three constructs: (1) PRC1ΔN1SΔC (aa 19-486), which excludes the first half of helix H1, (2) PRC1ΔN2SΔC (aa 41-486), which excludes helix H1 and loop L1 and (3) PRC1ΔN3SΔC (aa 67-486), which lacks the entire dimerization domain (
+     <xref ref-type="fig">
+      Figs. 5C
+     </xref>
+     ,
+     <a>
+      S5B
+     </a>
+     ). Size-exclusion chromatography analysis indicated PRC1ΔN1SΔC exists in solution as a stable dimer, while PRC1ΔN2SΔC and PRC1ΔN3SΔC do not (
+     <xref ref-type="fig">
+      Fig. 5D
+     </xref>
+     ). Light scattering analysis of PRC1ΔN3SΔC was used to confirm that this construct is indeed a monomer in solution (
+     <a>
+      Fig. S5C
+     </a>
+     ). Together, these data indicate that a short hairpin at PRC1’s N-terminus is necessary for its dimerization
+     <em>
+      in vitro
+     </em>
+     and orients two rod domains in opposite directions to crosslink microtubules and recruit other proteins, such as kinesin-4.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Kinesin-4 interactions depend on the dimerization and the rod domain of PRC1
+    </title>
+    <p>
+     We next examined how kinesin-4 interacts with the extended homodimeric PRC1 structure. For these experiments we used the structural data to design a series of deletions in PRC1 and used pull-down their interaction with kinesin-4’s C-terminus non-motor domain (kinesin-4ΔN) (
+     <xref ref-type="fig">
+      Figs. 6A
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The recombinant PRC1 constructs used were found to be well-behaved soluble proteins in solution (
+     <xref ref-type="fig">
+      Figs. 6A
+     </xref>
+     ,
+     <a>
+      S6A
+     </a>
+     ).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       The size of kinesin-4-PRC1 end-tag depends on the strength of the PRC1-microtubule interaction
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Schematic of PRC1 deletion constructs used in binding assays with the non-motor domain at kinesin-4’s C-terminus (kinesin4ΔN: aa 733-1232).
+      </p>
+      <p>
+       <strong>
+        (B)
+       </strong>
+       SDS-PAGE of the fraction of kinesin4ΔN (1 μM) bound to PRC1 constructs (5 μM) shown in
+       <xref ref-type="fig">
+        Fig. 1A
+       </xref>
+       .
+      </p>
+      <p>
+       <strong>
+        (C, D)
+       </strong>
+       Band intensities from gels were used to determine fraction kinesin4ΔN bound to the PRC1 constructs in Fig. 6A, and plotted against varying PRC1 concentration (n = 3, mean ± SD). The data were fit to a hyperbola to estimate the dissociation constant (K
+       <sub>
+        D
+       </sub>
+       ). PRCΔN1SΔC: K
+       <sub>
+        D
+       </sub>
+       = 0.21 ± 0.01 μM; PRC1ΔN2SΔC: K
+       <sub>
+        D
+       </sub>
+       = 1.6 ± 0.11 μM; PRC1NSΔC5: K
+       <sub>
+        D
+       </sub>
+       = 0.3 ± 0.06 μM; PRC1NSΔC4: K
+       <sub>
+        D
+       </sub>
+       = 0.3 ± 0.04 μM; PRC1NSΔC3: K
+       <sub>
+        D
+       </sub>
+       = 1.2 ± 0.4 μM; PRC1NSΔC2: K
+       <sub>
+        D
+       </sub>
+       = 2.3 ± 0.6 μM.
+      </p>
+      <p>
+       <strong>
+        (E)
+       </strong>
+       Ribbon diagram of the structure of the PRC1NSΔC dimer with the dimerization domain (blue) and the portion of the rod-domain (orange) involved in kinesin4ΔN binding highlighted. Estimated K
+       <sub>
+        D
+       </sub>
+       ’s for constructs that terminate at different positions (black line) along PRC1’s rod domain are indicated.
+      </p>
+      <p>
+       <strong>
+        (F)
+       </strong>
+       Schematic of the constructs generated to examine the effect of PRC1’s microtubule binding on plus-end tagging (blue: dimerization domain; orange: rod domain; red: spectrin domain; black: unstructured domain).
+      </p>
+      <p>
+       <strong>
+        (G–R)
+       </strong>
+       Representative images of a microtubule
+       <strong>
+        (G, J, M, P)
+       </strong>
+       , associated
+       <strong>
+        (H)
+       </strong>
+       GFP-PRC1 (0.5 nM),
+       <strong>
+        (K)
+       </strong>
+       GFP-PRC1NSΔC (0.5 nM),
+       <strong>
+        (N)
+       </strong>
+       GFP-PRC1NSΔC4 (0.5 nM) and
+       <strong>
+        (Q)
+       </strong>
+       GFP-PRC1NSΔC4 (3 nM), and overlay of the two images (red: microtubules; green: PRC1)
+       <strong>
+        (I, L, O, R)
+       </strong>
+       . Assay includes kinesin-4 (1.5 nM, 1 mM MgATP).
+      </p>
+      <p>
+       <strong>
+        (S)
+       </strong>
+       Plot of end-tag intensity as a function of microtubule length in this assay: GFP-PRC1 (0.5 nM; black; slope = 1864 ±104 a.u./μm, N =100), GFP-PRC1NSΔC (0.5 nM; red; slope = 1051±93 a.u./μm, N =144), GFP-PRC1NSΔC4 (0.5 nM; blue; slope = 154±16 a.u./μm, N =148) or GFP-PRC1NSΔC4 (3.0 nM; green; slope = 465±11 a.u./μm, N =114).
+      </p>
+      <p>
+       <strong>
+        (T)
+       </strong>
+       Plot of end-tag length as a function of microtubule length in this assay: GFP-PRC1 (0.5 nM; black; slope = 0.36 ±0.004, N =100), GFP-PRC1NSΔC (0.5 nM; red; slope = 0.21±0.008 a.u./μm, N =144), GFP-PRC1NSΔC4 (0.5 nM; blue; slope = 0.06±0.005, N =148) or GFP-PRC1NSΔC4 (3.0 nM; green; slope = 0.06±0.006 a.u./μm, N =114).
+      </p>
+      <p>
+       Scale bar = 2.5μm. Errors are standard deviations.
+      </p>
+      <p>
+       See also
+       <a>
+        Figure S6
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     First, we examined PRC1 constructs with truncated dimerization domains. The dimeric construct PRC1ΔN1SΔC (aa: 19-486) bound kinesin-4ΔN with the same affinity as PRC1NSΔC (aa: 1-486) (
+     <xref ref-type="fig">
+      Figs. 6B
+     </xref>
+     (lane b), 1B). The monomeric constructs PRC1ΔN2SΔC (aa: 41-486), had an ~6-fold lower affinity for kinesin-4ΔN, while PRC1ΔN3SΔC (aa: 67-486) did not reveal any kinesin-4ΔN binding (
+     <xref ref-type="fig">
+      Figs. 6B
+     </xref>
+     (lanes c–d),
+     <xref ref-type="fig">
+      6C
+     </xref>
+     ).
+    </p>
+    <p>
+     Second, we examined PRC1 constructs with intact dimerization domain and truncated rod domains. The dimerization domain of PRC1 (PRC1NSΔC1; aa 1-66) alone was not sufficient for binding kinesin-4ΔN (
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     (lane e)). Inclusion of helices H2, H3 and the N-terminal half of H4 in the rod domain restored kinesin-4ΔN binding, albeit with 4–8 fold weaker affinity (PRC1NSΔC2 (aa 1-117) and PRC1NSΔC3 (aa 1-168);
+     <xref ref-type="fig">
+      Figs. 6B
+     </xref>
+     (lanes f, g),
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Binding affinity comparable to PRC1NSΔC (aa 1-486) was restored in a construct terminated at the midpoint of helix H5 (PRC1NSΔC4 (aa 1-231);
+     <xref ref-type="fig">
+      Figs. 6B
+     </xref>
+     (lane h),
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). No further increase in affinity was achieved by including additional residues in the rod-domain (PRC1NSΔC5 (aa 1-303);
+     <xref ref-type="fig">
+      Figs. 6B
+     </xref>
+     (lane i),
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). In addition, a construct that did not include the rod domain but contained both the microtubule binding domains in PRC1 (PRC1SC (aa 303-620)) showed no kinesin-4 binding (
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     (lane j)). Together, these analyses show that while the microtubule binding domains are dispensable for the PRC1-kinesin-4 interaction, the dimerization domain and half of the rod-domain are important (
+     <xref ref-type="fig">
+      Fig. 6E
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PRC1-microtubule interaction-dependent end-tagging by the PRC1-kinesin-4 complex
+    </title>
+    <p>
+     How do interactions between domains at PRC1’s N-terminus and the non-motor domain at kinesin-4’s C-terminus generate microtubule length-dependent end-tags? To address this we examined the interaction of single kinesin-4-GFP molecules with microtubules in the absence and presence of PRC1. We found that while kinesin-4-GFP alone moved only short distances before dissociation (
+     <a>
+      Fig. S6B
+     </a>
+     ), the addition of PRC1 resulted in long unidirectional kinesin-4-GFP ‘runs’ (
+     <a>
+      Fig. S6C
+     </a>
+     ). As a large fraction of these ‘runs’ terminated at the end-tag, accurate measurements of run-length distributions was not possible. Nonetheless, our data suggest that the run-length of the PRC1-kinesin-4 complex is at least 4-fold greater than that of kinesin-4 alone.
+    </p>
+    <p>
+     The PRC1-kinesin-4 interaction may either increase kinesin-4’s microtubule run-lengths by an allosteric mechanism or by providing additional tubulin-binding sites. To distinguish between these mechanisms, we compared filament end-tagging in TIRF assays with three different PRC1 constructs that have the same affinity for kinesin-4 but differ in their microtubule interaction (GFP-PRC1 (aa 1-620), GFP-PRC1NSΔC (aa 1-486) and GFP-PRC1NSΔC4 (aa 1-231)) (
+     <xref ref-type="fig">
+      Fig. 6F
+     </xref>
+     ). First, we examined the microtubule binding of these PRC1 constructs in the absence of kinesin-4. GFP-PRC1NSΔC, which includes the spectrin domain but lacks the unstructured domain at PRC1’s C-terminus, showed 20-fold weaker filament binding compared to the full length protein GFP-PRC1 (
+     <a>
+      Figs. S6D–S6I, S6M
+     </a>
+     ). Microtubule binding could not be detected for a construct (GFP-PRC1NSΔC4) that lacked both the spectrin and the unstructured C-terminal domain in PRC1 (
+     <a>
+      Figs. S6J–S6L
+     </a>
+     ). Next, we compared the intensity and length of the end-tags generated by each of these PRC1 constructs in the presence of kinesin-4 (
+     <xref ref-type="fig">
+      Figs. 6G–6O
+     </xref>
+     ). Plots of end-tag intensity versus microtubule length showed that the amount of protein at the end-tag increases with PRC1-microtubule affinity (
+     <xref ref-type="fig">
+      Fig. 6S
+     </xref>
+     ). Plots of the end-tag length versus microtubule length showed the same trend (
+     <xref ref-type="fig">
+      Fig. 6T
+     </xref>
+     ). These results suggest that the intensity and size of PRC1-kinesin-4 end-tags depend on PRC1’s microtubule binding affinity (
+     <a>
+      Fig. S6N
+     </a>
+     ).
+    </p>
+    <p>
+     We noted that the length of end-tags formed by kinesin-4 and the construct that does not bind microtubules (GFP-PRC1NSΔC4) was similar to that of short end-tags generated by kinesin-4-GFP in the absence of PRC1 (blue data points and line in
+     <xref ref-type="fig">
+      Fig. 2P
+     </xref>
+     ). We examined if more PRC1NSΔC4 accumulated to form longer end-tags at a 6-fold higher concentration of this construct (3 nM) in the presence of kinesin-4 (1.5 nM) (
+     <xref ref-type="fig">
+      Figs. 6P–6R
+     </xref>
+     ). Plots of end-tag intensity and length versus microtubule length showed that while more GFP-PRC1NSΔC4 molecules were recruited to the end-tag by kinesin-4 at the higher protein concentration, the length of the end-tag was not significantly altered (green data points and line in
+     <xref ref-type="fig">
+      Figs. 6S, 6T
+     </xref>
+     ). These data indicate that the formation of short end-tags when PRC1-kinesin-4 interaction is retained but PRC1-microtubule binding is lost is determined by kinesin-4 alone. Together, these data suggest that PRC1’s microtubule binding domains increases the affinity of kinesin-4-microtubule interaction, thereby allowing the protein complex to move long distances along the filament to generate length-dependent end-tags (see discussion).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Length-dependent microtubule end-tagging in dividing cells
+    </title>
+    <p>
+     We next examined if length dependent end-tagging by PRC1 could be observed in dividing human cells. We first analyzed PRC1 localization in cells undergoing a monopolar cytokinesis. When cells enter anaphase in the monopolar configuration, the radial microtubule array polarizes and PRC1 is recruited to the site of cell cleavage in a kinesin-4 dependent manner (
+     <xref ref-type="bibr">
+      Canman et al., 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hu et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shrestha et al., 2012
+     </xref>
+     ). We reasoned that the monopolar configuration is suited for quantitative analysis of end-tags, as microtubule plus-ends are not buried in the spindle midzone. We used immunofluorescence and 3-D reconstruction image deconvolution microscopy to localize microtubules and PRC1 in cells treated with a kinesin-5 inhibitor followed by a Cdk inhibitor. We focused on cells at early anaphase that had polarized microtubule arrays, but furrow ingression was not apparent. In these cells, PRC1 generated microtubule end-tags, and longer filaments frequently had longer end-tags (
+     <xref ref-type="fig">
+      Fig. 7A–7C
+     </xref>
+     and insets). We quantitatively analyzed these images to determine the length of microtubules and end-tags, and focused on microtubules that were not buried within regions of high filament density. Microtubule lengths were measured using an intensity-threshold based approach, as a reliable fiduciary marker of minus-ends is not available. The size of end-tags ranged from 0.5 to 4.5 μm, similar to those observed in our
+     <em>
+      in vitro
+     </em>
+     TIRF-based assays. Remarkably, a scatter plot of the data revealed that end-tag lengths increased linearly with microtubule length during anaphase in monopolar cells (
+     <xref ref-type="fig">
+      Fig. 7D
+     </xref>
+     )
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       Microtubule end-tagging in dividing cells during anaphase
+      </strong>
+      <p>
+       <strong>
+        (A–C)
+       </strong>
+       Analysis of PRC1 localization in monopolar anaphase cells by immunofluorescence. Maximum intensity projections of DNA (blue), tubulin (green), PRC1 (red) and an overlay of the three images are shown. Insets: 2-fold enlargement of the outlined regions (white dashed rectangle) in the overlay image. Maximum intensity projections were generated from optical sections spanning the microtubule in the region.
+      </p>
+      <p>
+       <strong>
+        (D)
+       </strong>
+       Plot of end-tag length as a function of microtubule length in monopolar cells undergoing anaphase (n = 48; slope = 0.4±0.02).
+      </p>
+      <p>
+       <strong>
+        (E–G)
+       </strong>
+       Analysis of PRC1 localization in bipolar anaphase cells by immunofluorescence. Maximum intensity projections of DNA (blue), tubulin (green), PRC1 (red) and an overlay of the three images are shown. Insets: 3-fold enlargement of the outlined regions (white dashed rectangle) in the overlay image. Maximum intensity projections were generated from optical sections spanning the microtubule in the region.
+      </p>
+      <p>
+       <strong>
+        (H–I)
+       </strong>
+       Analysis of anaphase cells expressing GFP-PRC1 by live imaging (Left: DIC, Right: fluorescence). Insets: 2-fold enlargement of the outlined regions (white dashed rectangle) in the fluorescence image. Maximum intensity projections were generated from optical sections spanning the fluorescence signal in the region.
+      </p>
+      <p>
+       <strong>
+        (J)
+       </strong>
+       Plot of end-tag length as a function of microtubule length in bipolar cells undergoing anaphase (n = 17; slope = 0.35±0.06).
+      </p>
+      <p>
+       <strong>
+        (K–L)
+       </strong>
+       A model for the formation of filament length dependent microtubule end-tags by PRC1 and kinesin-4. PRC1 (purple) is transported to the filament plus-end by kinesin-4 (blue) along a microtubule (α and β-tubulin are colored red and white respectively; only one protofilament is shown for clarity). PRC1-kinesin-4 molecules persist at the filament end forming an ‘end-tag’. Additional molecules are transported to filament end and ‘line-up’ behind the previously occupied tubulin sites [i–iii]. Eventually a steady-state is reached when the number of PRC1-kinesin-4 molecules transported to microtubule ends equals the number of molecules lost due to unbinding [iv–vi]
+       <strong>
+        (K).
+       </strong>
+       Smaller end-tags form on shorter microtubules due to fewer PRC1-kinesin-4 binding sites on the lattice
+       <strong>
+        (L)
+       </strong>
+       .
+      </p>
+      <p>
+       Scale bar = 2.5 μm.
+      </p>
+      <p>
+       See also
+       <a>
+        Figure S7
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To examine if any PRC1 end-tags could be observed in bipolar anaphase cells, we used immunofluorescence to track microtubules and PRC1 in cells undergoing bipolar anaphase. As expected, PRC1 localized at the spindle midzone (
+     <xref ref-type="bibr">
+      Mollinari et al., 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zhu et al., 2006
+     </xref>
+     ). Remarkably, in nearly all early anaphase cells examined, PRC1 also tagged the ends of microtubules that were not part of the spindle midzone array (
+     <xref ref-type="fig">
+      Fig. 7E–7G
+     </xref>
+     ). End-tags were observed on bundled or single filaments, oriented away from the cell center, and therefore unlikely to be microtubules with antiparallel overlap (e.g.
+     <xref ref-type="fig">
+      Fig. 7E
+     </xref>
+     inset). We also examined end-tagging by live-cell imaging in retroviral stable RPE1 cell lines expressing GFP-tagged full length PRC1 (
+     <a>
+      Figs. S7A–S7C
+     </a>
+     ). To image this GFP-PRC1 construct at close to physiological expression levels, we depleted endogenous PRC1 (
+     <a>
+      Figs. S7B–S7C
+     </a>
+     ; see methods). Consistent with our observations by immunofluorescence, in addition to the midzone accumulation of GFP-PRC1, we observed micron-size regions of GFP-PRC1 signal away from the cell center during early anaphase (
+     <xref ref-type="fig">
+      Fig. 7H–7I
+     </xref>
+     and insets). However, further analysis of end-tags in live cells was restricted as we lack cell lines stably expressing both GFP-PRC1 and fluorescent tubulin. Therefore, we quantified end-tag and microtubule length in images obtained from immunofluorescence analysis. End-tags on microtubules not buried within regions of high microtubule density ranged from 0.5 to 3.5 μm, similar to that observed in monopolar cells and our
+     <em>
+      in vitro
+     </em>
+     reconstitution assays. Scatter plot of these data indicated that over a range of microtubule lengths (1 to 8 μm) the end-tag size scaled linearly (
+     <xref ref-type="fig">
+      Fig. 7J
+     </xref>
+     ). Together, our findings reveal that in dividing cells PRC1 localizes to microtubule ends in a length-dependent manner, and this property can be recapitulated with recombinant PRC1 and kinesin-4
+     <em>
+      in vitro
+     </em>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    Our biochemical and structural studies reveal how interactions between the conserved non-motor MAP, PRC1, and the motor protein, kinesin-4, generate filament length-dependent tags at microtubule plus-ends. Consistent with our biochemical analysis, PRC1 tags ends of microtubules in dividing cells and the size of these tags increases linearly with filament length. Together, these findings suggest a molecular mechanism that can differentially mark and selectively regulate a subset of microtubules during cell division.
+   </p>
+   <p>
+    Based on our data we propose a model for how PRC1 and kinesin-4 establish microtubule length-dependent end-tags. PRC1 and kinesin-4 form a stable and high-affinity complex in solution. PRC1-kinesin-4 could stochastically bind along a single microtubule and be transported to the filament plus-end by kinesin-4 (
+    <xref ref-type="fig">
+     Fig. 7K [i]
+    </xref>
+    ). A fraction of these complexes would dissociate during transport, while many will reach the microtubule end and accumulate, most likely occupying proximal binding sites on the filament (
+    <xref ref-type="fig">
+     Fig. 7K [i]–[iii]
+    </xref>
+    ). The size of the end-tag and the amount of protein accumulated would initially increase, as the net transport would exceed the rate at which proteins dissociate from the microtubule end (
+    <xref ref-type="fig">
+     Fig. 7K [i]–[iii]
+    </xref>
+    ). A steady-state length and protein levels at the end-tag would be reached when the rate of PRC1-kinesin-4 complexes reaching filament ends equals their dissociation rate (
+    <xref ref-type="fig">
+     Fig. 7K [iv]–[vi]
+    </xref>
+    ). As the number of binding sites scales with filament length, longer microtubules would accumulate a greater number of the PRC1-kinesin-4 molecules to generate longer end-tags (
+    <xref ref-type="fig">
+     Figs. 7K, 7L
+    </xref>
+    ). A simple mathematical model can explain our observations (
+    <a>
+     Fig. S7E
+    </a>
+    ).
+   </p>
+   <p>
+    Our proposed biochemical mechanism for generating plus-end tags is qualitatively similar to the ‘antenna’ model suggested for yeast kinesin-8, Kip3p (
+    <xref ref-type="bibr">
+     Varga et al., 2006
+    </xref>
+    ). However, unlike PRC1-kinesin4, kinesin-8 does not generate length-dependent tags on microtubules, but causes a length-dependent increase in the rate of unbinding of tubulin dimers from filament ends. An ‘antenna’ model has also been proposed for regulation of anti-parallel overlap length of crosslinked microtubules by PRC1 and kinesin-4 (
+    <xref ref-type="bibr">
+     Bieling et al., 2010
+    </xref>
+    ). In this case, PRC1 recruits kinesin-4 to regions of antiparallel overlap, where it suppresses microtubule dynamics. However, directional transport or plus-end accumulation of PRC1 has not been previously described. In light of our findings, further analysis is needed to explain how the localization and transport of PRC1 to filament ends contributes to antiparallel microtubule overlap length control.
+   </p>
+   <p>
+    We report the first crystal structure of a microtubule crosslinking protein. Our structural data for the PRC1 homodimer suggests that it is not an inherently rigid molecule, but is likely to sample multiple conformations via rigid body rotations. Interestingly, an overall structural architecture similar to that of PRC1 is seen in several actin crosslinking proteins, such as alpha-actinin and dystrophin. These crosslinking proteins are comprised of multi-helix motifs linked by single helices (
+    <xref ref-type="bibr">
+     Djinovic-Carugo et al., 2002
+    </xref>
+    ). Structural and computational analyses of the actin crosslinking proteins suggest that while the multi-helix motifs (e.g. spectrin) confer rigidity, the helical linkers contribute to varying degrees of flexibility (
+    <xref ref-type="bibr">
+     Djinovic-Carugo et al., 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Golji et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Grum et al., 1999
+    </xref>
+    ). We propose that in case of the PRC1 dimer flexibility is likely to be similarly conferred by the linker helices, e.g. at the spectrin-rod domain junction where a conspicuous ~90 degree kink (helix H7) is observed in the crystal structure (
+    <a>
+     Fig. S7F
+    </a>
+    ). In addition, analysis of overlays of the two available PRC1 spectrin domain structures (PDB: 2NRY and current study) reveals a ~90 degree difference in the orientation of this same helix (H7) (
+    <a>
+     Figs. S7F–S7H
+    </a>
+    ). Our proposal about the overall flexibility of the PRC1 molecules is also supported by helical reconstructions from cryo-EM micrographs of PRC1 dimers bound to a single microtubule (
+    <xref ref-type="bibr">
+     Subramanian et al., 2010
+    </xref>
+    ). These data are consistent with PRC1’s rod domain adopting multiple conformations relative to its spectrin domain. Together, these data suggest a model in which PRC1 is likely to be a flexible molecule in solution and on single microtubules, but adopts a conformation in which the relative orientation of the microtubule binding domains is restricted only when it crosslinks two antiparallel filaments.
+   </p>
+   <p>
+    The crystal structure of PRC1 reveals that dimer formation is mediated by a relatively small 4-helix bundle in the center of an elongated molecule. We find that the dimerization domain in PRC1 is separated by ~ 22 nm from the Cdk1 phosphorylation sites (
+    <xref ref-type="bibr">
+     Jiang et al., 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mollinari et al., 2002
+    </xref>
+    ). These sites are proximal to the microtubule interacting spectrin domain and we therefore favor a model in which phosphorylation attenuates microtubule affinity (
+    <xref ref-type="bibr">
+     Subramanian et al., 2010
+    </xref>
+    ) rather than inhibiting dimerization of PRC1 prior to anaphase (
+    <xref ref-type="bibr">
+     Zhu et al., 2006
+    </xref>
+    ). Unexpectedly, we find that PRC1 dimerization is also required for high-affinity interaction with kinesin-4. Within this complex both proteins’ microtubule binding domains may contact the microtubule lattice, thereby increasing kinesin-4’s run-length for filament length dependent end-tagging.
+   </p>
+   <p>
+    Our findings suggest how end-tagging by PRC1 and kinesin-4 may contribute to microtubule organization during anaphase and cytokinesis. The spindle midzone is assembled during anaphase by incorporating microtubules from the metaphase spindle (
+    <xref ref-type="bibr">
+     Eggert et al., 2006
+    </xref>
+    ). A subset of these spindle microtubules overlap with antiparallel orientations, while many microtubules are likely to be parallel, extending from each of the spindle poles. At anaphase, PRC1’s microtubule binding is activated and it can crosslink microtubules that are already in an anti-parallel configuration. Our findings indicate that PRC1 also tags, in a length-dependent manner, microtubule plus-ends that do not overlap. More PRC1 at the plus-ends of longer microtubules would recruit greater amounts of kinesin-4, and thereby more effectively cap and stabilize longer microtubules. Accumulation of more PRC1 at the ends of longer filaments would also recruit more regulators, such as Polo-like kinase, and microtubule binding proteins, such as kinesin-6 and Clasp. In addition, PRC1 at microtubule ends would favor establishing crosslinking of the plus-ends of anti-parallel filaments, rather than other positions along the filaments. We currently do not understand why only a subset of microtubule plus-ends is tagged by the PRC1-kinesin-4 complex in dividing cells. One possible reason is that this tagging mechanism depends on the plus-end directed transport of PRC1-kinesin-4 at a velocity that is slower than the growth rate of microtubules, and therefore, a subset of the growing microtubules may not accumulate these proteins at their tips. When these dynamic microtubules stochatically switch to depolymerization, the plus-ends could reach where the PRC1-kinesin-4 complex is accumulating, and initiate establishing the end-tag. Together, these properties of the PRC1-kinesin-4 complex would ensure the proper assembly of the spindle midzone at anaphase.
+   </p>
+   <p>
+    A length-dependent filament plus-end tagging mechanism may also play a role in the organization of other complex microtubule architectures. Homologs of PRC1 are also required for assembling filament arrays, such as cortical microtubules needed for oriented growth of plant cells, the phragmoplast array needed for plant cytokinesis, and interphase microtubules needed for nuclear positioning in yeast (
+    <xref ref-type="bibr">
+     Duellberg et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Subramanian and Kapoor, 2012
+    </xref>
+    ). Many of these processes involve interactions of PRC1 homologs with kinesins. For example, current models suggest that during phragmoplast assembly, the PRC1 homolog MAP65-3 is needed for localization and function of kinesin-12 at the plus-ends of the microtubules (
+    <xref ref-type="bibr">
+     Ho et al., 2011
+    </xref>
+    ). It will be interesting to examine if these motor-MAP modules also utilize length-dependent end-tagging mechanisms to differentially ‘mark’ filaments during the assembly of these microtubule-based architectures.
+   </p>
+   <p>
+    In a wide-range of biological processes proteins recognize structural features, such as DNA sequences at telomeres, which are stable on time-scales much longer than the reaction dynamics associated with protein function. In contrast, the microtubule features whose selective recognition is needed for successful cell division turnover on fast time-scales, often faster than that of protein chemistry (e.g. substrate phosphorylation). Filament end-tagging by the PRC1-kinesin-4 complex, provides a biochemical mechanism by which molecular recognition and active transport can be combined to allow nanometer-size proteins to recognize micron-scale features in dynamic intracellular architectures.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    METHODS
+   </title>
+   <sec>
+    <title>
+     PRC1-kinesin-4 binding assay
+    </title>
+    <p>
+     His
+     <sub>
+      6
+     </sub>
+     -tagged PRC1 fragments and kinesin-4ΔN at the appropriate concentrations (40 μl reaction volume) were incubated at room temperature for 10 mins in a buffer containing 50 mM Phosphate, 25 mM Imidazole, 80 mM NaCl, 0.1 % Tween 20 and 0.5 mM TCEP, pH 8.0. The reaction was mixed with buffer-equilibrated Dynabeads (Invitrogen, 10103D) at 4 °C for 50 mins. After separating the dynabeads using a magnet, the supernatant was collected and mixed with 10 μl of 5X SDS-PAGE sample buffer. The Dynabeads were washed twice with 150 μl reaction buffer and mixed with 50 μl of 1X SDS-PAGE sample buffer. The supernatant and the dynabead-bound protein fractions were analyzed by SDS-PAGE and band intensities were quantified using ImageJ. To calculate the dissociation constant (K
+     <sub>
+      D
+     </sub>
+     ), data from three independent experiments were fit to the following equation;
+    </p>
+    <sec>
+     <p>
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mi>
+          binding
+         </mi>
+         <mspace>
+         </mspace>
+         <mi>
+          percentage
+         </mi>
+         <mo>
+          =
+         </mo>
+         <mfrac>
+          <mrow>
+           <mo>
+            (
+           </mo>
+           <msub>
+            <mrow>
+             <mo>
+              [
+             </mo>
+             <mtext>
+              PRC
+             </mtext>
+             <mn>
+              1
+             </mn>
+             <mo>
+              ]
+             </mo>
+            </mrow>
+            <mn>
+             0
+            </mn>
+           </msub>
+           <mo>
+            +
+           </mo>
+           <msub>
+            <mrow>
+             <mo>
+              [
+             </mo>
+             <mtext>
+              Kif
+             </mtext>
+             <mn>
+              4
+             </mn>
+             <mtext>
+              A
+             </mtext>
+             <mo>
+              ]
+             </mo>
+            </mrow>
+            <mn>
+             0
+            </mn>
+           </msub>
+           <mo>
+            +
+           </mo>
+           <msub>
+            <mtext>
+             K
+            </mtext>
+            <mi>
+             d
+            </mi>
+           </msub>
+           <mo>
+            )
+           </mo>
+           <mo>
+            -
+           </mo>
+           <msqrt>
+            <mrow>
+             <msup>
+              <mrow>
+               <mo>
+                (
+               </mo>
+               <msub>
+                <mrow>
+                 <mo>
+                  [
+                 </mo>
+                 <mtext>
+                  PRC
+                 </mtext>
+                 <mn>
+                  1
+                 </mn>
+                 <mo>
+                  ]
+                 </mo>
+                </mrow>
+                <mn>
+                 0
+                </mn>
+               </msub>
+               <mo>
+                +
+               </mo>
+               <msub>
+                <mrow>
+                 <mo>
+                  [
+                 </mo>
+                 <mtext>
+                  Kif
+                 </mtext>
+                 <mn>
+                  4
+                 </mn>
+                 <mtext>
+                  A
+                 </mtext>
+                 <mo>
+                  ]
+                 </mo>
+                </mrow>
+                <mn>
+                 0
+                </mn>
+               </msub>
+               <mo>
+                +
+               </mo>
+               <msub>
+                <mtext>
+                 K
+                </mtext>
+                <mi>
+                 d
+                </mi>
+               </msub>
+               <mo>
+                )
+               </mo>
+              </mrow>
+              <mn>
+               2
+              </mn>
+             </msup>
+             <mo>
+              -
+             </mo>
+             <msup>
+              <mn>
+               4
+              </mn>
+              <mo>
+               ∗
+              </mo>
+             </msup>
+             <msup>
+              <msub>
+               <mrow>
+                <mo>
+                 [
+                </mo>
+                <mtext>
+                 Kif
+                </mtext>
+                <mn>
+                 4
+                </mn>
+                <mtext>
+                 A
+                </mtext>
+                <mo>
+                 ]
+                </mo>
+               </mrow>
+               <mn>
+                0
+               </mn>
+              </msub>
+              <mo>
+               ∗
+              </mo>
+             </msup>
+             <msub>
+              <mrow>
+               <mo>
+                [
+               </mo>
+               <mtext>
+                PRC
+               </mtext>
+               <mn>
+                1
+               </mn>
+               <mo>
+                ]
+               </mo>
+              </mrow>
+              <mn>
+               0
+              </mn>
+             </msub>
+            </mrow>
+           </msqrt>
+          </mrow>
+          <mrow>
+           <msup>
+            <mn>
+             2
+            </mn>
+            <mo>
+             ∗
+            </mo>
+           </msup>
+           <msub>
+            <mrow>
+             <mo>
+              [
+             </mo>
+             <mtext>
+              Kif
+             </mtext>
+             <mn>
+              4
+             </mn>
+             <mtext>
+              A
+             </mtext>
+             <mo>
+              ]
+             </mo>
+            </mrow>
+            <mn>
+             0
+            </mn>
+           </msub>
+          </mrow>
+         </mfrac>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1" display="block" overflow="scroll"><mi mathvariant="italic">binding</mi><mspace width="0.16667em"></mspace><mi mathvariant="italic">percentage</mi><mo>=</mo><mfrac><mrow><mo stretchy="false">(</mo><msub><mrow><mo stretchy="false">[</mo><mtext>PRC</mtext><mn>1</mn><mo stretchy="false">]</mo></mrow><mn>0</mn></msub><mo>+</mo><msub><mrow><mo stretchy="false">[</mo><mtext>Kif</mtext><mn>4</mn><mtext>A</mtext><mo stretchy="false">]</mo></mrow><mn>0</mn></msub><mo>+</mo><msub><mtext>K</mtext><mi>d</mi></msub><mo stretchy="false">)</mo><mo>-</mo><msqrt><mrow><msup><mrow><mo stretchy="false">(</mo><msub><mrow><mo stretchy="false">[</mo><mtext>PRC</mtext><mn>1</mn><mo stretchy="false">]</mo></mrow><mn>0</mn></msub><mo>+</mo><msub><mrow><mo stretchy="false">[</mo><mtext>Kif</mtext><mn>4</mn><mtext>A</mtext><mo stretchy="false">]</mo></mrow><mn>0</mn></msub><mo>+</mo><msub><mtext>K</mtext><mi>d</mi></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>-</mo><msup><mn>4</mn><mo>∗</mo></msup><msup><msub><mrow><mo stretchy="false">[</mo><mtext>Kif</mtext><mn>4</mn><mtext>A</mtext><mo stretchy="false">]</mo></mrow><mn>0</mn></msub><mo>∗</mo></msup><msub><mrow><mo stretchy="false">[</mo><mtext>PRC</mtext><mn>1</mn><mo stretchy="false">]</mo></mrow><mn>0</mn></msub></mrow></msqrt></mrow><mrow><msup><mn>2</mn><mo>∗</mo></msup><msub><mrow><mo stretchy="false">[</mo><mtext>Kif</mtext><mn>4</mn><mtext>A</mtext><mo stretchy="false">]</mo></mrow><mn>0</mn></msub></mrow></mfrac></math>
+       </script>
+      </sec>
+     </sec>
+     <p>
+      where [PRC1]
+      <sub>
+       0
+      </sub>
+      and [Kif4A]
+      <sub>
+       0
+      </sub>
+      are the concentrations of PRC1 fragments and kinesin-4ΔN in the reaction.
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Quantitative analysis of end-tag size and microtubule length
+    </title>
+    <p>
+     Linescan-based analysis was used to determine the length of microtubules and the size and intensity of end-tags. Linescans were generated using functions in ImageJ software (
+     <a>
+      http://rsbweb.nih.gov/ij/
+     </a>
+     ). The average intensities over a 7 pixel wide line along the microtubules were measured. An intensity-threshold method, implemented in Matlab (Mathworks), was used to determine microtubule length. Threshold was calculated from the average background intensity (I) in the vicinity of each analyzed microtubule (threshold = I
+     <sub>
+      mean
+     </sub>
+     + 3*I
+     <sub>
+      S.D.
+     </sub>
+     ). To determine the beginning and the end of the filament end-tag, we first measured the average GFP intensity over an 11 pixel wide line along the length of the microtubule. Next, a walking-average slope over a 4-pixel window of the average GFP intensity along the microtubule was calculated. The two edges of the end-tag corresponded to the pixel-positions along the microtubule with the highest change in slope and were used to determine end-tag length. End-tag intensity was computed as total GFP-intensity in the end-tag. Due to the small number of observed filaments, microtubules shorter than 2 μm and longer than 14 μm were not analyzed.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.8M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     02
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.8M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

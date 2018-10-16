@@ -1,0 +1,1163 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3018794
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural basis for docking of peroxisomal membrane protein carrier Pex19p onto its receptor Pex3p
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Peroxisomes require peroxin (Pex) proteins for their biogenesis. The interaction between Pex3p, which resides on the peroxisomal membrane, and Pex19p, which resides in the cytosol, is crucial for peroxisome formation and the post-translational targeting of peroxisomal membrane proteins (PMPs). It is not known how Pex3p promotes the specific interaction with Pex19p for the purpose of PMP translocation. Here, we present the three-dimensional structure of the complex between a cytosolic domain of Pex3p and the binding-region peptide of Pex19p. The overall shape of Pex3p is a prolate spheroid with a novel fold, the ‘twisted six-helix bundle.' The Pex19p-binding site is at an apex of the Pex3p spheroid. A 16-residue region of the Pex19p peptide forms an α-helix and makes a contact with Pex3p; this helix is disordered in the unbound state. The Pex19p peptide contains a characteristic motif, consisting of the leucine triad (Leu18, Leu21, Leu22), and Phe29, which are critical for the Pex3p binding and peroxisome biogenesis.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     crystal structure, peroxin, peroxisomal membrane protein, protein–protein interactions
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Although protein synthesis only occurs in the cytosol and in mitochondria and chloroplasts, subcellular compartments have a unique composition of proteins, and perform a variety of specialized functions in the cells (
+    <xref ref-type="bibr">
+     Wickner and Schekman, 2005
+    </xref>
+    ). Therefore, cells have evolved numerous elaborate systems for the biogenesis of organelles, including protein translocation into individual compartments, such as the nucleus, mitochondria, and peroxisome, as well as endoplasmic reticulum (ER). Peroxisomes are organelles bound by a single membrane bilayer, which contain peroxisomal membrane proteins (PMPs) that facilitate transport of materials across the membrane, and matrix proteins that participate in various metabolic processes (
+    <xref ref-type="bibr">
+     Lazarow and Fujiki, 1985
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Visser et al, 2007
+    </xref>
+    ). The dynamics of membrane structure and protein localization on peroxisomes are supported by peroxin (Pex) proteins, of which 32 types have been identified in species from yeasts to mammals (
+    <xref ref-type="bibr">
+     Distel et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Platta and Erdmann, 2007
+    </xref>
+    ). The ER may also be involved in the peroxisome biogenesis (
+    <xref ref-type="bibr">
+     Hoepfner et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2006
+    </xref>
+    ): newborn peroxisomes are derived from subdomain of the ER as premature peroxisome vesicles, and the maturation of peroxisomes occurs via the post-translational import of PMPs and matrix proteins into the premature peroxisomes; the duplication of the mature peroxisomes by fission and subsequent growth and maturation; these processes are cycled to maintain the size and the number of peroxisomes in the cells (
+    <xref ref-type="bibr">
+     Geuze et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2006
+    </xref>
+    ).
+   </p>
+   <p>
+    At least two peroxin proteins, Pex3p and Pex19p, have central functions in the generation of peroxisome membrane structure (
+    <xref ref-type="bibr">
+     Fujiki et al, 2006
+    </xref>
+    ). Disruption of the genes encoding Pex3p or Pex19p gives rise to no detectable peroxisome membrane structures (
+    <xref ref-type="bibr">
+     Matsuzono et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Muntau et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shimozawa et al, 2000
+    </xref>
+    ). The G138E mutant of Pex3p has been identified from the ZPG208 complementation group of the Chinese hamster ovary (CHO) cells, which is incapable of forming peroxisomes (
+    <xref ref-type="bibr">
+     Ghaedi et al, 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2000
+    </xref>
+    ). In ZP119, another complementation group of CHO mutants, the gene encoding Pex19p is disrupted, and peroxisome structure is lost (
+    <xref ref-type="bibr">
+     Kinoshita et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Matsuzono et al, 1999
+    </xref>
+    ). Reintroduction of the wild-type genes into the mutant cells restores the biogenesis of peroxisomes. In the cycle of peroxisome formation, Pex3p and Pex19p have an important function in the insertion of newly synthesized PMPs into preexisting peroxisomes (
+    <xref ref-type="bibr">
+     Geuze et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2006
+    </xref>
+    ). Furthermore, it is suggested very recently that in yeast, interaction of Pex3p with Pex19p is also required for the exit of premature peroxisomes from the ER (
+    <xref ref-type="bibr">
+     van der Zand et al, 2010
+    </xref>
+    ). Thus, in order to understand the peroxisomal membrane biogenesis, it is essential to analyse the molecular architecture in which Pex3p and Pex19p participate.
+   </p>
+   <p>
+    Recent studies have advanced our understanding of the role of Pex19p and Pex3p in post-translational targeting of PMPs (called ‘class I PMPs'). Pex19p functions as a cytosolic carrier for the PMPs, while Pex3p acts as Pex19p's docking factor on peroxisomes (
+    <xref ref-type="bibr">
+     Fang et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jones et al, 2004
+    </xref>
+    ). Pex19p distinguishes PMPs from other membrane proteins, such as mitochondrial ones, which are imported with the assistance of general chaperones, Hsp70 and Hsp90 (
+    <xref ref-type="bibr">
+     Young et al, 2003
+    </xref>
+    ). Pex19p is an intrinsically disordered protein (
+    <xref ref-type="bibr">
+     Dyson and Wright, 2005
+    </xref>
+    ) that exhibits a characteristic domain organization (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ), including a random coil in the N-terminal half and a rigid core in the C-terminal half (
+    <xref ref-type="bibr">
+     Shibata et al, 2004
+    </xref>
+    ). The N-terminal half of Pex19p seems to contain two binding sites for Pex3p: one is on the N-terminal end and has a strong affinity; the other is near the PMP-binding site and has weak affinity (
+    <xref ref-type="bibr">
+     Fransen et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Matsuzono et al, 2006
+    </xref>
+    ). The main Pex3p-binding site in Pex19p has been localized by two independent studies; it lies within both peptide Met1−Gly56 (
+    <xref ref-type="bibr">
+     Fang et al, 2004
+    </xref>
+    ) and peptide Ala12−Glu73 (
+    <xref ref-type="bibr">
+     Matsuzono et al, 2006
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). The sequence alignment indicates that Glu17−Lys31 in human Pex19p is highly conserved among animals and plants, whereas yeasts have some exceptions. This region is occupied by a unique amino acid sequence containing five hydrophobic residues and seven acidic residues. On the other hand, Pex3p is a membrane-anchored protein; the N-terminal 33-residue region binds to the peroxisomal membrane, whereas the C-terminal remainder is exposed to the cytosol (
+    <xref ref-type="bibr">
+     Kammerer et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Soukupova et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ghaedi et al, 2000
+    </xref>
+    ). This cytosolic domain of Pex3p docks with Pex19p in a specific manner, with a dissociation constant (
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    ) of 3.4 nM (
+    <xref ref-type="bibr">
+     Sato et al, 2008
+    </xref>
+    ). The W104A mutant of Pex3p exhibits significantly diminished binding affinity for Pex19p, as well as lower peroxisomal restoration activity (
+    <xref ref-type="bibr">
+     Sato et al, 2008
+    </xref>
+    ). Lipid molecules can bind to Pex3p in competition with Pex19p (
+    <xref ref-type="bibr">
+     Pinto et al, 2009
+    </xref>
+    ), implying the existence of a hydrophobic interaction between Pex3p and Pex19p. However, it is still unclear how the Pex3p cytosolic domain and its docking site for Pex19p are arranged on the peroxisome membrane, and how this complex achieves the PMP translocation.
+   </p>
+   <fig id="f1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      Features of the N-terminal region of Pex19p. (
+      <strong>
+       A
+      </strong>
+      ) Domain organization of human Pex19p and N-terminal sequence alignment of vertebrate Pex19p proteins. In the upper panel, the N-terminal disordered half and the C-terminal rigid core of Pex19p are shown in blue and yellow, respectively. The regions containing the previously reported binding sites for Pex3p and cargo PMP are coloured in cyan and green, respectively. In the lower panel with the alignment of human Pex19p (Met1–Ala44), the helix and the subsequent tail are illustrated in red. Amino acid residues significant for the interaction with Pex3p are shown in cyan. Residues involved in the Pex3p binding are shown in orange. Proline residues in the tail region are shown in grey. The yeast Pex19p and Pex3p interaction motif may exhibit exceptional behaviour. Thus, based on the alignment, hydrophobic residues, which are estimated to be parts of Pex3p-binding motif, are shown in cyan. (
+      <strong>
+       B
+      </strong>
+      ) Pull-down experiments to determine the interaction of various GST-fused N-terminal Pex19p fragments with the His
+      <sub>
+       10
+      </sub>
+      -Pex3p soluble domain (Gln34–Lys373). In all, 10 μg each of GST-Pex19p deletion mutant and His
+      <sub>
+       10
+      </sub>
+      -Pex3p was mixed with Ni
+      <sup>
+       2+
+      </sup>
+      -NTA agarose in 100 μl of binding buffer (samples: input). After washing, the bound fractions were resuspended in the elution buffer, and precipitated by the TCA method, and resolved in 20 μl of SDS-sample buffer (samples: bound). Proteins in the samples of 5% of the ‘input' and 25% of the ‘bound' were analysed by SDS–PAGE. Asterisks indicate the bands of Pex19p variants.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Here, we present a structural basis for the interaction between Pex3p and Pex19p. The structure provides us with insight into both PMP translocation and peroxisome biogenesis. The three-dimensional structure of the complex, consisting of the cytosolic domain of Pex3p bound to the N-terminal binding peptide of Pex19p, was determined at 2.5 Å resolution. The overall shape of the Pex3p structure is a prolate spheroid with a novel antiparallel helical fold. The Pex19p-binding site on Pex3p is at one apex of the spheroid, near Trp104, which we previously identified as a binding residue. In the bound state, the region between Glu17 and Ala32 of the Pex19p peptide forms an α-helix and makes a direct contact with Pex3p, mainly by Van der Waals and/or hydrophobic interactions; in the unbound state, this helix is disordered. The Pex19p residues that contribute to Pex3p binding are also required for peroxisome-restoring activity in the cell.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Definition of the Pex3p-binding region in Pex19p, for use in crystallization
+    </title>
+    <p>
+     To obtain crystals of Pex3p−Pex19p complex, we identified an N-terminal Pex19p fragment sufficient for binding to Pex3p. Pex19p fragments of the N-terminal end (Met1−Ala90, Met1−Ala44, and Met1−Asp28) were purified as GST-fused proteins, and examined their affinity for Pex3p by pull-down assay. The experiment showed that at least the N-terminal 44 residues of Pex19p are required for the binding, whereas the Met1−Asp28 fragment on its own has no detectable affinity for Pex3p (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). When the affinity between the soluble Pex3p and Pex19p (Met1−Ala44) was analysed by surface plasmon resonance (SPR), the apparent
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of the Pex19p peptide for Pex3p was 40.8 nM (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ); this affinity is 10 times lower than that of the full-length Pex19p (3.4 nM) (
+     <xref ref-type="bibr">
+      Sato et al, 2008
+     </xref>
+     ), but still significant for a crystallographic analysis. In contrast, the remaining region from Pro45 to the C-terminal end formed little detectable complex with Pex3p in a similar pull-down binding assay. In that case, the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     was 26 μM, 8000-fold higher than that of the wild type as determined by the SPR analysis (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). These results indicate that the binding between Pex3p and Pex19p can be principally attributed to the N-terminal 44-residue segment of Pex19p, although the other C-terminal region may have an auxiliary role in the binding. This N-terminal Pex19p fragment and the cytosolic region of Pex3p (Ile49−Lys373) were independently purified, and the complex was crystallized in the presence of polyethylene glycol 3350.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Summary for SPR analyses between Pex19p and Pex3p
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Overall structure of the Pex3p cytosolic domain in complex with the N-terminal Pex19p peptide
+    </title>
+    <p>
+     The crystal structure of the complex containing the cytosolic region of Pex3p (Ile49−Lys373) and the N-terminal fragment of Pex19p (Met1−Ala44) was determined by multiwavelength anomalous diffraction (MAD) at 2.5 Å resolution with a crystallographic
+     <em>
+      R
+     </em>
+     <sub>
+      work
+     </sub>
+     =21.5% and
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     =25.4% (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ;
+     <a>
+      Supplementary Table S1
+     </a>
+     ). The final model of the structure includes residues Ala52–Pro368 of Pex3p and Asp15–Ser40 of Pex19p. Pex3p has a prolate spheroidal shape with approximate dimensions of 80 × 35 × 30 Å. This spheroid exhibits a novel antiparallel helical fold with six α-helical units: α1 (Arg53−Asn95), α2 (Lys100−Ala146), α3 (Pro158−Gly192), α4 (Leu202−Gln249), α5 (Ile258−Arg300), and α6 (Leu322−Ser366), with five interhelical loops (IHLs). The helical units are twisted up and down roughly along the major axis (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). Based on the structural characteristics, we named this novel fold a ‘twisted six-helix bundle'.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Three-dimensional structure of Pex3p in complex with the Pex19p fragment. (
+       <strong>
+        A
+       </strong>
+       ) Overall structure of the complex of the cytosolic domain of Pex3p (Ile49–Lys373) with the N-terminal Pex19p peptide (Met1–Ala44). The Pex19p peptide is coloured in red. Six helical units in Pex3p are labelled with the following scheme: α1, navy; α2, light blue; α3, cyan; α4, green; α5, yellow; and α6, orange. The middle of α2 region, buried within the molecule, is shown by a thick bar on the right panel. Interhelical loops (IHLs) are coloured in black, and helix-bending loops (HBLs) are shown in the colour of the associated helical unit. Gly138, a mutational site in peroxisome-deficient CHO cell line ZPG208, is pointed out in black on α2. (
+       <strong>
+        B
+       </strong>
+       ) Topology of Pex3p. Helices are coloured in the same way as in
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       (α1a, Arg53–Gln83; α1b, Ser86–Asn95; α2, Lys100–Ala146; α3a, Pro158–Leu165; α3b, Gln169–Leu172; α3c, Gly175–Gly192; α4a, Leu202–Val216; α4b, Leu234–Met238; G4 (3
+       <sub>
+        10
+       </sub>
+       helix), Leu246–Gln249; α5a, Ile258–Leu271; α5b, Pro274–Asn294; G5, Glu297–Arg300; α6a, Leu322–Val336; α6b, His343–Leu349; and α6c, Glu352–Ser366). IHLs are shown in black (IHL1, Arg96–Asn99; IHL2, Val147–Pro157; IHL3, Ser193–Ser201; IHL4, Ala250–Asp257, and IHL5, Pro301–Pro321). HBLs are shown in the same way as in
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       (HBL1a, Leu84–Asn85; HBL3a, Ser166–Ile168; HBL3b, Gly173–Asp174; HBL4a, Glu217–Leu233; HBL4b, Met239–Pro245; HBL5a, Glu272–Ser273; HBL5b, Met295–Ala296; HBL6a, Cys337–Ser342; and HBL6b, Thr350–Met351). The Pex19p-binding regions are shown as red shading. Dotted lines are the unassigned regions; His219–Ser230 (green) in HBL4a and Thr302–Asn313 (black) in IHL5. (
+       <strong>
+        C
+       </strong>
+       ) Packing of α2 by the surrounding helices in Pex3p. Ser115–Leu128 on α2, the buried region shown by a thick bar on the right panel in
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       , is illustrated using a wheel diagram. The side chains on surrounding helices located in 2.5–4.0 Å from Ser115–Leu128 on α2 are drawn around the wheel.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The most striking feature of the Pex3p structure is that the central longest helical unit α2 runs through the major axis, forming a gentle curve (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). Around α2, the other five helical units are assembled in the order α1, α3, α4 α5, and α6. Thus, a pair of spatially adjacent helical units, α1 and α3, make contacts in a parallel manner, whereas the other adjacent pairs (α3–α4, α4–α5, α5–α6, and α6–α1) make contacts in an antiparallel manner. Except for α2, each helical unit is bent in one or two places near its middle. These bent regions are designated as helix-bending loops (HBLs) (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). The separated helices are defined, applying alphabetical suffixes to the name of the helical unit. Such bending of the surrounding helical units causes tight entwinement around α2. Notably, the middle of α2, Ser115−Leu128 (the thick bar region assigned in
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , right panel) is almost shielded from the solvent and is closely packed against the surrounding helices (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). The kinked helices, α3b–α3c, α4a–α4b, α5a–α5b, and α6a–α6b enclose the middle of α2. The side-chain interactions between α2 and the surrounding helical units mainly involve hydrophobic residues (orange and green residues in
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). These residues are widely conserved among eukaryotes, suggesting the importance of the hydrophobic packing around the centrally located α2. This shielded region of α2 overlaps a transmembrane helix, spanning from Ile109 to Val131, previously predicted based on hydrophobicity analysis (
+     <xref ref-type="bibr">
+      Kammerer et al, 1998
+     </xref>
+     ).
+    </p>
+    <p>
+     The N-terminal Pex19p peptide is bound to one of the apexes of the spheroidal Pex3p, and is oblique to α2 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). The Pex3p-binding site of the Pex19p peptide spans from Glu17 to Ala32, which is widely conserved among multicelluar eukaryotes (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). This short segment of Pex19p forms an α-helix, and is in contact with the Pex3p surface (composed of α1b, α2, and α6a) forming a left-handed four-helix bundle. As α1b and α6a are connected to HBL1a and HBL6a, respectively, these helices are likely to be flexible relative to α2. This raises the possibility that a small induced-fit conformational change of 1b and/or α6a could occur upon Pex19p-helix binding. Although the Pex3p-bound Pex19p peptide includes the α-helix, we have previously demonstrated that the N-terminal half of Pex19p (Met1−Ala156) is disordered in the absence of Pex3p binding (
+     <xref ref-type="bibr">
+      Shibata et al, 2004
+     </xref>
+     ). The circular dichroism spectrum for this Pex19p fragment indicates that the peptide Met1−Ala44 also adopts a random coil structure in an aqueous buffer solution (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). The spectrum contained poor negative intensity at 222 nm, indicating &lt;3% of α-helical character in the peptide (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     , inset). However, when the methanol concentration was increased in the buffer, two minima around 208 and 222 nm appeared in the spectra, implying that α-helical structures were forming (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). In 75% methanol, the α-helical content was evaluated as 63% from the mean residual ellipticity at 222 nm (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     , inset). Therefore, in hydrophobic environment, the Pex19p peptide (Met1−Ala44) tends to acquire secondary structure, including α-helix, from a random coil. The crystal structure also shows that the Pex19p tail region containing Pro33−Ser40 extends from the helix to the solvent, without intermolecular interactions between Pex19p and Pex3p (
+     <xref ref-type="fig">
+      Figures 1A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The structure of the tail region is fixed by molecular contacts with an adjacent Pex3p molecule in the crystal packing arrangement.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Circular dichroism spectra of the Pex19p (Met1–Ala44) peptide during a methanol titration. Spectra were measured and converted to mean residual ellipticity. Methanol concentrations are 0% (black), 25% (blue), 50% (green), and 75% (orange). The inset shows the apparent helical content in each methanol concentration, which is calculated from the mean residual ellipticity at 222 nm.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Architecture of the Pex3p–Pex19p interface
+    </title>
+    <p>
+     The Pex19p-binding/docking surface on Pex3p presents a large tapered cavity. The side chain of Trp104 of Pex3p protrudes from this cavity and divides it into a wider surface area near the surface and a narrower area deeper inside (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). This cavity is complementary to the Pex19p-helix structure in which two types of ‘protruding tooth' are formed from the characteristic side chains: one is composed of three leucine residues, Leu18, Leu21, and Leu22, thus termed the ‘leucine triad'; and the other is composed of the phenyl side chain of Phe29 (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). The leucine triad is surrounded by the wider surface portion of the cavity (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ), which is composed of Lys100, Leu101, and Trp104 at the N-terminus of α2; Leu196 and Lys197 on the middle of IHL3; Pro321 at the C-terminal end of IHL5; and, Ala323 and Lys324 on the subsequent α6a (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). The other ‘protruding tooth', Phe29, is surrounded by the narrower deeper part of the cavity (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ), which is composed of Thr90 on α1b; Trp104 and Leu107 on α2; and Ile326, Pro327, and Asn330 on α6a (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). The indole ring of Trp104 of Pex3p is inserted into the notch on the Pex19p helix between the two ‘protruding teeth' (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). These features indicate that the interaction between Pex3p and Pex19p is supported mainly by van der Waals forces and/or hydrophobic effects. The lack of the side chain at residue 104 (Trp in the wild-type protein) is expected to destabilize the binding; indeed, this destabilization has been demonstrated (
+     <xref ref-type="bibr">
+      Sato et al, 2008
+     </xref>
+     ). The structure also suggests that several other residues could participate in the interaction between Pex3p and Pex19p. Glu17 and Leu26 on the Pex19p helix seem to interact with Lys197 on IHL3 and Leu93 on α1b of Pex3p, respectively, and both Ser 24 and Asp28 on the Pex19p helix seem to bind to Lys324 on α6a of Pex3p (structure not shown).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Binding of Pex19p on Pex3p. (
+       <strong>
+        A
+       </strong>
+       ) The Pex19p-binding region on Pex3p. Pex19p is shown in red, and the side chains essential for the binding to Pex3p are highlighted in green. The binding cavities on Pex3p are coloured in yellow, and Trp104 of Pex3p is highlighted in light blue. Two cavities are shown in black circles. (
+       <strong>
+        B
+       </strong>
+       ) Hydrophobic packing between two types of protuberance of Pex19p and Trp104 of Pex3p. Leu18, Leu21, Leu22, and Phe29 of Pex19p are shown in green, and Trp104 of Pex3p is shown in light blue. The ribbon model is coloured in the same way as in
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       . (
+       <strong>
+        C
+       </strong>
+       ) Schematic drawing of the interaction between Pex3p and Pex19p. The colours are coded in the same way as
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Mutational analysis of functional residues in Pex19p required for binding to Pex3p and for peroxisome biogenesis
+    </title>
+    <p>
+     To verify the structural assignment of the residues involved in the binding between Pex3p and Pex19p, we prepared Pex19p mutants, each with different residues replaced by alanine, and examined their affinity for Pex3p in pull-down assays (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) and SPR analysis (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). The Pex19p mutants L18A, L21A, L22A, or F29A, in which a part of the Pex3p-binding motif is disrupted, clearly diminished binding affinity for Pex3p in the pull-down assays (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , red asterisks). The SPR analysis also revealed that their
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values for binding of Pex3p were increased &gt;100 times relative to the wild type. On the other hand, L26A, another mutant of a hydrophobic residue on the Pex19p helix bound to Pex3p with weaker affinity; the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value for Pex3p binding was 46.3 nM. A mutant of one polar residues S24A, had a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 4.7 nM, essentially the same affinity as the wild type; however, two other polar residue mutants E17A and D28A, had
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 17.3 and 21.8 nM, respectively, in both cases slightly weaker affinity than the wild type. Focusing on the Pex3p-binding motif, we examined the activity of several mutants, L22A (a mutant of the leucine triad), F29A, and L26A, in Pex19p-dependent peroxisome biogenesis (
+     <xref ref-type="bibr">
+      Kashiwayama et al, 2005
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). When the wild-type Pex19p or the L26A mutant Pex19p fused with GFP were reintroduced into
+     <em>
+      PEX19
+     </em>
+     -deficient cells, punctate peroxisomes could be detected in the GFP-staining cells using anti-PMP70 antibodies. On the other hand, L22A and F29A mutants restored no peroxisomal structures in the cells. In separate experiments, the expression levels of mutant GFP-Pex19p proteins were examined to exclude the possibility that the mutant proteins were rapidly degraded. We used CHO cells in these experiments as we could not detect either wild-type GFP-Pex19p or mutant GFP-Pex19 in the
+     <em>
+      PEX19
+     </em>
+     -deficient fibroblasts, probably due to low plasmid transfection efficiency. As shown in
+     <a>
+      Supplementary Figure S5
+     </a>
+     , expression of each mutant GFP-Pex19p was almost equal to that of wild-type GFP-Pex19p. Furthermore, binding to the cargo protein PMP22 was comparable between the mutants and the wild-type Pex19p (
+     <xref ref-type="bibr">
+      Shibata et al, 2004
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). Consequently, the Pex19p hydrophobic side chains forming the two ‘protruding teeth' that flank Trp104 on Pex3p (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ) significantly influence both the strong protein–protein interaction
+     <em>
+      in vitro
+     </em>
+     and peroxisome biogenesis in cells. We examined the subcellular localization of GFP-Pex19p in the CHO cells. A portion of wild-type GFP-Pex19p localized to peroxisomes, although almost GFP-Pex19p was diffused throughout the cytosol, as previously reported (
+     <xref ref-type="bibr">
+      Jones et al, 2004
+     </xref>
+     ) (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). In accordance with the data obtained from the
+     <em>
+      in vitro
+     </em>
+     Pex3p–Pex19p-binding assay, L22A and F29A mutants appeared not to localize to peroxisomes. On the other hand, the L26A mutant, which retained peroxisome-restoring activity and bound to Pex3p with weaker affinity, was diffused throughout the cytosol. These data suggest that Pex19p (L26A) can be recruited to peroxisomal membranes and serve in peroxisomal biogenesis, but cannot stably stay on the peroxisomal membranes.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Characteristics of the alanine mutants of Pex19p. (
+       <strong>
+        A
+       </strong>
+       ) Pull-down experiments to evaluate the interaction of various Pex19p alanine mutants with the His
+       <sub>
+        10
+       </sub>
+       -Pex3p soluble domain (Gln34–Lys373). In all, 10 μg each of GST-Pex19p mutant and His
+       <sub>
+        10
+       </sub>
+       -Pex3p was mixed with Ni
+       <sup>
+        2+
+       </sup>
+       -NTA agarose in 100 μl of binding buffer (samples: input). After washing, the bound fractions were resuspended in the elution buffer, and precipitated by the TCA method, and resolved in 20 μl of SDS-sample buffer (samples: bound). Proteins in the samples of 5% of the ‘input' and 25% of the ‘bound' were analysed by SDS–PAGE. Asterisks indicate the bands corresponding to Pex19p variants, and the red ones show the position of the Pex19p band that disappears due to poor interaction. (
+       <strong>
+        B
+       </strong>
+       ) Fluorescence images of the
+       <em>
+        PEX19
+       </em>
+       -defficient fibroblast transfected with the various Pex19p mutant genes. In each row, the left panel shows the fluorescence of GFP-Pex19p, indicating the expression of the transfected Pex19p; the middle panel shows immunofluorescence of PMP70, indicating the formation of peroxisomes; and the right panel shows the merged image. (
+       <strong>
+        C
+       </strong>
+       ) Pull-down experiments to evaluate the interaction of various His
+       <sub>
+        10
+       </sub>
+       -Pex19p alanine mutants with cell-free translated PMP22. The mRNA of human PMP22 was translated in the wheat germ cell-free system, in the presence of 10 μg of His
+       <sub>
+        10
+       </sub>
+       -Pex19p. The 200 μl of translation products (samples: input) were mixed with Ni
+       <sup>
+        2+
+       </sup>
+       -NTA agarose. After washing, the bound fractions were resuspended in the elution buffer, and precipitated by the TCA method, and resolved in 50 μl of SDS-sample buffer (samples: bound). Proteins in the samples of 2% of the ‘input' and 8% of the ‘bound' were analysed by western blotting with anti-Pex19p, and anti-PMP22 antibodies.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To evaluate the role of the extended tail on Pex19p (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), which is rich in proline residues, but less widely conserved than the Pex19p helix (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), we prepared several Pex19p mutants disrupting these proline residues or lacking the extended tail region. We used these mutants for analysis of peroxisome formation. These Pex19p mutants are stably expressed in mammalian cells and could still localize to peroxisomes (
+     <a>
+      Supplementary Figures S5 and S7
+     </a>
+     ). One mutant, in which four proline residues (Pro34, 36, 38, 39) on the extended tail are replaced with alanines, still restored peroxisomal structures in the
+     <em>
+      PEX19
+     </em>
+     -deficient fibroblasts to the same extent as the wild-type Pex19p (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). This result indicates that these proline residues are not significant for the function of Pex19p. Another Pex19p mutant, lacking the extended tail (Δ34–44), resulted in lower peroxisome-restoring activity than that of the wild-type Pex19p. In this case, 7 days were required to detect the peroxisomal punctates in Δ34–44 expressing cells (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ), whereas 5 days were required in with the wild-type GFP-Pex19p expressing cells (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). We confirmed that this deletion mutagenesis on Pex19p was independent of direct binding to both Pex3p (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ) and the cargo PMP22 (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). Control experiments demonstrated that another deletion mutant, Δ45–90, maintaining the Pex3p-binding affinity (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ) but partially lacking affinity to PMP22 (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ), almost lost peroxisome restoring (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). Therefore, the tail region of Pex19p seems to have a moderate, but not negligible, role in linking two biological functions: Pex3p binding and PMP binding.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Characteristics of the extended region of the Pex19p peptide. (
+       <strong>
+        A
+       </strong>
+       ) Fluorescence images of a
+       <em>
+        PEX19
+       </em>
+       -deficient fibroblast transfected with the various Pex19p deletion mutant genes (Δ). In each row, the left panel shows the fluorescence of GFP-Pex19p, pointing out the expression of the transfected Pex19p; the middle panel shows immunofluorescence of PMP70, indicating the formation of peroxisomes; and the right panel shows the merged image. (
+       <strong>
+        B
+       </strong>
+       ) Pull-down experiments for the interaction of the Pex19p deletion mutant, Δ34–44 and Δ45–90, with the His
+       <sub>
+        10
+       </sub>
+       -Pex3p soluble domain (Gln34–Lys373). In all, 10 μg each of GST-Pex19p deletion mutant and His
+       <sub>
+        10
+       </sub>
+       -Pex3p was mixed with Ni
+       <sup>
+        2+
+       </sup>
+       -NTA agarose in 100 μl of binding buffer (samples: input). After washing, the bound fractions were resuspended in the elution buffer, and precipitated by the TCA method, and resolved in 20 μl of SDS-sample buffer (samples: bound). Proteins in the samples of 5% of the ‘input' and 25% of the ‘bound' were analysed by SDS–PAGE. Asterisks indicate the bands corresponding to Pex19p variants. Each pair of the samples for the wild type and mutant was electrophoresed on the same gel. (
+       <strong>
+        C
+       </strong>
+       ) Pull-down experiments to evaluate the interaction of various His
+       <sub>
+        10
+       </sub>
+       -Pex19p deletion mutants with cell-free translated PMP22. The mRNA of human PMP22 was translated in the wheat germ cell-free system, in the presence of 10 μg of His
+       <sub>
+        10
+       </sub>
+       -Pex19p. The 200 μl of translation products (samples: input) were mixed with Ni
+       <sup>
+        2+
+       </sup>
+       -NTA agarose. After washing, the bound fractions were resuspended in the elution buffer, and precipitated by the TCA method, and resolved in 50 μl of SDS-sample buffer (samples: bound). Proteins in the samples of 2% of the ‘input' and 8% of the ‘bound' were analysed by western blotting with anti-Pex19p, and anti-PMP22 antibodies.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The crystal structure of the cytosolic domain of Pex3p in complex with the N-terminal 44-residue peptide of Pex19p reveals that their highly specific interaction is derived from complementary hydrophobic interfaces. The peptide Glu17−Asp32 of Pex19p forms an α-helix, and contributes to a direct interaction with Pex3p (
+    <xref ref-type="fig">
+     Figure 4A
+    </xref>
+    ). The hydrophobic side chains on the Pex19p helix (at the leucine triad, and at Phe29) are packed into a hydrophobic cavity surface of Pex3p, which is divided by the side chain of Trp104; these contribute significantly to the high affinity of Pex3p for Pex19p (
+    <xref ref-type="bibr">
+     Sato et al, 2008
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Figure 4
+    </xref>
+    ). However, the Pex19p helix is disordered when it is not bound to Pex3p. Circular dichroism analysis indicated that a hydrophobic environment, achieved experimentally by addition of methanol to the aqueous solvent, promoted the helical formation of the N-terminal 44-residue peptide of Pex19p (
+    <xref ref-type="fig">
+     Figure 3
+    </xref>
+    ). We suggest that the helix formation in this region of Pex19p could be coupled with hydrophobic binding to the Pex3p surface. If this Pex19p amphipathic helix were maintained without Pex3p binding, the hydrophobic side of the helix could interact with various cytosolic proteins in a non-specific manner. Therefore, during the cytosolic translocation of a cargo PMP, the Pex19p helix would assume an unstructured conformation in order to avoid such non-specific binding. A similar behaviour has been discovered in mitochondrial protein targeting. Tom20, a constituent of the translocon of the outer mitochondrial membrane (TOM) complex, and recognizes classical N-terminal mitochondrial-targeting presequences existing on mitochondrial-precursor proteins (
+    <xref ref-type="bibr">
+     Wiedemann et al, 2009
+    </xref>
+    ). The portion of presequence peptide that binds Tom 20 contains a diverse consensus motif (φχχφφ, where φ is hydrophobic and χ is any amino acid) and adopts an amphiphilic helical conformation, although presequences alone exhibit very little secondary structure in aqueous solutions. The helix formation by presequences upon interaction with the hydrophobic groove of Tom20 also guarantees the broadly selective specificity of the Tom20 receptor toward diverse mitochondrial presequences (
+    <xref ref-type="bibr">
+     Abe et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Saitoh et al, 2007
+    </xref>
+    ). Thus, the helical formation in the amphiphilic and specific regions of target proteins coupled with hydrophobic-binding sites of acceptor proteins could represent a widely applicable mechanism for selective targeting of organelle proteins by post-translational import systems. In the case of the peroxisome, we have shown that the Pex19p–Pex3p interaction requires not only the leucine triad but also Phe29 on the Pex19p helix in order to confer both high specificity and tight binding; this represents a distinct difference from the case of the mitochondrial presequences. We suggest that the sequence Leu-X-X-Leu-Leu-X
+    <sub>
+     6
+    </sub>
+    -Phe on the animal Pex19p should be designated as the Pex3p-binding motif, one that is tolerant of conformational changes according to its intracellular environment.
+   </p>
+   <p>
+    The extended tail region of Pex19p presumably forms a junctional device that manipulates and connects appropriately between the N-terminal Pex3p-binding region and C-terminal PMP-binding region of Pex19p, so that both regions have their roles somewhat independently despite residing within a single peptide. Although the extended tail of Pex19p peptide is not needed to interact with the bound Pex3p (
+    <xref ref-type="fig">
+     Figure 2A
+    </xref>
+    ), and is less conserved among animals (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ), the deletion of Pro34−Ala44 from Pex19p, containing the tail, partially interferes with peroxisome biogenesis (
+    <xref ref-type="fig">
+     Figure 6A
+    </xref>
+    ). Therefore, the length of this linker would be suitable for arrangement of the remainder of Pex19p in the correct geometry on the membrane for subsequent biological events, such as PMP insertion and the formation of new peroxisomes. Very recently, the structure of a human Pex19p C-terminal fragment (Gln161–Cys283), which includes the cargo-binding region, has been solved (
+    <xref ref-type="bibr">
+     Schueller et al, 2010
+    </xref>
+    ). Although the fragment structure does not contain the proposed binding sites for Pex3p, the structure and a combined functional study indicated a possibility that the C-terminal part of Pex19p participates recognition of the putative mPTS motif of two PMPs, Pex11p and Pex13p.
+   </p>
+   <p>
+    Based on the current structural and functional findings, Pex3p and Pex19p are implicated in the PMP-translocation process as follows. Pex3p is a prolate spheroidal molecule in a twisted six-helix bundle (
+    <xref ref-type="fig">
+     Figure 2A
+    </xref>
+    ); the structure seems to be suitable for class I PMP translocation. Pex3p is anchored on the membrane by the N-terminal hydrophobic region attached to one of its apexes. In contrast, the binding site for Pex19p is located on the opposite apex, which is most distal from the membrane. Therefore, Pex19p could be effectively captured by the apex of Pex3p, ‘standing' on the membrane like a tower. After Pex3p captures the Pex19p helix, the remainder of Pex19p (Pro45−farnesylated Cys296), containing the PMP-binding region, appears to hang down toward the membrane from the top of Pex3p, along the spheroid. However, we do not propose that these events are generated only by Pex19p and Pex3p. The molecular surface of the human Pex3p exhibits interhelical grooves rich in hydrophobic residues, which are reasonable candidates for mediators of docking with other protein molecules. Future research should aim to identify other binding partners for Pex3p and the structural basis for their interaction; this knowledge would facilitate our understanding of their biological roles in peroxisome biogenesis.
+   </p>
+   <p>
+    The crystal structure also provides insight into the mechanism of the peroxisome defect caused by the G138E mutation of Pex3p, isolated as a complementary group in a peroxisome-deficient CHO mutants (
+    <xref ref-type="bibr">
+     Ghaedi et al, 2000
+    </xref>
+    ). Gly138 is positioned near the C-terminal end of α2, which is distal to the binding site for Pex19p (
+    <xref ref-type="fig">
+     Figure 2A
+    </xref>
+    ). The methylene group of Gly138 is associated with the main chain of Phe365 and Ser366 on α6c (
+    <a>
+     Supplementary Figure S2
+    </a>
+    ). In the G138E mutant, the bulky side chain of Glu138 seems to push out the contacting α6c and to generate a local structural alteration.
+   </p>
+   <p>
+    Furthermore, after we submitted this manuscript, a crystal structure of residues 41–368 of the C235S mutant Pex3p in complex with a synthetic peptide corresponding to residues 14–30 of Pex19p has been solved (
+    <xref ref-type="bibr">
+     Schmidt et al, 2010
+    </xref>
+    ). Although this complex produces crystals with a different space group from ours (
+    <em>
+     P
+    </em>
+    6
+    <sub>
+     5
+    </sub>
+    22 in our case;
+    <em>
+     P
+    </em>
+    2
+    <sub>
+     1
+    </sub>
+    in the other study), and its structure was solved by different methods, (MAD in our case; or molecular replacement in the other study), both structures are very similar (
+    <a>
+     Supplementary Figure S3
+    </a>
+    ). This consistency supports a reliability of the Pex3p–Pex19p peptide structure. On the other hand, there are small differences between the structures in some molecular surface regions (
+    <a>
+     Supplementary Figures S2 and S3
+    </a>
+    ). This finding indicates that these regions might be flexible; nevertheless, these regions could not affect the Pex3p or the N-terminal Pex19p peptide binding, possibly excepting IHL1 and α1b.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Expression and purification of Pex3p (49−373) and Pex19p (1−44) for crystallization
+    </title>
+    <p>
+     The recombinant GST-tagged human Pex3p (49−373) was overexpressed in
+     <em>
+      Escherichia coli
+     </em>
+     BL21 (DE3) cells for 18 h at 18°C following induction with 0.1 mM IPTG. Cells were disrupted by sonication in a buffer containing 20 mM Tris–HCl, pH 7.5, 0.3 M NaCl, 10% (v/v) glycerol, 1 mM DTT, and 0.1 mM PMSF (buffer A). The soluble fraction was loaded on a Glutathione Sepharose 4B (GE Healthcare) column, and after washing with buffer A, GST-Pex3p was eluted in buffer A with 10 mM glutathione. The GST-tag was digested using PreScission protease (GE Healthcare) according to the manufacturer's instructions, while dialyzing against buffer A to remove glutathione. The digested GST-tag and protease were removed by passing the digestion reaction through a Glutathione Sepharose 4B column. The flow-through fractions were concentrated to 10 mg/ml, and further purified by gel filtration chromatography, using a Superdex200 16/60 column (GE Healthcare) in buffer A.
+    </p>
+    <p>
+     Selenomethionine (SeMet) substituted GST-Pex3p (49–373) was expressed in methionine-auxotroph
+     <em>
+      E. coli
+     </em>
+     B834 (DE3) strain (Novagen), which was cultured in LeMaster medium (
+     <xref ref-type="bibr">
+      Hendrickson et al, 1990
+     </xref>
+     ), with 25 mg/l of
+     <span>
+      L
+     </span>
+     -SeMet. The labelled Pex3p (49–373) was purified by the same methods as the unlabelled protein, except that all the buffers were supplemented with 5 mM DTT.
+    </p>
+    <p>
+     Recombinant GST-tagged human Pex19p (1–44) was overexpressed in
+     <em>
+      E. coli
+     </em>
+     BL21 (DE3) cells for 3 h at 37°C following induction with 1 mM IPTG. The cell disruption, GST purification, and tag removal were performed as described for Pex3p, in a buffer containing 20 mM Tris–HCl, pH 8.0, 0.1 M NaCl, 1 mM DTT. Pex19p (1–44) was further purified using a 5-ml HiTrap Q HP column (GE Healthcare) in 20 mM Tris–HCl, pH 8.5 with a linear gradient of 50–500 mM NaCl.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization
+    </title>
+    <p>
+     Pex3p and Pex19p were mixed at a molar ratio of 1:2 in 20 mM Tris–HCl, pH 8.5, 0.2 M NaCl, and concentrated to 50 mg/ml at UV-measured Pex3p concentration (absorbance at 280 nm of a 0.1% protein solution was 0.585). The 1:1 molar ratio of Pex3p and Pex19p should be sufficient, but the 1:2 conditions yielded high-quality crystals reproducibly. A measure of 1.5 μl of protein solution was mixed with an equal volume of reservoir solution containing 50 mM MES-Na, pH 6.5, 23–25% (w/v) PEG3350, and 0.2 M NaCl to form a sitting drop. The drop was then equilibrated over 500 μl of the reservoir solution at 20°C. Optimal crystals of the Pex3p–Pex19p complex were obtained after about 2 weeks. The crystals were cryoprotected by soaking in reservoir solution (25% PEG3350) with 10% (v/v) glycerol or 15% (v/v) 2-propanol, and flash frozen in liquid nitrogen.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Data collection and structure determination
+    </title>
+    <p>
+     Native and SeMet multiwavelength anomalous diffraction (MAD) data were collected on beamline BL41XU and BL38B1 at SPring-8, using an ADSC Quantum 315 detector and a Rigaku Jupiter210 detector, respectively. All data were integrated and scaled using HKL2000 (
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ), and data collection statistics are shown in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     . The structure of the Pex3p–Pex19p complex was determined using MAD at 2.7 Å resolution. Initial phase calculation and automatic model building were done using the PHENIX software (
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ). The substantial model building was carried out manually using COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ). The overall structure was refined at 2.5 Å resolution with REFMAC5 (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ). Structure determination and refinement statistics are shown in
+     <a>
+      Supplementary Table S1
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Circular dichroism analysis
+    </title>
+    <p>
+     Circular dichroism spectra were measured with a JASCO J-725 spectrometer (Jasco International Co, Ltd). Samples were prepared in 20 mM sodium phosphate buffer, pH 7.5. A quartz cell with a 1-mm light path length was used. All measurements were performed at 20°C. The apparent helical contents were calculated from the mean residual ellipticity at 222 nm (
+     <xref ref-type="bibr">
+      Chen et al, 1972
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Site-directed mutagenesis
+    </title>
+    <p>
+     Mutagenesis on Pex19p was carried out using the QuikChange site-directed mutagenesis kit (Stratagene). Primers are listed in
+     <a>
+      Supplementary Table S2
+     </a>
+     . Each mutation was confirmed by DNA sequencing.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In vitro-binding assays
+    </title>
+    <p>
+     Binding between Pex3p and Pex19p was estimated using a pull-down assay as described previously (
+     <xref ref-type="bibr">
+      Sato et al, 2008
+     </xref>
+     ). Briefly, 10 μl of Ni
+     <sup>
+      2+
+     </sup>
+     -NTA agarose was mixed with 10 μg each of GST-Pex19p mutant and His
+     <sub>
+      10
+     </sub>
+     -Pex3p (34–373) in 0.1 ml of 20 mM Tris–HCl, pH 8.0, 0.5 M NaCl, 10% (v/v) glycerol, and 20 mM imidazole. After incubation for 10 min on ice, the resin was washed three times with the starting buffer. The bound proteins were eluted with the same buffer supplemented with 250 mM imidazole, and concentrated with trichloroacetic acid (TCA) precipitation for SDS–PAGE analysis.
+    </p>
+    <p>
+     Effects of the mutagenesis on the binding affinity of Pex19p for its cargo PMP were also checked by a previously reported method (
+     <xref ref-type="bibr">
+      Shibata et al, 2004
+     </xref>
+     ). Briefly, the mRNA of human PMP22 was synthesized
+     <em>
+      in vitro
+     </em>
+     using T7 RNA polymerase, and translated in wheat germ extract in the presence of Pex19p. The reaction mixture was applied to an Ni
+     <sup>
+      2+
+     </sup>
+     -NTA affinity column, and the imidazole eluate was analysed by western blotting using anti-Pex19p and anti-PMP22 antibodies.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SPR analysis
+    </title>
+    <p>
+     SPR analyses were performed as described previously (
+     <xref ref-type="bibr">
+      Sato et al, 2008
+     </xref>
+     ). Briefly, goat anti-GST antibodies were immobilized on CM5 sensor chips (GE Healthcare) using the amine coupling method. Purified GST-Pex19p mutant was captured on the flow cell 2 via the GST antibody, and cell 1 was used as a reference. All experiments were performed at 25°C, using buffer containing 10 mM HEPES-Na, pH 7.4, 0.15 M NaCl, 3 mM EDTA, and 0.005% (v/v) Tween20. Pex3p samples were dialyzed against running buffer. The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     was obtained by non-linear fitting to a one-site model of the Langmuir-binding isotherm (
+     <a>
+      Equation 1
+     </a>
+     ). Curve fitting was performed using KaleidaGraph software (Synergy Software Co).
+    </p>
+    <sec>
+     <sec>
+      <sec>
+       <img/>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Culturing conditions and transient transfection
+    </title>
+    <p>
+     Pex19p-deficient human fibroblasts (PBDJ-01) were cultured in Dulbecco's modified Eagle's medium (ICN, Aurora, OH) containing 10% fetal bovine serum at 37°C and 5% CO
+     <sub>
+      2
+     </sub>
+     . For transient expression, 2 × 10
+     <sup>
+      6
+     </sup>
+     cells were transfected by electroporation using a Gene Pulser (Bio-Rad). Cells, in 500 μl of Opti-MEM (Invitrogen), were mixed with 20 μg of plasmid DNA and transferred to a 0.4-cm electroporation cuvette. Immediately thereafter, cells were subjected to pulses (960 μF, 200 V) and seeded on a 10-cm dish. Five or seven days after the transfection, the cells were washed three times with phosphate-buffered saline (PBS) and fixed for 10 min in 5% paraformaldehyde in PBS for indirect immunofluorescence.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Indirect immunofluorescence
+    </title>
+    <p>
+     Immunostaining was performed by essentially the same procedure as described previously (
+     <xref ref-type="bibr">
+      Osumi et al, 1991
+     </xref>
+     ). The fixed cells were permeabilized in 0.1% (w/v) Triton X-100 in PBS for 10 min, washed three times with PBS, and incubated with the primary antibodies for 1 h at room temperature. The primary antibody used in this study was a rabbit polyclonal antibody raised against the C-terminal 15 amino acids of rat PMP70 (1:200) (
+     <xref ref-type="bibr">
+      Imanaka et al, 1996
+     </xref>
+     ). Cy3-conjugated goat anti-rabbit IgG antibody (GE healthcare) was used to label the primary antibodies. The cells were mounted in 90% glycerol in 100 mM Tris–HCl (pH 8.0) and the samples were examined by TCS-SP5 confocal microscopy (Leica).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession codes
+    </title>
+    <p>
+     Atomic coordinates and structure factors for the human Pex3p in complex with N-terminal Pex19p peptide have been deposited with the Protein Data Bank under the accession code
+     <span>
+      3AJB
+     </span>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (7.5M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Original Scan 6b left:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (9.7M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Original Scan 6b right:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (9.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (246K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

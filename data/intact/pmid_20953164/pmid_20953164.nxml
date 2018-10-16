@@ -1,0 +1,3767 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3020648
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Multiple C-terminal tail Ca2+/CaMs regulate CaV1.2 function but do not mediate channel dimerization
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Interactions between voltage-gated calcium channels (Ca
+     <sub>
+      V
+     </sub>
+     s) and calmodulin (CaM) modulate Ca
+     <sub>
+      V
+     </sub>
+     function. In this study, we report the structure of a Ca
+     <sup>
+      2+
+     </sup>
+     /CaM Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminal tail complex that contains two PreIQ helices bridged by two Ca
+     <sup>
+      2+
+     </sup>
+     /CaMs and two Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–IQ domain complexes. Sedimentation equilibrium experiments establish that the complex has a 2:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM:C-terminal tail stoichiometry and does not form higher order assemblies. Moreover, subunit-counting experiments demonstrate that in live cell membranes Ca
+     <sub>
+      V
+     </sub>
+     1.2s are monomers. Thus, contrary to previous proposals, the crystallographic dimer lacks physiological relevance. Isothermal titration calorimetry and biochemical experiments show that the two Ca
+     <sup>
+      2+
+     </sup>
+     /CaMs in the complex have different properties. Ca
+     <sup>
+      2+
+     </sup>
+     /CaM bound to the PreIQ C-region is labile, whereas Ca
+     <sup>
+      2+
+     </sup>
+     /CaM bound to the IQ domain is not. Furthermore, neither of lobes of apo-CaM interacts strongly with the PreIQ domain. Electrophysiological studies indicate that the PreIQ C-region has a role in calcium-dependent facilitation. Together, the data show that two Ca
+     <sup>
+      2+
+     </sup>
+     /CaMs can bind the Ca
+     <sub>
+      V
+     </sub>
+     1.2 tail simultaneously and indicate a functional role for Ca
+     <sup>
+      2+
+     </sup>
+     /CaM at the C-region site.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     single-molecule imaging, titration calorimetry, voltage-gated calcium channel, X-ray crystallography
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    High-voltage-activated calcium channels (Ca
+    <sub>
+     V
+    </sub>
+    1s and Ca
+    <sub>
+     V
+    </sub>
+    2s) couple membrane depolarization-dependent calcium entry to excitation-contraction, gene regulation, hormone release, and synaptic transmission (
+    <xref ref-type="bibr">
+     Catterall, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hille, 2001
+    </xref>
+    ). As calcium is an intracellular messenger and both Ca
+    <sub>
+     V
+    </sub>
+    1s and Ca
+    <sub>
+     V
+    </sub>
+    2s are important calcium sources (
+    <xref ref-type="bibr">
+     Clapham, 2007
+    </xref>
+    ), Ca
+    <sub>
+     V
+    </sub>
+    s are regulated by a diverse set of feedback mechanisms. These include two in which calcium–calmodulin (Ca
+    <sup>
+     2+
+    </sup>
+    /CaM) has a central role (
+    <xref ref-type="bibr">
+     Dunlap, 2007
+    </xref>
+    ): calcium-dependent inactivation (CDI) in which calcium influx promotes channel closing, and calcium-dependent facilitation (CDF), a process that enhances channel opening in response to elevated cytoplasmic calcium.
+   </p>
+   <p>
+    Ca
+    <sub>
+     V
+    </sub>
+    1s and Ca
+    <sub>
+     V
+    </sub>
+    2s are multisubunit complexes that comprise a Ca
+    <sub>
+     V
+    </sub>
+    α
+    <sub>
+     1
+    </sub>
+    pore-forming subunit, Ca
+    <sub>
+     V
+    </sub>
+    β and Ca
+    <sub>
+     V
+    </sub>
+    α
+    <sub>
+     2
+    </sub>
+    δ auxiliary subunits and calmodulin (CaM;
+    <xref ref-type="bibr">
+     Van Petegem and Minor, 2006
+    </xref>
+    ). The Ca
+    <sub>
+     V
+    </sub>
+    α
+    <sub>
+     1
+    </sub>
+    C-terminal cytoplasmic tail bears an IQ domain that is thought to be a central site of the CaM interactions that govern CDI and CDF (
+    <xref ref-type="bibr">
+     Peterson et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     DeMaria et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lee et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Liang et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Van Petegem et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mori et al, 2008
+    </xref>
+    ) and that has been intensely scrutinized by crystallographic, biochemical and functional studies (
+    <xref ref-type="bibr">
+     Fallon et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Van Petegem et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mori et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    In addition to the IQ domain, biochemical studies have indicated that the Ca
+    <sub>
+     V
+    </sub>
+    1.2 C-terminal tail contains other CaM-binding sites (
+    <xref ref-type="bibr">
+     Pate et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mouton et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pitt et al, 2001
+    </xref>
+    ), generally known as the A-region and C-region (
+    <xref ref-type="bibr">
+     Pate et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pitt et al, 2001
+    </xref>
+    ). These are located between the EF-hand motif that follows the last Ca
+    <sub>
+     V
+    </sub>
+    α
+    <sub>
+     1
+    </sub>
+    transmembrane segment, IVS6, and the IQ motif. The role of the A and C sites in Ca
+    <sub>
+     V
+    </sub>
+    modulation, together with the issue of exactly how many CaMs bind the C-terminal tail remain unresolved. Gel shift experiments using a refolded Ca
+    <sub>
+     V
+    </sub>
+    1.2 C-terminal tail construct spanning the EF-hand through IQ domain (
+    <xref ref-type="bibr">
+     Xiong et al, 2005
+    </xref>
+    ) suggested that only single Ca
+    <sup>
+     2+
+    </sup>
+    /CaM binds to the C-terminal tail, even though this construct contains three potential Ca
+    <sup>
+     2+
+    </sup>
+    /CaM-binding determinants. In addition, functional studies of Ca
+    <sub>
+     V
+    </sub>
+    1.2–CaM fusions co-expressed with a dominant-negative CaM mutant have been interpreted as evidence that no more than one CaM is required for Ca
+    <sub>
+     V
+    </sub>
+    1.2 CDI (
+    <xref ref-type="bibr">
+     Mori et al, 2004
+    </xref>
+    ). In contrast, observation of a crystallographic Ca
+    <sub>
+     V
+    </sub>
+    1.2 C-terminal tail dimer and a modest effect of a PreIQ E → P mutation on CDI led to the proposal that Ca
+    <sub>
+     V
+    </sub>
+    1.2 channels dimerize through an anti-parallel coiled-coil interaction augmented by bridging interactions between Ca
+    <sup>
+     2+
+    </sup>
+    /CaM and A-region- and C-region-binding sites and that this interaction is functionally relevant (
+    <xref ref-type="bibr">
+     Fallon et al, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    Besides a potential role in Ca
+    <sup>
+     2+
+    </sup>
+    /CaM binding, various studies have suggested that the region N-terminal to the IQ domain (the ‘PreIQ' region), which overlaps with the A and C regions, may be an apo-CaM-binding site (
+    <xref ref-type="bibr">
+     Erickson et al, 2003
+    </xref>
+    ). It has been proposed that CaM lobes move between the PreIQ and the IQ domains as part of an apo-CaM to Ca
+    <sup>
+     2+
+    </sup>
+    /CaM transition that is important for function (
+    <xref ref-type="bibr">
+     Pate et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mouton et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pitt et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Erickson et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2004b
+    </xref>
+    ), although the details of the PreIQ-binding sites, putative transitions, and relationship to calcium-dependent Ca
+    <sub>
+     V
+    </sub>
+    modulation remain to be elucidated.
+   </p>
+   <p>
+    In this study, we present a crystal structure of an
+    <em>
+     in vivo
+    </em>
+    produced Ca
+    <sup>
+     2+
+    </sup>
+    /CaM-Ca
+    <sub>
+     V
+    </sub>
+    1.2 PreIQ-IQ domain complex. Similar to the report by Hamilton and colleagues (
+    <xref ref-type="bibr">
+     Fallon et al, 2009
+    </xref>
+    ) using a complex produced from refolded material, the crystallographic asymmetric unit contains an anti-parallel dimer of PreIQ helices bridged by two Ca
+    <sup>
+     2+
+    </sup>
+    /CaMs. To determine whether dimerization occurs under physiological conditions, we asked whether dimers occur in solution and in full-length channels in the membranes of live cells. We find no evidence for this interaction in solution or when we directly measure the oligomeric state of Ca
+    <sub>
+     V
+    </sub>
+    1.2 channels in cell membranes. Furthermore, mutations at the PreIQ helix crystallographic dimer interface cause no significant functional changes in key modulatory processes that are known to be affected by elements in the C-terminal tail: CDI, CDF, and voltage-dependent inactivation (VDI;
+    <xref ref-type="bibr">
+     Zühlke and Reuter, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zühlke et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2004b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Barrett and Tsien, 2008
+    </xref>
+    ). Thus, contrary to the previous proposal (
+    <xref ref-type="bibr">
+     Fallon et al, 2009
+    </xref>
+    ), the crystallographic dimer lacks physiological relevance.
+   </p>
+   <p>
+    We further show that the 2:1 Ca
+    <sup>
+     2+
+    </sup>
+    /CaM-Ca
+    <sub>
+     V
+    </sub>
+    1.2 tail complex has a dissociable Ca
+    <sup>
+     2+
+    </sup>
+    /CaM and that there is a clear preference of the C-region site for Ca
+    <sup>
+     2+
+    </sup>
+    /CaM lobes over apo-CaM lobes. Electrophysiological characterization of structure-based mutations in the PreIQ helix shows no correlation between Ca
+    <sup>
+     2+
+    </sup>
+    /CaM binding and CDI, consistent with the proposal that a single CaM is required for CDI (
+    <xref ref-type="bibr">
+     Mori et al, 2004
+    </xref>
+    ). In contrast, CDF is affected by C-region CaM-binding site mutations. Taken together, the data indicate a role for the PreIQ helix and C-region-binding site in CDF and highlight the potential for Ca
+    <sup>
+     2+
+    </sup>
+    /CaM bridges to form between the PreIQ helix and other elements of the Ca
+    <sub>
+     V
+    </sub>
+    1.2 complex.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Crystal structure of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM-Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ-IQ domain complex
+    </title>
+    <p>
+     We crystallized and determined the structure of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM-Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminal tail complex that included segments defined as the PreIQ and IQ domains (residues 1561–1637) at 2.55 Å resolution (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). The complex was made as a soluble entity by co-expression in
+     <em>
+      Escherichia coli
+     </em>
+     using a strategy used previously to make Ca
+     <sup>
+      2+
+     </sup>
+     /CaM-Ca
+     <sub>
+      V
+     </sub>
+     IQ domain complexes (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kim et al, 2008
+     </xref>
+     ). We denote the PreIQ segment as residues 1561–1603. This segment covers the PreIQ
+     <sub>
+      2
+     </sub>
+     and PreIQ
+     <sub>
+      3
+     </sub>
+     regions defined by
+     <xref ref-type="bibr">
+      Erickson et al (2003)
+     </xref>
+     and includes segments called the A-peptide (1561–1575) and C-peptide (1585–1605;
+     <xref ref-type="bibr">
+      Pitt et al, 2001
+     </xref>
+     ; hereafter referred to as the A-region and C-region, respectively). The structure was solved by molecular replacement using sequential searches with full-length CaM (PDB:2BE6, form A) and N-lobe models that lacked calcium ions. Appearance of difference density for the IQ helix and calcium ions indicated the veracity of the solution. Multiple rounds of building and refinement resulted in a model having
+     <em>
+      R
+     </em>
+     /
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     values of 24.1/28.8%.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Structure of the Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ domain complex. (
+       <strong>
+        A
+       </strong>
+       ) Two Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ helices (red and salmon) form a crystallographic dimer cross-bridged by Ca
+       <sup>
+        2+
+       </sup>
+       /CaMs. Ca
+       <sup>
+        2+
+       </sup>
+       /CaM N-lobe and C-lobe are coloured green and blue, respectively. N- and C-termini of PreIQ–IQ domain are indicated. Cartoon representation shows a schematic asymmetric unit. (
+       <strong>
+        B
+       </strong>
+       ) Ca
+       <sup>
+        2+
+       </sup>
+       /N-lobe
+       <sub>
+        AC
+       </sub>
+       PreIQ A-region-binding site. (
+       <strong>
+        C
+       </strong>
+       ) Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe
+       <sub>
+        AC
+       </sub>
+       PreIQ C-region-binding site. In (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ), PreIQ and Ca
+       <sup>
+        2+
+       </sup>
+       /CaM lobes are shown in stick and surface representation, respectively. Important contact residues are highlighted in white and labelled. Hydrophobic Ca
+       <sup>
+        2+
+       </sup>
+       /CaM lobe-binding interface residues are indicated and displayed in yellow. Due to poor Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe
+       <sub>
+        AC
+       </sub>
+       electron density, Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe from copy A of 2BE6 (
+       <xref ref-type="bibr">
+        Van Petegem et al, 2005
+       </xref>
+       ) superimposed on the Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe
+       <sub>
+        AC
+       </sub>
+       model was used for the figure. (
+       <strong>
+        D
+       </strong>
+       ) Schematic diagram of PreIQ anti-parallel coiled-coil interactions. a–g positions of heptad repeats and residue numbers are indicated. Right hand side shows the PreIQ coiled-coil interaction. Sidechains are shown as sticks. Interface residues targeted for mutation experiments are shown in space filling representation.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         X-Ray data collection and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The asymmetric unit contains two Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminal tails and four Ca
+     <sup>
+      2+
+     </sup>
+     /CaMs (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). The PreIQ segment forms a long (42 residue) helix separated from the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–IQ complex by a disordered linker (residues 1603–1613). Two types of interactions occur in the dimer. Two Ca
+     <sup>
+      2+
+     </sup>
+     /CaM molecules (denoted as CaM
+     <sub>
+      AC
+     </sub>
+     ) form cross-bridges in which Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ) and Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe
+     <sub>
+      AC
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ) bind to sites on the A- and C-regions of symmetrically related PreIQ helices, respectively. In addition, the PreIQ helices cross and interact in a mode that SOCKET (
+     <xref ref-type="bibr">
+      Testa et al, 2009
+     </xref>
+     ) recognizes as short anti-parallel coiled-coil that spans approximately three heptad repeats in which residues 1578, 1581, 1585 and 1588 comprise the a and d positions characteristic of coiled-coils (
+     <xref ref-type="bibr">
+      Lupas and Gruber, 2005
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Each IQ domain is located at the C-terminal end of a PreIQ helix and interacts with a single Ca
+     <sup>
+      2+
+     </sup>
+     /CaM (denoted as Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      IQ
+     </sub>
+     ) in a manner identical to previous Ca
+     <sup>
+      2+
+     </sup>
+     /CaM-Ca
+     <sub>
+      V
+     </sub>
+     1.2 IQ domain structures (RMSD
+     <sub>
+      Cα
+     </sub>
+     1.176 and 1.126 Å for each in comparison with 2BE6 molecule ‘A' (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2005
+     </xref>
+     ) and RMSD
+     <sub>
+      Cα
+     </sub>
+     of 1.046 and 1.066 Å with 2F3Y (
+     <xref ref-type="bibr">
+      Fallon et al, 2005
+     </xref>
+     ;
+     <a>
+      Supplementary Figure 1a
+     </a>
+     ).
+    </p>
+    <p>
+     The dimeric PreIQ helix arrangement, Ca
+     <sup>
+      2+
+     </sup>
+     /CaM cross-bridges, and relative position of one of the two Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 IQ complexes in the asymmetric unit are similar to the recent crystal structure of a Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 tail complex made from refolded material encompassing the identical residues from a different Ca
+     <sub>
+      V
+     </sub>
+     1.2 isoform (residues 1609–1685 of UniProt accession number
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"Q13936","term_id":"308153651","term_text":"Q13936"}}
+      </span>
+      Q13936
+     </a>
+     (
+     <xref ref-type="bibr">
+      Fallon et al, 2009
+     </xref>
+     )). The two complexes were crystallized from different conditions (0.2 M Li
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 24.5% PEG 3350, and 0.1 M bis-Tris (pH 5.5) vs 1 M LiCl, 20% PEG 6000, 3% MPD, and 0.1 M MES (pH 6.0), this structure and 3G43, respectively) and have different unit cell dimensions (39.6, 132.2, and 158.2 Å vs 39.8, 114.0, and 182.1 Å, this structure vs 3G43, respectively). Comparison of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM and Ca
+     <sub>
+      V
+     </sub>
+     regions common to both yields an RMSD
+     <sub>
+      Cα
+     </sub>
+     =1.319 Å (
+     <a>
+      Supplementary Figure 1b
+     </a>
+     ). Beyond these similarities, there are a number of differences. Our structure possesses two well-defined, complete Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–IQ domain complexes related by two-fold symmetry (RMSD
+     <sub>
+      Cα
+     </sub>
+     =0.305 Å). In contrast, 3G43 has only a single well-defined Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–IQ complex. Instead of a second Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–IQ complex, 3G43 has a single Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe unrelated by symmetry to Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      IQ
+     </sub>
+     and that lacks density for the Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe and IQ peptide. From our electron density, we could only build a portion of Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe
+     <sub>
+      AC
+     </sub>
+     s (backbone positions for 82–91, 101–110 and 115–146). These lobes are well ordered in 3G43. Nevertheless, our partial Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe
+     <sub>
+      AC
+     </sub>
+     s almost perfectly coincide with those in 3G43. Comparison of the structures indicates that the linker connecting the PreIQ and IQ regions has the ability to adopt varied conformations.
+    </p>
+    <p>
+     Given the similarities of the structures and previous description (
+     <xref ref-type="bibr">
+      Fallon et al, 2009
+     </xref>
+     ), we briefly note key Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      AC
+     </sub>
+     and PreIQ helix elements that form the focus of extensive biochemical and functional analysis presented here. The groove formed by Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     residues Phe19, Met51, Met71, and Met72 interacts with the A-region through hydrophobic interactions centred around PreIQ Leu1562 and including Phe1563, Leu1565, and Val1566 (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). The deep Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe
+     <sub>
+      AC
+     </sub>
+     hydrophobic pocket formed by Phe92, Leu105, Met124, Met144, and Met145 is anchored to the PreIQ helix by extensive interactions with Trp1593 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ) in a mode commonly observed between Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe and tryptophan-containing binding partners (
+     <xref ref-type="bibr">
+      Meador et al, 1992
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Maximciuc et al, 2006
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ complex is a 2:1 complex in solution
+    </title>
+    <p>
+     The asymmetric unit of the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ domain complex has a Ca
+     <sup>
+      2+
+     </sup>
+     /CaM-to-PreIQ–IQ ratio of 4:2. Discernment of whether crystallographic interactions are meaningful from structure alone is difficult. Crystal-packing interactions, which are driven by the exact same forces that mediate physiologically relevant interactions, can have interface sizes and characteristics that are not different from validated protein–protein interactions (
+     <xref ref-type="bibr">
+      Bahadur et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Janin et al, 2008
+     </xref>
+     ). Therefore, to examine whether the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ domain complex could dimerize, we used a variety of solution-based assays.
+    </p>
+    <p>
+     Size exclusion chromatography of the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ complex using a Superdex 200 column (resolution range=10–600 kDa) before crystallization indicated an apparent molecular weight of ∼66 kDa (
+     <a>
+      Supplementary Figure 2a
+     </a>
+     ). This did not correspond with either a monomeric complex (2:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ domain, 42.8 kDa) or a dimeric complex (4:2 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ domain complex, 85.6 kDa). Interestingly, a similar construct, the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ complex (residues 1579–1644) showed essentially the same elution volume as the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ domain complex (
+     <a>
+      Supplementary Figure 2b
+     </a>
+     ). The Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ complex lacks the PreIQ ‘A-region' and two of the six hydrophobic residues that contribute to the core of the anti-parallel coiled-coil interaction. Thus, this complex cannot form the crystallographically observed dimer. Gel filtration analysis is strongly influenced by sample hydrodynamic radius (
+     <xref ref-type="bibr">
+      Minor, 2007
+     </xref>
+     ). The PreIQ–IQ complex has an elongated shape. Consideration of this property together with the similar size exclusion behaviour of PreIQ–IQ and C–IQ complexes, which occurred despite the different sizes and the fact that one lacked key dimerization elements, led us to reason that gel filtration analysis was not a reliable indicator of complex size and stoichiometry. It should be noted that the previously published evidence suggesting the presence of the 4:2 complex in solution (
+     <xref ref-type="bibr">
+      Fallon et al, 2009
+     </xref>
+     ) relies on experiments done at the resolution limit of the sizing column used in those studies (Superdex 75, resolution range=3–70 kDa). Such conditions make discernment of an ∼66 kDa complex from an ∼81 kDa complex impracticable. Therefore, we used equilibrium sedimentation analysis, a method that is insensitive to the vagaries of molecular shape (
+     <xref ref-type="bibr">
+      Laue, 1995
+     </xref>
+     ), to directly measure molecular mass of the complex in solution and resolve this issue.
+    </p>
+    <p>
+     Sedimentation equilibrium experiments using purified Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ complexes yielded data that were fit nicely by a single-species model that yielded random residuals and clearly indicated a 2:1 stoichiometry (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). This stoichiometry was maintained over a wide concentration range (15–100 μM; initial sample concentrations) and different centrifugation speeds (9000–13 000 r.p.m.;
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). Sedimentation equilibrium experiments using the shorter Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ complex revealed that this construct also acted as a well-behaved 2:1 complex (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). These results indicate that, as suspected, the gel filtration experiments were misleading regarding the true stoichiometry. Importantly, there was no evidence for a 4:2 complex. These results strongly suggest that the dimeric structure observed in the asymmetric unit is a result of crystallization, and even though there are extensive crystallographic contacts between the two Ca
+     <sub>
+      V
+     </sub>
+     tail complexes, this association is not robust.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Sedimentation equilibrium analysis of Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 tails. (
+       <strong>
+        A
+       </strong>
+       ) Equilibrium distribution of 100 μM Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ domain complex at 11 000 r.p.m. and 4°C and measured at 293 nm. Raw data (black open circles) and single species fit (black line) are compared with predicted curves for complexes having Ca
+       <sup>
+        2+
+       </sup>
+       /CaM:Ca
+       <sub>
+        V
+       </sub>
+       1.2 tail ratios of 1:1 (red), 2:1 (yellow), 2:2 (green), and 4:2 (blue). Inset is random distribution of residuals as a function of radial distance. (
+       <strong>
+        B
+       </strong>
+       ) Comparison of the measured molecular weight of Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ domain based on sedimentation equilibrium experiments performed at different protein concentrations and centrifugation speeds. Molecular weights for 2:1 (42.8 kDa) and 4:2 (85.6 kDa) complexes are indicated by the dotted lines. (
+       <strong>
+        C
+       </strong>
+       ) Equilibrium distribution of 15 μM Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 C–IQ complex. A representative curve is shown; 15 μM of Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 C–IQ complex at 11 000 r.p.m. and 4°C and measured at 281 nm. Solid lines are calculated as in (
+       <strong>
+        A
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Ca
+     <sub>
+      V
+     </sub>
+     1.2s are monomers in live cell membranes
+    </title>
+    <p>
+     Pore-forming Ca
+     <sub>
+      V
+     </sub>
+     α
+     <sub>
+      1
+     </sub>
+     subunits have been thought to function as monomers (
+     <xref ref-type="bibr">
+      Catterall, 2000
+     </xref>
+     ). Our biochemical and functional data strongly suggest that the dimeric interactions in the crystallographic asymmetric unit do not represent native interactions. Nevertheless, one could imagine that the context provided by the membrane might lead to a sufficient increase in effective concentration to allow dimerization between elements that otherwise have low affinity association constants. Therefore, to determine the oligomeric state of the Ca
+     <sub>
+      V
+     </sub>
+     1.2 channels in a live cell membrane, we used single-molecule subunit counting (
+     <xref ref-type="bibr">
+      Ulbrich and Isacoff, 2007
+     </xref>
+     ) in which total internal reflection fluorescence microscopy (TIRFM) was used to measure discrete photobleaching steps from Ca
+     <sub>
+      V
+     </sub>
+     1.2 α
+     <sub>
+      1
+     </sub>
+     subunits bearing a C-terminal green fluorescent protein (GFP) tag. Ca
+     <sub>
+      V
+     </sub>
+     1.2–GFP channels were functionally equivalent to untagged Ca
+     <sub>
+      V
+     </sub>
+     1.2 (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). The majority (96%) of Ca
+     <sub>
+      V
+     </sub>
+     1.2–GFP fluorescent spots (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ) bleached in a single step (
+     <xref ref-type="fig">
+      Figure 3C and D
+     </xref>
+     ), indicative of a monomeric state. Similar distributions have been observed in subunit-counting experiments of Ca
+     <sub>
+      V
+     </sub>
+     2.3 (96:4%, 1:2 bleaching steps;
+     <xref ref-type="bibr">
+      Ulbrich and Isacoff, 2007
+     </xref>
+     ) and Ci-VSP monomers (94:6%, 1:2 bleaching steps;
+     <xref ref-type="bibr">
+      Kohout et al, 2008
+     </xref>
+     ). In contrast, the dimeric channel, Hv1, has a bleaching pattern (30:65:5%, 1:2:3 bleaching steps;
+     <xref ref-type="bibr">
+      Tombola et al, 2008
+     </xref>
+     ) that is clearly different from that observed from Ca
+     <sub>
+      V
+     </sub>
+     1.2–GFP. Thus, our data clearly indicate that Ca
+     <sub>
+      V
+     </sub>
+     1.2 channels are present in the membrane as monomers, not as dimers. These results confirm that the crystallographic dimer is not relevant in the context of full-length, functional channels.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Subunit counting of Ca
+       <sub>
+        V
+       </sub>
+       1.2 in cell membrane. (
+       <strong>
+        A
+       </strong>
+       ) Inactivation properties of GFP-tagged Ca
+       <sub>
+        V
+       </sub>
+       1.2 co-expressed with Ca
+       <sub>
+        V
+       </sub>
+       β
+       <sub>
+        2a
+       </sub>
+       in
+       <em>
+        Xenopus
+       </em>
+       oocytes. Normalized Ca
+       <sup>
+        2+
+       </sup>
+       and Ba
+       <sup>
+        2+
+       </sup>
+       currents recorded from Cav1.2–GFP (dark blue and light blue, respectively) are compared to those of wild type (black and grey, respectively). The pulse protocol is indicated above the graph and scale bars represent 200 nA Ca
+       <sup>
+        2+
+       </sup>
+       current. (
+       <strong>
+        B
+       </strong>
+       ) A representative TIRF image showing the Ca
+       <sub>
+        V
+       </sub>
+       1.2–GFP fluorescent spots in the cell surface of
+       <em>
+        X. laevis
+       </em>
+       oocytes. Bright spots are Ca
+       <sub>
+        V
+       </sub>
+       1.2–GFP single molecules when the shutter is first opened at the beginning of the bleaching experiment. Blue circles mark the selected molecules for subunit counting. (
+       <strong>
+        C
+       </strong>
+       ) Time courses of photobleaching from single fluorescent spots. Two examples are shown. (
+       <strong>
+        D
+       </strong>
+       ) Distribution of fluorescent spots that bleach in one or more steps. Percentile of each bleaching step is indicated.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ complex contains a labile Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+    </title>
+    <p>
+     The 2:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ complex was formed during co-expression and survived multiple purification steps (metal affinity, anion exchange, and size exclusion). Nevertheless, we wondered whether either or both of the bound Ca
+     <sup>
+      2+
+     </sup>
+     /CaMs could be removed. Phenylsepharose chromatography is a well-established method for purifying CaM (
+     <xref ref-type="bibr">
+      Gopalakrishna and Anderson, 1982
+     </xref>
+     ) and exploits differences in the abilities of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM and apo-CaM to interact with the hydrophobic resin. Passage of the 2:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ complex through a phenylsepharose column resulted in two fractions (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ), a flow-through fraction that contained CaM and the PreIQ–IQ segment, and a bound fraction that was released by EGTA and that contained only CaM (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Reapplication of the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ flow-through fraction did not remove any more CaM (
+     <a>
+      Supplementary Figure 3a
+     </a>
+     ). We obtained similar results for the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ complex. Size exclusion chromatography of the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ and the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ complexes after phenylsepharose purification indicated an elution volume change towards lower molecular weight species (data not shown). Analytical ultracentrifugation experiments unambiguously showed that the phenylsepharose-treated Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ and Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ samples were 1:1 complexes (
+     <xref ref-type="fig">
+      Figure 4C and D
+     </xref>
+     ). Together with the phenylsepharose experiments, these results indicate that two forms of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM bind to the Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminal tail simultaneously, a labile form and a non-labile form. To test which was labile, we subjected purified Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 IQ domain complexes to the phenylsepharose purification procedure. Unlike the longer PreIQ–IQ and C–IQ complexes, no CaM peak was detected at the EGTA elution step (
+     <a>
+      Supplementary Figure 3b
+     </a>
+     ). Together, the data suggest that the C-region is the binding site for the second Ca
+     <sup>
+      2+
+     </sup>
+     /CaM molecule and that Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      AC
+     </sub>
+     is labile, whereas Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      IQ
+     </sub>
+     is not. The ability of phenylsepharose to strip Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      AC
+     </sub>
+     but not Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      IQ
+     </sub>
+     from the complex suggests that Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      AC
+     </sub>
+     has a lobe that is not engaged with the PreIQ region.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       The Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ domain complex contains two types of Ca
+       <sup>
+        2+
+       </sup>
+       /CaM. (
+       <strong>
+        A
+       </strong>
+       ) Phenylsepharose chromatograph of the Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ complex. Peak 1 is the flow through fraction and Peak 2 is eluate obtained with 10 mM EGTA. Absorbance and conductivity are shown as blue and green, respectively. (
+       <strong>
+        B
+       </strong>
+       ) SDS–PAGE analysis of Peak 1 and Peak 2 from (
+       <strong>
+        A
+       </strong>
+       ). Peak 1 contains both CaM and Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ peptide. Peak 2 contains only CaM. (
+       <strong>
+        C
+       </strong>
+       ) Sedimentation equilibrium analysis of the Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ–IQ complex post phenylsepharose treatment. Representative data obtained at 4°C and measured at 14 000 r.p.m. and 236 nm using 10 μM complex is shown. (
+       <strong>
+        D
+       </strong>
+       ) Sedimentation equilibrium analysis of Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 C–IQ complex after phenylsepharose chromatography. Representative data measured at 11 000 r.p.m. and 297 nm using 90 μM protein is shown. Fits in (
+       <strong>
+        C
+       </strong>
+       ) and (
+       <strong>
+        D
+       </strong>
+       ) are presented as in
+       <xref ref-type="fig">
+        Figure 2A and C
+       </xref>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Characterization of PreIQ A-region and C-region CaM-binding sites
+    </title>
+    <p>
+     To obtain a detailed and quantitative understanding of the crystallographic Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      AC
+     </sub>
+     half sites, we used a combination of isothermal titration calorimetry (ITC) and pulldown assays using individually purified CaM lobes. The peptide corresponding to the A-region (residues 1561–1580) had poor solubility and failed to yield sufficient material for ITC. Thus, we used a maltose-binding protein fusion (HMT) bearing the A-region to make material that was sufficiently soluble to study the interaction with Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe by ITC. Consistent with the structure, ITC experiments identified a single, weak (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     &gt;10 μM) Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     -binding site (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ) that was absent when Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe was tested against HMT alone (data not shown). Pulldown assays using the same components in the presence of Ca
+     <sup>
+      2+
+     </sup>
+     also detected the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe–A-region interaction, and were used to evaluate mutations in the crystallographically observed Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     anchor positions (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). Mutation at the central anchor, Leu1562Ala, and the double mutant Leu1562Ala/Phe1563Ala disrupted the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe–A-region interaction (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). In contrast, individual alanine mutations of other Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     contact positions (Phe1563Ala, Leu1565Ala, and Val1566Ala) did not affect binding. These results indicate that, as seen in the crystal structure, Leu1562 forms the central contact residue for a low-affinity interaction between Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     and the A-region.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Characterization of Ca
+       <sup>
+        2+
+       </sup>
+       /CaM
+       <sub>
+        AC
+       </sub>
+       –Ca
+       <sub>
+        V
+       </sub>
+       1.2 PreIQ interactions. (
+       <strong>
+        A
+       </strong>
+       ) 100 μM Ca
+       <sup>
+        2+
+       </sup>
+       /N-lobe titrated into 10 μM HMT-tagged A-region. Panels show injections of 10 μl titrant to the target (top) and binding isotherms (bottom). (
+       <strong>
+        B
+       </strong>
+       ) Pulldown assay using 20 μM HMT alone and 20 μM HMT-tagged A-region variants with 100 μM Ca
+       <sup>
+        2+
+       </sup>
+       /N-lobe. M indicates molecular weight standards. (
+       <strong>
+        C
+       </strong>
+       ) 100 μM Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe titrated into 10 μM HMT-tagged A-region. Panels show injections of 10 μl titrant to the target (top) and binding isotherms (bottom). (
+       <strong>
+        D
+       </strong>
+       –
+       <strong>
+        F
+       </strong>
+       ) Binding isotherms for titration of 100 μM Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe into (
+       <strong>
+        D
+       </strong>
+       ) 10 μM wild type, (
+       <strong>
+        E
+       </strong>
+       ) Trp1593Ala, and (
+       <strong>
+        F
+       </strong>
+       ) Trp1593Glu 1:1 Ca
+       <sup>
+        2+
+       </sup>
+       /CaM–Ca
+       <sub>
+        V
+       </sub>
+       1.2 C–IQ complexes. (
+       <strong>
+        G
+       </strong>
+       ) Overlaid binding isotherms of (
+       <strong>
+        D
+       </strong>
+       –
+       <strong>
+        F
+       </strong>
+       ). Cartoon representations depict components of each experiment. A-region, C-region, and IQ domain are denoted as PreIQ A, PreIQ C, and IQ, respectively. Stars indicate mutation sites.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Titration calorimetry data
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     As anticipated from the highly homologous nature of the N- and C-lobes (
+     <xref ref-type="bibr">
+      Ataman et al, 2007
+     </xref>
+     ), similar experiments with Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe show that it can also bind the A-region. This interaction seems to be even weaker than the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe–A-region interaction (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ), and is drastically weaker than the Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe–C-region interaction (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ).
+    </p>
+    <p>
+     To evaluate C-region site interactions, we performed ITC experiments using individual CaM lobes and post-phenylsepharose 1:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ complexes. These reveal a single Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe-binding site having an affinity that is at least 20-fold stronger than the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe interaction at the A-region site (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =475±150 nM;
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). Mutation of the Trp1593 Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe anchor to alanine or glutamate changed the binding reaction from exothermic to endothermic and resulted in a severely reduced affinity (∼17-fold) for Trp1593Ala and almost complete loss of detectable binding for Trp1593Glu (
+     <xref ref-type="fig">
+      Figure 5E-G
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). These results validate that the measured interaction corresponds with the crystallographically observed C-region-binding site. Interestingly, Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe can also bind the C-region, but with lower affinity than Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =5.6±0.5 μM). Trp1593Ala ablated this interaction (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ) and indicated that the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe and Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe sites overlap, a property noted previously for Ca
+     <sup>
+      2+
+     </sup>
+     /CaM Ca
+     <sub>
+      V
+     </sub>
+     IQ domain-binding sites (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kim et al, 2008
+     </xref>
+     ). The affinity of Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe for the C-region is ∼100-fold weaker than Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe for the Ca
+     <sub>
+      V
+     </sub>
+     1.2 IQ domain (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2005
+     </xref>
+     ) and agrees well with our observation that Ca
+     <sup>
+      2+
+     </sup>
+     /CaM bound to C-region is labile and our inability to strip Ca
+     <sup>
+      2+
+     </sup>
+     /CaM from the IQ domain by phenylsepharose treatment (
+     <a>
+      Supplementary Figure 3b
+     </a>
+     ). The concentration of CaM near Ca
+     <sub>
+      V
+     </sub>
+     1.2 is suggested to be ∼2.5 mM (
+     <xref ref-type="bibr">
+      Mori et al, 2004
+     </xref>
+     ), well within the range to be relevant for the half-site interaction affinities measured here. Together, these biochemical experiments confirm that the interactions observed in the crystal structure reflect modes by which the A- and C-regions can engage the individual Ca
+     <sup>
+      2+
+     </sup>
+     /CaM lobes and show that the C-region site has a substantially higher binding affinity for CaM–lobe interaction.
+    </p>
+    <p>
+     Interactions between calcium-free CaM (apo-CaM) and the Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminus are thought to be crucial for channel function (
+     <xref ref-type="bibr">
+      Pitt et al, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Erickson et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kim et al, 2004a
+     </xref>
+     ), although the exact location of the binding site remains unresolved. As PreIQ region contains proposed apo-CaM-binding regions, we tested whether apo-CaM lobe mimics that bear mutations in the calcium-binding EF hands, Apo/N-lobe
+     <sub>
+      12
+     </sub>
+     and Apo/C-lobe
+     <sub>
+      34
+     </sub>
+     interact with the A-region and C-region using ITC. These half-apo-CaM constructs were used so the experiment could be done in the presence of calcium, which was required to maintain Ca
+     <sup>
+      2+
+     </sup>
+     /CaM bound to the IQ domain for the PreIQ C–IQ experiments. Circular dichroism indicates that Apo/N-lobe
+     <sub>
+      12
+     </sub>
+     and Apo/C-lobe
+     <sub>
+      34
+     </sub>
+     have similar structures to the corresponding, individual apo-lobes of wild-type CaM (
+     <a>
+      Supplementary Figure 4
+     </a>
+     ). ITC experiments demonstrate that Apo/N-lobe
+     <sub>
+      12
+     </sub>
+     and Apo/C-lobe
+     <sub>
+      34
+     </sub>
+     bind as weakly to the A-region as the individual Ca
+     <sup>
+      2+
+     </sup>
+     /lobes (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     &gt;10 μM) and have no detectable interaction with the C-region (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). These data establish that the C-region site has a clear preference for Ca
+     <sup>
+      2+
+     </sup>
+     /CaM lobes and indicate that the neither the A-region nor C-region contains a strong apo-lobe-binding motif.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophysiological studies identify a role for the C-region site in CDF
+    </title>
+    <p>
+     Although we observed no evidence for Ca
+     <sub>
+      V
+     </sub>
+     1.2 tail dimerization in solution (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ), we decided to test whether mutations designed to disrupt the crystallographic anti-parallel coiled-coil affected function. Leu1585 and Ile1588 are positioned at successive a and d positions, respectively, and interact with Leu1578 and Ala1581 (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Because of the anti-parallel arrangement, Leu1585Ala/Ile1588Ala should disrupt interactions across two of the three turns that contribute to the crystallographic coiled-coil. Two-electrode voltage clamp experiments in
+     <em>
+      Xenopus
+     </em>
+     oocytes showed that Leu1585Ala/Ile1588Ala failed to cause a detectable change in either CDI or VDI (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ;
+     <a>
+      <span>
+       Table III
+      </span>
+     </a>
+     ). These results together with our solution studies and subunit-counting experiments indicate that the dimerization interaction observed in the crystal structure is not relevant for function.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Inactivation of Ca
+       <sub>
+        V
+       </sub>
+       1.2 and Ca
+       <sub>
+        V
+       </sub>
+       1.2 bearing mutations in (
+       <strong>
+        A
+       </strong>
+       ) the crystallographic anti-parallel coiled-coil interface, (
+       <strong>
+        B
+       </strong>
+       ) Ca
+       <sup>
+        2+
+       </sup>
+       /N-lobe
+       <sub>
+        AC
+       </sub>
+       –A-region binding sites, and (
+       <strong>
+        C
+       </strong>
+       ) Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe
+       <sub>
+        AC
+       </sub>
+       –C-region binding sites. Ca
+       <sub>
+        V
+       </sub>
+       1.2s were co-expressed with Ca
+       <sub>
+        V
+       </sub>
+       β
+       <sub>
+        2a
+       </sub>
+       and Ca
+       <sub>
+        V
+       </sub>
+       α2δ in
+       <em>
+        Xenopus
+       </em>
+       oocytes. Data shows currents for 450 ms with a test pulse from −90 to +20 mV. Normalized Ca
+       <sup>
+        2+
+       </sup>
+       and Ba
+       <sup>
+        2+
+       </sup>
+       currents for wild type (black and grey, respectively) and indicated mutants (dark blue and light blue, respectively) are shown. Scale bars indicate 200 nA Ca
+       <sup>
+        2+
+       </sup>
+       current.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Inactivation properties of Ca
+         <sub>
+          V
+         </sub>
+         1.2 variants
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     To investigate whether the crystallographically observed and biochemically validated Ca
+     <sup>
+      2+
+     </sup>
+     /CaM lobe-binding sites in the A-region and C-region represent functionally important interactions, we examined the effects of a set of structure-based mutations. Despite the detrimental effects on Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe binding (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ), neither Leu1562Ala nor Leu1562Ala/Phe1563Ala changes in the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe A-region contact site affected CDI or VDI (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ;
+     <a>
+      <span>
+       Table III
+      </span>
+     </a>
+     ). Previous studies reported that an A-region triple-alanine mutation Thr1561Ala/Leu1562Ala/Phe1563Ala reduced CDI (
+     <xref ref-type="bibr">
+      Kim et al, 2004b
+     </xref>
+     ). To revisit this effect, we examined individual alanine mutations at each of these positions. Of the three, only Thr1561Ala affected Ca
+     <sub>
+      V
+     </sub>
+     1.2 CDI (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ;
+     <a>
+      <span>
+       Table III
+      </span>
+     </a>
+     ). Given the minimal contacts this position has with Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     , this CDI change does not seem to be correlated with Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     binding to the A-region. Two of the other residues that contact Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     , Leu1565 and Val1566 are part of a second triple-alanine mutant, Leu1565Ala/Val1566Ala/Arg1567Ala, which also reduced CDI (
+     <xref ref-type="bibr">
+      Kim et al, 2004b
+     </xref>
+     ). Individual examination of Leu1565Ala and Val1566Ala revealed that only Leu1565Ala affected CDI (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). Nevertheless, neither of these changes caused detectable perturbations to the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     –A-region interaction (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). Thus, there is little correlation between the crystallographically observed and biochemically validated Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     –A-region interactions and function.
+    </p>
+    <p>
+     Similar to the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe
+     <sub>
+      AC
+     </sub>
+     results, investigation of the consequences of Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe
+     <sub>
+      AC
+     </sub>
+     anchor mutants, Trp1593Ala or Trp1593Glu, also failed to find functional changes of CDI or VDI (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ;
+     <a>
+      <span>
+       Table III
+      </span>
+     </a>
+     ) even though both mutants showed significant reduction in Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe binding in the ITC experiments (
+     <xref ref-type="fig">
+      Figure 5E–G
+     </xref>
+     ). Thus, there is no correlation between the structure and biochemistry of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM
+     <sub>
+      AC
+     </sub>
+     interactions with the A- and C-regions and channel inactivation processes.
+    </p>
+    <p>
+     The interactions between the Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminal tail and CaM affect another calcium-dependent channel behaviour known as calcium-dependent facilitation (CDF;
+     <xref ref-type="bibr">
+      Pitt et al, 2001
+     </xref>
+     ). To see whether any of the structural elements in the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–PreIQ helix complex participates in CDF, we measured the effects of the above mutations in the background of the IQ domain Ile1624Ala mutation that unmasks Ca
+     <sub>
+      V
+     </sub>
+     1.2 CDF (
+     <xref ref-type="bibr">
+      Zühlke et al, 1999
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ). Disruption of the crystallographic coiled-coil interface by Leu1585Ala/Ile1588Ala had no effect (
+     <a>
+      <span>
+       Table IV
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure 5
+     </a>
+     ). Mutations in both the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe and Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe anchor positions caused significant decreases in CDF (
+     <a>
+      <span>
+       Table IV
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure 5
+     </a>
+     ). Interestingly, the CDF decreases caused by Trp1593Ala and Trp1593Glu were augmented by introduction of Leu1585Ala/Ile1588Ala (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ;
+     <a>
+      <span>
+       Table IV
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure 5
+     </a>
+     ). The former shows a significantly ablated CDF, whereas the latter almost abolished CDF. We were unable to make similar measurements with the Ca
+     <sup>
+      2+
+     </sup>
+     /N-lobe mutant Leu1562Ala/Phe1563Ala, as combination with Leu1585Ala/Ile1588Ala did not yield functional channels. The observed effects are consistent with the different degrees of loss of Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe binding caused by Trp1593Ala and Trp1593Glu and suggest that the Ca
+     <sup>
+      2+
+     </sup>
+     /C-lobe
+     <sub>
+      AC
+     </sub>
+     –PreIQ helix interactions and the PreIQ helix have an important role in CDF.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       C-region mutations affect CDF. Blocking both dimer interface and Ca
+       <sup>
+        2+
+       </sup>
+       /C-lobe
+       <sub>
+        AC
+       </sub>
+       –C-region interaction almost completely abolished Ile1624Ala CDF. Ca
+       <sup>
+        2+
+       </sup>
+       currents were recorded in a 3-Hz 40-pulse train (50 ms pulse from −90 to +20 mV) and normalized to
+       <em>
+        I
+       </em>
+       <sub>
+        max
+       </sub>
+       of the first trace (black) for comparison. For clearer view, every fourth trace is shown in grey with an exception of the 40th trace (red).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 4
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Calcium-dependent facilitation of Ca
+         <sub>
+          V
+         </sub>
+         1.2 variants
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Ca
+    <sub>
+     V
+    </sub>
+    calcium-dependent modulation is highly complex and includes two processes: CDI and CDF, governed by interplay between CaM and the Ca
+    <sub>
+     V
+    </sub>
+    α
+    <sub>
+     1
+    </sub>
+    subunit. Multiple segments in Ca
+    <sub>
+     V
+    </sub>
+    1 cytoplasmic domains have been identified to interact with CaM and may have functions in calcium-dependent modulation (
+    <xref ref-type="bibr">
+     Peterson et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zühlke et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ivanina et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pate et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pitt et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dick et al, 2008
+    </xref>
+    ). Although significance of CaM interactions with the IQ domain has been extensively studied (
+    <xref ref-type="bibr">
+     Peterson et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pate et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pitt et al, 2001
+    </xref>
+    ), much less is known about how other regions participate in CaM interactions to coordinate calcium-dependent regulation. In this study, we present the structure of Ca
+    <sup>
+     2+
+    </sup>
+    /CaM bound to a Ca
+    <sub>
+     V
+    </sub>
+    C-terminal tail containing three CaM-binding motifs (A-region, C-region, and IQ domain) and use biochemical and electrophysiological approaches to characterize whether interactions observed in the crystal structure are functionally important.
+   </p>
+   <p>
+    One striking aspect is that the crystallographic asymmetric unit consists of a symmetric dimer that interacts through an anti-parallel coiled-coil bridged by two Ca
+    <sup>
+     2+
+    </sup>
+    /CaM molecules. Although some low-resolution electron microscopy studies have been interpreted as evidence for channel dimers (
+    <xref ref-type="bibr">
+     Wang et al, 2002
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ) and infrequent multiple concerned openings of Ca
+    <sub>
+     V
+    </sub>
+    1.2 have been recently reported (
+    <xref ref-type="bibr">
+     Navedo et al, 2010
+    </xref>
+    ), it has not been generally thought that Ca
+    <sub>
+     V
+    </sub>
+    channels function as dimers in cell membranes. Nevertheless, a recent structure similar to the one presented in this study was interpreted as evidence for channel dimerization (
+    <xref ref-type="bibr">
+     Fallon et al, 2009
+    </xref>
+    ). Assessment of quaternary structure from crystallographic data alone is challenging (
+    <xref ref-type="bibr">
+     Ponstingl et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Janin et al, 2008
+    </xref>
+    ) and there are numerous examples in which two-fold related crystallographic dimers do not represent biologically relevant interactions (
+    <xref ref-type="bibr">
+     Bahadur et al, 2004
+    </xref>
+    ). Thus, orthogonal approaches are required to validate whether crystallographically observed interactions are relevant or simply a consequence of forming the ordered array of the lattice (
+    <xref ref-type="bibr">
+     Kobe et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    Our experimental search for evidence in favour of channel dimerization failed to find any support for the hypothesis that the crystallographic dimer represents a structural feature of the native protein. Sedimentation equilibrium experiments using purified Ca
+    <sup>
+     2+
+    </sup>
+    /CaM–PreIQ–IQ domain complexes find a well-behaved 2:1 complex over a wide range of concentrations (
+    <xref ref-type="fig">
+     Figure 2
+    </xref>
+    ) and do not detect higher-order complexes. It should be noted that the highest concentration of the Ca
+    <sup>
+     2+
+    </sup>
+    /CaM–PreIQ–IQ domain complexes assayed is of the order of the estimated concentration of Ca
+    <sub>
+     V
+    </sub>
+    s in their most densely known environment, that of the SR junction (
+    <xref ref-type="bibr">
+     Serysheva, 2004
+    </xref>
+    ). One of the interactions that forms the crystallographic dimer, the Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe–A-region interaction, has very low intrinsic affinity (
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    &gt;10 μM), and thus, seems unlikely to be able to provide augmentation to the dimerization as suggested (
+    <xref ref-type="bibr">
+     Fallon et al, 2009
+    </xref>
+    ). Alanine mutation of hydrophobic amino acids interactions of which form the heart of the dimer interface in the asymmetric unit, do not affect any of the three well-studied functional properties of the channel that are known to be regulated by the C-terminal domain: CDI, VDI or CDF. Finally, experiments aimed at determining the association state of full-length channels in cell membranes unequivocally show that the channels are monomers. These results are similar to earlier observations with Ca
+    <sub>
+     V
+    </sub>
+    2.3 channels (
+    <xref ref-type="bibr">
+     Ulbrich and Isacoff, 2007
+    </xref>
+    ), which coiled-coil prediction algorithms suggest should be unable to form a coiled-coil similar to that seen in the crystal (
+    <xref ref-type="bibr">
+     Fallon et al, 2009
+    </xref>
+    ). Thus, our data indicate that, unlike what has been proposed by
+    <xref ref-type="bibr">
+     Fallon et al (2009
+    </xref>
+    ), the Ca
+    <sub>
+     V
+    </sub>
+    1.2 C-terminal tail crystallographic dimer is neither robust nor relevant for channel function. This conclusion is also in accord with the observation that Ca
+    <sub>
+     V
+    </sub>
+    1.2 channels bearing the PreIQ–IQ domain, but lacking the remainder of the channel C-terminus show no evidence of coupled activity (
+    <xref ref-type="bibr">
+     Navedo et al, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    Our biochemical studies identify that the Ca
+    <sub>
+     V
+    </sub>
+    1.2 PreIQ–IQ domain can bind two Ca
+    <sup>
+     2+
+    </sup>
+    /CaMs simultaneously and that these two Ca
+    <sup>
+     2+
+    </sup>
+    /CaMs have different properties. These results are corroborated by the recent report by Kameyama and colleagues (
+    <xref ref-type="bibr">
+     Asmara et al, 2010
+    </xref>
+    ). Two half-CaM-binding sites are observed in the crystal, one involving Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    and the other involving Ca
+    <sup>
+     2+
+    </sup>
+    /C-lobe
+    <sub>
+     AC
+    </sub>
+    . Could either of the two half-CaM interactions represent functionally relevant associations? Biochemical studies (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ) show that interaction of the individual lobes can be measured and that these interactions are affected by mutation of crystallographically observed key residues. However, there is a major difference in the affinities of the half-sites, with the Ca
+    <sup>
+     2+
+    </sup>
+    /C-lobe
+    <sub>
+     AC
+    </sub>
+    being ∼20-fold stronger than the Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    interaction. Importantly, this difference correlates with the findings from our functional studies. Mutations designed to affect either interaction only have clear functional consequences in the case of Ca
+    <sup>
+     2+
+    </sup>
+    /C-lobe
+    <sub>
+     AC
+    </sub>
+    .
+   </p>
+   <p>
+    Previous studies of triple-alanine mutations have already implicated the A-region in CDI (
+    <xref ref-type="bibr">
+     Kim et al, 2004b
+    </xref>
+    ). Examination of the impact of single-alanine substitutions at positions that form the Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    -binding site reveals functional changes only at Thr1561 and Leu1565; two residues that make minimal Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    interactions and that do not affect Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe binding (
+    <xref ref-type="fig">
+     Figures 5
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ;
+    <a>
+     <span>
+      Table III
+     </span>
+    </a>
+    ). This disconnection of structure and binding from function is unlike what we have observed in previous structural studies of Ca
+    <sup>
+     2+
+    </sup>
+    /CaM modulation (
+    <xref ref-type="bibr">
+     Van Petegem et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2008
+    </xref>
+    ). What could explain the breakdown in the connection between structure and biochemistry with function? Insight can be found from recent structural studies of the EF-hand region from the C-terminal tails of Na
+    <sub>
+     V
+    </sub>
+    1.2 (
+    <xref ref-type="bibr">
+     Miloushev et al, 2009
+    </xref>
+    ) and Na
+    <sub>
+     V
+    </sub>
+    1.5 (
+    <xref ref-type="bibr">
+     Chagot et al, 2009
+    </xref>
+    ) voltage-gated sodium channels. The Na
+    <sub>
+     V
+    </sub>
+    EF-hand region shares a similar location, proximal to the cytoplasmic end of transmembrane segment IVS6, and a high degree of sequence similarity (48.2%) with the homologous Ca
+    <sub>
+     V
+    </sub>
+    1.2 region (
+    <a>
+     Supplementary Figure 6
+    </a>
+    ). The Na
+    <sub>
+     V
+    </sub>
+    1.2 and Na
+    <sub>
+     V
+    </sub>
+    1.5 structures show that this region forms a paired EF-hand domain containing four helices. Modelling the equivalent Ca
+    <sub>
+     V
+    </sub>
+    1.2 residues onto the Na
+    <sub>
+     V
+    </sub>
+    1.2 structure indicates that the Ca
+    <sub>
+     V
+    </sub>
+    1.2 A-region corresponds with EF-hand helix IV. Leu1562, Phe1563, Leu1565, and Val1566, which make the main Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    contacts, are all observed in the core of the four-helix bundle. Thus, given the low affinity of the Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    for the A-region, and the possibility that the Ca
+    <sub>
+     V
+    </sub>
+    1.2 A-region may be involved in a structure in which the A-region hydrophobic residues would be inaccessible, we conclude that the Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe
+    <sub>
+     AC
+    </sub>
+    –A-region interaction most probably represents an opportunistic non-native interaction driven by the well-known promiscuous target-recognition properties of Ca
+    <sup>
+     2+
+    </sup>
+    /CaM (
+    <xref ref-type="bibr">
+     Hoeflich and Ikura, 2002
+    </xref>
+    ). It seems likely that the effects on CDI reported for mutations in this region (
+    <xref ref-type="bibr">
+     Peterson et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2004b
+    </xref>
+    ) and A-region mutation induced changes in CDI (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ;
+    <a>
+     <span>
+      Table III
+     </span>
+    </a>
+    ) and CDF (
+    <a>
+     <span>
+      Table IV
+     </span>
+    </a>
+    ;
+    <a>
+     Supplementary Figure 5
+    </a>
+    ), which are not correlated with our structure or biochemical studies, result from disruption the EF-hand structure.
+   </p>
+   <p>
+    Our biochemical studies show that the Ca
+    <sub>
+     V
+    </sub>
+    1.2 C-terminal tail forms a stable 2:1 complex with Ca
+    <sup>
+     2+
+    </sup>
+    /CaM with one Ca
+    <sup>
+     2+
+    </sup>
+    /CaM bound to the C-region and one bound to the IQ domain. Could the second half-site, which is the site of the labile Ca
+    <sup>
+     2+
+    </sup>
+    /CaM (
+    <xref ref-type="fig">
+     Figure 4
+    </xref>
+    ), represent a functionally important site? Previous gel shift assays of CaM and Ca
+    <sub>
+     V
+    </sub>
+    1.2 constructs containing the A-, C-, and IQ regions reported an 1:1 stoichiometry (
+    <xref ref-type="bibr">
+     Xiong et al, 2005
+    </xref>
+    ). Given the labile nature of the Ca
+    <sup>
+     2+
+    </sup>
+    /CaM–C-region interaction, this interaction could easily be missed in assays less precise than sedimentation equilibrium. Studies of Ca
+    <sub>
+     V
+    </sub>
+    1.2–CaM fusions suggested that a single CaM is sufficient for Ca
+    <sub>
+     V
+    </sub>
+    1.2 CDI (
+    <xref ref-type="bibr">
+     Mori et al, 2004
+    </xref>
+    ). The presence of the second CaM is not in conflict with the results of
+    <xref ref-type="bibr">
+     Mori et al
+    </xref>
+    (2004) as disruption of the Ca
+    <sup>
+     2+
+    </sup>
+    /CaM–C-region interaction does not affect CDI. Our functional experiments indicate that this site has a role in CDF. It is notable that the main anchor, Trp1593, is conserved throughout metazoan evolution and is found in
+    <em>
+     Ciona
+    </em>
+    Ca
+    <sub>
+     V
+    </sub>
+    1 (
+    <xref ref-type="bibr">
+     Okamura et al, 2003
+    </xref>
+    ) and in both Ca
+    <sub>
+     V
+    </sub>
+    1 and Ca
+    <sub>
+     V
+    </sub>
+    2 subclasses (
+    <xref ref-type="fig">
+     Figure 8A
+    </xref>
+    ). The ability of the Ca
+    <sub>
+     V
+    </sub>
+    1.2 tail to bind multiple Ca
+    <sup>
+     2+
+    </sup>
+    /CaMs along a largely helical domain is reminiscent of how CaM and CaM-like proteins are organized on myosin (
+    <xref ref-type="bibr">
+     Houdusse et al, 2006
+    </xref>
+    ) and raises the intriguing possibility that there are previously unrecognized connections between these seemingly disparate systems.
+   </p>
+   <fig id="f8" position="float">
+    <label>
+     Figure 8
+    </label>    <caption>
+     <p>
+      (
+      <strong>
+       A
+      </strong>
+      ) Sequence alignments of the PreIQ and IQ domains of human Ca
+      <sub>
+       V
+      </sub>
+      1.2 1561–1647 (Ca
+      <sub>
+       v
+      </sub>
+      α
+      <sub>
+       1
+      </sub>
+      c77)
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"CAA84346","term_id":"509168","term_text":"CAA84346"}}
+       </span>
+       CAA84346
+      </a>
+      ; Ca
+      <sub>
+       V
+      </sub>
+      1.1 1466–1552,
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"AAI33672","term_id":"134152372","term_text":"AAI33672"}}
+       </span>
+       AAI33672
+      </a>
+      ; Ca
+      <sub>
+       V
+      </sub>
+      1.3 1534–1620,
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"NP_001077085","term_id":"134288875","term_text":"NP_001077085"}}
+       </span>
+       NP_001077085
+      </a>
+      ; Ca
+      <sub>
+       V
+      </sub>
+      1.4, 1526–1612
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"NP_005174","term_id":"53832007","term_text":"NP_005174"}}
+       </span>
+       NP_005174
+      </a>
+      ,
+      <em>
+       Ciona
+      </em>
+      Ca
+      <sub>
+       V
+      </sub>
+      1 1466–1552,
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"XP_002123864","term_id":"459176004","term_text":"XP_002123864"}}
+       </span>
+       XP_002123864
+      </a>
+      ; Ca
+      <sub>
+       V
+      </sub>
+      2.1 1905–1994
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"NP_001095163","term_id":"156119354","term_text":"NP_001095163"}}
+       </span>
+       NP_001095163
+      </a>
+      ; Ca
+      <sub>
+       V
+      </sub>
+      2.2 1794–1883,
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"NP_000709.1","term_id":"4502523","term_text":"NP_000709.1"}}
+       </span>
+       NP_000709.1
+      </a>
+      ; and Ca
+      <sub>
+       V
+      </sub>
+      2.3 1760–1849,
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"Q07652","term_id":"1705707","term_text":"Q07652"}}
+       </span>
+       Q07652
+      </a>
+      . PreIQ, IQ Domain, A-region, and C-regions are indicated. Conservation of the C-region tryptophan is highlighted blue. Yellow circles indicate residues L1585 and I1588. (
+      <strong>
+       B
+      </strong>
+      ) Cartoon model depicting the possible relative positions of Ca
+      <sub>
+       V
+      </sub>
+      intracellular elements. ‘?' signifies the potential for a Ca
+      <sup>
+       2+
+      </sup>
+      /CaM anchored at the C-region site to make bridging interactions with other components of the Ca
+      <sub>
+       V
+      </sub>
+      complex. Yellow indicates the positions of residues L1585 and I1588 that augment CDF effects. Relative orientation of the C-terminal tail is chosen to display the key elements. Its orientation relative to the other intracellular components is not known.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Our data suggest that the PreIQ region forms a long α-helix that contains Ca
+    <sup>
+     2+
+    </sup>
+    /C-lobe-anchoring site and that Ca
+    <sup>
+     2+
+    </sup>
+    /C-lobe is anchored to the C-region in a manner that would permit Ca
+    <sup>
+     2+
+    </sup>
+    /CaM to form bridging interactions between the PreIQ domain and other channel elements through Ca
+    <sup>
+     2+
+    </sup>
+    /N-lobe (
+    <xref ref-type="fig">
+     Figure 8B
+    </xref>
+    ). Mutations at two positions, L1585 and I1588, which are in the C-region helix but that do not directly participate in the Ca
+    <sup>
+     2+
+    </sup>
+    /C-lobe-binding site, augment CDF reduction, and reinforce the idea that this portion of the channel interacts with other, yet to be identified, elements. The cytoplasmic Ca
+    <sub>
+     V
+    </sub>
+    β subunit is thought to be linked to the pore through a long helix formed by part of the I-II loop (
+    <xref ref-type="bibr">
+     Vitko et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhang et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Findeisen and Minor, 2009
+    </xref>
+    ) and is essential for CDF (
+    <xref ref-type="bibr">
+     Grueter et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Findeisen and Minor, 2009
+    </xref>
+    ). There are functional interactions between the Ca
+    <sub>
+     V
+    </sub>
+    1.2 C-terminal tail and the Ca
+    <sub>
+     V
+    </sub>
+    β–I-II loop complex that indicate that both have roles in VDI, CDI, and CDF (
+    <xref ref-type="bibr">
+     Kim et al, 2004b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Findeisen and Minor, 2009
+    </xref>
+    ). It is striking that the long PreIQ helix would position the two elements of the C-terminal tail implicated in CDF, the C-region and the IQ domain (
+    <xref ref-type="bibr">
+     Zühlke et al, 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Van Petegem et al, 2005
+    </xref>
+    ), near Ca
+    <sub>
+     V
+    </sub>
+    β(
+    <xref ref-type="fig">
+     Figure 8B
+    </xref>
+    ). This potential confluence of key regulatory elements provides a framework for dissection of the interactions and structural transitions that drive Ca
+    <sub>
+     V
+    </sub>
+    function.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein expression and purification
+    </title>
+    <p>
+     Constructs encoding the A-region (residues 1561–1580), C–IQ domain (residues 1579–1644), and PreIQ–IQ domain (residues 1563–1637) of human Ca
+     <sub>
+      V
+     </sub>
+     1. 2 (Ca
+     <sub>
+      V
+     </sub>
+     α
+     <sub>
+      1C
+     </sub>
+     77 isoform; accession number
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"CAA84346","term_id":"509168","term_text":"CAA84346"}}
+      </span>
+      CAA84346
+     </a>
+     ) were cloned into a pET28b-derived vector denoted HMT (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2004
+     </xref>
+     ), which contains in sequence a His
+     <sub>
+      6
+     </sub>
+     -tag, maltose-binding protein, and a cleavage site for TEV protease. For crystallization, the cloning artefact sequence (His-Met) preceding the PreIQ–IQ domain was reverted to the native sequence (Thr-Leu; residues 1561–1562) by site-directed mutagenesis using QuikChange
+     <sup>
+      ®
+     </sup>
+     (Stratagene). Alanine substitutions were also generated using the same mutagenesis protocol. Constructs for N- and C-lobe of CaM (HMT tagged) and full-length CaM (without any tag) were identical to those used previously (
+     <xref ref-type="bibr">
+      Kim et al, 2008
+     </xref>
+     ).
+    </p>
+    <p>
+     Proteins were expressed and purified using strategies described previously (
+     <xref ref-type="bibr">
+      Kim et al, 2008
+     </xref>
+     ). HMT fusions of the PreIQ–IQ domain or C–IQ domain were co-transformed with CaM in BL21(DE3)-Rosetta cells and grown at 37°C for 3–4 h after IPTG induction at OD
+     <sub>
+      600
+     </sub>
+     =0.7–0.8. After cell lysis by sonication in Buffer A (250 mM KCl, 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     , and 10 mM HEPES (pH 7.4)) containing 1 mM PMSF, the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 peptide complexes were applied to a Poros20MC column (Perseptive Biosystems) and eluted with a step elution using 100% Buffer B (Buffer A plus 500 mM Imidazole, (pH 7.4)). Protein eluate was concentrated, diluted (1:10) in Buffer C (10 mM KCl, 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     , 10 mM Tris–HCl (pH 8.8)) and subjected to overnight cleavage with His-tagged TEV protease (
+     <xref ref-type="bibr">
+      Kapust et al, 2001
+     </xref>
+     ). The majority of MBP, uncleaved fusion protein, and TEV protease were removed by purification on a HiLoad
+     <sup>
+      ®
+     </sup>
+     Q-Sepharose column (GE Healthcare Life Sciences) using a linear gradient from 15 to 40% of Buffer D (Buffer C plus 1 M KCl). Residual contaminants were removed by passage through tandem Poros20MC/Amylose affinity columns in Buffer A and target proteins were collected from the flow-through. Complexes were further purified by size exclusion chromatography (Superdex 200, GE Healthcare Life Sciences) in Buffer A and concentrated using Amicon
+     <sup>
+      ®
+     </sup>
+     Ultra centrifugal filters. For crystallization, protein buffer was exchanged to a low-salt buffer (5 mM KCl, 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     , and 5 mM HEPES (pH 7.4)).
+    </p>
+    <p>
+     For ITC, the 1:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ domain complex was purified as above but with an additional hydrophobic interaction chromatography step (HiLoad 16/10 Phenylsepharose HP, GE Healthcare Life Sciences) before size-exclusion chromatography. Purified 2:1 Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ domain complexes were applied to a phenylsepharose column in a buffer containing 150 mM KCl, 2 mM CaCl
+     <sub>
+      2
+     </sub>
+     , 25 mM HEPES (pH 7.4). Flow-through containing 1:1 complex was collected, concentrated, and subjected to the gel filtration chromatography. Individual lobes of CaM were purified as described previously (
+     <xref ref-type="bibr">
+      Kim et al, 2008
+     </xref>
+     ).
+    </p>
+    <p>
+     Wild-type and mutants of HMT-tagged A-region for pull-down assays were initially co-expressed with CaM and passed though a Poros20MC column in the presence of Ca
+     <sup>
+      2+
+     </sup>
+     . HMT-tagged A-region was further purified by amylose-affinity chromatography. Buffers used at this step contained 10 mM EDTA, so that Ca
+     <sup>
+      2+
+     </sup>
+     /CaM was removed from the complex. For the last step, gel filtration chromatography was used.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structure determination
+    </title>
+    <p>
+     Crystals of the Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 PreIQ–IQ domain complex were obtained against a reservoir solution containing 0.2 M Li
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 24.5% PEG 3350, and 0.1 M bis-Tris (pH 5.5). All the initial crystallization trials were set up by Mosquito nanolitre drop setter (TTP LABTECH) and further optimized by hanging-drop vapour diffusion with a 2:1 volume ratio of protein to mother liquor. Protein concentration used for crystallization is 8–10 mg ml
+     <sup>
+      −1
+     </sup>
+     . Crystals were transferred to their respective mother liquor containing 5–10% glycerol as cryoprotectant and flash-cooled in liquid nitrogen. Diffraction data were collected at Beamline 8.3.1 (Advanced Light Source, Lawrence Berkeley National Laboratory).
+    </p>
+    <p>
+     All data were indexed, integrated and scaled with HKL2000 (
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ). The structure was solved by molecular replacement using PHASER (
+     <xref ref-type="bibr">
+      Storoni et al, 2004
+     </xref>
+     ) using a full-length CaM (A form of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 IQ domain structure (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2005
+     </xref>
+     )) and N-lobe as a search model. On the basis of clearly visible electron density corresponding to Ca
+     <sup>
+      2+
+     </sup>
+     ions, 12 Ca
+     <sup>
+      2+
+     </sup>
+     ions (for two CaM and two N-lobes) were assigned manually. After one round of refinement, clear density for the PreIQ helix and IQ helix appeared and the corresponding alanine backbone was built. Peptide register was established during repetitive rounds of refinement. Due to poor electron density, C-lobe bound to the C-region was partially modelled with only a few side chains defined. Solvent molecules were added manually. Model building was done in COOT (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ). Structures were refined to 2.55 Å using REFMAC5 (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ). TLS and NCS parameters were included throughout the refinement. The final model consists of four CaM molecules (chain A): residues 3–147; (chain B): residues 3–76, 82–91, 100–110, and 115–146; (chain C): residues 3–147; (chain D): residues 3–76, 82–91, 101–109, and 115–146; and two PreIQ–IQ molecules (chain E): residues 1560–1602 and 1614–1634; (chain F): residues 1560–1602 and 1614–1634.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Analytical ultracentrifugation analysis
+    </title>
+    <p>
+     For sedimentation equilibrium experiments, 110 μl of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminus complexes at different concentrations ranging from 5 to 205 μM were loaded in a six-chamber analytical ultracentrifuge cuvette. As a blank, 120 μl of protein buffer (10 mM HEPES (pH 7.4), 250 mM KCl, and 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     ) was also loaded in the adjacent chamber. All experiments were performed at 4°C in a Beckman Optima XL-A analytical ultracentrifuge (Beckman Coulter). The molecular mass was calculated from a single-species exponential fit (Microsoft Excel) to the distribution of concentration over the radius of the chamber:
+     <em>
+      M
+     </em>
+     =(2R
+     <em>
+      T
+     </em>
+     /[(1−νρ)·ω
+     <sup>
+      2
+     </sup>
+     ])·(d[ln(c)]/d(r
+     <sup>
+      2
+     </sup>
+     )), where
+     <em>
+      M
+     </em>
+     is the molecular weight in g mol
+     <sup>
+      −1
+     </sup>
+     , R is the gas constant (8.314 J (mol K)
+     <sup>
+      −1
+     </sup>
+     ),
+     <em>
+      T
+     </em>
+     is the temperature in K, ν is the partial specific volume of the protein in ml g
+     <sup>
+      −1
+     </sup>
+     , ρ is the density of the solvent in g ml
+     <sup>
+      −1
+     </sup>
+     , ω is the angular velocity of centrifugation in rad s
+     <sup>
+      −1
+     </sup>
+     , and
+     <em>
+      r
+     </em>
+     is the distance in cm from the centre of the rotor to a given position in the cell. Partial specific volume was calculated from the sum of the volumes of individual residues in the protein. Solvent density was calculated from the components of the buffer. Residuals were calculated as the difference between the measured absorbance value and the predicted value extrapolated from the calculated molecular mass.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     All ITC measurements were performed on a VP-ITC MicroCalorimeter (MicroCal) in 10 mM HEPES/KOH (pH 7.4), 5 mM KCl, and 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     at 15°C. Purified Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ (1:1) complex, HMT-tagged A-region, and individual CaM lobes were dialysed against 2 l buffer overnight at 4°C. After centrifugation at 40 000 r.p.m. for 30 min at 4°C, protein concentrations were determined by absorbance at 280 nm. For C-region interaction measurements, degassed CaM C-lobe (100 μM) or CaM N-lobe (300 μM) was titrated into 10 or 30 μM of Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ (1:1) complex, respectively. For apo-lobe measurements, 100 μM of CaM
+     <sub>
+      12
+     </sub>
+     N-lobe or CaM
+     <sub>
+      34
+     </sub>
+     C-lobe was titrated into 10 μM Ca
+     <sup>
+      2+
+     </sup>
+     /CaM–Ca
+     <sub>
+      V
+     </sub>
+     1.2 C–IQ (1:1) complex. For A-region measurements, 100 μM of CaM N-lobe, CaM C-lobe, CaM
+     <sub>
+      12
+     </sub>
+     N-lobe, or CaM
+     <sub>
+      34
+     </sub>
+     C-lobe was titrated into 10 μM of HMT-fused A-region under the same conditions described above. Heat of dilution from titrations of protein into buffer was subtracted to correct the baseline. Data were fitted in Origin version 7.0 (MicroCal) assuming a single binding mode. Resulting binding constants were average of at least two independent measurements.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Pulldown experiments
+    </title>
+    <p>
+     Purified wild type or mutants of HMT-tagged A-region were mixed with N-lobe at a final concentration of 20 and 100 μM, respectively, and incubated on ice for 1–2 h. HMT alone was also used for a negative control. Binding was done in Buffer A (250 mM KCl, 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     , and 10 mM HEPES (pH 7.4)) with a total volume of 100 μl. Protein mixtures were incubated with 80 μl (net volume) amylose beads on ice for 30 min. After unbound proteins were washed out three times with 500 μl Buffer A, proteins bound to amylose resin were eluted with Buffer A plus 10 mM maltose and analysed by Tricine–SDS–PAGE (
+     <xref ref-type="bibr">
+      Schagger, 2006
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophysiology
+    </title>
+    <p>
+     Human Ca
+     <sub>
+      V
+     </sub>
+     1.2 (Ca
+     <sub>
+      V
+     </sub>
+     α1
+     <sub>
+      C
+     </sub>
+     77; accession number
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"CAA84346","term_id":"509168","term_text":"CAA84346"}}
+      </span>
+      CAA84346
+     </a>
+     ) in pcDNA3.1(+)/hygro (Invitrogen), Ca
+     <sub>
+      V
+     </sub>
+     β
+     <sub>
+      2a
+     </sub>
+     in pGEM-HE (Promega), and Ca
+     <sub>
+      V
+     </sub>
+     α2δ-1 in pcDNA3 were used for two-electrode voltage-clamp experiments as described previously (
+     <xref ref-type="bibr">
+      Van Petegem et al, 2005
+     </xref>
+     ). Structure-guided alanine mutants of Ca
+     <sub>
+      V
+     </sub>
+     1.2 were generated using QuikChange (Stratagene). RNAs of Ca
+     <sub>
+      V
+     </sub>
+     1.2, Ca
+     <sub>
+      V
+     </sub>
+     β
+     <sub>
+      2a
+     </sub>
+     , and Ca
+     <sub>
+      V
+     </sub>
+     α2δ-1 were transcribed
+     <em>
+      in vitro
+     </em>
+     using a T7 mMessage mMachine kit (Ambion) according to manufacturer's instructions.
+     <em>
+      Xenopus
+     </em>
+     oocytes were injected with 50 nl RNA mixture of Ca
+     <sub>
+      V
+     </sub>
+     1.2 (33–167 nM wild type or mutants), Ca
+     <sub>
+      V
+     </sub>
+     β
+     <sub>
+      2a
+     </sub>
+     (33 nM), and Ca
+     <sub>
+      V
+     </sub>
+     α2δ-1 (33 nM) using Nanoject II auto-nanoliter injector (Drummond Scientific) and kept at 18°C in ND96 medium containing penicillin and streptomycin. Recordings were carried out 2–5 days after RNA injection. To minimize Ca
+     <sup>
+      2+
+     </sup>
+     -activated Cl
+     <sup>
+      −
+     </sup>
+     current, 47 nl of 0.1 M BAPTA was microinjected into oocytes before recording. Two-electrode voltage-clamp experiments were preformed with either a Ba
+     <sup>
+      2+
+     </sup>
+     (40 mM Ba(OH)
+     <sub>
+      2
+     </sub>
+     , 1 mM KOH, 50 mM NaOH, and 10 mM HEPES (pH 7.4) with HNO
+     <sub>
+      3
+     </sub>
+     ) or a Ca
+     <sup>
+      2+
+     </sup>
+     (40 mM Ca(NO
+     <sub>
+      3
+     </sub>
+     )
+     <sub>
+      2
+     </sub>
+     , 1 mM KOH, 50 mM NaOH, and 10 mM HEPES (pH 7.4) with HNO
+     <sub>
+      3
+     </sub>
+     ) as a charge carrier using a perfusion system with a Valvelink 16 controller (Automate Scientific). CDI recordings were carried out with a 450-ms pulse protocol from −90 to +20 mV. For CDF, Ca
+     <sup>
+      2+
+     </sup>
+     currents were measured by applying 40 times of 50-ms pulses to +20 mV at a frequency of 3 Hz. Currents were recorded using CLAMPEX 8.2.0.224 program (Axon Instruments) with GeneClamp 500B amplifier (Axon Instruments) controlled by a computer with a 1200 MHz processor (Gateway) and digitized at 1 kHz with a Digidata1332A (Axon Instruments). Resistance of electrodes ranges from 0.3 to 2.0 MΩ and leak currents were subtracted using a P/4 protocol. All data were produced from more than one oocyte batch and analysed with Clampfit 9.2 (Axon Instruments).
+    </p>
+    <p>
+     For functional studies of Ca
+     <sub>
+      V
+     </sub>
+     1.2–GFP, Human Ca
+     <sub>
+      V
+     </sub>
+     1.2 (Ca
+     <sub>
+      V
+     </sub>
+     α1
+     <sub>
+      C
+     </sub>
+     77) was subcloned into pGEMHE-mEGFP plasmid (
+     <xref ref-type="bibr">
+      Yu et al, 2009
+     </xref>
+     ) using
+     <em>
+      Bam
+     </em>
+     HI/
+     <em>
+      Xba
+     </em>
+     I restriction sites. Ca
+     <sub>
+      V
+     </sub>
+     1.2–GFP and Ca
+     <sub>
+      V
+     </sub>
+     β
+     <sub>
+      2a
+     </sub>
+     were expressed in
+     <em>
+      Xenopus
+     </em>
+     oocytes, and recordings of Ca
+     <sub>
+      V
+     </sub>
+     1.2–GFP were measured as described above.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Subunit-counting experiments
+    </title>
+    <p>
+     Full-length human Ca
+     <sub>
+      V
+     </sub>
+     1.2 (splice variant α
+     <sub>
+      1
+     </sub>
+     C77) bearing a C-terminal linker, (GGSGGSRGSGGSGG) connected to EGFP, and rat Ca
+     <sub>
+      V
+     </sub>
+     β
+     <sub>
+      2a
+     </sub>
+     in pGEMHE were used for RNA preparation and expressed in
+     <em>
+      Xenopus laevis
+     </em>
+     oocytes. RNAs were transcribed
+     <em>
+      in vitro
+     </em>
+     using a T7 mMessage mMachine kit (Ambion). Oocytes were injected with 50 nl of a 1:1 mixture of 500 ng μl
+     <sup>
+      −1
+     </sup>
+     Ca
+     <sub>
+      V
+     </sub>
+     1.2–EGFP and 100 ng μl
+     <sup>
+      −1
+     </sup>
+     Ca
+     <sub>
+      V
+     </sub>
+     β
+     <sub>
+      2a
+     </sub>
+     cRNA. At 20–24 h after cRNA injection, oocytes were enzymatically treated with 1:1 mixture of neuraminidase (1 U ml
+     <sup>
+      −1
+     </sup>
+     , Sigma) and hyaluronidase (1 mg ml
+     <sup>
+      −1
+     </sup>
+     , Sigma), devitellinized by hand and put into an imaging chamber with high refractive index glass (
+     <em>
+      n
+     </em>
+     =1.78) to match the microscope objective (Olympus × 100 NA 1.65). EGFP was excited by a 488-nm argon laser and fluorescence (525/50 nm band pass filter, Chroma) was acquired by an EMCCD camera (Andor iXon DV-897 BV). Total internal reflection microscopy was used to image single molecules without background fluorescence from the interior of the cell (
+     <xref ref-type="bibr">
+      Ulbrich and Isacoff, 2007
+     </xref>
+     ). Immobile diffraction limited spots with discrete bleaching steps were manually counted; spots with irregular emissions and mobile spots were excluded.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Homology modelling of the Ca
+     <sub>
+      V
+     </sub>
+     1.2 EF-hand motif
+    </title>
+    <p>
+     EF-hand domain sequences of human Na
+     <sub>
+      V
+     </sub>
+     1.2 (residues 1777–1882) and Na
+     <sub>
+      V
+     </sub>
+     1.5 (residues 1773–1865) were aligned with a corresponding sequence of human Ca
+     <sub>
+      V
+     </sub>
+     1.2 C-terminus using a web-based ClustalW2 program (
+     <a>
+      http://www.ebi.ac.uk/Tools/clustalw2/index.html
+     </a>
+     ). Using this sequence alignment, a homology model of Ca
+     <sub>
+      V
+     </sub>
+     1.2 EF-hand motif was automatically generated by SWISS-MODEL (
+     <a>
+      http://swissmodel.expasy.org/
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Arnold et al, 2006
+     </xref>
+     ) based on the NMR structure of either Na
+     <sub>
+      V
+     </sub>
+     1.2 (2KAV) or Na
+     <sub>
+      V
+     </sub>
+     1.5 (2KBI) EF-hand motif.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.3M, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (657K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

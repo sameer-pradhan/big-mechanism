@@ -1,0 +1,2815 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4719306
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A PTIP–PA1 subcomplex promotes transcription for IgH class switching independently from the associated MLL3/MLL4 methyltransferase complex
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Class switch recombination (CSR) diversifies antibodies for productive immune responses while maintaining stability of the B-cell genome. Transcription at the immunoglobulin heavy chain (
+     <em>
+      Igh
+     </em>
+     ) locus targets CSR-associated DNA damage and is promoted by the BRCT domain-containing PTIP (Pax transactivation domain-interacting protein). Although PTIP is a unique component of the mixed-lineage leukemia 3 (MLL3)/MLL4 chromatin-modifying complex, the mechanisms for how PTIP promotes transcription remain unclear. Here we dissected the minimal structural requirements of PTIP and its different protein complexes using quantitative proteomics in primary lymphocytes. We found that PTIP functions in transcription and CSR separately from its association with the MLL3/MLL4 complex and from its localization to sites of DNA damage. We identified a tandem BRCT domain of PTIP that is sufficient for CSR and identified PA1 as its main functional protein partner. Collectively, we provide genetic and biochemical evidence that a PTIP–PA1 subcomplex functions independently from the MLL3/MLL4 complex to mediate transcription during CSR. These results further our understanding of how multifunctional chromatin-modifying complexes are organized by subcomplexes that harbor unique and distinct activities.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     histone methylation, BRCT domains, DNA damage, antigen receptor rearrangements, 53BP1, PTIP
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Endogenously expressed PTIP associates with the MLL3/MLL4 methyltransferase complex in B cells
+    </title>
+    <p>
+     To determine the associated proteins of endogenously expressed PTIP in primary tissues, we generated a novel knock-in mouse model,
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+     </sup>
+     , that expresses a GFP tag fused in-frame to the C terminus of PTIP at the endogenous
+     <em>
+      PTIP
+     </em>
+     locus (Supplemental Fig. 1A,B). Homozygous
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+     </sup>
+     mice are born and survive, at least to 1.2 yr of age, with similar frequency to control mice, and
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp/gfp
+      </em>
+     </sup>
+     primary mouse embryonic fibroblasts (MEFs) grow indistinguishably from controls (Supplemental Fig. 1C–E). PTIP-GFP protein was readily visualized in primary cells by Western blotting and flow cytometry (Supplemental Fig. 1F,G). Although we chose to epitope tag PTIP at its C terminus for this knock-in mouse, we found that N-terminally or C-terminally tagged PTIP proteins formed IR-induced foci and rescued the IgH CSR defects of
+     <em>
+      CD19
+     </em>
+     <sup>
+      <em>
+       cre
+      </em>
+      /+
+     </sup>
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     B cells (referred to here as
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells) indistinguishably (Supplemental Fig. 2). Importantly, B cells from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp/gfp
+      </em>
+     </sup>
+     mice show IgH class switching frequencies indistinguishable from control cells (Supplemental Fig. 1H).
+    </p>
+    <p>
+     To determine endogenous PTIP-associated proteins in B cells stimulated ex vivo from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+     </sup>
+     mice, stable isotope labeling by amino acids in cell culture (SILAC)-based quantitative proteomic analysis was performed. We observed MLL3/MLL4 complex-specific proteins PA1 and NCOA6 and the common Set1-like components ASH2L, RBBP5, and WDR5 to be enriched approximately twofold in PTIP immunoprecipitates compared with GFP pull-down from littermate control B cells (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     A; Supplemental Table 1). Moreover, the MLL3/MLL4 complex components were similarly observed from both homozygous and heterozygous
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+     </sup>
+     B cells (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     A; Supplemental Table 1). A similarly repeated SILAC pull-down interactome experiment in B cells from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp/gfp
+      </em>
+     </sup>
+     mice confirmed association of all known components of the Set1-like complex, including MLL4, UTX, and PA1 (Supplemental Table 1), which was further validated by pull-downs followed by Western blotting (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     B). Analysis of the three SILAC interactomes from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+     </sup>
+     mice using an intensity-based absolute quantification (iBAQ) algorithm (
+     <xref ref-type="bibr">
+      Schwanhausser et al. 2011
+     </xref>
+     ) suggested that PTIP and PA1 exist in a complex with 1:1 stoichiometry in B cells (Supplemental Fig 1I), which was in stark contrast to other Set1-like components that were at least 10-fold lower in their stoichiometry with PTIP (Supplemental Fig. 1I). We conclude that a fraction of endogenously expressed PTIP is a component of the MLL3/MLL4 methyltransferase complex in stimulated B cells and that PTIP and PA1 exist in a 1:1 subcomplex distinct from the Set1-like complex.
+    </p>
+    <fig id="STARNESGAD268797F1" position="float">
+     <label>
+      Figure 1.
+     </label>     <caption>
+      <p>
+       Association with the MLL3/MLL4 complex in B cells is dispensable for PTIP function in
+       <em>
+        Igh
+       </em>
+       class switching. (
+       <em>
+        A
+       </em>
+       ) Mass spectrometric identification of proteins in PTIP-GFP pull-downs from
+       <em>
+        PTIP
+       </em>
+       <sup>
+        <em>
+         gfp
+        </em>
+       </sup>
+       B cells. Shown is a scatter plot of log
+       <sub>
+        2
+       </sub>
+       transformed normalized SILAC (M/L)
+       <em>
+        PTIP
+       </em>
+       <sup>
+        <em>
+         gfp
+        </em>
+        /+
+       </sup>
+       / control ratios on the
+       <em>
+        X
+       </em>
+       -axis and (H/L)
+       <em>
+        PTIP
+       </em>
+       <sup>
+        <em>
+         gfp/gfp
+        </em>
+       </sup>
+       /control ratios on the
+       <em>
+        Y
+       </em>
+       -axis. Control refers to a wild-type
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       littermate. MLL3/MLL4 complex components are shown in red (see also Supplemental Table 1). (
+       <em>
+        B
+       </em>
+       )
+       <em>
+        PTIP
+       </em>
+       <sup>
+        <em>
+         gfp/gfp
+        </em>
+       </sup>
+       and
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       littermate control B cells were stimulated for 3 d in the IgG3 condition. A representative Western blot from two independent experiments (
+       <em>
+        n
+       </em>
+       = 2 mice of each genotype) is shown from lysates immunoprecipitated with GFP beads to detect coimmunoprecipitated proteins ASH2L, RBBP5, and PA1. An anti-GFP antibody was used to detect endogenous PTIP. (
+       <em>
+        C
+       </em>
+       ) Diagram of the N-terminal GFP-tagged PTIP retroviral constructs used, including the mCherry reporter. (Numbers) BRCT domains; (Q) glutamine-rich region; (NLS) nuclear localization signal. (
+       <em>
+        D
+       </em>
+       )
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells were stimulated in the IgG3 condition and transduced with the indicated retroviruses. A representative Western blot from two independent transduction experiments (
+       <em>
+        n
+       </em>
+       = 2 mice) is shown from lysates immunoprecipitated with GFP beads to detect coimmunoprecipitated proteins ASH2L, RBBP5, and PA1. An anti-GFP antibody was used to detect PTIP. (
+       <em>
+        E
+       </em>
+       ) Flow cytometry analyses of
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells transduced with the indicated retroviruses stimulated for 3 d after transduction in the IgG3 condition. (
+       <em>
+        Top
+       </em>
+       ) Dot plot indicating IgG3 CSR as a percentage of the full-length PTIP (FL) mCherry-positive value in the same experiment. Each dot within a group represents transduced B cells from a different
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       mouse (
+       <em>
+        n
+       </em>
+       = 5 for each group). Data are represented as mean. FL versus ΔBRCT3–6 and FL versus ΔBRCT5–6,
+       <em>
+        P
+       </em>
+       &gt; 0.1, which is not significant (ns); FL versus empty vector mCherry-positive, (***)
+       <em>
+        P
+       </em>
+       = 0.0003; FL versus empty vector mCherry-negative, (****)
+       <em>
+        P
+       </em>
+       &lt; 0.0001. Statistics were performed using a two-tailed unpaired
+       <em>
+        t
+       </em>
+       -test with Welch's correction. (
+       <em>
+        Bottom
+       </em>
+       ) Representative flow cytometry plots measuring IgG3
+       <sup>
+        +
+       </sup>
+       frequency in mCherry-positive cells. Numbers in the
+       <em>
+        top
+       </em>
+       half of each plot indicate the frequency of IgG3
+       <sup>
+        +
+       </sup>
+       class-switched cells. (
+       <em>
+        F
+       </em>
+       ) Quantitative real-time PCR of
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        3
+       </em>
+       germline transcripts and
+       <em>
+        PTIP
+       </em>
+       expression in
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       or
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       B cells transduced with the indicated retroviruses stimulated for 3 d after transduction in the IgG3 condition. Cells were sorted into mCherry-positive and mCherry-negative populations, and their expression levels are plotted relative to FL mCherry-positive
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells. Data are from three independent transduction/sorting experiments (
+       <em>
+        n
+       </em>
+       = 3 mice) represented as mean ± SEM. (
+       <em>
+        G
+       </em>
+       ) Western blot of PTIP and mCherry expression from FACS-sorted
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells transduced with PTIP retroviral constructs, based on mCherry expression. The “mCherry–” lane is a pooled sample of mCherry-negative cells across all samples. See also Supplemental Figures 1–3.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     PTIP promotes IgH class switching independently from the associated MLL3/MLL4 methyltransferase complex
+    </title>
+    <p>
+     To assess whether PTIP function in IgH class switching is dependent on its interaction with the MLL3/MLL4 methyltransferases, we generated a panel of GFP-PTIP deletion mutants cloned into retroviral vectors expressing an IRES-mCherry reporter (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     C). The retrovirally expressed mutant and control PTIP proteins were verified to localize to the nucleus of immortalized
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs (Supplemental Fig. 3A). Moreover, cells expressing full-length PTIP (FL) or a PTIP truncation mutant that deletes BRCT5–6 (ΔBRCT5–6) showed accumulation of PTIP into foci that colocalize with 53BP1 after IR, while deletion of BRCT3–6 (ΔBRCT3–6) abolished PTIP foci formation (Supplemental Fig. 3A), consistent with previous reports (
+     <xref ref-type="bibr">
+      Munoz et al. 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Callen et al. 2013
+     </xref>
+     ). Ectopic expression and pull-down analyses of these retrovirally expressed mutant and control PTIP proteins from stimulated
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells revealed that BRCT domains 5 and 6 are necessary for the association of PTIP with ASH2L and RBBP5 but had no effect on the association of PA1 (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     D). Similar results were obtained from retrovirally transduced
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs (Supplemental Fig. 3B). We conclude that the PTIP BRCT5–6 domains are responsible for its association with the MLL3/MLL4 methyltransferase complex.
+    </p>
+    <p>
+     To determine whether PTIP association with the MLL3/MLL4 complex is important for CSR,
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells were transduced with retroviruses expressing BRCT mutant or FL control containing an IRES-mCherry reporter, and the cells were stimulated to undergo class switching to IgG3. We found that mCherry-positive cells transduced with FL retrovirus rescued the IgG3 class switching defect of
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells, as measured by IgG3 cell surface expression (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     E). In addition, RNA extracted from FACS-sorted mCherry-positive and mCherry-negative populations after transduction showed that
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     germline transcription in
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     cells was rescued to that of
+     <em>
+      CD19
+      <sup>
+       cre/+
+      </sup>
+      PTIP
+     </em>
+     <sup>
+      +/+
+     </sup>
+     (referred to here as
+     <em>
+      PTIP
+     </em>
+     <sup>
+      +/+
+     </sup>
+     ) cells upon expression of FL (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     F). Surprisingly, cell surface expression of IgG3 and
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     germline transcription was also fully rescued by expression of ΔBRCT5–6 or ΔBRCT3–6 mutants (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     E,F). For each experiment, the rescued class switching defects were always made in relation to FL and compared with empty vector transduced and nontransduced cells (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     E,F) and were not due to gross differences in PTIP expression levels of the constructs, as measured at the mRNA (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     F) and protein level from FACS-sorted B cells (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     G, cf. lanes 1–4). We conclude that PTIP functions in stimulated B cells to drive IgH class switching independently from association with the MLL3/MLL4 methyltransferase complex.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The MLL3 and MLL4 methyltransferases are dispensable for germline transcription at
+     <em>
+      Igh
+     </em>
+     switch regions
+    </title>
+    <p>
+     To directly assess whether the MLL3/MLL4 methyltransferases are involved in IgH class switching, MLL3/MLL4 double-deficient B cells were generated by crossing
+     <em>
+      MLL3
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     mice (
+     <xref ref-type="bibr">
+      Lee et al. 2006
+     </xref>
+     ) with
+     <em>
+      MLL4
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     mice (
+     <xref ref-type="bibr">
+      Lee et al. 2013
+     </xref>
+     ) and subsequently deleting the two genes ex vivo using retroviral transduction and expression of GFP-tagged Cre recombinase. Quantitative real-time PCR analyses of RNA extracted from FACS-sorted GFP-positive
+     <em>
+      MLL3
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     <em>
+      MLL4
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     cells indicated &gt;90% deletion of both
+     <em>
+      MLL3
+     </em>
+     and
+     <em>
+      MLL4
+     </em>
+     in Cre transduced cells compared with cells transduced with catalytically inactive Cre* (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     A). Across subsequent days in culture, the frequency of GFP-positive B cells measured by flow cytometry decreased comparably in Cre and Cre* transduced cells, suggesting that ex vivo deletion of
+     <em>
+      MLL3
+     </em>
+     and
+     <em>
+      MLL4
+     </em>
+     does not impair B-cell growth (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     B). To determine whether the MLL3/MLL4 methyltransferases regulate IgH class switching, Cre and Cre* transduced B cells were stimulated to undergo class switching to IgG3 or IgG1. Flow cytometry analyses revealed a 2.0-fold defect in IgG3 class switching and a 1.6-fold defect in IgG1 class switching within Cre transduced MLL3/MLL4 double-deficient B cells compared with Cre* controls (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     C,D). To establish whether the MLL3/MLL4 methyltransferases promote CSR similarly to PTIP, B cells retrovirally transduced with Cre or Cre* were stimulated ex vivo to undergo IgG class switching, and RNA was extracted from FACS-sorted GFP-positive cells for quantitative real-time PCR analyses of
+     <em>
+      Igh-
+     </em>
+     γ germline transcripts. Even though MLL3/MLL4 double deficiency led to decreased class switching, MLL3/MLL4 double-deficient B cells displayed normal
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     and
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      1
+     </em>
+     germline transcription (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     E). Therefore, in contrast to PTIP, our results demonstrate that the MLL3/MLL4 methyltransferases are dispensable for
+     <em>
+      Igh
+     </em>
+     germline transcription and suggest that MLL3/MLL4 promote CSR downstream from PTIP through a mechanism that remains to be elucidated. Nevertheless, these results from MLL3/MLL4 double-deficient B cells are consistent with and strengthen our conclusion that PTIP promotes
+     <em>
+      Igh
+     </em>
+     germline transcription independently from the associated MLL3/MLL4 methyltransferase complex.
+    </p>
+    <fig id="STARNESGAD268797F2" position="float">
+     <label>
+      Figure 2.
+     </label>     <caption>
+      <p>
+       MLL3/MLL4 methyltransferases are dispensable for
+       <em>
+        Igh
+       </em>
+       germline transcription. (
+       <em>
+        A
+       </em>
+       ) Quantitative real-time PCR of
+       <em>
+        MLL3
+       </em>
+       and
+       <em>
+        MLL4
+       </em>
+       expression in Cre and Cre* transduced
+       <em>
+        MLL3
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       <em>
+        MLL4
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       B cells 3 d after stimulation in the IgG3 condition. GFP-positive cells were sorted, and the expression levels are plotted relative to Cre* transduced cells. Data are from four independent experiments (
+       <em>
+        n
+       </em>
+       = 9 mice) and are represented as mean ± SEM. (
+       <em>
+        B
+       </em>
+       ) Flow cytometry analyses of the GFP frequencies across subsequent days in culture in Cre and Cre* transduced
+       <em>
+        MLL3
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       <em>
+        MLL4
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       B cells. Data are from
+       <em>
+        n
+       </em>
+       = 3 mice and are represented as mean ± SEM. (
+       <em>
+        C
+       </em>
+       ) Flow cytometry analyses of Cre and Cre* transduced
+       <em>
+        MLL3
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       <em>
+        MLL4
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       B cells 5 d after stimulation in the IgG3 and IgG1 condition. The dot plot indicates IgG3 or IgG1 CSR relative to the GFP-negative population. For each experiment, B cells from each mouse were transduced with Cre and Cre* virus. Each dot within a group represents transduced B cells from a different
+       <em>
+        MLL3
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       <em>
+        MLL4
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       mouse (
+       <em>
+        n
+       </em>
+       = 12 for IgG3;
+       <em>
+        n
+       </em>
+       = 6 for IgG1). Data are represented as mean. IgG3 Cre* versus Cre, (****)
+       <em>
+        P
+       </em>
+       &lt; 0.0001; IgG1 Cre* versus Cre, (***)
+       <em>
+        P
+       </em>
+       = 0.0008. Statistics were performed using a two-tailed unpaired
+       <em>
+        t
+       </em>
+       -test with Welch's correction. (
+       <em>
+        D
+       </em>
+       ) Representative flow cytometry plots measuring IgG3 and IgG1 frequencies in Cre and Cre* transduced GFP-positive and GFP-negative
+       <em>
+        MLL3
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       <em>
+        MLL4
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       B cells. Numbers in the
+       <em>
+        top
+       </em>
+       half of each plot indicate frequency in IgG3 and IgG1 class-switched cells. (
+       <em>
+        E
+       </em>
+       ) Quantitative real-time PCR of
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        3
+       </em>
+       and
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        1
+       </em>
+       germline transcripts in Cre and Cre* transduced
+       <em>
+        MLL3
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       <em>
+        MLL4
+       </em>
+       <sup>
+        <em>
+         flox/flox
+        </em>
+       </sup>
+       B cells. GFP-positive cells were sorted, and their expression levels are plotted relative to Cre* transduced cells. Data are from four independent experiments for IgG3 and one experiment for IgG1 (
+       <em>
+        n
+       </em>
+       = 9 for IgG3;
+       <em>
+        n
+       </em>
+       = 3 for IgG1).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The N-terminal BRCT1 and BRCT2 domains of PTIP are required and sufficient for PTIP function in IgH class switching
+    </title>
+    <p>
+     Our results demonstrate that the four C-terminal BRCT domains of PTIP are dispensable for IgH class switching (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ). To determine which domain at the N terminus is important, we designed several additional PTIP mutant retroviral constructs, including a deletion of BRCT1–2 (ΔBRCT1–2), individual deletions of BRCT1 (ΔBRCT1) or BRCT2 (ΔBRCT2), and two different point mutations of BRCT1 and BRCT2, W75R and W165R, respectively (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     A). These specific Trp residues were chosen because they are highly conserved within the predicted α3 helix of the BRCT domain that participates in ligand binding, and mutations in conserved residues abolish, for example, protein interactions of XRCC1 BRCT domain binding to DNA ligase III (
+     <xref ref-type="bibr">
+      Dulic et al. 2001
+     </xref>
+     ) as well as PTIP BRCT domain binding to 53BP1 (
+     <xref ref-type="bibr">
+      Munoz et al. 2007
+     </xref>
+     ). Rescue experiments using
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells transduced with the retroviral constructs and stimulated ex vivo revealed that ΔBRCT1–2 severely impaired
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     germline transcription and IgG3 class switching similar to empty vector controls (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     B,C). A similar lack of rescue in
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     germline transcription and IgG3 class switching was observed for the W75R and W165R point mutants and the mutants with deletion of the individual BRCT domains, ΔBRCT1 and ΔBRCT2 (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     B,C). Remarkably, we found that
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     transcription and IgG3 class switching in
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells can be fully restored to FL levels with expression of ΔBRCT3–6 + Q alone, and we found this rescue to be abolished with the sole W75R point mutation (ΔBRCT3–6 + Q W75R) (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     B,C). FACS-sorted mCherry-positive B cells showed similar levels of PTIP mRNA and protein across all constructs (
+     <xref ref-type="fig">
+      Figs. 1
+     </xref>
+     G [cf. lanes 1,4–7], 3B,D). Importantly, all of the above-mentioned N-terminal BRCT mutant PTIP proteins showed normal accumulation at sites of IR-induced DNA damage with the exception of ΔBRCT3–6, ΔBRCT3–6 + Q, and ΔBRCT3–6 + Q W75R mutants (Supplemental Fig. 3A), which do not interact with 53BP1 (
+     <xref ref-type="bibr">
+      Munoz et al. 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ). We conclude that the N-terminal BRCT1 and BRCT2 domains of PTIP are required and sufficient for PTIP function in promoting the
+     <em>
+      Igh
+     </em>
+     germline transcription crucial for IgG3 class switching yet are dispensable for accumulation at sites of DNA damage.
+    </p>
+    <fig id="STARNESGAD268797F3" position="float">
+     <label>
+      Figure 3.
+     </label>     <caption>
+      <p>
+       PTIP N-terminal BRCT domains are required and sufficient for PTIP function in
+       <em>
+        Igh
+       </em>
+       class switching. (
+       <em>
+        A
+       </em>
+       ) Diagram of the N-terminal GFP-tagged PTIP retroviral constructs used, as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       C. (
+       <em>
+        B
+       </em>
+       ) Quantitative real-time PCR of
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        3
+       </em>
+       germline transcripts and
+       <em>
+        PTIP
+       </em>
+       expression from
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       F. Data are from three independent transduction/sorting experiments (
+       <em>
+        n
+       </em>
+       = 3 mice) and are represented as mean ± SEM. (
+       <em>
+        C
+       </em>
+       ) Flow cytometry analyses of
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells transduced with the indicated retroviruses as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       E. FL,
+       <em>
+        n
+       </em>
+       = 9; empty,
+       <em>
+        n
+       </em>
+       = 9; ΔBRCT1–2,
+       <em>
+        n
+       </em>
+       = 6; W75R,
+       <em>
+        n
+       </em>
+       = 6; ΔBRCT3–6 + Q,
+       <em>
+        n
+       </em>
+       = 6; ΔBRCT3–6 + Q W75R,
+       <em>
+        n
+       </em>
+       = 3; ΔBRCT1,
+       <em>
+        n
+       </em>
+       = 3; ΔBRCT2,
+       <em>
+        n
+       </em>
+       = 3; W165R,
+       <em>
+        n
+       </em>
+       = 3. Data are represented as mean. FL versus ΔBRCT1–2, (****)
+       <em>
+        P
+       </em>
+       &lt; 0.0001; FL versus ΔBRCT3–6 + Q,
+       <em>
+        P
+       </em>
+       &gt; 0.1, which is not significant (ns); FL versus ΔBRCT3–6 + Q W75R, (**)
+       <em>
+        P
+       </em>
+       = 0.0021; FL versus W75R, (****)
+       <em>
+        P
+       </em>
+       &lt; 0.0001; FL versus ΔBRCT1, (****)
+       <em>
+        P
+       </em>
+       &lt; 0.0001; FL versus ΔBRCT2, (**)
+       <em>
+        P
+       </em>
+       = 0.0030; FL versus W165R, (*)
+       <em>
+        P
+       </em>
+       = 0.0135; FL versus empty vector, (****)
+       <em>
+        P
+       </em>
+       &lt; 0.0001. Statistics were performed using a two-tailed unpaired
+       <em>
+        t
+       </em>
+       -test with Welch's correction. (
+       <em>
+        D
+       </em>
+       ) Western blots of PTIP and mCherry expression from FACS-sorted
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells transduced with PTIP retroviral constructs, based on mCherry expression as described in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       G. (
+       <em>
+        E
+       </em>
+       ) Quantitative real-time PCR of
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        2b
+       </em>
+       germline transcripts and
+       <em>
+        Il6
+       </em>
+       and
+       <em>
+        PTIP
+       </em>
+       expression from
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells transduced with the indicated retroviruses as in
+       <em>
+        B
+       </em>
+       . Data are from a single transduction/sorting experiment (
+       <em>
+        n
+       </em>
+       = 1 mouse) and are represented as mean ± SD. See also Supplemental Figures 3 and 4.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Consistent with previous reports that the 53BP1–PTIP interaction requires DNA damage and ATM-dependent phosphorylation events (
+     <xref ref-type="bibr">
+      Manke et al. 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Munoz et al. 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Callen et al. 2013
+     </xref>
+     ), we found that 53BP1 only weakly interacts with FL in the absence of exogenous DNA damage (Supplemental Figs. 3C, 4A). Indeed, GFP-PTIP pull-downs from reconstituted
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells show that ΔBRCT1–2 does not further impair the weak association of 53BP1 to PTIP (Supplemental Fig. 4A). Moreover,
+     <em>
+      53BP1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells displayed normal
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     ,
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      1
+     </em>
+     , and
+     <em>
+      Igh-
+     </em>
+     μ germline transcription (Supplemental Fig. 3D), consistent with previous reports (
+     <xref ref-type="bibr">
+      Manis et al. 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ward et al. 2004
+     </xref>
+     ). Together with the fact that PTIP-deficient cells show normal 53BP1 accumulation into IR-induced and CSR-associated foci (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ), these results strongly argue against impaired 53BP1 recruitment or function as the cause of the IgH class switching defect.
+    </p>
+    <p>
+     To determine whether the PTIP separation of function that we observed at
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     was relevant to other loci controlled by PTIP, we examined
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      2b
+     </em>
+     germline transcription,
+     <em>
+      Il6
+     </em>
+     transcription, and IgG1 surface expression (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ). Indeed, a rescue in transcription at all loci tested as well as IgG1 surface expression were observed with ΔBRCT5–6 and FL control retroviruses but not with retroviruses expressing mutant PTIP disrupted at its N terminus (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     E; Supplemental Fig. 4B). To assess whether mutant PTIP protein confers a dominant-negative interfering activity,
+     <em>
+      PTIP
+     </em>
+     <sup>
+      +/+
+     </sup>
+     B cells were transduced with retrovirus expressing the various mutant PTIP proteins, and IgG3 surface expression was measured; however, we did not see any major changes in IgG3 class switching with transduced cells compared with nontransduced (Supplemental Fig. 4C). Collectively, our data demonstrate that the transcriptional regulation of several PTIP-dependent genes requires an intact N terminus of the protein, while the C terminus is dispensable. These data are in stark contrast to how PTIP has been proposed to function in transcription via recruitment of the MLL3/MLL4 methyltransferase complex (
+     <xref ref-type="bibr">
+      Issaeva et al. 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Patel et al. 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cho et al. 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The PTIP N-terminal tandem BRCT domain associates with and is stabilized by PA1
+    </title>
+    <p>
+     To identify proteins that associate with the N terminus of PTIP and may be important for
+     <em>
+      Igh
+     </em>
+     germline transcription, we used SILAC-based quantitative mass spectrometry. Primary
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells were stimulated and transduced with either empty vector, FL, or the ΔBRCT1–2 mutant retroviruses. Three days later, GFP pull-downs identified several MLL3/MLL4 complex component proteins by mass spectrometry, including ASH2L, RBBP5, DPY30, WDR5, UTX, and NCOA6 that were specifically enriched in FL compared with empty vector (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     A; Supplemental Table 1). PTIP and PA1 were similarly enriched in the FL pull-down (SILAC ratios of 7.7 and 7.7 for PTIP and PA1, respectively), while PA1 recovery was abrogated in the ΔBRCT1–2 pull-down (SILAC ratios of 5.0 and 1.6 for PTIP and PA1, respectively) (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     A; Supplemental Table 1). Similar results were obtained using two alternative methods for cell lysis (Supplemental Fig. 5A,B; Supplemental Table 1). As a complementary approach, we performed a similarly designed SILAC pull-down focused entirely on the N terminus of PTIP that is sufficient for IgH class switching. Strikingly, PA1 was the only protein with a SILAC ratio &gt;4 in the ΔBRCT3–6 + Q pull-down (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     B; Supplemental Table 1); moreover, the ΔBRCT3–6 + Q W75R mutant was similarly associated with PA1 (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     B; Supplemental Table 1). Additionally, the W75R mutation had no effect on PTIP-associated proteins in a similar SILAC-based quantitative proteomics experiment comparing the W75R mutant and control proteins (Supplemental Fig. 5C; Supplemental Table 1). Possible explanations for the transcriptional defects observed in PTIP BRCT1 mutant cells showing normal association to PA1 are described later in the discussion. We conclude that PA1 is the sole protein stably associating with the PTIP N-terminal BRCT domains. These data suggest that a stable PTIP–PA1 subcomplex is sufficient for PTIP function in transcription.
+    </p>
+    <fig id="STARNESGAD268797F4" position="float">
+     <label>
+      Figure 4.
+     </label>     <caption>
+      <p>
+       PA1 is the only protein stably associating with the PTIP N-terminal BRCT domains in B cells. (
+       <em>
+        A
+       </em>
+       ,
+       <em>
+        B
+       </em>
+       ,
+       <em>
+        top
+       </em>
+       ) Diagram of the N-terminal GFP-tagged PTIP retroviral constructs used. (
+       <em>
+        Bottom
+       </em>
+       ) Mass spectrometric identification of proteins in GFP-PTIP pull-downs from
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells transduced with the indicated retroviruses. (
+       <em>
+        A
+       </em>
+       ) A scatter plot of log
+       <sub>
+        2
+       </sub>
+       transformed normalized SILAC (M/L) FL/empty vector ratios on the
+       <em>
+        X
+       </em>
+       -axis and (H/L) ΔBRCT1–2/empty vector ratios on the
+       <em>
+        Y
+       </em>
+       -axis. (
+       <em>
+        B
+       </em>
+       ) A plot of log
+       <sub>
+        2
+       </sub>
+       transformed normalized SILAC (M/L) ΔBRCT3–6 + Q/empty vector ratios on the
+       <em>
+        X
+       </em>
+       -axis and (H/L) ΔBRCT3–6 + Q W75R/empty vector ratios on the
+       <em>
+        Y
+       </em>
+       -axis. MLL3/MLL4 complex components are shown in red (see also Supplemental Table 1). (
+       <em>
+        C
+       </em>
+       )
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells were stimulated and transduced with the indicated retroviruses. A Western blot is shown from lysates immunoprecipitated with GFP beads to detect coimmunoprecipitated proteins as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       D. (
+       <em>
+        D
+       </em>
+       ) Western blot analysis of a Strep-Tactin pull-down of recombinant PTIP and PA1 proteins. Flag antibody was used to detect PA1, and Strep antibody was used to detect the PTIP N-terminal tandem BRCT domain. Shown
+       <em>
+        below
+       </em>
+       is the Ponceau S staining of the membrane. BSA was included to block nonspecific binding to beads. (
+       <em>
+        E
+       </em>
+       ) Thermodynamics of the PTIP–PA1 interaction. Calorimetry data for the titration of Flag-PA1 into Strep-PTIP. The
+       <em>
+        top
+       </em>
+       panel shows energy (differential power [DP]) released after each injection; the
+       <em>
+        bottom
+       </em>
+       panel shows the integrated heat effect normalized to the number of moles of Flag-PA1 at each injection step. The solid line represents the fit of the experimental data to the 1:1 single-site binding model. The best-fit parameters correspond to the thermodynamic characteristics of the binding interactions: ΔH° = −26 kcal/mol; −TΔS = +15 kcal/mol;
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       = 7.1 nM ± 2.4 nM. See also Supplemental Figure 5.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To verify and extend our proteomic interaction data, we performed additional PTIP pull-downs and Western blotting from our transduced primary
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells and found that PTIP association to PA1 was abolished in ΔBRCT1–2 cells and also that PA1 binding did not depend on W75 within the BRCT1 domain of FL (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     C). Similar results were obtained from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs transduced with retrovirus expressing the W75R mutant (Supplemental Fig. 5D). Consistent with the PTIP–PA1 interaction occurring independently from IR-induced DNA damage (
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ), we found that the PTIP N-terminal BRCT domain fragment associated with PA1 similarly in
+     <em>
+      AID
+     </em>
+     <sup>
+      −/−
+     </sup>
+     and control B cells, indicating that the PTIP–PA1 interaction in B cells is not dependent on AID-induced DNA damage (Supplemental Fig. 5E). Additional GFP pull-down analysis from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs showed that association of PA1 is severely impaired by the W165R mutation in BRCT2 (Supplemental Fig. 5D). These data are consistent with another report showing that deletion of the individual BRCT2 domain of PTIP in human cells abolishes its interaction with PA1 (
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ). We conclude that the W165 residue within the BRCT2 domain is necessary for PTIP association to PA1.
+    </p>
+    <p>
+     To gain insight into how the PTIP–PA1 subcomplex functions, we performed a biophysical characterization of this interaction using purified recombinant proteins. Confirming previously reported coprecipitation data showing that PTIP and PA1 directly associate with each other (
+     <xref ref-type="bibr">
+      Cho et al. 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ), we found that a Strep-tagged N-terminal BRCT1–2 domain fragment of PTIP was able to coprecipitate Flag-tagged full-length PA1 in a pull-down assay (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     D). To extend these results beyond observations on immobilized beads, we directly measured the binding affinity of the subcomplex in solution with isothermal titration calorimetry (ITC). The titration curve of the PTIP–PA1 interaction was best fit to a single-site binding model with a 1:1 molar ratio and dissociation constant (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ) of 7.1 nM ± 2.4 nM (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     E). Moreover, the PTIP–PA1 subcomplex formation was characterized by two additional properties: a favorable binding enthalpy (ΔH° = −26 kcal/mol at 25°C), suggesting that a fairly large number of bonding interactions (e.g., hydrogen bonds and van der Waals interactions) are formed upon binding, and an unfavorable entropic contribution (−TΔS = +15 kcal/mol at 25°C), indicating a loss in the degree of conformational freedom upon binding (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     E). Furthermore, the PTIP N-terminal fragment in complex with PA1 was found to have a much higher thermal stability than either PTIP alone (37.7°C) or PA1 alone (no cooperative thermal transition, indicating the absence of tertiary structure), showing a midpoint of thermal unfolding at 50.0°C (Supplemental Fig. 5F). Thus, thermal stability measurements indicate that PA1 binding stabilizes PTIP by &gt;12°C. We conclude that the PTIP N-terminal tandem BRCT domain and PA1 proteins directly associate and stabilize each other in a complex with 1:1 stoichiometry.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PA1 promotes
+     <em>
+      Igh
+     </em>
+     germline transcription and IgH class switching
+    </title>
+    <p>
+     Since deletion of BRCT2 or, more specifically, the W165R point mutation abolishes PTIP function in
+     <em>
+      Igh
+     </em>
+     germline transcription and disrupts PTIP association with PA1, we wished to investigate whether PA1 deficiency resembled PTIP deficiency in B cells. To bypass the early embryonic lethality observed in
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     mice (
+     <xref ref-type="bibr">
+      Kumar et al. 2014
+     </xref>
+     ), we crossed
+     <em>
+      PA1
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     mice with
+     <em>
+      CD21
+     </em>
+     <sup>
+      <em>
+       cre
+      </em>
+     </sup>
+     mice to generate mature B-cell-specific PA1 knockout mice (referred to here as
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     ). Analysis of
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells revealed reduced PA1 protein (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     A) with proliferation rates similar to controls (Supplemental Fig. 6A). In
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells, we observed a defect in germline
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     switch transcripts similar to
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     cells (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     B) as well as a threefold reduction in IgG3 surface expression (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     C). Furthermore, ChIP-seq (chromatin immunoprecipitation [ChIP] combined with deep sequencing) analysis of
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells stimulated ex vivo showed severely impaired H3K4me3 at the
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     and
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      2b
+     </em>
+     loci (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     D), similar to
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ). We conclude that PA1 promotes germline switch region transcription, H3K4me3, and class switching to IgG3.
+    </p>
+    <fig id="STARNESGAD268797F5" position="float">
+     <label>
+      Figure 5.
+     </label>     <caption>
+      <p>
+       Immunoglobulin class switching defects in
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       B cells. (
+       <em>
+        A
+       </em>
+       ) Western blot from
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       and control B cells showing the deletion efficiency of PA1. (
+       <em>
+        B
+       </em>
+       ) Quantitative real-time PCR analysis of germline
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        1
+       </em>
+       and
+       <em>
+        Igh-
+       </em>
+       ε transcription from B cells stimulated in the IgG1/IgE condition for 5 d and germline
+       <em>
+        Igh-
+       </em>
+       γ
+       <em>
+        3
+       </em>
+       transcription from B cells stimulated in the IgG3 condition for 3 d. Data are from
+       <em>
+        n
+       </em>
+       = 3 mice of each genotype:
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       ,
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       ,
+       <em>
+        PA1
+       </em>
+       <sup>
+        +/+
+       </sup>
+       , and
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       . Data are from two independent experiments and are represented as mean ± SEM plotted relative to their respective wild type (+/+). (
+       <em>
+        C
+       </em>
+       ) Dot plot depicting the frequency of IgG3
+       <sup>
+        +
+       </sup>
+       cells after 3 d of culture from
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       ,
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , and control mice as determined by flow cytometry. Each dot represents one mouse (
+       <em>
+        n
+       </em>
+       = 3 for
+       <em>
+        PTIP
+       </em>
+       mice;
+       <em>
+        n
+       </em>
+       = 5 for
+       <em>
+        PA1
+       </em>
+       mice). Data are represented as mean.
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       versus
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , (*)
+       <em>
+        P
+       </em>
+       = 0.0155;
+       <em>
+        PA1
+       </em>
+       <sup>
+        +/+
+       </sup>
+       versus
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , (***)
+       <em>
+        P
+       </em>
+       = 0.0010. Statistics were performed using a two-tailed unpaired
+       <em>
+        t
+       </em>
+       -test with Welch's correction. (
+       <em>
+        D
+       </em>
+       ) H3K4me3 ChIP-seq profiles across the
+       <em>
+        Igh
+       </em>
+       constant region locus in B cells stimulated in the IgG3 condition. Blue rectangles indicate constant region exon segments, pink ovals indicate switch regions, orange ovals indicate enhancers, and the black rectangle indicates the antigen recognition V(D)J gene segment. The μ, γ3, γ1, γ2b, and γ2a isotypes correspond to immunoglobulins IgM, IgG3, IgG1, IgG2b, and IgG2a. (
+       <em>
+        E
+       </em>
+       ,
+       <em>
+        left
+       </em>
+       ) Dot plot indicating IgE and IgG1 CSR as a percentage of wild-type (+/+) switching as determined by flow cytometry on day 5 of stimulation in the IgG1/IgE condition. Each dot represents one mouse (
+       <em>
+        n
+       </em>
+       = 3 for
+       <em>
+        PTIP
+       </em>
+       and
+       <em>
+        PA1
+       </em>
+       mice). Data are represented as mean. IgE switching:
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       versus
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &gt; 0.1, which is not significant (ns);
+       <em>
+        PA1
+       </em>
+       <sup>
+        +/+
+       </sup>
+       versus
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , (*)
+       <em>
+        P
+       </em>
+       = 0.0197. IgG1 switching:
+       <em>
+        PTIP
+       </em>
+       <sup>
+        +/+
+       </sup>
+       versus
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , (***)
+       <em>
+        P
+       </em>
+       = 0.0008;
+       <em>
+        PA1
+       </em>
+       <sup>
+        +/+
+       </sup>
+       versus
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , (***)
+       <em>
+        P
+       </em>
+       = 0.0002. Statistics were performed using a two-tailed unpaired
+       <em>
+        t
+       </em>
+       -test with Welch's correction. (
+       <em>
+        Right
+       </em>
+       ) Representative flow cytometry plots from one mouse of each genotype measuring IgG1
+       <sup>
+        +
+       </sup>
+       frequency on the
+       <em>
+        Y
+       </em>
+       -axis and IgE
+       <sup>
+        +
+       </sup>
+       frequency on the
+       <em>
+        X
+       </em>
+       -axis
+       <em>
+        .
+       </em>
+       See also Supplemental Figure 6.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To further investigate the similarity between PTIP and PA1 deficiencies in IgH class switching, we stimulated mutant and control B cells to undergo class switching to IgG1 and IgE and assayed these responses. Similar to
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Callen et al. 2013
+     </xref>
+     ),
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells showed impaired
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      1
+     </em>
+     germline transcription and IgG1 class switching frequencies together with normal
+     <em>
+      Igh
+     </em>
+     -ε germline transcription and IgE CSR frequencies (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     B,E; Supplemental Fig. 6B). Also similar to
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ),
+     <em>
+      Igh-
+     </em>
+     μ germline transcription and
+     <em>
+      AID
+     </em>
+     expression were indistinguishable between
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     and control B cells (Supplemental Fig. 6C). We conclude that, similar to PTIP, PA1 promotes selective germline transcription and class switching to IgG3 and IgG1 but not IgE. Together with our results showing that the functional domains of PTIP are similar for both IgG1 and IgG3 (
+     <xref ref-type="fig">
+      Fig. 3
+     </xref>
+     ; Supplemental Fig. 4B), these data demonstrate that PA1 regulates IgG1 CSR similar to PTIP by promoting
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      1
+     </em>
+     germline transcription.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PTIP and PA1 protein stability and localization in cells
+    </title>
+    <p>
+     Our proteomic, biophysical, and functional data suggest that PTIP and PA1 exist in a 1:1 stable constitutive subcomplex that functions in transcription independently from the MLL3/MLL4 complex. To determine whether these two proteins stabilize one another in cells, we examined the expression levels of PA1 in
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells and PTIP levels in
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells. Indeed, whole-cell lysates from
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells revealed a reduction in the levels of PTIP protein, and, conversely, we saw reduced levels of PA1 protein in
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     A). These observed reductions in protein levels were confirmed to be the result of destabilized proteins, as PTIP and PA1 mRNA levels were not affected in the respective deficiencies (Supplemental Fig. 6D). Further verification and support for cross-stabilization of the PTIP and PA1 proteins were demonstrated by Western blotting for PA1 and PTIP in immortalized MEFs transduced with either FL or a construct expressing untagged PA1. Destabilized PTIP protein levels in
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs were rescued to near wild-type levels upon overexpression of PA1 (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     B, cf. lanes 1, 2, and 4). In
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs, slightly reduced PA1 levels were also stabilized upon expression of FL (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     B, cf. lanes 3, 5, and 6). We conclude that PTIP and PA1 proteins stabilize each other in cells, consistent with the two proteins associating in a constitutive subcomplex.
+    </p>
+    <fig id="STARNESGAD268797F6" position="float">
+     <label>
+      Figure 6.
+     </label>     <caption>
+      <p>
+       PTIP and PA1 protein stability and localization in cells. (
+       <em>
+        A
+       </em>
+       ) A Western blot for PTIP and PA1 levels in B cells stimulated in the IgG3 condition for 3 d from individual
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       ,
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , and control mice (
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       and
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       ,
+       <em>
+        n
+       </em>
+       = 3; control mice,
+       <em>
+        n
+       </em>
+       = 2). (
+       <em>
+        B
+       </em>
+       ) A Western blot for PTIP and PA1 levels in immortalized
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       ,
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       , and control (+/+) MEFs transduced with FL and PA1. (
+       <em>
+        C
+       </em>
+       –
+       <em>
+        F
+       </em>
+       ) Immunofluorescence of immortalized MEFs. (
+       <em>
+        C
+       </em>
+       )
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       cells transduced with untagged PA1 or empty vector control. (
+       <em>
+        D
+       </em>
+       )
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       cells transduced with N-terminal GFP-tagged FL. (
+       <em>
+        E
+       </em>
+       )
+       <em>
+        PTIP
+       </em>
+       <sup>
+        −/−
+       </sup>
+       and controls (+/+) transduced with untagged-PA1. (
+       <em>
+        F
+       </em>
+       )
+       <em>
+        PA1
+       </em>
+       <sup>
+        −/−
+       </sup>
+       and controls (+/+) transduced with FL. MEFs in
+       <em>
+        C
+       </em>
+       –
+       <em>
+        F
+       </em>
+       were irradiated with 10 Gy, and FL (cyan, except for
+       <em>
+        D
+       </em>
+       , where FL is indicated in magenta), PA1 (cyan), and γH2AX (magenta) IR-induced foci were assessed 4 h after IR. DAPI is indicated in gray. Bars, 10 μm.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Based on these cellular protein stabilization data, we decided to overexpress stoichiometric amounts of PTIP and PA1 within
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells using the 2A peptide technology (
+     <xref ref-type="bibr">
+      Kim et al. 2011
+     </xref>
+     ) to determine whether we could achieve supraphysiological IgG3 class switching.
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells were transduced with FL, untagged PA1, PA1.P2A.PTIP, or empty vector (Supplemental Fig. 7A). Upon assaying IgG3 surface expression, we observed that PA1 expression alone failed to rescue the IgG3 class switching defect above empty vector transduced cells and that PA1.P2A.PTIP transduced cells rescued similar to FL (Supplemental Fig. 7B); similar results were obtained for
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     germline transcription (Supplemental Fig. 7C). P2A peptide cleavage was efficient, and the cotranslated PTIP and PA1 proteins were detected at levels similar to individually overexpressed FL and PA1 proteins (Supplemental Fig. 7D). We conclude that overexpression of the PTIP–PA1 subcomplex does not lead to elevated IgH class switching even though the proteins stabilize each other. Thus, in contrast to the elevated levels of IgH CSR observed with AID overexpression and subsequent increased DNA damage (
+     <xref ref-type="bibr">
+      Robbiani and Nussenzweig 2013
+     </xref>
+     ), our results suggest that mechanisms may exist to inhibit aberrant transcription of downstream switch regions at the
+     <em>
+      Igh
+     </em>
+     locus. Consistent with ectopic expression of FL in
+     <em>
+      PTIP
+     </em>
+     <sup>
+      +/+
+     </sup>
+     cells not leading to increased levels of
+     <em>
+      Igh-
+     </em>
+     γ
+     <em>
+      3
+     </em>
+     germline transcription or class switching compared with empty vector transduced cells (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     F; Supplemental Fig. 4C), these results together suggest that PTIP protein levels are not limiting for its function in transcription.
+    </p>
+    <p>
+     To further extend our functional analysis of the subcomplex, we analyzed the protein levels and localization behavior of PA1 and PTIP in immortalized MEFs using immunofluorescence microscopy. Overexpressing untagged PA1 allowed for robust and specific immunodetection of PA1 above background (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     C). Consistent with our Western blot results (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     B), we were able to visualize stabilization of endogenous PA1 in cells overexpressing FL (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     D). Both stabilized endogenous or exogenously expressed PA1 showed nuclear-restricted staining (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     C,D); however, PA1 became noticeably mislocalized to a diffuse nuclear/cytoplasmic staining in
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     E). We conclude that PTIP is required for the efficient nuclear localization of PA1.
+    </p>
+    <p>
+     As previously reported in PA1-deficient human cells (
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ), we confirmed that FL formed IR-induced foci and showed nuclear localization in
+     <em>
+      PA1
+     </em>
+     <sup>
+      −/−
+     </sup>
+     MEFs similar to controls, with the majority of foci showing clear colocalization with γH2AX (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     F). PA1 foci were observed in irradiated cells when either FL or PA1 was overexpressed (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     C–E), and the majority of these foci colocalized with FL (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     D); however, to our surprise, we found that PA1 foci do not show a clear overlap with γH2AX like we and others observed with FL foci (
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     F). We conclude that PA1 is dispensable for the nuclear localization and IR-induced foci formation of PTIP and, in contrast to PTIP, does not robustly localize to sites of IR-induced DNA damage. These data therefore call into question whether PA1 is in fact a DNA damage response (DDR) factor and suggest that the reported cellular radiosensitivity of PA1-deficient human cells (
+     <xref ref-type="bibr">
+      Gong et al. 2009
+     </xref>
+     ) may be indirectly due to destabilized PTIP protein levels.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Germline transcription through the S regions of the
+    <em>
+     Igh
+    </em>
+    locus is essential for CSR and provides a recruitment platform to target AID to ssDNA through mechanisms that still remain to be completely elucidated (
+    <xref ref-type="bibr">
+     Kenter 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alt et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Robbiani and Nussenzweig 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Stavnezer and Schrader 2014
+    </xref>
+    ). Here we dissected the different complexes of the multifunctional PTIP protein and found that its function in transcription for IgH class switching can be separated from both its association with the MLL3/MLL4 methyltransferase complex and its DNA damage-induced association with the DDR factor 53BP1 (
+    <xref ref-type="fig">
+     Fig. 7
+    </xref>
+    ;
+    <a>
+     <span>
+      Table 1
+     </span>
+    </a>
+    ). Contrary to previous assumptions, we found that the transcription function of PTIP for IgH class switching is not mediated through direct association or recruitment of the MLL3/MLL4 complex but is instead mediated by one of its tandem BRCT domains that associate with the PA1 protein in a PTIP–PA1 subcomplex.
+   </p>
+   <fig id="STARNESGAD268797F7" position="float">
+    <label>
+     Figure 7.
+    </label>    <caption>
+     <p>
+      Model for how the PTIP–PA1 subcomplex promotes transcription for IgH class switching independently from the associated MLL3/MLL4 complex. Prior to stimulation,
+      <em>
+       Igh-
+      </em>
+      μ germline transcripts are produced from the 5′
+      <em>
+       E
+      </em>
+      μ region, and a full-length
+      <em>
+       Igh
+      </em>
+      transcript is produced from upstream of the
+      <em>
+       V(D)J
+      </em>
+      gene segment. PTIP and PA1 proteins stabilize each other in a constitutive subcomplex that, upon B-cell activation, localizes to downstream Igh-γ switch regions through an unknown transcription factor interaction, where it then interacts with the transcription machinery (i.e., a chromatin-modifying complex or polymerase II [Pol II]) to promote germline transcription initiation (step 1). The
+      <em>
+       Igh-
+      </em>
+      γ
+      <em>
+       3
+      </em>
+      switch region is shown as an example. Dashed arrows indicate a direct or indirect association. H3K4me3 marks are deposited by a Set1-like methyltransferase either before or after transcription initiation (step 2). AID is targeted to the now accessible chromatin at the switch regions, leading to DSB formation (step 3). DSBs are repaired by the NHEJ pathway and the 53BP1 and RIF1 DDR factors, leading to a recombined
+      <em>
+       Igh
+      </em>
+      locus and expression of IgG3 (step 4). Constant (C) region exons are indicated by blue rectangles, switch regions are indicated by pink ovals, the 5′ enhancer is indicated by an orange oval, and the black rectangle indicates the antigen recognition
+      <em>
+       V(D)J
+      </em>
+      gene segment.
+      <em>
+       C
+      </em>
+      γ
+      <em>
+       3
+      </em>
+      ,
+      <em>
+       C
+      </em>
+      δ, and
+      <em>
+       C
+      </em>
+      μ refer to immunoglobulins IgG, IgD, and IgM, respectively.
+     </p>
+    </caption>
+   </fig>
+   <sec>
+    <a>
+     <img/>
+    </a>
+    <sec>
+     <sec>
+      <a>
+       Table 1.
+      </a>
+     </sec>
+     <sec>
+      <span>
+       Summary of the different mutant PTIP proteins and their effect on PTIP functions
+      </span>
+     </sec>
+    </sec>
+   </sec>
+   <p>
+    PTIP deficiency correlates with reduced H3K4me marks and transcription at specific genes in multiple cell types (
+    <xref ref-type="bibr">
+     Issaeva et al. 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Patel et al. 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cho et al. 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Daniel et al. 2010
+    </xref>
+    ). We previously found that H3K4me2 and H3K4me3, but not H3K4me1, at
+    <em>
+     Igh
+    </em>
+    switch region promoters were dependent on PTIP (
+    <xref ref-type="bibr">
+     Daniel et al. 2010
+    </xref>
+    ). Together, these data suggested a key role for PTIP as an accessory subunit of the MLL3/MLL4 complex that recruits the methyltransferases to chromatin for establishing and/or enforcing chromatin states that are permissive for transcription. Indeed, we found that endogenously expressed PTIP associates with the MLL3/MLL4 complex in primary B cells; however, upon identifying the region of PTIP that associates with the MLL3/MLL4 complex, we found this interaction to be dispensable for transcription and IgH CSR. Consistent with this notion, we found that MLL3 and MLL4 are dispensable for
+    <em>
+     Igh
+    </em>
+    germline transcription across
+    <em>
+     Igh-
+    </em>
+    γ
+    <em>
+     1
+    </em>
+    and
+    <em>
+     Igh-
+    </em>
+    γ
+    <em>
+     3
+    </em>
+    switch regions. More recently, MLL3/MLL4 have been found to mostly catalyze H3K4me1/2 at enhancer regions (
+    <xref ref-type="bibr">
+     Lee et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Herz et al. 2014
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Heinz et al. 2015
+    </xref>
+    ). Thus, our observations that PTIP and PA1 promote H3K4me3 at promoters further suggest that the PTIP–PA1 subcomplex has functions independent from the enhancer-enriched H3K4me1/2 methyltransferases. While the specific molecular mechanisms that recruit the PTIP–PA1 subcomplex to the
+    <em>
+     Igh
+    </em>
+    locus and bridge the subcomplex to the general transcription machinery remain to be elucidated, we propose that the PTIP–PA1 subcomplex is recruited to chromatin through a transient interaction with a DNA-binding transcription factor and thereby stabilizes recruitment of RNA polymerase II (Pol II) to initiate transcription, promoting H3K4me3 by an alternative Set1-like methyltransferase complex either before or subsequent to transcription initiation (
+    <xref ref-type="fig">
+     Fig. 7
+    </xref>
+    ). Nevertheless, the CSR defects that we and others (
+    <xref ref-type="bibr">
+     Ortega-Molina et al. 2015
+    </xref>
+    ) observed with MLL3/MLL4 deficiencies in mice remain to be elucidated and may help to model the immune defects observed in human Kabuki syndrome that harbor mutations in
+    <em>
+     Mll4
+    </em>
+    (
+    <xref ref-type="bibr">
+     Lindsley et al. 2015
+    </xref>
+    ).
+   </p>
+   <p>
+    We call attention to PA1 as a novel CSR factor functioning together with PTIP in a subcomplex. PA1 was the only protein that we identified to strongly interact with the N-terminal PTIP fragment sufficiently for CSR and was found to associate with full-length PTIP more than other MLL3/MLL4 complex components; similar stoichiometry estimation results have been reported in human cells (
+    <xref ref-type="bibr">
+     van Nuland et al. 2013
+    </xref>
+    ). Additional evidence to support the existence of a PTIP–PA1 subcomplex stems from size exclusion chromatographic fractionation of PTIP-associated proteins from human cells showing a high-molecular-weight pool of PTIP–PA1 cofractionating with the Set1-like complex component WDR5 and a lower-molecular-weight pool of PTIP–PA1 that does not contain WDR5 (
+    <xref ref-type="bibr">
+     Gong et al. 2009
+    </xref>
+    ). Our data further bolster the notion of a functional PTIP–PA1 subcomplex by showing that the PTIP N-terminal tandem BRCT domain and full-length PA1 proteins directly and tightly interact in a complex with 1:1 stoichiometry and stabilize each other in cells. Moreover, the low nanomolar binding affinity that we observed for the PTIP–PA1 interaction is much stronger than the low micromolar binding affinities of other known tandem BRCT domain interactions with phospho-Ser-containing peptides (
+    <xref ref-type="bibr">
+     Leung and Glover 2011
+    </xref>
+    ), further suggesting a phosphorylation-independent binding mechanism. Surprisingly, we found that BRCT1 and BRCT2 domains of PTIP were individually required for PTIP function in CSR even though PA1 association to PTIP was not affected by disruption of BRCT1. We speculate that BRCT1 of PTIP may help to stabilize the stoichiometry of the subcomplex, activate a function of PA1, or associate transiently with a different protein that is essential for transcription and IgH CSR. Nevertheless, our work here establishes for the first time a specific biological function for the PTIP–PA1 subcomplex. By showing that PTIP similarly regulates transcription at three different switch regions and at the
+    <em>
+     Il6
+    </em>
+    cytokine gene, we speculate that the subcomplex acts at multiple genomic loci in different cellular contexts.
+   </p>
+   <p>
+    PTIP promotes IgH CSR to IgG isotypes but not IgE (
+    <xref ref-type="bibr">
+     Daniel et al. 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Callen et al. 2013
+    </xref>
+    ), and we now show that PA1 functions similarly. Our data demonstrate that the N-terminal tandem BRCT domain fragment of PTIP completely rescues the transcription and CSR defects of
+    <em>
+     PTIP
+    </em>
+    <sup>
+     −/−
+    </sup>
+    B cells independently from PTIP foci formation. This PTIP–PA1 function is in stark contrast to our understanding of how 53BP1 and RIF1 function in this recombination reaction, as their deficiencies do not lead to defects in
+    <em>
+     Igh
+    </em>
+    germline transcription but instead show significant
+    <em>
+     Igh
+    </em>
+    -associated genomic instability (
+    <xref ref-type="bibr">
+     Manis et al. 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ward et al. 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Chapman et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Di Virgilio et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Escribano-Diaz et al. 2013
+    </xref>
+    ). Thus, while PTIP and RIF1 both associate with the N terminus of 53BP1 in response to DSBs (
+    <xref ref-type="bibr">
+     Callen et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Chapman et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Di Virgilio et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Escribano-Diaz et al. 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zimmermann et al. 2013
+    </xref>
+    ), PTIP does not have a major role in DSB repair during CSR but instead is critical for the
+    <em>
+     Igh
+    </em>
+    germline transcription step that occurs prior to AID-induced DNA damage and independently from these DDR factors.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Mice
+    </title>
+    <p>
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ),
+     <em>
+      CD19
+     </em>
+     <sup>
+      <em>
+       Cre
+      </em>
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Rickert et al. 1997
+     </xref>
+     ),
+     <em>
+      CD21
+     </em>
+     <sup>
+      <em>
+       Cre
+      </em>
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Kraus et al. 2004
+     </xref>
+     ),
+     <em>
+      MLL3
+     </em>
+     <sup>
+      flox/flox
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Lee et al. 2006
+     </xref>
+     ), and
+     <em>
+      MLL4
+     </em>
+     <sup>
+      flox/flox
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Lee et al. 2013
+     </xref>
+     ) mice were previously described. The generation of
+     <em>
+      PA1
+     </em>
+     <sup>
+      <em>
+       flox/flox
+      </em>
+     </sup>
+     mice will be described in the future (JE Lee and K Ge, in prep.). Mice used for experiments were between 8 and 12 wk of age. All experiments were performed in compliance with the Danish Working Environment Authority, the Danish Animal Experiment Inspectorate, and the Department of Experimental Medicine at the University of Copenhagen. Cloning of the knock-in construct for the PTIP-GFP mice was performed by Gene Bridges using the ACN vector as a backbone (
+     <xref ref-type="bibr">
+      Bunting et al. 1999
+     </xref>
+     ). Embryonic stem cell electroporation and blastocyst injection were performed by the University of Copenhagen Core Facility for Transgenic Mice.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SILAC labeling and immunoprecipitations
+    </title>
+    <p>
+     For triple SILAC labeling of B cells from
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+     </sup>
+     mice, B cells were isolated from littermates consisting of
+     <em>
+      PTIP
+     </em>
+     <sup>
+      +/+
+     </sup>
+     plated in light medium (containing L-arginine [Arg-0] and L-lysine [Lys-0]),
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp
+      </em>
+      /+
+     </sup>
+     plated in medium medium (containing L-arginine [
+     <sup>
+      13
+     </sup>
+     C
+     <sub>
+      6
+     </sub>
+     ]HCl [Arg-6] and L-lysine-4,4,5,5-
+     <em>
+      d
+     </em>
+     <sub>
+      4
+     </sub>
+     [Lys-4]) and
+     <em>
+      PTIP
+     </em>
+     <sup>
+      <em>
+       gfp/gfp
+      </em>
+     </sup>
+     plated in heavy medium (containing L-arginine [
+     <sup>
+      13
+     </sup>
+     C
+     <sub>
+      6
+     </sub>
+     ,
+     <sup>
+      15
+     </sup>
+     N
+     <sub>
+      4
+     </sub>
+     ]HCl [Arg-10] and L-lysine [
+     <sup>
+      13
+     </sup>
+     C
+     <sub>
+      6
+     </sub>
+     ,
+     <sup>
+      15
+     </sup>
+     N
+     <sub>
+      2
+     </sub>
+     ]HCl [Lys-8] [Sigma]). Cells were cultured for 72 h in the IgG3 condition followed by collection and lysis as outlined below. For triple SILAC labeling of
+     <em>
+      PTIP
+     </em>
+     <sup>
+      −/−
+     </sup>
+     B cells transduced with FL and mutant constructs, cells to be transduced were plated in their respective SILAC media overnight in the IgG3 condition. The following day, cells were transduced and plated as follows: GFP empty retrovirus was always cultured in light medium, FL or ΔBRCT3–6 + Q was cultured in medium medium and ΔBRCT1–2, the W75R point mutant, or ΔBRCT3–6 + Q W75R was cultured in heavy medium. Three days after transduction, cells in their separate conditions were collected and lysed, followed by immunoprecipitation. Cells were lysed according to the method of
+     <xref ref-type="bibr">
+      Mendez and Stillman (2000)
+     </xref>
+     , referred to as method 1 in the text. Briefly, cells from each SILAC population were collected, washed with cold PBS, and lysed in hypotonic buffer A (10 mM HEPES at pH 7.9, 10 mM KCl, 1.5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 0.34M sucrose, 10% glycerol, complete protease inhibitor cocktail, PhosSTOP phosphatase inhibitor cocktail [Roche], 1 mM DTT, 0.1% Triton X-100) to isolate nuclei. Chromatin-bound proteins were released by treatment with 0.2 U of micrococcal nuclease (Sigma) and 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     in buffer A for 3 min at 37°C. The reaction was stopped by addition of 1 mM EGTA, and nuclei were collected and lysed in extraction buffer (3 mM EDTA, 0.2 mM EGTA, complete protease inhibitor cocktail, PhosSTOP phosphatase inhibitor cocktail [Roche], 1 mM DTT). One milligram of this chromatin-enriched nuclear extract was incubated for 2 h at 4°C with GFP-Trap_A beads (Chromotek) in immunoprecipitation buffer (10 mM Tris-HCl at pH 8, 150 mM NaCl, 0.5 mM EDTA, 0.2% Igepal CA-630, complete protease inhibitor cocktail, PhosSTOP phosphatase inhibitor cocktail [Roche]). The beads were washed three to four times, and then the immunoprecipitation reactions from three different SILAC samples were pooled together after the last wash for mass spectrometric analysis. Two additional lysis methods were used for triple SILAC interactomes comparing FL with ΔBRCT1–2 (Supplemental Fig. 5). Method 2 was the EBC buffer method described previously (
+     <xref ref-type="bibr">
+      Danielsen et al. 2012
+     </xref>
+     ) with a micrococcal nuclease treatment to enrich for chromatin factors, and method 3 refers to the “two-step” protocol using hypotonic shock followed by salt extraction to enrich for possible transcription factors (
+     <xref ref-type="bibr">
+      Klenova et al. 2002
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mass spectrometric analyses
+    </title>
+    <p>
+     PTIP-GFP and copurifying proteins were resolved by SDS-PAGE on 4%–12% NuPAGE Bis-Tris gels (Life Technologies) and visualized by Coomassie blue staining. Peptides were recovered from the SDS-PAGE gel using a standard in-gel digestion protocol (
+     <xref ref-type="bibr">
+      Lundby and Olsen 2011
+     </xref>
+     ). Peptide fractions were analyzed by online nanoflow liquid chromatography-tandem mass spectrometry (LC-MS/MS) using a Proxeon easy nLC 1000 system connected to an Q-Exactive mass spectrometer (Thermo Scientific), as described (
+     <xref ref-type="bibr">
+      Kelstrup et al. 2012
+     </xref>
+     ). Raw data were computationally processed using MaxQuant and searched against the UniProt database (January 2014 release) using the integrated Andromeda search engine (
+     <a>
+      http://www.maxquant.org
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Cox and Mann 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cox et al. 2011
+     </xref>
+     ). Complete lists of all quantified proteins, their SILAC ratios, and other relevant mass spectrometry data are in Supplemental Table 1.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ChIP-seq
+    </title>
+    <p>
+     B cells were harvested for chromatin preparation 2 d after stimulation, and ChIP-seq and Illumina sequencing were performed as previously described (
+     <xref ref-type="bibr">
+      Daniel et al. 2010
+     </xref>
+     ). All sequence data have been deposited in the Gene Expression Omnibus database (accession no.
+     <a>
+      <span>
+       {"type":"entrez-geo","attrs":{"text":"GSE75930","term_id":"75930"}}
+      </span>
+      GSE75930
+     </a>
+     ) at
+     <a>
+      http://ncbi.nlm.nih.gov/geo
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Quantitative real-time PCR
+    </title>
+    <p>
+     mCherry-positive and mCherry-negative sorted B cells were collected, and total RNA was extracted using TRIzol reagent (Invitrogen); treated with DNA-free RNase-free DNase (Ambion) or, in cases with low cell numbers, using the Arcturus PicoPure RNA isolation kit (Life Technologies); and reverse-transcribed using random hexamers from SuperScript III first strand synthesis SuperMix (Invitrogen), all according to the manufacturer's instructions. Quantitative PCR was performed in 20-μL reactions on cDNA using 100 nM each primer, SYBR Green PCR Master mix (Applied Biosystems), and a Stratagene Mx3005P (Agilent Technologies) machine. See the Supplemental Material for quantitative PCR conditions and a list of the primers used.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental Material:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

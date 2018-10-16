@@ -1,0 +1,2644 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3173796
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Regulation of glycine receptor diffusion properties and gephyrin interactions by protein kinase C
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Glycine receptors (GlyRs) can dynamically exchange between synaptic and extrasynaptic locations through lateral diffusion within the plasma membrane. Their accumulation at inhibitory synapses depends on the interaction of the β-subunit of the GlyR with the synaptic scaffold protein gephyrin. An alteration of receptor–gephyrin binding could thus shift the equilibrium between synaptic and extrasynaptic GlyRs and modulate the strength of inhibitory neurotransmission. Using a combination of dynamic imaging and biochemical approaches, we have characterised the molecular mechanism that links the GlyR–gephyrin interaction with GlyR diffusion and synaptic localisation. We have identified a protein kinase C (PKC) phosphorylation site within the cytoplasmic domain of the β-subunit of the GlyR (residue S403) that causes a reduction of the binding affinity between the receptor and gephyrin. In consequence, the receptor's diffusion in the plasma membrane is accelerated and GlyRs accumulate less strongly at synapses. We propose that the regulation of GlyR dynamics by PKC thus contributes to the plasticity of inhibitory synapses and may be involved in maladaptive forms of synaptic plasticity.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     gephyrin, GlyR β-loop, ITC, PKC, SPT
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Neurotransmitter receptors continuously diffuse into and out of synapses through lateral movement within the plasma membrane. This dynamic equilibrium, however, is shifted towards an enrichment of the receptors at synapses due to their interaction with synaptic scaffold proteins that provide binding sites for the immobilisation of receptors (
+    <xref ref-type="bibr">
+     Renner et al, 2008
+    </xref>
+    ). A modulation of the binding affinity between the receptors and the synaptic scaffold will consequently lead to a redistribution of receptors and alter the strength of synaptic transmission that primarily depends on the number and the activity of receptors at synapses.
+   </p>
+   <p>
+    Inhibitory synapses of the central nervous system are characterised by the presence of dense clusters of the scaffold protein gephyrin. The formation of these synaptic gephyrin clusters is known to depend on gephyrin–gephyrin interactions (reviewed in
+    <xref ref-type="bibr">
+     Fritschy et al, 2008
+    </xref>
+    ). The N-terminal domain of gephyrin is believed to trimerise, whereas the C-terminal domain dimerises, thus creating a lattice of gephyrin molecules that serves to immobilise the main types of inhibitory receptors, namely glycine receptors (GlyRs) and GABA
+    <sub>
+     A
+    </sub>
+    receptors (GABA
+    <sub>
+     A
+    </sub>
+    Rs). The gephyrin-interaction motif of the GlyR is located within the cytoplasmic domain of the β-subunit of the receptor, the so-called β-loop (
+    <xref ref-type="bibr">
+     Schrader et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sola et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kim et al, 2006
+    </xref>
+    ). As GlyR complexes are pentameric assemblies containing two α- and three β-subunits, the association between the receptor complex and the gephyrin scaffold can be relatively stable because of the presence of multiple binding sites (
+    <xref ref-type="bibr">
+     Grudzinska et al, 2005
+    </xref>
+    ). Two types of interactions hence need to be taken into account to explain the dynamic equilibrium at glycinergic synapses: gephyrin–gephyrin and GlyR–gephyrin interactions.
+   </p>
+   <p>
+    It has recently been shown that intracellular Ca
+    <sup>
+     2+
+    </sup>
+    levels regulate the diffusion and synaptic accumulation of inhibitory receptors (
+    <xref ref-type="bibr">
+     Levi et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bannai et al, 2009
+    </xref>
+    ). In the case of GlyRs, it was observed that increased levels of excitatory synaptic activity led to a Ca
+    <sup>
+     2+
+    </sup>
+    -dependent decrease in the lateral diffusion and an increase in the clustering of the receptors at inhibitory synapses in spinal cord neurons (
+    <xref ref-type="bibr">
+     Levi et al, 2008
+    </xref>
+    ). One possible mechanism by which this regulation of synaptic GlyR levels could be achieved is through the activation of Ca
+    <sup>
+     2+
+    </sup>
+    -dependent enzymes such as protein kinase C (PKC). Indeed, PKC has been implicated in the regulation of glycinergic neurotransmission. Whereas some studies have described increased glycine-evoked responses in hippocampal or dorsal commissural neurons in the presence of PKC agonists (
+    <xref ref-type="bibr">
+     Schonrock and Bormann, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Xu et al, 1996
+    </xref>
+    ), others observed a reduction in the glycinergic currents in spinal cord or hypothalamic neurons (
+    <xref ref-type="bibr">
+     Ye and McArdle, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tapia et al, 1997
+    </xref>
+    ). It is likely that the differential effects of PKC on GlyRs arise from different GlyR subunit compositions present in these cell types as well as from multiple roles of PKC (discussed in
+    <xref ref-type="bibr">
+     Legendre, 2001
+    </xref>
+    ). Nonetheless, the observed changes of GlyR currents have generally been attributed to a direct effect of PKC phosphorylation on the function of the receptor. For instance, glycine-evoked responses in
+    <em>
+     Xenopus
+    </em>
+    oocytes were decreased by PKC phosphorylation of amino-acid residue S391 of the GlyRα1 subunit (
+    <xref ref-type="bibr">
+     Ruiz-Gomez et al, 1991
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Uchiyama et al, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vaello et al, 1994
+    </xref>
+    ). However, it is not known whether PKC can also modulate the GlyR–gephyrin interaction and thus control the accumulation of GlyRs at synapses. In order to elucidate this specific issue, we investigated the involvement of PKC in the regulation of GlyR dynamics at inhibitory synapses. By combining dynamic imaging of receptor diffusion with biochemical analyses of the GlyR–gephyrin interaction, we have shown that PKC-dependent phosphorylation of the GlyRβ subunit at residue S403 reduces the receptor's affinity for gephyrin and increases the rate of membrane diffusion. In this way, an enhanced PKC activity reduces the synaptic accumulation of GlyRs and regulates the dynamic equilibrium at inhibitory synapses.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     PKC regulates GlyR diffusion and synaptic localisation
+    </title>
+    <p>
+     The aim of this study was to identify a mechanism by which the number of GlyRs at inhibitory synapses could be dynamically regulated through a change in the interaction between the receptors and the gephyrin scaffold. Given the Ca
+     <sup>
+      2+
+     </sup>
+     -dependent modulation of GlyR dynamics (
+     <xref ref-type="bibr">
+      Levi et al, 2008
+     </xref>
+     ), we investigated a possible involvement of PKC in the regulation of GlyR diffusion and accumulation at synapses. We took a pharmacological approach to explore the effect of PKC on GlyR dynamics in spinal cord neurons (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). Endogenous GlyRs were labelled with quantum dots (QDs) using antibodies against the α1-subunit of the receptor. The lateral diffusion of GlyR complexes was then measured by single-particle tracking (SPT) under control conditions, as well as during 15–45 min application of the PKC agonist phorbol 12-myristate 13-acetate (PMA) or the antagonist GF109203X (GFX). PMA treatment induced the translocation of PKC to the plasma membrane (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). To distinguish between synaptic and extrasynaptic trajectories, our experiments were performed in dissociated spinal cord neurons derived from a knock-in mouse strain expressing mRFP-tagged gephyrin for the identification of inhibitory synapses (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       PKC activity regulates GlyR diffusion and accumulation at inhibitory synapses. (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        E
+       </strong>
+       ) SPT of endogenous GlyRs in spinal cord neurons from mRFP–gephyrin knock-in mice, imaged under control conditions or during 15–45 min treatment with 50 nM GFX or 100 nM PMA (
+       <em>
+        n
+       </em>
+       &gt;400 synaptic and &gt;1200 extrasynaptic QD trajectories from ⩾68 movies per condition, three independent experiments). (
+       <strong>
+        A
+       </strong>
+       ) aMSD over time (left panel) and explored area of extrasynaptic GlyRs within 1 s, represented as median, 25 and 75% quartiles (Kolmogorov–Smirnov (KS) test: GFX versus control,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −3
+       </sup>
+       ; PMA versus control,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ; right). (
+       <strong>
+        B
+       </strong>
+       ) aMSD (left) and explored area of synaptic GlyR trajectories (KS: GFX versus control,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −3
+       </sup>
+       ; PMA versus control,
+       <em>
+        P
+       </em>
+       =0.8; right). (
+       <strong>
+        C
+       </strong>
+       ) Extrasynaptic diffusion coefficients (
+       <em>
+        D
+       </em>
+       ) expressed as cumulative histogram of the QD-tagged GlyR population (KS: GFX versus control,
+       <em>
+        P
+       </em>
+       =0.18; PMA versus control,
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        D
+       </strong>
+       ) Synaptic GlyR diffusion coefficients (KS: GFX versus control,
+       <em>
+        P
+       </em>
+       =0.05; PMA versus control,
+       <em>
+        P
+       </em>
+       =0.9). (
+       <strong>
+        E
+       </strong>
+       ) Synaptic step sizes of the slow (0–50%) and fast (50–100%) population of GlyRs, shown as median, 25 and 75% quartiles (KS: GFX versus control of the fast synaptic pool,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        F
+       </strong>
+       ) IF imaging of endogenous mRFP–gephyrin and GlyRα1 after incubation with GFX or PMA for 1 h in culture medium. (
+       <strong>
+        G
+       </strong>
+       ) Quantification of endogenous mRFP–gephyrin clusters (total fluorescence) and enrichment of GlyRα1 at synaptic gephyrin clusters (GlyRα1 clusters/GlyRα1 dendrite fluorescence;
+       <em>
+        n
+       </em>
+       &gt;140 fields of view, four experiments;
+       <em>
+        t
+       </em>
+       -test: GFX versus control,
+       <sup>
+        *
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.01; GFX versus PMA,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        H
+       </strong>
+       ) GlyR mIPSC amplitudes in spinal cord neurons (DIV 14–23) prior to and after 10–12 min perfusion with 50 nM GFX (
+       <em>
+        n
+       </em>
+       =6 cells from three experiments;
+       <em>
+        t
+       </em>
+       -test:
+       <em>
+        P
+       </em>
+       =0.058). Right: GlyR mIPSC sample traces from one neuron (average of 30–40 mIPSCs).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Initially we compared the diffusion properties of GlyRs by calculating the average mean squared displacement (aMSD) of synaptic and extrasynaptic QD trajectories. This indicated a Brownian mode of diffusion for extrasynaptic GlyRs, as judged by the almost linear increase of the aMSD with time (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , left panel). In the presence of PMA, the slope of the curve was steeper than in the control condition or with GFX, pointing towards a faster motion of GlyRs. We then compared the median explored area per second, which confirmed that PMA increased the speed of GlyR diffusion (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , right). Moreover, the explored area was significantly reduced in the presence of GFX, meaning that extrasynaptic GlyRs were slowed down when blocking PKC. This effect was not apparent in the aMSD curves, as the calculation of the aMSD overrates the rapidly diffusing population of QDs. At synapses, GlyRs displayed a confined type of motion that is characterised by a non-linear relationship between aMSD and time (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). The presence of PMA slightly increased the confinement zone of the receptors (reduced confinement), whereas GFX had the opposite effect. The explored area was also significantly reduced by GFX, indicating that GlyRs were immobilised at synapses when PKC was inhibited.
+    </p>
+    <p>
+     To further characterise the effect of PKC on receptor diffusion, we analysed the diffusion coefficients (
+     <em>
+      D
+     </em>
+     ) of the GlyR population in the synaptic and extrasynaptic compartments. We found that PMA accelerated the diffusion of extrasynaptic GlyRs, as judged by a shift of the cumulative distribution towards larger
+     <em>
+      D
+     </em>
+     -values (median
+     <em>
+      D
+     </em>
+     : control 0.026 μm
+     <sup>
+      2
+     </sup>
+     /s and PMA 0.045 μm
+     <sup>
+      2
+     </sup>
+     /s;
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). In contrast, extrasynaptic GlyRs were slowed down by GFX (median
+     <em>
+      D
+     </em>
+     : 0.022 μm
+     <sup>
+      2
+     </sup>
+     /s). At synapses, we observed a reduction of the diffusion coefficients in the presence of GFX (median
+     <em>
+      D
+     </em>
+     : control 0.0041 μm
+     <sup>
+      2
+     </sup>
+     /s, PMA 0.0045 μm
+     <sup>
+      2
+     </sup>
+     /s and GFX 0.0026 μm
+     <sup>
+      2
+     </sup>
+     /s;
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). This effect was, however, limited to the relatively fast population of synaptic receptors. We therefore separated the slow and the fast GlyRs based on their
+     <em>
+      D
+     </em>
+     -values (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ) and compared the step sizes of these sub-populations (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). This revealed that the diffusion of the more mobile synaptic GlyR population was slowed down by GFX (median step size per 250 ms: control 74 nm, PMA 83 nm and GFX 59 nm), whereas the strongly confined synaptic receptors that are tightly bound to the gephyrin scaffold were not noticeably affected.
+    </p>
+    <p>
+     These data show that enhanced PKC activity increases GlyR mobility in spinal cord neurons, whereas PKC inhibition has an opposite effect. We hypothesised that the mechanism underlying these changes is the modulation of the GlyR–gephyrin interaction by PKC. As GlyRs interact with gephyrin both at synapses and outside of synapses (
+     <xref ref-type="bibr">
+      Ehrensperger et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ), this model also accounts for the observed changes in the diffusion of extrasynaptic GlyRs.
+    </p>
+    <p>
+     To evaluate the consequences of the altered rates of diffusion on the synaptic accumulation of GlyRs, we analysed the receptor levels at inhibitory synapses by immunofluorescence (IF). In these experiments, spinal cord cultures were incubated with PMA or GFX for 1 h to allow the redistribution of GlyRs. Neurons were then fixed and surface labelled with antibodies against GlyRα1. The expression of endogenous mRFP–gephyrin served to identify inhibitory synapses (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). PMA and GFX treatment did not significantly alter the synaptic gephyrin levels. However, GFX increased the enrichment of GlyRs at synapses (expressed as synaptic GlyRs relative to diffuse dendrite fluorescence), and PMA slightly reduced the accumulation of GlyRs at synapses as compared with control and, more significantly, compared with neurons treated with GFX (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ). These data are in agreement with the observed changes in the diffusive behaviour of GlyRs and indicate that PKC shifts the equilibrium of synaptic versus extrasynaptic receptors. This redistribution of GlyRs affected glycinergic neurotransmission in neurons treated with GFX (
+     <xref ref-type="fig">
+      Figure 1H
+     </xref>
+     ). The amplitudes of GlyR miniature inhibitory postsynaptic currents (mIPSCs) increased after 10–12 min of GFX application (baseline −25.1±3.3 pA, GFX −32.4±5.7 pA,
+     <em>
+      n
+     </em>
+     =6), but did not significantly change after PMA treatment (baseline −27.3±3.5 pA, PMA −29.8±4.4 pA,
+     <em>
+      n
+     </em>
+     =14). Yet, we found a relatively high cell-to-cell variability with PMA, with some cells displaying a clear reduction of glycinergic mIPSCs and others a more variable response. This observation may be related to the conflicting results that had been obtained in previous studies with PMA (discussed in
+     <xref ref-type="bibr">
+      Legendre, 2001
+     </xref>
+     ). Furthermore, we found that GFX significantly increased the decay times of the currents (baseline 9.6±1.8 ms, GFX 11.8±1.8 ms;
+     <em>
+      P
+     </em>
+     &lt;0.05), but not the mIPSC rise times (baseline 2.1±0.4 ms, GFX 2.5±0.6 ms). While these effects are in line with our imaging data, it cannot be excluded that changes of the GlyR channel properties are also implicated. Therefore, we have directly investigated the PKC-dependent regulation of GlyR diffusion in a reduced cellular system in the absence of functional GlyR complexes.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PKC phosphorylation of the GlyR
+     <em>
+      β
+     </em>
+     -loop regulates lateral diffusion
+    </title>
+    <p>
+     The likely mechanism by which PKC regulates the diffusion and the synaptic accumulation of GlyRs is through the phosphorylation of the receptor, gephyrin or yet another protein that controls the binding and immobilisation of GlyRs at synapses. The intracellular gephyrin-binding domain of the GlyRβ subunit (β-loop) contains a number of putative as well as known phosphorylation sites that could alter the interaction between the GlyR and gephyrin (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). Most notably, sequence analysis predicted several PKC sites that are highly conserved between mammalian genomes (NetPhosK 1.0, Technical University of Denmark,
+     <a>
+      http://www.cbs.dtu.dk/services/NetPhosK/
+     </a>
+     ;
+     <xref ref-type="bibr">
+      Blom et al, 2004
+     </xref>
+     ). We therefore sought to determine whether the phosphorylation of these sites would cause the changes in the diffusion properties observed by SPT. We generated recombinant expression constructs in which the GlyR β-loop was attached to a single transmembrane domain (TMD) and an extracellular pHluorin tag (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). These βL–TMD–pHluorin constructs were coexpressed with mRFP-tagged gephyrin in COS-7 cells, which do not contain significant levels of endogenous gephyrin, and used for SPT experiments (
+     <xref ref-type="fig">
+      Figure 2B–D
+     </xref>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       PKC phosphorylation of the GlyR β-loop increases membrane diffusion. (
+       <strong>
+        A
+       </strong>
+       ) Design of βL–TMD–pHluorin expression constructs containing the GlyR β-loop, a TMD and an extracellular pHluorin tag, and sequence alignment showing putative and known phosphorylation sites of the β-loop (residues K360-I420, excluding the signal peptide). (
+       <strong>
+        B
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) SPT of βL–TMD–pHluorin constructs in COS-7 cells. Cells were co-transfected with βL
+       <sup>
+        wt
+       </sup>
+       or the phosphorylation-deficient βL
+       <sup>
+        PKC−
+       </sup>
+       variant together with mRFP–gephyrin and imaged under control conditions or in the presence of 100 nM PMA (
+       <em>
+        n
+       </em>
+       &gt;1200 QD trajectories from ⩾48 cells per condition, three experiments). (
+       <strong>
+        B
+       </strong>
+       ) aMSD over time (left) and explored area within 1 s (KS: βL
+       <sup>
+        wt
+       </sup>
+       PMA versus control and βL
+       <sup>
+        wt
+       </sup>
+       PMA versus βL
+       <sup>
+        PKC−
+       </sup>
+       PMA,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ; right). Diffusion coefficients (
+       <strong>
+        C
+       </strong>
+       ) and median step sizes (
+       <strong>
+        D
+       </strong>
+       ) of βL
+       <sup>
+        wt
+       </sup>
+       and βL
+       <sup>
+        PKC−
+       </sup>
+       (KS: βL
+       <sup>
+        wt
+       </sup>
+       PMA versus control and βL
+       <sup>
+        wt
+       </sup>
+       PMA versus βL
+       <sup>
+        PKC−
+       </sup>
+       PMA,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Analysis of the aMSD of the wild-type construct (βL
+     <sup>
+      wt
+     </sup>
+     –TMD–pHluorin) showed that this membrane protein displays a Brownian diffusion (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). In the presence of the PKC agonist PMA, the speed of diffusion was drastically increased, as had been observed for the extrasynaptic GlyR complexes (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). The comparison of the explored areas confirmed that PKC activity accelerates the lateral diffusion of βL
+     <sup>
+      wt
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     , right panel). This was in contrast to a construct in which all the PKC consensus sites of the β-loop were mutated to alanine residues (T381A/T388A/S389A/S403A; construct βL
+     <sup>
+      PKC−
+     </sup>
+     ). The diffusion of βL
+     <sup>
+      PKC−
+     </sup>
+     was unaltered under control conditions, and there was only a minor increase in the explored area upon PMA application (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). The different diffusion properties of the two constructs were also reflected in the
+     <em>
+      D
+     </em>
+     -values (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Again, the diffusion of βL
+     <sup>
+      wt
+     </sup>
+     was greatly accelerated by PMA, whereas the effect on βL
+     <sup>
+      PKC−
+     </sup>
+     was much milder (median
+     <em>
+      D
+     </em>
+     : βL
+     <sup>
+      wt
+     </sup>
+     control 0.014 μm
+     <sup>
+      2
+     </sup>
+     /s, βL
+     <sup>
+      wt
+     </sup>
+     PMA 0.057 μm
+     <sup>
+      2
+     </sup>
+     /s, βL
+     <sup>
+      PKC−
+     </sup>
+     control 0.018 μm
+     <sup>
+      2
+     </sup>
+     /s and βL
+     <sup>
+      PKC−
+     </sup>
+     PMA 0.032 μm
+     <sup>
+      2
+     </sup>
+     /s). The average step sizes of the constructs varied accordingly (median step size per 250 ms: βL
+     <sup>
+      wt
+     </sup>
+     control 58 nm, βL
+     <sup>
+      wt
+     </sup>
+     PMA 136 nm, βL
+     <sup>
+      PKC−
+     </sup>
+     control 68 nm and βL
+     <sup>
+      PKC−
+     </sup>
+     PMA 87 nm;
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ).
+    </p>
+    <p>
+     In summary, the diffusion of the βL
+     <sup>
+      wt
+     </sup>
+     construct is PKC dependent and recapitulates the behaviour of endogenous GlyR complexes. Such a reduced cellular model has the advantage that the expression of the different components (β-loop, gephyrin) can be controlled independently. As the effect of PKC on the diffusion of βL
+     <sup>
+      wt
+     </sup>
+     was stronger than on the phosphorylation-deficient construct βL
+     <sup>
+      PKC−
+     </sup>
+     , these data also indicate that phosphorylation of one or more residues of the β-loop is mainly responsible for the changes in GlyR dynamics, although an effect of PKC on gephyrin or other cellular components cannot be ruled out.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PKC phosphorylates residue S403 of the GlyR
+     <em>
+      β
+     </em>
+     -loop
+    </title>
+    <p>
+     The previous experiments had suggested that the GlyR β-loop is phosphorylated by PKC and that this phosphorylation alters the diffusion and synaptic accumulation of the receptor. In order to determine which of the putative PKC sites participate in this regulation, we carried out a mass spectrometric analysis (liquid chromatography–mass spectrometry, LC–MS) of purified βL
+     <sup>
+      wt
+     </sup>
+     –Myc–6xHis expressed in HEK 293 cells. This yielded a high coverage of the β-loop sequence (90% of the input sequence N334-A454, including all S, T and Y residues) and identified two overlapping phosphopeptides that were both phosphorylated at serine residue S403 of the β-loop (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). To test whether the phosphorylation of S403 is PKC–dependent, additional LC–MS experiments were performed with βL
+     <sup>
+      wt
+     </sup>
+     –Myc–6xHis expressed in COS-7 cells in the presence or absence of the PKC antagonist chelerythrine. Under control conditions, the phosphopeptide SNDFSIVG
+     <strong>
+      S
+     </strong>
+     <sup>
+      *
+     </sup>
+     LPR was again identified in the purified βL
+     <sup>
+      wt
+     </sup>
+     –Myc–6xHis sample; however, no peptides containing phospho-S403 were detected when COS-7 cells had been incubated with 10 μM chelerythrine for 1½ h.
+    </p>
+    <p>
+     <em>
+      In vitro
+     </em>
+     phosphorylation of purified GlyR β-loops confirmed the specificity of PKC for residue S403. Both conventional and novel PKC isoforms phosphorylated the wild-type GlyR β-loop (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). The phosphorylation was strongest for the isoform PKC-β
+     <sub>
+      I
+     </sub>
+     , and was notably reduced when the phosphorylation of residue S403 was blocked by mutagenesis (βL
+     <sup>
+      S403D
+     </sup>
+     ). Although the phosphorylation of βL
+     <sup>
+      wt
+     </sup>
+     was weaker with PKC-γ and PKC-δ, it was fully abolished in the phosphorylation-deficient βL
+     <sup>
+      S403D
+     </sup>
+     variant, implying that these PKC isoforms specifically target residue S403. In contrast, GSK-3β kinase failed to phosphorylate the β-loop sequence (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). These data indicate that the GlyR β-loop is phosphorylated by both conventional and novel PKC isoforms at residue S403. Interestingly, this residue is located precisely in the gephyrin-binding region of the β-loop (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , sequence highlighted in grey;
+     <xref ref-type="bibr">
+      Kim et al, 2006
+     </xref>
+     ). As such, it is ideally placed to regulate the GlyR–gephyrin interaction.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       PKC isoforms phosphorylate residue S403 of GlyRβ. (
+       <strong>
+        A
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       phosphorylation of purified GlyR β-loop by PKC-β
+       <sub>
+        I
+       </sub>
+       , PKC-γ and PKC-δ (indicated by ++ or +). Note the reduction or absence (−) of PKC phosphorylation when the S403 phosphorylation is blocked by mutagenesis (variant βL
+       <sup>
+        S403D
+       </sup>
+       ). The top panel indicates the autophosphorylation of activated PKC isoforms (autoradiogram). Similar results were obtained in four independent experiments. (
+       <strong>
+        B
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       phosphorylation with GSK-3β (negative control, three experiments).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Residue S403 of GlyR
+     <em>
+      β
+     </em>
+     controls gephyrin binding
+    </title>
+    <p>
+     To characterise the molecular mechanism by which PKC phosphorylation of the β-loop alters the diffusion and synaptic accumulation of GlyRs, we analysed the GlyR–gephyrin interaction using biochemical approaches (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). Initially, co-sedimentation experiments were done using GST fusion proteins containing wild-type (βL
+     <sup>
+      wt
+     </sup>
+     ) or mutant β-loop variants, including βL
+     <sup>
+      S403D
+     </sup>
+     and βL
+     <sup>
+      S403E
+     </sup>
+     that mimic the phosphorylation at S403, the phosphorylation-deficient variant βL
+     <sup>
+      S403A
+     </sup>
+     , as well as a construct in which gephyrin binding was all but abolished (βL
+     <sup>
+      geph−
+     </sup>
+     ) by the introduction of alanine residues at positions F398 and I400 (
+     <xref ref-type="bibr">
+      Kim et al, 2006
+     </xref>
+     ). These variants were expressed in
+     <em>
+      E. coli
+     </em>
+     , bound to a glutathione agarose matrix and incubated with endogenous or recombinant gephyrin. Bound and unbound fractions were analysed by western blotting using a monoclonal antibody against the C-terminal domain of gephyrin (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). We found that the amount of gephyrin that was sedimented by the phosphomimetic variants βL
+     <sup>
+      S403D
+     </sup>
+     and βL
+     <sup>
+      S403E
+     </sup>
+     was significantly lower than with βL
+     <sup>
+      wt
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). In turn, the unbound fraction contained more gephyrin, indicating a reduced capacity of gephyrin binding by βL
+     <sup>
+      S403D
+     </sup>
+     and βL
+     <sup>
+      S403E
+     </sup>
+     . The βL
+     <sup>
+      S403A
+     </sup>
+     mutation did not significantly affect gephyrin binding, whereas binding was absent in isolated GST and the βL
+     <sup>
+      geph−
+     </sup>
+     variant.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Residue S403 of GlyRβ control gephyrin binding. (
+       <strong>
+        A
+       </strong>
+       ) Co-sedimentation of endogenous and recombinant gephyrin and GST–βL fusion proteins (wild type βL
+       <sup>
+        wt
+       </sup>
+       , phosphomimetic constructs βL
+       <sup>
+        S403D
+       </sup>
+       and βL
+       <sup>
+        S403E
+       </sup>
+       , phosphorylation-deficient βL
+       <sup>
+        S403A
+       </sup>
+       , gephyrin-binding-deficient βL
+       <sup>
+        geph−
+       </sup>
+       and isolated GST). Bound (pellet) and unbound (supernatant) protein fractions were separated by SDS–PAGE, and gephyrin was detected by western blotting (95 kDa). The lower panel shows equal loading of the GST fusion proteins on the glutathione resin used in the sedimentation experiments (Coomassie blue staining). (
+       <strong>
+        B
+       </strong>
+       ) Quantification of endogenous gephyrin from mouse brain (open bars) and recombinant gephyrin expressed in HEK 293 cells (black bars) that was pulled down by different GST–βL variants (normalised to βL
+       <sup>
+        wt
+       </sup>
+       ; generally
+       <em>
+        n
+       </em>
+       =4 experiments). The statistical significance of the pooled data for each construct was tested against βL
+       <sup>
+        wt
+       </sup>
+       (
+       <em>
+        t
+       </em>
+       -test: βL
+       <sup>
+        S403D
+       </sup>
+       and βL
+       <sup>
+        S403E
+       </sup>
+       ,
+       <sup>
+        *
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.001; βL
+       <sup>
+        geph−
+       </sup>
+       and GST,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) ITC with purified βL
+       <sup>
+        wt
+       </sup>
+       or βL
+       <sup>
+        S403D
+       </sup>
+       and purified recombinant gephyrin. The βL
+       <sup>
+        wt
+       </sup>
+       –gephyrin-binding data (black circles) were fit with a two-site model (black trace), whereas the βL
+       <sup>
+        S403D
+       </sup>
+       curve suggested a single binding site (grey). Dissociation constants (
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       ) for each binding component are given for the shown ITC curves. (
+       <strong>
+        D
+       </strong>
+       ) Summary of ITC data from independent experiments (
+       <em>
+        n
+       </em>
+       =6). Dissociation constants (
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       ), fractional occupancy (
+       <em>
+        N
+       </em>
+       ) and enthalpy changes (Δ
+       <em>
+        H
+       </em>
+       ) suggest the absence of βL
+       <sup>
+        S403D
+       </sup>
+       binding to the low-affinity site and a significantly reduced binding at the high-affinity site (
+       <em>
+        t
+       </em>
+       -test).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The affinity of the β-loop for gephyrin was then quantified using isothermal titration calorimetry (ITC) with purified proteins (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). βL
+     <sup>
+      wt
+     </sup>
+     and βL
+     <sup>
+      S403D
+     </sup>
+     were expressed as intein fusion proteins and affinity purified, followed by thiol-induced cleavage of the affinity tag and gel filtration, and were used for ITC together with purified gephyrin (
+     <xref ref-type="bibr">
+      Schrader et al, 2004
+     </xref>
+     ). The analysis of the binding curves of the wild-type β-loop indicated a dual interaction with gephyrin through a high-affinity (dissociation constant
+     <em>
+      K
+     </em>
+     <sub>
+      D1
+     </sub>
+     =21.5 nM) and a low-affinity site (
+     <em>
+      K
+     </em>
+     <sub>
+      D2
+     </sub>
+     =2.94 μM;
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). The high- and the low-affinity sites had a fractional occupancy of
+     <em>
+      N
+     </em>
+     <sub>
+      1
+     </sub>
+     =0.284 and
+     <em>
+      N
+     </em>
+     <sub>
+      2
+     </sub>
+     =0.569, respectively, resulting in an overall 1:1 binding of βL
+     <sup>
+      wt
+     </sup>
+     to gephyrin. Upon introduction of a negative charge at residue S403, however, the affinity of the β-loop–gephyrin interaction was greatly reduced. ITC data revealed a single mode of binding with a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 0.88 μM and a fractional binding stoichiometry of 0.311, suggesting the loss of the low-affinity interaction and a weaker binding of βL
+     <sup>
+      S403D
+     </sup>
+     at the high-affinity site (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). Similarly, ITC measurements with unmodified and phosphorylated peptides (residues R394-Y413) confirmed the reduction of gephyrin binding by S403 phosphorylation (data not shown), showing that phosphomimesis and phosphorylation have comparable effects on the GlyR–gephyrin interaction.
+    </p>
+    <p>
+     These data provide strong evidence that the phosphorylation of residue S403 of the GlyRβ subunit interferes with the high-affinity binding to gephyrin. We hypothesised that the change in the β-loop–gephyrin interaction would be reflected in the diffusion and the synaptic accumulation of membrane proteins containing the β-loop sequence. We therefore went on to measure the effect of phosphomimetic mutations on the dynamics of β-loop constructs in spinal cord neurons.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The GlyR
+     <em>
+      β
+     </em>
+     variant S403D displays increased diffusion and reduced synaptic clustering
+    </title>
+    <p>
+     When expressed in spinal cord neurons, βL–TMD–pHluorin constructs accumulate at functional inhibitory synapses, as judged by their colocalisation with endogenous mRFP–gephyrin and FM-labelled presynaptic boutons (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). On the basis of the biochemical data, we anticipated that the reduction of the β-loop–gephyrin interaction by the S403D mutation would result in an increased rate of diffusion and a reduced synaptic accumulation of the βL
+     <sup>
+      S403D
+     </sup>
+     variant. We thus compared the diffusion of this construct with that of the wild-type protein and of phosphomimetic variants of other putative PKC phosphorylation sites (βL
+     <sup>
+      T381D
+     </sup>
+     and βL
+     <sup>
+      T388D/S389D
+     </sup>
+     ;
+     <xref ref-type="fig">
+      Figure 5B–E
+     </xref>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       GlyRβ mutagenesis at S403 modulates membrane diffusion and synaptic localisation. (
+       <strong>
+        A
+       </strong>
+       ) Colocalisation of βL
+       <sup>
+        wt
+       </sup>
+       –TMD–pHluorin with endogenous mRFP–gephyrin and FM4-64 in transfected spinal cord neurons. (
+       <strong>
+        B
+       </strong>
+       –
+       <strong>
+        E
+       </strong>
+       ) SPT of βL
+       <sup>
+        wt
+       </sup>
+       , the phosphomimetic mutants βL
+       <sup>
+        S403D
+       </sup>
+       , βL
+       <sup>
+        T381D
+       </sup>
+       , βL
+       <sup>
+        T388D/S389D
+       </sup>
+       and the gephyrin-binding-deficient construct βL
+       <sup>
+        geph−
+       </sup>
+       (generally
+       <em>
+        n
+       </em>
+       &gt;100 synaptic and
+       <em>
+        n
+       </em>
+       &gt;400 extrasynaptic QD trajectories from &gt;20 transfected neurons; repeated in independent experiments, e.g.,
+       <a>
+        Supplementary Figure S4
+       </a>
+       ). (
+       <strong>
+        B
+       </strong>
+       ) aMSD (left) and explored area of synaptic β-loop constructs (KS: βL
+       <sup>
+        S403D
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <sup>
+        *
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.05; βL
+       <sup>
+        geph−
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ; right). (
+       <strong>
+        C
+       </strong>
+       ) Synaptic diffusion coefficients (KS: βL
+       <sup>
+        S403D
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &lt;0.01; βL
+       <sup>
+        geph−
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        D
+       </strong>
+       ) Synaptic step sizes (KS: βL
+       <sup>
+        S403D
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ; βL
+       <sup>
+        geph−
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) Extrasynaptic diffusion coefficients (KS: βL
+       <sup>
+        S403D
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ; βL
+       <sup>
+        geph−
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ). (
+       <strong>
+        F
+       </strong>
+       ) IF of endogenous GlyRα1 in neurons expressing βL
+       <sup>
+        wt
+       </sup>
+       , βL
+       <sup>
+        S403A
+       </sup>
+       , βL
+       <sup>
+        S403D
+       </sup>
+       or βL
+       <sup>
+        geph−
+       </sup>
+       . (
+       <strong>
+        G
+       </strong>
+       ) Quantification of the synaptic accumulation of β-loop constructs (synaptic cluster/dendrite fluorescence; left), endogenous mRFP–gephyrin levels (centre) and replacement of endogenous GlyRs (right) in neurons transfected with βL
+       <sup>
+        wt
+       </sup>
+       , βL
+       <sup>
+        S403A
+       </sup>
+       , βL
+       <sup>
+        S403D
+       </sup>
+       or βL
+       <sup>
+        geph−
+       </sup>
+       (
+       <em>
+        n
+       </em>
+       &gt;80 neurons per construct from four experiments;
+       <em>
+        t
+       </em>
+       -test: βL
+       <sup>
+        S403D
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <sup>
+        *
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.01; βL
+       <sup>
+        geph−
+       </sup>
+       versus βL
+       <sup>
+        wt
+       </sup>
+       ,
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       for synaptic enrichment and GlyR replacement).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The analysis of the aMSD of the synaptic trajectories showed that the different constructs all display a confined diffusion at synapses (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). The confinement was notably reduced for the βL
+     <sup>
+      S403D
+     </sup>
+     variant, whereas βL
+     <sup>
+      T381D
+     </sup>
+     and βL
+     <sup>
+      T388D/S389D
+     </sup>
+     were indistinguishable from the wild type. This effect was also apparent in the explored surface areas. For comparison, we analysed the behaviour of the βL
+     <sup>
+      geph−
+     </sup>
+     variant in which gephyrin binding was abolished (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). The very low level of confinement of this construct illustrates that the strength of the β-loop–gephyrin interaction indeed controls the diffusion of the different constructs at synapses. In line with these observations, the synaptic diffusion coefficients and the median step sizes were also increased for βL
+     <sup>
+      S403D
+     </sup>
+     and βL
+     <sup>
+      geph−
+     </sup>
+     compared with the wild type (median
+     <em>
+      D
+     </em>
+     : βL
+     <sup>
+      wt
+     </sup>
+     0.024 μm
+     <sup>
+      2
+     </sup>
+     /s, βL
+     <sup>
+      S403D
+     </sup>
+     0.047 μm
+     <sup>
+      2
+     </sup>
+     /s and βL
+     <sup>
+      geph−
+     </sup>
+     0.081 μm
+     <sup>
+      2
+     </sup>
+     /s; median step size per 250 ms: βL
+     <sup>
+      wt
+     </sup>
+     29 nm, βL
+     <sup>
+      S403D
+     </sup>
+     85 nm and βL
+     <sup>
+      geph−
+     </sup>
+     110 nm;
+     <xref ref-type="fig">
+      Figure 5C and D
+     </xref>
+     ). In contrast, the diffusion of the phosphorylation-deficient variant βL
+     <sup>
+      S403A
+     </sup>
+     was not significantly different than that of βL
+     <sup>
+      wt
+     </sup>
+     (
+     <a>
+      Supplementary Figure S4A
+     </a>
+     ). We observed similar alterations of the diffusion properties for the extrasynaptic population of membrane constructs (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ,
+     <a>
+      Supplementary Figure S4B
+     </a>
+     ), which was to be expected given the fact that the GlyR–gephyrin interaction occurs in the synaptic as well as the extrasynaptic compartment.
+    </p>
+    <p>
+     To determine whether the phosphomimetic mutation also changed the synaptic localisation of the βL
+     <sup>
+      S403D
+     </sup>
+     variant, we compared the accumulation of β-loop constructs at synaptic mRFP–gephyrin clusters (
+     <xref ref-type="fig">
+      Figure 5F
+     </xref>
+     ). With the exception of βL
+     <sup>
+      geph−
+     </sup>
+     that is diffusely distributed on the plasma membrane, all the other βL–TMD–pHluorin constructs accumulate at synapses. However, we found that the synaptic enrichment of βL
+     <sup>
+      S403D
+     </sup>
+     relative to the diffuse dendrite fluorescence was lower than that of βL
+     <sup>
+      wt
+     </sup>
+     or βL
+     <sup>
+      S403A
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     , left panel). Although no significant changes of the endogenous mRFP–gephyrin levels were observed, the strong accumulation of βL
+     <sup>
+      wt
+     </sup>
+     , βL
+     <sup>
+      S403A
+     </sup>
+     and to a lesser extent βL
+     <sup>
+      S403D
+     </sup>
+     at inhibitory synapses may recruit additional gephyrin molecules, and thus slightly alter the synaptic scaffold (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     , centre). We also measured the effect of the β-loop constructs on the distribution of endogenous GlyRs. IF analysis showed that endogenous GlyRs at synapses are substituted by constructs containing the β-loop, but not in neurons expressing βL
+     <sup>
+      geph−
+     </sup>
+     . Moreover, the replacement of GlyRs was more complete in the presence of βL
+     <sup>
+      wt
+     </sup>
+     or βL
+     <sup>
+      S403A
+     </sup>
+     in comparison with βL
+     <sup>
+      S403D
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     , right). This suggests that the β-loop constructs compete with endogenous GlyRs for synaptic-binding sites, and that the reduced affinity of the βL
+     <sup>
+      S403D
+     </sup>
+     –gephyrin interaction limits the synaptic accumulation of this construct for the benefit of endogenous GlyRs.
+    </p>
+    <p>
+     The implication of residue S403 of the β-loop in the regulation of the diffusion properties of full-length GlyR complexes was further tested using a chimeric GlyRα1 subunit containing the gephyrin-binding domain of GlyRβ (
+     <xref ref-type="bibr">
+      Meier et al, 2000
+     </xref>
+     ). This functional GlyRα1βgb chimeric receptor accumulates at inhibitory synapses, as shown by its colocalisation with venus–gephyrin clusters in spinal cord neurons (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). As expected, the diffusion of the full-length chimeric receptor was slower than that of the β-loop constructs containing a single TMD because of the presence of multiple gephyrin-binding domains (
+     <xref ref-type="fig">
+      Figure 6B and C
+     </xref>
+     ). For the same reason, the lateral diffusion of GlyRα1βgb is also slower than that of endogenous GlyR complexes (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ; see also
+     <xref ref-type="bibr">
+      Charrier et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ehrensperger et al, 2007
+     </xref>
+     ). Independent of these differences, the introduction of phosphomimetic mutations had the same effect on GlyRα1βgb as on the βL–TMD–pHluorin constructs. More precisely, the diffusion of GlyRα1βgb
+     <sup>
+      S403D
+     </sup>
+     was much faster than the wild-type or phosphorylation-deficient variants (median synaptic
+     <em>
+      D
+     </em>
+     : GlyRα1βgb
+     <sup>
+      wt
+     </sup>
+     0.6 × 10
+     <sup>
+      −3
+     </sup>
+     μm
+     <sup>
+      2
+     </sup>
+     /s, GlyRα1βgb
+     <sup>
+      S403A
+     </sup>
+     0.5 × 10
+     <sup>
+      −3
+     </sup>
+     μm
+     <sup>
+      2
+     </sup>
+     /s and GlyRα1βgb
+     <sup>
+      S403D
+     </sup>
+     1.0 × 10
+     <sup>
+      −3
+     </sup>
+     μm
+     <sup>
+      2
+     </sup>
+     /s; median extrasynaptic
+     <em>
+      D
+     </em>
+     : GlyRα1βgb
+     <sup>
+      wt
+     </sup>
+     0.004 μm
+     <sup>
+      2
+     </sup>
+     /s, GlyRα1βgb
+     <sup>
+      S403A
+     </sup>
+     0.003 μm
+     <sup>
+      2
+     </sup>
+     /s and GlyRα1βgb
+     <sup>
+      S403D
+     </sup>
+     0.020 μm
+     <sup>
+      2
+     </sup>
+     /s). Taken together, these data demonstrate that S403 controls the receptor–gephyrin interaction, thus regulating the diffusion of GlyR complexes and ultimately the partition between synaptic and extrasynaptic receptors.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Regulation of membrane diffusion in full-length GlyRs. SPT and IF of recombinant full-length GlyRα1 containing the GlyRβ–gephyrin-binding domain (GlyRα1βgb
+       <sup>
+        wt
+       </sup>
+       , GlyRα1βgb
+       <sup>
+        S403A
+       </sup>
+       and GlyRα1βgb
+       <sup>
+        S403D
+       </sup>
+       ) in spinal cord neurons co-transfected with venus–gephyrin (
+       <em>
+        n
+       </em>
+       &gt;50 neurons per construct, three experiments). (
+       <strong>
+        A
+       </strong>
+       ) Colocalisation of GlyRα1βgb
+       <sup>
+        wt
+       </sup>
+       labelled with anti-Myc and Alexa 647-tagged secondary antibodies and recombinant venus–gephyrin. (
+       <strong>
+        B
+       </strong>
+       ) Diffusion coefficients of GlyRα1βgb constructs at synaptic venus–gephyrin clusters (
+       <em>
+        n
+       </em>
+       &gt;350 QD trajectories; KS: GlyRα1βgb
+       <sup>
+        S403D
+       </sup>
+       versus GlyRα1βgb
+       <sup>
+        wt
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &lt;0.01). (
+       <strong>
+        C
+       </strong>
+       ) Extrasynaptic diffusion coefficients (
+       <em>
+        n
+       </em>
+       &gt;450 trajectories; KS: GlyRα1βgb
+       <sup>
+        S403D
+       </sup>
+       versus GlyRα1βgb
+       <sup>
+        wt
+       </sup>
+       ,
+       <em>
+        P
+       </em>
+       &lt;10
+       <sup>
+        −4
+       </sup>
+       ).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <sec>
+    <title>
+     Binding, diffusion and synaptic localisation
+    </title>
+    <p>
+     In the present study, we have investigated the regulation of the GlyR–gephyrin interaction by PKC. Our findings show that the phosphorylation of residue S403 of the GlyR β-loop reduces the affinity between the receptor and the gephyrin scaffold, leading to an increased GlyR diffusion and consequently to a reduction of the GlyR levels at inhibitory synapses. By combining biochemical techniques with dynamic imaging and IF, we have shown that changes in the binding, diffusion and accumulation of GlyRs at inhibitory synapses are intimately related and represent complementary readouts for the same molecular event; that is, the phosphorylation of GlyRβ by PKC. This is the first report that relates the regulation of the diffusion properties of a membrane protein to the regulation of its binding affinity with a synaptic scaffold protein.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     GlyR
+     <em>
+      β
+     </em>
+     phosphorylation and the regulation of gephyrin binding by PKC
+    </title>
+    <p>
+     Sequence analysis of the GlyR β-loop suggested the presence of several PKC sites, including residues T388 and S389 (
+     <xref ref-type="bibr">
+      Grenningloh et al, 1990
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lynch, 2004
+     </xref>
+     ), as well as T381 and S403. As GlyR–gephyrin binding is mediated by the β-loop, we hypothesised that the phosphorylation of these sites could influence the affinity of the receptor for the synaptic gephyrin scaffold. Our LC–MS analysis identified a single phosphorylation site within the β-loop sequence, namely, S403. This residue was consistently phosphorylated in HEK 293 and COS-7 cells in a PKC-dependent manner, as shown by the absence of phospho-S403 after incubation with the PKC antagonist chelerythrine.
+     <em>
+      In vitro
+     </em>
+     studies confirmed the phosphorylation of S403 by different PKC isoforms. Furthermore, the
+     <em>
+      in vivo
+     </em>
+     phosphorylation of S403 had been reported in phosphoproteomic screens (
+     <xref ref-type="bibr">
+      Trinidad et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wisniewski et al, 2010
+     </xref>
+     ). The location of S403 within the gephyrin-binding sequence of the β-loop makes this phosphorylation site ideally placed to regulate the GlyR–gephyrin interaction. More specifically, S403 is located in close proximity to an aspartate residue (D729) in the binding pocket of gephyrin (
+     <xref ref-type="bibr">
+      Kim et al, 2006
+     </xref>
+     ), suggesting that the negative charge of phosphorylated S403 may interfere with gephyrin binding.
+    </p>
+    <p>
+     In line with these observations, our co-sedimentation experiments showed that the introduction of negatively charged amino acids at S403 reduced gephyrin binding by ∼50%. What is more, our ITC data revealed an important change in the binding between the β-loop and gephyrin. The wild-type β-loop displayed two types of interaction with gephyrin, one of which is a high-affinity site (
+     <em>
+      K
+     </em>
+     <sub>
+      D1
+     </sub>
+     =21.5 nM) and one a low-affinity site with a
+     <em>
+      K
+     </em>
+     <sub>
+      D2
+     </sub>
+     in the micromolar range, in agreement with previous studies (
+     <xref ref-type="bibr">
+      Schrader et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sola et al, 2004
+     </xref>
+     ). In contrast, the phosphomimetic variant βL
+     <sup>
+      S403D
+     </sup>
+     lost its ability to bind to the low-affinity site and only the high-affinity site was occupied, albeit with much lower affinity (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =0.88 μM). The presence of three β-loops in the pentameric GlyR complex greatly increases the avidity of endogenous receptors for gephyrin oligomers (
+     <xref ref-type="bibr">
+      Grudzinska et al, 2005
+     </xref>
+     ). Yet, our ITC data indicate that the high-affinity site accounts for only one-third of the binding, meaning that GlyR complexes interact with the gephyrin scaffold through one high-affinity and two low-affinity sites. The effect of S403 phosphorylation on GlyR–gephyrin binding ultimately depends on the steric arrangement of the GlyR–gephyrin complexes as well as on the stoichiometry of phosphorylation, and PKC may thus regulate the receptor–gephyrin interaction across a wide dynamic range.
+    </p>
+    <p>
+     Somewhat surprisingly, our LC–MS analysis failed to identify any other phosphorylation sites in the GlyR β-loop, such as T369 (
+     <xref ref-type="bibr">
+      Wisniewski et al, 2010
+     </xref>
+     ) or the known PTK site Y413 (
+     <xref ref-type="bibr">
+      Caraiscos et al, 2002
+     </xref>
+     ), despite the high sequence coverage. Nonetheless, this does not exclude the phosphorylation of residues other than S403. For instance, the
+     <em>
+      in vitro
+     </em>
+     phosphorylation of βL
+     <sup>
+      S403D
+     </sup>
+     by PKC-β
+     <sub>
+      I
+     </sub>
+     indicates the presence of an additional PKC site (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). However, our SPT data with phosphomimetic variants make it unlikely that the putative PKC sites T381, T388 or S389 have any role in the regulation of GlyR dynamics (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ). Nonetheless, PKC phosphorylation of gephyrin or cytoskeletal components may also have a regulatory role for GlyR diffusion or synaptic clustering (see below).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Regulation of GlyR diffusion by PKC
+    </title>
+    <p>
+     The diffusion properties of GlyRs are controlled by the interaction of the receptor with gephyrin (
+     <xref ref-type="bibr">
+      Ehrensperger et al, 2007
+     </xref>
+     ). This relationship is evident when comparing the diffusion and localisation of a transmembrane construct containing the wild-type β-loop with a gephyrin-binding-deficient variant in spinal cord neurons. The βL
+     <sup>
+      geph−
+     </sup>
+     variant displays a fast rate of diffusion, is less confined at synapses and is consequently distributed diffusely in the plasma membrane. Its confinement at synapses is the result of molecular crowding and not of gephyrin binding. The faster diffusion of βL
+     <sup>
+      geph−
+     </sup>
+     outside of synapses also confirms that a notable proportion of GlyRs are associated with gephyrin in the extrasynaptic membrane (
+     <xref ref-type="bibr">
+      Ehrensperger et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ). On the basis of these observations, it was expected that changes of the GlyR–gephyrin interaction by PKC phosphorylation would be reflected in the diffusion properties and the synaptic accumulation of GlyRs.
+    </p>
+    <p>
+     Our SPT experiments with endogenous GlyRs in spinal cord neurons affirm that receptor diffusion is modulated by PKC activity. The PKC agonist PMA increased the explored area and the diffusion coefficients of extrasynaptic GlyRs, whereas the antagonist GFX increased the confinement and slowed down the mobile population of synaptic receptors. These effects are, at least in part, the result of GlyRβ phosphorylation by PKC, as shown in a reduced system that recapitulates the observed changes in the diffusion properties. More precisely, the diffusion of a transmembrane β-loop construct coexpressed with mRFP–gephyrin in COS-7 cells was greatly accelerated in the presence of PMA, in contrast to the phosphorylation-deficient mutant. This variant was also accelerated by PMA, but to a lesser extent, suggesting that PKC-dependent phosphorylation of other proteins also influences GlyR diffusion. An obvious candidate is gephyrin, which contains a large number of
+     <em>
+      in vivo
+     </em>
+     phosphorylation sites, including PKC sites (
+     <a>
+      http://www.phosphosite.org/
+     </a>
+     ;
+     <xref ref-type="bibr">
+      Hornbeck et al, 2004
+     </xref>
+     ). Indeed, proline-directed phosphorylation and prolyl isomerisation of gephyrin by Pin1 have been shown to enhance the GlyRβ–gephyrin interaction (
+     <xref ref-type="bibr">
+      Zita et al, 2007
+     </xref>
+     ).
+    </p>
+    <p>
+     The effect of the phosphomimetic S403D mutation on membrane diffusion in spinal cord neurons matches the changes of endogenous GlyR diffusion by PKC. The S403D variant has a high diffusion coefficient and a low confinement at synapses, in line with its reduced gephyrin binding. Nonetheless, the effects of S403D were more pronounced than those caused by PMA and were equally present in the synaptic and extrasynaptic pools of membrane proteins. This difference can be explained by the fact that the S403D mutation affects the entire population of recombinant membrane proteins or GlyR complexes (
+     <xref ref-type="fig">
+      Figures 5
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), whereas the pharmacological modulation shifts the equilibrium between non-phosphorylated and phosphorylated GlyRs, both of which are assessed in the SPT experiments (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). Furthermore, the diffusion of endogenous GlyRs under control conditions depends on the steady-state level of PKC activity and GlyRβ phosphorylation, thus limiting the effects caused by the PKC agonist or the antagonist.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Regulation of GlyR localisation and synaptic function
+    </title>
+    <p>
+     The regulation of GlyR diffusion by PKC was reflected in the synaptic distribution of the receptors. GFX increased the accumulation of endogenous GlyRs at synapses and PMA had an opposite effect. Similarly, the phosphomimetic mutation S403D reduced the synaptic enrichment of β-loop-containing membrane proteins. In contrast to the wild type, the S403D variant also had a lower tendency to replace endogenous GlyRs at inhibitory synapses in spinal cord neurons. Together, these data demonstrate that PKC phosphorylation of S403 of the GlyRβ subunit increases receptor diffusion and limits the immobilisation of the receptors at synapses. This tuning of the diffusion-trap mechanism may serve to set the strength of inhibitory neurotransmission, and may thus contribute to the plasticity of inhibitory synapses under physiological conditions or during pathological processes.
+    </p>
+    <p>
+     As conventional PKC isoforms are activated by intracellular Ca
+     <sup>
+      2+
+     </sup>
+     , it is likely that the PKC-dependent regulation of GlyR dynamics occurs in response to Ca
+     <sup>
+      2+
+     </sup>
+     signalling. However, in contrast to our data, it has been observed that pharmacological treatments that globally alter the Ca
+     <sup>
+      2+
+     </sup>
+     homoeostasis (TTX and NMDA) induce a reduction of GlyR diffusion and increased glycinergic transmission (
+     <xref ref-type="bibr">
+      Levi et al, 2008
+     </xref>
+     ). Yet, Ca
+     <sup>
+      2+
+     </sup>
+     is known to have pleiotropic effects in neurons that may lead to dramatically different downstream signalling depending on the precise Ca
+     <sup>
+      2+
+     </sup>
+     source and on the activation of different Ca
+     <sup>
+      2+
+     </sup>
+     -dependent enzymes. For instance, a Ca
+     <sup>
+      2+
+     </sup>
+     -dependent increase of GABA
+     <sub>
+      A
+     </sub>
+     R diffusion and a reduction of GABAergic neurotransmission is mediated by calcineurin in hippocampal neurons, likely through the dephosphorylation of GABA
+     <sub>
+      A
+     </sub>
+     Rs and/or gephyrin (
+     <xref ref-type="bibr">
+      Bannai et al, 2009
+     </xref>
+     ). Also CaMKII has recently been shown to regulate the clustering of GlyRs at inhibitory synapses downstream of β1 or β3 integrin signalling, possibly through the phosphorylation of gephyrin (
+     <xref ref-type="bibr">
+      Charrier et al, 2010
+     </xref>
+     ). Therefore, it is difficult to draw direct conclusions on the behaviour of GlyRs based on the global Ca
+     <sup>
+      2+
+     </sup>
+     levels, and we have thus chosen to directly modulate PKC activity. Our results suggest that the Ca
+     <sup>
+      2+
+     </sup>
+     -dependent regulation of GlyRs by excitatory activity (
+     <xref ref-type="bibr">
+      Levi et al, 2008
+     </xref>
+     ) is either independent of PKC phosphorylation of GlyRβ or that it occludes the effects induced by PKC, for example, through a phosphorylation-independent potentiation of GlyRs by intracellular Ca
+     <sup>
+      2+
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Fucile et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mukhtarov et al, 2005
+     </xref>
+     ).
+    </p>
+    <p>
+     The mechanism by which PKC alters glycinergic transmission is generally assumed to be a direct regulation of the GlyR function (discussed in
+     <xref ref-type="bibr">
+      Legendre, 2001
+     </xref>
+     ). For example the PKC-dependent phosphorylation of S391 of GlyRα1 decreases glycine-evoked whole-cell responses in
+     <em>
+      Xenopus
+     </em>
+     oocytes (
+     <xref ref-type="bibr">
+      Ruiz-Gomez et al, 1991
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Uchiyama et al, 1994
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vaello et al, 1994
+     </xref>
+     ). Similarly, our finding that PKC inhibition increases the decay time of glycinergic mIPSCs may be due to a direct effect of PKC on the GlyR channel properties. We now propose an additional regulation by which PKC phosphorylation of S403 of the GlyRβ subunit shifts the dynamic equilibrium towards an extrasynaptic localisation of the receptor. The specific action of PKCs on GlyRs depends on the subcellular compartment in which the kinase is active (see
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Given that non-phosphorylated GlyRβ subunits at synapses are tightly bound to the gephyrin scaffold, it is less likely that this receptor population would be efficiently targeted by PKC. Therefore, the PKC-dependent phosphorylation of GlyRβ may predominate in the extrasynaptic membrane, where the receptors diffusing alone are at equilibrium with receptors bound to gephyrin (
+     <xref ref-type="bibr">
+      Ehrensperger et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ). In this way, PKC phosphorylation could shift the equilibrium from bound to unbound GlyRs, and thus limit the recruitment of GlyRs at synapses.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Expression constructs
+    </title>
+    <p>
+     We designed an expression construct (βL
+     <sup>
+      wt
+     </sup>
+     –TMD–pHluorin;
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ) in which the cytoplasmic M3–M4 loop of the murine GlyRβ subunit (β-loop, residues N334-A454 excluding the signal peptide sequence, UniProt ID
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"P48168","term_id":"341940753","term_text":"P48168"}}
+      </span>
+      P48168
+     </a>
+     ) was fused at its C terminus to a single TMD (derived from syntaxin) and an extracellular pHluorin tag, and cloned into a eukaryotic expression vector derived from pEGFP-N1 (Clontech) with a deletion of part of the CMV promoter sequence. Site-directed mutagenesis was used to generate variants of the wild-type construct, namely, phosphorylation-deficient (βL
+     <sup>
+      T381A/T388A/S389A/S403A
+     </sup>
+     =βL
+     <sup>
+      PKC−
+     </sup>
+     and βL
+     <sup>
+      S403A
+     </sup>
+     ) and phosphomimetic mutants (βL
+     <sup>
+      T381D
+     </sup>
+     , βL
+     <sup>
+      T388D/S389D
+     </sup>
+     and βL
+     <sup>
+      S403D
+     </sup>
+     ), as well as a construct in which gephyrin binding was abolished (βL
+     <sup>
+      F398A/I400A
+     </sup>
+     =βL
+     <sup>
+      geph−
+     </sup>
+     ). For protein purification (see LC–MS analysis), the βL
+     <sup>
+      wt
+     </sup>
+     sequence was fused to C-terminal Myc and 6xHis tags (construct βL
+     <sup>
+      wt
+     </sup>
+     –Myc–6xHis), cloned into pcDNA3.1(+) vector and expressed in HEK 293 or in COS-7 cells. The β-loop sequences were transferred into pGEX6P-1 vector for bacterial expression of GST–βL fusion proteins (co-sedimentation experiments). ITC and
+     <em>
+      in vitro
+     </em>
+     phosphorylation experiments were carried out with a βL
+     <sup>
+      wt
+     </sup>
+     –intein fusion construct (residues V378-L426 of GlyRβ;
+     <xref ref-type="bibr">
+      Schrader et al, 2004
+     </xref>
+     ) and the derived phosphomimetic variant βL
+     <sup>
+      S403D
+     </sup>
+     –intein (in pTYB2 vector). Full-length GlyRα1 containing the gephyrin-binding domain (residues R394-S411 of GlyRβ) and an N-terminal Myc tag (construct GlyRα1βgb
+     <sup>
+      wt
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Meier et al, 2000)
+     </xref>
+     and the derived constructs GlyRα1βgb
+     <sup>
+      S403A
+     </sup>
+     and GlyRα1βgb
+     <sup>
+      S403D
+     </sup>
+     ) were coexpressed with recombinant venus-tagged gephyrin (pC-Venus::Ge(2);
+     <xref ref-type="bibr">
+      Bedet et al, 2006
+     </xref>
+     ) for the identification of transfected neurons, and used for SPT.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Co-sedimentation assay
+    </title>
+    <p>
+     GST-βL variants were expressed in
+     <em>
+      E. coli
+     </em>
+     ER2566 grown in LB medium (1% tryptone, 1% NaCl and 0.5% yeast extract) at 37 °C. Protein expression was induced at OD
+     <sub>
+      600
+     </sub>
+     =0.6 with 100 μM isopropyl β-D-1-thiogalactopyranoside, and bacteria were harvested after 4 h of expression at 22 °C. Cell lysates were incubated with glutathione agarose matrix in PBS (137 mM NaCl, 2.7 mM KCl, 10 mM Na
+     <sub>
+      2
+     </sub>
+     HPO
+     <sub>
+      4
+     </sub>
+     , 1.76 mM KH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     , pH 7.4) containing protease inhibitors (complete EDTA free, Roche, no. 05056489001). The purified GST–βL proteins were extensively washed and stored in PBS containing protease inhibitors.
+    </p>
+    <p>
+     Co-sedimentation experiments were carried out with endogenous gephyrin from mouse brain or with recombinant full-length gephyrin rC4 (containing the C4 splice cassette;
+     <xref ref-type="bibr">
+      Fritschy et al, 2008
+     </xref>
+     ) that was constitutively expressed in HEK 293 cells. Brain homogenate or HEK 293 lysates were resuspended in 100 mM Tris, pH 8.0, or in PBS, pH 7.4, respectively (with protease inhibitors), and were cleared by centrifugation at 15 000 r.p.m. for 20 min at 4 °C. Equal amounts of glutathione agarose with bound GST–βL proteins were incubated with 350–500 μg HEK 293 cell lysate or brain extract in a volume of 200 μl PBS (pH 8.0) with mild shaking at room temperature for 30 min, followed by extensive washes. Gephyrin in the supernatant and the pellet fractions was detected by western blotting with monoclonal antibody against the gephyrin E-domain (mAb3B11;
+     <xref ref-type="bibr">
+      Smolinsky et al, 2008
+     </xref>
+     ). Data were analysed using ImageJ software (
+     <a>
+      http://imagej.nih.gov/ij/
+     </a>
+     ) by normalising the band intensities to the respective loading control, and were expressed as intensity ratios relative to GST–βL
+     <sup>
+      wt
+     </sup>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     Affinity measurements were performed with recombinant gephyrin rC4 and purified β-loop fragments (βL
+     <sup>
+      wt
+     </sup>
+     or βL
+     <sup>
+      S403D
+     </sup>
+     ). βL
+     <sup>
+      wt
+     </sup>
+     –intein and βL
+     <sup>
+      S403D
+     </sup>
+     –intein were expressed in
+     <em>
+      E. coli
+     </em>
+     ER2566 as described above (14 h, 18 °C) and affinity purified in 300 mM NaCl, 50 mM Tris, pH 8.0, 1 mM EDTA and 5% glycerol using an IMPACT protein purification system (New England Biolabs; see
+     <xref ref-type="bibr">
+      Schrader et al, 2004
+     </xref>
+     ). Thiol-induced cleavage of the βL–intein fusion proteins took place in 50 mM NaCl, 100 mM Tris, pH 7.5, 50 mM DTT, 1 mM EDTA for 24 h at room temperature. The β-loops were then purified by gel filtration and eluted in ITC buffer (250 mM NaCl, 10 mM Tris, pH 8.0, 1 mM β-mercaptoethanol, βME). Full-length gephyrin rC4 with a 6xHis tag (in pQE-80 vector) was expressed in
+     <em>
+      E. coli
+     </em>
+     (BL21 Rosetta star), purified by Ni-NTA affinity chromatography in 300 mM NaCl, 50 mM Tris, pH 8.0, 10 mM imidazole, protease inhibitors and 5 mM βME and eluted in the same buffer containing 250 mM imidazole. Gephyrin was further purified by hydrophobic interaction chromatography (buffer A: 0.6 M (NH
+     <sub>
+      4
+     </sub>
+     )
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 50 mM Tris, pH 8.0, 5 mM βME; buffer B: 50 mM Tris, pH 8.0, 5 mM βME) and anion exchange chromatography (source Q15 buffer A: 50 mM Tris, pH 8.0, 5 mM βME; source Q15 buffer B: 50 mM Tris pH, 8.0, 1 M NaCl, 5 mM βME). ITC experiments were done at 25 °C in ITC buffer with cell concentrations of 20–25 μM gephyrin and syringe concentrations of 200–350 μM purified β-loop constructs. The injection volume was 3–5 μl/3–5 s for each of 50 injections, with 210 s spacing and an initial delay of 210 s. The syringe speed was 310 r.p.m. and the reference power set to 10 μcal/sec. Raw data were analysed with Origin 7 software.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In vitro phosphorylation
+    </title>
+    <p>
+     GlyR β-loops were purified as described above (see ITC).
+     <em>
+      In vitro
+     </em>
+     phosphorylation experiments were performed with purified kinases according to the supplier's protocol (ProQinase), using 1 μg/ml of PKC-β
+     <sub>
+      I
+     </sub>
+     , PKC-γ or PKC-δ or 2 μg/ml GSK3β kinase and 5 μg substrate (constructs βL
+     <sup>
+      wt
+     </sup>
+     and βL
+     <sup>
+      S403D
+     </sup>
+     ) in a 50 μl reaction volume containing 50 nM [γ-
+     <sup>
+      32
+     </sup>
+     P]-ATP (Perkin Elmer) for 1 h at room temperature. Proteins were separated on 17% tricine SDS–PAGE gels (
+     <xref ref-type="bibr">
+      Schagger and von Jagow, 1987
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mass spectrometry
+    </title>
+    <p>
+     HEK 293 or COS-7 cells were transfected with βL
+     <sup>
+      wt
+     </sup>
+     —Myc–6xHis using FuGENE 6 (Roche, no. 11814443001). Where required, COS-7 cells were incubated with the PKC antagonist chelerythrine chloride (10 μM;
+     <xref ref-type="bibr">
+      Herbert et al, 1990
+     </xref>
+     ) for 1½ h prior to purification. The βL
+     <sup>
+      wt
+     </sup>
+     –Myc–6xHis fusion protein was affinity purified in the presence of protease inhibitors and phosphatase inhibitors (PhosStop, Roche, no. 04906837001) on a Ni-NTA matrix in 300 mM NaCl, 10 mM imidazole and 50 mM Tris, pH 8.0, and eluted in the same buffer containing 250 mM imidazole. Purified proteins were separated on 17% Tricine SDS–PAGE gels, and identified by western blotting with monoclonal anti-6xHis antibody (Dianova, no. DIA 900). βL
+     <sup>
+      wt
+     </sup>
+     –Myc–6xHis was purified from Coomassie-stained polyacrylamide gels, digested with trypsin, chymotrypsin and Lys-C, and subjected to LC–MS (Center for Molecular Medicine Cologne, CMMC).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture and transfection
+    </title>
+    <p>
+     African green monkey kidney cells (COS-7) were grown on 18 mm glass coverslips (Hecht, Assistant, no. 1001/18) at 37 °C and 5% CO
+     <sub>
+      2
+     </sub>
+     in DMEM medium (Invitrogen, no. 31885-023) containing fetal calf serum, and co-transfected with βL–TMD–pHluorin expression constructs and mRFP–gephyrin plasmid (construct mrfp-ge(2);
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ) at a stoichiometry of 1:4 on the day prior to the SPT experiments using FuGENE 6.
+    </p>
+    <p>
+     Dissociated cultures of spinal cord neurons were prepared from mRFP–gephyrin knock-in mice at embryonic day 13 as described previously (
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ). Cultures were plated on 18 mm coverslips at a density of 6 × 10
+     <sup>
+      4
+     </sup>
+     /cm
+     <sup>
+      2
+     </sup>
+     and maintained in neurobasal medium (Invitrogen, no. 21103-049) containing B-27 supplement (Invitrogen, no. 17504-044), 2 mM glutamine, 5 U/ml penicillin and 5 μg/ml streptomycin at 36 °C and 5% CO
+     <sub>
+      2
+     </sub>
+     . Spinal cord neurons were used for experiments at 12–17 days
+     <em>
+      in vitro
+     </em>
+     (DIV) unless stated otherwise. Neurons were transfected on the day before the experiments with 0.5–1 μg plasmid DNA per coverslip using Lipofectamine 2000 (Invitrogen, no. 11668-019).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophysiology
+    </title>
+    <p>
+     Whole-cell patch-clamp recordings were performed at 30 °C using a Multiclamp 700B amplifier. Electrodes had a tip resistance of 5–7 MΩ when filled with intracellular solution (140 mM CsCl, 1 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     , 10 mM EGTA, 1 mM BAPTA, 10 mM HEPES and 4 mM MgATP). The perfusion medium contained 145 mM NaCl, 2.4 mM KCl, 10 mM HEPES, 10 mM
+     <span>
+      D
+     </span>
+     -glucose, 2 mM CaCl
+     <sub>
+      2
+     </sub>
+     and 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     , and was supplemented with 1 μM TTX, 50 μM AP5, 2 μM NBQX and 5 μM SR-95531 to isolate glycinergic mIPSCs. This was confirmed in some recordings by addition of 1 μM strychnine, which fully abolished the remaining mIPSCs. Recordings were filtered at 2–5 kHz and acquired at 5–10 kHz. Currents were recorded in voltage clamp (−70 mV). Cells in which the access resistance changed by &gt;10% during the recording or exceeded 20 MΩ were discarded. Data were acquired and analysed with clampex 10 software (Axon).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     IF labelling and imaging
+    </title>
+    <p>
+     Neuron cultures were fixed in 4% paraformaldehyde and 1% sucrose in 0.1 M sodium phosphate buffer, pH 7.4, for 10 min, permeabilised with 0.25% Triton X-100, where necessary, and labelled in PBS containing 3% BSA using antibodies against an extracellular epitope of the GlyRα1 subunit (Synaptic Systems, mAb2b, no. 146111, 1:400 dilution; or rabbit anti-GlyRα1, custom-made, 1:200) or Myc tag (Roche, clone 9E10, no. 11667203001, 1:10
+     <sup>
+      4
+     </sup>
+     ), followed by Alexa Fluor 647 or FITC-tagged secondary antibodies (Invitrogen or Jackson Immunoresearch, 1:500). Where required, 50 nM GFX or 100 nM PMA were added to the culture medium for 1 h prior to fixation.
+    </p>
+    <p>
+     IF imaging was generally performed on an inverted Nikon Eclipse Ti microscope with a × 100 oil-immersion objective (NA 1.49), using a mercury lamp, a × 1.5 lens for additional magnification, an Andor iXon EMCCD camera (Andor iQ acquisition software, v.1) and specific filter sets for the detection of pHluorin, venus and FITC (excitation (ex.) at 485/20 nm and emission (em.) at 525/30 nm), mRFP (ex. 560/25 and em. 607/36) and Alexa 647 (ex. 650/13 and em. 684/24). Endogenous mRFP–gephyrin images served to create binary image masks of synaptic regions (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ) using a multidimensional image analysis (MIA) interface in Metamorph (V Racine, J Salamero and JB Sibarita, unpublished). The average and total fluorescence intensity of each synaptic region was then measured in all channels (FITC or pHluorin, mRFP and Alexa 647) and background corrected. A threshold was applied to the pHluorin images to limit the analysis to transfected neurons. For the determination of the synaptic enrichment of GlyRs and expression constructs, the mean fluorescence of synaptic clusters was divided by the readings of the dendrite fluorescence that were measured separately for each field of view.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Live imaging and SPT
+    </title>
+    <p>
+     QD labelling and SPT of membrane proteins were done as described previously (
+     <xref ref-type="bibr">
+      Bannai et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ). Neurons and COS-7 cells were incubated with antibodies in imaging medium (MEM medium without phenol red, 33 mM glucose, 20 mM HEPES, 2 mM glutamine, 1 mM sodium pyruvate and B-27) at 37 °C. For all experiments with spinal cord neurons, the imaging medium also contained 1 μM TTX (Tocris, no. 1069) and 5 μM glycine. Endogenous GlyRs were labelled with monoclonal antibody against GlyRα1 (Synaptic Systems, mAb2b, no. 146111; 1:1000 dilution, 3 min), followed by biotinylated goat anti mouse Fab fragments (Jackson Immunoresearch; 1:1000, 3 min) and streptavidin-conjugated QDs emitting at 655 nm (QD655; Invitrogen, no. Q10121MP; 1 nM in QD-binding buffer, 50 s). Surface-expressed βL–TMD–pHluorin and GlyRα1βgb constructs were tagged using GFP (Synaptic Systems, no. 132002) or Myc antibodies (Roche, clone 9E10), respectively, that had been precoupled with Fab-conjugated QD655 (Invitrogen, no. Q11022MP or no. Q11422MP) at a final dilution of 1–5 × 10
+     <sup>
+      −4
+     </sup>
+     for 3–8 min. Optionally, neurons were incubated with 1 μM FM4-64 (Invitrogen, no. T3166) in imaging buffer containing 40 mM KCl for 30 s to label active presynaptic boutons, rinsed and imaged at 37 °C.
+    </p>
+    <p>
+     QD imaging was performed on an inverted Olympus IX71 microscope equipped with a heating chamber at 37 °C, using a × 60 oil-immersion objective (NA 1.49) and an additional × 1.6 magnifying lens, a mercury lamp, a CCD camera (Roper Scientific, Cascade 512B) and band pass filters for the detection of pHluorin (ex. 500/20 and em. 535/30), mRFP (ex. 560/25 and em. 607/36) and QD655 or FM4-64 (ex. 460/60 and em. 655/15). Single images of mRFP–gephyrin and, if applicable, of recombinant venus-tagged gephyrin or pHluorin-tagged membrane proteins were taken before the QD recordings. QD movies of 500 frames were then recorded at a 50 ms acquisition rate with Metavue software (Molecular Devices, v.6). The duration of the recording sessions was kept below 30 min to limit the possible internalisation of tagged membrane proteins, meaning that typically 10 movies could be recorded per coverslip. If required, neurons and COS-7 cells were imaged in the presence of 50 nM GFX (Calbiochem, no. 203290; 15 mM stock solution in DMSO) or 100 nM PMA (Tocris, no. 1201; 10 mM stock in DMSO). In these experiments, the drugs were present throughout QD labelling and imaging (i.e., for 15–45 min). In the case of COS-7 cells, PMA was added to the culture medium 1–2 h before the SPT experiment. QD movies with GFX were acquired after short prebleaching of the GFX fluorescence.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SPT analysis
+    </title>
+    <p>
+     SPT recordings were analysed as described previously (
+     <xref ref-type="bibr">
+      Calamai et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Renner et al, 2009
+     </xref>
+     ), using a homemade macro (SPTrack v.4, unpublished) running in Matlab (Mathworks, v.7). Initially, QDs were detected in each movie frame by cross-correlating their signals with a Gaussian model of the point-spread function. By fitting a Gaussian distribution to the QD signal, the localisation of the QDs is determined with a precision of ∼10 nm. QD trajectories were then assembled by reconnecting the detected spots in consecutive image frames, taking into account the blinking and diffusion of the QDs. Trajectories shorter than 15 frames were excluded from the analysis. Synaptic and extrasynaptic trajectories (or segments of trajectories) were analysed separately, using a MIA mask of endogenous mRFP–gephyrin or recombinant venus–gephyrin clusters as synaptic marker (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ).
+    </p>
+    <p>
+     The aMSD was calculated for each QD according to the equation: MSD(ndt)=(
+     <em>
+      N
+     </em>
+     −
+     <em>
+      n
+     </em>
+     )
+     <sup>
+      −1
+     </sup>
+     ∑
+     <sub>
+      <em>
+       i=
+      </em>
+      1
+     </sub>
+     <sup>
+      <em>
+       N
+      </em>
+      −
+      <em>
+       n
+      </em>
+     </sup>
+     ((
+     <em>
+      x
+     </em>
+     <sub>
+      <em>
+       i+n
+      </em>
+     </sub>
+     −
+     <em>
+      x
+     </em>
+     <sub>
+      <em>
+       i
+      </em>
+     </sub>
+     )
+     <sup>
+      2
+     </sup>
+     +(
+     <em>
+      y
+     </em>
+     <sub>
+      <em>
+       i+n
+      </em>
+     </sub>
+     −
+     <em>
+      y
+     </em>
+     <sub>
+      <em>
+       i
+      </em>
+     </sub>
+     )
+     <sup>
+      2
+     </sup>
+     ), where
+     <em>
+      x
+     </em>
+     <sub>
+      <em>
+       i
+      </em>
+     </sub>
+     and
+     <em>
+      y
+     </em>
+     <sub>
+      <em>
+       i
+      </em>
+     </sub>
+     are the coordinates in frame
+     <em>
+      i
+     </em>
+     ,
+     <em>
+      N
+     </em>
+     is the total length of the trajectory, dt is the interval between two consecutive frames and ndt is the interval over which the displacement is calculated (
+     <xref ref-type="bibr">
+      Saxton and Jacobson, 1997
+     </xref>
+     ). MSD curves of individual QD trajectories were averaged for each experimental condition and plotted against time (ndt). The median MSD(1 s) of the QD population represents the area explored within 1 s. The diffusion coefficient
+     <em>
+      D
+     </em>
+     was determined by fitting the first 2–5 points of the MSD curve over time with the equation: MSD(
+     <em>
+      t
+     </em>
+     )=4
+     <em>
+      D
+     </em>
+     <sub>
+      2–5
+     </sub>
+     <em>
+      t
+     </em>
+     +4σ
+     <sub>
+      <em>
+       x
+      </em>
+     </sub>
+     <sup>
+      2
+     </sup>
+     , where σ
+     <sub>
+      <em>
+       x
+      </em>
+     </sub>
+     is the localisation accuracy (
+     <xref ref-type="bibr">
+      Ehrensperger et al, 2007
+     </xref>
+     ). The distribution of
+     <em>
+      D
+     </em>
+     -values for each experimental condition was displayed as cumulative probability histograms. For the step size analysis, the length of all the displacement steps in a trajectory within a given time interval (dt=250 ms) were measured and represented as median, 25 and 75% quartiles.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.5M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (264K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

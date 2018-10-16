@@ -1,0 +1,4608 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4140258
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Functional and Structural Properties of a Novel Protein and Virulence Factor (Protein sHIP) in Streptococcus pyogenes
+*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     <em>
+      Streptococcus pyogenes
+     </em>
+     is a significant bacterial pathogen in the human population. The importance of virulence factors for the survival and colonization of
+     <em>
+      S. pyogenes
+     </em>
+     is well established, and many of these factors are exposed to the extracellular environment, enabling bacterial interactions with the host. In the present study, we quantitatively analyzed and compared
+     <em>
+      S. pyogenes
+     </em>
+     proteins in the growth medium of a strain that is virulent to mice with a non-virulent strain. Particularly, one of these proteins was present at significantly higher levels in stationary growth medium from the virulent strain. We determined the three-dimensional structure of the protein that showed a unique tetrameric organization composed of four helix-loop-helix motifs. Affinity pull-down mass spectrometry analysis in human plasma demonstrated that the protein interacts with histidine-rich glycoprotein (HRG), and the name sHIP (
+     <span>
+      s
+     </span>
+     treptococcal
+     <span>
+      h
+     </span>
+     istidine-rich glycoprotein-
+     <span>
+      i
+     </span>
+     nteracting
+     <span>
+      p
+     </span>
+     rotein) is therefore proposed. HRG has antibacterial activity, and when challenged by HRG, sHIP was found to rescue
+     <em>
+      S. pyogenes
+     </em>
+     bacteria. This and the finding that patients with invasive
+     <em>
+      S. pyogenes
+     </em>
+     infection respond with antibody production against sHIP suggest a role for the protein in
+     <em>
+      S. pyogenes
+     </em>
+     pathogenesis.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Bacterial Pathogenesis, Protein Structure, Protein-Protein Interaction, Proteomics, Streptococcus pyogenes (S. pyogenes), Bacterial Virulence
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    <em>
+     Streptococcus pyogenes
+    </em>
+    , also known as group A streptococci, or GAS, is an important human pathogen colonizing the skin and the upper respiratory tract, where it causes relatively mild clinical conditions (erysipelas, impetigo, and pharyngitis). In addition, invasive infections can produce severe and potentially life-threatening conditions, such as necrotizing fasciitis and streptococcal toxic shock syndrome.
+    <em>
+     S. pyogenes
+    </em>
+    is also associated with the postinfection sequelae of acute rheumatic fever and acute glomerulonephritis. Worldwide,
+    <em>
+     S. pyogenes
+    </em>
+    causes an estimated 700 million cases of mild and non-invasive infections each year, of which ∼650,000 progress to severe invasive infections with an associated mortality of ∼25% (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ). These numbers show that
+    <em>
+     S. pyogenes
+    </em>
+    is one of the most significant bacterial pathogens in the human population. To cause invasive infection,
+    <em>
+     S. pyogenes
+    </em>
+    requires virulence factors to interact with host tissues and evade the innate and adaptive immune responses of the host. These virulence factors are predominantly secreted or surface-associated proteins, and some of the most studied include the family of M proteins (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ), the hyaluronic acid capsule (
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ), fibronectin-binding proteins (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ), superantigenic exotoxins (
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ), and SIC, a secreted protein interfering with complement and antibacterial proteins/peptides (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). Despite the fact that several virulence factors have been characterized, there are still many uncharacterized and/or unknown bacterial proteins exposed to the extracellular environment. This suggests that there could be additional proteins interacting with the human host with an impact on the pathology of
+    <em>
+     S. pyogenes
+    </em>
+    .
+   </p>
+   <p>
+    <em>
+     S. pyogenes
+    </em>
+    is a strict human pathogen, but there are rare isolates that cause invasive infections in mice. One of these is the AP1 strain (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ) of the M1 serotype, a serotype that has dominated in cases of severe invasive infections since the 1980s. SF370, the first
+    <em>
+     S. pyogenes
+    </em>
+    strain where the complete genome sequence was determined (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ), is also an M1 strain but shows a low degree of virulence in mice (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ), and the lethal dose is 100-fold higher than for AP1. When injected intraperitoneally, 10
+    <sup>
+     6
+    </sup>
+    AP1 bacteria cause 100% lethality in mice (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ) whereas 10
+    <sup>
+     8
+    </sup>
+    SF370 bacteria intraperitoneally leave mice unaffected. In this study, we performed a mass spectrometry (MS) screen in order to compare the presence of so far unknown proteins in the growth medium from highly virulent AP1 bacteria with the medium from the SF370 strain. In particular, one protein (UniProtKB ID
+    <a>
+     <span>
+      {"type":"entrez-protein","attrs":{"text":"Q99XU0","term_id":"81620676","term_text":"Q99XU0"}}
+     </span>
+     Q99XU0
+    </a>
+    ) was found at significantly higher levels in the extracellular pool of the AP1 strain. We have performed thorough functional and structural characterization of this protein, including the determination of the high-resolution crystal structure. Affinity pull-down mass spectrometry (AP-MS)
+    <sup>
+     <a>
+      5
+     </a>
+    </sup>
+    studies in human plasma using sHIP as bait identified histidine-rich glycoprotein (HRG), a plasma protein with established antibacterial activity against
+    <em>
+     S. pyogenes
+    </em>
+    (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ), as a prominent ligand for the protein. Therefore, the name sHIP (
+    <span>
+     s
+    </span>
+    treptococcal
+    <span>
+     h
+    </span>
+    istidine-rich glycoprotein-
+    <span>
+     i
+    </span>
+    nteracting
+    <span>
+     p
+    </span>
+    rotein) was introduced. The antibacterial activity of HRG was blocked by sHIP, a mechanism that could contribute to the virulence of AP1 bacteria. This notion was further supported by the observation that patients with severe invasive
+    <em>
+     S. pyogenes
+    </em>
+    infections, in contrast to patients with uncomplicated superficial infections, develop elevated antibody titers against sHIP.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Bacterial Culture Conditions and Sample Preparation
+      </title>
+      <p>
+       <em>
+        S. pyogenes
+       </em>
+       M1 strain AP1 (strain 40/58 from the World Health Organization Collaborating Centre for Reference and Research on Streptococci, Prague, Czech Republic) was grown at 37 °C, 5% CO
+       <sub>
+        2
+       </sub>
+       in protein-reduced Todd-Hewitt (TH) broth (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ). Samples of cells and medium from 10-ml cultures were collected in triplicates at 0, 1.5, 3, 4.5, 6, 7.5, and 9 h. The optical density at 620 nm (
+       <em>
+        A
+       </em>
+       <sub>
+        620 nm
+       </sub>
+       ) of these cultures was measured, and the number of bacterial cells was quantified by plating serial dilutions of the cultures on TH agar. Plates were incubated overnight at 37 °C in 5% CO
+       <sub>
+        2
+       </sub>
+       , and the colony-forming units/ml (cfu/ml) were determined. The medium samples were concentrated to 350 μl by ultrafiltration (Millipore-Amicon ultracentrifugation filter units, 10 kDa molecular mass cut-off) prior to sample preparation for selected reaction-monitoring mass spectrometry (SRM-MS) analysis. The cell pellets were suspended in LC-H
+       <sub>
+        2
+       </sub>
+       O into a 1% bacterial suspension prior to cell homogenization in a cell disruptor (Mini-Beadbeater-96, Bio Spec) and subsequent sample preparation for SRM-MS analysis. Samples for SRM-MS were reduced, alkylated, digested with trypsin, and purified using C18 reverse phase spin columns as described (see “Affinity Pull-down and Sample Preparation for Liquid Chromatography Mass Spectrometry”).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       SRM-MS
+      </title>
+      <p>
+       Identified peptides from sHIP (LANLIEALDAFK), M1 protein (LENAMEVAGR, ALELAIDQASQDYNR, and EVIEDLAANNPAIQNIR), protein H (LVEVVETTSLENEK), and protein SmeZ (SNIPVNLWINR) (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        27
+       </xref>
+       ) were synthesized as heavy labeled variants (JPT Technologies (Berlin, Germany) or Aqua QuantPro, Thermo Fisher Scientific), and the known concentrations were used to absolutely quantify the peptides. The SRM-MS measurements were performed as described previously (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Determination of Protein sHIP on the Surface of AP1 Bacteria
+      </title>
+      <p>
+       Protein G, a 17-kDa fragment containing the IgG-binding region, was purchased from GE Healthcare and radiolabeled with
+       <sup>
+        125
+       </sup>
+       I using IODO-BEAD iodination reagent (Pierce) as described by the manufacturer.
+       <em>
+        S. pyogenes
+       </em>
+       AP1 bacteria were grown in protein-reduced TH broth to stationary phase, washed, and diluted to 2 × 10
+       <sup>
+        9
+       </sup>
+       cfu/ml in PBS. The rabbit antiserum against the recombinant protein sHIP was produced by BioGenes GmbH (Berlin, Germany). A 200-μl bacterial solution was incubated with 10 μl of preimmune serum or anti-sHIP antiserum, diluted 1:1000 for 1 h at room temperature. The bacteria were then washed with PBS, resuspended in 200 μl of PBST (PBS + 0.05% Tween 20), and incubated with 25 μl of
+       <sup>
+        125
+       </sup>
+       I-labeled protein G for 30 min at room temperature. Following a washing step with PBST, bacteria-bound radioactivity was determined.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Protein Expression and Purification
+      </title>
+      <p>
+       The DNA sequence corresponding to residues Lys
+       <sup>
+        3
+       </sup>
+       –Met
+       <sup>
+        98
+       </sup>
+       in the
+       <em>
+        S. pyogenes
+       </em>
+       protein sHIP (UniProtKB ID
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"Q99XU0","term_id":"81620676","term_text":"Q99XU0"}}
+        </span>
+        Q99XU0
+       </a>
+       ) was introduced into the expression vector pNIC-Bsa4 by ligation-independent cloning (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). In addition, a mutant protein corresponding to the single site mutation C65S was constructed. The resulting expression constructs contained either a His tag (biophysics, structural studies, and antibody production) or a TAP tag (His-HA-StrepII tag, MS interactome studies) and a tobacco etch virus protease cleavage site at the N terminus.
+       <em>
+        Escherichia coli
+       </em>
+       cells were cultured in Terrific Broth medium with 50 μg/ml kanamycin. Protein expression was induced with 0.5 m
+       <span>
+        m
+       </span>
+       isopropyl-β-thiogalactopyranoside, and cell growth was continued for 18 h at 18 °C. Harvested bacterial pellets were suspended in lysis buffer (100 m
+       <span>
+        m
+       </span>
+       Tris, pH 8.0, 300 m
+       <span>
+        m
+       </span>
+       NaCl, 10 m
+       <span>
+        m
+       </span>
+       imidazole, 0.5 m
+       <span>
+        m
+       </span>
+       TCEP) complemented with EDTA-free protease inhibitor and ruptured using a French press cell disruptor. Cell debris and membrane components were removed by centrifugation at 40,000 ×
+       <em>
+        g
+       </em>
+       for 1 h. sHIP was produced in four variants, two variants of the wild-type protein (His tag and TAP tag), the C65S mutant (His tag), and a selenomethionine-labeled wild-type variant (His tag) using minimal medium for cell growth. Purification of the proteins was performed in two steps using immobilized metal ion affinity chromatography on an ÄKTA express system (GE Healthcare) at 4 °C with the HiTrap chelating columns (
+       <xref ref-type="bibr">
+        30
+       </xref>
+       ). Subsequently, the proteins were purified using reverse phase chromatography on a Dionex Ultimate 3000 HPLC system equipped with a preparative C18 HPLC column (Gemini NX, Phenomenex). The proteins were eluted by a linear gradient of 10–60% acetonitrile, flash-frozen, and lyophilized. Lyophilized proteins were dissolved in crystallization buffer (5 m
+       <span>
+        m
+       </span>
+       Tris, pH 7.5, 50 m
+       <span>
+        m
+       </span>
+       NaCl) and stored at −80 °C for further analysis. For the proteins used in the biophysical and structural studies and for antibody production, the His tag was removed by treatment with tobacco etch virus protease followed by reverse phase chromatography purification, giving the following amino acid sequence: SMKQDQLIVEKMEQTYEAFSPKLANLIEALDAFKEHYEEYATLRNFYSSDEWFRLANQPWDDIPCGVLSEDLLFDMIGDHNQLLADILDLAPIMYKHM. HRG cDNA (UniProtKB ID
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"P04196","term_id":"123523","term_text":"P04196"}}
+        </span>
+        P04196
+       </a>
+       ) was cloned into the strepII C-terminal vector pCEP4-CTStrepII using ligation-independent cloning (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). The plasmid was transformed into Mach1-T1 cells (Invitrogen), and 2.7 liters of overnight culture was prepared with the Nucleobond PC 10000 EF kit (Macherey-Nagel). The transfection was performed in human embryonic kidney EBNA cell lines (HEK293 6E) grown in serum-free Freestyle F17 medium (Invitrogen). One day prior to transfection, HEK293 6E cells were resuspended in fresh Freestyle F17 medium to a cell density of 1.2 × 10
+       <sup>
+        6
+       </sup>
+       cells/ml and incubated at 37 °C overnight. Before transfection, cells were resuspended in 50 ml of fresh Freestyle F17 expression medium at a cell density of 20 × 10
+       <sup>
+        6
+       </sup>
+       cells/ml and incubated in an orbital shaker incubator at 37 °C, 70% humidity, 5% CO
+       <sub>
+        2
+       </sub>
+       , and 120 rpm until completion of the transfection. 5000 μg of of DNA (50 μg/ml final) and 10 ml of polyethyleneimine MAX (Polysciences) (100 μg/ml solution final) were directly added to the cell suspension. 1950 ml of Freestyle F17 medium was added to a final volume of 2 liters of cell suspension, 4 h post-transfection. TN1 (Invitrogen) additive was added to a final concentration of 0.5% 24 h post transfection. Five days post-transfection, the supernatant was collected by centrifugation at 6500 rpm for 10 min at 4 °C and concentrated using a SARTOFLOW System, with a Hydrosart 10 kDa molecular mass cut-off (3081443902E-SG, Sartorius) to a volume of 100 ml at 4 °C. The concentrated solution was centrifuged at 27,000 ×
+       <em>
+        g
+       </em>
+       and filtered through a 0.2-μm membrane. The concentrated solution was injected into an IBA Strep-Tactin Superflow high capacity column (IBA 2-1234-001) for purification of the Strep-tagged protein. The standard protocol and buffers recommended by IBA was used. The purity and monodispersity of the proteins were confirmed by SDS-PAGE and mass spectrometry.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Affinity Pull-down and Sample Preparation for Liquid Chromatography Mass Spectrometry
+      </title>
+      <p>
+       For affinity pull-down, Strep-Tactin Sepharose beads (IBA) were equilibrated in PBS buffer, pH 7.4, and charged with 20 μg of recombinant, TAP-tagged sHIP. Pooled normal human plasma from healthy donors (Innovative Research) (200 μl) was incubated with protein sHIP charged beads at 20 and 37 °C and 800 rpm for 1 h. The beads were washed with 4 ml of ice-cold PBS buffer, pH 7.4, at 4 °C, and sHIP protein was eluted with bound proteins using 120 μl of 5 m
+       <span>
+        m
+       </span>
+       biotin. An equal amount of 8
+       <span>
+        m
+       </span>
+       urea and 100 m
+       <span>
+        m
+       </span>
+       NH
+       <sub>
+        4
+       </sub>
+       HCO
+       <sub>
+        3
+       </sub>
+       was added, and the cysteine bonds were reduced with 5 m
+       <span>
+        m
+       </span>
+       TCEP (37 °C 1 h) and alkylated with 10 m
+       <span>
+        m
+       </span>
+       iodoacetamide (22 °C 30 min). The sample was diluted with 100 m
+       <span>
+        m
+       </span>
+       ammonium bicarbonate to a final urea concentration of 1.5
+       <span>
+        m
+       </span>
+       , and trypsin was added for protein digestion (37 °C, 18 h). The peptides were purified with C18 reverse phase spin columns according to the manufacturer's instructions (Microspin columns, Nest Group).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Crystallization, X-ray Data Collection, and Structure Determination
+      </title>
+      <p>
+       Crystallization of sHIP was carried out using the sitting drop vapor diffusion method at 18 °C. The best native and selenomethionine crystals were obtained from 20% PEG 3350, 0.2
+       <span>
+        m
+       </span>
+       sodium malonate, and 0.1
+       <span>
+        m
+       </span>
+       BisTris propane, pH 7.5. Prior to plunge freezing, the crystals were soaked for ∼30 s in a drop of a reservoir solution containing 20% (v/v) ethylene glycol as cryoprotectant. The crystals belonged to the space group P1211 and contained four monomers per asymmetric unit. Both native and derivative data sets were collected at BESSY (BL14-1) (Berlin, Germany). Data were indexed and integrated using XDS (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ) or iMOSFLM (
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ) and scaled using XSCALE (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ) or SCALA (
+       <xref ref-type="bibr">
+        33
+       </xref>
+       ) from the CCP4 suite. The structure was solved by single isomorphous replacement with anomalous scattering using autoSHARP (
+       <xref ref-type="bibr">
+        34
+       </xref>
+       ) and refined using REFMAC (
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ). Refinement rounds were complemented with manual rebuilding using COOT (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ). For further details on data processing and refinement statistics, see
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       . Geometry of the model was analyzed with Molprobity (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). Structural similarity searches were carried out using the Dali server (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ), where
+       <em>
+        Z
+       </em>
+       scores of &gt;5 were kept as significant. Figures were generated using the program PyMOL. The protein sequence comparisons were performed using BLAST (
+       <xref ref-type="bibr">
+        39
+       </xref>
+       ), and the overall geometry for the helical segments was characterized by the program HELANAL-Plus (
+       <xref ref-type="bibr">
+        40
+       </xref>
+       ).
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 1
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Data collection and refinement statistics
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Liquid Chromatography Mass Spectrometry
+      </title>
+      <p>
+       The lyophilized peptides were reconstituted (2% acetonitrile, 0.2% formic acid), and the MS analysis was performed on an Orbitrap Elite ETD mass spectrometer (Thermo Scientific), using Xcalibur version 2.2, coupled to a Thermo Scientific nLCII nanoflow HPLC system. Solvents for LC separation of the digested samples were as follows. Solvent A consisted of 0.1% formic acid in water (98%) and acetonitrile (2%), and solvent B consisted of 0.1% formic acid in acetonitrile (98%) and water (2%). From a thermostat-controlled microautosampler, 2 μl of the tryptic peptide mixture (corresponding to 7% of the eluate) was automatically loaded onto a 15-cm fused silica analytical column (PicoFrit, New Objective) with an inner diameter of 75 μm packed with C18 reverse phase material, and the peptides were eluted from the analytical column with a 40-min gradient ranging from 5 to 35% solvent B followed by a 10-min gradient from 35 to 80% solvent B at a constant flow rate of 300 nl/min. The analyses were performed in a data-dependent acquisition mode using a top 20 collision-induced dissociation type of method. Dynamic exclusion for selected ions was 30 s. No lock masses were used in the study.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Protein Identification and Label-free Quantification
+      </title>
+      <p>
+       The spectra were searched using the search engines X! Tandem (version 2010.12.01.1) (
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ) and OMSSA (version 2.1.9) (
+       <xref ref-type="bibr">
+        42
+       </xref>
+       ) against the concatenated database of the
+       <em>
+        S. pyogenes
+       </em>
+       AP1 draft genome and a human FASTA database using fully tryptic digestion and allowing 1 missed cleavage. Included were “Carbamidomethyl (C)” as static and “Oxidation (M)” as variable modifications. The mass tolerances were set to 30 ppm for precursor ions and 0.4 Da for fragment ions. The identified peptides were processed and analyzed through the Trans-Proteomic Pipeline (version 4.6.0) using PeptideProphet, iProphet, and ProteinProphet scoring (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ). Label-free quantification using spectral counts was conducted using an in-house developed script: all peptide spectrum matches (PSMs) above an iProphet probability &gt;0.9 were selected, corresponding to a protein false discovery rate of ≤1%. Protein inference was conducted by computing the total spectral count of all reported peptides per protein.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Identification and Assessment of Significance of Interactions
+      </title>
+      <p>
+       To identify the protein-protein interactions, SAINT (version 2.3.4) (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ) and a custom implementation of CompPASS were used (
+       <xref ref-type="bibr">
+        46
+       </xref>
+       ). SAINT was used individually per biological condition (plasma 20 °C or plasma 37 °C) with parameters described previously (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ) (saint-spc-ctrl, nburnin = 2000, niter = 10,000, lowMode = 0, minFold = 1, normalize = 1), using three technical replicates and the three associated, individual control runs. Results with a score AvgP ≥ 0.95 were considered to be of high confidence. The custom CompPASS implementation was used to compute the
+       <em>
+        D
+       </em>
+       score individually per biological condition (plasma 20 °C or plasma 37 °C) for three technical replicates, adapted from the original method (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ). To normalize the scores, we permutated the prey and bait identifiers in the input table 20 times with replacing and selected the 95% quantile as threshold
+       <em>
+        D
+       </em>
+       <sup>
+        T
+       </sup>
+       . The
+       <em>
+        D
+       </em>
+       score was normalized by the threshold
+       <em>
+        D
+       </em>
+       <sup>
+        T
+       </sup>
+       , resulting in the
+       <em>
+        D
+       </em>
+       <sup>
+        N
+       </sup>
+       score. Interactions with a
+       <em>
+        D
+       </em>
+       <sup>
+        N
+       </sup>
+       score ≥1, were considered to be of high confidence.
+       <sup>
+        <a>
+         6
+        </a>
+       </sup>
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Slot-binding Analysis
+      </title>
+      <p>
+       AP1 bacteria were cultivated at 37 °C, 5% CO
+       <sub>
+        2
+       </sub>
+       in protein-reduced TH broth, and at time points 4.5, 6, 7.5, and 9 h the growth medium was collected and sterile filtered. One ml of the medium was applied to PVDF membranes (Amersham Biosciences) using a Milliblot-D system (Millipore). Membranes were blocked in PBST (PBS + 0.05% Tween 20) containing 5% dry milk powder (blocking buffer) and incubated with primary antibody (rabbit anti-sHIP 1:1000) or preimmune rabbit serum (1:1000) in blocking buffer for 30 min at 37 °C. Following a washing step with PBST, the membranes were incubated with secondary antibodies (HRP-conjugated goat anti-rabbit IgG 1:5000, purchased from Bio-Rad) in blocking buffer for 30 min at 37 °C. The membranes were washed, and bound antibodies were detected by chemiluminescence.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Peptides
+      </title>
+      <p>
+       The sequences for the two HRG peptides used in the study are derived from the histidine-rich region of HRG (
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ) and have the following sequences: HRG short peptide (HRGsp), GHHPHGHHPHGW; HRG long peptide (HRGlp), GHHPHGHHPHGHHPHGHHPH. The peptides were synthesized by Biosyntan GmbH (Berlin, Germany). Purity and molecular mass were confirmed by MALDI-TOF MS.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Analytical Ultracentrifugation
+      </title>
+      <p>
+       To provide a quantitative analysis of the oligomeric states of the proteins, analytical ultracentrifugation was employed. Sedimentation velocity experiments were performed at 20 °C and 50,000 rpm using a Beckman XL-I instrument. Samples were in 25 m
+       <span>
+        m
+       </span>
+       MES buffer, pH 5.5 (WT sHIP and C65S mutant) or 25 m
+       <span>
+        m
+       </span>
+       HEPES buffer, pH 7.5 (WT sHIP with 0.5 m
+       <span>
+        m
+       </span>
+       TCEP or without). The data were analyzed with SEDFIT using a continuous
+       <em>
+        c
+       </em>
+       (
+       <em>
+        S
+       </em>
+       ) distribution (
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ). HYDROPRO (
+       <xref ref-type="bibr">
+        50
+       </xref>
+       ) was used to calculate the theoretical sedimentation coefficient using the Protein Data Bank accession code for sHIP,
+       <span>
+        4MER
+       </span>
+       .
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Surface Plasmon Resonance (SPR; Biacore)
+      </title>
+      <p>
+       Analysis of the molecular interactions between sHIP and HRG, streptococcal protein G, and human ubiquitin, respectively, was performed on a Biacore T200 instrument (GE Healthcare). HRG (Creative BioMart), protein G (Sigma-Aldrich), or ubiquitin (Boston Biochem) was immobilized on a CM3 sensor chip using standard amine coupling at pH 5.0 in 10 m
+       <span>
+        m
+       </span>
+       acetate buffer at two different immobilization levels (1000 and 2000 response units). All binding experiments were performed at 25 °C in Dulbecco's PBS buffer, pH 7.3 (Biowest) at two flow rates, 30 and 60 μl/min. Prior to binding experiments, sHIP protein was extensively dialyzed into Dulbecco's PBS buffer. sHIP was injected at concentrations ranging from 4 to 100 μ
+       <span>
+        m
+       </span>
+       with a contact time of 60 s, and dissociation was monitored for 120 s. The surfaces were regenerated with a 60-s injection of regeneration buffer (50 m
+       <span>
+        m
+       </span>
+       Tris-HCl, 300 m
+       <span>
+        m
+       </span>
+       NaCl, 500 m
+       <span>
+        m
+       </span>
+       imidazole, pH 8.0) followed by a 30-s injection of 50 m
+       <span>
+        m
+       </span>
+       NaOH at a flow rate of 30 μl/min. All data were double-referenced and analyzed using the BIAevaluation analysis package.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Isothermal Titration Calorimetry (ITC)
+      </title>
+      <p>
+       ITC experiments were performed using a VP-ITC200 instrument (GE Healthcare). The samples were prepared by extensively dialyzing sHIP, HRGsp, and intact recombinant HRG against 25 m
+       <span>
+        m
+       </span>
+       MES, pH 5.5, buffer or sHIP and intact HRG against 25 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5, buffer. In the experiments using intact HRG, ∼0.2 m
+       <span>
+        m
+       </span>
+       HRG was titrated into ∼0.03 m
+       <span>
+        m
+       </span>
+       sHIP. For the experiments employing the HRG peptide, a 0.5 m
+       <span>
+        m
+       </span>
+       concentration of the HRGsp was titrated into 50 μ
+       <span>
+        m
+       </span>
+       sHIP. All experiments were performed at 25 °C and run until saturation was achieved. The data were fitted using a model describing one binding site (intact HRG at pH 5.5) or two independent binding sites (intact HRG at pH 7.5 and HRGsp) using the software provided by the manufacturer (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Antibacterial Assay
+      </title>
+      <p>
+       <em>
+        S. pyogenes
+       </em>
+       AP1 bacteria were grown to mid-log phase in TH broth, washed, and diluted to 2 × 10
+       <sup>
+        9
+       </sup>
+       (cfu/ml) in 10 m
+       <span>
+        m
+       </span>
+       Tris-HCl, pH 7.5, containing 5 m
+       <span>
+        m
+       </span>
+       glucose. The bacterial cells were then further diluted in 10 m
+       <span>
+        m
+       </span>
+       MES buffer, pH 5.5, containing 5 m
+       <span>
+        m
+       </span>
+       glucose. A 50-μl bacterial solution (2 × 10
+       <sup>
+        6
+       </sup>
+       cfu/ml) was incubated with full-length HRG or the HRGlp at various concentrations for 40 min at 37 °C. In subsequent experiments, bacteria were incubated with bactericidal concentrations of full-length HRG or the HRGlp together with various concentrations of protein sHIP. The bactericidal activity was quantified by plating serial dilutions of the incubation mixtures on TH agar and incubating them overnight at 37 °C, after which the number of cfu was determined.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Patients
+      </title>
+      <p>
+       Patients with invasive (
+       <em>
+        n
+       </em>
+       = 6) or non-invasive (eight cases of erysipelas)
+       <em>
+        S. pyogenes
+       </em>
+       infection were included. In cases of invasive infection,
+       <em>
+        S. pyogenes
+       </em>
+       was isolated from the blood of five patients. In one case of necrotizing fasciitis, the diagnosis was determined clinically during operation and serologically by increased antibody titers against sHIP and streptolysin O. To verify that
+       <em>
+        S. pyogenes
+       </em>
+       was the causative agent in the group of patients with erysipelas, one or several of the following criteria had to be met: isolation of
+       <em>
+        S. pyogenes
+       </em>
+       from the skin lesion or significantly raised antibody titers against DNase B, streptolysin O, or sHIP. Acute and convalescent sera were analyzed from all patients. Acute sera were taken within 7 days after admittance up to 213 days before admittance to hospital.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Ethics Statement
+      </title>
+      <p>
+       All human samples used in this study were anonymized, and the patients had given their informed consent. The ethical review board of the Medical Faculty, Lund University, approved the study (LU 208-99).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       ELISA Experiments
+      </title>
+      <p>
+       Microtiter plates (Maxisorb; NUNC) were coated overnight at 4 °C with sHIP in coating buffer (50 m
+       <span>
+        m
+       </span>
+       sodium bicarbonate, pH 9.6) at a concentration of 2 or 3 μg/ml. Plates were washed in PBST and blocked with 2% bovine serum albumin (Saveen Werner) in PBST. Serum samples from patients were diluted 1:100 in PBST with 2% bovine serum albumin and added to the wells. Bound antibodies were detected by incubation with horseradish peroxide-conjugated Protein G (Bio-Rad) at 1:2000 in PBST with 2% bovine serum albumin. All incubations were performed for 1 h at 37 °C and followed by a washing step. Substrate solution (0.1% (w/v) diammonium salt, 0.012% (v/v) hydrogen peroxide in 100 m
+       <span>
+        m
+       </span>
+       citric acid, and 100 m
+       <span>
+        m
+       </span>
+       sodium dihydrogen phosphate (pH 4.5)) was added, and the optical density at 420 nm was determined. Each serum was added to the same plate in uncoated wells, and this optical density value was subtracted from the value obtained from the coated well. Polyclonal immunoglobulin G (Privigen; CSL Behring) (100 mg/ml) served as a standard and was serially diluted. From the serial dilution of Privigen, a standard curve was constructed, the optical densities from the different sera were compared against this standard curve, and the titers were determined. In patients that did not have a culture positive for
+       <em>
+        S. pyogenes
+       </em>
+       , acute and convalescent sera were checked for antibody titers against anti-streptococcal DNase B and anti-streptolysin O to verify
+       <em>
+        S. pyogenes
+       </em>
+       as the cause of the infection. Anti-streptococcal DNase B was performed as indicated by the manufacturer (Siemens Healthcare), and anti-streptolysin O was determined on a nephelometer (Immage800) with reagents from Beckman Coulter according to the instructions by the manufacturer.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Statistical Evaluation
+      </title>
+      <p>
+       The titers from the paired acute and convalescent sera were compared using the Wilcoxon signed rank test, and the difference of Protein G binding to AP1 bacteria preincubated with preimmune or anti-sHIP antiserum was analyzed by paired
+       <em>
+        t
+       </em>
+       test. For statistical calculation, GraphPad Prism version 6 was used.
+       <em>
+        p
+       </em>
+       &lt; 0.05 was regarded as statistically significant.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Identification of a Novel Uncharacterized Protein in the Growth Medium of S. pyogenes
+      </title>
+      <p>
+       Stationary growth medium from two strains of
+       <em>
+        S. pyogenes
+       </em>
+       of the M1 serotype, one that is virulent when administered to mice (AP1) and one that is not (SF370), were subjected to an initial MS screen. In this screen, we identified a protein designated sHIP (UniProtKB ID
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"Q99XU0","term_id":"81620676","term_text":"Q99XU0"}}
+        </span>
+        Q99XU0
+       </a>
+       ) that was present at high relative abundance in the medium from the AP1 strain but at much lower concentration in SF370 medium (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        A
+       </em>
+       ). The gene encoding sHIP, identical in AP1 and SF370, is not unique to strains of the M1 serotype. Thus, when the genomes of M5 and M28 bacteria were analyzed (
+       <xref ref-type="bibr">
+        52
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        53
+       </xref>
+       ), sHIP proteins with identical protein sequences were identified also in these strains, suggesting that a highly conserved sHIP is present in all
+       <em>
+        S. pyogenes
+       </em>
+       strains. The majority of previously characterized virulence factors are either secreted or surface-associated. To ensure that sHIP is in fact a protein found in the extracellular compartment despite the absence of a predicted signal peptide (
+       <xref ref-type="bibr">
+        54
+       </xref>
+       ), we cultured AP1 for 9 h and collected both growth media and a combined sample of intracellular and surface-associated proteins separately. Growth was followed by measurement of the optical density at 620 nm (
+       <em>
+        A
+       </em>
+       <sub>
+        620 nm
+       </sub>
+       ) and by counting the number of cfu (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        B
+       </em>
+       ). Samples of bacteria and growth medium were collected in triplicates at 1.5-h intervals, and the amount of sHIP in the samples was measured by SRM-MS using stable isotope-coded reference peptides (AQUA peptides). The heavy labeled peptides allow estimation of absolute protein amounts both in the bacterial lysate and in the growth medium, as described previously (
+       <xref ref-type="bibr">
+        55
+       </xref>
+       ), which enables protein abundance comparisons of different proteins in the same sample (
+       <xref ref-type="bibr">
+        56
+       </xref>
+       ). The amount of sHIP in the cell fraction was initially low (below the picomolar level) (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        C
+       </em>
+       ) but started to increase after 3 h at an
+       <em>
+        A
+       </em>
+       <sub>
+        620 nm
+       </sub>
+       of 0.145. Simultaneously, the first traces of sHIP were detected in the culture medium using SRM-MS. The protein was also detected in the culture medium at 4.5 h by an antibody in slot binding experiments (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ). The amount of sHIP in the cell pellets and the medium continued to increase and after 9 h reached a level of 15 and 3 p
+       <span>
+        m
+       </span>
+       , respectively. Analogous to surface protein G and a number of housekeeping proteins in group G streptococci (
+       <xref ref-type="bibr">
+        57
+       </xref>
+       ), the increase continued also after the culture had reached stationary growth phase (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ,
+       <em>
+        B
+       </em>
+       and
+       <em>
+        C
+       </em>
+       ), demonstrating an active protein production in this phase. At 9 h, the ratio of sHIP between the cell and medium fractions was 5.9 (cell-associated/medium).
+      </p>
+      <fig id="F1" position="float">
+       <label>
+        FIGURE 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Levels of extracellular sHIP synthesized by
+          <em>
+           S. pyogenes
+          </em>
+          strains SF370 and AP1 and the amount of sHIP, the streptococcal mitogenic exotoxin Z (SmeZ), M1 protein, and protein H in strain AP1 measured by SRM-MS and heavy labeled peptides.
+         </strong>
+         <em>
+          A
+         </em>
+         , culture media (TH broth) of strains SF370 and AP1 were collected at stationary growth phase in two biological replicates. The media were concentrated, diafiltered, and trypsin-digested, and the resulting peptides were analyzed with shotgun MS. Proteins were identified and quantified using a 1% false discovery rate with the OpenMS pipeline (
+         <xref ref-type="bibr">
+          75
+         </xref>
+         ). Shown is average sHIP abundance of the biological replicates ± S.D. (
+         <em>
+          error bars
+         </em>
+         ) normalized to the total ion count of each sample.
+         <em>
+          B
+         </em>
+         ,
+         <em>
+          S. pyogenes
+         </em>
+         strain AP1 was grown for 9 h, and samples of cells and medium were collected in triplicates at 0, 1.5, 3, 4.5, 6, 7.5, and 9 h. The
+         <em>
+          A
+         </em>
+         <sub>
+          620 nm
+         </sub>
+         is indicated with
+         <em>
+          black spheres
+         </em>
+         (
+         <em>
+          left-hand axis
+         </em>
+         ), and the respective cfu/ml values are shown with
+         <em>
+          white squares
+         </em>
+         (
+         <em>
+          right-hand axis
+         </em>
+         ).
+         <em>
+          C
+         </em>
+         , the amount of sHIP was measured in the cell (
+         <em>
+          black bars
+         </em>
+         ,
+         <em>
+          left-hand axis
+         </em>
+         ) and medium (
+         <em>
+          black spheres
+         </em>
+         ,
+         <em>
+          right-hand axis
+         </em>
+         ) fractions by SRM-MS. The amount of sHIP in the medium is compared with that of the known secreted
+         <em>
+          S. pyogenes
+         </em>
+         virulence factor SmeZ (Spy1998) (
+         <em>
+          light gray triangles
+         </em>
+         ,
+         <em>
+          right-hand axis
+         </em>
+         ).
+         <em>
+          D
+         </em>
+         , the amounts of M1 protein (Spy2018) and protein H were similarly measured in the cell and medium fractions by SRM-MS and AQUA peptides for comparison. In
+         <em>
+          C
+         </em>
+         and
+         <em>
+          D
+         </em>
+         ,
+         <em>
+          bars
+         </em>
+         indicate the amount of protein in the cell fraction (
+         <em>
+          left-hand axis
+         </em>
+         , pmol in total fraction), and
+         <em>
+          lines
+         </em>
+         show the amount of protein in the medium fraction (
+         <em>
+          right-hand axis
+         </em>
+         , pmol in total fraction).
+        </p>
+       </caption>
+      </fig>
+      <fig id="F2" position="float">
+       <label>
+        FIGURE 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          Detection of sHIP in
+          <em>
+           S. pyogenes
+          </em>
+          growth medium.
+         </strong>
+         One ml of sterile filtered growth media from the indicated time points was applied to PVDF membranes. The membrane was probed with rabbit antibodies raised against sHIP (1:1000) or with a preimmune rabbit antiserum (1:1000). Protein sHIP (50 ng) was used as a positive control, and TH broth was used as a negative control.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       In order to relate the extracellular appearance of sHIP to proteins known to have a secretion signal and to be exported, we compared the abundance profile of sHIP with the profiles of the secreted streptococcal mitogenic exotoxin Z (SmeZ; Spy1998) (
+       <xref ref-type="bibr">
+        58
+       </xref>
+       ) (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        C
+       </em>
+       ) and the surface-associated M1 protein (Spy2018) (
+       <xref ref-type="bibr">
+        3
+       </xref>
+       ) and protein H (
+       <xref ref-type="bibr">
+        59
+       </xref>
+       ) (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        D
+       </em>
+       ). SmeZ (and proteins M1 and H) contains a classical signal peptide and was detected only in the extracellular compartment (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        C
+       </em>
+       ). Whereas the amount of sHIP increased throughout the experiment, the amount of SmeZ in the culture medium reached saturation at a level of ∼1 p
+       <span>
+        m
+       </span>
+       after 4.5 h. At 9 h, the amount of sHIP in the growth medium was 3 times higher than SmeZ. Moreover, based on the overall layout of the abundance profiles, the release of sHIP into the extracellular compartment followed that of M1 protein and protein H (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        D
+       </em>
+       ), of which both are surface-associated proteins known to be shed into the medium from the cell surface by the streptococcal cysteine protease SpeB (
+       <xref ref-type="bibr">
+        60
+       </xref>
+       ). At 9 h, the ratio of the respective proteins between the cell-associated and medium fractions was 6.1 (cell-associated/medium) for M1 protein and 8.7 (cell-associated/medium) for protein H, both values close to the ratio we observed for sHIP. To investigate whether sHIP, analogous to proteins M1 and H, is also present at the bacterial surface, stationary phase AP1 bacteria were incubated with a rabbit antiserum raised against sHIP or with preimmune serum from the same rabbit. Protein G binds rabbit IgG antibodies with high affinity (
+       <xref ref-type="bibr">
+        61
+       </xref>
+       ), and after careful washing, radiolabeled protein G was added to the bacterial suspensions to detect IgG associated with the bacterial surface. Compared with preincubations with non-immune serum, the binding of protein G was consistently higher to bacteria pretreated with immune serum against sHIP, 28.7 ± 8.6% higher radioactivity in six separate experiments. When analyzed with paired
+       <em>
+        t
+       </em>
+       testing, the difference was highly significant (
+       <em>
+        p
+       </em>
+       = 0.0012), demonstrating that sHIP is present at the surface of AP1 bacteria.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       The Structure of sHIP Displays a Tetramer of Four Two-helix Bundles
+      </title>
+      <p>
+       To gain further insight into the properties of sHIP, the three-dimensional structure was determined by x-ray crystallography. sHIP was cloned from AP1 DNA, expressed in
+       <em>
+        E. coli
+       </em>
+       , and purified to homogeneity by a combination of immobilized metal ion affinity chromatography and reverse phase chromatography. The sequence of the construct was verified by nucleotide sequencing, and the correct mass of the protein was confirmed by mass spectrometry. sHIP was shown to crystallize as a homotetramer, and the crystal structure was determined to a resolution of 2.4 Å by single isomorphous replacement with anomalous scattering phasing using selenomethionine-labeled protein. Refinement led to a model that consists of 3093 protein atoms and 55 water molecules (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). Final electron density maps were of high quality; there were, however, no interpretable densities for residues located in the 12-residue loop region, including residues Trp
+       <sup>
+        60
+       </sup>
+       , Ala
+       <sup>
+        61
+       </sup>
+       (chain A), Trp
+       <sup>
+        60
+       </sup>
+       , Ala
+       <sup>
+        61
+       </sup>
+       , Asp
+       <sup>
+        62
+       </sup>
+       (chain B), Leu
+       <sup>
+        55
+       </sup>
+       , Ala
+       <sup>
+        56
+       </sup>
+       , Asn
+       <sup>
+        57
+       </sup>
+       , Gln
+       <sup>
+        58
+       </sup>
+       , Pro
+       <sup>
+        60
+       </sup>
+       , Trp
+       <sup>
+        60
+       </sup>
+       , Ala
+       <sup>
+        61
+       </sup>
+       , Asp
+       <sup>
+        62
+       </sup>
+       (chain C), and Trp
+       <sup>
+        60
+       </sup>
+       (chain D). All non-glycine residues exhibit main-chain angles in the allowed regions of the Ramachandran plot as defined by Molprobity (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ) (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). The overall structure of sHIP reveals a homotetramer composed of four two-helix bundles. Due to interactions at the tetramer interface (discussed below), the observed tetramer can be described as a dimer of dimers (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       ). The sHIP monomer forms an elongated helix-loop-helix structure consisting of two antiparallel α-helices connected by a 12-residue loop segment. The absence of interpretable electron density in this region indicates flexibility of the loop. The remaining residues localized in the loop have high
+       <em>
+        B
+       </em>
+       -factors, indicating a high degree of flexibility. The fold of the four monomers is essentially identical, including the side-chain orientations. It should be noted that the individual helices make very few contacts within each monomer, whereas a number of interactions are observed between the neighboring monomers in the formation of the dimers. The analysis of protein interfaces, performed by the PISA server (
+       <xref ref-type="bibr">
+        62
+       </xref>
+       ), strongly suggests that both dimers, A/B and C/D, are stable in solution, indicated by large buried surface areas of 5470 and 5320 Å
+       <sup>
+        2
+       </sup>
+       for the dimers A/B and C/D, respectively. An identical network of interchain hydrogen bonds is observed for both dimers of sHIP. For example, Asp
+       <sup>
+        5
+       </sup>
+       , Glu
+       <sup>
+        13
+       </sup>
+       , Tyr
+       <sup>
+        40
+       </sup>
+       , Arg
+       <sup>
+        44
+       </sup>
+       , and Asp
+       <sup>
+        86
+       </sup>
+       , interact with Arg
+       <sup>
+        54
+       </sup>
+       , His
+       <sup>
+        97
+       </sup>
+       , Met
+       <sup>
+        98
+       </sup>
+       , and Lys
+       <sup>
+        34
+       </sup>
+       of the neighboring chain. Moreover, the experimental data show that sHIP forms tetramers in solution, as evidenced by sedimentation velocity experiments (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       ). It should be noted that oligomerization is not affected by the presence of Cys
+       <sup>
+        65
+       </sup>
+       , the single cysteine present in the molecule. Sedimentation velocity experiments performed with wild-type sHIP in the presence of a 0.5 m
+       <span>
+        m
+       </span>
+       concentration of the reducing agent TCEP or a C65S sHIP mutant also demonstrate the formation of tetramers in solution (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       ). Furthermore, inspection of the three-dimensional structure of sHIP clearly displays that the Cys
+       <sup>
+        65
+       </sup>
+       residue is not located in the interface region between the dimers but is situated in the exposed loop region. The crystal packing indicates the formation of a dimer of dimers with a predominantly buried hydrophobic surface area of 12,720 Å
+       <sup>
+        2
+       </sup>
+       , as calculated using the PISA server (
+       <xref ref-type="bibr">
+        62
+       </xref>
+       ). The hydrophobic patch is formed by amino acids with largely nonpolar side chains, such as Leu
+       <sup>
+        84
+       </sup>
+       , Leu
+       <sup>
+        88
+       </sup>
+       , Tyr
+       <sup>
+        95
+       </sup>
+       , and Met
+       <sup>
+        98
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        B
+       </em>
+       ). An example of the quality of the electron density map is visualized for one of the helices in the interface region (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ). The three-dimensional structure for sHIP shows no structural similarity to any other protein from
+       <em>
+        S. pyogenes
+       </em>
+       by using the Dali server (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ) with our structure as input (Protein Data Bank code
+       <span>
+        4MER
+       </span>
+       ), and when the sequence of sHIP was compared with all deposited sequences of
+       <em>
+        S. pyogenes
+       </em>
+       in UniProt, no other homologous proteins were detected. However, the structural comparison indicated similarities to the helix-loop-helix motif found in the bacterial adhesion factor FadA from
+       <em>
+        Fusobacterium nucleatum
+       </em>
+       (Protein Data Bank code
+       <span>
+        3ETW
+       </span>
+       ) (
+       <xref ref-type="bibr">
+        63
+       </xref>
+       ). The root mean square deviation for the main-chain atoms between sHIP and FadA is 3.9 Å. Because sHIP only shows 8% sequence identity to the FadA, it was not possible to identify the structural relationship based solely on comparisons of primary structures. Although three-dimensional superimposition of these two structural motifs, calculated by the Dali server, reveals similar helix-loop-helix topologies, the structures are in fact quite distinct (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ). The first significant difference is observed in the N-terminal helical region of the structures. In FadA, it is formed by one elongated, slightly curved α-helix, whereas in sHIP, we can distinguish three α-helical segments in this region, corresponding to a kinked helix 1 (Lys
+       <sup>
+        3
+       </sup>
+       –His
+       <sup>
+        36
+       </sup>
+       ), a linear helix 2 (His
+       <sup>
+        36
+       </sup>
+       –Ser
+       <sup>
+        49
+       </sup>
+       ), and a curved helix 3 (Ser
+       <sup>
+        49
+       </sup>
+       –Asn
+       <sup>
+        57
+       </sup>
+       ). Second, in the FadA structure, the antiparallel helices are in closer proximity than the corresponding helices in the sHIP structure, as evidenced by shorter distances between structurally equivalent positions of α-carbons. Third, differences are observed in the loop region connecting the two helices. In FadA, this region is a well defined short hairpin loop, whereas in sHIP, the related loop is eight residues longer and poorly defined. Different crystal packing effects for the respective structures can explain the observed differences for the loop regions.
+      </p>
+      <fig id="F3" position="float">
+       <label>
+        FIGURE 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          Structure of sHIP and comparison with FadA.
+         </strong>
+         <em>
+          A
+         </em>
+         , homotetramer formed by chain A (
+         <em>
+          green
+         </em>
+         ), chain B (
+         <em>
+          red
+         </em>
+         ), chain C (
+         <em>
+          magenta
+         </em>
+         ), and chain D (
+         <em>
+          cyan
+         </em>
+         ).
+         <em>
+          B
+         </em>
+         , molecular interface showing the residues in contact at the interface of the two dimers of the sHIP tetramer.
+         <em>
+          C
+         </em>
+         , the electron density map for the helix from chain A at the molecular interface of the two dimers.
+         <em>
+          D
+         </em>
+         , superimposition of sHIP chain A (
+         <em>
+          green
+         </em>
+         ) with FadA (
+         <em>
+          orange
+         </em>
+         ) calculated by the Dali server (
+         <xref ref-type="bibr">
+          38
+         </xref>
+         ).
+        </p>
+       </caption>
+      </fig>
+      <fig id="F4" position="float">
+       <label>
+        FIGURE 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          Sedimentation velocity experiments for protein sHIP.
+         </strong>
+         The
+         <em>
+          dotted lines
+         </em>
+         indicate the theoretical sedimentation coefficient for a tetramer and a dimer, respectively, calculated using HYDROPRO and the structural coordinates for protein sHIP (Protein Data Bank code
+         <span>
+          4MER
+         </span>
+         ). The wild-type sHIP is shown in
+         <em>
+          green
+         </em>
+         (pH 5.5), the sHIP C65S mutant in
+         <em>
+          blue
+         </em>
+         (pH 5.5), and the wild-type sHIP with 0.5 m
+         <span>
+          m
+         </span>
+         TCEP or without at pH 7.5 in
+         <em>
+          red
+         </em>
+         and
+         <em>
+          black
+         </em>
+         , respectively.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       sHIP Interacts with HRG
+      </title>
+      <p>
+       Several virulence factors have been shown to be involved in direct interactions with proteins from the human host. These protein-protein interactions are central to their functional properties. In order to explore possible interactions between sHIP and human host proteins, we performed AP-MS with TAP-tagged sHIP in human plasma (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       and
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). Interacting protein hits were filtered using both the CompPASS (
+       <xref ref-type="bibr">
+        46
+       </xref>
+       ) and SAINT (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ) algorithms. Only proteins with a significance score above the threshold value using the combined score for the two algorithms were considered to be potential interacting candidates (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). There are altogether eight significant hits above the threshold value, including HRG, the trypsin-inhibiting proteins α-1-antitrypsin and AMBP, the complement proteins C3 and complement factor H, as well as von Willebrandt factor, serum albumin, and apolipoprotein A-1 (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       and
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). Of these proteins, HRG, serum albumin, α-1-antitrypsin, apolipoprotein A-1, and the complement proteins C3 and complement factor H have previously been shown to interact either with intact
+       <em>
+        S. pyogenes
+       </em>
+       bacteria or individual
+       <em>
+        S. pyogenes
+       </em>
+       proteins (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        64
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        68
+       </xref>
+       ). Because HRG, detected in several AP-MS experiments with a highly significant score (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ), has been shown to display broad antimicrobial activity (
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ), including killing of
+       <em>
+        S. pyogenes
+       </em>
+       (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ), the interaction between sHIP and HRG was further investigated by biophysical means. In order to validate the interaction observed by AP-MS, SPR experiments (
+       <xref ref-type="bibr">
+        69
+       </xref>
+       ) were performed. Human recombinant HRG was immobilized on the surface of a CM3 sensor chip, and sHIP was injected into the flow cell at concentrations ranging from 4 to 100 μ
+       <span>
+        m
+       </span>
+       . Binding sensorgrams for each analyte concentration were recorded, and the equilibrium response values at the end of each injection were plotted
+       <em>
+        versus
+       </em>
+       concentrations. The fit of the data to a 1:1 steady-state binding model yielded a dissociation constant of 12 μ
+       <span>
+        m
+       </span>
+       (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ). To ensure that mass transfer effects do not limit binding interactions, the experiments were performed at two flow rates, 30 and 60 μl/min. Comparable affinities were observed under both flow rate conditions. In order to address the specificity in interactions involving sHIP, we performed SPR experiments between sHIP and streptococcal protein G and human ubiquitin, respectively, indicating no binding to these two control proteins (data not shown). In addition, ITC experiments were performed using intact HRG and sHIP at pH 5.5 and 7.5. These experiments showed that sHIP binds to HRG with similar affinities at both pH values with a
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       = 130 n
+       <span>
+        m
+       </span>
+       , using a single-site binding model, at pH 5.5 and
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       <sub>
+        1
+       </sub>
+       = 200 n
+       <span>
+        m
+       </span>
+       and
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       <sub>
+        2
+       </sub>
+       = 40 μ
+       <span>
+        m
+       </span>
+       , indicating two independent binding sites, at pH 7.5 (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       ,
+       <em>
+        B
+       </em>
+       and
+       <em>
+        C
+       </em>
+       ). Furthermore, ITC experiments using a peptide derived from the histidine-rich region of HRG, HRGsp, containing a heparin-binding motif (
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ), showed that sHIP interacts with this region. The interaction between protein sHIP and HRGsp was measured by ITC and indicated a binding mode where the HRG peptide harbors two independent interacting motifs that bind to one sHIP molecule (stoichiometry of HRGsp/sHIP = 1:1). The affinities for the two independent sites are
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       <sub>
+        1
+       </sub>
+       = 12 n
+       <span>
+        m
+       </span>
+       and
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       <sub>
+        2
+       </sub>
+       = 500 n
+       <span>
+        m
+       </span>
+       , respectively (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        D
+       </em>
+       ). Combined, the data verify that sHIP binds to HRG and that the histidine-rich region is important for the interaction.
+      </p>
+      <fig id="F5" position="float">
+       <label>
+        FIGURE 5.
+       </label>       <caption>
+        <p>
+         <strong>
+          Human plasma proteins interacting with sHIP.
+         </strong>
+         In total, we identified interactions between sHIP and eight different human proteins (complement C3 (
+         <em>
+          CO3
+         </em>
+         ), HRG, serum albumin (
+         <em>
+          ALBU
+         </em>
+         ), von Willebrand factor (
+         <em>
+          VWF
+         </em>
+         ), protein AMBP, α-1-antitrypsin (
+         <em>
+          A1AT
+         </em>
+         ), complement factor H (
+         <em>
+          CFAH
+         </em>
+         ), and apolipoprotein A-I (
+         <em>
+          APOA1
+         </em>
+         )) by AP-MS experiments. Each node representing a human protein is split into two parts in order to indicate the condition in which the interaction was identified: human plasma at 20 °C (
+         <em>
+          light red
+         </em>
+         ) or 37 °C (
+         <em>
+          dark red
+         </em>
+         ). The interacting proteins are grouped into three categories with the following
+         <em>
+          colors
+         </em>
+         : proteins of the complement system (
+         <em>
+          purple
+         </em>
+         ), trypsin-inhibiting proteins (
+         <em>
+          green
+         </em>
+         ), and proteins with antimicrobial effects (
+         <em>
+          aqua
+         </em>
+         ). The functional classifications are based on the UniProt annotations of the respective proteins. See
+         <a>
+          <span>
+           Table 2
+          </span>
+         </a>
+         for significance scores and protein UniProt IDs. The figure was generated in Cytoscape (
+         <xref ref-type="bibr">
+          76
+         </xref>
+         ,
+         <xref ref-type="bibr">
+          77
+         </xref>
+         ) and modified in Adobe InDesign.
+        </p>
+       </caption>
+      </fig>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 2
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Human plasma proteins interacting with sHIP at 20 and 37 °C and their respective ComPASS (
+           <xref ref-type="bibr">
+            46
+           </xref>
+           ) and SAINT (
+           <xref ref-type="bibr">
+            45
+           </xref>
+           ) significance scores (reported in order of significance)
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <fig id="F6" position="float">
+       <label>
+        FIGURE 6.
+       </label>       <caption>
+        <p>
+         <strong>
+          Biophysical studies of the interaction between sHIP and intact HRG and an HRG peptide.
+         </strong>
+         <em>
+          A
+         </em>
+         , the interaction between immobilized recombinant HRG and recombinant sHIP in solution was recorded by SPR (Biacore). Experiments were carried out at 25 °C in Dulbecco's PBS buffer, pH 7.3. The normalized response units (
+         <em>
+          RU
+         </em>
+         ) at equilibrium are plotted
+         <em>
+          versus
+         </em>
+         concentration of sHIP (μ
+         <span>
+          m
+         </span>
+         ). The data were fit to a 1:1 steady-state binding model, and the dissociation constant (
+         <em>
+          K
+          <sub>
+           d
+          </sub>
+         </em>
+         ) was found to be 12 ± 1 μ
+         <span>
+          m
+         </span>
+         .
+         <em>
+          B
+         </em>
+         , ITC showing the binding between protein sHIP and intact HRG at pH 5.5.
+         <em>
+          C
+         </em>
+         , ITC experiments showing the binding between protein sHIP and intact HRG at pH 7.5.
+         <em>
+          D
+         </em>
+         , ITC showing the binding between protein sHIP and HRGsp. The raw data of the experiments are presented in the
+         <em>
+          top panel
+         </em>
+         . The area
+         <em>
+          below
+         </em>
+         each injection peak is equal to the total heat released for that injection. When this integrated heat is plotted against the molar ratio of titrant added to the peptide solution in the cell, a complete binding isotherm for the interaction is obtained (
+         <em>
+          bottom panel
+         </em>
+         ). A model for either one binding site (
+         <em>
+          B
+         </em>
+         ) or two independent sites (
+         <em>
+          C
+         </em>
+         and
+         <em>
+          D
+         </em>
+         ) was used to fit the data. The
+         <em>
+          solid line
+         </em>
+         is the calculated curve using the best fit parameters. The thermodynamic parameters for the interaction are shown in the
+         <em>
+          bottom panel
+         </em>
+         .
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       sHIP Inhibits the Antibacterial Activity of HRG and an HRG-derived Peptide
+      </title>
+      <p>
+       As mentioned above, HRG has previously been shown to kill
+       <em>
+        S. pyogenes
+       </em>
+       AP1 bacteria (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ). To examine whether the binding of sHIP to HRG inhibits the antibacterial activity of HRG, we assessed the effect of sHIP in a bactericidal assay. As shown in
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        A
+       </em>
+       , HRG was able to kill AP1 bacteria at pH 5.5, as reported previously (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ). In the presence of sHIP, the antibacterial activity of HRG at a concentration of 0.45 μ
+       <span>
+        m
+       </span>
+       was inhibited (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        B
+       </em>
+       ). To investigate the inhibitory capacity of sHIP more in detail, we used a peptide derived from HRG that has been shown to exert antibacterial activity (
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ). This peptide, HRGlp, was tested and found to efficiently kill AP1 bacteria at pH 5.5 (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        C
+       </em>
+       ). The antibacterial activity of the peptide was inhibited by sHIP at a bactericidal concentration (3.5 μ
+       <span>
+        m
+       </span>
+       ) in a dose-dependent manner (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        D
+       </em>
+       ). These experiments demonstrate that the binding of sHIP to intact HRG and an HRG-derived peptide inhibits their antibacterial activity.
+      </p>
+      <fig id="F7" position="float">
+       <label>
+        FIGURE 7.
+       </label>       <caption>
+        <p>
+         <strong>
+          sHIP inhibits the bactericidal activity of HRG and an HRG-derived peptide.
+         </strong>
+         <em>
+          A
+         </em>
+         ,
+         <em>
+          S. pyogenes
+         </em>
+         AP1 bacteria (2 × 10
+         <sup>
+          6
+         </sup>
+         cfu/ml) were incubated with various concentrations of HRG, and cfu were determined.
+         <em>
+          B
+         </em>
+         , the bactericidal effect of HRG at a concentration of 0.45 μ
+         <span>
+          m
+         </span>
+         was inhibited with sHIP at the indicated concentrations.
+         <em>
+          C
+         </em>
+         ,
+         <em>
+          S. pyogenes
+         </em>
+         AP1 bacteria (2 × 10
+         <sup>
+          6
+         </sup>
+         cfu/ml) were incubated with various concentrations of the HRGlp, and cfu were determined.
+         <em>
+          D
+         </em>
+         , the bactericidal effect of the peptide at a concentration of 3.5 μ
+         <span>
+          m
+         </span>
+         was inhibited with sHIP at the indicated concentrations. Experiments were repeated three times, and mean values ± S.D. (
+         <em>
+          error bars
+         </em>
+         ) are shown.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Patients with Invasive S. pyogenes Infection Respond with Antibody Production against sHIP
+      </title>
+      <p>
+       The presence of sHIP in the growth medium and at the bacterial surface of the virulent and invasive AP1 strain prompted us to investigate whether an immune response against sHIP could be related to the severity of the infection. The antibody response against sHIP was therefore investigated using ELISA by measuring sHIP IgG antibody titers in serum samples of patients with superficial
+       <em>
+        S. pyogenes
+       </em>
+       skin infection (erysipelas) or deep tissue infection combined with bacteremia. Specific anti-sHIP antibody levels were determined in acute-phase and convalescence sera, and the results showed that none of eight patients with superficial infection responded with antibody production against sHIP clearly above the level of the acute-phase serum. In contrast, three of six patients with invasive infection had a 4-fold titer increase (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       ), and statistical analysis of the two patient groups with the Wilcoxon signed rank test showed a significant difference (
+       <em>
+        p
+       </em>
+       = 0.0313). Moreover, in most cases acute-phase sera from patients with invasive infection showed higher anti-sHIP IgG titers compared with sera from patients with superficial infection. These results demonstrate that an antibody response against sHIP is initiated when
+       <em>
+        S. pyogenes
+       </em>
+       penetrates the natural barriers of its human host and that this response comes at an early phase of infection. Interestingly, a similar pattern has previously been reported for several well established
+       <em>
+        S. pyogenes
+       </em>
+       virulence factors (
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ).
+      </p>
+      <fig id="F8" position="float">
+       <label>
+        FIGURE 8.
+       </label>       <caption>
+        <p>
+         <strong>
+          Pooled human immunoglobulin G (Privigen; 100 mg/ml) was used as a reference.
+         </strong>
+         This IgG was serially diluted in 2-fold steps to a final dilution of 1:8000 to generate a standard curve, and the IgG antibodies bound to sHIP were detected with peroxidase-labeled protein G. The sera from the patients were diluted 1:100 and analyzed as above. Bound IgG was compared with the standard curve, and the graph displays the 2-fold dilution steps of Privigen to which the patient sera (diluted 1:100) are equivalent.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    Bacterial infections represent a major threat to humans, a threat that has become aggravated by the alarming and ongoing increase of antibiotic resistance. This situation will require the identification of novel preventive, diagnostic, and therapeutic strategies in order to successfully treat bacterial infections in the future. To achieve this goal, we need to better understand the complex molecular interplay between bacterial pathogens and their human host and to define the molecular basis for virulence.
+    <em>
+     S. pyogenes
+    </em>
+    is one of the most significant bacterial pathogens in the human population, and a starting point for the present study was the observation that the bacterial proteins released into the growth medium were different in the highly virulent AP1 strain compared with the low virulence SF370 strain. In particular, using mass spectrometry-based proteomics, we found that the protein sHIP was present in high amounts in stationary growth medium of AP1 bacteria but at much lower concentrations in stationary medium of SF370. This indicated that sHIP could play a role in
+    <em>
+     S. pyogenes
+    </em>
+    virulence, which motivated a thorough structural and functional characterization of the protein as well as an analysis of the antibody response against sHIP in patients with superficial or invasive infection.
+   </p>
+   <p>
+    Protein sHIP is a small acidic protein of 98 amino acid residues. Sequence analysis using SignalP (
+    <xref ref-type="bibr">
+     54
+    </xref>
+    ) revealed that the protein is not predicted to contain a classical signal sequence. However, using SRM-MS, we could show that protein sHIP appears in the AP1 growth medium after 3 h (
+    <em>
+     A
+    </em>
+    <sub>
+     620 nm
+    </sub>
+    of 0.145) and then steadily continues to increase throughout the 9 h of growth. Protein sHIP is found in both the cell-associated and growth medium fractions, and the amount of sHIP in the medium compartment is similar to the secreted mitogenic exotoxin SmeZ (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     C
+    </em>
+    ). Furthermore, the overall abundance profile of sHIP resembles the profile for the surface-associated proteins H and M1 (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     D
+    </em>
+    ). It has previously been reported that
+    <em>
+     Bacillus subtilis
+    </em>
+    proteins without a signal sequence but with a high abundance in the cytoplasm can be detected in the extracellular medium (
+    <xref ref-type="bibr">
+     71
+    </xref>
+    ). Furthermore, these proteins, as well as sHIP, show low scores using a prediction method for proteins secreted by signal peptide-independent mechanisms (
+    <xref ref-type="bibr">
+     72
+    </xref>
+    ), suggesting that these proteins are secreted through a yet unknown mechanism.
+   </p>
+   <p>
+    The structure of sHIP consists of a tetramer of four helix-loop-helix motifs with the loop regions connecting the helices displaying a high degree of flexibility. The structural characterization of sHIP is particularly interesting because sHIP shows no significant sequence similarity to any other
+    <em>
+     S. pyogenes
+    </em>
+    protein. Through use of the DALI server (
+    <xref ref-type="bibr">
+     38
+    </xref>
+    ), we were able to identify a similar helix-loop-helix motif in the adhesion factor FadA from
+    <em>
+     F. nucleatum
+    </em>
+    (
+    <xref ref-type="bibr">
+     63
+    </xref>
+    ). Despite similar helix-loop-helix arrangements, there are significant differences in conformation and packing of the helices as well as in their respective connecting loops. However, the largest difference is related to the oligomeric states of the two proteins. In FadA, the helix-loop-helix monomers are involved in head-to-tail interactions resulting in the formation of elongated polymers (
+    <xref ref-type="bibr">
+     63
+    </xref>
+    ), whereas the sHIP monomers assemble into a compact tetrameric quaternary structure.
+   </p>
+   <p>
+    In order to identify possible interactions between sHIP and human proteins, affinity pull-down assays using human plasma with sHIP as bait were performed, resulting in eight significant hits (
+    <a>
+     <span>
+      Table 2
+     </span>
+    </a>
+    ). Two of these proteins are complement factors C3 and H, which might indicate that sHIP could have an impact on complement function. Apart from these complement proteins, one of the most prominent hits, and the only host protein with an established antibacterial activity against
+    <em>
+     S. pyogenes
+    </em>
+    , was HRG (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ). SPR experiments showed that full-length HRG binds to sHIP with an affinity of
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    = 12 μ
+    <span>
+     m
+    </span>
+    . Furthermore, we applied ITC experiments to compare the interaction between sHIP and intact recombinant HRG at pH 5.5 and 7.5. These data showed a similar affinity at both pH values, indicating that the interaction between sHIP and HRG is relevant at both conditions. In order to further delineate the region of HRG involved in binding to sHIP, we used peptides from the intact HRG containing consensus heparin-binding sequences previously demonstrated to exert antibacterial activity against different bacterial species (
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ), including
+    <em>
+     S. pyogenes
+    </em>
+    (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ). ITC experiments showed that the peptide from the HRG heparin-binding motif contains two independent sHIP binding sites with affinities of
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    <sub>
+     1
+    </sub>
+    = 12 n
+    <span>
+     m
+    </span>
+    and
+    <em>
+     K
+     <sub>
+      d
+     </sub>
+    </em>
+    <sub>
+     2
+    </sub>
+    = 500 n
+    <span>
+     m
+    </span>
+    , respectively. Hence, the affinities observed for the interaction between sHIP and intact HRG and the HRG peptide, respectively, are in a similar range, indicating the importance of the heparin-binding sequences in HRG for this interaction. The observed difference for the affinities measured by SPR and ITC can be due to the fact that the binding sites in HRG are partly occluded when immobilized on the surface in the SPR experiments. To further assess the functional relevance for the interaction with HRG, we performed antibacterial assays with full-length HRG and an HRG peptide containing a heparin-binding motif. It was shown that sHIP is able to inhibit the antibacterial activity of both HRG and the HRG peptide in a dose-dependent manner. As reported previously (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ), the killing of
+    <em>
+     S. pyogenes
+    </em>
+    by HRG is restricted to acidic pH. This is logical and appropriate because
+    <em>
+     S. pyogenes
+    </em>
+    infections induce powerful inflammatory responses in the skin and the pharyngeal epithelium, responses to infection known to be associated with ischemia and acidosis (
+    <xref ref-type="bibr">
+     73
+    </xref>
+    ). The observation that sHIP, apart from being released into the environment, is also present at the bacterial surface should enhance its protective activity against HRG. In summary, the data show that sHIP interacts with the histidine-rich repeats in HRG and thereby inhibits their antibacterial activity.
+   </p>
+   <p>
+    The gene encoding sHIP (M5005_Spy_1730) is located between the genes of the
+    <em>
+     mga
+    </em>
+    regulon, which harbors genes encoding several important virulence factors (M1 protein, proteins H and SIC, and C5a peptidase), and the gene encoding SpeB, a cysteine protease and virulence determinant. There are in total 14 genes found in this region, including several uncharacterized proteins, such as sHIP, but also a number of genes encoding for proteins involved in protein transport and efflux (M5005_Spy_1726,
+    <a>
+     <span>
+      {"type":"entrez-protein","attrs":{"text":"Q99XU4","term_id":"81533318","term_text":"Q99XU4"}}
+     </span>
+     Q99XU4
+    </a>
+    ; M5005_Spy_1727,
+    <a>
+     <span>
+      {"type":"entrez-protein","attrs":{"text":"Q99XU3","term_id":"81856021","term_text":"Q99XU3"}}
+     </span>
+     Q99XU3
+    </a>
+    ; M5005_Spy_1728,
+    <a>
+     <span>
+      {"type":"entrez-protein","attrs":{"text":"Q99XU2","term_id":"81533317","term_text":"Q99XU2"}}
+     </span>
+     Q99XU2
+    </a>
+    ). In a recent study (
+    <xref ref-type="bibr">
+     74
+    </xref>
+    ), the relevance of several
+    <em>
+     S. pyogenes
+    </em>
+    genes, including sHIP, was tested. Transposon site hybridization was used to create a mutant library that was subsequently tested in human blood to identify genes important for
+    <em>
+     S. pyogenes
+    </em>
+    survival in this environment. In total, 81 gene knockouts resulted in reduced fitness in blood from at least two tested individuals. As expected, a knock-out of
+    <em>
+     mga
+    </em>
+    encoding Mga, a positive regulator of the
+    <em>
+     mga
+    </em>
+    regulon, created a mutant with reduced survival. In relation to the present work, it is interesting that another of the mutants that showed reduced fitness in human blood was a mutant in the gene encoding sHIP (designated M5005_Spy_1730 in the study by Le Breton
+    <em>
+     et al.
+    </em>
+    (
+    <xref ref-type="bibr">
+     74
+    </xref>
+    )). The demonstration here that patients with invasive and severe
+    <em>
+     S. pyogenes
+    </em>
+    infection are more prone to develop IgG antibodies against sHIP than patients with superficial infection further indicates a role for the protein in
+    <em>
+     S. pyogenes
+    </em>
+    pathogenesis. Finally, the demonstration that sHIP blocks the bactericidal activity of HRG provides a plausible explanation of the function of this novel extracellular protein and putative virulence determinant.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Carapetis J. R., Steer A. C., Mulholland E. K., Weber M. (2005)
+      <span>
+       The global burden of group A streptococcal diseases
+      </span>
+      .
+      <span>
+       Lancet Infect. Dis
+      </span>
+      .
+      <span>
+       5
+      </span>
+      , 685–694
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Ralph A. P., Carapetis J. R. (2013)
+      <span>
+       Group a streptococcal diseases and their global burden
+      </span>
+      .
+      <span>
+       Curr. Topics Microbiol. Immunol
+      </span>
+      .
+      <span>
+       368
+      </span>
+      , 1–27
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Lancefield R. C. (1962)
+      <span>
+       Current knowledge of type-specific M antigens of group A streptococci
+      </span>
+      .
+      <span>
+       J. Immunol
+      </span>
+      .
+      <span>
+       89
+      </span>
+      , 307–313
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Swanson J., Hsu K. C., Gotschlich E. C. (1969)
+      <span>
+       Electron microscopic studies on streptococci. I. M antigen
+      </span>
+      .
+      <span>
+       J. Exp. Med
+      </span>
+      .
+      <span>
+       130
+      </span>
+      , 1063–1091
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Phillips G. N., Jr., Flicker P. F., Cohen C., Manjula B. N., Fischetti V. A. (1981)
+      <span>
+       Streptococcal M protein: α-helical coiled-coil structure and arrangement on the cell surface
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       78
+      </span>
+      , 4689–4693
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Wessels M. R., Moses A. E., Goldberg J. B., DiCesare T. J. (1991)
+      <span>
+       Hyaluronic acid capsule is a virulence factor for mucoid group A streptococci
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       88
+      </span>
+      , 8317–8321
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Talay S. R., Valentin-Weigand P., Timmis K. N., Chhatwal G. S. (1994)
+      <span>
+       Domain structure and conserved epitopes of Sfb protein, the fibronectin-binding adhesin of
+       <em>
+        Streptococcus pyogenes
+       </em>
+      </span>
+      .
+      <span>
+       Mol. Microbiol
+      </span>
+      .
+      <span>
+       13
+      </span>
+      , 531–539
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Jaffe J., Natanson-Yaron S., Caparon M. G., Hanski E. (1996)
+      <span>
+       Protein F2, a novel fibronectin-binding protein from Streptococcus pyogenes, possesses two binding domains
+      </span>
+      .
+      <span>
+       Mol. Microbiol
+      </span>
+      .
+      <span>
+       21
+      </span>
+      , 373–384
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Kreikemeyer B., Talay S. R., Chhatwal G. S. (1995)
+      <span>
+       Characterization of a novel fibronectin-binding surface protein in group A streptococci
+      </span>
+      .
+      <span>
+       Mol. Microbiol
+      </span>
+      .
+      <span>
+       17
+      </span>
+      , 137–145
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Courtney H. S., Hasty D. L., Li Y., Chiang H. C., Thacker J. L., Dale J. B. (1999)
+      <span>
+       Serum opacity factor is a major fibronectin-binding protein and a virulence determinant of M type 2
+       <em>
+        Streptococcus pyogenes
+       </em>
+      </span>
+      .
+      <span>
+       Mol. Microbiol
+      </span>
+      .
+      <span>
+       32
+      </span>
+      , 89–98
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Rocha C. L., Fischetti V. A. (1999)
+      <span>
+       Identification and characterization of a novel fibronectin-binding protein on the surface of group A streptococci
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       67
+      </span>
+      , 2720–2728
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Terao Y., Kawabata S., Kunitomo E., Murakami J., Nakagawa I., Hamada S. (2001)
+      <span>
+       Fba, a novel fibronectin-binding protein from
+       <em>
+        Streptococcus pyogenes
+       </em>
+       , promotes bacterial entry into epithelial cells, and the fba gene is positively transcribed under the Mga regulator
+      </span>
+      .
+      <span>
+       Mol. Microbiol
+      </span>
+      .
+      <span>
+       42
+      </span>
+      , 75–86
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Stevens D. L., Tanner M. H., Winship J., Swarts R., Ries K. M., Schlievert P. M., Kaplan E. (1989)
+      <span>
+       Severe group A streptococcal infections associated with a toxic shock-like syndrome and scarlet fever toxin A
+      </span>
+      .
+      <span>
+       N. Engl. J. Med
+      </span>
+      .
+      <span>
+       321
+      </span>
+      , 1–7
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Abe J., Forrester J., Nakahara T., Lafferty J. A., Kotzin B. L., Leung D. Y. (1991)
+      <span>
+       Selective stimulation of human T cells with streptococcal erythrogenic toxins A and B
+      </span>
+      .
+      <span>
+       J. Immunol
+      </span>
+      .
+      <span>
+       146
+      </span>
+      , 3747–3750
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Mollick J. A., Miller G. G., Musser J. M., Cook R. G., Grossman D., Rich R. R. (1993)
+      <span>
+       A novel superantigen isolated from pathogenic strains of
+       <em>
+        Streptococcus pyogenes
+       </em>
+       with aminoterminal homology to staphylococcal enterotoxins B and C
+      </span>
+      .
+      <span>
+       J. Clin. Invest
+      </span>
+      .
+      <span>
+       92
+      </span>
+      , 710–719
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Norrby-Teglund A., Newton D., Kotb M., Holm S. E., Norgren M. (1994)
+      <span>
+       Superantigenic properties of the group A streptococcal exotoxin SpeF (MF)
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       62
+      </span>
+      , 5227–5233
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Tomai M. A., Schlievert P. M., Kotb M. (1992)
+      <span>
+       Distinct T-cell receptor V β gene usage by human T lymphocytes stimulated with the streptococcal pyrogenic exotoxins and pep M5 protein
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       60
+      </span>
+      , 701–705
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Akesson P., Sjöholm A. G., Björck L. (1996)
+      <span>
+       Protein SIC, a novel extracellular protein of
+       <em>
+        Streptococcus pyogenes
+       </em>
+       interfering with complement function
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       271
+      </span>
+      , 1081–1088
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Fernie-King B. A., Seilly D. J., Davies A., Lachmann P. J. (2002)
+      <span>
+       Streptococcal inhibitor of complement inhibits two additional components of the mucosal innate immune system: secretory leukocyte proteinase inhibitor and lysozyme
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       70
+      </span>
+      , 4908–4916
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Frick I. M., Akesson P., Rasmussen M., Schmidtchen A., Björck L. (2003)
+      <span>
+       SIC, a secreted protein of
+       <em>
+        Streptococcus pyogenes
+       </em>
+       that inactivates antibacterial peptides
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       278
+      </span>
+      , 16561–16566
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Björck L., Akesson P., Bohus M., Trojnar J., Abrahamson M., Olafsson I., Grubb A. (1989)
+      <span>
+       Bacterial growth blocked by a synthetic peptide based on the structure of a human proteinase inhibitor
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       337
+      </span>
+      , 385–386
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Ferretti J. J., McShan W. M., Ajdic D., Savic D. J., Savic G., Lyon K., Primeaux C., Sezate S., Suvorov A. N., Kenton S., Lai H. S., Lin S. P., Qian Y., Jia H. G., Najar F. Z., Ren Q., Zhu H., Song L., White J., Yuan X., Clifton S. W., Roe B. A., McLaughlin R. (2001)
+      <span>
+       Complete genome sequence of an M1 strain of Streptococcus pyogenes
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       98
+      </span>
+      , 4658–4663
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Maamary P. G., Ben Zakour N. L., Cole J. N., Hollands A., Aziz R. K., Barnett T. C., Cork A. J., Henningham A., Sanderson-Smith M., McArthur J. D., Venturini C., Gillen C. M., Kirk J. K., Johnson D. R., Taylor W. L., Kaplan E. L., Kotb M., Nizet V., Beatson S. A., Walker M. J. (2012)
+      <span>
+       Tracing the evolutionary history of the pandemic group A streptococcal M1T1 clone
+      </span>
+      .
+      <span>
+       FASEB J
+      </span>
+      .
+      <span>
+       26
+      </span>
+      , 4675–4684
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Shannon O., Rydengård V., Schmidtchen A., Mörgelin M., Alm P., Sørensen O. E., Björck L. (2010)
+      <span>
+       Histidine-rich glycoprotein promotes bacterial entrapment in clots and decreases mortality in a mouse model of sepsis
+      </span>
+      .
+      <span>
+       Blood
+      </span>
+      <span>
+       116
+      </span>
+      , 2365–2372
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Lei B., Mackie S., Lukomski S., Musser J. M. (2000)
+      <span>
+       Identification and immunogenicity of group A Streptococcus culture supernatant proteins
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       68
+      </span>
+      , 6807–6818
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Karlsson C., Malmström L., Aebersold R., Malmström J. (2012)
+      <span>
+       Proteome-wide selected reaction monitoring assays for the human pathogen
+       <em>
+        Streptococcus pyogenes
+       </em>
+      </span>
+      .
+      <span>
+       Nat. Commun
+      </span>
+      .
+      <span>
+       3
+      </span>
+      , 1301.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Malmström L., Marko-Varga G., Westergren-Thorsson G., Laurell T., Malmström J. (2006)
+      <span>
+       2DDB: a bioinformatics solution for analysis of quantitative proteomics data
+      </span>
+      .
+      <span>
+       BMC Bioinformatics
+      </span>
+      <span>
+       7
+      </span>
+      , 158.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Nordenfelt P., Waldemarson S., Linder A., Mörgelin M., Karlsson C., Malmström J., Björck L. (2012)
+      <span>
+       Antibody orientation at bacterial surfaces is related to invasive infection
+      </span>
+      .
+      <span>
+       J. Exp. Med
+      </span>
+      .
+      <span>
+       209
+      </span>
+      , 2367–2381
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Aslanidis C., de Jong P. J. (1990)
+      <span>
+       Ligation-independent cloning of PCR products (LIC-PCR)
+      </span>
+      .
+      <span>
+       Nucleic Acids Res
+      </span>
+      .
+      <span>
+       18
+      </span>
+      , 6069–6074
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Gileadi O., Burgess-Brown N. A., Colebrook S. M., Berridge G., Savitsky P., Smee C. E., Loppnau P., Johansson C., Salah E., Pantic N. H. (2008)
+      <span>
+       High throughput production of recombinant human proteins for crystallography
+      </span>
+      .
+      <span>
+       Methods Mol. Biol
+      </span>
+      .
+      <span>
+       426
+      </span>
+      , 221–246
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Kabsch W. (2010)
+      <span>
+       XDS
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       66
+      </span>
+      , 125–132
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Battye T. G., Kontogiannis L., Johnson O., Powell H. R., Leslie A. G. (2011)
+      <span>
+       iMOSFLM: a new graphical interface for diffraction-image processing with MOSFLM
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       67
+      </span>
+      , 271–281
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Evans P. (2006)
+      <span>
+       Scaling and assessment of data quality
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       62
+      </span>
+      , 72–82
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Vonrhein C., Blanc E., Roversi P., Bricogne G. (2007)
+      <span>
+       Automated structure solution with autoSHARP
+      </span>
+      .
+      <span>
+       Methods Mol. Biol
+      </span>
+      .
+      <span>
+       364
+      </span>
+      , 215–230
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Murshudov G. N., Vagin A. A., Dodson E. J. (1997)
+      <span>
+       Refinement of macromolecular structures by the maximum-likelihood method
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       53
+      </span>
+      , 240–255
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Emsley P., Lohkamp B., Scott W. G., Cowtan K. (2010)
+      <span>
+       Features and development of Coot
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       66
+      </span>
+      , 486–501
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Chen V. B., Arendall W. B., 3rd, Headd J. J., Keedy D. A., Immormino R. M., Kapral G. J., Murray L. W., Richardson J. S., Richardson D. C. (2010)
+      <span>
+       MolProbity: all-atom structure validation for macromolecular crystallography
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr
+      </span>
+      .
+      <span>
+       66
+      </span>
+      , 12–21
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Holm L., Rosenström P. (2010)
+      <span>
+       Dali server: conservation mapping in 3D
+      </span>
+      .
+      <span>
+       Nucleic Acids Res
+      </span>
+      .
+      <span>
+       38
+      </span>
+      , W545–W549
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Altschul S. F., Gish W., Miller W., Myers E. W., Lipman D. J. (1990)
+      <span>
+       Basic local alignment search tool
+      </span>
+      .
+      <span>
+       J. Mol. Biol
+      </span>
+      .
+      <span>
+       215
+      </span>
+      , 403–410
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Kumar P., Bansal M. (2012)
+      <span>
+       HELANAL-Plus: a web server for analysis of helix geometry in protein structures
+      </span>
+      .
+      <span>
+       J. Biomol. Struct. Dyn
+      </span>
+      .
+      <span>
+       30
+      </span>
+      , 773–783
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Craig R., Beavis R. C. (2003)
+      <span>
+       A method for reducing the time required to match protein sequences with tandem mass spectra
+      </span>
+      .
+      <span>
+       Rapid Commun. Mass Spectrom
+      </span>
+      .
+      <span>
+       17
+      </span>
+      , 2310–2316
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Geer L. Y., Markey S. P., Kowalak J. A., Wagner L., Xu M., Maynard D. M., Yang X., Shi W., Bryant S. H. (2004)
+      <span>
+       Open mass spectrometry search algorithm
+      </span>
+      .
+      <span>
+       J. Proteome Res
+      </span>
+      .
+      <span>
+       3
+      </span>
+      , 958–964
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Shteynberg D., Deutsch E. W., Lam H., Eng J. K., Sun Z., Tasman N., Mendoza L., Moritz R. L., Aebersold R., Nesvizhskii A. I. (2011)
+      <span>
+       iProphet: multi-level integrative analysis of shotgun proteomic data improves peptide and protein identification rates and error estimates
+      </span>
+      .
+      <span>
+       Mol. Cell. Proteomics
+      </span>
+      10.1074/mcp.M111.007690
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        Cross Ref
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Keller A., Nesvizhskii A. I., Kolker E., Aebersold R. (2002)
+      <span>
+       Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search
+      </span>
+      .
+      <span>
+       Anal. Chem
+      </span>
+      .
+      <span>
+       74
+      </span>
+      , 5383–5392
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Choi H., Larsen B., Lin Z. Y., Breitkreutz A., Mellacheruvu D., Fermin D., Qin Z. S., Tyers M., Gingras A. C., Nesvizhskii A. I. (2011)
+      <span>
+       SAINT: probabilistic scoring of affinity purification-mass spectrometry data
+      </span>
+      .
+      <span>
+       Nat. Methods
+      </span>
+      <span>
+       8
+      </span>
+      , 70–73
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Sowa M. E., Bennett E. J., Gygi S. P., Harper J. W. (2009)
+      <span>
+       Defining the human deubiquitinating enzyme interaction landscape
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       138
+      </span>
+      , 389–403
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Choi H., Liu G., Mellacheruvu D., Tyers M., Gingras A. C., Nesvizhskii A. I. (2012)
+      <span>
+       Analyzing protein-protein interactions from affinity purification-mass spectrometry data with SAINT
+      </span>
+      .
+      <span>
+       Curr. Protoc. Bioinformatics
+      </span>
+      Chapter 8, Unit 8.15
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Rydengård V., Olsson A. K., Mörgelin M., Schmidtchen A. (2007)
+      <span>
+       Histidine-rich glycoprotein exerts antibacterial activity
+      </span>
+      .
+      <span>
+       FEBS J
+      </span>
+      .
+      <span>
+       274
+      </span>
+      , 377–389
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Schuck P. (2000)
+      <span>
+       Size-distribution analysis of macromolecules by sedimentation velocity ultracentrifugation and Lamm equation modeling
+      </span>
+      .
+      <span>
+       Biophys. J
+      </span>
+      .
+      <span>
+       78
+      </span>
+      , 1606–1619
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Ortega A., Amorós D., García de la Torre J. (2011)
+      <span>
+       Prediction of hydrodynamic and other solution properties of rigid proteins from atomic- and residue-level models
+      </span>
+      .
+      <span>
+       Biophys. J
+      </span>
+      .
+      <span>
+       101
+      </span>
+      , 892–898
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Wiseman T., Williston S., Brandts J. F., Lin L. N. (1989)
+      <span>
+       Rapid measurement of binding constants and heats of binding using a new titration calorimeter
+      </span>
+      .
+      <span>
+       Anal. Biochem
+      </span>
+      .
+      <span>
+       179
+      </span>
+      , 131–137
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Holden M. T., Scott A., Cherevach I., Chillingworth T., Churcher C., Cronin A., Dowd L., Feltwell T., Hamlin N., Holroyd S., Jagels K., Moule S., Mungall K., Quail M. A., Price C., Rabbinowitsch E., Sharp S., Skelton J., Whitehead S., Barrell B. G., Kehoe M., Parkhill J. (2007)
+      <span>
+       Complete genome of acute rheumatic fever-associated serotype M5
+       <em>
+        Streptococcus pyogenes
+       </em>
+       strain manfredo
+      </span>
+      .
+      <span>
+       J. Bacteriol
+      </span>
+      .
+      <span>
+       189
+      </span>
+      , 1473–1477
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Green N. M., Zhang S., Porcella S. F., Nagiec M. J., Barbian K. D., Beres S. B., LeFebvre R. B., Musser J. M. (2005)
+      <span>
+       Genome sequence of a serotype M28 strain of group a streptococcus: potential new insights into puerperal sepsis and bacterial disease specificity
+      </span>
+      .
+      <span>
+       J. Infect. Dis
+      </span>
+      .
+      <span>
+       192
+      </span>
+      , 760–770
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Petersen T. N., Brunak S., von Heijne G., Nielsen H. (2011)
+      <span>
+       SignalP 4.0: discriminating signal peptides from transmembrane regions
+      </span>
+      .
+      <span>
+       Nat. Methods
+      </span>
+      <span>
+       8
+      </span>
+      , 785–786
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Gerber S. A., Rush J., Stemman O., Kirschner M. W., Gygi S. P. (2003)
+      <span>
+       Absolute quantification of proteins and phosphoproteins from cell lysates by tandem MS
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A
+      </span>
+      .
+      <span>
+       100
+      </span>
+      , 6940–6945
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Malmström J., Beck M., Schmidt A., Lange V., Deutsch E. W., Aebersold R. (2009)
+      <span>
+       Proteome-wide cellular protein concentrations of the human pathogen
+       <em>
+        Leptospira interrogans
+       </em>
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       460
+      </span>
+      , 762–765
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     57.
+     <span>
+      Wollein Waldetoft K., Karlsson C., Gram M., Malmström J., Mörgelin M., Frick I. M., Björck L. (2014)
+      <span>
+       Surface proteins of group G Streptococcus in different phases of growth: patterns of production and implications for the host-bacteria relationship
+      </span>
+      .
+      <span>
+       Microbiology
+      </span>
+      <span>
+       160
+      </span>
+      , 279–286
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     58.
+     <span>
+      Kamezawa Y., Nakahara T., Nakano S., Abe Y., Nozaki-Renard J., Isono T. (1997)
+      <span>
+       Streptococcal mitogenic exotoxin Z, a novel acidic superantigenic toxin produced by a T1 strain of
+       <em>
+        Streptococcus pyogenes
+       </em>
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       65
+      </span>
+      , 3828–3833
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     59.
+     <span>
+      Akesson P., Cooney J., Kishimoto F., Björck L. (1990)
+      <span>
+       Protein H: a novel IgG binding bacterial protein
+      </span>
+      .
+      <span>
+       Mol. Immunol
+      </span>
+      .
+      <span>
+       27
+      </span>
+      , 523–531
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     60.
+     <span>
+      Berge A., Björck L. (1995)
+      <span>
+       Streptococcal cysteine proteinase releases biologically active fragments of streptococcal surface proteins
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       270
+      </span>
+      , 9862–9867
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     61.
+     <span>
+      Akerström B., Brodin T., Reis K., Björck L. (1985)
+      <span>
+       Protein G: a powerful tool for binding and detection of monoclonal and polyclonal antibodies
+      </span>
+      .
+      <span>
+       J. Immunol
+      </span>
+      .
+      <span>
+       135
+      </span>
+      , 2589–2592
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     62.
+     <span>
+      Krissinel E., Henrick K. (2007)
+      <span>
+       Inference of macromolecular assemblies from crystalline state
+      </span>
+      .
+      <span>
+       J. Mol. Biol
+      </span>
+      .
+      <span>
+       372
+      </span>
+      , 774–797
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     63.
+     <span>
+      Nithianantham S., Xu M., Yamada M., Ikegami A., Shoham M., Han Y. W. (2009)
+      <span>
+       Crystal structure of FadA adhesin from
+       <em>
+        Fusobacterium nucleatum
+       </em>
+       reveals a novel oligomerization motif, the leucine chain
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       284
+      </span>
+      , 3865–3872
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     64.
+     <span>
+      Meinert Niclasen L., Olsen J. G., Dagil R., Qing Z., Sørensen O. E., Kragelund B. B. (2011)
+      <span>
+       Streptococcal pyogenic exotoxin B (SpeB) boosts the contact system via binding of α-1 antitrypsin
+      </span>
+      .
+      <span>
+       Biochem. J
+      </span>
+      .
+      <span>
+       434
+      </span>
+      , 123–132
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     65.
+     <span>
+      Reuter M., Caswell C. C., Lukomski S., Zipfel P. F. (2010)
+      <span>
+       Binding of the human complement regulators CFHR1 and factor H by streptococcal collagen-like protein 1 (Scl1) via their conserved C termini allows control of the complement cascade at multiple levels
+      </span>
+      .
+      <span>
+       J. Biol. Chem
+      </span>
+      .
+      <span>
+       285
+      </span>
+      , 38473–38485
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     66.
+     <span>
+      Rosales C., Gillard B. K., Courtney H. S., Blanco-Vaca F., Pownall H. J. (2009)
+      <span>
+       Apolipoprotein modulation of streptococcal serum opacity factor activity against human plasma high-density lipoproteins
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       48
+      </span>
+      , 8070–8076
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     67.
+     <span>
+      Schmidt K. H., Wadström T. (1990)
+      <span>
+       A secreted receptor related to M1 protein of
+       <em>
+        Streptococcus pyogenes
+       </em>
+       binds to fibrinogen, IgG, and albumin
+      </span>
+      .
+      <span>
+       Zentralbl. Bakteriol
+      </span>
+      .
+      <span>
+       273
+      </span>
+      , 216–228
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     68.
+     <span>
+      Sjöholm K., Karlsson C., Linder A., Malmström J. (2014)
+      <span>
+       A comprehensive analysis of the
+       <em>
+        Streptococcus pyogenes
+       </em>
+       and human plasma protein interaction network
+      </span>
+      .
+      <span>
+       Mol. Biosyst
+      </span>
+      . 10.1039/C3MB70555B
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        Cross Ref
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     69.
+     <span>
+      Johnsson B., Löfås S., Lindquist G. (1991)
+      <span>
+       Immobilization of proteins to a carboxymethyldextran-modified gold surface for biospecific interaction analysis in surface plasmon resonance sensors
+      </span>
+      .
+      <span>
+       Anal. Biochem
+      </span>
+      .
+      <span>
+       198
+      </span>
+      , 268–277
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     70.
+     <span>
+      Akesson P., Rasmussen M., Mascini E., von Pawel-Rammingen U., Janulczyk R., Collin M., Olsen A., Mattsson E., Olsson M. L., Bjorck L., Christensson B. (2004)
+      <span>
+       Low antibody levels against cell wall-attached proteins of
+       <em>
+        Streptococcus pyogenes
+       </em>
+       predispose for severe invasive disease
+      </span>
+      .
+      <span>
+       J. Infect. Dis
+      </span>
+      .
+      <span>
+       189
+      </span>
+      , 797–804
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     71.
+     <span>
+      Büttner K., Bernhardt J., Scharf C., Schmid R., Mäder U., Eymann C., Antelmann H., Völker A., Völker U., Hecker M. (2001)
+      <span>
+       A comprehensive two-dimensional map of cytosolic proteins of
+       <em>
+        Bacillus subtilis
+       </em>
+      </span>
+      .
+      <span>
+       Electrophoresis
+      </span>
+      <span>
+       22
+      </span>
+      , 2908–2935
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     72.
+     <span>
+      Bendtsen J. D., Kiemer L., Fausbøll A., Brunak S. (2005)
+      <span>
+       Non-classical protein secretion in bacteria
+      </span>
+      .
+      <span>
+       BMC Microbiol
+      </span>
+      .
+      <span>
+       5
+      </span>
+      , 58.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     73.
+     <span>
+      Raju R., Weiner M., Enquist I. (1976)
+      <span>
+       Quantitation of local acidosis and hypoxia produced by infection
+      </span>
+      .
+      <span>
+       Am. J. Surg
+      </span>
+      .
+      <span>
+       132
+      </span>
+      , 64–66
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     74.
+     <span>
+      Le Breton Y., Mistry P., Valdes K. M., Quigley J., Kumar N., Tettelin H., McIver K. S. (2013)
+      <span>
+       Genome-wide identification of genes required for fitness of group A Streptococcus in human blood
+      </span>
+      .
+      <span>
+       Infect. Immun
+      </span>
+      .
+      <span>
+       81
+      </span>
+      , 862–875
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     75.
+     <span>
+      Weisser H., Nahnsen S., Grossmann J., Nilse L., Quandt A., Brauer H., Sturm M., Kenar E., Kohlbacher O., Aebersold R., Malmström L. (2013)
+      <span>
+       An automated pipeline for high-throughput label-free quantitative proteomics
+      </span>
+      .
+      <span>
+       J. Proteome Res
+      </span>
+      .
+      <span>
+       12
+      </span>
+      , 1628–1644
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     76.
+     <span>
+      Shannon P., Markiel A., Ozier O., Baliga N. S., Wang J. T., Ramage D., Amin N., Schwikowski B., Ideker T. (2003)
+      <span>
+       Cytoscape: a software environment for integrated models of biomolecular interaction networks
+      </span>
+      .
+      <span>
+       Genome Res
+      </span>
+      .
+      <span>
+       13
+      </span>
+      , 2498–2504
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     77.
+     <span>
+      Warsow G., Greber B., Falk S. S., Harder C., Siatkowski M., Schordan S., Som A., Endlich N., Schöler H., Repsilber D., Endlich K., Fuellen G. (2010)
+      <span>
+       ExprEssence: revealing the essence of differential experimental data in the context of an interaction/regulation network
+      </span>
+      .
+      <span>
+       BMC Syst. Biol
+      </span>
+      .
+      <span>
+       4
+      </span>
+      , 164.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

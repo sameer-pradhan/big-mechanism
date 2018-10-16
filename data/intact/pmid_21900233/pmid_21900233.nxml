@@ -1,0 +1,4103 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3199504
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural Switching of Staphylococcus aureus Clp Protease
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     ATP-dependent Clp protease (ClpP) is an attractive new target for the development of anti-infective agents. The ClpP protease consists of two heptameric rings that enclose a large chamber containing 14 proteolytic active sites. Recent studies indicate that ClpP likely undergoes conformational switching between an extended and degraded active state required for substrate proteolysis and a compacted and catalytically inactive state allowing product release. Here, we present the wild-type ClpP structures in two distinct states from
+     <em>
+      Staphylococcus aureus
+     </em>
+     . One structure is very similar to those solved ClpP structures in the extended states. The other is strikingly different from both the extended and the compacted state as observed in ClpP from other species; the handle domain of this structure kinks to take on a compressed conformation. Structural analysis and molecular dynamic simulations show that the handle domain predominantly controls the way in which degradation products exit the chamber through dynamic conformational switching from the extended state to the compressed state. Given the highly conserved sequences among ClpP from different species, this compressed conformation is unexpected and novel, which is potentially valuable for understanding the enzymatic dynamics and the acting mechanisms of ClpP.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Bacteria, Molecular Dynamics, Protease, Protein Degradation, Protein Structure
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Clp proteases such as ClpXP and ClpAP, which catalyze the unfolding and degradation of specific proteins, play a critical role in various processes that regulate cellular functions via proteolysis in both prokaryotes and eukaryotes (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    –
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ). This system has been studied in detail in
+    <em>
+     Escherichia coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    –
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ), but little is known regarding the specific biological function of mitochondrial ClpP in humans (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ). The proteolysis core of ClpP is formed by two heptameric rings of the proteolytic subunit (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ). The ATPase specific factor, such as ClpA, ClpC, ClpX, or ClpY, is attached to the proteolytic core and determines substrate specificity, allowing suitable substrate to enter the proteolytic chamber (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ). Recently, growing evidence has suggested that the ClpP plays a crucial role in the survival and virulence of pathogens including
+    <em>
+     Staphylococcus aureus
+    </em>
+    during host infection and thus serves as an attractive new target for anti-infective agents (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    –
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ). Acyldepsipeptides (ADEP)
+    <sup>
+     <a>
+      4
+     </a>
+    </sup>
+    have been identified as a new class of antibiotics that target ClpP (
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ).
+   </p>
+   <p>
+    The crystal structures of ClpP proteins from several different organisms have been experimentally determined. Based on the mode of conformational organization, the ClpP structures are classified into two distinct groups that represent functional active and inactive forms, which are referred to as the extended and compacted states, respectively. In the extended ClpP structures observed from
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    –
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ),
+    <em>
+     Helicobacter pylori
+    </em>
+    (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ),
+    <em>
+     Bacillus subtilis
+    </em>
+    (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ), and
+    <em>
+     Homo sapiens
+    </em>
+    mitochondria (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ), the 14-handle helices are well ordered to hold the double heptameric rings interlocking, thus keeping the surface of the ClpP equator continuous. The active site residues in this state are generally organized in catalytically active positions. However, the handle helices are typically unstructured, and very few of them could be fully traced in electron density maps in the compacted structures solved in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ),
+    <em>
+     Streptococcus pneumoniae
+    </em>
+    (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ),
+    <em>
+     Plasmodium falciparum
+    </em>
+    (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ), and
+    <em>
+     Mycobacterium tuberculosis
+    </em>
+    (
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ). Furthermore, in compacted states the catalytic triads are disorganized when compared with those in extended states. Although both the extended and compacted structures were solved for
+    <em>
+     Ec
+    </em>
+    ClpP, the latter was crystallized from an engineered protein by using disulfide cross-linking (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). To date, no firm structural data exist that simultaneously show these two states are accessible to a given wild-type ClpP from a specific species.
+   </p>
+   <p>
+    Solved ClpP crystal structures have provided valuable information for understanding the process by which a substrate peptide enters a cylindrical chamber and is recognized in the active site for degradation (
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). However, how the degraded polypeptides are released from the ClpP proteolytic chamber still remains largely controversial. Investigators have made many efforts to find structural evidence that would elucidate the molecular mechanisms of peptide fragments release. Two major models have been put forth. One model proposes that degraded oligopeptide products exit the catalytic chamber by passive diffusion through the same axial pores that allow the entry of unfolded proteins (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ). This proposal is problematic, however, because ATPase binds to ClpP simultaneously at both ends, which interrupts product release (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). The other model proposes that the degraded peptides exit the catalytic chamber through side pores generated transiently by the dynamic conformational changes of the handle regions. Studies of x-ray structural analysis of an A153P mutation of
+    <em>
+     Sp
+    </em>
+    ClpP (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ) and quantitative NMR spectroscopy characterization of
+    <em>
+     Ec
+    </em>
+    ClpP (
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ) support this proposal. Nevertheless, the second proposal requires further structural evidence. While this paper was in preparation, a structural study of
+    <em>
+     Sa
+    </em>
+    ClpP found that the handle helix bent in the tetradecameric packing form, which was suggested to generate pores through degradative products might escape the proteolytic chamber (
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we have determined two crystal structures of wild-type
+    <em>
+     Sa
+    </em>
+    ClpP proteins in two distinct conformations. Although all ClpP structures solved to date are either in the extended or compacted states, these
+    <em>
+     Sa
+    </em>
+    ClpP structures presented here are the first examples to provide different conformational assemblies for a given ClpP. One structure is very similar to those ClpP structures solved in the extended states; the other is quite different from either the extended or compacted ClpP structures in that the handle domains adopt compressed conformations. In conjunction with biochemical analyses and molecular dynamic (MD) simulations, these structures provide two different conformational snapshots during ClpP protease dynamic degradation cycle, explain the organizational principles behind biological complex formation, and reveal mechanistic insight into the biological function of the degradation of peptides in the active site as well as the release of products from the catalytic chamber.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       SaClpP Proteins Expression and Purification
+      </title>
+      <p>
+       Three forms of
+       <em>
+        Sa
+       </em>
+       ClpP proteins (
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP,
+       <em>
+        C
+       </em>
+       -His-
+       <em>
+        Sa
+       </em>
+       ClpP, and mature
+       <em>
+        Sa
+       </em>
+       ClpP) were constructed for both crystallization and activity studies.
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP protein, which includes two more amino acids at the N terminus, was produced for the crystallization experiment by cloning
+       <em>
+        S. aureus
+       </em>
+       Newman strain
+       <em>
+        clpP
+       </em>
+       gene into the BamHI and XhoI sites of pGEX-4T-1 vector (Novagen) for overexpression in
+       <em>
+        E. coli
+       </em>
+       BL21 (DE3) Star cells (Invitrogen). Cells were grown at 37 °C, with shaking at 220 rpm, in LB media supplemented with 50 μg/ml ampicillin to an
+       <em>
+        A
+       </em>
+       <sub>
+        600
+       </sub>
+       of 0.6, at which time protein expression was induced with 0.1 m
+       <span>
+        m
+       </span>
+       isopropyl-1-thio-β-
+       <span>
+        d
+       </span>
+       -galactopyranoside at 16 °C overnight. Cells were harvested by centrifugation and stored at −80 °C until use. A cell pellet was suspended in lysis buffer of 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 8.0), 100 m
+       <span>
+        m
+       </span>
+       KCl, and 2 m
+       <span>
+        m
+       </span>
+       DTT, and lysed at 4 °C by sonication. After centrifugation at 16,000 ×
+       <em>
+        g
+       </em>
+       for 20 min to remove the insoluble material, the supernatant was loaded onto a 5-ml GST high performance column (GE Healthcare), and the protein was eluted with a single gradient of 10 m
+       <span>
+        m
+       </span>
+       glutathione (pH 8.0) in lysis buffer. After thrombin digestion off the GST tag at 4 °C overnight, 2 extra amino acids of Gly-Ser were introduced in protein sequence at the N terminus. The protein was further purified by size exclusion chromatography using a Superdex 200 column (GE Healthcare, 120 ml) in buffer containing 100 m
+       <span>
+        m
+       </span>
+       KCl, 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 8.0), and 2 m
+       <span>
+        m
+       </span>
+       DTT.
+      </p>
+      <p>
+       C-His-
+       <em>
+        Sa
+       </em>
+       ClpP, the
+       <em>
+        Sa
+       </em>
+       ClpP with a C terminus His tag, was constructed by cloning the corresponding gene into the NcoI and XhoI sites of pET28b vector (Novagen) and purified through a HisTrap High Performance column (GE Healthcare), and the protein was eluted with a linear gradient of 50–400 m
+       <span>
+        m
+       </span>
+       imidazole. Gel filtration purification was followed to give pure protein that has the native sequence at the N terminus. The C-terminal His
+       <sub>
+        6
+       </sub>
+       tag was intact for functional study.
+      </p>
+      <p>
+       The mature
+       <em>
+        Sa
+       </em>
+       ClpP protein was designed and constructed with N-terminal His-tagged in the NheI and XhoI sites of pET28b vector, so that the tag could be autoproteolytically cleaved during expression to produce protein in native sequence. After cell growth and harvest by a procedure similar to the aforementioned, the supernatant was added to 3 volume of buffer containing 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 8.0), loaded onto an SP-Sepharose cation exchange column (GE Healthcare, 20 ml) that had been equilibrated with buffer A, and eluted with a linear gradient of NaCl (0–1.0
+       <span>
+        m
+       </span>
+       ). The combined fractions (10 ml/fraction) were treated with 1.0
+       <span>
+        m
+       </span>
+       ammonium sulfate and loaded onto a phenyl-Sepharose high performance column (GE Healthcare, 5 ml). The flow-through fractions were collected and concentrated to 2 ml and then subjected to gel filtration purification using a Superdex 200 column.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Size Exclusion Chromatography
+      </title>
+      <p>
+       Gel filtration was performed at 4 °C using a calibrated Superdex 200 HR 10/300 column (GE Healthcare) attached to an AKTA fast protein liquid chromatography system (GE Healthcare). The column was equilibrated with either a buffer containing 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 8.0), 100 m
+       <span>
+        m
+       </span>
+       KCl, and 2 m
+       <span>
+        m
+       </span>
+       DTT or a buffer using a salt condition of 50–200 m
+       <span>
+        m
+       </span>
+       sodium sulfate instead of 100 m
+       <span>
+        m
+       </span>
+       KCl. Molecular mass standards (Bio-Rad) used were: thyroglobulin (670 kDa), γ-globulin (158 kDa), ovalbumin (44 kDa), myoglobin (17 kDa), and vitamin B
+       <sub>
+        12
+       </sub>
+       (1.35 kDa). Protein was monitored by absorbance at the wavelength of 280 nm.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Enzymatic Activity Assay
+      </title>
+      <p>
+       For peptidase activity (
+       <xref ref-type="bibr">
+        27
+       </xref>
+       ), the model substrate peptide
+       <em>
+        N
+       </em>
+       -succinyl-Leu-Tyr-7-amido-4-methylcoumarin (Suc-LY-AMC) was purchased from Shanghai GL Biochem Ltd and directly used without further purification. Measurements of the hydrolysis rate of the labeled peptide were performed on 2104 Envision Multilabel Reader (PerkinElmer Life Sciences). Typically, 20 μg of
+       <em>
+        Sa
+       </em>
+       ClpP proteins in 100 μl of buffer containing 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 8.0), 100 m
+       <span>
+        m
+       </span>
+       KCl, and 2 m
+       <span>
+        m
+       </span>
+       DTT were incubated at 32 °C for 5 min, and then 0.5 m
+       <span>
+        m
+       </span>
+       substrate peptide Suc-LY-AMC was added in the reaction system. The fluorescence increase was continuously monitored for 100 min, and the excitation wavelength of 340 nm and the emission wavelength of 450 nm were used. Kinetic assays were performed in triplicate, and kinetic constants were determined with the GraphPad Prism 5 Software by plotting the enzyme velocity against substrate concentration.
+      </p>
+      <p>
+       To further investigate and compare the proteolytic activity of these
+       <em>
+        Sa
+       </em>
+       ClpP proteins, we carried out protein degradation assays by using two model substrates, GFP-SsrA and β-casein, as described previously (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ). Briefly, each run contained 0.6 μ
+       <span>
+        m
+       </span>
+       <em>
+        Sa
+       </em>
+       ClpX, 0.33 μ
+       <span>
+        m
+       </span>
+       <em>
+        Sa
+       </em>
+       ClpP, and 5.0 μ
+       <span>
+        m
+       </span>
+       GFP-SsrA or 15.0 μ
+       <span>
+        m
+       </span>
+       β-casein in a buffer containing 25 m
+       <span>
+        m
+       </span>
+       HEPES (pH 7.6), 100 m
+       <span>
+        m
+       </span>
+       KCl, 20 m
+       <span>
+        m
+       </span>
+       MgCl
+       <sub>
+        2
+       </sub>
+       , 1 m
+       <span>
+        m
+       </span>
+       EDTA, 2 m
+       <span>
+        m
+       </span>
+       DTT, and 10% glycerol in a total volume of 100 μl, where control reactions were performed in the absence of
+       <em>
+        Sa
+       </em>
+       ClpP proteins. All reactions were monitored at 37 °C for 40 or 90 min by separating the proteins on SDS-PAGE that were Coomassie-stained.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Crystallization, Data Collection, and Structure Determination
+      </title>
+      <p>
+       Crystallization of purified
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP protein was performed using the hanging drop vapor diffusion method at room temperature. Typically, the crystallization drop was prepared by well mixing a 2-μl protein (10 mg/ml in 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 8.0), 100 m
+       <span>
+        m
+       </span>
+       NaCl) and an equal volume of reservoir solution and then equilibrated against 500 μl of reservoir solution. Sphenoid-shaped crystals grew up in a reservoir solution containing 100 m
+       <span>
+        m
+       </span>
+       citric acid (pH 3.5) and 2.0
+       <span>
+        m
+       </span>
+       ammonium sulfate within 2 days. Hexagonal rod-like crystals appeared in the reservoir solution of 10% (w/v) PEG 3000, 100 m
+       <span>
+        m
+       </span>
+       cacodylate (pH 6.5), and 200 m
+       <span>
+        m
+       </span>
+       MgCl
+       <sub>
+        2
+       </sub>
+       . The crystals were mounted and flash-frozen in liquid N
+       <sub>
+        2
+       </sub>
+       after cryoprotection with the reservoir solution containing an extra 10–20% glycerol. Diffraction data were collected at the Shanghai Synchrotron Radiation Facility beamline 17U. All x-ray data were processed using HKL2000 program suite (
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ) and converted to structure factors within the CCP4 program (
+       <xref ref-type="bibr">
+        33
+       </xref>
+       ). The crystals belong to the space group P6
+       <sub>
+        1
+       </sub>
+       22 and C2. The structures were phased by molecular replacement in Phaser (
+       <xref ref-type="bibr">
+        34
+       </xref>
+       ) using previously published
+       <em>
+        Bs
+       </em>
+       ClpP truncated monomer as search model (PDB code
+       <span>
+        3KTG
+       </span>
+       ). The
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP model was manually built using COOT (
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ), and computational refinement was carried out with the program REFMAC5 (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ) in the CCP4 suite. Data collection and refinement parameters statistics for all two structures are summarized in
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       . Molecular graphics figures were prepared with PyMOL (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ).
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 1
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Data collection and refinement statistics
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Molecular Dynamic Simulations
+      </title>
+      <p>
+       MD simulations were performed on two structures; that is, one monomer extracted from
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer (
+       <em>
+        Sa
+       </em>
+       ClpP
+       <sup>
+        mono
+       </sup>
+       ) and one heptameric ring from
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer (
+       <em>
+        Sa
+       </em>
+       ClpP
+       <sup>
+        14half
+       </sup>
+       ). The missing N-terminal residues of some monomers were added by PyMOL. Gromacs software package Version 4.5.3 (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ) and the AMBER03 force field (
+       <xref ref-type="bibr">
+        39
+       </xref>
+       ) in explicit TIP3P water (
+       <xref ref-type="bibr">
+        40
+       </xref>
+       ) were used to run MD simulations. The water box was 10 Å from the protein on all sides (
+       <em>
+        i.e.
+       </em>
+       the starting structure had 20 Å between periodic images). Hydrogen bonds were constrained using the linear constraint solver (LINCS) algorithm (
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ). Na
+       <sup>
+        +
+       </sup>
+       ions and Cl
+       <sup>
+        −
+       </sup>
+       ions were added to neutralize the simulation systems. Long range electrostatic interactions were treated by using the particle-mesh Ewald method (
+       <xref ref-type="bibr">
+        42
+       </xref>
+       ). Periodic boundary conditions were applied to avoid edge effects in all calculations. The temperature was kept constant at 300 K by separately coupling the water, ions, and protein in a thermal bath using the Berendsen thermostat method (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ) with a coupling time of 1 ps. Berendsen pressure coupling (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ) was used for equilibration of the systems.
+      </p>
+      <p>
+       To investigate the conformational transitions of
+       <em>
+        Sa
+       </em>
+       ClpP protease implied by these two structures, we carried out 200-ns MD simulations on
+       <em>
+        Sa
+       </em>
+       ClpP
+       <sup>
+        mono
+       </sup>
+       and
+       <em>
+        Sa
+       </em>
+       ClpP
+       <sup>
+        14half
+       </sup>
+       . Before the MD simulation run, the systems were subjected to energy minimizations using the steepest-descents algorithm (
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ). Then the systems were heated gradually from 0 to 300 K. First, a 100-ps simulation was carried out to heat the solvent molecules and ions. After that, 50- and 20-ps simulations were performed to heat all the atoms in the system with the restriction of main chain and protein Cα atoms, respectively. Finally, the conventional MD was performed with coordinates saved every 10 ps during the entire process.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Oligomeric State and Degradative Activity of SaClpP in Solution
+      </title>
+      <p>
+       In the size exclusion chromatography, the retention time of
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP protein under 100 m
+       <span>
+        m
+       </span>
+       KCl was between those of tetradecameric and heptameric
+       <em>
+        Ec
+       </em>
+       ClpP (
+       <a>
+        supplemental Fig. 1
+        <em>
+         A
+        </em>
+       </a>
+       ), suggesting that the oligomeric state of
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP is in equilibrium in heptameric and tetradecameric forms. However, both the mature
+       <em>
+        Sa
+       </em>
+       ClpP and
+       <em>
+        C
+       </em>
+       -His-
+       <em>
+        Sa
+       </em>
+       ClpP proteins display tetradecameric organization under the same buffer conditions (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        A
+       </em>
+       ). The
+       <em>
+        Ec
+       </em>
+       ClpP double rings could be reversibly dissociated in the presence of sodium sulfate (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ). To test whether this would also happen on
+       <em>
+        Sa
+       </em>
+       ClpP, we conducted a gel filtration assay for all three proteins in a buffer containing 200 m
+       <span>
+        m
+       </span>
+       sodium sulfate. Consistent with previous observation in
+       <em>
+        Ec
+       </em>
+       ClpP, the stability of the double heptameric rings of wild-type
+       <em>
+        Sa
+       </em>
+       ClpP is also dependent on salt conditions (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        A
+       </em>
+       ). Moreover, treatment of the native
+       <em>
+        C
+       </em>
+       -His-
+       <em>
+        Sa
+       </em>
+       ClpP protein with sodium sulfate causes the tetradecameric oligomerization to migrate toward a heptameric state in a salt concentration-dependent manner (
+       <a>
+        supplemental Fig. 1
+        <em>
+         B
+        </em>
+       </a>
+       ).
+      </p>
+      <fig id="F1" position="float">
+       <label>
+        FIGURE 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Organizational property and enzymatic activity of
+          <em>
+           Sa
+          </em>
+          ClpP variants.
+         </strong>
+         <em>
+          A
+         </em>
+         , size exclusion chromatographic analysis of oligomeric organization of three
+         <em>
+          Sa
+         </em>
+         ClpP proteins is shown. Protein peaks are monitored by UV absorbance at wavelength of 280 nm, and retention volumes corresponding to molecular mass are recorded in 100 m
+         <span>
+          m
+         </span>
+         KCl and 200 m
+         <span>
+          m
+         </span>
+         sodium sulfate, respectively. The molecular mass standards are indicated at the
+         <em>
+          top of the figure. B
+         </em>
+         , hydrolysis of the fluorogenic peptide Suc-LY-AMC by three
+         <em>
+          Sa
+         </em>
+         ClpP proteases is shown. Kinetic constants are determined with the GraphPad Prism 5 Software by plotting enzyme velocity against substrate concentration.
+         <em>
+          Error bars
+         </em>
+         are shown based on three independent repeats.
+         <em>
+          C
+         </em>
+         , GFP-SsrA proteolysis by
+         <em>
+          C
+         </em>
+         -His-
+         <em>
+          Sa
+         </em>
+         ClpP or
+         <em>
+          N
+         </em>
+         -2-
+         <em>
+          Sa
+         </em>
+         ClpP under the same conditions is shown on the SDS-PAGE gel stained with Coomassie Blue. Each reaction was monitored for 40 min, and control runs without ClpP are shown in the last two lanes.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       As shown in
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        B
+       </em>
+       , two
+       <em>
+        Sa
+       </em>
+       ClpP proteins having native amino acid sequences at the N terminus (mature
+       <em>
+        Sa
+       </em>
+       ClpP and
+       <em>
+        C
+       </em>
+       -His-
+       <em>
+        Sa
+       </em>
+       ClpP), and the protein with two extra amino acids at the N terminus (
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP) are all active for efficient degradation of the short model peptide Suc-LY-AMC in a comparable range of activity
+       <em>
+        in vitro
+       </em>
+       . The measured
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       and
+       <em>
+        K
+       </em>
+       <sub>
+        cat
+       </sub>
+       values were 145 μ
+       <span>
+        m
+       </span>
+       and 225 min
+       <sup>
+        −1
+       </sup>
+       for mature
+       <em>
+        Sa
+       </em>
+       ClpP, 133 μ
+       <span>
+        m
+       </span>
+       and 146 min
+       <sup>
+        −1
+       </sup>
+       for
+       <em>
+        C
+       </em>
+       -His-
+       <em>
+        Sa
+       </em>
+       ClpP, and 151 μ
+       <span>
+        m
+       </span>
+       and 151 min
+       <sup>
+        −1
+       </sup>
+       for
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP, respectively (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        B
+       </em>
+       ). Interestingly, this peptidase activity appears dependent on sulfate concentration. The
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       stayed almost constant (between 133 and 158 μ
+       <span>
+        m
+       </span>
+       ), but
+       <em>
+        K
+       </em>
+       <sub>
+        cat
+       </sub>
+       increases ∼3-fold (from 145 to 456 min
+       <sup>
+        −1
+       </sup>
+       ) as the sodium sulfate concentration was raised to 200 m
+       <span>
+        m
+       </span>
+       (
+       <a>
+        supplemental Fig. 1
+        <em>
+         C
+        </em>
+        and Table 1
+       </a>
+       ), indicating that the substrate peptide binding by
+       <em>
+        Sa
+       </em>
+       ClpP is not affected by the sulfate ion. However, the enzyme catalytic turnover is increased in the presence of sulfate.
+      </p>
+      <p>
+       Consistent with previous reports on
+       <em>
+        Ec
+       </em>
+       ClpP (
+       <xref ref-type="bibr">
+        15
+       </xref>
+       ), the N-terminal His
+       <sub>
+        6
+       </sub>
+       tag is able to undergo autoproteolysis by
+       <em>
+        Sa
+       </em>
+       ClpP protease itself during protein expression (
+       <a>
+        supplemental Fig. 1
+        <em>
+         D
+        </em>
+       </a>
+       ). In the degradation of the model substrate proteins GFP-SsrA and β-casein in the presence of
+       <em>
+        Sa
+       </em>
+       ClpX, the
+       <em>
+        N
+       </em>
+       -2-
+       <em>
+        Sa
+       </em>
+       ClpP protein shows lower proteolysis activity compared with the native protein
+       <em>
+        C
+       </em>
+       -His-
+       <em>
+        Sa
+       </em>
+       ClpP under the same reaction conditions (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        C
+       </em>
+       and
+       <a>
+        supplemental Fig. 1
+        <em>
+         E
+        </em>
+       </a>
+       ). This result is possibly due to its organizational equilibrium between tetradecamer and heptamer. This observation suggests that the tetradecameric organization of ClpP assembly is necessary for degradation of substrate protein.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Overall Structure of the Extended SaClpP
+      </title>
+      <p>
+       The extended
+       <em>
+        Sa
+       </em>
+       ClpP was crystallized in space group C2. The structure was refined at 2.28 Å resolution (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). In this crystal, the asymmetric unit consists of two heptameric rings stacking face-to-face to form a tetradecamer. Because ClpPs display a high degree of sequence similarity in various organisms (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ), it is no surprise that the overall protein folding of
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer closely resembles the common feature of the previously solved ClpP structures in the extended states from other organisms (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       and
+       <a>
+        supplemental Fig. 2,
+        <em>
+         A
+        </em>
+        and
+        <em>
+         B
+        </em>
+       </a>
+       ) (
+       <xref ref-type="bibr">
+        9
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        19
+       </xref>
+       –
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ). Structurally, a
+       <em>
+        Sa
+       </em>
+       ClpP monomer can be divided into three parts: N-terminal loop (colored in
+       <em>
+        green
+       </em>
+       ), head domain (
+       <em>
+        yellow
+       </em>
+       ), and handle domain (
+       <em>
+        cyan
+       </em>
+       ) (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       ). Functionally, the N-terminal loops bearing seven antiparallel β-hairpins (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        D
+       </em>
+       ) control the entrance diameter of the protease chamber. In this extended
+       <em>
+        Sa
+       </em>
+       ClpP, the loops fill the space surrounding the entrance to the axial channel in defining a narrow pore about 12 Å in diameter (see
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        A
+       </em>
+       ,
+       <em>
+        bottom panel
+       </em>
+       ) to allow only the passage of a single amino acid (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ). The head domain comprises the bulk of the protein and forms the apical surface of the tetradecamer. The handle domains in each heptamer consist of one β-strand and a long helix (αE), which intercalates with the handle domains of the opposing heptameric ring to enclose a tetradecameric cylinder of
+       <em>
+        Sa
+       </em>
+       ClpP.
+      </p>
+      <fig id="F2" position="float">
+       <label>
+        FIGURE 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          Sequence alignment and secondary structure assignment of ClpP proteases.
+         </strong>
+         Sequence alignment was performed in ClustalW2 (
+         <xref ref-type="bibr">
+          52
+         </xref>
+         ) and drawn with ESPript (
+         <xref ref-type="bibr">
+          53
+         </xref>
+         ). Identical residues are highlighted in
+         <em>
+          red
+         </em>
+         , whereas those residues in
+         <em>
+          red font
+         </em>
+         are highly homologous. Residues in a catalytic triad are marked
+         <em>
+          below by an asterisk
+         </em>
+         . Secondary structure elements present in the extended
+         <em>
+          Sa
+         </em>
+         ClpP structure (PDB code
+         <span>
+          3STA
+         </span>
+         ) are shown on the
+         <em>
+          top of the sequence
+         </em>
+         alignment, with residue numbers at the
+         <em>
+          top of the alignment after SaClpP. Mt
+         </em>
+         ClpP,
+         <em>
+          M. tuberculosis. Pf
+         </em>
+         ClpP,
+         <em>
+          P. falciparum
+         </em>
+         ClpP.
+        </p>
+       </caption>
+      </fig>
+      <fig id="F3" position="float">
+       <label>
+        FIGURE 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          Crystal structure of the extended
+          <em>
+           Sa
+          </em>
+          ClpP.
+         </strong>
+         <em>
+          A
+         </em>
+         , shown is a schematic of the overall
+         <em>
+          Sa
+         </em>
+         ClpP tetradecamer. The N-terminal loops are colored in
+         <em>
+          green
+         </em>
+         , the head domain is in
+         <em>
+          yellow
+         </em>
+         , and the handle motif is in
+         <em>
+          cyan. B
+         </em>
+         , shown is a close-up view of interactions around ring-ring interface. The color coding as in
+         <em>
+          A
+         </em>
+         is used. The salt bridge and hydrogen bonding between Asp-170 and Arg-171 are indicated by
+         <em>
+          black dashed lines. C
+         </em>
+         , shown is alignment of seven monomers extracted from one heptamer to show side-chain orientations of Asp-170 and Arg-171. This was performed in PyMOL with a core r.m.s.d. 0.20 Å
+         <sup>
+          2
+         </sup>
+         . α
+         <em>
+          F
+         </em>
+         , helix F.
+         <em>
+          D
+         </em>
+         , presentation of the electron density map for N-terminal loop is shown. The 2
+         <em>
+          F
+          <sub>
+           o
+          </sub>
+         </em>
+         −
+         <em>
+          F
+          <sub>
+           c
+          </sub>
+         </em>
+         electron density map is shown in
+         <em>
+          blue
+         </em>
+         and contoured at the 1.0 σ level. The intramolecular hydrogen bonds locking the stable β-sheet structure are indicated by
+         <em>
+          black dashed lines
+         </em>
+         . The residues are shown according to
+         <em>
+          Sa
+         </em>
+         ClpP sequence.
+        </p>
+       </caption>
+      </fig>
+      <fig id="F5" position="float">
+       <label>
+        FIGURE 5.
+       </label>       <caption>
+        <p>
+         <strong>
+          Structural comparisons between the extended and compressed
+          <em>
+           Sa
+          </em>
+          ClpP.
+         </strong>
+         The electrostatic surface was calculated in DelPhi (
+         <xref ref-type="bibr">
+          54
+         </xref>
+         ).
+         <em>
+          A
+         </em>
+         , shown is an electrostatic surface presentation of the extended
+         <em>
+          Sa
+         </em>
+         ClpP tetradecamer ∼96 Å in height and ∼100 Å in diameter. N-terminal loops define a 12 Å axial pore in diameter based on residue Asn-12 (
+         <em>
+          bottom panel
+         </em>
+         ). The region of ring-ring interfaces is
+         <em>
+          highlighted
+         </em>
+         with a
+         <em>
+          box
+         </em>
+         in
+         <em>
+          black dashed lines. B
+         </em>
+         , shown is an electrostatic surface presentation of the compressed
+         <em>
+          Sa
+         </em>
+         ClpP for side (
+         <em>
+          top
+         </em>
+         ) and top (
+         <em>
+          bottom
+         </em>
+         ) views. The compressed structure is shown as a tetradecamer in crystal packing with dimensions of ∼84 Å in height (excluding the N-terminal loops) and ∼108 Å in diameter. The axial pore surrounded by Asp-19 is estimated to be 20 Å in diameter (
+         <em>
+          bottom panel
+         </em>
+         ).
+         <em>
+          C
+         </em>
+         , shown is a monomeric overlay of the two structures. This was performed in PyMOL with a small r.m.s.d. 0.56 Å
+         <sup>
+          2
+         </sup>
+         showing great architectural similarity. The monomer taken from the compressed structure is colored in
+         <em>
+          pink
+         </em>
+         , and the extended structure is in.
+         <em>
+          D
+         </em>
+         , overall superimposition of the two rings from the extended (
+         <em>
+          slate
+         </em>
+         ) and compressed (
+         <em>
+          pink
+         </em>
+         ) structures is presented in cylindrical schematics. This is conducted in Gromacs software with a core r.m.s.d. 22.83 Å
+         <sup>
+          2
+         </sup>
+         . The motif motion in the compressed
+         <em>
+          Sa
+         </em>
+         ClpP is indicated as a
+         <em>
+          solid arrow
+         </em>
+         compared with that in the extended tetradecamer.
+         <em>
+          E
+         </em>
+         , the superimposition was performed by using one monomer as reference. Side views of the alignment are provided at different angles, and the relative movements are indicated by a
+         <em>
+          solid arrow
+         </em>
+         .
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Arg-171-Asp-170 Network Keeps Ring-Ring Interlocking and Handle Helix Extended
+      </title>
+      <p>
+       It was previously proposed that the ring-ring stacking in ClpP tetradecamer was mainly stabilized by charge-charge interaction from the head domain (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ). In
+       <em>
+        Ec
+       </em>
+       ClpP, truncations in the handle domain did not lead to dissociation of the double rings. However, the mutation of Arg-184 or Glu-183, corresponding to Arg-171 or Asp-170 in
+       <em>
+        Sa
+       </em>
+       ClpP, respectively, caused ring-ring dissociation (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ). Similarly, in the extended
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer, the two heptameric rings are held together by extensive hydrogen bonding and salt bridge interactions mediated through an Arg-171-Asp-170 network from apposing subunits (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        B
+       </em>
+       ). It is worth noting that these interactions are just located at the equator of the tetradecameric cylinder (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       ), so electrostatic interactions not only exist between the two oppositely charged residues from the same monomer but also between those from apposing monomers. Besides electrostatic interactions, the guanidino side chain of Arg-171 is located close to several polar residues, such as Gln-124, Gln-132, and Glu-135 from other monomers, which participate in an interdependent bonding network (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        B
+       </em>
+       ). Furthermore, residues Gln-132 and Glu-135, located at top tip position of helix E, form hydrogen bonds with Arg-171 and Asp-170 from a neighboring subunit, which is most likely to play a significant role in keeping helix E in a straight conformation. The highly conserved orientations of Arg-171 and Asp-170 in all seven monomers from one ring further demonstrate the functional importance of these two key residues (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        C
+       </em>
+       ). Taken together, the Arg-171-Asp-170 network seems to be crucial not only to maintain the cylindrical chamber enclosed but also to predominantly keep the handle helix in a straight conformation.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Overall Structure of the Compressed SaClpP
+      </title>
+      <p>
+       The crystal structure of the compressed
+       <em>
+        Sa
+       </em>
+       ClpP was solved and refined at 2.43 Å resolution (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). In this crystal each asymmetric unit consists of one single heptameric ring, as half of that shown in
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        A
+       </em>
+       . The overall protein folding is strikingly different from either the extended or compacted states as observed in ClpPs from other species (
+       <a>
+        supplemental Fig. 2,
+        <em>
+         C
+        </em>
+        and
+        <em>
+         D
+        </em>
+       </a>
+       ). The N-terminal loops are completely unstructured, opening a wide axial pore ∼20 Å in diameter at the N terminus (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ,
+       <em>
+        bottom panel
+       </em>
+       ). In particular, the handle helix displays substantial differences from the extended
+       <em>
+        Sa
+       </em>
+       ClpP (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        A
+       </em>
+       ), implying very important functional differences between these two states. To gain the interactions around the ring-ring interfaces in the compressed structure, the kind of tetradecameric packing observed in the crystal is built by symmetric operation according to packing lattice. In contrast to the tightly packed tetradecameric structure of the extended state, all salt bridge and hydrogen-bonding interactions along the equator of the catalytic chamber disappear in the compressed tetradecamer of
+       <em>
+        Sa
+       </em>
+       ClpP (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        B
+       </em>
+       ). It is also found that the side chains of Asp-170 and Arg-171, which were involved in holding two rings stacked closely in the extended
+       <em>
+        Sa
+       </em>
+       ClpP, are positioned in disordered orientations (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        C
+       </em>
+       and
+       <a>
+        supplemental Fig. 3
+       </a>
+       ). The ring-ring interfaces are, therefore, significantly weakened in the compressed structure. Moreover, some residues are observed in electrostatic repulsion positions along the equator (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ,
+       <em>
+        top panel
+       </em>
+       , and
+       <a>
+        supplemental Fig. 4,
+        <em>
+         A
+        </em>
+        and
+        <em>
+         C
+        </em>
+       </a>
+       ). All these structural elements may result in loose contacts between the double heptameric rings in the compressed
+       <em>
+        Sa
+       </em>
+       ClpP assembly.
+      </p>
+      <fig id="F4" position="float">
+       <label>
+        FIGURE 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          Crystal structure of the compressed
+          <em>
+           Sa
+          </em>
+          ClpP.
+         </strong>
+         <em>
+          A
+         </em>
+         , shown is a schematic presentation of the overall
+         <em>
+          Sa
+         </em>
+         ClpP in the compressed state. The color coding is as in
+         <xref ref-type="fig">
+          Fig. 3
+         </xref>
+         <em>
+          A
+         </em>
+         is used. The tetradecamer is generated through symmetric operation in PyMOL to show crystal packing. The N-terminal loops are fully disordered, and no electron density could be traced.
+         <em>
+          B
+         </em>
+         , shown is a close-up view of the ring-ring interface. Residues Asp-170 and Arg-171 are shown as
+         <em>
+          sticks
+         </em>
+         , and the interaction network disappears.
+         <em>
+          C
+         </em>
+         , shown is alignment of seven monomers extracted from one heptameric ring to show the relative positions of Asp-170 and Arg-171. This is performed in PyMOL to give a core r.m.s.d. value of 0.22 Å
+         <sup>
+          2
+         </sup>
+         . α
+         <em>
+          F
+         </em>
+         , helix F.
+         <em>
+          D
+         </em>
+         , shown is conformational stabilization of handle helix E. The residues involved in anchoring helix E in a kinked conformation are shown as
+         <em>
+          sticks
+         </em>
+         with the hydrogen bonds depicted as
+         <em>
+          black dashed lines
+         </em>
+         .
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Handle Helix Kinks to Push Ring Compressed
+      </title>
+      <p>
+       In the extended
+       <em>
+        Sa
+       </em>
+       ClpP, salt bridge contacts between Asp-170 and Arg-171 from both rings play crucial roles to lock ring-ring stacking into a tetradecameric organization and keep the handle helix E anchored in an extended conformation (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ,
+       <em>
+        A
+       </em>
+       and
+       <em>
+        B
+       </em>
+       ). However, we found that entire handle motifs were broken at residues Lys-145, showing bent conformations in the compressed
+       <em>
+        Sa
+       </em>
+       ClpP structure (
+       <xref ref-type="fig">
+        Figs. 4
+       </xref>
+       <em>
+        D
+       </em>
+       and
+       <xref ref-type="fig">
+        None
+       </xref>
+       <em>
+        A
+       </em>
+       ). One consequence of this reengagement is a large loss of ring-ring-buried binding surface. The buried surface area between the double rings in the extended structure is calculated to be around 12,800 Å
+       <sup>
+        2
+       </sup>
+       in PyMOL, 25% larger than that in the compressed
+       <em>
+        Sa
+       </em>
+       ClpP (10,000 Å
+       <sup>
+        2
+       </sup>
+       ). The imperfect packing of two heptameric rings in the compressed state indicates potential dissociation of double heptameric rings for product release. Therefore, the interesting question to address is how the handle motifs maintain kinked conformations in the compressed
+       <em>
+        Sa
+       </em>
+       ClpP. Through examining the structure, we discovered that a hydrogen-bonding network exists to keep the helix E in a kinked conformation (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        D
+       </em>
+       ). The polar side chain of Glu-137, located at the top tip position of the helix E, participates in the formation of extensive hydrogen bonding with neighboring residues including Asp-38, Ser-70, and Thr-72, which are all located in the stable conformational head domain.
+      </p>
+      <fig id="F6" position="float">
+       <label>
+        FIGURE 6.
+       </label>       <caption>
+        <p>
+         <strong>
+          Molecular dynamic simulation trajectory.
+         </strong>
+         <em>
+          A
+         </em>
+         , shown is fluctuation of handle helix E. Superimposition of two monomers from the extended (in
+         <em>
+          yellow
+         </em>
+         ) and compressed structures (in
+         <em>
+          cyan
+         </em>
+         ), respectively, was performed in PyMOL using 155 atoms with a core r.m.s.d. 0.567 Å
+         <sup>
+          2
+         </sup>
+         . The fluctuation range is estimated to be within an angle around 80 degrees. Residues involved in anchoring helix E in either the extended or kinked positions are shown as
+         <em>
+          sticks
+         </em>
+         . Hydrogen bonds are indicated with
+         <em>
+          black dashed lines. B
+         </em>
+         , residue dynamics was obtained by averaging atomic fluctuations over the 200-ns simulation for
+         <em>
+          Sa
+         </em>
+         ClpP monomer. The highly flexible domains including N-terminal loop (
+         <em>
+          green
+         </em>
+         ), handle helix E (α
+         <em>
+          E
+         </em>
+         ,
+         <em>
+          red
+         </em>
+         ), and helix F (α
+         <em>
+          F
+         </em>
+         ;
+         <em>
+          purple
+         </em>
+         ) are
+         <em>
+          highlighted. C
+         </em>
+         , shown is time dependence of the r.m.s.d. of the Cα atoms in the 200-ns MD simulations for the
+         <em>
+          Sa
+         </em>
+         ClpP monomer (
+         <em>
+          black
+         </em>
+         ) and one heptameric ring of the extended tetradecamer (
+         <em>
+          red
+         </em>
+         ).
+         <em>
+          D
+         </em>
+         , shown is structural superimposition of the active triad residues for the typical snapshots from the MD trajectory: 50 ns (
+         <em>
+          cyan
+         </em>
+         ), 100 ns (
+         <em>
+          magenta
+         </em>
+         ), 150 ns (
+         <em>
+          orange
+         </em>
+         ), 200 ns (
+         <em>
+          purple
+         </em>
+         ). Positions of His-123 and Asp-172 in the extended (
+         <em>
+          green
+         </em>
+         ) and compressed states (
+         <em>
+          red
+         </em>
+         ) are also shown.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       The overall dimensions of the extended
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer are 96 Å in height (for head and handle domains) and 100 Å in diameter (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        A
+       </em>
+       ). The two compressed heptameric rings are packed in overall dimensions of 84 Å in height and 108 Å in diameter (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       ). To understand the structural element in the formation of the compressed
+       <em>
+        Sa
+       </em>
+       ClpP cylinder, we performed three superimpositions in PyMOL (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ,
+       <em>
+        C–E
+       </em>
+       ). Two single monomers extracted from heptamer and tetradecamer were overlaid to give a root mean square deviation (r.m.s.d.) of 0.6 Å
+       <sup>
+        2
+       </sup>
+       . This small value reflects a close overall similarity of monomeric architectures; in particular, the head domains are almost identical in these two structures (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        C
+       </em>
+       ). However, the assembly of seven kinked monomers into one heptameric ring severely compresses the overall dimension by about 6 Å in height. To further investigate how this happens, we performed two more independent ring-ring overlays.
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        D
+       </em>
+       shows that a heptameric ring is overlaid with one ring from
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer, whereas
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        E
+       </em>
+       shows the result of overlaying the two rings by using two specific monomers as a reference. It can be clearly seen that the long helix E is broken into two short helices at the position of residue Lys-145, and the newly formed short helix is lying down to push away the neighboring monomer, avoiding rigid body constraints (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ,
+       <em>
+        D
+       </em>
+       and
+       <em>
+        E
+       </em>
+       ). Consequently, the overall packing of the compressed tetradecamer becomes wider in diameter compared with that of the extended
+       <em>
+        Sa
+       </em>
+       ClpP tetradecamer. Through taking this compressed conformation,
+       <em>
+        Sa
+       </em>
+       ClpP squeezes the chamber space for substrate binding, showing that it is in an inactive conformation for catalytic degradation.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Conformational Changes Observed in Molecular Dynamic Simulation
+      </title>
+      <p>
+       As shown in
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       , the two positions of helix E represent two distinct conformations of
+       <em>
+        Sa
+       </em>
+       ClpP. Within the ∼80 degree fluctuating angle in width, many snapshot configurations possibly exist accompanied by the catalytic degrading function. To investigate the dynamic features, we monitored root mean square fluctuation (r.m.s.f.) along MD trajectories. r.m.s.f. reflects the mobility of a certain residue around its average position. The r.m.s.f. values of each residue in ClpP
+       <sup>
+        mono
+       </sup>
+       indicated that large fluctuations of residues occurred in sequence between His-123 and Lys-145, which is the kinked part of the handle domain in the compressed
+       <em>
+        Sa
+       </em>
+       ClpP (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ), suggesting that this part is very flexible and that the kink is spontaneous. To assess the dynamic stability of the two systems during the simulations, we also monitored r.m.s.d. values of protein Cα atoms relative to the initial x-ray crystal structure along the entire MD trajectories (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        C
+       </em>
+       ). The structure of ClpP
+       <sup>
+        14half
+       </sup>
+       appears to be more stable than ClpP
+       <sup>
+        mono
+       </sup>
+       , indicating that monomers in heptameric ring can stabilize each other.
+      </p>
+      <p>
+       As discussed above, Arg-171 and Asp-170 from opposing rings can interact with and stabilize each other in the extended ClpP structure, keeping helix E straight. Because there is only one single ring in ClpP
+       <sup>
+        14half
+       </sup>
+       , Arg-171 and Asp-170 cannot be stabilized by those from opposing rings, so we can assume that the Arg-171-Asp-170 interaction network, which exists in the extended state, disappears in ClpP
+       <sup>
+        14half
+       </sup>
+       . Thus, the MD simulation results reveal dynamic properties of ClpP without this network. r.m.s.f. profiles of ClpP
+       <sup>
+        14half
+       </sup>
+       indicate that the residues with higher fluctuation values are His-123–Lys-145 in the handle domain and helix F. The residue with the largest r.m.s.f. value is Ala-133, which is located at the top tip position of helix E (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ,
+       <em>
+        red box
+       </em>
+       ). Accordingly, superimposition of the compressed state with the extended state reveals kinking of helix E and a major shift in helix F (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        C
+       </em>
+       and
+       <a>
+        supplemental Fig. 2
+        <em>
+         D
+        </em>
+       </a>
+       ). Furthermore, we examined the snapshots isolated from the trajectory of ClpP
+       <sup>
+        14half
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        D
+       </em>
+       ). The MD result indicates that His-123 shifted away from the active conformation and gradually flipped to another orientation. Taken together, the MD results suggest that the kink in helix E is mechanically spontaneous. Without the Arg-171-Asp-170 network, the extended
+       <em>
+        Sa
+       </em>
+       ClpP shows a remarkable tendency toward the compressed state.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       ATPase Binding Pockets Closed in the Compressed SaClpP
+      </title>
+      <p>
+       A new class of antibiotics, ADEPs, have been identified to activate ClpP in the absence of ATPases (
+       <xref ref-type="bibr">
+        15
+       </xref>
+       ). Recently, two independent structural studies have provided the molecular mechanisms of ADEP binding in hydrophobic pockets of
+       <em>
+        Bs
+       </em>
+       ClpP and
+       <em>
+        Ec
+       </em>
+       ClpP (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ). As shown in
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        A
+       </em>
+       , in the activated
+       <em>
+        Ec
+       </em>
+       ClpP (PDB code
+       <span>
+        3MT6
+       </span>
+       ), the long aliphatic side chain of ADEP1 mimics the loop of ATPases to properly fit into the hydrophobic channel on surface (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ). To gain the conformational differences in ATPase-binding pockets, we overlaid the two
+       <em>
+        Sa
+       </em>
+       ClpP structures on the ADEP1-activated
+       <em>
+        Ec
+       </em>
+       ClpP structure. As shown in
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        B
+       </em>
+       , the aliphatic-chain binding channel is almost fully opened in the extended
+       <em>
+        Sa
+       </em>
+       ClpP. We observed the similar result in the
+       <em>
+        Ec
+       </em>
+       ClpP-ADEP1 complex structure. The corresponding binding pocket, however, is completely closed to make ADEP1 side-chain binding impossible in the compressed
+       <em>
+        Sa
+       </em>
+       ClpP (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        C
+       </em>
+       ). In the overlaying model, the aliphatic side chain of ADEP1 is entirely buried inside the protein surface. These models suggest that dynamic motion of the protease catalytic core also induces the conformational change of the hydrophobic pocket for ATPase binding.
+      </p>
+      <fig id="F7" position="float">
+       <label>
+        FIGURE 7.
+       </label>       <caption>
+        <p>
+         <strong>
+          Differences in the ATPase binding pockets of
+          <em>
+           Sa
+          </em>
+          ClpP structures.
+         </strong>
+         <em>
+          A
+         </em>
+         , ADEP1 binding in the hydrophobic pocket of
+         <em>
+          Ec
+         </em>
+         ClpP (PDB code
+         <span>
+          3MT6
+         </span>
+         ) is shown. The surface of
+         <em>
+          Ec
+         </em>
+         ClpP is colored in
+         <em>
+          green
+         </em>
+         , and ADEP1 is shown as
+         <em>
+          yellow sticks
+         </em>
+         . The extended channel for ADEP1 aliphatic chain binding is marked by a
+         <em>
+          dashed circle. B
+         </em>
+         , shown is ADEP1 binding model in the extended
+         <em>
+          Sa
+         </em>
+         ClpP pocket, generated by an overlay on the activated state of
+         <em>
+          Ec
+         </em>
+         ClpP. The same orientation and labeling manner were used as in
+         <em>
+          A
+         </em>
+         . Protein surface is colored in
+         <em>
+          slate. C
+         </em>
+         , shown is an ADEP1 binding model in the compressed
+         <em>
+          Sa
+         </em>
+         ClpP pocket (
+         <em>
+          pink
+         </em>
+         ) shown in the same orientation as in
+         <em>
+          A
+         </em>
+         .
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Catalytic Triads Observed in the Extended and Compressed SaClpP
+      </title>
+      <p>
+       In the structure of
+       <em>
+        Hp
+       </em>
+       ClpP-peptide complex (PDB code
+       <span>
+        2ZL2
+       </span>
+       ) (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ), along the axial direction, the alignment of key functional regions include three parts. The upper catalytic triad includes Ser-99, His-124, and Asp-173 in one monomer, corresponding to Ser-98, His-123, and Asp-172 in
+       <em>
+        Sa
+       </em>
+       ClpP, respectively; the interlocking region includes Asp-171, Arg-172, and Asp-136, corresponding to Asp-170, Arg-171, and Glu-135 in
+       <em>
+        Sa
+       </em>
+       ClpP, respectively, connecting four neighboring monomers, and the lower catalytic triad has same residues as in the upper from the opposing monomer (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       <em>
+        A
+       </em>
+       ). These three regions are physically located close to each other. For the extended
+       <em>
+        Sa
+       </em>
+       ClpP, the orientations of the catalytic triads are quite similar to those of the structure of
+       <em>
+        Hp
+       </em>
+       ClpP-peptide complex (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       <em>
+        B
+       </em>
+       ). Each
+       <em>
+        Sa
+       </em>
+       ClpP catalytic triad (
+       <xref ref-type="bibr">
+        9
+       </xref>
+       ), containing residues Ser-98, His-123, and Asp-172, is located at the junction parts of the head and handle domains and quite close to the ring-ring interlocking regions (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       <em>
+        B
+       </em>
+       ). Therefore, the interaction between Arg-171 and Asp-170 would impinge on the catalytic triad when conformational change occurs. In the compressed
+       <em>
+        Sa
+       </em>
+       ClpP, the underlying secondary structural elements necessary for the proper orientations of the residues in the catalytic triad are completely dispositional (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       <em>
+        C
+       </em>
+       ), Asp-172 shifts away from the rest of the triad, and His-123, as a consequence of the repacking, is flipped into an orientation where it can no longer bridge Ser-98 and Asp-172 by hydrogen bonding. This reengagement of the active site residues causes the loss of substrate binding positions, suggesting that the compressed
+       <em>
+        Sa
+       </em>
+       ClpP is in a proteolytically inactive state.
+      </p>
+      <fig id="F8" position="float">
+       <label>
+        FIGURE 8.
+       </label>       <caption>
+        <p>
+         <strong>
+          Proposed conformational switching between these two
+          <em>
+           Sa
+          </em>
+          ClpP states.
+         </strong>
+         <em>
+          A
+         </em>
+         , the catalytic triads and interlocking region from the substrate-binding structure of
+         <em>
+          Hp
+         </em>
+         ClpP (PDB code
+         <span>
+          2ZL2
+         </span>
+         ) are shown along the axial inside proteolytic chamber. The three monomers in contact with each other are colored in
+         <em>
+          green
+         </em>
+         ,
+         <em>
+          slate
+         </em>
+         , and
+         <em>
+          pink
+         </em>
+         , and the bound peptide is in
+         <em>
+          magenta. B
+         </em>
+         , key residues involved in catalytic degradation and ring-ring interaction in the extended
+         <em>
+          Sa
+         </em>
+         ClpP are shown as
+         <em>
+          sticks
+         </em>
+         in an orientation similar to those in
+         <em>
+          A
+         </em>
+         . The potential motions for residues His-123 and Asp-172 in the active site and handle helix E are indicated by
+         <em>
+          arrows. C
+         </em>
+         , the active site and interlocking residues as in
+         <em>
+          B
+         </em>
+         positioned new directions in a disordered manner in the compressed
+         <em>
+          Sa
+         </em>
+         ClpP. The handle helix E kinks and flips away. Therefore, Glu-135 is not involved in hydrogen bonding with other residues as observed in
+         <em>
+          B
+         </em>
+         . The substrate peptide binding space is squeezed.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Proposed Conformational Switching between the Extended and Compressed States
+      </title>
+      <p>
+       Spacious pockets for substrate peptide binding exist inside the chamber of the extended
+       <em>
+        Sa
+       </em>
+       ClpP (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       <em>
+        B
+       </em>
+       ). The catalytic triad residues can properly bind to substrates through hydrogen-bonding with Ser-98 and His-123. After catalytic cleavage of the peptide bond, the accumulation of digested segments in the active site may induce the rearrangement of the hydrogen-bonding network nearby. As a result, His-123 shifts away from the active position and is gradually flipped to another orientation, leading to the destruction of the Arg-171-Asp-170 contact network (
+       <xref ref-type="fig">
+        Fig. 8
+       </xref>
+       <em>
+        C
+       </em>
+       ). The restraint for helix E by interactions between Glu-135, Gln-132, and Arg-171 are released, enabling it to undergo a spontaneous conformational switch; the peptide binding pocket disappears with it because the kinked helix E is no longer properly packing as a part of the substrate binding pocket. More intriguing is the possibility that ionic changes in the active cavity upon peptide bond cleavage might affect the interacting contacts, leading to partial dissociation of the two rings or other conformational changes that would release products outside the chamber.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    The crystal structures of many members of the ClpP family have been described (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    –
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ). Of those, only
+    <em>
+     Ec
+    </em>
+    ClpP structures have been solved both in the extended and compacted states for wild-type and disulfide cross-linked proteins, respectively. Such structures indicate that the handle domain may naturally undergo a conformational change during the course of dynamic transitions between the extended and compacted states (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). However, how the degraded peptide products exit the catalytic chamber still remains unclear as there is no direct structural evidence to exclusively support the hypothesis of product release through the handle domain. In this study we report the structural characterizations of
+    <em>
+     Sa
+    </em>
+    ClpP in two distinct conformations. It is the first time that two distinct states have been observed in wild-type ClpP protease for a specific organism. This discovery enabled us to investigate the molecular mechanisms of substrate degradation and product release.
+   </p>
+   <p>
+    The observation (
+    <a>
+     supplemental Fig. 1
+     <em>
+      C
+     </em>
+     and supplemental Table 1
+    </a>
+    ) that the native
+    <em>
+     Sa
+    </em>
+    ClpP degrades the model peptide Suc-LY-AMC in 200 m
+    <span>
+     m
+    </span>
+    sodium sulfate at triple the rate of that exhibited by the same protein in buffer containing 100 m
+    <span>
+     m
+    </span>
+    KCl suggests that heptameric organization is much efficient for short peptide digestion
+    <em>
+     in vitro
+    </em>
+    . Similar to
+    <em>
+     Ec
+    </em>
+    ClpP (
+    <xref ref-type="bibr">
+     45
+    </xref>
+    ),
+    <em>
+     Sa
+    </em>
+    ClpP appears as a typical heptameric oligomerization in the presence of 200 m
+    <span>
+     m
+    </span>
+    sodium sulfate (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     A
+    </em>
+    and
+    <a>
+     supplemental Fig. 1
+     <em>
+      B
+     </em>
+    </a>
+    ). This organization probably allows substrate peptides easier access into the active sites through C-terminal opening than through N-terminal pores. Most interestingly, the heptameric oligomerization of
+    <em>
+     Sa
+    </em>
+    ClpP appears to correlate well with its peptidase activity (
+    <a>
+     supplemental Fig. 1,
+     <em>
+      B
+     </em>
+     and
+     <em>
+      C
+     </em>
+    </a>
+    ), further suggesting that peptide degradation is much efficient in the opened chamber of ClpP. On the other hand, a tetradecameric assembly of ClpP is necessary for protein degradation in ATPase-dependent manner. This is supported by the observation (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     C
+    </em>
+    and
+    <a>
+     supplemental Fig. 1
+     <em>
+      E
+     </em>
+    </a>
+    ) that
+    <em>
+     N
+    </em>
+    -2-
+    <em>
+     Sa
+    </em>
+    ClpP, which has two extra amino acids at the N terminus, has lower proteolysis activity on model protein degradation compared with that of
+    <em>
+     C
+    </em>
+    -His-
+    <em>
+     Sa
+    </em>
+    ClpP, which has native amino acid sequence at the N terminus. Given the oligomeric equilibrium between tetradecamer and heptamer of
+    <em>
+     N
+    </em>
+    -2-
+    <em>
+     Sa
+    </em>
+    ClpP protein (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     A
+    </em>
+    and
+    <a>
+     supplemental Fig. 1
+     <em>
+      A
+     </em>
+    </a>
+    ), the relative lower proteolytic activity seems to support the notion that tetradecameric organization is required for protein degradation in the presence of ATPase, such as ClpX or ClpA. The molecular mechanisms behind these observations remain enigmatic and await further investigations.
+   </p>
+   <p>
+    The N-terminal sequences of more than 100 ClpP proteins derived from different prokaryotic and eukaryotic genomes show a very high degree of conservation (
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    ) (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ). If well packed or disordered, N-terminal loops modulate peptide diffusion into the ClpP chamber by tuning the diameters of axial pores remains controversial (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    –
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ). In the ADEP1-bound
+    <em>
+     Ec
+    </em>
+    ClpP structure (PDB code
+    <span>
+     3MT6
+    </span>
+    ), all the N-terminal loops adopt well ordered β-hairpin conformations that maximally open an axial pore about 20 Å in diameter (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ), allowing unfolded proteins to enter into active sites for proteolysis. In the extended
+    <em>
+     Sa
+    </em>
+    ClpP, the overall protein folding reserves the common features of ClpP structures in the extended organization (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    –
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ). Some N-terminal β-hairpins are well ordered in the extended
+    <em>
+     Sa
+    </em>
+    ClpP (
+    <xref ref-type="fig">
+     Fig. 3
+    </xref>
+    <em>
+     D
+    </em>
+    ), showing how these loops participate in controlling the narrowness of the pores and restrict the entrance of large polypeptides into the axial channel. The other loops are partially disordered like those observed in previously solved structures, indicating that these regions are usually conformationally flexible and dynamic. The crystal packing pattern and molecule contact in crystals might contribute to the partial-ordered conformation of those in the observed N-terminal loops. All the N-terminal loops in the compressed
+    <em>
+     Sa
+    </em>
+    ClpP structure are completely unstructured (
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    <em>
+     A
+    </em>
+    ), indicating that ATPase binding the nearby N terminus might enable these loops to assume a well ordered conformation. The breathing motions of N-terminal regions, accompanied by other conformational changes, are likely to account mainly for controlling the entry of substrate proteins into the catalytic chamber of ClpP.
+   </p>
+   <p>
+    It has been established that charge-charge interaction plays an important role for ring-ring stacking in the formation of tetradecameric cylinder (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ). Indeed, close inspection of the extended
+    <em>
+     Sa
+    </em>
+    ClpP shows that polar residue Arg-171 plays a central role through the formation of an extensive network of salt bridge and hydrogen bonding with surrounding residues. These bridges and bonds link the four neighboring monomers such that they will closely interact with each other (
+    <xref ref-type="fig">
+     Figs. 3
+    </xref>
+    <em>
+     B
+    </em>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    <em>
+     B
+    </em>
+    ). Furthermore, Glu-135 and Asn 132, located on the top tip position of the turn in the handle domain, prevent long helix E from kinking away by hydrogen bonding to Arg-171 and Asp-170 (
+    <xref ref-type="fig">
+     Figs. 3
+    </xref>
+    <em>
+     B
+    </em>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    <em>
+     A
+    </em>
+    ). These interactions are critical to keeping the long handle helix straight. Based on our structural analysis, it is tempting to suppose that disruption of these elaborate interactions contributes to the dynamic conformational changes between the extended and compressed states that accomplish the degradation cycle in the cylindrical protease.
+   </p>
+   <p>
+    The protein crystallized in ammonium sulfate as a tetradecamer with single heptamer in asymmetric unit. However, the compressed structure shows the tendency of ring-ring dissociation for the following reasons. First, the high concentration in crystal could have promoted the formation of double rings. In addition, the
+    <em>
+     N
+    </em>
+    -2-
+    <em>
+     Sa
+    </em>
+    ClpP protein exists in a dynamic equilibrium between heptameric and tetradecameric forms, confirmed by gel filtration (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     A
+    </em>
+    ). Treatment of native
+    <em>
+     Sa
+    </em>
+    ClpP protein with sodium sulfate allows for the tetradecamer migrating toward the heptameric form in a concentration-dependent manner (
+    <a>
+     supplemental Fig. 1
+     <em>
+      B
+     </em>
+    </a>
+    ). A similar phenomenon has been reported for
+    <em>
+     Ec
+    </em>
+    ClpP (
+    <xref ref-type="bibr">
+     45
+    </xref>
+    ). Furthermore, it has been established that mutation of the Arg-184-Glu-183 interaction network leads to dissociation of the double heptameric rings in
+    <em>
+     Ec
+    </em>
+    ClpP (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ), and the corresponding Arg-171-Asp-170 network appears weakened in the crystal structure of compressed
+    <em>
+     Sa
+    </em>
+    ClpP (
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    <em>
+     B
+    </em>
+    and
+    <a>
+     supplemental Fig. 3
+    </a>
+    ). Moreover, in the built compressed tetradecamer, the buried binding surface between the double rings was significantly reduced compared with that in the extended
+    <em>
+     Sa
+    </em>
+    ClpP tetradecamer, and some residues were observed in electrostatic repulsion positions (
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    <em>
+     B
+    </em>
+    and
+    <a>
+     supplemental Fig. 4,
+     <em>
+      A
+     </em>
+     and
+     <em>
+      C
+     </em>
+    </a>
+    ). Similar to the compressed
+    <em>
+     Sa
+    </em>
+    ClpP, the structures of
+    <em>
+     Pf
+    </em>
+    ClpP and
+    <em>
+     Mt
+    </em>
+    ClpP have been solved as compacted tetradecamers in crystals. However, these proteins can exist as stable heptamers under physiological conditions, which were confirmed by analytical ultracentrifugation and size exclusion chromatography (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ).
+   </p>
+   <p>
+    In the compressed
+    <em>
+     Sa
+    </em>
+    ClpP, the conformation of handle domain is very different from that of the extended
+    <em>
+     Sa
+    </em>
+    ClpP tetradecamer (
+    <xref ref-type="fig">
+     Figs. 3
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Typically, the long helix E is packed in a disordered manner in all ClpP structures solved in the compacted states (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    –
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ). Unexpectedly, in the compressed
+    <em>
+     Sa
+    </em>
+    ClpP structure, the long helix motif adopts a stable configuration, broken severely into two helices at the residue Lys-145 (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    <em>
+     A
+    </em>
+    ). Judged as normal through model analyses, this significant conformational change seems to be initiated by disruption of the extensive Arg-171-Asp-170 interactions network, which is located around the interfaces of double rings and quite close to catalytic triads. The disappearance of the interactions between Glu-135 (and Gln-132) and Arg-171 causes the handle helix to lose the force of its anchor at the extended state and to swing spontaneously away from the active site. This predominant motion is likely to result in partial dissociation of double ClpP rings in the stacked tetradecamer, therefore, allowing short peptides or free amino acids to escape the catalytic chamber. This notion is further supported by MD simulation experiments (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    ,
+    <em>
+     B
+    </em>
+    and
+    <em>
+     C
+    </em>
+    ). The MD result establishes that handle region is indeed dynamic, and kink of helix E is mechanically spontaneous. Without Arg-171-Asp-170 network restraint, the extended
+    <em>
+     Sa
+    </em>
+    ClpP shows a remarkable tendency to switch to the compressed status. In addition to the MD experiment, we also applied a biochemical assay to test the stability of the ring-ring stacking in solution. The concentration of sulfate ion drives the movement of self-assembly between tetradecamer and heptamer (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     A
+    </em>
+    and
+    <a>
+     supplemental Fig. 1
+     <em>
+      B
+     </em>
+    </a>
+    ), revealing that ionic strength may influence the stability of double heptameric ring packing. Initially, such movement might be induced by the dynamic fluctuation of the handle motif from an extended orientation.
+   </p>
+   <p>
+    ClpP protease by itself has limited degradative activity on small peptides (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     49
+    </xref>
+    ) and some poorly folded proteins (
+    <xref ref-type="bibr">
+     47
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ). The formations of ClpAP and ClpXP complex are key for the degradation of large protein substrates (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ). To achieve complex formation, ATPases utilize the highly conserved tripeptide consensus sequence of IG(F/L) to specifically dock into the hydrophobic pockets of the N terminus of ClpP (
+    <xref ref-type="bibr">
+     51
+    </xref>
+    ). The dynamic structural switching is also associated with conformational changes of these hydrophobic pockets. Compared with models of
+    <em>
+     Ec
+    </em>
+    ClpP or
+    <em>
+     Bs
+    </em>
+    ClpP bound with ADEP1 (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ), the extended
+    <em>
+     Sa
+    </em>
+    ClpP structure shows a similar pocket feature that could be viewed as a state in which the binding pocket is almost fully opened and ready to specifically accommodate the binding of flexible loops of ClpX (
+    <xref ref-type="fig">
+     Fig. 7
+    </xref>
+    ,
+    <em>
+     A
+    </em>
+    and
+    <em>
+     B
+    </em>
+    ). However, the shape of pocket changes significantly in the compressed
+    <em>
+     Sa
+    </em>
+    ClpP (
+    <xref ref-type="fig">
+     Fig. 7
+    </xref>
+    <em>
+     C
+    </em>
+    ). There is not enough open space for binding by aliphatic loops of ClpX, indicating that the compressed
+    <em>
+     Sa
+    </em>
+    ClpP is in an inactivated status for catalytic degradation. This observation is similar to the previous result that the compacted
+    <em>
+     Ec
+    </em>
+    ClpP did not bind ClpX (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). Judging not only based on the dynamic conformational change in the handle domains but also from the structural differences in ATPase binding pockets, the dynamic switching between these two structures describe the course of the functional cycle of this proteolysis system.
+   </p>
+   <p>
+    The compressed
+    <em>
+     Sa
+    </em>
+    ClpP structure has suggested that ring-ring dissociation is also likely to occur in the entire catalytic cycle of ClpP protease. The long helix E is found to be in either straight or kinked conformation in the extended or compressed
+    <em>
+     Sa
+    </em>
+    ClpP structure, respectively. The dynamic window for the conformational fluctuation is broad up to ∼80 degrees between these two states (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    <em>
+     A
+    </em>
+    ). However, it would not be necessary to shift helix E to the fully bent position and leave the chamber completely open to solvent. MD analysis of both monomeric and heptameric
+    <em>
+     Sa
+    </em>
+    ClpP structures indicates that any snapshots in the continuous conformational change possibly occur spontaneously accompanied by other structural changes to accomplish the entire cycle from substrate entry to product release. In the compressed
+    <em>
+     Sa
+    </em>
+    ClpP tetradecamer, the two heptameric rings are rotated with respect to each other by eight degrees around the axial directions, whereas the corresponding rotation angle was estimated to be five degrees in the compacted
+    <em>
+     Ec
+    </em>
+    ClpP tetradecamer (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ), indicating that the compacted structure seems to represent an intermediate status of transition between the extended and compressed states (
+    <a>
+     supplemental Fig. 2,
+     <em>
+      C
+     </em>
+     and
+     <em>
+      D
+     </em>
+    </a>
+    ). Overall, the extended conformation of helix E is critical to facilitate the two heptameric rings to stack face-to-face in the formation of a tetradecamer for substrate degradation. Meanwhile, the transient fluctuation of the handle domain is a key to understanding the mechanism of product release.
+   </p>
+   <p>
+    Mechanistically, in conjunction with these structural characterizations, further MD simulation experiments draw a connection between the conformational change in active site and helix E kinking during the entire structural switching. These experiments reveal the whole process of substrate degradation in catalytic triads and product release from catalytic chamber (
+    <xref ref-type="fig">
+     Fig. 8
+    </xref>
+    ). In the extended active state, His-123 and Asp-172 involved in catalytic triad formation align themselves in proper geometry by bridging residue Ser-98. However, the side chains of these residues flip away from the active site and are positioned toward the charge-charge interlocking region after substrate proteolysis, and then ClpP starts to switch to the compressed state. Consequently, the participation of these polar residues destroys the central interaction networks of Arg-171-Asp-170. Therefore, the long helix kinks away as a result of loss of hydrogen-bonding restraint on the top tip, thus leading to partial dissociation of the two heptameric rings or other conformational changes that would release products outside the chamber, depending on how much the kinking of helix E undergoes.
+   </p>
+   <p>
+    In summary, these two structures of
+    <em>
+     Sa
+    </em>
+    ClpP together with biochemical assays and MD simulation data have provided two different conformational snapshots of ClpP undergoing a structural switch to perform a catalytic functional cycle. Furthermore, the structures explain the organizational principles behind biological complex formation and reveal mechanistic insight into the biological function of peptides degradation in the active site as well as product release from the cylindrical chamber. The fundamental understanding of the structural features in two different functional states presented here can now be used to further investigate the molecular mechanism of substrate translocation into the hollow chamber of ClpP in the presence of ATPase.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Gottesman S., Maurizi M. R., Wickner S. (1997)
+      <span>
+       Cell
+      </span>
+      <span>
+       91
+      </span>
+      , 435–438
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Gottesman S., Wickner S., Maurizi M. R. (1997)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       11
+      </span>
+      , 815–823
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Wawrzynow A., Wojtkowiak D., Marszalek J., Banecki B., Jonsen M., Graves B., Georgopoulos C., Zylicz M. (1995)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       14
+      </span>
+      , 1867–1877
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Porankiewicz J., Wang J., Clarke A. K. (1999)
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       32
+      </span>
+      , 449–458
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Chandu D., Nandi D. (2004)
+      <span>
+       Res. Microbiol.
+      </span>
+      <span>
+       155
+      </span>
+      , 710–719
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Butler S. M., Festa R. A., Pearce M. J., Darwin K. H. (2006)
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       60
+      </span>
+      , 553–562
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Yu A. Y., Houry W. A. (2007)
+      <span>
+       FEBS Lett.
+      </span>
+      <span>
+       581
+      </span>
+      , 3749–3757
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Corydon T. J., Bross P., Holst H. U., Neve S., Kristiansen K., Gregersen N., Bolund L. (1998)
+      <span>
+       Biochem. J.
+      </span>
+      <span>
+       331
+      </span>
+      , 309–316
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Wang J., Hartling J. A., Flanagan J. M. (1997)
+      <span>
+       Cell
+      </span>
+      <span>
+       91
+      </span>
+      , 447–456
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Chatterjee I., Becker P., Grundmeier M., Bischoff M., Somerville G. A., Peters G., Sinha B., Harraghy N., Proctor R. A., Herrmann M. (2005)
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       187
+      </span>
+      , 4488–4496
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Frees D., Chastanet A., Qazi S., Sørensen K., Hill P., Msadek T., Ingmer H. (2004)
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       54
+      </span>
+      , 1445–1462
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Frees D., Qazi S. N., Hill P. J., Ingmer H. (2003)
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       48
+      </span>
+      , 1565–1578
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Michel A., Agerer F., Hauck C. R., Herrmann M., Ullrich J., Hacker J., Ohlsen K. (2006)
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       188
+      </span>
+      , 5783–5796
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Donegan N. P., Thompson E. T., Fu Z., Cheung A. L. (2010)
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       192
+      </span>
+      , 1416–1422
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Brötz-Oesterhelt H., Beyer D., Kroll H. P., Endermann R., Ladel C., Schroeder W., Hinzen B., Raddatz S., Paulsen H., Henninger K., Bandow J. E., Sahl H. G., Labischinski H. (2005)
+      <span>
+       Nat. Med.
+      </span>
+      <span>
+       11
+      </span>
+      , 1082–1087
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Bewley M. C., Graziano V., Griffin K., Flanagan J. M. (2006)
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       153
+      </span>
+      , 113–128
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Szyk A., Maurizi M. R. (2006)
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       156
+      </span>
+      , 165–174
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Li D. H., Chung Y. S., Gloyd M., Joseph E., Ghirlando R., Wright G. D., Cheng Y. Q., Maurizi M. R., Guarné A., Ortega J. (2010)
+      <span>
+       Chem. Biol.
+      </span>
+      <span>
+       17
+      </span>
+      , 959–969
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Kim D. Y., Kim K. K. (2008)
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       379
+      </span>
+      , 760–771
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Lee B. G., Park E. Y., Lee K. E., Jeon H., Sung K. H., Paulsen H., Rübsamen-Schaeff H., Brötz-Oesterhelt H., Song H. K. (2010)
+      <span>
+       Nat. Struct. Mol. Biol.
+      </span>
+      <span>
+       17
+      </span>
+      , 471–478
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Kang S. G., Maurizi M. R., Thompson M., Mueser T., Ahvazi B. (2004)
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       148
+      </span>
+      , 338–352
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Kimber M. S., Yu A. Y., Borg M., Leung E., Chan H. S., Houry W. A. (2010)
+      <span>
+       Structure
+      </span>
+      <span>
+       18
+      </span>
+      , 798–808
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Gribun A., Kimber M. S., Ching R., Sprangers R., Fiebig K. M., Houry W. A. (2005)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       280
+      </span>
+      , 16185–16196
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      El Bakkouri M., Pow A., Mulichak A., Cheung K. L., Artz J. D., Amani M., Fell S., de Koning-Ward T. F., Goodman C. D., McFadden G. I., Ortega J., Hui R., Houry W. A. (2010)
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       404
+      </span>
+      , 456–477
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Ingvarsson H., Maté M. J., Högbom M., Portnoï D., Benaroudj N., Alzari P. M., Ortiz-Lombardía M., Unge T. (2007)
+      <span>
+       Acta Crystallogr. D. Biol. Crystallogr.
+      </span>
+      <span>
+       63
+      </span>
+      , 249–259
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Thompson M. W., Maurizi M. R. (1994)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       269
+      </span>
+      , 18201–18208
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Thompson M. W., Singh S. K., Maurizi M. R. (1994)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       269
+      </span>
+      , 18209–18215
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Ortega J., Lee H. S., Maurizi M. R., Steven A. C. (2004)
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       146
+      </span>
+      , 217–226
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Sprangers R., Gribun A., Hwang P. M., Houry W. A., Kay L. E. (2005)
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       102
+      </span>
+      , 16678–16683
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Geiger S. R., Böttcher T., Sieber S. A., Cramer P. (2011)
+      <span>
+       Angew. Chem. Int. Ed. Engl.
+      </span>
+      <span>
+       50
+      </span>
+      , 5749–5752
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Wojtyra U. A., Thibault G., Tuite A., Houry W. A. (2003)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       278
+      </span>
+      , 48981–48990
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Otwinowski Z., Minor W. (1997)
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       276
+      </span>
+      , 307–326 Elsevier Science Publishing Co., Inc., New York
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      CCP4 (1994)
+      <span>
+       Acta Crystallogr. D. Biol. Crystallogr.
+      </span>
+      <span>
+       50
+      </span>
+      , 760–763
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Read R. J. (2001)
+      <span>
+       Acta Crystallogr. D. Biol. Crystallogr.
+      </span>
+      <span>
+       57
+      </span>
+      , 1373–1382
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Emsley P., Cowtan K. (2004)
+      <span>
+       Acta Crystallogr. D. Biol. Crystallogr.
+      </span>
+      <span>
+       60
+      </span>
+      , 2126–2132
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Murshudov G. N., Vagin A. A., Dodson E. J. (1997)
+      <span>
+       Acta Crystallogr. D. Biol. Crystallogr.
+      </span>
+      <span>
+       53
+      </span>
+      , 240–255
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      DeLano W. L. (2010)
+      <span>
+       The PyMOL Molecular Graphics System
+      </span>
+      , Version 1.3r1, Schrodinger, LLC, New York
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Van Der Spoel D., Lindahl E., Hess B., Groenhof G., Mark A. E., Berendsen H. J. (2005)
+      <span>
+       J. Comput. Chem.
+      </span>
+      <span>
+       26
+      </span>
+      , 1701–1718
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Duan Y., Wu C., Chowdhury S., Lee M. C., Xiong G., Zhang W., Yang R., Cieplak P., Luo R., Lee T., Caldwell J., Wang J., Kollman P. (2003)
+      <span>
+       J. Comput. Chem.
+      </span>
+      <span>
+       24
+      </span>
+      , 1999–2012
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Jorgensen W. L., Madura J. D., Impey R. W., Klein M. L. (1983)
+      <span>
+       J. Chem. Phys.
+      </span>
+      <span>
+       79
+      </span>
+      , 926–935
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Hess B., Bekker H., Berendsen H., Fraaije J. (1997)
+      <span>
+       J. Comput. Chem.
+      </span>
+      <span>
+       18
+      </span>
+      , 1463–1472
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Darden T., York D., Pedersen L. (1993)
+      <span>
+       J. Chem. Phys.
+      </span>
+      <span>
+       98
+      </span>
+      , 10089–10092
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Berendsen H. J. C., Postma J. P. M., van Gunsteren W. F., DiNola A., Haak J. R. (1984)
+      <span>
+       J. Chem. Phys.
+      </span>
+      <span>
+       81
+      </span>
+      , 3684–3690
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Fletcher R. (1980)
+      <span>
+       Practical Methods of Optimization
+      </span>
+      ,
+      <span>
+       Vol. 1
+      </span>
+      , pp. 1–40, John Wiley and Sons, New York
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Maurizi M. R., Singh S. K., Thompson M. W., Kessel M., Ginsburg A. (1998)
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       37
+      </span>
+      , 7778–7786
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Jennings L. D., Bohon J., Chance M. R., Licht S. (2008)
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       47
+      </span>
+      , 11031–11040
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Bewley M. C., Graziano V., Griffin K., Flanagan J. M. (2009)
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       165
+      </span>
+      , 118–125
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Jennings L. D., Lun D. S., Médard M., Licht S. (2008)
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       47
+      </span>
+      , 11536–11546
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Woo K. M., Chung W. J., Ha D. B., Goldberg A. L., Chung C. H. (1989)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       264
+      </span>
+      , 2088–2091
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Effantin G., Maurizi M. R., Steven A. C. (2010)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       285
+      </span>
+      , 14834–14840
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Martin A., Baker T. A., Sauer R. T. (2008)
+      <span>
+       Nat. Struct. Mol. Biol.
+      </span>
+      <span>
+       15
+      </span>
+      , 1147–1151
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Larkin M. A., Blackshields G., Brown N. P., Chenna R., McGettigan P. A., McWilliam H., Valentin F., Wallace I. M., Wilm A., Lopez R., Thompson J. D., Gibson T. J., Higgins D. G. (2007)
+      <span>
+       Bioinformatics
+      </span>
+      <span>
+       23
+      </span>
+      , 2947–2948
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Gouet P., Courcelle E., Stuart D. I., Métoz F. (1999)
+      <span>
+       Bioinformatics
+      </span>
+      <span>
+       15
+      </span>
+      , 305–308
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Rocchia W. A., E. Honig B. (2001)
+      <span>
+       J. Phys. Chem. B.
+      </span>
+      <span>
+       105
+      </span>
+      , 6507–6514
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

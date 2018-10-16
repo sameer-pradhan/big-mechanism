@@ -1,0 +1,2586 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3411083
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    BiP-mediated closing of the Sec61 channel limits Ca2+ leakage from the ER
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     In mammalian cells, signal peptide-dependent protein transport into the endoplasmic reticulum (ER) is mediated by a dynamic protein-conducting channel, the Sec61 complex. Previous work has characterized the Sec61 channel as a potential ER Ca
+     <sup>
+      2+
+     </sup>
+     leak channel and identified calmodulin as limiting Ca
+     <sup>
+      2+
+     </sup>
+     leakage in a Ca
+     <sup>
+      2+
+     </sup>
+     -dependent manner by binding to an IQ motif in the cytosolic aminoterminus of Sec61α. Here, we manipulated the concentration of the ER lumenal chaperone BiP in cells in different ways and used live cell Ca
+     <sup>
+      2+
+     </sup>
+     imaging to monitor the effects of reduced levels of BiP on ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage. Regardless of how the BiP concentration was lowered, the absence of available BiP led to increased Ca
+     <sup>
+      2+
+     </sup>
+     leakage via the Sec61 complex. When we replaced wild-type Sec61α with mutant Sec61αY344H in the same model cell, however, Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER increased and was no longer affected by manipulation of the BiP concentration. Thus, BiP limits ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage through the Sec61 complex by binding to the ER lumenal loop 7 of Sec61α in the vicinity of tyrosine 344.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     BiP, calcium homeostasis, diabetes mutation, endoplasmic reticulum, ER calcium leakage, Sec61 complex gating
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In mammalian cells, the endoplasmic reticulum (ER) represents a major storage compartment for calcium ions (Ca
+    <sup>
+     2+
+    </sup>
+    ) as well as the major site of synthesis of soluble and membrane proteins of various cell organelles (
+    <xref ref-type="bibr">
+     Blobel and Dobberstein, 1975
+    </xref>
+    ). The latter function involves an aqueous polypeptide-conducting pore in the ER membrane that is large enough to accommodate a polypeptide chain in transit. In contrast, the function as reservoir for receptor-controlled Ca
+    <sup>
+     2+
+    </sup>
+    release requires the ER membrane to be more or less impermeable to Ca
+    <sup>
+     2+
+    </sup>
+    . Otherwise, the Ca
+    <sup>
+     2+
+    </sup>
+    gradient between ER lumen and cytosol could not be maintained and Ca
+    <sup>
+     2+
+    </sup>
+    could not excert its central role as a second messenger in cellular signalling (
+    <xref ref-type="bibr">
+     Crowley et al, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Berridge, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rizzuto and Pozzan, 2006
+    </xref>
+    ). However, the Ca
+    <sup>
+     2+
+    </sup>
+    impermeability of the ER membrane is not absolute (
+    <xref ref-type="bibr">
+     Camello et al, 2002
+    </xref>
+    ). It is one of the functions of the sarcoplasmic ER calcium ATPase (SERCA) to counteract the so-called passive Ca
+    <sup>
+     2+
+    </sup>
+    efflux (also termed, Ca
+    <sup>
+     2+
+    </sup>
+    leakage) from the ER in order to maintain the Ca
+    <sup>
+     2+
+    </sup>
+    gradient (
+    <xref ref-type="bibr">
+     Wuytack et al, 2002
+    </xref>
+    ).
+   </p>
+   <p>
+    Many proteins of the ER, ER-Golgi intermediate compartment (ERGIC), Golgi, endosomes, lysosomes, plasma membrane, nucleus, peroxisomes, and the extracellular space are integrated into the ER membrane or transported to the ER lumen by a protein translocase with the heterotrimeric Sec61 complex acting as a dynamic polypeptide-conducting channel (
+    <xref ref-type="bibr">
+     Görlich and Rapoport, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hartmann et al, 1994
+    </xref>
+    ). Pore diameters of the Sec61 channel have been found to range from 9–15 Å for the closed to 40–60 Å for the open mammalian Sec61 complex (
+    <xref ref-type="bibr">
+     Hamman et al, 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wirth et al, 2003
+    </xref>
+    ). After completion of protein translocation, that is, when the Sec61 complex is still ribosome bound but free of a translocating polypeptide chain, or in the ribosome-free state, the Sec61 complex can transiently allow Ca
+    <sup>
+     2+
+    </sup>
+    flux (
+    <xref ref-type="bibr">
+     Flourakis et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Erdmann et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lang et al, 2011a
+    </xref>
+    ). Therefore, gating of the Sec61 channel is tightly regulated. Signal sequences of precursor polypeptides destined for the ER contribute to Sec61 channel gating, that is, to opening of the Sec61 complex for partial or full passage of a precursor polypeptide (
+    <xref ref-type="bibr">
+     Kim et al, 2002
+    </xref>
+    ). Furthermore, ER lumenal BiP and cytosolic Ca
+    <sup>
+     2
+     <strong>
+      +
+     </strong>
+    </sup>
+    –calmodulin (CaM) facilitate Sec61 channel gating from the open to the closed state. According to
+    <em>
+     in-vitro
+    </em>
+    experiments, BiP can play a role in opening the Sec61 complex for polypeptide passage together with its nucleotide exchange factor Grp170 (
+    <xref ref-type="bibr">
+     Dierks et al, 1996
+    </xref>
+    ) and is involved in Sec61 channel closure before and early in translocation together with a hitherto unidentified Hsp40-type co-chaperone (
+    <xref ref-type="bibr">
+     Hamman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alder et al, 2005
+    </xref>
+    ). Ca
+    <sup>
+     2+
+    </sup>
+    –CaM binds to an IQ motif present in the cytosolic aminoterminus of the α-subunit of the heterotrimeric Sec61 complex and limits Ca
+    <sup>
+     2+
+    </sup>
+    leakage from the ER by closing the Sec61 channel in a Ca
+    <sup>
+     2+
+    </sup>
+    -dependent manner. Because the ER is not a major Ca
+    <sup>
+     2+
+    </sup>
+    storage organelle in lower eukaryotes, such as yeast, the latter two gating mechanisms may not be relevant to all eukaryotes (
+    <xref ref-type="bibr">
+     Harsman et al, 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    We asked if the proposed role of BiP in channel closure can be demonstrated at the cellular level and whether the mechanism can be further elucidated. To do so, we manipulated the concentration of available BiP in human cells by different means, such as
+    <em>
+     BIP
+    </em>
+    gene silencing or induction of protein misfolding in the ER, and used live cell Ca
+    <sup>
+     2+
+    </sup>
+    imaging to monitor the effects of reduced levels of BiP on ER Ca
+    <sup>
+     2+
+    </sup>
+    leakage. Regardless of how the BiP concentration was lowered, the absence of available BiP led to increased Ca
+    <sup>
+     2+
+    </sup>
+    leakage from the ER via the Sec61 complex. Recent work on a mouse model for diabetes has indicated that a point mutation in the ER lumenal loop 7 of murine Sec61α leads to a partially deficient Sec61 complex and to β-cell death as well as diabetes (
+    <xref ref-type="bibr">
+     Lloyd et al, 2010
+    </xref>
+    ). When we replaced wild-type Sec61α with the respective mutant Sec61αY344H in human cells, Ca
+    <sup>
+     2+
+    </sup>
+    leakage from the ER was increased and this ER Ca
+    <sup>
+     2+
+    </sup>
+    leakage was no longer affected by manipulation of the BiP concentration. The results suggest that BiP limits ER Ca
+    <sup>
+     2+
+    </sup>
+    leakage by gating the Sec61 complex via binding to loop 7 of Sec61α. This interpretation is further substantiated by the observations that the Y344H mutation also affects opening of the Sec61 channel for BiP-dependent translocation of certain precursor polypeptides and loop 7 interaction of BiP.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     BIP silencing in HeLa cells is tolerable for 96 h
+    </title>
+    <p>
+     To set the stage for the subsequent experiments, we treated HeLa cells for up to 96 h with one of two different siRNAs that target the coding (
+     <em>
+      BIP
+     </em>
+     siRNA) and the untranslated region (
+     <em>
+      BIP
+     </em>
+     -UTR siRNA) of the
+     <em>
+      BIP
+     </em>
+     mRNA. The maximum silencing effect was seen 72 h after the first transfection (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). After 48 h, the total number of
+     <em>
+      BIP
+     </em>
+     -silenced cells was similar as that of control cells, and the silencing efficiency was between 60 and 75% (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). Up to this time point, the
+     <em>
+      BIP
+     </em>
+     -silenced cells also showed no dramatic effect of siRNA on cell division, that is, compared with control siRNA-treated cells (
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ). Next, we characterized the morphology of the ER in the silenced cells using 3D-structured illumination microscopy. HeLa cells were treated with control-,
+     <em>
+      BIP
+     </em>
+     -, or
+     <em>
+      BIP
+     </em>
+     -UTR siRNA for up to 96 h and then subjected to immunofluorescence 3D-structured illumination microscopy for an established ER marker protein. Independent of whether the cells were treated with control- or one of the
+     <em>
+      BIP
+     </em>
+     siRNAs, they showed typical ER morphology up to 96 h (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Thus, these experiments defined an experimental window of around 48 h after first transfection with
+     <em>
+      BIP
+     </em>
+     siRNA that allows functional analysis of the
+     <em>
+      BIP
+     </em>
+     gene product.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Effect of
+       <em>
+        BIP
+       </em>
+       gene silencing on cell proliferation. HeLa cells were cultured in DMEM-medium in 6-cm culture dishes and transfected with
+       <em>
+        BIP
+       </em>
+       siRNA,
+       <em>
+        BIP
+       </em>
+       -UTR siRNA, or control siRNA at a final concentration of 35 nM as indicated. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) Silencing was evaluated by western blot analysis using anti-BiP antibody with anti-β-actin antibody as a control as described in Materials and methods. Growth rates were determined by using the Countess Automated Cell Counter. The number of control siRNA-treated cells at 96 h was considered to be 100%. Average values are given, and error bars represent standard errors of the mean (
+       <em>
+        n
+       </em>
+       =3). (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) Cell growth in the presence of the different siRNAs was also evaluated using CFSE staining in combination with automated cell sorting (FACS). M1 through M5 represent the number of cell divisions that occurred between 0 and 96 h of cultivation (from right to left); M6 represents unlabelled cells. Similar results were obtained for
+       <em>
+        BIP
+       </em>
+       -UTR siRNA-treated cells (data not shown). M refers to the respective area of control cells.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     BIP silencing stimulates calcium leakage from the ER in intact cells
+    </title>
+    <p>
+     According to available
+     <em>
+      in-vitro
+     </em>
+     experiments, we expected BiP to contribute to limiting Sec61-mediated Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER at the cellular level (
+     <xref ref-type="bibr">
+      Haigh and Johnson, 2002
+     </xref>
+     ). Therefore, we investigated whether silencing the
+     <em>
+      BIP
+     </em>
+     gene in HeLa cells with two different siRNAs enhanced Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER. Using the Ca
+     <sup>
+      2+
+     </sup>
+     indicator Fura-2 in the absence of extracellular Ca
+     <sup>
+      2+
+     </sup>
+     aids in visualization of the leakage of Ca
+     <sup>
+      2+
+     </sup>
+     from the ER as increased cytosolic calcium concentration in intact cells in response to the irreversible SERCA inhibitor thapsigargin. In Ca
+     <sup>
+      2+
+     </sup>
+     imaging experiments, we treated HeLa cells with one of the two
+     <em>
+      BIP
+     </em>
+     siRNAs for 48 h and, subsequently, Ca
+     <sup>
+      2+
+     </sup>
+     leakage was unmasked by application of thapsigargin in the presence of EGTA. A third batch of cells was treated with a negative-control siRNA. In contrast to the control siRNA, the two
+     <em>
+      BIP
+     </em>
+     siRNAs had similar enhancing and significant effects on the thapsigargin-induced Ca
+     <sup>
+      2+
+     </sup>
+     efflux (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). Under these conditions, the silencing rate was about 70% (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Thus, BiP contributes to reducing Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER in human cells. Control experiments demonstrated that the enhanced Ca
+     <sup>
+      2+
+     </sup>
+     leakage in
+     <em>
+      BIP
+     </em>
+     siRNA-treated cells was not due to reduced protein synthesis or elevated Ca
+     <sup>
+      2+
+     </sup>
+     concentration in these cells (
+     <a>
+      Supplementary Figure S2B and C
+     </a>
+     ). Of note, the
+     <em>
+      BIP
+     </em>
+     -silenced cells showed activation of the unfolded protein response at the transcriptional level (
+     <a>
+      Supplementary Figure S2A
+     </a>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Effect of
+       <em>
+        BIP
+       </em>
+       gene silencing on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER. (
+       <strong>
+        A
+       </strong>
+       ) HeLa cells were treated with the indicated siRNAs for 48 h and loaded with the calcium indicator Fura-2 AM as described in Materials and methods. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. Ca
+       <sup>
+        2+
+       </sup>
+       release was unmasked by applying thapsigargin in the presence of external EGTA. Average values are given, and error bars represent standard errors of the mean (s.e.m.). (
+       <strong>
+        B
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        A
+       </strong>
+       ). Error bars represent s.e.m.
+       <em>
+        P
+       </em>
+       -values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -tests and are indicated with three asterisks (***). The numbers of cells that were analysed are indicated. (
+       <strong>
+        C
+       </strong>
+       ) Silencing was evaluated by western blots. (
+       <strong>
+        D
+       </strong>
+       ) HeLa-CES2 cells, stably expressing an ER resident carboxylesterase, were transfected with the indicated siRNAs and loaded with Fluo5N AM. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. Ca
+       <sup>
+        2+
+       </sup>
+       release was initiated by applying thapsigargin and by the addition of ionomycin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Average values of relative fluorescence decrease are given. (
+       <strong>
+        E
+       </strong>
+       ) Statistical analysis of the changes in the ER lumenal Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        D
+       </strong>
+       ) as indicated by the insert; error bars represent s.e.m. (
+       <strong>
+        F
+       </strong>
+       ) Western blotting evaluated
+       <em>
+        BIP
+       </em>
+       silencing and confirmed that
+       <em>
+        BIP
+       </em>
+       silencing did not lead to significant changes in ER resident carboxylesterase within the time of the experiments. Figure source data can be found with the
+       <a>
+        Supplementary data
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We not only analysed Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER indirectly, that is, as increased Ca
+     <sup>
+      2+
+     </sup>
+     concentration in the cytosol, but also did so directly by monitoring ER lumenal Ca
+     <sup>
+      2+
+     </sup>
+     concentration.
+     <em>
+      BIP
+     </em>
+     was silenced as described above in a stable HeLa cell line, termed HeLa-CES2, containing ER lumenal carboxylesterase, which allows improved loading of AM-dyes into the ER (
+     <xref ref-type="bibr">
+      Rehberg et al, 2008
+     </xref>
+     ). Using this targeting-esterase loading method, we monitored the ER lumenal Ca
+     <sup>
+      2+
+     </sup>
+     concentration with Fluo5N. Under these conditions,
+     <em>
+      BIP
+     </em>
+     silencing also led to increased Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER after addition of thapsigargin (
+     <xref ref-type="fig">
+      Figure 2D and E
+     </xref>
+     ). Of note, BiP depletion did not lead to reduced levels of ER lumenal carboxylesterase (
+     <xref ref-type="fig">
+      Figure 2F
+     </xref>
+     ).
+    </p>
+    <p>
+     To confirm these conclusions, we attempted expression of the
+     <em>
+      BIP
+     </em>
+     cDNA lacking the
+     <em>
+      BIP
+     </em>
+     -UTR in the presence of the
+     <em>
+      BIP
+     </em>
+     -UTR siRNA and observed rescue of the
+     <em>
+      BIP
+     </em>
+     silencing phenotype in form of restoration of the basal Ca
+     <sup>
+      2+
+     </sup>
+     leakage seen in control cells (
+     <xref ref-type="fig">
+      Figure 3A and C
+     </xref>
+     ). Transfection with a negative-control plasmid, however, had no effect. According to western blot analysis, the complementation efficiency of the
+     <em>
+      BIP
+     </em>
+     expression plasmid was around 250% (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). We also carried out plasmid transfections with vector control and the
+     <em>
+      BIP
+     </em>
+     expression plasmid for cells that had been pretreated with control siRNA and observed that three-fold
+     <em>
+      BIP
+     </em>
+     overexpression did not result in significant changes in the thapsigargin responses (
+     <xref ref-type="fig">
+      Figure 3A and C
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Effect of
+       <em>
+        BIP
+       </em>
+       and
+       <em>
+        KAR2
+       </em>
+       expression on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER. HeLa cells were treated with the indicated siRNAs and plasmids for about 48 h and loaded with the calcium indicator Fura-2 AM as described in Materials and methods. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) Ca
+       <sup>
+        2+
+       </sup>
+       release was unmasked by applying thapsigargin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Average values are given, and error bars represent standard errors of the mean (s.e.m.). (
+       <strong>
+        C
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ). Error bars represent s.e.m.
+       <em>
+        P
+       </em>
+       -values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -tests and are indicated with three asterisks (***), NS, not significant. The numbers of cells that were analysed are indicated. (
+       <strong>
+        D
+       </strong>
+       ) Silencing and expression were evaluated by western blots. The
+       <em>
+        KAR2
+       </em>
+       expression was evaluated by using purified Kar2p (
+       <xref ref-type="bibr">
+        Weitzmann et al, 2007
+       </xref>
+       ) as a standard (data not shown) and is given as compared with the BiP content. (
+       <strong>
+        E
+       </strong>
+       ) In analogy to
+       <em>
+        BIP
+       </em>
+       , the
+       <em>
+        PDI-
+       </em>
+       ,
+       <em>
+        GRP94
+       </em>
+       , and
+       <em>
+        CALR
+       </em>
+       -genes were silenced and the effect on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER was analysed as described in the legend to
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       . *
+       <em>
+        P
+       </em>
+       &lt;0.05. (
+       <strong>
+        F
+       </strong>
+       ) Instead of
+       <em>
+        BIP
+       </em>
+       , mutant
+       <em>
+        BIP
+       </em>
+       <sub>
+        <em>
+         R197E
+        </em>
+       </sub>
+       was expressed in the presence of
+       <em>
+        BIP
+       </em>
+       -UTR siRNA and its effect on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER was analysed as described in (
+       <strong>
+        A
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The question was if the observed effect of BiP on cellular Ca
+     <sup>
+      2+
+     </sup>
+     homeostasis is specific or a general phenomenon of the major chaperones of the ER. Therefore, we investigated whether silencing the
+     <em>
+      PDIA1
+     </em>
+     (
+     <em>
+      PDI)-, GRP94
+     </em>
+     , or
+     <em>
+      Calreticulin (CALR)-
+     </em>
+     gene in HeLa cells with validated siRNAs enhanced Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER. In contrast to the
+     <em>
+      BIP
+     </em>
+     siRNA, the
+     <em>
+      PDI
+     </em>
+     ,
+     <em>
+      GRP94
+     </em>
+     and
+     <em>
+      CALR
+     </em>
+     siRNAs did not have a stimulatory effect on the thapsigargin-induced Ca
+     <sup>
+      2+
+     </sup>
+     efflux (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). On average, the silencing rate was 66±4% under these conditions (
+     <em>
+      n
+     </em>
+     was between 10 and 13). Thus, the observed effect is specific to BiP.
+    </p>
+    <p>
+     Based on the available
+     <em>
+      in-vitro
+     </em>
+     experimental results (
+     <xref ref-type="bibr">
+      Alder et al, 2005
+     </xref>
+     ), we expected that the yeast orthologue of BiP, Kar2p, would be unable to limit Sec61-mediated Ca
+     <sup>
+      2+
+     </sup>
+     efflux in HeLa cells. Therefore, we also attempted expression of the
+     <em>
+      KAR2
+     </em>
+     cDNA in the presence of the
+     <em>
+      BIP
+     </em>
+     -UTR siRNA and observed that it was unable to rescue the
+     <em>
+      BIP
+     </em>
+     silencing phenotype; it did not restore the normal level of Ca
+     <sup>
+      2+
+     </sup>
+     leakage (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     ). Western blot analysis showed that the
+     <em>
+      KAR2
+     </em>
+     expression plasmid restored an ER lumenal Hsp70 concentration comparable to control cells (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). Thus, the observed effect of BiP on cellular Ca
+     <sup>
+      2+
+     </sup>
+     homeostasis is highly specific.
+    </p>
+    <p>
+     As a means of further validation of the
+     <em>
+      BIP
+     </em>
+     silencing approach, mutant BiP
+     <sub>
+      R197E
+     </sub>
+     was employed that is inhibited in its ability to cooperate with Hsp40-type co-chaperones (
+     <xref ref-type="bibr">
+      Awad et al, 2008
+     </xref>
+     ) and had to be expected to be unable to facilitate Sec61 gating based on the
+     <em>
+      in-vitro
+     </em>
+     experiments (
+     <xref ref-type="bibr">
+      Alder et al, 2005
+     </xref>
+     ). Therefore, we expressed the
+     <em>
+      BIP
+     </em>
+     <sub>
+      <em>
+       R197E
+      </em>
+     </sub>
+     cDNA in the presence of the
+     <em>
+      BIP
+     </em>
+     -UTR siRNA and observed no rescue of the
+     <em>
+      BIP
+     </em>
+     silencing phenotype; BiP
+     <sub>
+      R197E
+     </sub>
+     did not restore the normal level of Ca
+     <sup>
+      2+
+     </sup>
+     leakage (
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     ). According to western blot analysis, the complementation efficiency of the
+     <em>
+      BIP
+     </em>
+     <sub>
+      <em>
+       R197E
+      </em>
+     </sub>
+     expression plasmid was 250±24% (
+     <em>
+      n
+     </em>
+     =3). Thus, the observed effect of BiP on cellular Ca
+     <sup>
+      2+
+     </sup>
+     homeostasis involves an ER resident Hsp40 and, in addition, bears the hallmarks of a substrate interaction of the chaperone.
+    </p>
+    <p>
+     Next, we asked whether the effect of BiP on ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage could be linked to the Ca
+     <sup>
+      2+
+     </sup>
+     permeable Sec61 complex. To address this question, we treated HeLa cells for 48 h with siRNA directed against
+     <em>
+      BIP
+     </em>
+     plus either
+     <em>
+      SEC61A1
+     </em>
+     siRNA or a negative-control siRNA. The results of Ca
+     <sup>
+      2+
+     </sup>
+     imaging experiments for cells with
+     <em>
+      BIP
+     </em>
+     siRNA plus the control siRNA were indistinguishable from those of the
+     <em>
+      BIP
+     </em>
+     siRNA-treated cells (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). Additional silencing of
+     <em>
+      SEC61A1
+     </em>
+     by siRNA, however, had an inhibitory effect on the
+     <em>
+      BIP
+     </em>
+     silencing-induced Ca
+     <sup>
+      2+
+     </sup>
+     efflux (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). According to western blot analysis, the silencing efficiency of both siRNAs was &gt;70% (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). Thus, BiP contributes to reducing Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER at the level of the Sec61 complex. We also carried out double-siRNA transfections with a two-fold concentration of control siRNA and observed no significant changes in the thapsigargin responses (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Of note, HeLa cells treated with the combination of
+     <em>
+      SEC61A1
+     </em>
+     and
+     <em>
+      BIP
+     </em>
+     siRNA for 48 h were indistinguishable from control siRNA-treated cells in cell growth (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ) and showed a typical ER morphology in 3D-structured illumination microscopy (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Effect of combined
+       <em>
+        BIP
+       </em>
+       and
+       <em>
+        SEC61A1
+       </em>
+       silencing on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER. HeLa cells were treated with the indicated siRNAs for 48 h and loaded with the calcium indicator Fura-2 AM as described in Materials and methods. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. (
+       <strong>
+        A
+       </strong>
+       ) Ca
+       <sup>
+        2+
+       </sup>
+       release was unmasked by applying thapsigargin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Average values are given, and error bars represent standard errors of the mean (s.e.m.). (
+       <strong>
+        B
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        A
+       </strong>
+       ). Error bars represent s.e.m.
+       <em>
+        P
+       </em>
+       -values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -tests and are indicated with three asterisks (***). The numbers of cells that were analysed are indicated. (
+       <strong>
+        C
+       </strong>
+       ) Silencing was evaluated by western blots. (
+       <strong>
+        D
+       </strong>
+       ) Growth rates were determined as described in the legend to
+       <xref ref-type="fig">
+        Figure 1A
+       </xref>
+       (
+       <em>
+        n
+       </em>
+       =3).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Protein misfolding stimulates calcium leakage from the ER in intact cells by reducing the pool of available BiP
+    </title>
+    <p>
+     We reasoned that reproducing the effect of
+     <em>
+      BIP
+     </em>
+     silencing should be possible by reducing the ER lumenal concentration of available BiP using an entirely unrelated approach. Protein misfolding in the ER leads to sequestration of BiP by misfolded polypeptides, induction of the unfolded protein response, and ultimately apoptosis or necrosis. Typical reagents for the induction of protein misfolding in the ER and, thus for ER stress in living cells are dithiothreitol (DTT) and tunicamycin, which interfere with disulphide bridge formation and
+     <em>
+      N
+     </em>
+     -glycosylation, respectively (
+     <xref ref-type="bibr">
+      Helenius et al, 1992
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ellgaard et al, 1999
+     </xref>
+     ). Therefore, we investigated whether reducing the level of available BiP in the ER of HeLa cells using the two different folding antagonists enhances Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER. In Ca
+     <sup>
+      2+
+     </sup>
+     imaging experiments with Fura-2, we treated HeLa cells with either DTT or tunicamycin for 3 min; subsequently, Ca
+     <sup>
+      2+
+     </sup>
+     leakage was visualized by application of thapsigargin in the presence of external EGTA. The two folding antagonists had similar enhancing and significant effects on the thapsigargin-induced Ca
+     <sup>
+      2+
+     </sup>
+     efflux (
+     <xref ref-type="fig">
+      Figure 5A–C
+     </xref>
+     ), that is, phenocopied the effect of
+     <em>
+      BIP
+     </em>
+     gene silencing by siRNA. Thus, BiP contributes to reducing Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER based on these results, as well. Of note, treatment of HeLa cells with tunicamycin or DTT for the duration of these experiments did not elicit UPR (
+     <a>
+      Supplementary Figure S2A
+     </a>
+     ) and did not affect total cellular Ca
+     <sup>
+      2+
+     </sup>
+     content and ER morphology (
+     <a>
+      Supplementary Figures S2C and S4
+     </a>
+     ). Furthermore, this short treatment did not result in phosphorylation of eIF2α (data not shown).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Effect of ER stress inducers on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER. HeLa cells were loaded with the calcium indicator Fura-2 AM as described in Materials and methods. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) As indicated with arrow, the cells were treated with the indicated concentrations of stress inducers for 3 min, and Ca
+       <sup>
+        2+
+       </sup>
+       release was unmasked by applying thapsigargin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Average values are given, and error bars represent standard errors of the mean (s.e.m.). (
+       <strong>
+        C
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B)
+       </strong>
+       . Error bars represent s.e.m.
+       <em>
+        P
+       </em>
+       -values&lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -tests and are indicated with three asterisks (***). The numbers of cells that were analysed are indicated. Tm, tunicamycin. (
+       <strong>
+        D
+       </strong>
+       ) After treatment of HeLa cells with tunicamycin (Tm; 10 μg/ml) or buffer for 3 or 60 min, semi-permeabilized cells were prepared as described in Materials and methods. The indicated precursor polypeptides were synthesized in the presence of the cellular ER or buffer as a negative control. Translation reactions were followed by SDS–PAGE and phosphorimaging. Only the areas of interest from single gels are shown. The efficiencies of modification by oligosaccharyl transferase are given as glycosylated protein in per cent of precursor plus mature protein (
+       <em>
+        n
+       </em>
+       was 3 and 4, respectively). Figure source data can be found with the
+       <a>
+        Supplementary data
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We wondered if treatment of HeLa cells for 3 min was sufficient to affect protein
+     <em>
+      N
+     </em>
+     -glycosylation and, therefore, causes protein misfolding. Thus, HeLa cells were treated with tunicamycin for 3 min and converted to semi-permeabilized cells. Subsequently, the glycosylation capacity of the ER of these semi-permeabilized cells was analysed in an established assay that employs
+     <em>
+      in-vitro
+     </em>
+     synthesis of different model precursor proteins, SDS–PAGE and phosphorimaging (
+     <xref ref-type="bibr">
+      Wilson et al, 1995
+     </xref>
+     ). Indeed, tunicamycin treatment of HeLa cells for 3 min was sufficient to specifically inhibit
+     <em>
+      N
+     </em>
+     -gylcosylation of newly synthesized polypeptides (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ), suggesting that the dolichol-glycan pool is rather small in HeLa cells under the used conditions.
+    </p>
+    <p>
+     To further substantiate above conclusions, we silenced the
+     <em>
+      BIP
+     </em>
+     gene prior to treatment with the stress inducers and observed that there is no additive effect of either drug with
+     <em>
+      BIP
+     </em>
+     -UTR siRNA (
+     <xref ref-type="fig">
+      Figure 6A–C
+     </xref>
+     ). According to western blot analysis, the silencing efficiency of
+     <em>
+      BIP
+     </em>
+     siRNA was &gt;75% (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). The negative-control siRNA had no influence on the drug effect (
+     <xref ref-type="fig">
+      Figure 6A and C
+     </xref>
+     ). Thus, the folding antagonists and
+     <em>
+      BIP
+     </em>
+     silencing indeed have the same stimulatory effect on ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Effect of ER stress inducers and
+       <em>
+        BIP
+       </em>
+       silencing on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER. HeLa cells were treated with the indicated siRNAs for 48 h and loaded with the calcium indicator Fura-2 AM as described in Materials and methods. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) As indicated with arrow, the cells were treated with folding antagonists for 3 min (1 mM and 10 μg/ml, respectively), and Ca
+       <sup>
+        2+
+       </sup>
+       release was unmasked by applying thapsigargin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Average values are given, and error bars represent standard errors of the mean (s.e.m.). (
+       <strong>
+        C
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B)
+       </strong>
+       . Error bars represent s.e.m.
+       <em>
+        P
+       </em>
+       -values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -tests and are indicated with three asterisks (***), NS, not significant. The numbers of cells that were analysed are indicated. (
+       <strong>
+        D
+       </strong>
+       ) Silencing was evaluated by western blots. B, buffer; Tm, tunicamycin. Figure source data can be found with the
+       <a>
+        Supplementary data
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, we asked if the effect of the two folding antagonists on ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage could also be attributed to the Sec61 channel. We treated HeLa cells with DTT or tunicamycin after incubation with either
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA or a negative-control siRNA for 96 h. The results of Ca
+     <sup>
+      2+
+     </sup>
+     imaging experiments for cells with DTT or tunicamycin in combination with the control siRNA were indistinguishable from those of the drug-treated but untransfected cells (
+     <xref ref-type="fig">
+      Figure 7A and E
+     </xref>
+     ). Silencing of
+     <em>
+      SEC61A1
+     </em>
+     by siRNA, however, inhibited the drug-induced Ca
+     <sup>
+      2+
+     </sup>
+     efflux (
+     <xref ref-type="fig">
+      Figure 7B and E
+     </xref>
+     ). Western blot analysis demonstrated that the silencing efficiency of the
+     <em>
+      SEC61A1
+     </em>
+     siRNA was around 85% (
+     <xref ref-type="fig">
+      Figure 7F
+     </xref>
+     ). To confirm this result, we attempted expression of the
+     <em>
+      SEC61A1
+     </em>
+     cDNA, lacking the UTR of the
+     <em>
+      SEC61A1
+     </em>
+     gene, in the presence of the
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA and observed rescue of the
+     <em>
+      SEC61A1
+     </em>
+     silencing phenotype as partial restoration of the drug effects on Ca
+     <sup>
+      2+
+     </sup>
+     leakage (
+     <xref ref-type="fig">
+      Figure 7C and E
+     </xref>
+     ). According to western blot analysis, the complementation efficiency of the
+     <em>
+      SEC61A1
+     </em>
+     expression plasmid was around 65% (
+     <xref ref-type="fig">
+      Figure 7F
+     </xref>
+     ). These findings thus confirmed that BiP contributes to reducing Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER via the Sec61 complex.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Effect of ER stress inducers and
+       <em>
+        SEC61A1Y344H
+       </em>
+       expression on Ca
+       <sup>
+        2+
+       </sup>
+       leakage from the ER. HeLa cells were treated with the indicated siRNAs and plasmids for 48 or 96 h and loaded with the calcium indicator Fura-2 AM as described in Materials and methods. Then live cell Ca
+       <sup>
+        2+
+       </sup>
+       imaging was carried out. (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) As indicated with arrow, the cells were treated with folding antagonists for 3 min, and Ca
+       <sup>
+        2+
+       </sup>
+       release was unmasked by applying thapsigargin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Average values are given, and error bars represent standard errors of the mean (s.e.m.). (
+       <strong>
+        E
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin in the experiments presented in (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ). Error bars represent s.e.m.
+       <em>
+        P
+       </em>
+       -values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -tests and are indicated with three asterisks (***), NS, not significant. The numbers of cells that were analysed are indicated. (
+       <strong>
+        F
+       </strong>
+       ) Silencing and expression were evaluated by western blots. B, buffer, Tm, tunicamycin.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     BiP limits ER calcium leakage via a conserved tyrosine residue of the Sec61α subunit
+    </title>
+    <p>
+     To elucidate the possible mechanism of BiP action, we investigated how a
+     <em>
+      SEC61A1
+     </em>
+     cDNA with a specific point mutation behaves in the complementation experiment. Recent work on a mouse model for diabetes led to the conclusion that mutation of the conserved tyrosine residue in position 344 of murine Sec61α to histidine leads to a deficient Sec61 complex that can support protein transport into the ER and normal insulin secretion but still leads to β-cell death and diabetes (
+     <xref ref-type="bibr">
+      Lloyd et al, 2010
+     </xref>
+     ). The mutated Sec61α was introduced into HeLa cells via the
+     <em>
+      SEC61A1
+     </em>
+     expression plasmid as described above. According to western blot analysis, the complementation efficiency of the mutated
+     <em>
+      SEC61A1
+     </em>
+     expression plasmid was around 60%, that is, comparable to complementation with the wild-type protein (
+     <xref ref-type="fig">
+      Figure 7F
+     </xref>
+     ). In contrast to wild-type Sec61α, however, mutant Sec61αY344H failed to restore the effects of DTT or tunicamycin in the presence of the
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA (
+     <xref ref-type="fig">
+      Figure 7D and E
+     </xref>
+     ). Furthermore, mutant Sec61αY344H led to an increased Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER in the presence of thapsigargin
+     <em>
+      per se
+     </em>
+     , that is, even in the absence of any folding antagonists (buffer controls showed 25% increase,
+     <xref ref-type="fig">
+      Figure 7E
+     </xref>
+     ). We suggest that this outcome results from the presence of Sec61 channels that fail to be gated by BiP because of a mutated ER lumenal loop 7 of Sec61α.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     BiP interaction with loop 7 of Sec61α also modulates Sec61 channel opening in protein translocation
+    </title>
+    <p>
+     Besides its role in Sec61 channel closure, mammalian BiP has two functions in protein translocation into the ER. It is involved in the insertion of precursor polypeptides into the Sec61 complex, that is, opening of the Sec61 channel (
+     <xref ref-type="bibr">
+      Klappa et al, 1991
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dierks et al, 1996
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Alder et al, 2005
+     </xref>
+     ), and it binds to the precursor polypeptide in transit and acts as a molecular ratchet, thus mediating completion of translocation (
+     <xref ref-type="bibr">
+      Nicchitta and Blobel, 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tyedmers et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shaffer et al, 2005
+     </xref>
+     ). Based on the above-described experiments, we reasoned that BiP and loop 7 of Sec61α may also be involved in the initial phase of protein translocation in a precursor-specific manner. This question was addressed using the established protein transport assay (
+     <xref ref-type="bibr">
+      Wilson et al, 1995
+     </xref>
+     ). In addition to the expected negative-control protein preprolactin (ppl; co-translationally transported presecretory protein) (
+     <xref ref-type="bibr">
+      Görlich and Rapoport, 1993
+     </xref>
+     ), several precursors were employed in the transport assay that were expected to show BiP dependence (
+     <xref ref-type="bibr">
+      Lang et al, 2012
+     </xref>
+     ): pERj3 (ER lumenal protein), preprocecropin A (ppcecA; post-translationally transported presecretory protein), and two variants of prion protein (pPrP) that lack the central hydrophobic domain (amino-acid residues 113–133; ΔHD) and the GPI acceptor region (residues 231–254, ΔGPI), respectively (
+     <xref ref-type="bibr">
+      Winklhofer et al, 2003
+     </xref>
+     ). Initial insertion of precursors into the Sec61 complex was assayed as modification by signal peptidase and/or oligosaccharyl transferase, completion of translocation as protease protection in the absence of detergent. In addition, membrane insertion of the model tail anchored (TA) membrane protein Sec61β-ops13 that does not involve the Sec61 complex for its integration into the ER membrane (
+     <xref ref-type="bibr">
+      Lang et al, 2012
+     </xref>
+     ) was analysed as
+     <em>
+      N
+     </em>
+     -glycosylation and served as a control for the integrity of the membrane.
+    </p>
+    <p>
+     BiP-depleted cells were obtained by treating HeLa cells with the subtilase cytotoxin SubAB, which specifically inactivates BiP (
+     <xref ref-type="bibr">
+      Paton et al, 2006
+     </xref>
+     ) (average reduction 98±0%). Respective control cells were treated with SubA
+     <sub>
+      A272
+     </sub>
+     B, an inactive mutant form of SubAB. After 2 h, the two different cell types were converted to semi-permeabilized cells and assayed for transport of various precursor polypeptides (
+     <xref ref-type="fig">
+      Figure 8A
+     </xref>
+     ). As expected, we observed precursor-specific involvement of BiP: the precursor of pl was not affected by the absence of BiP (97±5% processing as compared with the SubA
+     <sub>
+      A272
+     </sub>
+     B treated cells;
+     <em>
+      n
+     </em>
+     =5), while the transport of pERj3, ppcecA, and the two prion precursors was reduced (to between 2±1 and 55±10%,
+     <em>
+      n
+     </em>
+     =6, 4, and 2). Thus, the lack of BiP led to a substrate-specific defect in transport of proteins into the ER that correlated with the defect that was observed after
+     <em>
+      SEC63
+     </em>
+     gene silencing (
+     <xref ref-type="bibr">
+      Lang et al, 2012
+     </xref>
+     ). The TA protein Sec61β-ops13 was not affected by BiP depletion (105±8%,
+     <em>
+      n
+     </em>
+     =5). Hence, BiP depletion had no overall effects on the integrity of the ER membrane, as can be concluded from the activity of oligosaccharyl transferase that depends on a lipid-linked oligosaccharide.
+    </p>
+    <fig id="f8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <p>
+       The absence of BiP and the presence of Sec61αY344H affect protein transport into the ER in a precursor-specific manner. (
+       <strong>
+        A
+       </strong>
+       ) Two hours before preparation of semi-permeabilized cells, HeLa cells were treated with SubAB or SubA
+       <sub>
+        A272
+       </sub>
+       B at final concentrations of 1 μg/ml. (
+       <strong>
+        B
+       </strong>
+       ) HeLa cells were treated with
+       <em>
+        SEC61A1
+       </em>
+       -UTR siRNA or control siRNA for 96 h; 48 h before preparation of semi-permeabilized cells, the cells were transfected with the indicated
+       <em>
+        SEC61A1
+       </em>
+       - or control plasmids. The indicated precursor polypeptides were imported into the cellular ER under co- or post-translational (ppcecA, Sec61β) transport conditions or incubated in the presence of buffer as a negative control. Transport reactions were either followed by sequestration analysis and/or by SDS–PAGE and phosphorimaging. Only the areas of interest from single gels are shown. The efficiencies of modification by signal peptidase or oligosaccharyl transferase are indicated for the shown gel and are given as mature protein in per cent of precursor plus mature protein. PrP precursor was efficiently ubiquitinated, the characteristic ladder of mono-, di-, or triple-ubiqutinated PrP was observed (indicated by asterisk). g, glycosylated polypeptide, p, precursor, PK, proteinase K. Figure source data can be found with the
+       <a>
+        Supplementary data
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, the strategy was to replace wild-type Sec61α with Sec61αY344H in HeLa cells and to analyse protein transport. HeLa cells were treated with siRNA directed against
+     <em>
+      SEC61A1
+     </em>
+     -UTR or a negative-control siRNA for 48 h. Then, the cells were transfected with wild-type
+     <em>
+      SEC61A1-
+     </em>
+     or mutant
+     <em>
+      SEC61A1Y344H-
+     </em>
+     rescue plasmid or a vector control. According to western blot analysis, the complementation efficiency of both
+     <em>
+      SEC61A1
+     </em>
+     expression plasmids was between 60 and 65%. After further 48 h, the various cell populations were converted to semi-permeabilized cells and assayed for transport of the precursor with the most pronounced BiP dependence, pERj3. Preprolactin and Sec61β-ops13 served as negative controls. As expected, in the presence of ER from control cells, pERj3 was processed by signal peptidase and oligosaccharyl transferase (
+     <xref ref-type="fig">
+      Figure 8B
+     </xref>
+     ). Furthermore, in the presence of
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA-treated cells, processing was inhibited (4±1% as compared with the control siRNA-treated cells,
+     <em>
+      n
+     </em>
+     =4) and the inhibition was partially relieved when
+     <em>
+      SEC61A1
+     </em>
+     -rescue plasmid was co-transfected (59±15%,
+     <em>
+      n
+     </em>
+     =5). However, pERj3 transport was not restored to a comparable extent when
+     <em>
+      SEC61A1Y344H
+     </em>
+     -rescue plasmid was co-transfected instead of
+     <em>
+      SEC61A1
+     </em>
+     -rescue plasmid (28±13%,
+     <em>
+      n
+     </em>
+     =5). In contrast, ppl and Sec61β-ops13 were not affected by Sec61αY344H (
+     <xref ref-type="fig">
+      Figure 8B
+     </xref>
+     ). Thus, Sec61αY344H was not able to support translocation of pERj3 as efficiently as the wild-type protein. Because of the overlapping effects of BiP depletion and
+     <em>
+      SEC61A1Y344H
+     </em>
+     expression on protein transport, BiP may indeed interact with loop 7 of Sec61α for gating of the Sec61 complex from the closed to the open state.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     BiP interacts with loop 7 of Sec61α in a specific manner
+    </title>
+    <p>
+     To directly demonstrate the putative interaction of BiP with loop 7 of Sec61α and to identify the BiP-binding site within this ER lumenal loop, peptide-binding experiments were carried out. Peptide spots that correspond to loop 7 of the human Sec61α1 were synthesized on cellulose membranes (amino-acid residues 311 through 355;
+     <a>
+      Supplementary Figure S5
+     </a>
+     ). The peptides consisted of 15 amino-acid residues with an overlap of 13 residues with adjacent peptides and were incubated with
+     <sup>
+      14
+     </sup>
+     C-labelled protein: In addition to BiP, the nucleotide-binding domain (NBD) of BiP and BiP that was saturated with an established substrate peptide were employed and served as negative controls (
+     <xref ref-type="bibr">
+      Awad et al, 2008
+     </xref>
+     ). The bound proteins were visualized by phosphorimaging. Out of the 16 peptides that covered the entire loop 7, peptides 10 and 15 were preferentially bound by BiP and, therefore, suggested specific binding (
+     <xref ref-type="fig">
+      Figure 9A
+     </xref>
+     ). Peptide 15 (corresponding to amino-acid residues 339–353) and the three adjacent spots included the tyrosine residue 344 in central position. In addition, BiP and the two negative-control proteins bound to peptide 6 that has to be dismissed as unspecific binding (corresponding to amino-acid residues 321–335). In surface plasmon resonance spectroscopic (SPR) analysis (
+     <xref ref-type="fig">
+      Figure 9B
+     </xref>
+     ), the affinity (determined as Kd) of BiP for peptide 15 was found to be about 500 μM, thus falling into the established affinity range of BiP for its substrates (
+     <xref ref-type="bibr">
+      Fourie et al, 1994
+     </xref>
+     ). Next, we analysed the nucleotide requirements for the observed interaction of BiP with peptide 15 (
+     <xref ref-type="fig">
+      Figure 9C
+     </xref>
+     ). BiP:ADP (right panel) showed more pronounced binding than BiP:ATP (middle panel), as had been observed by
+     <xref ref-type="bibr">
+      Alder et al (2005)
+     </xref>
+     , supporting the notion of a substrate interaction of BiP. At last, we asked if the effects of the Y344H mutation in loop 7 (
+     <xref ref-type="fig">
+      Figures 7D
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and the differential effect of BiP and Kar2p (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ) can be observed at the level of the peptide-binding experiments. Thus, we analysed binding of BiP to the peptide 15 that included the Y344H mutation in comparison to the corresponding wild-type peptide and Kar2p binding to the wild-type peptide. Replacement of tyrosine 344 by histidine led to significantly decreased BiP binding (
+     <xref ref-type="fig">
+      Figure 9B and C
+     </xref>
+     ). Furthermore, Kar2p bound less efficiently to peptide 15 as compared with BiP (
+     <xref ref-type="fig">
+      Figure 9B
+     </xref>
+     ). Thus, loop 7 indeed contains a BiP interaction site near the tyrosine residue 344. However, future experiments will have to confirm this interaction at the protein level.
+    </p>
+    <fig id="f9" position="float">
+     <label>
+      Figure 9
+     </label>     <caption>
+      <p>
+       BiP binds at or near the minihelix in loop 7 of Sec61α1. (
+       <strong>
+        A
+       </strong>
+       ) 16 Peptides scanning loop 7 of human Sec61α1 as defined by
+       <xref ref-type="bibr">
+        Van den Berg et al (2004)
+       </xref>
+       were synthesized on cellulose membranes via carboxy-terminal attachment as described (
+       <xref ref-type="bibr">
+        Hilpert et al, 2007
+       </xref>
+       ;
+       <xref ref-type="bibr">
+        Erdmann et al, 2011
+       </xref>
+       ). The peptides consisted of 15 amino-acid residues with an overlap of 13 residues with adjacent peptides and were incubated with similar amounts of
+       <sup>
+        14
+       </sup>
+       C-labelled BiP, NBD, and BiP that was saturated with heptapeptide FYQLALT in binding buffer (30 mM Tris–HCl pH 7.5, 170 mM NaCl, 100 mM KCl, 2 mM MgCl
+       <sub>
+        2
+       </sub>
+       , 100 nM BSA, 5% sucrose, 0.05% Tween20). After washing the membranes three times with binding buffer and drying, the bound proteins were visualized by phosphorimaging. Every second peptide is indicated according to the amino-acid sequence of human Sec61α1. (
+       <strong>
+        B
+       </strong>
+       ) Wild-type and mutant peptide 339–353 were synthesized with biotinylated dipeptide KG at the carboxy-terminus and immobilized in the measuring cell of Biacore avidin sensor chip SA. BiP and Kar2p binding were analysed at analyte concentrations between 0.5 and 10 μM in comparison to peptide 325–339 in the reference cell. The running buffer was 10 mM HEPES/KOH pH 7.4, 150 mM NaCl, 6.4 mM KCl, 2 mM MgCl
+       <sub>
+        2
+       </sub>
+       , 0.005% Surfactant P2. The analyses at 4 μM analyte are shown. (
+       <strong>
+        C
+       </strong>
+       ) Peptide 338–353 was synthesized with or without the Y344H substitution and BiP binding was analysed in comparison to the corresponding wild-type peptide as described in (
+       <strong>
+        A
+       </strong>
+       ). Where indicated, ADP or ATP was present at a final concentration of 2 mM. Spot number 3 remained underivatized and served as background. The mean values for bound BiP (arbitrary units) are given with s.e.m. (
+       <em>
+        n
+       </em>
+       =6). (
+       <strong>
+        D
+       </strong>
+       ) Loop 7 is shown in single letter code and with the calculated BiP-binding scores of the respective heptapeptide (kcal/mol). The amino-acid residues were numbered according to
+       <xref ref-type="bibr">
+        Van den Berg et al (2004)
+       </xref>
+       . See text for details. The following structural data were used for peptide docking (PDB ID): 1YUW, 2V7Y, 2KHO, 1DKZ, 1DKY:B, 1DKX, 3DPQ:A, 3DPQ:B, 3DPQ:E, 3DPQ:F, 3DPP:A, 3DPP:B, 3DPO:A, 3DPO:B.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The putative interaction of BiP with loop 7 was also analysed by molecular modelling. First, a structural model of human BiP was generated by multi-template homology modelling using the software MODELLER (
+     <xref ref-type="bibr">
+      Eswar et al, 2006
+     </xref>
+     ) based on the structural templates 1YUW, 2KHO and 2V7Y. Next, 41 heptapeptides covering the entire loop 7 were docked into the peptide-binding sites of 14 X-ray structures of Hsp70 proteins plus the homology model of BiP using the Autodock4 programme (
+     <xref ref-type="bibr">
+      Morris et al, 2009
+     </xref>
+     ). For each peptide, 10 different runs were performed. Docking scores below −8 kcal/mol were observed for the two heptapeptides including residues 339–345 and 347–353, respectively (
+     <xref ref-type="fig">
+      Figure 9D
+     </xref>
+     ). For comparison, redocking of 11 heptapeptides was performed that had been observed in the respective X-ray structures. This analysis resulted in scores between −7.3 and −10.8 kcal/mol. Thus, two heptapeptides taken from loop 7 bound to Hsp70 proteins with similar affinities as compared with native Hsp70 substrate heptapeptides, nicely correlating with the peptide spot data (
+     <xref ref-type="fig">
+      Figure 9A
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <sec>
+    <title>
+     BiP is involved in gating of the Sec61 channel from the open to the closed state
+    </title>
+    <p>
+     In the resting mammalian cell, the cytosolic-free Ca
+     <sup>
+      2+
+     </sup>
+     concentration is 50–100 nM due to Ca
+     <sup>
+      2+
+     </sup>
+     clearance by plasma membrane pumps and exchangers (
+     <xref ref-type="bibr">
+      Yu and Hinkle 2000
+     </xref>
+     ). At the same time, the free Ca
+     <sup>
+      2+
+     </sup>
+     concentration in the ER lumen is 100–800 μM due to the action of SERCA. This Ca
+     <sup>
+      2+
+     </sup>
+     distribution is typically compromised by passive Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER. Indirect evidence has suggested that the Sec61 complex, which mediates signal peptide-dependent protein transport into the ER, contributes to the leak after termination of protein translocation (
+     <xref ref-type="bibr">
+      Lomax et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Van Coppenolle et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Flourakis et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Giunti et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ong et al, 2007
+     </xref>
+     ). Recently, this concept was directly confirmed by the observations that the Sec61 complex is Ca
+     <sup>
+      2+
+     </sup>
+     permeable and that silencing the
+     <em>
+      SEC61A1
+     </em>
+     gene in HeLa cells prevents the Ca
+     <sup>
+      2+
+     </sup>
+     leakage linked to termination of protein synthesis (
+     <xref ref-type="bibr">
+      Lang et al, 2011a
+     </xref>
+     ). As noted, previous work also identified CaM as closing the Sec61 channel
+     <em>
+      in vitro
+     </em>
+     and limiting Ca
+     <sup>
+      2+
+     </sup>
+     leakage in a Ca
+     <sup>
+      2+
+     </sup>
+     -dependent manner in cells by binding to an IQ motif in the cytosolic aminoterminus of Sec61α (
+     <xref ref-type="bibr">
+      Erdmann et al, 2011
+     </xref>
+     ). Furthermore,
+     <em>
+      in-vitro
+     </em>
+     experiments have demonstrated that ER lumenal BiP closes the Sec61 channel, suggesting a role for BiP in limiting Ca
+     <sup>
+      2+
+     </sup>
+     leakage via the Sec61 complex (
+     <xref ref-type="bibr">
+      Hamman et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wirth et al, 2003
+     </xref>
+     ).
+    </p>
+    <p>
+     Here, we asked if the role of BiP in channel closure can be confirmed at the cellular level and if the mechanism can be further elucidated. The concentration of active BiP in cells was manipulated by different means, and the effects of reduced levels of BiP on ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage were monitored by live cell Ca
+     <sup>
+      2+
+     </sup>
+     imaging. Regardless of the method used to lower the BiP concentration, the absence of functional BiP led to increased Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER at the level of Sec61 complexes. Recent work on a mouse model led to the implication that a point mutation in a minihelix within the ER lumenal loop 7 of murine Sec61α, formed by amino-acid residues 341 through 344, results in a partially deficient Sec61 complex and β-cell death and diabetes (
+     <xref ref-type="bibr">
+      Lloyd et al, 2010
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 10A
+     </xref>
+     ). When we replaced wild-type Sec61α with mutant Sec61αY344H in human cells, basal Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER increased and was unaffected by manipulation of the BiP concentration. Therefore, we conclude that BiP limits ER Ca
+     <sup>
+      2+
+     </sup>
+     leakage by contributing to Sec61 complex gating from the open to the closed state via binding to or near the minihelix within loop 7 of Sec61α (
+     <xref ref-type="fig">
+      Figure 10A
+     </xref>
+     ).
+    </p>
+    <fig id="f10" position="float">
+     <label>
+      Figure 10
+     </label>     <caption>
+      <p>
+       Model for the mechanisms of BiP- and CaM-mediated gating of the human Sec61 complex. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) Homology model for the human heterotrimeric Sec61 complex. Views from the plane of the membrane (
+       <strong>
+        A
+       </strong>
+       , lateral gate front) and the cytosol (
+       <strong>
+        B
+       </strong>
+       ) are shown. Transmembrane helices (TM) forming the front of the lateral gate and the plug, respectively, are indicated in colour (based on
+       <xref ref-type="fig">
+        Figure 3
+       </xref>
+       in
+       <xref ref-type="bibr">
+        Zimmermann et al, 2011
+       </xref>
+       ). We note that the ribosome interacts with cytosolic loops 6 and 8 and that these loops directly connect to transmembrane helices 7 and 8, that are part of the lateral gate and flank loop 7. (
+       <strong>
+        C
+       </strong>
+       ) Dynamic equilibrium and effectors of the Sec61 complex (based on
+       <xref ref-type="fig">
+        Figure 2
+       </xref>
+       in
+       <xref ref-type="bibr">
+        Gumbart and Schulten, 2007
+       </xref>
+       ). Our data suggest that BiP binds to ER lumenal loop 7 that directly connects to transmembrane helix 7. Thus, by providing binding energy ribosome and BiP may be able to ‘pull' on transmembrane helix 7 from opposite ends in order to facilitate channel opening for the nascent polypeptide chain.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Hypothesis for BiP-mediated Sec61 channel gating from the open to the closed state
+    </title>
+    <p>
+     The structure of the Sec61 channel provides a potential mechanism for BiP gating of the Sec61 complex from the open to the closed state (
+     <xref ref-type="bibr">
+      Van den Berg et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zimmermann et al, 2011
+     </xref>
+     ). The current view for gating of the Sec61 complex in protein translocation is that signal peptides of nascent presecretory polypeptides intercalate between Sec61α transmembrane helices 2 and 7, opening the lateral gate of the Sec61 complex that these two transmembrane helices form (
+     <xref ref-type="fig">
+      Figure 10B and C
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Gumbart and Schulten, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hizlan et al, 2012
+     </xref>
+     ). According to current results, binding of BiP to or near the minihelix in ER lumenal loop 7 of Sec61α facilitates gating from the open to the closed channel. We find this hypothesis attractive because loop 7 connects transmembrane helices 7 and 8 and, is thus close enough to the lateral gate to influence gate movements (
+     <xref ref-type="fig">
+      Figure 10A and B
+     </xref>
+     ). Furthermore, this idea is attractive because Sec61 complex gating via loop 7 has also been suggested for gating from the closed to the open state during the early phase of protein translocation for the yeast Sec61 complex (
+     <xref ref-type="bibr">
+      Wilkinson et al, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Trueman et al, 2011
+     </xref>
+     ). However, this was not linked to BiP action or the diabetes mouse. We note that Y344 is highly conserved in the Sec61α of eukaryotes and the orthologue SecY in Archaea but not in eubacteria (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ), which may explain why the mechanism of sealing of the SecYEG complex is different in eubacteria (
+     <xref ref-type="bibr">
+      Park and Rapoport, 2011
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     BiP and Ca
+     <sup>
+      2+
+     </sup>
+     –CaM interplay
+    </title>
+    <p>
+     The structure of the Sec61 complex may also provide a framework for Ca
+     <sup>
+      2+
+     </sup>
+     –CaM-mediated gating of the Sec61 complex from the open to the closed state. According to the current view for channel opening, a pore plug that helix 2a forms and that connects transmembrane helices 1 and 2 is displaced concomitant with signal peptide intercalation between transmembrane helices 7 and 8 (
+     <xref ref-type="fig">
+      Figure 10B and C
+     </xref>
+     ). Therefore, it is conceivable that binding of Ca
+     <sup>
+      2+
+     </sup>
+     –CaM to the IQ peptide in the cytosolic domain upstream of transmembrane helix 1 can influence plug movement. We find such a dynamic modulation of the ion permeability of the Sec61 channel by BiP and Ca
+     <sup>
+      2+
+     </sup>
+     –CaM more plausible than the previous suggestion of a static sealing of the channel by the cytosolic ribosome and the ER lumenal BiP. The latter has also been challenged by the cryo-EM data for ribosome/Sec61 complexes (
+     <xref ref-type="bibr">
+      Menetret et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Becker et al, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     Because Ca
+     <sup>
+      2+
+     </sup>
+     –CaM and BiP can close the Sec61 channel and limit Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER via the Sec61 complex, the question then becomes one of identifying when these two mechanisms are active. CaM acts only after Ca
+     <sup>
+      2+
+     </sup>
+     has started to leak out of the ER and reaches a cytosolic concentration of &gt;10 μM, at least in nanodomains surrounding the Sec61 complexes. Therefore, we assume that under conditions when BiP is available, BiP plays the major role in keeping Ca
+     <sup>
+      2+
+     </sup>
+     leakage at bay and that Ca
+     <sup>
+      2+
+     </sup>
+     –CaM kicks in only when BiP starts to fail. This BiP failure, however, seems to occur rather frequently, because CaM antagonists lead to significantly increased Ca
+     <sup>
+      2+
+     </sup>
+     leakage under normal conditions (
+     <xref ref-type="bibr">
+      Erdmann et al, 2011
+     </xref>
+     ). This proposed order of events will have to be addressed in future experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hypothesis for BiP-mediated Sec61 channel gating from the closed to the open state
+    </title>
+    <p>
+     Furthermore, our observations offer a possible explanation for the mechanism of BiP action in the initial phase of protein translocation. The precursor polypeptide that showed the most pronounced BiP dependence also showed sensitivity towards the mutation of Sec61α that relates to the minihelix within the ER lumenal loop 7 (
+     <xref ref-type="bibr">
+      Lloyd et al, 2010
+     </xref>
+     ). We propose that loop 7 also plays a role in gating of the Sec61 complex from closed to open and that BiP binding to this loop 7 may be required for gating from the closed to the open state in the case of some precursor polypeptides, while others may be able to trigger gating on their own or in collaboration with the ribosome (
+     <xref ref-type="fig">
+      Figure 10C
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Gumbart et al, 2009
+     </xref>
+     ). This view is consistent with the suggestion that signal peptides intercalate between transmembrane domains 2 and 7 and that these two transmembrane domains form the so-called lateral gate, possibly releasing signal peptides into the plane of the lipid bilayer in the open state (
+     <xref ref-type="bibr">
+      Van den Berg et al, 2004
+     </xref>
+     ). Obviously, this hypothesis will have to be thoroughly evaluated in future
+     <em>
+      in-vitro
+     </em>
+     experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Implications for the link between ER protein misfolding, Ca
+     <sup>
+      2+
+     </sup>
+     homeostasis, and apoptosis
+    </title>
+    <p>
+     As we have described here, reduction of available BiP in cells by either
+     <em>
+      BIP
+     </em>
+     gene silencing or protein misfolding in the ER leads to Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER. Although it has been known for some time that protein misfolding in the ER initiates the unfolded protein response and, when the latter is insufficient, apoptosis, the underlying mechanisms are not fully understood (
+     <xref ref-type="bibr">
+      Schröder and Kaufman, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shore et al, 2011
+     </xref>
+     ). Based on our observations and the fact that the
+     <em>
+      SEC61A1Y344H
+     </em>
+     mutation causes the unfolded protein response and apoptosis in a diabetes mouse model (see below), we propose that the role of BiP in limiting Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER at the level of the Sec61 complex contributes to the connection between ER protein misfolding and apoptosis: misfolding polypeptides sequester BiP, in the absence of BiP Sec61 complexes become leaky for Ca
+     <sup>
+      2+
+     </sup>
+     , and elevated Ca
+     <sup>
+      2+
+     </sup>
+     efflux including Ca
+     <sup>
+      2+
+     </sup>
+     transmission to mitochondria triggers apoptosis.
+    </p>
+    <p>
+     The
+     <em>
+      SEC61A1Y344H
+     </em>
+     mutation that was found here to lead to increased Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER was originally described as causing diabetes and hepatosteatosis in mice (
+     <xref ref-type="bibr">
+      Lloyd et al, 2010
+     </xref>
+     ). Because the authors observed no effects of the mutation on insulin secretion, they concluded that a different mechanism must cause the ER stress, such as ER-associated protein degradation. On the basis of the current results, we suggest altered Ca
+     <sup>
+      2+
+     </sup>
+     homeostasis may be an alternative or additional cause for apoptosis in the mutant mice.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Materials
+    </title>
+    <p>
+     The quick-change site-directed mutagenesis kit was from Agilent Technologies. Enhanced chemiluminescence (ECL), ECL Plex goat-anti-rabbit IgG-Cy5 and ECL Plex goat-anti-mouse IgG-Cy3 conjugate were purchased from GE Healthcare. Thapsigargin, ionomycin, pluronic F-127, Fluo5N AM and Fura-2 AM were from Invitrogen/Molecular probes. DTT was obtained from Roche, and tunicamycin from Calbiochem. Antibodies against carboxylesterase were from Abcam, against β-actin from Sigma, and against phospho-eIF2α from Cell Signaling. Rabbit antibodies were raised against the COOH-terminal peptides of human Sec61α (14-mer) or Sec62 (11-mer) and the NH
+     <sub>
+      2
+     </sub>
+     -terminal peptides of human BiP (12-mer) or Grp170 (11-mer) plus an amino- or carboxy-terminal cysteine, and against purified PDI, Grp94, and Calreticulin, respectively.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture
+    </title>
+    <p>
+     HeLa cells (ATCC no. CCL-2) and HeLa-CES2 cells (stably transduced with a CES2 lentiviral vector as described by
+     <xref ref-type="bibr">
+      Rehberg et al (2008)
+     </xref>
+     ) were cultivated at 37°C in Dulbecco's modified Eagle's medium (DMEM) (Gibco) with 10% foetal bovine serum (FBS) (Biochrom) and 1% penicillin/streptomycin (PAA) in a humidified environment with 5% CO
+     <sub>
+      2
+     </sub>
+     . For live cell calcium imaging, cells were grown on 25-mm cover slips pretreated with poly-
+     <span>
+      L
+     </span>
+     -lysine (1 mg/ml) for 1 h. Cell growth was monitored using the Countess Automated Cell Counter (Invitrogen) and CFSE staining in combination with automated cell sorting in a FACScan cell sorter with FACS Diva software 6.1.3 (Beckton, Dickinson and Company) according to the manufacturer's instructions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Silencing of gene expression by siRNA
+    </title>
+    <p>
+     For gene silencing, 5.2 × 10
+     <sup>
+      5
+     </sup>
+     HeLa cells were seeded per 6 cm culture plate in normal culture. For
+     <em>
+      BIP
+     </em>
+     silencing, the cells were transfected with
+     <em>
+      BIP
+     </em>
+     siRNA (
+     <a>
+      Supplementary Table 1
+     </a>
+     ),
+     <em>
+      BIP
+     </em>
+     -UTR siRNA, or control siRNA (AllStars Negative-Control siRNA, Qiagen) using HiPerFect Reagent (Qiagen) according to the manufacturer's instructions (final concentration of siRNAs: 35 nM). After 24 h, the medium was changed and the cells were transfected a second time.
+     <em>
+      SEC61A1
+     </em>
+     silencing was carried out as described previously (
+     <xref ref-type="bibr">
+      Lang et al, 2011b
+     </xref>
+     ). Silencing efficiencies were evaluated by western blot analysis using rabbit antibodies directed against BiP and Sec61α and an anti-β-actin-antibody from mouse. The primary antibodies were visualized using ECL Plex goat-anti-rabbit IgG-Cy5- or ECL Plex goat-anti-mouse IgG-Cy3 conjugate and the Typhoon-Trio imaging system in combination with the Image Quant TL software 7.0 (GE Healthcare).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Complementation analysis
+    </title>
+    <p>
+     To rescue the phenotype of
+     <em>
+      BIP
+     </em>
+     or
+     <em>
+      SEC61A1
+     </em>
+     silencing, the
+     <em>
+      BIP
+     </em>
+     and
+     <em>
+      SEC61A1
+     </em>
+     cDNAs were inserted into the multi-cloning sites of a pCAGGSM2-IRES–GFP and a pCDNA3-IRES–GFP-vector, respectively. Cells were treated with
+     <em>
+      BIP
+     </em>
+     -UTR siRNA or
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA as described above for 48 or 96 h. At 4 h after first transfection, the
+     <em>
+      BIP
+     </em>
+     siRNA-treated cells were transfected with either vector or
+     <em>
+      BIP
+     </em>
+     expression plasmid; 48 h after first transfection, the
+     <em>
+      SEC61A1
+     </em>
+     siRNA-treated cells were transfected with either vector or
+     <em>
+      SEC61A1
+     </em>
+     expression plasmid. Plasmid transfections were carried out using Fugene HD (Roche). According to GFP fluorescence, the transformation efficiency was around 80%. The yeast
+     <em>
+      KAR2
+     </em>
+     gene,
+     <em>
+      BIP
+     </em>
+     <sub>
+      <em>
+       R197E
+      </em>
+     </sub>
+     cDNA, and
+     <em>
+      SEC61A1Y344H
+     </em>
+     cDNA were inserted into the same vectors. The mutant
+     <em>
+      BIP
+     </em>
+     <sub>
+      <em>
+       R197E
+      </em>
+     </sub>
+     and
+     <em>
+      SEC61A1
+     </em>
+     cDNAs had originally been created by quick-change site-directed mutagenesis and confirmed by sequence analysis.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Live cell calcium imaging
+    </title>
+    <p>
+     Live cell calcium imaging for cytosolic Ca
+     <sup>
+      2+
+     </sup>
+     was carried out as previously described (
+     <xref ref-type="bibr">
+      Lang et al, 2011b
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2012
+     </xref>
+     ) and is described in detail in the
+     <a>
+      Supplementary data
+     </a>
+     . Cytosolic [Ca
+     <sup>
+      2+
+     </sup>
+     ] was estimated from ratio measurements using an established calibration method (
+     <xref ref-type="bibr">
+      Grynkiewicz et al, 1985
+     </xref>
+     ). Data were analysed using Excel 2007.
+    </p>
+    <p>
+     ER luminal Ca
+     <sup>
+      2+
+     </sup>
+     was determined using the HeLa-CES2 cells as described (
+     <xref ref-type="bibr">
+      Rehberg et al, 2008
+     </xref>
+     ). These cells were loaded with 4 μM Fluo5N AM (solubilized in pluronic F-127) in HBSS (Gibco) for 15 min at 37°C, washed with HBSS and incubated for further 30 min at 25°C to remove remaining cytosolic dye. During the experiment, cells were treated with thapsigargin (1 μM) and after 9 min with ionomycin (5 μM) to release the total ER Ca
+     <sup>
+      2+
+     </sup>
+     of the cells. Where indicated, HeLa-CES2 cells were treated with siRNA directed against
+     <em>
+      BIP
+     </em>
+     or a negative-control siRNA for 48 h prior to calcium imaging. Data were collected on the iMIC microscope by excitation at 490 nm and measurement of the emitted fluorescence at 530 nm. Images containing 10–25 cells/frame were sampled every 6 s.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein transport into semi-permeabilized cells
+    </title>
+    <p>
+     Protein transport into semi-permeabilized cells was carried out as described previously (
+     <xref ref-type="bibr">
+      Lang et al, 2012
+     </xref>
+     ) and is described in detail in the
+     <a>
+      Supplementary data
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.4M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Source data for figure 2F:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (3.1M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Source data for figure 5D:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.1M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Source data for figure 6D:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (651K, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Source data for figure 8A:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (5.0M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Source data for figure 8B:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.5M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (208K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

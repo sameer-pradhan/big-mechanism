@@ -1,0 +1,2065 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2934630
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Quantitative Characterization of Tob Interactions Provides the Thermodynamic Basis for Translation Termination-coupled Deadenylase Regulation*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Translation termination-coupled deadenylation is the first and often the rate-limiting step of eukaryotic mRNA decay in which two deadenylases, Ccr4-Caf1 and Pan2, play key roles. One of the deadenylases, Caf1, associates with Tob, which recruits Caf1 to the poly(A) tail through interactions with a cytoplasmic poly(A)-binding protein 1 (PABPC1). We previously proposed that the competition between Tob and eRF3 (a translation termination factor that interacts with PABPC1) is responsible for the regulation of deadenylase activity. However, the molecular mechanism of the regulation should be addressed by investigating the binding affinity and the cellular levels of these proteins. In this work, we characterized the human Tob interactions with Caf1 and a C-terminal domain of PABPC1 (PABC). Nuclear magnetic resonance (NMR) and Western blot analyses revealed that Tob consists of a structured N-terminal BTG-Tob domain and an unstructured C-terminal region with two conserved PAM2 (PABPC1-interacting motif 2) motifs. The BTG-TOB domain associates with Caf1, whereas the C-terminal PAM2 motif binds to PABC, with a
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     value of 20 μ
+     <span>
+      m
+     </span>
+     . Furthermore, we demonstrated that the levels of eRF3 and Tob in HeLa cells are 4–5 μ
+     <span>
+      m
+     </span>
+     and less than 0.2 μ
+     <span>
+      m
+     </span>
+     , respectively. On the basis of these results, we propose a thermodynamic mechanism for the translation termination-coupled deadenylation mediated by the Tob-Caf1 complex.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Enzyme Mechanisms, NMR, Protein Motifs, Protein-Protein Interactions, RNA-binding Protein, RNA Metabolism, Translation, ITC, PAM2, Poly(A)-binding Protein
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The degradation of mRNA (mRNA decay) is an important step in the down-regulation of gene expression. Most mRNA decay is initiated by deadenylation of the 3′-poly(A) tail (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ) in which two major mRNA deadenylase complexes, Ccr4-Caf1 and Pan2-Pan3, play central roles in mammals (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ).
+   </p>
+   <p>
+    Tob was identified as a protein that associates with Caf1, although it was originally found as a member of an antiproliferative protein family, which includes Tob2 and BTG1–4 (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ). Among the proteins of this family, the 120 N-terminal residues are highly conserved and form a motif known as the BTG-Tob domain, which binds to Caf1 (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ). The C-terminal region is not conserved, and thus, Tob (also known as Tob1) and Tob2 are classified as members of a subfamily distinct from the other BTG-Tob family members.
+   </p>
+   <p>
+    The C-terminal region of Tob contains the two PAM2
+    <sup>
+     <a>
+      2
+     </a>
+    </sup>
+    motifs PAM2-N and PAM2-C at residues 130–141 and 265–276, respectively (
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ), and are known to bind to the PABC domain of cytosolic poly(A)-binding protein (PABPC1). PAM2-N was previously identified as the PABP-binding site (
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ). We recently reported that the mutation of Phe-274 of PAM2-C to alanine completely abolishes the binding affinity of Tob for PABPC1. This suggests that the interaction of PAM2-C and PABC is crucial for Tob-PABPC1 interaction (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ). The translation termination-coupled mRNA decay rate was significantly slowed by mutations in the PAM2 region of eRF3, the PAM2 region of Tob, or the PAM2-binding site of PABC. Thus, we proposed that the coupling occurs with competition between eRF3 and Tob for PABC, which recruits Ccr4-Caf1 to the 3′-poly(A) tail (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ). However, the mechanism of the competition remains elusive and should be quantitatively clarified on the basis of the binding affinities and intracellular levels of these proteins.
+   </p>
+   <p>
+    Here, we investigated the physicochemical properties of the interaction of Tob with Caf1 and PABPC1 using isothermal titration calorimetry (ITC) and nuclear magnetic resonance (NMR). The analyses revealed that Tob consists of a folded N-terminal BTG-Tob domain and an unstructured C-terminal region that contains two PAM2 motifs. The affinities of Tob for Caf1 and PABC were assessed using several Tob fragments. The results indicated that the C-terminal PAM2 sequence is the primary PABC-binding site and that Tob binds independently to Caf1 and PABC. The Caf1-Tob-PABPC1 ternary complex can thus be formed. Furthermore, we investigated the intracellular levels of eRF3, PABPC1, and Tob, all of which are involved in translation termination-coupled mRNA decay. The affinities and cellular levels of these proteins revealed the mechanism by which the deadenylase activity of Ccr4-Caf1 is regulated by eRF3 in a translation termination-coupled manner.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Protein Expression and Purification
+      </title>
+      <p>
+       The cDNAs encoding full-length human Caf1, Tob (full-length, residues 1–285, 1–148, 147–285, 121–148, and 260–285), and the PABC domain of PABPC1 (residues 541–623) were amplified by PCR using pCMVfrag-hCAF1, hTob, and PABPC1 constructs (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ) as templates and cloned into the expression vector pGEX-6p-1 for Caf1 and Tob and pET42 for PABC. The constructs were expressed in
+       <em>
+        Escherichia coli
+       </em>
+       BL21(DE3) codon plus-RP, cultured in LB media, or in M9 medium containing [
+       <sup>
+        13
+       </sup>
+       C]glucose and/or
+       <sup>
+        15
+       </sup>
+       [N]NH
+       <sub>
+        4
+       </sub>
+       Cl for uniformly
+       <sup>
+        13
+       </sup>
+       C/
+       <sup>
+        15
+       </sup>
+       N- or
+       <sup>
+        15
+       </sup>
+       N-labeled samples for NMR in minimal media. Recombinant GST-fused proteins were purified using a glutathione-Sepharose
+       <sup>
+        TM
+       </sup>
+       4B affinity column. The GST tag was removed by PreScission protease (Amersham Biosciences). The TobN285,
+       <sup>
+        <a>
+         3
+        </a>
+       </sup>
+       TobN148, and Tob(147–285) proteins were further purified by gel filtration chromatography, and the PABC, Tob(121–148), and Tob(260–285) proteins were purified by reversed-phase chromatography.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       NMR Spectroscopy
+      </title>
+      <p>
+       For the backbone assignments of TobN148, uniformly
+       <sup>
+        13
+       </sup>
+       C/
+       <sup>
+        15
+       </sup>
+       N-lableled TobN148 were prepared at a concentration of 0.3 m
+       <span>
+        m
+       </span>
+       in a buffer containing 10 m
+       <span>
+        m
+       </span>
+       phosphate (pH 6.0), 400 m
+       <span>
+        m
+       </span>
+       NaCl, 1 m
+       <span>
+        m
+       </span>
+       dithiothreitol, 0.5
+       <span>
+        m
+       </span>
+       choline-
+       <em>
+        O
+       </em>
+       -sulfate, and 8% (v/v) D
+       <sub>
+        2
+       </sub>
+       O. A set of the triple resonance experiments, HNCO, HNCA, HN(CO)CA, HNCACB, and CBCA(CO)NH, in conjunction with
+       <sup>
+        15
+       </sup>
+       N-edited NOESY heteronuclear single quantum coherence (HSQC) with a mixing time of 120 ms, was performed at 35 °C on a Bruker Avance 500 spectrometer equipped with a cryogenic probe, and the spectra were processed by using Sparky software (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ).
+      </p>
+      <p>
+       The backbone assignments of Tob(260–285) were established by analyzing homonuclear NOESY and total correlation spectroscopy,
+       <sup>
+        15
+       </sup>
+       N-edited NOESY-HSQC, and
+       <sup>
+        15
+       </sup>
+       N-edited total correlation spectroscopy-HSQC, which were transferred to the signals in the
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N HSQC spectrum of [
+       <sup>
+        15
+       </sup>
+       N]Tob(147–285). The PABC titrations (0–1.6 m
+       <span>
+        m
+       </span>
+       ) were carried out for [
+       <sup>
+        15
+       </sup>
+       N]Tob(260–285) and [
+       <sup>
+        15
+       </sup>
+       N]Tob(147–285) with Tob fragment concentrations of 0.4 m
+       <span>
+        m
+       </span>
+       at 30 °C.
+      </p>
+      <p>
+       The previously reported backbone assignments of PABC were confirmed by HNCACB and CBCA(CO)NH. The titrations of Tob(147–285) at 0–0.2 m
+       <span>
+        m
+       </span>
+       were carried out for [
+       <sup>
+        15
+       </sup>
+       N]PABC at 0.1–0.2 m
+       <span>
+        m
+       </span>
+       , 30 °C.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       ITC
+      </title>
+      <p>
+       The binding of TobN285 and TobN148 to Caf1 was measured by ITC (
+       <xref ref-type="bibr">
+        17
+       </xref>
+       ) using a MicroCal VP-ITC microcalorimeter (MicroCal Inc., Northampton, MA). The protein samples were dialyzed against a buffer containing 10 m
+       <span>
+        m
+       </span>
+       NaH
+       <sub>
+        2
+       </sub>
+       PO
+       <sub>
+        4
+       </sub>
+       , 500 m
+       <span>
+        m
+       </span>
+       NaCl, and 1 m
+       <span>
+        m
+       </span>
+       dithiothreitol (pH 6.0). A total of 290 μl of 79 μ
+       <span>
+        m
+       </span>
+       TobN285 and 161 μ
+       <span>
+        m
+       </span>
+       TobN148 was injected into the 7.6 and 12 μ
+       <span>
+        m
+       </span>
+       Caf1 solutions, respectively, at 25 °C.
+      </p>
+      <p>
+       To analyze the interactions between Tob fragments and PABC, aliquots of 408–550 μ
+       <span>
+        m
+       </span>
+       PABC solutions were injected into solutions of 29–39 μ
+       <span>
+        m
+       </span>
+       Tob fragments using the ITC buffer containing 10 m
+       <span>
+        m
+       </span>
+       NaH
+       <sub>
+        2
+       </sub>
+       PO
+       <sub>
+        4
+       </sub>
+       and 50 m
+       <span>
+        m
+       </span>
+       NaCl (pH 7.0). In addition, the ITC experiments were carried out in salt-free buffer for the binding of TobN148, Tob(121–147), Tob(147–285), and Tob(260–285) to PABC.
+      </p>
+      <p>
+       Heats of dilution were determined by titrating the injectant solution into the dialysis buffer, after which the heats were subtracted from the raw titration data before data analysis. The titration data were analyzed using the MicroCal Origin software version 5.0, provided by the manufacturer. The thermodynamic parameters with the error values calculated from the fittings are listed in
+       <a>
+        <span>
+         Tables 1
+        </span>
+       </a>
+       and
+       <a>
+        <span>
+         ​
+         <span>
+          and2
+         </span>
+        </span>
+        <span>
+         2
+        </span>
+       </a>
+       .
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 1
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Thermodynamic parameters for the interactions of Tob fragments with Caf1
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 2
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Thermodynamic parameters for the interactions of Tob fragments with PABC
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Relative Abundance in HeLa Cells
+      </title>
+      <p>
+       HeLa cells were transiently transfected as specified in the legends for
+       <xref ref-type="fig">
+        Figs. 1
+       </xref>
+       and
+       <xref ref-type="fig">
+        None
+       </xref>
+       using Lipofectamine 2000. Total cellular protein was isolated using buffer A (50 m
+       <span>
+        m
+       </span>
+       Tris-HCl (pH 6.8), 8% glycerol, 2% SDS, 2% 2-mercaptoethanol) and analyzed by Western blotting using anti-FLAG (Sigma), anti-PABPC1 (Abcam), anti-Tob (raised against His-tagged TobN285 protein), anti-Pan3 (raised against GST-Pan3(488–687) protein), or anti-eRF3 (
+       <xref ref-type="bibr">
+        18
+       </xref>
+       ). The levels of cellular Tob, Pan3, and eRF3 were normalized to FLAG-tagged Tob, Pan3, and eRF3, respectively. The levels of FLAG-tagged Tob, Pan3, and eRF3 were normalized to FLAG-tagged PABPC1. The numbers specified in
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        C
+       </em>
+       represent the levels of cellular Tob, Pan3, and eRF3, where the level of cellular PAPBC1 is defined as 100%.
+      </p>
+      <fig id="F1" position="float">
+       <label>
+        FIGURE 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Tob consists of the folded N-terminal domain and the unstructured C-terminal region.
+         </strong>
+         <em>
+          A
+         </em>
+         ,
+         <sup>
+          1
+         </sup>
+         H-
+         <sup>
+          15
+         </sup>
+         N HSQC spectrum of [
+         <sup>
+          15
+         </sup>
+         N]TobN285.
+         <em>
+          B
+         </em>
+         , an overlay of the
+         <sup>
+          1
+         </sup>
+         H-
+         <sup>
+          15
+         </sup>
+         N HSQC spectra of [
+         <sup>
+          15
+         </sup>
+         N]TobN148 (
+         <em>
+          black
+         </em>
+         ) and [
+         <sup>
+          15
+         </sup>
+         N]Tob(147–285) (
+         <em>
+          red
+         </em>
+         ).
+         <em>
+          C
+         </em>
+         , degradation of Tob in HeLa cells. HeLa cells were transiently transfected with pCMV-5×FLAG (−) or pCMV-5×FLAG-Tob (
+         <em>
+          Tob
+         </em>
+         ). Total cell protein was isolated and analyzed by Western blotting (
+         <em>
+          WB
+         </em>
+         ) using anti-FLAG. A relatively darker exposure was required to detect the degradation of 5×FLAG Tob. Note that intact Tob migrated as a 58-kDa protein in the SDS-PAGE gel, whereas its theoretical molecular mass is 44 kDa.
+        </p>
+       </caption>
+      </fig>
+      <fig id="F6" position="float">
+       <label>
+        FIGURE 6.
+       </label>       <caption>
+        <p>
+         <strong>
+          Expression levels of cellular PABPC1, Tob, Pan3, and eRF3 in HeLa cells.
+         </strong>
+         <em>
+          A
+         </em>
+         , HeLa cells were transiently transfected with pFLAG-CMV5 (−), pFLAG-PABPC1 (PABPC1), or pFLAG-eRF3 (
+         <em>
+          eRF3
+         </em>
+         ). Total cell proteins were analyzed by Western blotting using anti-PABPC or anti-eRF3. The three left-most
+         <em>
+          lanes
+         </em>
+         , which represent the analysis of 4-fold dilutions of total cell proteins, indicate that the analysis is semiquantitative.
+         <em>
+          B
+         </em>
+         , as in
+         <em>
+          A
+         </em>
+         , except that cells were transiently transfected with pCMV-5 × FLAG (−), pCMV-5 × FLAG-PABPC1 (PABPC1), pCMV-5 × FLAG-Pan3 (
+         <em>
+          Pan3
+         </em>
+         ), or pCMV-5 × FLAG-Tob (Tob). Total cell proteins were analyzed by Western blotting using anti-FLAG, or anti-PABPC1, anti-Pan3, or anti-Tob. The three or five left-most
+         <em>
+          lanes
+         </em>
+         represent the analysis of 4-fold dilutions of total cell proteins.
+         <em>
+          C
+         </em>
+         , quantification of cellular PABP, Tob, Pan3, and eRF3 in HeLa cells. The levels of Tob, Pan3, and eRF3 were normalized to the level of PABPC1 and were subsequently expressed as a percentage of the level of PABP.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Tob Consists of the Folded BTG-Tob Domain and the Unstructured C-terminal Region
+      </title>
+      <p>
+       Structural data for Tob are currently limited to the BTG-Tob domain, which consists of the N-terminal 120 residues. However, the rest of the protein, which is less conserved among the BTG family proteins, provides distinguishing characteristics among the family members. We attempted to investigate the structure of full-length Tob (345 residues) and its interactions with Caf1 and PABC. Unfortunately, only a trace amount of the full-length Tob was expressed in
+       <em>
+        E. coli
+       </em>
+       , and therefore, we used a C-terminally truncated mutant (residues 1–285, hereafter referred to as TobN285), which was previously shown to form a ternary complex with Caf1 and PABPC1 (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ).
+      </p>
+      <p>
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        A
+       </em>
+       shows the
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N HSQC spectrum of uniformly
+       <sup>
+        15
+       </sup>
+       N-labled TobN285. A number of signals are well dispersed in the
+       <sup>
+        1
+       </sup>
+       H dimension, and strong signals are located at 7.8–8.5 ppm. The former well dispersed signals are characteristic of folded proteins, whereas the latter strong and narrowly dispersed signals presumably arise from unstructured regions. We obtained two spectra of the uniformly
+       <sup>
+        15
+       </sup>
+       N-labeled TobN148 and the C-terminal fragment of Tob (residues 147–285, hereafter referred to as Tob(147–285)). The overlay of these spectra (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        B
+       </em>
+       ) is essentially identical to the spectrum of TobN285 (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        A
+       </em>
+       ), where the well dispersed signals and narrowly dispersed signals correspond to those of TobN148 and Tob(147–285), respectively.
+      </p>
+      <p>
+       The backbone assignments of 93 residues of TobN148 out of the 130 detectable signals were established by a series of triple resonance experiments, using uniformly
+       <sup>
+        13
+       </sup>
+       C/
+       <sup>
+        15
+       </sup>
+       N-labeled TobN148 (
+       <a>
+        supplemental Fig. 1
+       </a>
+       and
+       <a>
+        supplemental Table 1
+       </a>
+       ). A chemical shift index analysis (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ) provided an indication that the secondary structure of the BTG-Tob domain is consistent with the previously reported crystal structure (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       , Protein Data Bank (PDB) code:
+       <span>
+        2d5r
+       </span>
+       ) and that the segment defined by residues 120–148 is unstructured. Thus, TobN285 consists of the N-terminal folded BTG-Tob domain followed by the C-terminal unstructured region.
+      </p>
+      <p>
+       To investigate whether the C-terminal region of intact Tob is also unstructured, we carried out Western blotting using the N-terminally FLAG-tagged full-length protein that was expressed in HeLa cells (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        C
+       </em>
+       ). In addition to the main band at 58 kDa corresponding to the full-length Tob, there is smearing of bands ranging from 37 to 58 kDa, indicating that the C-terminal region of the intact protein is degraded by proteases from the cells. The high sensitivity to protease degradation suggests that most of the C-terminal region of the intact Tob protein is unstructured. We concluded that the C-terminal region of intact Tob is also unstructured.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Binding Affinity of Tob for Caf1
+      </title>
+      <p>
+       The binding affinity of TobN285 for Caf1 was investigated by ITC.
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       shows the isotherms obtained upon titration of the Caf1 solution with TobN285. The best fit of the integrated isotherms, using a single-site model, indicates a dissociation constant (
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       ) value of 0.65 μ
+       <span>
+        m
+       </span>
+       . It should be noted that a NaCl concentration of 500 m
+       <span>
+        m
+       </span>
+       was required to maintain the stability of Caf1.
+      </p>
+      <fig id="F2" position="float">
+       <label>
+        FIGURE 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          ITC analyses of Tob-Caf1 interaction.
+         </strong>
+         <em>
+          Upper panel
+         </em>
+         , trace of the calorimetric titrations of 29 × 10-μl aliquots of 79 μ
+         <span>
+          m
+         </span>
+         TobN285 into the cell containing the 7.6 μ
+         <span>
+          m
+         </span>
+         Caf1 solution;
+         <em>
+          lower panel
+         </em>
+         , the integrated binding isotherm obtained from the experiments. The buffer used in the ITC experiments comprised 10 m
+         <span>
+          m
+         </span>
+         NaH
+         <sub>
+          2
+         </sub>
+         PO
+         <sub>
+          4
+         </sub>
+         , 500 m
+         <span>
+          m
+         </span>
+         NaCl, and 1 m
+         <span>
+          m
+         </span>
+         dithiothreitol (pH 6.0).
+        </p>
+       </caption>
+      </fig>
+      <p>
+       In addition, we analyzed the Caf1 binding affinity of a further truncated mutant containing the N-terminal 148 residues (TobN148), which includes the BTG-Tob domain and the N-terminal PAM2 sequence. The interaction between TobN148 and Caf1 yielded comparable thermodynamic parameters, indicating that the Caf1-binding site is within the segment defined by residues 1–148 (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Interaction of Tob and PABC
+      </title>
+      <p>
+       ITC analysis of the interaction between TobN285 and PABC indicated the occurrence of a significant amount of heat exchange. However, the heat exchange did not become saturated at the end of the titrations (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       ,
+       <em>
+        upper
+       </em>
+       ), and the fitting of the integrated isotherm after correcting for the heats of dilution using a one-site binding model did not converge. Thus, we fixed the binding stoichiometry at 1:1, which generated an apparent
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       value of 55 μ
+       <span>
+        m
+       </span>
+       . An identical isotherm was obtained in the presence of Caf1 (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        A
+       </em>
+       ,
+       <em>
+        lower
+       </em>
+       ), indicating that the binding of Tob to PABC is not affected by Caf1.
+      </p>
+      <fig id="F3" position="float">
+       <label>
+        FIGURE 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          ITC analyses of Tob-PABC interaction.
+         </strong>
+         <em>
+          A
+         </em>
+         , trace of the calorimetric titrations of 29 × 10-μl aliquots of 408 μ
+         <span>
+          m
+         </span>
+         PABC into the cell containing 39 μ
+         <span>
+          m
+         </span>
+         TobN285 (
+         <em>
+          upper panel
+         </em>
+         ) and the 1:1 mixture of TobN285 and Caf1 (
+         <em>
+          lower panel
+         </em>
+         , 29 μ
+         <span>
+          m
+         </span>
+         each).
+         <em>
+          B
+         </em>
+         ,
+         <em>
+          upper panel
+         </em>
+         , trace of the calorimetric titrations of 29 × 10-μl aliquots of 550 μ
+         <span>
+          m
+         </span>
+         PABC into the cell containing 37 μ
+         <span>
+          m
+         </span>
+         Tob(147–285);
+         <em>
+          lower panel
+         </em>
+         , the integrated binding isotherm obtained from the experiments. The buffer used in the ITC experiments is comprised of 10 m
+         <span>
+          m
+         </span>
+         NaH
+         <sub>
+          2
+         </sub>
+         PO
+         <sub>
+          4
+         </sub>
+         and 50 m
+         <span>
+          m
+         </span>
+         NaCl (pH 7.0). The thermodynamic parameters are summarized in
+         <a>
+          <span>
+           Table 2
+          </span>
+         </a>
+         .
+        </p>
+       </caption>
+      </fig>
+      <p>
+       We next carried out an ITC analysis for PABC binding, using TobN148 and Tob(147–285).
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        B
+       </em>
+       shows the binding isotherm obtained upon titration of PABC into a solution of Tob(147–285). The integrated isotherm was fitted using the one-site model. The fitting produced a
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       value of 20 μ
+       <span>
+        m
+       </span>
+       with a binding stoichiometry of 1. On the other hand, essentially constant heat exchange was observed for the injections of PABC into the TobN148 solution under the same experimental conditions (including the same sample concentrations). This indicates that the interaction between TobN148 and PABC is weak (data not shown). These results demonstrate that the primary PABC-binding site is located within residues 147–285 of Tob. It should be noted that the unsaturated titration curve for the TobN285-PABC interaction is presumably caused by the weak interaction of the N-terminal 148 residues of Tob with PABC.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       PAM2-C Is the Primary PABC-binding Site in Tob
+      </title>
+      <p>
+       To identify the PABC-binding site in Tob, a chemical shift perturbation (CSP) analysis was carried out. The perturbation caused by the addition of PABC to [
+       <sup>
+        15
+       </sup>
+       N]Tob(147–285) was analyzed.
+      </p>
+      <p>
+       The HSQC spectra of [
+       <sup>
+        15
+       </sup>
+       N]Tob(147–285) revealed large spectral changes upon the addition of PABC (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       <em>
+        A
+       </em>
+       ). As expected, the spectral changes were identical to those of the
+       <sup>
+        15
+       </sup>
+       N-labeled peptide corresponding to Tob residues 260–285 (hereafter referred to as Tob(260–285)), which includes PAM2-C (residues 265–276). This observation indicates that PAM2-C acts as the Tob-binding site within residues 147–285. This was confirmed by the ITC analyses of the binding of PABC to Tob(147–285) and Tob(260–285). These experiments produce essentially identical thermodynamic parameters (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). It should be noted that another Tob construct comprising residues 121–148 (referred to as Tob(121–148)), containing PAM2-N (residues 130–141), exhibits a 6-fold lower affinity for PABC than Tob(260–285) and Tob(147–285).
+      </p>
+      <fig id="F4" position="float">
+       <label>
+        FIGURE 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          PABC-binding site of Tob.
+         </strong>
+         <em>
+          A
+         </em>
+         , overlay of the
+         <sup>
+          1
+         </sup>
+         H-
+         <sup>
+          15
+         </sup>
+         N HSQC spectra of free (
+         <em>
+          black
+         </em>
+         ) and PABC-bound Tob(147–285) (
+         <em>
+          magenta
+         </em>
+         ). Signals with CSPs larger than 0.20 ppm upon the addition of PABC are labeled and connected by
+         <em>
+          dotted lines. B
+         </em>
+         , plot of the amount of CSPs of Tob(147–285) upon the addition of the PABC domain. The CSPs were calculated as Δδ = {Δδ
+         <sub>
+          HN
+         </sub>
+         <sup>
+          2
+         </sup>
+         + (Δδ
+         <sub>
+          15N
+         </sub>
+         /6.5)
+         <sup>
+          2
+         </sup>
+         }½. The
+         <em>
+          asterisk
+         </em>
+         indicates that CSP was not obtained due to disappearing of the NMR signals upon the addition of PABC. The unassigned 84 peaks of Tob(147–285) are plotted in the
+         <em>
+          bottom panel
+         </em>
+         in order of decreasing amplitude in the CSPs.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Tob-binding Site of PABC
+      </title>
+      <p>
+       To investigate the Tob-binding site of PABC, a CSP analysis was carried out with perturbation produced by the addition of TobN285 to [
+       <sup>
+        15
+       </sup>
+       N]PABC (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       ). The backbone assignments of free PABC (Biological Magnetic Resonance Data Bank entry
+       <span>
+        4915
+       </span>
+       ) were confirmed by a series of triple resonance experiments using uniformly
+       <sup>
+        13
+       </sup>
+       C/
+       <sup>
+        15
+       </sup>
+       N-labeled PABC. Because the fast exchange regime was observed upon the addition of 0.5 and 1.0 equivalents of TobN285 to [
+       <sup>
+        15
+       </sup>
+       N]PABC (with the exception of three signals of Lys-580, Met-584, and Val-613 that disappeared), most of the resonance assignments were transferred to the Tob-bound state.
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        B
+       </em>
+       shows a plot of CSPs, which indicates that the residues exhibiting CSPs larger than 0.08 ppm are Met-561, Glu-564, His-574, Thr-576, Thr-582, L585, Ile-588, L593, Lys-606, Ala-610, Ala-612, Gln-615, His-617, and Ala-619. The three signals that disappeared presumably underwent line broadening in the intermediate exchange regime. This suggests that the CSPs for Lys-580, Met-584, and Val-613 are larger than those of the other affected residues listed above. These 17 residues include 11 residues out of 12 that exhibited large CSPs upon the addition of Paip2 (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ). This indicates that Tob binds to PABPC1 through the PAM2-PABC interaction, which is shared by other PAM2-containing proteins.
+      </p>
+      <fig id="F5" position="float">
+       <label>
+        FIGURE 5.
+       </label>       <caption>
+        <p>
+         <strong>
+          CSP analysis of TobN285 binding to [
+          <sup>
+           15
+          </sup>
+          N]PABC.
+         </strong>
+         <em>
+          A
+         </em>
+         , NMR spectral change of [
+         <sup>
+          15
+         </sup>
+         N]PABC upon the addition of TobN285.
+         <sup>
+          1
+         </sup>
+         H-
+         <sup>
+          15
+         </sup>
+         N HSQC spectra of [
+         <sup>
+          15
+         </sup>
+         N]PABC are shown in the absence (
+         <em>
+          black
+         </em>
+         ) and presence (
+         <em>
+          magenta
+         </em>
+         ) of TobN285. The signals with CSPs larger than 0.08 ppm are labeled.
+         <em>
+          B
+         </em>
+         , CSPs caused by the addition of TobN285 are plotted. The
+         <em>
+          asterisks
+         </em>
+         indicate residues that were previously reported to exhibit CSPs larger than 0.4 ppm upon the addition of Paip2 (
+         <xref ref-type="bibr">
+          21
+         </xref>
+         ).
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Cellular Levels of Tob, PABPC1, and eRF3 in HeLa Cells
+      </title>
+      <p>
+       Previously, we proposed that Tob and Pan3 recruit deadenylases Caf1 and Pan2, respectively, to the 3′-poly(A) tail through the interaction of PAM2 in Tob-Pan3 with the PABC domain of PABPC1. The activity of the deadenylases is regulated in a translation termination-coupled manner through competition of the PAM2 motifs in eRF3 with Tob-Pan3 for PABC (
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ). To quantitatively address the relationship of these interactions, we performed Western blot analyses of HeLa cells to investigate expression levels of Tob, Pan3, and eRF3, relative to PABPC1, which has been reported to have a cellular level of 4 μ
+       <span>
+        m
+       </span>
+       (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ).
+      </p>
+      <p>
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       shows the transient and cellular expression levels of the proteins as detected by antibodies for the FLAG tag and each protein, respectively. The cellular levels of Tob, Pan3, and eRF3 were quantified and normalized to the level of PABPC1 (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        C
+       </em>
+       ). Although the levels of Tob and Pan3 were evaluated as the upper limit, due to the detection limit of the analysis, the cellular level of Tob was less than 6.6% of that of PABPC1 and the cellular level of Pan3 was less than 2.3% of that of PABPC1. On the basis of the cellular level of PABPC1, the levels of Tob and Pan3 are estimated to be less than 260 and 92 n
+       <span>
+        m
+       </span>
+       , respectively. On the other hand, eRF3 is expressed at a level similar to that of PABPC1 (4–5 μ
+       <span>
+        m
+       </span>
+       ).
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structure of Tob and Binding of Tob to Caf1 and PABPC1
+      </title>
+      <p>
+       The NMR and Western blot analyses of Tob revealed that Tob consists of a well folded BTG-Tob N-terminal domain comprising 120 residues and the unstructured C-terminal region that contains two PAM2 motifs (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). This observation is consistent with the report that PAM2 motifs are generally found in unstructured regions (
+       <xref ref-type="bibr">
+        14
+       </xref>
+       ).
+      </p>
+      <p>
+       The ITC analyses indicated that the BTG-Tob domain of Tob is crucial for binding of Caf1. The C-terminal region of Tob is not involved in the binding of Caf1 (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ). Under high salt conditions (500 m
+       <span>
+        m
+       </span>
+       NaCl), the
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       value for the Tob-Caf1 interaction was found to be 0.6 μ
+       <span>
+        m
+       </span>
+       (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). The affinity might be much greater at a physiological salt concentration because the high concentration of NaCl appears to impair the electrostatic interactions between Tob and Caf1. The crystal structure of the TobN138-Caf1 complex (PDB code:
+       <span>
+        2d5r
+       </span>
+       ) contains at least three intermolecular ion pairs (Lys-51–Glu-247, Asp-65–Lys-254, and Glu-98–Lys-203) and a hydrogen bond (Glu-105–Tyr-255) at the relatively hydrophobic binding interface (
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ).
+      </p>
+      <p>
+       On the other hand, the NMR and ITC analyses revealed that the PAM2-C sequence of Tob is the primary PABC-binding site, which contributes to the binding affinity with a
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       value of 20 μ
+       <span>
+        m
+       </span>
+       (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). The PAM2-N sequence (residues, 130–141; sequence, NSFNPEAQVFMP) has binding affinity for PABC, which is 6-fold weaker than that of PAM2-C (residues, 265–276; sequence, SALSPNAKEFIF) under the salt-free conditions (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). Thus, the
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       value appears to exceed 100 μ
+       <span>
+        m
+       </span>
+       under the high salt conditions. Although the PAM2-N sequence of Tob contains conserved hydrophobic residues at positions 3, 5, 7, 10, and 12, its lower affinity for PABC is presumably a consequence of the absence of the glutamate residue at position 9, which forms hydrogen bonds with PABC via an ordered water molecule in the crystal structure of the PAM2 sequences of Paip2 complexed with PABC (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       , PDB code:
+       <span>
+        1i2t
+       </span>
+       ). The Tob-binding site of PABC is a typical PAM2-binding site. Therefore, the interaction can be competitively suppressed by other PAM2-containing proteins, such as eRF3, which has a 20-fold higher affinity for PABC than Tob and a cellular level more than 15-fold higher than that of Tob (see below).
+      </p>
+      <p>
+       The affinity of Tob for PABC was not affected by Caf1 binding to Tob. This is consistent with the observation that the BTG-Tob domain (which binds to Caf1) and the PAM2-C sequence are separated by a 150-residue unstructured region. Thus, the binding of PABC to Tob and the binding of Caf1 to Tob are independent of each other. This indicates that the Caf1-Tob-PABPC1 ternary complex could be formed when the protein concentrations are sufficiently high with respect to their binding affinities.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Dual Interactions of the Tob-Caf1 Complex Enable Regulation of Ccr4-Caf1 Activity by eRF3 in a Translation Termination-coupled Manner
+      </title>
+      <p>
+       It was reported that purified mouse Caf1 has only 1 substituted residue with respect to human Caf1 (Asn-282 of human Caf1 is replaced by Ser), and this protein has a large
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       value of 24 μ
+       <span>
+        m
+       </span>
+       for a substrate, 35-residue RNA containing 10 adenine residues at the 3′-end (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ). Therefore, the recruitment of Caf1 by Tob to the 3′-end of poly(A) through the Tob-PABPC1 interaction would be required to enhance the substrate accessibility of Caf1 and thus increase the deadenylase activity.
+      </p>
+      <p>
+       However, the PABC domain of PABPC1, which includes the Tob-binding site, also binds to the translation termination factor eRF3. Although the
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       value for binding of PABC to Tob was found to be 20 μ
+       <span>
+        m
+       </span>
+       , eRF3 was reported to possess 20-fold higher affinity for PABC (
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       = 1 μ
+       <span>
+        m
+       </span>
+       ) (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ). Furthermore, we demonstrated that eRF3 exists in HeLa cells at a level comparable with that of the PABPC1, 4 μ
+       <span>
+        m
+       </span>
+       (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ), whereas the levels of Tob and Pan3 were estimated to be less than 260 and 92 n
+       <span>
+        m
+       </span>
+       , respectively (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       ). Based on the
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       values and the cellular levels of these proteins, the concentrations of eRF3 and Tob that bind to PABPC1 are calculated to be 2.4 μ
+       <span>
+        m
+       </span>
+       and less than 52 n
+       <span>
+        m
+       </span>
+       , respectively. This suggests that eRF3 dominates Tob in the interactions with PABPC1.
+      </p>
+      <p>
+       We propose here that the enhanced affinity of Caf1 for the substrate would be acquired by dual interactions, which occur upon association of Caf1 with Tob: (i) the recognition of the poly(A)-bound PABPC1 by the PAM2 sequence of Tob and (ii) the poly(A) recognition by Caf1 (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        A
+       </em>
+       ). Because the binding energy would be expected to represent the sum of the binding energy of each interaction, the apparent affinity of the Tob-Caf1 complex for the substrate could be theoretically increased to the product of the
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       (2.0 × 10
+       <sup>
+        −5
+       </sup>
+       <span>
+        m
+       </span>
+       ) and
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       (2.4 × 10
+       <sup>
+        −5
+       </sup>
+       <span>
+        m
+       </span>
+       ) values,
+       <em>
+        i.e.
+       </em>
+       0.5 n
+       <span>
+        m
+       </span>
+       , although the affinity is likely to be affected to some extent by other factors, such as the distance and flexibility of the linker regions between the BTG-Tob domain and the PAM2-C sequence. Considering the low cellular level of the Tob-Caf1 complex relative to the reported
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       value, the deadenylase activity should be achieved by the dual interactions, which make the deadenylase complex accessible to the 3′-end of the PABPC1-bound poly(A).
+      </p>
+      <fig id="F7" position="float">
+       <label>
+        FIGURE 7.
+       </label>       <caption>
+        <p>
+         <strong>
+          Schematic drawing of the interactions between the Tob-Caf1 complex and the PABPC1-bound poly(A).
+         </strong>
+         <em>
+          A
+         </em>
+         , dual interactions between PAM2-C of Tob and PABC and between Caf1 and the 3′-end of poly(A). The apparent
+         <em>
+          K
+          <sub>
+           d
+          </sub>
+         </em>
+         for the interaction of the Tob-Caf1 complex and the PABPC1-bound poly(A) can be calculated theoretically to be the product of
+         <em>
+          K
+          <sub>
+           d
+          </sub>
+         </em>
+         and
+         <em>
+          K
+          <sub>
+           m
+          </sub>
+          . B
+         </em>
+         , when eRF3 dominates the interaction with PABC, the apparent
+         <em>
+          K
+          <sub>
+           d
+          </sub>
+         </em>
+         of the Tob-Caf1 complex is decreased to the level of
+         <em>
+          K
+          <sub>
+           m
+          </sub>
+         </em>
+         .
+        </p>
+       </caption>
+      </fig>
+      <p>
+       The dual interactions of the Tob-Caf1 complex adequately explain how the deadenylation occurs in a translation termination-coupled manner. The comparable
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       and
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       values imply that each of the dual interactions contributes equally to the affinity of the Tob-Caf1 complex for the 3′-end of poly(A). As discussed above, eRF3 dominates Tob in the interactions with PABPC1, and thus, the affinity of the Tob-Caf1 complex for the substrate would be as low as the
+       <em>
+        K
+        <sub>
+         m
+        </sub>
+       </em>
+       level (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        B
+       </em>
+       ). This precludes access of the deadenylase complex to the 3′-end of poly(A) at the cellular level. The deadenylase activity of Caf1 could be considerably enhanced only when the PABC domain of the poly(A)-bound PABPC1 and the exposed poly(A) tail are simultaneously available for the interactions. This scenario is likely to occur upon recruitment of eRF3 to the ribosome for translation termination. Taken together, the combination of the two weak interactions of the Tob-Caf1 complex may not only enable access of the complex to the 3′-end of the PABPC1-bound poly(A) (even at the low cellular level of the complex) but also enable eRF3 to regulate the deadenylase activity of the Tob-Caf1 complex. The affinities and the cellular levels of the proteins involved in deadenylation provide the thermodynamic basis for the translation termination-coupled mRNA decay.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Acknowledgment
+   </title>
+   <sec>
+    <p>
+     We thank Prof. Kaori Wakamatsu for providing choline-O-sulfate.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Shyu A. B., Belasco J. G., Greenberg M. E. (1991)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       5
+      </span>
+      , 221–231
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Muhlrad D., Parker R. (1992)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       6
+      </span>
+      , 2100–2111
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Decker C. J., Parker R. (1993)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       7
+      </span>
+      , 1632–1643
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Yamashita A., Chang T. C., Yamashita Y., Zhu W., Zhong Z., Chen C. Y., Shyu A. B. (2005)
+      <span>
+       Nat. Struct. Mol. Biol.
+      </span>
+      <span>
+       12
+      </span>
+      , 1054–1063
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Rouault J. P., Rimokh R., Tessa C., Paranhos G., Ffrench M., Duret L., Garoccio M., Germain D., Samarut J., Magaud J. P. (1992)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       11
+      </span>
+      , 1663–1670
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Matsuda S., Kawamura-Tsuzuku J., Ohsugi M., Yoshida M., Emi M., Nakamura Y., Onda M., Yoshida Y., Nishiyama A., Yamamoto T. (1996)
+      <span>
+       Oncogene
+      </span>
+      <span>
+       12
+      </span>
+      , 705–713
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Montagnoli A., Guardavaccaro D., Starace G., Tirone F. (1996)
+      <span>
+       Cell Growth Differ.
+      </span>
+      <span>
+       7
+      </span>
+      , 1327–1336
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Yoshida Y., Matsuda S., Ikematsu N., Kawamura-Tsuzuku J., Inazawa J., Umemori H., Yamamoto T. (1998)
+      <span>
+       Oncogene
+      </span>
+      <span>
+       16
+      </span>
+      , 2687–2693
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Ikematsu N., Yoshida Y., Kawamura-Tsuzuku J., Ohsugi M., Onda M., Hirai M., Fujimoto J., Yamamoto T. (1999)
+      <span>
+       Oncogene
+      </span>
+      <span>
+       18
+      </span>
+      , 7432–7441
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Tzachanis D., Freeman G. J., Hirano N., van Puijenbroek A. A., Delfs M. W., Berezovskaya A., Nadler L. M., Boussiotis V. A. (2001)
+      <span>
+       Nat. Immunol.
+      </span>
+      <span>
+       2
+      </span>
+      , 1174–1182
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Suzuki T., K-Tsuzuku J., Ajima R., Nakamura T., Yoshida Y., Yamamoto T. (2002)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       16
+      </span>
+      , 1356–1370
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Mauxion F., Chen C. Y., Séraphin B., Shyu A. B. (2009)
+      <span>
+       Trends Biochem. Sci.
+      </span>
+      <span>
+       34
+      </span>
+      , 640–647
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Matsuda S., Rouault J., Magaud J., Berthet C. (2001)
+      <span>
+       FEBS Lett.
+      </span>
+      <span>
+       497
+      </span>
+      , 67–72
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Albrecht M., Lengauer T. (2004)
+      <span>
+       Biochem. Biophys. Res. Commun.
+      </span>
+      <span>
+       316
+      </span>
+      , 129–138
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Okochi K., Suzuki T., Inoue J., Matsuda S., Yamamoto T. (2005)
+      <span>
+       Genes Cells
+      </span>
+      <span>
+       10
+      </span>
+      , 151–163
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Funakoshi Y., Doi Y., Hosoda N., Uchida N., Osawa M., Shimada I., Tsujimoto M., Suzuki T., Katada T., Hoshino S. (2007)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       21
+      </span>
+      , 3135–3148
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Wiseman T., Williston S., Brandts J. F., Lin L. N. (1989)
+      <span>
+       Anal. Biochem.
+      </span>
+      <span>
+       179
+      </span>
+      , 131–137
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Hoshino S., Imai M., Mizutani M., Kikuchi Y., Hanaoka F., Ui M., Katada T. (1998)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       273
+      </span>
+      , 22254–22259
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Wishart D. S., Sykes B. D., Richards F. M. (1992)
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       31
+      </span>
+      , 1647–1651
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Horiuchi M., Takeuchi K., Noda N., Muroya N., Suzuki T., Nakamura T., Kawamura-Tsuzuku J., Takahasi K., Yamamoto T., Inagaki F. (2009)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       284
+      </span>
+      , 13244–13255
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Kozlov G., Trempe J. F., Khaleghpour K., Kahvejian A., Ekiel I., Gehring K. (2001)
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       98
+      </span>
+      , 4409–4413
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Görlach M., Burd C. G., Dreyfuss G. (1994)
+      <span>
+       Exp. Cell Res.
+      </span>
+      <span>
+       211
+      </span>
+      , 400–407
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Kozlov G., Ménade M., Rosenauer A., Nguyen L., Gehring K. (2010)
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       397
+      </span>
+      , 397–407
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Viswanathan P., Ohn T., Chiang Y. C., Chen J., Denis C. L. (2004)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       279
+      </span>
+      , 23988–23995
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Kozlov G., De Crescenzo G., Lim N. S., Siddiqui N., Fantus D., Kahvejian A., Trempe J. F., Elias D., Ekiel I., Sonenberg N., O'Connor-McCourt M., Gehring K. (2004)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       23
+      </span>
+      , 272–281
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Goddard T. D., Kneller D. G. (2004)
+      <span>
+       SPARKY 3
+      </span>
+      , University of California, San Francisco
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

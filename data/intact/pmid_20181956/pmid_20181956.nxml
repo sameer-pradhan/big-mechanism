@@ -1,0 +1,3234 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2859521
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural Basis of Binding of P-body-associated Proteins GW182 and Ataxin-2 by the Mlle Domain of Poly(A)-binding Protein*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Poly(A)-binding protein (PABPC1) is involved in multiple aspects of mRNA processing and translation. It is a component of RNA stress granules and binds the RNA-induced silencing complex to promote degradation of silenced mRNAs. Here, we report the crystal structures of the C-terminal Mlle (or PABC) domain in complex with peptides from GW182 (TNRC6C) and Ataxin-2. The structures reveal overlapping binding sites but with unexpected diversity in the peptide conformation and residues involved in binding. The mutagenesis and binding studies show low to submicromolar binding affinity with overlapping but distinct specificity determinants. These results rationalize the role of the Mlle domain of PABPC1 in microRNA-mediated mRNA deadenylation and suggest a more general function in the assembly of cytoplasmic RNA granules.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     P-body, Polyadenylation, RNA Processing, Stress Granule, Translation Control, X-ray Crystallography, Ataxin-2, PAM2, Deadenylation, Poly(A)-binding Protein
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Poly(A)-binding protein (PABP)
+    <sup>
+     <a>
+      2
+     </a>
+    </sup>
+    is an abundant cytoplasmic protein in eukaryotes that binds the poly(A) tail of messenger mRNA to promote translation and regulate mRNA decay. There are four highly related PABPs in humans; the most abundant and best studied is PABPC1. All of the PABPs have the same domain structure consisting of four conserved RNA binding domains (RRM1–4) followed by a linker region and a C-terminal domain, previously referred to as C2, 5H, or PABC (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ). Here, we refer to this C-terminal domain as Mlle (
+    <em>
+     mademoiselle
+    </em>
+    ) after its conserved and essential signature motif KITG
+    <span>
+     MLLE
+    </span>
+    . The Mlle domain binds proteins that contain a 12–15-amino acid motif, termed PAM2 (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ). Mlle domains are found in all eukaryotic cytoplasmic poly(A)-binding proteins and uniquely in two other proteins as follows: a ubiquitin ligase UBR5 (also known as HYD, EDD, or Rat100) and a distant PABP homolog RRM4 in filamentous fungi (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ). Most proteins that contain PAM2 motifs appear to bind to the Mlle domain of PABPC1. These include Ataxin-2 (
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ), eRF3 (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ), Paip1/2 (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ), Tob1/2 (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ), NFX1 (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ), and GW182 (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ). These proteins have diverse functions, but recent work has brought forth common functionalities in poly(A) tail deadenylation and localization in mRNA-processing bodies (P-bodies).
+   </p>
+   <p>
+    MicroRNAs (miRNAs) are 22-nucleotide-long endogenous RNAs that down-regulate the expression of complementary target mRNAs by repressing translation of the mRNA and accelerating mRNA degradation (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ). Recent work suggests that the degradation occurs via deadenylation of the message either in large messenger ribonucleoprotein complexes or in cytoplasmic P-bodies (
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ). Through the development of a cell-free
+    <em>
+     in vitro
+    </em>
+    assay, Fabian
+    <em>
+     et al.
+    </em>
+    (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ) have shown that the let-7 miRNA-mediated deadenylation occurs through interactions of the miRNA-loaded RNA-induced silencing complex with the Mlle domain of PABPC1. GW182, a component of the RNA-induced silencing complex, contains a DUF motif (
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ) that is required for pulldown of PABPC1. Addition of a PAM2 motif peptide decreased mRNA deadenylation
+    <em>
+     in vitro
+    </em>
+    , but a peptide with a mutated motif had no effect (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ).
+   </p>
+   <p>
+    P-bodies (processing bodies, also called GW or Dcp bodies) are cytoplasmic foci of enzymes involved in mRNA turnover. They are sites of some but not all RNA interference gene silencing, as miRNA-targeted mRNAs are recruited to P-bodies and degraded or translationally silenced. The protein composition of P-bodies is dynamic and obscured by the existence of related messenger ribonucleoprotein messenger ribonucleoprotein particles such as stress granules, polar granules, and EGP bodies (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). Among the notable components of P-bodies are decapping and deadenylation enzymes, and Sm-like RNA-binding proteins. Although mammalian PABPC1 is considered a marker for stress granules rather than P-bodies, the yeast protein Pab1p is found in both P-bodies and stress granules (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). A large number of proteins have been reported to be associated with P-bodies as either constitutive or core components, but little is known about the structural interactions that underlie P-body assembly.
+   </p>
+   <p>
+    GW182 and Ataxin-2 are both found in P-bodies and share common structural elements. Both contain glutamine-rich stretches, which may promote their association with P-bodies, and both interact with PABPC1 through the Mlle domain. Here, we report the crystal structures of the Mlle domain of PABPC1 with peptides from GW182 and Ataxin-2. The structures reveal a common interaction surface but with distinct recognition elements on the two ligands. Our findings rationalize the recent discovery of a role of PABPC1 in the miRNA pathway and suggest a general function of the Mlle domain in mRNA deadenylation.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       PABC Expression, Purification, and Peptide Synthesis
+      </title>
+      <p>
+       The Mlle domain (residues 544–626) of human PABPC1 was cloned into pGEX-6P-1 (Amersham Biosciences) and expressed in
+       <em>
+        Escherichia coli
+       </em>
+       BL21(DE3) in rich (LB) medium as an N-terminal glutathione
+       <em>
+        S
+       </em>
+       -transferase fusion. Cells were harvested and broken in phosphate-buffered saline, pH 7.4. The glutathione
+       <em>
+        S
+       </em>
+       -transferase fusion protein was purified by affinity chromatography on glutathione-Sepharose resin, and the tag was removed by cleavage with PreScission protease, leaving a Gly-Pro-Leu-Gly-Ser N-terminal extension. The cleaved protein was additionally purified using size-exclusion chromatography in 10 m
+       <span>
+        m
+       </span>
+       MES, 100 m
+       <span>
+        m
+       </span>
+       NaCl, pH 6.3.
+      </p>
+      <p>
+       The GW182 and Ataxin-2 peptides were synthesized by
+       <em>
+        N
+       </em>
+       -(9-fluorenyl)methoxycarbonyl (Fmoc) solid-phase peptide synthesis and purified by reverse-phase chromatography on a C18 column (Vydac, Hesperia, CA). The composition and purity of the peptide were verified by ion spray quadruple mass spectroscopy.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Crystallization
+      </title>
+      <p>
+       Crystallization conditions for the PABPC1 Mlle domain in complexes with peptides from GW182 (TNRC6C) and Ataxin-2 were identified utilizing hanging drop vapor diffusion with the AmSO
+       <sub>
+        4
+       </sub>
+       crystallization suite (Qiagen). The best crystals for the GW182-Mlle complex were obtained by equilibrating a 1-μl drop of an equimolar mixture of Mlle-(544–626) with GW182 (10 mg/ml) in buffer (10 m
+       <span>
+        m
+       </span>
+       MES, 100 m
+       <span>
+        m
+       </span>
+       NaCl, pH 6.3), mixed with 1 μl of reservoir solution containing 2.0
+       <span>
+        m
+       </span>
+       ammonium sulfate and 0.1
+       <span>
+        m
+       </span>
+       Tris, pH 8.5. Crystals grew overnight at 22 °C and were cryoprotected by the addition of 20% (v/v) glycerol. The GW182/Mlle crystals contain one GW182 and one Mlle molecule in the asymmetric unit corresponding to
+       <em>
+        V
+        <sub>
+         m
+        </sub>
+       </em>
+       = 2.13 Å
+       <sup>
+        3
+       </sup>
+       Da
+       <sup>
+        −1
+       </sup>
+       and a solvent content of 42.2% (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ). The best crystals for the Ataxin-2 complex were obtained by equilibrating a 1-μl drop of an equimolar mixture of Mlle-(544–626) with Ataxin-2-(912–928) (10 mg/ml) in 10 m
+       <span>
+        m
+       </span>
+       MES, 100 m
+       <span>
+        m
+       </span>
+       NaCl, pH 6.3, with 1 μl of reservoir solution containing 2.2
+       <span>
+        m
+       </span>
+       ammonium sulfate and 0.2
+       <span>
+        m
+       </span>
+       CdCl
+       <sub>
+        2
+       </sub>
+       . Crystals grew in 7–14 days at 20 °C and were cryoprotected with 20% (v/v) glycerol. The crystals contain one Mlle domain and one Ataxin-2 molecule in the asymmetric unit corresponding to
+       <em>
+        V
+        <sub>
+         m
+        </sub>
+       </em>
+       = 1.65 Å
+       <sup>
+        3
+       </sup>
+       Da
+       <sup>
+        −1
+       </sup>
+       and a solvent content of 25.3% (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structure Solution and Refinement
+      </title>
+      <p>
+       Diffraction data from single crystals of Mlle-peptide complexes were collected on an ADSC Quantum-210 CCD detector (Area Detector Systems Corp.) at beamlines A1 and F2 at the Cornell High Energy Synchrotron Source (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). Data processing and scaling were performed with HKL2000 (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ). The structure of the Ataxin-2-Mlle complex was determined by molecular replacement with Phaser (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ), using the coordinates of Mlle from human UBR5 (Protein Data Bank entry
+       <span>
+        1I2T
+       </span>
+       ). The structure of the GW182-Mlle complex was determined by molecular replacement with Phaser (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ), using the coordinates of the Ataxin-2-Mlle complex. The initial models obtained from Phaser were completed and adjusted with the program Coot (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ) and were improved by several cycles of refinement, using the program REFMAC 5.2 (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ) and model refitting. At the latest stage of refinement, we also applied the translation-libration-screw (TLS) option (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ). The final models have excellent stereochemistry according to the program PROCHECK (
+       <xref ref-type="bibr">
+        27
+       </xref>
+       ). The refinement statistics are given in
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       . The coordinates and structure factors have been deposited in the RCSB Protein Data Bank (accession numbers
+       <span>
+        3KTP
+       </span>
+       and
+       <span>
+        3KTR
+       </span>
+       ).
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 1
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Data collection and refinement statistics
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       NMR Spectroscopy
+      </title>
+      <p>
+       NMR resonance assignments of the Mlle domain of PABPC1 were described earlier (
+       <xref ref-type="bibr">
+        1
+       </xref>
+       ). All NMR experiments were recorded at 298 K. Peptide NMR titrations were carried by adding peptides into 0.2–0.6 m
+       <span>
+        m
+       </span>
+       samples of
+       <sup>
+        15
+       </sup>
+       N-labeled Mlle domain and monitored by
+       <sup>
+        15
+       </sup>
+       N-
+       <sup>
+        1
+       </sup>
+       H heteronuclear single quantum correlation spectra.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Isothermal Titration Calorimetry (ITC) Measurements
+      </title>
+      <p>
+       Experiments were carried out on a MicroCal iTC200 titration calorimeter (MicroCal Inc., Northampton, MA) using the VPViewer software for instrument control and data acquisition. The buffer used for ITC experiments contained 10 m
+       <span>
+        m
+       </span>
+       MES buffer, 100 m
+       <span>
+        m
+       </span>
+       NaCl, pH 6.3. During a titration experiment, samples of Mlle protein were thermostated at 293 K in a stirred (1000 rpm) reaction cell of 0.2 ml. Nineteen injections (2-μl volume and 4 s duration each) with a 150-s interval between injections were carried out using a 39-μl syringe filled with the peptide solution. Titration experiments were performed with 30 μ
+       <span>
+        m
+       </span>
+       Mlle solution in the cell and 300–600 μ
+       <span>
+        m
+       </span>
+       peptide solution in the syringe to ensure a final peptide/Mlle molar ratio of at least 2:1 in the reaction cell. The binding constants and thermodynamic parameters were determined as described previously (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ).
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structure of the GW182-Mlle Complex
+      </title>
+      <p>
+       To understand the molecular basis of GW182 recognition by the Mlle domain of PABPC1, we co-crystallized Mlle with a peptide from the DUF region of GW182 (
+       <xref ref-type="bibr">
+        17
+       </xref>
+       ). This region had previously been recognized as similar to the PABPC1-binding PAM2 motif, and PAM2 peptides derived from Paip2 were shown to block the pulldown of PABPC1 by GW182 (
+       <xref ref-type="bibr">
+        11
+       </xref>
+       ). The crystal structure was solved by molecular replacement to 1.5 Å and showed the presence of the Mlle domain (PABPC1 residues 544–626) in complex with a 22-residue fragment of GW182 (residues 1380–1401, see
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). The Mlle structure consists of a five-helical bundle, which is consistent with the previous studies (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        a
+       </em>
+       ). Helices α2 and α3 and a small part of helix α5 participate in peptide binding. The electron density map showed the GW182 peptide from residues Asn
+       <sup>
+        1384
+       </sup>
+       to Gln
+       <sup>
+        1399
+       </sup>
+       . The four N- and two C-terminal peptide residues were disordered in the crystal.
+      </p>
+      <fig id="F1" position="float">
+       <label>
+        FIGURE 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Crystal structure of the PABPC1 Mlle domain complexed with the DUF region of GW182.
+         </strong>
+         <em>
+          a
+         </em>
+         , schematic representation (
+         <em>
+          left, purple
+         </em>
+         ) and surface (
+         <em>
+          right
+         </em>
+         ) of the Mlle domain with the bound GW182 peptide (
+         <em>
+          cyan
+         </em>
+         ). The Mlle domain forms a five-helix bundle with the peptide sitting in a shallow hydrophobic pocket formed by helices α2 and α3. The GW182 peptide N and C termini sit together on the same side of the Mlle domain.
+         <em>
+          b
+         </em>
+         , intra- and intermolecular hydrogen bonds in the GW182 peptide. Bound water molecules (
+         <em>
+          blue circles
+         </em>
+         ) form a network of hydrogen bonds (
+         <em>
+          dash lines
+         </em>
+         ) above the side chain of Phe
+         <sup>
+          1389
+         </sup>
+         . The GW182 peptide forms two β-turns, which position the hydrophobic residues Phe
+         <sup>
+          1389
+         </sup>
+         and Trp
+         <sup>
+          1395
+         </sup>
+         into a shallow groove between Mlle helices α2 (shown diagonally on the
+         <em>
+          left
+         </em>
+         ) and α3. Intermolecular hydrogen bonds between Phe
+         <sup>
+          1389
+         </sup>
+         and Mlle Gly
+         <sup>
+          579
+         </sup>
+         and between Gly
+         <sup>
+          1392
+         </sup>
+         and Mlle Glu
+         <sup>
+          564
+         </sup>
+         are shown. For clarity, only GW182 peptide residues are labeled.
+         <em>
+          c
+         </em>
+         , hydrogen bonding between the C-terminal portion of the GW182 peptide and Mlle helix α2.
+         <em>
+          d
+         </em>
+         , hydrophobic residues in the GW182 peptide responsible for binding to the Mlle domain. The peptide is shown flipped 180° horizontally relative to
+         <em>
+          b
+         </em>
+         to display the surface facing the Mlle domain. The surface is color-coded by element type to highlight the nonpolar surface centered around the aromatic residues Phe
+         <sup>
+          1389
+         </sup>
+         and Trp
+         <sup>
+          1395
+         </sup>
+         .
+        </p>
+       </caption>
+      </fig>
+      <p>
+       The GW182 peptide structure was characterized by β-turns at Pro
+       <sup>
+        1391
+       </sup>
+       –Gly
+       <sup>
+        1392
+       </sup>
+       and at Lys
+       <sup>
+        1396
+       </sup>
+       –Gly
+       <sup>
+        1397
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        b
+       </em>
+       ). These two turns are stabilized by a network of hydrogen bonds that includes several highly ordered water molecules and additional interactions with the Mlle domain. Both β-turns are closed by hydrogen bonds by the carbonyl of His
+       <sup>
+        1390
+       </sup>
+       with the amide of Val
+       <sup>
+        1393
+       </sup>
+       and the carbonyl of Trp
+       <sup>
+        1395
+       </sup>
+       with the amide of Leu
+       <sup>
+        1398
+       </sup>
+       . Above Phe
+       <sup>
+        1389
+       </sup>
+       at the center of the peptide hairpin, two bound water molecules mediate five hydrogen bonds that stabilize the hairpin. The hairpin is closed by a hydrogen bond between the carbonyl of Pro
+       <sup>
+        1387
+       </sup>
+       and the side chain of Trp
+       <sup>
+        1395
+       </sup>
+       . Complementing these intramolecular hydrogen bonds, the Mlle helix α2 provides a series of charged and polar residues that run antiparallel to the GW182 peptide and form hydrogen bonds with the peptide backbone. Among these, the side chain of Glu
+       <sup>
+        564
+       </sup>
+       hydrogen bonds with the amide of Gly
+       <sup>
+        1392
+       </sup>
+       , Gln
+       <sup>
+        560
+       </sup>
+       hydrogen bonds with Val
+       <sup>
+        1393
+       </sup>
+       and Trp
+       <sup>
+        1395
+       </sup>
+       , and the side chain of Gln
+       <sup>
+        556
+       </sup>
+       hydrogen bonds with carbonyl of Gln
+       <sup>
+        1399
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        c
+       </em>
+       ). The closest approach between the two polypeptide backbones is marked by a hydrogen bond between the amide of Phe
+       <sup>
+        1389
+       </sup>
+       and the carbonyl of Gly
+       <sup>
+        579
+       </sup>
+       .
+      </p>
+      <p>
+       Hydrophobic contacts are the main determinants of binding specificity and affinity between GW182 and PABPC1 (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        d
+       </em>
+       ). At the N terminus, GW182 residues Trp
+       <sup>
+        1385
+       </sup>
+       and Pro
+       <sup>
+        1386
+       </sup>
+       make hydrophobic contacts with Mlle helix α5. These are the only contacts between the peptide and the fifth helix of Mlle. Both residues make additional interactions with helix α3; the side chain of Pro
+       <sup>
+        1386
+       </sup>
+       makes a hydrophobic contact with Mlle Met
+       <sup>
+        584
+       </sup>
+       and Trp
+       <sup>
+        1385
+       </sup>
+       hydrogen bonds with Mlle Glu
+       <sup>
+        587
+       </sup>
+       . Following these two residues, the peptide wraps around helix α3 to present Phe
+       <sup>
+        1389
+       </sup>
+       and Pro
+       <sup>
+        1391
+       </sup>
+       into a hydrophobic pocket in Mlle formed by residues Gly
+       <sup>
+        563
+       </sup>
+       , Thr
+       <sup>
+        567
+       </sup>
+       , Thr
+       <sup>
+        582
+       </sup>
+       , and Leu
+       <sup>
+        586
+       </sup>
+       . The peptide residue Phe
+       <sup>
+        1389
+       </sup>
+       is a key determinant of binding and is located at the center of the hydrophobic surface of GW182 (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        d
+       </em>
+       ). Following a sharp turn at Pro
+       <sup>
+        1391
+       </sup>
+       –Gly
+       <sup>
+        1392
+       </sup>
+       , the peptide presents two additional hydrophobic residues that bind the long hydrophobic trough between Mlle helices α2 and α3. These are Trp
+       <sup>
+        1395
+       </sup>
+       , which binds again to Mlle Leu
+       <sup>
+        586
+       </sup>
+       , and Leu
+       <sup>
+        1398
+       </sup>
+       , which makes hydrophobic contacts with the aliphatic part of Mlle Gln
+       <sup>
+        556
+       </sup>
+       .
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       ITC and NMR Experiments Validate the GW182/Mlle Structure
+      </title>
+      <p>
+       To characterize the binding in solution, we carried out ITC and NMR experiments with the DUF region of GW182 and PABPC1 Mlle (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       ).
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N heteronuclear single quantum correlation spectra of the DUF region showed limited dispersion of signals, which confirms that the peptide is unfolded prior to Mlle binding (
+       <a>
+        supplemental Fig. S1
+       </a>
+       ). Titration of the
+       <sup>
+        15
+       </sup>
+       N-labeled peptide with the Mlle domain produced large chemical shift changes, indicating that the peptide becomes structured upon Mlle binding. The bound and free signals were in a slow intermediate exchange, reflecting low micromolar binding affinity. The spectra of both the free and bound forms were complicated by the presence of
+       <em>
+        cis-trans
+       </em>
+       peptide bond isomerization. The GW182-(1380–1401) peptide contains four proline residues, of which at least two show significant amounts of both peptide bond isomers (
+       <a>
+        supplemental Fig. S1
+       </a>
+       ). Nonetheless, the signals of both the bound and free peptide could be assigned. The heteronuclear nuclear Overhauser effect spectrum of the bound form showed strongly positive heteronuclear nuclear Overhauser effects, indicating reduced mobility of the backbone amides for residues Trp
+       <sup>
+        1385
+       </sup>
+       to Leu
+       <sup>
+        1398
+       </sup>
+       as observed in the crystal structure (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        b
+       </em>
+       ;
+       <a>
+        supplemental Fig. S2
+       </a>
+       ).
+      </p>
+      <fig id="F2" position="float">
+       <label>
+        FIGURE 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          Solution studies of PABPC1 Mlle binding the GW182 DUF region.
+         </strong>
+         <em>
+          a
+         </em>
+         , ITC trace (
+         <em>
+          top
+         </em>
+         ) and integrated areas (
+         <em>
+          bottom
+         </em>
+         ) for GW182-(1380–1401) binding to the PABPC1 Mlle domain.
+         <em>
+          b
+         </em>
+         , backbone amide
+         <sup>
+          15
+         </sup>
+         N{
+         <sup>
+          1
+         </sup>
+         H} heteronuclear nuclear Overhauser effects for
+         <sup>
+          15
+         </sup>
+         N-labeled GW182 peptide bound to Mlle domain. Values above 0.6 indicate highly ordered residues.
+         <em>
+          c
+         </em>
+         , chemical shift changes in the
+         <sup>
+          15
+         </sup>
+         N-labeled PABPC1 Mlle domain (residues 544–626) upon addition of a peptide comprising the GW182 DUF region. Shifts are calculated as a weighted average in ppm as (Δ
+         <em>
+          H
+         </em>
+         <sup>
+          2
+         </sup>
+         + (ΔN/5)
+         <sup>
+          2
+         </sup>
+         )
+         <sup>
+          1/2
+         </sup>
+         .
+         <em>
+          d
+         </em>
+         , mapping of the chemical shift changes by residue color (
+         <em>
+          white
+         </em>
+         , no change;
+         <em>
+          black
+         </em>
+         , maximum change) onto a schematic representation of the unliganded Mlle domain. For reference, the position of the GW182 peptide in the x-ray crystal structure is shown.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       We carried out a reciprocal titration with
+       <sup>
+        15
+       </sup>
+       N-labeled Mlle and unlabeled GW182 peptides. The PABPC1 Mlle domain gives excellent NMR spectra and was previously characterized in complex with a PAM2 peptide from Paip2 (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). Comparison of titrations with a long GW182 peptide (residues 1242–1500) and shorter peptides showed that residues 1380–1401 of GW182 suffice to capture all of the Mlle-binding elements (
+       <a>
+        supplemental Figs. S3 and S4
+       </a>
+       ). The largest chemical shift changes upon peptide binding were in helices α2, α3, and α5 (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        c
+       </em>
+       ). Mapping of these into the three-dimensional structure of the Mlle domain in solution (
+       <xref ref-type="bibr">
+        1
+       </xref>
+       ) showed a perfect correlation with the binding interactions observed in the crystal structure (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        d
+       </em>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Mutagenesis of Essential DUF Residues
+      </title>
+      <p>
+       We carried out alanine-scanning mutagenesis of GW182 to assess the importance of individual residues for Mlle binding (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). The affinity of the wild-type GW182-(1380–1401) peptide measured by ITC was 6 μ
+       <span>
+        m
+       </span>
+       (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        a
+       </em>
+       ). Shorter fragments (residues 1383–1401 and 1385–1399) showed the same affinity, which is in agreement with the crystal structure, as the missing residues do not interact with the Mlle domain. Deletion of additional C-terminal amino acids led to a progressive loss of activity. Removal of the C-terminal GLQ decreased binding 10-fold, reflecting the loss of hydrophobic interactions mediated by Leu
+       <sup>
+        1398
+       </sup>
+       and a Gln
+       <sup>
+        1399
+       </sup>
+       hydrogen bond. The peptide from residues Ser
+       <sup>
+        1381
+       </sup>
+       to Val
+       <sup>
+        1393
+       </sup>
+       showed no binding.
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 2
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Affinity of the PABPC1 Mlle domain for PAM2 peptides
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <p>
+       For alanine mutagenesis, we selected residues whose side chains are involved in binding Mlle in the crystal structure or that are involved in forming β-turns. Mutation of Phe
+       <sup>
+        1389
+       </sup>
+       or Trp
+       <sup>
+        1395
+       </sup>
+       to alanine abolished the binding or reduced it by more than 200-fold, revealing the crucial role of these residues for PABPC1 binding. In contrast, the first aromatic residue, Trp
+       <sup>
+        1385
+       </sup>
+       , contributes only about 14-fold to the peptide binding affinity. The two proline-to-alanine substitutions (P1386A and P1394A) showed only moderate effects on binding affinity (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ).
+      </p>
+      <p>
+       The G1392A substitution resulted in 50-fold reduced affinity. This dramatic result was unexpected, as this residue only participates in binding to Mlle via a hydrogen bond with Glu
+       <sup>
+        564
+       </sup>
+       . Likely, the presence of a side chain hinders the ability of this residue to make a sharp turn, which is crucial for positioning of Trp
+       <sup>
+        1395
+       </sup>
+       . The Φ angle of Gly
+       <sup>
+        1392
+       </sup>
+       is 87°, which is sterically hindered for non-glycine residues.
+      </p>
+      <p>
+       In conclusion, the most important residues for GW182 binding are the aromatic residues Phe
+       <sup>
+        1389
+       </sup>
+       and Trp
+       <sup>
+        1395
+       </sup>
+       and a residue involved in a β-turn, Gly
+       <sup>
+        1392
+       </sup>
+       . Echoing results with PAM2 peptides, Phe
+       <sup>
+        1389
+       </sup>
+       is the single most important residue; no binding could be detected even at millimolar concentrations when this residue was mutated to an alanine.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structure of the Ataxin-2-Mlle Complex
+      </title>
+      <p>
+       The amino acid sequence of the GW182 DUF region shares features with known ligands of the PABPC1 Mlle but lacks N-terminal residues that were previously shown to be important for Paip2 binding (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). To compare the two peptide motifs, we determined the high resolution crystal structure of PABPC1 Mlle in complex with the PAM2 motif from Ataxin-2. The Ataxin-2 PAM2 motif shares conserved residues with previously studied PAM2 peptides (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). We previously reported the NMR solution structures of Mlle in complex with the PAM2 motifs from Paip2 and Paip1, but these lack sufficient details about the side chain conformations and parts of the peptide backbone for an accurate comparison with the GW182 DUF structure (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). In addition, there is a great deal of interest in understanding the structure and function of Ataxin-2 bound to PABPC1 (
+       <xref ref-type="bibr">
+        6
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        30
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ).
+      </p>
+      <p>
+       We obtained well diffracting crystals in the drops containing a mixture of Mlle with a 17-residue peptide from Ataxin-2 (residues 912–928,
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). The PABPC1 Ataxin-2/Mlle diffraction dataset was solved by molecular replacement and refined to 1.7 Å. The asymmetric unit contained one complex with electron density for residues 544–624 of PABPC1 and 913–928 of the Ataxin-2 peptide.
+      </p>
+      <p>
+       The Ataxin-2 peptide binds to Mlle in an extended conformation to two hydrophobic pockets between helices α2 and α3 and between helices α3 and α5 (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        a
+       </em>
+       ). As is the case for GW182, peptide binding is driven by hydrophobic interactions, in this case, mediated by Leu
+       <sup>
+        914
+       </sup>
+       and Phe
+       <sup>
+        921
+       </sup>
+       of the PAM2 motif (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        a
+       </em>
+       ). The Mlle helix α3 forms a barrier between the two hydrophobic pockets dividing the peptide into N- and C-terminal parts (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ,
+       <em>
+        b
+       </em>
+       and
+       <em>
+        c
+       </em>
+       ). To link these, the peptide runs over the space provided by glycine and between the side chains of lysine and glutamic acid of the KITGMLLE motif in helix α3.
+      </p>
+      <fig id="F3" position="float">
+       <label>
+        FIGURE 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          Crystal structure of the PABPC1 Mlle domain complexed with the PAM2 motif of Ataxin-2.
+         </strong>
+         <em>
+          a
+         </em>
+         , schematic representation (
+         <em>
+          left, purple
+         </em>
+         ) and surface (
+         <em>
+          right
+         </em>
+         ) of the Mlle domain with bound Ataxin-2 peptide (
+         <em>
+          cyan
+         </em>
+         ). The peptide wraps around the Mlle domain, binding to helices α2, α3, and α5 with its N and C termini on opposite faces.
+         <em>
+          b
+         </em>
+         , details of the N-terminal portion of Ataxin-2. For clarity, residues in Ataxin-2 are underlined.
+         <em>
+          L914
+         </em>
+         binds the hydrophobic pocket formed by Leu
+         <sup>
+          585
+         </sup>
+         , Ala
+         <sup>
+          610
+         </sup>
+         , and the aliphatic parts of Lys
+         <sup>
+          606
+         </sup>
+         and Glu
+         <sup>
+          609
+         </sup>
+         .
+         <em>
+          P916
+         </em>
+         inserts into a small pocket formed by the side chains of Met
+         <sup>
+          584
+         </sup>
+         , Val
+         <sup>
+          613
+         </sup>
+         , Leu
+         <sup>
+          614
+         </sup>
+         , and His
+         <sup>
+          617
+         </sup>
+         .
+         <em>
+          A918
+         </em>
+         makes a hydrophobic contact with the base of the Met
+         <sup>
+          584
+         </sup>
+         side chain. The side chain of Lys
+         <sup>
+          580
+         </sup>
+         forms intermolecular hydrogen bonds with carbonyls of
+         <em>
+          P916
+         </em>
+         and
+         <em>
+          A918
+         </em>
+         . The β-turn in the peptide is stabilized by a pair of hydrogen bonds between
+         <em>
+          N915
+         </em>
+         and the backbone amides of
+         <em>
+          N917
+         </em>
+         and
+         <em>
+          A918. c
+         </em>
+         , in the C-terminal portion,
+         <em>
+          F921
+         </em>
+         is a key hydrophobic residue and binds the shallow pocket in Mlle formed by Thr
+         <sup>
+          582
+         </sup>
+         , Phe
+         <sup>
+          567
+         </sup>
+         , Leu
+         <sup>
+          586
+         </sup>
+         , and Gly
+         <sup>
+          563
+         </sup>
+         . The backbone of
+         <em>
+          F921
+         </em>
+         is rigidified by hydrogen bonds involving Gly
+         <sup>
+          579
+         </sup>
+         , Gln
+         <sup>
+          560
+         </sup>
+         , and
+         <em>
+          N922
+         </em>
+         and a bound water molecule.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       With the exception of a β-turn at residues Asn
+       <sup>
+        915
+       </sup>
+       –Pro
+       <sup>
+        916
+       </sup>
+       –Asn
+       <sup>
+        917
+       </sup>
+       , the Ataxin-2 peptide adopts a largely irregular conformation. Starting at the N terminus of the peptide, the side chain of Leu
+       <sup>
+        914
+       </sup>
+       inserts into a hydrophobic pocket formed between helices α3 and α5 (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        b
+       </em>
+       ). Additional hydrophobic contacts are made by Pro
+       <sup>
+        916
+       </sup>
+       and the methyl group of Ala
+       <sup>
+        918
+       </sup>
+       , which is invariant in PAM2 sequences (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        b
+       </em>
+       ). In the C-terminal portion of the peptide, the side chain of Phe
+       <sup>
+        921
+       </sup>
+       sits in the hydrophobic pocket formed by helices α2 and α3 (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        c
+       </em>
+       ). This phenylalanine residue is a major binding determinant as evidenced by mutagenesis studies of other PAM2 peptides (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). Finally, the side chain of Pro
+       <sup>
+        923
+       </sup>
+       packs tightly against the aromatic ring of Phe
+       <sup>
+        567
+       </sup>
+       .
+      </p>
+      <p>
+       The Ataxin-2/Mlle binding is also stabilized by ionic interactions and hydrogen bonds. The amide of Asn
+       <sup>
+        915
+       </sup>
+       hydrogen bonds with the side chain of Glu
+       <sup>
+        587
+       </sup>
+       to help position Leu
+       <sup>
+        914
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        b
+       </em>
+       ). The β-turn formed by Ataxin-2 residues Asn
+       <sup>
+        915
+       </sup>
+       –Pro
+       <sup>
+        916
+       </sup>
+       –Asn
+       <sup>
+        917
+       </sup>
+       is stabilized by an extensive network of electrostatic interactions that includes intra- and intermolecular hydrogen bonds as well as ordered water molecules (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        b
+       </em>
+       ). These interactions rationalize previous mutagenesis studies that showed that loss of Mlle Lys
+       <sup>
+        580
+       </sup>
+       strongly decreased peptide binding. In the C-terminal half, hydrogen bonds help place Phe
+       <sup>
+        921
+       </sup>
+       in its hydrophobic pocket and position the following residues through bonds between Arg
+       <sup>
+        924
+       </sup>
+       and Glu
+       <sup>
+        564
+       </sup>
+       and between Phe
+       <sup>
+        926
+       </sup>
+       and Gln
+       <sup>
+        571
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        c
+       </em>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structure of Other PAM2-Mlle Complexes
+      </title>
+      <p>
+       The PAM2 peptide from Ataxin-2 is one of the highest affinity sequences for binding to PABPC1 (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ), and we expect that most PAM2 peptides will bind in a very similar manner. This is especially true for Paip2, which shares many of residues within the 12-amino acid motif and binds with a similarly high submicromolar affinity. The x-ray structure of the Ataxin-2 PAM2 complex validates previous mutagenesis results that identified the most critical residues for PAM2 binding of Paip2 (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). The single most critical peptide residue is Phe
+       <sup>
+        921
+       </sup>
+       (which corresponds to F118A of Paip2). Loss of this aromatic side chain completely prevents binding. The second most important residue is the N-terminal leucine residue (Leu
+       <sup>
+        914
+       </sup>
+       ) that fits into a hydrophobic pocket between helices α3 and α5. Mutation of the corresponding residue in Paip2 (L111A) decreased binding by over 1000-fold.
+      </p>
+      <p>
+       Previous studies also examined the effects of mutations in the Mlle domain. Mutation of PABPC1 F567A had the largest effect and completely blocked binding to all three PAM2 peptides tested (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). In the Ataxin-2 structure, this residue is responsible for hydrophobic contacts with peptide residues Phe
+       <sup>
+        921
+       </sup>
+       , Pro
+       <sup>
+        923
+       </sup>
+       , and Phe
+       <sup>
+        926
+       </sup>
+       (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        c
+       </em>
+       ). PABPC1 Lys
+       <sup>
+        580
+       </sup>
+       , the first residue in the signature KITGMLLE motif, was similarly shown to be essential for binding Paip2. In the Ataxin-2 structure, Lys
+       <sup>
+        580
+       </sup>
+       coordinates two hydrogen bonds that stabilize the peptide β-turn (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       <em>
+        b
+       </em>
+       ). In contrast, the last residue of MLLE, Glu
+       <sup>
+        587
+       </sup>
+       , was not essential in the pulldown assay (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ), and in the Ataxin-2 structure, it makes only one hydrogen bond.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       GW182 DUF Binding Is Distinct from PAM2
+      </title>
+      <p>
+       Comparison of the GW182/Mlle and Ataxin-2/Mlle structures reveals both similarities and differences (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       ). The Mlle domains in both structures adopt nearly identical conformations. The major difference is the longer helix 5 in the Ataxin-2-bound structure, which is caused by crystal packing. The two structures were superimposed with a root mean square deviation of less than 0.6 Å for the backbone and side chain atoms. The peptide conformations also show a high degree of structural similarity in the region of highest sequence similarity, EFHP of GW182 and EFNP of Ataxin-2. The conserved phenylalanine and proline residues, in particular, make identical contacts with the Mlle domain. Phe
+       <sup>
+        1389
+       </sup>
+       of GW182 and Phe
+       <sup>
+        921
+       </sup>
+       of Ataxin-2 superimpose precisely between helices α2 and α3 of Mlle. Mutagenesis of the closely related sequence of Paip2 has shown that the phenylalanine ring is essential for binding (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ), suggesting that this phenylalanine is the central element for Mlle binding in both GW182 and Ataxin-2.
+      </p>
+      <fig id="F4" position="float">
+       <label>
+        FIGURE 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          Comparison of the Mlle complexes with the DUF region of GW182 and the PAM2 motif of Ataxin-2.
+         </strong>
+         The peptides from GW182 (
+         <em>
+          magenta
+         </em>
+         ) and Ataxin-2 (
+         <em>
+          cyan
+         </em>
+         ) follow distinctly different courses across the face of the Mlle domain (
+         <em>
+          blue
+         </em>
+         ) but overlap in the core zone around residues Phe
+         <sup>
+          1389
+         </sup>
+         /Phe
+         <sup>
+          921
+         </sup>
+         . The phenylalanine rings of the two residues superpose to within 0.5 Å. Additional hydrophobic contacts are provided by Trp
+         <sup>
+          1395
+         </sup>
+         of GW182 and by Leu
+         <sup>
+          914
+         </sup>
+         of Ataxin-2.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       Outside of this nucleus, the peptides adopt strikingly different orientations. Although the Ataxin-2 PAM2 wraps around the Mlle domain, the GW182 DUF flips back to form a hairpin-like structure (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       ). At the N terminus, the Ataxin-2 peptide possesses a conserved leucine residue (Leu
+       <sup>
+        914
+       </sup>
+       ) that inserts into a deep pocket between Mlle helices α3 and α5 and is essential for high affinity binding of other PAM2 peptides (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). GW182 lacks this leucine, and indeed the corresponding N-terminal sequence GSSIN is dispensable and does not contribute toward binding (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). Instead, GW182 uses a tryptophan (Trp
+       <sup>
+        1385
+       </sup>
+       ) whose side chain occupies the smaller cavity engaged by the Asn-Pro-Asn β-turn of Ataxin-2 to partially engage Mlle helix α5.
+      </p>
+      <p>
+       The greatest differences in the bound peptides occur at the C termini. The GW182 C terminus turns and makes interactions with Mlle helices α2 and α3 that are absent in Ataxin-2 complex. In GW182, a third aromatic residue, Trp
+       <sup>
+        1395
+       </sup>
+       , is essential for strong binding; its substitution by alanine leads to a loss of over 200-fold in affinity. In contrast, deletion of all the C-terminal residues past Pro
+       <sup>
+        923
+       </sup>
+       in Ataxin-2 or the equivalent proline in Paip2 decreases binding affinity by only 15-fold (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). Thus, the Mlle-binding sequences of GW182 and Ataxin-2 can be dissected into three zones as follows: a central zone nucleated around Phe
+       <sup>
+        1389
+       </sup>
+       /Phe
+       <sup>
+        921
+       </sup>
+       that is essential for binding and two complementary zones composed of C-terminal residues from GW182 and N-terminal residues from Ataxin-2.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    PABPs play multiple roles in promoting mRNA maturation, translation, and degradation in cells. They are highly modular proteins that function as scaffolds to recruit proteins to the mRNA poly(A) tail. Here, we have characterized the structure and function of the C-terminal Mlle domain from human PABPC1. The domain specifically recognizes two distinct but overlapping peptide motifs, PAM2 and the GW182 DUF (
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    ). The structures reveal the mechanism of peptide recognition and hint at a general role of the Mlle domain in mRNA deadenylation.
+   </p>
+   <fig id="F5" position="float">
+    <label>
+     FIGURE 5.
+    </label>    <caption>
+     <p>
+      <strong>
+       Sequence conservation of the Mlle-PAM2 binding determinants and model of PABPC1 on the mRNA poly(A) tail.
+      </strong>
+      <em>
+       a
+      </em>
+      , DUF sequence of GW182 aligned against PAM2 sequences from Ataxin-2, eukaryotic release factor 3b (
+      <em>
+       eRF3
+      </em>
+      ), Tob1 (transducer of Erb1), poly(A)-specific ribonuclease 3 (
+      <em>
+       PAN3
+      </em>
+      ), and ubiquitin-specific peptidase 10 (USP10). The most highly conserved residues are
+      <em>
+       underlined. b
+      </em>
+      , sequence alignment of the Mlle domains from human UBR5 and PABPC1. The secondary structure is shown labeled according to Mlle from PABPC1. The domain from UBR5 lacks helix α1. The MLLE motif found in all Mlle domains is
+      <em>
+       underlined. c
+      </em>
+      , model of PABPC1 with Mlle-interacting proteins. Typical mRNA poly(A) tails will accommodate multiple PABPC1 proteins whose Mlle domains bind GW182 and PAM2-containing proteins.
+     </p>
+    </caption>
+   </fig>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       PAM2 Motif
+      </title>
+      <p>
+       The vast majority of proteins that bind to PABPC1 through its Mlle domain contain a PAM2 motif (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        a
+       </em>
+       ). This motif binds to PABPC1 via two key hydrophobic interactions mediated by an N-terminal leucine residue and a C-terminal phenylalanine residue. The motif is found in proteins associated with mRNA deadenylation (Tob1/2 and PAN3), translation termination (eRF3), RNA granules (Ataxin-2), and protein deubiquitination (USP10).
+      </p>
+      <p>
+       Tob1 and Tob2 are members of the antiproliferative BTG family (
+       <xref ref-type="bibr">
+        33
+       </xref>
+       ). Tob1 contains a single C-terminal PAM2 motif, and Tob2 contains two PAM2 motifs, and both bind with low micromolar affinity to Mlle (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). The N termini of Tob1 and Tob2 contain a conserved APRO domain that binds to the Ccr4-Not-Caf1 deadenylase complex (
+       <xref ref-type="bibr">
+        34
+       </xref>
+       ). Mutagenesis of the PAM2 motif blocks Tob1 stimulation of deadenylase activity both in cells and
+       <em>
+        in vitro
+       </em>
+       (
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ).
+      </p>
+      <p>
+       PABPC1 also binds to the PAN2-PAN3 deadenylase complex via the PAM2 motif of PAN3 to stimulate poly(A)-specific nuclease activity (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ). In yeast, loss-of-function mutations in the Pabp1p Mlle domain and in the preceding linker increase global mRNA poly(A) tail length (
+       <xref ref-type="bibr">
+        39
+       </xref>
+       ) and decrease deadenylation (
+       <xref ref-type="bibr">
+        34
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        40
+       </xref>
+       ). The activity of these deadenylation complexes is regulated by competition for PABPC1 binding by the translation release factor eRF3 (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ). eRF3 contains two partially overlapping PAM2 motifs that bind with much higher affinity than PAN3 and Tob1 (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). Analysis of the sequences of PAN3 and Tob1 reveals the importance of both the N- and C-terminal interactions for high affinity Mlle binding. PAN3 lacks the N-terminal leucine residue of the consensus PAM2 motif, whereas Tob1 lacks the C-terminal proline residue (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        a
+       </em>
+       ). In contrast, eRF3 binds with 1 μ
+       <span>
+        m
+       </span>
+       affinity due to its better match to the consensus motif and cooperativity between the two sites.
+       <sup>
+        <a>
+         3
+        </a>
+       </sup>
+      </p>
+      <p>
+       The PAM2 motif of Ataxin-2 is among the highest affinity peptides, second only to the motif from Paip2 (
+       <a>
+        <span>
+         Table 2
+        </span>
+       </a>
+       ). Ataxin-2 was first identified as a gene product that undergoes a polyglutamine expansion responsible for the neurodegenerative disorder, spinocerebellar ataxia 2 (SCA2) (
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        42
+       </xref>
+       ). Ataxin-2 appears to have several functions in cells; it has been associated with polyribosomes (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ), translational regulation (
+       <xref ref-type="bibr">
+        6
+       </xref>
+       ), the DEA(D/H)-box RNA helicase DDX6, and RNA stress granules (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ). In yeast, the Ataxin-2 homolog, Pbp1p, is involved in the control of poly(A) tail length (
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ). Based on its PAM2 motif, Ataxin-2 was predicted to interact with PABPC1 in 2001 (
+       <xref ref-type="bibr">
+        1
+       </xref>
+       ), and binding was subsequently demonstrated in humans (
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ), flies (
+       <xref ref-type="bibr">
+        30
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ), and worms (
+       <xref ref-type="bibr">
+        6
+       </xref>
+       ).
+      </p>
+      <p>
+       Perhaps the most poorly understood aspect of Mlle domain function is its connection to protein ubiquitination. Aside from poly(A)-binding proteins, the only other protein that contains an Mlle domain is the E3 ubiquitin ligase UBR5 (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        b
+       </em>
+       ). UBR5 is a large protein composed of an N-terminal UBA domain (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ), a UBR box (
+       <xref ref-type="bibr">
+        46
+       </xref>
+       ), an Mlle domain (
+       <xref ref-type="bibr">
+        4
+       </xref>
+       ), and a C-terminal HECT domain. The Mlle domain from UBR5 binds most PAM2 ligands (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ) and is involved in regulating Paip2 levels in response to PABPC1 knockdown (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ). Intriguingly, a PAM2 motif is found in the ubiquitin-specific protease USP10 (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). Generally, proteins containing PAM2 motifs are over-represented in P-bodies and RNA stress granules. The PAM2-containing proteins Tob (
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ), PAN3 (
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ), Ataxin-2 (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ), GW182 (
+       <xref ref-type="bibr">
+        15
+       </xref>
+       ), and USP10 (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ) have all been associated with RNA granules.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       GW182 DUF Motif
+      </title>
+      <p>
+       In contrast to the large number of proteins that contain PAM2 motifs, functional DUF-like peptide sequences appear to be restricted to GW182 and related proteins. Like many PAM2 proteins, GW182 is associated with cytoplasmic RNA foci along with mRNA deadenylases (
+       <xref ref-type="bibr">
+        15
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ). Recently, GW182 proteins have been shown to affect miRNA-mediated gene silencing through promotion of deadenylation and mRNA decay (
+       <xref ref-type="bibr">
+        17
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        50
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        52
+       </xref>
+       ). By deletion analysis, Zipprich
+       <em>
+        et al.
+       </em>
+       (
+       <xref ref-type="bibr">
+        17
+       </xref>
+       ) showed that the C-terminal portion of GW182, which contains the DUF and an RRM domain, is sufficient for translational repression when tethered to a reporter mRNA in the human. Similar results were obtained with
+       <em>
+        Drosophila
+       </em>
+       GW182 (
+       <xref ref-type="bibr">
+        53
+       </xref>
+       ). The C-terminal region of GW182 promotes miRNA-mediated mRNA deadenylation through binding of the DUF to the PABPC1 Mlle domain (
+       <xref ref-type="bibr">
+        11
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        54
+       </xref>
+       ). We show here that this association occurs through the PAM2-binding surface, and accordingly, PAM2 peptides compete with GW182 for Mlle binding and decrease miRNA-associated deadenylation (
+       <xref ref-type="bibr">
+        11
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Perspective
+      </title>
+      <p>
+       The structures presented here significantly advance our understanding of the mechanism by which PAM2 and the related DUF of GW182 associate with PABPC1 (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        c
+       </em>
+       ). Although proteins with PAM2 sites are in competition for individual Mlle domains, the presence of multiple PABPC1 proteins on mRNA poly(A) tails allows multiple, synergistic binding interactions to occur. These allow more graded interactions as weaker ligands are progressively displaced by higher affinity ligands. The multiple binding sites also lead to synergistic avidity effects to enhance the affinity of multivalent protein complexes. Finally, we note that the micromolar affinity of PAM2-Mlle binding suggests that it is a dynamic interaction subject to temporospatial regulation wherein different PAM2-containing proteins bind to PABPC1 at distinct times and locations in the cell.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Kozlov G., Trempe J. F., Khaleghpour K., Kahvejian A., Ekiel I., Gehring K. (2001)
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       98
+      </span>
+      , 4409–4413
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Kühn U., Wahle E. (2004)
+      <span>
+       Biochim. Biophys. Acta
+      </span>
+      <span>
+       1678
+      </span>
+      , 67–84
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Mangus D. A., Evans M. C., Jacobson A. (2003)
+      <span>
+       Genome Biol.
+      </span>
+      <span>
+       4
+      </span>
+      , 223.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Deo R. C., Sonenberg N., Burley S. K. (2001)
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       98
+      </span>
+      , 4414–4419
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      König J., Baumann S., Koepke J., Pohlmann T., Zarnack K., Feldbrügge M. (2009)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       28
+      </span>
+      , 1855–1866
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Ciosk R., DePalma M., Priess J. R. (2004)
+      <span>
+       Development
+      </span>
+      <span>
+       131
+      </span>
+      , 4831–4841
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Hoshino S., Imai M., Kobayashi T., Uchida N., Katada T. (1999)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       274
+      </span>
+      , 16677–16680
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Khaleghpour K., Svitkin Y. V., Craig A. W., DeMaria C. T., Deo R. C., Burley S. K., Sonenberg N. (2001)
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       7
+      </span>
+      , 205–216
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Okochi K., Suzuki T., Inoue J., Matsuda S., Yamamoto T. (2005)
+      <span>
+       Genes Cells
+      </span>
+      <span>
+       10
+      </span>
+      , 151–163
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Katzenellenbogen R. A., Egelkrout E. M., Vliet-Gregg P., Gewin L. C., Gafken P. R., Galloway D. A. (2007)
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       81
+      </span>
+      , 3786–3796
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Fabian M. R., Mathonnet G., Sundermeier T., Mathys H., Zipprich J. T., Svitkin Y. V., Rivas F., Jinek M., Wohlschlegel J., Doudna J. A., Chen C. Y., Shyu A. B., Yates J. R., 3rd, Hannon G. J., Filipowicz W., Duchaine T. F., Sonenberg N. (2009)
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       35
+      </span>
+      , 868–880
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Bartel D. P. (2004)
+      <span>
+       Cell
+      </span>
+      <span>
+       116
+      </span>
+      , 281–297
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Giraldez A. J., Mishima Y., Rihel J., Grocock R. J., Van Dongen S., Inoue K., Enright A. J., Schier A. F. (2006)
+      <span>
+       Science
+      </span>
+      <span>
+       312
+      </span>
+      , 75–79
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Wu L., Fan J., Belasco J. G. (2006)
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       103
+      </span>
+      , 4034–4039
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Behm-Ansmant I., Rehwinkel J., Doerks T., Stark A., Bork P., Izaurralde E. (2006)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       20
+      </span>
+      , 1885–1898
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Wakiyama M., Takimoto K., Ohara O., Yokoyama S. (2007)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       21
+      </span>
+      , 1857–1862
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Zipprich J. T., Bhattacharyya S., Mathys H., Filipowicz W. (2009)
+      <span>
+       RNA
+      </span>
+      <span>
+       15
+      </span>
+      , 781–793
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Eulalio A., Behm-Ansmant I., Izaurralde E. (2007)
+      <span>
+       Nat. Rev. Mol. Cell Biol.
+      </span>
+      <span>
+       8
+      </span>
+      , 9–22
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Anderson P., Kedersha N. (2009)
+      <span>
+       Nat. Rev. Mol. Cell Biol.
+      </span>
+      <span>
+       10
+      </span>
+      , 430–436
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Balagopal V., Parker R. (2009)
+      <span>
+       Curr. Opin. Cell Biol.
+      </span>
+      <span>
+       21
+      </span>
+      , 403–408
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Matthews B. W. (1968)
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       33
+      </span>
+      , 491–497
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Otwinowski Z., Minor W. (1997)
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       276
+      </span>
+      , 307–326
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Read R. J. (2001)
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr.
+      </span>
+      <span>
+       57
+      </span>
+      , 1373–1382
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Emsley P., Cowtan K. (2004)
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr.
+      </span>
+      <span>
+       60
+      </span>
+      , 2126–2132
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Murshudov G. N., Vagin A. A., Lebedev A., Wilson K. S., Dodson E. J. (1999)
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr.
+      </span>
+      <span>
+       55
+      </span>
+      , 247–255
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Winn M. D., Murshudov G. N., Papiz M. Z. (2003)
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       374
+      </span>
+      , 300–321
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Laskowski R. A., MacArthur M. W., Moss D. S., Thornton J. M. (1993)
+      <span>
+       J. Appl. Crystallogr.
+      </span>
+      <span>
+       26
+      </span>
+      , 283–291
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Kozlov G., De Crescenzo G., Lim N. S., Siddiqui N., Fantus D., Kahvejian A., Trempe J. F., Elias D., Ekiel I., Sonenberg N., O'Connor-McCourt M., Gehring K. (2004)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       23
+      </span>
+      , 272–281
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Lim N. S., Kozlov G., Chang T. C., Groover O., Siddiqui N., Volpon L., De Crescenzo G., Shyu A. B., Gehring K. (2006)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       281
+      </span>
+      , 14376–14382
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Lessing D., Bonini N. M. (2008)
+      <span>
+       PLoS Biol.
+      </span>
+      <span>
+       6
+      </span>
+      , e29.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Satterfield T. F., Pallanck L. J. (2006)
+      <span>
+       Hum. Mol. Genet.
+      </span>
+      <span>
+       15
+      </span>
+      , 2523–2532
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Ralser M., Albrecht M., Nonhoff U., Lengauer T., Lehrach H., Krobitsch S. (2005)
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       346
+      </span>
+      , 203–214
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Mauxion F., Chen C. Y., Seraphin B., Shyu A. B. (2009)
+      <span>
+       Trends Biochem. Sci.
+      </span>
+      <span>
+       34
+      </span>
+      , 640–647
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Horiuchi M., Takeuchi K., Noda N., Muroya N., Suzuki T., Nakamura T., Kawamura-Tsuzuku J., Takahasi K., Yamamoto T., Inagaki F. (2009)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       284
+      </span>
+      , 13244–13255
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Ezzeddine N., Chang T. C., Zhu W., Yamashita A., Chen C. Y., Zhong Z., Yamashita Y., Zheng D., Shyu A. B. (2007)
+      <span>
+       Mol. Cell. Biol.
+      </span>
+      <span>
+       27
+      </span>
+      , 7791–7801
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Funakoshi Y., Doi Y., Hosoda N., Uchida N., Osawa M., Shimada I., Tsujimoto M., Suzuki T., Katada T., Hoshino S. (2007)
+      <span>
+       Genes Dev.
+      </span>
+      <span>
+       21
+      </span>
+      , 3135–3148
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Uchida N., Hoshino S., Katada T. (2004)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       279
+      </span>
+      , 1383–1391
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Siddiqui N., Mangus D. A., Chang T. C., Palermino J. M., Shyu A. B., Gehring K. (2007)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       282
+      </span>
+      , 25067–25075
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Mangus D. A., Evans M. C., Agrin N. S., Smith M., Gongidi P., Jacobson A. (2004)
+      <span>
+       Mol. Cell. Biol.
+      </span>
+      <span>
+       24
+      </span>
+      , 5521–5533
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Simón E., Séraphin B. (2007)
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       35
+      </span>
+      , 6017–6028
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Trottier Y., Lutz Y., Stevanin G., Imbert G., Devys D., Cancel G., Saudou F., Weber C., David G., Tora L. (1995)
+      <span>
+       Nature
+      </span>
+      <span>
+       378
+      </span>
+      , 403–406
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Huynh D. P., Maalouf M., Silva A. J., Schweizer F. E., Pulst S. M. (2009)
+      <span>
+       PLoS One
+      </span>
+      <span>
+       4
+      </span>
+      , e6235.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Nonhoff U., Ralser M., Welzel F., Piccini I., Balzereit D., Yaspo M. L., Lehrach H., Krobitsch S. (2007)
+      <span>
+       Mol. Biol. Cell
+      </span>
+      <span>
+       18
+      </span>
+      , 1385–1396
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Mangus D. A., Amrani N., Jacobson A. (1998)
+      <span>
+       Mol. Cell. Biol.
+      </span>
+      <span>
+       18
+      </span>
+      , 7383–7396
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Kozlov G., Nguyen L., Lin T., De Crescenzo G., Park M., Gehring K. (2007)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       282
+      </span>
+      , 35787–35795
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Tasaki T., Mulder L. C., Iwamatsu A., Lee M. J., Davydov I. V., Varshavsky A., Muesing M., Kwon Y. T. (2005)
+      <span>
+       Mol. Cell. Biol.
+      </span>
+      <span>
+       25
+      </span>
+      , 7120–7136
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Yoshida M., Yoshida K., Kozlov G., Lim N. S., De Crescenzo G., Pang Z., Berlanga J. J., Kahvejian A., Gehring K., Wing S. S., Sonenberg N. (2006)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       25
+      </span>
+      , 1934–1944
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Zheng D., Ezzeddine N., Chen C. Y., Zhu W., He X., Shyu A. B. (2008)
+      <span>
+       J. Cell Biol.
+      </span>
+      <span>
+       182
+      </span>
+      , 89–101
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Ding L., Han M. (2007)
+      <span>
+       Trends Cell Biol.
+      </span>
+      <span>
+       17
+      </span>
+      , 411–416
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Chen C. Y., Zheng D., Xia Z., Shyu A. B. (2009)
+      <span>
+       Nat. Struct. Mol. Biol.
+      </span>
+      <span>
+       16
+      </span>
+      , 1160–1166
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Beilharz T. H., Humphreys D. T., Clancy J. L., Thermann R., Martin D. I., Hentze M. W., Preiss T. (2009)
+      <span>
+       PLoS One
+      </span>
+      <span>
+       4
+      </span>
+      , e6783.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Eulalio A., Huntzinger E., Nishihara T., Rehwinkel J., Fauser M., Izaurralde E. (2009)
+      <span>
+       RNA
+      </span>
+      <span>
+       15
+      </span>
+      , 21–32
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Chekulaeva M., Filipowicz W., Parker R. (2009)
+      <span>
+       RNA
+      </span>
+      <span>
+       15
+      </span>
+      , 794–803
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Zekri L., Huntzinger E., Heimstädt S., Izaurralde E. (2009)
+      <span>
+       Mol. Cell. Biol.
+      </span>
+      <span>
+       29
+      </span>
+      , 6220–6231
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

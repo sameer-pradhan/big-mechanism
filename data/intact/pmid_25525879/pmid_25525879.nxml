@@ -1,0 +1,1512 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4344121
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Sirtuin 4 is a lipoamidase regulating pyruvate dehydrogenase complex activity
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     Sirtuins (SIRTs) are critical enzymes that govern genome regulation, metabolism, and aging. Despite conserved deacetylase domains, mitochondrial SIRT4 and SIRT5 have little to no deacetylase activity, and a robust catalytic activity for SIRT4 has been elusive. Here, we establish SIRT4 as a cellular lipoamidase that regulates the pyruvate dehydrogenase complex (PDH). Importantly, SIRT4 catalytic efficiency for lipoyl- and biotinyl-lysine modifications is superior to its deacetylation activity. PDH, which converts pyruvate to acetyl-CoA, has been known to be primarily regulated by phosphorylation of its E1 component. We determine that SIRT4 enzymatically hydrolyzes the lipoamide cofactors from the E2 component dihydrolipoyllysine acetyltransferase (DLAT), diminishing PDH activity. We demonstrate SIRT4-mediated regulation of DLAT lipoyl levels and PDH activity in cells and
+     <em>
+      in vivo
+     </em>
+     , in mouse liver. Furthermore, metabolic flux switching via glutamine stimulation induces SIRT4 lipoamidase activity to inhibit PDH, highlighting SIRT4 as a guardian of cellular metabolism.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Sirtuins (SIRTs) are a family of seven mammalian nicotinamide adenine dinucleotide (NAD
+    <sup>
+     +
+    </sup>
+    )-dependent enzymes that regulate diverse biological processes, including genome regulation, stress response, metabolic homeostasis and aging (
+    <xref ref-type="bibr">
+     Guarente, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Imai et al., 2000
+    </xref>
+    ). SIRTs display widespread subcellular distributions, as SIRT1, SIRT6, and SIRT7 are nuclear, SIRT2 is predominantly cytoplasmic, and SIRTs3-5 are mitochondrial (
+    <xref ref-type="bibr">
+     Haigis et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Michishita et al., 2005
+    </xref>
+    ). As all SIRTs have a conserved deacetylase domain, these enzymes are generally known as lysine deacetylases, acting in opposition to acetyltransferases to remove acetyl-modifications from lysine residues (
+    <xref ref-type="bibr">
+     Imai et al., 2000
+    </xref>
+    ). However, SIRTs exhibit varying catalytic efficiencies to this modification. SIRTs1-3 display robust deacetylase activity, in contrast to SIRTs4-5 that show little to no activity (
+    <xref ref-type="bibr">
+     Haigis et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Michishita et al., 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schuetz et al., 2007
+    </xref>
+    ). Emerging evidence has revealed that several SIRTs can hydrolyze alternative lysine modifications more efficiently than acetyl. Specifically, SIRT5 preferentially desuccinylates and demalonylates protein substrates (
+    <xref ref-type="bibr">
+     Du et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Peng et al., 2011
+    </xref>
+    ), while SIRT6 can hydrolyze long-chain fatty acyl lysine modifications (
+    <xref ref-type="bibr">
+     Jiang et al., 2013
+    </xref>
+    ). These studies have highlighted the functionally dynamic nature of this family of proteins, able to perform different enzymatic reactions, and regulate a wide range of cellular processes.
+   </p>
+   <p>
+    Mitochondrial SIRTs3-5 regulate ATP production, apoptosis, and cell signalling (
+    <xref ref-type="bibr">
+     Verdin et al., 2010
+    </xref>
+    ) through distinct enzymatic functions. SIRT3 is considered to be the major deacetylase of the mitochondria, as SIRT3-deficient mice exhibit significant protein hyper-acetylation (
+    <xref ref-type="bibr">
+     Lombard et al., 2007
+    </xref>
+    ). The desuccinylase activity of SIRT5 was shown to target proteins involved in fatty acid β-oxidation and ketone body synthesis pathways, with SIRT5-deficient mice exhibiting an accumulation of acylcarnitines and a decrease in β-hydroxybutyrate production (
+    <xref ref-type="bibr">
+     Rardin et al., 2013
+    </xref>
+    ). More recently, SIRT5 was reported to regulate lysine glutarylation levels, thereby modulating the activity of carbamoyl phosphase synthase 1, a critical enzyme in the urea cycle (
+    <xref ref-type="bibr">
+     Tan et al., 2014
+    </xref>
+    ). In contrast to SIRT3 and SIRT5, SIRT4 enzymatic functions have generally remained elusive (
+    <xref ref-type="bibr">
+     Newman et al., 2012
+    </xref>
+    ). SIRT4 has been reported to regulate glutamine metabolism (
+    <xref ref-type="bibr">
+     Csibi et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jeong et al., 2013
+    </xref>
+    ), and fatty acid oxidation via PPAR-α activity (
+    <xref ref-type="bibr">
+     Laurent et al., 2013a
+    </xref>
+    ). To date, the enzymatic activity of SIRT4 is largely based on its ability to ADP-ribosylate glutamate dehydrogenase (GLUD1), which regulates amino acid-dependent insulin secretion (
+    <xref ref-type="bibr">
+     Haigis et al., 2006
+    </xref>
+    ). The deacylase activities of SIRT4 have remained less well-characterized. Initial studies reported limited deacetylation activity (
+    <xref ref-type="bibr">
+     Lin et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Michishita et al., 2005
+    </xref>
+    ), yet SIRT4 was recently reported to control lipid catabolism through deacetylation of malonyl-CoA decarboxylase (MCD) (
+    <xref ref-type="bibr">
+     Laurent et al., 2013b
+    </xref>
+    ). Additionally, acetylated SIRT4 substrate candidates have been identified
+    <em>
+     in vitro
+    </em>
+    via peptide microarrays (
+    <xref ref-type="bibr">
+     Rauh et al., 2013
+    </xref>
+    ) and by screening the activity of recombinant SIRTs against various acyl-histone peptides (
+    <xref ref-type="bibr">
+     Feldman et al., 2013
+    </xref>
+    ). Unfortunately, these efforts may have been hampered by difficulty in maintaining soluble and active recombinant SIRT4. Therefore, reconciliation of
+    <em>
+     in vitro
+    </em>
+    enzymatic activities with
+    <em>
+     in vivo
+    </em>
+    biological substrates and downstream physiological functions remains a challenge.
+   </p>
+   <p>
+    Here, we characterized SIRT4 protein interactions within mitochondria, identifying its association with proteins containing lipoyl and biotinyl modifications. In agreement with this, we demonstrate that SIRT4 removes lipoyl- and biotinyl-lysine modifications more efficiently than acetylations. We discover a physical and functional interaction between SIRT4 and the components of the pyruvate dehydrogenase complex (PDH). PDH is a mitochondrial complex comprised of three catalytic subunits (E1, pyruvate decarboxylase; E2, dihydrolipoyllysine acetyltransferase (DLAT); E3, dihydrolipoyl dehydrogenase), a structural subunit (PDH-binding component X, PDHX) and two regulatory subunits (PDH kinase and PDH phosphatase) (
+    <xref ref-type="bibr">
+     Zhou et al., 2001
+    </xref>
+    ). The complex catalyzes the decarboxylation of pyruvate to generate acetyl CoA, and links glycolysis to the TCA cycle. Its activity is known to be regulated by phosphorylation of the E1 subunit, phosphorylation that can be also impacted by E1 acetylation (
+    <xref ref-type="bibr">
+     Fan et al., 2014
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jing et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Linn et al., 1969
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wieland and Jagow-Westermann, 1969
+    </xref>
+    ). Here, we show that SIRT4 provides a previously unrecognized, phosphorylation-independent, mechanism of PDH regulation. SIRT4 hydrolyzes lipoamide cofactors from the DLAT E2 component of the PDH complex, thereby inhibiting PDH activity. Finally, as glutamine stimulation in rat liver is also known to inhibit the PDH (
+    <xref ref-type="bibr">
+     Haussinger et al., 1982
+    </xref>
+    ), we investigated whether SIRT4 may play a role in this process. Indeed, we show that glutamine stimulation induces endogenous SIRT4 lipoamidase activity, triggering a reduction in both DLAT lipoyl levels and PDH activity. As the PDH controls pyruvate decarboxylation, fueling multiple downstream pathways, our findings highlight SIRT4 as a critical regulator of cellular metabolism.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     SIRT4 interacts with the three mitochondrial dehydrogenase complexes
+    </title>
+    <p>
+     To investigate potential cellular substrates of SIRT4, we used proteomics to define its mitochondrial protein interactions. We constructed MRC5 fibroblasts stably expressing SIRT4-EGFP. Using density-based organelle fractionation (co-isolation with mitochondrial COX IV,
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ) and direct fluorescence microscopy (co-localization with MitoTracker,
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     and
+     <a>
+      Fig. S1A
+     </a>
+     ), we confirmed its mitochondrial localization. Mitochondria were isolated and the interactions of SIRT4-EGFP were characterized by immunoaffinity purification-mass spectrometry (IP-MS) (
+     <xref ref-type="bibr">
+      Joshi et al., 2013
+     </xref>
+     ). Interaction specificity was computationally assessed using SAINT (
+     <xref ref-type="bibr">
+      Choi et al., 2011
+     </xref>
+     ), and 106 significant SIRT4 candidate interactions were identified (
+     <a>
+      Table S1
+     </a>
+     ), including the known interactions and substrates, GLUD1, IDE and MLYCD (
+     <xref ref-type="bibr">
+      Ahuja et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Haigis et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Laurent et al., 2013b
+     </xref>
+     ). We hypothesized that as yet unrecognized substrates were also identified, and interrogated SIRT4 interactions using bioinformatics to extract enriched metabolic pathways and assemble functional protein networks. Notably, pyruvate metabolism, the TCA cycle, branched-chain amino acid catabolism, and biotin metabolism were significantly enriched pathways (
+     <a>
+      Fig. S1
+     </a>
+     ). Interaction of SIRT4 with biotin-dependent carboxylases has been reported (
+     <xref ref-type="bibr">
+      Wirth et al., 2013
+     </xref>
+     ), validating the reliability of our dataset. Interestingly, we found that SIRT4 associated with all three of the multimeric mammalian dehydrogenase complexes—pyruvate dehydrogenase (PDH), oxoglutarate dehydrogenase (OGDH), and branched-chain alpha-keto acid dehydrogenase (BCKDH) (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ). These complexes occupy discrete positions within the cellular metabolic landscape, regulating TCA cycle activity and amino acid metabolism (
+     <a>
+      Fig. S1C
+     </a>
+     ). Given its relative prominence within SIRT4 interactions, we focused on PDH. The PDH complex is known to be regulated by reversible phosphorylation of its E1 component (
+     <xref ref-type="bibr">
+      Linn et al., 1969
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wieland and Jagow-Westermann, 1969
+     </xref>
+     ), with acetylation of E1 also impacting its phosphorylation levels (
+     <xref ref-type="bibr">
+      Fan et al., 2014
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jing et al., 2013
+     </xref>
+     ). We confirmed that SIRT4-EGFP co-localized (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ) and immuno-isolated (
+     <xref ref-type="fig">
+      Fig. 1D
+     </xref>
+     ) with DLAT and PDH component X (PDHX), the E2 and E3 subunits of PDH, respectively (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ). Furthermore, in wild-type (WT) human fibroblast cells we confirmed that DLAT interacts with endogenous SIRT4 by reciprocal IP (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Fig. 1
+     </label>     <caption>
+      <strong>
+       SIRT4 interacts with the pyruvate dehydrogenase complex
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Density gradient-based cellular fractionation of MRC5 cells isolates SIRT4-EGFP with mitochondrial marker COX IV.
+       <strong>
+        (B)
+       </strong>
+       Functional network of SIRT4 interactions reveals association with dehydrogenase complexes. The E2 components in each complex (diamonds) contain lipoamide modifications (red circle).
+       <strong>
+        (C)
+       </strong>
+       SIRT4-EGFP (green) co-localizes with DLAT and PDHX (white) within mitochondria (MitoTracker Red). (
+       <strong>
+        D)
+       </strong>
+       Immunoaffinity purification of SIRT4-EGFP co-isolates DLAT and PDHX.
+       <strong>
+        (E)
+       </strong>
+       Reciprocal immunoaffinity purification of DLAT co-isolates endogenous SIRT4 in wild-type fibroblasts. See also
+       <a>
+        Figure S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     SIRT4 more efficiently catalyzes removal of lipoyl- and biotinyl- than acetyl-lysine modifications
+    </title>
+    <p>
+     Given our confirmation of SIRT4 interaction with the PDH components, we pursued their functional relationship. The lipoamide cofactors bound to E2 transferase enzymes (
+     <xref ref-type="fig">
+      Fig. 1B, “L”
+     </xref>
+     ) are required for PDH activity (
+     <xref ref-type="bibr">
+      Rahmatullah et al., 1990
+     </xref>
+     ), forming the intermediate S-acetyldihydrolipoyl-lysine in the production of acetyl-CoA. DLAT also has a structural role, constituting the PDH catalytic core. As other mitochondrial SIRTs can hydrolyze various lysine modifications (
+     <xref ref-type="bibr">
+      Du et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jiang et al., 2013
+     </xref>
+     ), and as DLAT was prominent in our SIRT4 isolation, we speculated that E2 dehydrogenase components may be biological substrates of SIRT4, and that SIRT4 may directly hydrolyze the lipoamide cofactor. To test this we screened the
+     <em>
+      in vitro
+     </em>
+     activity of recombinant SIRT4 against differentially-modified synthetic peptides (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Initially, SIRT4 was incubated with histone H3 Lys9 (H3K9) peptides modified with acetyl-, biotinyl- or lipoyl-lysine, in the presence or absence of NAD
+     <sup>
+      +
+     </sup>
+     . Following the reaction, the generated unmodified peptides and remaining unreacted substrates were quantified by LC-MS (
+     <xref ref-type="fig">
+      Fig. 2A–D
+     </xref>
+     and
+     <a>
+      Fig. S2
+     </a>
+     ). SIRT4 only exhibited enzymatic activity in the presence of NAD
+     <sup>
+      +
+     </sup>
+     , shown by the generation of a product peak (P) at ~16.5 min (
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     ), corresponding to the unmodified H3K9 (
+     <a>
+      Fig. S2A
+     </a>
+     ). To compare the relative preference of SIRT4 for the different acyl-lysine peptides, we used extracted ion chromatograms to quantify the percentage of unmodified peptide generated for each substrate (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ). SIRT4 showed the highest potency for removing the lipoyl modification (
+     <xref ref-type="fig">
+      Fig 2B
+     </xref>
+     ). The relative amount of unmodified product generated after reaction with SIRT4 was 11% (lipoyl), 3% (biotinyl), and 0.3% (acetyl) (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ,
+     <em>
+      H3K9 substrates
+     </em>
+     ). To show that the enzymatic activity of SIRT4 was required for hydrolysis, we purified a recombinant SIRT4 containing a mutation to the critical residue H161. This histidine, conserved among all SIRTs, is critical for NAD
+     <sup>
+      +
+     </sup>
+     and substrate binding (
+     <xref ref-type="bibr">
+      Frye, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Smith and Denu, 2006
+     </xref>
+     ). In contrast to wild-type SIRT4, deacylation assays using the catalytically inactive SIRT4 H161Y resulted in no significant activity against any of these acyl-modified substrates (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Fig. 2
+     </label>     <caption>
+      <strong>
+       SIRT4 hydrolyzes lipoyl-, biotin-, and acetyl-lysine modifications
+       <em>
+        in vitro
+       </em>
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Recombinant SIRT4 (5 μM) was incubated with various acyl-modified H3K9 peptides (10 μM) with or without NAD (1 mM), and product and residual substrate peptides detected by LC-MS after reaction. Representative extracted ion chromatograms show unreacted acyl-modified H3K9 substrates (S), and unmodified H3K9 products (P, ~16.5 min). +NAD chromatograms are offset for clarity.
+       <strong>
+        (B)
+       </strong>
+       The percentage of product (unmodified peptide) formed as a function of increasing concentration of wild-type SIRT4 (±NAD) (mean ± S.E.M.; n=3).
+       <strong>
+        (C)
+       </strong>
+       Same as (B), except product formation from H3K9 substrates after reaction with increasing concentration of catalytically inactive SIRT4 H161Y.
+       <strong>
+        (D)
+       </strong>
+       Same as (A), except SIRT4 was incubated with putative biological DLAT and PDHX lipoyl lysine peptides (10 μM). Representative extracted ion chromatograms of unreacted DLAT and PDHX lipoyl peptide substrates (S) and unmodified products (P).
+       <strong>
+        (E)
+       </strong>
+       Scheme depicting the NAD+-dependent delipoylation of lipoyl-lysine mediated by SIRT4 lipoamidase activity. See also
+       <a>
+        Figure S2
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Determination of
+        <em>
+         in vitro
+        </em>
+        SIRT4 kinetics with acyl-modified peptide substrates
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     SIRT4 has superior lipoamidase activity for lipoyl-modified PDH peptides
+    </title>
+    <p>
+     To characterize the putative biological substrates of SIRT4, we tested whether SIRT4 removed lipoamide from DLAT and PDHX peptides (
+     <xref ref-type="fig">
+      Fig. 2B, D
+     </xref>
+     ,
+     <a>
+      Fig. S2B–C
+     </a>
+     ). SIRT4 showed greater activity towards these substrates than for H3K9, as the proportion of unmodified peptide generated in the presence of NAD
+     <sup>
+      +
+     </sup>
+     increased to 33% for DLAT and 42% for PDHX (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ,
+     <em>
+      Lipoyl PDH substrates,
+     </em>
+     and
+     <xref ref-type="fig">
+      Fig. 2D
+     </xref>
+     ).
+    </p>
+    <p>
+     Having established SIRT4 enzymatic activity, we next performed steady-state enzyme kinetic assays. This allowed direct comparison of SIRT4’s catalytic efficiency for the various acyl-modified peptide substrates (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Compared to H3K9 acetyl, SIRT4 removed lipoyl and biotinyl H3K9 modifications 28-fold and 9-fold more efficiently, respectively (
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). The DLAT lipoyl peptide displayed a 3.3-fold increase in efficiency compared to H3K9 lipoyl, owing mainly to a decreased
+     <em>
+      K
+      <sub>
+       m
+      </sub>
+     </em>
+     (
+     <xref ref-type="fig">
+      Fig. 3A–B
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). As a deacetylase, SIRT4 showed slightly greater efficiency towards DLAT acetyl compared to H3K9 acetyl; however, this efficiency was still 38–fold lower than DLAT lipoyl (
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ,
+     <a>
+      Fig S3A
+     </a>
+     ). We also compared SIRT4’s ability to deacetylate the known biological substrate peptide from MCD (
+     <xref ref-type="bibr">
+      Laurent et al., 2013b
+     </xref>
+     ) and found that SIRT4 was ~1270-fold more efficient at hydrolyzing DLAT lipoyl (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ,
+     <a>
+      Fig. S3A
+     </a>
+     ). Altogether, our results demonstrate that SIRT4 has a higher NAD
+     <sup>
+      +
+     </sup>
+     -dependent lipoamidase than deacetylase activity, directly hydrolyzing the lipoyl-lysine to generate unmodified lysine (
+     <xref ref-type="fig">
+      Fig. 2E
+     </xref>
+     ).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Fig. 3
+     </label>     <caption>
+      <strong>
+       Steady-state kinetics reveals SIRT4 has the highest catalytic efficiency for lipoyl-modified substrates among mitochondrial SIRTs
+      </strong>
+      <p>
+       <strong>
+        (A–B)
+       </strong>
+       SIRT4 (5 μM) initial velocity (v
+       <sub>
+        0
+       </sub>
+       ) versus substrate concentration [S] for (
+       <strong>
+        A
+       </strong>
+       ) H3K9- and (B) DLAT-acyl peptides (mean ± S.E.M.; n=3). [SIRT4] = 5 μM. v
+       <sub>
+        0
+       </sub>
+       vs. [S] were linear for acetyl substrates and were re-plotted to estimate
+       <em>
+        k
+        <sub>
+         cat
+        </sub>
+        /K
+        <sub>
+         m
+        </sub>
+       </em>
+       (see
+       <a>
+        Fig S3A
+       </a>
+       ).
+       <strong>
+        (C–D)
+       </strong>
+       Comparison of SIRT3 (0.5 μM) and SIRT4 (0.5 μM) initial velocity vs. [S] for DLAT K259 (
+       <strong>
+        C
+       </strong>
+       ) acetyl and (
+       <strong>
+        D
+       </strong>
+       ) lipoyl peptide (mean ± S.E.M.; n=3). SIRT4 v
+       <sub>
+        0
+       </sub>
+       vs. [S] was linear for DLAT acetyl and was re-plotted to estimate
+       <em>
+        k
+        <sub>
+         cat
+        </sub>
+        /K
+        <sub>
+         m
+        </sub>
+       </em>
+       (see
+       <a>
+        Fig S3B
+       </a>
+       ). If no error bars are displayed, errors were smaller than the data point size.See also
+       <a>
+        Figure S3
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     SIRT4 is the most efficient lipoamidase
+     <em>
+      in vitro
+     </em>
+     among mitochondrial sirtuins
+    </title>
+    <p>
+     To evaluate the lipoamidase activity for the three known mitochondrial sirtuins (SIRT3-5), we used steady-state enzyme kinetics to compare their ability to hydrolyze lipoyl or acetyl lysine modifications (
+     <xref ref-type="fig">
+      Fig. 3C–D
+     </xref>
+     ). For SIRT5, low but detectable activity was measured for DLAT acetyl (
+     <a>
+      Fig. S3B
+     </a>
+     ), while no activity was detected for DLAT lipoyl reactions (
+     <a>
+      Fig. S3C
+     </a>
+     ). As predicted, SIRT3, a robust mitochondrial deacetylase, showed significant enzymatic activity towards DLAT acetyl, while SIRT4 had minimal activity (~800-fold lower) (
+     <xref ref-type="fig">
+      Fig 3C
+     </xref>
+     ,
+     <a>
+      Fig S3C
+     </a>
+     ). In contrast, although SIRT3 displayed some enzymatic activity towards DLAT lipoyl (
+     <xref ref-type="fig">
+      Fig. 3D
+     </xref>
+     ), its efficiency was 13-fold lower when compared to DLAT acetyl (
+     <xref ref-type="fig">
+      Fig. 3D vs 3C
+     </xref>
+     ). Thus, SIRT4 has the highest catalytic efficiency for lipoamide modifications compared to the other mitochondrial SIRTs.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SIRT4 lipoamidase activity diminishes cellular PDH lipoamide levels and inhibits its activity
+    </title>
+    <p>
+     Given that the lipoamide cofactor is essential for PDH function (
+     <xref ref-type="bibr">
+      Perham, 1991
+     </xref>
+     ), we examined the impact of elevated SIRT levels on the endogenous cellular activity of PDH by over-expression (OE) of each mitochondrial SIRT in cultured human fibroblasts. Strikingly, PDH activity was only diminished in fibroblasts stably expressing SIRT4 compared to cells over-expressing GFP (CTL), SIRT3, or SIRT5 (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ,
+     <a>
+      S4A–B
+     </a>
+     ). While SIRT3 displayed marginal
+     <em>
+      in vitro
+     </em>
+     enzymatic activity for the DLAT lipoyl peptide (
+     <xref ref-type="fig">
+      Fig. 3D
+     </xref>
+     ), OE of either SIRT3 or SIRT5 did not alter cellular PDH activity (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ,
+     <a>
+      Fig. S4B
+     </a>
+     ), reinforcing the cellular specificity of SIRT4. We further confirmed the direct involvement of SIRT4 activity by showing that PDH activity was not reduced by OE of SIRT4 H161Y (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ,
+     <a>
+      S4A
+     </a>
+     ). Concomitant with the SIRT4-mediated reduction in PDH activity, we observed reduced lipoylation of endogenous DLAT in SIRT4 OE cells, while total DLAT levels remained constant (
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     ). DLAT lipoyl levels were not altered in SIRT3 or SIRT5 OE cells. To further characterize the correlation between SIRT4 OE and the decrease in PDH activity and lipoyl levels, we measured phosphorylation of PDH-E1rα. Interestingly, we observed reduced phosphorylation at all three sites of E1α in SIRT4 OE cells, while total E1α levels remained constant (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). Expression of H161Y SIRT4 did not change phosphorylation levels at any of the E1 sites (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ), indicating that SIRT4 enzymatic activity is required.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Fig. 4
+     </label>     <caption>
+      <strong>
+       Elevated SIRT4 expression decreases the activity and lipoylation of the pyruvate dehydrogenase complex in cultured cells
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       PDH activity in fibroblasts expressing mitochondrial SIRT proteins vs. GFP-expressing cells (CTL) (mean ± S.E.M.; n=3 SIRTs 3–5; n=5 GFP; ****p&lt;0.0001) measured by a PDH immunocapture colorimetric assay,
+       <strong>
+        (B)
+       </strong>
+       Western blot analysis of endogenous, full length lipoylated DLAT in cells overexpressing mitochondrial SIRTs. DLAT and COX IV – loading controls.
+       <strong>
+        (C)
+       </strong>
+       Western blot analysis of regulatory PDH-E1α phosphorylation (pS232, pS293, pS300) upon overexpression of SIRT4, catalytically inactive mutant H161Y, or GFP (CTL). E1 is loading control.
+       <strong>
+        (D)
+       </strong>
+       Relative PDH activity of untreated (control) or “activated” (+pyruvate dehyrogenase phosphatase, PDP1) purified porcine PDH complex incubated with wild-type or H161Y SIRT4. Western blot analysis of PDH-E1α phosphorylation sites; E1 – loading control. (
+       <strong>
+        E
+       </strong>
+       ) Representative MS/MS spectra of K132 lipoyl peptide detected from endogenous DLAT immunopurified from mitochondria of fibroblasts and digested with endoproteinase GluC. K*, reduced and di-carbamidomethylated lipoyl-lysine (Δm = 304 amu vs. unmodified lysine). (
+       <strong>
+        F
+       </strong>
+       ) SRM quantification of endogenous DLAT lipoyl K132 and K259 in fibroblasts (
+       <em>
+        left
+       </em>
+       ) and HEK293 cells (
+       <em>
+        right
+       </em>
+       ) (mean ± S.E.M; n=3, *
+       <em>
+        p
+       </em>
+       =0.03, ***
+       <em>
+        p
+       </em>
+       =0.0003). See also
+       <a>
+        Figure S4
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To confirm that the inhibition of PDH activity in cells reflects a direct effect of SIRT4 on the complex, we immuno-captured and measured the activity of purified porcine PDH
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Fig. 4D
+     </xref>
+     ,
+     <a>
+      S4C
+     </a>
+     ). Purified PDH was treated with pyruvate dehydrogenase phosphatase catalytic subunit 1 (PDP1), which decreased the phosphorylation of all three inhibitory PDH-E1α sites and, as expected, increased PDH activity (
+     <xref ref-type="fig">
+      Fig 4D
+     </xref>
+     ,
+     <a>
+      S4C
+     </a>
+     ). Then, “activated” PDH was treated with either recombinant WT or inactive H161Y SIRT4. Only active SIRT4 was able to attenuate PDH activity, which was not due to increased phosphorylation of E1 (
+     <xref ref-type="fig">
+      Fig. 4D
+     </xref>
+     ). Overall, these
+     <em>
+      in vitro
+     </em>
+     data with purified PDH support our observations of reduced activity of PDH in SIRT4 OE cells (
+     <xref ref-type="fig">
+      Fig 4A–C
+     </xref>
+     ), and together suggest that reduction in PDH activity occurs in a phosphorylation-independent manner, by SIRT4 directly hydrolyzing lipoylated DLAT.
+    </p>
+    <p>
+     DLAT contains two lipoyl-lysine residues, K132 and K259. Since western blot analysis only assessed overall lipoyl protein content, we designed an assay using LC-MS/MS selected reaction monitoring (SRM) (
+     <xref ref-type="bibr">
+      Sherrod et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tsai et al., 2012
+     </xref>
+     ) to measure the effect of SIRT4 on specific lipoylated lysines of endogenous cellular DLAT. Towards this goal, we affinity-purified endogenous DLAT from fibroblast mitochondria and then performed protein digestion using the endoproteinase GluC. Using non-targeted LC-MS/MS the two predicted lipoyl-lysine peptides of endogenous DLAT, containing K132 and K259 residues, were identified (
+     <xref ref-type="fig">
+      Fig 4E
+     </xref>
+     ,
+     <a>
+      Fig S4D
+     </a>
+     ). We confirmed these results using a synthetic K259 lipoyl peptide, which showed a similar LC retention time and fragmentation pattern as the endogenous K259 peptide (
+     <a>
+      Fig S4E
+     </a>
+     ). Additionally, fragmentation of these lipoyl-lysine peptides generated b-ions suitable for relative quantification by targeted MS/MS (
+     <xref ref-type="fig">
+      Fig 4E
+     </xref>
+     ,
+     <em>
+      boxes
+     </em>
+     ). Using this SRM assay, we measured the effect of SIRT4 OE on the relative levels of endogenous DLAT K132 lipoyl and K259 lipoyl in mitochondria (
+     <xref ref-type="fig">
+      Fig. 4F
+     </xref>
+     ,
+     <a>
+      S4F
+     </a>
+     ). Stable expression of active SIRT4 in fibroblasts reduced levels of DLAT lipoyl at both lysine residues (
+     <xref ref-type="fig">
+      Fig. 4F
+     </xref>
+     ,
+     <em>
+      left
+     </em>
+     ), consistent with our western blotting results (
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     ). In contrast, expression of SIRT4 H161Y did not reduce DLAT lipoyl levels. We also analyzed relative lipoyl levels on endogenous DLAT in HEK293 cells transiently transfected with either mCherry (CTL), SIRT4, or SIRT4 H161Y. Only expression of active SIRT4 diminished levels of DLAT lipoyl (
+     <xref ref-type="fig">
+      Fig. 4F
+     </xref>
+     ,
+     <em>
+      right
+     </em>
+     ), suggesting that SIRT4 reduction of DLAT lipoyl levels were not unique to fibroblasts or an artifact from cell line generation. Altogether, our results demonstrate that the E2 component of the PDH is a biological substrate of SIRT4 lipoamidase activity, and that the SIRT4-mediated reduction in PDH lipoyl levels leads to an inhibition of its function.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Glutamine-stimulation induces endogenous SIRT4 lipoamidase activity and inhibits PDH activity
+    </title>
+    <p>
+     Glutamine stimulation in rat liver is known to cause increased flux through OGDH and decreased flux through PDH, leading to PDH inhibition (
+     <xref ref-type="bibr">
+      Haussinger et al., 1982
+     </xref>
+     ). Therefore, we investigated whether SIRT4 may play a role in this process. Stimulation of WT fibroblasts with the glutamine supplement glutamax (4 mM) caused a significant time-dependent decrease in PDH activity (
+     <xref ref-type="fig">
+      Fig. 5A
+     </xref>
+     ,
+     <a>
+      Fig. S5A–B
+     </a>
+     ). Importantly, this reduction in activity was not due to increased levels of inhibitory PDH-E1 phosphorylation relative to unstimulated cells at the same time points (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). While steady-state levels of DLAT were unchanged due to glutamax stimulation (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ), a decrease in DLAT lipoyl levels was observed within 72 hr (
+     <xref ref-type="fig">
+      Fig. 5C
+     </xref>
+     ). In agreement with these observations, we detected elevated expression of endogenous SIRT4 in cells stimulated with glutamax (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). To validate the dependence of PDH inhibition on SIRT4 activity, we measured PDH activity in SIRT4 OE cells stimulated with glutamax. Following 40 hr culture in glutamax, over-expression of active WT SIRT4 triggered pronounced PDH inhibition, in contrast to the H161Y catalytic mutant (
+     <a>
+      Fig. S5C
+     </a>
+     ). To test the specific involvement of endogenous SIRT4, we generated fibroblasts with knock-down SIRT4 expression using shRNA (
+     <a>
+      Table S2
+     </a>
+     ). Effective SIRT4 knock-down was confirmed at the mRNA level (shSIRT4 #1 and #5 achieving &gt;75% knock-down) (
+     <xref ref-type="fig">
+      Fig. 5D
+     </xref>
+     ) and at the protein level (
+     <xref ref-type="fig">
+      Fig. 5E
+     </xref>
+     ). Importantly, SIRT4 knock-down using two different shRNA constructs led to a partial rescue of the glutamax-mediated inhibition of PDH activity (
+     <xref ref-type="fig">
+      Fig. 5F
+     </xref>
+     ,
+     <a>
+      Fig. S5D, F
+     </a>
+     ). Finally, to confirm a role for PDH regulation via SIRT4
+     <em>
+      in vivo
+     </em>
+     , PDH activity was measured in mitochondria purified from the liver of SIRT4 knock-out (KO) mice. Indeed, we observed elevated PDH activity (
+     <xref ref-type="fig">
+      Fig. 5G
+     </xref>
+     ,
+     <a>
+      Fig. S5E
+     </a>
+     ) and DLAT lipoyl levels (
+     <xref ref-type="fig">
+      Fig. 5G
+     </xref>
+     ) in SIRT4 KO mice relative to control mice. Altogether, these data demonstrate that endogenous SIRT4 is involved in inhibiting PDH activity and DLAT lipoyl levels in the mitochondria of cells and
+     <em>
+      in vivo
+     </em>
+     in mouse liver.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Fig. 5
+     </label>     <caption>
+      <strong>
+       Endogenous SIRT4 inhibits PDH in cultured fibroblasts and
+       <em>
+        in vivo
+       </em>
+       , in mouse liver
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       PDH activity time course in wild type fibroblasts stimulated with glutamax (4mM) for 2, 3, and 8 days, versus unstimulated cells (mean ± S.E.M.; n=4 2D and 3D, p&lt;0.0001; n=3 8D, p=0.0007).
+       <strong>
+        (B)
+       </strong>
+       Western blot analysis of regulatory PDH-E1α phosphorylation sites and total E1 (loading control), and endogenous SIRT4, DLAT, and COX IV (loading control) levels, following glutamax stimulation.
+       <strong>
+        (C)
+       </strong>
+       SRM quantification of DLAT lipoyl levels (K132 and K259) in cells stimulated with glutamax versus unstimulated (mean ± S.E.M.; n=3) for 2D (ns), 3D (*p=0.015), and 8D (**p=0.007, *p=0.018). (
+       <strong>
+        D
+       </strong>
+       ) Relative SIRT4 mRNA expression measured by qRT-PCR in fibroblast stably expressing either non-targeting control shRNA (shCTL) or one of five different constructs targeting SIRT4 (shSIRT4 #1–5). (
+       <strong>
+        E
+       </strong>
+       ) Western blot analysis of SIRT4 and COX IV (loading control) from mitochondria purified from fibroblasts expressing shRNA constructs shCTL, shSIRT4 #1, and shSIRT4 #5.
+       <strong>
+        (F)
+       </strong>
+       PDH activity in fibroblasts with knock-down levels of endogenous SIRT4 (shSIRT4 #1 or #5, mean ± S.E.M; n=4) treated with glutamax (4 mM for 8D), versus control shCTL cells (mean ± S.E.M; n=7, ***
+       <em>
+        p
+       </em>
+       &lt;0.0001). (
+       <strong>
+        G
+       </strong>
+       ) PDH activity, lipoyl levels of endogenous DLAT (lipoic acid), and total DLAT levels (DLAT) from mouse liver mitochondria of
+       <em>
+        Sirt4
+       </em>
+       <sup>
+        −/−
+       </sup>
+       mice (mean ± S.E.M, n = 3, **p&lt;0.039) versus wild-type control (n = 4). See also
+       <a>
+        Figure S5
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Until now, a mammalian cellular lipoamidase has not been characterized. However, our study discovered that SIRT4 can function with this enzymatic capacity in the mitochondria, and that PDH is a biological substrate. We find that, compared to its catalytic efficiency for deacetylation, SIRT4 exhibits far superior enzymatic activity for lipoyl- and biotinyl-lysine modifications. Interestingly, there is precedence for a serum lipoamidase having enzymatic activity for both lipoyl- and biotinyl-lysine modifications (
+    <xref ref-type="bibr">
+     Nilsson and Kagedal, 1993
+    </xref>
+    ). Importantly, patients with severe serum biotinidase deficiency were observed to exhibit lipoamidase deficiency (
+    <xref ref-type="bibr">
+     Nilsson and Ronge, 1992
+    </xref>
+    ). Given the serum enzyme was unable to hydrolyze lipoamide from bovine heart PDH (
+    <xref ref-type="bibr">
+     Oizumi and Hayakawa, 1989
+    </xref>
+    ), it is tempting to speculate that SIRT4 is the mitochondria-specific member of the mammalian class of enzymes that possess both lipoamidase and biotinidase activity, and therefore may be unique among these enzymes to liberate lipoate from PDH.
+   </p>
+   <p>
+    SIRT4 is among the least abundant proteins in the human proteome (PaxDb,
+    <a>
+     www.paxdb.org
+    </a>
+    ), and there is only a limited number of human proteins known to be lipoylated. These proteins play critical roles in cellular metabolism and include DLAT, DLST, DBT, PDHX and GCSH—the first four of which were identified as specific interacting partners of SIRT4 in our IP-MS study. We determined
+    <em>
+     in vitro,
+    </em>
+    in cells, and in an animal mouse model that SIRT4 regulates overall PDH activity by hydrolyzing the lipoamide cofactors from DLAT. Importantly, we showed that a catalytically active SIRT4 is required for this arm of PDH regulation. Overall, PDH controls pyruvate decarboxylation to generate acetyl-CoA, and DLAT specifically performs the transacetylation reaction, transferring the acetyl-group to Coenzyme A. Our finding that SIRT4 regulates DLAT lipoylation suggests PDH is inhibited via diminished transacetylation. Interestingly, the accessory PDH E3-binding subunit (PDHX) also contains a lipoyl modification. Indeed, we detected lipoylated protein(s) at ~ 50KDa by western blotting (
+    <a>
+     Fig. S4D
+    </a>
+    ). This signal may represent individual DLST, DBT, PDHX, or a mixture of these proteins (with similar masses at 49–54KDa), or other SIRT4 substrates. Although this band was reduced in cells upon SIRT4 overexpression (
+    <a>
+     Fig. S4D
+    </a>
+    ), there was no clear difference in mouse liver from SIRT4 KO when compared to WT mice (
+    <a>
+     Fig S5G
+    </a>
+    ). In contrast, DLAT lipoyl levels (~70K band) were reduced in cells overexpressing SIRT4 (
+    <xref ref-type="fig">
+     Fig. 4B
+    </xref>
+    ) and enhanced in SIRT4 KO vs wild-type mice (
+    <a>
+     Fig S5G
+    </a>
+    ). This highlights the significance of lipoylated DLAT under SIRT4 null conditions. Additionally, rather than performing a catalytic function, PDHX is known to play a structural role, such as in anchoring the E3 to the E2 (DLAT) subunit (
+    <xref ref-type="bibr">
+     Brautigam et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Harris et al., 1997
+    </xref>
+    ). Thus, should SIRT4, in addition to its impact on DLAT, modulate PDH activity through delipoylation of PDHX, this may involve a structural impairment of PDH. In addition, given our identification of SIRT4 interactions with biotin-dependent decarboxylases and demonstration that SIRT4 also has activity for biotinyl lysine, we predict that SIRT4 also regulates these decarboxylases and other biotin-dependent enzymes and metabolic pathways.
+   </p>
+   <p>
+    Comparison of steady-state enzyme kinetics is important for comparing the catalytic efficiency of an enzyme for particular substrates. However, this has been notoriously difficult for SIRT4 given issues associated with maintaining recombinant protein solubility (
+    <xref ref-type="bibr">
+     Du et al., 2011
+    </xref>
+    ). Enzyme kinetics have not been reported for SIRT4 substrates prior to this study, and although some
+    <em>
+     in vitro
+    </em>
+    activity of SIRT4 towards reduced lipoamide H3K9 peptide has been reported recently (
+    <xref ref-type="bibr">
+     Feldman et al., 2013
+    </xref>
+    ), the activity was not reproducible, and at very low levels (presumably due to stability issues). We optimized the expression, purification, and storage of SIRT4, which has allowed us to perform steady-state kinetics assays and discover that SIRT4 has the predominant lipoamidase activity among the mitochondrial sirtuins. Furthermore, SIRT4 catalytic efficiency for lipoylated DLAT is far-superior (1270-fold) to its previously reported substrate, acetylated MCD, making DLAT the best characterized substrate to date. Importantly, the observed SIRT4 catalytic efficiency and binding constant,
+    <em>
+     K
+     <sub>
+      m
+     </sub>
+    </em>
+    , for DLAT-lipoyl is consistent with the biological conditions within PDH. Specifically, each of the DLAT lipoyl domains is concentrated within PDH at &gt; 1 mM (
+    <xref ref-type="bibr">
+     Roche et al., 1993
+    </xref>
+    ), supporting a cellular role for SIRT4 lipoamidase activity in regulating PDH activity. Indeed, if SIRT4 is actually embedded within the PDH, this finding may help explain the previously reported inability to detect SIRT4 within the mitochondrial matrix by either proteomic profiling (
+    <xref ref-type="bibr">
+     Rhee et al., 2013
+    </xref>
+    ) or immunofluorescence (
+    <a>
+     www.proteinatlas.org
+    </a>
+    ).
+   </p>
+   <p>
+    Compared to the other mitochondrial SIRTs, our study shows that the cellular lipoamidase activity on DLAT-lipoyl and PDH activity is unique to SIRT4. Elevated expression levels of SIRT3 and SIRT5 in cells did not affect DLAT-lipoyl levels or PDH activity, despite SIRT3 showing some
+    <em>
+     in vitro
+    </em>
+    enzymatic activity to DLAT-lipoyl in kinetic assays. This highlights that the complex architecture and the local cellular environment facilitate protein interactions that may help to define substrate specificity. SIRT4 substrate specificity may also be determined by the size of the active site and amino acids that line the catalytic pocket. For example, structural analysis of the SIRT5 active site defined its preference for lysine substrates bearing negatively charged carboxylates (
+    <xref ref-type="bibr">
+     Du et al., 2011
+    </xref>
+    ). However, in contrast to all previously characterized SIRT substrates, lipoamide has a sulfur-containing, dithiolane ring. Assuming the SIRT4 active site is near physiological pH, lipoamide will have a neutral charge and may not require extensive charge stabilization. Overall, our results show SIRT4 lipoamidase activity for non-reduced lipoamide
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="fig">
+     Fig 2
+    </xref>
+    ); however, the oxidative susceptibility of lipoamide raises the possibility of other
+    <em>
+     in vivo
+    </em>
+    substrates. Ultimately, given the current lack of a SIRT4 crystal structure, future studies will be required to delineate the full range of SIRT4 lipoamide substrate specificity under different cellular states.
+   </p>
+   <p>
+    Our discovery that SIRT4 inhibits the PDH via direct hydrolysis of the lipoamide cofactor builds on the knowledge accumulated during several decades to provide a new perspective for understanding PDH regulation. PDH activity is understood to be principally inhibited by kinase-dependent phosphorylation of the E1 subunit, whereby phosphorylation is modulated downstream of E1 acetylation (
+    <xref ref-type="bibr">
+     Fan et al., 2014
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jing et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Linn et al., 1969
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wieland and Jagow-Westermann, 1969
+    </xref>
+    ). Our finding that SIRT4 lipoamidase activity can directly impair the function of the complex underscores that PDH regulation is a highly complex process that involves several mechanisms. For instance, we observed that cells with elevated levels of SIRT4 actually have decreased E1 phosphorylation, in conjunction with reduced PDH activity and lipoyl levels. Reduced phosphorylation would normally be expected to activate PDH. Nevertheless, this result is not entirely unexpected and may be partly explained if one considers that PDH kinases are known to be activated via binding to the lipoyl domain (
+    <xref ref-type="bibr">
+     Radke et al., 1993
+    </xref>
+    ). Therefore, if SIRT4 reduces DLAT lipoamide levels it also triggers an indirect reduction in kinase binding sites, thereby limiting kinase function and causing reduced phosphorylation. Thus, the complex regulation of PDH likely involves the temporal activation of several mechanisms by different stimuli and cellular responses.
+   </p>
+   <p>
+    Glutamine stimulation in rat liver was shown to inhibit PDH activity by increasing flux through OGDH, accompanied by decreased flux through PDH (
+    <xref ref-type="bibr">
+     Haussinger et al., 1982
+    </xref>
+    ). Building on this knowledge, we demonstrated that endogenous SIRT4 lipoamidase activity could be induced via glutamine stimulation. Interestingly, after 48hr of glutamine stimulation the PDH activity decreased by 50%, while the DLAT lipoyl levels decreased to a lesser extent. At subsequent time points, substantial decreases in both PDH activity and DLAT lipoylation were observed. These results suggest that PDH inhibitory mechanisms are temporally regulated. For instance, it is possible that a lipoyl-independent mechanism impacts PDH activity early after glutamine stimulation (up to 48 hr), which is followed by a lipoyl-dependent mechanism that relies on increased SIRT4 levels and lipoamidase activity (72h-8 days). The underlying molecular mechanisms for this temporal regulation are not entirely understood, but may reflect time requirements for increased transcription or translation of SIRT4. Nonetheless, knock-down of SIRT4 in cells led to a partial rescue of the glutamine-mediated inhibition of PDH activity. It remains to be determined whether the lack of a full rescue is due to the function of residual SIRT4 in these knocked-down cells, or if another, yet to be identified, PDH inhibition mechanism is simultaneously active. Finally, PDH activity and DLAT lipoyl levels in SIRT4 KO mouse liver were elevated compared to control animals, further supporting the function of SIRT4 in regulating PDH activity
+    <em>
+     in vivo
+    </em>
+    .
+   </p>
+   <p>
+    SIRT4 was initially characterized as an ADP-ribosyltransferase that regulates glutamate dehydrogenase and insulin secretion (
+    <xref ref-type="bibr">
+     Haigis et al., 2006
+    </xref>
+    ). Studies in insulin producing cells with knock-down SIRT4 expression showed elevated insulin secretion in response to glucose (
+    <xref ref-type="bibr">
+     Ahuja et al., 2007
+    </xref>
+    ). Our discovery that SIRT4 inhibits PDH activity has interesting implication for further understanding this phenotype, as insulin secretion is initiated by the rapid utilization of glucose for glycolysis and the consequent entry into the TCA cycle for oxidative phosphorylation (
+    <xref ref-type="bibr">
+     Newgard and McGarry, 1995
+    </xref>
+    ). Thus, SIRT4 knock-down would help to accelerate this process. SIRT4 has also been reported to regulate fatty acid oxidation via expression of catabolic genes (
+    <xref ref-type="bibr">
+     Laurent et al., 2013a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nasrin et al., 2010
+    </xref>
+    ), and by deacetylation of MCD, which inhibits conversion of malonyl-CoA to acetyl-CoA (
+    <xref ref-type="bibr">
+     Laurent et al., 2013b
+    </xref>
+    ). Our finding that SIRT4 is a lipoamidase is consistent with a function in this metabolic process, and highlights PDH as another molecular target that also negatively regulates acetyl-CoA production. SIRT4 has also been reported to be involved in cancer progression. Lung tumors spontaneously develop in SIRT4 KO mice, while expression of SIRT4 represses tumor development
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="bibr">
+     Csibi et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jeong et al., 2013
+    </xref>
+    ). Reduced levels of SIRT4 have also been detected in human bladder, breast, colon, gastric, ovarian carcinoma, relative to normal tissues (
+    <xref ref-type="bibr">
+     Csibi et al., 2013
+    </xref>
+    ). The aforementioned observations suggest that SIRT4 acts a as a tumor suppressor (
+    <xref ref-type="bibr">
+     Zhu et al., 2014
+    </xref>
+    ), primarily by inhibiting carcinogenesis through repression of glutamine anaplerosis (
+    <xref ref-type="bibr">
+     Jeong et al., 2013
+    </xref>
+    ). Thus, it is tempting to speculate that this regulation may also involve SIRT4 lipoamidase activity towards OGDH, which contains DLST-lipoyl and feeds 2-oxoglutarate into the TCA cycle.
+   </p>
+   <p>
+    Taken together, our results identify SIRT4 as a cellular lipoamidase, which regulates the activity of the PDH complex via enzymatic hydrolysis of the lipoamide cofactor. As PDH controls pyruvate decarboxylation, fueling multiple downstream pathways, our findings highlight SIRT4 as a critical regulator of cellular metabolism. We anticipate that these findings will trigger numerous future studies aimed at further characterizing the roles of SIRT4’s lipoamidase activity in mitochondrial function in diverse health and disease states.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <sec>
+    <title>
+     Cell culture and generation of stable cell lines
+    </title>
+    <p>
+     Human MRC5 fibroblasts and embryonic kidney HEK293 cells were cultured in DMEM containing 10% (v/v) Benchmark fetal bovine serum and 1% penicillin-streptomycin solution. Stable cell lines that express SIRT4-EGFP, SIRT4-EGFP H161Y, or GFP control, as well as stable cell lines with knockdown expression of SIRT4 (using SIRT4-targeting shRNA) or control shRNA were generated as described in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . SIRT4 expression levels were measured by western blotting, and knockdown efficiency was measured by qRT-PCR and western blotting.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Confocal microscopy
+    </title>
+    <p>
+     For live microscopy, fibroblasts stably expressing SIRT4-EGFP were imaged on a Leica SP5 confocal microscope using the 63X oil immersion objective. For co-localization studies, SIRT4-EGFP stably expressing fibroblasts were fixed and imaged on a Leica SP5 confocal microscope using the 63X glycerol immersion objective, as described in the
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mitochondrial isolation and Immunoaffinity Purification of SIRT4-GFP
+    </title>
+    <p>
+     Purified mitochondria fractions were isolated from fibroblasts (25 × 10
+     <sup>
+      6
+     </sup>
+     ) by removing nuclei using centrifugation, and further resolving the resulting crude organelle pellet using a discontinuous OptiPrep
+     <sup>
+      ™
+     </sup>
+     gradient, as detailed in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . SIRT4-EGFP and control EGFP were immunoaffinity purified from mitochondrial fractions using anti-GFP antibodies and M270 Epoxy Dynabeads, as described in (
+     <xref ref-type="bibr">
+      Cristea et al., 2005
+     </xref>
+     ) and in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Proteomic analysis of SIRT4 and interacting protein partners
+    </title>
+    <p>
+     SIRT4 immunoisolates were analyzed by mass spectrometry-based proteomics using an in-gel digestion approach followed by nanoliquid chromatography (Dionex Ultimate3000) coupled directly to an LTQ-Orbitrap Velos (ThermoFisher Scientific) mass spectrometer operated in data-dependent acquisition mode, as described in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . The specificity of candidate protein interactions was assessed using the SAINT algorithm, as in (
+     <xref ref-type="bibr">
+      Choi et al., 2011
+     </xref>
+     ) and in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium (
+     <xref ref-type="bibr">
+      Vizcaino et al., 2014
+     </xref>
+     ) via the PRIDE partner repository with the dataset identifier PXD001447 and DOI 10.6019/PXD001447.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Western Immunoblotting
+    </title>
+    <p>
+     Proteins were transferred to nitrocellulose membranes, and protein and posttranslational modification levels were detected and visualized as described in the
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Recombinant mitochondrial SIRT proteins
+    </title>
+    <p>
+     N-terminally truncated human SIRT4 (33–314) was cloned, co-expressed with GroEL and GroES in BL21(DE3)
+     <em>
+      E. coli
+     </em>
+     , and purified as described in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . Recombinant SIRT3 and SIRT5 were purchased from Sigma.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Peptide synthesis and LC-MS-based
+     <em>
+      in vitro
+     </em>
+     peptide deacylation assays
+    </title>
+    <p>
+     Synthetic peptides were designed (
+     <a>
+      Supplementary Table 2
+     </a>
+     ), synthesized by GenScript, and validated by infusion into an LTQ Orbitrap XL mass spectrometer (ThermoFisher Scientific). The ability of SIRT4 to hydrolyze various acyl-lysine modifications was measured using LC-MS, as described in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     HPLC-based SIRT kinetic assays
+    </title>
+    <p>
+     Kinetic assays for mitochondrial sirtuins and determination of kinetic parameters were performed using HPLC-UV detection as described by others (
+     <xref ref-type="bibr">
+      Du et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jiang et al., 2013
+     </xref>
+     ) and in the
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . All analyses were performed in a minimum of three biological replicates.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Relative quantification of lipoyl-lysine by targeted mass spectrometry
+    </title>
+    <p>
+     The relative abundance of lipoyl-lysine-containing DLAT peptides were measured in mitochondria lysates using a selected reaction monitoring (SRM/PRM) full-scan tandem mass spectrometry assay, as described in the
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PDH activity assay
+    </title>
+    <p>
+     The activity of the PDH was measured using the Pyruvate Dehydrogenase Enzyme Activity Microplate Assay Kit (Abcam) according to manufacturer’s instructions, as detailed in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     . All measurements were performed in at least three biological replicates.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Animal studies
+    </title>
+    <p>
+     Experiments in mice were conducted in compliance with Institutional Animal Care and Use Committee (IACUC) of Princeton University. SIRT4 knock-out (Jackson Laboratory, Stock number 012756), and control (WT) (Jackson Laboratory, Stock number 002448) adult female mice (N=4) were euthanized, livers excised, and mitochondria isolated as previously described (
+     <xref ref-type="bibr">
+      Rardin et al., 2009
+     </xref>
+     ) with modifications detailed in
+     <a>
+      Supplementary Materials and Methods
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     1
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.7M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (796K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     3
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (708K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     4
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.2M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     5
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (602K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     6
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (52K, docx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     7
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (720K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

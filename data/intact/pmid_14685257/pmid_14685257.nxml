@@ -1,0 +1,1373 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC1271756
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural basis of ligand recognition by PABC, a highly specific peptide-binding domain found in poly(A)-binding protein and a HECT ubiquitin ligase
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The C-terminal domain of poly(A)-binding protein (PABC) is a peptide-binding domain found in poly(A)-binding proteins (PABPs) and a HECT (
+     <span>
+      h
+     </span>
+     omologous to
+     <span>
+      E
+     </span>
+     6-AP
+     <span>
+      C
+     </span>
+     -
+     <span>
+      t
+     </span>
+     erminus) family E3 ubiquitin ligase. In protein synthesis, the PABC domain of PABP functions to recruit several translation factors possessing the PABP-interacting motif 2 (PAM2) to the mRNA poly(A) tail. We have determined the solution structure of the human PABC domain in complex with two peptides from PABP-interacting protein-1 (Paip1) and Paip2. The structures show a novel mode of peptide recognition, in which the peptide binds as a pair of β-turns with extensive hydrophobic, electrostatic and aromatic stacking interactions. Mutagenesis of PABC and peptide residues was used to identify key protein–peptide interactions and quantified by isothermal calorimetry, surface plasmon resonance and GST pull-down assays. The results provide insight into the specificity of PABC in mediating PABP–protein interactions.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     EDD, eRF3, HYD, hyperplastic disks, NMR
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The poly(A)-binding protein (PABP) is an evolutionarily conserved protein, which functions as a scaffold to organize the mRNA ribonucleic acid protein (RNP) complex around the mRNA poly(A) tail (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Human PABP contains 636 amino acids arranged as four N-terminal RNA-recognition motifs (RRM) and a ∼70-amino-acid C-terminal domain of poly(A)-binding protein (PABC). The two parts are separated by a largely unstructured region of ∼100 amino acids. The N-terminal RRMs bind the mRNA poly(A) tail and interact with the eIF4G complex at the mRNA 5′ cap. This PABP–eIF4G interaction is important for the circularization of the mRNA in actively translating complexes (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). At the C-terminus, the PABC domain acts as a protein–protein interaction domain, recruiting various translation or mRNA processing factors to the mRNA RNP complex. Deletion of the yeast homolog gene Pab1 is lethal and its mutation leads to inhibition of translation initiation, poly(A) shortening and delay in the onset of mRNA decay (
+    <xref ref-type="bibr">
+     Sachs and Davis, 1989
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sachs, 1990
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). However, these effects can be suppressed by mutations in the 60S subunit of the ribosome (
+    <xref ref-type="bibr">
+     Sachs and Davis, 1989
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    In metazoans, several binding partners of PABC have been identified. These include the PABP-interacting proteins Paip1 and Paip2, as well as eRF3/GSPT (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). It was recently shown that a large number of novel, putative-binding partners can be identified by sequence analysis based on the presence of a consensus PABC recognition site (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) termed PAM2 (for PABP-interacting motif 2) (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The C-terminus of PABP also interacts with a number of plant and yeast proteins: Pab1p-binding protein (Pbp1p), eIF4B and a viral RNA-dependent RNA polymerase, either via PABC or interactions mediated by the PABP linker region (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    In addition to PABP, PABC also occurs in a ubiquitin E3 protein ligase known as HYD (for hyperplastic discs), EDD or Rat100 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). HYD is a HECT (
+    <span>
+     h
+    </span>
+    omologous to
+    <span>
+     E
+    </span>
+    6-AP
+    <span>
+     C
+    </span>
+    -
+    <span>
+     t
+    </span>
+    erminus) family ligase, which is involved in the targeting of ubiquitin to proteins to be modified by the addition of ubiquitin molecules to the side-chain amino groups of lysine residues. Many, but not all, such modified proteins are subsequently degraded by the proteasome (
+    <xref ref-type="bibr">
+     Weissman, 2001
+    </xref>
+    ). The cellular function of HYD is under investigation; it was recently shown to bind topoisomerase IIβ-binding protein 1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and the progesterone receptor (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) in addition to possessing ubiquitin-ligase activity (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). HYD has also been implicated in DNA damage response pathways (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The proximity of the PABC and HECT domains in HYD suggests that the PABC domain may play a role in target selection by mediating protein–protein interactions.
+   </p>
+   <p>
+    The structures of four PABC domains from human, yeast and
+    <em>
+     Trypanosoma cruzi
+    </em>
+    PABP and human HYD have been determined by NMR spectroscopy and X-ray crystallography (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). These structures are largely similar and consist of ∼70 amino acid residues arranged as a bundle of five or four α-helices. Sequence conservation is highest in helices 2, 3 and 5, which correspond to the peptide-binding site as determined by NMR chemical shift analysis (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    Building on the progress in structural characterization of unliganded PABC domains, we report here the structures of the PABC domain from human PABP complexed with PAM2 peptides from Paip1 and Paip2. The peptides bind the PABC domain as a pair of β-turns with an extensive network of salt bridges, hydrophobic and aromatic stacking interactions. We use isothermal titration calorimetry (ITC), surface plasmon resonance (SPR) and GST pull-down experiments to quantify the importance of the various interactions observed by NMR and to measure the affinity of PAM2 motifs from known PABC-binding partners.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     The PABC-binding region extends beyond the 12-residue conserved motif
+    </title>
+    <p>
+     Previous NMR studies suggested that a conserved 12-residue sequence, termed the PAM2 motif, was responsible for binding to PABC domains (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). To determine the exact boundaries of the PABC-binding site, fragments of Paip2 (residues 106–127), Paip1 (residues 126–144) and eRF3 (residues 50–77) were cloned and expressed in media supplemented with
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl. The
+     <sup>
+      15
+     </sup>
+     N–
+     <sup>
+      1
+     </sup>
+     H correlation spectra of the unbound peptides showed a small dispersion of signals characteristic of unfolded peptides (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). The addition of unlabeled PABC to the
+     <sup>
+      15
+     </sup>
+     N-labeled Paip2 peptide caused chemical shift changes for residues involved in PABC binding (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). This transition from unfolded to folded conformation upon binding is the signature of an induced-fit binding mechanism.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Definition of the PAM2 sites in Paip1 and Paip2 by NMR spectroscopy. Two-dimensional spectra of
+       <sup>
+        15
+       </sup>
+       N-labeled Paip2 (106–127) in the absence (
+       <strong>
+        A
+       </strong>
+       ) and presence (
+       <strong>
+        B
+       </strong>
+       ) of unlabeled PABC. Residues are numbered according to the start of the PAM2 motif. N4sc refers to the side-chain resonances of Asn4. Residues originating from the expression vector are labeled with asterisks. Plot of the
+       <sup>
+        1
+       </sup>
+       H–
+       <sup>
+        15
+       </sup>
+       N hNOEs for (
+       <strong>
+        C
+       </strong>
+       ) Paip2 (106–127) and (
+       <strong>
+        D
+       </strong>
+       ) Paip1 (126–144) when bound to PABC. Positive signals indicate reduced mobility reflecting binding of individual residues to the PABC domain. (
+       <strong>
+        E
+       </strong>
+       ) Definition of PAM2 based on residues with positive hNOEs in panels (C) and (D). Conserved residues are blackened.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The boundaries of the regions of the Paip1 and Paip2 peptides that interact with PABC were confirmed by
+     <sup>
+      15
+     </sup>
+     N–
+     <sup>
+      1
+     </sup>
+     H heteronuclear NOE (hNOE) experiments (
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ). The hNOE is a measure of the reorientation rate of the amide nitrogen–hydrogen internuclear vectors and thus of the mobility of the peptide backbone. Paip2 residues Asn110 to Tyr124 showed a large positive hNOE that is indicative of the tight binding of 15 peptide residues. The Paip1 peptide gave similar results, with a slightly smaller binding site at both the N- and C-termini. Heteronuclear single quantum correlation (HSQC) spectra of eRF3-PABC were complicated due to the fact that eRF3 contains two overlapping PAM2 motifs. The eRF3-PABC NMR spectra showed intermediate exchange line broadening, suggestive of weaker binding and conformational exchange.
+    </p>
+    <p>
+     Relative to previously defined motifs (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), the chemical shift and hNOE results demonstrate that up to five additional peptide residues are immobilized on the PABC domain. These are located at the C-terminus of the PAM2 motif and surprisingly show no conservation among known PABC ligands. Similar results were obtained with Paip2 binding to the PABC domain from yeast PABP, which suggest that the extended size of the peptide-binding sequence is a general feature of PAM2 binding (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PABC–Paip1 and PABC–Paip2 complex structures and their comparison
+    </title>
+    <p>
+     To address the question of how the C-termini of PAM2 peptides could bind in the absence of sequence conservation, we determined their structures in complex with PABC from PABP (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). Based on the structure of the free PABC domain and chemical shift mapping data, we previously suggested that PAM2 peptides bind to helices 2, 3 and 5 of PABC with a conserved peptide phenylalanine residue playing a critical role in binding (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). This is essentially correct. The peptides bind as a series of two β-turns. The N-terminus sits between helices 3 and 5 of PABC and the variable C-terminus is in contact with the N-terminus of helix 2. Hydrophobic interactions and charge complementarity give rise to the submicromolar affinity measured for PAM2 peptides.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       (
+       <strong>
+        A
+       </strong>
+       ) Ensemble of 40 lowest-energy structures and ribbon representation of the PABC–Paip2 complex generated with MOLSCRIPT (
+       <xref ref-type="bibr">
+        Kraulis, 1991
+       </xref>
+       ) and Raster3D (
+       <xref ref-type="bibr">
+        Merritt and Murphy, 1994
+       </xref>
+       ). The α-helices of the PABC domain are labeled α1–α5. The peptide is shown in cyan. (
+       <strong>
+        B
+       </strong>
+       ) Ensemble of 30 lowest-energy structures and ribbon representation of the PABC–Paip1 complex. (
+       <strong>
+        C
+       </strong>
+       ) Superposition of the PABC (in green)–Paip2 (in cyan) structure and PABC (in blue)–Paip1 (in red) structure using Sybyl6.5 (Tripos). The superposition was carried out using secondary structure elements in the PABC domain. (
+       <strong>
+        D
+       </strong>
+       ) Superposition of the unliganded PABC structure (in yellow) and structure of PABC (in blue) bound to the peptide from Paip1 (in red). The superposition was carried out using helices 2, 3 and 5 of the PABC domain.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The structure of the first β-turn is similar in the Paip1 and Paip2 complexes. In the Paip2 peptide, the turn is comprised of Asn4-Pro5-Asn6-Ala7 (numbered as in
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ), which is representative of the well-known ‘Asx-Pro turn' motif (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). A general feature of this turn is that the oxygen of the Asn4 side chain forms a hydrogen bond with the amide of Asn6, stabilizing the β-turn. In agreement, the NH
+     <sub>
+      2
+     </sub>
+     side-chain protons of Asn4 show large chemical shift changes upon PABC binding and show positive hNOE values (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     and data not shown). The side chain of the highly conserved Ala7 at the end of the turn makes hydrophobic contact with helix 3 of PABC. Additional hydrophobic contacts are made by Leu3, which binds in the PABC hydrophobic pocket formed by Leu40, Ile43, Val62 and Ala65 (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Enlarged views of PABC–peptide interactions. Helices 2, 3 and 5 of the PABC domain are labeled. (
+       <strong>
+        A
+       </strong>
+       ) The intramolecular Lys35–Glu42 salt bridge in the unliganded PABC domain is replaced by (
+       <strong>
+        B
+       </strong>
+       ) two intermolecular salt bridges Lys35–Glu9 and Glu42–Lys8 in the PABC–Paip2 complex. (
+       <strong>
+        C
+       </strong>
+       ) Leu3 from Paip2 PAM2 is inserted into the hydrophobic pocket formed by Leu40, Val62 and Ala65 of the PABC domain. (
+       <strong>
+        D
+       </strong>
+       ) In the Paip1 complex, the peptide Phe10 inserts into the hydrophobic pocket between helices 2 and 3 and stacks with Phe22 of PABC.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The second β-turn of the peptides binds between helices 2 and 3 of PABC. The invariantly conserved Phe10 of the peptides inserts into the hydrophobic pocket between these helices formed by PABC residues Leu41, Thr37 and Gly18. As predicted previously, this peptide residue stacks with Phe22 from PABC (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). The propensity of proline residues for forming β-turns explains their conservation in the PAM2 motif.
+    </p>
+    <p>
+     Interestingly, the second β-turns in Paip1 and 2 are offset by one residue within the PAM2 motif. In Paip2, Val11-Pro12-Gly13-Val14 form a type II β-turn that is strikingly similar to the β-turns found in elastin. In Paip1, this turn is shifted by one residue and involves Pro12-Ser13-Gly14-Tyr15. The Paip1 β-turn is stabilized by the intramolecular stacking interactions between Tyr11 and Tyr15. As a result of the difference in the second β-turn, the C-termini of Paip1 and Paip2 exit the PABC domain in different directions (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). This explains the reduced specificity of PABC for peptide C-terminal residues. The difference in Paip1 and Paip2 binding conformations appears to originate in PAM2 residues 4, 5 and, particularly, residue 8, which is proline in Paip1. This position could determine whether a peptide binds to PABC in a Paip1- or Paip2-like mode.
+    </p>
+    <p>
+     In addition to the conserved turns and hydrophobic contacts, the complexes show beautiful charge complementarity, which is reflected in the sequence conservation in the PAM2 motif. In unliganded PABC, the highly conserved residues Glu42 and Lys35 of the KITGMLLE sequence in helix 3 make an intramolecular salt bridge (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). In the complexes, this salt bridge is broken and, in the case of Paip2, it is replaced by two new intermolecular salt bridges involving Lys8 and Glu9 of PAM2 (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). These peptide residues (especially Glu9) are highly conserved and occur individually or together in essentially all known PABC-binding peptides.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     PABC undergoes a conformational change upon binding
+    </title>
+    <p>
+     The structures of the PABC domain in the presence and absence of the Paip1 peptide were superimposed to investigate conformational changes resulting from binding (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). The conformational changes from Paip2 and Paip1 binding were very similar despite the different peptide backbone conformations (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Helices 2, 3 and 5 of PABC showed a relatively small adjustment upon the peptide binding (r.m.s.d. between free and liganded form of 1.4 Å). In contrast, helices 1 and 4 underwent a large shift to accommodate the peptide and avoid steric clashes. Overall, this leads to a significant change in the structure of the peptide-bound form (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). These results agree well with previous studies by SPR that suggest that PABC undergoes a conformational change upon Paip1 and Paip2 binding (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). In PABC domains from HYD and yeast PABP, the first helix is missing, and so we would expect that smaller helical rearrangements occur upon peptide binding to these domains.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Identification of PABC residues critical for peptide binding
+    </title>
+    <p>
+     The importance of PABC residues for peptide recognition was tested by site-directed mutagenesis and pull-down experiments (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). Mutation of Phe22 to alanine in PABC completely abolished the binding of His-tagged Paip1 and Paip2 (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     , lanes 4). The F22A PABC mutant consistently bound a small amount of eRF3 (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , lane 4), which we suspect is due to the distributed nature of the eRF3-binding site comprised of two overlapping PAM2 motifs (see below). Binding of eRF3 was completely abolished in an F22A, L40A double mutant (data not shown). These results confirm the singular importance of the aromatic stacking interaction between the protein and peptide phenylalanine residues for PABC–peptide molecular recognition.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Identification of PABC residues critical for binding. Purified His- and FLAG-tagged proteins: Paip1, Paip2 and eRF3 were incubated with glutathione 4B-Sepharose immobilized GST, GST-PABC and GST-tagged F22A, K35A and E42A PABC mutants, and the resulting complexes were resolved by SDS–PAGE and immunoblotting. Comparison of experimental, anti-His/FLAG lanes 4–6 shows that Phe22 is essential for binding, Glu42 is dispensable and that loss of Lys35 differentially inhibits binding of Paip1 and Paip2. Lanes 1–3 are controls for input protein, nonspecific interactions and wild-type PABC activity. Anti-GST was used as a control for PABC loading on the glutathione beads.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Two other alanine substitutions, Lys35 and Glu42, were tested to assess the importance of the intermolecular salt bridges observed in the NMR structures. While mutation of Glu42 did not affect binding in the pull-down assay, the Lys35 mutation inhibited binding of the Paip proteins but not of eRF3 (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     , lanes 5). This differential effect can be explained by the absence of the glutamate residue in the eRF3 peptide which makes the intermolecular salt bridge with Lys35 (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hydrophobic interactions are most important for PABC–peptide binding
+    </title>
+    <p>
+     We applied ITC to investigate the thermodynamics of PABC binding for the Paip1, Paip2 and eRF3 peptides. Measurement of the heat release upon addition of the peptides to a C-terminal fragment of PABP allowed us to determine the enthalpy, entropy and Gibbs free energy of the binding (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Thermodynamics of peptide binding to PABC. (
+       <strong>
+        A
+       </strong>
+       ) Calorimetric titration of the C2 fragment of PABP with Paip2 (106–127). The top panel shows the heat signal for Paip2 injections into a cell containing PABC at 25°C. The bottom panel shows the integrated heat of each injection after correction for the heat of dilution of Paip2 and normalization of the amount of Paip2 injected (rectangles). The curve represents the best fit to a model involving a single set of independent sites. (
+       <strong>
+        B
+       </strong>
+       ) Temperature dependence of the enthalpy change for Paip1 (triangles), Paip2 (rectangles) and eRF3 (circles) binding to PABC. (
+       <strong>
+        C
+       </strong>
+       ) Thermodynamic parameters of peptides P1895 (Paip2), P1914 (Paip1) and P1913 (eRF3) as
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       (molar), Δ
+       <em>
+        H
+       </em>
+       (kcal/mol),
+       <em>
+        T
+       </em>
+       Δ
+       <em>
+        S
+       </em>
+       (kcal/mol) and Δ
+       <em>
+        C
+       </em>
+       <sub>
+        <em>
+         p
+        </em>
+       </sub>
+       (cal/mol/K). Peptide sequences are shown in
+       <xref ref-type="fig">
+        Figure 6C
+       </xref>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The binding of Paip1 and Paip2 peptides to the PABC domain is dominated by favorable enthalpic effects, which give rise to the release of heat upon binding. This primarily reflects van der Waals, hydrogen bonds and electrostatic interactions. The negative entropy values for all the peptides tested indicate that the heat release is accompanied by a loss of disorder. This is due to the immobilization of the peptide backbone and a number of side chains in both peptide and protein, which dominates desolvation effects (water release upon complex formation).
+    </p>
+    <p>
+     The change in heat capacity upon binding (Δ
+     <em>
+      C
+     </em>
+     <sub>
+      <em>
+       p
+      </em>
+     </sub>
+     ) originates from changes in the degree of surface hydration in the free versus complexed molecules and, to a lesser extent, from changes in molecular vibrations. Δ
+     <em>
+      C
+     </em>
+     <sub>
+      <em>
+       p
+      </em>
+     </sub>
+     has been used to estimate the amount of polar versus nonpolar surface buried upon formation of the complex. The negative Δ
+     <em>
+      C
+     </em>
+     <sub>
+      <em>
+       p
+      </em>
+     </sub>
+     for the three complexes indicates an increase in hydrophobic interactions upon binding (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). The more negative values for Paip2 and eRF3 binding indicate the greater importance of hydrophobic interactions for these complexes and may also reflect the larger protein/peptide contact surfaces.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Identification of peptide residues critical for PABC binding
+    </title>
+    <p>
+     To investigate the contribution of individual peptide residues to binding affinity, we chemically synthesized a number of peptides and tested their binding by an SPR-based sensor, the Biacore. A C-terminal fragment of PABP was covalently coupled to the biosensor surface, and the different peptide solutions were injected over it and over a control surface without PABC (
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ). The steady-state equilibrium values (
+     <em>
+      R
+     </em>
+     <sub>
+      eq
+     </sub>
+     ) were used to determine the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of the interaction by Scatchard plot analysis. The
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values, corresponding to the interactions of the peptides with PABC, are reported in
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     . Very good agreement was obtained for the three
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values measured by both ITC and SPR (compare the values for P1895, P1914 and P1913 in
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     to the 25° values in
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       SPR studies of peptide binding to PABC. (
+       <strong>
+        A
+       </strong>
+       ) Paip1 peptide injected at various concentrations (0, 0.41, 1.2, 3.7, 11.1, 33.3 and 100 μM) over a surface coated with the C2 fragment of PABP. The resonance units of each plateau (
+       <em>
+        R
+       </em>
+       <sub>
+        eq
+       </sub>
+       ) were used for Scatchard analysis (
+       <strong>
+        B
+       </strong>
+       ) by plotting
+       <em>
+        R
+       </em>
+       <sub>
+        eq
+       </sub>
+       /
+       <em>
+        C
+       </em>
+       as a function of
+       <em>
+        R
+       </em>
+       <sub>
+        eq
+       </sub>
+       . The
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       was derived as the reciprocal of the slope of the linear regression. (
+       <strong>
+        C
+       </strong>
+       ) Sequence alignment and dissociation constants of peptides tested for PABC binding as determined using Biacore. Conserved PAM2 residues are underlined. Mutated Paip2 residues are shown in black.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     A series of seven Paip2-derived mutants was created to dissect the relative contributions of the most conserved residues to binding affinity. Alanine substitutions at Pro5 (P1705), Lys8 (P1702) and Glu9 (P1703) had relatively small effects on binding affinity relative to the wild-type peptide (P1701). At the protein–peptide interface, introduction of the bulky amino acid, leucine, at residue 7 (P1929) decreased the affinity 85-fold. The mutant L3A (P1928) showed a significantly larger decrease of 1400-fold. This is not surprising, since Leu3 binds in the hydrophobic pocket between helices 3 and 5 and is largely responsible for the binding of the peptide N-terminus (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). The largest effect was measured with the F10A mutant (P1930) where no binding could be detected by SPR, suggesting a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     above 1 mM. This confirmed that the aromatic stacking interaction between Phe10 of PAM2 and Phe22 of the PABC domain is the single most important factor contributing to peptide binding.
+    </p>
+    <p>
+     Another Paip2-derived series of peptides probed the N- and C-terminal limits of the PAM2 motif. The full-length peptide (P1895) and N-terminal truncation (P1701) had essentially identical affinities, suggesting that the PAM2 motif starts at or after Ser1. Despite the lack of sequence conservation among Paip1, Paip2 and eRF3, removal of the seven residues following Pro12 (P1894A) decreased the binding affinity 18-fold. Deletion of two additional residues, valine and proline, lowered the affinity by another 85-fold. These results were confirmed by the P12A alanine-scanning mutant (P1704), which dropped the affinity 24-fold. The function of Pro12 is likely to direct the C-terminal PAM2 residues into the binding groove situated between helices 2 and 3 of PABC via formation of the second β-turn. The size of the PAM2 motif determined by the Biacore studies is in excellent agreement with the NMR hNOE results (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ).
+    </p>
+    <p>
+     Since eRF3 has two overlapping PAM2 sites, three peptides consisting of the longer eRF3 fragment (P1913) and each separate PAM2 sequence (P1911, P1912A) were synthesized and tested. The isolated PAM2 sites displayed almost identical binding affinities (3.9 and 3.1 μM), while the longer, dual sequence showed a three-fold increase in binding affinity (1.3 μM). This is in agreement with data from NMR titrations, which suggest that residues from both overlapping PAM2 sequences participate in binding to the PABC domain with a large amount of conformational exchange. The degree of cooperativity between the two sites is low since the combined affinity of the two sites is only slightly higher than the sum of the individual sites.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Compared to well-known peptide-binding domains such as PDZ, SH3 or PTB domains, PABC is much more specific. This is a reflection of both the longer recognition sequence and PABC's occurrence in just two proteins: PABP and HYD. Here, we define the intermolecular interactions responsible for the high specificity of PABC domains. We show that the domain from PABP binds a conserved motif of 12–15 amino acids, termed PAM2, with submicromolar affinity.
+   </p>
+   <p>
+    Structurally, we show that the peptide-binding interactions are highly conserved among PABC domains including PABC from HYD (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). This suggests that crosstalk exists between HYD and PABP. Indeed,
+    <em>
+     in vitro
+    </em>
+    studies have shown that functional overlap exists both in GST pull-down assays and peptide-binding assays (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ; NS Lim, unpublished results).
+   </p>
+   <p>
+    The role of PABC in PABP is to recruit proteins to the mRNP complex (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Experimentally, one reported effect of PABC deletion is nuclear localization of PABP (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Intriguingly, in yeast, the HECT-family ubiquitin ligase Tom1p was shown to be required for efficient export of the nuclear PABP Nab2p (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), suggesting a parallel link between nuclear export and ubiquitination. In HYD, PABC seems likely to function similarly to recruit proteins containing PAM2 motifs.
+   </p>
+   <p>
+    Outside of its PABC domain, PABP is involved in several critical protein–protein interactions. The N-terminal RRM domains bind eIF4G and induce circularization of the mRNA (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The RRM domains also bind Paip1 and Paip2 via a conserved PAM1 motif composed of acidic and hydrophobic amino acids (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    ). The physical basis of the RRM–PAM1 interaction is not known and appears to be different for Paip1 and Paip2. Paip1 binding to PABP stimulates mRNA translation and can occur in the presence of poly(A) RNA (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Although containing two binding sites (PAM1 and PAM2), Paip1 binds with an obligate 1:1 stoichiometry to PABP (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In contrast, Paip2 binding inhibits translation, is competitive with poly(A) binding, and can form 2:1 complexes with PABP (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2001b
+    </xref>
+    ).
+   </p>
+   <fig id="f7" position="float">
+    <label>
+     Figure 7
+    </label>    <caption>
+     <p>
+      Interactions between PABP or HYD and proteins containing PAM2 motifs. The C-terminal PABC domain of PABP binds the PAM2 motifs of Paip1, Paip2, RF3 and a number of partners (PAM2 proteins) identified by peptide-binding studies. PABP also binds Paip1 and Paip2 through interactions of their PAM1 motifs with the RRMs of PABP. The ubiquitin E3 ligase HYD contains a PABC domain proximal to its catalytic HECT domain. HYD PABC was shown to interact
+      <em>
+       in vitro
+      </em>
+      with GST-Paip1 (
+      <xref ref-type="bibr">
+       None
+      </xref>
+      ) and may play a role in target selection by HYD. Among PABC ligands, the middle segment of Paip1 is notable in that it contains an eIF4G-like HEAT domain that binds eIF4A. eRF3/Sup35 has two overlapped PAM2 motifs and an eEF1A-like domain responsible for its translation termination activity.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Paip1 and Paip2 also differ in their interaction with PABC. The affinity of Paip2 for PABC is unchanged by deletion mutagenesis so that the affinity of intact Paip2 and its isolated PAM2 motif are essentially the same (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="fig">
+     Figure 5C
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). This is consistent with structural studies that found Paip2 unfolded (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). On the other hand, deletions of Paip1 outside of its PAM2 motif strongly decrease its affinity for PABC, and the isolated PAM2 motif binds several hundred fold less well than intact Paip1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="fig">
+     Figure 5C
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Either intact Paip1 preorganizes the PAM2 motif for higher affinity binding (decreasing the entropic penalty identified by ITC experiments) or Paip1 makes additional, as yet unidentified, contacts with PABP. In addition to PAM1 and PAM2 motifs, Paip1 contains an eIF4G-like HEAT domain which binds the RNA helicase eIF4A (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Following the RRMs, PABP contains a poorly conserved, unfolded linker sequence of ∼100 amino acids. This linker appears to mediate some protein–protein associations, most notably PABP binding to Pbp1p in yeast (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), and is the site of PABP methylation (
+    <xref ref-type="bibr">
+     Lee and Bedford, 2002
+    </xref>
+    ). The C-terminal portion of PABP has been implicated in a number of other processes. It is cleaved by viral proteases (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) and has been implicated in PABP dimerization, mRNA stability, structuring of PABP on the mRNA and enhanced translation efficiency (
+    <xref ref-type="bibr">
+     Kuhn and Pieler, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wang and Kiledjian, 2000
+    </xref>
+    ).
+   </p>
+   <p>
+    The studies reported here expose the structural and molecular details of the PABC–PAM2 interaction. They further our understanding of the interactions of PABP with known binding partners, Paip1, Paip2 and eRF3, and suggest new perspectives in the study of their divergent functions in translation.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     PABC expression and purification
+    </title>
+    <p>
+     The PABC domain of human PABP (residues 544–636) was cloned into
+     <em>
+      Bam
+     </em>
+     HI and EcoRI restriction sites of the pGEX-6P-1 vector (Amersham Pharmacia Biotech, Piscataway, NJ), and the plasmid was transformed into the
+     <em>
+      Escherichia coli
+     </em>
+     expression host BL21 Gold (DE3) (Stratagene). The protein was expressed and purified by affinity chromatography to yield the 93 C-terminal residues of PABP plus a five-residue (Gly-Pro-Leu-Gly-Ser) N-terminal extension. The amino acid composition was confirmed by mass spectrometry. For NMR analysis, the protein was exchanged into NMR buffer (50 mM KHPO
+     <sub>
+      4
+     </sub>
+     , 100 mM NaCl, 1 mM NaN
+     <sub>
+      3
+     </sub>
+     , pH 6.3). The final yield of purified protein was 6 mg/l of M9 culture media.
+    </p>
+    <p>
+     For binding studies, the C2 terminal domain of PABP (residues 498–636) was used (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). This corresponds to the fragment used in previous structural studies (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). PABC mutants were created by overlap extension polymerase chain reaction using the Expand High Fidelity PCR System (Roche Diagnostics, Indianapolis, IN). The reverse primer oligonucleotide sequences used to generate PABC mutants were TGA ATA AGA GGA GCC AGC CGT TCA CC for the F22A mutant, ATG CCA GTG ATT GCA CCA GCA AGA GTA GGG for K35A and GAA TTA TCA ATC GCC AAC AAC ATG CC for E42A. The authenticity of the substitutions and the absence of undesired mutations were confirmed by DNA sequence analysis.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Peptide preparation and purification
+    </title>
+    <p>
+     Unlabeled peptides were synthesized by Fmoc solid-phase peptide synthesis and purified by reverse phase chromatography on a C
+     <sub>
+      18
+     </sub>
+     column (Vydac, Hesperia, CA). The composition and purity of the peptides were verified by ion-spray quadrupole mass spectroscopy.
+    </p>
+    <p>
+     The C-terminal fragment of human Paip2 (residues 106–127) was cloned into
+     <em>
+      Bam
+     </em>
+     HI and
+     <em>
+      Eco
+     </em>
+     RI restriction sites of the vector pGEX-6P-1.
+     <sup>
+      15
+     </sup>
+     N-labeled peptide was expressed in BL21 Gold (DE3), grown in M9 media containing
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl, and the fusion protein was purified as described previously for PABC to yield a 27-residue peptide consisting of the 22 C-terminal residues of human Paip2 plus a five-residue (Gly-Pro-Leu-Gly-Ser) N-terminal extension. The peptide was desalted using C
+     <sub>
+      18
+     </sub>
+     reverse phase chromatography and lyophilized. Residues 126–144 of human Paip1 were cloned, expressed and purified as described for the Paip2 peptide. The final product consisted of 23 residues including a four-residue (Gly-Pro-Leu-Gly) N-terminal extension. The composition and purity of the peptides were verified by ion-spray quadrupole mass spectroscopy.
+    </p>
+    <p>
+     The human eRF3 (50–77) construct was generated by annealing the oligonucleotide sequences 5′-GAT CCC AAC AAT CCA TGT TCA TAG GAC TAG GAT TAG AAC AAT TAT CAC AGT TGA TAA ACA TTA ATT TAT TAA GTA GTG CTT CAA CTA AA-3′ and 5′-TCG AGT TAT TTA GTT GAA GCA CTA CTT AAT AAA TTA ATG TTT ATC AAC TGT GAT AAT TGT TCT AAT CCT AGT CCT ATG AAC ATG GAT TGT TG-3′. The annealed sequence was then cloned into
+     <em>
+      Bam
+     </em>
+     HI and
+     <em>
+      Xho
+     </em>
+     I sites of pGEX-6P-1. The
+     <sup>
+      15
+     </sup>
+     N-labeled eRF3 peptide was expressed in BL21 Gold grown in M9 media containing
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl. The fusion protein was purified as described previously for PABC, yielding a 33-residue peptide consisting of 28 residues from eRF3 and a five-residue (Gly-Pro-Leu-Gly-Ser) N-terminal extension.
+    </p>
+    <p>
+     Peptide titrations were carried out by adding either unlabeled peptides into labeled PABC or unlabeled PABC into labeled peptides. Titrations were monitored by
+     <sup>
+      15
+     </sup>
+     N–
+     <sup>
+      1
+     </sup>
+     H HSQC spectra of the labeled species at concentrations of 0.5–1.0 mM.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR spectroscopy
+    </title>
+    <p>
+     NMR resonance assignments of the PABC–peptide complexes were determined using standard triple-resonance techniques on a
+     <sup>
+      13
+     </sup>
+     C,
+     <sup>
+      15
+     </sup>
+     N-labeled sample (
+     <xref ref-type="bibr">
+      Bax and Grzesiek, 1993
+     </xref>
+     ) with a Bruker DRX500 NMR spectrometer. All NMR experiments were recorded at 303 K. H
+     <sup>
+      α
+     </sup>
+     resonance assignments and
+     <sup>
+      3
+     </sup>
+     J
+     <sub>
+      H
+      <sup>
+       N
+      </sup>
+      H
+      <sup>
+       α
+      </sup>
+     </sub>
+     coupling constants were obtained from an HNHA experiment (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) for both the PABC domain and peptides.
+     <sup>
+      15
+     </sup>
+     N–
+     <sup>
+      1
+     </sup>
+     H dipolar couplings were measured with an IPAP-HSQC experiment on an isotropic sample (without phage) and on a sample containing 18 mg/ml Pf1 phage (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Other backbone and side-chain signal assignments were obtained from three-dimensional (3D) heteronuclear NOESY and TOCSY experiments at 500 and 800 MHz and a homonuclear 2D NOESY experiment at 500 MHz. NOESY constraints for the structure determination were obtained from
+     <sup>
+      15
+     </sup>
+     N-edited NOESY and
+     <sup>
+      13
+     </sup>
+     C-edited NOESY 3D experiments and 2D homonuclear NOESY at 100 ms mixing times. For the Paip2–PABC complex, NMR samples contained
+     <sup>
+      15
+     </sup>
+     N-labeled (
+     <sup>
+      15
+     </sup>
+     N-NOESY) and
+     <sup>
+      13
+     </sup>
+     C,
+     <sup>
+      15
+     </sup>
+     N-labeled (
+     <sup>
+      13
+     </sup>
+     C-NOESY) PABC domain and unlabeled Paip2 peptide or
+     <sup>
+      15
+     </sup>
+     N-labeled and
+     <sup>
+      13
+     </sup>
+     C,
+     <sup>
+      15
+     </sup>
+     N-labeled Paip2 peptide and unlabeled PABC domain. The Paip1–PABC samples for
+     <sup>
+      15
+     </sup>
+     N-NOESY contained
+     <sup>
+      15
+     </sup>
+     N-labeled protein and peptide. The
+     <sup>
+      13
+     </sup>
+     C-NOESY spectra were recorded on a Varian Inova 800 MHz spectrometer at the Canadian National High Field NMR Centre (NANUC). The
+     <sup>
+      15
+     </sup>
+     N–
+     <sup>
+      1
+     </sup>
+     H hNOEs were measured at 500 MHz on a
+     <sup>
+      15
+     </sup>
+     N-labeled Paip1 (126–144) and Paip2 (106–127) complexed with unlabeled PABC (
+     <xref ref-type="bibr">
+      Peng and Wagner, 1994
+     </xref>
+     ). NMR spectra were processed with GIFA (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and XWINNMR software version 2.5 (Bruker Biospin) and analyzed with XEASY (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structure calculation
+    </title>
+    <p>
+     For the structure determination, NOE distance constraints were derived from homonuclear and
+     <sup>
+      15
+     </sup>
+     N- and
+     <sup>
+      13
+     </sup>
+     C-edited NOESY spectra of the PABC–peptide complexes acquired at 500 and 800 MHz. NOE constraints for the unliganded PABC domain and manually assigned intermolecular protein–peptide NOEs were used to generate starting structures for ARIA (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), which were subsequently used for automated NOE assignments. The structure was refined using standard protocols in CNS v. 1.1 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The final calculations included
+     <sup>
+      15
+     </sup>
+     N–
+     <sup>
+      1
+     </sup>
+     H dipolar couplings. PROCHECK-NMR was used to verify the protein stereochemical geometry (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The structural statistics for Paip1–PABC and Paip2–PABC complexes are shown in Table I. The coordinates have been deposited in the RCSB under PDB accession codes 1JGN (Paip2–PABC) and 1JH4 (Paip1–PABC) and the NMR assignments under BMRB accession numbers 5084 (Paip1–PABC) and 5085 (Paip2–PABC).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     GST pull-downs and Western blotting
+    </title>
+    <p>
+     Purified GST-C2 fragments of PABP (2 μg) were incubated with a 50% slurry of glutathione 4B-Sepharose (10 μl; Amersham Pharmacia Biotech) for 15 min at 4°C with 200 μl of pull-down buffer (PDB; 20 mM HEPES, pH 7.5, 100 mM KCl, 1 mM dithiothreitol, 0.5 mM EDTA, 10% glycerol and 0.5% NP-40). His-tagged or FLAG-tagged recombinant proteins (5 μg) were then added in 100 μl of PDB and the mixture was incubated for 2 h at 4°C. The resin was washed three times with 300 μl of PDB. Proteins were eluted with 30 μl of 1 × Laemmli sample buffer, boiled for 5 min, resolved by SDS–PAGE and transferred to a nitrocellulose membrane (0.45 μm pores; Schleicher &amp; Schuell).
+    </p>
+    <p>
+     For Western blot analysis, nitrocellulose membranes were incubated for 1 h at RT with either anti-His (1:1000) antibody diluted in phosphate-buffered saline-Tween (PBST) supplemented with 3% BSA or anti-FLAG (1:2000) antibody diluted in PBST supplemented with 5% skim milk. Membranes were washed in PBST and incubated with a peroxidase-coupled secondary antibody (1:5000) in either PBST with 3% BSA or 5% skimmedmilk. Membranes were washed again in PBST and the signals were detected using an ECL kit (Amersham Pharmacia Biotech) and exposure to X-ray film (DuPont). The antibodies were stripped off the membranes by incubating them in 0.2 M glycine, pH 2.8, 0.5 M NaCl for 5 min at RT and then neutralized for 5 min with 1 M Tris–HCl, pH 8.5. The membranes were then incubated with rabbit polyclonal anti-GST antibody (1:1000), washed in PBST and incubated with a peroxidase-coupled secondary antibody (1:5000). The signals were detected as described above.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry measurements
+    </title>
+    <p>
+     Experiments were carried out on a MicroCal VP-ITC titration calorimeter (MicroCal Inc., Northampton, MA) using the VPViewer software for instrument control and data acquisition. The buffer used for ITC experiments contained 50 mM phosphate buffer, 100 mM NaCl, pH 6.5. During a titration experiment, samples of the C2 fragment of PABP were thermostated at the desired temperature in a stirred (300 rpm) reaction cell of 1.45 ml. Nineteen injections, each of 15 μl volume and 30 s duration with a 5-min interval between injections, were carried out using a 250 μl syringe filled with the peptide solution. Titration experiments were performed with 16–18 μM PABC solution in the cell and 147–160 μM peptide solution in the syringe to ensure a final peptide:PABC molar ratio of 2:1 in the reaction cell. The calorimetric data were processed using the software package ORIGIN (version 5.0) provided by the manufacturer. The binding isotherm was fitted by an iterative nonlinear least-squares algorithm (Marquadt method) to a binding model employing a single set of independent sites. The Gibbs free energy of binding, molar binding stoichiometry (
+     <em>
+      N
+     </em>
+     ), molar binding entropy (
+     <em>
+      S
+     </em>
+     <sub>
+      o
+     </sub>
+     ) and molar binding enthalpy (
+     <em>
+      H
+     </em>
+     <sub>
+      o
+     </sub>
+     ) were determined directly from the fitted curve. The dissociation constant (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) was calculated as
+     <em>
+      G
+     </em>
+     <sup>
+      o
+     </sup>
+     =
+     <em>
+      RT
+     </em>
+     ln
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     , where
+     <em>
+      R
+     </em>
+     =1.99 kcal/mol/K is the gas constant. From calorimetric titrations at different temperatures, the heat capacity change (Δ
+     <em>
+      C
+     </em>
+     <sub>
+      <em>
+       p
+      </em>
+     </sub>
+     ) was determined as the slope of Δ
+     <em>
+      H
+     </em>
+     versus temperature.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SPR-based biosensor analysis
+    </title>
+    <p>
+     The interaction of PABC with the different synthetic peptides was analyzed by SPR using both BIACORE 1000 and BIACORE 3000 optical biosensors (Biacore AB, Uppsala, Sweden). The C2 fragment of PABP was immobilized onto a CM5 biosensor chip using amine coupling chemistry as described previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). For each peptide interaction, the biosensor experiment was repeated three times over different PABC surfaces (between 2000 and 4000 RU coupled) using the two biosensors. A separate control flow cell was activated and blocked to correct for refractive index changes. The experiments were performed at 25°C using a flow rate of 5 μl/min. For each peptide, solutions at different concentrations (a minimum of five concentrations) were injected over the PABC and control flow cells. All peptide dilutions were performed in running buffer, which contained 10 mM HEPES at pH 7.4, 150 mM NaCl, 3.4 mM EDTA and 0.005% Tween 20. After each injection, regeneration was performed using two pulses of HCl (120 mM, 15 μl), followed by an EXTRACLEAN and a RINSE procedure.
+    </p>
+    <p>
+     Thermodynamic dissociation constants (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) were determined by Scatchard plot analysis,
+     <em>
+      R
+     </em>
+     <sub>
+      eq
+     </sub>
+     /
+     <em>
+      C
+     </em>
+     =
+     <em>
+      f
+     </em>
+     (
+     <em>
+      R
+     </em>
+     <sub>
+      eq
+     </sub>
+     ), using the control corrected plateau values (
+     <em>
+      R
+     </em>
+     <sub>
+      eq
+     </sub>
+     ) corresponding to the injection of the peptide at concentration
+     <em>
+      C
+     </em>
+     . The
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     was derived as the reciprocal of the slope of the linear regression of the plot.
+    </p>
+   </sec>
+  </sec>
+ </body>
+</article>

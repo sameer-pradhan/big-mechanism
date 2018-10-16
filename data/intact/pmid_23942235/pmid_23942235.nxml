@@ -1,0 +1,2093 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3770950
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Allosteric regulation of E2:E3 interactions promote a processive ubiquitination machine
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     RING finger proteins constitute the large majority of ubiquitin ligases (E3s) and function by interacting with ubiquitin-conjugating enzymes (E2s) charged with ubiquitin. How low-affinity RING–E2 interactions result in highly processive substrate ubiquitination is largely unknown. The RING E3, gp78, represents an excellent model to study this process. gp78 includes a high-affinity secondary binding region for its cognate E2, Ube2g2, the G2BR. The G2BR allosterically enhances RING:Ube2g2 binding and ubiquitination. Structural analysis of the RING:Ube2g2:G2BR complex reveals that a G2BR-induced conformational effect at the RING:Ube2g2 interface is necessary for enhanced binding of RING to Ube2g2 or Ube2g2 conjugated to Ub. This conformational effect and a key ternary interaction with conjugated ubiquitin are required for ubiquitin transfer. Moreover, RING:Ube2g2 binding induces a second allosteric effect, disrupting Ube2g2:G2BR contacts, decreasing affinity and facilitating E2 exchange. Thus, gp78 is a ubiquitination machine where multiple E2-binding sites coordinately facilitate processive ubiquitination.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     allostery, structural biology, ubiquitin, ubiquitination
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Regulated ubiquitination of proteins has pivotal roles in essentially all eukaryotic processes. This rapid and exquisitely controlled process is exemplified by endoplasmic reticulum (ER)-associated degradation (ERAD) that prevents accumulation of misfolded, unassembled or inappropriately high levels of tightly regulated proteins. Inadequate upregulation of ERAD, in response to ER stress, can lead to apoptosis, and dysfunction of ERAD is associated with a number of human diseases (
+    <xref ref-type="bibr">
+     Guerriero and Brodsky, 2012
+    </xref>
+    ). Ubiquitination involves a series of well-defined steps, wherein ubiquitin is (1) activated by an ubiquitin-activating enzyme (E1), (2) transferred to one of ∼40 mammalian ubiquitin-conjugating enzymes (E2) and (3), in the case of the &gt;500 RING-type E3s, E2 conjugated to ubiquitin (E2–Ub) interacts with these E3s to effect transfer of ubiquitin directly from E2 to substrates or to the growing end of a substrate-bound ubiquitin chain (
+    <xref ref-type="bibr">
+     Deshaies and Joazeiro, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Metzger et al, 2012
+    </xref>
+    ).
+   </p>
+   <p>
+    ERAD substrates are generally ubiquitinated by ER-resident E3s, such as gp78/RNF45/AMFR (
+    <xref ref-type="bibr">
+     Fang et al, 2001
+    </xref>
+    ). This polytopic protein is implicated in degradation of misfolded/abnormal proteins, as well as regulatory proteins resident to the ER including Insig-1 (
+    <xref ref-type="bibr">
+     Lee et al, 2006
+    </xref>
+    ) and the metastasis suppressor KAI1/CD82 (
+    <xref ref-type="bibr">
+     Tsai et al, 2007
+    </xref>
+    ). In addition to its RING domain, the cytoplasmic C-terminal region of gp78 (amino acid (aa) 313–643) contains other regions necessary for efficient ubiquitination. These include a CUE domain, and a specific binding site for its cognate E2, Ube2g2, the Ube2
+    <em>
+     g
+    </em>
+    2 Binding Region (G2BR) (
+    <xref ref-type="bibr">
+     Chen et al, 2006
+    </xref>
+    ). The G2BR binds to the ‘backside' (
+    <xref ref-type="bibr">
+     Brzovic et al, 2006
+    </xref>
+    ) of Ube2g2 with high- affinity (dissociation constant (
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    ) ∼21 nM) at a site distinct from the active site and the canonical RING:E2 interface (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 2009
+    </xref>
+    ). When Ube2g2 is bound to a G2BR peptide (i.e.,
+    <em>
+     in trans
+    </em>
+    ), its affinity for the RING increases from ∼150 to 3 μM, which is reflected
+    <em>
+     in vitro
+    </em>
+    as increased ubiquitination (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ). Ube2g2 is in the family of E2s possessing an extended dynamic β4α2 loop, which includes CDC34 (
+    <xref ref-type="bibr">
+     Petroski and Deshaies, 2005
+    </xref>
+    ), and is known to function with gp78 to form specific K-48-linked ubiquitin chains that target the mammalian substrates for proteasomal degradation. This family is distinct from the UbcH5 family of E2s, which are highly promiscuous in terms of ubiquitination functions.
+   </p>
+   <p>
+    The presence of two sites for E2 binding in the cytosolic tail of gp78 raises the question of the avidity of Ube2g2 for gp78, as well as the mechanistic interplay between the domains and possible influence on ubiquitin transfer or chain extension by gp78. If the avidity is very high, release of Ube2g2 from gp78 may be slow, and limit re-conjugation or exchange with Ube2g2–Ub and thus processivity of ubiquitination. The G2BR and RING are 181 residues apart and should bind to Ube2g2 without linker constraints. Based on additive binding energies (
+    <xref ref-type="bibr">
+     Jencks, 1981
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shuker et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Huth et al, 2007
+    </xref>
+    ), the overall
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    is expected to be ∼0.6 pM (∼
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    <sup>
+     G2BR
+    </sup>
+    ×
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    <sup>
+     RING
+    </sup>
+    /10), an extraordinary affinity, that, as noted above, could adversely affect E2 exchange. Surprisingly, we and others have measured an experimental
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    of 3–5 nM (this study; and
+    <xref ref-type="bibr">
+     Li et al, 2009
+    </xref>
+    ), a significant decrease from the predicted affinity. Consistent with the weaker than predicted affinity, gp78 mediates rapid
+    <em>
+     in vitro
+    </em>
+    polyubiquitination (
+    <xref ref-type="bibr">
+     Chen et al, 2006
+    </xref>
+    ).
+   </p>
+   <p>
+    We have now structurally and functionally examined the allosteric effects among RING:Ube2g2:G2BR and determined the G2BR-induced conformational changes in both Ube2g2 and Ube2g2–Ub that provide a basis for enhanced RING:Ube2g2 binding. The molecular details revealed in the RING:Ube2g2 interface combined with examination of RING:Ube2g2–Ub:G2BR enable identification of a ternary interaction in RING:Ube2g2–Ub that is essential for transfer of Ub. In addition, we have uncovered an allosteric feedback effect from the RING:Ube2g2 interface that disrupts contacts at the Ube2g2:G2BR surface, thus decreasing affinity and allowing E2 exchange. These findings suggest an intriguing interplay between multiple E2-binding regions within an E3 that results in a processive ubiquitination ‘machine'.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     G2BR and gp78C have diverse kinetics with Ube2g2
+    </title>
+    <p>
+     To assess the affinity and kinetics of association and dissociation of Ube2g2:G2BR and Ube2g2:gp78C, surface plasmon resonance (SPR) was employed (
+     <xref ref-type="fig">
+      Figure 1A–C
+     </xref>
+     and
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , complexes 2 and 3). G2BR binds Ube2g2 with high affinity (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼22 nM), consistent with our previous isothermal titration calorimetry (ITC) results (
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ). Interestingly, however, the kinetics of the interaction is rapid with
+     <em>
+      k
+     </em>
+     <sub>
+      on
+     </sub>
+     ∼3.2 × 10
+     <sup>
+      8
+     </sup>
+     M
+     <sup>
+      −1
+     </sup>
+     min
+     <sup>
+      −1
+     </sup>
+     and
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     ∼7.0 min
+     <sup>
+      −1
+     </sup>
+     . Ube2g2:gp78C exhibits a six-fold tighter binding (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼3 nM), which is driven by a slower off-rate (
+     <em>
+      k
+     </em>
+     <sub>
+      on
+     </sub>
+     ∼2.7 × 10
+     <sup>
+      8
+     </sup>
+     M
+     <sup>
+      −1
+     </sup>
+     min
+     <sup>
+      −1
+     </sup>
+     and
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     ∼0.81 min
+     <sup>
+      −1
+     </sup>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The gp78 cytoplasmic domain, constructs, kinetics and solution structure of gp78 RING domain. (
+       <strong>
+        A
+       </strong>
+       ) Domain structure of gp78 and constructs used in this study, where TM is transmembrane and VIM is the VCP (p97)-interacting motif. Binding of Ube2g2 to immobilized G2BR (
+       <strong>
+        B
+       </strong>
+       ) and gp78C (
+       <strong>
+        C
+       </strong>
+       ) was measured by SPR. The kinetic data in (
+       <strong>
+        B
+       </strong>
+       ) and (
+       <strong>
+        C
+       </strong>
+       ) (in black) were fit to a 1:1 binding model (in red) to yield
+       <em>
+        k
+       </em>
+       <sub>
+        on,
+       </sub>
+       <em>
+        k
+       </em>
+       <sub>
+        off
+       </sub>
+       and
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       . (
+       <strong>
+        D
+       </strong>
+       ) The 20 lowest energy structures of the ordered residues 327–384 in the gp78 RING domain. Zinc atoms and the sidechain of zinc-chelating residues are shown for the lowest energy structure. The zinc atoms are coloured in magenta, the sulphur atoms of chelating cysteines in green and the nitrogen atoms of the chelating histidines in dark blue. (
+       <strong>
+        E
+       </strong>
+       ) CSPs in the RING backbone when it binds Ube2g2. A sample of 0.7 mM unlabelled Ube2g2 was titrated onto 0.15 mM
+       <sup>
+        15
+       </sup>
+       N-labelled RING domain. The CSP is defined as the difference in shifts of the free and Ube2g2-saturated state. CSP is calculated by the formula: CSP=[(δN
+       <sub>
+        f
+       </sub>
+       −δN
+       <sub>
+        s
+       </sub>
+       )
+       <sup>
+        2
+       </sup>
+       /25+(δH
+       <sub>
+        f
+       </sub>
+       −δH
+       <sub>
+        s
+       </sub>
+       )
+       <sup>
+        2
+       </sup>
+       ]
+       <sup>
+        1/2
+       </sup>
+       , where δH
+       <sub>
+        f
+       </sub>
+       and δH
+       <sub>
+        s
+       </sub>
+       (δN
+       <sub>
+        f
+       </sub>
+       and δN
+       <sub>
+        s
+       </sub>
+       ) are the proton (nitrogen) shifts in free and saturated state, respectively.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Measured dissociation constants (
+         <em>
+          K
+         </em>
+         <sub>
+          d
+         </sub>
+         ) in this study
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Solution structures of the RING domain and the RING:Ube2g2:G2BR complex
+    </title>
+    <p>
+     The NMR spectra of the gp78 RING were assigned by standard triple resonance experiments (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ). The structure of the RING (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ) was calculated using experimentally measured NMR restraints (
+     <a>
+      Supplementary Table S1
+     </a>
+     ). The RING structure reveals a compact globular domain consistent with a canonical cross-braced C3H2C3 RING fold containing two tetrahedral C3H zinc-binding sites.
+    </p>
+    <p>
+     The ternary RING:Ube2g2:G2BR complex was examined in solution by NMR spectroscopy. Chemical shift perturbations (CSPs) and intermolecular NOEs for the Ube2g2:G2BR complex have been studied previously (
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ). Structural restraints obtained from CSP in RING (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ), Ube2g2 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ) and intermolecular NOEs (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ) define the position of the RING relative to the Ube2g2:G2BR complex. These restraints were used in HADDOCK calculations (
+     <xref ref-type="bibr">
+      de Vries et al, 2010
+     </xref>
+     ), in which residues in the RING:Ube2g2 interface were allowed to float. The 20 lowest energy structures of the RING:Ube2g2:G2BR complex are shown in
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     (see
+     <a>
+      Supplementary Table S1
+     </a>
+     for statistics). The RING:Ube2g2:G2BR complex was also analysed using small-angle X-ray scattering (SAXS), which indicated a well-behaved 1:1:1 complex. The molecular envelope reconstructed from the SAXS data (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ) encompasses 100% of the atoms in the solution NMR structure.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       NMR structure of the RING:Ube2g2:G2BR complex and X-Ray crystal structure of the RING–G2BR:Ube2g2 complex. (
+       <strong>
+        A
+       </strong>
+       ) CSPs in
+       <sup>
+        15
+       </sup>
+       N-Ube2g2 backbone when unlabelled RING (0.7 mM) was titrated into
+       <sup>
+        15
+       </sup>
+       N-Ube2g2:G2BR complex (0.3 mM). (
+       <strong>
+        B
+       </strong>
+       ) The 20 lowest energy NMR structures of RING:Ube2g2:G2BR are shown with Ube2g2 coloured green, the active-site cysteine (C89) indicated, gp78 domains coloured orange and the zinc atoms bound to RING shown as magenta spheres. (
+       <strong>
+        C
+       </strong>
+       ) SAXS data analysis of RING:Ube2g2:G2BR is represented as the DAMAVER (
+       <xref ref-type="bibr">
+        Volkov and Svergun, 2003
+       </xref>
+       ) calculated envelope shown in three orientations (top) with a superposition of the solution structure of the ternary complex within the envelope obtained using the SUPCOMB application (bottom). (
+       <strong>
+        D
+       </strong>
+       ) The combined RING–G2BR:Ube2g2 crystal structure. Ube2g2 is shown in green and RING–G2BR in orange. The Zn
+       <sup>
+        2+
+       </sup>
+       ions (Zn1 and Zn2) and Zn-coordinating sidechains are highlighted.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Crystal structure of the RING-G2BR:Ube2g2 complex
+    </title>
+    <p>
+     As we were unable to grow crystals of the ternary RING:Ube2g2:G2BR complex, a RING–G2BR fusion connected by a 40-amino-acid flexible linker (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) was created to mimic this interaction. NMR and ITC experiments confirm that the fold and interaction of the RING and G2BR domains are conserved in RING-G2BR:Ube2g2 compared to RING:Ube2g2:G2BR (
+     <a>
+      Supplementary Figure S2A and B
+     </a>
+     ). The crystal structure of RING–G2BR:Ube2g2 showed that there is one molecule of the complex in the asymmetric unit. Of the 40 residues in the flexible linker, 39 were disordered without defined electron density. The RING–G2BR:Ube2g2 complex forms a domain-swapped dimer in the crystal (
+     <a>
+      Supplementary Figure S2C
+     </a>
+     ), but solution data and the asymmetric unit indicate a single monomeric structure is appropriate for analysis. We used a ‘combined' structure as shown in
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     that agrees very well with the solution structure of RING:Ube2g2:G2BR in
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     , exhibiting a root-mean-square deviation of 0.7 Å for 189 out of 222 pairs of aligned C
+     <sub>
+      α
+     </sub>
+     positions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Allosteric changes in the dynamic β4α2 loop of Ube2g2
+    </title>
+    <p>
+     The RING:E2 interface in
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     includes parts of the N-terminal α-helix α1, the β3β4 loop and β4α2 loop of Ube2g2 interacting with residues in the central α-helix and adjoining charged residues in the Zn-binding loops of the RING. A total of 14 residues from Ube2g2 and 10 from the RING are involved in 22 intermolecular contacts (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). Of the nine RING residues, significant CSPs were observed for I343, W345, D346, W368, Q371 and R379 (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). D346 forms a salt bridge with K7 of Ube2g2 and R379 forms a salt bridge with E108 of Ube2g2 at two opposite sides of the RING:E2 interface. Hydrophobic interactions play a significant role at the centre of the interface: I343 contacts α1, Q371 contacts β3β4 loop residues, P376 locks into the C-terminal end of β4α2 loop (W110–V113), W345 forms a ‘ball-and-socket' interaction with α1, and W368 forms the same type of interaction with a region in between β3β4 and β4α2.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Interactions between Ube2g2 and RING. (
+       <strong>
+        A
+       </strong>
+       ) Stereo view showing the RING:Ube2g2 interface in the RING–G2BR:Ube2g2 structure. Ube2g2 is shown in green and RING in orange. Amino acid residues involved in electrostatic (cutoff distance=3.5 Å) and van der Waals interactions (cutoff distance=4.0 Å) at the interface are shown as sticks. Dashed lines in black indicate salt bridges and hydrogen bonds. (
+       <strong>
+        B
+       </strong>
+       ) Summary of interactions between Ube2g2 and RING. Solid lines indicate van der Waals interactions and dashed lines indicate hydrogen bonds or salt bridges. (
+       <strong>
+        C
+       </strong>
+       ) Superimposition of free Ube2g2 (in magenta, PDB:2CYX), the Ube2g2:G2BR complex (in red, PDB:3H8K) and the RING-G2BR:Ube2g2 complex (in green, this work). The RING domain, the α2α3 loop and the C-terminal half of the β4α2 loop are highlighted. The open and closed conformations of the β4α2 and α2α3 loops are indicated. Apo Ube2g2 residues 105–108 in the β4α2 loop form the α1′ helix. In the Ube2g2:G2BR and RING–G2BR:Ube2g2 complexes, however, the α1′ helix unwinds, resulting in a more extended β4α2 loop that allows the formation of the salt bridge between R379 and E108. (
+       <strong>
+        D
+       </strong>
+       ) A close-up view of the α1′ helix and the salt bridge between R379 and E108.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     A comparison of free Ube2g2 (PDB:2CYX) (
+     <xref ref-type="bibr">
+      Arai et al, 2006
+     </xref>
+     ), Ube2g2:G2BR (PDB:3H8K) (
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ) and RING–G2BR:Ube2g2 shows that the UBC core of Ube2g2 is unaltered. However, there are significant changes around the active site in the conformation of the α2α3 and β4α2 loops (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). These loops are found to be flexible in free Ube2g2 (high B factors and low-order parameters;
+     <xref ref-type="bibr">
+      Ju et al, 2010
+     </xref>
+     ), stabilized upon G2BR binding (lower B factors;
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ) and most dynamic when the RING binds (completely disordered and unobservable). To confirm this, we have investigated accessibility to the active site using a small-molecule Cys-reacting reagent 3-(2-Iodoacetamido)-2,2,5,5-tetramethyl-1-pyrolidinyloxy (IPSL). Free Ube2g2
+     <sub>
+      C48A,C75A
+     </sub>
+     reacted slowly to only 20% with 30-fold excess of IPSL at room temperature for 3 h. In contrast, the RING–Ube2g2
+     <sub>
+      C48A,C75A
+     </sub>
+     fusion protein (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) reacted rapidly up to 90% with IPSL under the same conditions (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ), consistent with this dynamic and conformational interpretation.
+    </p>
+    <p>
+     An additional structural change in the β4α2 loop occurs in a short α-helix (S105-E108, α1′) present in the apo Ube2g2. Upon G2BR binding, α1′ unwinds altering the sidechain orientation of E108 (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). In the context of RING–G2BR:Ube2g2, the E108 sidechain shifts further in orientation to point toward the RING:Ube2g2 interface, becoming available for a salt bridge interaction with R379 of gp78 (
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     ), a residue that is conserved in RING/U-box E3s. An equivalent shift was also observed in the RING:Ube2g2:G2BR solution structure (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     salt bridge extends to Ub at the RING:Ube2g2–Ub interface
+    </title>
+    <p>
+     We also examined the interaction of gp78 domains with Ube2g2 when a Ub molecule is conjugated to its active site. A stable and pure Ube2g2–Ub conjugate was formed using lysine-free K0 Ub conjugated to Ube2g2
+     <sub>
+      C89K
+     </sub>
+     via an isopeptide bond, which was shown to be a viable mimic of E2–Ub (
+     <xref ref-type="bibr">
+      Plechanovova et al, 2012
+     </xref>
+     ). The conjugate and its interactions with gp78 domains were studied at 25–50 μM using CSPs.
+    </p>
+    <p>
+     In Ube2g2–Ub, the major CSPs in Ube2g2 were concentrated around the active site and the C-terminal end of α-helix α2 (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ), while those in Ub were observed at the L8-I44-V70 hydrophobic patch (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ), which is the common interaction interface for Ub (
+     <xref ref-type="bibr">
+      Winget and Mayor, 2010
+     </xref>
+     ). The significant CSPs (&gt;0.16) are mapped onto a Ube2g2–Ub model structure (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ) built based on a recent E2–Ub:RING structure (PDB:4AP4) (
+     <xref ref-type="bibr">
+      Plechanovova et al, 2012
+     </xref>
+     ), and are consistent with published RING-type domain complexes with UbcH5 family members conjugated with ubiquitin (
+     <xref ref-type="bibr">
+      Dou et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Plechanovova et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pruneda et al, 2012
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Interactions between the Ube2g2–Ubiquitin conjugate, G2BR and the RING. NMR-observed CSPs of (
+       <strong>
+        A
+       </strong>
+       ) Ube2g2 and (
+       <strong>
+        B
+       </strong>
+       ) Ub in the Ube2g2–Ub conjugate. CSP is calculated as in
+       <xref ref-type="fig">
+        Figure 1E
+       </xref>
+       , except the conjugated states are the saturated state. The cutoffs in (
+       <strong>
+        A
+       </strong>
+       ) and (
+       <strong>
+        B
+       </strong>
+       ) represent twice the s.d. (
+       <xref ref-type="bibr">
+        Williamson, 2013
+       </xref>
+       ). The extremely high CSP observed in the C-terminal end (G76) of Ub after conjugation was omitted from the calculation of s.d. (
+       <strong>
+        C
+       </strong>
+       ) The residues with significant CSPs are mapped on Ube2g2 (yellow) and Ub (pink) in the context of a Ube2g2–Ub model based on the UbcH5a–Ub:RING structure, where Ube2g2 coordinates (PDB:2CYX) were superimposed on the Ubch5a coordinates (PDB:4AP4). (
+       <strong>
+        D
+       </strong>
+       ) The CSP of the Ube2g2–Ub:G2BR complex was calculated as in
+       <xref ref-type="fig">
+        Figure 1E
+       </xref>
+       , where the saturated state is Ube2g2–Ub:G2BR and the free state is Ube2g2–Ub. The plot shows the absolute difference of the CSP (|ΔCSP|) in Ube2g2 between the Ube2g2–Ub:G2BR and Ube2g2:G2BR complex. Similarly, ΔCSP observed in (
+       <strong>
+        E
+       </strong>
+       ) Ube2g2 and (
+       <strong>
+        F
+       </strong>
+       ) RING between the RING:Ube2g2–Ub:G2BR and RING:Ube2g2:G2BR complex are plotted. (
+       <strong>
+        G
+       </strong>
+       ) ΔCSP observed in the Ub between the Ube2g2–Ub:G2BR and RING:Ube2g2–Ub:G2BR complex. The cutoffs in (
+       <strong>
+        D
+       </strong>
+       –
+       <strong>
+        G
+       </strong>
+       ) are chosen as 25% of the cutoffs in (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ). (
+       <strong>
+        H
+       </strong>
+       ) The residues with significant CSPs upon RING interaction are mapped on RING (red) and Ub (blue) in the modelled RING:Ube2g2–Ub:G2BR structure based on the UbcH5a–Ub:RING structure, where the E2 coordinates of RING–G2BR:Ube2g2 (this study) were superimposed on the UbcH5a coordinates (PDB:4AP4). (
+       <strong>
+        I
+       </strong>
+       ) SPR-binding studies of Ube2g2–Ub to immobilized gp78C measured a
+       <em>
+        <em>
+         K
+        </em>
+       </em>
+       <sub>
+        d
+       </sub>
+       of ∼1 nM.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The change in CSPs induced by gp78 domains in free Ube2g2 compared to Ube2g2–Ub (ΔCSP) were compared. The G2BR- and G2BR-plus-RING-induced ΔCSPs were insignificant (
+     <xref ref-type="fig">
+      Figure 4D and E
+     </xref>
+     ). However, when the RING was assessed, a few ΔCSPs were observed (
+     <xref ref-type="fig">
+      Figure 4F
+     </xref>
+     ) near the end of the Zn2 coordinating loop with Ube2g2–Ub:G2BR versus Ube2g2:G2BR. The E2-conjugated Ub also showed ΔCSPs near residues L8, Q40 and R72 when RING binds (
+     <xref ref-type="fig">
+      Figure 4G
+     </xref>
+     ), consistent with previously noted contacts between RING and Ub in the RING:E2–Ub crystal structures (
+     <xref ref-type="bibr">
+      Dou et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Plechanovova et al, 2012
+     </xref>
+     ). Interestingly, a R379
+     <sub>
+      RING
+     </sub>
+     ··Q40
+     <sub>
+      Ub
+     </sub>
+     hydrogen bond is found near the centre of the modelled RING··Ub interface (
+     <xref ref-type="fig">
+      Figure 4H
+     </xref>
+     ), which involves an extension of the
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     salt bridge interaction at the RING:Ube2g2 interface and is consistent with the observed Q40 CSP. In summation, the interactions of Ube2g2 with G2BR and RING are conserved in Ube2g2–Ub, while the RING forms additional interactions with Ub, thereby extending the salt bridge to a ternary
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     ··Q40
+     <sub>
+      Ub
+     </sub>
+     network of contacts. A tighter binding and lower off-rate of gp78C for Ube2g2–Ub (
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     =0.18 min
+     <sup>
+      −1
+     </sup>
+     ,
+     <xref ref-type="fig">
+      Figure 4I
+     </xref>
+     ) compared to Ube2g2 (
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     =0.81 min
+     <sup>
+      −1
+     </sup>
+     ,
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ) is consistent with this interpretation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     G2BR-induced allostery at the RING:E2 interface is conferred via the critical
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     salt bridge
+    </title>
+    <p>
+     To assess the relative role of RING:Ube2g2 interfacial sidechain interactions, mutations were introduced and examined on both sides of the interface and monitored by assessing the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of RING:Ube2g2 binding in the absence and presence of G2BR (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , complexes 8–13). Since no differences were observed in the CSPs for Ube2g2 compared to Ube2g2–Ub (
+     <xref ref-type="fig">
+      Figure 4D and E
+     </xref>
+     ), mutagenesis and binding studies were conducted using Ube2g2. We define the allosteric effect as the ratio of
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     /
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     <sup>
+      +G2BR
+     </sup>
+     , which has a value of 48 for wild-type Ube2g2 and RING. The G2BR influence can also be observed by the change in free energy of RING:Ube2g2 binding (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Proper folding of mutant proteins was confirmed by NMR and binding was assessed by NMR titration. In parallel, functional analysis of mutations in the RING and Ube2g2 were tested in an autoubiquitination assay (
+     <xref ref-type="bibr">
+      Lorick et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ) in the context of gp78C. Mutations in the hydrophobic portion of the interface (Ube2g2
+     <sub>
+      S111N, V113T
+     </sub>
+     , RING
+     <sub>
+      W368A
+     </sub>
+     and RING
+     <sub>
+      T377D
+     </sub>
+     ) led to 2.5- to 3.5-fold reductions in binding; however, the allosteric effect of G2BR remained active (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     /
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     <sup>
+      +G2BR
+     </sup>
+     =10–15). Nevertheless, the reduced RING:E2 affinity led to significantly reduced ubiquitination as observed in
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     .
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Functional analysis of the contacts at the RING:Ube2g2–Ub interface. (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        C
+       </strong>
+       ) Autoubiquitination reactions using wt/mutants of Ube2g2 and glutathione sepharose-bound glutathione
+       <em>
+        S
+       </em>
+       -transferase (GST) fusions of the entire gp78 cytoplasmic tail (gp78C
+       <sub>
+        L
+       </sub>
+       , aa: 309–643) were carried out as described previously (
+       <xref ref-type="bibr">
+        Lorick et al, 1999
+       </xref>
+       ). (
+       <strong>
+        A
+       </strong>
+       ) Ube2g2 mutants and (
+       <strong>
+        B
+       </strong>
+       ) gp78C
+       <sub>
+        L
+       </sub>
+       mutants that disrupt the hydrophobic interactions at RING:Ube2g2 interface were used. (
+       <strong>
+        C
+       </strong>
+       ) Mutations in the Ube2g2 and gp78C
+       <sub>
+        L
+       </sub>
+       that disrupt the
+       <sub>
+        Ube2g2
+       </sub>
+       K7··D346
+       <sub>
+        RING
+       </sub>
+       salt bridge were used. ΔRING used in (
+       <strong>
+        B
+       </strong>
+       ) is a truncated gp78 (aa: 429–643) that excludes the RING domain. (
+       <strong>
+        D
+       </strong>
+       ) Model structures generated from the RNF4:UbcH5a–Ub structure (PDB:4AP4) (top), by superposition of the RING:Ube2g2:G2BR structure based on the E2 coordinates, indicates a network of interactions between Ube2g2, RING and Ub via the
+       <sub>
+        Ube2g2
+       </sub>
+       E108R··R379
+       <sub>
+        RING
+       </sub>
+       salt bridge and R379
+       <sub>
+        RING
+       </sub>
+       ··Q40
+       <sub>
+        Ub
+       </sub>
+       hydrogen bond (middle). Reverse mutation of the
+       <sub>
+        Ube2g2
+       </sub>
+       E108R··R379
+       <sub>
+        RING
+       </sub>
+       can retain the salt bridge but loses the RING··Ub contact (bottom). (
+       <strong>
+        E
+       </strong>
+       –
+       <strong>
+        G
+       </strong>
+       ) Autoubiquitination reactions were carried out as in (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        C
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) Q40A ubiquitin that disrupts the R379
+       <sub>
+        RING
+       </sub>
+       ··Q40
+       <sub>
+        Ub
+       </sub>
+       hydrogen bond is used. (
+       <strong>
+        F
+       </strong>
+       ) Ube2g2 mutants that disrupt the
+       <sub>
+        Ube2g2
+       </sub>
+       E108R··R379
+       <sub>
+        RING
+       </sub>
+       salt bridge and (
+       <strong>
+        G
+       </strong>
+       ) gp78C
+       <sub>
+        L
+       </sub>
+       and Ube2g2 mutants that either disrupt or reverse the
+       <sub>
+        Ube2g2
+       </sub>
+       E108··R379
+       <sub>
+        RING
+       </sub>
+       salt bridge were used. R2M mutant includes a cysteine mutation in the RING that renders it nonfunctional (
+       <xref ref-type="bibr">
+        Fang et al, 2001
+       </xref>
+       ). (
+       <strong>
+        H
+       </strong>
+       ) Single-round discharge experiments (see Materials and methods) were carried out with the indicated WT and mutant forms of Ube2g2 and RING in the presence or absence of G2BR.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The electrostatic RING:E2 interactions involve two salt bridges
+     <sub>
+      Ube2g2
+     </sub>
+     K7··D346
+     <sub>
+      RING
+     </sub>
+     and
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     . In the RING–G2BR:Ube2g2 structure, there were no indications of allosteric conformational effects for K7 upon G2BR binding, and mutations in either the Ube2g2 (K7D) or the RING (D346K) did not exhibit functional consequences (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). In marked contrast, in the presence of G2BR, E108 exhibited key conformational shifts that facilitated formation of the salt bridge (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ,
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). As expected, charge disruption on either side of the interface weakened the binding interaction to a similar extent as the hydrophobic site mutations (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , complexes 14–17); however, there was a dramatic loss of allostery (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     /
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     <sup>
+      +G2BR
+     </sup>
+     ) from 48 to 2. Reversal of the charge in the
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     salt bridge both restored binding and increased allostery back to 30.5 (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , complexes 18–19). Thus, we identify this salt bridge interaction as the key allosteric component of G2BR-induced RING:Ube2g2 binding. Since the interactions of G2BR and RING with Ube2g2 are retained in Ube2g2–Ub as detailed above, the G2BR-induced allostery is presumed to remain active in Ube2g2–Ub. To verify, Ube2g2–Ub and Ube2g2–Ub:G2BR were titrated with RING yielding
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values of 59 and 2 μM, respectively, and an allostery of 29.5 (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , complexes 20–21), thus confirming that allostery conferred by the G2BR to the RING interface persists with Ube2g2–Ub.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     ··Q40
+     <sub>
+      Ub
+     </sub>
+     ternary interaction is critical for function
+    </title>
+    <p>
+     Functional assays reveal the essential requirements of the ternary
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     ··Q40
+     <sub>
+      Ub
+     </sub>
+     interactions modelled in
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     (middle). Ubiquitination was significantly reduced by disrupting either the R379··Q40 hydrogen bond via Ub
+     <sub>
+      Q40A
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ) or the E108··R379 salt bridge by a neutral mutation Ube2g2
+     <sub>
+      E108A
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 5F
+     </xref>
+     ). The activity dropped even further when E108 was reversed to a basic residue (Ube2g2
+     <sub>
+      E108R
+     </sub>
+     ). Importantly, Ube2g2
+     <sub>
+      E108A
+     </sub>
+     and Ube2g2
+     <sub>
+      E108R
+     </sub>
+     were both equivalent substrates for E1-dependent thioester formation when compared to wild-type Ube2g2 (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ). The change in charge on the gp78 side (gp78C
+     <sub>
+      R379E
+     </sub>
+     ) also resulted in reduced ubiquitination and only minor restoration of function was observed with the complementary Ube2g2
+     <sub>
+      E108R
+     </sub>
+     mutation (
+     <xref ref-type="fig">
+      Figure 5G
+     </xref>
+     ), which restores the salt bridge but does not enable the ternary interaction (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , bottom). These results indicate that the
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     salt bridge provides both allosteric enhancement of binding and proper sidechain conformational arrangement to facilitate the ternary
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     ··Q40
+     <sub>
+      Ub
+     </sub>
+     interaction, which we find to be critical for the function of the gp78:Ube2g2 system.
+    </p>
+    <p>
+     To evaluate the loss in function as a loss of catalytic activity, the rate of single-round discharge of ubiquitin from Ube2g2 (
+     <sup>
+      35
+     </sup>
+     S-labelled and at concentrations of &lt;100 nM) was assessed based on a previously used approach (
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ). The discharge of Ub from Ube2g2–Ub was slow in the absence of the RING, but accelerated sharply in the presence of 15 μM RING (
+     <xref ref-type="fig">
+      Figure 5H
+     </xref>
+     ). In contrast, the discharge of ubiquitin from Ube2g2
+     <sub>
+      E108R
+     </sub>
+     was negligible and unaffected in the absence or presence of 30 μM RING
+     <sub>
+      R379E
+     </sub>
+     . These data indicate that the
+     <sub>
+      Ube2g2
+     </sub>
+     E108··R379
+     <sub>
+      RING
+     </sub>
+     ··Q40
+     <sub>
+      Ub
+     </sub>
+     ternary contact is important for E3:E2–Ub binding
+     <em>
+      and
+     </em>
+     activation of E2–Ub.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     RING-mediated reverse allostery facilitates E2 exchange
+    </title>
+    <p>
+     In the context of gp78:Ube2g2, the less than expected combined affinity of G2BR and RING finger for Ube2g2 suggests that there are factors at play that may facilitate release of Ube2g2 and promote processivity. Consistent with this hypothesis, analysis of the RING–G2BR:Ube2g2 structure shows feedback allostery through Ube2g2 from the RING interface to the G2BR interface (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ), primarily initiated by W345 of RING. W345 forms a ball-and-socket interaction with four Ube2g2 α1 sidechains (R8, A11, E12 and Q15) (
+     <a>
+      Supplementary Figure S6A
+     </a>
+     ) causing the C-terminal half of α1 to bend, which shifts the α1β1 loop, pulling residues P21 and I24 beyond the contact distance of sidechain R585 in G2BR, and shifts the position of G2BR. The buried Ube2g2:G2BR interface reduces from 1950 to 1640 Å
+     <sup>
+      2
+     </sup>
+     when RING binds and, concomitantly, the number of intermolecular contacts drops from 35 to 23 (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ), including several hydrogen bonds that are severed along one side of the G2BR helix (
+     <xref ref-type="fig">
+      Figure 6C and D
+     </xref>
+     ).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       RING binding induces a feedback at the G2BR interface. (
+       <strong>
+        A
+       </strong>
+       ) Stereo view showing the impact of RING binding on the interaction between Ube2g2 and G2BR. A total of 11 hydrogen bonds and salt bridges are formed between Ube2g2 and G2BR in the Ube2g2:G2BR complex (in red, PDB:3H8K). In the RING–G2BR:Ube2g2 complex (in green, this work), however, five of them on one side of the G2BR helix are disrupted. The ball-and-socket junction between W345 from the RING domain and four sidechains (R8, A11, E12 and Q15) from the α1 helix of Ube2g2 appear to ‘pull' the C-terminal half of the α1 helix away from G2BR (indicated with an arrowhead). (
+       <strong>
+        B
+       </strong>
+       ) Summary of the contacts between Ube2g2 and G2BR. Lines in black are interactions observed in both Ube2g2:G2BR and RING-G2BR:Ube2g2 complexes, whereas lines in red are contacts solely present in the Ube2g2:G2BR complex. Solid lines indicate van der Waals interactions, while dashed lines indicate hydrogen bonds and salt bridges. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) Views along the G2BR helix showing the electrostatic interactions between Ube2g2 and G2BR in Ube2g2:G2BR and the Ube2g2:RING–G2BR complex, respectively. (
+       <strong>
+        E
+       </strong>
+       ) Diagrammatic representation of the ITC experiments to measure binding of G2BR to Ube2g2, RING–Ube2g2 and RING
+       <sub>
+        W345A
+       </sub>
+       –Ube2g2.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To measure the impact of RING-induced feedback at the Ube2g2:G2BR interface, we used a RING–Ube2g2 fusion (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) that effectively saturates the Ube2g2 with RING, resulting in the feedback effect being ‘always on'. RING and G2BR have no contacts in the ternary complex, and thus any change in
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     at the Ube2g2:G2BR interface reflects the allosteric feedback transmitted from the RING interface (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     , complexes 1, 22–23). Consistent with allosteric feedback, the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     between G2BR and RING–Ube2g2 increased to 132 nM compared to the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 22 nM between G2BR and Ube2g2 (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     and
+     <a>
+      Supplementary Figure S6B
+     </a>
+     ). Strikingly, when the feedback was ‘turned off' by mutating W345 in RING
+     <sub>
+      W345A
+     </sub>
+     –Ube2g2, the binding was restored to near wild-type
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 47 nM (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     and
+     <a>
+      Supplementary Figure S6C
+     </a>
+     ).
+    </p>
+    <p>
+     Functional examination of E2 release and the feedback allosteric effect were examined by monitoring the rate of E1-driven ubiquitin conjugation of free E2 (Ube2g2) compared to E2 equilibrated in the presence of stoichiometric amounts of E3 (gp78C). Since E1 and E3-RING have overlapping binding sites on E2, E3 must release E2 for E1 loading. We utilized Ube2g2
+     <sub>
+      C89S
+     </sub>
+     ,
+     <sub>
+      E108R
+     </sub>
+     and gp78C
+     <sub>
+      R379E
+     </sub>
+     , where the charge-reversed salt bridge mutation retains RING:Ube2g2 binding but exhibits markedly slow kinetics for Ub discharge (see above). Equal concentrations of Ube2g2
+     <sub>
+      C89S
+     </sub>
+     ,
+     <sub>
+      E108R
+     </sub>
+     and gp78C
+     <sub>
+      R379E
+     </sub>
+     were equilibrated before adding E1 to initiate loading (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Free Ube2g2 loaded at a fast rate, and gp78C slowed down the rate but did not prevent Ub loading, indicating an effective E2 exchange, consistent with the kinetics detected by SPR (
+     <xref ref-type="fig">
+      Figure 1B and C
+     </xref>
+     ). However, the ‘feedback-off' mutant gp78C
+     <sub>
+      W345A,R379E
+     </sub>
+     dramatically retarded the rate of loading, confirming that this allosteric feedback from RING through E2 to G2BR is crucial for E2 exchange. Furthermore, the gp78C
+     <sub>
+      W345A
+     </sub>
+     was inactive in the autoubiquitination assay (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). Together, these findings are consistent with the structural analysis and a model for processive ubiquitination in which binding of the gp78 RING induces a feedback allosteric process to release Ube2g2 from G2BR and that this process is critical for E2 exchange and multiple cycles of ubiquitination.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Impact of RING-induced feedback and the working model of the ubiquitination cycle mediated by gp78. (
+       <strong>
+        A
+       </strong>
+       ) E1 mediated E2–Ub oxyester conjugation in the presence of E3 (gp78C). Ube2g2
+       <sub>
+        C89S,E108R
+       </sub>
+       (labelled as E2) is used either as free or with gp78C
+       <sub>
+        R379E
+       </sub>
+       (labelled as gp78C) or with gp78C
+       <sub>
+        W345A,R379E
+       </sub>
+       (labelled as gp78C
+       <sub>
+        W345A
+       </sub>
+       ). The control lane lacks E1. The protein bands in top panel were quantified and plotted in bottom panel as E2–Ub/(E2–Ub+E2) versus time. The reactions were done in duplicates and the average is plotted with the s.d. as the error bars. (
+       <strong>
+        B
+       </strong>
+       ) Ubiquitination reactions carried out with wt and W345A mutant of gp78C
+       <sub>
+        L
+       </sub>
+       as described previously (
+       <xref ref-type="bibr">
+        Lorick et al, 1999
+       </xref>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) Sequential binding and release model for gp78:Ube2g2. Ube2g2 is coloured in green, gp78 in orange, ubiquitin in magenta and substrate in blue. G2BR recruits Ube2g2–Ub and allosterically induces a salt bridge across the RING:Ube2g2 interface (red arrow), resulting in increased RING-binding affinity. Concurrent to catalysis, the RING modulates Ube2g2 (blue arrow) to weaken G2BR contacts and promote rapid dissociation of G2BR (and gp78) for the next round of ubiquitination.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    E3s that target proteins for degradation, such as those involved in ERAD, rapidly assemble polyubiquitin chains on substrates and allow for efficient targeting to the 26S proteasome. This process requires dynamic interactions between E2–Ub and E3, with adequate affinity to both effect transfer and rapidly dissociate, thus allowing the E2 to ‘re-conjugate' with ubiquitin. However, most E2:E3–RING interactions are of low affinity and are not captured in standard biochemical assays. Our findings with both gp78 and the yeast ERAD system (
+    <xref ref-type="bibr">
+     Metzger et al, 2013
+    </xref>
+    ) suggest that other, previously unappreciated, mechanisms are at play that enhance this process. For gp78, we have now uncovered the molecular details of an elegant machine by studying the combined interactions of the gp78 RING and G2BR with the ERAD E2, Ube2g2. Previously, we demonstrated that the G2BR binds to the ‘backside' of Ube2g2, allowing not only for recruitment of Ube2g2, but also for an allosteric effect at the RING:E2 interface, thereby increasing the RING:E2 affinity and enhanced ubiquitination (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ). In this study, we examine the allosteric effects at the canonical RING:E2 interface, which includes several hydrophobic contacts, two hydrogen bonds, two salt bridges and two ball-and-socket interactions. Mutation of any contact residue weakens RING:E2 binding to an approximately equal extent; however, the
+    <sub>
+     Ube2g2
+    </sub>
+    E108··R379
+    <sub>
+     RING
+    </sub>
+    salt bridge was identified as the site of the strong, G2BR-induced, allosteric enhancement in binding at the RING:E2 interface (
+    <a>
+     <span>
+      Table I
+     </span>
+    </a>
+    ).
+   </p>
+   <p>
+    The molecular basis for the allostery is revealed by structural changes in Ube2g2 when it binds G2BR and RING. Residue E108 in free Ube2g2 is positioned in a dynamic region of the β4α2 loop. Hence, the β4α2 conformation that is favourable to salt bridge formation with R379 exists only as a sub-population of Ube2g2, and there is insufficient net binding energy to overcome the activation barrier to fully shift the population to the favourable conformation, resulting in a weak affinity between Ube2g2 and RING (
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    ∼144 μM). G2BR binding, at the distant ‘backside' binding site, induces a reorientation in the β4α2 loop, resulting in a major population of Ube2g2 molecules in the favourable conformation (
+    <xref ref-type="fig">
+     Figure 3D
+    </xref>
+    ). The allostertically induced conformational shift reduces the activation energy for salt bridge formation, manifest as a 48-fold increase in RING:Ube2g2 affinity (
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    ∼3 μM).
+   </p>
+   <p>
+    The
+    <sub>
+     Ube2g2
+    </sub>
+    E108··R379
+    <sub>
+     RING
+    </sub>
+    contact is a sidechain··sidechain salt bridge. Interestingly, a similar contact, which is a backbone··sidechain hydrogen bond involving the backbone carbonyl of an E2 β4α2 loop residue, corresponding to E108 of Ube2g2, and a basic residue immediately following the eight Zn-coordinating residue of the RING domain, corresponding to R379 in gp78 RING, is common to all RING/U-box:E2 and RING/U-box:E2–Ub structures determined to date (
+    <xref ref-type="fig">
+     Figure 5D
+    </xref>
+    , top panel, and
+    <a>
+     Supplementary Table S3
+    </a>
+    ). The observation of similar but distinct contacts at the RING:E2 interface stimulates the question as to how important is the distinction between the salt bridge and hydrogen bond in these systems. If the gp78:Ube2g2 could function through a backbone··sidechain hydrogen bond, analogous to the other RING:E2 pairs, then mutation of the E108 sidechain should have no functional effects. On the contrary, we find that the E108 mutants are severely dysfunctional (
+    <xref ref-type="fig">
+     Figure 5F
+    </xref>
+    ), stressing that the interaction involving sidechains and the salt bridge are indeed critical for the function of the gp78:Ube2g2 system. Clearly, the RING:Ube2g2 interface is distinctly designed to suit regulation from the secondary E2-binding site (G2BR). It will be of interest to examine whether the diversity of sidechain–sidechain or sidechain–backbone contact is related to function, as more structures of RING:E2 and RING:E2–Ub complexes appear.
+   </p>
+   <p>
+    RING/U-box:UbcH5c–Ub structures with monomeric RING-like domains suggested an allosteric mechanism, induced via the RING analogue of R379 in gp78 through the E2, to favour a closed conformation of Ub relative to E2, thereby promoting the E2–Ub hydrolysis (
+    <xref ref-type="bibr">
+     Pruneda et al, 2012
+    </xref>
+    ). On the other hand, recently reported structures of UbcH5a–Ub and UbcH5b–Ub with dimeric RINGs RNF4 and BIRC7 have shown that the RINGs directly contact the ligated Ub to prime it for hydrolysis (
+    <xref ref-type="bibr">
+     Dou et al, 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Plechanovova et al, 2012
+    </xref>
+    ). This raises an interesting possibility that, for the UbcH5 family of E2s, the RING:Ub contact at the RING:E2–Ub junction is an exclusive property of the dimeric RINGs (
+    <xref ref-type="bibr">
+     Pruneda et al, 2012
+    </xref>
+    ). In this study, the ΔCSPs at the RING:Ub interface (
+    <xref ref-type="fig">
+     Figure 4F–H
+    </xref>
+    ), combined with the higher affinity of RING and gp78C for E2–Ub over E2 (
+    <a>
+     <span>
+      Table I
+     </span>
+    </a>
+    , complexes 3–4), indicates that the monomeric gp78-RING contacts Ub at the RING:Ube2g2–Ub interface. Furthermore, SAXS data confirm that RING:Ube2g2:G2BR is a monomeric complex in solution. Clearly, more structural studies are required to understand if the diverse nature of RING:E2–Ub interfaces are influenced by the nature of the E2 or other unidentified factors.
+   </p>
+   <p>
+    Central to the RING:Ube2g2–Ub interface is a ternary
+    <sub>
+     Ube2g2
+    </sub>
+    E108··R379
+    <sub>
+     RING
+    </sub>
+    ··Q40
+    <sub>
+     Ub
+    </sub>
+    interaction that is an extension of the RING:E2 salt bridge by a hydrogen bond to the ligated Ub. Using charge reversal in the salt bridge, we demonstrate that restoration of the salt bridge and RING binding was insufficient to restore ubiquitination. We postulate that this is a result of the disruption in the RING··Ub contact in the reverse salt bridge (
+    <xref ref-type="fig">
+     Figure 5D
+    </xref>
+    ). It was also shown that disrupting the ternary interaction by removing the hydrogen bond acceptor on the Ub side, via the Q40A mutation, dramatically reduced ubiquitination. Therefore, it is clear that the
+    <sub>
+     Ube2g2
+    </sub>
+    E108··R379
+    <sub>
+     RING
+    </sub>
+    salt bridge provides both allosteric enhancement of E2:E3 binding and proper sidechain composition and arrangement to facilitate the ternary
+    <sub>
+     Ube2g2
+    </sub>
+    E108··R379
+    <sub>
+     RING
+    </sub>
+    ··Q40
+    <sub>
+     Ub
+    </sub>
+    interaction, which are all essential for function.
+   </p>
+   <p>
+    The presence of secondary, non-RING interactions in E2:E3 pairs introduces interesting possibilities in the mechanism of the ubiquitination cycle, such as the potential of re-conjugation of E2 with ubiquitin while the E2 and E3 are still bound through the secondary binding domain interactions (
+    <xref ref-type="bibr">
+     Kleiger et al, 2009
+    </xref>
+    ). However, for gp78:Ube2g2, G2BR exhibits rapid exchange kinetics with Ube2g2, such that the rate of dissociation (
+    <em>
+     k
+    </em>
+    <sub>
+     off
+    </sub>
+    ∼7.0 min
+    <sup>
+     −1
+    </sup>
+    ) is fast compared to the rate of thioester hydrolysis (K ∼0.3 min
+    <sup>
+     −1
+    </sup>
+    ), suggesting release is more probable than re-conjugation. Since Ube2g2 conjugates with ubiquitin seven times slower in the presence of G2BR (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ), it is clear that free Ube2g2 is a more efficient acceptor of ubiquitin from E1 than is Ube2g2:G2BR, making release advantageous for processivity. Consistent with these observations, we find the off-rate between gp78C and Ube2g2–Ub (
+    <em>
+     k
+    </em>
+    <sub>
+     off
+    </sub>
+    ∼0.18 min
+    <sup>
+     −1
+    </sup>
+    ) matches the rate of RING-initiated ubiquitin hydrolysis, suggesting an optimal system for a single-round ubiquitination. This perspective is consistent with the recent structure of an E1:E2:Ub complex from
+    <em>
+     Schizosaccharomyces pombe
+    </em>
+    (
+    <xref ref-type="bibr">
+     Olsen and Lima, 2013
+    </xref>
+    ) that, assuming similarity with the mammalian homologues, suggests that E1 binding would overlap and interfere with the G2BR binding site on Ube2g2, thus requiring complete release of Ube2g2 for reloading.
+   </p>
+   <p>
+    It is fascinating that, despite the combined interaction of two gp78 domains, the gp78:Ube2g2 system exhibits a weaker than expected affinity that is fine-tuned for function. A clue to the complex interplay between the two gp78 domains is evident in the fact that binding of RING decreases interactions at the Ube2g2:G2BR site through a feedback allosteric effect initiated by W345 in RING forming one of the ball-and-socket interactions. The feedback is mediated through interactions between W345 and the first α-helix of Ube2g2, leading ultimately to the loss of electrostatic interactions between the Ube2g2 and one side of the G2BR helix (
+    <xref ref-type="fig">
+     Figure 6A–D
+    </xref>
+    and
+    <a>
+     Supplementary Figure S6A
+    </a>
+    ). The loss of multiple Ube2g2:G2BR contacts is reflected in the
+    <em>
+     K
+    </em>
+    <sub>
+     d
+    </sub>
+    (21 nM without RING, 132 nM with RING and 47 nM when RING feedback is disrupted) and indicates a mechanism to initiate fast, optimized release of E2 from E3. The functional effect of this feedback on E2 exchange between E3 and E1 was demonstrated by competitive ubiquitin loading of E2. We observed that E1 could efficiently conjugate ubiquitin to Ube2g2 molecules in the presence of wt-gp78C, but not with the ‘feedback off' gp78C
+    <sub>
+     W345A
+    </sub>
+    mutant. Moreover, the decrease of E2 exchange in gp78C
+    <sub>
+     W345A
+    </sub>
+    negatively affects the autoubiquitination activity.
+   </p>
+   <p>
+    Our results show that gp78 acts as a dynamic molecular machine where G2BR and RING, separated by approximately 180 residues, function both independently and concertedly in the gp78:Ube2g2 ubiquitination mechanism. This suggests a model in which Ube2g2–Ub is initially captured by G2BR, inducing allosteric effects and increasing affinity for RING (
+    <xref ref-type="fig">
+     Figure 7C
+    </xref>
+    ). Subsequently, RING binding forms the key RING:E2–Ub interface that facilitates the transfer of ubiquitin and, concurrently, RING imparts feedback allosteric effects by introducing subtle changes transmitted through Ube2g2 that break multiple Ube2g2:G2BR contacts (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ). This feedback allosteric effect is distinct from the RING-induced catalysis and functions to decrease the affinity of G2BR for RING:Ube2g2, thus promoting rapid release of Ube2g2 from gp78. The cycle begins anew with loading to form Ube2g2–Ub and recruitment by gp78. Ube2g2 is in the class of E2s with an extended acidic loop, corresponding to the β4α2 loop, which involves the RING:E2 interface. Characterization of the RING:Ube2g2–Ub interface provides important new insights into this family of E2s and the residues responsible for priming the machine for catalysis. Together, these findings point to a model where G2BR confers specificity and recruitment in the gp78:Ube2g2 system, RING binding builds the critical interactions for Ub transfer and RING induces allosteric feedback to ensure E2 release and a dynamic interaction that is essential for processivity.
+   </p>
+   <p>
+    It is clear from our work, and the work of others, that we are just beginning to scratch the surface regarding how the RING:E2 interactions are regulated through heterogeneous secondary E2-binding sites (
+    <xref ref-type="bibr">
+     Das et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ryan et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hibbert et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Spandl et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Williams et al, 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Metzger et al, 2013
+    </xref>
+    ). In many cases, what appear to be simple low-affinity, canonical RING-mediated interactions between E3s and E2s
+    <em>
+     in vitro
+    </em>
+    are substantially more complex. It becomes of great interest to explore the range and effects of noncanonical binding sites on E2s for E3s and assess how they affect the specificity and cellular function of E3s.
+   </p>
+   <p>
+    <em>
+     Data depositions
+    </em>
+    . The coordinates and structure factors of the 2- Å RING–G2BR:Ube2g2 structure have been deposited in the PDB as entry 4LAD. For the NMR solution structures, the coordinates have been deposited in the PDB as entries 2LXH (RING) and 2LXP (RING:Ube2g2:G2BR) and the associated data have been deposited in the BioMagResBank as entries 18677 and 18688.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Cloning, expression and protein purification
+    </title>
+    <p>
+     Details of cloning and purification of Ube2g2 have been provided elsewhere (
+     <xref ref-type="bibr">
+      Das et al, 2009
+     </xref>
+     ). Synthetic G2BR peptide with a Trp at the N-terminus for quantification was synthesized at the Keck Biotechnology Resource Laboratory (Yale University). The gp78 RING domain (aa 313–393) was sub-cloned into pET3a vector from the template of full-length gp78 clone (gp78FL/pGEX). The RING–G2BR fusion construct was built into a pET3a vector with a nonspecific linker of 40 amino acids. Forty amino acids (sequence: GGGGGGGSSGSSGGSGGGSGSSSGGGGGSGGGSGGGGGGG) were inserted in the linker between RING and G2BR by amplifying the RING (aa 313–393) and G2BR (aa 575–600) regions from gp78FL separately, then combining with two long PCR oligos, each carrying part of the linker sequence, followed by PCR reaction. The RING–Ube2g2 fusion was also cloned in the similar fashion using Ube2g2
+     <sub>
+      C48A,C75A
+     </sub>
+     and RING as templates of initial PCR reaction. Plasmids encoding GST fusions of the cytoplasmic domain of human gp78 have been described (
+     <xref ref-type="bibr">
+      Fang et al, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Chen et al, 2006
+     </xref>
+     ). Mutations in Ube2g2 and gp78 were generated by site-specific mutagenesis.
+    </p>
+    <p>
+     The RING, RING–G2BR, and RING–Ube2g2 proteins were expressed in
+     <em>
+      E. coli
+     </em>
+     BL21 star cells (Invitrogen), grown at 37°C until the OD
+     <sub>
+      600
+     </sub>
+     reaches 0.8–1.0. Thereafter, ZnSO
+     <sub>
+      4
+     </sub>
+     and IPTG were added up to 50 μM and 0.2 mM, respectively, and the cell culture was grown overnight at room temperature. The cell pellet was lysed in 50 mM Tris, pH 7.0, using a micro-fluidizer. Insoluble RING protein was solubilized from the lysate pellet with 4 M urea in buffer B (0.25 M
+     <span>
+      L
+     </span>
+     -Arg, 0.5 mM TCEP, 100 μM ZnSO4, 50 mM Tris pH 7), refolded and purified on a size exclusion column S200 (GE Healthcare). The RING–G2BR fusion was refolded in a similar fashion, and first purified on a cation-exchange column (GE Healthcare), followed by a size exclusion column S200 (GE Healthcare). The RING–Ube2g2 fusion was refolded similarly, purified on an anion-exchange column (Q26/10, GE Healthcare) followed by a S200 column.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR spectroscopy
+    </title>
+    <p>
+     NMR samples were prepared in 50 mM Tris, 2 mM TCEP, pH 7.5 and experiments were performed at 25°C. The protein samples were 0.7 mM for resonance assignment and NOESY experiments. For titration experiments, the protein samples were 0.5 mM, and ligand concentrations ranged from 0.5 to 2.5 mM. The
+     <sup>
+      1
+     </sup>
+     H,
+     <sup>
+      15
+     </sup>
+     N and
+     <sup>
+      13
+     </sup>
+     C backbone and sidechain resonances were assigned using standard 3D triple resonance NMR experiments (
+     <xref ref-type="bibr">
+      Sattler et al, 1999
+     </xref>
+     ). Distance information were obtained from 3D
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C-edited NOESY-HSQC (τ
+     <sub>
+      m
+     </sub>
+     =100 ms) (
+     <xref ref-type="bibr">
+      Sattler et al, 1999
+     </xref>
+     ). Intermolecular distance restraints between Ube2g2:G2BR and RING were determined via a
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      15
+     </sup>
+     N-filtered,
+     <sup>
+      13
+     </sup>
+     C/
+     <sup>
+      15
+     </sup>
+     N-edited NOESY experiment (τ
+     <sub>
+      m
+     </sub>
+     =100 ms) (
+     <xref ref-type="bibr">
+      Zwahlen et al, 1997
+     </xref>
+     ). To determine tautomeric states and zinc-binding properties of the two histidine residues in RING, a
+     <sup>
+      1
+     </sup>
+     H,
+     <sup>
+      15
+     </sup>
+     N HMQC spectrum optimized for detection of two-bond coupling correlation was acquired with uniformly
+     <sup>
+      15
+     </sup>
+     N-labelled RING (
+     <xref ref-type="bibr">
+      Pelton et al, 1993
+     </xref>
+     ). To measure residual dipolar couplings (RDCs), PEG (C
+     <sub>
+      12
+     </sub>
+     E
+     <sub>
+      6
+     </sub>
+     ) was dissolved in the same buffer as above at 10% wt/vol and titrated with hexanol at a concentration of 6.5% to form a lamellar phase, as monitored by the residual splitting of the
+     <sup>
+      2
+     </sup>
+     H solvent resonance. RING was titrated into the mixture to a final concentration of 0.25mM.
+     <sup>
+      1
+     </sup>
+     D
+     <sub>
+      NH
+     </sub>
+     was measured by IPAP experiments and
+     <sup>
+      1
+     </sup>
+     D
+     <sub>
+      CaHa
+     </sub>
+     was measured by J-modulated experiments (
+     <xref ref-type="bibr">
+      McFeeters et al, 2005
+     </xref>
+     ). Structure calculations are described in
+     <a>
+      Supplementary Data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     X-ray crystallography
+    </title>
+    <p>
+     The Ube2g2 and RING–G2BR proteins were mixed in a molar ratio of 1:1, incubated for 1 h at 25°C and crystallized at 19(±1)°C using the sitting drop vapour diffusion method. Initial screening for crystallization conditions were carried out with a Hydra II Plus One robot system (Matrix Technologies Corporation). Crystals suitable for X-ray diffraction experiments were grown by mixing 2 μl protein solutions (23 mg/ml in 50 mM Tris, 2 mM TCEP and pH 7.5) and 1 μl reservoir solution (25% w/v PEG3350 in 0.1 M Tris, pH 8.5) and the 3 μl droplets were equilibrated against 100 μl reservoir solution. The crystals grew to full size (∼0.1 mm × 0.1 mm × 0.2 mm) in 2 weeks. They were flash cooled in liquid nitrogen after a short soak in the reservoir solution premixed with 20% (w/v) PEG400 as a cryoprotectant. X-ray diffraction data were collected from a single crystal at beamline ID-22 of SER-CAT at the Advanced Photon Source, Argonne National Laboratory, and processed using the HKL2000 program suite (
+     <xref ref-type="bibr">
+      Otwinowski et al, 1997
+     </xref>
+     ). Data statistics are summarized in
+     <a>
+      Supplementary Table S2
+     </a>
+     . Structure solution and refinement are described in
+     <a>
+      Supplementary Data
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Preparation of E2–Ub and
+     <em>
+      in vitro
+     </em>
+     ubiquitination and E2–Ub thioester discharge assay
+    </title>
+    <p>
+     The Ub-conjugated Ube2g2 was prepared as an isopeptide linkage following the reported procedure (
+     <xref ref-type="bibr">
+      Plechanovova et al, 2012
+     </xref>
+     ) using Ube2g2
+     <sub>
+      C89K
+     </sub>
+     , generated by site-directed mutagenesis of Ube2g2. The reaction was conducted in 50 mM Tris buffer, pH 7.5, 0.5 mM DTT, 2.5 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 2 mM ATP using lysine-free K0 Ub, where all lysine residues were mutated to arginine. After overnight reaction at room temperature, the product was purified by Q-column followed by size-exclusion chromatography on superdex-75 resin. Formally, this procedure yields the product Ube2g2-N-Ub, which we refer to as Ube2g2–Ub or E2–Ub.
+     <em>
+      In vitro
+     </em>
+     autoubiquitination was carried out as described previously (
+     <xref ref-type="bibr">
+      Lorick et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kostova et al, 2009
+     </xref>
+     ). For E2–Ub thioester discharge experiments,
+     <sup>
+      35
+     </sup>
+     S-labelled Ube2g2 and Ube2g2
+     <sub>
+      E108R
+     </sub>
+     were translated in the S30/T7 bacterial TnT system (Promega) and used at &lt;100 nM. For discharge of ubiquitin from Ube2g2, the E2 was loaded with K0 ubiquitin for 30 min. The loading reaction was quenched with 10 U/ml (final concentration) Apyrase (Sigma) for 5 min at room temperature and the buffer exchanged to 50 mM Tris (pH 7.4) with Ub (80 μM), G2BR (5 μM) with or without purified gp78RING (15 μM) and gp78RING
+     <sub>
+      R379E
+     </sub>
+     (30 μM); discharge was monitored at 20°C.
+    </p>
+    <p>
+     Methods for ITC and SPR experiments are described in
+     <a>
+      Supplementary Data
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.6M, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (245K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

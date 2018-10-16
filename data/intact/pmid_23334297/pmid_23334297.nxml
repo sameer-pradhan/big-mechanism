@@ -1,0 +1,1751 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3567495
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    CENP-T provides a structural platform for outer kinetochore assembly
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The kinetochore forms a dynamic interface with microtubules from the mitotic spindle during mitosis. The Ndc80 complex acts as the key microtubule-binding complex at kinetochores. However, it is unclear how the Ndc80 complex associates with the inner kinetochore proteins that assemble upon centromeric chromatin. Here, based on a high-resolution structural analysis, we demonstrate that the N-terminal region of vertebrate CENP-T interacts with the ‘RWD' domain in the Spc24/25 portion of the Ndc80 complex. Phosphorylation of CENP-T strengthens a cryptic hydrophobic interaction between CENP-T and Spc25 resulting in a phospho-regulated interaction that occurs without direct recognition of the phosphorylated residue. The Ndc80 complex interacts with both CENP-T and the Mis12 complex, but we find that these interactions are mutually exclusive, supporting a model in which two distinct pathways target the Ndc80 complex to kinetochores. Our results provide a model for how the multiple protein complexes at kinetochores associate in a phospho-regulated manner.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     CENP-T, kinetochore, mitosis, Spc24/25, X-ray structure
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The kinetochore forms a dynamic interface with microtubules from the mitotic spindle to facilitate faithful chromosome segregation during mitosis (
+    <xref ref-type="bibr">
+     Cheeseman and Desai, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santaguida and Musacchio, 2009
+    </xref>
+    ). To establish a functional kinetochore, two key groups of structural proteins are required. First, a subset of inner kinetochore proteins binds to centromeric DNA to provide a platform for kinetochore assembly. Second, additional outer kinetochore proteins are recruited to centromeres to form robust interactions with spindle microtubules. The kinetochore-microtubule interface is composed of the highly conserved kinetochore complexes referred to as the KMN network, which includes
+    <em>
+     K
+    </em>
+    NL1, the four subunit
+    <em>
+     M
+    </em>
+    is12 complex (Mis12, Nnf1, Nsl1, and Dsn1), and the four subunit
+    <em>
+     N
+    </em>
+    dc80 complex (Ndc80, Nuf2, Spc24, and Spc25) (
+    <xref ref-type="bibr">
+     DeLuca and Musacchio, 2012
+    </xref>
+    ). Depletion of any component of KMN proteins results in mitotic defects and a reduction in kinetochore-microtubule attachments (
+    <xref ref-type="bibr">
+     DeLuca et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Martin-Lluesma et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hori et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     McCleland et al, 2003
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cheeseman et al, 2004
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Obuse et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     DeLuca et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kline et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kiyomitsu et al, 2007
+    </xref>
+    ). The KMN network binds directly to microtubules
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Cheeseman et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     McIntosh et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Powers et al, 2009
+    </xref>
+    ). In particular, the Ndc80 complex has structural properties including an extended rod-shaped structure and a direct interaction with the microtubule lattice that make it well suited to act as the primary kinetochore-microtubule interface (
+    <xref ref-type="bibr">
+     Cheeseman et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wei et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ciferri et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wilson-Kubalek et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alushin et al, 2010
+    </xref>
+    ). However, it is still unclear how the Ndc80 complex associates with inner kinetochore proteins to target this key complex to centromeres.
+   </p>
+   <p>
+    In contrast to the outer kinetochore, which is required only during mitosis, inner kinetochore components localize to centromeres throughout the cell cycle. This
+    <span>
+     c
+    </span>
+    onstitutive
+    <span>
+     c
+    </span>
+    entromere-
+    <span>
+     a
+    </span>
+    ssociated
+    <span>
+     n
+    </span>
+    etwork of proteins (CCAN) (
+    <xref ref-type="bibr">
+     Okada et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cheeseman and Desai, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hori et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Amano et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Perpelescu and Fukagawa, 2011
+    </xref>
+    ) provides a platform for outer kinetochore assembly. For example, the CCAN component CENP-C directly associates with the Mis12 complex (
+    <xref ref-type="bibr">
+     Liu et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kwon et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gascoigne et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Przewloka et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Screpanti et al, 2011
+    </xref>
+    ). In addition, we have previously found that the CCAN component CENP-T is required to recruit the KMN network and assemble functional kinetochores (
+    <xref ref-type="bibr">
+     Hori et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gascoigne et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Suzuki et al, 2011
+    </xref>
+    ). CENP-T is an extended molecule that spans the inner and outer kinetochore (
+    <xref ref-type="bibr">
+     Suzuki et al, 2011
+    </xref>
+    ). The C-terminal region of CENP-T forms a complex with the histone-fold containing proteins CENP-W, CENP-S, and CENP-X to form a nucleosome-like structure that binds to centromeric DNA (
+    <xref ref-type="bibr">
+     Hori et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishino et al, 2012
+    </xref>
+    ). The N-terminal region of CENP-T associates with the outer kinetochore and is sufficient to direct aspects of outer kinetochore assembly, including binding to and recruitment of the Ndc80 complex in a manner that depends upon the phosphorylation of CENP-T by cyclin-dependent kinase (CDK) (
+    <xref ref-type="bibr">
+     Gascoigne et al, 2011
+    </xref>
+    ). Based on structural predictions, the N-terminal region of CENP-T lacks a defined structure and it is unclear how it associates with the Ndc80 complex. In addition, the basis for the phospho-regulated interaction between CENP-T and the Ndc80 complex is unknown.
+   </p>
+   <p>
+    To define the nature of the link between the inner and outer kinetochore, we analysed the structural, biochemical, and functional basis for the CENP-T–Ndc80 complex interaction. We found that phosphorylated and phospho-mimetic peptides from the N-terminal region of CENP-T interact with the Spc24/Spc25 portion of the Ndc80 complex. Multiple kinetochore proteins, including Spc24/25, contain ‘RWD' domains that are also found in functionally diverse proteins including
+    <span>
+     R
+    </span>
+    ING finger proteins,
+    <span>
+     W
+    </span>
+    D-repeat containing proteins, and
+    <span>
+     D
+    </span>
+    EXD-like helicases (
+    <xref ref-type="bibr">
+     Schmitzberger and Harrison, 2012
+    </xref>
+    ). It has been proposed that RWD domains provide interaction platforms to mediate kinetochore assembly. However, it is unclear how other proteins associate with these domains. Our high-resolution structure of the phospho-CENP-T–Spc24/25 complex reveals that the phosphorylated residues in CENP-T are not directly involved in the interaction with Spc25, but instead form a salt bridge to allow adjacent downstream hydrophobic residues to interact with the RWD containing Spc24/25 complex. Our results provide a model for how the multiple protein complexes at kinetochores associate in a phospho-regulated manner.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     The N-terminal region of CENP-T is critical for outer kinetochore assembly
+    </title>
+    <p>
+     We have shown previously that the N-terminal region of CENP-T is essential for kinetochore assembly in both human and chicken cells (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). In particular, we found that the N-terminal 100 amino acids of CENP-T are phosphorylated by CDK to regulate outer kinetochore assembly. To define which regions of CENP-T are critical for recruiting downstream proteins, we tested several deletion constructs within this region (Δ1–30, Δ1–60, Δ69–90, and Δ1–90) using a complementation assay in CENP-T-deficient chicken DT40 cells (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). Whereas CENP-T-deficient cells expressing either Δ1–30 or Δ1–60 grew similarly to control cells, CENP-T Δ1–90 and Δ69–90 could not rescue CENP-T depletion (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). This suggests that an ∼20 aa sequence near the N-terminal region of CENP-T that includes the CDK phosphorylation sites T72 and S88 is critical for CENP-T function. Indeed, we found that Ndc80 localization to kinetochores was reduced in cells expressing only CENP-T Δ69–90 or Δ1–90 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ; data not shown). Interestingly, an in frame fusion between Spc25 and CENP-T Δ1–90 recruited Ndc80 to kinetochores (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ) and partially rescued the loss of viability resulting from the depletion of endogenous CENP-T (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). This suggests that a primary function for the CENP-T N-terminal region is to interact with the Ndc80 complex and direct outer kinetochore assembly.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The CENP-T N-terminal region is required for kinetochore localization of the Ndc80 complex. (
+       <strong>
+        A
+       </strong>
+       ) Diagram showing the chicken CENP-T sequence and the tested deletion mutants in the CENP-T N-terminal region. ‘+' or ‘−' indicates whether the given deletion mutant can complement growth when endogenous CENP-T is depleted. (
+       <strong>
+        B
+       </strong>
+       ) Graph showing the growth curve of cells expressing CENP-TΔ69–90 in the presence (red rectangle) or absence (blue diamond) of tetracycline to repress the expression of wild-type CENP-T. (
+       <strong>
+        C
+       </strong>
+       ) Immunofluorescence analysis of cells expressing CENP-T Δ69–90 after 72 h in the presence (lower panel) or absence (upper panel) of tetracycline to repress the expression of wild-type CENP-T. Cells were probed for either CENP-T or Ndc80 and the kinetochore signal intensities of each protein were measured relative to an adjacent background signal. Bar, 10 μm. (
+       <strong>
+        D
+       </strong>
+       ) Immunofluorescence analysis of cells in which expression of CENP-T is replaced with a Spc25-Δ1–90-CENP-T fusion protein. Ndc80 localizes to kinetochores in these cells, unlike the CENP-T Δ69–90 mutant alone in (
+       <strong>
+        C
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) Cell viability analysis for CENP-T conditional knockout cells in the presence (CENP-T OFF) or absence (CENP-T ON) of tetracycline, or expressing a Spc25-Δ1–90 CENP-T fusion protein in the presence of tetracycline (CENP-T OFF+Spc25-Δ1–90 CENP-T).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The CENP-T N-terminal region displays phospho-dependent binding to the Spc24/25 complex
+    </title>
+    <p>
+     We next sought to define the specific interactions between the N-terminal region of CENP-T and outer kinetochore components. We have shown previously that recombinant human CENP-T-W complex binds directly to the engineered Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). The Ndc80 complex has two globular regions separated by an extended coiled-coil with the Ndc80/Nuf2 portion binding to microtubules (
+     <xref ref-type="bibr">
+      Cheeseman et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wei et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ciferri et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wilson-Kubalek et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Alushin et al, 2010
+     </xref>
+     ) and the Spc24/25 portion facing the inner kinetochore (
+     <xref ref-type="bibr">
+      DeLuca et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wei et al, 2006
+     </xref>
+     ). To determine whether the CENP-T N-terminal region can interact directly with the Spc24/25 portion of the Ndc80 complex, we analysed the binding between the globular regions of the chicken Spc24/25 sub-complex (125–195 aa of chicken Spc24 and 132–234 aa of chicken Spc25) and chicken CENP-T fragments
+     <em>
+      in vitro
+     </em>
+     . For these experiments, we used both unmodified and phospho-mimetic CENP-T (T72D and S88D) as a Maltose Binding Protein (MBP) fusion. Based on the shift in migration for the Spc24/25 sub-complex as assessed by size-exclusion chromatography, the phospho-mimetic CENP-T N-terminal region (using either amino acids 2–98 or 63–98) binds efficiently to Spc24/25 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). In contrast, either fragment of unphosphorylated wild-type CENP-T or phospho-deficient CENP-T (T72A and S88A) did not bind as strongly to the Spc24/25 complex (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). In addition, although CENP-T fragments containing the extreme N-terminal region of CENP-T (chicken aa 2–50 or human aa 2–32) also have CDK phosphorylation sites, these fragments did not show detectable interactions with the Spc24/25 complex (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Phospho-mimetic CENP-T binds directly to the Spc24/25 portion of the Ndc80 complex. (
+       <strong>
+        A
+       </strong>
+       ) Top, traces (OD
+       <sub>
+        214
+       </sub>
+       ) from the gel filtration column showing the co-migration of chicken Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       with phospho-mimetic chicken CENP-T (63–98; T72D and S88D). The phospho-mimetic CENP-T fused with MBP and the globular domains of the Spc24/25 complex were tested individually or mixed and incubated for 15 min at room temperature prior to separation by gel filtration using a Superdex 75 column. Bottom, peak fractions were analysed by SDS–PAGE and stained with Coomassie. (
+       <strong>
+        B
+       </strong>
+       ) Non-phosphomimetic CENP-T
+       <sup>
+        63–98
+       </sup>
+       does not strongly interact with Spc24/25. Wild-type MBP-CENP-T
+       <sup>
+        63–98
+       </sup>
+       and the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex were analysed as in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) The phospho-mimetic chicken CENP-T N-terminal region binds to Spc24/25 with high affinity. Composition gradient multi-angle light scattering (CG-MALS) analysis of phospho-mimetic MBP-CENP-T
+       <sup>
+        63–98
+       </sup>
+       together with the globular domain of the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. Nine different composition gradients were analysed by multi-angle light scattering to measure the molar mass. Composition of various forms of proteins was calculated by fitting the CG-MALS data and the concentration distribution graph is shown. The two components interacted with 1:1 stoichiometry with a
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       of 381 nM. (
+       <strong>
+        D
+       </strong>
+       ) ITC binding curve for the interaction of phospho-mimetic chicken CENP-T peptide
+       <sup>
+        63–98
+       </sup>
+       (T72D and S88D) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. The measured
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       is 481 nM. (
+       <strong>
+        E
+       </strong>
+       ) ITC binding curve for the interaction of singly phospho-mimetic chicken CENP-T peptide
+       <sup>
+        63–98
+       </sup>
+       (T72D) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. The measured
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       is 610 nM. (
+       <strong>
+        F
+       </strong>
+       ) ITC binding curve for the interaction of wild-type chicken CENP-T peptide
+       <sup>
+        63–98
+       </sup>
+       with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. The measured
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       is 6.67 μM. (
+       <strong>
+        G
+       </strong>
+       ) ITC binding curve for the interaction of a synthetic phosphorylated chicken CENP-T peptide
+       <sup>
+        63–98
+       </sup>
+       (T72p and S88p) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. The measured
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       is 518 nM. (
+       <strong>
+        H
+       </strong>
+       ) ITC binding curve for the interaction of a synthetic phosphorylated chicken CENP-T peptide
+       <sup>
+        63–98
+       </sup>
+       (T72p) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. The measured
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       is 1.29 μM.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     As we found that both short (63–98) and long (2–98) peptides of CENP-T bound to the Spc24/25 complex (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ), we next determined
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     's for this binding using composition gradient multi-angle light scattering (CG-MALS) and isothermal titration calorimetry (ITC) (
+     <xref ref-type="fig">
+      Figure 2C–H
+     </xref>
+     ). Based on ITC measurements, the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     for binding of the wild-type chicken CENP-T peptide to the chicken Spc24/25 complex was 6.67 μM (
+     <xref ref-type="fig">
+      Figure 2F
+     </xref>
+     ). Due to this weaker interaction, it was not possible to define a precise
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     for this interaction by CG-MALS. In contrast, phospho-mimetic and synthetic phosphorylated CENP-T peptides bound to more strongly to the Spc24/25 complex and formed a 1:1 stoichiometric complex. The doubly phospho-mimetic CENP-T (T72D and S88D) peptide bound to Spc24/25 with a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 381 nM as measured by CG-MALS and 481 nM as measured by ITC (
+     <xref ref-type="fig">
+      Figure 2C and D
+     </xref>
+     ). Singly modified CENP-T (T72D) bound to the Spc24/25 complex with a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 610 nM based on ITC (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ). Similarly, singly or doubly synthetic phosphorylated CENP-T peptides (either a T72p/S88p double phospho-peptide or a T72p single phospho-peptide) bound to the Spc24/25 complex with
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     's of 518 nM or 1.29 μM, respectively, based on ITC measurements (
+     <xref ref-type="fig">
+      Figure 2G and H
+     </xref>
+     ). As doubly phosphorylated or phospho-mimetic CENP-T showed increased binding to Spc24/25 relative to singly phosphorylated CENP-T, we used the T72D and S88D double mutant for all subsequent assays.
+    </p>
+    <p>
+     We have previously shown that unphosphorylated human CENP-T-W binds to the engineered human Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). Unlike chicken CENP-T, the unphosphorylated human CENP-T N-terminal fragment (amino acids 76–106) fused with MBP bound to the human Spc24/25 (137–197 aa of human Spc24 and 129–224 aa of human Spc25) complex with a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 645 nM based on ITC (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ) and to the Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex based on gel filtration (
+     <a>
+      Supplementary Figure S2A
+     </a>
+     ). We also confirmed that the unphosphorylated human CENP-T N-terminal region (1–375 aa) without the MBP fusion bound to the Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex by gel filtration (
+     <a>
+      Supplementary Figure S2B
+     </a>
+     ). However, phospho-mimetic human CENP-T showed increased binding to the Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex based on gel filtration (
+     <a>
+      Supplementary Figure S2A and B
+     </a>
+     ) and bound to the human Spc24
+     <sup>
+      131–197
+     </sup>
+     /Spc25
+     <sup>
+      129–224
+     </sup>
+     complex with a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 150 nM by ITC (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Based on the combination of these biochemical data, we conclude that the phosphorylated human or chicken CENP-T N-terminal region directly associates with the Spc24/25 portion of the Ndc80 complex.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The CENP-T N-terminal region binds to the Spc24/25 complex through hydrophobic and electrostatic interactions
+    </title>
+    <p>
+     The Spc24/25 complex contains two ‘RWD' domains, which are found in multiple proteins and are thought to provide a platform for protein–protein interactions (
+     <xref ref-type="bibr">
+      Schmitzberger and Harrison, 2012
+     </xref>
+     ). To define the mechanisms by which the phosphorylated CENP-T N-terminal region binds to the RWD-containing Spc24/25, we conducted a high-resolution structural analysis of phospho-mimetic chicken CENP-T (63–98 aa) together with the globular regions of recombinant Spc24 and Spc25 (125–195 aa of chicken Spc24 and 132–234 aa of chicken Spc25) (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). We also determined the structure of the Spc24/25 complex alone. Following crystallization of these protein complexes, we determined their structures by molecular replacement methods with a model based on the engineered human Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex (
+     <xref ref-type="bibr">
+      Ciferri et al, 2008
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 3B–E
+     </xref>
+     ;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). The chicken Spc24/25 complex was refined to 1.0 Å resolution with refinement statistics of
+     <em>
+      R
+     </em>
+     <sub>
+      work
+     </sub>
+     =0.193 (
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     =0.207) and the CENP-T-Spc24/25 complex was refined to 1.9 Å resolution with refinement statistics of
+     <em>
+      R
+     </em>
+     <sub>
+      work
+     </sub>
+     =0.167 (
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     =0.216). We superimposed each structural model and confirmed that the structures of the Spc24/25 sub-complex from each model were identical (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     ). The CENP-T peptide (63–98 aa) contains two α-helices (
+     <xref ref-type="fig">
+      Figure 3B–E
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ) with the second helical region closely associated with a β-sheet from Spc25 (
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). An extended coil follows the CENP-T helices and there are additional hydrophobic and electrostatic interactions with the β sheets from Spc25 (
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). In addition to this interaction between CENP-T and Spc25, we also found a second potential contact site for CENP-T with the Spc24 portion of the Spc24/25 complex. This interaction involves the first helix of the CENP-T peptide including the L68 residue (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Crystal structure of the phospho-mimetic CENP-T–Spc24/25 complex. (
+       <strong>
+        A
+       </strong>
+       ) Schematic diagram of Spc24, Spc25, CENP-T, and CENP-W showing the presence of α-helices and β-sheets. The expression constructs used for the structural analyses are indicated by the box. (
+       <strong>
+        B
+       </strong>
+       ) Structural model showing the side view of the Spc24/25 complex superimposed with the CENP-T–Spc24/25 complex. For the Spc24/25 complex, Spc24 is coloured in light cyan and Spc25 is in light green. For the CENP-T–Spc24/25 complex, CENP-T is coloured in magenta, Spc24 is cyan, and Spc25 is green. (
+       <strong>
+        C
+       </strong>
+       ) Structural model showing the top view of the superimposed structures of the Spc24/25 complex and the CENP-T–Spc24/25 complex as in (
+       <strong>
+        B
+       </strong>
+       ). (
+       <strong>
+        D
+       </strong>
+       ) Structural model showing the surface charge of the Spc24/25 complex interacting with phospho-mimetic CENP-T peptide. Electrostatic surface charges of the Spc24/25 complex were calculated by APBS and are contoured from −8.0 (red) to 8.0 (blue). The complex is viewed from the same angle as in (
+       <strong>
+        C
+       </strong>
+       ). Side chains of CENP-T are shown as stick models. (
+       <strong>
+        E
+       </strong>
+       ) Structural model showing the phospho-mimetic CENP-T peptide from the CENP-T–Spc24/25 complex structure in (
+       <strong>
+        D
+       </strong>
+       ) on its own.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       A conserved salt bridge is essential for the interaction of CENP-T with the Spc24/25 complex. (
+       <strong>
+        A
+       </strong>
+       ) Sequence alignment of CENP-T from chicken, human, mouse, frog, sea bass, fission yeast, and filamentous fungi. Residues involved in the interaction of CENP-T with Spc24 and Spc25 are denoted by blue and orange dots, respectively. (
+       <strong>
+        B
+       </strong>
+       ) Structural model showing a close-up view of the phospho-mimetic CENP-T peptide. The salt bridge between T72D and R74 is highlighted. (
+       <strong>
+        C
+       </strong>
+       ) Mutation of CENP-T R74 (R74E or R74A) disrupts complex formation even in the presence of phospho-mimetic T72D and S88D residues. Stoichiometric amounts of MBP-CENP-T
+       <sup>
+        63–98
+       </sup>
+       mutant (T72D/R74E/S88D or T72D/R74A/S88D) and the Spc24
+       <sup>
+        125-195
+       </sup>
+       /Spc25
+       <sup>
+        132-234
+       </sup>
+       complex were mixed and analysed by gel filtration as in
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       . Upper panel: phospho-mimetic CENP-T (T72D/S88D) and the Spc24/25 complex interaction as in
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       . Middle panel: CENP-T mutant (T72D/R74E/S88D) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. Lower panel: CENP-T mutant (T72D/R74A/S88D) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex. Schematic diagrams of CENP-T and the Spc24/25 complex are shown to the right (blue: Spc24, green: Spc25). (
+       <strong>
+        D
+       </strong>
+       ) CENP-T mutation at L68 disrupts complex formation with Spc24/25. Gel filtration analysis of the MBP-CENP-T
+       <sup>
+        63–98
+       </sup>
+       mutant (L68R7/T72D/S88D) with the Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       complex as in (
+       <strong>
+        C
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         X-ray diffraction data and model refinement statistics for the Sps24/25 complex and CENP-T
+         <sup>
+          63–98
+         </sup>
+         T72DS88D–Spc24/25 complex
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     As the Spc24/25 complex shows increased binding to the phospho-mimetic CENP-T peptide relative to unphosphorylated CENP-T (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ), we examined how the phospho-mimetic residues are involved in the interaction with the Spc24/25 complex. We found that this interaction is not electrostatic and that instead a hydrophobic interface from CENP-T contributes to this interaction to bind to Spc25 directly (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). Therefore, T72D and S88D in CENP-T are not direct contact sites for the CENP-T–Spc25 interaction. Thus, we hypothesized that the T72D residue forms a salt bridge with R74 to allow the subsequent hydrophobic residues to orient towards the hydrophobic residues in Spc25 (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). To test this, we generated R74 mutants (R74E or R74A) in phospho-mimetic CENP-T (T72D and S88D) to prevent the phospho-mimetic residue from forming a salt bridge between the 72 and 74 residues. As shown in
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , these CENP-T mutant peptides failed to interact with Spc24/25.
+    </p>
+    <p>
+     To test the role of the hydrophobic residues in mediating interactions between CENP-T and Spc24, we generated an L68R mutation in the context of the phospho-mimetic CENP-T peptide. The L68R mutant disrupted the CENP-T–Spc24/25 interaction even when the salt bridge between 72 and 74 was formed (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). Based on our structural and mutational analysis, we conclude that phosphorylation of T72 facilitates formation of a salt bridge with R74 to allow the downstream hydrophobic residues in CENP-T to interact with the Spc24/25 complex. This interaction region of CENP-T, which contains T-P-R residues (72–74) and downstream hydrophobic residues, is well conserved in various eukaryotic species including
+     <em>
+      S. pombe
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The binding of CENP-T and the Mis12 complex to the Spc24/25 is mutually exclusive
+    </title>
+    <p>
+     Based on our structural analysis of the CENP-T-Spc24/25 complex, we also predicted critical hydrophobic residues in the Spc24/25 complex (I156 and L161 in chicken Spc25 and I149 and L154 in human Spc25) that would be required for the CENP-T–Spc25 interaction. These residues are conserved between human and chicken Spc25 (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). To test the role of these residues for the CENP-T–Spc24/25 interaction, we generated mutant Spc24/25 complexes containing chicken Spc25 (I156R) or Spc25 (L161R). These mutations did not affect complex formation with Spc24, but they failed to interact with the phospho-mimetic CENP-T peptide (
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     ). Similarly, phospho-mimetic human CENP-T showed reduced interactions with Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex containing a Spc25 mutant (I149A L154A) by gel filtration (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). We also confirmed the reduced interactions of the Spc25 mutant with CENP-T using human Spc24/25 complex (57–197 aa of human Spc24 and 70–224 aa of human Spc25) based on gel filtration and ITC measurements (
+     <a>
+      Supplementary Figure S5A and B
+     </a>
+     ). This suggests that these hydrophobic residues in Spc25 are directly involved in the interaction with vertebrate CENP-T.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Binding of CENP-T and the Mis12 complex to the Ndc80 complex is mutually exclusive. (
+       <strong>
+        A
+       </strong>
+       ) L161R mutations in Spc25 disrupt the interaction with CENP-T. Phospho-mimetic chicken MBP-CENP-T
+       <sup>
+        63–98
+       </sup>
+       (T72D/S88D) and the mutant Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       (L161R) complex were separated by gel filtration using a Superdex 75, analysed by SDS–PAGE, and stained with Coomassie. (
+       <strong>
+        B
+       </strong>
+       ) I156R mutations in Spc25 disrupt the interaction with CENP-T. Phospho-mimetic MBP-CENP-T
+       <sup>
+        63–98
+       </sup>
+       (T72D/S88D) and the mutant Spc24
+       <sup>
+        125–195
+       </sup>
+       /Spc25
+       <sup>
+        132–234
+       </sup>
+       (I156R) complex were analysed by gel filtration as in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) I149A L154A double mutants in human Spc25 disrupt binding to human CENP-T. Human phospho-mimetic CENP-T (MBP-hsCENP-T
+       <sup>
+        76–106
+       </sup>
+       T85D) and the wild-type Ndc80
+       <sup>
+        Bonsai
+       </sup>
+       complex or the Ndc80
+       <sup>
+        Bonsai
+       </sup>
+       I149A L154A mutant complex were mixed and analysed by gel filtration. Protein mixtures were incubated on ice for 30 min before conducting the chromatography using a Superose 6 column. Fractions were collected, analysed by SDS–PAGE, and stained with Coomassie. Elution profiles from the size-exclusion chromatography for the experiment are shown (top). Elution of proteins was monitored at
+       <em>
+        A
+       </em>
+       <sub>
+        280 nm
+       </sub>
+       . (
+       <strong>
+        D
+       </strong>
+       ) The Ndc80
+       <sup>
+        Bonsai
+       </sup>
+       complex or the Ndc80
+       <sup>
+        Bonsai
+       </sup>
+       I149A L154A mutant complex and the human Mis12–KNL1
+       <sup>
+        2106–2316
+       </sup>
+       complex were mixed and analysed by gel filtration chromatography using a Superose 6 column as in (C). Elution profiles from the size-exclusion chromatography are shown (top). (
+       <strong>
+        E
+       </strong>
+       ) CENP-T and the Mis12/KNL1
+       <sup>
+        CT
+       </sup>
+       complex show mutually exclusive binding to the Ndc80
+       <sup>
+        Bonsai
+       </sup>
+       complex. Human phospho-mimetic MBP-CENP-T
+       <sup>
+        76–106
+       </sup>
+       (T85D), wild-type Ndc80
+       <sup>
+        Bonsai
+       </sup>
+       complex, and the human Mis12-KNL1
+       <sup>
+        2106–2316
+       </sup>
+       complex were mixed in the indicated combinations and analysed by gel filtration. A large complex containing all components was not detected, although both CENP-T and KNL1/Mis12 bound individually to the Ndc80 complex based on altered migration.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Above we demonstrated that CENP-T interacts directly with the Spc24/25 sub-complex. However, the Ndc80 complex also associates with the Mis12 complex and KNL1 (
+     <xref ref-type="bibr">
+      Cheeseman et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Obuse et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cheeseman et al, 2006; Maskell et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Petrovic et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      DeLuca and Musacchio, 2012
+     </xref>
+     ), and it was unclear whether the Ndc80 complex can simultaneously interact with both CENP-T and Mis12/KNL1, or whether these represent mutually exclusive assembly pathways. The human Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex mutated for Spc25 (I149A L154A) displayed reduced binding to phospho-mimetic CENP-T (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ), but we found that the mutant Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     or the Spc24
+     <sup>
+      57–197
+     </sup>
+     /Spc25
+     <sup>
+      70–224
+     </sup>
+     complex still bound to the Mis12 complex based on gel filtration (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S5C
+     </a>
+     ). However, the binding affinity of the mutant Spc24
+     <sup>
+      57–197
+     </sup>
+     /Spc25
+     <sup>
+      70–224
+     </sup>
+     complex for the Mis12 complex was reduced (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =291 nM) compared with the wild-type Spc24
+     <sup>
+      57–197
+     </sup>
+     /Spc25
+     <sup>
+      70–224
+     </sup>
+     complex (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =18.9 nM) based on ITC measurements (
+     <a>
+      Supplementary Figure S5D
+     </a>
+     ), suggesting that the binding sites of Spc24/25 for the Mis12 complex and CENP-T partially overlap.
+    </p>
+    <p>
+     Next, we tested whether the Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex could interact simultaneously with CENP-T and KNL1/Mis12 complex (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ). In separate experiments, we detected co-migration of the KNL1 and the Mis12 complex with the Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex and CENP-T with the Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex by gel filtration. However, co-migration of all proteins was not detected (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ; note lack of CENP-T in the largest fractions). Similar results were obtained with the Spc24
+     <sup>
+      57–197
+     </sup>
+     /Spc25
+     <sup>
+      70–224
+     </sup>
+     complex (
+     <a>
+      Supplementary Figure S5E
+     </a>
+     ). We have previously shown that the Mis12 complex bound weakly to CENP-T in pull-down assays (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). In that case, we detected small amounts of Mis12 by western blot analysis. As we did not detect co-migration of the Mis12 complex with CENP-T (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S2C
+     </a>
+     ), this suggests that the Mis12 complex does not associate strongly with CENP-T. Based on these biochemical analyses, we conclude that the binding of the CENP-T N-terminal region and the Mis12 complex to the Spc24/25 is mutually exclusive likely due to competition for this interaction surface, as well as possibly steric exclusion.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Ndc80 complex is recruited into kinetochores by two parallel pathways
+    </title>
+    <p>
+     We next sought to test the significance of the hydrophobic interaction of CENP-T with the Spc24/25 complex in cells. To do this, we generated a stable DT40 cell line expressing GFP-Spc25 (I156R) mutant and analysed the localization of this fusion protein. Wild-type Spc25 co-localized with CENP-T. In contrast, the localization of Spc25 (I156R) at kinetochores was reduced to ∼60% of wild-type Spc25 (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). To assess the functional consequences of the Spc25 mutant, we generated a conditional knock-out for Spc25 in DT40 cells (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). Although DT40 cells in which expression of wild-type Spc25 was replaced with the Spc25 (I156R) mutant were viable, the growth rate of these cells was slightly reduced (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). Based on these data, we conclude that the hydrophobic interaction of CENP-T with the Spc24/25 complex is required for the robust localization of the Spc24/25 complex to kinetochores.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       The Ndc80 complex is targeted to kinetochores by two parallel pathways. (
+       <strong>
+        A
+       </strong>
+       ) Kinetochore localization of Spc25 I156R mutants was reduced to ∼60% in DT40 cells. Immunofluorescence images showing the co-localization of chicken wild type or I156R mutant Spc25-GFP with CENP-T. Signal intensities of each protein were measured relative to an adjacent background signal. Bar, 10 μm. (
+       <strong>
+        B
+       </strong>
+       ) Graph showing growth curves of DT40 cells in which expression of Spc25 is replaced with Spc25 I156R mutant. The doubling time of these cells was 14.2 h compared to 13.1 h for control cells. Tetracycline was added at time 0 to repress transcription of wild-type Spc25. (
+       <strong>
+        C
+       </strong>
+       ) Spc25 mutants defective for CENP-T interactions require the Mis12 complex to localize to kinetochores. Images showing localization of Spc25 (I156R) in Dsn1- or CENP-T-degron cells. Dsn1 or CENP-T was degraded within 1 h after the addition of auxin (see
+       <a>
+        Supplementary Figure S6
+       </a>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We have previously shown that Ndc80 localization is greatly reduced in both CENP-T- and Mis12-deficient cells (
+     <xref ref-type="bibr">
+      Kline et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kwon et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Nishino et al, 2012
+     </xref>
+     ). For these previous analyses, we conditionally repressed gene expression by addition of tetracycline such that protein levels were gradually reduced over several cell cycles. To evaluate the acute effects of CENP-T or Mis12 complex depletion on the localization of downstream factors, we used an auxin-based degron system (
+     <xref ref-type="bibr">
+      Nishimura et al, 2009
+     </xref>
+     ) in which proteins are rapidly targeted for degradation. Using this system, we found that degradation of either CENP-T or the Mis12 complex subunit Dsn1 reduced the levels of Ndc80 at kinetochores by 43 or 32%, respectively (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). As Ndc80 localization was not abolished in either case, these data support a model in which there are two parallel pathways for targeting the Ndc80 complex to kinetochores. However, we note that CENP-T depletion also causes a reduction in Mis12 complex and KNL1 localization (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). Therefore, we cannot exclude additional contacts with other regions of CENP-T that create an interrelationship between the Mis12 and CENP-T pathways.
+    </p>
+    <p>
+     Above, we found that the Spc25 (I156R) mutant failed to interact with CENP-T, but was still able to localize to kinetochores in DT40 cells (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ) suggesting that the Mis12 pathway for recruiting the Ndc80 complex is still active when the CENP-T–Spc25 interaction is compromised. Indeed, we found that Spc25 (I156R) localization to kinetochores was most completely abolished in Dsn1-degron cells, whereas weak Spc25 (I156R) signals were still visible in CENP-T-degron cells (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). This result supports a model in which the Ndc80 complex is recruited by two-parallel pathways during mitosis and is consistent with biochemical analysis showing mutually exclusive interactions between CENP-T, the Ndc80 complex, and the Mis12 complex (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S5
+     </a>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    A major function for the kinetochore is to generate robust contacts with spindle microtubules to facilitate faithful chromosome segregation. The Ndc80 complex is a key kinetochore microtubule-binding component (
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alushin et al, 2010
+    </xref>
+    ). However, it was unclear how the Ndc80 complex is targeted to centromeric regions. Here, we demonstrated that the CENP-T N-terminal region binds directly to the Spc24/25 portion of the Ndc80 complex when CENP-T is phosphorylated to target the Ndc80 complex to kinetochores during mitosis. This interaction appears to be evolutionally conserved as the budding yeast CENP-T homologue Cnn1 binds to Spc24/25 (
+    <xref ref-type="bibr">
+     Schleiffer et al, 2012
+    </xref>
+    ) and the crystal structure of the Cnn1–Spc24/25 complex is similar to that of the chicken CENP-T–Spc24/25 complex (Stefan Westermann, personal communication), although with some intriguing differences in orientation and phospho-regulation.
+   </p>
+   <fig id="f7" position="float">
+    <label>
+     Figure 7
+    </label>    <caption>
+     <p>
+      Parallel pathways for outer kinetochore assembly. Model for the molecular architecture of the kinetochore based on the structural, biochemical, and cell biological work presented in this paper. The CENP-T N-terminal region is unphosphorylated during interphase and phosphorylated by CDK during mitosis. The phosphorylated residue (T72 in chicken CENP-T) forms a salt bridge with R residues to allow adjacent downstream hydrophobic residues to interact with Spc24/25. The CENP-T pathway serves an important role to recruit the Ndc80 complex to kinetochores. In addition, a second parallel pathway for Ndc80 complex localization is mediated by the Mis12 complex.
+     </p>
+    </caption>
+   </fig>
+   <sec>
+    <title>
+     The phosphorylated CENP-T N-terminal region binds to the Ndc80 complex using unique structural features
+    </title>
+    <p>
+     Our structural studies indicate that phosphorylation of several residues in the CENP-T N-terminal region is required for its interaction with the Ndc80 complex, but that these sites are not directly involved in the interaction with Spc24/25. Instead, the phospho-mimetic T72D CENP-T residue forms a salt bridge with R74 to allow the downstream hydrophobic residues to interact with Spc24/25. This is in contrast with a canonical phospho-peptide-protein interaction such as phospho-S/T binding for 14-3-3 family proteins (
+     <xref ref-type="bibr">
+      Yaffe and Elia, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yaffe and Smerdon, 2001
+     </xref>
+     ). Negatively charged phospho-peptides bind to a positively charged pocket in 14-3-3 proteins with the phosphorylated residues directly involved in the interaction. This interaction mode has provided a major model for phospho-dependent protein interactions (
+     <xref ref-type="bibr">
+      Yaffe and Elia, 2001
+     </xref>
+     ). The binding of phosphorylated CENP-T with the Spc24/25 complex represents a distinct model for generating phospho-dependent protein interactions. The binding mode of phosphorylated CENP-T is similar to that of RNA polymerase II recognition by 3′-RNA processing factors in which phosphorylation of RNA polymerase II is not directly involved in recognition of 3′-RNA processing factors, but stabilizes the β-turn with an additional hydrogen bond (
+     <xref ref-type="bibr">
+      Meinhart and Cramer, 2004
+     </xref>
+     ).
+    </p>
+    <p>
+     In addition to the phospho-dependent interaction of CENP-T with Spc25, we also found a second hydrophobic-interaction surface between CENP-T and Spc24 that involves the L68 residue of CENP-T. CENP-T L68R mutants failed to interact with the Spc24/25 complex even in the phospho-mimetic form (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). This indicates that CENP-T has multiple hydrophobic-interaction sites for the Spc24/25 complex. Although CENP-T phosphorylation strongly enhances binding to the Spc24/25 complex, the hydrophobic interactions form the basis for the CENP-T–Spc24/25 association.
+    </p>
+    <p>
+     Structure predictions suggest that the CENP-T N-terminal region is largely unstructured (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ;
+     <xref ref-type="bibr">
+      Suzuki et al, 2011
+     </xref>
+     ). In recent years, many proteins have been discovered that are unstructured alone, but form defined structures upon binding their biological targets (
+     <xref ref-type="bibr">
+      Dyson and Wright, 2005
+     </xref>
+     ). For example, the N-terminal histone tails are unstructured alone, but when modifications such as methylation occur in this region, the modified tail is able to bind to target proteins such as HP1 resulting in the formation of a discrete structure.
+     <xref ref-type="bibr">
+      Moses et al (2007)
+     </xref>
+     proposed that CDK target sites are frequently clustered in such unstructured regions. Indeed, we have found that CDK target sites are clustered in the unstructured region of CENP-T (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). Once the CENP-T N-terminal region is phosphorylated, CENP-T binds to the Spc24/25 complex and forms a defined three-dimensional structure. The T-P-R residues (72–74) that are required for CENP-T phosphorylation and the downstream hydrophobic residues are well conserved. However, the T72 residue is absent in some fungi including
+     <em>
+      S. cerevisiae
+     </em>
+     Cnn1/CENP-T (
+     <xref ref-type="bibr">
+      Bock et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). Instead, the phosphorylated threonine residue is replaced with a glutamate in budding yeast.
+     <xref ref-type="bibr">
+      Pearlman et al (2011)
+     </xref>
+     demonstrated that some phosphorylation sites in proteins such as DNA-topoII, enolase, and C-Raf are changed to negatively charged amino acids (D/E) during evolution, thus mimicking the presence of a constitutively phosphorylated residue. Although budding yeast Cnn1/CENP-T does not appear to use a similar binding mode (Stefan Westermann, personal communication), the glutamate residue may form an unidentified salt bridge with positively charged residues to generate a non-regulated interaction between CENP-T/Cnn1 and the Ndc80 complex. The T-P-R sequence and the downstream hydrophobic residues found in CENP-T efficiently enhance the hydrophobic interaction between CENP-T and Spc24/25, providing a unique way to facilitate protein–protein interactions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     RWD domains serve as interaction modules at kinetochores
+    </title>
+    <p>
+     The globular region of the Spc24/25 complex contains an ‘RWD' domain found in
+     <span>
+      R
+     </span>
+     ING finger proteins,
+     <span>
+      W
+     </span>
+     D-repeat containing proteins, and
+     <span>
+      D
+     </span>
+     EXD-like helicases, which is composed of two similar folded α+β sandwiches (
+     <xref ref-type="bibr">
+      Schmitzberger and Harrison, 2012
+     </xref>
+     ). Recently, the structure of the yeast Ctf19-Mcm21 complex, which corresponds to the vertebrate CENP-P-O complex, was determined and found to also contain an RWD domain (
+     <xref ref-type="bibr">
+      Schmitzberger and Harrison, 2012
+     </xref>
+     ). An RWD domain is also found in the kinetochore protein Csm1 (
+     <xref ref-type="bibr">
+      Corbett et al, 2010
+     </xref>
+     ). As at least five different kinetochore proteins contain this RWD domain,
+     <xref ref-type="bibr">
+      Schmitzberger and Harrison (2012)
+     </xref>
+     proposed that the RWD domain is an important interaction module to assemble the kinetochore. However, it was unclear how other kinetochore proteins interact with this domain. The structure of the CENP-T–Spc24/25 complex provides evidence that the RWD domain serves as an interaction module for kinetochore assembly. RWD domains are also found in Gcn2, ubiquitin ligase, and FANCL (
+     <xref ref-type="bibr">
+      Schmitzberger and Harrison, 2012
+     </xref>
+     ). Based on the work described here for the CENP-T–Spc24/25 interaction, hydrophobic residues in RWD domains make important contributions to protein–protein interactions, and phosphorylation of RWD binding partners may facilitate additional hydrophobic interactions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     CENP-T is structural hub for formation of functional kinetochores
+    </title>
+    <p>
+     Previous biochemical studies revealed that the Ndc80 complex associates with the Mis12 complex, which in turn interacts with the inner kinetochore protein CENP-C (
+     <xref ref-type="bibr">
+      Cheeseman et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Obuse et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Przewloka et al, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Screpanti et al, 2011
+     </xref>
+     ).
+     <xref ref-type="bibr">
+      Petrovic et al (2010)
+     </xref>
+     demonstrated that the Nsl1 subunit of the Mis12 complex binds to tightly to Spc24/25. We previously found that, although the localization of the Ndc80 complex to kinetochores is reduced in Mis12- or CENP-C-deficient cells (
+     <xref ref-type="bibr">
+      Kline et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kwon et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ), Ndc80 localization was also reduced in CENP-H- or CENP-T-deficient cells (
+     <xref ref-type="bibr">
+      Okada et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hori et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). As CENP-C and CENP-T localization is independent (
+     <xref ref-type="bibr">
+      Hori et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ) and we demonstrated that the binding of CENP-T and the Mis12 complex to Spc24/25 was mutually exclusive in this study, we propose that there are two parallel pathways for outer kinetochore assembly. Such parallel pathways have also been proposed from the study of the yeast CENP-T homologue Cnn1 (Stefan Westerman, personal communication). It is important to define how these pathways are organized to recruit the Ndc80 complex to kinetochores. It is possible that the Ndc80 complex shows temporally regulated binding such that it interacts with the Mis12 complex and CENP-T at distinct times in mitosis. However, CENP-T is phosphorylated throughout mitosis (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ) and the interaction of the Mis12 complex with the Ndc80 complex also occurs during mitosis. Therefore, in vertebrates it is likely that these two pathways act simultaneously.
+     <em>
+      C. elegans
+     </em>
+     and
+     <em>
+      D. melanogaster
+     </em>
+     lack visible CENP-T homologues and the analyses that have been done indicate that compromising the Mis12 pathway results in a kinetochore null phenotype. Therefore, it may be sufficient to have a single Ndc80 recruitment pathway to assemble the chromosome-segregation machinery. The two pathways that are present in vertebrates and fungi may act redundantly to strengthen the connection between the inner and outer kinetochore, or may recruit functionally distinct populations of the Ndc80 complex.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein preparation and size-exclusion chromatography
+    </title>
+    <p>
+     Chicken and human Spc24 and Spc25 globular domains were cloned into pRSFduet co-expression vector. 6 × his-TEV-Spc25 (chicken 132–234 aa, human 70–224 aa, and human 129–224 aa) and StrepII-TEV-Spc24 (chicken 125–195 aa, human 57–197 aa, and human 131–197 aa) were expressed in BL21 (DE3) Star-pRARE2LysS by the addition of 0.2 mM IPTG for 16 h at 16°C. The Spc24/25 complex was purified using Ni-Sepharose, TEV cleavage and a Superdex 200 column. Chicken CENP-Ts (2–98 aa, 63–98 aa, or 2–50 aa) and human CENP-Ts (76–106 aa or 2–32 aa) were cloned into pMal-TEV-CENPT-6 × His vector to prepare MBP-fused proteins. MBP-CENP-Ts were expressed in same condition as the Spc24/25 complex. MBP-CENP-Ts were purified by Ni-Sepharose and Superdex 200 column. For crystallography, the CENP-T–Spc24/25 complex was co-expressed in BL21(DE3)Star-pRARE2Lys by co-transforming pRSFduet-Spc24-Spc25 and pMal-6 × His-TEV-CENPT vectors. The CENP-T–Spc24/25 complex was purified by Ni-Sepharose, Superdex 200 column, TEV cleavage and Superdex 200 column.
+    </p>
+    <p>
+     For expression of the human 6 × His-Mis12-KNL1
+     <sup>
+      2106–2316
+     </sup>
+     complex, 6 × His-Mis12 complex (
+     <xref ref-type="bibr">
+      Kline et al, 2006
+     </xref>
+     ) was co-expressed with untagged KNL1
+     <sup>
+      2106–2316
+     </sup>
+     and purified as described previously. Also see
+     <xref ref-type="bibr">
+      Petrovic et al (2010)
+     </xref>
+     . CENP-T-6 × His (aa 1-375) wild-type and T85D (created by site-directed mutagenesis using QuikChange (Agilent Technologies)) constructs were expressed under the same conditions as the 6 × His-Mis12. The Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex was expressed as described previously (
+     <xref ref-type="bibr">
+      Ciferri et al, 2008
+     </xref>
+     ). The Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     I149A_L154A mutant was generated by site-directed mutagenesis using QuikChange (Agilent Technologies). Proteins were purified using Glutathione agarose (Sigma) or Ni-NTA agarose (QIAGEN) according to manufacturer's guidelines and then exchanged into 50 mM Tris (pH 7.6), 200 mM NaCl, 1 mM DTT, followed by size-exclusion chromatography.
+    </p>
+    <p>
+     Analytical size-exclusion chromatography experiments were performed on a calibrated Superose 6 10/300 column in the presence of 50 mM Tris (pH 7.6), 200 mM NaCl, 1 mM DTT at a flow rate of 0.3 ml/min. Elution of proteins was monitored at
+     <em>
+      A
+     </em>
+     <sub>
+      280 nm
+     </sub>
+     . To detect complex formation, proteins were mixed together in a volume of 500 μl at final concentrations of 4 μM each for pairwise mixing experiments and 1, 5, and 25 μM in competition experiments for KNL1
+     <sup>
+      CT
+     </sup>
+     /Mis12, Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     , and hsCENP-T-MBP, respectively. Protein mixtures were incubated on ice for 30 min before conducting the chromatography. Fractions were collected and analysed by SDS–PAGE and Coomassie staining.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structural determination of the Spc24/25 complex and CENP-T–Spc24/25 complex
+    </title>
+    <p>
+     The chicken Spc24/25 complex was crystallized by mixing equal amounts of the protein solution (10 mg/ml) and MORPHEUS crystallization screening kit F1 solution (Molecular Dimensions;
+     <xref ref-type="bibr">
+      Gorrec, 2009
+     </xref>
+     ), which contained a mixture of 0.12 M Monosaccharides, 0.1 M MES-Imidazol pH 6.5, and 30% PEG20K/P550MME. Crystals were harvested in crystallization solution and were flash frozen under nitrogen stream. X-ray diffraction data were collected at BL44XU in the SPring8 synchrotron facility. Diffraction data were processed by HKL2000 package. Structure was determined by molecular replacement using Phenix package (
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ). The Spc24/25 coordinate from the human Ndc80
+     <sup>
+      Bonsai
+     </sup>
+     complex (PDB ID=2VE7) was used as a search model. Model was refined using iterative modelling and refinement. The final model contains Spc24 (136–195 aa), Spc25 (131–233 aa), and 251 water molecules.
+    </p>
+    <p>
+     The chicken CENP-T–Spc24/25 complex was crystallized by mixing equal amount of protein solution (10 mg/ml) and PACT premier F10 solution (Molecular Dimensions;
+     <xref ref-type="bibr">
+      Newman et al, 2005
+     </xref>
+     ) which contained a mixture of 0.02 M Na/K phosphate, 0.1 M Bis Tris propane pH 6.5 and 20% PEG 3350. Crystals were harvested in crystallization solution and were cryoprotected by the addition of 20% glycerol in final concentration. X-ray diffraction data were collected at BL38B1 in the SPring8 synchrotron facility. Diffraction data were processed by HKL2000 package. Structure was determined by molecular replacement using Phenix package. The chicken Spc24/25 complex was used as a search model and refined iteratively. The final model contains CENP-T (63–93 aa), Spc24 (134–195 aa), Spc25 (134–232 aa) and 357 water molecules. Figures were prepared using PyMOL package (DeLano Scientific LLC).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture
+    </title>
+    <p>
+     DT40 cells were cultured as described previously (
+     <xref ref-type="bibr">
+      Okada et al, 2006
+     </xref>
+     ). Spc25-deficient cells were created using standard methods.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Immunofluorescence and light microscopy
+    </title>
+    <p>
+     Chicken DT40 cells were cultured and transfected as described previously (
+     <xref ref-type="bibr">
+      Okada et al, 2006
+     </xref>
+     ). Immunofluorescent staining of DT40 cells was performed as described previously using anti-CENP-T, anti-Mis12, or anti-Ndc80 antibodies (
+     <xref ref-type="bibr">
+      Kline et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Okada et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hori et al, 2008
+     </xref>
+     ). Immunofluorescence images were collected with a cooled EM CCD camera (QuantEM, Roper Scientific) mounted on an Olympus IX71 inverted microscope with a × 100 objective together with a filter wheel and a DSU confocal unit. 15-25 Z-sections were acquired at 0.3 μm steps. Fluorescence intensity measurements were conducted using MetaMorph software (Molecular Devices). Kinetochore fluorescence intensities were determined by measuring the integrated fluorescence intensity within a 6 × 6 pixel square positioned over a single kinetochore and subtracting the background intensity of a 6 × 6 pixel square positioned in a region of cytoplasm lacking kinetochores. Maximal projected images were used for these measurements.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     For interaction between CENP-T fusion protein, CENP-T peptides, and the Spc24/25 complex, proteins were dialysed in 10 mM Hepes pH 7.4, 500 mM NaCl and 1 mM DTT. CENP-T was diluted to 100 μM and titrated into 10 μM of Spc24-25. For interaction between human CENP-T, the Mis12 complex and the Spc24/25 complex, proteins were dialysed in 10 mM Hepes pH 7.4, 150 mM NaCl, and 1 mM TCEP. The Spc24/25 complex was diluted to 100 μM and titrated into 10 μM of the Mis12 complex. CENP-T was diluted to 100 μM and titrated into 10 μM of the Spc24/25 complex. Interaction between CENP-T, the Mis12 complex, and the Spc24/25 complex was measured by AutoiTC200 (GE Healthcare) and the data were analysed with Origin 7 software (MicroCal).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Composition gradient-multi angle light scattering
+    </title>
+    <p>
+     CG-MALS between MBP-CENP-T and the Spc24/25 complex was measured by CalypsoII system (Wyatt Technology Corp.). In all, 10 μM of each solution was mixed in 10 different composition gradients and their static light scattering was measured by DAWN-HELIOS system. Optilab differential refractometer and UV absorption detector were used to measure the protein concentration. Data were analysed by CalypsoII system software.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession numbers
+    </title>
+    <p>
+     The Protein Data Bank (PDB) IDs of the chicken the Spc24/25 complex and the CENP-T-Spc24/25 complex are 3VZ9 and 3VZA, respectively.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.7M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (258K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

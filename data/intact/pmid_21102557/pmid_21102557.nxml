@@ -1,0 +1,2263 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3020109
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Interaction of calmodulin with Sec61α limits Ca2+ leakage from the endoplasmic reticulum
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     In eukaryotes, protein transport into the endoplasmic reticulum (ER) is facilitated by a protein-conducting channel, the Sec61 complex. The presence of large, water-filled pores with uncontrolled ion permeability, as formed by Sec61 complexes in the ER membrane, would seriously interfere with the regulated release of calcium from the ER lumen into the cytosol, an essential mechanism for intracellular signalling. We identified a calmodulin (CaM)-binding motif in the cytosolic N-terminus of mammalian Sec61α that bound CaM but not Ca
+     <sup>
+      2+
+     </sup>
+     -free apocalmodulin with nanomolar affinity and sequence specificity. In single-channel measurements, CaM potently mediated Sec61-channel closure in Ca
+     <sup>
+      2+
+     </sup>
+     -dependent manner. At the cellular level, two different CaM antagonists stimulated calcium release from the ER through Sec61 channels. However, protein transport into microsomes was not modulated by Ca
+     <sup>
+      2+
+     </sup>
+     -CaM. Molecular modelling of the ribosome/Sec61/CaM complexes supports the view that simultaneous ribosome and CaM binding to the Sec61 complex may be possible. Overall, CaM is involved in limiting Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     calmodulin, endoplasmic reticulum, ER calcium leakage, IQ motif, Sec61 complex
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In eukaryotes, the endoplasmic reticulum (ER) has central roles in the synthesis, folding, and sorting of proteins as well as in acting as a dynamic calcium reservoir, which is essential for cellular calcium signalling, a process tightly controlled by electrical and chemical stimuli (
+    <xref ref-type="bibr">
+     Berridge, 2002
+    </xref>
+    ). How are these key processes coordinated to maintain the functional integrity of the ER?
+   </p>
+   <p>
+    The products of almost a third of eukaryotic genes are integrated into the membrane or transported to the lumen of the ER (
+    <xref ref-type="bibr">
+     Blobel and Dobberstein, 1975
+    </xref>
+    ), facilitated by a protein translocase with Sec61α, Sec61β, and Sec61γ as core components (
+    <xref ref-type="bibr">
+     Görlich and Rapoport, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hartmann et al, 1994
+    </xref>
+    ). Channel pore diameters have been shown to range from 5–8 Å for the closed crystal structure of the archaean ortholog (
+    <xref ref-type="bibr">
+     van den Berg et al, 2004
+    </xref>
+    ) to 26–60 Å for the mammalian Sec61 complex as deduced from fluorescence quenching (
+    <xref ref-type="bibr">
+     Hamman et al, 1997
+    </xref>
+    ) and electrophysiological experiments (
+    <xref ref-type="bibr">
+     Wirth et al, 2003
+    </xref>
+    ). During protein synthesis at the ER, the permeability of the translocon for small ions has to be tightly controlled. Accordingly, the ribosome–Sec61 complex is assumed to be impermeable to ions during nascent chain transport (
+    <xref ref-type="bibr">
+     Crowley et al, 1994
+    </xref>
+    ). However, this view was recently challenged by 3D reconstructions after cryo-EM for Sec61/ribosome–complexes, which revealed a gap between Sec61 and the ribosome (
+    <xref ref-type="bibr">
+     Menetret et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Becker et al, 2009
+    </xref>
+    ). In the empty state after the translocation event, that is when the translocon is still ribosome bound but unoccupied by a polypeptide chain, and in the ribosome-depleted state the translocon complex seems to transiently allow the passage of small molecules and calcium ions (Ca
+    <sup>
+     2+
+    </sup>
+    ) (
+    <xref ref-type="bibr">
+     Roy and Wonderlin, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Flourakis et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Giunti et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ong et al, 2007
+    </xref>
+    ). Furthermore, the mammalian Sec61 complex shows characteristics of an ion channel under these conditions (
+    <xref ref-type="bibr">
+     Simon and Blobel, 1991
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wirth et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wonderlin, 2009
+    </xref>
+    ). These results indicate that, at least in mammals, calcium ions could be lost from the ER during or after the termination of protein translocation.
+   </p>
+   <p>
+    The controlled release of Ca
+    <sup>
+     2
+    </sup>
+    <strong>
+     <sup>
+      +
+     </sup>
+    </strong>
+    from the ER lumen to the cell cytosol is one of the key factors in the regulation of many physiological processes, including muscle contraction, exocytosis, and apoptosis. In the resting state, the Ca
+    <sup>
+     2+
+    </sup>
+    concentration in the ER lumen is the result of a balance between Ca
+    <sup>
+     2+
+    </sup>
+    uptake by sarcoplasmic ER calcium ATPases (SERCAs) (
+    <xref ref-type="bibr">
+     Wuytack et al, 2002
+    </xref>
+    ) and Ca
+    <sup>
+     2+
+    </sup>
+    leakage currents (
+    <xref ref-type="bibr">
+     Camello et al, 2002
+    </xref>
+    ). Recent studies have proposed that the Sec61 complex may contribute to Ca
+    <sup>
+     2+
+    </sup>
+    leakage (
+    <xref ref-type="bibr">
+     Lomax et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van Coppenolle et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Flourakis et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Giunti et al, 2007
+    </xref>
+    ). However, uncontrolled leakage of Ca
+    <sup>
+     2
+    </sup>
+    <strong>
+     <sup>
+      +
+     </sup>
+    </strong>
+    through the large, aqueous Sec61 pore would seriously interfere with the capacity of the ER membrane to maintain Ca
+    <sup>
+     2+
+    </sup>
+    concentrations roughly three to four orders of magnitude higher than in cytosol (
+    <xref ref-type="bibr">
+     Yu and Hinkle, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Smith et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alvarez, 2002
+    </xref>
+    ). In addition, leakage would compromise the regulated release of calcium from the ER lumen in specific spatial and temporal patterns.
+   </p>
+   <p>
+    Calmodulin (CaM) is a highly conserved protein with two pairs of EF-hand motifs (
+    <xref ref-type="bibr">
+     Babu et al, 1985
+    </xref>
+    ). The binding of Ca
+    <sup>
+     2+
+    </sup>
+    to these motifs induces a conformational change in CaM that, in turn, regulates the activity of CaM target proteins in a calcium-dependent manner. Ion channels are a major class of CaM-regulated proteins, particularly those committed to calcium homeostasis (
+    <xref ref-type="bibr">
+     Yamada et al, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zühlke et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     DeMaria et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yamaguchi et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bähler and Rhoads, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dick et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tadross et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wang et al, 2008
+    </xref>
+    ). The IQ motif and the 1-8-14 motif are widely distributed, evolutionarily conserved motifs mediating the binding of CaM to interaction partners (
+    <xref ref-type="bibr">
+     Rhoads and Friedberg, 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Puntervoll et al, 2003
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we show that Ca
+    <sup>
+     2+
+    </sup>
+    -CaM can bind to an IQ motif that is present in the cytosolic N-terminus of the α subunit of the Sec61 complex. The binding of Ca
+    <sup>
+     2+
+    </sup>
+    -CaM to the Sec61 complex triggers closure of the Sec61 channel and is sensitive towards CaM antagonists that interfere with substrate binding of CaM. At the cellular level, the same CaM antagonists stimulate Ca
+    <sup>
+     2+
+    </sup>
+    leakage from the ER via Sec61 complexes. Molecular modelling and docking analysis of Ca
+    <sup>
+     2+
+    </sup>
+    -CaM and the ribosome/Sec61 complex support the view that Ca
+    <sup>
+     2+
+    </sup>
+    -CaM and ribosomes simultaneously bind to the Sec61 complex. This finding is consistent with our observation that Ca
+    <sup>
+     2+
+    </sup>
+    -CaM does not interfere with cotranslational protein transport into the ER. Thus, CaM contributes to cellular calcium homeostasis by limiting Ca
+    <sup>
+     2+
+    </sup>
+    leakage from the ER at the level of Sec61 complexes.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     CaM binds to a conserved motif of the Sec61
+     <em>
+      α
+     </em>
+     subunit in a calcium-dependent and sequence-specific manner
+    </title>
+    <p>
+     Using computational prediction services (
+     <a>
+      http://calcium.uhnres.utoronto.ca/ctdb/ctdb/sequence.html
+     </a>
+     ) and the eukaryotic linear motif server (
+     <a>
+      http://www.elm.eu.org
+     </a>
+     ), we identified an IQ motif in the cytosolic N-terminus of mammalian Sec61α (
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     ). The motif
+     <sub>
+      19
+     </sub>
+     IQKPERKIQFKEKV
+     <sub>
+      32
+     </sub>
+     from the Sec61α subunit is highly conserved in higher eukaryotes and compares well with the IQ consensus motif ([IVL]QxxxRxxxx[RK]xx[FILVWY]) found in unconventional myosins, neuromodulin, and neurogranin (
+     <xref ref-type="bibr">
+      Yap et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Puntervoll et al, 2003
+     </xref>
+     ) and also conforms to the 1-8-14 motif (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Sec61α IQ motif and its interactions with calmodulin. (
+       <strong>
+        A
+       </strong>
+       ) The IQ motif (red), as proposed for unconventional myosins and others (
+       <xref ref-type="bibr">
+        Rhoads and Friedberg, 1997
+       </xref>
+       ), that was identified in the sequence of the Sec61α subunit from
+       <em>
+        Canis lupus familiaris
+       </em>
+       . Predicted transmembrane helices are underlined. (
+       <strong>
+        B
+       </strong>
+       ) Predicted membrane topology of the mammalian Sec61α subunit. The IQ motif is indicated in red, the two cytosolic loops that most intimately contact with the ribosomal exit tunnel according to cryo-EM (
+       <xref ref-type="bibr">
+        Menetret et al, 2008
+       </xref>
+       ;
+       <xref ref-type="bibr">
+        Becker et al, 2009
+       </xref>
+       ) are indicated in green. Predicted transmembrane helices are shown in blue. N, N-terminus; C, C-terminus. (
+       <strong>
+        C
+       </strong>
+       ) Fitted autocorrelation functions and residuals for the IQ
+       <sub>
+        488
+       </sub>
+       peptide in the presence of 10 μM CaCl
+       <sub>
+        2
+       </sub>
+       with the addition of 1 μM CaM or 4 μM GST-CaM. (
+       <strong>
+        D
+       </strong>
+       ,
+       <strong>
+        E
+       </strong>
+       ) Formation of the IQ
+       <sub>
+        488
+       </sub>
+       –CaM complex with increasing concentrations of CaM (
+       <strong>
+        D
+       </strong>
+       ) or GST-CaM (
+       <strong>
+        E
+       </strong>
+       ) in the presence of 4 mM CaCl
+       <sub>
+        2
+       </sub>
+       or 10 mM EGTA. Error bars represent s.d. (
+       <strong>
+        F
+       </strong>
+       ) IQ-peptide spots bound by
+       <sup>
+        14
+       </sup>
+       C-labelled GST-CaM and
+       <sup>
+        14
+       </sup>
+       C-labelled GST in the presence of 1 mM CaCl
+       <sub>
+        2
+       </sub>
+       or 4 mM EGTA. Spots 1–7 and 10 correspond to the Sec61α IQ peptide (
+       <em>
+        Homo sapiens
+       </em>
+       ). Amino acids were exchanged as indicated. Spots 8 and 9 correspond to the respective region of SecY (
+       <em>
+        E. coli
+       </em>
+       ) and TRAM (
+       <em>
+        H. sapiens
+       </em>
+       ) proteins, respectively. We note that the analysis of the various peptides was carried out three times. Furthermore, we note that similar results were obtained when unlabelled GST-CaM and anti-GST antibodies in combination with POD-coupled anti-rabbit antibodies, ECL™, and luminescence imaging were employed (data not shown).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Sequence alignments for Sec61α and SecY
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     To determine whether CaM binds to this Sec61α IQ motif, we synthesized the corresponding peptide, added a terminal cysteine, and labelled it with a fluorescent dye (Atto488). In fluorescence correlation spectroscopy (FCS) experiments (according to
+     <xref ref-type="bibr">
+      Petrasek and Schwille, 2008
+     </xref>
+     ), the CaM–IQ
+     <sub>
+      488
+     </sub>
+     complex formation was detected by an increase in the diffusion time (τ
+     <sub>
+      D
+     </sub>
+     ) for the IQ
+     <sub>
+      488
+     </sub>
+     peptide. After the addition of 1 μM CaM in the presence of 10 μM CaCl
+     <sub>
+      2
+     </sub>
+     , τ
+     <sub>
+      D
+     </sub>
+     increased from 148±5 μs to 199±4 μs (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). To amplify the signal, we increased the molecular mass of CaM by glutathione-S-transferase (GST) fusion. With the addition of 4 μM GST-CaM, τ
+     <sub>
+      D
+     </sub>
+     further increased to 297±8 μs (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). We found that CaM binding to the IQ
+     <sub>
+      488
+     </sub>
+     peptide in the presence of saturating calcium concentrations (4 mM) occurred via a single-site binding mechanism (Hill slope: 1.1±0.19;
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     121±28 nM;
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ) and GST-CaM bound to the IQ
+     <sub>
+      488
+     </sub>
+     peptide with a Hill slope of 0.88±0.07 and a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 115±12 nM (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ). In the absence of Ca
+     <sup>
+      2+
+     </sup>
+     , CaM did not interact with the IQ
+     <sub>
+      488
+     </sub>
+     peptide at comparable concentrations (
+     <xref ref-type="fig">
+      Figure 1D and E
+     </xref>
+     ). We concluded that CaM bound to the Sec61α IQ peptide in a calcium-dependent manner and with high affinity.
+    </p>
+    <p>
+     Next, we tested the sequence specificity of calcium-dependent CaM interactions with the Sec61α IQ motif. We synthesized IQ peptides with alanines in place of conserved amino acids and these were spotted on a cellulose membrane (
+     <xref ref-type="bibr">
+      Hilpert et al, 2007
+     </xref>
+     ). Binding assays were carried out in the presence and absence of Ca
+     <sup>
+      2+
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). Consistent with the FCS results, the wild-type Sec61α IQ motif bound
+     <sup>
+      14
+     </sup>
+     C-labelled GST-CaM in the presence of free calcium (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     , spots 1, 7, and 10; defined as 100% binding). When Ca
+     <sup>
+      2+
+     </sup>
+     was chelated with EGTA, GST-CaM binding was nearly abolished (spots 1, 7, and 10; 17±5% binding). The exchange of the conserved residues to alanine at positions 7 and 11 drastically reduced CaM binding (spots 5 and 6; 24±4.8% binding). However, modifying the residues at positions 2 and 3 did not alter CaM binding (spots 2, 3, and 4; 80±16% binding). As negative controls, the N-terminus of the Sec61α ortholog in
+     <em>
+      Escherichia coli
+     </em>
+     , SecY, and the N-terminus of the human TRAM protein were analysed. As expected, the peptides from the SecY and TRAM proteins did not bind CaM (spots 8 and 9; 12±7% and 2±0.2% binding, respectively). When
+     <sup>
+      14
+     </sup>
+     C-labelled GST was added to the IQ constructs as a control, no binding was observed (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). We concluded that CaM bound to the Sec61α IQ peptide in a sequence-specific and calcium-dependent manner.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     CaM interacts with the native Sec61 complex
+    </title>
+    <p>
+     We studied the binding of CaM to native Sec61 complexes, present in rough microsomes (RM), by flotation in sucrose gradients. GST-CaM was incubated with RM, or RM that had been pretreated with puromycin and high salt in order to remove ribosomes (termed PKRM;
+     <xref ref-type="bibr">
+      Görlich and Rapoport, 1993
+     </xref>
+     ), or purified and reconstituted Sec61 complex (
+     <xref ref-type="bibr">
+      Görlich and Rapoport, 1993
+     </xref>
+     ), in the presence or absence of Ca
+     <sup>
+      2+
+     </sup>
+     . Subsequently, the samples were adjusted for a high sucrose concentration, placed on the bottom of centrifuge tubes and covered with the sucrose gradient. After centrifugation, fractions were taken and analysed by SDS–PAGE, western blot, and immunodetection of GST-CaM and Sec61β. GST-CaM floated with RM in the presence, and perhaps to a lesser extent in the absence of Ca
+     <sup>
+      2+
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 2B and C
+     </xref>
+     ; 3.47±0.84% and 1.47±0.59%, respectively, flotation). In addition, we observed that a CaM antagonist that interferes with substrate binding, such as trifluoperazine (
+     <xref ref-type="bibr">
+      Johnson and Fugman, 1983
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vandonselaar et al, 1994
+     </xref>
+     ), interferes with binding of GST-CaM to RM in the presence of Ca
+     <sup>
+      2+
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ; 0.51±0.11%). GST-CaM also floated with PKRM and reconstituted Sec61 complex in the presence of Ca
+     <sup>
+      2+
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 2E and G
+     </xref>
+     ; 3.57±0.68% and 29.37±4.56%, respectively, flotation), but not without any membranes or with protein-free liposomes (
+     <xref ref-type="fig">
+      Figure 2A and F
+     </xref>
+     ; 0.22% and 0.75±0.47%, respectively, flotation). We concluded that the CaM-binding site in the membrane resident Sec61 complex was active and accessible to CaM even in the presence of ribosomes and that the interaction of CaM with the Sec61 complex involved CaM's substrate-binding site.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Sec61 complex interactions with calmodulin. (
+       <strong>
+        A
+       </strong>
+       ) Flotation analysis of GST-CaM in the presence of calcium in sucrose gradients. (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ) Coflotation experiments in sucrose gradients of canine pancreatic rough microsomes (RM) with GST-CaM in the presence (
+       <strong>
+        B
+       </strong>
+       ) or absence (
+       <strong>
+        C
+       </strong>
+       ) of calcium. (
+       <strong>
+        D
+       </strong>
+       ) Coflotation experiments in sucrose gradients of RM with GST-CaM in the simultaneous presence of calcium and trifluoperazine (TFP). (
+       <strong>
+        E
+       </strong>
+       ,
+       <strong>
+        G
+       </strong>
+       ) Coflotation experiments in sucrose gradients of PKRM (
+       <strong>
+        E
+       </strong>
+       ) and Sec61 proteoliposmes (
+       <strong>
+        G
+       </strong>
+       ) with GST-CaM in the presence of calcium. (
+       <strong>
+        F
+       </strong>
+       ) Coflotation experiments of protein-free liposomes with GST-CaM in the presence of calcium. We note that the analysis was carried out between three (buffer, liposomes) and five times (RM, PKRM, Sec61 proteoliposomes) with similar results. (
+       <strong>
+        H
+       </strong>
+       ) GST-CaM and GST were derivatized with FeBABE according to the manufacturer's protocol (indicated with asterisk) or were left underivatized, and incubated with Sec61 proteoliposomes for 30 min at room temperature in the presence or absence of calcium as indicated. Activation with ascorbate and peroxide was carried out for 30 s. We note that the analysis was carried out three times with similar results. All samples were analysed by SDS–PAGE, western blotting, and immunodetection of GST-CaM, Sec61α, or Sec61β in combination with POD-coupled anti-rabbit antibodies, ECL™, and luminescence imaging as indicated. In all panels, the areas of interest for single western blots and gels are shown, in panels
+       <strong>
+        B
+       </strong>
+       through
+       <strong>
+        E
+       </strong>
+       and
+       <strong>
+        G
+       </strong>
+       the two parts that are divided by a white space represent two consecutive immunodetections for the same blots.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Alternatively, interaction of CaM with native Sec61 complex was analysed by employing the reagent FeBABE that can be attached to a bait protein and used to artificially hydrolyze nearby peptide bonds in a prey protein (
+     <xref ref-type="bibr">
+      Ghaim et al, 1995
+     </xref>
+     ). GST-CaM was derivatized with FeBABE, incubated with reconstituted Sec61 complex, and activated with ascorbate and peroxide (i.e. converted to active protease). Subsequently, the samples were analysed by SDS–PAGE, western blot, and immunodetection of Sec61α with an antibody that is directed against the C-terminus of Sec61α. Derivatized and activated GST-CaM cleaved Sec61α in the presence and absence of Ca
+     <sup>
+      2+
+     </sup>
+     to the indicated C-terminal 20 kDa fragment plus two less abundant fragments of larger molecular mass (
+     <xref ref-type="fig">
+      Figure 2H
+     </xref>
+     , lanes 3 and 5). Without FeBABE attachment, there was no proteolytic cleavage observed (
+     <xref ref-type="fig">
+      Figure 2H
+     </xref>
+     , lane 2). Furthermore, there was no proteolytic cleavage observed when FeBABE modified and activated GST was employed (
+     <xref ref-type="fig">
+      Figure 2H
+     </xref>
+     , lane 4). Thus, the artificial protease approach confirmed the conclusion that the CaM-binding site in the native Sec61 complex is accessible to CaM. However, we note that evidence for a direct interaction between CaM and Sec61 in its native context remains to be fully explored.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     CaM binding induces calcium-dependent Sec61-channel closure
+    </title>
+    <p>
+     We also characterized the effect of CaM on Sec61-channel activity using electrophysiology. Vesicles containing native or reconstituted Sec61 complexes were osmotically fused to lipid bilayers as previously described (
+     <xref ref-type="bibr">
+      Wirth et al, 2003
+     </xref>
+     ). In transport-competent vesicles that were derived from RM, single-channel activities were observed after treatment with puromycin, which caused the termination of translocation and the dissociation of ribosomes (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     , middle trace;
+     <a>
+      Supplementary Figures S1
+     </a>
+     and
+     <a>
+      S2
+     </a>
+     ). The addition of 500 nM CaM to RM channels led to closure of the pore in the presence of calcium (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     , lower trace). In agreement with the FCS results, we found that a Ca
+     <sup>
+      2+
+     </sup>
+     concentration of 10 μM was sufficient to induce CaM-mediated channel closure (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). In the absence of calcium, no channel closure was observed with the addition of CaM (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). A statistic evaluation of the CaM effect on the channel open probability is shown in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     . Comparing the open probability before and after the addition of CaM showed an explicit closure of the channel for all membrane potentials examined. Again, the closure of the Sec61 complex by CaM was strictly dependent on free Ca
+     <sup>
+      2+
+     </sup>
+     ; in the presence of 10 mM EGTA, we observed no reduction in the open probability with the addition of 500 nM CaM (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). An additional experiment demonstrated that the observed effects involved a CaM/Sec61 interaction. With proteoliposomes that contained only purified Sec61 complexes, the observed effect was indistinguishable from the results with RM preparations (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Electrophysiological properties of Sec61 in the presence of calmodulin. (
+       <strong>
+        A
+       </strong>
+       ) Current traces from rough microsomes (RM) preparations before (middle trace) and after (lower trace) the addition of 500 nM calmodulin to both compartments (
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       ), at a membrane potential of −30 mV and in the presence of 13 mM CaCl
+       <sub>
+        2
+       </sub>
+       and 200 μM puromycin. The upper trace shows a control experiment in the absence of puromycin. The frequency histograms (right panels) depict the main current levels observed in the recordings shown in the left panels. Baseline and the high conductance state of the Sec61 channel are indicated with dashed lines. (
+       <strong>
+        B
+       </strong>
+       ) Voltage ramp recording of a RM channel before (grey) and after (black) the addition of 500 nM calmodulin
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       in the presence of 10 μM CaCl
+       <sub>
+        2
+       </sub>
+       . Measurements were performed in 100 mM KCl, 10 mM Mops/Tris (pH 7.0)
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       and 200 μM puromycin. (
+       <strong>
+        C
+       </strong>
+       ) Voltage ramp recording of a bilayer containing a single-Sec61 channel from RM vesicles before (grey) and after (black) the addition of 500 nM calmodulin
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       in the absence of Ca
+       <sup>
+        2+
+       </sup>
+       (10 mM EGTA). Measurements were performed in 100 mM KCl, 10 mM Mops/Tris (pH 7.0)
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       and 200 μM puromycin. (
+       <strong>
+        D
+       </strong>
+       ) Open probability of the Sec61 channel from RM vesicles before and after the addition of 500 nM calmodulin
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       in the presence (13 mM CaCl
+       <sub>
+        2
+       </sub>
+       ) or absence (10 mM EGTA) of Ca
+       <sup>
+        2+
+       </sup>
+       (
+       <em>
+        n
+       </em>
+       =6–9 bilayers). Error bars represent s.d. Measurement conditions: 100 mM KCl, 10 mM Mops/Tris (pH 7.0), 200 μM puromycin. (
+       <strong>
+        E
+       </strong>
+       ) Voltage ramp recording of the purified Sec61 complex before (grey) and after (black) the addition of 1 μM calmodulin
+       <em>
+        cis
+       </em>
+       /
+       <em>
+        trans
+       </em>
+       in the presence of 13 mM CaCl
+       <sub>
+        2
+       </sub>
+       . The experiment was performed under symmetrical buffer conditions of 100 mM KCl, 10 mM EGTA, 10 mM Mops/Tris (pH 7.0), and 200 μM puromycin.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Therefore, both the binding of free Ca
+     <sup>
+      2+
+     </sup>
+     to CaM and the binding of CaM to Sec61 are essential for the regulation of the open probability. In contrast, the presence of calcium-free apocalmodulin had no effect on the Sec61 channel, consistent with the IQ motif-binding studies.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     CaM antagonists enhance calcium leakage from the ER in intact cells
+    </title>
+    <p>
+     Under resting conditions of the cell, the cytosolic-free Ca
+     <sup>
+      2+
+     </sup>
+     concentration is low due to the action of plasma membrane pumps and exchangers (50–100 nM). Simultaneously, the free Ca
+     <sup>
+      2+
+     </sup>
+     concentration in the ER lumen is high, basically because of the action of SERCA (100–800 μM). This Ca
+     <sup>
+      2+
+     </sup>
+     distribution is constantly challenged by the so-called calcium leak, a passive calcium efflux from the ER. The drug thapsigargin irreversibly inhibits SERCA, thereby unmasking the leak pathway. The leakage of Ca
+     <sup>
+      2+
+     </sup>
+     from the ER can be visualized as an increase in the cytosolic calcium concentration by utilizing a Ca
+     <sup>
+      2+
+     </sup>
+     indicator, such as FURA-2, in intact cells in the absence of extracellular calcium. Indirect evidence from various laboratories suggests that the Sec61 complex contributes to the leak after termination of protein translocation (
+     <xref ref-type="bibr">
+      Lomax et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      van Coppenolle et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Flourakis et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Giunti et al, 2007
+     </xref>
+     ). Based on the above
+     <em>
+      in vitro
+     </em>
+     experiments, we expected CaM to contribute to limiting the Sec61-mediated calcium efflux under these conditions and for CaM antagonists to enhance the leak. Therefore, we investigated whether the presence of CaM antagonists that interfere with substrate binding by CaM, ophiobolin A (
+     <xref ref-type="bibr">
+      Leung et al, 1984
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Au et al, 2000
+     </xref>
+     ) and trifluoperazine (
+     <xref ref-type="bibr">
+      Johnson and Fugman, 1983
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vandonselaar et al, 1994
+     </xref>
+     ), enhance Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER in the presence of thapsigargin. In Ca
+     <sup>
+      2+
+     </sup>
+     imaging experiments with FURA-2, HeLa cells were treated with one of the two CaM antagonists for 10 min and, subsequently, Ca
+     <sup>
+      2+
+     </sup>
+     was released by applying thapsigargin in the absence of external Ca
+     <sup>
+      2+
+     </sup>
+     . The two CaM antagonists ophiobolin A and trifluoperazine had similar enhancing and significant effects on the thapsigargin-induced calcium efflux (
+     <xref ref-type="fig">
+      Figure 4A, B, and H
+     </xref>
+     ). Thus, CaM contributes to reducing Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER under normal conditions.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Live cell calcium imaging of HeLa cells in the presence of
+       <em>
+        SEC61A1
+       </em>
+       siRNA and CaM antagonists. HeLa cells were loaded with the calcium indicator FURA-2 AM and experiments were carried out with a Ca
+       <sup>
+        2+
+       </sup>
+       -free buffer containing 0.5 mM EGTA. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) Naive HeLa cells were treated with the indicated CaM antagonist or with the Ca
+       <sup>
+        2+
+       </sup>
+       -free buffer. Ca
+       <sup>
+        2+
+       </sup>
+       release was initiated by applying thapsigargin in the absence of external Ca
+       <sup>
+        2+
+       </sup>
+       . Error bars represent standard errors of the means (s.e.m.). (
+       <strong>
+        C
+       </strong>
+       –
+       <strong>
+        F
+       </strong>
+       ) HeLa cells were treated with one of the two siRNAs directed against
+       <em>
+        SEC61A1
+       </em>
+       (
+       <strong>
+        E
+       </strong>
+       ,
+       <strong>
+        F
+       </strong>
+       ) or a negative control siRNA (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) for 96 h as indicated and calcium-imaging experiments were carried out as above. (
+       <strong>
+        G
+       </strong>
+       ) Silencing was evaluated by western blot analysis using antibodies that were directed against Sec61α and β-actin (loading control). The primary antibodies were visualized by using ECL™ Plex secondary antibodies and fluorescence imaging. Average values are given, error bars represent standard errors of the means (s.e.m.). The numbers of experiments that were analysed are indicated. (
+       <strong>
+        H
+       </strong>
+       ) Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin (as indicated by the insert) in the experiments presented in
+       <strong>
+        A
+       </strong>
+       through
+       <strong>
+        F
+       </strong>
+       , plus the experiments with the second
+       <em>
+        SEC61A1
+       </em>
+       siRNA.
+       <em>
+        P
+       </em>
+       -values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       -test and are indicated by three asterisks (
+       <sup>
+        ***
+       </sup>
+       ), NS, not significant. The numbers of cells that were analysed are indicated. The experiments were carried out for four different batches of HeLa cells over a period of 4 months, and two coverslips with at least 20 cells were analysed for each condition in a single experiment. Average values are given, error bars represent standard errors of the means (s.e.m.).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, we asked if this effect of CaM can be linked to the Sec61 complex. Therefore, HeLa cells were treated with two different siRNAs directed against the coding (
+     <em>
+      SEC61A1
+     </em>
+     ) or untranslated region (
+     <em>
+      SEC61A1
+     </em>
+     -UTR) of
+     <em>
+      SEC61A1
+     </em>
+     or a negative control siRNA for 96 h. We note that at this time point the total number of
+     <em>
+      SEC61A1
+     </em>
+     silenced cells was somewhat lower as compared to control cells (
+     <a>
+      Supplementary Figure S3A
+     </a>
+     ). However, the
+     <em>
+      SEC61A1
+     </em>
+     silenced cells did not show dramatic signs of siRNA toxicity, that is according to the Nuclear-ID assay there was no drop in cell viability as compared to cells that had been treated with control siRNA (
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ). The results of calcium imaging experiments for cells with the control siRNA were indistinguishable from those of the untreated cells (
+     <xref ref-type="fig">
+      Figure 4C, D, and H
+     </xref>
+     ). For both ophiobolin A and trifluoperazine, silencing of
+     <em>
+      SEC61A1
+     </em>
+     by either one of the two siRNAs had a similar inhibitory effect on the thapsigargin-induced Ca
+     <sup>
+      2+
+     </sup>
+     efflux (
+     <xref ref-type="fig">
+      Figure 4E, F, and H
+     </xref>
+     ). Based on western blot analysis, the silencing efficiency of both siRNAs was above 85% (
+     <xref ref-type="fig">
+      Figure 4G
+     </xref>
+     ). Thus, CaM contributes to reducing Ca
+     <sup>
+      2+
+     </sup>
+     leakage from the ER at the level of the Sec61 complex.
+    </p>
+    <p>
+     In order to confirm this conclusion, we attempted expression of the
+     <em>
+      SEC61A1
+     </em>
+     cDNA, lacking the UTR of the
+     <em>
+      SEC61
+     </em>
+     gene, in the presence of the
+     <em>
+      SEC61A1
+     </em>
+     –UTR siRNA and observed that it indeed rescues the phenotype of
+     <em>
+      SEC61A1
+     </em>
+     silencing, that is partially restores the effects of ophiobolin A and trifluoperazine (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). Based on western blot analysis, the complementation efficiency of the
+     <em>
+      SEC61A1
+     </em>
+     expression plasmid was around 85% (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). In order to link the CaM effect to the IQ motif in Sec61α, we asked how a
+     <em>
+      SEC61A1
+     </em>
+     cDNA with a mutated IQ motif behaves in the rescue experiment. For this, the two mutations that were observed to be effective in the peptide-binding experiments (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ) were simultaneously introduced into the
+     <em>
+      SEC61A1
+     </em>
+     cDNA. Based on western blot analysis, the complementation efficiency of the
+     <em>
+      SEC61A1
+     </em>
+     expression plasmid was around 50% (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). In contrast to Sec61α, mutant Sec61α R24A/K29A did not restore the effects of the CaM antagonists in the presence of the
+     <em>
+      SEC61A1
+     </em>
+     –UTR siRNA (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). Furthermore, mutant Sec61α R24A/K29A led to an increased Ca
+     <sup>
+      2+
+     </sup>
+     efflux from the ER in the presence of thapsigargin
+     <em>
+      per se
+     </em>
+     , that is irrespectively of the used siRNA and in the absence of any CaM antagonist (buffer controls show 60% increase in
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     versus
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). We suggest that this is due to the presence of Sec61 complexes that cannot be controlled by CaM because of a mutated IQ motif.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Live cell calcium imaging of HeLa cells in the presence of
+       <em>
+        SEC61A1
+       </em>
+       plasmids and CaM antagonists. (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) Cells were treated with control siRNA or
+       <em>
+        SEC61A1
+       </em>
+       -UTR siRNA as described in the legend to
+       <xref ref-type="fig">
+        Figure 4
+       </xref>
+       for 48 h and then transfected with either control vector, or
+       <em>
+        SEC61A1
+       </em>
+       expression plasmid (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ), or mutant
+       <em>
+        SEC61A1
+       </em>
+       expression plasmid (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ). After 48 h, calcium imaging experiments were carried out as in
+       <xref ref-type="fig">
+        Figure 4
+       </xref>
+       . Silencing and overexpression were evaluated by western blot analysis as in
+       <xref ref-type="fig">
+        Figure 4
+       </xref>
+       (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ). Statistical analysis of the changes in the cytosolic Ca
+       <sup>
+        2+
+       </sup>
+       concentration after the addition of thapsigargin was carried out as described in the legend to
+       <xref ref-type="fig">
+        Figure 4
+       </xref>
+       (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ). Average values are given, error bars represent standard errors of the means (s.e.m.).
+       <em>
+        P
+       </em>
+       values &lt;0.001 were defined as significant by unpaired
+       <em>
+        t
+       </em>
+       test and are indicated by three asterisks (
+       <sup>
+        ***
+       </sup>
+       ), NS, not significant. The numbers of cells that were analysed are indicated.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Effect of calcium and calmodulin on cotranslational and posttranslational protein transport into canine pancreatic microsomes. (
+       <strong>
+        A
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) Nascent preprolactin (ppl-86mer) was synthesized in reticulocyte lysate in the presence of [
+       <sup>
+        35
+       </sup>
+       S]methionine. The translation reaction was supplemented with microsomes and divided into several aliquots. (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) The aliquots were simultaneously supplemented with Ca
+       <sup>
+        2+
+       </sup>
+       at final concentrations of 200 μM (
+       <strong>
+        A
+       </strong>
+       , lanes 5–8,
+       <strong>
+        B
+       </strong>
+       , lanes 3 and 4) or 800 μM (
+       <strong>
+        A
+       </strong>
+       , lanes 9–12,
+       <strong>
+        B
+       </strong>
+       , lanes 5 and 6) as indicated. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) The aliquots were simultaneously supplemented with Ca
+       <sup>
+        2+
+       </sup>
+       at a final concentration of 200 μM (
+       <strong>
+        C
+       </strong>
+       , lanes 1–8,
+       <strong>
+        D
+       </strong>
+       , lanes 1–4) and 60 μM CaM (
+       <strong>
+        C
+       </strong>
+       , lanes 5–8,
+       <strong>
+        D
+       </strong>
+       , lanes 3 and 4) as indicated. For comparison, the physiological concentrations of CaM vary between 3 and 30 μM. The aliquots were incubated an additional 20 min at 30°C. Then the microsomes were re-isolated by centrifugation, re-suspended in cross-linking buffer, and incubated another 20 min at 30°C in the absence or presence of puromycin. Subsequently, the samples were subjected to treatment with proteinase K (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ) or to chemical cross-linking (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ). (
+       <strong>
+        E
+       </strong>
+       ) Mutant preprocecropin (ppcec) was synthesized in reticulocyte lysate in the presence of [
+       <sup>
+        35
+       </sup>
+       S]methionine. Where indicated, the translation reaction was supplemented with microsomes (RM) and divided into several aliquots. The aliquots were simultaneously supplemented with 200 μM Ca
+       <sup>
+        2+
+       </sup>
+       and 60 μM CaM as indicated. After incubation for 30 min at 30°C, the samples were subjected to treatment with buffer or protease. All samples were subjected to SDS–PAGE and phosphorimaging. (
+       <strong>
+        E
+       </strong>
+       ) Only the area of interest for a single gel is shown.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Ca
+     <sup>
+      2+
+     </sup>
+     -CaM does not interfere with the transport of presecretory proteins into microsomes
+    </title>
+    <p>
+     The question arose of whether Ca
+     <sup>
+      2+
+     </sup>
+     -CaM affects the Sec61-mediated translocation of polypeptides into microsomes. As the calcium affinity of CaM is in the range of 10–100 μM, we first investigated whether Ca
+     <sup>
+      2+
+     </sup>
+     affects protein transport in reticulocyte lysate. As reticulocyte lysate is routinely pretreated with a calcium-dependent ribonuclease that is inactivated by an excess of EGTA, transport had to be carried out under posttranslational conditions in the presence of excess Ca
+     <sup>
+      2+
+     </sup>
+     . Nascent preprolactin (ppl-86mer) was synthesized in the presence of [
+     <sup>
+      35
+     </sup>
+     S]methionine, and then the translation reaction was supplemented with microsomes and divided into several aliquots. Where indicated the aliquots were simultaneously supplemented with Ca
+     <sup>
+      2+
+     </sup>
+     . In order to allow membrane targeting of the ribosome–SRP–nascent chain complexes, the aliquots were incubated further. The microsomes were re-isolated by centrifugation, re-suspended in buffer, and incubated for an additional 20 min at 30°C in the absence or presence of puromycin. Subsequently, the samples were subjected to protease treatment or chemical cross-linking. All samples were subjected to SDS–PAGE and phosphorimaging (
+     <xref ref-type="fig">
+      Figure 6A through D
+     </xref>
+     ). As expected, in the presence of microsomes and absence of Ca
+     <sup>
+      2+
+     </sup>
+     , ppl-86mer productively associated with the Sec61 complex (i.e. was protected by the ribosome against externally added protease and could be cross-linked to Sec61α in the absence of puromycin (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , lane 2;
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , lane 1)). Subsequently, ppl-86mer was chased to the mature ER lumen form pl-56mer by the addition of puromycin (i.e. was protected by the microsomal membrane against externally added protease and could not any longer be cross-linked to Sec61α (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , lane 4;
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , lane 2)). However, at effective Ca
+     <sup>
+      2+
+     </sup>
+     concentrations of 200 and 800 μM, ppl-86mer associated with the Sec61 complex less efficiently (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , lanes 6 and 10;
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , lanes 3 and 5) and, therefore, could not efficiently be chased to pl-56mer by the subsequent addition of puromycin (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , lanes 8 and 12;
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , lanes 4 and 6). In addition, preprocecropin mutant (ppcec) was analysed as a truely posttranslationally transported model precursor polypeptide. The precursor was completely synthesized and incubated with microsomes and Ca
+     <sup>
+      2+
+     </sup>
+     as indicated (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ). Subsequently, the samples were subjected to protease treatment, SDS–PAGE and phosphorimaging. In the absence of Ca
+     <sup>
+      2+
+     </sup>
+     , ppcec was inserted into the microsomal membrane and processed to mature pcec (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     , lane 3). Furthermore, pcec was protected against externally added protease, suggesting that it was imported into microsomes (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     , lane 4). In the presence of Ca
+     <sup>
+      2+
+     </sup>
+     , ppcec was not processed and imported (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     , lanes 9 and 10). Thus, submillimolar concentrations of Ca
+     <sup>
+      2+
+     </sup>
+     inactivated the Sec61 complex with respect to its cotranslational and posttranslational protein transport ability, as we previously observed for lanthanum ions (
+     <xref ref-type="bibr">
+      Erdmann et al, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     Next, we investigated whether Ca
+     <sup>
+      2+
+     </sup>
+     -CaM affects protein transport into microsomes, that is was responsible for the observed inhibitory effect of Ca
+     <sup>
+      2+
+     </sup>
+     . First, the transport of ppl-86mer was carried out in the simultaneous presence of both Ca
+     <sup>
+      2+
+     </sup>
+     (200 μM) and CaM (60 μM). After the addition of CaM to the transport reaction, the inhibitory effect of Ca
+     <sup>
+      2+
+     </sup>
+     on cotranslational transport was partially relieved (
+     <xref ref-type="fig">
+      Figure 6C and D
+     </xref>
+     ). Second, transport of ppcec was carried out under similar conditions. After the addition of CaM to the transport reaction, the inhibitory effect of Ca
+     <sup>
+      2+
+     </sup>
+     on posttranslational transport was partially relieved (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     , lanes 7 and 8). Thus, CaM-bound Ca
+     <sup>
+      2+
+     </sup>
+     , and the Ca
+     <sup>
+      2+
+     </sup>
+     -CaM did not interfere with protein transport into microsomes.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    During protein synthesis at the ER, the permeability of the translocon for small ions has to be tightly controlled. Therefore, the ribosome–Sec61 complex is assumed to be impermeable to ions during nascent chain transport (
+    <xref ref-type="bibr">
+     Crowley et al, 1994
+    </xref>
+    ). By contrast, in the empty state after the translocation event, that is when the translocon is still ribosome bound but unoccupied by a polypeptide chain, as well as in the ribosome-depleted state, the translocon complex seems to allow the passage of small molecules and Ca
+    <sup>
+     2+
+    </sup>
+    (
+    <xref ref-type="bibr">
+     Lomax et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roy and Wonderlin, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Flourakis et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Giunti et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ong et al, 2007
+    </xref>
+    ). In addition, the mammalian Sec61 complex comprises an ion channel under these conditions (
+    <xref ref-type="bibr">
+     Simon and Blobel, 1991
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wirth et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wonderlin, 2009
+    </xref>
+    ), while the bacterial homolog SecYEG does not exhibit channel activity in electrophysiological experiments (
+    <xref ref-type="bibr">
+     Saparov et al, 2007
+    </xref>
+    ). These results show that, depending upon the rate of protein synthesis, calcium ions could be lost from the ER during or after termination of protein translocation.
+   </p>
+   <p>
+    Electrophysiological studies have shown that local cytosolic Ca
+    <sup>
+     2+
+    </sup>
+    concentrations in the range of 1–10 μM are sufficient to activate IP
+    <sub>
+     3
+    </sub>
+    - and Ryanodine receptors in the ER membrane, thereby triggering calcium-induced calcium release (CICR) (
+    <xref ref-type="bibr">
+     Xu et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Boehning et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Foskett et al, 2007
+    </xref>
+    ). An enhanced local calcium concentration at the cytosolic face of the ER membrane due to uncontrolled leak efflux through the Sec61 channel could dramatically affect CICR and cellular calcium signalling. This is even more obvious considering that calcium ions conducted by an ion channel generate calcium nanodomains in the cytosolic vicinity of the pore mouth with Ca
+    <sup>
+     2+
+    </sup>
+    concentrations that can exceed the concentration of the surrounding bulk solution by three orders of magnitude with concentrations of up to 20–50 μM (
+    <xref ref-type="bibr">
+     Rizzuto and Pozzan, 2006
+    </xref>
+    ). The formation of these nanodomains originates from much faster permeation through the aqueous pore of an ion channel compared to the high Ca
+    <sup>
+     2+
+    </sup>
+    -buffer capacity of the cytosol resulting in slow lateral diffusion of Ca
+    <sup>
+     2+
+    </sup>
+    ions (
+    <xref ref-type="bibr">
+     Allbritton et al, 1992
+    </xref>
+    ).
+   </p>
+   <p>
+    Recent publications have provided evidence that the Sec61 channel mediates passive calcium efflux from the intact ER (
+    <xref ref-type="bibr">
+     Lomax et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Van Coppenolle et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Flourakis et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ong et al, 2007
+    </xref>
+    ), even in the presence of the luminal chaperone and proposed Sec61 gatekeeper BiP (
+    <xref ref-type="bibr">
+     Hamman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alder et al, 2005
+    </xref>
+    ). Whether the observed calcium leakage occurs despite BiP regulation, or is mediated by channels not interacting with BiP, has to be determined. In the light of recent 3D reconstructions of Sec61/ribosome complexes after cryo-EM, which demonstrated a gap between Sec61 and the ribosome (
+    <xref ref-type="bibr">
+     Menetret et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Becker et al, 2009
+    </xref>
+    ), the physiological necessity for an additional mechanism to prevent Ca
+    <sup>
+     2+
+    </sup>
+    loss from the ER is evident.
+   </p>
+   <p>
+    Our data show that CaM interacts with the Sec61 translocon in a sequence-specific manner. We demonstrated that CaM binds to an IQ motif in the cytosolic N-terminus of the Sec61α subunit with high affinity and in a calcium-dependent manner, but not to the bacterial ortholog SecY. This finding was expected because: (i) eubacteria or archaea do not undergo calcium signalling as known in higher eukaryotes, which eliminates the physiological need for translocon regulation dependent on Ca
+    <sup>
+     2+
+    </sup>
+    influx and, (ii) accordingly, the IQ motif is conserved in higher eukaryotes but not in eubacteria or archaea (
+    <a>
+     <span>
+      Table I
+     </span>
+    </a>
+    ). According to our model (
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    ), the inactive ribosome–channel complex after termination of translocation as well as the ribosome-free translocon after ribosome dissociation allow for passive calcium efflux from the ER, which leads to the formation of a calcium nanodomain at the cytsolic channel mouth. After the binding of Ca
+    <sup>
+     2+
+    </sup>
+    ions, activated CaM binds to the Sec61α IQ motif and induces channel closure, minimizing further calcium leakage and maintaining the important barrier at the ER membrane. We expect that Ca
+    <sup>
+     2+
+    </sup>
+    removal from calcium nanodomains as mediated by SERCA leads to dissociation of Ca
+    <sup>
+     2+
+    </sup>
+    from CaM and, subsequently, reversal of the CaM effect on the Sec61 complex. This would start another round of Ca
+    <sup>
+     2+
+    </sup>
+    release and Ca
+    <sup>
+     2+
+    </sup>
+    -CaM-mediated conformational change in Sec61.
+   </p>
+   <fig id="f7" position="float">
+    <label>
+     Figure 7
+    </label>    <caption>
+     <p>
+      Model for a calmodulin-mediated, calcium-dependent inactivation (CDI) mechanism of Sec61 Ca
+      <sup>
+       2+
+      </sup>
+      conductance. The Sec61 complex is assumed to be impermeable to ions during cotranslational protein transport, sealed by an ion-tight connection with the ribosome and/or by the ER-lumenal chaperone BiP (
+      <xref ref-type="bibr">
+       Crowley et al, 1994
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Hamman et al, 1998
+      </xref>
+      ). After translocation, inactive ribosomes remain stably associated with the translocase (
+      <xref ref-type="bibr">
+       Potter and Nicchitta, 2002
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Schaletzky and Rapoport, 2006
+      </xref>
+      ) or dissociate from the complex. Under these conditions, Ca
+      <sup>
+       2+
+      </sup>
+      ions permeate the channel and accumulate at a calcium nanodomain in the cytosolic vicinity of the pore mouth. Ca
+      <sup>
+       2+
+      </sup>
+      ions bind to, and thereby activate, calmodulin (CaM). Calcium-bound CaM binds to the cytosolic IQ motif in the Sec61α subunit which leads to channel closure and prevents further calcium efflux.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Remarkably, we also detected Ca
+    <sup>
+     2+
+    </sup>
+    -independent binding of CaM to the purified, reconstituted Sec61 complex, which had no effect on channel closure but may preassociate apocalmodulin in proximity to the IQ motif. A comparable mechanism has been found for L- and P/Q-type Ca
+    <sup>
+     2+
+    </sup>
+    channels (
+    <xref ref-type="bibr">
+     Zühlke et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     DeMaria et al, 2001
+    </xref>
+    ). We suggest that binding of CaM to the IQ motif is Ca
+    <sup>
+     2+
+    </sup>
+    -dependent and that there is a second Ca
+    <sup>
+     2+
+    </sup>
+    -independent CaM-binding site present in the Sec61 complex. Indeed, bioinformatic analysis detected a potential CaM-binding site in Sec61γ that would reside in the cytosol (KPDRKEFQKIAMAT). In our gradient experiments, that is when free CaM was removed during flotation, this site was hardly detected and, therefore, CaM has lower affinity for this second site as compared to the IQ motif.
+   </p>
+   <p>
+    We propose that a CaM-mediated Ca
+    <sup>
+     2+
+    </sup>
+    -based regulatory mechanism is operating for the protein translocase Sec61. This mechanism resembles the negative feedback regulation by Ca
+    <sup>
+     2+
+    </sup>
+    known as calcium-dependent inactivation, which has been shown for various ion-conducting channels like NMDA receptors (
+    <xref ref-type="bibr">
+     Wang et al, 2008
+    </xref>
+    ), as well as voltage-gated channels (
+    <xref ref-type="bibr">
+     Dick et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tadross et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    We tested our hypothesis in a molecular modelling approach. Docking analysis revealed an almost perfect fit of Ca
+    <sup>
+     2+
+    </sup>
+    -CaM into the gap between the Sec61 complex and ribosome (
+    <xref ref-type="fig">
+     Figure 8
+    </xref>
+    ;
+    <a>
+     Supplementary Movies 1
+    </a>
+    and
+    <a>
+     2
+    </a>
+    ). Thus, molecular modelling of the ribosome/Sec61/CaM complex supports the idea that even the simultaneous binding of ribosomes and CaM to the Sec61 complex is possible.
+   </p>
+   <fig id="f8" position="float">
+    <label>
+     Figure 8
+    </label>    <caption>
+     <p>
+      Molecular model for the ribosome/Sec61/CaM complex. We used the cryo-EM structure of the mammalian Sec61 complex (Sec61α, red; Sec61β, pink; Sec61γ, magenta) with the ribosome (blue). This structure has the pdb code 2wwb (
+      <xref ref-type="bibr">
+       Becker et al, 2009
+      </xref>
+      ). First, calmodulin docking in the absence of the ribosome was performed using the docking program HEX (
+      <xref ref-type="bibr">
+       Ritchie et al, 2008
+      </xref>
+      ). The crystal structure of calmodulin (green) with bound calcium ions was used (pdb 1CLL). The 50 best-scored binding modes were selected, and the structures that overlapped with the membrane and ribosome were deleted. The position of the membrane was predicted using the method of
+      <xref ref-type="bibr">
+       Lomize et al (2006)
+      </xref>
+      and is indicated as two planes of spheres. The resulting binding modes were found to be very similar to each other and showed the binding of the C-terminus of CaM to the IQ motif (yellow). According to this analysis, Ca
+      <sup>
+       2+
+      </sup>
+      -CaM fills the gap between the ribosome and Sec61 complex without blocking the entrance to the polypeptide-conducting channel. We note that the N-terminus of CaM faces away from the ribosome and, therefore, N-terminal GST did not interfere in our experiments.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Yet another potential level of regulation has to be considered. Dobberstein
+    <em>
+     et al
+    </em>
+    observed that, after cleavage from the respective precursor polypeptides by signal peptidase, signal peptides are typically split in half by signal peptide peptidase, and that N-terminal fragments from some signal peptides bind to CaM in a Ca
+    <sup>
+     2+
+    </sup>
+    -dependent manner (
+    <xref ref-type="bibr">
+     Lyko et al, 1995
+    </xref>
+    ). Therefore, a modulatory effect of these signal peptide fragments on the regulatory role of CaM in Ca
+    <sup>
+     2+
+    </sup>
+    leakage from the ER would not be surprising.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Materials
+    </title>
+    <p>
+     3-(3-Cholamidopropyl)dimethylammonio-1-propane sulfate, deoxy big CHAP, and CaM were purchased from Calbiochem and purified L-α phosphatidylcholine (egg) from Larodan Fine Chemicals. Trifluoperazine, fluoresceine, and anti-β-actin antibody were obtained from Sigma-Aldrich and Atto488 from Atto-Tec. The IQ peptide used for the FCS experiments was synthesized by GenScript Corp. FeBABE protein cutting reagent (Fe(III) (S)-1-(
+     <em>
+      p
+     </em>
+     -Bromoacetamidobenzyl)ethylenediamine tetraacetic acid) was obtained from Thermo Scientific. Enhanced chemiluminescence (ECL™), ECL™ Plex goat-anti-rabbit IgG-Cy5- and ECL™ Plex goat-anti-mouse IgG-Cy3-conjugate were purchased from GE Healthcare, thapsigargin and FURA-2-AM from invitrogen/molecular probes, and ophiobolin A and Nuclear-ID Blue/Green cell viability reagent from Enzo Life Sciences. The GST-CaM and GST (CaM from
+     <em>
+      Rattus rattus
+     </em>
+     , GST from
+     <em>
+      Schistosoma japonicum
+     </em>
+     ) were purified as fusion proteins from
+     <em>
+      E. coli
+     </em>
+     according to standard procedures (
+     <xref ref-type="bibr">
+      Smith and Johnson, 1988
+     </xref>
+     ). RM were prepared from dog pancreas (
+     <xref ref-type="bibr">
+      Dierks et al, 1996
+     </xref>
+     ). Sec61 proteoliposomes were made from purified components as previously described (
+     <xref ref-type="bibr">
+      Wirth et al, 2003
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence correlation spectroscopy
+    </title>
+    <p>
+     The following peptide sequence derived from the Sec61α subunit of
+     <em>
+      Canis lupus familiaris
+     </em>
+     [
+     <sub>
+      16
+     </sub>
+     LPE
+     <sub>
+      19
+     </sub>
+     IQKPERKIQFKEKV
+     <sub>
+      32
+     </sub>
+     LWTAITLFI-C], which contains an additional terminal cysteine (1 mg) was labelled with Atto488maleimide dye and characterized as described in the methods section of
+     <a>
+      Supplementary data
+     </a>
+     in detail. FCS measurements were performed using an Insight Cell 3D laser scanning spectrometer (Evotech Technologies) as described in the methods section of
+     <a>
+      Supplementary data
+     </a>
+     . For the data analysis, a self-written software program (Alf Honigmann) was used. To obtain the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values, the resulting data points were fitted using the software Origin 7.0 (Microcal) according to a one site binding isotherm.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Peptide-spot binding assay
+    </title>
+    <p>
+     IQ peptides were synthesized on acid hardened cellulose membranes, derivatized with a polyethylene glycol spacer as described (
+     <xref ref-type="bibr">
+      Hilpert et al, 2007
+     </xref>
+     ). Membranes were equilibrated in binding buffer (150 mM NaCl, 50 mM Tris/HCl (pH 7.5), 0.1% Triton X-100, and 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     or 4 mM EGTA) for 2 h at 4°C.
+     <sup>
+      14
+     </sup>
+     C-labelled GST-CaM was added and incubated at 4°C overnight. The membrane was washed with binding buffer three times for 10 min each, dried at room temperature, and subjected to phosphorimaging using a Typhoon-Trio imaging device (GE Healthcare).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sucrose gradient flotation
+    </title>
+    <p>
+     We incubated 10 μl of RM, PKRM, or Sec61 proteoliposomes (all corresponding to about 20 pmol heterotrimeric Sec61 complex) in 100 μl 150 mM KCl, 50 mM Hepes/KOH (pH 7.4), 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 10% sucrose, and 0.05 mg/ml BSA with 50 pmol GST-CaM and either 2 mM CaCl
+     <sub>
+      2
+     </sub>
+     or 4 mM EGTA for 60 min at 0°C. The samples were adjusted to 77% sucrose, 150 mM KCl, 50 mM Hepes/KOH (pH 7.4), 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , and 0.05 mg/ml BSA (900 μl) and covered with a 62% (800 μl) and 8.5% (500 μl) sucrose cushion in 150 mM KCl, 50 mM Hepes/KOH (pH 7.4), 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 0.05 mg/ml BSA, and 2 mM CaCl
+     <sub>
+      2
+     </sub>
+     or 4 mM EGTA. The step gradients were centrifuged for 18 h at 116 000 ×
+     <em>
+      g
+     </em>
+     in a SW55 rotor at 2°C and fractionated into 10 aliquots representing 12–70% sucrose densities. The protein content of the fractions was precipitated according to
+     <xref ref-type="bibr">
+      Wessel and Fluegge (1984)
+     </xref>
+     . Samples were dissolved in SDS sample buffer, incubated for 10 min at 56°C, and analysed by SDS–PAGE and subsequent western blotting on PVDF membranes. Blots were incubated with antibodies against GST and Sec61β, respectively. Bound antibodies were visualized using peroxidase (POD)-coupled anti-rabbit antibodies and ECL™ and detected with a Lumi-Imager F1 (Roche).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Single-channel recordings
+    </title>
+    <p>
+     Vesicles for planar bilayer experiments were prepared by mixing (3:2, v/v) the different Sec61-containing vesicles with preformed liposomes (egg L-α phosphatidylcholine, 10 mg/ml) in 50 mM KCl and 10 mM Mops/Tris (pH 7.0). Mega-9 (nonanoyl-
+     <em>
+      N
+     </em>
+     -methylglucamide) was added to a final concentration of 80 mM. After mixing, the sample was dialysed for 4 h at room temperature and then overnight at 4°C against a buffer (5 l) containing 50 mM KCl and 10 mM Mops/Tris (pH 7.0). Aliquots (10 μl, typically 10 mg/ml protein, lipid/protein 2:1 [w/w]) of the proteoliposomes derived from RM vesicles were incubated with 200 μM puromycin and 250–500 mM KCl for 15–30 min on ice.
+    </p>
+    <p>
+     Planar lipid bilayers were produced by the painting technique described previously (
+     <xref ref-type="bibr">
+      Müller et al, 1963
+     </xref>
+     ). An osmotic gradient was used for vesicle fusion. Membrane potentials refer to the
+     <em>
+      trans
+     </em>
+     compartment. Data recording and analysis was performed as previously described (
+     <xref ref-type="bibr">
+      Wirth et al, 2003
+     </xref>
+     ). Voltage ramps were conducted at a rate of 6.6 mV/s.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture
+    </title>
+    <p>
+     HeLa cells (ATCC no. CCL-2) were cultured at 37°C in Dulbecco's modified eagle medium (DMEM) medium (Gibco) containing 10% fetal bovine serum (Biochrom) and 1% penicillin/streptomycin (PAA) in a humidified environment with 5% CO
+     <sub>
+      2
+     </sub>
+     . For live cell calcium imaging, cells were grown on 25 mm cover slips pretreated with poly-lysine (1 mg/ml) for 1 h.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Silencing of gene expression by siRNA
+    </title>
+    <p>
+     For gene silencing, 5.2 × 10
+     <sup>
+      5
+     </sup>
+     HeLa cells were seeded per 6 cm culture plate in normal culture. The cells were transfected with
+     <em>
+      SEC61A1
+     </em>
+     siRNA (GGAAUUUGCCUGCUAAUCAtt, Qiagen),
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA (CACUGAAAUGUCUACGUUUtt, Qiagen), or control siRNA (AllStars Negative Control siRNA, Qiagen) using HiPerFect Reagent (Qiagen) according to the manufacturer's instructions (final concentration of siRNAs: 20 nM). After 24 h, the medium was changed and the cells were transfected a second time. Silencing was evaluated by western blot analysis using an antibody directed against the C-terminus of Sec61α protein and an anti-β-actin-antibody from mouse. The primary antibodies were visualized using ECL™ Plex goat-anti-rabbit IgG-Cy5- or ECL™ Plex goat-anti-mouse IgG-Cy3-conjugate and the Typhoon-Trio imaging system (GE Healthcare) in combination with the Image Quant TL software 7.0 (GE Healthcare). The maximum silencing effect was seen 96 h after the first transfection.
+    </p>
+    <p>
+     In order to rescue the phenotype of
+     <em>
+      SEC61A1
+     </em>
+     silencing, the
+     <em>
+      SEC61A1
+     </em>
+     cDNA was inserted into the multi-cloning site (MCS) of a pCDNA3-internal ribosomal entry site (IRES)-green fluorescent protein (GFP)-vector that contained the cytomegalovirus promoter, the MCS, the IRES, plus the GFP coding sequence. Cells were treated with
+     <em>
+      SEC61A1
+     </em>
+     -UTR siRNA as described above for 48 h. Subsequently, the cells were transfected with either vector or
+     <em>
+      SEC61A1
+     </em>
+     expression plasmids using Fugene HD (Roche). According to GFP fluorescence the transfection efficiency was around 80%.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Live cell calcium imaging
+    </title>
+    <p>
+     Live cell calcium imaging was carried out as previously described (
+     <xref ref-type="bibr">
+      Aneiros et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gross et al, 2009
+     </xref>
+     ). HeLa cells were loaded with 4 μM FURA-2 AM in DMEM for 45 min at 25°C (
+     <xref ref-type="bibr">
+      Aneiros et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gross et al, 2009
+     </xref>
+     ). Cells were washed twice and incubated in a calcium-free buffer (140 mM NaCl, 5 mM KCl, 1 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 0.5 mM EGTA, 10 mM glucose in 10 mM HEPES-KOH (pH 7.35)). During the experiment, cells were treated with one of the two CaM antagonists (10 μM trifluoperazine or 100 μM ophibolin A) or with the calcium-free buffer. After ratiometric measurements were carried out for 10 min, thapsigargin (1 μM) was added and the measurements continued. Where indicated, HeLa cells were treated with siRNA directed against
+     <em>
+      SEC61A1
+     </em>
+     or a negative control siRNA for 96 h prior to calcium imaging. Data were collected on an iMIC microscope and the polychromator V (Till Photonics) by alternately exciting at 340 and 380 nm and measuring the emitted fluorescence at 510 nm. Images containing 20–50 cells/frame were sampled every 3 s. FURA-2 signals were recorded as the ratios F340/F380, where F340 and F380 correspond to the background-subtracted fluorescence intensity at 340 and 380 nm, respectively. Cytoslic [Ca
+     <sup>
+      2+
+     </sup>
+     ] was estimated from ratio measurements by an established calibration method (
+     <xref ref-type="bibr">
+      Lomax et al, 2002
+     </xref>
+     ). Data were analysed by Excel 2007 and Origin 6.1.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein transport experiments
+    </title>
+    <p>
+     Nascent preprolactin and mutant preprocecropin A were synthesized in reticulocyte lysate (Promega) in the presence of [
+     <sup>
+      35
+     </sup>
+     S]methionine for 20 min at 30°C. The translation reaction contained EGTA at a concentration of ∼400 μM. The translation reactions were divided into several aliquots, supplemented with RM as indicated, and incubated in the absence or presence of calcium (600–1200 μM) and CaM (60 μM) for 20 min at 30°C. The microsomes were re-isolated by centrifugation, re-suspended in cross-linking buffer (50 mM triethanolamine–HCl (pH 7.4), 200 mM sucrose, 50 mM KOAc, 5 mM MgOAc), and incubated an additional 20 min at 30°C in the absence or presence of puromycin (1.25 mM). Subsequently, the samples were subjected to treatment with protease or to chemical cross-linking. For protease treatment, samples were divided into two aliquots and incubated in the absence or presence of proteinase K (170 μg/ml) for 60 min at 0°C. Protease treatment was terminated by the addition of phenylmethylsulfonyl fluoride (10 mM). For cross-linking, samples were incubated with 335 μM succinimidyl 4-(
+     <em>
+      N
+     </em>
+     -maleimidomethyl)cyclohexane-1-carboxylate (SMCC; Pierce) for 30 min at 0°C. All samples were subjected to SDS–PAGE and phosphorimaging in the Typhoon-Trio imaging system.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Figure S1:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (3.3M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Figure S2:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.0M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Figure S3:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (12M, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Movie 1:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.9M, mpg)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Movie 2:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (3.1M, mpg)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (47K, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

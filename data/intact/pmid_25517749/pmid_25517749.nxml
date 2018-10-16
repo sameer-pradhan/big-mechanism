@@ -1,0 +1,1880 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4269829
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    ALK mutations confer differential oncogenic activation and sensitivity to ALK inhibition therapy in neuroblastoma
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     Genetic studies have established anaplastic lymphoma kinase (ALK), a cell surface receptor tyrosine kinase, as a tractable molecular target in neuroblastoma. We describe comprehensive genomic, biochemical, and computational analyses of
+     <em>
+      ALK
+     </em>
+     mutations across 1596 diagnostic neuroblastoma samples. ALK tyrosine kinase domain mutations occurred in 8% of samples; at three hotspots plus 13 minor sites – and correlated significantly with poorer survival in high- and intermediate-risk neuroblastoma. Biochemical and computational studies distinguished oncogenic (constitutively activating) from non-oncogenic mutations and allowed robust computational prediction of their effects. We also established differential in vitro crizotinib sensitivity of mutated variants. Our studies identify
+     <em>
+      ALK
+     </em>
+     genomic status as a clinically important therapeutic stratification tool in neuroblastoma, and will allow tailoring of ALK-targeted therapy to specific mutations.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Neuroblastomas are embryonal tumors that arise from the sympathetic nervous system, and represent the most frequently diagnosed malignancy in the first year of life (
+    <xref ref-type="bibr">
+     Cheung and Dyer, 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Maris, 2010
+    </xref>
+    ). Despite improvements in treatment over recent decades, cure rates for patients with high-risk neuroblastoma (
+    <xref ref-type="bibr">
+     Maris, 2010
+    </xref>
+    ) lag significantly behind those of other common childhood cancers (
+    <xref ref-type="bibr">
+     Smith et al., 2010
+    </xref>
+    ). Current treatments rely on dose-intensive chemotherapy, radiation therapy, and immunotherapeutic targeting of the disialoganglioside GD2 (
+    <xref ref-type="bibr">
+     Maris, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yu et al., 2010
+    </xref>
+    ). Most recent clinical studies in neuroblastoma have focused on escalating dose intensity in both induction and consolidation therapy, with evidence that this improves outcome (
+    <xref ref-type="bibr">
+     Pearson et al., 2008
+    </xref>
+    ). The potential long-term adverse effects of increasing treatment intensity on survivors of this childhood cancer are a major concern (
+    <xref ref-type="bibr">
+     Hobbie et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Smith et al., 2010
+    </xref>
+    ), however – making it imperative that more effective treatment strategies are developed.
+   </p>
+   <p>
+    One promising avenue for targeted therapy in neuroblastoma focuses on anaplastic lymphoma kinase (ALK), a cell-surface neural receptor tyrosine kinase (RTK) expressed at significant levels only in the developing embryonic and neonatal brain (
+    <xref ref-type="bibr">
+     Iwahara et al., 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Morris et al., 1997
+    </xref>
+    ). Germline mutations in intact
+    <em>
+     ALK
+    </em>
+    were recently identified as the major cause of hereditary neuroblastoma (
+    <xref ref-type="bibr">
+     Mossé et al., 2008
+    </xref>
+    ). These mutations cause single amino acid missense substitutions in the ALK tyrosine kinase domain (TKD) that promote constitutive, ligand-independent, activation of this RTK. Somatically acquired ALK-activating mutations are also found as oncogenic drivers in neuroblastoma (
+    <xref ref-type="bibr">
+     Chen et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     George et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hallberg and Palmer, 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Janoueix-Lerosey et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mossé et al., 2008
+    </xref>
+    ). In addition,
+    <em>
+     ALK
+    </em>
+    gene amplification imparts an oncogenic dependency in some cases (
+    <xref ref-type="bibr">
+     Janoueix-Lerosey et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mossé et al., 2008
+    </xref>
+    ).
+    <em>
+     ALK
+    </em>
+    has thus emerged as a tractable oncogene for targeted therapy in neuroblastoma. The same tyrosine kinase is also found in oncogenic ALK fusion proteins that arise from chromosomal translocations in non-small-cell lung cancers (NSCLC) (
+    <xref ref-type="bibr">
+     Soda et al., 2007
+    </xref>
+    ) and anaplastic large cell lymphomas (
+    <xref ref-type="bibr">
+     Morris et al., 1994
+    </xref>
+    ), for example, motivating development of small molecule ALK kinase inhibitors. Dramatic response rates to crizotinib (an ALK/Met/Ros1 inhibitor) were seen in pretreated patients with advanced relapsed/refractory NSCLC harboring
+    <em>
+     ALK
+    </em>
+    rearrangements (
+    <xref ref-type="bibr">
+     Kwak et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shaw and Engelman, 2013
+    </xref>
+    ). These studies validated ALK as a therapeutic target, and led to the expedited FDA approval of crizotinib for
+    <em>
+     ALK
+    </em>
+    -translocated NSCLC.
+   </p>
+   <p>
+    Rapid clinical translation of findings with
+    <em>
+     ALK
+    </em>
+    in neuroblastoma prompted a phase 1 trial of crizotinib (
+    <a>
+     <span>
+      {"type":"clinical-trial","attrs":{"text":"NCT00939770","term_id":"NCT00939770"}}
+     </span>
+     NCT00939770
+    </a>
+    ) in patients with recurrent or refractory cancer. Results from this trial highlighted the differential sensitivity to ALK kinase inhibition of
+    <em>
+     ALK
+    </em>
+    -translocated versus
+    <em>
+     ALK
+    </em>
+    -mutated disease (
+    <xref ref-type="bibr">
+     Mossé et al., 2013
+    </xref>
+    ). The study also underlined the need for further detailed investigation of
+    <em>
+     ALK
+    </em>
+    mutations in order to optimize clinical application of ALK inhibitors in neuroblastoma. To achieve this goal a detailed analysis of the spectrum of
+    <em>
+     ALK
+    </em>
+    mutations, their clinical significance in neuroblastoma, and their biochemical properties is essential. The resulting data will underpin future approaches for identifying patients likely to benefit from ALK inhibition in neuroblastoma, and for predicting which newly emerging mutations are clinically relevant.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <p>
+    To examine the spectrum of
+    <em>
+     ALK
+    </em>
+    mutations in neuroblastoma, we analyzed germline and somatic
+    <em>
+     ALK
+    </em>
+    DNA alterations – at diagnosis – in samples from a cohort of 1596 neuroblastoma patients assembled in collaboration with the Children's Oncology Group (COG;
+    <a>
+     <span>
+      Table 1
+     </span>
+    </a>
+    ).
+   </p>
+   <sec>
+    <a>
+     <img/>
+    </a>
+    <sec>
+     <sec>
+      <a>
+       Table 1
+      </a>
+     </sec>
+     <sec>
+      <span>
+       <strong>
+        Clinical, Genomic, and Survival Characteristics of Overall Patient Cohort
+        <sup>
+         a
+        </sup>
+       </strong>
+      </span>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     ALK mutations
+    </title>
+    <p>
+     Sequencing of
+     <em>
+      ALK
+     </em>
+     exons 21-28, encompassing the TKD-encoding region, identified 126 diagnostic samples with at least one mutation, corresponding to 8% of subjects (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Putative disease-associated mutations were distributed throughout the ALK TKD (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ;
+     <a>
+      Table S1
+     </a>
+     ), with an additional mutation at R1060 (between the TKD and transmembrane domain). Three additional ALK TKD sequence variations (R1231Q, I1250T, and D1349H) were observed that had previously been listed in the NCBI database of single nucleotide polymorphisms (dbSNP), but with no known clinical significance or annotation in COSMIC (
+     <xref ref-type="bibr">
+      Forbes et al., 2011
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       Distribution of ALK mutations in tumor samples from neuroblastoma patients
+      </strong>
+      <p>
+       The 126 potentially disease-related mutations observed were distributed over the 16 positions marked in the ALK TKD plus R1060 (between the TKD and the transmembrane domain, upper part of figure). Variants with red asterisks (in red text) were also found in germline DNA. Mutations not previously reported in neuroblastoma include R1060H, I1170N, I1183T, L1204F, D1270G, G1286R, and T1343I. See also
+       <a>
+        Table S1 and Figure S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Three ‘hotspot’ residues accounted for 85% of mutations (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ): R1275 (43%), F1174 (30%), and F1245 (12%), consistent with previous studies (
+     <xref ref-type="bibr">
+      Chen et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      George et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hallberg and Palmer, 2013
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Janoueix-Lerosey et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mossé et al., 2008
+     </xref>
+     ). R1275 was substituted with glutamine or leucine in 3.4% of tumors (95% CI: 2.5, 4.3%), F1174 was altered (to L, I, V, C, or S) in 2.4% of tumors (95% CI: 1.6, 3.0%), and F1245 (to L, I, V, or C) in 0.9% (95% CI: 0.5, 1.4%). Two tumor samples harbored mutations at I1170 (to N or S), and another two at I1171 (to N). Single incidences of substitution were seen at a further 15 positions, of which 7 represent mutations not found in current databases (
+     <a>
+      Table S1
+     </a>
+     ). Matched constitutional DNA was available for 88 of the 126
+     <em>
+      ALK
+     </em>
+     -mutated samples, and contained the observed
+     <em>
+      ALK
+     </em>
+     substitution (indicating its presence in the germline) in just 7 cases. Although no information about family history is available, this is an expected rate based on previous analyses (
+     <xref ref-type="bibr">
+      Knudson and Strong, 1972
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mossé et al., 2008
+     </xref>
+     ). Two were germline R1275Q mutations, and the remaining 5 examples were R1060H, I1183T, L1204F, R1231Q (also in dbSNP), and I1250T (also in dbSNP) mutations (
+     <a>
+      Table S1
+     </a>
+     ).
+    </p>
+    <p>
+     <em>
+      ALK
+     </em>
+     mutations were found in 10.9% of
+     <em>
+      MYCN
+     </em>
+     -amplified tumors, versus 7.2% of those without
+     <em>
+      MYCN
+     </em>
+     amplification. Mutations seen alongside
+     <em>
+      MYCN
+     </em>
+     amplification were biased towards F1174 substitutions (41% in
+     <em>
+      MYCN
+     </em>
+     -amplified cases compared with 30% overall). Further,
+     <em>
+      MYCN
+     </em>
+     amplification occurred in 39% of F1174-mutated tumors, compared with an expected overall frequency of 21% (p&lt;0.01). These data support previous suggestions that F1174 mutations are over-represented in
+     <em>
+      MYCN
+     </em>
+     -amplified tumors, but indicate a less skewed distribution than reported earlier (
+     <xref ref-type="bibr">
+      De Brouwer et al., 2010
+     </xref>
+     ). Consistent with earlier results, however, patients with both amplified
+     <em>
+      MYCN and
+     </em>
+     F1174-mutated
+     <em>
+      ALK
+     </em>
+     had a significantly worse event-free survival (EFS, p&lt;0.0001) than patients with neither.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      ALK
+     </em>
+     copy number
+    </title>
+    <p>
+     Copy number variation at the
+     <em>
+      ALK
+     </em>
+     locus was observed in 17% of cases for which it was measured (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Gain of the
+     <em>
+      ALK
+     </em>
+     locus (3-10 copies) was seen in 195 cases (15%), with high-level amplification more rare (24 samples), and whole gene deletion rarer still (6 samples). The
+     <em>
+      ALK
+     </em>
+     gene is located 13.2 megabases centromeric of
+     <em>
+      MYCN
+     </em>
+     .
+     <em>
+      ALK
+     </em>
+     amplification occurred concurrently with
+     <em>
+      MYCN
+     </em>
+     amplification in all but one case – consistent with a previous report (
+     <xref ref-type="bibr">
+      Bagci et al., 2012
+     </xref>
+     ). Accordingly, since
+     <em>
+      MYCN
+     </em>
+     amplification identifies a patient as a member of the high-risk group (
+     <xref ref-type="bibr">
+      Maris, 2010
+     </xref>
+     ),
+     <em>
+      ALK
+     </em>
+     amplification occurred exclusively in this group (
+     <a>
+      Table S2
+     </a>
+     ) and was associated with inferior outcome (5-year overall survival/OS of 23%, versus 48% in high-risk patients without
+     <em>
+      ALK
+     </em>
+     amplification, p=0.03;
+     <a>
+      Table S3
+     </a>
+     ). In the 108/126
+     <em>
+      ALK
+     </em>
+     -mutated tumors for which we also had copy number data,
+     <em>
+      ALK
+     </em>
+     mutation and high-level gene amplification were mutually exclusive (except for one G1286 variant). Further, 13% of
+     <em>
+      ALK
+     </em>
+     -mutated cases had low-level gain of the
+     <em>
+      ALK
+     </em>
+     locus, similar to the percentage seen in the overall cohort. None demonstrated allelic deletion.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      ALK
+     </em>
+     aberration and
+     <em>
+      ALK
+     </em>
+     mutation are prognostic biomarkers of inferior survival
+    </title>
+    <p>
+     <em>
+      ALK
+     </em>
+     mutations were observed in tumors from all clinical risk groups, and were more commonly observed in those from older patients (
+     <a>
+      Table S2
+     </a>
+     ). Across the whole cohort, presence of an
+     <em>
+      ALK
+     </em>
+     aberration (mutation or amplification) correlated with reduced EFS and OS (
+     <xref ref-type="fig">
+      Figure 2A,B
+     </xref>
+     ) – as did
+     <em>
+      ALK
+     </em>
+     mutation (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Presence of any
+     <em>
+      ALK
+     </em>
+     aberration also correlated with reduced EFS and OS in the high-risk group (
+     <xref ref-type="fig">
+      Figure 2C,D
+     </xref>
+     ). In univariable analysis, presence of an
+     <em>
+      ALK
+     </em>
+     mutation was also correlated with reduced EFS in intermediate-risk patients (
+     <a>
+      Table S3
+     </a>
+     ), a heterogeneous group consisting mainly of very young patients with metastatic disease, or patients of any age with large, unresectable primary tumors. Patient outcome did not differ significantly according to location of the mutation in any analysis. Whereas robust biomarkers to assign outcome probability have been characterized for patients with low- and high-risk disease, the most appropriate therapy for patients with intermediate-risk disease is less well-defined, and our findings suggest that
+     <em>
+      ALK
+     </em>
+     genetic status can be used to identify cases within this group with the highest risk of treatment failure.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Event-free and overall survival based on the presence or absence of an
+       <em>
+        ALK
+       </em>
+       aberration
+      </strong>
+      <p>
+       Kaplan-Meier curves comparing patients with and without an
+       <em>
+        ALK
+       </em>
+       aberration (mutation and/or amplification): (
+       <strong>
+        A
+       </strong>
+       ) event-free survival (EFS) for the entire neuroblastoma cohort, aberration (n=149) vs. no aberration (n=1,199), p&lt;0.0001; (
+       <strong>
+        B
+       </strong>
+       ) overall survival (OS) for the entire neuroblastoma cohort, aberration (n=149) vs. no aberration (n=1,199), p=0.0002; (
+       <strong>
+        C
+       </strong>
+       ) EFS for the high-risk cohort, aberration (n=88) vs. no aberration (n=540), p=0.0043; (
+       <strong>
+        D
+       </strong>
+       ) OS for the high-risk cohort, aberration (n=88) vs. no aberration (n=540), p=0.0018. See also
+       <a>
+        Table S2
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <p>
+      In multivariable analysis of the overall cohort, presence of an
+      <em>
+       ALK
+      </em>
+      mutation was found to have an independent influence on survival, with a 1.4-fold greater risk of an event (or hazard ratio, HR) within 5 years (95% CI: 1.1, 1.9) compared to cases without an
+      <em>
+       ALK
+      </em>
+      mutation (
+      <a>
+       <span>
+        Table 2
+       </span>
+      </a>
+      ). Similarly, independent statistically significant correlation with outcome was seen in three separate multivariable models (adjusted for other known prognostic factors) for:
+     </p>
+     <ol>
+      <li>
+       <sec>
+        Any
+        <em>
+         ALK
+        </em>
+        aberration (p=0.0006; HR=1.4, 95% CI: 1.2, 1.7)
+       </sec>
+      </li>
+      <li>
+       <sec>
+        <em>
+         ALK
+        </em>
+        copy number gain (p=0.04; HR=1.3, 95% CI: 1.0, 1.6)
+       </sec>
+      </li>
+      <li>
+       <sec>
+        <em>
+         ALK
+        </em>
+        amplification (p=0.003; HR=2.2, 95% CI: 1.3, 3.6).
+       </sec>
+      </li>
+     </ol>
+    </sec>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Multivariable Analyses Testing the Independence of Correlations between
+         <em>
+          ALK
+         </em>
+         mutation Status and EFS
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     In a multivariable model adjusted for histologic category (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ),
+     <em>
+      ALK
+     </em>
+     mutation status showed statistically significant correlation with reduced EFS in both the intermediate-risk and high-risk patient groups – although not in the low-risk group, again arguing for the utility of
+     <em>
+      ALK
+     </em>
+     mutation status in clinical evaluation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Predicting signaling consequences of ALK TKD mutations
+    </title>
+    <p>
+     Our results establish that the presence of an
+     <em>
+      ALK
+     </em>
+     mutation in neuroblastoma is associated with a more aggressive tumor phenotype. Not all ALK substitutions observed in neuroblastoma patients are likely to be oncogenic drivers, however. It will be important in refining therapeutic
+     <em>
+      ALK
+     </em>
+     mutation-based patient stratification to predict as they are observed which mutations are truly drivers that cause ligand-independent ALK signaling, and which are ‘passengers’ or variants of unknown significance. Current methods for predicting functional consequences of patient-derived mutations fall short – especially for activating mutations in kinases. Algorithms such as PolyPhen-2 (
+     <xref ref-type="bibr">
+      Adzhubei et al., 2010
+     </xref>
+     ), SIFT (
+     <xref ref-type="bibr">
+      Kumar et al., 2009
+     </xref>
+     ) and the consensus classifier PredictSNP (
+     <xref ref-type="bibr">
+      Bendl et al., 2014
+     </xref>
+     ) estimate the likelihood of a given mutation having a deleterious effect based on sequence conservation and other criteria. PolyPhen-2 or SIFT (or both) predict that every single ALK substitution listed in
+     <a>
+      Table S1
+     </a>
+     adversely affects protein function (or is ‘damaging’), except R1060H and R1231Q (a SNP). It seems highly unlikely given our understanding of kinases that even the ALK TKD C-lobe mutations L1204F, T1343I, and D1349H (also in dbSNP) are oncogenic. Moreover, the logic of conservation-based algorithms is not appropriate for predicting gain-of-function mutations in oncogenic kinase domains (
+     <xref ref-type="bibr">
+      Gnad et al., 2013
+     </xref>
+     ). Indeed, a recent analysis of &gt;400 activating substitutions (
+     <xref ref-type="bibr">
+      Molina-Vila et al., 2014
+     </xref>
+     ) revealed that most driver mutations in oncogenic kinases do not occur at conserved residues at all, and that their accurate prediction will require explicit attention to kinase regulation mechanisms. Motivated by these considerations, we assessed the effects of all
+     <em>
+      ALK
+     </em>
+     mutations defined here (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     and
+     <a>
+      Table S1
+     </a>
+     ) on in vitro kinase activity – to guide development of better prediction algorithms.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biochemical effects of clinically-observed ALK TKD mutations
+    </title>
+    <p>
+     We first monitored autophosphorylation of purified mutated ALK TKDs using native gel electrophoresis (
+     <a>
+      Figure S1
+     </a>
+     ) as described (
+     <xref ref-type="bibr">
+      Bresler et al., 2011
+     </xref>
+     ). The well-studied F1174L and R1275Q mutations greatly accelerated TKD autophosphorylation as expected. So did substitutions at 5 of the other positions listed in
+     <a>
+      Table S1
+     </a>
+     (M1166, I1170, I1171, F1245, and Y1278), as did the previously reported G1128A and R1192P germline neuroblastoma mutations (
+     <xref ref-type="bibr">
+      Bourdeaut et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Janoueix-Lerosey et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mossé et al., 2008
+     </xref>
+     ). Mutations at T1151, L1196, and G1286 also promoted modest constitutive activation. By contrast, substitutions at five other sites (I1183, A1200, R1231, T1343, and D1349) and those found in dbSNP (R1231Q and D1349H) failed to activate the isolated TKD (
+     <a>
+      Figure S1
+     </a>
+     ), signifying that these are unlikely to be clinically significant. D1270G-mutated ALK TKD failed to become autophosphorylated at all, suggesting that this is an inactivating mutation – as expected since D1270 lies in the conserved DFG motif essential for Mg
+     <sup>
+      2+
+     </sup>
+     -ATP binding to kinases. We did not analyze ALK TKDs harboring L1204F, L1240V, or I1250T mutations in this assay, since they were poorly expressed as recombinant proteins.
+    </p>
+    <p>
+     For more quantitative analyses, we assayed the ability of the mutated TKDs to phosphorylate a peptide corresponding to ALK's activation loop, and determined values for k
+     <sub>
+      cat
+     </sub>
+     , K
+     <sub>
+      M, ATP
+     </sub>
+     , and k
+     <sub>
+      cat
+     </sub>
+     /K
+     <sub>
+      M
+     </sub>
+     in vitro. We analyzed both fully auto-phosphorylated ALK TKDs and non-phosphorylated proteins (phosphatase treated as described in
+     <a>
+      Supplemental Experimental Procedures
+     </a>
+     ). Non-phosphorylated ALK TKD represents the ‘basal’ kinase state for each receptor variant, whereas autophosphorylated ALK TKDs represent the corresponding activated states – with k
+     <sub>
+      cat
+     </sub>
+     increased by ∼45-fold in the case of wild-type ALK (
+     <xref ref-type="bibr">
+      Bresler et al., 2011
+     </xref>
+     ).
+    </p>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Effects of mutations on basal activity of non-phosphorylated ALK TKD
+     </title>
+     <p>
+      The effects of mutations on non-phosphorylated ALK TKD activity vary according to their location in the kinase. F1174 and F1245 mutations have the strongest effect, increasing k
+      <sub>
+       cat
+      </sub>
+      by 36-39 fold (
+      <xref ref-type="fig">
+       Figure 3A
+      </xref>
+      ;
+      <a>
+       Table S4
+      </a>
+      ) – close to the 45-fold increase caused by autophosphorylation of wild-type ALK TKD (
+      <xref ref-type="bibr">
+       Bresler et al., 2011
+      </xref>
+      ). F1174 and F1245 contribute to a cluster of phenylalanine side-chains (red in
+      <xref ref-type="fig">
+       Figure 3
+      </xref>
+      : the ‘Phe core’) that normally stabilizes the autoinhibited TKD conformation (
+      <xref ref-type="bibr">
+       Bossi et al., 2010
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Lee et al., 2010
+      </xref>
+      ). Mutating these residues will destabilize ALK's autoinhibitory interactions and promote activation. Almost all of the other significantly activating mutations (increasing k
+      <sub>
+       cat
+      </sub>
+      by &gt;10-fold) occur either at residues in the αC-helix (M1166, I1170, I1171) or in the short α-helix within the activation loop of the inactive TKD (R1275, Y1278). These residues (blue in
+      <xref ref-type="fig">
+       Figure 3
+      </xref>
+      ) all participate in autoinhibitory interactions between helix αC and the activation loop α-helix that normally stabilize the inactive conformation of non-phosphorylated ALK TKD (
+      <xref ref-type="bibr">
+       Bossi et al., 2010
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Lee et al., 2010
+      </xref>
+      ), and are disrupted by the mutations analyzed here. Mutations in the N-lobe (green) or phosphate-binding P-loop (cyan) have much smaller effects on ALK TKD (
+      <xref ref-type="fig">
+       Figure 3A
+      </xref>
+      ). The only exception is the germline R1192P mutation (which increases k
+      <sub>
+       cat
+      </sub>
+      of non-phosphorylated ALK TKD by 15 fold). Mutations in the ALK TKD active site (magenta) or C-lobe (grey) have little or no influence on k
+      <sub>
+       cat
+      </sub>
+      (&lt;3-fold increase), except for the L1196M ‘gatekeeper’ mutation, which increases k
+      <sub>
+       cat
+      </sub>
+      by nearly 5 fold. Peptide phosphorylation studies further confirmed that the D1270G variant is inactive (
+      <a>
+       Table S4
+      </a>
+      ), and revealed a reduced activity for the I1250T (SNP) variant, consistent with previous work (
+      <xref ref-type="bibr">
+       Schönherr et al., 2011a
+      </xref>
+      ).
+     </p>
+     <fig id="F3" position="float">
+      <label>
+       Figure 3
+      </label>      <caption>
+       <strong>
+        k
+        <sub>
+         cat
+        </sub>
+        and K
+        <sub>
+         M, ATP
+        </sub>
+        values for mutated ALK TKD variants
+       </strong>
+       <p>
+        (
+        <strong>
+         A
+        </strong>
+        ) k
+        <sub>
+         cat
+        </sub>
+        values determined for non-phosphorylated ALK TKD variants at saturating (2 mM) ATP, with 2 mM YYY peptide and 10 mM MgCl
+        <sub>
+         2
+        </sub>
+        . (
+        <strong>
+         B
+        </strong>
+        ) K
+        <sub>
+         M, ATP
+        </sub>
+        for non-phosphorylated ALK TKD variants, determined with YYY peptide at 1.0 mM, ATP concentrations from 0.3125 to 2.0 mM, and MgCl
+        <sub>
+         2
+        </sub>
+        at 10 mM. Data for wild-type, F1174L, and R1275Q variants were reported previously (
+        <xref ref-type="bibr">
+         Bresler et al., 2011
+        </xref>
+        ). (
+        <strong>
+         C
+        </strong>
+        ) k
+        <sub>
+         cat
+        </sub>
+        values for phosphorylated ALK TKD variants, determined as in (
+        <strong>
+         A
+        </strong>
+        ). Data (obtained at 25°C) are all shown as mean ± SEM from at least 3 independent experiments. (
+        <strong>
+         D
+        </strong>
+        ) ALK TKD crystal structure from PDB entry 3LCS (
+        <xref ref-type="bibr">
+         Lee et al., 2010
+        </xref>
+        ), with important structural regions colored as follows: αC/activation loop interface (blue); Phe core (red); P-loop (cyan); N-lobe (green); active site (magenta); and C-lobe (gray). See also
+        <a>
+         Figure S2 and Tables S4 and S5
+        </a>
+        .
+       </p>
+      </caption>
+     </fig>
+     <p>
+      K
+      <sub>
+       M, ATP
+      </sub>
+      values for non-phosphorylated ALK TKD variants (discussed in more detail below) all fell within a narrow range from 0.13 mM (wild-type) to 0.39 mM (L1196M) – suggesting that all variants are saturated with ATP under physiological conditions (
+      <xref ref-type="fig">
+       Figure 3B
+      </xref>
+      ). Accordingly, catalytic efficiencies (k
+      <sub>
+       cat
+      </sub>
+      /K
+      <sub>
+       M, ATP
+      </sub>
+      ) for non-phosphorylated ALK TKD variants (
+      <a>
+       Figure S2A
+      </a>
+      ) follow very similar trends to those seen for k
+      <sub>
+       cat
+      </sub>
+      . The same is true for k
+      <sub>
+       cat
+      </sub>
+      /K
+      <sub>
+       M, peptide
+      </sub>
+      values (
+      <a>
+       Figure S2B
+      </a>
+      ).
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Effects of neuroblastoma mutations on activity of fully autophosphorylated ALK TKD
+     </title>
+     <p>
+      The effects of patient-derived
+      <em>
+       ALK
+      </em>
+      mutations on the activity of fully autophosphorylated ALK TKD (prepared as described in
+      <a>
+       Supplemental Experimental Procedures
+      </a>
+      ) were much more modest. With the exception of the I1170N variant (for which k
+      <sub>
+       cat
+      </sub>
+      was just 35% of wild-type), no variant was altered by more than 2-fold in k
+      <sub>
+       cat
+      </sub>
+      (
+      <xref ref-type="fig">
+       Figure 3C
+      </xref>
+      ,
+      <a>
+       Table S5
+      </a>
+      ). Overall, therefore, neuroblastoma-derived mutations have their greatest effects on the activity of non-phosphorylated ALK TKD, promoting its constitutive autophosphorylation and thus ligand-independent signaling by the intact receptor.
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Transforming ability of mutated ALK variants
+    </title>
+    <p>
+     To assess how biochemical characteristics relate to transforming ability we measured the ability of intact ALK variants harboring the same TKD mutations to induce focus formation in NIH 3T3 cells (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). As shown in
+     <xref ref-type="fig">
+      Figure 4B and C
+     </xref>
+     , quantitation of focus formation assays (
+     <a>
+      Table S6
+     </a>
+     ) reveals a remarkably close correspondence between transforming potential and in vitro k
+     <sub>
+      cat
+     </sub>
+     value for the corresponding non-phosphorylated TKD variants (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). A plot of transforming ability against k
+     <sub>
+      cat
+     </sub>
+     for non-phosphorylated TKD (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ) yields a straight line with correlation coefficient (r) of 0.95 (p&lt;0.0001). Relative outliers were G1128A (in the P-loop) and L1196M (in the active site), which both appeared relatively more transforming than suggested by in vitro biochemical data, and M1166R, which appeared less transforming than expected by this simple correlation. Transforming potential correlates with k
+     <sub>
+      cat
+     </sub>
+     of the non-phosphorylated TKD slightly better than it does with either measure of catalytic efficiency: k
+     <sub>
+      cat
+     </sub>
+     /K
+     <sub>
+      M, ATP
+     </sub>
+     (r=0.88) or k
+     <sub>
+      cat
+     </sub>
+     /K
+     <sub>
+      M, peptide
+     </sub>
+     (r=0.89). By contrast, when transforming ability is plotted against k
+     <sub>
+      cat
+     </sub>
+     for phosphorylated TKD variants, the slope does not deviate significantly from zero (p=0.68), indicating no correlation (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ,
+     <a>
+      Figure S2C
+     </a>
+     ).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       Transformation potential of ALK mutants from NIH 3T3 focus formation assays
+      </strong>
+      <p>
+       <strong>
+        (A)
+       </strong>
+       Representative focus formation assays for NIH 3T3 cells transfected with intact ALK variants or empty vector. (
+       <strong>
+        B
+       </strong>
+       ) Quantitation of data from (
+       <strong>
+        A
+       </strong>
+       ). To correct for transfection efficiency, the number of foci for each transfection was divided by the number of G418-resistant colonies, and transforming ability plotted as foci per G418-resistant colony. Each independent experiment was performed in duplicate and data are presented as mean ± SEM of at least three independent experiments (see
+       <a>
+        Table S6
+       </a>
+       ). (
+       <strong>
+        C
+       </strong>
+       ) Plots of ALK transforming ability against in vitro k
+       <sub>
+        cat
+       </sub>
+       for non-phosphorylated ALK TKD (left) or autophosphorylated ALK TKD (right). The lines are linear regressions to the data. Correlation coefficients were 0.95 (non-phosphorylated) and 0.095 (phosphorylated), with significant deviation from zero for non-phosphorylated ALK TKD (p&lt;0.0001) but not phosphorylated ALK TKD (p=0.68).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Taken together, the data in
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     argue that activity of the non-phosphorylated ALK TKD is an excellent predictor of ALK's transforming ability in NIH 3T3 cells. An increase of just 4.6 – 4.8-fold in the k
+     <sub>
+      cat
+     </sub>
+     of non-phosphorylated ALK TKD appears sufficient for NIH 3T3 cell transformation, judging from results with the G1128A (cyan) and L1196M (magenta) variants (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ,
+     <a>
+      Table S4
+     </a>
+     ). The one exception to this correlation is the N-lobe T1151M variant, for which a relatively reduced k
+     <sub>
+      cat
+     </sub>
+     /K
+     <sub>
+      M, peptide
+     </sub>
+     value (
+     <a>
+      Figure S2B, Table S4
+     </a>
+     ) may explain failure to transform NIH 3T3 cells (presumably because of elevated K
+     <sub>
+      M, peptide
+     </sub>
+     ). It is important to note that none of the three
+     <em>
+      ALK
+     </em>
+     mutations previously reported in dbSNP (R1231Q, I1250T, and D1349H, all in the C-lobe) were associated with ALK activation in transformation or biochemical assays (
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ); these are silent or passenger mutations. Moreover, analysis of transforming ability in
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     (as a measure of oncogenicity) paints a very different functional picture from that predicted by PolyPhen-2 or SIFT across the spectrum of
+     <em>
+      ALK
+     </em>
+     mutations. These algorithms predict that all mutations (except R1060H and R1231Q) are damaging or affect function – whereas our experimental analysis shows that 11 of the 24 mutations have no significant activating effect. ALK is unlikely to be an important driver in neuroblastoma cases with any of these non-activating mutations, and crizotinib is very unlikely to be therapeutically useful in these contexts. The ‘silent’ mutations account for one of every ∼11 of
+     <em>
+      ALK
+     </em>
+     -mutated patients, and it is important to identify them.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crizotinib sensitivities of recombinant ALK TKD variants
+    </title>
+    <p>
+     At least two of the ALK driver mutations observed in neuroblastoma (F1174L and L1196M) have also arisen as acquired crizotinib resistance mutations in tumors driven by oncogenic ALK fusion proteins (
+     <xref ref-type="bibr">
+      Choi et al., 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sasaki et al., 2010
+     </xref>
+     ). These findings suggest that primary resistance will be a major concern in crizotinib treatment of
+     <em>
+      ALK
+     </em>
+     -mutated neuroblastoma, as we have discussed previously (
+     <xref ref-type="bibr">
+      Bresler et al., 2011
+     </xref>
+     ). A mere ∼3-fold reduction in K
+     <sub>
+      M, ATP
+     </sub>
+     appeared sufficient to impair in vivo crizotinib sensitivity of F1174L-mutated ALK when compared with the R1275Q variant, consistent with the appearance of F1174L as an acquired resistance mutation in both a crizotinib-treated inflammatory myofibroblastic tumor (
+     <xref ref-type="bibr">
+      Sasaki et al., 2010
+     </xref>
+     ) and in vitro screens for crizotinib-resistance mutations in EML4-ALK (
+     <xref ref-type="bibr">
+      Zhang et al., 2011
+     </xref>
+     ).
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     lists K
+     <sub>
+      M, ATP
+     </sub>
+     values for the other non-phosphorylated ALK TKD variants described here. Based solely on reduced K
+     <sub>
+      M, ATP
+     </sub>
+     values (as for F1174L), and assuming unchanged crizotinib affinity, the G1128A, M1166R, F1245C, F1245V, or Y1278S variants would be suggested to be relatively crizotinib resistant, whereas the I1170N, I1170S, I1171N, and L1196M (gatekeeper) variants would be argued to resemble R1275Q in being sensitive to crizotinib (with relatively larger K
+     <sub>
+      M, ATP
+     </sub>
+     values). R1192P is intermediate.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Crizotinib Sensitivities of Non-phosphorylated ALK-TKD Mutants at 2.0 mM ATP
+         <sup>
+          a
+         </sup>
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Direct measurement of crizotinib IC
+     <sub>
+      50
+     </sub>
+     values in vitro (at 2 mM ATP), however, reveals that the correlation with K
+     <sub>
+      M, ATP
+     </sub>
+     is not simple. The L1196M (gatekeeper) variant is resistant to crizotinib (
+     <a>
+      Figure S3
+     </a>
+     ) despite its high K
+     <sub>
+      M, ATP
+     </sub>
+     – indicating a differential effect of this mutation on ATP and crizotinib binding, as expected from its appearance as an acquired resistance mutation (
+     <xref ref-type="bibr">
+      Katayama et al., 2011
+     </xref>
+     ). Similarly, I1171N-mutated ALK is less crizotinib sensitive in vitro than a simple view of ATP competition (and K
+     <sub>
+      M, ATP
+     </sub>
+     ) would suggest – further supported by the fact that mutations at I1171 emerged alongside F1174 mutations in screens for crizotinib-resistant variants of EML4-ALK (
+     <xref ref-type="bibr">
+      Zhang et al., 2011
+     </xref>
+     ). By contrast, the M1166R, F1245V, and F1245C variants are more sensitive to crizotinib in vitro than simple consideration of K
+     <sub>
+      M, ATP
+     </sub>
+     would suggest – resembling the R1275Q variant in our in vitro crizotinib inhibition studies (
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     ) and NIH 3T3 focus assays (not shown). This finding is particularly important given that F1245 is the third most commonly mutated site in neuroblastoma, accounting for ∼12% of mutations. Our data suggest that cases with F1245 mutations should respond to crizotinib just as well as R1275Q-mutated tumors.
+    </p>
+    <p>
+     The data in
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     make it clear that the individual ALK TKD mutations affect binding of ATP and crizotinib in different ways, and assessment of IC
+     <sub>
+      50
+     </sub>
+     values for a selection of mutations in NIH 3T3 focus assays (not shown) concurs. For example, the L1196M mutation impairs crizotinib binding more than ATP binding – thus causing resistance to the drug. It will therefore be important to compare the relative abilities of next generation ALK inhibitors to inhibit the variants studied here. One new inhibitor, called ceritinib, was recently shown to inhibit ALK variants with crizotinib-resistant L1196M, or I1171T mutations (
+     <xref ref-type="bibr">
+      Friboulet et al., 2014
+     </xref>
+     ), but not to overcome resistance of an F1174 mutation. Other inhibitors are also known to have differential effects on crizotinib-resistance mutations acquired in
+     <em>
+      ALK
+     </em>
+     -rearranged lung cancers (
+     <xref ref-type="bibr">
+      Johnson et al., 2014
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sakamoto et al., 2011
+     </xref>
+     ). The data in
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     suggest that neuroblastoma patients with ALK-activating M1166R, I1170N/S or F1245 mutations should respond to crizotinib just as well as R1275Q-mutated patients. Patients with I1171 or L1196 mutations are likely to respond better to ceritinib, and those with F1174L (and possible other) mutations might be more responsive to the macrocyclic inhibitor PF-06463922 (
+     <xref ref-type="bibr">
+      Johnson et al., 2014
+     </xref>
+     ). Y1278, R1192 and G1128 mutations appear to be intermediate between these two groups, and comparative studies of ALK inhibitors are needed to determine which inhibitor would be best for these cases.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Computational analysis of mutated ALK TKDs
+    </title>
+    <p>
+     The poor performance of existing informatics-based approaches in distinguishing activating from non-activating amino acid substitutions prompted us to investigate structure-based computational methods for assessing newly emerging
+     <em>
+      ALK
+     </em>
+     mutations. Importantly, apart from already published data, the computational analysis was done without prior knowledge of biochemical results emerging from this study. As described in
+     <a>
+      Supplemental Experimental Procedures
+     </a>
+     , we simulated molecular dynamics (MD) trajectories for the inactive conformation of all mutated ALK TKD variants, and for wild-type ALK TKD, in both active and inactive conformations. The resulting MD trajectories were analyzed for three key structural properties:
+    </p>
+    <sec>
+     <p>
+     </p>
+     <title>
+      i). Hydrogen bonding network
+     </title>
+     <p>
+      Distinct sets of key intramolecular hydrogen bonds characterize the active and inactive ALK TKD configurations. Those that maintain the (autoinhibited) positions of the activation loop and αC helix in the inactive TKD (in
+      <xref ref-type="fig">
+       Figure 3D
+      </xref>
+      ) are absent in the active structure. A simple scoring function (see
+      <a>
+       Supplemental Experimental Procedures
+      </a>
+      ) was used to determine whether each mutation promotes a more ‘active-like’ or ‘inactive-like’ hydrogen-bonding network (
+      <a>
+       <span>
+        Table 4
+       </span>
+      </a>
+      ).
+     </p>
+     <sec>
+      <a>
+       <img/>
+      </a>
+      <sec>
+       <sec>
+        <a>
+         Table 4
+        </a>
+       </sec>
+       <sec>
+        <span>
+         <strong>
+          Computational Prediction of Effects of ALK TKD Mutations
+         </strong>
+        </span>
+       </sec>
+      </sec>
+     </sec>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      ii). Hydrophobic interaction network
+     </title>
+     <p>
+      As mentioned above, key autoinhibitory interactions are stabilized in the inactive conformation by residues with hydrophobic side-chains – notably those in the Phe-core (red in
+      <xref ref-type="fig">
+       Figure 3D
+      </xref>
+      ) and contacts between the αC-helix and short activation-loop helix (blue in
+      <xref ref-type="fig">
+       Figure 3D
+      </xref>
+      ). Disruption of these autoinhibitory hydrophobic interactions can be assessed readily by monitoring the solvent-accessible surface area (SASA) of relevant residues throughout the MD trajectories. If SASA increases as a result of a neuroblastoma mutation, the mutation is classed as ‘activating’. To further determine whether observed changes in SASA favor the active state, free energy perturbation (FEP) simulations were used to determine whether each mutation significantly destabilizes the inactive state relative to the active state (in which case it is classed as ‘activating’).
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      iii). Principal component analysis (PCA)
+     </title>
+     <p>
+      PCA reveals correlated global motions across the MD trajectory. The top 10 dominant modes are considerably different (greater) in the active conformation than in inactive ALK TKD (indicating greater motion), as seen for other kinases (
+      <xref ref-type="bibr">
+       Shih et al., 2011
+      </xref>
+      ). As outlined in
+      <a>
+       Supplemental Experimental Procedures
+      </a>
+      , each mutant with a top eigenvalue above 200 Å
+      <sup>
+       2
+      </sup>
+      is scored as activating (indicating destabilization of key autoinhibitory interactions).
+     </p>
+     <p>
+      A mutation is predicted to be ‘activating’ overall if it scores as such in one or more of the three criteria outlined above. As shown in
+      <a>
+       <span>
+        Table 4
+       </span>
+      </a>
+      , predictions for each mutated ALK TKD variant studied here agree quite well with our experimental studies. Moreover, the computational analysis suggests a possible mechanism of activation for each mutation, i.e., by perturbing hydrophilic interactions, hydrophobic interactions, or global conformation. All of the mutations that elevate k
+      <sub>
+       cat
+      </sub>
+      of non-phosphorylated ALK TKD by over 5-fold were predicted correctly except two (I1171N, and F1245C), as listed in
+      <a>
+       <span>
+        Table 4
+       </span>
+      </a>
+      . Perhaps more importantly, our computational analysis correctly predicts the majority of mutations that are not activating – thus showing its value in distinguishing passenger from driver mutations and its potential utility for patient stratification. There are a few exceptions, however. The T1151M mutation was designated as activating in our computational analysis, but did not transform NIH 3T3 cells (
+      <xref ref-type="fig">
+       Figure 4
+      </xref>
+      ). Although biochemical analysis indicated an elevated k
+      <sub>
+       cat
+      </sub>
+      for this variant, it has a reduced k
+      <sub>
+       cat
+      </sub>
+      /K
+      <sub>
+       M, peptide
+      </sub>
+      , apparently arising from an elevated K
+      <sub>
+       M, peptide
+      </sub>
+      that would not be captured computationally. The I1250T and D1270G mutations – both also predicted to be activating using our computational approach – are special cases. D1270 is the conserved DFG aspartate, and loss of its side-chain removes a functional group essential for Mg
+      <sup>
+       2+
+      </sup>
+      binding to the TKD. The I1250T mutation impairs protein stability and/or folding (as assessed by poor expression) in a way that the model cannot predict, so no activating effect is seen experimentally. The computational analysis also failed to predict three transforming mutations (
+      <a>
+       <span>
+        Table 4
+       </span>
+      </a>
+      ): F1245C, I1171N, and L1196M (the gatekeeper mutation), for reasons that are less clear. Overall, however, our computational approach correctly predicts 75% of the transforming mutations and – importantly – over 75% of silent mutations (excepting special cases). By contrast, PolyPhen-2 (
+      <a>
+       <span>
+        Table 4
+       </span>
+      </a>
+      , right-most column) predicts only one silent mutation correctly and is plagued with false positives. It is important to reiterate that our computational studies were undertaken with no prior knowledge of the results shown in
+      <xref ref-type="fig">
+       Figures 3
+      </xref>
+      and
+      <xref ref-type="fig">
+       None
+      </xref>
+      (with the exception of previously published results).
+     </p>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Discovery of activating mutations in the intact
+    <em>
+     ALK
+    </em>
+    gene as drivers in neuroblastoma provided the first example of a pediatric cancer caused by germline mutations in an oncogene, and the only druggable mutation in a pediatric solid tumor. We characterized the spectrum and frequency of germline and somatic alterations in
+    <em>
+     ALK
+    </em>
+    across all neuroblastoma disease subsets in 1596 patients. This dataset is powered to identify
+    <em>
+     ALK
+    </em>
+    mutations in neuroblastoma that, while rare, are still clinically relevant, and to have sufficient power to determine the prognostic capability of
+    <em>
+     ALK
+    </em>
+    alterations within each neuroblastoma risk group (high, intermediate, and low). In addition, cataloguing
+    <em>
+     ALK
+    </em>
+    mutations in these tumors allowed us to correlate sequence variations with oncogenic potency. Some of the observed mutations are unlikely to be oncogenic, and the activated variants differ in their sensitivity to crizotinib – with potentially important therapeutic implications. In multivariable models of the overall cohort, and within each risk group, both the presence of an
+    <em>
+     ALK
+    </em>
+    mutation (except within the low-risk group) and the presence of any
+    <em>
+     ALK
+    </em>
+    aberration were shown to correlate independently with worse EFS. These findings illustrate the value of determining
+    <em>
+     ALK
+    </em>
+    status for prognostic patient stratification, and also support the potential importance of ALK as a therapeutic target.
+   </p>
+   <p>
+    <em>
+     ALK
+    </em>
+    mutations were observed in 8% of neuroblastoma patients, and span the entire spectrum of disease, including INSS Stage 4 disease, congenital cases, and adolescents/young adults. The fact that
+    <em>
+     ALK
+    </em>
+    mutations occur at the highest frequency (17%) in patients older than 10 suggests differences in the occurrence of genetic mutations based on age, reminiscent of the recently reported age distribution of ATRX mutations in neuroblastoma (
+    <xref ref-type="bibr">
+     Cheung et al., 2012
+    </xref>
+    ). Within the high-risk subset of neuroblastoma patients the overall frequency of
+    <em>
+     ALK
+    </em>
+    aberration is 14% (10% mutation, 4% amplification). High-risk patients have the poorest outcomes, with approximately only 50% OS despite intensive multi-modal therapy including chemotherapy, surgery, myeloablative conditioning with bone marrow transplant, radiation therapy and immunotherapy plus retinoic acid (
+    <xref ref-type="bibr">
+     Maris, 2010
+    </xref>
+    ) – making these patients excellent candidates for ALK-targeted therapy. Within the low- and intermediate-risk groups, the frequency of
+    <em>
+     ALK
+    </em>
+    aberration is 6% and 8% respectively. In low-risk cases, therapy usually involves observation, with or without surgical intervention, whereas patients with intermediate-risk disease are treated with conventional cytotoxic chemotherapy and are at risk for the associated late effects. Our results suggest an important opportunity within the intermediate-risk group to identify those with an activating
+    <em>
+     ALK
+    </em>
+    mutation for treatment with ALK inhibitors and de-escalation of traditional cytotoxic therapy.
+   </p>
+   <p>
+    Of the 24 different patient-derived
+    <em>
+     ALK
+    </em>
+    mutations assessed, only 13 drove transformation of NIH 3T3 cells. Where our studies overlap with other analyses of transformation by ALK variants found in neuroblastoma, they are in complete agreement (
+    <xref ref-type="bibr">
+     Chand et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     George et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schönherr et al., 2011a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schönherr et al., 2011b
+    </xref>
+    ). Importantly, every mutation that promoted transformation also constitutively activated the ALK TKD, with remarkable correlation between transforming activity and in vitro k
+    <sub>
+     cat
+    </sub>
+    value for the non-phosphorylated TKD. Eleven of the 24 mutations (representing 9% of
+    <em>
+     ALK
+    </em>
+    -mutated patients in this study) appeared silent or even inactivating. Of the activating mutations, in vitro analyses suggest that only 6 (including R1275Q) will be sensitive to inhibition by crizotinib in vivo. Some others are likely to respond better to next generation inhibitors that appear capable of inhibiting L1196M and I1171 variants (ceritinib) or F1174 variants (PF-06463922). Further comparative studies with these inhibitors are required to identify which is optimal for each variant.
+   </p>
+   <p>
+    Using a molecular dynamics (MD)-based computational approach, we showed that we can predict which mutations are activating – and more importantly which are not activating – with a success rate that greatly exceeds methods such as SIFT, PolyPhen-2, PredictSNP, and others. For example, our method correctly (and blindly) predicted the consequences of all newly described
+    <em>
+     ALK
+    </em>
+    mutations presented in this report, with D1270G as the one exception (where a catalytically crucial residue is mutated). It is important to note that our computational analysis assesses kinase activation, and not transformation itself – but our biochemical data indicate that elevating k
+    <sub>
+     cat
+    </sub>
+    of non-phosphorylated ALK TKD by 4.6-fold or more causes the receptor to be transforming. Our computational analysis of
+    <em>
+     ALK
+    </em>
+    mutations has significant promise as a clinical tool, and will improve with further training and testing using additional clinically observed (and experimental) mutations. It will also be important to apply computational approaches similar to those that we have employed for EGFR (
+    <xref ref-type="bibr">
+     Park et al., 2012
+    </xref>
+    ) in efforts to predict inhibitor sensitivity.
+   </p>
+   <p>
+    Our findings allow us to formulate molecular diagnostic screening recommendations for newly diagnosed neuroblastoma patients, which will be important in clinical evaluation of ALK inhibitors for childhood cancer. We demonstrate that
+    <em>
+     ALK
+    </em>
+    is a predictive therapeutic biomarker of disease status, and also provides a therapeutic target in a select group of patients. With additional molecularly targeted therapeutics and computational models that leverage biochemical understanding to predict the effect of newly emerging
+    <em>
+     ALK
+    </em>
+    mutations, we should now be able to make upfront predictions about which patients are most likely to respond to crizotinib or other ALK inhibitors and (importantly) identify those that will not. Related approaches have been successful with imatinib in chronic myeloid leukemia, gefitinib in NSCLC, and most recently crizotinib in
+    <em>
+     ALK
+    </em>
+    -translocated NSCLC – although functional stratification of individual mutations along the lines described here has not yet been achieved. We are now poised to develop a responder hypothesis as part of a therapeutic strategy that incorporates pharmacologic ALK inhibition into the backbone of contemporary treatment regimens in neuroblastoma. Our phase 1 trial of crizotinib showed some promising responses even in heavily pretreated patients with
+    <em>
+     ALK
+    </em>
+    mutations with recurrent or refractory late-stage disease (
+    <xref ref-type="bibr">
+     Mossé et al., 2013
+    </xref>
+    ), despite the facts that these heavily pre-treated patients are frequently multi-drug resistant, and also show an increased prevalence of p53 mutations at relapse (
+    <xref ref-type="bibr">
+     Carr-Wilkinson et al., 2010
+    </xref>
+    ) – confounding factors that were not assessed. In newly diagnosed patients, where these issues are not relevant (and p53 mutations are rare), we expect upfront ALK-targeted treatment guided by the results described here to yield dramatically improved results.
+   </p>
+   <p>
+    In addition, our findings will help advance the management of individuals with neuroblastoma predisposition. Individuals with a germline
+    <em>
+     ALK
+    </em>
+    variation of unknown significance may have siblings who also harbor these variants, emphasizing the importance of understanding which alleles are indeed risk-alleles so as to determine their risk of developing neuroblastoma, and to offer appropriate clinical screening. No models have yet been established for effective early detection strategies or improving clinical outcomes when germline
+    <em>
+     ALK
+    </em>
+    variations are detected. Implementing clinical surveillance strategies for unaffected children (possibly even adults) with neuroblastoma carrying a germline
+    <em>
+     ALK
+    </em>
+    variant should be guided by data such as those presented here, recognizing the implications of the use of predictive genetic screening and surveillance practices and the absence of evidence of benefit from early detection in these individuals.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <sec>
+    <title>
+     Patient population
+    </title>
+    <p>
+     <em>
+      ALK
+     </em>
+     genomic status was evaluated in 1596 diagnostic tumor DNA samples from patients enrolled on COG neuroblastoma biology protocol ANBL00B1. Matched germline DNA was available in 88 of the 126 cases with identified
+     <em>
+      ALK
+     </em>
+     mutations. Most samples were annotated with clinical and genomic information including age, site of origin, International Neuroblastoma Staging System (INSS) stage, International Neuroblastoma Pathologic Classification (INPC),
+     <em>
+      MYCN
+     </em>
+     copy number, DNA index, registration on clinical trial(s), event-free and overall survival, and tumor DNA copy number/LOH status at chromosome bands 1p36 and 11q23 (
+     <xref ref-type="bibr">
+      Attiyeh et al., 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Morowitz et al., 2003
+     </xref>
+     ). All cases had a confirmed diagnosis of neuroblastoma, and had associated informed consent and enrollment on a COG biology study. This research was approved by the Children's Hospital of Philadelphia Institutional Review Board and the Cancer Therapy Evaluation Program.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sequencing and copy number determination
+    </title>
+    <p>
+     Sanger-based DNA re-sequencing of the
+     <em>
+      ALK
+     </em>
+     TKD (exons 21-28) was performed by Beckman Coulter Genomics using BigDye Terminator v3.1 Cycle Sequencing chemistry on an ABI PRISM 3730×l sequencer. Electropherograms were analyzed using Sequencher 4.9 software. For each tumor harboring a somatic mutation, we sequenced the corresponding amplicon in matched germline DNA where available. Variations were crosschecked for polymorphism status in dbSNP and COSMIC databases, and a panel of 218 normal control alleles. Copy number determination employed whole-genome SNP-array analyses (550k) for 577 samples, and realtime quantitative PCR for 1122 (see
+     <a>
+      Supplemental Experimental Procedures
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Statistical considerations
+    </title>
+    <p>
+     Risk factors tested for prognostic significance were age (&lt;18 months versus ≥18 months), INSS stage (stage 1,2,3,4s versus stage 4), histology (favorable versus unfavorable), ploidy (hyperdiploid versus diploid),
+     <em>
+      MYCN
+     </em>
+     status (not amplified versus amplified), 11q status (no loss versus LOH), and 1p status (no loss versus LOH). For univariable analyses, EFS and OS times were calculated as described in
+     <a>
+      Supplemental Experimental Procedures
+     </a>
+     . A chi-squared test was used to test association between each risk factor and presence of
+     <em>
+      ALK
+     </em>
+     mutation, presence of
+     <em>
+      ALK
+     </em>
+     copy number variation, and presence of any
+     <em>
+      ALK
+     </em>
+     aberration. p values were not adjusted for multiple comparisons, with p&lt;0.05 considered statistically significant. For multivariable analyses, using backwards selection model building, a Cox proportional hazards regression model was used to test for the independent statistical significance of
+     <em>
+      ALK
+     </em>
+     mutations or copy number variations after adjustment for statistically significant risk factors, and to calculate the p value and hazard ratio (HR) for each factor.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Recombinant protein expression, purification, and analysis
+    </title>
+    <p>
+     Histidine-tagged wild-type and mutated ALK TKD variants were produced from baculovirus-infected Sf9 cells in non-phosphorylated and fully autophosphorylated forms as described (
+     <xref ref-type="bibr">
+      Bresler et al., 2011
+     </xref>
+     ), and assessed for kinase activity as described in
+     <a>
+      Supplemental Experimental Procedures
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Focus formation assays
+    </title>
+    <p>
+     Focus formation assays were performed as described (
+     <xref ref-type="bibr">
+      Burke et al., 1997
+     </xref>
+     ), with details in
+     <a>
+      Supplemental Experimental Procedures
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     1
+    </title>
+    <p>
+     Figure S1: Native Gel Analysis of ALK TKD Mutants.
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     )
+    </p>
+    <p>
+     Figure S2: Catalytic Efficiencies of ALK TKD Variants.
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     )
+    </p>
+    <p>
+     Figure S3: The L1196M Mutant is Crizotinib-Resistant Despite its high KM, ATP.
+    </p>
+    <p>
+     (related to
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     )
+    </p>
+    <p>
+     Table S1: Genomic Coordinates of Mutations Identified (and Resulting Amino Acid Substitutions).
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     )
+    </p>
+    <p>
+     Table S2: ALK Mutation and Amplification Status by NB Risk Group and Age.
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     )
+    </p>
+    <p>
+     Table S3: ALK Aberrations by Risk Group.
+    </p>
+    <p>
+     (related to
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     )
+    </p>
+    <p>
+     Table S4: Kinetic Properties of Non-phosphorylated ALK TKD Variants.
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     )
+    </p>
+    <p>
+     Table S5: Kinetic Properties of Phosphorylated ALK TKD Variants.
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     )
+    </p>
+    <p>
+     Table S6: Quantitation of Focus Formation Assays for Intact ALK Variants in NIH 3T3 Cells.
+    </p>
+    <p>
+     (related to
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     )
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (29K, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.4M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

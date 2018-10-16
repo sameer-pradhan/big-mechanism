@@ -1,0 +1,3294 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4263503
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Hsp90-Tau Complex Reveals Molecular Basis for Specificity in Chaperone Action
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     Protein folding in the cell relies on the orchestrated action of conserved families of molecular chaperones, the Hsp70 and Hsp90 systems. Hsp70 acts early and Hsp90 late in the folding path, yet the molecular basis of this timing is enigmatic, mainly because the substrate specificity of Hsp90 is poorly understood. Here we obtained a structural model of Hsp90 in complex with its natural disease-associated substrate, the intrinsically disordered Tau protein. Hsp90 binds to a broad region in Tau that includes the aggregation-prone repeats. Complementarily, a 106 Å long substrate-binding interface in Hsp90 enables many low affinity contacts. It allows recognition of scattered hydrophobic residues in late folding intermediates that remain after early burial of the Hsp70 sites. Our model resolves the paradox of how Hsp90 specifically selects for late folding intermediates but also for some intrinsically disordered proteins – through the eyes of Hsp90 they look the same.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     molecular chaperones, protein folding, NMR spectroscopy, SAXS, protein-protein interactions, Alzheimer disease, intrinsically disordered proteins
+    </span>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Protein folding in the cell is controlled by conserved families of molecular chaperones (
+    <xref ref-type="bibr">
+     Hartl et al., 2011
+    </xref>
+    ). Crucial for the chaperone network in the cytoplasm are the ATP-driven Hsp70 and Hsp90 families (
+    <xref ref-type="bibr">
+     Bukau et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mayer, 2010
+    </xref>
+    ). Both are complex systems that are controlled by co-chaperones and their activity is linked by the adaptor protein Hop (
+    <xref ref-type="bibr">
+     Li et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mayer, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pearl and Prodromou, 2006
+    </xref>
+    ). One of the central questions in protein folding is how and when each of the chaperones assists the folding of a newly born protein in the cell.
+   </p>
+   <p>
+    Hsp70 chaperones recognise short hydrophobic sequences particularly enriched in leucine and are thought to interact with substrate proteins in the early stages of the folding path (
+    <xref ref-type="bibr">
+     Bukau et al., 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rüdiger et al., 1997a
+    </xref>
+    ). In contrast, Hsp90 acts during late folding stages, especially with proteins involved in signal transduction (
+    <xref ref-type="bibr">
+     Jakob et al., 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pearl and Prodromou, 2006
+    </xref>
+    ). The molecular basis for the task distribution between Hsp90 and Hsp70, however, is unclear. This is predominantly due to the lack of mechanistic understanding of Hsp90 interaction with its client proteins (
+    <xref ref-type="bibr">
+     Mayer, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    The substrate pool of Hsp90 does not share a common sequence or structural motif (
+    <xref ref-type="bibr">
+     Taipale et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Taipale et al., 2012
+    </xref>
+    ). Hsp90 interacts with a specific but structurally diverse subset of client proteins including kinases and steroid receptors (
+    <xref ref-type="bibr">
+     Echeverria and Picard, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jakob et al., 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pearl and Prodromou, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Street et al., 2011
+    </xref>
+    ). Interestingly, Hsp90 also interacts with some intrinsically disordered proteins, including the microtubule-associated protein Tau (
+    <xref ref-type="bibr">
+     Dickey et al., 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dou et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyata et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Thompson et al., 2012
+    </xref>
+    ).
+   </p>
+   <p>
+    Tau normally stabilises microtubules which serve as tracks for axonal transport in neurons (
+    <xref ref-type="bibr">
+     Mandelkow and Mandelkow, 2012
+    </xref>
+    ). It also accumulates abnormally in brain tissue of Alzheimer disease patients and is closely linked with neuronal toxicity in this most common neurodegenerative disease (
+    <xref ref-type="bibr">
+     Ittner et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roberson et al., 2007
+    </xref>
+    ). Hsp90 facilitates microtubule association of Tau, but can also work with other (co-)chaperones, such as the ubiquitin ligase CHIP, to facilitate Tau degradation. In this way, Hsp90 can promote both stabilization and degradation of Tau (
+    <xref ref-type="bibr">
+     Dickey et al., 2007
+    </xref>
+    ). Mutant Tau is particularly susceptible to inhibition of Hsp90, making it a promising lead for therapeutic strategies in Alzheimer disease and other Tau-related disorders (
+    <xref ref-type="bibr">
+     Dou et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Luo et al., 2007
+    </xref>
+    ). The molecular basis for Hsp90 interaction with Tau, however, is enigmatic. Tau is unfolded in its native conformation, which challenges the paradigm that chaperones support protein folding and maturation.
+   </p>
+   <p>
+    It is essential to determine Hsp90’s substrate binding site to reveal the molecular principles of its substrate recognition. This is a prerequisite to understand three central questions on chaperone action in the cell (i) How can the Hsp90 system take care of a diverse substrate pool, ranging from late folding states of kinases to proteins that never fold, such as Tau? (ii) How does the Hsp90 system share tasks with other chaperone systems, such as the Hsp70 machine? (iii) What determines the timing of chaperone action in the cell?
+   </p>
+   <p>
+    By combining a novel NMR approach with small-angle X-ray scattering (SAXS), we obtained a structural model of Hsp90 in complex with the Tau protein. A unique, extended binding interface in Hsp90 binds to Tau. Complementary, Hsp90 recognises a broad region that includes the aggregation-prone repeats in Tau. The long binding site predisposes Hsp90 to provide many low affinity contacts and hydrophobic residues as they scatter over the outer sphere of late folding intermediates. Thereby, Hsp90 can profit from the compaction that takes place in the early folding stages, after which Hsp70 sites are already buried. Our model resolves the paradox on how Hsp90 specifically selects for late folding intermediates but also some intrinsically disordered proteins.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     Hsp90 binds to disordered Tau with low micromolar affinity
+    </title>
+    <p>
+     To study the affinity of Tau for Hsp90, we monitored intrinsic protein fluorescence (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ). Titration of Hsp90 with tryptophan-free Tau revealed a binding affinity typical for chaperone-substrate interactions. Tau saturates Hsp90 and the affinity is sufficient for interaction of these abundant proteins at physiological levels (K
+     <sub>
+      D
+     </sub>
+     = 4.8 ± 1.0 µM;
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Rüdiger et al., 1997a
+     </xref>
+     ). As Hsp90 is an ATP-regulated machine, we used the ATP analogue ATPγS to measure Hsp90’s affinity for Tau in the ATP state (
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ). However, Hsp90’s affinity for Tau in the ATP state did not differ significantly from the affinity of Hsp90 in the nucleotide-free apo state (K
+     <sub>
+      D
+     </sub>
+     = 5.2 ± 3.0 µM;
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ). Thus, ATP binding does not trigger release of Tau nor induce extensive conformational changes that would influence affinity.
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Fig. 1
+     </label>     <caption>
+      <strong>
+       Hsp90 binds to Tau’s repeat region
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Hsp90 binds to Tau with high affinity. Titration of Tau increases intrinsic fluorescence of Hsp90 or Hsp90+ATPγS (Hsp90, 2 µM, black; Hsp90+ATPγS, red), fluorescence increase is plotted versus [Tau].
+       <strong>
+        B
+       </strong>
+       , 2D
+       <sup>
+        1
+       </sup>
+       H
+       <sup>
+        15
+       </sup>
+       N HSQC spectra of full-length Tau protein in the absence (black) and presence of Hsp90 (red). The insets highlight the broadenings and changes in the chemical shifts of selected resonances.
+       <strong>
+        (C)
+       </strong>
+       Intensity ratio broadening of Tau in the presence of Hsp90 (red). Yellow represents the signal intensity of Tau in the presence of Hsp72 (taken from Jinwal et al., 2013).
+       <strong>
+        (D)
+       </strong>
+       NMR chemical shift deviations of Tau in the presence of Hsp90.
+       <strong>
+        E
+       </strong>
+       , The domain organisation of Tau is indicated above (I = inserts, P = proline-rich region, R = pseudo-repeat), Hydrophobicity distribution of Tau underneath. Indicated are large hydrophobic and aromatic residues (LIVFYW; red lines), the Hsp70 binding sites (yellow lines) and the microtubule binding repeat region (cyan). For the section 1–209, 210–380 and 381–441 the content of LIVFYW residues and the pI are indicated. The LIVFYW content is given as occurrence per amino acid (aa) in the protein sequence of Tau. The average content of LIVFYW in the human proteome is 1 per 3.6 aa.
+       <strong>
+        (F)
+       </strong>
+       Color-coded primary sequence of Tau highlighting the regions affected upon interaction with Hsp90 (red boxes). LIVFYW residues are highlighted in red. The two Hsp70 binding stretches are indicated by yellow letters. Charged residues are indicated by blue (Arg and Lys) and red letters (Asp and Glu). The repeat region is indicated in cyan.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Hsp90 recognises Tau’s microtubule-binding repeats domain
+    </title>
+    <p>
+     As Hsp90 binds with reasonably high affinity to Tau, we set out to map its Hsp90 binding site by NMR spectroscopy. We acquired 2D HSQC spectra of
+     <sup>
+      15
+     </sup>
+     N labelled Tau in the presence and absence of unlabelled Hsp90 (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ). This method provides a fingerprint of all amide bonds of a protein, which allows mapping interaction sites by recording changes in position and/or intensity of individual peaks. A subset of signals shifted upon Hsp90 binding, including Ser237, Thr245, Ile278 and Tyr310 (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ). The spectra also revealed a strong drop in intensity in a broad region between residues 210 and 380 upon Hsp90 binding (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ). The reduction in signal intensity is a commonly observed phenomenon in protein NMR, which is typically caused by the combined effects of (i) the increase in molecular weight upon complex formation, which increases transverse relaxation rates and thereby line width, and (ii) the chemical exchange at the contact surface (
+     <xref ref-type="bibr">
+      Dekker et al., 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sette et al., 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wüthrich, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zuiderweg, 2002
+     </xref>
+     ). The reduction in intensity is consistent with Hsp90-Tau binding on the intermediate exchange time scale, and also consistent with the affinity determined by fluorescence (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ). Chemical shift changes in the boundaries of this region confirm that the loss of intensity is caused by direct interaction with Hsp90 (
+     <xref ref-type="fig">
+      Fig. 1D
+     </xref>
+     ).
+    </p>
+    <p>
+     The Hsp90 binding region contains the entire microtubule-binding repeat domain, including the
+     <sup>
+      275
+     </sup>
+     VQIINK
+     <sup>
+      280
+     </sup>
+     and
+     <sup>
+      306
+     </sup>
+     VQIVYK
+     <sup>
+      311
+     </sup>
+     hexapeptide motifs, which are crucial for pathological Tau aggregation in Alzheimer disease (
+     <xref ref-type="fig">
+      Fig. 1EF
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Bergen et al., 2000
+     </xref>
+     ). Within the broad Hsp90 binding region, some segments show dips in intensity, indicating particular importance for the interaction (
+     <sup>
+      226
+     </sup>
+     VAVVRT
+     <sup>
+      231
+     </sup>
+     ,
+     <sup>
+      244
+     </sup>
+     QTAPV
+     <sup>
+      248
+     </sup>
+     ,
+     <sup>
+      275
+     </sup>
+     VQIINK
+     <sup>
+      280
+     </sup>
+     ,
+     <sup>
+      306
+     </sup>
+     VQIVYK
+     <sup>
+      311
+     </sup>
+     ,
+     <sup>
+      340
+     </sup>
+     KSEKL
+     <sup>
+      344
+     </sup>
+     and
+     <sup>
+      377
+     </sup>
+     TFREN
+     <sup>
+      381
+     </sup>
+     ;
+     <xref ref-type="fig">
+      Fig. 1CF
+     </xref>
+     ). These segments representing minima in intensity are characterised by large hydrophobic and aromatic side chains (LIVFYW residues; leucine, isoleucine, valine, phenylalanine, tyrosine and and tryptophane; tryptophane is not present in Tau;
+     <xref ref-type="fig">
+      Fig. 1EF
+     </xref>
+     ). They also have a positive net charge, although negatively charged residues are not excluded.
+    </p>
+    <p>
+     The Hsp90 binding region 210–380 has considerably higher content of LIVFYW residues compared to the N-terminal part 1–209 (1 per 4.4. vs 1 per 10.6 residues). Interestingly, the C-terminal segment 381–441 contains a similar fraction of LIVFYW (1 in 4.4), but it did not bind to Hsp90. The binding segment 210–380, however, is the only one that is characterised by a strong positive net charge (pI = 10.3;
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ). Thus, both LIVFYW residues and positive net charge characterise the Hsp90 binding regions in Tau. We conclude that it is not its disordered nature in itself that causes Tau binding to chaperones, but specific sequence properties.
+    </p>
+    <p>
+     We next compared the Hsp90 binding site in Tau to the known Hsp70 sites. Strikingly, the Hsp90 binding region is significantly broader compared to that of Hsp70 chaperones, which specifically bind to two short segments within this region (
+     <sup>
+      275
+     </sup>
+     VQIIN
+     <sup>
+      279
+     </sup>
+     and
+     <sup>
+      306
+     </sup>
+     VQIVY
+     <sup>
+      310
+     </sup>
+     ;
+     <xref ref-type="fig">
+      Fig. 1CF
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Jinwal et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sarkar et al., 2008
+     </xref>
+     ). The binding regions of both chaperones are partially overlapping, despite dramatic differences in their width.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Tau binds to the N-terminal and middle domains of Hsp90
+    </title>
+    <p>
+     We then used an advanced NMR method to understand the chemical nature of Hsp90’s Tau binding site. Hsp90 is not accessible to standard NMR experiments due to the high molecular weight of the Hsp90 dimer (170 kDa). We recently overcame the typical NMR size limit for the Hsp90 system by employing specific isotope labelling of methyl groups in isoleucine side chains and methyl transverse relaxation optimised spectroscopy (methyl-TROSY) (
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ). Using this novel method, we were then able to monitor the interaction of isoleucine-labelled and NMR visible Hsp90 with unlabelled and, therefore, NMR-invisible Tau (
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Fig. 2
+     </label>     <caption>
+      <strong>
+       Tau causes specific shift in Hsp90 NMR spectra
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , ATP binding modulates the dynamics of the Hsp90-Tau complex. Rainbow representation of
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        13
+       </sup>
+       C-Ile-methyl-TROSY cross-peaks of full-length Hsp90 in complex with Tau (left) and Tau+ATPγS (right). The inset magnifies peaks that sharpen upon ATPγS binding, numbers indicate assigned isoleucines (numbering without N-terminal methionine).
+       <strong>
+        B
+       </strong>
+       , Tau binding causes shifts and peak doubling in Hsp90 spectra (Hsp90, 125 µM; Tau, 287 µM; Hsp90, black; Hsp90+Tau, red), in the absence and presence of ATPγS (2 mM). The extent of each shift is indicated by a line. See also
+       <a>
+        Fig. S1
+       </a>
+       and
+       <a>
+        Table S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Compared to spectra of Hsp90 alone, the signal intensity of isoleucines in Hsp90-Tau complex is reduced, consistent with what would be expected from binding of a large, disordered protein in the fast to intermediate exchange NMR time scale (
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     ,
+     <a>
+      Fig. S1B
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ). A subset of Hsp90’s isoleucine signals shifted upon addition of Tau, including Ile20, Ile74, Ile174, Ile369 and Ile440 (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ,
+     <a>
+      Table S1
+     </a>
+     ). Some of the isoleucine signals split, including Ile90, Ile369 and Ile440 (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ). NMR data of isoleucine side chains are particularly useful to map binding sites as they typically indicate local changes, as opposed to standard spectra monitoring the backbone. Isoleucines are not involved in hydrogen bonds, and therefore, less sensitive to long-range structural changes when compared to backbone amide signals, as observed in previous isoleucine-based NMR analyses of Hsp90 complexes (
+     <xref ref-type="bibr">
+      Didenko et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Didenko et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ). The locations of the shifting and splitting residues reveal Tau binding to both the N-terminal and the middle domains of Hsp90 (
+     <a>
+      Fig. S1C
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ATP binding modulates dynamics of Hsp90-Tau complex
+    </title>
+    <p>
+     We then investigated the effect of ATP on the structure of the Hsp90-Tau complex, using ATPγS. The pattern of the NMR signals in ATP state differed significantly from its nucleotide free state. The ATP state induced additional shifts for some residues in Hsp90-Tau (e.g. Ile28 shifts, yet the nearby Ile20 does not), but also dramatically sharpened signals (region around 14 ppm (
+     <sup>
+      13
+     </sup>
+     C) and 0.7 ppm (
+     <sup>
+      1
+     </sup>
+     H);
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     , zoom). Sharpening of NMR signals typically indicates either changes in conformational flexibility or the chemical exchange rate. Given that the binding affinity of the ATP state does not change, we conclude that binding of the client and ATP jointly modulate the dynamics of Hsp90.
+    </p>
+    <p>
+     We anticipate that nucleotide-induced changes in Hsp90 dynamics in the presence of substrate is crucial for Hsp90’s chaperone activity. Notably, we observed splitting of NMR signals upon Tau binding both in the nucleotide-free and the ATP-bound states of Hsp90, indicating that Tau binding breaks the symmetry of the Hsp90 dimer (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ). This may imply either that Tau bound Hsp90 adopts two specific conformations or that Tau breaks the symmetry of the Hsp90 dimer. While there is no evidence to support the first possibility, conformational asymmetry is characteristic for several previously described Hsp90 complexes (i.e. Hsp90-p23, Hsp90-Cdk4-Cdc37 and Hsp90-Aha1) (
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Retzlaff et al., 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vaughan et al., 2006
+     </xref>
+     ). Our NMR data are in line with a break of symmetry in the substrate cycle of Hsp90.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Hsp90-Tau complex is extended
+    </title>
+    <p>
+     Next, we characterised the overall shape in solution of Hsp90, Tau and the Hsp90-Tau complex by small-angle X-ray scattering (SAXS). SAXS is a solution scattering method that had been successfully applied to several Hsp90 homologues to obtain structural models (
+     <xref ref-type="bibr">
+      Krukenberg et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Krukenberg et al., 2009
+     </xref>
+     ). In our SAXS experiments, Human Hsp90 appeared as an extended molecule, with a maximal extension (D
+     <sub>
+      max
+     </sub>
+     ) of 25.5 nm and a radius of gyration (R
+     <sub>
+      g
+     </sub>
+     ) of 7.8 ± 0.5 nm (
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ,
+     <a>
+      Fig. S2A
+     </a>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). This is consistent with previous SAXS studies on several Hsp90 homologues by the Agard group (
+     <xref ref-type="bibr">
+      Krukenberg et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Krukenberg et al., 2009
+     </xref>
+     ). Notably, we did not observe significant changes of D
+     <sub>
+      max
+     </sub>
+     and R
+     <sub>
+      g
+     </sub>
+     values upon addition of ATP, indicating that ATP does not significantly affect the global shape of the conformational ensemble of human Hsp90 (
+     <a>
+      Fig. S2B
+     </a>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). SAXS experiments of Tau revealed a significantly higher radius of gyration and a larger maximal extension than expected for globular proteins of the same size, consistent with its disordered nature and with previous studies (R
+     <sub>
+      g
+     </sub>
+     = 6.8 ± 1.8 nm, D
+     <sub>
+      max
+     </sub>
+     = 24.9 nm;
+     <xref ref-type="fig">
+      Fig. 3BC
+     </xref>
+     ;
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Mylonas et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shkumatov et al., 2011
+     </xref>
+     ).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Fig. 3
+     </label>     <caption>
+      <strong>
+       Convergence of Tau models on Hsp90 in NMR/SAXS models
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Hsp90 binds to Tau in an open conformation. SAXS curves of Tau (black), Hsp90 in apo (light blue, solid line) and ATP states (light blue, dashed line) and Hsp90+Tau in apo (red, solid line) and ATP states (red, dashed line) (red; dashed curve in the presence of ATPγS), showing P(R), the relative probability of interatomic scattering distances, normalised on the total intensity I
+       <sub>
+        0
+       </sub>
+       and concentration of each sample. The theoretical P(R) assuming non-interacting proteins is shown as well.
+       <strong>
+        B
+       </strong>
+       , The ten best Tau models bound to Hsp90 (Tau models, yellow bands; Tau-binding Hsp90 protomer, cyan; other Hsp90 protomer, green).
+       <strong>
+        C
+       </strong>
+       , The ten best Tau models within 10 Å of Hsp90 indicate convergence on Hsp90 (colours as in B). See also
+       <a>
+        Fig. S2
+       </a>
+       and
+       <a>
+        S5
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Characteristics of Hsp90 and Tau in SAXS experiments
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Tau binding to Hsp90 lead to a significant change in the P(R) values. The binding of Tau, however, did not modulate the shape of Hsp90. We found dimensions similar to Hsp90 alone in apo and ATP states (R
+     <sub>
+      g
+     </sub>
+     = 7.5 ± 0.7 nm, D
+     <sub>
+      max
+     </sub>
+     = 25.5 nm in the absence of ATP; R
+     <sub>
+      g
+     </sub>
+     = 7.2 ± 1.5 nm, D
+     <sub>
+      max
+     </sub>
+     = 25.5 nm in the presence of ATP;
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ,
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). This indicates that neither Tau, nor nucleotide-binding nor synergistic binding of both ligands caused an obligatory conformational rearrangement of Hsp90.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Tau binding site maps to the N-terminal and middle domains of Hsp90
+    </title>
+    <p>
+     We next set out to obtain a structural model of Hsp90 in the Tau-bound state. We combined the structural information that could be extracted from our NMR restraints and scattering curves with previously published homology models based on published crystal structures of Hsp90 (
+     <xref ref-type="bibr">
+      Ali et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ). The seven residues that shifted and/or split provided restraints that allowed us to precisely position the Tau binding site in structural models fitted to the SAXS curves (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ).
+    </p>
+    <p>
+     Both NMR and SAXS are methods that result in an ensemble of structural models, which together provide a comprehensive description of the protein in solution. Tau-bound Hsp90 appeared as an open, dynamic ensemble, in which the N-terminal domains are the most distant points of the dimeric structure (
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ). In contrast to the converging Hsp90 ensemble, the part of the disordered Tau that is not bound to Hsp90 is highly heterogeneous (
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ). However, the part of Tau close to Hsp90 is strongly converging on the binding site (
+     <xref ref-type="fig">
+      Fig. 3C
+     </xref>
+     ). In this interacting region, the variation of the Hsp90-bound Tau ensemble has a minimal width of 19 Å and 17 Å at its most narrow side in Hsp90-N and Hsp90-M, respectively.
+    </p>
+    <p>
+     On Hsp90’s surface, the Tau binding site covers a remarkably extended surface running along Hsp90-N and Hsp90-M (
+     <xref ref-type="fig">
+      Fig. 4AB
+     </xref>
+     ). The binding site is formed by the Hsp90-N’s (3-sheet
+     <sup>
+      n
+     </sup>
+     S2-
+     <sup>
+      n
+     </sup>
+     S7 and alpha helix
+     <sup>
+      n
+     </sup>
+     H1 and the succeeding loop T30-K35 at the top, running down via the Hsp90-N’s helices
+     <sup>
+      n
+     </sup>
+     H7 and
+     <sup>
+      n
+     </sup>
+     H8 the N-terminal segment G102-K106 of the lid of the nucleotide binding pocket (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). In Hsp90-M it passes the helices
+     <sup>
+      m
+     </sup>
+     H1,
+     <sup>
+      m
+     </sup>
+     H5,
+     <sup>
+      m
+     </sup>
+     H4 and
+     <sup>
+      m
+     </sup>
+     H9. The border on one side is the long helix
+     <sup>
+      m
+     </sup>
+     H2 and on the other side it is the amphipathic loop around Leu342/Phe343, which has been earlier implicated in client interaction (
+     <xref ref-type="bibr">
+      Prodromou et al., 1997
+     </xref>
+     ). The shifting isoleucine side chains are mostly buried in the structural model, which confirms that the Tau-dependent shifts are caused by significant interactions that can be sensed inside the molecule (
+     <a>
+      Fig. S3AB
+     </a>
+     ).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Fig. 4
+     </label>     <caption>
+      <strong>
+       Structural model of the Hsp90-Tau complex
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , NMR/SAXS models of Hsp90 bound to Tau as ribbon representation, the surface (80% transparent) of the molecule is overlaid (Tau-binding Hsp90 protomer, cyan; other Hsp90 protomer, green). The Tau binding site is indicated as white-red gradient.
+       <strong>
+        B
+       </strong>
+       , Localisation of Tau on its binding site in Hsp90-N and Hsp90-M. The approximate shape of the Hsp90-binding stretch of Tau is visualised by a yellow mesh (averaged from 5 best NMR/SAXS models, disordered parts outside Hsp90 binding site are, therefore, invisible; Hsp90 coloured as in A; isoleucines indicated in
+       <xref ref-type="fig">
+        Fig. 2B
+       </xref>
+       are shown as red space fillings).
+       <strong>
+        C
+       </strong>
+       , The Tau binding site is extended. Dimensions of the binding site are indicated in Hsp90-N (white letters) and Hsp90-M (black letters; colours of Hsp90 as in A, surface is shown with 20% transparency).
+       <strong>
+        D, E
+       </strong>
+       , Structural models indicating the Tau binding site in different conformations, which represent the dynamic Hsp90 ensemble (
+       <strong>
+        D
+       </strong>
+       , NMR/SAXS model as in A;
+       <strong>
+        E
+       </strong>
+       , mapping the binding site as identified in D on a homology model of the closed conformation of Hsp90, as induced by ATP and p23; surface representations, colour code as in C; the models are vertically and horizontally aligned on Hsp90-M). See also
+       <a>
+        Fig. S3
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The binding interface lacks a lid that would allow Hsp90 to temporarily bury crucial contact residues. The interface, however, is 106 Å long and 840 Å
+     <sup>
+      2
+     </sup>
+     large (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). It is significantly more extended than that of the protomers of other chaperones that are known to be controlled by ATP (i.e. Hsp70, Hsp60 and Hsp100 classes). The large binding region allows for a high number of low affinity contacts to build up high-affinity binding energy despite the absence of a binding pocket or cleft.
+    </p>
+    <p>
+     We analysed how Hsp90 may be able to modulate the architecture of its binding site. Hsp90 functions as a dynamic dimer that is characterised by large inter-domain movements, which is also reflected by the crystal structures of Hsp90 homologues captured in different conformations (
+     <xref ref-type="bibr">
+      Ali et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dollins et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shiau et al., 2006
+     </xref>
+     ). These states may reflect possible conformations in the active cycle of Hsp90 that could be crucial for regulation of Hsp90’s interaction with client proteins. To map the Tau binding site in those conformations, we compared structural models in which the interface between Hsp90-N and Hsp90-M is fixed to what was observed for ATP-state complexes of both yeast Hsp90 bound to p23 and Grp94 (
+     <xref ref-type="fig">
+      Fig. 4DE
+     </xref>
+     ;
+     <a>
+      Fig. S3C
+     </a>
+     ). We noted that for the Grp94-based model (
+     <a>
+      Fig. S3C
+     </a>
+     ) the binding site twists at the interface between Hsp90-N and Hsp90-M. Such rotations at the interface between both domains may allow Hsp90 to adapt to different substrates and to modulate affinity.
+    </p>
+    <p>
+     A key step in the active cycle of Hsp90 is closure of the Hsp90 dimer due to dimerisation of the N-terminal domains. Therefore, we mapped the Tau binding site onto the closed structure, as it would be induced by the pro-folding Hsp90 exclusive co-chaperone p23 (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). Remarkably, most of the substrate binding hotspots in Hsp90-N and Hsp90-M remained accessible, although they were not longer continuously connected. The extended nature of the binding site, however, may offer a regulated substrate release mechanism by inter-domain movement at the interface between Hsp90-N and Hsp90-M following ATP hydrolysis.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Tau binding site in Hsp90 is hydrophobic and negatively charged
+    </title>
+    <p>
+     We next dissected the chemical nature of the interaction surface between Tau and Hsp90. Since Tau’s binding to Hsp90 is mediated by both basic and hydrophobic residues, we predicted that Hsp90’s surface would provide corresponding hydrophobic and acidic components. The most intense binding regions were two areas in Hsp90-N and Hsp90-M (
+     <xref ref-type="fig">
+      Figs. 3
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Although not particularly hydrophobic, the binding area contained some scattered hydrophobic patches including the residues Val143, Ile181 and Pro173 in the β-sheet S2-S7 in Hsp90-N (
+     <xref ref-type="fig">
+      Fig. 5BC
+     </xref>
+     ). Notably, the surface hydrophobicity was enhanced by combining large aliphatic side chains with other aliphatic groups, such as the methyl groups of e.g. alanine or threonine (Leu23, Leu26, Ile104 and Ala105 in Hsp90-N and, Leu387, Ile389, Lys409, Thr445 and Lys405 in Hsp90-M) as well as several surface exposed aromatic side chains (Phe31, Phe343) (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). The residues Phe31, Tyr32, Leu387 and Ile389 map to the Hsp90-N/Hsp90-M interface and domain movements might bring those in close proximity to provide a larger area with exposed hydrophobic regions. The scattered nature of Hsp90s surface hydrophobicity ensures that it has the ability to make a large number of low affinity contacts. This dictates that only larger proteins can make effective use of the interaction surface. The scattering also subverts aggregation of Hsp90 as it reduces the need to conceal its binding site.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Fig. 5
+     </label>     <caption>
+      <strong>
+       The Tau binding site has complex sequence properties
+      </strong>
+      <p>
+       Mapping of surface properties on Hsp90, close up highlighting Hsp90-N and Hsp90-M.
+       <strong>
+        A
+       </strong>
+       , Hsp90’s Tau binding site (colour code as in
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ).
+       <strong>
+        B
+       </strong>
+       , Natural colour representation, indicating residues that expose hydrophobic groups (cyan, carbon; blue, nitrogen; red, oxygen).
+       <strong>
+        C
+       </strong>
+       , Surface hydrophobicity (gradient non-hydrophobic (white) to hydrophobic (red).
+       <strong>
+        D
+       </strong>
+       , Surface potential (gradient negative (red) to positive potential (blue).
+       <strong>
+        E
+       </strong>
+       , Interaction interfaces of the cochaperones Sgt-1, CHORD, p23, Cdc37 and Aha1, based co-crystal structures. Only the Cdc37 binding site overlaps partially with the Tau binding site (cochaperone binding sites are indicated in blue and purple shades p23 (blue), Aha1 (TV blue), Cdc37 (marine), CHORD (dark blue) and Sgt1 (deep blue; the Tau binding site is indicated by space fillings).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The substrate-binding site of Hsp90 provides both positively and negatively charged patches. Negatively charged patches include surface areas around Glu80, Glu392, Asp366 and Asp517, which complement the positively charged segment of Tau involved in Hsp90 binding. In particular Hsp90-M’s long helix
+     <sup>
+      m
+     </sup>
+     H2 is positively charged (
+     <xref ref-type="fig">
+      Fig. 5D
+     </xref>
+     ). The 3D-isopotential surface analysis revealed that Hsp90-N and Hsp90-M exhibit a predominantly negative potential (
+     <a>
+      Fig. S3D
+     </a>
+     ). The binding site itself, however, has a mixed potential, which may reduce unspecific charge-dominated interactions in the binding site itself.
+    </p>
+    <p>
+     In addition to substrates, Hsp90’s ATPase activity is regulated by a plethora of co-chaperones. Therefore, we mapped the binding sites of several key co-chaperones, including Aha1, p23, Cdc37, Sgt-1 and CHORD, which have previously been found in co-crystals with Hsp90 (
+     <xref ref-type="fig">
+      Fig. 5E
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Li et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pearl et al., 2008
+     </xref>
+     ). Strikingly, this revealed an elongated surface stretch that is almost free of co-chaperone interaction. Aha1, p23, CHORD and Sgt-1 bind on a surface stretch running parallel to the Tau binding site, which is enriched in positively charged residues (
+     <xref ref-type="fig">
+      Fig. 5DE
+     </xref>
+     ). Many of the positive charges are provided by the long helix
+     <sup>
+      m
+     </sup>
+     H2 that runs in N-C direction through the upper middle domain and separates the Aha1/p23 interaction area from the Tau binding region. The Cdc37 binding site overlaps partially with the Tau binding site, in between the main binding areas in Hsp90-N and Hsp90-M (
+     <xref ref-type="fig">
+      Fig. 5E
+     </xref>
+     ). As (i) the main substrate binding sites are still available for the client and (ii) Cdc37 is likely to bind to the other protomer (
+     <xref ref-type="bibr">
+      Vaughan et al., 2006
+     </xref>
+     ), thus we do not expect significant infringements for Hsp90 substrate interaction by Cdc37. We conclude that the Tau binding site allows substrate interaction while simultaneously ensuring co-factor regulation.
+    </p>
+    <p>
+     Together, the ATP-dependent changes, its affinity and specific interaction site as determined from both SAXS and NMR experiments show that intrinsically disordered Tau behaves as a
+     <em>
+      bona fide
+     </em>
+     Hsp90 client.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Tau’s Hsp90 binding site resembles folding intermediates
+    </title>
+    <p>
+     We then thought to determine whether Tau mimics the molecular features of folding intermediates. We analysed, therefore, structures of folding intermediates for hydrophobicity and potential Hsp70 binding sites. We predicted these sites using an algorithm developed for the homologue DnaK (
+     <xref ref-type="fig">
+      Figs. 6A
+     </xref>
+     ,
+     <a>
+      S4
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Rüdiger et al., 1997a
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rüdiger et al., 1997b
+     </xref>
+     ). We made two observations: (i) for all folding intermediates, the Hsp70-binding sites mapped to the protein nucleus, around which the protein folds, and outside the nucleus Hsp70 sites were absent; (ii) the structures showed hydrophobic residues outside the nucleus, but more scattered compared to their concentrated appearance in Hsp70 sites.
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Fig. 6
+     </label>     <caption>
+      <strong>
+       Partitioning of chaperone action
+      </strong>
+      <p>
+       <strong>
+        A
+       </strong>
+       , Predicted Hsp70 binding sites (side chains of leucine, isoleucine, valine, phenylalanine and tyrosine shown as yellow spheres) form the nucleus of folding intermediates (four examples, Dihydrolipoyllysine-residue acetyltransferase (1W4G), Pre-mRNA-processing factor 40 homolog A (2KZG), Thermonuclease (2KQ3) and Flavodoxin (2KQU)), leaving scattered hydrophobic residues in the periphery (LIVFYW residues; red spheres).
+       <strong>
+        (B)
+       </strong>
+       The Tau ensemble, color coded as in (A). The repeat regions are indicated as in
+       <xref ref-type="fig">
+        Figure 1E
+       </xref>
+       .
+       <strong>
+        C
+       </strong>
+       , Model for partitioning of chaperone action between the Hsp70 and Hsp90 systems. Hsp70 binds early when its binding sites are accessible. During folding, the Hsp70 binding sites disappear, leaving scattered hydrophobics that are recognised by Hsp90. The folded protein will bury also those residues. See also
+       <a>
+        Fig. S4
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     At present, structures are only available for a few small, mono-domain intermediates, which are typically not Hsp90 clients. Nevertheless, even those small intermediates contain some exposed stretches with scattered hydrophobics that are buried in the folded protein. Interestingly, the largest folding intermediate exposed three large loop regions that have a similar degree of moderate, scattered hydrophobicity as the Tau repeat region (
+     <xref ref-type="fig">
+      Fig. 6A
+     </xref>
+     ,
+     <xref ref-type="fig">
+      Fig. 2KQU
+     </xref>
+     ). The distribution of hydrophobic residues of Tau’s repeat region in fact resembles that of the exposed regions of a folding intermediate (
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    We mapped the binding site of the natural Hsp90 substrate protein Tau, a protein that plays an important role in normal neuronal function as well as in neurodegenerative disease progression (
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    ). The complex we studied consisted of two full-length proteins. This is beneficial because (i) only full length Hsp90 could represent the complex architecture of the dimeric chaperone, and (ii) only a large protein substrate such as the 441 residue Tau protein can make full use of the extended Hsp90 binding site that runs over two domains. The bipartite nature of the binding site allows adaptation to the structural properties of the substrate. It is tempting to speculate that this bipartite nature may allow a potential substrate release mechanism due to domain movement at the Hsp90-N/Hsp90-M interface. Client binding may support transient conformational rearrangements of the Hsp90 dimer, which may affect the ATP hydrolysis rate via modulating the energy barrier for Hsp90 closure (
+    <xref ref-type="fig">
+     Fig. 4E
+    </xref>
+    ).
+   </p>
+   <sec>
+    <title>
+     Overlap of Hsp90 binding sites for Tau and kinase
+    </title>
+    <p>
+     It is remarkable that another full-length protein, the late intermediate of kinase Cdk4 in complex with the co-chaperone Cdc37 partially overlaps with the Tau binding site (
+     <xref ref-type="bibr">
+      Vaughan et al., 2006
+     </xref>
+     ). Hsp90 associates selectively with intrinsically unstable kinases independent of the sequence motif (
+     <xref ref-type="bibr">
+      Taipale et al., 2012
+     </xref>
+     ). Cdk4 contacts the β-sheet in Hsp90-N and the amphipathic loop around Leu342 and Phe343 in Hsp90, both Tau contact sites (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). Interestingly, the Tau binding site also covers the proposed binding site of a small charged model substrate in Hsp90-M that does not overlap with the Cdk4 site and residues in Hsp90-M that had been implied in substrate interaction of
+     <em>
+      E. coli
+     </em>
+     Hsp90 (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     )(
+     <xref ref-type="bibr">
+      Genest et al., 2013
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Street et al., 2011
+     </xref>
+     ). This overlap suggests that the location of Hsp90’s substrate-binding site itself is not dependent on the type of substrate and co-chaperone repertoire.
+    </p>
+    <p>
+     Hsp90’s activity on chaperoning this diverse range of clients depends on ATP binding and hydrolysis. We did not find a significant difference in Tau in the presence and absence of ATP analogues (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ). We relate this to the fact that ATP binding alone does not induce stable conformational changes in human Hsp90, in contrast to the yeast and
+     <em>
+      E. coli
+     </em>
+     homologues (
+     <a>
+      Fig. S2
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Krukenberg et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Krukenberg et al., 2009
+     </xref>
+     ). As the lack of ATP-dependent closure in the absence of co-chaperones is an inherent property of human Hsp90, it is most likely independent from the nature of the bound substrate.
+    </p>
+    <p>
+     Studies that used isolated domains and/or worked at subphysiological salt conditions also implied other surface elements involved in substrate binding (
+     <xref ref-type="bibr">
+      Didenko et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hagn et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Park et al., 2011
+     </xref>
+     ). It remains to be seen whether the relevance of those sites can be confirmed in the full-length protein. We noted, however, that the Tau binding sites in both Hsp90-N and Hsp90-M have been implicated in early crystal structures of both domains as potential substrate binding sites (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     )(
+     <xref ref-type="bibr">
+      Meyer et al., 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Prodromou et al., 1997
+     </xref>
+     ). For the
+     <em>
+      E. coli
+     </em>
+     Hsp90 some mutations in Hsp90-M and Hsp90-C were recently implicated in substrate binding, and in fact the mutations in Hsp90-M are close to the Tau site (
+     <xref ref-type="bibr">
+      Genest et al., 2013
+     </xref>
+     ). Together, our findings provide new context to the notion that the elongated site on Hsp90 that binds to Tau may also be used by other natural clients.
+    </p>
+    <p>
+     Since Tau is an intrinsically disordered protein (IDP), it is surprising that it interacts as a natural ligand of a molecular chaperone (
+     <xref ref-type="bibr">
+      Mukrasch et al., 2009
+     </xref>
+     ). However, the microtubule-binding domain of Tau may define how Tau can become an Hsp90 client. This domain differs in sequence composition from the typical IDP by a higher content in hydrophobics, a typical trigger for chaperone interaction (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Dunker and Gough, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hartl et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Uversky et al., 2009
+     </xref>
+     ). In fact, the N-terminal segment of Tau, which is low in hydrophobic residues, does not interact with Hsp90. In this way exposed hydrophobicity may also drive a specific subset of disordered clients such as Tau onto Hsp90. This may ensure that the Hsp90 system is not poisoned by the large fraction of disordered proteins present in the eukaryotic cytoplasm.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Hsp90-Tau interaction and therapeutic treatment of Alzheimer disease
+    </title>
+    <p>
+     Aggregation of the Tau microtubule binding region causes Alzheimer’s disease (
+     <xref ref-type="bibr">
+      Haass and Selkoe, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kosik et al., 1986
+     </xref>
+     ). Hsp90’s association with Tau at this particular region allows the formation of a relay team, together with the Hsp70 system, that allows control of the fate of this potentially toxic stretch (
+     <xref ref-type="bibr">
+      Dickey et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jinwal et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sarkar et al., 2008
+     </xref>
+     ). It demonstrates that the chaperonome is adapted to act selectively on toxic protein segments while ignoring the Tau regions that have no aggregation propensity (
+     <xref ref-type="fig">
+      Fig. 1E
+     </xref>
+     ).
+    </p>
+    <p>
+     The unusual sequence composition of Tau and its ability to interact with chaperones could be part of its pathogenic potential. Perhaps by trying to chaperone the microtubule binding domains of Tau, Hsp90 and other chaperones are extending the half-life of the disordered component in the cell, increasing its potential for toxicity (
+     <xref ref-type="bibr">
+      Dickey et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jinwal et al., 2012
+     </xref>
+     ). Recent work suggests that Tau amyloid formation may actually be a protective mechanism that allows potentially toxic Tau intermediates to self-chaperone and sequester themselves into less toxic entities within long-lived neurons (
+     <xref ref-type="bibr">
+      Eisenberg and Jucker, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Oddo et al., 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Santacruz et al., 2005
+     </xref>
+     ). This feature is not reserved for Tau alone, but for other disease-associated proteins as well, such as α-synuclein (
+     <xref ref-type="bibr">
+      Daturpalli et al., 2013
+     </xref>
+     ). Therefore, the association of Tau with chaperones like Hsp90 and Hsp70 within its amyloidogenic region may provide a nexus for Tau toxicity. As recently described, Hsp90 and the co-chaperone FKBP51 can prevent Tau from forming dense amyloids, and rather promote the formation of more toxic Tau intermediates (
+     <xref ref-type="bibr">
+      Blair et al., in the press
+     </xref>
+     ). This demonstrates that the chaperonome can be a double-edged sword in the brain. This is the rationale for developing therapies aimed at chaperones, which in light of this recent evidence may be very beneficial for sufferers of these diseases.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hsp90 can act on both folding intermediates and disordered proteins
+    </title>
+    <p>
+     Hsp90 is unique from other ATP-regulated chaperone systems in a number of ways. While Hsp90’s Tau binding site provides hydrophobic interaction and negative charges, similar to the other chaperone systems, it also provides a dramatically more extended substrate-binding site than any of the other chaperones (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     )(
+     <xref ref-type="bibr">
+      Buckle et al., 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rüdiger et al., 1997a
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Weibezahn et al., 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Xu et al., 1997
+     </xref>
+     ). Moreover, the Hsp90 binding site for the substrate Tau is neither a cleft nor covered by a lid (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ). In fact, it is permanently open and accessible. This is made possible because Hsp90 distributes the hydrophobic contacts over a large surface, such that each individual contact constitutes only a fraction of the total binding energy (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     ). This is confirmed by the fact that as of yet no single point mutations in Hsp90 have been identified to significantly alter its substrate affinity.
+    </p>
+    <p>
+     The architecture of the substrate-binding site of Hsp90 allows for sequence specific selection of some intrinsically disordered proteins such as Tau (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     ). The Hsp90 substrate-binding site does not demand any specific structural features for a client to interact with, thus the exposed sequence pattern of the client will be decisive for binding. Folding intermediates indeed expose sequence patterns compatible with the properties of the binding site (
+     <xref ref-type="fig">
+      Fig. 6A
+     </xref>
+     ). This can explain why Hsp90 recognises a structurally diverse substrate pool with the same binding site (
+     <xref ref-type="fig">
+      Fig. 4
+     </xref>
+     )(
+     <xref ref-type="bibr">
+      Echeverria and Picard, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jakob et al., 1995
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pearl and Prodromou, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Street et al., 2011
+     </xref>
+     ). We expect, therefore, that intermediates of client classes such as kinases and steroid receptors may bind via the same principles as disordered clients.
+    </p>
+    <p>
+     Hsp90 contributes to folding and maturation in concert with other chaperone systems, in particular Hsp70 (
+     <xref ref-type="bibr">
+      Wegele et al., 2004
+     </xref>
+     ). Based on the comparison of the binding modes of Hsp90 and Hsp70, we propose a model for the temporal partitioning between both chaperones (
+     <xref ref-type="fig">
+      Fig. 6C
+     </xref>
+     ). Since Hsp70 binds to short, highly hydrophobic sequences it interacts with the folding protein early on (
+     <xref ref-type="bibr">
+      Bukau et al., 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hartl et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rüdiger et al., 1997a
+     </xref>
+     ). During the folding process these short hydrophobic stretches will most likely form the nucleus around which the protein condenses (
+     <xref ref-type="bibr">
+      Daggett and Fersht, 2003
+     </xref>
+     ). Outside the folding nucleus are still less ordered stretches with scattered hydrophobics. Such stretches are not recognised by Hsp70, which may trigger its release from the late folding intermediate. The unique, 106 Å long binding surface of Hsp90, however, allows many low affinity contacts with the outer sphere of the late folding intermediates. Hsp90 profits from the compaction of the substrate during the nucleation process, yet co-chaperones will further specify substrate selection. Our model resolves the paradox on how Hsp90 specifically selects for late folding intermediates of regulatory proteins and but also some intrinsically disordered proteins – through the eyes of Hsp90 they look the same.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <title>
+     Proteins
+    </title>
+    <p>
+     Human proteins Hsp90β and hTau40 (isoform F, the longest isoform of Tau) were produced and purified as described (
+     <xref ref-type="bibr">
+      Barghorn et al., 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Fluorescence spectroscopy
+    </title>
+    <p>
+     Fluorescence spectra were acquired on a Varian Cary Eclipse (excitation 295 nm, emission averaged 350–360 nm) at 25°C in 25 mM Na-phosphate, pH 7.2, 300 mM NaCl and 1 mM DTT, in microcuvettes with 3 mm pathlength. For ATPγS measurements, samples were measured again after addition of 1 mM ATPγS and 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     (final concentrations) and incubation for 10 min. The data were subjected to non-linear least square fitting using the Solver module in Excel (
+     <xref ref-type="bibr">
+      Kemmer and Keller, 2010
+     </xref>
+     ), according to the equation F = F
+     <sub>
+      mi
+     </sub>
+     n + A *[Tau]
+     <sup>
+      n
+     </sup>
+     /(K
+     <sup>
+      n
+     </sup>
+     +[Tau]
+     <sup>
+      n
+     </sup>
+     ), in which F is the fluorescence intensity, F
+     <sub>
+      min
+     </sub>
+     is the minimal fluorescence intensity, A is the amplitude (difference maximal and minimal fluorescence intensity) and K is a constant value.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NMR spectroscopy
+    </title>
+    <p>
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      13
+     </sup>
+     C-methyl TROSY spectra were recorded at 25 °C on a Bruker AvanceIII 900 MHz spectrometer (TCI cryoprobe) and referenced against DSS. Spectra processing, analysis and representations were done as described (
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tugarinov et al., 2003
+     </xref>
+     ). NMR samples of Hsp90 contained between 125 and 200 µM Hsp90 in D
+     <sub>
+      2
+     </sub>
+     O, 25 mM potassium phosphate, pH 7.2, 300 mM NaCl and 1 mM DTT. Spectra of Hsp90-Tau complexes were acquired with 136 µM and 125 µM Hsp90 and 1.2 to 2.3 molar equivalents of Tau (monomer concentrations).
+    </p>
+    <p>
+     Two-dimensional
+     <sup>
+      1
+     </sup>
+     H–
+     <sup>
+      15
+     </sup>
+     N heteronuclear single quantum coherence (HSQC) NMR experiments were recorded at 5°C on a Bruker Avance 900 MHz spectrometer equipped with a cryogenic probe. Spectra were acquired using 600 complex points and 48 scans per increment with spectral widths of 8992 Hz and 2580 Hz in the
+     <sup>
+      1
+     </sup>
+     H and
+     <sup>
+      15
+     </sup>
+     N dimensions, respectively. Spectra were processed with NMRPipe (
+     <xref ref-type="bibr">
+      Delaglio et al., 1995
+     </xref>
+     ) and analysed using CcpNMR Analysis (
+     <xref ref-type="bibr">
+      Vranken et al., 2005
+     </xref>
+     ). NMR intensity ratio plots were reported with a 3–residue averaging window. Full-length
+     <sup>
+      15
+     </sup>
+     N-labeled human Tau protein (hTau40) was expressed and purified as described previously (
+     <xref ref-type="bibr">
+      Mukrasch et al., 2009
+     </xref>
+     ). NMR samples contained 50 µM
+     <sup>
+      15
+     </sup>
+     N single labelled monomeric Tau protein in 50 mM phosphate buffer and 10 mM NaCl, pH 6.8, 1 mM DTT and 10 % (v/v) D
+     <sub>
+      2
+     </sub>
+     O. Spectra of Hsp90-Tau complexes were acquired using 21.7 µM and 41.7 µM of unlabelled Hsp90β (Overview isoleucine shifts in
+     <a>
+      Table S1
+     </a>
+     ; The combined chemical shift difference Δv was calculated as follows: Δv= ((0.25Δv
+     <sub>
+      C
+     </sub>
+     )
+     <sup>
+      2
+     </sup>
+     +Δv
+     <sub>
+      H
+     </sub>
+     <sup>
+      2
+     </sup>
+     )
+     <sup>
+      1/2
+     </sup>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SAXS measurements and modelling
+    </title>
+    <p>
+     Small angle X-ray scattering data were collected from solutions of Hsp90, Tau, Hsp90-Tau, and the nucleotide-bound states for several solute concentrations and analysed using the package ATSAS and standard procedures. SAXS-based structural models were generated using the program CORAL (
+     <xref ref-type="bibr">
+      Petoukhov and Svergun, 2005
+     </xref>
+     ), known crystal structures, a homology model for Hsp90 (
+     <xref ref-type="bibr">
+      Karagöz et al., 2011
+     </xref>
+     ), and additional NMR data for the binding interfaces in case of the Hsp90-Tau complexes as input. The surface of the models obtained was coloured accordingly to increasing distance to Tau using a cyan-white-red gradient. Structural models are displayed using PyMOL 1.5, Schrödinger, LLC, and Chimera (UCSF). See
+     <a>
+      supplementary information
+     </a>
+     for details.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     1
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (468K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     3
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.3M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     4
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (58K, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     5
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (311K, tif)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     6
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (94K, doc)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGEMENTS
+   </title>
+   <sec>
+    <p>
+     We are grateful to Ineke Braakman for continuous support. We thank Assaf Friedler, Sander van den Heuvel and Paul van Bergen en Henegouwen for comments on the manuscript. S.G.D.R. was supported by Marie-Curie Actions of the 6
+     <sup>
+      th
+     </sup>
+     and 7
+     <sup>
+      th
+     </sup>
+     Framework programme of the EU (Excellence Grant “chaperoning cascades” (No. 25651), Innovative Doctoral Programme “ManiFold” (No. 317371) and Initial Training Network “WntsApp” (No. 608180)), a VIDI career development grant by the Nederlands Organisation for Scientific Research NWO and a High Potential Grant of Utrecht University. A.M.S.D. was supported by of a grant from Fundação para a Ciência e a Tecnologia, Portugal (SFRH/BPD/78075/2011). R.B. was supported by NWO-CW for the 900 MHz NMR and the TCI cryoprobe. R.B., H.I. and T.M. were supported by the EU project “BioNMR” (No. 261863). M.Z. was supported by the German Research Foundation (ZW71/7-1). T.M. was supported by the Bavarian Ministry of Sciences, Research and the Arts (Bavarian Molecular Biosystems Research Network), the Austrian Academy of Sciences (APART-fellowship), and the German Research Foundation (Emmy Noether program MA 5703/1-1). The authors gratefully acknowledge the Leibniz Supercomputing Centre (LRZ,
+     <a>
+      www.lrz.de
+     </a>
+     ) for providing computing time on the Linux Cluster.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCE LIST
+   </title>
+   <sec>
+    <ul>
+     <li>
+      <span>
+       Ali MMU, Roe SM, Vaughan CK, Meyer P, Panaretou B, Piper PW, Prodromou C, Pearl LH. Crystal structure of an Hsp90-nucleotide-p23/Sba1 closed chaperone complex.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2006;
+        <span>
+         440
+        </span>
+        (7087):1013–1017.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Barghorn S, Davies P, Mandelkow E. Tau paired helical filaments from Alzheimer's disease brain and assembled in vitro are based on beta-structure in the core domain.
+       <span>
+        <span>
+         Biochemistry (N. Y.)
+        </span>
+        2004;
+        <span>
+         43
+        </span>
+        :1694–1703.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Bergen Mv, Friedhoff P, Biernat J, Heberle J, Mandelkow EM, Mandelkow E. Assembly of tau protein into Alzheimer paired helical filaments depends on a local sequence motif ((306)VQIVYK(311)) forming beta structure.
+       <span>
+        <span>
+         Proc. Natl. Acad. Sci. U. S. A.
+        </span>
+        2000;
+        <span>
+         97
+        </span>
+        :5129–5134.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Blair L, Nordhues BA, Hill SE, Scaglione KM, O'Leary JC, Fontaine SN, Breydo L, Zhang B, Li P, Wang L, et al.  Accelerated neurodegeneration through chaperone-mediated oligomerization of tau.
+       <span>
+        <span>
+         Journal of Clinical Investigation.
+        </span>
+       </span>
+       in the press.
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Buckle AM, Zahn R, Fersht AR. A structural model for GroEL-polypeptide recognition.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        1997;
+        <span>
+         94
+        </span>
+        :3571–3575.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Bukau B, Weissman J, Horwich A. Molecular chaperones and protein quality control.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2006;
+        <span>
+         125
+        </span>
+        :443–451.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Daggett V, Fersht A. The present view of the mechanism of protein folding.
+       <span>
+        <span>
+         Nat. Rev. Mol. Cell Biol.
+        </span>
+        2003;
+        <span>
+         4
+        </span>
+        :497–502.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Daturpalli S, Wang S, Buell A, Waudby C, Meehan S, Jackson SE. Hsp90 Inhibits alpha-Synuclein Aggregation by Interacting with Soluble Oligomers.
+       <span>
+        <span>
+         J. Mol. Biol.
+        </span>
+        2013
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dekker N, Cox M, Boelens R, Verrijzer CP, van der Vliet PC, Kaptein R. Solution structure of the POU-specific DNA-binding domain of Oct-1.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1993;
+        <span>
+         362
+        </span>
+        :852–855.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Delaglio F, Grzesiek S, Vuister GW, Zhu G, Pfeifer J, Bax A. NMRPipe: a multidimensional spectral processing system based on UNIX pipes.
+       <span>
+        <span>
+         J. Biomol. NMR.
+        </span>
+        1995;
+        <span>
+         6
+        </span>
+        :277–293.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dickey CA, Kamal A, Lundgren K, Klosak N, Bailey RM, Dunmore J, Ash P, Shoraka S, Zlatkovic J, Eckman CB, et al.  The high-affinity HSP90-CHIP complex recognizes and selectively degrades phosphorylated tau client proteins.
+       <span>
+        <span>
+         J. Clin. Invest.
+        </span>
+        2007;
+        <span>
+         117
+        </span>
+        :648–658.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Didenko T, Boelens R, Rüdiger SGD. 3D DOSY-TROSY to determine the translational diffusion coefficient of large protein complexes.
+       <span>
+        <span>
+         Protein Eng. Des. Sel.
+        </span>
+        2011;
+        <span>
+         24
+        </span>
+        :99–103.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Didenko T, Duarte AM, Karagöz GE, Rüdiger SGD. Hsp90 structure and function studied by NMR spectroscopy.
+       <span>
+        <span>
+         Biochim. Biophys. Acta.
+        </span>
+        2012;
+        <span>
+         1823
+        </span>
+        :636–647.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dollins DE, Warren JJ, Immormino RM, Gewirth DT. Structures of GRP94-nucleotide complexes reveal mechanistic differences between the hsp90 chaperones.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2007;
+        <span>
+         28
+        </span>
+        :41–56.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dou F, Netzer WJ, Tanemura K, Li F, Hartl FU, Takashima A, Gouras GK, Greengard P, Xu H. Chaperones increase association of tau protein with microtubules.
+       <span>
+        <span>
+         Proc. Natl. Acad. Sci. U. S. A.
+        </span>
+        2003;
+        <span>
+         100
+        </span>
+        :721–726.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Dunker AK, Gough J. Sequences and topology: intrinsic disorder in the evolving universe of protein structure.
+       <span>
+        <span>
+         Curr. Opin. Struct. Biol.
+        </span>
+        2011;
+        <span>
+         21
+        </span>
+        :379–381.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Echeverria PC, Picard D. Molecular chaperones, essential partners of steroid hormone receptors for activity and mobility.
+       <span>
+        <span>
+         Biochimica Et Biophysica Acta-Molecular Cell Research.
+        </span>
+        2010;
+        <span>
+         1803
+        </span>
+        :641–649.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Eisenberg D, Jucker M. The amyloid state of proteins in human diseases.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2012;
+        <span>
+         148
+        </span>
+        :1188–1203.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Genest O, Reidy M, Street TO, Hoskins JR, Camberg JL, Agard DA, Masison DC, Wickner S. Uncovering a region of heat shock protein 90 important for client binding in E. coli and chaperone function in yeast.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2013;
+        <span>
+         49
+        </span>
+        :464–473.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Haass C, Selkoe DJ. Soluble protein oligomers in neurodegeneration: lessons from the Alzheimer's amyloid beta-peptide.
+       <span>
+        <span>
+         Nat. Rev. Mol. Cell Biol.
+        </span>
+        2007;
+        <span>
+         8
+        </span>
+        :101–112.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hagn F, Lagleder S, Retzlaff M, Rohrberg J, Demmer O, Richter K, Buchner J, Kessler H. Structural analysis of the interaction between Hsp90 and the tumor suppressor protein p53.
+       <span>
+        <span>
+         Nature Struct. Mol. Biol.
+        </span>
+        2011;
+        <span>
+         0
+        </span>
+        :1–8.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hartl FU, Bracher A, Hayer-Hartl M. Molecular chaperones in protein folding and proteostasis.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2011;
+        <span>
+         475
+        </span>
+        :324–332.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ittner LM, Ke YD, Delerue F, Bi M, Gladbach A, van Eersel J, Wolfing H, Chieng BC, Christie MJ, Napier IA, et al.  Dendritic function of tau mediates amyloid-beta toxicity in Alzheimer's disease mouse models.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2010;
+        <span>
+         142
+        </span>
+        :387–397.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Jakob U, Lilie H, Meyer I, Buchner J. Transient interaction of Hsp90 with early unfolding intermediates of citrate synthase. Implications for heat shock in vivo.
+       <span>
+        <span>
+         J Biol Chem.
+        </span>
+        1995;
+        <span>
+         270
+        </span>
+        :7288–7294.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Jinwal UK, Akoury E, Abisambra JF, O'Leary JC, 3rd, Thompson AD, Blair LJ, Jin Y, Bacon J, Nordhues BA, Cockman M, et al.  Imbalance of Hsp70 family variants fosters tau accumulation.
+       <span>
+        <span>
+         FASEB J.
+        </span>
+        2012
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Karagöz GE, Duarte AM, Ippel H, Uetrecht C, Sinnige T, van Rosmalen M, Hausmann J, Heck AJ, Boelens R, Rüdiger SGD. N-terminal domain of human Hsp90 triggers binding to the cochaperone p23.
+       <span>
+        <span>
+         Proc. Natl. Acad. Sci. U. S. A.
+        </span>
+        2011;
+        <span>
+         108
+        </span>
+        :580–585.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Kemmer G, Keller S. Nonlinear least-squares data fitting in Excel spreadsheets.
+       <span>
+        <span>
+         Nat. Protoc.
+        </span>
+        2010;
+        <span>
+         5
+        </span>
+        :267–281.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Kosik KS, Joachim CL, Selkoe DJ. Microtubule-associated protein tau (tau) is a major antigenic component of paired helical filaments in Alzheimer disease.
+       <span>
+        <span>
+         Proc. Natl. Acad. Sci. U. S. A.
+        </span>
+        1986;
+        <span>
+         83
+        </span>
+        :4044–4048.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Krukenberg KA, Bottcher UM, Southworth DR, Agard DA. Grp94, the endoplasmic reticulum Hsp90, has a similar solution conformation to cytosolic Hsp90 in the absence of nucleotide.
+       <span>
+        <span>
+         Protein Sci.
+        </span>
+        2009;
+        <span>
+         18
+        </span>
+        :1815–1827.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Krukenberg KA, Forster F, Rice LM, Sali A, Agard DA. Multiple conformations of E. coli Hsp90 in solution: insights into the conformational dynamics of Hsp90.
+       <span>
+        <span>
+         Structure.
+        </span>
+        2008;
+        <span>
+         16
+        </span>
+        :755–765.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Li J, Soroka J, Buchner J. The Hsp90 chaperone machinery: Conformational dynamics and regulation by co-chaperones.
+       <span>
+        <span>
+         Biochim. Biophys. Acta.
+        </span>
+        2012;
+        <span>
+         1823
+        </span>
+        :624–635.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Luo W, Dou F, Rodina A, Chip S, Kim J, Zhao Q, Moulick K, Aguirre J, Wu N, Greengard P, Chiosis G. Roles of heat-shock protein 90 in maintaining and facilitating the neurodegenerative phenotype in tauopathies.
+       <span>
+        <span>
+         Proc. Natl. Acad. Sci. U. S. A.
+        </span>
+        2007;
+        <span>
+         104
+        </span>
+        :9511–9516.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mandelkow EM, Mandelkow E. Biochemistry and cell biology of tau protein in neurofibrillary degeneration.
+       <span>
+        <span>
+         Cold Spring Harb Perspect. Med.
+        </span>
+        2012;
+        <span>
+         2
+        </span>
+        :a006247.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mayer MP. Gymnastics of molecular chaperones.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2010;
+        <span>
+         39
+        </span>
+        :321–331.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Meyer P, Prodromou C, Hu B, Vaughan C, Roe SM, Panaretou B, Piper PW, Pearl LH. Structural and functional analysis of the middle segment of hsp90: implications for ATP hydrolysis and client protein and cochaperone interactions.
+       <span>
+        <span>
+         Mol Cell.
+        </span>
+        2003;
+        <span>
+         11
+        </span>
+        :647–658.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Miyata Y, Koren J, Kiray J, Dickey CA, Gestwicki JE. Molecular chaperones and regulation of tau quality control: strategies for drug discovery in tauopathies.
+       <span>
+        <span>
+         Future Med. Chem.
+        </span>
+        2011;
+        <span>
+         3
+        </span>
+        :1523–1537.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mukrasch MD, Bibow S, Korukottu J, Jeganathan S, Biernat J, Griesinger C, Mandelkow E, Zweckstetter M. Structural Polymorphism of 441-Residue Tau at Single Residue Resolution.
+       <span>
+        <span>
+         Plos Biology.
+        </span>
+        2009;
+        <span>
+         7
+        </span>
+        :399–414.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mylonas E, Hascher A, Bernado P, Blackledge M, Mandelkow E, Svergun DI. Domain conformation of tau protein studied by solution small-angle X-ray scattering.
+       <span>
+        <span>
+         Biochemistry (N. Y.)
+        </span>
+        2008;
+        <span>
+         47
+        </span>
+        :10345–10353.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Oddo S, Billings L, Kesslak JP, Cribbs DH, LaFerla FM. Abeta immunotherapy leads to clearance of early, but not late, hyperphosphorylated tau aggregates via the proteasome.
+       <span>
+        <span>
+         Neuron.
+        </span>
+        2004;
+        <span>
+         43
+        </span>
+        :321–332.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Park SJ, Kostic M, Dyson HJ. Dynamic Interaction of Hsp90 with Its Client Protein p53.
+       <span>
+        <span>
+         J. Mol. Biol.
+        </span>
+        2011;
+        <span>
+         411
+        </span>
+        :158–173.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Pearl LH, Prodromou C. Structure and mechanism of the hsp90 molecular chaperone machinery.
+       <span>
+        <span>
+         Annu Rev Biochem.
+        </span>
+        2006;
+        <span>
+         75
+        </span>
+        :271–294.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Pearl LH, Prodromou C, Workman P. The Hsp90 molecular chaperone: an open and shut case for treatment.
+       <span>
+        <span>
+         Biochem. J.
+        </span>
+        2008;
+        <span>
+         410
+        </span>
+        :439–453.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Petoukhov MV, Svergun DI. Global Rigid Body Modeling of Macromolecular Complexes against Small-Angle Scattering Data.
+       <span>
+        <span>
+         Biophys. J.
+        </span>
+        2005;
+        <span>
+         89
+        </span>
+        :1237–1250.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Prodromou C, Roe SM, Piper PW, Pearl LH. A molecular clamp in the crystal structure of the N-terminal domain of the yeast Hsp90 chaperone.
+       <span>
+        <span>
+         Nat Struct Biol.
+        </span>
+        1997;
+        <span>
+         4
+        </span>
+        :477–482.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Retzlaff M, Hagn F, Mitschke L, Hessling M, Gugel F, Kessler H, Richter K, Buchner J. Asymmetric activation of the hsp90 dimer by its cochaperone aha1.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2010;
+        <span>
+         37
+        </span>
+        :344–354.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Roberson ED, Scearce-Levie K, Palop JJ, Yan F, Cheng IH, Wu T, Gerstein H, Yu GQ, Mucke L. Reducing endogenous tau ameliorates amyloid beta-induced deficits in an Alzheimer's disease mouse model.
+       <span>
+        <span>
+         Science.
+        </span>
+        2007;
+        <span>
+         316
+        </span>
+        :750–754.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Rüdiger S, Buchberger A, Bukau B. Interaction of Hsp70 chaperones with substrates.
+       <span>
+        <span>
+         Nat Struct Biol.
+        </span>
+        1997a;
+        <span>
+         4
+        </span>
+        :342–349.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Rüdiger S, Germeroth L, Schneider-Mergener J, Bukau B. Substrate specificity of the DnaK chaperone determined by screening cellulose-bound peptide libraries.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        1997b;
+        <span>
+         16
+        </span>
+        :1501–1507.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Santacruz K, Lewis J, Spires T, Paulson J, Kotilinek L, Ingelsson M, Guimaraes A, DeTure M, Ramsden M, McGowan E, et al.  Tau suppression in a neurodegenerative mouse model improves memory function.
+       <span>
+        <span>
+         Science.
+        </span>
+        2005;
+        <span>
+         309
+        </span>
+        :476–481.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Sarkar M, Kuret J, Lee G. Two motifs within the tau microtubule-binding domain mediate its association with the hsc70 molecular chaperone.
+       <span>
+        <span>
+         J. Neurosci. Res.
+        </span>
+        2008;
+        <span>
+         86
+        </span>
+        :2763–2773.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Sette M, van Tilborg P, Spurio R, Kaptein R, Paci M, Gualerzi CO, Boelens R. The structure of the translational initiation factor IF1 from E.coli contains an oligomer-binding motif.
+       <span>
+        <span>
+         EMBO J.
+        </span>
+        1997;
+        <span>
+         16
+        </span>
+        :1436–1443.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Shiau AK, Harris SF, Southworth DR, Agard DA. Structural Analysis of E. coli hsp90 reveals dramatic nucleotide-dependent conformational rearrangements.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2006;
+        <span>
+         127
+        </span>
+        :329–340.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Shkumatov AV, Chinnathambi S, Mandelkow E, Svergun DI. Structural memory of natively unfolded tau protein detected by small-angle X-ray scattering.
+       <span>
+        <span>
+         Proteins.
+        </span>
+        2011;
+        <span>
+         79
+        </span>
+        :2122–2131.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Street TO, Lavery LA, Agard DA. Substrate binding drives large-scale conformational changes in the Hsp90 molecular chaperone.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2011;
+        <span>
+         42
+        </span>
+        :96–105.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Taipale M, Jarosz DF, Lindquist S. HSP90 at the hub of protein homeostasis: emerging mechanistic insights.
+       <span>
+        <span>
+         Nature Reviews Molecular Cell Biology.
+        </span>
+        2010;
+        <span>
+         11
+        </span>
+        :515–528.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Taipale M, Krykbaeva I, Koeva M, Kayatekin C, Westover KD, Karras GI, Lindquist S. Quantitative analysis of HSP90-client interactions reveals principles of substrate recognition.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2012;
+        <span>
+         150
+        </span>
+        :987–1001.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Thompson AD, Scaglione KM, Prensner J, Gillies AT, Chinnaiyan A, Paulson HL, Jinwal UK, Dickey CA, Gestwicki JE. Analysis of the tau-associated proteome reveals that exchange of Hsp70 for Hsp90 is involved in tau degradation.
+       <span>
+        <span>
+         ACS Chem. Biol.
+        </span>
+        2012;
+        <span>
+         7
+        </span>
+        :1677–1686.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Tugarinov V, Hwang PM, Ollerenshaw JE, Kay LE. Cross-correlated relaxation enhanced 1H-13C NMR spectroscopy of methyl groups in very high molecular weight proteins and protein complexes.
+       <span>
+        <span>
+         J. Am. Chem. Soc.
+        </span>
+        2003;
+        <span>
+         125
+        </span>
+        :10420–10428.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Uversky VN, Oldfield CJ, Midic U, Xie H, Xue B, Vucetic S, Iakoucheva LM, Obradovic Z, Dunker AK. Unfoldomics of human diseases: linking protein intrinsic disorder with diseases.
+       <span>
+        <span>
+         BMC Genomics.
+        </span>
+        2009;(10 Suppl 1):S7.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Vaughan CK, Gohlke U, Sobott F, Good VM, Ali MM, Prodromou C, Robinson CV, Saibil HR, Pearl LH. Structure of an Hsp90-Cdc37-Cdk4 complex.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2006;
+        <span>
+         23
+        </span>
+        :697–707.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Vranken WF, Boucher W, Stevens TJ, Fogh RH, Pajon A, Llinas M, Ulrich EL, Markley JL, Ionides J, Laue ED. The CCPN data model for NMR spectroscopy: development of a software pipeline.
+       <span>
+        <span>
+         Proteins.
+        </span>
+        2005;
+        <span>
+         59
+        </span>
+        :687–696.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wegele H, Muller L, Buchner J. Hsp70 and Hsp90--a relay team for protein folding.
+       <span>
+        <span>
+         Rev. Physiol. Biochem. Pharmacol.
+        </span>
+        2004;
+        <span>
+         151
+        </span>
+        :1–44.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Weibezahn J, Schlieker C, Tessarz P, Mogk A, Bukau B. Novel insights into the mechanism of chaperone-assisted protein disaggregation.
+       <span>
+        <span>
+         Biol. Chem.
+        </span>
+        2005;
+        <span>
+         386
+        </span>
+        :739–744.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wüthrich K. NMR studies of structure and function of biological macromolecules (Nobel lecture)
+       <span>
+        <span>
+         Angew. Chem. Int. Ed Engl.
+        </span>
+        2003;
+        <span>
+         42
+        </span>
+        :3340–3363.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Xu Z, Horwich AL, Sigler PB. The crystal structure of the asymmetric GroEL-GroES-(ADP)7 chaperonin complex.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1997;
+        <span>
+         388
+        </span>
+        :741–750.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Zuiderweg ER. Mapping protein-protein interactions in solution by NMR spectroscopy.
+       <span>
+        <span>
+         Biochemistry.
+        </span>
+        2002;
+        <span>
+         41
+        </span>
+        :1–7.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+    </ul>
+   </sec>
+  </sec>
+ </body>
+</article>

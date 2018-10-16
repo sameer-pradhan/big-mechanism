@@ -1,0 +1,2773 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3009882
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Identification of Transmembrane Protein 88 (TMEM88) as a Dishevelled-binding Protein*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Wnt signaling pathways are involved in embryonic development and adult tissue maintenance and have been implicated in tumorigenesis. Dishevelled (Dvl/Dsh) protein is one of key components in Wnt signaling and plays essential roles in regulating these pathways through protein-protein interactions. Identifying and characterizing Dvl-binding proteins are key steps toward understanding biological functions. Given that the tripeptide VWV (Val-Trp-Val) binds to the PDZ domain of Dvl, we searched publically available databases to identify proteins containing the VWV motif at the C terminus that could be novel Dvl-binding partners. On the basis of the cellular localization and expression patterns of the candidates, we selected for further study the TMEM88 (
+     <span>
+      t
+     </span>
+     arget protein
+     <span>
+      t
+     </span>
+     rans
+     <span>
+      mem
+     </span>
+     brane
+     <span>
+      88
+     </span>
+     ), a two-transmembrane-type protein. The interaction between the PDZ domain of Dvl and the C-terminal tail of TMEM88 was confirmed by using NMR and fluorescence spectroscopy. Furthermore, in HEK293 cells, TMEM88 attenuated the Wnt/β-catenin signaling induced by Wnt-1 ligand in a dose-dependent manner, and TMEM88 knockdown by RNAi increased Wnt activity. In
+     <em>
+      Xenopus
+     </em>
+     , TMEM88 protein is sublocalized at the cell membrane and inhibits Wnt signaling induced by Xdsh but not β-catenin. In addition, TMEM88 protein inhibits the formation of a secondary axis normally induced by Xdsh. The findings suggest that TMEM88 plays a role in regulating Wnt signaling. Indeed, analysis of microarray data revealed that the expression of the
+     <em>
+      Tmem88
+     </em>
+     gene was strongly correlated with that of Wnt signaling-related genes in embryonic mouse intestines. Together, we propose that TMEM88 associates with Dvl proteins and regulates Wnt signaling in a context-dependent manner.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Microarray, NMR, Protein Structure, Protein-Protein Interactions, Signal Transduction
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Wnt signaling pathways play important roles in cell development, growth, and tumorigenesis (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ). The cytoplasmic protein Dishevelled (Dvl/Dsh) (DVL-1, DVL-2, and DVL-3 in mammals) is a key component of Wnt-signaling pathways, which relays the signals from plasma membrane-bound Wnt receptors to downstream components (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ). Dvl proteins consist of three highly conserved domains, the DIX (
+    <span>
+     Di
+    </span>
+    shevelled-a
+    <span>
+     x
+    </span>
+    in), PDZ (
+    <span>
+     p
+    </span>
+    ost synaptic density-95,
+    <span>
+     d
+    </span>
+    isc large and
+    <span>
+     z
+    </span>
+    onular occludens-1), and DEP (
+    <span>
+     D
+    </span>
+    ishevelled-
+    <span>
+     E
+    </span>
+    GL10-
+    <span>
+     p
+    </span>
+    leckstrin) domains (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ). The PDZ domain modulates Wnt signaling by interacting with several proteins such as seven-transmembrane Wnt receptor Frizzled (Fz) proteins (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ) and the single-transmembrane receptor Tyr kinase Ryk (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ), as well as Wnt signaling modulators such as the proteins Dapper (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ) and Idax (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ). The Dvl PDZ domain is ∼100-amino acids-long and consists of six β-strands (βA–βF) and two α-helices (αA–αB) (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ). Although the binding mechanism of the Dvl PDZ domain and other proteins is not fully explored, we and others (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ) have reported that the Dvl PDZ domain recognizes the typical C-terminal PDZ-binding motifs or internal sequences of target proteins by using the same peptide-binding site on the surface of the Dvl PDZ domain, which is located between the αB-helix and the βB-strand structures. To identify additional peptide sequences that bind to the Dvl PDZ domain at the same peptide-binding site, we recently performed computational studies in combination with a NMR mapping assay (
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ). We showed that the VWV (Val-Trp-Val) motif is sufficient to recognize the Dvl PDZ domain. As the completion of genome sequencing projects in humans and other species have resulted in the discovery of many putative and uncharacterized proteins; we speculated that some of those proteins might have a Val-Trp-Val motif at their C termini and regulate the Wnt signaling pathways by binding Dvl proteins.
+   </p>
+   <p>
+    Here, we identified Dvl-binding molecules by combining bioinformatics, biophysics, and biochemistry approaches. In addition, microarray data deposited in a public database were analyzed to identify any correlation between the expression of the target
+    <em>
+     TMEM88
+    </em>
+    gene and that of genes involved in Wnt signaling. As databases of gene expression profiles have recently increased dramatically in number and scope (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ); we believe that a comprehensive analysis of microarray databases further facilitated the assessment of the function of a targeted gene.
+   </p>
+   <p>
+    Here, we report that the TMEM88 (
+    <span>
+     t
+    </span>
+    rans
+    <span>
+     mem
+    </span>
+    brane protein
+    <span>
+     88
+    </span>
+    ) interacts with the cytoplasmic Dvl protein through the PDZ domain and can attenuate Wnt/β-catenin signaling induced by the Wnt-1 ligand. The analysis of Gene Expression Omnibus data (
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ) from three different tissues revealed that the expression of the
+    <em>
+     TMEM88
+    </em>
+    gene correlates with that of components of the Wnt pathways, suggesting that TMEM88 binds Dvl to modulate Wnt signaling.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Database Searches
+      </title>
+      <p>
+       Using the ScanProsite database, we searched for proteins containing a Val-Trp-Val motif at the C terminus in invertebrates and vertebrates (
+       <xref ref-type="bibr">
+        27
+       </xref>
+       ) in December 2009. We searched for homologs by using Ensemble and HomoloGene from the National Center for Biotechnology Information (
+       <a>
+        http://www.ncbi.nih.gov
+       </a>
+       ). The GEO database (
+       <a>
+        http://www.ncbi.nlm.nih.gov/geo/
+       </a>
+       ) was analyzed to find any correlation between
+       <em>
+        TMEM88
+       </em>
+       and Wnt signaling-related genes (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Expression and Purification of the
+       <sup>
+        15
+       </sup>
+       N-labeled PDZ Domain of Mouse Dishevelled-1
+      </title>
+      <p>
+       The detailed method used to prepare the Dvl-1 PDZ domain has been described previously (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ). In brief, to make a
+       <sup>
+        15
+       </sup>
+       N-labeled protein, transformed cells were grown in MOPS-containing medium with
+       <sup>
+        15
+       </sup>
+       NH
+       <sub>
+        4
+       </sub>
+       Cl (1 g/liter) as the source of
+       <sup>
+        15
+       </sup>
+       N. Protein expression was induced by the addition of 1 m
+       <span>
+        m
+       </span>
+       isopropyl-1-thio-β-
+       <span>
+        d
+       </span>
+       -galactoside. When the
+       <em>
+        A
+       </em>
+       <sub>
+        600
+       </sub>
+       of the cells was ∼0.6, 16 h after induction at 16 °C, the cells were resuspended in lysis buffer (20 m
+       <span>
+        m
+       </span>
+       phosphate, 300 m
+       <span>
+        m
+       </span>
+       NaCl, pH 7.8) and sonicated. The lysate was centrifuged; the supernatant was then transferred to a column of nickel-nitrilotriacetic acid beads, and the column was washed with 50 m
+       <span>
+        m
+       </span>
+       imidazole. The protein was eluted by adding 200 m
+       <span>
+        m
+       </span>
+       imidazole in 20 m
+       <span>
+        m
+       </span>
+       phosphate buffer (pH 7.8) and 300 m
+       <span>
+        m
+       </span>
+       NaCl. The PDZ domain was further purified by chromatography on a Superdex® 75 preparative grade column (Amersham Biosciences Pharmacia) and was eluted by adding 100 m
+       <span>
+        m
+       </span>
+       phosphate buffer (pH 7.5) and 0.5 m
+       <span>
+        m
+       </span>
+       EDTA.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Peptide Synthesis and Purification
+      </title>
+      <p>
+       The peptide GSRSVPTPGKVWV (residues 147–159), which is referred to as TMEM88C, was derived from the C-terminal tail of human TMEM88 and chemically synthesized by staff in the Hartwell Center for Bioinformatics &amp; Biotechnology at St. Jude Children's Research Hospital. TMEM88C was then purified by reverse-phase HPLC. Analytical HPLC was performed using a Waters 2695 Separations Module equipped with a Waters 2487 UV detector. Peptide TMEM88C was dissolved in acetonitrile: water (50:50) at a concentration of 2 mg/ml and injected onto a VYDAC® C18 5 μm column. A gradient profile was used to run the analysis starting with 100% buffer A (0.1% trifluoroacetic acid in water) to 100% buffer B (80% acetonitrile, 20% water, 0.1% trifluoroacetic acid) in 45 min. Analysis was performed at 220 nm. The peptide was 84% pure and was used without any further purification.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       NMR Spectroscopy
+      </title>
+      <p>
+       All NMR experiments were performed at 25 °C using a Varian INOVA 600-MHz spectrometer equipped with an actively shielded xyz-axis gradient triple-resonance probe head. Samples consisted of the
+       <sup>
+        15
+       </sup>
+       N-PDZ domain (0.2–3 m
+       <span>
+        m
+       </span>
+       ) in 100 m
+       <span>
+        m
+       </span>
+       phosphate (pH 7.5) and 0.5 m
+       <span>
+        m
+       </span>
+       EDTA. The
+       <sup>
+        15
+       </sup>
+       N heteronuclear single quantum coherence (HQSC)
+       <sup>
+        <a>
+         2
+        </a>
+       </sup>
+       experiments were performed to detect chemical shift perturbations in the spectra of uniformly
+       <sup>
+        15
+       </sup>
+       N-labeled PDZ domains of Dvl-1 with the addition of TMEM88C peptide. NMR spectra were processed using NMRpipe software (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ) and analyzed by Sparky (version 3.1; T. D. Goddard and D.G. Kneller, University of California, San Francisco). Chemical shift perturbations (Δδ
+       <sub>
+        binding
+       </sub>
+       ) of
+       <sup>
+        1
+       </sup>
+       H and
+       <sup>
+        15
+       </sup>
+       N resonances were obtained and weighted according to the following equation: Δδ
+       <sub>
+        binding
+       </sub>
+       = ((Δδ
+       <sup>
+        1
+       </sup>
+       H)
+       <sup>
+        2
+       </sup>
+       + (Δδ
+       <sup>
+        15
+       </sup>
+       N × 0.2)
+       <sup>
+        2
+       </sup>
+       )
+       <sup>
+        1/2
+       </sup>
+       .
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Fluorescence Spectroscopy
+      </title>
+      <p>
+       A Fluorolog-3 spectrofluorometer (Jobin-Yvon, Inc.) was used for the binding assay. A 10 × 4 mm quartz cell (Hellma®) with a minimagnetic stirring bar was used for equilibration during the titration experiments with continuous stirring to equilibrate the temperature of the sample. To record the Trp fluorescent polarization of the Val-Trp-Val tripeptide and TMEM88C, we used an excitation wavelength of 280 nm and an emission wavelength of 360 nm. The 1.4-ml samples contained ∼0.5 μ
+       <span>
+        m
+       </span>
+       peptides in 0.1
+       <span>
+        m
+       </span>
+       potassium phosphate buffer (pH 7.5). The Trp fluorescence polarization data were measured during the titration of the Dvl-1 PDZ domain and analyzed by Prism software (GraphPad, Inc.).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Cell Culture, Transfection, and Luciferase Assay
+      </title>
+      <p>
+       Most experimental methods used have been described previously (
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ). In brief, the full cDNA clone of human TMEM88 (catalog no. IOH29129) was purchased from Invitrogen. The expression of Wnt-1 and TMEM88 was driven by a cytomegalovirus promoter. HEK293 cells were maintained in 24-well plates. Cells in each well were co-transfected with 0.01 μg
+       <em>
+        Lef-1
+       </em>
+       expression plasmid, 0.075 μg
+       <em>
+        Lef-1
+       </em>
+       luciferase reporter plasmid, 0.05 μg GFP expression plasmid, 0.003 μg Wnt-1 expression plasmid, and various amounts of TMEM88. Cells were transfected without Wnt-1 expression plasmid as basal control. Additional
+       <em>
+        lacZ
+       </em>
+       plasmid was added to to equilibrate the total amount of DNA to 0.25 μg per transfection. After 1 day of growth, the cells were lysed, and GFP levels was measured by using a Wallac multicounter, and luciferase activity levels were measured using a Luciferase Reporter Gene Assay kit (high sensitivity, Roche Applied Science) according to the manufacturer's instructions; luciferase activity was normalized against the levels of GFP expression. Each experiment was carried out in duplicate, and the S.D. was calculated.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       TMEM88 Knockdown Experiment
+      </title>
+      <p>
+       HEK293T cells were seeded in 24-well plate. 24 h later, cells in each well were transfected with 0.19 μg TOPflash, 0.01 μg GFP, and 0.14 μg TMEM88 RNAi (catalog no. TMEM88-HSS190049 from Invitrogen) by using Lipofectamine 2000 according to the manufacturer's instructions. For the control, cells in each well were transfected with 0.19 μg TOPflash (T-cell factor reporter plasmid), 0.01 μg GFP, and 0.14 μg
+       <em>
+        lacZ
+       </em>
+       . 66 h after transfection, cell culture medium was replaced by DMEM. After 6 h cultured in DMEM, cells were lysed and subjected to GFP and luciferase measurement according to a method described previously (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Xenopus Embryo Studies
+      </title>
+      <p>
+       <em>
+        Xenopus
+       </em>
+       eggs were obtained from female frogs that had been injected with 500 international units of human chorionic gonadotropin (Sigma-Aldrich) and fertilized artificially. Synthesis and microinjection of mRNAs were carried out as described previously (
+       <xref ref-type="bibr">
+        30
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ).
+      </p>
+      <p>
+       To investigate the subcellular distribution of TMEM88, we generated a fusion of the Myc epitope to the N-terminal region of TMEM88, Myc-tagged TMEM88, and injected the Myc-tagged mRNA into the animal pole region of
+       <em>
+        Xenopus
+       </em>
+       embryos at the four-cell stage. Animal cap explants were dissected at the late blastula stage and fixed. Immunofluorescent staining was performed using an anti-Myc antibody and an FITC-conjugated secondary antibody. In addition, the effect of TMEM88 on the subcellular distribution of the GFP-tagged Xdsh (Dsh-GFP) in
+       <em>
+        Xenopus
+       </em>
+       was examined. Dsh-GFP mRNA was injected alone or co-injected with mRNA of human TMEM88 or TMEM88-ΔC that lacks the PDZ-binding motif at the last C-terminal tail into animal blastomerase at the four to eight cell stage. GFP fluorescence was assessed in animal explants. Localization of myc-TMEM88 or Dsh-GFP protein in
+       <em>
+        Xenopus
+       </em>
+       was examined by fluorescence confocal microscopy.
+      </p>
+      <p>
+       For the luciferase assay, the
+       <em>
+        Siamois
+       </em>
+       promoter-driven reporter DNA construct (Sialuc, 400 pg) (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ) was injected alone or coinjected with mRNAs of Xdsh, β-catenin, and Myc-tagged TMEM88 (100 pg each) into the animal pole region of
+       <em>
+        Xenopus
+       </em>
+       embryos at the two-cell stage. Injected embryos were cultured, and animal cap explants were dissected at the late blastula stage, and luciferase assays (Promega) were performed by preparing cell lysates from 10 explants and measuring luciferase activity in a Lumat LB 9507 luminometer. For the secondary axis assay, Xdsh mRNA (500 pg) or Xdsh mRNA (500 pg) together with Myc-tagged TMEM88 (500 pg) were injected into the ventrovegetal region of embryos at the four-cell stage, and injected embryos were then cultured until they reached the larval stage.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Analysis of GEO Profiling
+      </title>
+      <p>
+       Three microarray data sets were selected from GEO that had high
+       <em>
+        TMEM88
+       </em>
+       expression (replicates) and were performed on current Affymetrix GeneChip mouse genome 430 2.0 arrays (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ). To stabilize variance, the MAS 5.0 signal was natural log-start transformed by the following formula: ln(MAS 5.0 signal + 20). The transformed expression of each probe set on the array was correlated linearly with the transformed signal of
+       <em>
+        TMEM88
+       </em>
+       by using Pearson's coefficient (ρ) using a script written for STATA software (version 10.1, College Station, TX) for each of the experiments. In brief, a correlation sums the gene expression differences between any two genes across multiple arrays and then divides that sum by the total number of array experiments examined to give the Pearson's ρ. ρ values, which measure the degree of association between variables, range from −1 to 1.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Identification of Proteins That Have a Val-Trp-Val Motif at the C-terminal Tail
+      </title>
+      <p>
+       The Dvl PDZ domain recognizes the Val-Trp-Val tripeptide (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ); thus, we hypothesized that by interacting with the Dvl PDZ domain, some of the proteins containing the motif at the C terminus would be novel Wnt-signaling modulators. We, therefore, searched the ScanProsite database for such proteins and identified 294 proteins from invertebrates and vertebrates (protein fragments were excluded, data not shown). Among these proteins, six are human proteins (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). To ascertain possible binding partners, we searched for data about these proteins on the protein-protein interaction databases (
+       <xref ref-type="bibr">
+        33
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        –
+       </xref>
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ), but the results were negative. We then used the on-line database Ensemble to examine the expression patterns and subcellular localizations of the five proteins (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). Because the human DVL proteins are located in the cytoplasm, ubiquitously expressed in fetal and adult tissues and not secreted (
+       <xref ref-type="bibr">
+        10
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ), we focused on TMEM88, a transmembrane protein, as the most likely binding partner of the Dvl PDZ domain. TMEM88 is a two-transmembrane-type protein; residues 44–66 comprise the first transmembrane domain, and residues 86–108 comprise the second (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       <em>
+        A
+       </em>
+       ). Additional database searches revealed that, in humans, TMEM88 (
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"Q6PEY1","term_id":"74758328","term_text":"Q6PEY1"}}
+        </span>
+        Q6PEY1
+       </a>
+       ) is expressed in placenta (28.8%), embryonic tissue (10.02%), spleen (9.66%), muscle (8.48%), heart (6.64%), bone (6.50%), eye (5.65%), kidney (4.75%), and other tissues (4.67%). (NCBI Gene ID 92162). TMEM88 is also well conserved in mammals (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ,
+       <em>
+        B
+       </em>
+       and
+       <em>
+        C
+       </em>
+       ). Furthermore, ensemble database mining showed that TMEM88 (
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"Q9D0N8","term_id":"81904655","term_text":"Q9D0N8"}}
+        </span>
+        Q9D0N8
+       </a>
+       ) is expressed throughout the mouse embryo (data not shown).
+      </p>
+      <sec>
+       <a>
+        <img/>
+       </a>
+       <sec>
+        <sec>
+         <a>
+          TABLE 1
+         </a>
+        </sec>
+        <sec>
+         <span>
+          <strong>
+           Human proteins that contain the VWV motif at the C terminus
+          </strong>
+         </span>
+        </sec>
+       </sec>
+      </sec>
+      <fig id="F1" position="float">
+       <label>
+        FIGURE 1.
+       </label>       <caption>
+        <p>
+         <strong>
+          Identification and characterization of the TMEM88 protein.
+         </strong>
+         <em>
+          A
+         </em>
+         , schematic of the TMEM88 protein. The two transmembrane domains, TM1 and TM2, are indicated in
+         <em>
+          gray
+         </em>
+         , and the PDZ-binding domain is indicated in
+         <em>
+          black. B
+         </em>
+         , amino acid sequence alignments of hTMEM88, mTMEM88, rTMEM88, cTMEM88, and bTMEM88 by using CLUSTW.
+         <em>
+          h
+         </em>
+         ,
+         <em>
+          m
+         </em>
+         ,
+         <em>
+          r
+         </em>
+         ,
+         <em>
+          c
+         </em>
+         , and
+         <em>
+          b
+         </em>
+         represent human, mouse, rat,
+         <em>
+          Canis familiaris
+         </em>
+         (dog), and
+         <em>
+          Bos taurus
+         </em>
+         (cow), respectively. The
+         <em>
+          asterisks
+         </em>
+         indicate identical residues in alignment; the
+         <em>
+          colons
+         </em>
+         indicate that conserved substitutions have been observed; and
+         <em>
+          periods
+         </em>
+         indicate semiconserved substitutions have been observed.
+         <em>
+          C
+         </em>
+         , percent identity of TMEM88 protein among the species.
+         <em>
+          TM
+         </em>
+         , transmembrane;
+         <em>
+          C
+         </em>
+         , C terminus;
+         <em>
+          N
+         </em>
+         , N terminus.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Direct Interaction between C Terminus of TMEM88 and Dvl PDZ Domain
+      </title>
+      <p>
+       Although the Val-Trp-Val tripeptide is bound to the Dvl PDZ domain (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ), interactions with other upstream amino acid residues at the C terminus of TMEM88 may be important to regulate the interaction of the Dvl PDZ domain. Therefore, we characterized the interaction between the Dvl PDZ domain and a 13-mer peptide from the C terminus of human TMEM88 (TMEM88C) by performing NMR titration experiments in which the
+       <sup>
+        1
+       </sup>
+       H,
+       <sup>
+        15
+       </sup>
+       N-HSQC spectra of the uniformly
+       <sup>
+        15
+       </sup>
+       N-labeled PDZ domain of Dvl were recorded, whereas unlabeled TMEM88C was added gradually (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        A
+       </em>
+       ) (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). The expanded region of the
+       <sup>
+        15
+       </sup>
+       N-HSQC in
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        B
+       </em>
+       represents the “fingerprint” region corresponding to the important binding-site residues in the Dvl-1 PDZ domain. During titration, some peaks disappeared and reappeared, indicating that the binding was in the intermediate state on the NMR time scale (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). Based on the peak assignments of the Val-Trp-Val-bound state of Dvl-1 PDZ (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ), we were able to determine the resonance signals of the
+       <sup>
+        15
+       </sup>
+       N Dvl-1 PDZ domain bound to the TMEM88C peptide. The largest perturbation of signals was found in residue Ile-264 (Δδ
+       <sub>
+        binding
+       </sub>
+       = 0.591 ppm) on the βB-strand and in residues Arg-322 (Δδ
+       <sub>
+        binding
+       </sub>
+       = 0.513 ppm) and Val-325 (Δδ
+       <sub>
+        binding
+       </sub>
+       = 0.527 ppm) on the αB-helix of the Dvl-1 PDZ domain at the saturated concentration (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        B
+       </em>
+       ). The normalized chemical shift changes (Δδ
+       <sub>
+        binding
+       </sub>
+       ) for each backbone amide are shown in
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        C
+       </em>
+       . In addition, the backbone worm structure of the Dvl-1 PDZ domain was generated to show the effect of binding the TMEM88C peptide (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        D
+       </em>
+       ) and indicated that TMEM88C binds to the conventional peptide-binding groove between the αB-helix and βB-sheet structures in the PDZ domain of Dvl-1 as expected. We observed little difference in the chemical shift perturbations of the Val-Trp-Val tripeptide and TMEM88C caused by binding to the Dvl PDZ domain (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ). The difference of Δδ
+       <sub>
+        binding
+       </sub>
+       (ΔΔδ
+       <sub>
+        binding
+       </sub>
+       ) of the Dvl-1 PDZ domain for the two bound peptides was &lt;0.03, indicating that the last three residues at the extreme C terminus of TMEM88 would be crucial to determine the binding.
+      </p>
+      <fig id="F2" position="float">
+       <label>
+        FIGURE 2.
+       </label>       <caption>
+        <p>
+         <strong>
+          Direct binding of the TMEM88C peptide to the PDZ domain of Dvl.
+         </strong>
+         <em>
+          A
+         </em>
+         ,
+         <sup>
+          1
+         </sup>
+         H,
+         <sup>
+          15
+         </sup>
+         N HSQC-spectra of the Dvl-1 PDZ domain and with varying concentrations of the 13-mer TMEM88C peptide.
+         <em>
+          B
+         </em>
+         , the extended
+         <sup>
+          1
+         </sup>
+         H,
+         <sup>
+          15
+         </sup>
+         N HSQC spectra of the Dvl-1 PDZ domain as a function of the concentration of the 13-mer TMEM88C peptide (
+         <em>
+          blue
+         </em>
+         , 1:0;
+         <em>
+          gray
+         </em>
+         , 1:1;
+         <em>
+          green
+         </em>
+         , 1:3;
+         <em>
+          purple
+         </em>
+         , 1:5; and
+         <em>
+          red
+         </em>
+         , 1:8).
+         <em>
+          C
+         </em>
+         , normalization of the chemical shift perturbation by Ile-264 (Δδ = 0.591 ppm).
+         <em>
+          D
+         </em>
+         , the worm representation of the backbone structure of the Dvl-1 PDZ domain (Protein Data Bank code
+         <span>
+          1MC7
+         </span>
+         ). The thickness of the worm structure was normalized to the chemical shift perturbation datum of Ile-264 (
+         <em>
+          red
+         </em>
+         , high;
+         <em>
+          blue
+         </em>
+         , low). Insight II software was used to prepare this model.
+         <em>
+          E
+         </em>
+         , the binding affinity (
+         <em>
+          K
+          <sub>
+           D
+          </sub>
+         </em>
+         ) of the Val-Trp-Val tripeptide (
+         <em>
+          triangles
+         </em>
+         ) and that of the TMEM88C peptide (
+         <em>
+          squares
+         </em>
+         ) to the Dvl-1 PDZ domain. The Trp fluorescence polarization of both peptides was measured during the titration of the Dvl-1 PDZ domain.
+         <em>
+          mP
+         </em>
+         , polarization × 1000.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       To further examine the binding between TMEM88C and the Dvl-1 PDZ domain, we measured Trp fluorescence polarization of the peptide during its titration with Dvl-1 PDZ domain, which does not contain a Trp residue. Changes in Trp fluorescence polarization were used to estimate the binding affinity (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       ) of the tripeptide and TMEM88C for the Dvl-1 PDZ domain (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        E
+       </em>
+       ). As predicted by results from the NMR experiments, the binding affinity of TMEM88C (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       = 2.0 ± 0.2 μ
+       <span>
+        m
+       </span>
+       ) and that of the tripeptide Val-Trp-Val (
+       <em>
+        K
+        <sub>
+         D
+        </sub>
+       </em>
+       = 1.9 ± 0.3 μ
+       <span>
+        m
+       </span>
+       ) to the Dvl-1 PDZ domain were comparable.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       TMEM88 Attenuates Wnt1 Ligand-induced Signaling
+      </title>
+      <p>
+       Because TMEM88 binds to the Dvl PDZ domain
+       <em>
+        in vitro
+       </em>
+       , we examined its effect on Wnt/β-catenin signaling. Because a direct interaction of the Dvl PDZ domain with the internal sequence of Fz protein is essential to activate Wnt signaling (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        16
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ), we reasoned that if TMEM88 binds to the Dvl PDZ domain in cells, then overexpressing TMEM88 might disrupt the Dvl-Fz interaction at the plasma membrane region, which, in turn, would suppress Wnt/β-catenin signaling. To test this hypothesis, we employed a luciferase-based cell assay (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). In HEK293 cells transfected with the Wnt-1 plasmid, canonical Wnt signaling was activated, indicated by increased luciferase activity (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ) (
+       <xref ref-type="bibr">
+        13
+       </xref>
+       ). When TMEM88 was co-expressed with Wnt-1 in the cells, Wnt-1-induced activation of luciferase was attenuated (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ). The increased amount of TMEM88 expression plasmid resulted in the substantial attenuation of Wnt-1-induced luciferase activity, indicating that the TMEM88 protein blocks Wnt signaling, presumably by disrupting the Dvl-Fz interaction in cells. To confirm this result, we performed the same experiment with TMEM88ΔC4, which lacks four amino acid residues at the extreme C terminus (
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       ). The loss of the PDZ-binding motif of TMEM88 causes little inhibitory effect on Wnt-1-induced signaling in a dose-dependent manner, indicating that the binding of TMEM88 to the Dvl-1 PDZ domain is essential to block Wnt signaling.
+      </p>
+      <fig id="F3" position="float">
+       <label>
+        FIGURE 3.
+       </label>       <caption>
+        <p>
+         <strong>
+          TMEM88 attenuates Wnt-1-induced β-catenin signaling.
+         </strong>
+         HEK293 cells were seeded in 24-well plates 24 h before transfection, and the cells in each well were co-transfected with 0.01 μg
+         <em>
+          Lef-1
+         </em>
+         expression plasmid, 0.075 μg
+         <em>
+          Lef-1
+         </em>
+         luciferase reporter plasmid, 0.05 μg GFP expression plasmid, 0.003 μg Wnt-1 expression plasmid, and various amounts of either TMEM88 (
+         <em>
+          blank boxes
+         </em>
+         ) or TMEM88ΔC4 (
+         <em>
+          light gray boxes
+         </em>
+         ). As controls (
+         <em>
+          Ctl
+         </em>
+         ), the cells were transfected with the same preparation in the absence of the Wnt-1 expression plasmid. The
+         <em>
+          lacZ
+         </em>
+         plasmid was added to equilibrate the total amount of 0.25 μg DNA per transfection. After 1 day of growth, the cells were lysed, and GFP levels and luciferase activities were determined. Each experiment was carried out in duplicate, and
+         <em>
+          error bars
+         </em>
+         represent the S.D.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Knockdown of TMEM88 Increases Wnt Activity
+      </title>
+      <p>
+       Because TMEM88 is expressed in kidney and can inhibit the Wnt-1-induced signaling in HEK293 cells, we used RNAi to suppress the endogenous expression of TMEM88 in HEK293 cells to investigate the effect of TMEM88 knockdown on Wnt activity. By using the luciferase report assay (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ), we found that, comparing to the control, the Wnt activity was increased &gt;2-fold in the TMEM88-suppressed cells (
+       <xref ref-type="fig">
+        Fig. 4
+       </xref>
+       ), indicating that endogenous TMEM88 inhibits canonical Wnt signaling in HEK293 cells.
+      </p>
+      <fig id="F4" position="float">
+       <label>
+        FIGURE 4.
+       </label>       <caption>
+        <p>
+         <strong>
+          TMEM88 knockdown increases Wnt activity.
+         </strong>
+         HEK293T cells were seeded in a 24-well plate. 24 h later, cells in each well were transfected with 0.19 μg TOPFlash, 0.01 μg GFP, and 0.14 μg TMEM88 RNAi by using Lipofectamine 2000. For the control (
+         <em>
+          Ctl
+         </em>
+         ), cells in each well were transfected with 0.19 μg TOPFlash, 0.01 μg GFP, and 0.14 μg
+         <em>
+          lacZ
+         </em>
+         . 66 h after transfection, cell culture medium were replaced by DMEM. After 6 h of culture in DMEM, cells were lysed and subjected to GFP and luciferase measurement. The luciferase activity was increased about two times by knockdown of TMEM88 by RNAi.
+        </p>
+       </caption>
+      </fig>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Subcellular Localization of TMEM88 Protein and Its Effect on Wnt Signaling in Xenopus
+      </title>
+      <p>
+       Because TMEM88 was predicted to be a membrane protein, we decided to investigate the subcellular distribution of TMEM88 in a
+       <em>
+        Xenopus
+       </em>
+       embryo system. We first generated a fusion of the Myc epitope to the N-terminal region of TMEM88, Myc-tagged TMEM88, and injected the mRNA of Myc-tagged into the animal pole region of
+       <em>
+        Xenopus
+       </em>
+       embryos at the four-cell stage. Animal cap explants were dissected at the late blastula stage and fixed. Then, immunofluorescent stainings were performed and localization of Myc-TMEM88 protein in
+       <em>
+        Xenopus
+       </em>
+       was examined by fluorescence confocal microscopy. As showed in
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       , Myc-TMEM88 proteins were essentially localized to the cell membrane; indeed, TMEM88 is a membrane protein.
+      </p>
+      <fig id="F5" position="float">
+       <label>
+        FIGURE 5.
+       </label>       <caption>
+        <p>
+         <strong>
+          Subcellular localization of TMEM88 in
+          <em>
+           Xenopus
+          </em>
+          .
+         </strong>
+         Representative fluorescence confocal microscopy image of Myc-TMEM88 in the animal cap explants after they were dissected at the late blastula stage and fixed; Myc-TMEM88 is localized in the cell membrane.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       We then examined the effect of TMEM88 on the subcellular distribution of Xdsh-GFP in
+       <em>
+        Xenopus
+       </em>
+       . Xdsh-GFP mRNA was injected alone or co-injected with TMEM88 mRNA into animal blastomerase at the four to eight cell stages. Xdsh-GFP was found in a punctuate cytoplasm distribution in animal cap cells (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ) (
+       <xref ref-type="bibr">
+        39
+       </xref>
+       ). Co-injection of TMEM88 led to the recruitment of Xdsh-GFP to the cell membrane (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        B
+       </em>
+       ). Remarkably, TMEM88ΔC that lacks the PDZ binding motif at the C terminus failed to recruit Xdsh-GFP to the cell membrane (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        C
+       </em>
+       ). Together, the data suggest that TMEM88 binds to Dvl protein through its last C terminus residues and the binding recruits Dvl to the membrane.
+      </p>
+      <fig id="F6" position="float">
+       <label>
+        FIGURE 6.
+       </label>       <caption>
+        <p>
+         <strong>
+          Direct interaction of Xdsh-GFP and TMEM88 in
+          <em>
+           Xenopus
+          </em>
+          .
+         </strong>
+         Dsh-GFP RNA (0.5 ng) was injected alone or with TMEM88 RNA (1 ng) or TMEM88ΔC RNA(1 ng) into animal blastomerase at the four to eight cell stage. GFP fluorescence was assessed in animal cap explants.
+         <em>
+          A
+         </em>
+         , Xdsh-GFP was found in a punctuate cytoplasmic distribution.
+         <em>
+          B
+         </em>
+         , co-injection of TMEM88 leads to the recruitment of Dsh-GFP to the cell membrane.
+         <em>
+          C
+         </em>
+         , co-injection of TMEM88ΔC did not change the subcellular distribution of Dsh-GFP, showing that the last C-terminal residue of TMEM88 is important to the subcellular distribution of Dsh-GFP.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       To assess the role of TMEM88 in the Wnt signaling
+       <em>
+        in vivo
+       </em>
+       , we used a previously established luciferase assay (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ).
+       <em>
+        Xenopus
+       </em>
+       Wnt target gene
+       <em>
+        Siamois
+       </em>
+       promoter-driven luciferase reporter construct was injected alone or co-injected with synthetic Xdsh mRNA, Xdsh mRNA together with Myc-tagged TMEM88 mRNA, β-catenin mRNA, and β-catenin mRNA plus Myc-tagged TMEM88 mRNA, respectively, in the animal pole region at the two-cell stage (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ). Injected embryos were cultured and animal cap explants were dissected at the late blastula stage, and luciferase assays (Promega) were performed by preparing cell lysates from 10 explants and measuring luciferase activity in a Lumat LB 9507 luminometer. Consistent with the results in the cell assay, TMEM88 inhibited
+       <em>
+        Siamois
+       </em>
+       promoter-driven luciferase activity induced by Xdsh but not by β-catenin (
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        A
+       </em>
+       ). This result indicates that TMEM88 inhibits canonical Wnt signaling at the level of Xdsh.
+      </p>
+      <fig id="F7" position="float">
+       <label>
+        FIGURE 7.
+       </label>       <caption>
+        <p>
+         <strong>
+          The effect of TMEM88 on canonical Wnt signaling in
+          <em>
+           Xenopus
+          </em>
+          .
+         </strong>
+         <em>
+          A
+         </em>
+         ,
+         <em>
+          Siamois
+         </em>
+         reporter construct and synthetic mRNAs corresponding to Xdsh (1pg) and β-catenin (β
+         <em>
+          -cat
+         </em>
+         ; 100 pg) were injected into the animal pole region of four-cell stage
+         <em>
+          Xenopus
+         </em>
+         embryos, and ectodermal explants were dissected at the late blastula stage for a luciferase activity assay. Luciferase activity induced by Xdsh was examined. TMEM88 inhibits canonical Wnt signaling induced by Xdsh but not by β-catenin, indicating that TMEM88 blocks the signaling at the level of Xdsh.
+         <em>
+          B
+         </em>
+         , summary of the effect of TMEM88 on the formation of the secondary axis induced by Xdsh. TMEM88 efficiently blocks the formation of the secondary axis induced by Xdsh in
+         <em>
+          Xenopus
+         </em>
+         embryos.
+         <em>
+          Sialuc
+         </em>
+         , plasmid encoding luciferase driven by the
+         <em>
+          Siamois
+         </em>
+         promoter.
+        </p>
+       </caption>
+      </fig>
+      <p>
+       To further examine the role of TMEM88, we also employed the
+       <em>
+        Xenopus
+       </em>
+       secondary axis assay (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ). As showed in
+       <xref ref-type="fig">
+        Fig. 7
+       </xref>
+       <em>
+        B
+       </em>
+       , Xdsh mRNA injected into the ventro-vegetal region of a
+       <em>
+        Xenopus
+       </em>
+       ectodermal explant at the four-cell stage induced a complete secondary axis in ∼30% of
+       <em>
+        Xenopus
+       </em>
+       embryos and a partial secondary axis in ∼40% of
+       <em>
+        Xenopus
+       </em>
+       embryos. Co-injection of embryos with equal amounts of mRNAs of Xdsh and Myc-tagged TMEM88 abolished the formation of a complete secondary axis, and only ∼30% of embryos formed a partial secondary axis. The data also suggest that TMEM88 can regulate Wnt signaling pathway.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       TMEM88 Gene Expression Profile
+      </title>
+      <p>
+       Given that TMEM88 suppresses Wnt-1-induced β-catenin signaling in cells and in
+       <em>
+        Xenopus
+       </em>
+       embryos, we wondered whether the expression of the
+       <em>
+        TMEM88
+       </em>
+       gene is correlated with that of other genes involved in Wnt signaling. To determine this, we reanalyzed the
+       <em>
+        TMEM88
+       </em>
+       gene expression profile on the GEO database (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ). We downloaded raw data from three embryonic mouse tissues: cardiac (GEO accession no.
+       <a>
+        <span>
+         {"type":"entrez-geo","attrs":{"text":"GSE1479","term_id":"1479","extlink":"1"}}
+        </span>
+        GSE1479
+       </a>
+       ), colon (GEO accession no.
+       <a>
+        <span>
+         {"type":"entrez-geo","attrs":{"text":"GSE5261","term_id":"5261","extlink":"1"}}
+        </span>
+        GSE5261
+       </a>
+       ), and small intestines (GEO accession no.
+       <a>
+        <span>
+         {"type":"entrez-geo","attrs":{"text":"GSE6383","term_id":"6383","extlink":"1"}}
+        </span>
+        GSE6383
+       </a>
+       ) and examined the Pearson correlations of
+       <em>
+        TMEM88
+       </em>
+       with the upstream components of Wnt signaling.
+      </p>
+      <p>
+       We detected strong Pearson correlations of
+       <em>
+        TMEM88
+       </em>
+       expression with that of several Wnt signaling-related genes in the embryonic small intestines:
+       <em>
+        Fzd1
+       </em>
+       (ρ = 1.00),
+       <em>
+        Fzd2
+       </em>
+       (ρ = 1.00),
+       <em>
+        Fzd7
+       </em>
+       (ρ = 0.86),
+       <em>
+        Fzd9
+       </em>
+       (ρ = 0.90),
+       <em>
+        Frzb
+       </em>
+       (ρ = 0.89),
+       <em>
+        Dvl-1
+       </em>
+       (ρ = 0.82),
+       <em>
+        Dvl-2
+       </em>
+       (ρ = 0.89), and
+       <em>
+        Dvl-3
+       </em>
+       (ρ = 0.92) (
+       <a>
+        supplemental Table S1
+       </a>
+       ). We also observed modest Pearson correlations between the expression of
+       <em>
+        TMEM88
+       </em>
+       and that of the following Wnt signaling-related genes in other tissues: embryonic mouse cardiac tissue,
+       <em>
+        ROR1
+       </em>
+       (ρ = 0.61); and the colon,
+       <em>
+        Fzd1
+       </em>
+       (ρ = −0.67),
+       <em>
+        Fzd2
+       </em>
+       (ρ = −0.49), and
+       <em>
+        Frzb
+       </em>
+       (ρ = −0.63) (
+       <a>
+        supplemental Table S1
+       </a>
+       ). These results suggest that
+       <em>
+        TMEM88
+       </em>
+       conditionally modulates Wnt signaling-related gene expression.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    During the course of this work, Stiffler
+    <em>
+     et al.
+    </em>
+    (
+    <xref ref-type="bibr">
+     40
+    </xref>
+    ) suggested that TMEM88 protein might be a Dvl-3 PDZ-binding candidate. In this report, we demonstrated that TMEM88 is a novel Dvl-1-binding protein that modulates Wnt signaling. The chemical shift perturbations of the
+    <sup>
+     15
+    </sup>
+    N-labeled PDZ domain of Dvl-1 show that the C terminus of TMEM88 occupies the binding groove of the Dvl-1 PDZ domain, as do the known Dvl PDZ-binding partners Fz and Dapper (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     41
+    </xref>
+    ). The binding affinity of TMEM88C to the Dvl-1 PDZ domain obtained by analyzing fluorescence data is similar to that of known Dvl PDZ-binding partners (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     41
+    </xref>
+    ), suggesting that TMEM88 may compete with known Dvl-binding partners.
+   </p>
+   <p>
+    Sequence analysis suggested that TNEM88 has two transmembrane domains, and our studies in Consistent In
+    <em>
+     Xenopus
+    </em>
+    confirmed that TMEM88 is a membrane protein. We showed that the interaction between TMEM88 and Dvl protein could recruit Dvl to the membrane.
+   </p>
+   <p>
+    Both the cell-based and
+    <em>
+     Xenopus
+    </em>
+    assays showed that TMEM88 disrupts canonical Wnt signaling. During canonical Wnt/β-catenin signaling, the Wnt ligand binds to its co-receptors, Fz and LRP5/6 (a single-span transmembrane
+    <span>
+     L
+    </span>
+    DL
+    <span>
+     r
+    </span>
+    eceptor-related
+    <span>
+     p
+    </span>
+    rotein
+    <span>
+     5/6
+    </span>
+    ), resulting in the activation of cytoplasmic Dvl proteins (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ). The activated Dvl proteins then relay the Wnt signals to the downstream components (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ). Moreover, we reported previously that the protein-protein interaction between the membrane-bound Fz receptor and the PDZ domain of Dvl plays a role in conveying Wnt signals downstream (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). Therefore, the attenuation of Wnt-1-induced signaling by TMEM88 implies that the C-terminal region of TMEM88 locates in the cytoplasmic region and binds to the Dvl PDZ domain, which leads to the disruption of the Fz-LRP5/6-Dvl complex, thus affecting canonical Wnt signaling. Consistent with this hypothesis, TMEM88 knockdown in HEK293 cells increased Wnt activity. Additionally, the reanalysis of microarray data provided evidence that the expression of
+    <em>
+     TMEM88
+    </em>
+    was closely associated with the genes involved in Wnt signaling in embryonic mouse intestines.
+   </p>
+   <p>
+    The Dvl proteins are key players in Wnt signaling pathways, and &gt;20 binding partners of these proteins have been reported (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ). For example, Dapper, Idax, and Naked cuticles inhibit canonical Wnt signaling by binding to Dvl proteins (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ); however, Ryk and Diversin function in the noncanonical Wnt-signaling pathway by interacting with Dvl (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     42
+    </xref>
+    ). Because Dvl protein-protein interactions regulate a variety of biological processes (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     43
+    </xref>
+    ), identifying novel Dvl-binding partners is of great importance. This study is a useful example of how a combinatorial approach can be broadly applied to reduce the number of candidate proteins when searching for novel Dvl-binding partners.
+   </p>
+   <p>
+    Finally,
+    <em>
+     TMEM88
+    </em>
+    may play an important role in diseases, including cancers. Human
+    <em>
+     TMEM88
+    </em>
+    gene is mapped to chromosome 17p13.1, from position 7,699,108 to 7,700,142 (Ensemble database) (
+    <a>
+     supplemental Fig. S1
+    </a>
+    ). Several studies have shown that the loss of heterozygosity at 17p13.1 appears to be associated with an adverse disease course (
+    <xref ref-type="bibr">
+     44
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     –
+    </xref>
+    <xref ref-type="bibr">
+     48
+    </xref>
+    ). Although most of these analyses addressed the role of
+    <em>
+     TP53
+    </em>
+    , further study of
+    <em>
+     TMEM88
+    </em>
+    may be interesting because the two genes between
+    <em>
+     TP53
+    </em>
+    and
+    <em>
+     TMEM88
+    </em>
+    are separated by only ∼200 kb.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental Data (.pdf, 48 KB)
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Moon R. T., Kohn A. D., De Ferrari G. V., Kaykas A. (2004)
+      <span>
+       Nat. Rev. Gen.
+      </span>
+      <span>
+       5
+      </span>
+      , 691–701
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Logan C. Y., Nusse R. (2004)
+      <span>
+       Annu. Rev. Cell Dev. Biol.
+      </span>
+      <span>
+       20
+      </span>
+      , 781–810
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Angers S., Moon R. T. (2009)
+      <span>
+       Nat. Rev. Mol. Cell Biol.
+      </span>
+      <span>
+       10
+      </span>
+      , 468–477
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Wharton K. A., Jr. (2003)
+      <span>
+       Dev. Biol.
+      </span>
+      <span>
+       253
+      </span>
+      , 1–17
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Wallingford J. B., Habas R. (2005)
+      <span>
+       Development
+      </span>
+      <span>
+       132
+      </span>
+      , 4421–4436
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Malbon C. C., Wang H. Y. (2006)
+      <span>
+       Curr. Top. Dev. Biol.
+      </span>
+      <span>
+       72
+      </span>
+      , 153–166
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Zeng X., Huang H., Tamai K., Zhang X., Harada Y., Yokota C., Almeida K., Wang J., Doble B., Woodgett J., Wynshaw-Boris A., Hsieh J. C., He X. (2008)
+      <span>
+       Development
+      </span>
+      <span>
+       135
+      </span>
+      , 367–375
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Pan W., Choi S. C., Wang H., Qin Y., Volpicelli-Daley L., Swan L., Lucast L., Khoo C., Zhang X., Li L., Abrams C. S., Sokol S. Y., Wu D. (2008)
+      <span>
+       Science
+      </span>
+      <span>
+       321
+      </span>
+      , 1350–1353
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Schwarz-Romond T., Fiedler M., Shibata N., Butler P. J., Kikuchi A., Higuchi Y., Bienz M. (2007)
+      <span>
+       Nat. Struct. Mol. Biol.
+      </span>
+      <span>
+       14
+      </span>
+      , 484–492
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Semënov M. V., Snyder M. (1997)
+      <span>
+       Genomics
+      </span>
+      <span>
+       42
+      </span>
+      , 302–310
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Cheyette B. N., Waxman J. S., Miller J. R., Takemaru K., Sheldahl L. C., Khlebtsova N., Fox E. P., Earnest T., Moon R. T. (2002)
+      <span>
+       Dev. Cell
+      </span>
+      <span>
+       2
+      </span>
+      , 449–461
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Wong H. C., Bourdelas A., Krauss A., Lee H. J., Shao Y., Wu D., Mlodzik M., Shi D. L., Zheng J. (2003)
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       12
+      </span>
+      , 1251–1260
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Wong H. C., Mao J., Nguyen J. T., Srinivas S., Zhang W., Liu B., Li L., Wu D., Zheng J. (2000)
+      <span>
+       Nat. Struct. Biol.
+      </span>
+      <span>
+       7
+      </span>
+      , 1178–1184
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Pan W. J., Pang S. Z., Huang T., Guo H. Y., Wu D., Li L. (2004)
+      <span>
+       Cell Research
+      </span>
+      <span>
+       14
+      </span>
+      , 324–330
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Park T. J., Gray R. S., Sato A., Habas R., Wallingford J. B. (2005)
+      <span>
+       Curr. Biol.
+      </span>
+      <span>
+       15
+      </span>
+      , 1039–1044
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Simons M., Gault W. J., Gotthardt D., Rohatgi R., Klein T. J., Shao Y., Lee H. J., Wu A. L., Fang Y., Satlin L. M., Dow J. T., Chen J., Zheng J., Boutros M., Mlodzik M. (2009)
+      <span>
+       Nat. Cell Biol.
+      </span>
+      <span>
+       11
+      </span>
+      , 286–294
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Yoshikawa S., McKinnon R. D., Kokel M., Thomas J. B. (2003)
+      <span>
+       Nature
+      </span>
+      <span>
+       422
+      </span>
+      , 583–588
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Lu W., Yamamoto V., Ortega B., Baltimore D. (2004)
+      <span>
+       Cell
+      </span>
+      <span>
+       119
+      </span>
+      , 97–108
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Kim G. H., Her J. H., Han J. K. (2008)
+      <span>
+       J. Cell Biol.
+      </span>
+      <span>
+       182
+      </span>
+      , 1073–1082
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Hino S., Kishida S., Michiue T., Fukui A., Sakamoto I., Takada S., Asashima M., Kikuchi A. (2001)
+      <span>
+       Mol. Cell Biol.
+      </span>
+      <span>
+       21
+      </span>
+      , 330–342
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      London T. B., Lee H. J., Shao Y., Zheng J. (2004)
+      <span>
+       Biochem. Biophys. Res. Commun.
+      </span>
+      <span>
+       322
+      </span>
+      , 326–332
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Wang N. X., Lee H. J., Zheng J. J. (2008)
+      <span>
+       Drug News Perspect.
+      </span>
+      <span>
+       21
+      </span>
+      , 137–141
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Lee H. J., Zheng J. J. (2010)
+      <span>
+       Cell Commun. Signal.
+      </span>
+      <span>
+       8
+      </span>
+      , 8.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Zhang Y., Appleton B. A., Wiesmann C., Lau T., Costa M., Hannoush R. N., Sidhu S. S. (2009)
+      <span>
+       Nat. Chem. Biol.
+      </span>
+      <span>
+       5
+      </span>
+      , 217–219
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Lee H. J., Wang N. X., Shao Y., Zheng J. J. (2009)
+      <span>
+       Bioorg. Med. Chem.
+      </span>
+      <span>
+       17
+      </span>
+      , 1701–1708
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Barrett T., Troup D. B., Wilhite S. E., Ledoux P., Rudnev D., Evangelista C., Kim I. F., Soboleva A., Tomashevsky M., Marshall K. A., Phillippy K. H., Sherman P. M., Muertter R. N., Edgar R. (2009)
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       37
+      </span>
+      , D885–D890
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Hulo N., Bairoch A., Bulliard V., Cerutti L., De Castro E., Langendijk-Genevaux P. S., Pagni M., Sigrist C. J. (2006)
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       34
+      </span>
+      , D227–230
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Delaglio F., Grzesiek S., Vuister G. W., Zhu G., Pfeifer J., Bax A. (1995)
+      <span>
+       J. Biomol. NMR
+      </span>
+      <span>
+       6
+      </span>
+      , 277–293
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Li L., Yuan H., Xie W., Mao J., Caruso A. M., McMahon A., Sussman D. J., Wu D. (1999)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       274
+      </span>
+      , 129–134
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Shan J., Shi D. L., Wang J., Zheng J. (2005)
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       44
+      </span>
+      , 15495–15503
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Grandy D., Shan J., Zhang X., Rao S., Akunuru S., Li H., Zhang Y., Alpatov I., Zhang X. A., Lang R. A., Shi D. L., Zheng J. J. (2009)
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       284
+      </span>
+      , 16256–16263
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Umbhauer M., Djiane A., Goisset C., Penzo-Méndez A., Riou J. F., Boucaut J. C., Shi D. L. (2000)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       19
+      </span>
+      , 4944–4954
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Bader G. D., Betel D., Hogue C. W. (2003)
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       31
+      </span>
+      , 248–250
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Han K., Park B., Kim H., Hong J., Park J. (2004)
+      <span>
+       Bioinformatics.
+      </span>
+      <span>
+       20
+      </span>
+      , 2466–2470
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Suzuki H., Saito R., Kanamori M., Kai C., Schönbach C., Nagashima T., Hosaka J., Hayashizaki Y. (2003)
+      <span>
+       Genome Res.
+      </span>
+      <span>
+       13
+      </span>
+      , 1534–1541
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Gray R. S., Bayly R. D., Green S. A., Agarwala S., Lowe C. J., Wallingford J. B. (2009)
+      <span>
+       Dev. Dyn.
+      </span>
+      <span>
+       238
+      </span>
+      , 2044–2057
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Pellecchia M., Sem D. S., Wüthrich K. (2002)
+      <span>
+       Nature Reviews Drug Discovery
+      </span>
+      <span>
+       1
+      </span>
+      , 211–219
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Schwarz-Romond T., Merrifield C., Nichols B. J., Bienz M. (2005)
+      <span>
+       J. Cell Sci.
+      </span>
+      <span>
+       118
+      </span>
+      , 5269–5277
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Rothbächer U., Laurent M. N., Deardorff M. A., Klein P. S., Cho K. W., Fraser S. E. (2000)
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       19
+      </span>
+      , 1010–1022
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Stiffler M. A., Chen J. R., Grantcharova V. P., Lei Y., Fuchs D., Allen J. E., Zaslavskaia L. A., MacBeath G. (2007)
+      <span>
+       Science
+      </span>
+      <span>
+       317
+      </span>
+      , 364–369
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Lee H. J., Wang N. X., Shi D. L., Zheng J. J. (2009)
+      <span>
+       Angew. Chem. Int. Ed Engl.
+      </span>
+      <span>
+       48
+      </span>
+      , 6448–6452
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Jenny A., Reynolds-Kenneally J., Das G., Burnett M., Mlodzik M. (2005)
+      <span>
+       Nat. Cell Biol.
+      </span>
+      <span>
+       7
+      </span>
+      , 691–697
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Wang J., Hamblet N. S., Mark S., Dickinson M. E., Brinkman B. C., Segil N., Fraser S. E., Chen P., Wallingford J. B., Wynshaw-Boris A. (2006)
+      <span>
+       Development
+      </span>
+      <span>
+       133
+      </span>
+      , 1767–1778
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Chang H., Sloan S., Li D., Keith Stewart A. (2004)
+      <span>
+       Br. J. Haematol.
+      </span>
+      <span>
+       127
+      </span>
+      , 280–284
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      Jung H. L., Wang K. C., Kim S. K., Sung K. W., Koo H. H., Shin H. Y., Ahn H. S., Shin H. J., Cho B. K. (2004)
+      <span>
+       J. Neurooncol.
+      </span>
+      <span>
+       67
+      </span>
+      , 41–46
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Flavin R. J., Smyth P. C., Laios A., O'Toole S. A., Barrett C., Finn S. P., Russell S., Ring M., Denning K. M., Li J., Aherne S. T., Sammarae D. A., Aziz N. A., Alhadi A., Sheppard B. L., Lao K., Sheils O. M., O'Leary J. J. (2009)
+      <span>
+       Mod. Pathol.
+      </span>
+      <span>
+       22
+      </span>
+      , 197–205
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Dolan K., Garde J., Walker S. J., Sutton R., Gosney J., Field J. K. (1999)
+      <span>
+       Hum. Pathol.
+      </span>
+      <span>
+       30
+      </span>
+      , 1508–1514
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Cousin P., Billotte J., Chaubert P., Shaw P. (2000)
+      <span>
+       Genomics
+      </span>
+      <span>
+       63
+      </span>
+      , 60–68
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

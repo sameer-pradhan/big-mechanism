@@ -1,0 +1,2822 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    http://dx.doi.org/10.1016/j.celrep.2015.06.047
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A Floor-Plate Extracellular Protein-Protein Interaction Screen Identifies Draxin as a Secreted Netrin-1 Antagonist
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    <a>
+     Axons
+    </a>
+    of early-born neurons in the embryonic vertebrate nervous system are organized in highly stereotypic longitudinal and circumferential tracts. Diffusible guidance signals emanating from the
+    <a>
+     floor-plate
+    </a>
+    (
+    <a>
+     FP
+    </a>
+    ) cells located at the ventral midline of the
+    <a>
+     midbrain
+    </a>
+    ,
+    <a>
+     hindbrain
+    </a>
+    , and spinal cord are crucially involved in orchestrating the formation of these early
+    <a>
+     axonal
+    </a>
+    scaffolds (
+    <a>
+     Colamarino and Tessier-Lavigne, 1995
+    </a>
+    ). In addition, the FP also serves as an intermediate cellular target displaying membrane-bound proteins, which can be read by receptors present on approaching axons and migrating cells. Many signaling molecules have been described to cooperate to influence axonal midline-crossing and turning behaviors in the FP microenvironment. For example, FP cells express
+    <a>
+     Netrins
+    </a>
+    (
+    <a>
+     Kennedy et al., 1994
+    </a>
+    ,
+    <a>
+     Serafini et al., 1994
+    </a>
+    and
+    <a>
+     Serafini et al., 1996
+    </a>
+    ), Slits (
+    <a>
+     Rothberg et al., 1988
+    </a>
+    and
+    <a>
+     Long et al., 2004
+    </a>
+    ),
+    <a>
+     VEGF
+    </a>
+    (
+    <a>
+     Ruiz de Almodovar et al., 2011
+    </a>
+    ),
+    <a>
+     Semaphorins
+    </a>
+    (
+    <a>
+     Zou et al., 2000
+    </a>
+    ),
+    <a>
+     Ephrins
+    </a>
+    (
+    <a>
+     Imondi and Kaprielian, 2001
+    </a>
+    and
+    <a>
+     Kadison et al., 2006
+    </a>
+    ), and the
+    <a>
+     morphogens
+    </a>
+    <a>
+     Shh
+    </a>
+    and Wnt4 (
+    <a>
+     Charron et al., 2003
+    </a>
+    and
+    <a>
+     Lyuksyutova et al., 2003
+    </a>
+    ), which were shown to control
+    <a>
+     axon
+    </a>
+    guidance decisions in the region of the ventral midline of the CNS. As a consequence, the FP serves as a classical model system for axon guidance decisions.
+   </p>
+   <p>
+    However, many questions regarding the crosstalk between different
+    <a>
+     cell-surface
+    </a>
+    signaling systems and the identity of molecular factors involved in shaping concentration gradients of FP-derived guidance cues remain unanswered. So far, no large-scale
+    <a>
+     protein-protein interaction
+    </a>
+    screen has been undertaken to systematically determine the extracellular FP interactome. Mapping the full set of extracellular interactions, however, is necessary to understand the complex molecular mechanisms involved in neuronal tract formation during development. Interestingly, approximately 25% to 30% of protein-coding genes present in vertebrate genomes are predicted to encode extracellular space-exposed or secreted proteins (
+    <a>
+     Diehn et al., 2006
+    </a>
+    and
+    <a>
+     Liu and Rost, 2001
+    </a>
+    ). In contrast, the interactions these proteins form in the extracellular milieu are strongly underrepresented in protein interaction data sets (
+    <a>
+     Lyuksyutova et al., 2003
+    </a>
+    ,
+    <a>
+     Özkan et al., 2013
+    </a>
+    and
+    <a>
+     Wright, 2009
+    </a>
+    ), suggesting that additional extracellular
+    <a>
+     protein-protein interactions
+    </a>
+    (ePPIs) remain to be discovered.
+   </p>
+   <p>
+    Here, we took a systems biology approach to discover zebrafish ePPIs, which likely take place in the extracellular space surrounding the FP according to collected gene expression patterns. Using the AVEXIS platform (
+    <a>
+     Bushell et al., 2008
+    </a>
+    ), specifically designed to detect ePPIs, we screened within a library of extracellular domains (ECDs) from cell-surface and secreted (CSS) proteins expressed by FP cells or other cell types of the developing CNS, covering more than 30,000 potential binding events. Combining our data with results from previous AVEXIS screens (
+    <a>
+     Bushell et al., 2008
+    </a>
+    ,
+    <a>
+     Martin et al., 2010
+    </a>
+    and
+    <a>
+     Söllner and Wright, 2009
+    </a>
+    ), we assembled an extracellular FP interaction network (FPnet) consisting of 47 interactions between 44 proteins. Among the identified interactions, we detected binding between the two secreted axon guidance molecules
+    <a>
+     Netrin-1
+    </a>
+    (
+    <a>
+     Kennedy et al., 1994
+    </a>
+    ,
+    <a>
+     Serafini et al., 1994
+    </a>
+    and
+    <a>
+     Serafini et al., 1996
+    </a>
+    ) and Draxin (
+    <a>
+     Islam et al., 2009
+    </a>
+    ). Unlike Netrins, which have conserved axon guidance functions in vertebrate and invertebrate species, Draxin homologs can only be found in vertebrate genomes. In mice, both cues have been reported to be involved in the formation of
+    <a>
+     forebrain
+    </a>
+    <a>
+     commissures
+    </a>
+    and the guidance of commissural axon in the spinal cord (
+    <a>
+     Islam et al., 2009
+    </a>
+    and
+    <a>
+     Serafini et al., 1996
+    </a>
+    ). The
+    <a>
+     phenotypic
+    </a>
+    similarities suggest that both secreted factors might act in the same
+    <a>
+     signaling cascade
+    </a>
+    . In addition, it has been reported (
+    <a>
+     Ahmed et al., 2011
+    </a>
+    ) that Draxin binds to a structurally diverse set of
+    <a>
+     Netrin
+    </a>
+    receptors (
+    <a>
+     DCC
+    </a>
+    /Neo1,
+    <a>
+     Unc5
+    </a>
+    , Dscam).
+   </p>
+  </sec>
+  <sec>
+   <p>
+    Our data show that Draxin is indeed a direct component of the Netrin-
+    <a>
+     signaling pathway
+    </a>
+    , albeit displaying unexpected connectivity in the network of this signaling system. We detected a direct physical interaction between Draxin and Netrin-1, although no direct binding between Draxin and Netrin receptors of the Dcc/Neo1 and Unc5 families using our assays. We confirmed that the interaction between Draxin and Netrin-1 is conserved in vertebrates, indicating that this interaction is functionally relevant. We also found that all tested vertebrate Netrins homologous to the γ chain of laminin (γ-Netrins) are able to bind to Draxin. In contrast, Netrins more similar to the β chain of laminin (β-Netrins) did not bind to Draxin. Furthermore, by binding interface mapping experiments, we show that a 22-aa motif of Draxin is sufficient to specifically bind to the third
+    <a>
+     EGF
+    </a>
+    domain of Netrin-1. Interestingly, this domain has been recently shown to be required for receptor binding (
+    <a>
+     Finci et al., 2014
+    </a>
+    and
+    <a>
+     Xu et al., 2014
+    </a>
+    ), suggesting that Draxin competes with Netrin receptors for the same binding site in Netrin-1. Using
+    <a>
+     in vitro
+    </a>
+    competition assays, we demonstrated that Draxin and the 22-aa Netrin-binding motif are indeed able to efficiently outcompete Netrin receptors for binding to Netrin-1. Altogether, our findings suggest a model in which Draxin sequesters Netrin in the extracellular space and hence limits the availability of free Netrin for receptor binding. In conclusion, by describing the comprehensive vertebrate FP extracellular interactome and by characterizing a direct interaction between two secreted axon guidance molecules, we show evidence that large-scale ePPI screens are suitable to detect new unexpected interactions controlling the complexity of brain wiring.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <title>
+    Identification of Genes Encoding Cell-Surface and Secreted Proteins Expressed by Floor-Plate Cells
+   </title>
+   <p>
+    To systematically study
+    <a>
+     axon
+    </a>
+    guidance mechanisms governed by
+    <a>
+     FP
+    </a>
+    -derived signals, we generated a dense map of ePPIs potentially occurring in the FP microenvironment (see outline of the study in
+    <a>
+     Figure 1
+    </a>
+    ). We assembled a list of genes encoding CSS proteins with FP expression during early stages of zebrafish development (one to four
+    <a>
+     somites
+    </a>
+    to 4 dpf) by merging data from the analysis of more than 10,000 individual zebrafish gene expression patterns annotated in ZFIN (
+    <a>
+     http://zfin.org
+    </a>
+    ) and data from a
+    <a>
+     microarray
+    </a>
+    expression profiling experiment of
+    <em>
+     cyclops (ndr2)
+    </em>
+    zebrafish mutants, which lack medial FP cells (
+    <a>
+     Hatta, 1992
+    </a>
+    ,
+    <a>
+     Rebagliati et al., 1998
+    </a>
+    and
+    <a>
+     Sampath et al., 1998
+    </a>
+    ) versus their wild-type siblings (
+    <a>
+     Table S1
+    </a>
+    ). Using this approach, we assembled a list of 57 CSS protein-encoding genes expressed by FP cells during early developmental stages (
+    <a>
+     Table S2
+    </a>
+    ) of which 40 clones were included in our AVEXIS library.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Schematic of the Study DesignFlowchart depicting our approach. AVEXIS, ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr1.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr1.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr1.jpg" data-fullEID="1-s2.0-S2211124715006592-gr1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Discovery Screen
+   </title>
+   <p>
+    Next, we constructed a
+    <a>
+     recombinant protein
+    </a>
+    library comprising the ECDs of 37 CSS proteins expressed by FP cells. Three of 40 ECDs did not produce sufficient protein levels to perform AVEXIS (
+    <a>
+     Table S2
+    </a>
+    ). Our expectation was that FP-expressed CSS proteins would interact with partners located on the surfaces of approaching neurons or other cell types in the CNS. Therefore, we included additional 198 ECDs derived from 193 CSS genes, mainly expressed in the CNS, into the screening library (
+    <a>
+     Table S3
+    </a>
+    ). Interactions contributed by CSS proteins in the extracellular space are often transient and display low affinity, such that they usually escape detection by commonly used high-throughput screening techniques (
+    <a>
+     Özkan et al., 2013
+    </a>
+    and
+    <a>
+     Wright, 2009
+    </a>
+    ). To circumvent this problem, we used the AVEXIS assay (
+    <a>
+     Bushell et al., 2008
+    </a>
+    ), which takes advantage of avid prey proteins, allowing the detection of very transient and weak binding events. All ECDs included in the screening library were produced using a mammalian expression system to exploit the tight quality control mechanisms of the ER (
+    <a>
+     Ruggiano et al., 2014
+    </a>
+    ) and to facilitate the incorporation of functionally important
+    <a>
+     post-translational modifications
+    </a>
+    (
+    <a>
+     glycosylation
+    </a>
+    and disulfide bridges).
+   </p>
+   <p>
+    In the discovery screen, more than 30,000 individual pairwise binding experiments were carried out, resulting in the identification of 64 interactions (two of them homotypic) involving 59 proteins. Seven of the detected interactions were already known for zebrafish proteins (
+    <a>
+     Martin et al., 2010
+    </a>
+    ); a large fraction (29 out of 64) are orthologous interactions, meaning they had been previously described for proteins from other organisms. The final discovery screen interaction network (
+    <a>
+     Figure 2
+    </a>
+    A;
+    <a>
+     Figure S1
+    </a>
+    ) also contains 28 novel interactions, not reported previously. All these novel interactions were confirmed in a validation screen using newly expressed protein samples. Combining the known and expected orthologous interactions, we thus observed a very high rate of confirmed expected interactions (56%) in the network, showing that AVEXIS identifies physiologically relevant interactions.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Extracellular Protein-Protein Interaction Networks(A) Zebrafish ePPI Network of ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr2.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr2.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr2.jpg" data-fullEID="1-s2.0-S2211124715006592-gr2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The discovery screen ePPI network contains 21 interactions involving receptors and ligands of the Ephrin family. The systematic nature of our interaction screen shows that receptors belonging to the EphA subfamily (Ek1, Epha4a, Epha7) display a higher binding promiscuity compared to the EphB receptors present in the library (Ephb3a, Ephb4a, Ephb4b). In addition to the expected interactions with EphrinA ligands, all three EphAs engaged cross-class with EphrinB ligands. We also observed noncanonical binding partners for the Eph-like
+    <a>
+     kinase
+    </a>
+    1 (Ek1) and Efna3b. Ek1 interacts with the secreted factor Wfdc1 and Efna3b binds to Contactin1a (
+    <a>
+     Figure 2
+    </a>
+    A). The discovery screen network also contains a few interactions (Mdka/Bcan, Mdkb/Bcan, Ptn/Bcan), which are based on a protein binding to a
+    <a>
+     glycosaminoglycan
+    </a>
+    chain of a
+    <a>
+     proteoglycan
+    </a>
+    . We used chondroitinase ABC (ChABC) to remove chondroitin sulfate chains from the protein core of Bcan and we observed that treatment with ChABC completely disrupted the interactions between Bcan and all three
+    <a>
+     midkine
+    </a>
+    family members (data not shown). Many other tested interactions from the extracellular PPI network were not affected by ChABC treatment. A complete list of the interactions detected in the discovery screen can be found in
+    <a>
+     Table S4
+    </a>
+    .
+   </p>
+   <title>
+    Construction of a FP-Specific Protein-Protein Interaction Network
+   </title>
+   <p>
+    Altogether, ECDs of 37 FP-expressed CSS proteins were tested in the discovery screen, leading to the identification of 19 interactions. To obtain a more comprehensive map of PPIs taking place at the FP cell surface or in the surrounding extracellular space, we merged results from the current discovery screen with interaction data from previous zebrafish AVEXIS screens (
+    <a>
+     Bushell et al., 2008
+    </a>
+    ,
+    <a>
+     Martin et al., 2010
+    </a>
+    and
+    <a>
+     Söllner and Wright, 2009
+    </a>
+    ). By combining these ePPI data with the spatiotemporal mRNA expression patterns of the corresponding genes, we assembled a FP-specific ePPI network (FPnet) (
+    <a>
+     Figure 2
+    </a>
+    B). This includes all direct interactions formed by FP-expressed CSS proteins present in the screened libraries.
+   </p>
+   <p>
+    The FPnet comprises 44 proteins connected by 47 interactions; 16 of these proteins are expressed by FP cells, while the others are mainly transcribed by different CNS cell types. Interestingly, 11 out of the 16 FP proteins (∼69%) are secreted, which is in sharp contrast to the set of proteins expressed by different neuronal cell types, where 21 proteins are membrane-embedded receptors and only three secreted proteins (14%). These findings underscore the central importance of the FP as a population of dedicated secretory cells that provide factors, which might act at a distance from their source.
+   </p>
+  </sec>
+  <sec>
+   <p>
+    Opticin (Optc), a member of the small
+    <a>
+     leucine
+    </a>
+    -rich proteoglycan family (SLRPs), expressed by FP cells, connects to nine partners in the FPnet, qualifying it as the central hub protein of the network (
+    <a>
+     Figure 2
+    </a>
+    B). The binding of Optc to
+    <a>
+     Netrins
+    </a>
+    and Slit2, both axon guidance ligands, pointed to a potential role in modulation of axon guidance decisions. To assess the functional relevance of Optc during CNS development, we analyzed
+    <em>
+     optc
+    </em>
+    <sup>
+     <em>
+      sa8731
+     </em>
+    </sup>
+    mutants for defects in
+    <a>
+     axonal
+    </a>
+    tract formation. However, we did not detect any gross architectural alterations of axonal tracts in the developing brain or the spinal cord, suggesting a scenario of signaling compensation.
+   </p>
+   <p>
+    Among the novel interactions in the FPnet, we found direct interactions between Draxin and
+    <a>
+     Netrin-1
+    </a>
+    paralogs, which are both known axon guidance cues. Previous studies reported that both Draxin and Netrin-1 are expressed in the developing CNS in mice and chick (
+    <a>
+     Serafini et al., 1996
+    </a>
+    ,
+    <a>
+     Kennedy et al., 2006
+    </a>
+    and
+    <a>
+     Islam et al., 2009
+    </a>
+    ), and
+    <em>
+     Netrin-1
+    </em>
+    and
+    <em>
+     Draxin
+    </em>
+    knockout mice show defects in commissural neuron projections in the embryonic brain and spinal cord (
+    <a>
+     Islam et al., 2009
+    </a>
+    and
+    <a>
+     Serafini et al., 1996
+    </a>
+    ). These loss-of-function data suggested that the newly identified interacting pair Netrin-1/Draxin indeed functions in the same biological process and
+    <a>
+     signaling pathway
+    </a>
+    . Since Netrin-1 is a FP-derived cue and both Netrin-1 and Draxin are important diffusible axon guidance molecules, we chose this interaction for further characterization. We set out to determine the binding mechanism of the direct interaction and how it can affect Netrin signaling.
+   </p>
+   <title>
+    Draxin Selectively Binds to γ-Netrins
+   </title>
+   <p>
+    In the discovery screen, we found that Draxin is able to bind to several members of the Netrin family (
+    <a>
+     Figure 3
+    </a>
+    A). The Draxin prey protein was screened against 158 bait proteins and the Draxin bait protein against 200 prey proteins, a total of 235 different ECDs derived from 229 zebrafish genes. In these screens, Draxin prey bound to Ntn1a and Netrin-2 (Ntn2), Draxin bait to Ntn1b. Besides Netrin family members, no other Draxin binding partners were identified. These interactions were confirmed in a validation screen in both bait/prey orientations.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Draxin Binds &amp;#947;-Netrins(A) Bar chart depicting the screening results for the ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr3.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr3.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr3.jpg" data-fullEID="1-s2.0-S2211124715006592-gr3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    Next, we determined the binding selectivity between Draxin and Netrin family members. From the five annotated diffusible Netrins in the zebrafish genome, we included Ntn1a, Ntn1b, Ntn2, and Ntn4 in the assay. The first three proteins derive from the laminin γ chain and therefore belong to the γ-Netrin group, while Ntn4 is more similar to the β chain of laminin. The members of the γ-Netrin group substantially differ in their protein sequence from β-Netrins (
+    <a>
+     Koch et al., 2000
+    </a>
+    and
+    <a>
+     Leclère and Rentzsch, 2012
+    </a>
+    ). Besides Netrins, we also included a zebrafish Draxin paralog (identified as si:dkey-1c11.1). Our results show that both zebrafish Draxins bind to Netrin members belonging to the γ-Netrin group (Ntn1a, Ntn1b, and weakly to Ntn2), but not to the β-Netrin group (Ntn4) (
+    <a>
+     Figure 3
+    </a>
+    B). This result indicates interaction selectivity displayed by Draxin. In addition, we also observed weak homo- and heterotypic binding among the Netrin-1 paralogs.
+   </p>
+   <p>
+    Functional interactions tend to be conserved across species (
+    <a>
+     Landry et al., 2013
+    </a>
+    ). To analyze the conservation in the binding selectivity of Draxins to Netrins, we tested human Draxin and the full set of human Netrins (except Netrin-5), consisting of three secreted Netrins (Netrin-1, Netrin-3, Netrin-4) and two GPI-anchored proteins (Netrin-G1 and Netrin-G2). The binding heatmap and network (
+    <a>
+     Figure 3
+    </a>
+    C) show that the interaction between Netrin-1 and Draxin is indeed conserved from zebrafish to human, representing a vertebrate interolog. Draxin also binds to human Netrin-3 but not to β-Netrins (Netrin-4, Netrin-G1, and Netrin-G2), which is in agreement with previous results using zebrafish proteins. To exclude undetectable interactions caused by misfolded or non-functional proteins, we tested whether Netrin-G2 was able to bind to its known ligand Ngl2 (Netrin-G2 ligand) (
+    <a>
+     Seiradake et al., 2011
+    </a>
+    ). By screening Netrin-G2 against a set of 96 proteins from our library, we detected a single hit corresponding to Ngl2, indicating that Netrin-G2 is properly folded (data not shown). We also observed cross-species Draxin/Netrin-1 interactions between human and zebrafish proteins (
+    <a>
+     Figure S2
+    </a>
+    ), which could be indicative of a highly conserved binding interface.
+   </p>
+   <p>
+    In order to better define Draxin interactions to Netrin signaling components, we included Netrin receptors into the interaction screen. Zebrafish Netrin receptors
+    <a>
+     Dcc
+    </a>
+    , Neo1, and Unc5b and two representative human Netrin receptors DCC and UNC5B were tested. We detected the expected Netrin-1/Netrin receptor interactions with both human and zebrafish proteins (
+    <a>
+     Figures 3
+    </a>
+    B and 3C), indicating that the ECDs are functional in our assay. However, we did not observe direct binding between zebrafish Netrin receptors from the Dcc/Neo1 and
+    <a>
+     Unc5
+    </a>
+    family to zebrafish Ntn2. Human DCC and UNC5B also did not bind to human Netrin-3 using the AVEXIS assay. More importantly, we did not observe physical interactions between all tested pairs of zebrafish or human Draxin and Netrin receptors. These findings disagree with an earlier report (
+    <a>
+     Ahmed et al., 2011
+    </a>
+    ) but agree with a recent study, which failed to detect a direct interaction between human Draxin and DCC using Surface Plasmon Resonance (SPR) (
+    <a>
+     Haddick et al., 2014
+    </a>
+    ).
+   </p>
+   <p>
+    To determine the strength of the binding, we performed SPR experiments using recombinant human proteins. While no direct interaction between Draxin and DCC or UNC5B was detected, strong binding of Draxin to Netrin-1 was observed (apparent K
+    <sub>
+     D
+    </sub>
+    = 10.0 nM;
+    <a>
+     Figure S3
+    </a>
+    ). The determined binding constant for the Draxin/Netrin interaction is comparable with the published K
+    <sub>
+     D
+    </sub>
+    for the formation of Netrin-DCC complexes (
+    <a>
+     Keino-Masu et al., 1996
+    </a>
+    and
+    <a>
+     Xu et al., 2014
+    </a>
+    ).
+   </p>
+   <title>
+    Draxin Competes with Netrin Receptors for Netrin Binding
+   </title>
+   <p>
+    Given that we detected strong direct binding between Draxin and Netrin-1 and no interaction between Draxin and Netrin receptors, we hypothesized that Draxin might sequester Netrin, hence limiting its availability for receptor binding. This hypothesis differs from a previously proposed model (
+    <a>
+     Ahmed et al., 2011
+    </a>
+    ) in which Draxin serves as an inhibitory ligand for the Netrin receptor DCC. To test whether Draxin has an influence on Netrin’s ability to bind Netrin receptors, we developed a competition assay based on AVEXIS (
+    <a>
+     Figure 4
+    </a>
+    A). In this setup, Ntn1a was used as immobilized bait and ECDs of different Netrin receptors were used as prey proteins. The binding between Netrin and Netrin receptors was challenged by addition of purified soluble Draxin. Depending on its binding mode to Ntn1a, Draxin could have no effect, enhance (acting as
+    <a>
+     agonist
+    </a>
+    ), or even block (acting as
+    <a>
+     antagonist
+    </a>
+    ) the interaction between Ntn1a and Netrin receptors.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Draxin Inhibits the Binding of Ntn1a to Netrin Receptors(A) Schematic ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr4.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr4.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr4.jpg" data-fullEID="1-s2.0-S2211124715006592-gr4.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig4" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+  </sec>
+  <sec>
+   <p>
+    In our experiments, we detected interference with binding between Ntn1a and Netrin receptors upon addition of increasing concentrations of Draxin (
+    <a>
+     Figure 4
+    </a>
+    B). We observed Draxin-specific inhibition of Ntn1a interactions to Netrin receptor including Dcc, Unc5b, and Neo1 (
+    <a>
+     Figures 4
+    </a>
+    B–4D). Besides Netrin-1, Neo1 has additional known ligands belonging to the membrane-bound RGM family (
+    <a>
+     Rajagopalan et al., 2004
+    </a>
+    and
+    <a>
+     Zhang et al., 2005
+    </a>
+    ). To further test whether the inhibitory function of Draxin is specific to Netrin, we interrogated the interaction between Neo1 and Hfe2 (RGMc), which was detected in our discovery screen (
+    <a>
+     Figures 2
+    </a>
+    A and
+    <a>
+     S1
+    </a>
+    ). Replacing Ntn1a with Hfe2 as bait in the competition assay showed that Draxin is unable to outcompete the binding of Hfe2 to the Netrin receptor Neo1 (
+    <a>
+     Figure 4
+    </a>
+    E). This indicates that the antagonistic function of Draxin is selective for Neo1 ligands belonging to the Netrin family and does not affect the binding of RGM family ligands. Interestingly, 50% inhibition of the Ntn1a/Unc5b interaction by Draxin (IC
+    <sub>
+     50
+    </sub>
+    ) measured around 10 nM, which is consistent with biological relevant concentrations.
+   </p>
+   <title>
+    Mapping of the Netrin-1-Binding Region in Draxin
+   </title>
+   <p>
+    The cross-species binding data (
+    <a>
+     Figure S2
+    </a>
+    ) obtained for the interactions between Draxin proteins and γ-Netrins already indicated that the binding interfaces are likely well conserved. In order to test this possibility, we set out to narrow down the protein regions required for binding between zebrafish Draxin and Ntn1a. Zebrafish Draxin is a 360-aa-containing protein. A 23-aa-long signal peptide is followed by a poorly conserved N-terminal region with no apparent protein domains. Starting from the central region of the protein, primary sequence conservation is higher and a 10-cysteine-containing domain (aa 285–360) is recognizable (
+    <a>
+     Figure S4
+    </a>
+    ). The spacing of the cysteines is similar to that of Dickkopf-1, a secreted Wnt antagonist (
+    <a>
+     Glinka et al., 1998
+    </a>
+    ). Because no structural data are available for Draxin proteins, we used orthologous protein alignment data and protein feature analysis in a stepwise process to design deletion and truncation constructs for the mapping experiment. The corresponding protein regions were expressed as bait and prey proteins and tested for binding against Ntn1a. Using this approach, we mapped the Draxin region required for binding to Ntn1a to a 22-aa motif comprising aa 231–252 (
+    <a>
+     Figure 5
+    </a>
+    A). Removal of the corresponding 22-aa motif from full-length Draxin completely abolishes binding to Ntn1a. The further shortening of this peptide from the C terminus by 5 aa results in extremely weak binding to Ntn1a. We did not detect similar motifs in other proteins, except vertebrate Draxin homologs, indicating that this 22-aa Netrin-binding peptide is highly specific for Draxin. To characterize the binding specificity of the Draxin-derived fragment, we screened this 22-aa prey peptide against 132 bait proteins and detected a single interaction with Ntn1a (
+    <a>
+     Figure 5
+    </a>
+    B). Screening the corresponding bait against 172 different prey proteins again resulted in a single hit to Ntn1a (
+    <a>
+     Figure 5
+    </a>
+    B). These results show that the binding of the 22-aa Draxin-derived peptide to Ntn1a is highly selective. Further confirming this result, Draxin orthologs from different vertebrate species show high sequence similarity when the 22-aa peptide is aligned (
+    <a>
+     Figure 5
+    </a>
+    C).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="A Draxin-Derived 22-aa Fragment Is Sufficient for Binding to Ntn1a and Able to ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr5.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr5.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr5.jpg" data-fullEID="1-s2.0-S2211124715006592-gr5.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig5" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    The 22-aa Draxin Fragment Is Sufficient to Interfere with Ntn1a/Netrin Receptor Interactions
+   </title>
+   <p>
+    Next, we asked whether the 22-aa stretch from Draxin is sufficient to block binding between Ntn1a and Netrin receptors. In our in vitro competition assay, we challenged the interaction between Ntn1a (bait) and Dcc (prey) by increasing concentrations of Draxin. We used full-length Draxin fused to the Fc part of human immunoglobulin G (IgG) (Draxin-hFc), Draxin
+    <sub>
+     aa231–252
+    </sub>
+    -hFc, or Draxin carrying a deletion spanning the 22-aa Netrin-binding region (DraxinΔ
+    <sub>
+     aa231–252
+    </sub>
+    -hFc). The results show that Draxin-hFc and Draxin
+    <sub>
+     aa231–252
+    </sub>
+    -hFc were similarly efficient in interfering with the Ntn1a/Dcc interaction (
+    <a>
+     Figure 5
+    </a>
+    D). DraxinΔ
+    <sub>
+     aa231–252
+    </sub>
+    -hFc, however, was unable to block the interaction, indicating that the 22-aa Netrin-binding region of Draxin is necessary and sufficient to outcompete Netrin receptors for binding to Ntn1a. To further confirm that the observed inhibitory effect is specific for Netrin/Netrin receptor interactions, we used the same three Draxin-hFc versions and examined whether they had any effect on other interactions of our discovery screen. The control interactions we used were Cntn1a/Ptprz1b, Vasna/Islr2, and EphB4a/EphrinB2a. We did not observe an inhibitory effect on these interactions using the Draxin-hFc protein versions (
+    <a>
+     Figures S5
+    </a>
+    B–S5D). These results further indicate that the inhibitory function of Draxin is specific for Netrin-1/Netrin receptor interactions.
+   </p>
+   <title>
+    Draxin Binds to the Third EGF Domain of Ntn1a
+   </title>
+   <p>
+    Next, we set out to identify the Draxin-binding region in Ntn1a. Ntn1a is a 603-aa multi-domain protein (
+    <a>
+     Figure 6
+    </a>
+    A). Like all vertebrate γ-Netrins, it contains a laminin N-terminal domain (LamNT/VI) after the signal sequence. This region is followed by three EGF domains (V/aa 284–450) and a single C345C domain (aa 486–594), also called Netrin C-terminal domain. Our binding interface mapping constructs for Ntn1a were designed to comprise either combinations of consecutive domains or individual annotated domains (
+    <a>
+     Figure 6
+    </a>
+    A). To produce properly folded functional proteins for individual EGF domains, we first tested different domain boundaries and optimized the protein linker regions. The interaction screen against full-length Draxin showed that the N-terminal domain and the C345C domain of Ntn1a are not required for binding to Draxin. In contrast, a recombinant protein containing all three EGF domains displayed strong binding when probed against Draxin. By screening individual EGF domains against Draxin, we finally were able to confine the Draxin binding region to a fragment consisting of aa 401–458 comprising the third EGF domain (aa 403–450). Furthermore, we demonstrate that the third EGF domain of Ntn1a is sufficient for binding to the 22-aa Draxin fragment (
+    <a>
+     Figure S6
+    </a>
+    A). Screening the third EGF domain against a large set of library proteins showed that it specifically interacts with Draxin in both bait/prey orientations (
+    <a>
+     Figure 6
+    </a>
+    B).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Identification of the Draxin-Binding Domain in Ntn1a(A) Diagram depicting the ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr6.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr6.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr6.jpg" data-fullEID="1-s2.0-S2211124715006592-gr6.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig6" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+  </sec>
+  <sec>
+   <p>
+    Interestingly, the third EGF domain of Ntn1a corresponds to one of the two sites required for binding to Netrin receptors (
+    <a>
+     Finci et al., 2014
+    </a>
+    and
+    <a>
+     Xu et al., 2014
+    </a>
+    ). Hence, Draxin and Netrin receptors are likely to compete for binding to the third EGF domain in Netrin-1, providing an explanation for the observed results in the competition assay.
+   </p>
+   <p>
+    A protein alignment of the third EGF domain from human and zebrafish Netrins shows that this domain is highly conserved in γ-Netrins (
+    <a>
+     Figure 6
+    </a>
+    C). In fact, it is the most conserved domain found in γ-Netrins (
+    <a>
+     Figure S6
+    </a>
+    B), being identical between human NTN1 and zebrafish Ntn1b, while a single amino acid is exchanged in the corresponding domain of zebrafish Ntn1a. Combined, the binding domain mapping experiments for Draxin and Ntn1a show that the interaction interfaces are highly conserved in vertebrates, which is in line with the cross-species binding results we observed.
+   </p>
+   <title>
+    In Vivo Detection of the Draxin/Netrin Interaction in Zebrafish Embryos
+   </title>
+   <p>
+    To independently confirm the Draxin/Ntn1a interaction and to test whether both proteins are able to interact in vivo, we performed transient protein expression experiments in zebrafish embryos. mRNAs encoding Draxin fused to superfolder GFP (Draxin-sfGFP) and Ntn1a tagged with mCherry (Ntn1a-mCherry) or superfolder GFP (Ntn1a-sfGFP) were injected into one-cell stage zebrafish embryos. The distribution of the corresponding tagged proteins was analyzed at sphere stage (4 hours post fertilization [hpf]) (
+    <a>
+     Figure 7
+    </a>
+    A). At this developmental time point, the extracellular space between cells is wide and ideally suited to visualize the localization of secreted proteins. Upon injection of mRNA encoding Draxin-sfGFP, we observed evenly distributed signal outside the cells in the extracellular milieu (
+    <a>
+     Figure 7
+    </a>
+    Ba). In contrast, the distribution of Ntn1a-sfGFP was restricted to cell-surface subdomains (
+    <a>
+     Figure 7
+    </a>
+    Bb). When Draxin-sfGFP was co-injected with Ntn1a-mCherry, Draxin-sfGFP relocated to Ntn1a-positive membrane associated densities (
+    <a>
+     Figure 7
+    </a>
+    Bc). This result indicates that localized Ntn1a-mCherry is able to capture diffusible Draxin-sfGFP. Therefore, by exogenous mRNA expression experiments, we show that Draxin and Ntn1a are able to interact with each other in vivo.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="In&amp;nbsp;Vivo and In Situ Detection of the Draxin/Ntn1a Interaction in Zebrafish ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S2211124715006592-gr7.jpg" data-thumbEID="1-s2.0-S2211124715006592-gr7.sml" data-imgEIDs="1-s2.0-S2211124715006592-gr7.jpg" data-fullEID="1-s2.0-S2211124715006592-gr7.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig7" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    To further support our results, we employed another strategy aiming to detect the distribution of endogenous Draxin interaction partners at developmental stages relevant for axon guidance decisions. The SPR experiments show that the interaction between Draxin and Netrin is of high affinity (apparent K
+    <sub>
+     D
+    </sub>
+    10 nM). Thus, we fused a Netrin-binding fragment of the Draxin-ECD (aa 209–284) to the human Fc region to generate an affinity probe. First, we tested this probe on zebrafish embryos at different developmental stages. After very gentle fixation, the embryos were incubated with HEK293-6E cell-culture supernatants containing the recombinant soluble Draxin
+    <sub>
+     aa209–284
+    </sub>
+    -hFc protein. Using anti-human IgG antibodies to detect in situ bound Draxin
+    <sub>
+     aa209–284
+    </sub>
+    -hFc, we only detected signal in close proximity to the FP (
+    <a>
+     Figures 7
+    </a>
+    C and 7Db). Because FP cells express Netrin-1, we hypothesized that the signal revealed by the Draxin affinity probe indeed corresponded to extracellular space-localized Netrin. To prove this, we compared 33-hpf embryos injected with a
+    <em>
+     ntn1b
+    </em>
+    translation-blocking morpholino (MO) and wild-type siblings (
+    <a>
+     Figure 7
+    </a>
+    D). In the knockdown condition, the signal from the bound affinity probe was barely detectable compared to non-injected siblings, indicating that the Draxin
+    <sub>
+     aa209–284
+    </sub>
+    -hFc probe indeed detected Netrin. To further determine whether Netrin and Draxin have a chance to encounter each other in vivo, we performed double in situ hybridization experiments. Partially overlapping
+    <em>
+     draxin
+    </em>
+    and
+    <em>
+     netrin
+    </em>
+    expression domains were detected in 24-hpf zebrafish embryos at the level of forebrain axonal tracks, the earliest tracks forming in vertebrate embryos (
+    <a>
+     Figure S7
+    </a>
+    ). Taken together, the results from our exogenous mRNA expression, Draxin affinity probe experiments, and expression analysis provide strong evidence that Draxin and Ntn1a are able to meet and interact in vivo in zebrafish embryos.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    FP cells produce secreted factors that form extracellular concentration gradients influencing other cells at a distance. In addition, as intermediate targets, they present cell-surface proteins acting as localized positional signals that can be sensed by approaching cells and axonal growth cones. Here, we constructed a comprehensive FP network from a large-scale PPI screen designed to identify extracellular interactions of CSS proteins expressed by FP cells. These interactions are likely to be important for communication events occurring in the FP microenvironment, which are required to establish fundamental embryonic axon tracts/convey guidance instructions for commissural axons.
+   </p>
+   <p>
+    Netrin signaling is of major importance for midline-mediated axon guidance decisions. Netrin-1 attracts commissural axons toward the FP via binding to DCC and Neo1. So far, no Netrin modulator has been found to act by directly binding the ligand. In our screen, we detected a direct interaction between Draxin and Netrin-1. Draxin has been previously suggested to be a functional important component of the Netrin signaling pathway, by directly engaging Netrin receptors (
+    <a>
+     Ahmed et al., 2011
+    </a>
+    and
+    <a>
+     Chen et al., 2013
+    </a>
+    ). It has been reported that Draxin, unlike Netrin-1, is involved in repulsive axon responses upon binding to DCC. However, our AVEXIS-based data show that Draxin, rather than interacting with Netrin receptors, directly binds to all tested zebrafish and human γ-Netrins through highly conserved binding interfaces. We show that Draxin and a 22-aa Draxin-derived fragment are able to outcompete Netrin receptors for binding to Netrin in our competition experiments. Result from SPR experiments using monomeric proteins demonstrate that the binding strength between Draxin and Netrin is comparable with Netrin to its receptor, qualifying Draxin as a competitor. Recently published structural complexes of Netrin-1 bound to receptors of the Dcc/Neo1 family showed that Netrin-1 uses two distinct binding sites to efficiently interact with its receptors (
+    <a>
+     Finci et al., 2014
+    </a>
+    and
+    <a>
+     Xu et al., 2014
+    </a>
+    ). In both studies, the receptor-binding site of Netrin-1 comprises the third EGF domain. Remarkably, this is the same Netrin-1 domain we found to be required for binding to Draxin. These results offer a mechanistic explanation for the antagonistic function of Draxin in the Netrin signaling system. Thus, we propose that Draxin can act as an extracellular inhibitor operating directly at the level of Netrin ligands.
+   </p>
+   <p>
+    In order to interact in vivo, Draxin and Netrin-1 have to encounter each other in a developing embryo. Although
+    <em>
+     netrin-1
+    </em>
+    mRNA is mainly expressed by FP cells and
+    <em>
+     draxin
+    </em>
+    mRNA expression localizes to dorsal regions of the spinal cord, it is likely that both encoded secreted proteins encounter each other in the extracellular space of the CNS at developmental stages when the axons of commissural neurons are attracted to the FP. In stage 17 chick embryos, for example, Netrin-1 has been shown to form a protein gradient. Netrin-1 protein is still detectable far from the FP source, reaching even the upper two-thirds region of the spinal cord (
+    <a>
+     Kennedy et al., 2006
+    </a>
+    ). Consistently, it was shown that Netrin-1 is able to effect long-range attraction of commissural neurites toward the FP. Comparably, Draxin protein has been reported to be highly diffusible in stage 19 chick embryos, suggesting that it likely acts at a distance from its secreting source in the dorsal spinal cord (
+    <a>
+     Islam et al., 2009
+    </a>
+    ). Taken together, these findings indicate that both Draxin and Netrin-1 can act as long range guidance cues and have the ability to meet each other in regions far from their site of production. In the forebrain, our double in situ experiments show that mRNAs of the two genes overlap in cells surrounding the major axonal tracts. Thus, the encoded proteins are likely meet and bind in these brain regions. Furthermore,
+    <em>
+     Dcc
+    </em>
+    ,
+    <em>
+     Netrin-1
+    </em>
+    , and
+    <em>
+     Draxin
+    </em>
+    mutant mice have been described to display commissural axon guidance phenotypes both in the spinal cord and the forebrain (
+    <a>
+     Fazeli et al., 1997
+    </a>
+    ,
+    <a>
+     Islam et al., 2009
+    </a>
+    and
+    <a>
+     Serafini et al., 1996
+    </a>
+    ), supporting a scenario where all three molecules not only are part of the same signaling pathway, but also are involved in the same biological process.
+   </p>
+  </sec>
+  <sec>
+   <p>
+    Hence, we asked the question how our protein interaction and competition data could be brought in line with the published Netrin-1 and Draxin protein distribution data and observed knockout mice phenotypes for
+    <em>
+     Dcc, Netrin-1
+    </em>
+    , and
+    <em>
+     Draxin
+    </em>
+    . Strikingly, opposing gradients of secreted antagonists and signaling molecules are frequently observed in biological systems (
+    <a>
+     De Robertis, 2006
+    </a>
+    ). Also Draxin and Netrin-1 are likely to form reciprocal gradients along the dorsoventral axis of the developing spinal cord. We now provide data showing that Draxin directly binds to Netrin-1, thereby preventing Netrin-1 binding to its canonical receptors, including Dcc. Such system, in which Draxin acts as a Netrin-1 antagonist, would sharpen the Netrin-1 activity gradient in the spinal cord. Thus, the region where sufficient free Netrin-1 (i.e., unbound by Draxin) is available for efficient activation of Dcc on commissural growth cones would shift to a more ventral position of the spinal cord. Future experiments, for example, Draxin misexpression in the Netrin-1-producing cells of the ventral spinal cord, will help to test the validity of the proposed model. In Draxin knockout mice, however, the spinal cord axon guidance phenotype of Netrin-sensitive axons is milder compared to
+    <em>
+     netrin
+    </em>
+    knockout mice. The weaker phenotype observed in the spinal cord of
+    <em>
+     draxin
+    </em>
+    knockout mice might support our proposed model of opposing gradients, where Draxin modulates or sharpens extracellular distribution of active Netrin.
+   </p>
+   <p>
+    It is noteworthy that Netrin signaling has important functions beyond axon guidance. As an example, Netrin receptors on cancer cells serve as “dependence receptors” engaging with the survival factor Netrin-1. Without bound Netrin, DCC is able to induce apoptosis of the cancer cell (
+    <a>
+     Mehlen et al., 1998
+    </a>
+    ). In these settings, disruption of Netrin-1/Netrin-receptor interactions via Draxin or its 22-aa peptide has potential therapeutic value.
+   </p>
+   <p>
+    In summary, by targeting a fundamental choice point for commissural axons—the floor plate—and assembling its specific extracellular interaction network, we identified unsuspected physical binding between Netrin-1 and Draxin. Our results uncover a vertebrate-specific mechanism of Netrin-1 signaling modulation, which demonstrates the value of systematic ePPI screening approaches. The assembled FP network will therefore serve as primary resource to select interactions for future functional characterization.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <title>
+    Fish Maintenance
+   </title>
+   <p>
+    All experiments involving zebrafish were carried out in accordance to guidelines and regulations imposed by the state of Baden-Württemberg.
+   </p>
+   <title>
+    Identification of CSS Proteins Expressed by Floor-Plate Cells
+   </title>
+   <p>
+    To identify a large set of CSS proteins expressed by floor-plate cells, we searched the “Zebrafish Model Organism Database” (
+    <a>
+     http://zfin.org
+    </a>
+    ) for candidate genes and extracted the secreted and cell-surface protein encoding genes from our data set. More than 10,000 gene expression patterns were present in the ZFIN database, corresponding to an approximately 40% genome coverage. To further increase the coverage and to identify floor-plate-expressed CSS genes with no published mRNA expression patterns, we carried out a microarray experiment using the Agilent-44k Zebrafish expression platform and compared 34-hpf
+    <em>
+     cyc
+    </em>
+    mutants, which are devoid of medial floor-plate cells (
+    <a>
+     Hatta, 1992
+    </a>
+    ), with the same stage wild-type siblings. The data were analyzed as in
+    <a>
+     Reischauer et al. (2009)
+    </a>
+    using the R programming environment and the limma RNA expression analysis module, with multiple hypothesis test correction done using the Benjamani-Hochberg method. This approach helped to identify 22 CSS genes (
+    <a>
+     Table S1
+    </a>
+    ) downregulated in
+    <em>
+     cyc
+    </em>
+    mutants; floor-plate cells express 16 of them. Combining both methods, we identified 57 CSS protein-coding floor-plate-expressed genes (
+    <a>
+     Table S2
+    </a>
+    ).
+   </p>
+   <title>
+    Expression of the Recombinant ECDs
+   </title>
+   <p>
+    All proteins used for AVEXIS, mapping of binding domains, competition, and in situ binding experiments were produced by polyethylenimine (PEI) -mediated transient transfections of human HEK293-6E cells. For details, see the
+    <a>
+     Supplemental Experimental Procedures
+    </a>
+    . A complete list of the produced ECD prey and bait proteins can be found in
+    <a>
+     Table S3
+    </a>
+    .
+   </p>
+   <title>
+    Extracellular Protein Interaction Screen
+   </title>
+   <p>
+    The AVEXIS method (
+    <a>
+     Bushell et al., 2008
+    </a>
+    ), with modifications described in the
+    <a>
+     Supplemental Experimental Procedures
+    </a>
+    , was used for the ePPI discovery screen, the Netrin family interaction screen, and for domain mapping experiments.
+   </p>
+   <title>
+    Competition Assay
+   </title>
+   <p>
+    The competition assay was designed based on the AVEXIS assay. Differently than the standard AVEXIS protocol, after removal of unbound bait proteins, prey proteins were added together with indicated concentrations of potential inhibitors. Ntn1a was used as bait, and Netrin receptors were used as prey proteins. The binding between Ntn1a bait and Netrin receptor prey proteins was challenged by addition of increasing concentrations of purified soluble Draxin. To exclude signal saturation and to avoid a too low signal baseline that may interfere with the detection of the inhibition, the concentration of prey proteins was adjusted to values ensuring 2- to 5-fold signal over background values reached within the reaction incubation time. %binding = (binding with inhibitor/binding without inhibitor) × %100. Background values were subtracted from all of the binding values prior to the calculation. The percentage of binding reflects the competition effect. A shorter versions of Ntn1a (lacking the C345C domain) was used as bait protein; the ECDs of Netrin receptors (Dcc, Neo1, Unc5b) were used as prey proteins; purified full-length His
+    <sub>
+     6
+    </sub>
+    -tagged Draxin fused to rat CD4 (domain3+4) at the C terminus, and normalized Draxin-hFc (Draxin-hFc, Draxin
+    <sub>
+     aa231–252
+    </sub>
+    -hFc, DraxinΔ
+    <sub>
+     aa231–252
+    </sub>
+    -hFc) versions fused to the Fc region of human IgG at the C terminus were used as potential inhibitors.
+   </p>
+   <title>
+    In Situ Detection of Draxin Binding Partners
+   </title>
+   <p>
+    A Netrin binding fragment of Draxin (aa 209–284) fused to the Fc region of human IgG (Draxin
+    <sub>
+     aa209–284
+    </sub>
+    -hFc) was expressed in HEK293-6E cells and used as an affinity probe to detect binding partners in zebrafish embryos. Draxin
+    <sub>
+     aa209–284
+    </sub>
+    -hFc in situ staining was done in whole-mount wild-type and
+    <em>
+     netrin-1b
+    </em>
+    knockdown zebrafish embryos. For details, see the
+    <a>
+     Supplemental Experimental Procedures
+    </a>
+    .
+   </p>
+   <title>
+    Binding Analysis with SPR
+   </title>
+   <p>
+    See the
+    <a>
+     Supplemental Experimental Procedures
+    </a>
+    .
+   </p>
+   <title>
+    In Vivo Binding Assay
+   </title>
+   <p>
+    See the
+    <a>
+     Supplemental Experimental Procedures
+    </a>
+    .
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Author Contributions
+   </title>
+   <p>
+    C.S. conceived and coordinated the work, was involved in cloning and expression of ECDs, and carried out the discovery screen. X.G. designed, carried out and coordinated the Netrin/Draxin experiments, and cloned related ECDs. M.T. and U.M. performed the SPR experiments. P.P. generated the anti-VasnA antibody and helped with the in situ binding experiments. P.M. carried out the analysis of
+    <em>
+     optc
+    </em>
+    mutants. H.-M.M. was centrally involved in the cloning of ECDs and protein production. M.P.L. and H.G. carried out the microarray experiments and cloned ECDs. C.S., X.G., and P.P. wrote the manuscript.
+   </p>
+   <p>
+   </p>
+   <p>
+    Microarray data have been deposited to the ArrayExpress database and are available under accession number
+    <a>
+     E-MTAB-3609
+    </a>
+    (
+    <a>
+     Table S1
+    </a>
+    ). The sequences of the ECDs used in this study were deposited to the GenBank (
+    <a>
+     Table S3
+    </a>
+    ). The protein interactions from this publication have been submitted to the IMEx consortium through IntAct and are available under accession number IM-24186.
+   </p>
+   <p>
+   </p>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Document S1. Supplemental Experimental Procedures and Figures S1–S7.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with PDF files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (5879 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Table S1. Cyclops Microarray Results, Related to Figures 1 and 2.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with XLS files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (31 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Table S2. List of CSS Protein Encoding Genes Expressed by Floor-Plate Cells, Related to Figures 1 and 2.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with XLSX files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (12 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Table S3. Identity of the ECDs Used in the AVEXIS Discovery Screen, Related to Figures 2 and S1.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with XLS files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (118 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Table S4. Complete List of Interactions Identified in the Discovery Screen, Related to Figures 2 and S1.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with XLS files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (38 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Document S2. Article plus Supplemental Information.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with PDF files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (10867 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+   <p>
+   </p>
+   <p>
+   </p>
+  </sec>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    References
+   </title>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Ahmed et al., 2011
+        </a>
+       </li>
+       <li>
+        G. Ahmed, Y. Shinmyo, K. Ohta, S.M. Islam, M. Hossain, I.B. Naser, M.A. Riyadh, Y. Su, S. Zhang, M. Tessier-Lavigne, H. Tanaka
+       </li>
+       <li>
+        <p>
+         Draxin inhibits axonal outgrowth through the netrin receptor DCC
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Neurosci., 31 (2011), pp. 14018–14023
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref1'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Bushell et al., 2008
+        </a>
+       </li>
+       <li>
+        K.M. Bushell, C. Söllner, B. Schuster-Boeckler, A. Bateman, G.J. Wright
+       </li>
+       <li>
+        <p>
+         Large-scale screening for novel low-affinity extracellular protein interactions
+        </p>
+       </li>
+       <li>
+        <p>
+         Genome Res., 18 (2008), pp. 622–630
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref2'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Charron et al., 2003
+        </a>
+       </li>
+       <li>
+        F. Charron, E. Stein, J. Jeong, A.P. McMahon, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         The morphogen sonic hedgehog is an axonal chemoattractant that collaborates with netrin-1 in midline axon guidance
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 113 (2003), pp. 11–23
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref3'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Chen et al., 2013
+        </a>
+       </li>
+       <li>
+        Q. Chen, X. Sun, X.H. Zhou, J.H. Liu, J. Wu, Y. Zhang, J.H. Wang
+       </li>
+       <li>
+        <p>
+         N-terminal horseshoe conformation of DCC is functionally required for axon guidance and might be shared by other neural receptors
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Sci., 126 (2013), pp. 186–195
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref4'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Colamarino and Tessier-Lavigne, 1995
+        </a>
+       </li>
+       <li>
+        S.A. Colamarino, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         The role of the floor plate in axon guidance
+        </p>
+       </li>
+       <li>
+        <p>
+         Annu. Rev. Neurosci., 18 (1995), pp. 497–529
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref5'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         De Robertis, 2006
+        </a>
+       </li>
+       <li>
+        E.M. De Robertis
+       </li>
+       <li>
+        <p>
+         Spemann’s organizer and self-regulation in amphibian embryos
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Rev. Mol. Cell Biol., 7 (2006), pp. 296–302
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref6'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Diehn et al., 2006
+        </a>
+       </li>
+       <li>
+        M. Diehn, R. Bhattacharya, D. Botstein, P.O. Brown
+       </li>
+       <li>
+        <p>
+         Genome-scale identification of membrane-associated human mRNAs
+        </p>
+       </li>
+       <li>
+        <p>
+         PLoS Genet., 2 (2006), p. e11
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref7'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Fazeli et al., 1997
+        </a>
+       </li>
+       <li>
+        A. Fazeli, S.L. Dickinson, M.L. Hermiston, R.V. Tighe, R.G. Steen, C.G. Small, E.T. Stoeckli, K. Keino-Masu, M. Masu, H. Rayburn,
+        <em>
+         et al.
+        </em>
+       </li>
+       <li>
+        <p>
+         Phenotype of mice lacking functional Deleted in colorectal cancer (Dcc) gene
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 386 (1997), pp. 796–804
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref8'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Finci et al., 2014
+        </a>
+       </li>
+       <li>
+        L.I. Finci, N. Krüger, X. Sun, J. Zhang, M. Chegkazi, Y. Wu, G. Schenk, H.D. Mertens, D.I. Svergun, Y. Zhang,
+        <em>
+         et al.
+        </em>
+       </li>
+       <li>
+        <p>
+         The crystal structure of netrin-1 in complex with DCC reveals the bifunctionality of netrin-1 as a guidance cue
+        </p>
+       </li>
+       <li>
+        <p>
+         Neuron, 83 (2014), pp. 839–849
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref9'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Glinka et al., 1998
+        </a>
+       </li>
+       <li>
+        A. Glinka, W. Wu, H. Delius, A.P. Monaghan, C. Blumenstock, C. Niehrs
+       </li>
+       <li>
+        <p>
+         Dickkopf-1 is a member of a new family of secreted proteins and functions in head induction
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 391 (1998), pp. 357–362
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref10'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Haddick et al., 2014
+        </a>
+       </li>
+       <li>
+        P.C. Haddick, I. Tom, E. Luis, G. Quiñones, B.J. Wranik, S.R. Ramani, J.P. Stephan, M. Tessier-Lavigne, L.C. Gonzalez
+       </li>
+       <li>
+        <p>
+         Defining the ligand specificity of the deleted in colorectal cancer (DCC) receptor
+        </p>
+       </li>
+       <li>
+        <p>
+         PLoS ONE, 9 (2014), p. e84823
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref11'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Hatta, 1992
+        </a>
+       </li>
+       <li>
+        K. Hatta
+       </li>
+       <li>
+        <p>
+         Role of the floor plate in axonal patterning in the zebrafish CNS
+        </p>
+       </li>
+       <li>
+        <p>
+         Neuron, 9 (1992), pp. 629–642
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref12'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Imondi and Kaprielian, 2001
+        </a>
+       </li>
+       <li>
+        R. Imondi, Z. Kaprielian
+       </li>
+       <li>
+        <p>
+         Commissural axon pathfinding on the contralateral side of the floor plate: a role for B-class ephrins in specifying the dorsoventral position of longitudinally projecting commissural axons
+        </p>
+       </li>
+       <li>
+        <p>
+         Development, 128 (2001), pp. 4859–4871
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref13'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Islam et al., 2009
+        </a>
+       </li>
+       <li>
+        S.M. Islam, Y. Shinmyo, T. Okafuji, Y. Su, I.B. Naser, G. Ahmed, S. Zhang, S. Chen, K. Ohta, H. Kiyonari,
+        <em>
+         et al.
+        </em>
+       </li>
+       <li>
+        <p>
+         Draxin, a repulsive guidance protein for spinal cord and forebrain commissures
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 323 (2009), pp. 388–393
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref14'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Kadison et al., 2006
+        </a>
+       </li>
+       <li>
+        S.R. Kadison, T. Mäkinen, R. Klein, M. Henkemeyer, Z. Kaprielian
+       </li>
+       <li>
+        <p>
+         EphB receptors and ephrin-B3 regulate axon guidance at the ventral midline of the embryonic mouse spinal cord
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Neurosci., 26 (2006), pp. 8909–8914
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref15'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Keino-Masu et al., 1996
+        </a>
+       </li>
+       <li>
+        K. Keino-Masu, M. Masu, L. Hinck, E.D. Leonardo, S.S. Chan, J.G. Culotti, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         Deleted in Colorectal Cancer (DCC) encodes a netrin receptor
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 87 (1996), pp. 175–185
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref16'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Kennedy et al., 1994
+        </a>
+       </li>
+       <li>
+        T.E. Kennedy, T. Serafini, J.R. de la Torre, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         Netrins are diffusible chemotropic factors for commissural axons in the embryonic spinal cord
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 78 (1994), pp. 425–435
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref17'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Kennedy et al., 2006
+        </a>
+       </li>
+       <li>
+        T.E. Kennedy, H. Wang, W. Marshall, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         Axon guidance by diffusible chemoattractants: a gradient of netrin protein in the developing spinal cord
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Neurosci., 26 (2006), pp. 8866–8874
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref18'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Koch et al., 2000
+        </a>
+       </li>
+       <li>
+        M. Koch, J.R. Murrell, D.D. Hunter, P.F. Olson, W. Jin, D.R. Keene, W.J. Brunken, R.E. Burgeson
+       </li>
+       <li>
+        <p>
+         A novel member of the netrin family, beta-netrin, shares homology with the beta chain of laminin: identification, expression, and functional characterization
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Biol., 151 (2000), pp. 221–234
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref19'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Landry et al., 2013
+        </a>
+       </li>
+       <li>
+        C.R. Landry, E.D. Levy, D. Abd Rabbo, K. Tarassov, S.W. Michnick
+       </li>
+       <li>
+        <p>
+         Extracting insight from noisy cellular networks
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 155 (2013), pp. 983–989
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref20'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Leclère and Rentzsch, 2012
+        </a>
+       </li>
+       <li>
+        L. Leclère, F. Rentzsch
+       </li>
+       <li>
+        <p>
+         Repeated evolution of identical domain architecture in metazoan netrin domain-containing proteins
+        </p>
+       </li>
+       <li>
+        <p>
+         Genome Biol. Evol., 4 (2012), pp. 883–899
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref21'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Liu and Rost, 2001
+        </a>
+       </li>
+       <li>
+        J. Liu, B. Rost
+       </li>
+       <li>
+        <p>
+         Comparing function and structure between entire proteomes
+        </p>
+       </li>
+       <li>
+        <p>
+         Protein Sci., 10 (2001), pp. 1970–1979
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref22'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Long et al., 2004
+        </a>
+       </li>
+       <li>
+        H. Long, C. Sabatier, L. Ma, A. Plump, W. Yuan, D.M. Ornitz, A. Tamada, F. Murakami, C.S. Goodman, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         Conserved roles for Slit and Robo proteins in midline commissural axon guidance
+        </p>
+       </li>
+       <li>
+        <p>
+         Neuron, 42 (2004), pp. 213–223
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref23'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Lyuksyutova et al., 2003
+        </a>
+       </li>
+       <li>
+        A.I. Lyuksyutova, C.C. Lu, N. Milanesio, L.A. King, N. Guo, Y. Wang, J. Nathans, M. Tessier-Lavigne, Y. Zou
+       </li>
+       <li>
+        <p>
+         Anterior-posterior guidance of commissural axons by Wnt-frizzled signaling
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 302 (2003), pp. 1984–1988
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref24'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Martin et al., 2010
+        </a>
+       </li>
+       <li>
+        S. Martin, C. Söllner, V. Charoensawan, B. Adryan, B. Thisse, C. Thisse, S. Teichmann, G.J. Wright
+       </li>
+       <li>
+        <p>
+         Construction of a large extracellular protein interaction network and its resolution by spatiotemporal expression profiling
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell. Proteomics, 9 (2010), pp. 2654–2665
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref25'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Mehlen et al., 1998
+        </a>
+       </li>
+       <li>
+        P. Mehlen, S. Rabizadeh, S.J. Snipas, N. Assa-Munt, G.S. Salvesen, D.E. Bredesen
+       </li>
+       <li>
+        <p>
+         The DCC gene product induces apoptosis by a mechanism requiring receptor proteolysis
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 395 (1998), pp. 801–804
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref26'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Özkan et al., 2013
+        </a>
+       </li>
+       <li>
+        E. Özkan, R.A. Carrillo, C.L. Eastman, R. Weiszmann, D. Waghray, K.G. Johnson, K. Zinn, S.E. Celniker, K.C. Garcia
+       </li>
+       <li>
+        <p>
+         An extracellular interactome of immunoglobulin and LRR proteins reveals receptor-ligand networks
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 154 (2013), pp. 228–239
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref27'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Rajagopalan et al., 2004
+        </a>
+       </li>
+       <li>
+        S. Rajagopalan, L. Deitinghoff, D. Davis, S. Conrad, T. Skutella, A. Chedotal, B.K. Mueller, S.M. Strittmatter
+       </li>
+       <li>
+        <p>
+         Neogenin mediates the action of repulsive guidance molecule
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Cell Biol., 6 (2004), pp. 756–762
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref28'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Rebagliati et al., 1998
+        </a>
+       </li>
+       <li>
+        M.R. Rebagliati, R. Toyama, P. Haffter, I.B. Dawid
+       </li>
+       <li>
+        <p>
+         cyclops encodes a nodal-related factor involved in midline signaling
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 95 (1998), pp. 9932–9937
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref29'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Reischauer et al., 2009
+        </a>
+       </li>
+       <li>
+        S. Reischauer, M.P. Levesque, C. Nüsslein-Volhard, M. Sonawane
+       </li>
+       <li>
+        <p>
+         Lgl2 executes its function as a tumor suppressor by regulating ErbB signaling in the zebrafish epidermis
+        </p>
+       </li>
+       <li>
+        <p>
+         PLoS Genet., 5 (2009), p. e1000720
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref30'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Rothberg et al., 1988
+        </a>
+       </li>
+       <li>
+        J.M. Rothberg, D.A. Hartley, Z. Walther, S. Artavanis-Tsakonas
+       </li>
+       <li>
+        <p>
+         slit: an EGF-homologous locus of D. melanogaster involved in the development of the embryonic central nervous system
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 55 (1988), pp. 1047–1059
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref31'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Ruggiano et al., 2014
+        </a>
+       </li>
+       <li>
+        A. Ruggiano, O. Foresti, P. Carvalho
+       </li>
+       <li>
+        <p>
+         Quality control: ER-associated degradation: protein quality control and beyond
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Biol., 204 (2014), pp. 869–879
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref32'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Ruiz de Almodovar et al., 2011
+        </a>
+       </li>
+       <li>
+        C. Ruiz de Almodovar, P.J. Fabre, E. Knevels, C. Coulon, I. Segura, P.C. Haddick, L. Aerts, N. Delattin, G. Strasser, W.J. Oh,
+        <em>
+         et al.
+        </em>
+       </li>
+       <li>
+        <p>
+         VEGF mediates commissural axon chemoattraction through its receptor Flk1
+        </p>
+       </li>
+       <li>
+        <p>
+         Neuron, 70 (2011), pp. 966–978
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref33'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Sampath et al., 1998
+        </a>
+       </li>
+       <li>
+        K. Sampath, A.L. Rubinstein, A.M. Cheng, J.O. Liang, K. Fekany, L. Solnica-Krezel, V. Korzh, M.E. Halpern, C.V. Wright
+       </li>
+       <li>
+        <p>
+         Induction of the zebrafish ventral brain and floorplate requires cyclops/nodal signalling
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 395 (1998), pp. 185–189
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref34'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Seiradake et al., 2011
+        </a>
+       </li>
+       <li>
+        E. Seiradake, C.H. Coles, P.V. Perestenko, K. Harlos, R.A. McIlhinney, A.R. Aricescu, E.Y. Jones
+       </li>
+       <li>
+        <p>
+         Structural basis for cell surface patterning through NetrinG-NGL interactions
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 30 (2011), pp. 4479–4488
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref35'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Serafini et al., 1994
+        </a>
+       </li>
+       <li>
+        T. Serafini, T.E. Kennedy, M.J. Galko, C. Mirzayan, T.M. Jessell, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         The netrins define a family of axon outgrowth-promoting proteins homologous to C. elegans UNC-6
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 78 (1994), pp. 409–424
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref36'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Serafini et al., 1996
+        </a>
+       </li>
+       <li>
+        T. Serafini, S.A. Colamarino, E.D. Leonardo, H. Wang, R. Beddington, W.C. Skarnes, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         Netrin-1 is required for commissural axon guidance in the developing vertebrate nervous system
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 87 (1996), pp. 1001–1014
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref37'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Söllner and Wright, 2009
+        </a>
+       </li>
+       <li>
+        C. Söllner, G.J. Wright
+       </li>
+       <li>
+        <p>
+         A cell surface interaction network of neural leucine-rich repeat receptors
+        </p>
+       </li>
+       <li>
+        <p>
+         Genome Biol., 10 (2009), p. R99
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref38'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Wright, 2009
+        </a>
+       </li>
+       <li>
+        G.J. Wright
+       </li>
+       <li>
+        <p>
+         Signal initiation in biological systems: the properties and detection of transient extracellular protein interactions
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Biosyst., 5 (2009), pp. 1405–1412
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref39'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Xu et al., 2014
+        </a>
+       </li>
+       <li>
+        K. Xu, Z. Wu, N. Renier, A. Antipenko, D. Tzvetkova-Robev, Y. Xu, M. Minchenko, V. Nardi-Dei, K.R. Rajashankar, J. Himanen,
+        <em>
+         et al.
+        </em>
+       </li>
+       <li>
+        <p>
+         Neural migration. Structures of netrin-1 bound to two receptors provide insight into its axon guidance mechanism
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 344 (2014), pp. 1275–1279
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref40'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Zhang et al., 2005
+        </a>
+       </li>
+       <li>
+        A.S. Zhang, A.P. West Jr., A.E. Wyman, P.J. Bjorkman, C.A. Enns
+       </li>
+       <li>
+        <p>
+         Interaction of hemojuvelin with neogenin results in iron accumulation in human embryonic kidney 293 cells
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Biol. Chem., 280 (2005), pp. 33885–33894
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref41'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Zou et al., 2000
+        </a>
+       </li>
+       <li>
+        Y. Zou, E. Stoeckli, H. Chen, M. Tessier-Lavigne
+       </li>
+       <li>
+        <p>
+         Squeezing axons out of the gray matter: a role for slit and semaphorin proteins from midline and ventral spinal cord
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 102 (2000), pp. 363–375
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref42'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+   <p>
+    Copyright © 2015 The Authors. Published by Elsevier Inc.
+   </p>
+  </sec>
+  <sec>
+  </sec>
+ </body>
+</article>

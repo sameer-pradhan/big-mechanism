@@ -1,0 +1,2074 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3199393
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structure of the SSB–DNA polymerase III interface and its role in DNA replication
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Interactions between single-stranded DNA-binding proteins (SSBs) and the DNA replication machinery are found in all organisms, but the roles of these contacts remain poorly defined. In
+     <em>
+      Escherichia coli
+     </em>
+     , SSB's association with the χ subunit of the DNA polymerase III holoenzyme has been proposed to confer stability to the replisome and to aid delivery of primers to the lagging-strand DNA polymerase. Here, the SSB-binding site on χ is identified crystallographically and biochemical and cellular studies delineate the consequences of destabilizing the χ/SSB interface. An essential role for the χ/SSB interaction in lagging-strand primer utilization is not supported. However, sequence changes in χ that block complex formation with SSB lead to salt-dependent uncoupling of leading- and lagging-strand DNA synthesis and to a surprising obstruction of the leading-strand DNA polymerase
+     <em>
+      in vitro
+     </em>
+     , pointing to roles for the χ/SSB complex in replisome establishment and maintenance. Destabilization of the χ/SSB complex
+     <em>
+      in vivo
+     </em>
+     produces cells with temperature-dependent cell cycle defects that appear to arise from replisome instability.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     DNA replication, genome maintenance, protein interaction, X-ray crystal structure
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In
+    <em>
+     Escherichia coli
+    </em>
+    , DNA replication is initiated at a single locus,
+    <em>
+     oriC
+    </em>
+    , at which two divergent replication forks are generated (
+    <xref ref-type="bibr">
+     Johnson and O'Donnell, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     van Oijen and Loparo, 2010
+    </xref>
+    ). Multiprotein complexes called replisomes assemble on each fork to carry out replication (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). Within this complex, the genome is unwound to produce single-stranded DNA (ssDNA) templates used by the DNA polymerase III holoenzyme (Pol III HE) for DNA synthesis. Due to the anti-parallel structure of duplex DNA and the unidirectional activity of DNA polymerases, DNA replication is semi-discontinuous—one DNA strand (leading) is replicated continuously whereas the other strand (lagging) is synthesized discontinuously as Okazaki fragments, each of which requires a separate priming and DNA polymerase loading event. An important consequence of this arrangement is that the lagging-strand template is transiently exposed during replication as an extended loop of ssDNA that can be several thousand bases in length (
+    <xref ref-type="bibr">
+     Alberts et al, 1983
+    </xref>
+    ).
+   </p>
+   <fig id="f1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      Structure of the
+      <em>
+       E. coli
+      </em>
+      χ/ψ/SSB-Ct complex. (
+      <strong>
+       A
+      </strong>
+      ) Model of the
+      <em>
+       E. coli
+      </em>
+      replisome. SSB tetramers are depicted as light blue spheres; SSB-Ct elements (thin black lines) are omitted from all but one tetramer for clarity. (Inset) Close-up of the lagging-strand/replisome interface; SSB-Ct elements from one SSB tetramer are illustrated with the sequence of the χ-bound tail provided. (
+      <strong>
+       B
+      </strong>
+      ) Ribbon diagram of the crystal structure of
+      <em>
+       E. coli
+      </em>
+      χ/ψ (green/red) in complex with the SSB-Ct peptide (light blue). (
+      <strong>
+       C
+      </strong>
+      ) Ribbon diagram depicting the SSB-binding site on χ. Key residues from χ are labelled and represented as sticks.
+      <em>
+       F
+      </em>
+      <sub>
+       o
+      </sub>
+      −
+      <em>
+       F
+      </em>
+      <sub>
+       c
+      </sub>
+      omit electron density for the SSB-Ct is shown. (
+      <strong>
+       D
+      </strong>
+      ,
+      <strong>
+       E
+      </strong>
+      ) Surface representations of the χ/SSB interface depicting χ electrostatics (
+      <strong>
+       D
+      </strong>
+      , electropositive (blue) and electronegative (red)) or evolutionary conservation (
+      <strong>
+       E
+      </strong>
+      , invariant (red) and highly conserved (salmon) residues shared among 50 identifiable χ homologues).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    To prevent formation of inhibitory secondary structures in the exposed lagging-strand DNA during replication, tetrameric ssDNA-binding proteins (SSBs) coat the ssDNA template. As such, SSB/ssDNA nucleoprotein complexes are the
+    <em>
+     bona fide
+    </em>
+    substrates used in lagging-strand DNA synthesis. To engage this substrate, the
+    <em>
+     E. coli
+    </em>
+    Pol III HE binds directly to SSB forming an interface that has been proposed to be important for stabilization of the replication machinery and for facilitating Okazaki fragment replication initiation (
+    <xref ref-type="bibr">
+     Wu et al, 1992b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Glover and McHenry, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yuzhakov et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Downey and McHenry, 2010
+    </xref>
+    ). Interactions between SSBs and the replication machinery have been found in eukaryotes as well (
+    <xref ref-type="bibr">
+     Oakley and Patrick, 2010
+    </xref>
+    ), suggesting that such interfaces are broadly utilized in cellular DNA replication pathways.
+   </p>
+   <p>
+    The
+    <em>
+     E. coli
+    </em>
+    Pol III HE is composed of two DNA polymerases (α, ɛ and θ subunits), one processivity clamp (β
+    <sub>
+     2
+    </sub>
+    ) for each polymerase and a central complex called the DnaX or γ complex ((τ/γ)
+    <sub>
+     3
+    </sub>
+    , δ, δ′, χ and ψ subunits). DnaX catalyses loading of β
+    <sub>
+     2
+    </sub>
+    onto DNA and integrates replisome function through protein–protein interactions (
+    <xref ref-type="bibr">
+     Johnson and O'Donnell, 2005
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). Each DNA polymerase interacts with β
+    <sub>
+     2
+    </sub>
+    to achieve the processivity necessary for extended DNA synthesis during genome replication (
+    <xref ref-type="bibr">
+     Stukenberg et al, 1991
+    </xref>
+    ). This arrangement necessitates β
+    <sub>
+     2
+    </sub>
+    loading during initiation of the leading strand and at the start of each new Okazaki fragment. The ATP-dependent β
+    <sub>
+     2
+    </sub>
+    loading reaction is driven by (τ/γ)
+    <sub>
+     3
+    </sub>
+    /δ/δ′ from the DnaX complex (
+    <xref ref-type="bibr">
+     Bloom, 2006
+    </xref>
+    ); the χ/ψ subcomplex stimulates this function (
+    <xref ref-type="bibr">
+     Olson et al, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Simonetta et al, 2009
+    </xref>
+    ). The χ subunit interacts directly with SSB, forming an interface that has multiple proposed functions (
+    <xref ref-type="bibr">
+     Wu et al, 1992b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Glover and McHenry, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yuzhakov et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Downey and McHenry, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    One model for the function of the χ/SSB interaction is an architectural/stabilization role in which χ/ψ links the clamp loader machinery to the lagging strand through direct physical interactions (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). In this arrangement, ψ binds to the τ/γ subunits in the (τ/γ)
+    <sub>
+     3
+    </sub>
+    /δ/δ′ subcomplex while χ binds to SSB associated with the lagging-strand template DNA (
+    <xref ref-type="bibr">
+     Glover and McHenry, 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Simonetta et al, 2009
+    </xref>
+    ). Previous studies have mapped the ψ-binding sites on τ/γ, showing that ψ binding augments the stability of the DnaX complex and stimulates its activity (
+    <xref ref-type="bibr">
+     Olson et al, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Simonetta et al, 2009
+    </xref>
+    ). χ appears to stimulate DnaX complex activities
+    <em>
+     in vitro
+    </em>
+    only when SSB is present, forming a χ/SSB complex that could position the lagging-strand template for clamp loading (
+    <xref ref-type="bibr">
+     Glover and McHenry, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ). In this function, χ binds to SSB's conserved C-terminus (SSB-Ct, –Asp–Asp–Asp–Ile–Pro–Phe in
+    <em>
+     E. coli
+    </em>
+    SSB) (
+    <xref ref-type="bibr">
+     Glover and McHenry, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yuan and McHenry, 2009
+    </xref>
+    ). An
+    <em>
+     E. coli
+    </em>
+    SSB variant in which the SSB-Ct Pro is changed to Ser (SSB113) has a temperature- and salt-dependent interaction with χ and destabilizes the replisome
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ). In addition, DNA replication in
+    <em>
+     E. coli ssb113
+    </em>
+    cells is temperature dependent (
+    <xref ref-type="bibr">
+     Greenberg and Donch, 1974
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Meyer et al, 1979
+    </xref>
+    ), suggesting that the χ/SSB interaction is important for replication
+    <em>
+     in vivo
+    </em>
+    . However, since the SSB-Ct acts as a docking site for more than a dozen genome maintenance proteins in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Shereda et al, 2008
+    </xref>
+    ), the
+    <em>
+     ssb113
+    </em>
+    phenotype could be the result of multiple lost interactions rather than unique disruption of the χ/SSB complex. The χ encoding
+    <em>
+     holC
+    </em>
+    gene is not essential in
+    <em>
+     E. coli
+    </em>
+    , but
+    <em>
+     holC
+    </em>
+    mutants have temperature-sensitive viability and have higher rates of deletions in repetitive genomic sequences (
+    <xref ref-type="bibr">
+     Kelman and O'Donnell, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Saveson and Lovett, 1997
+    </xref>
+    ), consistent with its proposed role in replisome stability. Genetic interactions between χ/ψ and genes involved in DNA replication initiation (
+    <xref ref-type="bibr">
+     Nordman et al, 2007
+    </xref>
+    ), recombinational repair (
+    <xref ref-type="bibr">
+     Kelman and O'Donnell, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Flores et al, 2001
+    </xref>
+    ), DNA replication restart and SOS (
+    <xref ref-type="bibr">
+     Flores et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Viguera et al, 2003
+    </xref>
+    ) pathways suggest that the χ/ψ subcomplex may have functions outside of the elongation phase of DNA replication.
+   </p>
+   <p>
+    A second model for χ/ψ subcomplex function implicates the χ/SSB interaction as a step in the initiation of Okazaki fragment synthesis (
+    <xref ref-type="bibr">
+     Yuzhakov et al, 1999
+    </xref>
+    ). This model arises from
+    <em>
+     in vitro
+    </em>
+    observations in which lagging-strand replication is blocked when χ is excluded from the Pol III HE or when SSB113 is substituted for SSB. Under either condition, primase binds stably to the primer/template and β
+    <sub>
+     2
+    </sub>
+    loading is disallowed. This behaviour is explained by invoking a hand-off mechanism in which χ destabilizes the primase/primer/template/SSB complex by competing with primase for binding to SSB (
+    <xref ref-type="bibr">
+     Yuzhakov et al, 1999
+    </xref>
+    ). In this model, as primase is released from the primer/template, β
+    <sub>
+     2
+    </sub>
+    and DNA polymerase are loaded onto the primed lagging strand. It is unclear, however, whether this model illustrates a required mechanism for lagging-strand polymerase loading, given the viability of
+    <em>
+     holC
+    </em>
+    -mutant
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Kelman and O'Donnell, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Saveson and Lovett, 1997
+    </xref>
+    ). Moreover, since ψ activity is affected by the absence of χ (
+    <xref ref-type="bibr">
+     Kelman et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yuan and McHenry, 2009
+    </xref>
+    ), indirect effects stemming from χ-deficient replication are possible. Structural information on the χ/SSB interface would foster directed studies that define the function of the interaction in replication.
+   </p>
+   <p>
+    In this paper, structural, biochemical and genetic studies are combined to define the roles of the χ/SSB interface in DNA replication. The X-ray crystal structure of the
+    <em>
+     E. coli
+    </em>
+    χ/ψ subcomplex bound to a peptide comprising a portion of the SSB-Ct identifies the SSB-binding site on χ. Based on the structure, χ variants with impaired SSB binding were created and tested for function. In contrast to the proposed essential role of the χ/SSB complex in handing off primers to the lagging-strand DNA polymerase, χ variants with destabilized SSB interactions
+    <em>
+     in vitro
+    </em>
+    support lagging-strand DNA synthesis in reconstituted
+    <em>
+     in vitro
+    </em>
+    replication assays. There are, however, three pronounced replication defects associated with the variants in elevated salt concentrations: leading- and lagging-strand replication is uncoupled, leading-strand polymerase primer engagement is blocked and Okazaki fragments are shorter compared with wild-type (wt) Pol III HE. These findings are consistent with a role of χ/SSB complex formation in replisome stability and point to an unexpected function for the complex in establishing and maintaining coupled leading- and lagging-strand DNA replication.
+    <em>
+     E. coli
+    </em>
+    with SSB-binding-deficient
+    <em>
+     holC
+    </em>
+    mutations display temperature-sensitive growth, cell filamentation, chromosome partition defects and SOS induction, which are consistent with significantly destabilized replication processes. Together, these studies define major roles for the χ/SSB interface in stabilizing the replisome and in coupling leading- and lagging-strand DNA synthesis at replication forks.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     X-ray crystal structure of the
+     <em>
+      χ
+     </em>
+     /
+     <em>
+      ψ
+     </em>
+     /SSB-Ct ternary complex
+    </title>
+    <p>
+     Investigations into the role of the χ/SSB complex in DNA replication have been limited by a lack of structural data defining the molecular basis of the interaction. A crystallographic effort was therefore undertaken to determine the structure of the
+     <em>
+      E. coli
+     </em>
+     χ/ψ/SSB-Ct ternary complex. Crystallization attempts with
+     <em>
+      E. coli
+     </em>
+     χ/ψ bound to a peptide that includes the entire conserved SSB-Ct failed to produce crystals. However, crystals of χ/ψ bound to a shortened SSB-Ct peptide comprising the C-terminal-most four residues of
+     <em>
+      E. coli
+     </em>
+     SSB (with an N-terminal Trp residue added for quantification) formed readily and its structure was determined to 1.85-Å resolution (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+     <em>
+      F
+     </em>
+     <sub>
+      o
+     </sub>
+     −
+     <em>
+      F
+     </em>
+     <sub>
+      c
+     </sub>
+     electron density maps revealed the position of a single SSB-Ct peptide associated with the χ surface (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Diffraction data and crystal structure solution
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The SSB-Ct-binding surface on χ is composed of conserved hydrophobic and charged residues (
+     <xref ref-type="fig">
+      Figure 1D and E
+     </xref>
+     ). F177, the C-terminal-most SSB-Ct residue, appears to serve as an anchor in the interaction. Its side chain is bound in a hydrophobic pocket on χ while its α-carboxyl group forms ionic bonds with the R128 side chain from χ (
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ). The more N-terminal residues on the SSB-Ct peptide are adjacent to a pair of basic residues in χ (K132 and R135), which could be important for ionic interactions with full-length SSB. A similar binding arrangement involving a hydrophobic pocket and ionic interactions has been observed in a complex formed between
+     <em>
+      E. coli
+     </em>
+     Exonuclease I and the SSB-Ct and has been proposed for
+     <em>
+      E. coli
+     </em>
+     RecQ (
+     <xref ref-type="bibr">
+      Lu and Keck, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shereda et al, 2009
+     </xref>
+     ). Residues that form the SSB-binding site on
+     <em>
+      E. coli
+     </em>
+     χ are well conserved among the α-, β- and γ-proteobacteria (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ), suggesting that the interaction scheme described in the structure is utilized in other bacterial species.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The
+     <em>
+      χ
+     </em>
+     /SSB interface is critical for association in vitro
+    </title>
+    <p>
+     χ variant proteins in which residues with apparent roles in SSB-Ct binding were substituted with alanine were purified and tested in SSB-binding experiments. Each of the χ variants (R128A, K132A and R135A) retained the ability to bind ψ in size-exclusion chromatographic experiments, indicating that overall folding was not dramatically altered by the sequence changes.
+    </p>
+    <p>
+     Changes in χ/ψ variant binding to SSB were measured using isothermal titration calorimetry. In these experiments, heat generated by SSB binding to χ/ψ was fitted using a single-site model to determine the stability and stoichiometry of the interaction. At 25°C, SSB binds χ/ψ in an ∼1:1 (SSB monomer:χ/ψ heterodimer) complex with an apparent dissociation constant (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) of 8.9±0.7 μM (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ); since SSB is a tetramer, this means that 4 χ/ψ heterodimers can bind to each tetramer. These results are consistent with a previous calorimetry experiment performed under slightly different solution conditions (6.4 μM
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     and 1:1 χ:SSB monomer stoichiometry (
+     <xref ref-type="bibr">
+      Kozlov et al, 2010b
+     </xref>
+     )). In contrast, R128A χ/ψ failed to bind SSB (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). K132A and R135A χ/ψ variants retained the ability to bind SSB but with reduced affinities (23.3±2.3 and 20.9±1.7 μM
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     , respectively). These results match the structural model well; R128 is critical for binding SSB
+     <em>
+      in vitro
+     </em>
+     whereas K132 and R135 play more minor roles. Similar results were also observed in a qualitative co-precipitation experiment (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). These results are consistent with those from a recent study that predicted the SSB-binding site on χ (
+     <xref ref-type="bibr">
+      Naue et al, 2011
+     </xref>
+     ). The binding affinities of wt and variant χ/ψ complexes to SSB were essentially temperature independent between 25 and 40°C (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). In contrast, wt χ/ψ binding to SSB113 (an SSB variant with the penultimate proline substituted for serine) was temperature dependent as observed previously (
+     <xref ref-type="bibr">
+      Yuzhakov et al, 1999
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Identification of χ variants with compromised SSB binding. (
+       <strong>
+        A
+       </strong>
+       ) Calorimetric analysis of the χ/ψ/SSB interaction for wt χ/ψ (left) and R128A χ/ψ (right). Heats evolved from titration of SSB into χ/ψ solutions are shown in the top panels; derived binding isotherms are shown in the bottom panels. (
+       <strong>
+        B
+       </strong>
+       ) Summary of calorimetry experiments. A single-site model was used to fit the data. ‘
+       <em>
+        N
+       </em>
+       ' is the number of SSB monomer sites per χ/ψ subcomplex; ‘ND' denotes when no binding was detected. Since SSB is a tetramer, 4 χ/ψ subcomplexes bind to each SSB tetramer when
+       <em>
+        N
+       </em>
+       =1.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      χ
+     </em>
+     variants with SSB-binding deficiencies affect DNA replication in vitro
+    </title>
+    <p>
+     To measure the impact of destabilizing the χ/SSB interface on DNA replication,
+     <em>
+      E. coli
+     </em>
+     Pol III HE complexes were reconstituted by combining Pol III HE lacking β
+     <sub>
+      2
+     </sub>
+     (referred to as Pol III
+     <sup>
+      *
+     </sup>
+     ;
+     <xref ref-type="bibr">
+      Wickner et al, 1973
+     </xref>
+     ) that included either wt χ (wt Pol III
+     <sup>
+      *
+     </sup>
+     ), R128A variant χ (R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     ) or R128E/K132E double charge-reversal variant χ (R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     ) with β
+     <sub>
+      2
+     </sub>
+     . R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     was included to test a more dramatically destabilized χ variant than the R128A χ protein, which may have some residual affinity for SSB in the context of the actively replicating replisome. Interestingly, SSB co-purified with wt Pol III
+     <sup>
+      *
+     </sup>
+     , but failed to co-purify with R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     or R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ), confirming the identification of the SSB-binding site on χ. The specific primer extension activities of the three Pol III
+     <sup>
+      *
+     </sup>
+     preparations were nearly identical (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ), indicating that each was functional.
+    </p>
+    <p>
+     Based on the proposed role of χ in mediating the handoff of primers to the lagging-strand DNA polymerase (
+     <xref ref-type="bibr">
+      Yuzhakov et al, 1999
+     </xref>
+     ), one prediction is that lagging-strand replication would be severely impaired or, perhaps, non-existent with R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     or R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     . Rolling-circle DNA replication assays using a 7-kbp tailed form II (TFII) DNA template (
+     <xref ref-type="bibr">
+      Xu and Marians, 2000
+     </xref>
+     ) were used to test this prediction. In these assays, replisomes formed on the TFII DNA produce long leading-strand products and populations of shorter Okazaki fragments (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Okazaki fragment size is set by the frequency of primer synthesis by primase (DnaG) and the efficiency with which these primers are used to initiate lagging-strand synthesis. Therefore, fragment size is inversely related to the concentration of DnaG in the reaction mixture (
+     <xref ref-type="bibr">
+      Zechner et al, 1992
+     </xref>
+     ). In contrast to the predicted effect of the χ sequence change on lagging-strand DNA synthesis, all three Pol III
+     <sup>
+      *
+     </sup>
+     preparations supported leading- and lagging-strand DNA replication on these substrates and produced Okazaki fragments of roughly the same sizes (
+     <xref ref-type="fig">
+      Figure 3B–D
+     </xref>
+     ). Some reduction in leading-strand DNA synthesis was observed with R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3B and D
+     </xref>
+     ), but the complex was clearly active under the conditions tested.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Conditional rolling-circle DNA replication by R128A and R128E/K132E χ Pol III HE. Rolling-circle DNA replication reactions (schematically outlined in (
+       <strong>
+        A
+       </strong>
+       )) were catalysed by wt, R128A χ or R128E/K132E Pol III HE in the absence of added salt (
+       <strong>
+        B
+       </strong>
+       –
+       <strong>
+        D
+       </strong>
+       ) or with 70 mM KCl added (
+       <strong>
+        E
+       </strong>
+       –
+       <strong>
+        G
+       </strong>
+       ). Primase (DnaG) was titrated in separate reactions from 0 to 1890 nM. (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        E
+       </strong>
+       ) Alkaline agarose gel electrophoretic analysis of the replication products. Template (temp) that becomes labelled in the reaction but does not support rolling-circle replication is indicated, as are leading-strand (lead) and lagging-strand (lag) DNA products. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        F
+       </strong>
+       ) Average Okazaki fragment size as a function of primase concentration. (
+       <strong>
+        D
+       </strong>
+       ,
+       <strong>
+        G
+       </strong>
+       ) Total DNA synthesis as a function of primase concentration. Equal amounts of radioactivity were applied in each lane of the gels shown in (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        E
+       </strong>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The proposed function of the χ/SSB interaction in stabilizing the replisome (
+     <xref ref-type="bibr">
+      Glover and McHenry, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kelman et al, 1998
+     </xref>
+     ) was tested by carrying out rolling-circle DNA replication assays at a moderately elevated salt concentration (70 mM KCl) (
+     <xref ref-type="fig">
+      Figure 3E–G
+     </xref>
+     ). Under these conditions, both R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     and R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     were less active than wt Pol III
+     <sup>
+      *
+     </sup>
+     in DNA synthesis (
+     <xref ref-type="fig">
+      Figure 3G
+     </xref>
+     ). Surprisingly, the most dramatic effect was a reduction in the abundance of leading-strand products (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). A more subtle effect on lagging-strand synthesis was also observed in which χ-variant-supported DNA replication generated shorter Okazaki fragments than wt Pol III
+     <sup>
+      *
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3E and F
+     </xref>
+     ). The salt sensitivity of R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     and R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     strongly supports a role for the χ/SSB interaction in replisome stability. In general, the observed replication defects are more pronounced in assays using R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     than R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     , consistent with the idea that the R128A χ may have some residual affinity for SSB within the replisome that is further destabilized in the double charge-reversal R128E/K132E χ variant.
+    </p>
+    <p>
+     The impaired activities of R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     and R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     point to a previously unidentified function for the χ/SSB interaction in stabilizing leading-strand polymerase/primer/template complexes. The novel role was confirmed in a second assay in which
+     <em>
+      oriC
+     </em>
+     -dependent plasmid replication was measured
+     <em>
+      in vitro
+     </em>
+     (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). As with rolling-circle replication, leading-strand synthesis by R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     and R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     is impaired relative to wt Pol III
+     <sup>
+      *
+     </sup>
+     in a salt-dependent manner. Therefore, in two independent
+     <em>
+      in vitro
+     </em>
+     assays, the χ/SSB interaction appears to be important for replisome stability and the consequence of destabilizing the interface is impaired leading-strand DNA synthesis. When the resplisome is reconstituted in the absence of χ or χ/ψ, the protein complex also exhibits salt-sensitive replication (
+     <xref ref-type="bibr">
+      Glover and McHenry, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kelman et al, 1998
+     </xref>
+     ), consistent with the observations reported here.
+    </p>
+    <p>
+     The activities of R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     and R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     appeared to be most diminished at low primase concentrations (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). Earlier observations of leading-strand priming by primase (
+     <xref ref-type="bibr">
+      Heller and Marians, 2006
+     </xref>
+     ) led to the postulation that interactions between primase and the replication machinery could help stabilize leading-strand polymerase/primer/template binding. Under primase-deficient conditions with moderate-salt, rolling-circle replication by R128A χ Pol III
+     <sup>
+      *
+     </sup>
+     and R128E/K132E χ Pol III
+     <sup>
+      *
+     </sup>
+     is greatly diminished (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ), reinforcing the notion that the χ/SSB interaction is needed for replisome integrity. However, high concentrations of primase appeared to stabilize leading-strand DNA synthesis in moderate salt, possibly because primase/DnaB interactions stabilize binding of the leading-strand DNA polymerase to the replication machinery.
+    </p>
+    <p>
+     The appearance of Okazaki fragments without concomitant leading-strand synthesis implies that the leading-strand polymerase has either disengaged from the 3′-OH of the nascent leading strand or become non-processive under the modest-salt conditions with the R128A and R128E/K132E χ variants. However, concerted unwinding of the duplex template with priming and synthesis of the lagging strand still occurs. The possibility that uncoupled unwinding of the template could be followed by a general priming-type reaction on the resulting ssDNA is unlikely because SSB, whose presence blocks general priming (
+     <xref ref-type="bibr">
+      Arai and Kornberg, 1979
+     </xref>
+     ), would coat the ssDNA thereby preventing DNA synthesis. Whereas it is possible that DnaC810 (a DnaC protein variant that loads/reloads DnaB in the absence of DnaA and an origin of replication that are normally required for replication initiation) used in the rolling-circle replication assay could overcome the inhibitory effect of SSB (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ), this cannot happen in the
+     <em>
+      oriC
+     </em>
+     reaction where wt DnaC is present (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). We therefore conclude that within the context of a replisome, the χ/SSB interaction is essential for sustained leading-strand synthesis under conditions of moderate-salt concentrations.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Destabilizing the
+     <em>
+      χ
+     </em>
+     /SSB interface results in temperature-dependent cellular effects
+    </title>
+    <p>
+     To test the consequences of destabilizing the χ/SSB interaction
+     <em>
+      in vivo
+     </em>
+     ,
+     <em>
+      E. coli
+     </em>
+     strains in which the χ structural gene (
+     <em>
+      holC
+     </em>
+     ) was mutated to encode R128A, K132A or R135A χ variant proteins (AHM102, AHM103 or AHM104, respectively) were constructed along with an isogenic wt χ strain (AHM101). A second set of charge-reversal mutations was made to
+     <em>
+      holC
+     </em>
+     since the effects of charge reversal on DNA replication
+     <em>
+      in vitro
+     </em>
+     were somewhat more dramatic than charge neutralization (R128E χ (AHM105), K132E χ (AHM106) and R128E/K132E χ (AHM107)). As a first test, strain viability was measured by plating serial dilutions of saturated cultures on rich (Luria Broth) or minimal (MOPS) agar and incubating at several temperatures (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). Surprisingly, each of the
+     <em>
+      holC E. coli
+     </em>
+     strains encoding an Ala-substituted χ protein, including R128A χ, grew nearly as well as the isogenic wt strain. One possible explanation was the R128A sequence change is insufficient to block χ binding to SSB
+     <em>
+      in vivo
+     </em>
+     . Consistent with this model,
+     <em>
+      holC E. coli
+     </em>
+     strains encoding Glu-substituted χ proteins, which should repulse SSB more strongly than the Ala-substituted variants, manifested measurable defects. AHM107 growth was strongly impaired, with significantly smaller and/or fewer colonies formed at nearly all temperatures tested in either rich or minimal media (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). Consistent, but more modest, effects were also observed with AHM105. To ensure that the effects observed with AHM107 were not due to misfolding of the R128E/K132E χ variant, the protein was purified and tested for proper folding. The R128E/K132E χ variant maintains the ability to form a complex with ψ and is degraded in limited proteolysis experiments at the same rate as wt χ (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ), indicating that it is properly folded. Additionally, the defects in AHM107 could be complemented by transformation with a plasmid encoding wt
+     <em>
+      holC
+     </em>
+     (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ), indicating that the phenotype was not due to unanticipated problems in the strain outside of the R128E/K132E χ sequence change.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Growth and DNA replication in
+       <em>
+        E. coli holC
+       </em>
+       -mutant strains. (
+       <strong>
+        A
+       </strong>
+       ) Saturated cultures of
+       <em>
+        E. coli holC
+       </em>
+       strains spot plated on minimal media were incubated at 30 or 37°C for 48 or 24 h, respectively. (
+       <strong>
+        B
+       </strong>
+       ) Strains were diluted from a saturated culture and grown in minimal media at 30°C (top) or 37°C (bottom) and the number of colony forming units (c.f.u.) per ml of culture were counted over time. Error bars represent 1 s.d. from the mean. (
+       <strong>
+        C
+       </strong>
+       ) Relative incorporation of [
+       <sup>
+        3
+       </sup>
+       H]-thymidine by strains (each at OD
+       <sub>
+        600
+       </sub>
+       =0.3) in minimal media at either 30 or 37°C. The cells were grown in MOPS minimal medium to OD
+       <sub>
+        600
+       </sub>
+       ∼0.3; individual aliquots of culture were removed at the time indicated and incubated with a labelling solution containing [
+       <sup>
+        3
+       </sup>
+       H]-thymidine. The [
+       <sup>
+        3
+       </sup>
+       H]-thymidine incorporation was stopped after 2 min and the counts per minute (c.p.m.) were measured in a scintillation counter. The c.p.m. were normalized based on the amount of incorporation in the wt
+       <em>
+        holC
+       </em>
+       strain at each temperature. Error bars represent 1 s.d. from the mean.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To examine how sequence changes in χ alter cellular function, the growth kinetics of AHM102 (R128A χ), AHM105 (R128E χ), AHM107 (R128E/K132E χ) and AHM101 (isogenic wt χ control), were measured at 30 and 37°C (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S7
+     </a>
+     ). At 30°C, AHM102 and AHM105 growth curves were indistinguishable from AHM101. AHM107 grew with a 1.4-fold slower generation time relative to the control strain. In contrast, at 37°C, severe differences between AHM107 and the control strain became apparent. Unlike the wt cells, which had a brief lag phase, AHM107 took nearly 15 h to transition to log phase. At either temperature, once AHM107 cultures reached log phase the generation time was 1.4-fold lower than the control strain. Thus, the majority of the temperature dependence of the AHM107 growth characteristics arises from an extended lag phase. One possibility was that the
+     <em>
+      holC
+     </em>
+     mutation in AHM107 entirely blocks growth at 37°C and that a suppressor mutation must be generated to allow entrance into log phase. This possibility was excluded by re-diluting a culture of AHM107 cells that had been grown for 31 h at 37°C into fresh media and examining the culture's growth kinetics. The culture had the same extended lag phase as AHM107 cells, indicating that heritable generic suppressors were not responsible for its eventual transition to log phase.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Destabilization of the
+     <em>
+      χ
+     </em>
+     /SSB interface modestly affects DNA replication rates in E. coli
+    </title>
+    <p>
+     To test the effects of the χ mutants on DNA replication directly,
+     <em>
+      in vivo
+     </em>
+     DNA replication rates were measured in early log phase
+     <em>
+      E. coli holC
+     </em>
+     -mutant cultures using a [
+     <sup>
+      3
+     </sup>
+     H]-thymidine incorporation assay. AHM101 incorporation rates were ∼2-fold higher than AHM107 at both 30 and 37°C, consistent with reduced replication activity in the AHM107 χ variant (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). This result parallels the 1.4-fold longer doubling time observed for AHM107 in log phase relative to the control strain (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). A more modest defect was observed with AHM105 whereas AHM102 was indistinguishable from AHM101.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     SOS induction and partitioning defects in holC-mutant strains
+    </title>
+    <p>
+     Many temperature-sensitive DNA replication mutants show increased levels of SOS induction and filamentation (
+     <xref ref-type="bibr">
+      Saveson and Lovett, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Viguera et al, 2003
+     </xref>
+     ). Defects in DNA replication may also lead to aberrant nucleoid structures and/or chromosome partitioning problems. To determine if
+     <em>
+      holC
+     </em>
+     mutations imparted increased SOS induction and defects in nucleoid structure and/or partitioning, their effects were assessed in an
+     <em>
+      E. coli
+     </em>
+     strain containing a
+     <em>
+      psulA-gfp
+     </em>
+     transcriptional fusion at the λ attachment site (
+     <xref ref-type="bibr">
+      McCool and Sandler, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      McCool et al, 2004
+     </xref>
+     ) and a
+     <em>
+      hupA∷mcherry
+     </em>
+     translational fusion. In these strains,
+     <em>
+      psulA-gfp
+     </em>
+     expression is dependent upon SOS induction while
+     <em>
+      hupA∷mcherry
+     </em>
+     expresses a mCherry-tagged version of the histone-like HU-2 protein to label genomic DNA. The strains were grown to mid-log phase in minimal media at 30, 37 or 42°C; cell morphology,
+     <em>
+      psulA-gfp
+     </em>
+     expression (SOS induction) and mCherry staining (nucleoid structure) were then measured. Representative images are shown in
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     , with quantitative data from many images provided in
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     . Cells encoding R128E/K132E χ exhibited temperature-dependent SOS induction and cell filamentation: at 30°C, SOS was induced in 2.9% of cells and 1.0% of cells were filamentous, whereas at 37 and 42°C, SOS levels increased (6.5 and 17.3%, respectively) as did filamentation (4.0 and 6.0%, respectively). The same cells also displayed apparent chromosome partitioning defects as evidenced by the diffuse nucleoid structure observed in filamented cells. The observed partition defect was dependent on RecA, as deletion of
+     <em>
+      recA
+     </em>
+     produced cells with more distinct nucleoids (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ). This type of behaviour has been seen previously with the Par
+     <sup>
+      −
+     </sup>
+     phenotype of
+     <em>
+      priA
+     </em>
+     mutants (
+     <xref ref-type="bibr">
+      McCool and Sandler, 2001
+     </xref>
+     ).
+     <em>
+      E. coli
+     </em>
+     cells encoding the single-site variant R128E χ also exhibited temperature-dependent induction of SOS and cell filamentation, although the levels were reduced relative to the R128E/K132E χ double mutant (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). In contrast, the isogenic wt
+     <em>
+      holC
+     </em>
+     , R128A and K132E strains were all indistinguishable from each other, with no measurable increase in SOS or filamentation over the conditions tested. These results, in conjunction with the growth defects noted earlier, indicate that the interaction between χ and SSB is important for proper and efficient genome replication.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Filamentation and SOS induction in
+       <em>
+        E. coli holC
+       </em>
+       -mutant strains. (
+       <strong>
+        A
+       </strong>
+       ) Cells were grown at 30 or 37°C as indicated in MOPS minimal medium. Fields of cells were imaged to show cell morphology (phase contrast), nucleoid structure (
+       <em>
+        hupA∷mcherry
+       </em>
+       ) or SOS induction (
+       <em>
+        sulAp∷gfp
+       </em>
+       ). Bright green spots are beads used for quantification. (Inset) Close-up images of cells. (
+       <strong>
+        B
+       </strong>
+       ) Close-up of
+       <em>
+        hupA∷mcherry
+       </em>
+       of the strains indicated grown at 37°C.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Temperature-dependent cellular effects of
+         <em>
+          holC
+         </em>
+         mutations in
+         <em>
+          E. col
+         </em>
+         <em>
+          i
+         </em>
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The interaction between SSB and the cellular DNA replication machinery has been proposed to be important for replisome stability and for delivery of primers to the lagging-strand DNA polymerase throughout replication. These models have been tested using a combination of structural, biochemical and genetic experiments. The crystal structure of an SSB-Ct peptide bound to the χ/ψ replisomal subcomplex from
+    <em>
+     E. coli
+    </em>
+    was determined, allowing χ variant proteins with destabilized SSB-binding sites to be created. In contrast to its proposed role in primer delivery, reconstituted Pol III HE that included χ variants with destabilized SSB-binding sites supported robust lagging-strand DNA synthesis
+    <em>
+     in vitro
+    </em>
+    . However, effects that were consistent with conditional destabilization of the replisome were observed with the variant Pol III HEs in modest-salt conditions. These included uncoupled leading- and lagging-strand replication, obstruction of primer engagement by the leading-strand polymerase, and a reduction in the lengths of Okazaki fragments. In parallel with these observations, destabilization of the χ/SSB complex
+    <em>
+     in vivo
+    </em>
+    produces cells with temperature-dependent SOS induction and cell filamentation along with growth and chromosome partitioning defects that are consistent with replisome instability and aberrant replication. These findings define a role for the χ/SSB complex formation in replisome stability and point to its unexpected importance in establishing and maintaining coupled leading- and lagging-strand DNA replication.
+   </p>
+   <sec>
+    <title>
+     Role of the
+     <em>
+      χ
+     </em>
+     /SSB interaction in DNA replication complexes
+    </title>
+    <p>
+     Previous experiments examining the role of the χ/SSB interface have been limited to studies in which χ or χ/ψ are omitted, or where SSB variant proteins with altered SSB-Ct sequences were used (
+     <xref ref-type="bibr">
+      Saveson and Lovett, 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yuzhakov et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yuan and McHenry, 2009
+     </xref>
+     ). Each of these approaches has limitations that arise from the multifunctional nature of the protein complexes involved. For example, omission of χ not only eliminates the interaction between the DnaX complex and SSB but it also has effects on ψ, which has limited solubility in the absence of χ (
+     <xref ref-type="bibr">
+      Xiao et al, 1993
+     </xref>
+     ). Moreover, alteration of the SSB-Ct has effects on its interactions both with other proteins and with ssDNA (
+     <xref ref-type="bibr">
+      Downey and McHenry, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kozlov et al, 2010a
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2010b
+     </xref>
+     ). These complications led us to take a structural approach to identify the SSB-Ct-binding site on χ, which showed that χ relies on an electrostatic surface for interaction with SSB that is similar to sites found in other SSB-interacting proteins (
+     <xref ref-type="bibr">
+      Lu and Keck, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shereda et al, 2009
+     </xref>
+     ). This information was used in subsequent biochemical and genetic experiments to test the effects of χ variants that can no longer bind SSB, but that retain the ability to form a complex with ψ.
+    </p>
+    <p>
+     Several biochemical and cellular defects were associated with sequence changes in χ that destabilized its interaction with SSB. These effects cumulatively point to a role for the χ/SSB interaction in stabilizing the DNA replication machinery in
+     <em>
+      E. coli.
+     </em>
+     One unexpected effect was the particularly strong impact of χ/SSB complex destabilization on leading-strand replication. In both rolling-circle and
+     <em>
+      oriC-
+     </em>
+     dependent replication, extension of the leading strand by DNA polymerase was notably impaired under moderately elevated salt conditions when the χ/SSB interface was weakened (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). This effect may be related to a previous observation in which SSB bound to the lagging-strand template stimulates strand displacement by DNA polymerase on the leading strand; this action is due to a network of interactions important for leading-strand polymerase processivity (
+     <xref ref-type="bibr">
+      Yuan and McHenry, 2009
+     </xref>
+     ). Our results suggest that under modestly stringent conditions (elevated salt concentrations
+     <em>
+      in vitro
+     </em>
+     or high temperature
+     <em>
+      in vivo
+     </em>
+     ), a similar network may be important for leading-strand replication in the context of the full replisome. The protein interactions in this arrangement could stabilize the replication machinery through both favourable thermodynamic interactions in the complex and architectural effects on the replication fork structure. Overall, this scheme would help coordinate the activities of the replisome on the leading strand and lagging strand.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cellular importance of the
+     <em>
+      χ
+     </em>
+     /SSB interaction
+    </title>
+    <p>
+     Mutations in
+     <em>
+      E. coli holC
+     </em>
+     that destabilize the χ/SSB interface
+     <em>
+      in vivo
+     </em>
+     had severe temperature-dependent effects on growth rate, induction of SOS and filamentation and chromosomal partitioning that appear to arise from conditionally impaired DNA replication. The growth kinetic defects are largely due to a temperature-dependent extension of the lag phase of cultures—the most impaired
+     <em>
+      holC
+     </em>
+     -mutant strain had a 15-h lag phase (∼7-fold longer than the isogeneic wt strain) but only an ∼2-fold reduction in DNA replication rates once log phase was reached. Several factors could potentially explain the extension of the lag phase. First, the differences could point to a defect in the ability to initiate DNA replication. Replication
+     <em>
+      in vitro
+     </em>
+     under restrictive conditions was characterized by significant uncoupling of the leading- and lagging strands that appeared to be primarily due to blockage of leading-strand primer extension (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). Impacts of the destabilized χ/SSB interaction on leading-strand synthesis were apparent with both pre-primed templates (TFII DNA;
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ) and templates that had to be primed
+     <em>
+      de novo
+     </em>
+     (
+     <em>
+      oriC
+     </em>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). These results highlight the role of the interaction in leading-strand synthesis. A molecular role for the χ/SSB interface in establishment of leading-strand synthesis is consistent with earlier genetic experiments that indicated χ could play an important role in DNA replication initiation (
+     <xref ref-type="bibr">
+      Nordman et al, 2007
+     </xref>
+     ).
+    </p>
+    <p>
+     A second effect, which may contribute to the extended lag phase, stems from the observation that the mutant cells had strongly induced SOS, and cell filamentation and partitioning defects that reflect serious genome structural defects. The replisome, weakened by the loss of the χ/SSB interaction, may copy DNA with significantly less efficiency than wt cells, which could produce damaged chromosomal products that require time to be repaired. Similar DNA-damage-dependent delays in entry to log phase in
+     <em>
+      E. coli
+     </em>
+     have been described as a possible bacterial equivalent of a checkpoint that regulates the eukaryotic cell cycle (
+     <xref ref-type="bibr">
+      Murli et al, 2000
+     </xref>
+     ).
+    </p>
+    <p>
+     Taken together, our observations have defined the structure of the χ/SSB interface and have shown that this molecular contact is critical for replisomal stability and for productive leading-strand DNA synthesis. These studies help define the roles of interaction between the cellular DNA replication machinery and SSB bound to the lagging-strand template. Similar interactions are likely to be important for replication in all organisms.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Bacterial strains and primers
+    </title>
+    <p>
+     Information on bacterial strains and primers used in this study is provided in
+     <a>
+      Supplementary Tables I and II
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein overexpression and purification
+    </title>
+    <sec>
+     <p>
+     </p>
+     <title>
+      <em>
+       E. coli
+      </em>
+      χ/ψ
+     </title>
+     <p>
+      The open-reading frames of
+      <em>
+       holC
+      </em>
+      (encodes χ) and
+      <em>
+       holD
+      </em>
+      (encodes ψ) from
+      <em>
+       E. coli
+      </em>
+      K12 strain MG1655 were PCR amplified and subcloned into either pET15b (creating pET15-χ) or pET28b (creating pET28-ψ) using primers listed in
+      <a>
+       Supplementary Table II
+      </a>
+      . pET15-χ expresses an N-terminal hexahistidine-tagged χ; pET28-ψ encodes untagged ψ with an inserted glycine after the start codon. Site-directed mutations of pET15-χ were generated by the QuikChange scheme (Stratagene). DNA sequencing confirmed the fidelity of the coding region of all plasmids.
+     </p>
+     <p>
+      BL21 DE3 cells transformed with pLysS (Novagen) and pET15-χ (or a pET15-χ derivative plasmid encoding a χ variant) were grown at 37°C in LB medium supplemented with 100 μg/ml ampicillin (Ap) and 25 μg/ml chloramphenicol (Cm). In all, 1 mM isopropyl β-
+      <span>
+       D
+      </span>
+      -thiogalactopyranoside (IPTG) was added to the culture at mid-log phase (OD
+      <sub>
+       600 nm
+      </sub>
+      ∼0.6) and growth was continued for 3 h to induce χ overexpression. Cells were centrifuged, suspended in χ-lysis buffer (50 mM Tris–HCl, pH 8.8, 0.5 M NaCl, 10 mM imidazole, 20% glycerol, 2 mM phenylmethanesulfonyl fluoride (PMSF), 2 mM benzamidine) and lysed by sonication on ice. The lysate was centrifuged and the supernatant was incubated with nickel-sepharose resin (GE Healthcare) equilibrated in lysis buffer for 1 h. The resin was then packed in a column, washed with lysis buffer, and χ was eluted with high imidazole buffer (50 mM Tris–HCl, pH 8.8, 0.5 M NaCl, 300 mM imidazole, 20% glycerol). The eluent was dialysed against 20 mM 2-(
+      <em>
+       N
+      </em>
+      -morpholino)ethanesulfonic acid (MES), pH 6.0, 150 mM NaCl, 10 mM 2-mercaptoethanol, 20% glycerol, diluted 1:1 with low-salt buffer (20 mM MES, pH 6.0, 50 mM NaCl, 10% glycerol), and loaded onto a S-Fastflow ion-exchange column (GE Healthcare) equilibrated in low-salt buffer. χ-Enriched fractions were eluted with a NaCl gradient, pooled, concentrated and dialysed against 10 mM Tris–HCl, pH 8.0, 150 mM NaCl, 10% glycerol. The histidine tag was cleaved by thrombin and χ was dialysed against storage buffer (50% glycerol, 15 mM dithiothreitol (DTT), 500 mM NaCl, 5 mM ethylenediaminetetraacetic acid (EDTA)).
+     </p>
+     <p>
+      <em>
+       E. coli
+      </em>
+      ψ was purified as described previously (
+      <xref ref-type="bibr">
+       Xiao et al, 1993
+      </xref>
+      ), with minor exceptions. BL21 DE3 cells transformed with pLysS and pET28-ψ were grown in LB medium supplemented with 50 μg/ml kanamycin (Km) and 25 μg/ml Cm. IPTG (1 mM) was added to the culture at mid-log phase (OD
+      <sub>
+       600 nm
+      </sub>
+      ∼0.6) and growth was continued for 3 h to induce ψ overexpression. Cells were centrifuged, suspended in ψ-lysis buffer (50 mM Tris–HCl, pH 7.5, 10% sucrose, 10 mM EDTA, 1 mM PMSF) and lysed by sonication on ice. The lysate was clarified by centrifugation and the insoluble fraction was resuspended in low-salt ψ buffer (20 mM Tris–HCl, pH 7.5, 20% glycerol, 0.5 mM EDTA, 2 mM DTT, 10 mM NaCl), sonicated on ice and centrifuged. The pellet was resuspended in high-salt ψ buffer (20 mM Tris–HCl, pH 7.5, 20% glycerol, 0.5 mM EDTA, 2 mM DTT, 1 M NaCl), centrifuged, then the pellet resuspended with low-salt ψ buffer and centrifuged. ψ was solubilized from the pellet in urea buffer (20 mM Tris–HCl, pH 7.5, 0.5 mM EDTA, 2 mM DTT, 6 M urea), clarified by centrifugation and the supernatant was loaded onto Q-Fastflow column (GE Healthcare) equilibrated in QFF buffer A (20 mM Tris–HCl, pH 7.5, 0.5 mM EDTA, 2 mM DTT, 6 M urea). ψ was eluted over by a salt gradient from 0 to 750 mM NaCl.
+     </p>
+     <p>
+      The χ/ψ complex was made by mixing ψ and χ in a 1:1 molar ratio and resolving the complex on a Sephacryl S-100 column in 5% MPD, 10 mM Tris–HCl pH 8.8, 10 mM imidazole and 100 mM NaCl. χ/ψ-Containing fractions were pooled, concentrated and stored at 4°C.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      <em>
+       E. coli
+      </em>
+      SSB
+     </title>
+     <p>
+      The plasmids for overexpression of
+      <em>
+       E. coli
+      </em>
+      SSB and SSB113 were gifts from Michael Cox. SSB and SSB113 protein was purified as in
+      <xref ref-type="bibr">
+       Lohman et al (1986)
+      </xref>
+      .
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      SSB-Ct peptide
+     </title>
+     <p>
+      SSB-Ct peptide (Trp–Asp–Ile–Pro–Phe) was synthesized and purified by the University of Wisconsin Biotechnology Center.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Pol III
+      <sup>
+       *
+      </sup>
+     </title>
+     <p>
+      Approximately 900 ml cell suspension (about 450 g of cells) of BLR(pHOC 2.6.1) (a gift of C McHenry, University of Colorado) or variants in which the
+      <em>
+       holC
+      </em>
+      open-reading frame was mutated to encode R128A or R128E/K132E χ was thawed at 4°C. The density of the suspension was adjusted to OD
+      <sub>
+       595
+      </sub>
+      of 200 by the addition of 50 mM Tris–HCl, pH 8.0 at 4°C, 10% sucrose. The suspension was brought to 20 mM EDTA, 150 mM NaCl, 20 mM spermidine and 5 mM DTT, followed by the addition of solid Tris base to adjust the pH to 8.5. Cells were lysed by the addition of lysozyme (200 μg/ml) and incubated for 50 min at 4°C, 4 min at 37°C, then another 10 min at 4°C. After centrifugation for 90 min at 11 000 r.p.m., the supernatant (fraction 1) was made 0.07% in Polymin P by the dropwise addition of a 1% solution. The mixture was cleared by centrifugation for 30 min at 14 500 r.p.m. The protein was precipitated by the addition of 0.226 g/ml of solid ammonium sulphate, and the pellet was collected by centrifugation for 45 min. The protein was back extracted with 1/10 volume buffer A (50 mM Tris–HCl, pH 7.5 at 4°C, 5 mM DTT, 1 mM EDTA, 20% glycerol)+100 mM NaCl containing 0.2 g/ml ammonium sulphate, centrifuged for 30 min at 20 000 r.p.m., then back extracted again with 1/40 volume buffer A+100 mM NaCl containing 0.17 g/ml ammonium sulphate. The pellet was resuspended in 1/80 volume 25 mM Tris–HCl, pH 7.5 at 4°C, 5 mM DTT, 100 mM NaCl, 5% glycerol to give fraction 2. The activity was determined by general priming assay as described (
+      <xref ref-type="bibr">
+       Tougu et al, 1994
+      </xref>
+      ) (
+      <a>
+       Supplementary Figure S2
+      </a>
+      ). A portion of fraction 2 (27.5%) was diluted with buffer A to adjust the conductivity to match buffer A+30 mM NaCl, and applied to a 10-ml Heparin-agarose column that had been equilibrated previously with buffer A+30 mM NaCl. The column was then washed with 25 ml of equilibration buffer, and protein eluted with a 100-ml gradient of 30–400 mM NaCl in buffer A. Active fractions (eluting at ∼200 mM NaCl) were pooled (fraction 3) and precipitated by the addition of an equal volume of 100% saturated ammonium sulphate. The pellet was resuspended in 400 μl buffer A+100 mM NaCl and filtered through a 24-ml Superose 6 column (Amersham) equilibrated and developed with buffer A+100 mM NaCl. Active fractions were pooled (fraction 3), 100% glycerol was added to increase the final concentration to 38% and stored at −80°C. Other replication enzymes (
+      <em>
+       E. coli
+      </em>
+      DnaA, DnaB, DnaC, β
+      <sub>
+       2
+      </sub>
+      and gyrase) were purified as described in
+      <xref ref-type="bibr">
+       Wu et al (1992a)
+      </xref>
+      .
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structure determination of
+     <em>
+      χ
+     </em>
+     /
+     <em>
+      ψ
+     </em>
+     /SSB-Ct
+    </title>
+    <p>
+     <em>
+      E. coli
+     </em>
+     χ/ψ (7.5 mg/ml in 1.5% MPD, 3 mM Tris–HCl, pH 8.8, 3 mM imidazole and 30 mM NaCl) was mixed 1:1 (vol) with well solution (25% PEG 4000, 0.2 M ammonium sulphate, 0.1 M sodium acetate, pH 4.6) in hanging-drop vapour-diffusion crystallization trials to form apo χ/ψ crystals used for seeds in generating χ/ψ/SSB-Ct crystals. χ/ψ (7.5 mg/ml) combined with SSB-Ct peptide (1:2 molar ratio of χ/ψ:SSB-Ct) was mixed with an equal volume of well solution (13–20% PEG 4000, 0.2 M ammonium sulphate, 5% glycerol, 0.1 M sodium acetate pH 4.4) in hanging-drop vapour-diffusion crystallization trails. Apo χ/ψ crystals were streak seeded into the χ/ψ/SSB-Ct drops to generate ternary complex crystals. χ/ψ/SSB-Ct crystals were transferred into cryoprotectant (13–20% PEG 4000, 0.2 M ammonium sulphate, 25% glycerol, 0.1 M sodium acetate, pH 4.4) and flash frozen in liquid nitrogen. Diffraction data were indexed and scaled using HKL2000 (
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ). The χ/ψ/SSB-Ct structure was determined by molecular replacement, using Phaser (
+     <xref ref-type="bibr">
+      McCoy et al, 2007
+     </xref>
+     ) with the previously determined χ/ψ structure (
+     <xref ref-type="bibr">
+      Gulbis et al, 2004
+     </xref>
+     ) as a search model. Iterative model building and refinement with Coot (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ) and REFMAC (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ) produced the final model. Model coordinates and structure factors have been deposited in the Protein Data Bank (3SXU accession code).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     <em>
+      E. coli
+     </em>
+     χ/ψ (or a χ/ψ subcomplex with a χ variant) (30 μM) and SSB (or SSB113) (600 μM as monomer) were dialysed against 20 mM Tris, pH 8.0, 150 mM NaCl, 10% glycerol, 1 mM EDTA, 1 mM 2-mercaptoethanol. χ/ψ was thermostatted in a stirred sample cell (2 ml) at either 25 or 40°C and SSB or SSB113 was titrated with the following regime: 1 injection (1 μl for 2 s), 4 injections (4 μl for 8 s each), then 32 injections (8 μl for 16 s each). Data were fitted to a single-site model (1 SSB monomer binding to 1 χ/ψ subcomplex) using a non-linear iterative least squares algorithm (MicroCal ORIGIN). Since SSB is a tetramer, the binding arrangement in solution is 4 χ/ψ subcomplexes per SSB tetramer.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In vitro DNA replication assays
+    </title>
+    <p>
+     TFII DNA was prepared and purified by sucrose gradient centrifugation as described (
+     <xref ref-type="bibr">
+      Wu et al, 1992a
+     </xref>
+     ) using the primer TFII annealed to M13mp18 phage DNA. The first 35 nucleotides of the TFII primer forms the tail and the other 35 nucleotides anneal to the DNA. Rolling-circle DNA replication reaction mixtures (10 μl) containing 50 mM Hepes-KOH (pH 8.0), 12 mM Mg(OAc)
+     <sub>
+      2
+     </sub>
+     , 10 mM DTT, 40 μM [α-
+     <sup>
+      32
+     </sup>
+     P]dATP (1000–3000 c.p.m./pmol), 40 μM dGTP, dCTP, and TTP, 200 μM GTP, CTP, and UTP, 1 mM ATP, 4 nM TFII DNA, 400 nM DnaC810, 360 nM DnaB, 20 nM Pol III
+     <sup>
+      *
+     </sup>
+     (or a Pol III
+     <sup>
+      *
+     </sup>
+     variant), 30 nM β, 250 nM SSB (tetramer), and the indicated concentrations of KCl and DnaG were incubated at 37°C for 5 min as described (
+     <xref ref-type="bibr">
+      Wu et al, 1992a
+     </xref>
+     ). Reactions were terminated by the addition of EDTA to 20 mM and analysed by electrophoresis through 0.6% denaturing alkaline agarose gels using 30 mM NaOH-2 mM EDTA as the electrophoresis buffer.
+     <em>
+      OriC
+     </em>
+     replication reaction mixtures (10 μl) containing 80 mM Hepes-KOH pH 8.0, 10 mM Mg(OAc)
+     <sub>
+      2
+     </sub>
+     , 10 mM DTT, 100 μg/ml BSA, 40 μM [α-
+     <sup>
+      32
+     </sup>
+     P]dATP (1000–3000 c.p.m./pmol), 40 μM dGTP, dCTP, and TTP, 200 μM GTP, CTP, and UTP, 2 mM ATP, 2 nM
+     <em>
+      oriC
+     </em>
+     plasmid DNA, 500 nM DnaA, 200 nM DnaC, 200 nM DnaB, 20 nM Pol III
+     <sup>
+      *
+     </sup>
+     , 30 nM β
+     <sub>
+      2
+     </sub>
+     , 250 nM SSB (as tetramer), 20 nM DNA gyrase, and the indicated concentrations of KCl (0 or 70 mM) and DnaG (0–1980 nM) were incubated at 37°C for 10 min as described in (
+     <xref ref-type="bibr">
+      Hiasa et al, 1994
+     </xref>
+     ). Reactions were terminated and analysed as for the rolling-circle reaction.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Construction of holC-mutant E. coli
+    </title>
+    <p>
+     All bacterial strains used in this work are derivatives of
+     <em>
+      E. coli
+     </em>
+     K12 and are described in
+     <a>
+      Supplementary Table I
+     </a>
+     . All P1 transductions were selected on 2% agar plates containing minimal media +0.1% glucose. Where appropriate, plates also contained the following antibiotics at these final concentrations: tetracycline 10 μg/ml, Cm 25 μg/ml or Km 50 μg/ml. All transductants were purified on the same type of media on which they were selected, at 30°C for AHM derivatives.
+    </p>
+    <p>
+     <em>
+      E. coli
+     </em>
+     strain AHM101 was constructed by PCR amplification of
+     <em>
+      holC
+     </em>
+     (including 120 bp 5′ of the open-reading frame) and subcloned into pET15b. The Cm-resistance (Cm
+     <sup>
+      R
+     </sup>
+     ) cassette from pKD13 was subcloned 5′ of the
+     <em>
+      holC
+     </em>
+     to create pET15b-AHM101. Site-directed mutagenesis of pET15b-AHM101 was used to create pET15b-AHM102–107. The Cm
+     <sup>
+      R
+     </sup>
+     -
+     <em>
+      holC
+     </em>
+     element of each plasmid was independently electroporated into
+     <em>
+      E. coli
+     </em>
+     strain MG1655 with pKD46 via the Wanner method, and recombinants were selected by plating on Cm-containing media (
+     <xref ref-type="bibr">
+      Datsenko, 2000
+     </xref>
+     ). Genomic insertions were verified by colony PCR and confirmed by sequencing.
+    </p>
+    <p>
+     The
+     <em>
+      hupA∷mcherry
+     </em>
+     linear DNA fragment was generated by amplifying genomic DNA by PCR using primers listed in
+     <a>
+      Supplementary Table II
+     </a>
+     for the Km-resistance cassette containing FRT sites from the same strain. Both linear fragments were then purified using the QIAEX II kit (Qiagen). Purified DNA fragments were then combined in a primerless PCR followed by a third PCR using primers extending into a single linear fragment containing
+     <em>
+      mcherry
+     </em>
+     and Km resistance. The linear
+     <em>
+      hupA100∷mcherry∷kan
+     </em>
+     fragment was then transferred to the chromosome by transformation of SS4414 competent cells containing plasmid pKD46 (
+     <xref ref-type="bibr">
+      Datsenko, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Datsenko and Wanner, 2000
+     </xref>
+     ). Km-resistant colonies were purified and screened for Ap sensitivity, indicating loss of pKD46. Cells were then screened microscopically for red nucleoids and
+     <em>
+      sulAp-gfp
+     </em>
+     expression. To test for wt
+     <em>
+      hupA
+     </em>
+     activity, this mutation was combined
+     <em>
+      del(hupB)∷Tn10
+     </em>
+     .
+     <em>
+      hupA hupB
+     </em>
+     double mutants have diffuse nucleoids, chromosome partitioning defects and are highly filamented where single mutants appear essentially wt (
+     <xref ref-type="bibr">
+      Dri et al, 1991
+     </xref>
+     ). The
+     <em>
+      hupA100∷mcherry∷kan del(hupB)∷Tn10
+     </em>
+     double mutants appeared similar to wt (data not shown). Plasmid copies of
+     <em>
+      hupA∷gfp
+     </em>
+     have been shown to give the same pattern of nucleoids as cells stains with DAPI (
+     <xref ref-type="bibr">
+      Wery et al, 2001
+     </xref>
+     ). The resulting strain with
+     <em>
+      hupA100∷mcherry∷kan
+     </em>
+     was called SS6279.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Phenotypic analysis of holC-mutant E. coli
+    </title>
+    <p>
+     Saturated cultures of AHM101–AHM107 strains were serially diluted (10-fold) in 145 mM NaCl and 10 μl from each dilution was spot plated onto LB or minimal media Cm agar and incubated at 25, 30, 37 or 42°C to test for changes in colony morphology and viability. For experiments with minimal media agar, the strains were washed once in MOPS media prior to dilution.
+    </p>
+    <p>
+     Growth curves were performed starting with saturated cultures grown at 37°C in LB Cm from a single colony from freshly streaked cultures. Saturated cultures (5 μl) were added to 50 ml of LB or minimal media (5 μl) with Cm. The cultures were then placed at 30 or 37°C, with shaking. Growth was monitored with colony counts using 10-fold serial dilutions in 145 mM NaCl followed by plating on LB
+     <em>
+      cat
+     </em>
+     and growth at 37°C. Data are the mean of three independent replicates with error bars representing 1 s.d. of the mean. For minimal media growth curves, the saturated cultures were washed with MOPS prior to being resuspended in MOPS. Generation time was calculated using the colony counts during the log phase of cell growth with the equation
+     <em>
+      t
+     </em>
+     <sub>
+      gen
+     </sub>
+     =1/
+     <em>
+      k
+     </em>
+     ;
+     <em>
+      k
+     </em>
+     =(3.32 × log
+     <sub>
+      10
+     </sub>
+     [
+     <em>
+      N
+     </em>
+     <sub>
+      <em>
+       t
+      </em>
+      2
+     </sub>
+     /
+     <em>
+      N
+     </em>
+     <sub>
+      <em>
+       t
+      </em>
+      1
+     </sub>
+     ])/(
+     <em>
+      t
+     </em>
+     <sub>
+      1
+     </sub>
+     −
+     <em>
+      t
+     </em>
+     <sub>
+      2
+     </sub>
+     ), where
+     <em>
+      k
+     </em>
+     is the growth rate constant,
+     <em>
+      t
+     </em>
+     <sub>
+      2
+     </sub>
+     is the time when the population is
+     <em>
+      N
+     </em>
+     <sub>
+      <em>
+       t
+      </em>
+      2
+     </sub>
+     and
+     <em>
+      t
+     </em>
+     <sub>
+      1
+     </sub>
+     is the time when the population is
+     <em>
+      N
+     </em>
+     <sub>
+      <em>
+       t
+      </em>
+      1
+     </sub>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     DNA replication rate determination
+    </title>
+    <p>
+     Strains were grown at 37°C in minimal media as described above until the OD
+     <sub>
+      600
+     </sub>
+     reached 0.3, at which time DNA synthesis was measured by measuring [
+     <sup>
+      3
+     </sup>
+     H]-thymidine incorporation as described in
+     <xref ref-type="bibr">
+      Courcelle and Courcelle (2006)
+     </xref>
+     except that the label solution was composed of MOPS media with 0.1% glucose and 5 μCi/ml of [
+     <sup>
+      3
+     </sup>
+     H]-thymidine. Data are the mean of three independent replicates of each strain with error bars representing 1 s.d. of the mean.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Microscopy
+    </title>
+    <p>
+     Cultures were grown in MOPS minimal medium until mid-log phase (OD
+     <sub>
+      600
+     </sub>
+     =0.3–0.4). Cells were concentrated 10-fold in MOPS minimal and ∼2 μl of this mixture was loaded onto fresh MOPS minimal 1% agarose pads and a cover slip was applied. Agarose pads were prepared using a protocol from P Levin. Microscopy was carried out using an epifluorescent Nikon E600 microscope. An ORCA-ER-cooled charge-coupled device camera (Hammamatsu) and Openlabs software (Improvision) were used for all image acquisition. The exposure time was 300 ms. Approximately nine fields (three on 3 different days) containing calibration beads were photographed. A phase-contrast image and two fluorescent images (green and red) of each field were taken. Openlab 5.0 and Volocity 3.5 (Improvision, Inc.) were used to measure the amount of fluorescence and cell size in individual live cells. Calibration of the fluorescence intensity was set by calibration beads (InSpeck Green (505/515) microscope image intensity calibration kit 2.5 μm I-7219 from Molecular Probes). The relative fluorescence intensity value of an individual cell is calculated by dividing the average calibrated pixel value of a particular cell by the average calibrated pixel value of a strain containing Δ
+     <em>
+      att
+     </em>
+     λ
+     <em>
+      ∷sulAp
+     </em>
+     Ω
+     <em>
+      gfp-mut2
+     </em>
+     (SS8343).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplemental Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (8.6M, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (199K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

@@ -1,0 +1,1676 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3756661
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    An extracellular interactome of Immunoglobulin and LRR proteins reveals receptor-ligand networks
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Extracellular domains of cell-surface receptors and ligands mediate cell-cell communication, adhesion, and initiation of signaling events, but most existing protein-protein “interactome” datasets lack information for extracellular interactions. We probed interactions between receptor extracellular domains, focusing on the Immunoglobulin Superfamily (IgSF), Fibronectin type-III (FnIII) and Leucine-rich repeat (LRR) families of
+     <em>
+      Drosophila
+     </em>
+     , a set of 202 proteins, many of which are known to be important in neuronal and developmental functions. Out of 20503 candidate protein pairs tested, we observed 106 interactions, 83 of which were previously unknown. We ‘deorphanized’ the 20-member subfamily of
+     <em>
+      defective in proboscis
+     </em>
+     IgSF proteins, showing that they selectively interact with an 11-member subfamily of previously uncharacterized IgSF proteins. Both subfamilies interact with a single common ‘orphan’ LRR protein. We also observed new interactions between Hedgehog and EGFR pathway components. Several of these interactions could be visualized in live-dissected embryos, demonstrating that this approach can identify physiologically relevant receptor-ligand pairs.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In metazoans, cell surface and secreted proteins play essential roles in intercellular communication, cellular adhesion, and developmentally important signaling pathways by binding to other proteins in the extracellular milieu (
+    <xref ref-type="bibr">
+     Ben-Shlomo et al., 2003
+    </xref>
+    ). Protein domain families that mediate these extracellular processes have expanded greatly during the evolution of complex multicellular organisms (
+    <xref ref-type="bibr">
+     Vogel and Chothia, 2006
+    </xref>
+    ). Consequently, cell surface and secreted proteins comprise a substantial fraction of the human proteome (
+    <xref ref-type="bibr">
+     Almén et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     da Cunha et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Diehn et al., 2006
+    </xref>
+    ). Although vast amounts of protein interactome data have been generated in the last decade, extracellular and transmembrane proteins are greatly underrepresented in these data sets, due to the technical challenges that extracellular proteins present for systems biology and proteomics approaches (
+    <xref ref-type="bibr">
+     Wright et al., 2010
+    </xref>
+    ). Producing extracellular molecules requires special conditions enabled by secretion, such as an oxidizing environment (for disulfide bonds) and specific post-translational modifications (predominantly glycosylation) for folding and function. Methods that target proteins to intracellular compartments, such as the nucleus in Yeast-Two Hybrid (Y2H), are unlikely to allow functional folding of most extracellular proteins. Furthermore, low-affinity interactions (i.e.
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    ∼μM), which are difficult to detect, are known to dominate the extracellular interactome (
+    <xref ref-type="bibr">
+     van der Merwe and Barclay, 1994
+    </xref>
+    ). Moreover, since many extracellular proteins contain transmembrane regions, affinity pull-downs and mass spectrometric methods tend to miss or mis-assign interactions as a consequence of the presence of the plasma membrane and/or detergents non-specifically subsuming hydrophobic, “sticky” and nearest neighbor interactions. For these reasons, there is a deficiency of reliable global interaction data for extracellular proteins.
+   </p>
+   <p>
+    The lack of reliable interaction data for transmembrane and extracellular proteins has been previously noted in large protein interactome studies and databases (
+    <xref ref-type="bibr">
+     Braun et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Guruharsha et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miller et al., 2005
+    </xref>
+    ).
+    <xref ref-type="bibr">
+     Braun et al. (2009)
+    </xref>
+    showed that extracellular proteins were refractory to detection by existing interactome methodologies, including Y2H. Also, a recent affinity-purification/mass spectrometry (AP-MS)-based interactome, the
+    <em>
+     Drosophila
+    </em>
+    Protein Interaction Mapping (DPiM) Project, underrepresents every one of the six
+    <em>
+     extracellular
+    </em>
+    and transmembrane protein classifications. These include cell adhesion molecules, cell junction proteins, defense/immunity proteins-IgSF family, extracellular matrix proteins, receptors, signaling molecules and transmembrane proteins. By contrast, only one
+    <em>
+     intracellular
+    </em>
+    category out of the remaining 21 was underrepresented (
+    <xref ref-type="bibr">
+     Guruharsha et al., 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    To address these problems, recent work has focused on the development of eukaryotic expression systems that use oligomerization to identify and assess low-affinity interactions between extracellular proteins. Clustering of ligands in various formats was found to be necessary for detecting interactions between DSCAM splice variants (
+    <xref ref-type="bibr">
+     Wojtowicz et al., 2007
+    </xref>
+    ). Multimerization was also shown to enhance detection of interactions among the extracellular domains (ECD) of zebrafish Immunoglobulin Superfamily (IgSF) and leucine-rich repeat (LRR) proteins in an extracellular interaction screening screening assay (AVEXIS;
+    <xref ref-type="bibr">
+     Bushell et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Söllner and Wright, 2009
+    </xref>
+    ). Similarly,
+    <xref ref-type="bibr">
+     Ramani et al. (2012)
+    </xref>
+    has utilized a protein microarray format with multivalent protein-coated beads for a group of human IgSF, where multivalency enhanced binding signal by 10 to &gt;150-fold.
+   </p>
+   <p>
+    In the present study, we utilize a high-throughput oligomerization-based methodology for detecting extracellular interactions between individually expressed recombinant ECDs in
+    <em>
+     Drosophila melanogaster
+    </em>
+    , which offers the advantage of rapid and robust functional tools to assess function. We applied these methods to nearly all the members of the IgSF, FnIII, and LRR families of the
+    <em>
+     Drosophila melanogaster
+    </em>
+    extracellular proteome. We expressed 202 proteins, and evaluated a total of 20503 unique pairwise interactions. We found 106 protein pairs that displayed detectable interactions, of which 83 (78%) are previously unknown. We confirmed several of these interactions using quantitative biophysical methods, and demonstrated that previous large-scale interactomes had failed to detect these interactions. We elucidated new interactions amongst known signaling pathways, and discovered that a 20-member IgSF subfamily of unknown function, the Dprs, interacts with an 11-member subfamily, also of unknown function. We demonstrated that these protein-protein interactions can be visualized in vivo by using oligomerized fusion proteins to stain live-dissected
+    <em>
+     Drosophila
+    </em>
+    embryos. We found that Dprs and their binding partners label specific subsets of cells within the central nervous system (CNS). For one Dpr-ligand pair, we used loss-of-function (LOF) and gain-of-function (GOF) genetics to demonstrate that ligand-receptor interactions discovered in vitro also occur in live embryos. Collectively, this study provides a framework with which to identify
+    <em>
+     bona fide
+    </em>
+    receptor-ligand partners, which can then be functionally defined in vivo during development, using genetic methodologies. The eventual extension of this approach to the entire
+    <em>
+     Drosophila
+    </em>
+    extracellular proteome will facilitate an understanding of the mechanisms through which these classes of proteins influence development and function.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     The choice of domain families for the interactome
+    </title>
+    <p>
+     The IgSF is the most highly represented extracellular protein domain in humans (∼0.3% of human protein-coding genes). Among all large protein domain families, the numbers of IgSF domains encoded in a genome correlate the most with organismal complexity (
+     <xref ref-type="bibr">
+      Vogel and Chothia, 2006
+     </xref>
+     ). IgSF proteins are essential for intercellular communication during development of organ systems (
+     <xref ref-type="bibr">
+      Williams and Barclay, 1988
+     </xref>
+     ). In the nervous system, they are required for cell migration, axon guidance, synaptogenesis, and synaptic plasticity (
+     <xref ref-type="bibr">
+      Yamagata et al., 2003
+     </xref>
+     ). In the immune system, IgSF proteins are involved in many cell communication, migration and signaling events, and in molecular recognition of self vs. nonself (Pålsson-McDermott and
+     <xref ref-type="bibr">
+      O'Neill, 2007
+     </xref>
+     ). IgSF proteins are known to engage other IgSF proteins in homophilic and heterophilic complexes that mediate distinct functionalities, such as formation of adhesion structures (e.g.,
+     <xref ref-type="bibr">
+      Özkan et al., 2013
+     </xref>
+     ), but as yet there has been no experimental cataloging of all IgSF protein interactions from any species. FnIII domains are structurally and functionally related to the IgSF fold, as both are composed of beta-sheet sandwiches and they often coexist within the same protein.
+    </p>
+    <p>
+     LRR proteins constitute another prominent extracellular family heavily utilized in the nervous and innate immune systems (
+     <xref ref-type="bibr">
+      Dolan et al., 2007
+     </xref>
+     ). They have been found to be receptors for developmentally important signals in both
+     <em>
+      Drosophila
+     </em>
+     and vertebrates (
+     <xref ref-type="bibr">
+      Dolan et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      de Wit et al., 2011
+     </xref>
+     ), and are involved in innate immune response (
+     <xref ref-type="bibr">
+      Valanne et al., 2011
+     </xref>
+     ). In the
+     <em>
+      Drosophila
+     </em>
+     nervous system, LRRs mediate cell recognition events required for target selection by motor neurons and olfactory neurons (
+     <xref ref-type="bibr">
+      Hong et al., 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kurusu et al., 2008
+     </xref>
+     ). Since the pervasive nature of IgSF, FnIII and LRR proteins, we chose to focus our interactome on these three domain types. Furthermore, a large number of these genes are not annotated, the majority of them have not been studied, and only a small percentage have known protein interactors, so efforts to deorphanize them could fill this void and likely yield interactions that are functionally important.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Curation of Gene List and Cloning for Overexpression
+    </title>
+    <p>
+     Previous efforts have been made to identify and annotate extracellular IgSF and LRR family proteins of
+     <em>
+      D. melanogaster
+     </em>
+     (
+     <xref ref-type="bibr">
+      Dolan et al., 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vogel et al., 2003
+     </xref>
+     ). We further searched the fly genome for proteins containing extracellular IgSF, FnIII and LRR domains (Extended Experimental Protocols:
+     <em>
+      Bioinformatics
+     </em>
+     , and
+     <a>
+      Table S1
+     </a>
+     ), and identified 130 IgSF, 71 LRR, and 59 FnIII-containing extracellular and transmembrane proteins, counting one splice variant per gene, resulting in 203 non-redundant genes (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 1). We determined the boundaries of mature extracellular regions, “extracellular domains (ECD),” of these proteins by predicting signal peptides and, for membrane-bound proteins, transmembrane helices or glycosylphosphatidylinositol (GPI)-linkage sites. ECDs were cloned into our
+     <em>
+      Drosophila
+     </em>
+     expression vectors (
+     <a>
+      Figure S1A
+     </a>
+     ) using conventional PCR if there were existing cDNAs, or with RT-PCR from primary RNA samples (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 2). Out of the 203 candidates, we were successful in cloning all but eight of these (96%) into expression vectors. For three proteins, we examined multiple splice variants; we also included three additional proteins of interest, for a total of 202 clones. Our collection is now available to the scientific community via the Berkeley
+     <em>
+      Drosophila
+     </em>
+     Genome Project (
+     <a>
+      http://www.fruitfly.org/
+     </a>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       Schematic representation of the Extracellular Interactome
+      </strong>
+      <p>
+       Schematic representation of the Extracellular Interactome in the following steps: (1) Annotation of all proteins containing extracellular IgSF, FnIII and LRR domains (see also
+       <a>
+        Table S1
+       </a>
+       ), (2) Cloning of the ECDs of target genes with PCR from cDNA or RT-PCR from mRNA into
+       <em>
+        Drosophila
+       </em>
+       expression plasmids, (3) Expression of all cloned ECDs in bait and prey formats in
+       <em>
+        Drosophila
+       </em>
+       cell culture, (4) Application of the Extracellular Interactome Assay, (5) Collection and analysis of the assay results, and (6) Confirmation of hits via biophysical methods, such as Surface Plasmon Resonance. See
+       <a>
+        Figure S1
+       </a>
+       for a detailed explanation of tags used for bait and prey.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The Extracellular Interactome Assay (ECIA)
+    </title>
+    <p>
+     To create a system that would accurately assess interactions between extracellular proteins, we devised a high-throughput assay comprised of the following components (
+     <xref ref-type="fig">
+      Figures 1
+     </xref>
+     and
+     <a>
+      S1B
+     </a>
+     ): (1) Bait and prey are expressed and secreted from cultured
+     <em>
+      Drosophila
+     </em>
+     Schneider 2 (S2) cells (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 3); (2) Bait are fused with human dimeric Fc, which allows for easy capture from conditioned media on staphylococcal Protein A-coated plates (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 4,
+     <a>
+      Figure S1B
+     </a>
+     ); (3) Prey proteins are oligomerized into pentamers by fusing the ECDs to a pentameric helical region of rat COMP (cartilage oligomeric matrix protein) (
+     <xref ref-type="bibr">
+      Bushell et al., 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Holler et al., 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Voulgaraki et al., 2005
+     </xref>
+     ). This avidity enhancement is a powerful means of capturing low affinity interactions and also recovering interacting pairs when the prey is only expressed at low protein concentrations (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 4,
+     <a>
+      Figure S1B
+     </a>
+     ); and (4) Prey proteins are fused with human placental alkaline phosphatase (AP) for facile enzymatic detection using colorigenic substrates (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     steps 4 and 5,
+     <a>
+      Figure S1B
+     </a>
+     ). The sensitivity in detection is amplified by the pentamerization of the AP tag.
+    </p>
+    <p>
+     The Fc-tagged bait proteins are captured by Protein A-coated plates directly from conditioned S2 media, and the AP-tagged proteins are directly assayed in conditioned media; therefore, the Extracellular Interactome Assay (ECIA) does not require any sample purification or buffer exchange, and is amenable to multiplexing and high-throughput measurements. Starting from initiation of cell culture work to the detection of interactions, the assay can be completed within five days (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , steps 3-5). The most labor-intensive aspects of the Extracellular Interactome are the cloning of genes from mRNA (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 2) and protein expression by transient transfection in eukaryotic cell culture (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , step 3). However, the labor burden for these steps increases only linearly with the number of proteins tested, allowing for many interactions to be tested without advanced robotic instrumentation. Yet, the ECIA is scalable, and could be automated for true high throughput, enabling this methodology to be expanded to very large collections, such as an entire proteome (i.e. millions of possible pairs).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Extracellular Interaction Network of
+     <em>
+      Drosophila
+     </em>
+     IgSF, LRR and FnIII proteins
+    </title>
+    <p>
+     We performed the ECIA initially for a subset of 125 proteins, covering nearly all IgSF. Upon demonstrating feasibility, we expanded it to all the extracellular members of the IgSF, FnIII and LRR protein families. The two ECIA results closely matched, confirming the reproducibility of the assay (
+     <a>
+      Figures S2A and S2B
+     </a>
+     , see Extended Experimental Protocols:
+     <em>
+      ECIA Data Internal Consistency and Reproducibility
+     </em>
+     for detailed analysis,). For the analysis of our data, we utilized simple statistics, mainly
+     <em>
+      Z
+     </em>
+     -scores (see Extended Experimental Protocols:
+     <em>
+      Interactome Data Analysis
+     </em>
+     ). All detected interactions observed were further verified by repeating the assay in both bait/prey orientations with fresh batches of proteins. We also performed titrations of the bait and prey samples in six selected interactions, which could be fit using concentration-dependent, single-site binding models. We observed that the strength of the binding signal was determined by the interaction partner present in lower abundance, (
+     <a>
+      Figures S1C-G
+     </a>
+     ).
+    </p>
+    <p>
+     The ECIA dataset comprises a pairwise matrix of 42025 experiments (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), corresponding to 20503 unique pairwise interactions (
+     <a>
+      Figure S2B
+     </a>
+     ). Each heterophilic interaction was tested twice, with bait and prey in reverse orientations, and these results were in good agreement (see Extended Experimental Protocols:
+     <em>
+      ECIA Data Internal Consistency and Reproducibility
+     </em>
+     ). The experimental matrix included testing of 202 potential homophilic pairs. Of the observed 106 unique interactions, 20 were homophilic (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ,
+     <a>
+      Table S2
+     </a>
+     ). Based on the
+     <em>
+      Drosophila
+     </em>
+     protein interaction database DroID (
+     <xref ref-type="bibr">
+      Giot et al., 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Guruharsha et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Murali et al., 2011
+     </xref>
+     ) and an exhaustive literature search, 79 (92%) of the heterophilic and four (20%) of the homophilic interactions have not been previously reported (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Interactions detected by our Extracellular Interactome
+      </strong>
+      <p>
+       (A) The matrix of data for 202×202 pairwise interactions measured using the Extracellular Interactome Assay (ECIA). Each row represents a single bait, while each column represents a single prey protein. The color scale maps to Absorbance values at 650 nm. See
+       <a>
+        Figure S2
+       </a>
+       for the processed data matrix, and
+       <a>
+        Table S2
+       </a>
+       for list of interactions detected.
+      </p>
+      <p>
+       (B) Number of interactions observed (blue slices) out of all unique homophilic and heterophilic interactions tested (red circles).
+      </p>
+      <p>
+       (C) Observed interactions are further classified as novel (green) vs. previously known (beige).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We analyzed published interactome datasets for the protein families included in our study (
+     <xref ref-type="bibr">
+      Yu et al., 2008
+     </xref>
+     ). In total, there are 285 reported interactions for extracellular IgSF, FnIII and LRR proteins in the three large-scale experimental interactome datasets present in DroID. None of our 106 interactions were in the DroID-based list (
+     <a>
+      Table S3
+     </a>
+     ). In fact, only one of the 285 DroID interactions has been reported independently (
+     <a>
+      Table S4
+     </a>
+     ), and a majority of DroID interactions are physically unlikely, since the putative interactors are neither cell-surface nor extracellular proteins, but include many nuclear and intra-organelle proteins (
+     <a>
+      Table S3
+     </a>
+     ). In contrast, 22 (21%) of our interaction hits were previously described in the literature. These results demonstrate that Y2H and AP-MS-based interactome studies fail to detect extracellular interactions, and a specialized interactome increases the yield and reliability.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Four Subfamilies of IgSF As Observed in the Extracellular Interactome
+    </title>
+    <p>
+     The pairwise interactions we detected are shown in
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     , highlighting four subfamilies and their interactions within the
+     <em>
+      Drosophila
+     </em>
+     IgSF (
+     <xref ref-type="fig">
+      Figures 3A and 3B
+     </xref>
+     ,
+     <a>
+      Figure S3A-D
+     </a>
+     ). Two of these subfamilies, the “Beats” (after the protein Beaten Path) with 14 members, and Dpr homologs (after
+     <em>
+      D
+     </em>
+     efective in
+     <em>
+      P
+     </em>
+     roboscis Extension
+     <em>
+      R
+     </em>
+     esponse) with 20 members (
+     <xref ref-type="bibr">
+      Nakamura et al., 2002
+     </xref>
+     ), were previously grouped by virtue of their respective sequence similarities only. For the Beat subfamily (
+     <a>
+      Figure S3A
+     </a>
+     ), based on the recent finding that Beaten Path Ia engages another IgSF protein, Sidestep (also known as Side;
+     <xref ref-type="bibr">
+      Siebert et al., 2009
+     </xref>
+     ), it was proposed that another seven proteins with related sequences to Sidestep might interact with Beats, but this was not experimentally demonstrated (
+     <xref ref-type="bibr">
+      Aberle, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zinn, 2009
+     </xref>
+     ). The ECIA revealed these physical interactions from an unbiased screen, thus establishing a new network of Beat/Side interactions, and a new subfamily of Beat-interacting proteins that we term the “Sides” (
+     <xref ref-type="fig">
+      Figures 3B
+     </xref>
+     ,
+     <a>
+      S3B
+     </a>
+     ).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       The Extracellular Interactome of the
+       <em>
+        Drosophila
+       </em>
+       IgSF, FnIII and LRR
+      </strong>
+      <p>
+       The Extracellular Interactome of the
+       <em>
+        Drosophila
+       </em>
+       IgSF, FnIII and LRR, with the four IgSF subfamilies (Dpr, DIP, Side and Beat) delineated. See the inset for the classification of protein domain families and interactions. Uncharacterized gene names in the CGxxxx(x) format are shortened by removing the prefix CG. Homophilic interactions of boi, fred and robo3 were considered previously known based on the similar properties of their paralogs, ihog, ed and lea (robo2). * indicates interactions of the N-terminal fragment of Slit. The subsections highlight separate classes of proteins and interactions: (A) Dprs and the Dpr-DIP interaction network, (B) Beat and Side families, (C) proteins involved in IgSF–LRR interactions, (D) homologs of SYG and Netrin proteins, which are involved in synaptogenesis and axon guidance, (E) Vn and its interaction partners in the EGF and Hedgehog signaling pathways (See also
+       <a>
+        Figure S4
+       </a>
+       ), (F) homophilic-only IgSF, including Dscams, (H) Fas2 and its interactions, and (G) others. For comparison, see
+       <a>
+        Tables S3 and S4
+       </a>
+       for DroID reported interactions.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The fourth subfamily we observed is a set of closely related IgSF proteins that we found to selectively interact with members of the Dpr subfamily (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <a>
+      S3C
+     </a>
+     ). We name these previously uncharacterized proteins “DIPs”, for
+     <em>
+      D
+     </em>
+     pr-
+     <em>
+      I
+     </em>
+     nteracting
+     <em>
+      P
+     </em>
+     roteins (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     ,
+     <a>
+      S3D and S3E
+     </a>
+     ). In total, we find 17 of the 20 Dprs interacting specifically with 8 DIPs, to which we added three closely related proteins as putative DIPs to form the 11-member DIP family (See Extended Experimental Protocols:
+     <em>
+      Definition of the DIP and Side families
+     </em>
+     ). Most members of the DIP subfamily cross-react with several members of the Dprs, and vice versa. Strikingly, we also identified CG10824, a secreted LRR-family protein, as a shared binding partner for a majority of Dprs and DIPs. We named this protein DIPc, or the “common DIP.” We performed a separate, independent mini-ECIA composed of only Dprs and DIPs, which confirmed the results from the larger ECIA (
+     <xref ref-type="fig">
+      Figures 4A and 4B
+     </xref>
+     ). This experiment also highlights the strong correlation in results when bait and prey are switched, which is apparent when
+     <xref ref-type="fig">
+      Figures 4A and 4B
+     </xref>
+     are compared. The fact that the interacting subfamilies within these networks are comprised of proteins of related sequence, as opposed to random distributions of interacting pairs, gives us increased confidence that these are likely physiologically relevant binding partners.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       The Dpr-ome and Biophysical Validation
+      </strong>
+      <p>
+       (A) Independent ECIA measurements of interactions between Dpr, DIP, DIPc and the negative control, Rst.
+      </p>
+      <p>
+       (B) Same as A, but with bait and prey reversed.
+      </p>
+      <p>
+       (C) The phylogenetic trees relating Dpr and DIP extracellular domain sequences, with interactions mapped between the Dprs and DIPs. Also see
+       <a>
+        Figure S3
+       </a>
+       for the common domain topologies of the Dpr and DIP subfamilies.
+      </p>
+      <p>
+       (D) Binding affinities and kinetics measured with purified recombinant monomeric ECDs using SPR for a selection of the Extracellular Interactome hits. See
+       <a>
+        Figure S5
+       </a>
+       for details. * indicates kinetic constants that may be inaccurate due to fast kinetics; 0.1 s
+       <sup>
+        −1
+       </sup>
+       &lt;
+       <em>
+        k
+       </em>
+       <sub>
+        off
+       </sub>
+       &lt; 0.5 s
+       <sup>
+        −1
+       </sup>
+       . † indicates that binding kinetics was too fast to be measured;
+       <em>
+        k
+       </em>
+       <sub>
+        off
+       </sub>
+       &gt; 0.5 s
+       <sup>
+        −1
+       </sup>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We based our definition of the four subfamilies of
+     <em>
+      Drosophila
+     </em>
+     IgSF on the interaction networks we experimentally identified (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ), but their evolutionary relationships give insight about the origins of these interaction networks (
+     <a>
+      Figure S3F
+     </a>
+     ). It is likely that the ancestral pairs of Dpr–DIP and Beat-Side multiplied through gene duplication events in the arthropod lineage, as we do not observe orthologous subfamilies outside arthropods. Those members of a subfamily that are most closely related to each other (e.g., Dpr1, Dpr2, Dpr3, and Dpr7) often interact with the same members of the partner subfamily that are also closest to each other (e.g., CG14010 and CG31646) (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). Remarkably, the interaction network we identified is a powerful predictor of these evolutionary relationships, while the phylogenetic trees alone cannot predict protein interactions (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). The evolutionary relationships between the interaction pairs we have discovered constitute an additional line of independent evidence bearing on the validity and accuracy of our interactome.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Vein, a Drosophila EGF, interacts with Hedgehog Co-receptors
+    </title>
+    <p>
+     The
+     <em>
+      Drosophila
+     </em>
+     IgSF includes Vein (Vn), a member of the Epidermal Growth Factor (EGF) family, and a ligand of the EGF receptor (EGFR) (
+     <xref ref-type="bibr">
+      Schnepp et al., 1996
+     </xref>
+     ). With the ECIA, we found that Vn also binds two related Hedgehog (Hh) co-receptors, Ihog (interference Hedgehog) and Boi (Brother of Ihog). These interactions provide plausible physical connectivity between developmentally crucial EGF and Hh signaling pathways (
+     <a>
+      Figure S4A
+     </a>
+     ), and there is evidence that the two pathways interact in
+     <em>
+      Drosophila
+     </em>
+     (
+     <xref ref-type="bibr">
+      Amin et al., 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Crozatier et al., 2002
+     </xref>
+     ). For initiating EGF signaling, the EGF domain of Vn is known to engage EGFR, while the N-terminal domains of Vn, including the Ig domain, were shown to have a distinct function, and may engage an unknown ligand (
+     <xref ref-type="bibr">
+      Donaldson et al., 2004
+     </xref>
+     ). To test whether this unknown ligand could be Ihog and/or Boi, we performed the ECIA using constructs composed of individual domains and several combinations of domains of Vn, Ihog and Boi (
+     <a>
+      Figure S4B
+     </a>
+     ). We find that the Ig domain of Vein and the four Ig domains of Ihog or Boi were necessary and sufficient for this interaction. Our results suggest the possibility of a multi-component signaling complex involving EGFR, Vn, ihog, Boi and Hh (
+     <a>
+      Figures S4C and S4D
+     </a>
+     ). Since Vn and Ihog/Boi have human orthologs (neuregulins and CDO/BOC, respectively), these interactions could potentially be relevant to the therapeutic targeting of ErbB receptors (human EGFR paralogs), neuregulins or the Hh pathway, although we have not tested the mammalian interactions. Our results will hopefully stimulate such experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Validation of Extracellular Interactome Hits
+    </title>
+    <p>
+     We tested and confirmed a subset of our putative pairs using a quantitative biophysical method, Surface Plasmon Resonance (SPR), performed with purified monomeric ectodomains (
+     <xref ref-type="fig">
+      Figures 4D
+     </xref>
+     and
+     <a>
+      S5
+     </a>
+     ). We observe several of these interactions, including Side–Beat and Dpr–DIP interactions, to have dissociation constants (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) of ∼1 μM and weaker, as is typical for affinities between cell adhesion receptors (
+     <xref ref-type="bibr">
+      van der Merwe and Barclay, 1994
+     </xref>
+     ). The equilibrium data for all interactions tested can be mathematically fit to a Langmuir isotherm, and therefore strongly support specificity of the interactions tested (
+     <a>
+      Figure S5
+     </a>
+     ). These interactions exhibit fast kinetics and off-rates, which would have been difficult to capture without the avidity-enhancement or signal amplification as was used in our ECIA (
+     <xref ref-type="fig">
+      Figures 4D
+     </xref>
+     and
+     <a>
+      S5
+     </a>
+     , compare with
+     <a>
+      Figure S1G
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In Vivo Observation of Extracellular Interactions
+    </title>
+    <p>
+     We wished to determine whether these interactions could be detected in vivo. Flanagan and colleagues developed methods to visualize ligands
+     <em>
+      in situ
+     </em>
+     by staining vertebrate embryos with dimeric AP-tagged receptor fusion proteins (
+     <xref ref-type="bibr">
+      Flanagan et al., 2000
+     </xref>
+     ).
+     <xref ref-type="bibr">
+      Fox and Zinn (2005)
+     </xref>
+     adapted these methods to live-dissected
+     <em>
+      Drosophila
+     </em>
+     embryos, using AP fusion proteins made with the appropriate arthropod glycosylation patterns (see
+     <xref ref-type="bibr">
+      Lee et al., 2009
+     </xref>
+     for a video protocol). In our initial experiments with proteins produced for the ECIA, we examined if media from transiently transfected
+     <em>
+      Drosophila
+     </em>
+     cells containing pentamerized AP (AP
+     <sub>
+      5
+     </sub>
+     ) fusion proteins could be used directly for staining embryos.
+    </p>
+    <p>
+     Our first experiments assessed staining for previously known interactions in order to give us confidence in the approach. Earlier work showed that muscle attachment sites in embryos mutant for the Syndecan (Sdc) failed to stain with a LAR-AP fusion protein, demonstrating that Sdc is responsible for LAR-AP binding to these sites (
+     <xref ref-type="bibr">
+      Fox and Zinn, 2005
+     </xref>
+     ). In a similar manner, we used genetics to demonstrate that AP
+     <sub>
+      5
+     </sub>
+     fusion proteins can recognize the appropriate ligands in live-dissected embryos. Fasciclin II (Fas2) is a homophilic IgSF adhesion molecule (
+     <xref ref-type="bibr">
+      Grenningloh et al., 1990
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schuster et al., 1996
+     </xref>
+     ), and we detected homophilic Fas2 binding with ECIA (
+     <xref ref-type="fig">
+      Figure 3H
+     </xref>
+     ). In late embryos, Fas2 is expressed on longitudinal tracts in the CNS and on motor axons. Fas2-AP
+     <sub>
+      5
+     </sub>
+     stains an identical pattern (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). In embryos heterozygous for a null mutation,
+     <em>
+      fas2
+      <sup>
+       EB112
+      </sup>
+     </em>
+     , Fas2-AP
+     <sub>
+      5
+     </sub>
+     staining intensity is reduced (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ), and there is no staining in
+     <em>
+      fas2
+      <sup>
+       EB112
+      </sup>
+     </em>
+     hemizygous embryos, which completely lack Fas2 protein (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ), but have a normal pattern of CNS axons (
+     <xref ref-type="bibr">
+      Grenningloh et al., 1990
+     </xref>
+     ;
+     <a>
+      Figure S6
+     </a>
+     ). These data show that homophilic Fas2 interactions can be detected
+     <em>
+      in vivo
+     </em>
+     by staining with Fas2-AP
+     <sub>
+      5
+     </sub>
+     . Interestingly, we also identified two other Fas2 binding partners, CG15630 and CG33543, with ECIA (
+     <xref ref-type="fig">
+      Figure 3H
+     </xref>
+     ). However, these two genes are reportedly not expressed in late embryos (
+     <xref ref-type="bibr">
+      Graveley et al., 2011
+     </xref>
+     ), and therefore
+     <em>
+      fas2
+     </em>
+     null mutant embryos at stage 16 should exhibit no specific staining pattern for Fas2-AP
+     <sub>
+      5
+     </sub>
+     . We were also able to detect binding of another homophilic adhesion molecule, Fasciclin III (Fas3), at the appropriate sites (data not shown).
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Fasciclin II-mediated homophilic adhesion can be detected by fusion protein binding to live embryos
+      </strong>
+      <p>
+       Live-dissected stage 16 embryos incubated with Fas2-AP
+       <sub>
+        5
+       </sub>
+       were stained with anti-Fas2 mAb 1D4 (red) and rabbit anti-AP (green) antibodies. Three segments of the CNS and ventral periphery are shown in each image; anterior is up.
+      </p>
+      <p>
+       (A, A1) In wild-type (wt) embryos, the pattern of Fas2-AP
+       <sub>
+        5
+       </sub>
+       binding is superimposable on the pattern of anti-Fas2 staining. Arrow, longitudinal tract; arrowhead, a motor axon bundle.
+      </p>
+      <p>
+       (B, B1) Embryos heterozygous for the null
+       <em>
+        Fas2
+        <sup>
+         EB112
+        </sup>
+       </em>
+       allele have only 50% of the normal amount of Fas2, and thus show less binding to Fas2-AP
+       <sub>
+        5
+       </sub>
+       and weaker staining with anti-Fas2 mAb.
+      </p>
+      <p>
+       (C, C1) Homozygous
+       <em>
+        Fas2
+        <sup>
+         EB112
+        </sup>
+       </em>
+       embryos, which have no Fas2, fail to stain with either Fas2-AP
+       <sub>
+        5
+       </sub>
+       or anti-Fas2 mAb. See
+       <a>
+        Figure S6
+       </a>
+       for CNS patterning of these embryos. Scale bar, 10 μm.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In a second set of experiments with known ligand-receptor pairs, we stained embryos with AP
+     <sub>
+      5
+     </sub>
+     fusion proteins for the three IgSF Roundabout (Robo) subfamily members, Robo, Robo2 (Lea), and Robo3. Each fusion protein stained midline glial cells and CNS axons, although there were subtle and interesting differences between the staining patterns (
+     <a>
+      Figures S7A-C
+     </a>
+     ). These staining patterns correspond to the known distribution of the Robo family ligand Slit, which is an extracellular matrix protein that is made by midline glia and deposited on axons (
+     <xref ref-type="bibr">
+      Kidd et al., 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Long et al., 2004
+     </xref>
+     ). We verified that the observed staining pattern is in fact due to Slit by showing that
+     <em>
+      slit
+     </em>
+     null mutant embryos exhibit no specific staining with any of the Robo family fusion proteins (
+     <a>
+      Figures S7D-F
+     </a>
+     ).
+    </p>
+    <p>
+     Having demonstrated that known interactions could be reliably detected by staining live-dissected embryos with AP
+     <sub>
+      5
+     </sub>
+     fusion proteins, we used Dpr- and DIP-AP
+     <sub>
+      5
+     </sub>
+     staining to evaluate the expression patterns of their binding partners identified with the ECIA (
+     <xref ref-type="fig">
+      Figures 6A-C
+     </xref>
+     ). Dpr6 stains a large number of neuronal cell bodies in the CNS. By contrast, Dpr8 stains a very small number of cells or cell processes located along the longitudinal tracts. Dpr12 also stains a small subset of cells, as well as the axons of the intersegmental nerve root. Dpr8 binds only to CG42343, and Dpr12 only to CG34391 (in addition to DIPc) (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), so the observed staining patterns might correspond to the expression patterns of these DIPs. Dpr6 binds to four DIPs (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), and this might account for the fact that it stains a much larger number of cells than do the other two Dprs. The DIP CG14521 stains dorsally located cell bodies along the longitudinal tracts, which could be longitudinal glia. CG42343, another DIP, stains many CNS cell bodies and the nerve roots (
+     <xref ref-type="fig">
+      Figures 6D-E
+     </xref>
+     ). Each of these binds to several Dprs (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Finally, DIPc (CG10824) brightly stains most or all axons in the CNS (
+     <xref ref-type="fig">
+      Figure 6F
+     </xref>
+     ). Since this protein binds to most Dprs and DIPs (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), the observed staining pattern may represent the sum of many protein expression patterns.
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       Binding of Dpr-AP
+       <sub>
+        5
+       </sub>
+       and DIP-AP
+       <sub>
+        5
+       </sub>
+       fusion proteins to live embryos
+      </strong>
+      <p>
+       Staining of the longitudinal tracts and motor axons was performed as in
+       <xref ref-type="fig">
+        Figure 5
+       </xref>
+       , except that Dpr-AP
+       <sub>
+        5
+       </sub>
+       and DIP-AP
+       <sub>
+        5
+       </sub>
+       fusion proteins were used for staining.
+      </p>
+      <p>
+       (A, A1) Dpr6-AP
+       <sub>
+        5
+       </sub>
+       stains a fuzzy ladder-like pattern (arrowhead) in the same focal plane as the longitudinal tracts. This may represent glial or neuronal cell surfaces.
+      </p>
+      <p>
+       (B, B1) Dpr8-AP
+       <sub>
+        5
+       </sub>
+       weakly stains a segmentally repeated pattern of small puncta (arrowhead) within the borders of the longitudinal tracts. These puncta, and the puncta seen with Dpr12-AP
+       <sub>
+        5
+       </sub>
+       , CG14521-AP
+       <sub>
+        5
+       </sub>
+       , and CG42343-AP
+       <sub>
+        5
+       </sub>
+       , are probably too small to represent entire cell bodies. For Dpr8-AP
+       <sub>
+        5
+       </sub>
+       , Dpr12-AP
+       <sub>
+        5
+       </sub>
+       , and CG42343-AP
+       <sub>
+        5
+       </sub>
+       , the puncta are in the focal plane of the longitudinal tracts, and may represent cross-sections through dorsoventrally projecting neuronal processes and growth cones.
+      </p>
+      <p>
+       (C, C1) The Dpr12-AP
+       <sub>
+        5
+       </sub>
+       puncta are slightly lateral to the longitudinal tracts.
+      </p>
+      <p>
+       (D, D1) CG14521-AP
+       <sub>
+        5
+       </sub>
+       stains puncta (arrowhead) that are dorsal to the longitudinal tracts, as shown by the fact that longitudinal tracts are not visible in (D1), but motor axons, which are more dorsal, are in the focal plane. The dorsal localization of these puncta suggests that they may represent portions of the surfaces of longitudinal glia.
+      </p>
+      <p>
+       (E, E1) CG42343-AP
+       <sub>
+        5
+       </sub>
+       stains puncta (arrowhead) and a fuzzy pattern along the longitudinal tracts.
+      </p>
+      <p>
+       (F, F1) CG10824-AP
+       <sub>
+        5
+       </sub>
+       , which binds to all Dprs and some DIPs, brightly stains most or all longitudinal axons (arrowhead).
+      </p>
+      <p>
+       Scale bar, 10 μm. See
+       <a>
+        Figure S6
+       </a>
+       Robo-AP
+       <sub>
+        5
+       </sub>
+       staining of live embryos.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     For Dpr11, we were able to demonstrate that CG14521, a DIP we identified as a partner
+     <em>
+      in vitro
+     </em>
+     , also binds to it in live embryos, using both LOF and GOF genetics. Dpr11 stains a pair of large dorsal cell bodies of unknown identity in each CNS segment (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). To evaluate whether this staining pattern is due to binding to CG14521, we examined embryos that were heterozygous or homozygous for a lethal insertion mutation in the 5′ UTR of the
+     <em>
+      CG14521
+     </em>
+     gene. This insertion is of a MiMIC element, which encodes eGFP with its own ATG. When MiMICs are inserted in 5′ UTRs, intact (unfused) GFP is expressed by all cells that transcribe the mRNA (
+     <xref ref-type="bibr">
+      Venken et al., 2011
+     </xref>
+     ). The presence of the upstream MiMIC ATG usually prevents use of the normal ATG for the gene, so most 5′ UTR MiMICs are LOF mutations.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       Genetic evidence for a specific interaction between Dpr11 and CG14521
+      </strong>
+      <p>
+       Staining was performed as in
+       <xref ref-type="fig">
+        Figures 5
+       </xref>
+       and
+       <xref ref-type="fig">
+        None
+       </xref>
+       , using Dpr11-AP
+       <sub>
+        5
+       </sub>
+       fusion proteins, anti-Fas2 mAb 1D4, anti-GFP, and anti-HRP (a marker that labels all
+       <em>
+        Drosophila
+       </em>
+       neurons).
+      </p>
+      <p>
+       (A) In wild-type embryos, Dpr11-AP
+       <sub>
+        5
+       </sub>
+       (white) stains a segmentally repeated pattern of large dorsal cell bodies within the CNS (one cell per hemisegment; arrow).
+      </p>
+      <p>
+       (B) In heterozygotes for the
+       <em>
+        CG14521
+       </em>
+       MiMIC element, Dpr11-AP
+       <sub>
+        5
+       </sub>
+       (red) stains the same cell body pattern (arrow). Staining is weaker than in (A).
+      </p>
+      <p>
+       (B
+       <sub>
+        1
+       </sub>
+       ) The same image as in B, but showing both the Dpr11-AP
+       <sub>
+        5
+       </sub>
+       (red) and anti-GFP (green) signals. Note that the green cells are ringed by red staining (arrow); one is shown at higher magnification in the inset.
+      </p>
+      <p>
+       (C) Double-staining of a
+       <em>
+        CG14521
+       </em>
+       MiMIC homozygote with anti-HRP (red) and anti-GFP (green) shows a regular pattern of axons, which is indistinguishable from wild-type (see
+       <a>
+        Figure S6A
+       </a>
+       <sub>
+        1
+       </sub>
+       for anti-HRP staining of a wild-type embryo).
+      </p>
+      <p>
+       (D) A
+       <em>
+        CG14521
+       </em>
+       MiMIC homozygote stained with Dpr11-AP
+       <sub>
+        5
+       </sub>
+       (red). No staining of the cell bodies is observed.
+      </p>
+      <p>
+       (D
+       <sub>
+        1
+       </sub>
+       ) The same image as in (D), but showing both the Dpr11-AP
+       <sub>
+        5
+       </sub>
+       (red) and anti-GFP (green) signals. Note that the large dorsal cell bodies are present (arrow), and are brighter than in the heterozygote (B
+       <sub>
+        1
+       </sub>
+       ), but there is no red staining associated with them. One cell body is shown at higher magnification in the inset. Note also that in the homozygote the brighter GFP expression reveals other cell bodies that stain more weakly with anti-GFP, implying that they express
+       <em>
+        CG14521
+       </em>
+       at lower levels. Cell bodies at these positions are not detectably stained by Dpr11-AP
+       <sub>
+        5
+       </sub>
+       in (A) or (B).
+      </p>
+      <p>
+       (E) A wild-type embryo double-stained with Dpr11-AP
+       <sub>
+        5
+       </sub>
+       and anti-Fas2 mAb, showing the focal plane of the muscles, which are dorsal to the CNS focal plane in a live-dissected embryo. No CNS staining is visible in this focal plane, and the muscles do not stain with Dpr11-AP
+       <sub>
+        5
+       </sub>
+       . Motor axons are visible, however (red). The borders of the CNS are indicated by dotted lines.
+      </p>
+      <p>
+       (F) An embryo in which CG14521 was overexpressed in muscles. Note that these embryos display bright staining of the outlines of the ventrolateral and ventral muscle fibers (arrowhead indicates the muscle 6/7 border). Arrow, a motor axon bundle. Scale bar, 10 μm.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Staining of embryos heterozygous for this MiMIC element reveals that the large dorsal cell bodies that bind to Dpr11-AP
+     <sub>
+      5
+     </sub>
+     express the
+     <em>
+      CG14521
+     </em>
+     gene (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). The entire cell body is filled with GFP, while Dpr11 stains the rim of the cell (inset). Embryos homozygous for the
+     <em>
+      CG14521
+     </em>
+     MiMIC insertion still have these GFP-labeled dorsal cell bodies, but they are not stained by Dpr11 (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     ). Dpr11 also faintly stains neuronal processes in the CNS, and this staining is unaffected by loss of CG14521. Although the
+     <em>
+      CG14521
+     </em>
+     mutation is homozygous lethal, it has no visible effects on CNS axon ladder morphology as visualized with anti-HRP (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     ) or anti-Fas2 (data not shown).
+    </p>
+    <p>
+     We used a UAS-containing insertion upstream of
+     <em>
+      CG14521
+     </em>
+     to overexpress the gene in muscles, which normally do not stain with Dpr11-AP
+     <sub>
+      5
+     </sub>
+     (
+     <xref ref-type="fig">
+      Figure 7E
+     </xref>
+     ), and do not express the
+     <em>
+      CG14521
+     </em>
+     gene, since they are not green in
+     <em>
+      CG14521
+     </em>
+     MiMIC embryos.
+     <xref ref-type="fig">
+      Figure 7F
+     </xref>
+     shows that muscles ectopically expressing CG14521 stain brightly with Dpr11. Note that Dpr11 binds to both CG14521 and CG42343
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Figures 3A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), but there is no decrease in staining with Dpr11 in embryos homozygous for a deficiency removing
+     <em>
+      CG42343
+     </em>
+     , and we do not have an insertion that allows us to overexpress CG42343.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Overall Network Properties
+    </title>
+    <p>
+     A common feature of protein interaction networks is the presence of interaction hubs, molecules that bind to many other partners (
+     <xref ref-type="bibr">
+      Barabási and Oltvai, 2004
+     </xref>
+     ). Despite the limited size of our protein network, of which 85 had any interactions, we observed one hub molecule: DIPc (CG10824). DIPc connects to 19 molecules, where the average number of edges per node in the network is 0.55. The evolution of DIPc as a hub molecule is likely due to the expansion of Dpr and DIP subfamilies through gene duplication, which is the current paradigm for the emergence of hub molecules in protein interaction networks (
+     <xref ref-type="bibr">
+      Pastor-Satorras et al., 2003
+     </xref>
+     ). DIPc may have originally arisen to interact with the ancestral progenitor to Dprs and DIPs. Yet, while both subfamilies have retained their affinity for DIPc by virtue of gene duplication events, they diverged so as to acquire distinct Dpr/DIP binding specificities. It is unclear why the DIPc gene did not correspondingly expand to generate paralogs with private Dpr and DIP binding specificities. Insight into this question will likely be gained as the functional consequences of the DIP/Dpr interactions and the structural basis of DIPc engagement are revealed.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Estimates of Accuracy and Weaknesses
+    </title>
+    <p>
+     We have demonstrated that the ECIA can be a powerful tool for discovering extracellular protein-protein interactions accurately and in a high-throughput manner. We further examined whether ECIA could identify known interactions. Since no high quality databases exist for the
+     <em>
+      Drosophila
+     </em>
+     proteome, we manually curated a positive reference set from published literature for interactions within the set of proteins studied in this work (
+     <a>
+      Table S2
+     </a>
+     ; also in
+     <a>
+      Table S1
+     </a>
+     column T). Out of 44 interactions in the positive reference set, we detected 23 of them, for a true positive rate of 52%, where the combined, existing large datasets had 0%. For the subset of ECIA-derived interactions we tested biochemically, we found that none of them were false positives (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). Overall, our estimates of accuracy point to excellent data quality, and to a reliable collection of new receptor-ligand interactions.
+    </p>
+    <p>
+     We identified and addressed some possible problems that could impact the false negative and false positive rates of the ECIA. One issue that might lead to false positives is the presence of “sticky” proteins that appear to bind to an excessive number of unrelated proteins. Such proteins also give rise to elevated background averages, causing false negatives. We can account for these undesirable effects during data analysis through simple normalization of the data matrix within every bait and prey protein (See Extended Experimental Protocols:
+     <em>
+      Interactome Data Analysis
+     </em>
+     and
+     <em>
+      Other Properties of the ECIA data
+     </em>
+     ).
+    </p>
+    <p>
+     The major contributing factor to our false negative rate is that certain proteins only express at very low levels. We see very weak to undetectable expression for 27 out of 202 protein constructs (13%) (
+     <a>
+      Table S1
+     </a>
+     ). Out of our 21 false negatives, 8 involved proteins that expressed very weakly or not at all (
+     <a>
+      Table S2
+     </a>
+     , column H).
+    </p>
+    <p>
+     The axon guidance complex of Robo–Slit is one of our false negatives due to lack of Slit expression. However, we can demonstrate this interaction by labeling Slit in embryos with our Robo-AP
+     <sub>
+      5
+     </sub>
+     (prey) reagent (
+     <a>
+      Figure S7
+     </a>
+     ). Slit is known to bind Robo only with an N-terminal cleavage product (
+     <xref ref-type="bibr">
+      Wang et al., 1999
+     </xref>
+     ). To test whether cleavage was the culprit, we cloned the N- and C-terminal Slit fragments, and tested them against our complete prey collection. We saw that all fragments of Slit expressed, and all tested splice variants of Slit-N were able to bind the three Robo paralogs. Addition of these positives to our list of detected interactions increases our true positive rate to 59%.
+    </p>
+    <p>
+     The ECIA is sensitive enough that low expression levels are not uniformly detrimental to detecting interactions. An illustrative example is the Vein–Ihog/Boi interactions, despite nearly undetectable Vein expression. Overall, our results suggest that time-consuming standardization of protein concentrations for bait and prey, and the removal of weak or non-expressers are not necessary, and may not even be desirable. Since expression levels range over three orders of magnitude, normalization of protein quantities would require either heavy dilutions of strong expressers, resulting in loss of sensitivity, or removal altogether of weak expressers, resulting in false negatives. The oligomerization of the prey, as well as AP, results in signal amplification such that interactions of weak expressers can still be detected.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Cell surface receptors and secreted ligands mediate cellular adhesions of all types, serve as immune and neural receptors, connect the extracellular matrix to the cytoskeleton, determine cell shape, polarity and motility, relay extracellular signals to the cytoplasm, and regulate processes that can lead to disease. For our basic understanding of the development and functioning of complex organisms, determining protein-protein interactions within the extracellular milieu is crucial. Our study reports the complete interactome of extracellular IgSF, FnIII and LRR protein families of
+    <em>
+     D. melanogaster
+    </em>
+    , classes of proteins known to mediate important homeostatic functions and neural wiring, and shows that a majority of interactions (78%) were previously unidentified.
+    <em>
+     D. melanogaster
+    </em>
+    offers the advantage of rapid and accessible experimental tools to now assess the functions of these interactions by the scientific community.
+   </p>
+   <p>
+    High-throughput approaches to revealing extracellular interactomes can succeed only if the special requirements for the production and treatment of these proteins and the general properties of these interactions are factored into the strategy (X). Established high-throughput methods such as Y2H and AP/MS, which have been applied to complete proteomes with overall success, largely failed to identify interactions of the extracellular proteome, with true positive rates approaching zero. In contrast, the ECIA successfully identified previously unknown, as well as known interactions. Interestingly, the new interactions we identified in
+    <em>
+     D. melanogaster
+    </em>
+    do not bear obvious relationships to IgSF and LRR partners from zebrafish (
+    <xref ref-type="bibr">
+     Bushell et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Söllner and Wright, 2009
+    </xref>
+    ). An important feature of our study was the near completeness of the set of proteins screened due to the technically manageable number of IgSF, FnIII and LRR proteins in
+    <em>
+     D. melanogaster
+    </em>
+    , and this in large part accounted for our high yield of new interactions. We feel that completeness of the test set is important to minimize the chances of missing interactions (i.e. “holes in the repertoire”) that likely would be a consequence of screening incomplete collections or selected members of a family.
+   </p>
+   <p>
+    A large portion of our Extracellular Interactome Network is made up of protein subfamilies that likely function in nervous system development. These include the Beats, Sides, Dprs and DIPs. Beat-Ia and Side have central roles in the control of motor axon guidance (
+    <xref ref-type="bibr">
+     Fambrough and Goodman, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Siebert et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sink et al., 2001
+    </xref>
+    ), and mutants for some of the other Beats have subtle motor axon guidance defects. Each of the Beats is expressed in a different subset of CNS cells (
+    <xref ref-type="bibr">
+     Pipes et al., 2001
+    </xref>
+    ). These results, combined with our findings that Dprs and DIPs bind to subsets of cells in the CNS, suggest that these subfamilies of interacting proteins may have evolved to facilitate the formation of neuronal circuits. However, such roles may be difficult to uncover through standard LOF genetics, because none of the Dprs, DIPs, Beats, or Sides (a total of 54 genes) were identified in any published LOF screen for lethality or for axon guidance/synaptogenesis defects. The only LOF phenotype associated with any of the Dprs or DIPs is a defective salt aversion response in
+    <em>
+     dpr1
+    </em>
+    mutants. Dpr1 is expressed in a subset of gustatory neurons (
+    <xref ref-type="bibr">
+     Nakamura et al., 2002
+    </xref>
+    ). It is likely that LOF mutations in these genes will have subtle phenotypes, and analysis of such defects will require examination of the specific neuronal subsets that express these proteins. Another approach is to use GOF genetics, obtaining insights into the roles of the genes by expressing them at high levels in neurons or neuronal targets. This often produces stronger phenotypes than LOF mutations. Indeed, Dpr6, Dpr8, Dpr12, Dpr20, and the DIPs CG31708 and CG32791 were all found to produce defects in formation of motor neuron synapses when overexpressed in larval muscle fibers (
+    <xref ref-type="bibr">
+     Kurusu et al., 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    Our interactome results also highlighted that 53 of the 129 extracellular IgSF proteins have likely evolved from just two pairs of interacting proteins. We expect that large extracellular protein subfamilies with “interaction codes” between them fulfill a need for specificity in cell-to-cell adhesion and communication events during development. In other words, expression of a certain set of these receptors may differentiate specific sets of cells, axonal projections, synapses, and other cellular junctions, by virtue of their specific interactions to receptors expressed on neighboring cells or subcellular structures. Yet, such evolutionary relationships are not limited to these large subfamilies producing dense interaction codes; the four-member family of proteins related to
+    <em>
+     C. elegans
+    </em>
+    SYG-1 and SYG-2 (Rst, Kirre, SNS and Hbs), and the two novel binding partners of Fas2 (CG33543 and CG15630) are likewise products of more recent gene duplications (
+    <a>
+     Figure S4
+    </a>
+    ), resulting in multiplication of their interactions, and highlighting the importance of gene duplication in the evolution of multicellular organisms.
+   </p>
+   <p>
+    Expansion of extracellular interactomes to complete receptomes and secretomes is the next logical step in extanding our understanding of protein function in the extracellular space. Interactomes of special cellular structures (such as the neurological or the immune synapse), and of cell types (such as neurons or leukocytes) will have direct positive effects to those studying extracellular processes. Furthermore, we expect that animal genomes contain many unrecognized and orphan protein families (like DIPs), whose evolutionary origins can only be revealed by virtue of their associations with ligands, which must be experimentally determined. Interactome studies in other species and especially humans, which have a very large IgSF with ∼800 members, should reveal such interacting protein subfamilies.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <sec>
+    <title>
+     Molecular Cloning of
+     <em>
+      Drosophila
+     </em>
+     cDNA and Protein Expression
+    </title>
+    <p>
+     A majority of ECDs (140 out of 202) were cloned from cDNAs available from the BDGP (
+     <xref ref-type="bibr">
+      Stapleton et al., 2002a
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2002b
+     </xref>
+     ) and fly genetics community, while the remaining ECDs (62) were cloned from
+     <em>
+      Drosophila
+     </em>
+     adult and embryonic mRNAs using RT-PCR. Cloning into
+     <em>
+      Drosophila
+     </em>
+     expression vectors for bait and prey was achieved using TOPO TA Cloning followed by Gateway Recombination (Invitrogen). All bait and prey constructs were expressed using transient transfection of S2 cells. See Extended Experimental Procedures for details.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Interaction Assay and Data Analysis
+    </title>
+    <p>
+     Protein A-coated plates (96-well format, Thermo Fisher Scientific, 15130) were used to capture bait proteins from S2 transfection media. Prey binding was detected by alkaline phosphatase activity using the colorigenic BluePhos Phosphatase Substrate (KPL, 50-88-02), read at 650 nm using a VersaMax microplate reader (Molecular Dimensions). See Extended Experimental Procedures for details.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biophysical Studies of Interacting Protein Pairs
+    </title>
+    <p>
+     Extracellular domains (ECDs) of interest were cloned into pAcGP67A (BD Biosciences) with C-terminal hexahistidine tags for monomeric expression in
+     <em>
+      Trichoplusia ni
+     </em>
+     High Five cells (Invitrogen) using baculoviruses. Proteins were purified with immobilized metal affinity chromatography, followed by size exclusion chromatography. Surface Plasmon Resonance was performed with SA (Streptavidin) chips on a Biacore T100 (GE Healthcare); ligands for the stationary phase were tagged with Biotin C-terminal to the ECDs in order to be captured by on-chip SA. See Extended Experimental Procedures for details.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In Vivo Staining of
+     <em>
+      Drosophila
+     </em>
+     Embryos
+    </title>
+    <p>
+     We have used protocols established as in (
+     <xref ref-type="bibr">
+      Lee et al., 2009
+     </xref>
+     ); also see Extended Experimental Procedures for details.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (63K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     02
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (22K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     03
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (58K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     04
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (17K, xlsx)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     05
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (9.9M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

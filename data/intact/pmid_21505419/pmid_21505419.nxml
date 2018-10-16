@@ -1,0 +1,1191 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3117643
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural basis for endosomal recruitment of ESCRT-I by ESCRT-0 in yeast
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The ESCRT-0 and ESCRT-I complexes coordinate the clustering of ubiquitinated cargo with intralumenal budding of the endosomal membrane, two essential steps in vacuolar/lysosomal protein sorting from yeast to humans. The 1.85-Å crystal structure of interacting regions of the yeast ESCRT-0 and ESCRT-I complexes reveals that PSDP motifs of the Vps27 ESCRT-0 subunit bind to a novel electropositive N-terminal site on the UEV domain of the ESCRT-I subunit Vps23 centred on Trp16. This novel site is completely different from the C-terminal part of the human UEV domain that binds to P(S/T)AP motifs of human ESCRT-0 and HIV-1 Gag. Disruption of the novel PSDP-binding site eliminates the interaction
+     <em>
+      in vitro
+     </em>
+     and blocks enrichment of Vps23 in endosome-related class E compartments in yeast cells. However, this site is non-essential for sorting of the ESCRT cargo Cps1. Taken together, these results show how a conserved motif/domain pair can evolve to use strikingly different binding modes in different organisms.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     crystal structure, Cps1, protein structure, vacuole, yeast genetics
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Eukaryotes share a conserved mechanism for the degradation of damaged, dangerous, or unneeded integral membrane proteins through their ubiquitin-dependent sorting to the lysosome or vacuole (
+    <xref ref-type="bibr">
+     Piper and Luzio, 2007
+    </xref>
+    ). The endosomal sorting complexes required for transport (ESCRT) complexes are responsible for carrying out this task (
+    <xref ref-type="bibr">
+     Raiborg and Stenmark, 2009
+    </xref>
+    ). Most of the defining mechanistic studies of this pathway have been carried out in yeast cells (
+    <xref ref-type="bibr">
+     Coonrod and Stevens, 2010
+    </xref>
+    ) or using yeast proteins, while the physiology has been intensively studied in multicellular organisms. In multicellular organisms and fission yeast, the ESCRT complexes are required for the membrane abscission step in cytokinesis (
+    <xref ref-type="bibr">
+     McDonald and Martin-Serrano, 2009
+    </xref>
+    ). Moreover, the release of enveloped viruses, including HIV-1, from the plasma membrane of infected human cells requires the ESCRTs in most cases (
+    <xref ref-type="bibr">
+     Morita and Sundquist, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     McDonald and Martin-Serrano, 2009
+    </xref>
+    ).
+   </p>
+   <p>
+    The process of membrane protein sorting to the lysosome or vacuole can be divided into four steps: clustering of ubiquitinated cargo proteins on endosomes; inward budding of the endosomal membrane; severing of membrane buds to yield intralumenal vesicles (ILVs); and recycling of membrane-bound components to the cytosol (
+    <xref ref-type="bibr">
+     Hurley and Hanson, 2010
+    </xref>
+    ). The end product of these four steps is the biogenesis of a multivesicular body (MVB) containing the cargo within ILVs. The MVB goes on to fuse with the lysosome or vacuole via the Vps class C protein complexes. These four steps in MVB biogenesis are carried out, respectively, by ESCRT-0 (
+    <xref ref-type="bibr">
+     Piper et al, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wollert and Hurley, 2010
+    </xref>
+    ); ESCRT-I and II (
+    <xref ref-type="bibr">
+     Katzmann et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Babst et al, 2002b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wollert and Hurley, 2010
+    </xref>
+    ); ESCRT-III (
+    <xref ref-type="bibr">
+     Babst et al, 2002a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wollert et al, 2009
+    </xref>
+    ); and the Vps4–Vta1 complex (
+    <xref ref-type="bibr">
+     Babst et al, 1998
+    </xref>
+    ). In this study, we focus on the coordination of the first two steps, which is mediated by direct binding between the ESCRT-0 and ESCRT-I complexes.
+   </p>
+   <p>
+    The current model of ESCRT-I recruitment to endosomes downstream of ESCRT-0 stems from insights into HIV-1 budding. HIV-1 recruits the ESCRTs to budding sites via a PTAP motif in the Gag p6 domain (
+    <xref ref-type="bibr">
+     Garrus et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Martin-Serrano et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     VerPlank et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Demirov et al, 2002a
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2002b
+    </xref>
+    ). This PTAP motif binds directly to the UEV domain of the TSG101 (also known as VPS23) subunit of human ESCRT-I, and the structure of the complex has been solved by solution NMR (
+    <xref ref-type="bibr">
+     Pornillos et al, 2002
+    </xref>
+    ) and X-ray crystallography (
+    <xref ref-type="bibr">
+     Im et al, 2010
+    </xref>
+    ). A PSAP motif located within an intrinsically flexible region of the Hrs subunit of ESCRT-0 (
+    <xref ref-type="bibr">
+     Ren et al, 2009
+    </xref>
+    ) serves the equivalent function in ESCRT-I recruitment in the normal MVB pathway in human cells (
+    <xref ref-type="bibr">
+     Bache et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lu et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pornillos et al, 2003
+    </xref>
+    ). The yeast orthologue of Hrs is Vps27. Vps27 lacks P(S/T)AP motifs, but rather has two PSDP sequences (
+    <xref ref-type="bibr">
+     Bilodeau et al, 2003
+    </xref>
+    ) and a PTVP sequence (
+    <xref ref-type="bibr">
+     Katzmann et al, 2003
+    </xref>
+    ) that have been proposed to serve equivalent functions in the recruitment of ESCRT-I (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). All three of these motifs are located C-terminal to the core region of Vps27 involved in ESCRT-0 assembly (
+    <xref ref-type="bibr">
+     Prag et al, 2007
+    </xref>
+    ).
+   </p>
+   <fig id="f1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      Primary structures of Vps23 and Vps27 proteins. (
+      <strong>
+       A
+      </strong>
+      ) Schematic representation of yeast (
+      <em>
+       S. cerevisiae
+      </em>
+      ) Vps27. VHS (Vps27, Hrs, and STAM), FYVE (Fab 1, YOTB, Vac 1, and EEA1), UIM (ubiquitin-interacting motif), GAT domain (GGA and Tom1), and CB (clathrin-binding motif). PSDP and PTVP refer to the proposed Vps23-binding motifs. (
+      <strong>
+       B
+      </strong>
+      ) The amino-acid sequences of yeast Vps23 and human TSG101-UEV domain are aligned based on the three-dimensional structural superposition. The secondary structure of Vps23-UEV (coloured in light blue) is listed above the alignment; the corresponding secondary structure of TSG101-UEV is shown under the sequence alignment. The residues involved in Vps27-PSDP1 peptide binding are highlighted in red upon Vps23-UEV domain. The residues involved in HIV-1 Gag PTAP or human Hrs-PSAP peptide binding are coloured in blue.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Despite the seeming parallels in the ESCRT-0:ESCRT-I interaction in humans and yeast, there are also important differences. The high-resolution crystal structures of P(S/T)AP peptides from HIV-1 and from the human Hrs subunit of ESCRT-0 bound to the human TSG101-UEV domain showed that the Ala residue of the motif is surrounded on every side by a shallow hydrophobic pocket. The nature of this backbone surrounding this pocket is such that it is difficult to model any simple series of amino-acid changes that would convert it to bind the Asp or Thr residues of the putative motifs in Vps27 (
+    <xref ref-type="bibr">
+     Im et al, 2010
+    </xref>
+    ). Indeed, a peptide based on one of the Vps27-PSDP motifs does not bind to the human UEV domain (
+    <xref ref-type="bibr">
+     Im et al, 2010
+    </xref>
+    ). Moreover, the overall binding site for the apparently conserved Pro and Ser/Thr residues of the motif is not preserved in the crystal structure of the UEV domain of Vps23 (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    ), the yeast orthologue of TSG101 (
+    <xref ref-type="bibr">
+     Teo et al, 2004
+    </xref>
+    ). In order to resolve these questions, we characterized the binding of peptides based on the two Vps27-PSDP motifs to the Vps23-UEV domain and determined the crystal structure of a complex with the first PSDP motif. Remarkably, the peptide binds to a basic site near the N-terminus of the UEV domain, contrary to expectation, yet consistent with the importance of the Asp residue and the lack of conservation of the P(S/T)AP-binding site in yeast Vps23.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Structure of a PSDP peptide bound to Vps23-UEV
+    </title>
+    <p>
+     The nine-residue peptide ‘PSDP
+     <sub>
+      1
+     </sub>
+     ' comprising residues
+     <sub>
+      445
+     </sub>
+     QVPSDPYNY
+     <sub>
+      453
+     </sub>
+     of
+     <em>
+      Saccharomyces cerevisiae
+     </em>
+     Vps27 (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) was co-crystallized with the UEV domain of
+     <em>
+      S. cerevisiae
+     </em>
+     Vps23. The structure was determined by molecular replacement using the coordinates of the Vps23-UEV domain bound to ubiquitin (1UZX) (
+     <xref ref-type="bibr">
+      Teo et al, 2004
+     </xref>
+     ) and refined at 1.85 Å resolution (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). The PSDP
+     <sub>
+      1
+     </sub>
+     peptide binds in a groove between the α1-helix and the β1–β2 strands of the UEV domain (
+     <xref ref-type="fig">
+      Figures 1B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). We designate this site ‘type II' to distinguish it from the P(S/T)AP-binding region of the human TSG101-UEV domain (
+     <xref ref-type="fig">
+      Figures 1B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The TSG101 site, which we designate ‘type I', is formed by the β2 and β3 strands, part of the β4–α3 loop, and the C-terminal strand β6 (
+     <xref ref-type="fig">
+      Figures 1B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The two sites are entirely distinct from one another.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Structure of the yeast Vps23-UEV domain bound to the Vps27-PSDP1 peptide. (
+       <strong>
+        A
+       </strong>
+       ) Simulated-annealing
+       <em>
+        F
+       </em>
+       <sub>
+        o
+       </sub>
+       –
+       <em>
+        F
+       </em>
+       <sub>
+        c
+       </sub>
+       omit map of Vps27-PSDP
+       <sub>
+        1
+       </sub>
+       peptide with the final model superimposed. The map is contoured at 2.0 σ. (
+       <strong>
+        B
+       </strong>
+       ) Overall structure of yeast Vps23-UEV domain (coloured blue to red from the N- to C-terminus) in complex with Vps27-PSDP
+       <sub>
+        1
+       </sub>
+       peptide (orange). (
+       <strong>
+        C
+       </strong>
+       ) Structural comparison of the yeast (orange) and human (blue protein, green peptide; PDB id: 3OBQ) UEV domains bound to their cognate ESCRT-0 peptides. (
+       <strong>
+        D
+       </strong>
+       ) A ball and stick representation of the Vps27-PSDP
+       <sub>
+        1
+       </sub>
+       peptide (orange) binding to Vps23-UEV domain (green). (
+       <strong>
+        E
+       </strong>
+       ) Electrostatic surface representation of the Vps23-UEV/Vps27-PSDP
+       <sub>
+        1
+       </sub>
+       peptide. The electrostatic surface was coloured using the APBS tool within PyMOL with saturating blue and red colour corresponding to ±3 kT/e. (
+       <strong>
+        F
+       </strong>
+       ) Structural comparison between the PSDP
+       <sub>
+        1
+       </sub>
+       -bound (orange) and unliganded (blue) UEV domains. (
+       <strong>
+        G
+       </strong>
+       ) Structural comparison between the PSDP
+       <sub>
+        1
+       </sub>
+       -bound (orange) and ubiquitin-bound (blue; PDB id: 1UZX) UEV domains.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Statistics of data collection and crystallographic refinement
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The residues Ser448, Asp449, and Pro450 form the most extensive interactions with the UEV domain type II site (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). These three central residues are in a β-strand conformation. The main-chain carbonyl of Vps27 Ser448 forms a hydrogen bond with the backbone amide of Vps23 Thr49, and the main-chain amide of Ser448 hydrogen bonds with the side-chain hydroxyl of Thr49. Thus, the short β strand of the peptide is slightly displaced compared with what its position would have been in a canonical β-sheet. This short central tripeptide is the locus of the most critical recognition elements.
+    </p>
+    <p>
+     Trp16 of Vps23 is the linchpin of the type II peptide binding site. The side-chain hydroxyl of Ser448 makes a hydrogen bond with the side-chain indole Nɛ of Vps23 Trp16. This interaction explains the requirement for a Ser at position –2 in the yeast Vps23-binding motif, following the numbering scheme in which the final Pro is residue 0 (
+     <xref ref-type="bibr">
+      Im et al, 2010
+     </xref>
+     ). The acidic side chain of Vps27 Asp449 is located within 5–7 Å of the guanidine groups of Arg46, Arg48, and Arg50 of Vps23. The Asp449-binding site has a highly electropositive character, with the maximum electrical potential centred on the binding site for the Asp side chain (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ). No direct hydrogen bonds are formed with any of the Arg side chains, but there is a water-mediated interaction with Arg48. Furthermore, Asp449 forms another water-mediated hydrogen bond with the hydroxyl group of Vps23 Tyr66. The combination of electrostatic and hydrogen bonding interactions explains the preference for Asp at position –1 of the yeast Vps23-binding motif. One face of the ring of Vps27 Pro450 interacts with Val13 and Pro47 of Vps23. The other face of Pro450 packs against Vps23 Trp16. The dual interactions of Vps23 Trp16 with both the Ser and Pro of the motif highlight this residue as the central defining element of the Vps27-binding site on Vps23.
+    </p>
+    <p>
+     More peripherally, only one residue each N- and C-terminal to the core of the motif interact with the UEV domain. Pro447 interacts via one face with Vps23 Val51 and Leu61, while its other face is exposed to solvent. Thus, the first Pro –3 of the motif seems less central to recognition than the final Pro 0. Position +1 of the motif is not conserved, even within Vps27. Nevertheless, the side chain of Tyr451 at the +1 position stacks against the flat guanidino group of Vps23 Arg46, and makes van der Waals contact with Val13. At this stage, the next residue of the PSDP
+     <sub>
+      1
+     </sub>
+     peptide is the polar Asn452. Here, the peptide turns toward solvent and is poorly visualized in electron density. While less central in their roles, the residues that immediate flank the central PSDP sequence still modulate binding, as described below.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structure of the unliganded Vps23-UEV domain and conformational changes
+    </title>
+    <p>
+     In order to determine whether PSDP motif binding to the type II site on the UEV domain induces structural changes, the structure of the unliganded Vps23-UEV domain was determined and refined at 1.45 Å resolution (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). The unliganded domain was crystallized in a different space group and with different solvent than the peptide complex. Overall, the structures differ by 1.5 Å r.m.s.d. over 128 Cα positions. The largest changes are in the β2–β3 hairpin, helix α3′, the ubiquitin-binding ‘lip' region (the loop between α3′ and α3), and the C-terminus (
+     <xref ref-type="fig">
+      Figure 2F
+     </xref>
+     ). The backbone coordinates in the PSDP-binding region are almost identically superimposable in the PSDP
+     <sub>
+      1
+     </sub>
+     bound and unliganded structures. Even the UEV domain side chains directly involved in peptide binding barely change position. The largest side-chain shift is a 5-Å movement of the guanidine group of Arg46, which allows it to pack against Tyr451 of the peptide. Therefore, we conclude that the structure differences in the C-terminal half of the domain are caused by differences in the crystal conditions and packing, and are not caused by PSDP
+     <sub>
+      1
+     </sub>
+     motif binding.
+    </p>
+    <p>
+     A three-way comparison of the ubiquitin-bound, peptide-bound, and unbound states reinforces these impressions. The side-chain conformations in the PSDP-binding site in virtually unchanged between all three of the structures. This is a remarkable display of rigidity in three different structures determined in different space groups and bound to different ligands. The backbone of the β1–β2 hairpin, which connects the PSDP and ubiquitin binding sites, is nearly superimposable in all three. The largest difference in the β1–β2 hairpin is a change in the rotamer of the Ser55 side chain in the ubiquitin complex so as to bind ubiquitin. Thus, PSDP peptide binding appears not to produce any significant conformational change in the Vps23-UEV domain and there appears to be no allosteric communication between these two sites. Ubiquitin binding does trigger substantial conformational changes in the same regions that vary in structure between the unbound and peptide-bound complexes due to crystal packing. Thus, induced fit upon ubiquitin binding takes advantage of the intrinsic flexibility of the relevant interaction loops in the UEV domain.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Comparison of type I and II P(S/T)XP-binding sites
+    </title>
+    <p>
+     The hairpin turn connecting the β1 and β2 strands is involved in ubiquitin binding in both yeast (
+     <xref ref-type="bibr">
+      Teo et al, 2004
+     </xref>
+     ) and human UEV domains (
+     <xref ref-type="bibr">
+      Sundquist et al, 2004
+     </xref>
+     ). However, the ubiquitin-binding site does not overlap with the PSDP-binding site (
+     <xref ref-type="fig">
+      Figure 2G
+     </xref>
+     ). The crystal structures of the peptide-bound yeast and human UEV domains are superimposable over most of their N-terminal and central portions, with 118 Cα positions deviating by 1.3 Å. The backbone C-terminal to β4, which includes several key type I PTAP-binding residues, follows a different course in the Vps23-UEV domain. Following the C-terminus of helix α4 in the yeast structure, the backbones of the non-conserved C-terminal regions diverge in different directions. The C-terminal extension of the human UEV domain folds into strand β6 in the PTAP-bound complex and is central to the architecture of the type I site. The only part of the type I site where the backbone conformation is preserved from yeast to humans is in strand β3. Yet even here, equivalent Cα positions differ by ∼3 Å, and most of the key type I site residues are not conserved. The type II site present a very different picture in that the backbone conformation in the yeast and human UEV domains is nearly identical. This N-terminal zone appears to be far more structurally rigid than the regions surrounding the ubiquitin and type I binding sites. Here, key PSDP-binding residues in Vps23, notably Trp16, Arg48 and Arg50, are not conserved in TSG101. The inability of TSG101 to bind PSDP motifs derives not from gross structural changes, but rather from deficits in a handful of critical type II interactions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry of motif binding to the UEV domain
+    </title>
+    <p>
+     Isothermal titration calorimetry (ITC) analysis showed that both of the PSDP motif peptides bound with tens of micromolar affinity to the UEV domain (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). The PSDP
+     <sub>
+      1
+     </sub>
+     peptide binds with
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =84 μM, compared with
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =14 μM for the PSDP
+     <sub>
+      2
+     </sub>
+     peptide. The peptides bind with a best-fit stoichiometry of
+     <em>
+      n
+     </em>
+     =1.1 to 1.3, which we interpret to signify single site binding. The differences in affinity between the PSDP
+     <sub>
+      1
+     </sub>
+     and PSDP
+     <sub>
+      2
+     </sub>
+     peptides show that flanking residues outside the core motif do modulate affinity to some extent. The PTVP did not bind to the UEV domain, however, nor did the Hrs-PSAP peptide. The absence of PTVP binding is consistent with an essential role for the (−1) position as a specificity determinant. Indeed, the D525A mutant of the PSDP
+     <sub>
+      2
+     </sub>
+     peptide had a 16-fold lower affinity than wild type (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). The lack of high affinity PSAP binding is consistent with the gross changes in the C-terminal part of the yeast UEV structure relative to human, which obliterate most of the type I site. We therefore interpret the weak binding of the D525A mutant peptide as a residual type II interaction, not a type I interaction. The W16A-UEV mutant completely fails to bind PSDP peptides, consistent with the central role of Trp16 (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). The mutant T49V, designed to eliminate the hydrogen bond with the amide nitrogen of the –2 residue, reduced, but did not completely abolish binding. Similarly, the L61N mutant, designed to disrupt the hydrophobic contact between the Pro(–3) ring and Leu61, impaired binding. These results corroborate the identification of the two PSDP motifs as the loci of Vps27 binding to Vps23. They also confirm that the crystallographic results and solution binding data refer to the same underlying interaction.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Isothermal titration calorimetry of UEV–peptide interactions. (
+       <strong>
+        A
+       </strong>
+       ) Binding of various P(S/T)XP peptides to wild-type Vps23-UEV domain. The inset showed the differential heat released when Vps27-PSDP
+       <sub>
+        2
+       </sub>
+       peptide (0.3 mM) was injected into the Vps23-UEV wild-type solution (3 mM) in 2.1 μl aliquots (Hrs-PSAP peptide sequence—PTPSAPVPL). (
+       <strong>
+        B
+       </strong>
+       ) Binding of wild-type and mutant Vps27-PSDP
+       <sub>
+        2
+       </sub>
+       peptides fused to the carrier protein GB1 to Vps23-UEV. (
+       <strong>
+        C
+       </strong>
+       ) Binding of Vps27-PSDP peptides to Vps23-UEV wild type or mutants. The insets show the differential heat released in each experiment. Error bars represent the s.d. of three measurements.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Cellular function of the Vps23 type II site
+    </title>
+    <p>
+     ESCRT-I is predominantly cytosolic in both wild-type and the type II site mutant
+     <em>
+      VPS23
+     </em>
+     <sup>
+      <em>
+       W16A
+      </em>
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). Wild-type ESCRT-I becomes partially trapped in the class E compartments that are induced in
+     <em>
+      vps4
+     </em>
+     Δ cells (
+     <xref ref-type="bibr">
+      Katzmann et al, 2001
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ), which provides a convenient diagnostic for the determinants of endosomal localization. The mean number of wild-type Vps23-containing puncta was 1.4 per cell based on blind counting.
+     <em>
+      VPS23
+     </em>
+     <sup>
+      <em>
+       W16A
+      </em>
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ), but not
+     <em>
+      VPS23
+     </em>
+     , was cytosolic in
+     <em>
+      vps4
+     </em>
+     Δ
+     <em>
+      vps23
+     </em>
+     Δcells, indicating an impairment of endosomal localization in the
+     <em>
+      VPS23
+     </em>
+     <sup>
+      <em>
+       W16A
+      </em>
+     </sup>
+     form of ESCRT-I. The mean number of Vps23
+     <sup>
+      W16A
+     </sup>
+     -containing puncta was reduced to 0.2 per cell. This pattern is similar to the cytosolic distribution of Vps23-GFP seen previously in
+     <em>
+      vps27
+     </em>
+     Δ
+     <em>
+      524-622vps4
+     </em>
+     Δ cells (
+     <xref ref-type="bibr">
+      Katzmann et al, 2003
+     </xref>
+     ), where the Vps27 deletion eliminated the second PSDP motif. We next examined the effect of blocking the PSDP-binding site on trafficking of the canonical ESCRT cargo, Cps1. Cps1 sorting to the vacuole is normal in
+     <em>
+      vps23
+     </em>
+     Δ
+     <em>
+      VPS23
+     </em>
+     and
+     <em>
+      vps23
+     </em>
+     Δ
+     <em>
+      VPS23
+     </em>
+     <sup>
+      <em>
+       W16A
+      </em>
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5B and C
+     </xref>
+     ). The observation of a normal Cps1 sorting phenotype in
+     <em>
+      vps23
+     </em>
+     Δ
+     <em>
+      VPS23
+     </em>
+     <sup>
+      <em>
+       W16A
+      </em>
+     </sup>
+     cells mirrors the finding that a double PSDP mutant allele of
+     <em>
+      VPS27
+     </em>
+     sorts Ste3 and the artificial MVB cargo Fth1-Ub normally, and is not strikingly divergent from the mild Cps1 sorting defect in these cells (
+     <xref ref-type="bibr">
+      Bilodeau et al, 2003
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Localization of wild-type and mutant Vps23. Fluorescence microscopy of
+       <em>
+        vps23
+       </em>
+       Δ (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        B
+       </strong>
+       ) and
+       <em>
+        vps23
+       </em>
+       Δ
+       <em>
+        vps4
+       </em>
+       Δ (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) cells expressing
+       <em>
+        VPS23-mCherry
+       </em>
+       (
+       <strong>
+        A
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ) or
+       <em>
+        VPS23-W16A-mCherry
+       </em>
+       (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) demonstrates that the W16A mutation nearly eliminates the enrichment of Vps23 at class E compartments. For quantification of mCherry-labelled puncta in
+       <em>
+        vps23
+       </em>
+       Δ
+       <em>
+        vps4
+       </em>
+       Δ cells, 40 fields (20 each for wild type and W16A) containing an average of 14 cells/field were imaged, the images were coded with random identifiers, and puncta were counted blind to genotypic identity.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       The Vps27-binding site on Vps23 is non-essential for Cps1 sorting. The
+       <em>
+        vps23
+       </em>
+       Δ cells were co-transformed with the empty vector (
+       <strong>
+        A
+       </strong>
+       ),
+       <em>
+        GFP-CPS1
+       </em>
+       and
+       <em>
+        VPS23
+       </em>
+       (
+       <strong>
+        B
+       </strong>
+       ), or
+       <em>
+        VPS23-W16A
+       </em>
+       (
+       <strong>
+        C
+       </strong>
+       ) to assess the MVB sorting. The
+       <em>
+        VPS23-W16A
+       </em>
+       mutant showed the normal Cps1 sorting.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Evolution of type I and type II binding sites
+    </title>
+    <p>
+     Trp16, Thr49, and Leu61 of
+     <em>
+      S. cerevisiae
+     </em>
+     Vps23 can be considered diagnostic residues for the type II site. These residues are identically conserved in all fungi examined, with the exception of the fission yeast
+     <em>
+      Schizosaccharomyces
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ). This trio is absent from essentially all of the Vps23 orthologues in fission yeast, plants, and animals, however. On the other hand, key residues of the type I site, such as Met95 of human TSG101, are conserved in all multicellular organisms examined, but absent in most fungi.
+     <em>
+      Aspergillus nidulans
+     </em>
+     and
+     <em>
+      Cryptococcus neoformans
+     </em>
+     are interesting exceptions in that their Vps23 sequences contain both types of binding site.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Conservation of type I and type II P(S/T)XP-binding sites. The signature of the type II site is a Trp residue in the first α-helix, which is conserved in most fungi, except fission yeasts. The conserved residues in the type II binding site are highlighted in red; key type I binding site residues are coloured in blue.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    This study was conceived in the wake of structural analysis of the human ESCRT-0 and HIV-1 P(S/T)AP motifs bound to the UEV domain of human VPS23 at increasing levels of resolution (
+    <xref ref-type="bibr">
+     Pornillos et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Im et al, 2010
+    </xref>
+    ). The detailed picture of the human P(S/T)AP:UEV interaction showed that Ala(–1) of the motif was tightly packed in a shallow pocket that left no room for the substitution of even a single non-hydrogen atom for one of the methyl hydrogens of the side chain. It was thus difficult to reconcile with the presence of a putative Asp or Thr residue replacing the Ala(–1) of the human motif with a common binding mode. The low sequence and structural conservation between the type I region in the yeast and human UEV domains was another concern. Here, we found that the PSDP motifs are the bona fide Vps23-binding site on Vps27. We have answered the puzzle posed at the outset by showing that the yeast PSDP motifs bind to a completely novel site on the yeast UEV domain.
+   </p>
+   <p>
+    We have also shown that P(S/T)AP and PTVP-type sequences do not bind strongly to the yeast Vps23-UEV domain, which constrains the number and identity of its binding partners. The improved understanding of the determinants for interaction with the yeast UEV domains should be useful in identifying (and ruling out) potential binding partners in various species. Our observations are consistent, for example, with the recent identification of the yeast arrestin-related protein Rim8 as an SDP-containing Vps23 interactor (
+    <xref ref-type="bibr">
+     Herrador et al, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    The observation that
+    <em>
+     VPS23
+    </em>
+    <sup>
+     <em>
+      W16A
+     </em>
+    </sup>
+    prevents enrichment of ESCRT-I in class E compartments
+    <em>
+     vps4
+    </em>
+    Δ cells confirms the physiological relevance of the novel type II PSDP-binding site on the Vps23-UEV domain. It might seem counterintuitive that expression of this same
+    <em>
+     VPS23
+    </em>
+    <sup>
+     <em>
+      W16A
+     </em>
+    </sup>
+    allele does not lead to a Cps1 sorting defect. Enrichment of ESCRTs in class E compartments induced in strains such as
+    <em>
+     vps4
+    </em>
+    Δ is an imperfect surrogate for the normal process of transient recruitment and function of ESCRTs at endosomes. Indeed, the dissociation of ESCRT-0, -I, and -II from endosomes is not strictly dependent on Vps4 (
+    <xref ref-type="bibr">
+     Nickerson et al, 2010
+    </xref>
+    ).
+    <em>
+     In vitro
+    </em>
+    functional analysis of the ESCRT-0:ESCRT-I interaction showed that PSDP mutant of ESCRT-0 microdomains had reduced, but still non-zero co-localization with ESCRT-I and -II-induced buds on giant unilamellar vesicles (
+    <xref ref-type="bibr">
+     Wollert and Hurley, 2010
+    </xref>
+    ). The yeast findings mirror those in human cells. In HeLa cells, a human
+    <em>
+     TSG101
+    </em>
+    allele defective in its P(S/T)AP-binding site is still able to rescue endogenous EGF receptor sorting following knockdown of endogenous
+    <em>
+     TSG101
+    </em>
+    (
+    <xref ref-type="bibr">
+     Im et al, 2010
+    </xref>
+    ). Taken together, these findings reinforce the concept that cargo sorting is robust to disruptions of the ESCRT-0:ESCRT-I interaction across species from yeast to humans.
+   </p>
+   <p>
+    It is remarkable that two very similar motifs in two orthologous proteins, which bind to the same conserved domain in their orthologous binding partners, use completely different binding sites and modes of recognition. How might this have arisen in evolution? A few fungi, such as
+    <em>
+     Aspergillus
+    </em>
+    , have Vps23 proteins that contain both type I and II sites (
+    <xref ref-type="fig">
+     Figure 6
+    </xref>
+    ). PSDP and P(S/T)AP motifs are often found within larger tracts of Pro- and Ser-rich sequence, which tend to be compositionally simple and degenerate. In the overlaid structures of the peptide-bound yeast and human UEV domains, the C-terminus of the yeast peptide is 17 Å from the N-terminus of the human peptide, with no intervening obstacles. It seems conceivable that the proteome of an ancestor of
+    <em>
+     Aspergillus
+    </em>
+    or a related species might include a protein containing a PSDP-like sequence followed by a short linker and then a P(S/T)AP-like sequence, although we have not been able to firmly establish such a ‘missing link' Vps27 orthologue.
+   </p>
+   <p>
+    It is striking that plant Vps23-UEV domains all appear to have an intact type I binding site, even though plants lack Vps27 orthologues (
+    <xref ref-type="bibr">
+     Leung et al, 2008
+    </xref>
+    ). Plants and
+    <em>
+     Dictyostelium
+    </em>
+    contain Tom1 proteins that bind ubiquitin and have been proposed to substitute for ESCRT-0 in these organisms (
+    <xref ref-type="bibr">
+     Blanc et al, 2009
+    </xref>
+    ). At least some Tom1-like proteins, including human Tom1L1 and
+    <em>
+     Dictyostelium
+    </em>
+    DdTom1, bind to ESCRT-I via P(S/T)AP motifs (
+    <xref ref-type="bibr">
+     Puertollano, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Blanc et al, 2009
+    </xref>
+    ). This is consistent with the preservation of the type I binding site in the ESCRT-I UEV domain of
+    <em>
+     Dictyostelium
+    </em>
+    and other species whose proteomes contain Tom1-like proteins but not ESCRT-0. The conceptual division of ESCRT-I complexes into type I and type II motif binders illuminates the complexities of ESCRT evolution. Moreover, these results show how an orthologous interacting motif/domain pair can co-evolve to use strikingly different structural binding modes across the eukarya.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein expression and purification
+    </title>
+    <p>
+     DNA coding for the
+     <em>
+      S. cerevisiae
+     </em>
+     Vps23-UEV domain (residues 1–160) was subcloned into the pGST2 vector (
+     <xref ref-type="bibr">
+      Sheffield et al, 1999
+     </xref>
+     ). The mutation C133A was engineered in order to improve the crystallization properties of Vps23-UEV. This C133A mutant is referred as wild-type UEV in the rest of this study. The C133A background was used for all structural and
+     <em>
+      in vitro
+     </em>
+     experiments, but the true wild type was used for
+     <em>
+      in vivo
+     </em>
+     studies. All other UEV mutants for use in
+     <em>
+      in vitro
+     </em>
+     experiments were prepared in the C133A background. Site-directed mutagenesis (Stratagene) was confirmed by DNA sequencing. All Vps23-UEV proteins were tagged with an N-terminal GST followed by a TEV protease cleavage site. The plasmids coding for Vps23-UEV wild type or mutants were transformed into
+     <em>
+      Escherichia coli
+     </em>
+     BL21 (DE3) cells and overexpressed in ZYM-5052 autoinduction medium (
+     <xref ref-type="bibr">
+      Studier, 2005
+     </xref>
+     ). Cell pellets were resuspended in 1 × PBS buffer supplemented with a protease inhibitor cocktail (Sigma) and lysed by sonication. The GST-Vps23-UEV was purified using a glutathione-sepharose column (GE Healthcare) and then eluted in 20 mM
+     <span>
+      L
+     </span>
+     -glutathione reduced/1 × PBS buffer. After TEV cleavage overnight at 4°C, the samples were passed through glutathione-sepharose and then Ni resin to remove GST tag and TEV protease. The flow through solution was concentrated and applied to a Superdex 75 column (GE Healthcare) in 20 mM Tris pH 7.3, 100 mM NaCl.
+    </p>
+    <p>
+     The yeast Vps27 residues 521–528 (PSDP
+     <sub>
+      2
+     </sub>
+     ) and the corresponding D525A mutant were subcloned into a pHis2 vector (
+     <xref ref-type="bibr">
+      Sheffield et al, 1999
+     </xref>
+     ) derivative, which contains an N-terminal His
+     <sub>
+      6
+     </sub>
+     tag, followed by GB1-T2Q (immunoglobulin G binding domain B1 of streptococcal protein G, T2Q mutant) and a linker encoding the residues DTTENLYFQGAMGSGIQR. GB1 fusion proteins were expressed in
+     <em>
+      E. coli
+     </em>
+     BL21 (DE3) cells in Terrific Broth medium, and induced overnight at 20°C. Cells were lysed by sonication under denaturing condition: 50 mM Tris pH 7.4, 300 mM NaCl, 10 mM imidazole, and 6 M urea. The cleared cell lysate was loaded onto a Ni-NTA affinity column (Qiagen), and urea concentration in the wash buffer was gradually decreased to refold the protein on the column. The proteins were eluted in 0.2 M imidazole. The elution samples were diluted five-fold with monoQ buffer (30 mM HEPES, pH 7.10), then purified on a monoQ 5/50GL column (GE Healthcare). The pure fractions were concentrated and applied onto a HiLoad 26/60 Superdex 75 column in the ITC buffer. The mass of each GB1 fused protein was confirmed by electrospray mass spectrometry.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and crystallographic analysis
+    </title>
+    <p>
+     The three Vps27 peptides used in this study, denoted PSDP
+     <sub>
+      1
+     </sub>
+     , PSDP
+     <sub>
+      2
+     </sub>
+     and PTVP, were synthesized and purified on HPLC by New England Peptide (Gardner, MA). For crystallization, PSDP
+     <sub>
+      1
+     </sub>
+     peptide and Vps23-UEV domain were mixed at a 3:1 molar ratio. Crystals of the complex were obtained at 1 mM protein concentration and equilibrated against 0.2 M sodium dihydrogen phosphate, 20% PEG 3350 at 15°C. Crystals were cryoprotected in reservoir solution supplemented with 20% glycerol and frozen in liquid nitrogen. Crystals of apo Vps23-UEV domain were grown over a reservoir of 0.2 M zinc acetate, 0.1 M imidazole pH 8.0, 25% 1,2-propanediol, 10% glycerol at 15°C. Apo UEV crystals were harvested in cryoloops directly from the crystal drop and flash frozen in liquid nitrogen. Native data were collected from a single frozen crystal using a MAR CCD detector at beamline 22-ID, Advanced Photon Source. All data were processed and scaled using HKL2000. A molecular replacement solution for the unliganded UEV domain was found using Vps23-UEV structure (PDB: 1UZX) as a search model with Phaser (
+     <xref ref-type="bibr">
+      McCoy et al, 2007
+     </xref>
+     ). Multiple Zn, acetate, and imidazole molecules from the crystallization medium were detected and included in the refined structure. The unliganded UEV structure was then used as a search model to solve the structure of the PSDP
+     <sub>
+      1
+     </sub>
+     complexed form. Model building and refinement was using Coot (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ), Phenix (
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ), and AutoBuster (
+     <xref ref-type="bibr">
+      Blanc et al, 2004
+     </xref>
+     ) (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Structural figures were generated by PyMol (W Delano;
+     <a>
+      http://pymol.sourceforge.net/
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     Purified wild-type and mutant Vps23-UEV domains were dialysed against ITC buffer (20 mM sodium phosphate pH 7.20, 150 mM NaCl, and 5% glycerol) at 4°C overnight. Each peptide was dissolved in water to make a stock solution (40 mM). Further dilution in the ITC buffer was adjusted using 2 × ITC buffer before the ITC experiment. The sample cell contained 0.2 ml of 0.27–0.6 mM UEV domain and the peptides or GB1–peptide fusions (3 or 6 mM) were added in 18 injections of 2.1 μl each. Data from peptide injections into buffer blanks were subtracted from sample data before analysis. Measurements were carried out on an itc200 instrument (MicroCal). The data were processed using Origin software (MicroCal). The binding constant (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ) was fitted using a one-site model, which yielded excellent data fits.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Plasmid construction and yeast strains
+    </title>
+    <p>
+     The yeast strain
+     <em>
+      vps23
+     </em>
+     Δ
+     <em>
+      ::KanR
+     </em>
+     (BY4741) was obtained from Open Biosystems. The
+     <em>
+      vps23
+     </em>
+     Δ
+     <em>
+      vps4
+     </em>
+     Δ strain (MCY18) was a kind gift of Markus Babst (
+     <xref ref-type="bibr">
+      Curtiss et al, 2006
+     </xref>
+     ). The complete expression cassette of
+     <em>
+      VPS23
+     </em>
+     was amplified from yeast genomic DNA (Novagen) and cloned into
+     <em>
+      Hin
+     </em>
+     dIII/
+     <em>
+      Eco
+     </em>
+     RI-digested YCplac111 vector. The whole cassette coding for Vps23 tagged with a C-terminal linker (GGGGSGGGGS) followed by the coding sequence for mCherry was inserted into the
+     <em>
+      Hin
+     </em>
+     dIII and
+     <em>
+      Eco
+     </em>
+     RI sites of the YCplac111 single-copy vector.
+     <em>
+      VPS23-W16A-mCherry
+     </em>
+     and the
+     <em>
+      VPS23-W16A
+     </em>
+     mutants were generated by site-directed Quick-change mutagenesis. Plasmids containing
+     <em>
+      VPS23
+     </em>
+     wild type or mutants and
+     <em>
+      GFP-CPS1
+     </em>
+     (
+     <xref ref-type="bibr">
+      Odorizzi et al, 1998
+     </xref>
+     ) were co-transformed into
+     <em>
+      vps23
+     </em>
+     Δ for the Cps1 cargo sorting assay. The
+     <em>
+      VPS23-mCherry
+     </em>
+     wild type or mutant was transformed into
+     <em>
+      vps23vps4
+     </em>
+     Δ strain for localization experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Confocal fluorescence microscopy
+    </title>
+    <p>
+     Yeast strains expressing the appropriate alleles were harvested at an optical density A600 of 0.3–0.5 and labelled with FM4-64 for vacuolar membrane staining (
+     <xref ref-type="bibr">
+      Vida and Emr, 1995
+     </xref>
+     ). Uptake of FM4-64 by live cells was performed at 30°C for 1 h, after which cells were resuspended in selection media and incubated for 30 min at 30°C. Cells were imaged with a × 100 oil-immersion objective on a LSM780 scanning confocal microscope (Carl Zeiss MicroImaging). Results presented were based on at least three replicate experiments with observations of &gt;100 cells each.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.2M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (194K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

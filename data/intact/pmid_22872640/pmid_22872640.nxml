@@ -1,0 +1,5112 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3464514
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Interaction of the HIV-1 Intasome with Transportin 3 Protein (TNPO3 or TRN-SR2)*
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Transportin 3 (TNPO3 or TRN-SR2) has been shown to be an important cellular factor for early steps of lentiviral replication. However, separate studies have implicated distinct mechanisms for TNPO3 either through its interaction with HIV-1 integrase or capsid. Here we have carried out a detailed biophysical characterization of TNPO3 and investigated its interactions with viral proteins. Biophysical analyses including circular dichroism, analytical ultracentrifugation, small-angle x-ray scattering, and homology modeling provide insight into TNPO3 architecture and indicate that it is highly structured and exists in a monomer-dimer equilibrium in solution.
+     <em>
+      In vitro
+     </em>
+     biochemical binding assays argued against meaningful direct interaction between TNPO3 and the capsid cores. Instead, TNPO3 effectively bound to the functional intasome but not to naked viral DNA, suggesting that TNPO3 can directly engage the HIV-1 IN tetramer prebound to the cognate DNA. Mass spectrometry-based protein footprinting and site-directed mutagenesis studies have enabled us to map several interacting amino acids in the HIV-1 IN C-terminal domain and the cargo binding domain of TNPO3. Our findings provide important information for future genetic analysis to better understand the role of TNPO3 and its interacting partners for HIV-1 replication.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     HIV-1, Host-Pathogen Interactions, Integrase, Protein Structure, Protein-Protein Interactions
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    After gaining entry into a target cell, the HIV-1 core is released in the cytoplasm. The capsid (CA)
+    <sup>
+     <a>
+      3
+     </a>
+    </sup>
+    protein that forms the outer lattice of the core begins to dissemble as reverse transcriptase converts the viral RNA into a double-stranded DNA copy (
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ). HIV-1 integrase (IN) binds to the ends of the nascent viral DNA to form the stable synaptic complex (SSC), also known as the intasome (
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ). This nucleoprotein complex together with a number of cellular and viral proteins forms the preintegration complex (PIC). CA proteins from the partially disrupted CA cores remain associated with the PIC and travel to the nuclear pore. The PIC then traverses the nuclear membrane, and viral DNA is covalently integrated into the host chromosome by transesterification reactions catalyzed by IN. The dimensions of a HIV-1 PIC (∼56 nm) significantly exceed the 9-nm size limit required for passive diffusion into the nuclear compartment (
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ). Therefore, PIC entry into the nucleus depends on an active transport mechanism.
+   </p>
+   <p>
+    Many studies have attempted to identify key viral and cellular players involved in this process. Several candidates have been proposed including viral determinants such as IN (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ), CA (
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ), matrix (
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ), and viral protein R (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ) as well as the following cellular factors: importin-α (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ), importin-β (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ), importin 7 (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ), TNPO3 (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    –
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ), Nup153, and Nup358 (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     13
+    </xref>
+    –
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ).
+   </p>
+   <p>
+    Of these, much attention has recently centered on the cellular protein TNPO3, an importin-β family member that in a RanGTP-dependent manner promotes the nuclear import of serine/arginine rich splicing factors (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ). Genome-wide siRNA studies (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ) have indicated the importance of TNPO3 to the early stages of HIV-1 replication. Furthermore, Christ
+    <em>
+     et al.
+    </em>
+    (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ) have demonstrated that TNPO3 knockdown significantly impaired HIV-1 replication as well as nuclear import but had no effect on MLV replication. Unlike HIV-1, which can infect both dividing and non-dividing cells through the nuclear import of the PIC, the MLV PIC does not traverse through the nuclear pore and instead gains access to chromatin during mitosis. The same study (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ) used yeast two-hybrid screens and determined that TNPO3 directly interacts with HIV-1 IN and not with any other retroviral proteins, thus implicating this protein-protein interaction with nuclear import.
+   </p>
+   <p>
+    However, the importance of this direct interaction between HIV-1 IN and TNPO3 has been contested by others (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). For example, it has been shown that both HIV-1 and MLV INs interact with TNPO3 with similar affinities (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). Moreover, a chimeric virus where HIV-1 CA was replaced with its MLV counterpart lost sensitivity to TNPO3, thus highlighting the importance of CA in nuclear import (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). Further argument for the CA dependence on TNPO3 has emerged from the observations that a CA N74D mutant is insensitive to TNPO3 knockdowns (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ). This mutant has been identified through a positive selection with respect to a C-terminal-truncated fragment of CPSF6, which effectively restricted HIV replication (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ). In this study it was shown that the N-terminal 358-amino acid fragment of CPSF6 binds to wild type CA and not its N74D mutant (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ). Full-length CPSF6 contains a SR2 domain at its C terminus (amino acids 527–588) and is thus a potential cargo of TNPO3. Collectively, these findings raised the possibility that TNPO3 effects on HIV-1 replication could be mediated by interaction with the C-terminal SR domain of full-length CPSF6, which in addition could bind CA through interaction with its N-terminal region. However, further studies are necessary to elucidate how CPSF6 and its interaction with TNPO3 could affect lentiviral replication.
+   </p>
+   <p>
+    A link between HIV-1 entry and its interaction with TNPO3 has also been proposed (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). Infectivity of HIV-1 with the CA N74D substitution but with its native envelope, which mediates the pH-independent uptake, was partly dependent on TNPO3 (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). However, this dependence on the cellular factor was lost when the HIV-1 CA N74D mutant was pseudotyped with vesicular stomatitis virus glycoprotein, which mediates pH-dependent endocytosis (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ).
+   </p>
+   <p>
+    Recent publications have extended the debate about a TNPO3-dependent mechanism in later stages of viral replication by suggesting that TNPO3 affects HIV-1 integration only after PICs enter the nucleus (
+    <xref ref-type="bibr">
+     22
+    </xref>
+    –
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ). One study (
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ) reported that some CA travels with PICs into the nucleus, after which the TNPO3-RanGTP complex strips the residual CA from the PICs to facilitate the integration and subsequently exports CA to the cytoplasm. More recently, it was suggested that TNPO3 could directly interact with the CA cores (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ). However, this study used uncleaved CA-nucleocapsid protein and RNA to assemble the CA tubes
+    <em>
+     in vitro
+    </em>
+    , and the control experiments were missing to rule out potential nonspecific charge-charge interactions between TNPO3 and highly polar NC or RNA (
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ).
+   </p>
+   <p>
+    In this study we used a battery of biophysical and biochemical techniques to characterize the TNPO3 structure and examine its interactions with either the intasome or CA tubes using an
+    <em>
+     in vitro
+    </em>
+    model system. We have proposed a molecular model of TNPO3 that comprises 20 α-helical HEAT repeats forming a closed ring structure. Binding experiments argue against meaningful direct interactions between TNPO3 and the CA tubes but show instead that TNPO3 readily interact with the HIV-1 intasome. Furthermore, we have mapped the protein-protein interfaces to several HIV-1 IN amino acids in the C-terminal domain and the C-terminal cargo domain of TNPO3. Our findings provide an important framework for future genetic analysis to better understand the role of TNPO3 in HIV-1 biology.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Expression Plasmids
+      </title>
+      <p>
+       HIV-1 IN clones included the following: full-length, N-terminal domain (NTD) (amino acids 1–50), catalytic core domain (CCD) (amino acids 50–212 with the F185K substitution), and C-terminal domain (CTD) (amino acids 213–288 with the C280S substitution), all with a cleavable N-terminal hexahistidine tag. FLAG-tagged IN was cloned as previously described (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ). The TNPO3 expression vector was created by PCR amplification of
+       <em>
+        tnpo3
+       </em>
+       from a GST-tagged vector (pGEX) containing
+       <em>
+        tnpo3
+       </em>
+       with the addition of an NdeI and BamHI sites and cloned into pET15b to generate an N-terminal hexahistidine tag. The pET3A expression vector containing full-length HIV-1 CA sequence was a gift from Alan Rein (NCI-Frederick, National Institutes of Health). Site-directed mutants for full-length IN, IN CTD, TNPO3, and CA were created using QuikChange XL kit (Agilent Technologies) according to the manufacturer's recommendations. LEDGF/p75 was cloned with a hexahistidine tag as described previously (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Purification of Recombinant Proteins
+      </title>
+      <p>
+       Full-length IN was purified as described previously (
+       <xref ref-type="bibr">
+        27
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). Slight alterations to the protocol included: substitution of 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5 for 50 m
+       <span>
+        m
+       </span>
+       Tris-HCl, pH 7.4,and the addition of 5 m
+       <span>
+        m
+       </span>
+       β-mercaptoethanol in all buffers, and a 5-ml nickel-nitrilotriacetic acid (Ni-NTA) column (GE Healthcare) was employed with a linear gradient on an AKTA Purfier10 FPLC (GE Healthcare) in lieu of a batch elution. Partially purified protein was either subjected to thrombin digestion or directly loaded onto a 5-ml HiTrap Heparin column (GE Healthcare). The three domains of IN as well as CTD mutants were purified similarly to methods previously described (
+       <xref ref-type="bibr">
+        29
+       </xref>
+       ). FLAG-tagged IN was purified as described in Kessl
+       <em>
+        et al.
+       </em>
+       (
+       <xref ref-type="bibr">
+        25
+       </xref>
+       ). Hexahistidine-tagged LEDGF/p75 was purified as previously described (
+       <xref ref-type="bibr">
+        26
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ).
+      </p>
+      <p>
+       TNPO3 was expressed in
+       <em>
+        Escherichia coli
+       </em>
+       Rosetta cells (Novagen) with a 500 μ
+       <span>
+        m
+       </span>
+       isopropyl 1-thio-β-
+       <span>
+        d
+       </span>
+       -galactopyranoside induction for 4 h after an initial
+       <em>
+        A
+       </em>
+       <sub>
+        600
+       </sub>
+       of 0.6 was achieved. Cell pellets were resuspended in 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.4, 250 m
+       <span>
+        m
+       </span>
+       NaCl, 2 m
+       <span>
+        m
+       </span>
+       DTT, sonicated, and centrifuged at 20,000 ×
+       <em>
+        g
+       </em>
+       for 1 h to remove insoluble material. The lysate was then purified with a Ni-NTA column (GE Healthcare) using a linear gradient of 15 to 500 m
+       <span>
+        m
+       </span>
+       imidazole (in the same buffer). This was followed with a final purification step by isocratic elution from a HiLoad 16/60 Superdex 200 prep grade column (GE Healthcare) in 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.4, 150 m
+       <span>
+        m
+       </span>
+       NaCl, and 2 m
+       <span>
+        m
+       </span>
+       DTT.
+      </p>
+      <p>
+       Wild type (wt) and N74D CA was purified as previously described (
+       <xref ref-type="bibr">
+        30
+       </xref>
+       ). Full-length LEDGF/p75 and LEDGF integrase binding domain (IBD) were obtained according to the reported procedures (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). All proteins were checked for purity by SDS-PAGE, quantified by UV absorbance, and stored in 10% glycerol at −80 °C until used.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Preparation of SSC
+      </title>
+      <p>
+       SSCs were prepared as previously described using 400 n
+       <span>
+        m
+       </span>
+       IN with ∼ 20% forming the SSC (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ). SSCs were then mixed with purified 4 μ
+       <span>
+        m
+       </span>
+       TNPO3 and allowed to bind for 1 h at 4 °C. Mixtures were then passed through PCR Kleen Spin Columns (Bio-Rad) as described for LEDGF/p75 binding to SSCs (
+       <xref ref-type="bibr">
+        31
+       </xref>
+       ). The resulting flow-through material was then analyzed by SDS-PAGE and Western blot using anti-hexahistidine (anti-HIS) and anti-IN antibodies (HIV-1 IN monoclonal antibody (8G4) from NIH AIDS Research and Reference Reagent Program). The Western blot standard was Magic Mark XP (Invitrogen).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Pulldown Assays
+      </title>
+      <p>
+       FLAG-tagged IN and Anti-FLAG M2 Affinity Gel (Sigma) were used to pull down hexahistidine-tagged TNPO3 or full-length LEDGF/p75 or both. The protocol was followed as previously described (
+       <xref ref-type="bibr">
+        32
+       </xref>
+       ). After washing the beads, the proteins were extracted from the beads by NuPAGE lithium dodecyl sulfate sample buffer (Invitrogen) and subjected to SDS-PAGE. Nickel affinity pulldown assays using Ni-NTA beads (GE Healthcare) were also done with His-tagged TNPO3 and untagged IN, IN domains, and LEDGF/p75. The binding buffer contained 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.4, 400 m
+       <span>
+        m
+       </span>
+       NaCl, 2 m
+       <span>
+        m
+       </span>
+       MgCl
+       <sub>
+        2
+       </sub>
+       , 100 m
+       <span>
+        m
+       </span>
+       imidazole, and 0.1% (v/v) Nonidet-P40. Resulting pulldown assays were extracted from the beads using NuPAGE lithium dodecyl sulfate sample buffer (Invitrogen), subjected to SDS-PAGE analysis, and visualized by Coomassie staining. Full-length IN pulldown assays were also visualized via Western blotting with the anti-IN antibody (8G4).
+      </p>
+      <p>
+       CA tubes were formed by the addition of equal volume of a buffer containing 25 m
+       <span>
+        m
+       </span>
+       sodium phosphate buffer, pH 7.5, and 4
+       <span>
+        m
+       </span>
+       NaCl to purified 20 mg/ml wt or N74D CA and allowed to polymerize on ice for 2 h (
+       <xref ref-type="bibr">
+        33
+       </xref>
+       ). Pulldown assays with wt or N74D CA tubes were then performed by centrifugation at 8000 ×
+       <em>
+        g
+       </em>
+       after 30 min of a rocking incubation with either TNPO3 or cyclophilin A. Pellets were washed 3 times with 2
+       <span>
+        m
+       </span>
+       NaCl in the 25 m
+       <span>
+        m
+       </span>
+       sodium phosphate buffer, resuspended in NuPAGE lithium dodecyl sulfate sample buffer (Invitrogen), and then run on SDS-PAGE gels and subjected to either Western blot analysis (anti-hexahistidine) or Coomassie staining.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Circular Dichroism (CD) Spectroscopy
+      </title>
+      <p>
+       Purified wild type and mutant TNPO3 proteins were exchanged into buffer containing 50 m
+       <span>
+        m
+       </span>
+       sodium phosphate, pH 7.5, and 250 m
+       <span>
+        m
+       </span>
+       NaCl. Samples (∼2.5–4 μ
+       <span>
+        m
+       </span>
+       ) were analyzed in triplicate at 25 °C on a Aviv model 62A DS spectrometer in a buffer containing 10.42 m
+       <span>
+        m
+       </span>
+       NaCl and 4.17 m
+       <span>
+        m
+       </span>
+       sodium phosphate, pH 7.5. Percent of α-helical content was calculated using the K2D3 web server and the mean molar ellipticity (
+       <xref ref-type="bibr">
+        34
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Mass Spectrometry (MS)-based Protein Footprinting
+      </title>
+      <p>
+       Protein-protein interactions were examined using 1 m
+       <span>
+        m
+       </span>
+       sulfo-
+       <em>
+        N-
+       </em>
+       hydroxysuccinimide (NHS)-biotin (Pierce) as described previously (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        35
+       </xref>
+       ). IN CTD was modified in the presence or absence of TNPO3. IN CTD was then pulled down as described above using nickel affinity beads. After SDS-PAGE, IN CTD was excised, subjected to in-gel proteolysis by trypsin, and then analyzed by an AXIMA-CFR MALDI-ToF instrument using α-cyano-4-hydroxy-cinnamic acid as the matrix. As a control, the intensities of unmodified CTD tryptic peptides were used to compare across samples.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Analytical Ultracentrifugation
+      </title>
+      <p>
+       Experiments were performed in 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5, 250 m
+       <span>
+        m
+       </span>
+       NaCl, and 5 m
+       <span>
+        m
+       </span>
+       DTT. Values for the partial buoyant density of the protein (υ
+       <sub>
+        bar
+       </sub>
+       , 0.7499 cm
+       <sup>
+        3
+       </sup>
+       /g), solvent density (ρ, 1.01 g/ml), and solvent viscosity (η, 0.010 poise) were calculated from buffer composition using the program SEDNTERP (
+       <xref ref-type="bibr">
+        36
+       </xref>
+       ).
+      </p>
+      <p>
+       Sedimentation velocity ultracentrifugation experiments were performed at 4 °C with an XL-A analytical ultracentrifuge (Beckman-Coulter) and a TiAn60 rotor with two-channel charcoal-filled epon centerpieces and quartz windows. Complete sedimentation velocity profiles were collected every 30 s for 200 boundaries at 45,000 rpm. Data were fit using the
+       <em>
+        c
+       </em>
+       (
+       <em>
+        s
+       </em>
+       ) distribution model of the Lamm equation as implemented in the program SEDFIT (
+       <xref ref-type="bibr">
+        37
+       </xref>
+       ). After optimizing meniscus position and fitting limits, the sedimentation coefficients (
+       <em>
+        s
+       </em>
+       ) and best-fit frictional ratios (
+       <em>
+        f
+       </em>
+       /
+       <em>
+        f
+       </em>
+       <sub>
+        0
+       </sub>
+       ) were determined by iterative least squares analysis.
+      </p>
+      <p>
+       Sedimentation equilibrium data were collected at 4 °C with detection at 280 nm for 5.4, 8.5, and 10.4 μ
+       <span>
+        m
+       </span>
+       samples. Analysis was carried out using global fits to all concentrations with data acquired at 8,000, 10,000, and 12,000 rpm using the program SEDPHAT (
+       <xref ref-type="bibr">
+        38
+       </xref>
+       ) with strict mass conservation. An estimated error for the equilibrium constant was determined from a 1000-iteration Monte Carlo simulation, as implemented in SEDPHAT.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Size-exclusion Chromatography and Multiangle Light Scattering
+      </title>
+      <p>
+       Experiments were performed with a Superdex 200 10/300 GL column (GE Healthcare) at 0.5 ml/min at room temperature in 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5, 250 m
+       <span>
+        m
+       </span>
+       NaCl, and 5 m
+       <span>
+        m
+       </span>
+       DTT. The column was calibrated using the following proteins (Bio-Rad): thyroglobulin (670 kDa, resolution factor (
+       <em>
+        R
+        <sub>
+         S
+        </sub>
+       </em>
+       ) = 85 Å), γ-globulin (158 kDa,
+       <em>
+        R
+        <sub>
+         S
+        </sub>
+       </em>
+       = 52.2 Å), ovalbumin (44 kDa,
+       <em>
+        R
+        <sub>
+         S
+        </sub>
+       </em>
+       = 30.5 Å), myoglobin (17 kDa,
+       <em>
+        R
+        <sub>
+         S
+        </sub>
+       </em>
+       = 20.8 Å), and Vitamin B12 (1,350 daltons). Blue dextran (Sigma) was used to define the void volume of the column.
+      </p>
+      <p>
+       Absolute molecular weights of the proteins studied were determined using multiangle light scattering coupled in-line with size-exclusion chromatography. Light scattering from the column eluant was recorded at 16 different angles using a DAWN-HELEOS MALS detector (Wyatt Technology Corp.) operating at 658 nm. The detectors at different angles were calibrated using the small isotropic scatterer horse heart cytochrome
+       <em>
+        c
+       </em>
+       (Sigma). Protein concentration of the eluant was determined using an in-line Optilab T-rEX Interferometric Refractometer (Wyatt Technology Corp.). The weight-averaged molecular weight of species within defined chromatographic peaks was calculated using the ASTRA software version 6.0 (Wyatt Technology Corp.) by construction of Debye plots (KC/
+       <em>
+        R
+       </em>
+       θ
+       <em>
+        versus
+       </em>
+       sin
+       <sup>
+        2
+       </sup>
+       [θ/2]) at 1-s data intervals. The weight-averaged molecular weight was then calculated at each point of the chromatographic trace from the Debye plot intercept, and an overall average molecular weight was calculated by averaging across the peak.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Small-angle X-ray Scattering at the Advanced Light Source Beam Line 12.3.1 (SIBYLS)
+      </title>
+      <p>
+       X-ray scattering data were measured at the SIBYLS beam line (12.3.1) at the Advanced Light Source (ALS, Berkeley, CA) (
+       <xref ref-type="bibr">
+        39
+       </xref>
+       ). The forward scattering from the samples studied was automatically reduced using custom software to provide one-dimensional intensity profiles as a function of
+       <em>
+        Q
+       </em>
+       (which is equal to 4πsinθ/λ, where 2θ is the scattering angle) in units of Å
+       <sup>
+        −1
+       </sup>
+       . Accessible scattering was recorded in the range of 0.010 &lt;
+       <em>
+        Q
+       </em>
+       &lt; 0.35 Å
+       <sup>
+        −1
+       </sup>
+       . Samples were dialyzed in 50 m
+       <span>
+        m
+       </span>
+       HEPES, pH 7.5, 250 m
+       <span>
+        m
+       </span>
+       NaCl, 2% glycerol, and 5 m
+       <span>
+        m
+       </span>
+       DTT at 4 °C and centrifuged at 3000 rpm for 10 min at 4 °C before data were recorded. Data were collected using a 96-well plate handling sample robot, as previously described (
+       <xref ref-type="bibr">
+        39
+       </xref>
+       ), with three concentrations: 12, 8, and 5 mg/ml TNPO3 in a total volume of 24 μl. All samples were characterized with 0.5, 1, and 6 s exposures at 20 °C at a wavelength of 1 Å. Scattering from a matching buffer solution was subtracted from the data and corrected for the incident intensity of x-rays. Replicate exposures were examined carefully for evidence of radiation damage by Guinier analysis and Kratky plot analysis. Silver behenate powder was used to locate the beam center and to calibrate the sample-to-detector distance.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Small-angle X-ray Scattering (SAXS) Data Analysis
+      </title>
+      <p>
+       All of the preparations analyzed were monodisperse, as indicated by linearity in the Guinier region of the scattering data and agreement of the
+       <em>
+        I
+       </em>
+       (0) and
+       <em>
+        R
+        <sub>
+         g
+        </sub>
+       </em>
+       values determined with inverse Fourier transform analysis by the programs GNOM (
+       <xref ref-type="bibr">
+        41
+       </xref>
+       ). Molecular mass as derived from
+       <em>
+        I
+       </em>
+       (0) measurements using the forward scatter from a reference protein of known mass and concentration as a control and Kratky analyses were consistent with the molecular mass of a dimer. When fitting manually, the maximum diameter of the particle (
+       <em>
+        D
+       </em>
+       <sub>
+        max
+       </sub>
+       ) was adjusted in 5–10 Å increments in GNOM to maximize the goodness-of-fit parameter, to minimize the discrepancy between the fit and the experimental data, and to optimize the visual qualities of the distribution profile. This analysis also yielded determinations of
+       <em>
+        R
+        <sub>
+         g
+        </sub>
+       </em>
+       and
+       <em>
+        I
+       </em>
+       (0). The theoretical SAXS profiles for atomic models were created using the CRYSOL program (
+       <xref ref-type="bibr">
+        42
+       </xref>
+       ).
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Shape Reconstruction
+      </title>
+      <p>
+       Low resolution shapes were determined from solution scattering data using the programs DAMMIN (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ) and GASBOR (
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ). Bead models were visualized in PyMOL (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ) or converted to volumetric envelopes using SITUS (
+       <xref ref-type="bibr">
+        46
+       </xref>
+       ) and visualized using UCSF Chimera (
+       <xref ref-type="bibr">
+        47
+       </xref>
+       ). With GASBOR, the number of dummy residues used in shape reconstruction is prescribed by the user, requiring an understanding of the composition of the particle being modeled. Ten independent calculations were performed for each data set using default parameters. Initially, no symmetry constraints were applied in all analyses and then repeated assuming 2-fold symmetry as justified by the apparent shape of the particle and improvement in the final χ and normalized spatial discrepancy criterion. The models resulting from the independent runs were superimposed by the program SUPCOMB based on normalized spatial discrepancy criterion. The 10 independent reconstructions were then averaged and filtered to a final consensus model using the DAMAVER suite of programs (
+       <xref ref-type="bibr">
+        48
+       </xref>
+       ). Consensus models obtained by DAMMIN and GASBOR approaches yielded similar results.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Homology Model of Human Transportin
+      </title>
+      <p>
+       The primary sequence of TNPO3 (
+       <a>
+        <span>
+         {"type":"entrez-protein","attrs":{"text":"Q9Y5L0","term_id":"166215035","term_text":"Q9Y5L0"}}
+        </span>
+        Q9Y5L0
+       </a>
+       ) was used as a query sequence for five iterations of PSI-BLAST (
+       <xref ref-type="bibr">
+        49
+       </xref>
+       ) searching of the NCBI RefSeq database (
+       <xref ref-type="bibr">
+        50
+       </xref>
+       ). A large number of homologs were identified; the best scoring protein from this query for which an atomic structure has been determined is Importin-13 (PDB
+       <span>
+        2X19
+       </span>
+       , Chain B (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       )), with an initial
+       <em>
+        E
+       </em>
+       score of 2
+       <em>
+        e
+       </em>
+       <sup>
+        −32
+       </sup>
+       and 24% sequence identity. Three crystal structures of Importin-13 are currently available in the PDB, each in complex with a different protein: PDB codes
+       <span>
+        2XWU
+       </span>
+       ,
+       <span>
+        2X19
+       </span>
+       , and
+       <span>
+        2X1G
+       </span>
+       .
+      </p>
+      <p>
+       TNPO3 sequence was threaded onto the 2X19 Importin-13 template structure using the program MODELLER 9v8 (
+       <xref ref-type="bibr">
+        52
+       </xref>
+       ). The resulting model was gradually relaxed by energy minimization in a solvated environment using the programs VMD (
+       <xref ref-type="bibr">
+        53
+       </xref>
+       ) and NAMD (
+       <xref ref-type="bibr">
+        54
+       </xref>
+       ) using CHARMM42 force fields. Inspection of the resulting model revealed the need for manual rebuilding of the loop 841–855; the rebuilt loop was subsequently minimized
+       <em>
+        in vacuo
+       </em>
+       . The overall quality of this minimized model was evaluated using the MOLPROBITY server (
+       <xref ref-type="bibr">
+        55
+       </xref>
+       ). 98.6% of the residues resided in the allowable regions of a Ramachandran plot and showed generally good stereochemical properties. The model was rendered using the program PyMOL (
+       <xref ref-type="bibr">
+        45
+       </xref>
+       ).
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <p>
+    The importance of TNPO3 for HIV-1 replication has been well established (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    –
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    –
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     56
+    </xref>
+    ). However, previous reports differ in implicating either HIV-1 IN or CA as direct binding partners of TNPO3 (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ). Because these studies examined the interactions employing different experimental approaches, we compared TNPO3 interactions with HIV-1 IN and CA in parallel experiments using purified recombinant proteins and pulldown assays. Although purified recombinant CA is monomeric, at elevated NaCl concentrations CA assembles into tubes that closely resemble the CA cores from infected cells (
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     57
+    </xref>
+    ). Using these assembled CA tubes under previously defined conditions (
+    <xref ref-type="bibr">
+     33
+    </xref>
+    ), we first confirmed their interactions with a cognate cellular binding partner cyclophilin A (
+    <em>
+     CypA
+    </em>
+    ;
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     A
+    </em>
+    ). These assay conditions were next applied to probing interactions between CA tubes and increasing concentrations (1–5 μ
+    <span>
+     m
+    </span>
+    ) of TNPO3. The data in
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     B
+    </em>
+    show only trace binding (∼3%) of TNPO3 to CA tubes at the highest concentration tested (5 μ
+    <span>
+     m
+    </span>
+    ). In parallel reactions we examined binding by the N74D CA mutant (
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    <em>
+     C
+    </em>
+    ) as this substitution has been shown to relieve the dependence of HIV replication on TNPO3 (
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ). The results in
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    ,
+    <em>
+     C
+    </em>
+    and
+    <em>
+     E
+    </em>
+    , show similarly minimal levels (∼3%) of TNPO3 binding with wild type and the N74D mutant CAs. We next probed the interaction between HIV-1 IN and TNPO3 using the same concentration range of the cellular protein. The data in
+    <xref ref-type="fig">
+     Fig. 1
+    </xref>
+    ,
+    <em>
+     D
+    </em>
+    and
+    <em>
+     E
+    </em>
+    , show strong binding, with ∼ 47% of 2 μ
+    <span>
+     m
+    </span>
+    TNPO3 pulled down by 2 μ
+    <span>
+     m
+    </span>
+    HIV-1 IN under these conditions. We did not observe a significant increase of TNPO3 pulldown levels with increasing concentrations (2–10 μ
+    <span>
+     m
+    </span>
+    ) of the cellular protein indicating that these protein concentrations are well above the
+    <em>
+     k
+     <sub>
+      d
+     </sub>
+    </em>
+    value for the IN-TNPO3 interaction. Thus, our findings are consistent with the previous report (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ) of the
+    <em>
+     k
+     <sub>
+      d
+     </sub>
+    </em>
+    value for the IN-TNPO3 binding being in the low n
+    <span>
+     m
+    </span>
+    range. Taken together, our results argue that TNPO3 can effectively interact with HIV-1 IN and not with CA tubes
+    <em>
+     in vitro
+    </em>
+    .
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     FIGURE 1.
+    </label>    <caption>
+     <p>
+      Representative pulldown experiments for the following reactions: wt CA tubes plus recombinant CypA (
+      <em>
+       panel A
+      </em>
+      ), wt CA tubes plus TNPO3 (
+      <em>
+       panels B
+      </em>
+      ), N74D CA tubes plus TNPO3 (
+      <em>
+       panel C
+      </em>
+      ), and FLAG-IN plus TNPO3 (
+      <em>
+       panel D
+      </em>
+      ).
+      <em>
+       Panel A
+      </em>
+      is a Western blot using anti-His antibodies.
+      <em>
+       Panels B–D
+      </em>
+      are Coomassie-stained SDS-PAGE gel images.
+      <em>
+       Panels A–D
+      </em>
+      :
+      <em>
+       lane 1
+      </em>
+      contains molecular weight standards with their masses designated on the side.
+      <em>
+       Panel A
+      </em>
+      ,
+      <em>
+       lane 2
+      </em>
+      , control containing only wt CA tubes; increasing concentrations (2, 5, and 10 μ
+      <span>
+       m
+      </span>
+      ) of CypA were incubated with (
+      <em>
+       lanes 3–5
+      </em>
+      ) or without (
+      <em>
+       lanes 6–8
+      </em>
+      ) wt CA tubes;
+      <em>
+       lane 9
+      </em>
+      is a full load of CypA (A). CA tubes were formed using 20 mg/ml protein solution as described under “Experimental Procedures.”
+      <em>
+       Panel B
+      </em>
+      :
+      <em>
+       lane 2
+      </em>
+      , control containing only wt CA tubes; increasing concentrations (2, 5, and 10 μ
+      <span>
+       m
+      </span>
+      ) of TNPO3 were incubated with (
+      <em>
+       lanes 3–5
+      </em>
+      ) or without (
+      <em>
+       lanes 6–8
+      </em>
+      ) wt CA tubes;
+      <em>
+       lane 9
+      </em>
+      , 1/10th loads of wt CA and 5 μ
+      <span>
+       m
+      </span>
+      TNPO3.
+      <em>
+       Panel C
+      </em>
+      is identical to
+      <em>
+       panel B
+      </em>
+      with the exception that the reactions contained N74D CA instead of wt CA.
+      <em>
+       Panel D
+      </em>
+      :
+      <em>
+       lane 2
+      </em>
+      , control experiment with FLAG-IN (2 μ
+      <span>
+       m
+      </span>
+      ) incubated with anti-FLAG M2 affinity gel; increasing concentrations (2, 5, and 10 μ
+      <span>
+       m
+      </span>
+      ) of TNPO3 were incubated with (
+      <em>
+       lanes 3–5
+      </em>
+      ) or without (
+      <em>
+       lanes 6–8
+      </em>
+      ) FLAG-IN followed by affinity pulldown using anti-FLAG M2 affinity gel. Heavy and light chain FLAG antibodies are indicated by
+      <em>
+       stars
+      </em>
+      ;
+      <em>
+       lane 9
+      </em>
+      : 5 μ
+      <span>
+       m
+      </span>
+      load of TNPO3.
+      <em>
+       Panel E
+      </em>
+      is the graphic representation of the relative binding seen in the first four panels with the S.D. of triplicate runs indicated.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    In infected cells HIV-1, IN functions in the context of a large nucleoprotein assembly termed the PIC, in which a tetramer of IN is stably bound to the viral DNA ends. Furthermore, a number of viral and cellular proteins associate with PICs. Of these, LEDGF/p75 is a principal cellular binding partner of IN. Therefore, it is important to examine how viral DNA and LEDGF/p75 affect the IN interaction with TNPO3. We previously reported a method for assembly of the SSC
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ) that closely mimics IN-viral DNA interaction
+    <em>
+     in vivo
+    </em>
+    . Schematics for the experimental approach for the SSC binding to TNPO3 and corresponding data are given in
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    ,
+    <em>
+     A
+    </em>
+    and
+    <em>
+     B
+    </em>
+    . These results show that TNPO3 selectively interacted with the SSC and not with free DNA (compare
+    <em>
+     lanes 6
+    </em>
+    and
+    <em>
+     7
+    </em>
+    in
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    <em>
+     B
+    </em>
+    ). These experiments suggest that the IN tetramer in the context of the SSC can effectively engage TNPO3. We next formed an IN-LEDGF·p75 complex and probed its interaction with TNPO3. The data in
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    <em>
+     C
+    </em>
+    show that even a 5-fold excess of LEDGF/p75 over IN had no affect on the IN-TNPO3 binding. In control experiments TNPO3 failed to directly interact with full-length LEDGF/p75 or LEDGF IBD (
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    <em>
+     D
+    </em>
+    ), thus indicating that the IN-TNPO3 interaction is specific.
+   </p>
+   <fig id="F2" position="float">
+    <label>
+     FIGURE 2.
+    </label>    <caption>
+     <p>
+      TNPO3 binding to the IN-viral DNA (
+      <em>
+       panels A
+      </em>
+      and
+      <em>
+       B
+      </em>
+      ) and IN-LEDGF·p75 complexes (
+      <em>
+       panel C
+      </em>
+      ).
+      <em>
+       Panel A
+      </em>
+      shows the schematic of TNPO3 binding to the SSC; only TNPO3 bound to the SSC makes it through the spin size-exclusion column, whereas the unbound protein is retained in the matrix.
+      <em>
+       Panel B
+      </em>
+      is SDS-PAGE analysis of the flow through of the size-exclusion columns runs. The protein bands were visualized by a Western blot using a mixture of anti-HIS and anti-IN antibodies.
+      <em>
+       Lanes 1
+      </em>
+      and
+      <em>
+       2
+      </em>
+      contain 1/10th loads of TNPO3 and IN, respectively.
+      <em>
+       Lane 3
+      </em>
+      , the molecular weight standards (sizes are indicated on the side).
+      <em>
+       Lanes 4–8
+      </em>
+      contain the flow-through material.
+      <em>
+       Lane 4
+      </em>
+      , IN alone;
+      <em>
+       lane 5
+      </em>
+      , IN plus viral DNA or the SSC;
+      <em>
+       lane 6
+      </em>
+      , the SSC plus TNPO3;
+      <em>
+       lane 7
+      </em>
+      , viral DNA plus TNPO3;
+      <em>
+       lane 8
+      </em>
+      , TNPO3 alone.
+      <em>
+       Panel C
+      </em>
+      is an SDS-PAGE gel image of TNPO3 interactions with the preformed complex of the FLAG-IN with LEDGF/p75.
+      <em>
+       Lane 1
+      </em>
+      contains the molecular weight standards, and
+      <em>
+       lanes 2–7
+      </em>
+      are FLAG affinity bead pulldown assays.
+      <em>
+       Lane 2
+      </em>
+      , control pulldown assay with only LEDGF/p75 and TNPO3 (both 5 μ
+      <span>
+       m
+      </span>
+      ). In
+      <em>
+       lane 3–7
+      </em>
+      , 2 μ
+      <span>
+       m
+      </span>
+      FLAG-IN was preincubated with increasing LEDGF/p75 concentrations (0, 1.25, 2, 5, and 10 μ
+      <span>
+       m
+      </span>
+      , respectively), and then 10 μ
+      <span>
+       m
+      </span>
+      TNPO3 was added to the reaction.
+      <em>
+       Lanes 8–10
+      </em>
+      contain 1/5th loads of IN, LEDGF/p75, and TNPO3 in that order. Heavy and light chain FLAG antibodies are indicated by
+      <em>
+       stars. Panel D
+      </em>
+      is an SDS-PAGE gel of nickel affinity pulldown assays using His-TNPO3.
+      <em>
+       Lanes 1
+      </em>
+      and
+      <em>
+       5
+      </em>
+      are molecular mass standards, and
+      <em>
+       lanes 2–4
+      </em>
+      are 1/2 loads of His-TNPO3, LEDGF/IBD, and LEDGF/p75, respectively.
+      <em>
+       Lanes 6–10
+      </em>
+      are nickel affinity pulldown assays with 5 μ
+      <span>
+       m
+      </span>
+      HIS-TNPO3 (
+      <em>
+       lanes 6
+      </em>
+      ,
+      <em>
+       8
+      </em>
+      , and
+      <em>
+       10
+      </em>
+      ) and 20 μ
+      <span>
+       m
+      </span>
+      tag-free LEDGF/IBD (
+      <em>
+       lanes 7
+      </em>
+      and
+      <em>
+       8
+      </em>
+      ) or 20 μ
+      <span>
+       m
+      </span>
+      tag-free LEDGF/p75 (
+      <em>
+       lanes 9
+      </em>
+      and
+      <em>
+       10
+      </em>
+      ).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Our next goal was to map individual HIV-1 IN domains interacting with TNPO3. HIV-1 IN is composed of three structurally and functionally distinct domains: an NTD that contains a Zn
+    <sup>
+     2+
+    </sup>
+    finger motif (
+    <xref ref-type="bibr">
+     58
+    </xref>
+    ), the CCD that contains the acidic DDE triad that coordinates catalytic Mg
+    <sup>
+     2+
+    </sup>
+    ions (
+    <xref ref-type="bibr">
+     59
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     60
+    </xref>
+    ), and a CTD that is highly basic and exhibits an Src homology-3-like-fold (
+    <xref ref-type="bibr">
+     61
+    </xref>
+    ). All three domains interact with viral DNA (
+    <xref ref-type="bibr">
+     62
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     63
+    </xref>
+    ). Studies with prototype foamy virus IN indicate that the CCDs and NTDs from separate subunits provide key interfaces for functional multimerization of IN (
+    <xref ref-type="bibr">
+     62
+    </xref>
+    ). Furthermore, these two protein domains directly coordinate binding to LEDGF/p75 (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     64
+    </xref>
+    ). In contrast the CTD does not interact with LEDGF/p75 (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). The data depicted in
+    <xref ref-type="fig">
+     Fig. 3
+    </xref>
+    reveal strong interactions between TNPO3 and the isolated CTD. No interaction was detected with the CCD, and only minimal interaction was observed with the NTD (
+    <xref ref-type="fig">
+     Fig. 3
+    </xref>
+    ). These experiments suggested that HIV-1 IN CTD contains the primary binding site for TNPO3.
+   </p>
+   <fig id="F3" position="float">
+    <label>
+     FIGURE 3.
+    </label>    <caption>
+     <p>
+      <strong>
+       Representative SDS-PAGE gel images of nickel affinity pulldown assays of HIV-1 IN domains with His-TNPO3.
+      </strong>
+      <em>
+       Lanes 1
+      </em>
+      and
+      <em>
+       6
+      </em>
+      are molecular mass standards, and
+      <em>
+       lanes 2–5
+      </em>
+      are 1/2 loads of His-TNPO3, IN CTD, IN CCD, and IN NTD, respectively.
+      <em>
+       Lanes 7–13
+      </em>
+      are nickel affinity pulldown assays with 5 μ
+      <span>
+       m
+      </span>
+      His-TNPO3 (
+      <em>
+       lanes 7
+      </em>
+      ,
+      <em>
+       9
+      </em>
+      ,
+      <em>
+       11
+      </em>
+      , and
+      <em>
+       13
+      </em>
+      ) and 20 μ
+      <span>
+       m
+      </span>
+      untagged CTD (
+      <em>
+       lanes 8
+      </em>
+      and
+      <em>
+       9
+      </em>
+      ), 20 μ
+      <span>
+       m
+      </span>
+      untagged CCD (
+      <em>
+       lanes 10
+      </em>
+      and
+      <em>
+       11
+      </em>
+      ), or 20 μ
+      <span>
+       m
+      </span>
+      untagged NTD (
+      <em>
+       lanes 12
+      </em>
+      and
+      <em>
+       13
+      </em>
+      ).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Our subsequent experiments focused on mapping CTD residues responsible for binding to TNPO3. For this we used a MS-based protein footprinting technology that enabled us to map interacting amino acids based on comparison of their chemical reactivity in the free protein
+    <em>
+     versus
+    </em>
+    the protein-protein complex. The full list of the tryptic peptides identified by MALDI-ToF is shown in
+    <a>
+     supplemental Table S2
+    </a>
+    , and
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    depicts representative segments of the mass spectra for the isolated CTD. The peak (containing a fragment of amino acids from 264–269) contained two modified lysine residues (Lys-264 and -266) indicating that these sites are surface-exposed in the CTD. This peak was significantly diminished upon CTD binding to TNPO3 (compare
+    <em>
+     panels A
+    </em>
+    and
+    <em>
+     B
+    </em>
+    , in
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    ). This protection could be due to either both 264 and 266 or one of these residues binding to TNPO3. The peak (containing a fragment of amino acids from 265–269) corresponding to a single Lys-266modification was detected in both the CTD and the CTD·TNPO3 complex (compare
+    <em>
+     panels A
+    </em>
+    and
+    <em>
+     B
+    </em>
+    in
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    ) indicating that this residue does not directly contact TNPO3. The peak containing a single modification at Lys-264 could not be detected in our experiments, probably due to the very small mass of this peptide. Given that the intensity of the peak (Lys-264/Lys-266 + biotin) was strongly diminished in the complex, whereas Lys-266 was similarly surface-exposed in both free CTD and the CTD in complex with TNPO3, we conclude that Lys-264 rather than Lys-266 interacts with TNPO3. The modified peak containing Lys-219 served as a reference, as it was similarly susceptible to NHS-biotin modification in free CTD and the CTD·TNPO3 complex (compare
+    <em>
+     right panels
+    </em>
+    of
+    <em>
+     A
+    </em>
+    and B in
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    ). In general, we mapped several reactive lysines in the free CTD (Lys-219, -240, -264, -266, and -273). Of these, only the Lys-264/266 peak was protected in the CTD·TNPO3 complex whereas other lysines were modified to a similar extent in the free protein and protein-protein complex.
+   </p>
+   <fig id="F4" position="float">
+    <label>
+     FIGURE 4.
+    </label>    <caption>
+     <p>
+      <strong>
+       MS-based protein footprinting of the CTD interaction with TNPO3.
+      </strong>
+      Representative sections of tryptic-digested peptide peaks from the CTD are shown. In
+      <em>
+       panel A
+      </em>
+      , CTD was treated with 1 m
+      <span>
+       m
+      </span>
+      NHS-biotin.
+      <em>
+       Biot
+      </em>
+      , biotin.
+      <em>
+       Panel B
+      </em>
+      , the CTD was preincubated with TNPO3 and then subjected to treatment with 1 m
+      <span>
+       m
+      </span>
+      NHS-biotin.
+      <em>
+       Panel C
+      </em>
+      contained untreated CTD. Start and end amino acid numbers of the detected peptide peaks are indicated. The Lys residues modified with NHS-biotin are indicated in
+      <em>
+       brackets
+      </em>
+      .
+     </p>
+    </caption>
+   </fig>
+   <p>
+    We next used site-directed mutagenesis to validate residues important for the CTD·TNPO3 interaction. The data presented in
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    ,
+    <em>
+     A
+    </em>
+    and
+    <em>
+     B
+    </em>
+    , agree well with MS-based footprinting (
+    <xref ref-type="fig">
+     Fig. 4
+    </xref>
+    ) showing the significance of Lys-264 but not Lys-266 for the CTD·TNPO3 interactions. In addition, mutagenesis experiments revealed the importance of Arg-262 and Arg-263 for the interaction. Taken together, the protein footprinting and site-directed mutagenesis data suggest that Arg-262, Arg-263, and Lys-264 directly interact with TNPO3. The mutagenesis studies were extended further to probe interactions between full-length IN and TNPO3.
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    <em>
+     D
+    </em>
+    shows that the R262E/R263E/K264E substitution significantly compromised the IN-TNPO3 binding. The triple mutant was also defective for SSC formation (
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    <em>
+     E
+    </em>
+    ) but maintained wild type levels of binding with LEDGF/p75 (
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    <em>
+     F
+    </em>
+    ). As an additional confirmation that these substitutions did not affect the overall IN structure, we performed protein footprinting analysis of the surface-exposed lysine residues using NHS-biotin. As expected, the substitutions of the Arg and Lys residues affected the trypsin cleavage pattern of this protein segment. However, no significant differences were observed in the modification profiles of the other Lys residues when the triple mutant was compared with wt IN (data not shown) indicating that the R262E/R263E/K264E substitutions did not grossly alter the protein structure.
+   </p>
+   <fig id="F5" position="float">
+    <label>
+     FIGURE 5.
+    </label>    <caption>
+     <p>
+      <strong>
+       Analysis of HIV-1 IN mutants.
+      </strong>
+      Representative SDS-PAGE gel images of nickel affinity pulldown assays of the CTD mutants with His-TNPO3 are shown in
+      <em>
+       panel A. Lanes 1
+      </em>
+      and
+      <em>
+       2
+      </em>
+      contain molecular weight standards and 1/2 load of TNPO3, respectively.
+      <em>
+       Lanes 3–18
+      </em>
+      contain pulldown assays of 20 μ
+      <span>
+       m
+      </span>
+      CTD mutants (as indicated above the gel) and the same mutant plus 5 μ
+      <span>
+       m
+      </span>
+      His-tagged TNPO3 in alternating fashion.
+      <em>
+       Panel B
+      </em>
+      shows a Coomassie-stained gel of 1/5th load of the CTD mutants in the same order as
+      <em>
+       panel A
+      </em>
+      with molecular weight standards shown in
+      <em>
+       lane 1. Panel C
+      </em>
+      shows the graphic representation of triplicate runs of the relative binding amounts seen in
+      <em>
+       panel A
+      </em>
+      with the S.D. indicated.
+      <em>
+       Panel D
+      </em>
+      represents a nickel affinity pulldown of full-length IN mutant (R262E/R263E/K264E) by His-TNPO3. The Western blot (1/20th of the total reaction) was developed with anti-IN with 5 μ
+      <span>
+       m
+      </span>
+      wild type IN (
+      <em>
+       lanes 2
+      </em>
+      and
+      <em>
+       3
+      </em>
+      ) compared with 5 μ
+      <span>
+       m
+      </span>
+      mutant IN in
+      <em>
+       lanes 4
+      </em>
+      and
+      <em>
+       5
+      </em>
+      . 1.25 μ
+      <span>
+       m
+      </span>
+      His-TNPO3 was added to
+      <em>
+       lanes 3
+      </em>
+      and
+      <em>
+       5
+      </em>
+      . Molecular weight standards are shown in
+      <em>
+       lanes 1
+      </em>
+      and
+      <em>
+       6. Panel E
+      </em>
+      examines the ability of wild type IN (
+      <em>
+       lane 6
+      </em>
+      ) and the R262E/R263E/K264E mutant (
+      <em>
+       lane 7
+      </em>
+      ) to form the SSC.
+      <em>
+       Lanes 1
+      </em>
+      and
+      <em>
+       2
+      </em>
+      contain 1/10th loads of IN and mutant, respectively, and
+      <em>
+       lanes 4–7
+      </em>
+      contain the flow-through of the spin size-exclusion column (see
+      <xref ref-type="fig">
+       Fig. 2
+      </xref>
+      <em>
+       A
+      </em>
+      ).
+      <em>
+       Lane 3
+      </em>
+      contains the molecular mass standards. In
+      <em>
+       lanes 4
+      </em>
+      and
+      <em>
+       5
+      </em>
+      wild type and the mutant INs, respectively, were subjected to the spin size-exclusion separation. In
+      <em>
+       lanes 6
+      </em>
+      and
+      <em>
+       7
+      </em>
+      viral DNA was added to wild type and the mutant INs, respectively, and the complexes were then subjected to a spin size-exclusion chromatography. IN associated with the SSC was detected by Western blot using anti-HIS antibody.
+      <em>
+       Panel F
+      </em>
+      shows a representative SDS page gel image of nickel affinity pulldown assays of wild type and the mutant (R262E/R263E/K264E) INs with His-LEDGF/p75.
+      <em>
+       Lane 1
+      </em>
+      , molecular mass marker;
+      <em>
+       lanes 2
+      </em>
+      and
+      <em>
+       3
+      </em>
+      , tag-free wild type and the mutant INs incubated with nickel beads;
+      <em>
+       lane 4
+      </em>
+      , His-LEDGF/p75;
+      <em>
+       lane 5
+      </em>
+      , wt IN plus His-LEDGF/p75;
+      <em>
+       lane 6
+      </em>
+      , R262/3/4E IN plus His-LEDGF/p75.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    To explain the above experimental observations, we analyzed a molecular model of HIV-1 intasome or the SSC bound to LEDGF IBD (Ref.
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ; see also
+    <a>
+     supplemental Fig. S1
+    </a>
+    ). This model is based on the crystal structure of the prototype foamy virus intasome (
+    <xref ref-type="bibr">
+     62
+    </xref>
+    ) and our FRET analysis of the HIV-1 SSC and its interaction with LEDGF/p75 (
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ). The assembly of the SSC requires a tetramer of IN with two subunits tightly interacting with viral DNA and other two subunits providing a supporting role. The CTDs and positions of Lys-264 in each subunit are indicated (
+    <a>
+     supplemental Fig. S1
+    </a>
+    ). It can be seen from
+    <a>
+     supplemental Fig. S1
+    </a>
+    that whereas the CTDs from two subunits (
+    <em>
+     cyan
+    </em>
+    and
+    <em>
+     green
+    </em>
+    ) directly interact with viral DNA, the CTDs from the other two (
+    <em>
+     magenta
+    </em>
+    and
+    <em>
+     orange
+    </em>
+    ) are surface-exposed and could directly engage TNPO3. Such a model is consistent with our experimental observations that the SSC directly interacts with TNPO3 (
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    <em>
+     B
+    </em>
+    ) and that the triple substitution exhibits pleiotropic affects compromising the IN binding to both the viral DNA and TNPO3 (
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    ,
+    <em>
+     D
+    </em>
+    and
+    <em>
+     E
+    </em>
+    ). Furthermore, the model for the SSC-LEDGF IBD complex (
+    <a>
+     supplemental Fig. S1
+    </a>
+    ) shows that the CTDs in the supporting subunits remain surface-exposed upon binding of LEDGF IBD (shown in
+    <em>
+     gray
+    </em>
+    ) to the SSC and could thus directly engage TNPO3. Accordingly, we found that the preformed IN-LEDGF·p75 complex interacted with TNPO3 (
+    <xref ref-type="fig">
+     Fig. 2
+    </xref>
+    <em>
+     C
+    </em>
+    ), and the triple substitutions in the CTD of full-length IN did not affect IN-LEDGF·p75 binding (
+    <xref ref-type="fig">
+     Fig. 5
+    </xref>
+    <em>
+     F
+    </em>
+    ).
+   </p>
+   <p>
+    Our next goal was to investigate the structural properties of TNPO3 alone as a step toward better understanding the structural basis for its interaction with the intasome. Although there are no available experimental structures of TNPO3 to date, structures of related importin-β family members are available. A PSI-BLAST (
+    <xref ref-type="bibr">
+     49
+    </xref>
+    ) search of the NCBI RefSeq database (
+    <xref ref-type="bibr">
+     50
+    </xref>
+    ) identifies Importin-13 (
+    <xref ref-type="bibr">
+     51
+    </xref>
+    ) as the closest homolog for which an atomic structure has been determined experimentally (24% sequence identity,
+    <a>
+     supplemental Fig. S2
+    </a>
+    ). Using this structure as a template, we generated a homology model of TNPO3 (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    <em>
+     A
+    </em>
+    ). With this level of sequence identity (the “twilight zone” in homology modeling), there will be significant local and gap errors with individual pairwise alignments; however, it is expected that such a model will still correctly capture the gross quaternary features (
+    <xref ref-type="bibr">
+     65
+    </xref>
+    ).
+   </p>
+   <fig id="F6" position="float">
+    <label>
+     FIGURE 6.
+    </label>    <caption>
+     <p>
+      <strong>
+       Biophysical properties of TNPO3.
+      </strong>
+      <em>
+       Panel A
+      </em>
+      , shown is the homology model of TNPO3 based on the Importin-13 structure (
+      <xref ref-type="bibr">
+       51
+      </xref>
+      ). The residues that were selected for site-directed mutagenesis are shown as
+      <em>
+       spheres
+      </em>
+      and colored as follows: Glu-304 is in
+      <em>
+       orange
+      </em>
+      , Glu-391 and Glu-392 are in
+      <em>
+       red
+      </em>
+      , Arg-400 and Arg-402 are in cyan, Gln-761 and Arg-762 are in
+      <em>
+       blue. Panel B
+      </em>
+      , shown are far-UV CD spectra of TNPO3. The spectra were recorded from 190 to 250 nm at a concentration of 2.8 μ
+      <span>
+       m
+      </span>
+      .
+      <em>
+       Panel C
+      </em>
+      : size-exclusion chromatography in-line with multiangle light scattering analysis is shown. The
+      <em>
+       black line
+      </em>
+      is the absorbance profile of TNPO3 at an injected concentration of 13 mg/ml (123 μ
+      <span>
+       m
+      </span>
+      ) as a function of retention time in a Superdex-200 10/300 column at room temperature (
+      <em>
+       left axis
+      </em>
+      ).
+      <em>
+       Squares
+      </em>
+      denote molecular masses determined by in-line light scattering (
+      <em>
+       right axis
+      </em>
+      ). The determined molecular weight coincides with a monomer to dimer transition across the peak area (TNPO3 has a theoretical mass of 106,366.8 daltons for the monomer). By refractive index, the concentration of the eluted material at peak values was at or less than 0.1 mg/ml.
+      <em>
+       Panel D
+      </em>
+      , sedimentation velocity analysis. Data were collected at 4 °C with 0.8 mg/ml (7.6 μ
+      <span>
+       m
+      </span>
+      ) TNPO3. The
+      <em>
+       black line
+      </em>
+      is the
+      <em>
+       c
+      </em>
+      (
+      <em>
+       s
+      </em>
+      ) distribution derived from data fitting the Lamm equation. Two major species are observed, corresponding to monomeric (3.9
+      <em>
+       s
+      </em>
+      ) and dimeric (6.2
+      <em>
+       s
+      </em>
+      ) species. Experimental boundaries and residuals for this analysis are shown in
+      <a>
+       supplemental Fig. S2
+      </a>
+      .
+      <em>
+       Panel E
+      </em>
+      , sedimentation equilibrium analysis is shown. The
+      <em>
+       top panel s
+      </em>
+      hows representative data collected at 4 °C, plotting absorbance as a function of radius. Data were fit globally to a monomer-dimer equilibrium model using three concentrations (5.4, 8.5, and 10.4 μ
+      <span>
+       m
+      </span>
+      ) at three speeds, with strict mass conservation. This analysis yields a
+      <em>
+       k
+       <sub>
+        d
+       </sub>
+      </em>
+      for dimerization of 8.3 ± 0.99 μ
+      <span>
+       m
+      </span>
+      . Residuals showing the agreement between the absorbance data collected and the theoretical fit to association model used are shown in the
+      <em>
+       lower three panels
+      </em>
+      as a function of the radius of the experimental cell.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Members of this family all share a topology that features stacked HEAT domain repeats containing paired antiparallel α-helices connected by flexible loops (
+    <xref ref-type="bibr">
+     66
+    </xref>
+    ). To investigate the secondary structure of TNPO3 and to confirm its predicted α-helical character, we employed CD spectroscopy. The data in
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    <em>
+     B
+    </em>
+    show that recombinant TNPO3 features a high (∼58%) α-helical content (
+    <em>
+     versus
+    </em>
+    70% predicted from the homology model and 68% for Importin-13). Thus, we conclude the secondary structure of TNPO3 is similar to that of other importin-β family members and is concordant with our homology model (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    <em>
+     A
+    </em>
+    ).
+   </p>
+   <p>
+    To better understand the solution behavior of TNPO3, we next performed size-exclusion chromatography in-line with multiangle light scattering and sedimentation velocity. These approaches indicated the presence of both monomers and dimers in solution at the concentrations tested (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    ,
+    <em>
+     C
+    </em>
+    and
+    <em>
+     D
+    </em>
+    , and
+    <a>
+     supplemental Fig. S3
+    </a>
+    ). We extended our analysis to determine the
+    <em>
+     k
+     <sub>
+      d
+     </sub>
+    </em>
+    for dimerization by sedimentation equilibrium analysis. Importin-β from mouse has been reported to behave as a monomer in solution (
+    <xref ref-type="bibr">
+     67
+    </xref>
+    ). In contrast, sedimentation equilibrium analysis (
+    <xref ref-type="fig">
+     Fig. 6
+    </xref>
+    <em>
+     E
+    </em>
+    ) indicates that TNPO3 is best described as existing in a monomer-dimer equilibrium in solution, with a
+    <em>
+     k
+     <sub>
+      d
+     </sub>
+    </em>
+    for dimerization of 8.3 μ
+    <span>
+     m
+    </span>
+    ± 0.99.
+   </p>
+   <p>
+    SAXS can provide insight into the shape and size of macromolecules as they exist in solution and allows for the reconstruction of structure at moderate resolution (∼15 Å). SAXS analyses were performed at concentrations well in excess of the determined
+    <em>
+     k
+     <sub>
+      d
+     </sub>
+    </em>
+    for dimerization to ensure analysis of a single species dimer in solution (
+    <xref ref-type="fig">
+     Fig. 7
+    </xref>
+    <em>
+     A
+    </em>
+    ). At the concentrations examined,
+    <em>
+     I
+    </em>
+    (0) analysis confirms the dimeric mass of TNPO3 (
+    <a>
+     supplemental Table 1
+    </a>
+    ). Reconstruction of the TNPO3 dimeric structure at low resolution using the program GASBOR (
+    <xref ref-type="bibr">
+     44
+    </xref>
+    ) with P2 symmetry constraints yielded a bilobal prolate “saddle-shaped” ellipsoid. The final averaged and filtered shape had dimensions 97.5 × 120.0 × 68.9 Å (
+    <xref ref-type="fig">
+     Fig. 7
+    </xref>
+    <em>
+     B
+    </em>
+    and
+    <a>
+     supplemental Fig. S4
+    </a>
+    ); similar results were obtained with the program DAMMIN (
+    <xref ref-type="bibr">
+     43
+    </xref>
+    ) (data not shown). By HYDROPRO (
+    <xref ref-type="bibr">
+     68
+    </xref>
+    ) analysis, the averaged unfiltered shape has a calculated
+    <em>
+     R
+     <sub>
+      g
+     </sub>
+    </em>
+    of 48 Å and an
+    <em>
+     s
+    </em>
+    value of 6.4, in concordance with SAXS measurements (
+    <em>
+     R
+     <sub>
+      g
+     </sub>
+    </em>
+    = 48 Å) and sedimentation velocity measurements (
+    <em>
+     s
+    </em>
+    of 6.3 for the dimer peak). The excluded hydrated volume for the final SAXS reconstruction (313,800 Å
+    <sup>
+     3
+    </sup>
+    ) is largely consistent with the predicted volume of a well-folded dimer based only on primary sequence (264,874 Å
+    <sup>
+     3
+    </sup>
+    ).
+   </p>
+   <fig id="F7" position="float">
+    <label>
+     FIGURE 7.
+    </label>    <caption>
+     <p>
+      <strong>
+       Structural analysis of TNPO3.
+      </strong>
+      <em>
+       Panel A
+      </em>
+      , shown are representative small-angle x-ray scattering data from TNPO3 recorded at ALS SIBYLS beam line 12-1 at three different sample concentrations (113, 75, and 47 μ
+      <span>
+       m
+      </span>
+      , respectively, from
+      <em>
+       top
+      </em>
+      to
+      <em>
+       bottom
+      </em>
+      ). Data are shown as the recorded intensity as a function of
+      <em>
+       Q
+      </em>
+      (in Å
+      <sup>
+       −1
+      </sup>
+      ).
+      <em>
+       Inset
+      </em>
+      ,
+      <em>
+       panel A
+      </em>
+      is the
+      <em>
+       P
+      </em>
+      (
+      <em>
+       r
+      </em>
+      ) shape function (
+      <em>
+       black line
+      </em>
+      ) derived from GNOM (
+      <xref ref-type="bibr">
+       41
+      </xref>
+      ) analysis with a total estimate value of 0.91. A complete listing of structural parameters derived from SAXS measurements is available in
+      <a>
+       supplemental Table S1
+      </a>
+      .
+      <em>
+       a.u.
+      </em>
+      , absorbance units.
+      <em>
+       Panel B
+      </em>
+      , three orthogonal views of the SAXS-derived shape reconstruction for dimeric TNPO3 were determined by GASBOR analysis (normalized spatial discrepancy = 1.8 ± 0.14, representing the average of 10 individual calculations). Bead models derived from this analysis were converted to volumetric envelopes using the program SITUS (
+      <xref ref-type="bibr">
+       46
+      </xref>
+      ) and rendered using UCSF Chimera (
+      <xref ref-type="bibr">
+       47
+      </xref>
+      ).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    In good concordance with our understanding of the association properties, secondary structure, and our homology model of the TNPO3 monomer, two TNPO3 model monomers in the closed ring configuration could be readily docked into the GASBOR reconstruction (
+    <a>
+     supplemental Fig. S5
+    </a>
+    ). This modeling exercise requires that both monomers associate in such a way that would preclude cargo binding, as indicated in available Importin-13 crystal structures (
+    <xref ref-type="bibr">
+     66
+    </xref>
+    ). However, the concentrations at which a TNPO3 dimer predominates are arguably well above physiologically relevant levels, whereas the
+    <em>
+     k
+     <sub>
+      d
+     </sub>
+    </em>
+    for the IN-TNPO3 interaction is ∼36 n
+    <span>
+     m
+    </span>
+    (
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). Thus, although the
+    <em>
+     in vitro
+    </em>
+    hydrodynamic data validate the homology model and describe the quaternary structure of the dimer, we predict that monomeric TNPO3 binds the intasome.
+   </p>
+   <p>
+    Our next goal was to map IN binding sites on TNPO3. Application of MS-based protein footprinting revealed several surface lysine residues (Lys-355, -366, -594, -651, -877, -881, and -909) in free TNPO3 and further confirmed the validity of the proposed molecular model. However, these residues were not protected from chemical modification in the presence of the CTD or full-length IN, indicating that they are not involved in direct protein-protein interactions. Therefore, we next exploited the available structural and mutagenesis data for Importin-13 (both human and
+    <em>
+     Drosophila
+    </em>
+    forms) as well as the more divergent transportin-1 and interactions with their cargoes to predict potential IN binding sites in TNPO3. For example, TNPO3 Glu-304, Glu-391, and Arg-402 were selected because corresponding residues in Importin-13 have been shown to bind to Ubc9 (
+    <xref ref-type="bibr">
+     66
+    </xref>
+    ), TNPO3 Glu-392 and Arg-400 were mutated because the corresponding residues in transportin-1 and Importin-13 have been implicated in RAN-GTP binding (
+    <xref ref-type="bibr">
+     69
+    </xref>
+    ), and TNPO3 Q761/R762 were chosen because the corresponding residues in Importin-13 have been shown to bind Mago-Y14 (
+    <xref ref-type="bibr">
+     51
+    </xref>
+    ).
+   </p>
+   <p>
+    The data in
+    <xref ref-type="fig">
+     Fig. 8
+    </xref>
+    show that E304R and E391R/E392R substitutions had very little affect on the IN-TNPO3 interaction. In contrast, substitutions of R400E/R402E and Q761E/R762E significantly impaired the IN binding to TNPO3. As a control, CD experiments revealed that wild type and the two reduced binding mutants of TNPO3 had very similar secondary structures, indicating that these substitutions did not result in gross loss of structure of the protein. Therefore, our results indicate that the C-terminal cargo domain of TNPO3 directly interacts with IN. The model presented in
+    <a>
+     supplemental Fig. S6
+    </a>
+    shows that the CTD of IN could indeed engage the C-terminal segment of TNPO3.
+   </p>
+   <fig id="F8" position="float">
+    <label>
+     FIGURE 8.
+    </label>    <caption>
+     <p>
+      <strong>
+       TNPO3 mutants and their affects on IN binding.
+      </strong>
+      <em>
+       Panel A
+      </em>
+      is a representative SDS-PAGE gel image of pulldown assays of wild type and mutant TNPO3 with FLAG-IN.
+      <em>
+       Lane 1
+      </em>
+      contains the molecular mass standards, and
+      <em>
+       lanes 2–12
+      </em>
+      are pulldown assays with FLAG affinity beads.
+      <em>
+       Lane 2
+      </em>
+      contains 5 μ
+      <span>
+       m
+      </span>
+      FLAG-IN. The remaining lanes contain alternating 30 μ
+      <span>
+       m
+      </span>
+      TNPO3/mutant and TNPO3/mutant plus Flag-IN. The order is wild type TNPO3 (
+      <em>
+       lanes 3
+      </em>
+      and
+      <em>
+       4
+      </em>
+      ), E304R (
+      <em>
+       lanes 5
+      </em>
+      and
+      <em>
+       6
+      </em>
+      ), E391R/E392R (
+      <em>
+       lanes 7
+      </em>
+      and
+      <em>
+       8
+      </em>
+      ), R400E/E402E (
+      <em>
+       lanes 9
+      </em>
+      and
+      <em>
+       10
+      </em>
+      ), and QR761/2EE (
+      <em>
+       lanes 11
+      </em>
+      and
+      <em>
+       12
+      </em>
+      ). Heavy and light chain FLAG antibodies are indicated by
+      <em>
+       stars. Panel B
+      </em>
+      is a Coomassie-stained SDS-PAGE gel of the loads in the above order.
+      <em>
+       Lane 1
+      </em>
+      contains the molecular mass standard.
+      <em>
+       Panel C
+      </em>
+      is the graphic representation of the relative binding of wild type TNPO3 compared with mutants. The S.D. of triplicate runs are indicated.
+      <em>
+       Panel D
+      </em>
+      is CD spectra of TNPO3 (
+      <em>
+       squares
+      </em>
+      ), R400E/E402E (
+      <em>
+       triangles
+      </em>
+      ), and Q761E/R762E (
+      <em>
+       diamonds
+      </em>
+      ).
+     </p>
+    </caption>
+   </fig>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <sec>
+    <sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       TNPO3 Does Not Interact Directly with CA Tubes in Vitro
+      </title>
+      <p>
+       Several studies have implicated CA as a primary determinant of HIV-1 dependence on TNPO3 (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ). HIV-1 CA containing an N74D substitution circumvented the inhibition of HIV-1 infection, which was seen during TNPO3 knockdown (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ). However, it is not clear from these studies whether CA and TNPO3 interact directly or if their interactions are mediated by another factor(s). The recent report (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ) has suggested that TNPO3 directly binds the CA cores. However, the binding experiments were conducted using uncleaved CA-NC protein and RNA (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ). Although the outer surface of correctly assembled CA-NC does resemble the CA cores, these assembly conditions yield heterogeneous mixtures, and one cannot exclude a possibility of potential low affinity interactions of TNPO3 with highly polar NC or RNA. In addition, the observed interactions between TNPO3 and the tubes assembled with CA-NC and RNA required extremely high quantities of TNPO3, allowing for the potential for lower affinity charge-charge interactions between TNPO3 and NC or RNA to be seen (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ), and the control experiments were not reported to rule out this possibility. Furthermore, the authors observed only a very modest difference in binding affinity between wild type and N74D CA-NC (∼1.5-fold), whereas in the context of HIV-1 replication in TNPO3 knockdown cells they observed ∼12-fold differences between wild type and the N74D CA mutant viruses (
+       <xref ref-type="bibr">
+        23
+       </xref>
+       ). In this work we used highly purified CA without the addition of NC or RNA. First, the monomeric CA protein failed to exhibit any interaction with TNPO3 (data not shown). We next assembled CA tubes under defined conditions (
+       <xref ref-type="bibr">
+        33
+       </xref>
+       ) and verified their interactions with cognate CypA (
+       <xref ref-type="fig">
+        Fig. 1
+       </xref>
+       ). Under the same assay conditions, only residual amounts of TNPO3 associated with the CA tubes. Moreover, the levels of TNPO3 interactions with wild type and N74D CA were very similar. Taken together, our results argue against meaningful direct interactions between TNPO3 and CA.
+      </p>
+      <p>
+       How do our findings reconcile with the observation (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ) that HIV-1 containing either wild type or N74D mutant CA exhibit different nuclear import phenotypes in TNPO3 knockdown cells? One possibility is that the N74D substitution alters interplay between CA and another factor, which in turn directly or indirectly links this protein-protein complex to TNPO3. For example, CPSF-6 has been shown to interact with wild type and not N74D CA (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ). Furthermore, a recent study (
+       <xref ref-type="bibr">
+        70
+       </xref>
+       ) has mapped a small CPSF-6 segment of amino acids 314–322 that directly engages wild type CA. At its C terminus (amino acids 527–588) CPSF-6 contains an SR domain, which is a potential cargo of TNPO3 (
+       <xref ref-type="bibr">
+        71
+       </xref>
+       ) and, therefore, likely to mediate the nuclear import of RNA processing proteins. Therefore, CPSF-6 could potentially act as bifunctional tether, with amino acids 314–322 interacting with CA and the SR domain engaging TNPO3. However, further studies are necessary to test whether such a ternary complex is formed in infected cells. Alternatively, TNPO3 knockdown could lead to relocation of CPSF-6 from its normal location in the nucleus to the cytoplasm, where CPSF-6 could directly engage the CA cores and interfere with its uncoating or docking to the nuclear pores. In support of this premise, the CPSF6–358 protein that lacks the SR domain has been shown to localize in the cytoplasm and potently inhibit HIV-1 replication through direct interaction with CA (
+       <xref ref-type="bibr">
+        21
+       </xref>
+       ). Furthermore, HIV-1 acquired resistance to CPSF6–358 through the N74D CA substitution. Taken together, the current knowledge does not allow us to delineate how CPSF-6 modulates the HIV-1 nuclear import. Therefore, further studies are warranted to probe the mechanisms involving CPSF-6 as well as to identify other potential factors mediating the interplay between TNPO3 and CA.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       The HIV-1 Intasome Directly Interacts with the TNPO3 in Vitro
+      </title>
+      <p>
+       Yeast two-hybrid and pulldown assays (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ) have shown that HIV-1 IN directly interacts with TNPO3. Using MS-based footprinting and site-directed mutagenesis, we have identified IN CTD residues R262E/R263E/K264E as being important for this protein-protein interaction. Although the yeast two-hybrid screens (
+       <xref ref-type="bibr">
+        12
+       </xref>
+       ) pointed to the significance of HIV-1 IN CCD for the interaction with TNPO3, the absolute majority of their hits included almost all of the CTDs including the residues we have indentified. In these studies we have used stringent assay conditions (for example, the pulldown reactions contained 500 m
+       <span>
+        m
+       </span>
+       NaCl) to identify primary binding sites of TNPO3 in HIV-1 IN. These reaction conditions have revealed the HIV-1 IN CTD as the principal interacting partner of TNPO3. At the same time, our data do not exclude a possibility that TNPO3 could establish lower affinity interactions with HIV-1 IN CCD or NTD.
+      </p>
+      <p>
+       A previous study (
+       <xref ref-type="bibr">
+        72
+       </xref>
+       ) demonstrated that K215A/K219A and R263A/K264A substitutions severely impair nuclear import of PICs and compromise IN binding to Importin-α3. Furthermore, a more recent report has uncovered the significance of Lys-264 for the IN interaction with an undefined nuclear import factor and HIV-1 integration (
+       <xref ref-type="bibr">
+        73
+       </xref>
+       ). Although the K264E substitution fully impaired IN CTD binding with TNPO3 (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        A
+       </em>
+       ), the same single site substitution in the context of full-length IN had only a modest effect on the IN-TNPO3 binding (data not shown), and additional substitutions of adjacent Arg-262 and R263 were necessary to compromise the interaction between full-length proteins (
+       <xref ref-type="fig">
+        Fig. 5
+       </xref>
+       <em>
+        D
+       </em>
+       ). Thus our and published (
+       <xref ref-type="bibr">
+        72
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        73
+       </xref>
+       ) findings collectively argue for the importance of this IN segment for HIV-1 integration and call for further more detailed genetic analysis of these substitutions during HIV-1 infection. Because the IN R262E/R263E/K264E mutant is defective for interactions with TNPO3, Importin-α3, and viral DNA, the main focus of future genetic studies should be to carefully delineate pleotropic affects arising from these substitutions.
+      </p>
+      <p>
+       We show for the first time that TNPO3 can affectively bind the functional IN-viral DNA stable synaptic complex
+       <em>
+        in vitro
+       </em>
+       . Molecular modeling has provided a useful structural context for understanding such interactions. For example, within the functional intasome, where a tetramer of IN is stably bound to the two viral DNA ends, the CTDs in the two IN subunits that serve a supporting role in the intasome are fully accessible to engage TNPO3. In line with these observations, the IN-TNPO3 interaction is not affected by LEDGF/p75 (
+       <xref ref-type="fig">
+        Fig. 2
+       </xref>
+       <em>
+        C
+       </em>
+       ), as the latter binds the IN CCD and NTD but not the CTD (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). Taken together, our data suggest that both LEDGF/p75 and TNPO3 could engage the HIV-1 intasome at the same time.
+      </p>
+      <p>
+       Previous studies (
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        20
+       </xref>
+       ) have demonstrated that MLV as well as a number of other retroviral INs also strongly interact with TNPO3. Structural similarity between CTDs of different retroviral INs could explain these observations. However, the functional significance of direct interactions between retroviral INs and TNPO3 has been questioned due to the findings that MLV vectors as well as the chimeric HIV-1 virus containing MLV CA are insensitive to TNPO3 knockdown (
+       <xref ref-type="bibr">
+        6
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        19
+       </xref>
+       ). One possible explanation for this is that the differential uncoating rates of MLV and HIV-1 CA cores could differently modulate TNPO3 access to the intasome. For example, it has been observed that HIV-1 CAs dissociates from PICs more rapidly than their MLV counterparts (
+       <xref ref-type="bibr">
+        74
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        75
+       </xref>
+       ). Thus, the CA cores could provide masking effects until uncoating, and hence their rates of uncoating could accordingly regulate TNPO3 access to the intasome. Roles of other cellular factors should also be considered. For example, CPSF-6 has been shown to directly interact with HIV-1 but not MLV CA and as discussed above could potentially facilitate the nuclear import of HIV-1 by altering the availability of the intasome. Although these scenarios support the notion that the primary dependence of HIV-1 on TNPO3 is determined by CA, they do not necessarily exclude a possibility that the intasome directly engages TNPO3 at later stage of HIV-1 replication just before its nuclear entry or after the PICs travel to the nucleus.
+      </p>
+      <p>
+       Recent studies have suggested that the TNPO3 within the nucleus could be important for promoting HIV-1 integration (
+       <xref ref-type="bibr">
+        22
+       </xref>
+       –
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ). A mechanism was proposed whereby some PIC-associated HIV-1 CA enters the nucleus and TNPO3 strips the CA from PICs to promote effective integration (
+       <xref ref-type="bibr">
+        24
+       </xref>
+       ). If this model gains further support, one could consider a possibility where CA is displaced from PICs by the direct binding of TNPO3 to the intasome rather than CA. Recent reports have also shown that TNPO3 knockdowns reduced HIV-1 integration frequency into gene-dense regions (
+       <xref ref-type="bibr">
+        14
+       </xref>
+       ). Our findings suggest that TNPO3 could directly associate with the functional nucleoprotein complex and could thus potentially affect the integration site targeting. Again, alternative scenarios could not be excluded, with TNPO3 effects on the integration efficiency and site preference being mediated by other cellular factors. Our mapping of interacting interfaces between HIV-1 IN and TNPO3 provides an important tool for further genetic analysis to delineate the mechanism for HIV dependence on TNPO3.
+      </p>
+     </sec>
+     <sec>
+      <p>
+      </p>
+      <title>
+       Structural Characterization of TNPO3
+      </title>
+      <p>
+       We report the first detailed biophysical characterization of TNPO3. The CD experiments have revealed a highly α-helical secondary structure of TNPO3 pointing to its close resemblance with Importin-13. Similarities between these two proteins are further evident from their primary structure comparisons indicating 25% sequence identity and 44% similarity. Therefore, it was sensible to use the available x-ray crystal structures of Importin-13 (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        66
+       </xref>
+       ) for the molecular modeling of TNPO3. Although the free full-length Importin-13 structure is not available, the structures of Importin-13 in its complexes with different cargoes revealed a remarkable conformational flexibility of the protein (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        66
+       </xref>
+       ). For example, Importin-13 in the complex with Mago-Y14 adopts an open super-helical conformation (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ), whereas the Importin 13-Ubc9 complex formed a closed ring conformation (
+       <xref ref-type="bibr">
+        66
+       </xref>
+       ). Although it was not possible to analyze exclusive monomers of TNPO3 by SAXS because of self-association, our modeling of the TNPO3 dimer does indicate that at least in the context of a dimer, TNPO3 monomers exist in a closed ring configuration (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       ), where the N- and C-terminal segments form an interface with each other.
+      </p>
+      <p>
+       The N-terminal portion of TNPO3 shares the highest degree of amino acid sequence conservation with Importin-13 and other members of the Importin-β family and is likely to directly bind their common regulator RanGTP (
+       <xref ref-type="bibr">
+        76
+       </xref>
+       ). Indeed many of the key residues indentified in Importin-13 as directly binding RanGTP are also present in TNPO3 (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ). The C-terminal portions of these karyopherins usually bind their respective cargos (
+       <xref ref-type="bibr">
+        69
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        77
+       </xref>
+       –
+       <xref ref-type="bibr">
+        83
+       </xref>
+       ). However, two exceptions have been reported with Ubc9 and parathyroid hormone-related protein interacting with the N-terminal arches of Importin-13 and Importin-β, respectively (
+       <xref ref-type="bibr">
+        40
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        66
+       </xref>
+       ). We used several contact points observed in the Importin-13 co-crystal structures with different cargoes (
+       <xref ref-type="bibr">
+        51
+       </xref>
+       ,
+       <xref ref-type="bibr">
+        66
+       </xref>
+       ) to predict the TNPO3 binding site to HIV-1 IN. Our data suggest the importance of TNPO3 residues Arg-400/Arg-402 and Gln-761/Arg- for binding with HIV-1 IN. These residues are in the inner C-terminal arch facing each other, and the IN CTD can readily be modeled in this region to establish direct contacts with these residues. Based on the size of the IN CTD, it can fit within the cavity formed by the closed ring structure (
+       <a>
+        supplemental Fig. S6
+       </a>
+       ).
+      </p>
+      <p>
+       A previous study mapped several TNPO3 amino acid sites as being important for lentiviral replication (
+       <xref ref-type="bibr">
+        56
+       </xref>
+       ). The most significant effect on simian immunodeficiency virus nuclear import was observed when the L767A/L768A substitutions were introduced in TNPO3. In our model these residues are located in a loop spanning amino acids 763–775, which immediately follows the α-helix of amino acids 747–762 containing Gln-761/Arg-762. Thus, previous and current studies collectively point to the importance of this segment for the function of TNPO3. However, it remains to be seen whether this TNPO3 segment engages HIV-1 IN or another cargo in infected cells. Another TNPO3 region mapped by the published study implicated the C-terminal 18 amino acids (
+       <xref ref-type="bibr">
+        56
+       </xref>
+       ). The truncated protein (δ18) as well as the F918A/F922A mutant exhibited reduced activities. Our model does not implicate these residues in the direct binding with the HIV-1 IN CTD (
+       <a>
+        supplemental Fig. S6
+       </a>
+       ). Instead, this C-terminal region establishes intra-protein contacts with the N-terminal part of TNPO3 to form a closed ring structure (
+       <xref ref-type="fig">
+        Fig. 6
+       </xref>
+       <em>
+        A
+       </em>
+       and
+       <a>
+        supplemental Fig. S5
+       </a>
+       ). Accordingly, the C-terminal truncation could significantly affect TNPO3 conformation. Furthermore, residues Phe-918 and Phe-922 are involved in the intra-helical interactions within HEAT 20 and are not exposed to the surface. Therefore, we propose that the substitutions of these residues indirectly rather than directly affect TNPO3 interactions with its cognate cargo(s). In summary, our biophysical characterization and molecular modeling of TNPO3 provide an important framework for designing and interpreting further genetic analysis to better understand the roles of this protein and its interacting partners for HIV replication.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Hulme A. E., Perez O., Hope T. J. (2011)
+      <span>
+       Complementary assays reveal a relationship between HIV-1 uncoating and reverse transcription
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       108
+      </span>
+      , 9975–9980
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Brown P. O. (1997) in
+      <span>
+       Retroviruses
+      </span>
+      (Coffin J. M., Hughes S. H., Varmus H. E., editors. , eds) pp. 161–204, Cold Spring Harbor Laboratory, Plainview, NY
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Li M., Mizuuchi M., Burke T. R., Jr., Craigie R. (2006)
+      <span>
+       Retroviral DNA integration, reaction pathway, and critical intermediates
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       25
+      </span>
+      , 1295–1304
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Miller M. D., Farnet C. M., Bushman F. D. (1997)
+      <span>
+       Human immunodeficiency virus type 1 preintegration complexes, studies of organization and composition
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       71
+      </span>
+      , 5382–5390
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Gallay P., Hope T., Chin D., Trono D. (1997)
+      <span>
+       HIV-1 infection of nondividing cells through the recognition of integrase by the importin/karyopherin pathway
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       94
+      </span>
+      , 9825–9830
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Yamashita M., Emerman M. (2004)
+      <span>
+       Capsid is a dominant determinant of retrovirus infectivity in nondividing cells
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       78
+      </span>
+      , 5670–5678
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      von Schwedler U., Kornbluth R. S., Trono D. (1994)
+      <span>
+       The nuclear localization signal of the matrix protein of human immunodeficiency virus type 1 allows the establishment of infection in macrophages and quiescent T lymphocytes
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       91
+      </span>
+      , 6992–6996
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Gallay P., Stitt V., Mundy C., Oettinger M., Trono D. (1996)
+      <span>
+       Role of the karyopherin pathway in human immunodeficiency virus type 1 nuclear import
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       70
+      </span>
+      , 1027–1032
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Hearps A. C., Jans D. A. (2006)
+      <span>
+       HIV-1 integrase is capable of targeting DNA to the nucleus via an importin α/β-dependent mechanism
+      </span>
+      .
+      <span>
+       Biochem. J.
+      </span>
+      <span>
+       398
+      </span>
+      , 475–484
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Brass A. L., Dykxhoorn D. M., Benita Y., Yan N., Engelman A., Xavier R. J., Lieberman J., Elledge S. J. (2008)
+      <span>
+       Identification of host proteins required for HIV infection through a functional genomic screen
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       319
+      </span>
+      , 921–926
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Fassati A., Görlich D., Harrison I., Zaytseva L., Mingot J. M. (2003)
+      <span>
+       Nuclear import of HIV-1 intracellular reverse transcription complexes is mediated by importin 7
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       22
+      </span>
+      , 3675–3685
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Christ F., Thys W., De Rijck J., Gijsbers R., Albanese A., Arosio D., Emiliani S., Rain J. C., Benarous R., Cereseto A., Debyser Z. (2008)
+      <span>
+       Transportin-SR2 imports HIV into the nucleus
+      </span>
+      .
+      <span>
+       Curr. Biol.
+      </span>
+      <span>
+       18
+      </span>
+      , 1192–1202
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      König R., Zhou Y., Elleder D., Diamond T. L., Bonamy G. M., Irelan J. T., Chiang C. Y., Tu B. P., De Jesus P. D., Lilley C. E., Seidel S., Opaluch A. M., Caldwell J. S., Weitzman M. D., Kuhen K. L., Bandyopadhyay S., Ideker T., Orth A. P., Miraglia L. J., Bushman F. D., Young J. A., Chanda S. K. (2008)
+      <span>
+       Global analysis of host-pathogen interactions that regulate early-stage HIV-1 replication
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       135
+      </span>
+      , 49–60
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Ocwieja K. E., Brady T. L., Ronen K., Huegel A., Roth S. L., Schaller T., James L. C., Towers G. J., Young J. A., Chanda S. K., König R., Malani N., Berry C. C., Bushman F. D. (2011)
+      <span>
+       HIV integration targeting. A pathway involving transportin-3 and the nuclear pore protein RanBP2
+      </span>
+      .
+      <span>
+       PLoS Pathog.
+      </span>
+      <span>
+       7
+      </span>
+      , e1001313.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Matreyek K. A., Engelman A. (2011)
+      <span>
+       The requirement for nucleoporin NUP153 during human immunodeficiency virus type 1 infection is determined by the viral capsid
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       85
+      </span>
+      , 7818–7827
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Schaller T., Ocwieja K. E., Rasaiyaah J., Price A. J., Brady T. L., Roth S. L., Hué S., Fletcher A. J., Lee K., KewalRamani V. N., Noursadeghi M., Jenner R. G., James L. C., Bushman F. D., Towers G. J. (2011)
+      <span>
+       HIV-1 capsid-cyclophilin interactions determine nuclear import pathway, integration targeting, and replication efficiency
+      </span>
+      .
+      <span>
+       PLoS Pathog.
+      </span>
+      <span>
+       7
+      </span>
+      , e1002439.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Bushman F. D., Malani N., Fernandes J., D'Orso I., Cagney G., Diamond T. L., Zhou H., Hazuda D. J., Espeseth A. S., König R., Bandyopadhyay S., Ideker T., Goff S. P., Krogan N. J., Frankel A. D., Young J. A., Chanda S. K. (2009)
+      <span>
+       Host cell factors in HIV replication.
+       <em>
+        Meta
+       </em>
+       -analysis of genome-wide studies
+      </span>
+      .
+      <span>
+       PLoS Pathog.
+      </span>
+      <span>
+       5
+      </span>
+      , e1000437.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Kataoka N., Bachorik J. L., Dreyfuss G. (1999)
+      <span>
+       Transportin-SR, a nuclear import receptor for SR proteins
+      </span>
+      .
+      <span>
+       J. Cell Biol.
+      </span>
+      <span>
+       145
+      </span>
+      , 1145–1152
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Krishnan L., Matreyek K. A., Oztop I., Lee K., Tipper C. H., Li X., Dar M. J., Kewalramani V. N., Engelman A. (2010)
+      <span>
+       The requirement for cellular transportin 3 (TNPO3 or TRN-SR2) during infection maps to human immunodeficiency virus type 1 capsid and not integrase
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       84
+      </span>
+      , 397–406
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Thys W., De Houwer S., Demeulemeester J., Taltynov O., Vancraenenbroeck R., Gérard M., De Rijck J., Gijsbers R., Christ F., Debyser Z. (2011)
+      <span>
+       Interplay between HIV entry and transportin-SR2 dependency
+      </span>
+      .
+      <span>
+       Retrovirology
+      </span>
+      <span>
+       8
+      </span>
+      , 7.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Lee K., Ambrose Z., Martin T. D., Oztop I., Mulky A., Julias J. G., Vandegraaff N., Baumann J. G., Wang R., Yuen W., Takemura T., Shelton K., Taniuchi I., Li Y., Sodroski J., Littman D. R., Coffin J. M., Hughes S. H., Unutmaz D., Engelman A., KewalRamani V. N. (2010)
+      <span>
+       Flexible use of nuclear import pathways by HIV-1
+      </span>
+      .
+      <span>
+       Cell Host Microbe
+      </span>
+      <span>
+       7
+      </span>
+      , 221–233
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      De Iaco A., Luban J. (2011)
+      <span>
+       Inhibition of HIV-1 infection by TNPO3 depletion is determined by capsid and detectable after viral cDNA enters the nucleus
+      </span>
+      .
+      <span>
+       Retrovirology
+      </span>
+      <span>
+       8
+      </span>
+      , 98.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      Valle-Casuso J. C., Di Nunzio F., Yang Y., Reszka N., Lienlaf M., Arhel N., Perez P., Brass A. L., Diaz-Griffero F. (2012)
+      <span>
+       TNPO3 is required for HIV-1 replication after nuclear import but prior to integration and binds the HIV-1 core
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       86
+      </span>
+      , 5931–5936
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      Zhou L., Sokolskaja E., Jolly C., James W., Cowley S. A., Fassati A. (2011)
+      <span>
+       Transportin 3 promotes a nuclear maturation step required for efficient HIV-1 integration
+      </span>
+      .
+      <span>
+       PLoS Pathog.
+      </span>
+      <span>
+       7
+      </span>
+      , e1002194.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Kessl J. J., Jena N., Koh Y., Taskent-Sezgin H., Slaughter A., Feng L., de Silva S., Wu L., Le Grice S. F., Engelman A., Fuchs J. R., Kvaratskhelia M. (2012)
+      <span>
+       Multimode, cooperative mechanism of action of allosteric HIV-1 integrase inhibitors
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       287
+      </span>
+      , 16801–16811
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Vandegraaff N., Devroe E., Turlure F., Silver P. A., Engelman A. (2006)
+      <span>
+       Biochemical and genetic analyses of integrase-interacting proteins lens epithelium-derived growth factor (LEDGF)/p75 and hepatoma-derived growth factor-related protein 2 (HRP2) in preintegration complex function and HIV-1 replication
+      </span>
+      .
+      <span>
+       Virology
+      </span>
+      <span>
+       346
+      </span>
+      , 415–426
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Cherepanov P. (2007)
+      <span>
+       LEDGF/p75 interacts with divergent lentiviral integrases and modulates their enzymatic activity
+       <em>
+        in vitro
+       </em>
+      </span>
+      .
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       35
+      </span>
+      , 113–124
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      McKee C. J., Kessl J. J., Shkriabai N., Dar M. J., Engelman A., Kvaratskhelia M. (2008)
+      <span>
+       Dynamic modulation of HIV-1 integrase structure and function by cellular lens epithelium-derived growth factor (LEDGF) protein
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       283
+      </span>
+      , 31802–31812
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Lodi P. J., Ernst J. A., Kuszewski J., Hickman A. B., Engelman A., Craigie R., Clore G. M., Gronenborn A. M. (1995)
+      <span>
+       Solution structure of the DNA binding domain of HIV-1 integrase
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       34
+      </span>
+      , 9826–9833
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      von Schwedler U. K., Stemmler T. L., Klishko V. Y., Li S., Albertine K. H., Davis D. R., Sundquist W. I. (1998)
+      <span>
+       Proteolytic refolding of the HIV-1 capsid protein amino terminus facilitates viral core assembly
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       17
+      </span>
+      , 1555–1568
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Kessl J. J., Li M., Ignatov M., Shkriabai N., Eidahl J. O., Feng L., Musier-Forsyth K., Craigie R., Kvaratskhelia M. (2011)
+      <span>
+       FRET analysis reveals distinct conformations of IN tetramers in the presence of viral DNA or LEDGF/p75
+      </span>
+      .
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       39
+      </span>
+      , 9009–9022
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Kobbi L., Octobre G., Dias J., Comisso M., Mirande M. (2011)
+      <span>
+       Association of mitochondrial Lysyl-tRNA synthetase with HIV-1 GagPol involves catalytic domain of the synthetase and transframe and integrase domains of Pol
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       410
+      </span>
+      , 875–886
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Cortines J. R., Monroe E. B., Kang S., Prevelige P. E., Jr. (2011)
+      <span>
+       A retroviral chimeric capsid protein reveals the role of the N-terminal β-hairpin in mature core assembly
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       410
+      </span>
+      , 641–652
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Louis-Jeune C., Andrade-Navarro M. A., Perez-Iratxeta C. (2012)
+      <span>
+       Prediction of protein secondary structure from circular dichroism using theoretically derived spectra
+      </span>
+      .
+      <span>
+       Proteins
+      </span>
+      <span>
+       80
+      </span>
+      , 374–381
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      McKee C. J., Kessl J. J., Norris J. O., Shkriabai N., Kvaratskhelia M. (2009)
+      <span>
+       Mass spectrometry-based footprinting of protein-protein interactions
+      </span>
+      .
+      <span>
+       Methods
+      </span>
+      <span>
+       47
+      </span>
+      , 304–307
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Laue T. M., Shah B. D., Ridgeway T. M., Pelletier S. L. (1992)
+      <span>
+       Analytical Ultracentrifugation in Biochemistry and Polymer Science
+      </span>
+      , pp. 90–125, Royal Society of Chemistry, Cambridge, UK
+     </span>
+    </sec>
+    <sec>
+     37.
+     <span>
+      Schuck P. (2000)
+      <span>
+       Size-distribution analysis of macromolecules by sedimentation velocity ultracentrifugation and lamm equation modeling
+      </span>
+      .
+      <span>
+       Biophys. J.
+      </span>
+      <span>
+       78
+      </span>
+      , 1606–1619
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     38.
+     <span>
+      Vistica J., Dam J., Balbo A., Yikilmaz E., Mariuzza R. A., Rouault T. A., Schuck P. (2004)
+      <span>
+       Sedimentation equilibrium analysis of protein interactions with global implicit mass conservation constraints and systematic noise decomposition
+      </span>
+      .
+      <span>
+       Anal. Biochem.
+      </span>
+      <span>
+       326
+      </span>
+      , 234–256
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     39.
+     <span>
+      Hura G. L., Menon A. L., Hammel M., Rambo R. P., Poole F. L., 2nd, Tsutakawa S. E., Jenney F. E., Jr., Classen S., Frankel K. A., Hopkins R. C., Yang S. J., Scott J. W., Dillard B. D., Adams M. W., Tainer J. A. (2009)
+      <span>
+       Robust, high-throughput solution structural analyses by small angle X-ray scattering (SAXS)
+      </span>
+      .
+      <span>
+       Nat. Methods
+      </span>
+      <span>
+       6
+      </span>
+      , 606–612
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     40.
+     <span>
+      Cingolani G., Bednenko J., Gillespie M. T., Gerace L. (2002)
+      <span>
+       Molecular basis for the recognition of a nonclassical nuclear localization signal by importin β
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       10
+      </span>
+      , 1345–1353
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     41.
+     <span>
+      Semenyuk A. V., Svergun D. I. (1991)
+      <span>
+       Package for small-angle scattering data processing
+      </span>
+      .
+      <span>
+       J. Appl. Crystallogr.
+      </span>
+      <span>
+       24
+      </span>
+      , 537–540
+     </span>
+    </sec>
+    <sec>
+     42.
+     <span>
+      Svergun D., Barberato C., Koch M. H. (1995)
+      <span>
+       CRYSOL, A program to evaluate x-ray solution scattering of biological macromolecules from atomic coordinates
+      </span>
+      .
+      <span>
+       J. Appl. Crystallogr.
+      </span>
+      <span>
+       28
+      </span>
+      , 768–773
+     </span>
+    </sec>
+    <sec>
+     43.
+     <span>
+      Svergun D. I. (1999)
+      <span>
+       Restoring low resolution structure of biological macromolecules from solution scattering using simulated annealing
+      </span>
+      .
+      <span>
+       Biophys. J.
+      </span>
+      <span>
+       77
+      </span>
+      , 2896–2896
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     44.
+     <span>
+      Svergun D. I., Petoukhov M. V., Koch M. H. (2001)
+      <span>
+       Determination of domain structure of proteins from X-ray solution scattering
+      </span>
+      .
+      <span>
+       Biophys. J.
+      </span>
+      <span>
+       80
+      </span>
+      , 2946–2953
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     45.
+     <span>
+      DeLano W. L. (2002)
+      <span>
+       The PyMOL Molecular Graphics System
+      </span>
+      , Version 0.99r6, Schrodinger, LLC, New York: 
+PyMOL
+     </span>
+    </sec>
+    <sec>
+     46.
+     <span>
+      Wriggers W., Milligan R. A., McCammon J. A. (1999)
+      <span>
+       Situs. A package for docking crystal structures into low resolution maps from electron microscopy
+      </span>
+      .
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       125
+      </span>
+      , 185–195
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     47.
+     <span>
+      Pettersen E. F., Goddard T. D., Huang C. C., Couch G. S., Greenblatt D. M., Meng E. C., Ferrin T. E. (2004)
+      <span>
+       UCSF Chimera. A visualization system for exploratory research and analysis
+      </span>
+      .
+      <span>
+       J. Comput. Chem.
+      </span>
+      <span>
+       25
+      </span>
+      , 1605–1612
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     48.
+     <span>
+      Volkov V. V., Svergun D. I. (2003)
+      <span>
+       Uniqueness of
+       <em>
+        ab initio
+       </em>
+       shape determination in small-angle scattering
+      </span>
+      .
+      <span>
+       J. Appl. Crystallogr.
+      </span>
+      <span>
+       36
+      </span>
+      , 860–864
+     </span>
+    </sec>
+    <sec>
+     49.
+     <span>
+      Altschul S. F., Madden T. L., Schäffer A. A., Zhang J., Zhang Z., Miller W., Lipman D. J. (1997)
+      <span>
+       Gapped BLAST and PSI-BLAST. A new generation of protein database search programs
+      </span>
+      .
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       25
+      </span>
+      , 3389–3402
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     50.
+     <span>
+      Pruitt K. D., Tatusova T., Maglott D. R. (2007)
+      <span>
+       NCBI reference sequences (RefSeq). A curated non-redundant sequence database of genomes, transcripts, and proteins
+      </span>
+      .
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       35
+      </span>
+      , D61–D65
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     51.
+     <span>
+      Bono F., Cook A. G., Grünwald M., Ebert J., Conti E. (2010)
+      <span>
+       Nuclear import mechanism of the EJC component Mago-Y14 revealed by structural studies of importin 13
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       37
+      </span>
+      , 211–222
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     52.
+     <span>
+      Eswar N., Webb B., Marti-Renom M. A., Madhusudhan M. S., Eramian D., Shen M.-Y., Pieper U., Sali A. (2006)
+      <span>
+       Comparative protein structure modeling using Modeller
+      </span>
+      .
+      <span>
+       Curr. Protoc. Bioinformatics
+      </span>
+      , Chapter 5, Unit 5.6
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     53.
+     <span>
+      Humphrey W., Dalke A., Schulten K. (1996)
+      <span>
+       VMD. Visual molecular dynamics
+      </span>
+      .
+      <span>
+       J. Mol. Graph.
+      </span>
+      <span>
+       14
+      </span>
+      , 33–38
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     54.
+     <span>
+      Phillips J. C., Braun R., Wang W., Gumbart J., Tajkhorshid E., Villa E., Chipot C., Skeel R. D., Kalé L., Schulten K. (2005)
+      <span>
+       Scalable molecular dynamics with NAMD
+      </span>
+      .
+      <span>
+       J. Comput. Chem.
+      </span>
+      <span>
+       26
+      </span>
+      , 1781–1802
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     55.
+     <span>
+      Chen H., Engelman A. (1998)
+      <span>
+       The barrier-to-autointegration protein is a host factor for HIV type 1 integration
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       95
+      </span>
+      , 15270–15274
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     56.
+     <span>
+      Logue E. C., Taylor K. T., Goff P. H., Landau N. R. (2011)
+      <span>
+       The cargo-binding domain of transportin 3 is required for lentivirus nuclear import
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       85
+      </span>
+      , 12950–12961
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     57.
+     <span>
+      Ganser-Pornillos B. K., von Schwedler U. K., Stray K. M., Aiken C., Sundquist W. I. (2004)
+      <span>
+       Assembly properties of the human immunodeficiency virus type 1 CA protein
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       78
+      </span>
+      , 2545–2552
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     58.
+     <span>
+      Cai M., Zheng R., Caffrey M., Craigie R., Clore G. M., Gronenborn A. M. (1997)
+      <span>
+       Solution structure of the N-terminal zinc binding domain of HIV-1 integrase
+      </span>
+      .
+      <span>
+       Nat. Struct. Biol.
+      </span>
+      <span>
+       4
+      </span>
+      , 567–577
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     59.
+     <span>
+      Dyda F., Hickman A. B., Jenkins T. M., Engelman A., Craigie R., Davies D. R. (1994)
+      <span>
+       Crystal structure of the catalytic domain of HIV-1 integrase. Similarity to other polynucleotidyl transferases
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       266
+      </span>
+      , 1981–1986
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     60.
+     <span>
+      Goldgur Y., Dyda F., Hickman A. B., Jenkins T. M., Craigie R., Davies D. R. (1998)
+      <span>
+       Three new structures of the core domain of HIV-1 integrase. An active site that binds magnesium
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U.S.A.
+      </span>
+      <span>
+       95
+      </span>
+      , 9150–9154
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     61.
+     <span>
+      Eijkelenboom A. P., Lutzke R. A., Boelens R., Plasterk R. H., Kaptein R., Hård K. (1995)
+      <span>
+       The DNA binding domain of HIV-1 integrase has an SH3-like-fold
+      </span>
+      .
+      <span>
+       Nat. Struct. Biol.
+      </span>
+      <span>
+       2
+      </span>
+      , 807–810
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     62.
+     <span>
+      Hare S., Gupta S. S., Valkov E., Engelman A., Cherepanov P. (2010)
+      <span>
+       Retroviral intasome assembly and inhibition of DNA strand transfer
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       464
+      </span>
+      , 232–236
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     63.
+     <span>
+      Zhao Z., McKee C. J., Kessl J. J., Santos W. L., Daigle J. E., Engelman A., Verdine G., Kvaratskhelia M. (2008)
+      <span>
+       Subunit-specific protein footprinting reveals significant structural rearrangements and a role for N-terminal Lys-14 of HIV-1 Integrase during viral DNA binding
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       283
+      </span>
+      , 5632–5641
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     64.
+     <span>
+      Hare S., Di Nunzio F., Labeja A., Wang J., Engelman A., Cherepanov P. (2009)
+      <span>
+       Structural basis for functional tetramerization of lentiviral integrase
+      </span>
+      .
+      <span>
+       PLoS Pathog.
+      </span>
+      <span>
+       5
+      </span>
+      , e1000515.
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     65.
+     <span>
+      Martí-Renom M. A., Stuart A. C., Fiser A., Sánchez R., Melo F., Sali A. (2000)
+      <span>
+       Comparative protein structure modeling of genes and genomes
+      </span>
+      .
+      <span>
+       Annu. Rev. Biophys. Biomol. Struct.
+      </span>
+      <span>
+       29
+      </span>
+      , 291–325
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     66.
+     <span>
+      Grünwald M., Bono F. (2011)
+      <span>
+       Structure of Importin13-Ubc9 complex. Nuclear import and release of a key regulator of sumoylation
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       30
+      </span>
+      , 427–438
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     67.
+     <span>
+      Catimel B., Teh T., Fontes M. R., Jennings I. G., Jans D. A., Howlett G. J., Nice E. C., Kobe B. (2001)
+      <span>
+       Biophysical characterization of interactions involving importin-α during nuclear import
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       276
+      </span>
+      , 34189–34198
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     68.
+     <span>
+      García De La Torre J., Huertas M. L., Carrasco B. (2000)
+      <span>
+       Calculation of hydrodynamic properties of globular proteins from their atomic-level structure
+      </span>
+      .
+      <span>
+       Biophys. J.
+      </span>
+      <span>
+       78
+      </span>
+      , 719–730
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     69.
+     <span>
+      Imasaki T., Shimizu T., Hashimoto H., Hidaka Y., Kose S., Imamoto N., Yamada M., Sato M. (2007)
+      <span>
+       Structural basis for substrate recognition and dissociation by human transportin 1
+      </span>
+      .
+      <span>
+       Mol. Cell
+      </span>
+      <span>
+       28
+      </span>
+      , 57–67
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     70.
+     <span>
+      Lee K., Mulky A., Yuen W., Martin T. D., Meyerson N. R., Choi L., Yu H., Sawyer S. L., Kewalramani V. N. (2012)
+      <span>
+       HIV-1 capsid-targeting domain of cleavage and polyadenylation specificity factor 6
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       86
+      </span>
+      , 3851–3860
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     71.
+     <span>
+      Lai M. C., Lin R. I., Huang S. Y., Tsai C. W., Tarn W. Y. (2000)
+      <span>
+       A human importin-β family protein, transportin-SR2, interacts with the phosphorylated RS domain of SR proteins
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       275
+      </span>
+      , 7950–7957
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     72.
+     <span>
+      Jayappa K. D., Ao Z., Yang M., Wang J., Yao X. (2011)
+      <span>
+       Identification of critical motifs within HIV-1 integrase required for importin α3 interaction and viral cDNA nuclear import
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       410
+      </span>
+      , 847–862
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     73.
+     <span>
+      Li X., Koh Y., Engelman A. (2012)
+      <span>
+       Correlation of recombinant integrase activity and functional preintegration complex formation during acute infection by replication-defective integrase mutant human immunodeficiency virus
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       86
+      </span>
+      , 3861–3879
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     74.
+     <span>
+      Fassati A., Goff S. P. (1999)
+      <span>
+       Characterization of intracellular reverse transcription complexes of Moloney murine leukemia virus
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       73
+      </span>
+      , 8919–8925
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     75.
+     <span>
+      Fassati A., Goff S. P. (2001)
+      <span>
+       Characterization of intracellular reverse transcription complexes of human immunodeficiency virus type 1
+      </span>
+      .
+      <span>
+       J. Virol.
+      </span>
+      <span>
+       75
+      </span>
+      , 3626–3635
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     76.
+     <span>
+      Görlich D., Dabrowski M., Bischoff F. R., Kutay U., Bork P., Hartmann E., Prehn S., Izaurralde E. (1997)
+      <span>
+       A novel class of RanGTP-binding proteins
+      </span>
+      .
+      <span>
+       J. Cell Biol.
+      </span>
+      <span>
+       138
+      </span>
+      , 65–80
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     77.
+     <span>
+      Bhardwaj A., Cingolani G. (2010)
+      <span>
+       Conformational selection in the recognition of the snurportin importin β binding domain by importin β
+      </span>
+      .
+      <span>
+       Biochemistry
+      </span>
+      <span>
+       49
+      </span>
+      , 5042–5047
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     78.
+     <span>
+      Cansizoglu A. E., Lee B. J., Zhang Z. C., Fontoura B. M., Chook Y. M. (2007)
+      <span>
+       Structure-based design of a pathway-specific nuclear import inhibitor
+      </span>
+      .
+      <span>
+       Nat. Struct. Mol. Biol.
+      </span>
+      <span>
+       14
+      </span>
+      , 452–454
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     79.
+     <span>
+      Cingolani G., Petosa C., Weis K., Müller C. W. (1999)
+      <span>
+       Structure of importin-β bound to the IBB domain of importin-α
+      </span>
+      .
+      <span>
+       Nature
+      </span>
+      <span>
+       399
+      </span>
+      , 221–229
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     80.
+     <span>
+      Lee B. J., Cansizoglu A. E., Süel K. E., Louis T. H., Zhang Z., Chook Y. M. (2006)
+      <span>
+       Rules for nuclear localization sequence recognition by karyopherin β2
+      </span>
+      .
+      <span>
+       Cell
+      </span>
+      <span>
+       126
+      </span>
+      , 543–558
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     81.
+     <span>
+      Lee S. J., Sekimoto T., Yamashita E., Nagoshi E., Nakagawa A., Imamoto N., Yoshimura M., Sakai H., Chong K. T., Tsukihara T., Yoneda Y. (2003)
+      <span>
+       The structure of importin-β bound to SREBP-2. Nuclear import of a transcription factor
+      </span>
+      .
+      <span>
+       Science
+      </span>
+      <span>
+       302
+      </span>
+      , 1571–1575
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     82.
+     <span>
+      Mitrousis G., Olia A. S., Walker-Kopp N., Cingolani G. (2008)
+      <span>
+       Molecular basis for the recognition of snurportin 1 by importin β
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       283
+      </span>
+      , 7877–7884
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     83.
+     <span>
+      Wohlwend D., Strasser A., Dickmanns A., Ficner R. (2007)
+      <span>
+       Structural basis for RanGTP independent entry of spliceosomal U snRNPs into the nucleus
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       374
+      </span>
+      , 1129–1138
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

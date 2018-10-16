@@ -1,0 +1,1211 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3913725
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural Basis for Recruitment and Activation of the AP-1 Clathrin Adaptor Complex by Arf1
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     AP-1 is a clathrin adaptor complex that sorts cargo between the
+     <em>
+      trans
+     </em>
+     -Golgi network and endosomes. AP-1 recruitment to these compartments requires Arf1-GTP. The crystal structure of the tetrameric core of AP-1 in complex with Arf1-GTP, together with biochemical analyses, shows that Arf1 activates cargo binding by unlocking AP-1. Unlocking is driven by two molecules of Arf1 that bridge two copies of AP-1 at two interaction sites. The GTP-dependent switch I and II regions of Arf1 bind to the N-terminus of the β1 subunit of one AP-1 complex, while the back side of Arf1 binds to the central part of the γ subunit trunk of a second AP-1 complex. A third Arf1 interaction site near the N-terminus of the γ subunit is important for recruitment, but not activation. These observations lead to a model for the recruitment and activation of AP-1 by Arf1.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Clathrin-coated vesicles (CCVs) play major roles in intracellular transport of selected cargo molecules from the plasma membrane,
+    <em>
+     trans
+    </em>
+    -Golgi network (TGN) and endosomes (
+    <xref ref-type="bibr">
+     Brodsky et al., 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kirchhausen, 2000
+    </xref>
+    ). CCV formation starts with the recruitment of adaptor proteins (APs) from the cytosol to the target membranes. The membrane-bound APs interact with sorting signals contained within the cytosolic tails of transmembrane cargo proteins while also inducing the polymerization of clathrin into a polyhedral, lattice-like scaffold. Clathrin-coated membranes curve, eventually leading to the budding of CCVs that contain specific sets of cargo molecules.
+   </p>
+   <p>
+    The main clathrin APs are two homologous, heterotetrameric complexes named AP-1 (γ-β1-μ1-σ1) and AP-2 (α-β2-μ2-σ2) (subunit composition in parenthesis), which function at the TGN/endosomes and plasma membrane, respectively (
+    <xref ref-type="bibr">
+     Owen et al., 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Robinson, 2004
+    </xref>
+    ). Both complexes are structured as a “core” domain comprising the N-terminal “trunk” portions of γ/α and β1/β2 plus the whole μ1/μ2 and σ1/σ2 subunits, and two “appendage” domains corresponding to the C-terminal portions of γ/α and β1/β2, which are connected to the core by two long, largely unstructured “hinge” sequences. The core domain mediates recruitment to membranes and recognition of sorting signals while the hinge-ear domains interact with clathrin and various accessory proteins. Both AP-1 and AP-2 recognize at least two types of sorting signal: tyrosine-based YXXØ-type signals through binding to the μ1/μ2 subunits (
+    <xref ref-type="bibr">
+     Boll et al., 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ohno et al., 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ohno et al., 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Owen and Evans, 1998
+    </xref>
+    ) and dileucine-based [DE]XXX[LI]-type signals through binding to a site at the interface of the γ-σ1 and α-σ2 subunits (amino acids in single letter code; X is any amino acid and Ø a bulky hydrophobic amino acid) (
+    <xref ref-type="bibr">
+     Chaudhuri et al., 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Doray et al., 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Janvier et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelly et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mattera et al., 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    The mechanisms of signal recognition and membrane recruitment have been worked out in greatest detail for AP-2. Biochemical and X-ray crystallographic analyses have shown that the AP-2 core occurs in two distinct conformations: a cytosolic, “locked” conformation where binding sites for YXXØ and [DE]XXX[LI] signals are occluded by portions of β2 (
+    <xref ref-type="bibr">
+     Collins et al., 2002
+    </xref>
+    ), and a membrane-bound, “open” conformation where these binding sites are exposed (
+    <xref ref-type="bibr">
+     Jackson et al., 2010
+    </xref>
+    ). The AP-2 core also has four clusters of basic residues (one cluster each on α and β2, and two on μ2) that serve as binding sites for the headgroups of membrane phosphatidylinositol-4,5-bisphosphate (PI(4,5)P
+    <sub>
+     2
+    </sub>
+    ) (
+    <xref ref-type="bibr">
+     Collins et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gaidarov et al., 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jackson et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rohde et al., 2002
+    </xref>
+    ). In the locked conformation, the μ2 C-terminal domain responsible for binding to the YXXØ signal is sequestered in a bowl formed by the trunk domains of the α and β2 subunits. In the open conformation, the two signal-binding sites and four PI(4,5)P
+    <sub>
+     2
+    </sub>
+    -binding sites become coplanar, enabling simultaneous interactions with cargo proteins and PI(4,5)P
+    <sub>
+     2
+    </sub>
+    , and thus stabilizing the open conformation of the core (
+    <xref ref-type="bibr">
+     Jackson et al., 2010
+    </xref>
+    ). The enrichment of PI(4,5)P
+    <sub>
+     2
+    </sub>
+    at the plasma membrane (
+    <xref ref-type="bibr">
+     Di Paolo and De Camilli, 2006
+    </xref>
+    ) ensures that AP-2 is specifically recruited to this compartment.
+   </p>
+   <p>
+    The structural bases for AP-1 signal recognition and membrane recruitment are less well understood. The AP-1 core also occurs in a locked conformation similar to that of the AP-2 core, as shown by X-ray crystallography (
+    <xref ref-type="bibr">
+     Heldwein et al., 2004
+    </xref>
+    ). The existence of an open conformation of the AP-1 core has not been demonstrated by structural methods but is supported by other lines of evidence. First, the residues that bind YXXØ and [DE]XXX[LI] signals in AP-2 (
+    <xref ref-type="bibr">
+     Jackson et al., 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kelly et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Owen and Evans, 1998
+    </xref>
+    ) are highly conserved in AP-1 (
+    <xref ref-type="bibr">
+     Heldwein et al., 2004
+    </xref>
+    ), and mutation of these residues abrogates binding of both types of signal to AP-1 in yeast two- and three-hybrid assays (
+    <xref ref-type="bibr">
+     Carvajal-Gonzalez et al., 2012
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mattera et al., 2011
+    </xref>
+    ). Second, binding of one type of signal enhances binding of the other type, likely due to stabilization of an open conformation (
+    <xref ref-type="bibr">
+     Lee et al., 2008a
+    </xref>
+    ).
+   </p>
+   <p>
+    Whereas the mechanisms of signal recognition by AP-1 and AP-2 appear quite similar, the determinants of recruitment to their corresponding membranes differ significantly. The AP-1 core has a phosphoinositide-binding site with preference for phosphatidylinositol-4-phosphate (PI(4)P) on its γ subunit, at a location similar to that of the PI(4,5)P
+    <sub>
+     2
+    </sub>
+    -binding site on AP-2 α (
+    <xref ref-type="bibr">
+     Heldwein et al., 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wang et al., 2007
+    </xref>
+    ). PI(4)P is enriched within domains of the TGN and endosomes (
+    <xref ref-type="bibr">
+     Di Paolo and De Camilli, 2006
+    </xref>
+    ), consistent with the association of AP-1 to these compartments. In contrast to the case of AP-2, however, phosphoinositides alone are insufficient to recruit AP-1 to its sites of action. Instead, the key determinant of AP-1 targeting to the TGN/endosomes is its interaction with members of the ADP ribosylation factor (Arf) family of small GTPases, particularly Arf1 (
+    <xref ref-type="bibr">
+     Seaman et al., 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Stamnes and Rothman, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Traub et al., 1993
+    </xref>
+    ). Arf1 cooperates with cargo and phosphoinositides such that AP-1 binding to all of these components is thought to be necessary for targeting under normal conditions (
+    <xref ref-type="bibr">
+     Crottet et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     LeBorgne et al., 1996
+    </xref>
+    ; Lee et al., 2008a), although enrichment of cargo signals to high levels can override this requirement (
+    <xref ref-type="bibr">
+     Lee et al., 2008b
+    </xref>
+    ). Arfs cycle between a GDP-bound, inactive cytosolic form and a GTP-bound, active membrane-tethered form (
+    <xref ref-type="bibr">
+     Donaldson and Jackson, 2011
+    </xref>
+    ). Conversion to the GTP-bound form requires a guanine nucleotide exchange factor (GEF), whereas conversion to the GDP-bound form is catalyzed by a GTPase activating protein (GAP). Loading with GTP causes Arfs to undergo a conformational change, exposing a myristoylated N-terminal amphipathic helix that inserts into the membrane, while reconfiguring its switch I-II and interswitch regions to allow binding of effector proteins (
+    <xref ref-type="bibr">
+     Donaldson and Jackson, 2011
+    </xref>
+    ). Arf1 has many effectors, including AP-1 as well as the homologous heterotetrameric complexes AP-3 (
+    <xref ref-type="bibr">
+     Ooi et al., 1998
+    </xref>
+    ), AP-4 (
+    <xref ref-type="bibr">
+     Boehm et al., 2001
+    </xref>
+    ) and COPI (F subcomplex) (
+    <xref ref-type="bibr">
+     Serafini et al., 1991
+    </xref>
+    ). Arf1 is not enriched at the plasma membrane, and is not thought to interact with AP-2 in cells. Some studies, however, have suggested that the plasma membrane associated Arf6 could be involved in recruiting AP-2 (
+    <xref ref-type="bibr">
+     Krauss et al., 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Montagnac et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Paleotti et al., 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Poupart et al., 2007
+    </xref>
+    ). Thus, the question of how Arf family GTPases recognize, recruit, and activate AP complexes has broad implications for intracellular traffic.
+   </p>
+   <p>
+    Recently, important insight into Arf1 recognition was obtained from the structure of a truncated γζ subcomplex from COPI (
+    <xref ref-type="bibr">
+     Yu et al., 2012
+    </xref>
+    ). The goal of the present study was to take the next step in understanding whether Arf1 regulates not only the localization, but also the conformation of heterotetrameric sorting complexes. To address this question, we solved the crystal structure of the AP-1 core in complex with GTP-bound Arf1. The most important insight is that Arf1-GTP alone, in the absence of cargo or PI(4)P, can unlock AP-1 and drive it into the open conformation. AP-1 contains two binding sites for the canonical switch I and II surface on Arf1, one on each of the two trunk domains. Both of these Arf1-binding sites are required for high-affinity binding in vitro and for subcellular localization to the TGN/endosomes, but only the site on β1 is important for activation. Moreover, a novel surface on the C-terminal portion (“back side”) of Arf1, distal to switch I and II, was found to be required for full allosteric activation, although it does not contribute to recruitment. Taken together with the dimeric assemblage of AP-1 in the crystal lattice, a model for the allosteric activation mechanism was deduced. Reconstitution of the recruitment of AP-1 to liposomes by Arf1, cargo, and PI(4)P highlights the profound cooperativity between the binding of cargo to AP-1 and the β1 and back side interactions with Arf1.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Structure of the AP-1:Arf1 complex
+    </title>
+    <p>
+     The core of the AP-1 adaptor complex was reconstituted by co-expressing the trunk domains of the murine γ1 (residues 1-595) and human β1 (residues 1-584) subunits with full-length human σ1C and murine α1A subunits in
+     <em>
+      E. coli
+     </em>
+     using a single polycistronic expression plasmid. Human Arf1 bearing the GTPase mutation Q71L and the N-terminal truncation Δ1-16 (Arf1
+     <sup>
+      Δ1-16
+     </sup>
+     ) was loaded with GTP and mixed at a 4:1 excess of Arf1 relative to AP-1. Crystals were obtained that diffracted to 7.0 Å resolution.
+    </p>
+    <p>
+     The crystal structure of the AP-1:Arf1-GTP complex (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ) was determined by the molecular replacement method. Because it was not known a priori whether the crystallized AP-1 core would be in one of the expected locked or open conformations, or in some novel conformation, test searches were run using all of the available crystal structures of AP-1 and AP-2 core complexes. A solution was obtained using as a search model the core of AP-2 in the open conformation (PDB 2XA7) (
+     <xref ref-type="bibr">
+      Jackson et al., 2010
+     </xref>
+     ). At this stage, clear (F
+     <sub>
+      o
+     </sub>
+     -F
+     <sub>
+      c
+     </sub>
+     )α
+     <sub>
+      calc
+     </sub>
+     difference electron density was visible for the entire Arf1
+     <sup>
+      Δ1-16
+     </sup>
+     molecule (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ). The 1.6 Å structure of the GTP-bound form of murine Arf1
+     <sup>
+      Δ1-17
+     </sup>
+     (
+     <xref ref-type="bibr">
+      Shiba et al., 2003
+     </xref>
+     ) (PDB 1O3Y) was used as a search model to position the molecule in the unit cell. The clarity of this unbiased difference map, in spite of its low resolution, persuaded us to refine the structure and characterize its functional implications. It is not possible to visualize side-chains at this resolution. However, given the availability of well-refined starting models for substructures, contemporary refinement methodology makes it possible to accurately analyze the overall conformation of large protein complexes and the nature of their interfaces from diffraction data at as low as 7 Å resolution (
+     <xref ref-type="bibr">
+      Brunger et al., 2012
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       Crystal structure of the AP-1:Arf1 complex
+      </strong>
+      <p>
+       (A) Views of the overall structure of the AP-1 Arf1 complex, related by rotations about the indicated axes. Colors are γ, light pink; β1, aquamarine; μ1, slate blue; σ1, purple; and Arf1, orange. (B) Unbiased difference density contoured at 2σ around Arf1, which was not present in the search model used to obtain these phases, illustrates the high quality of the molecular replacement phases at 7 Å. (D) Overlay of the YXXØ cargo-bound conformation of AP-2 upon Arf1-GTP-bound AP-1. (E) Overall structure of the crystallographic dimer. See also
+       <a>
+        Table S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Refinement of this structure was facilitated by the finding that the Arf1-bound conformation of AP-1 is nearly identical to the open conformation of AP-2, which was refined at 3.1 Å resolution (
+     <xref ref-type="bibr">
+      Jackson et al., 2010
+     </xref>
+     ). The main-chain of the AP-1 structure was tethered to a model based on the open conformation of AP-2 using the deformable elastic network (DEN) methodology (
+     <xref ref-type="bibr">
+      Schroder et al., 2010
+     </xref>
+     ). A starting model of AP-1 in this conformation was generated by superimposing the 4.0 Å resolution coordinates of the AP-1 core complex (PDB 1W63) (
+     <xref ref-type="bibr">
+      Heldwein et al., 2004
+     </xref>
+     ) onto the open conformation of AP-2 on a domain-by-domain basis. The trunk domains of p1 and γ were broken into three fragments for the superposition, and μ1 was broken into its N- and C-terminal domains. All of these domains had excellent fits with the sole exception of the μ1 C-terminal domain. Therefore, the μ1 C-terminal domain model was derived by replacing the side-chains of μ2 in the TGN38-bound structure with their cognates from μ1. Even though side-chains were not visualized, they were included in the refinement in order to account for their contribution to X-ray scattering. Side-chain conformations were allowed to relax in order to accommodate sequence differences with respect to the parent models used for molecular replacement and to avoid steric collisions at Arf1 binding and lattice interfaces. The resulting structure (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ) had a free R-factor of 0.25 and excellent stereochemistry (
+     <a>
+      Table S1
+     </a>
+     ). Moreover, as described below, the structural interfaces underwent extensive validation on the Arf1 and AP-1 sides, both in solution and in cells.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Open conformation of AP-1
+    </title>
+    <p>
+     By analogy to AP-2, it was anticipated that AP-1 would be activated through a conformational change and exposure of the YXXØ and [DE]XXX[LI] binding sites. Here, we have visualized the active conformation of AP-1 in the presence of Arf1-GTP but in the absence of cargo tails, phosphoinositides, or soluble phosphoinositide analogs. The overall structure is essentially superimposable on that of the YXXØ-bound AP-2 core (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ), which is the structural paradigm of the active conformation. This observation is consistent with the biochemical evidence that Arf1-GTP is a direct allosteric activator of AP-1.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Structures of the AP-1:Arf1 interfaces
+    </title>
+    <p>
+     The crystals contain one copy each of the AP-1 core and Arf1 (
+     <xref ref-type="fig">
+      Fig. 1A
+     </xref>
+     ). Arf1 bridges two copies of the AP-1 core in the crystal lattice, such that Arf1 binds to two sites on AP-1 (
+     <xref ref-type="fig">
+      Fig. 1D
+     </xref>
+     ). The larger of the two interfaces (∼720 Å
+     <sup>
+      2
+     </sup>
+     ) buries the switch I and II regions of Arf1 against helices α1, α3, and α5 of the β1 subunit (
+     <xref ref-type="fig">
+      Fig. 2A, B
+     </xref>
+     ). The β1 contact is centered on Gln59, Ile85, and Asn89. Arf1 contacts include Ile46, Ile49, Gly50, Phe51, Asn52, and Val53 of switch I, Trp66, Lys73, Ile74, Leu77, His80, Tyr81, and Gln83 of switch II, and Tyr35 of α1 (
+     <xref ref-type="fig">
+      Fig. 2A, B
+     </xref>
+     ). Switch I and II are the regions of Arf1 that change conformation upon GTP binding (
+     <xref ref-type="bibr">
+      Goldberg, 1998
+     </xref>
+     ). The GDP bound conformation of Arf1 (
+     <xref ref-type="bibr">
+      Amor et al., 1994
+     </xref>
+     ) is not compatible with the β1 structure because of an extensive clash between switch I and β1-α5 (
+     <a>
+      Fig. S1
+     </a>
+     ). The involvement of the switch regions in AP-1 binding has been noted (
+     <xref ref-type="bibr">
+      Liang et al., 1997
+     </xref>
+     ), and is consistent with the GTP requirement for membrane recruitment of AP-1 and its inhibition by the Arf1 GEF inhibitor brefeldin A (
+     <xref ref-type="bibr">
+      Stamnes and Rothman, 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Traub et al., 1993
+     </xref>
+     ). The β1 binding site is in accord with an Arf1 binding site recently predicted to occur on the α4 and α6 helices of the β-COP subunit of COPI (
+     <xref ref-type="bibr">
+      Yu et al., 2012
+     </xref>
+     ), which correspond to α3 and α5 helices of β1. The direct interaction of the β1 subunit is consistent with the photocross-linking of switch I-labeled Arf1 with the β1 and γ subunits of AP-1(
+     <xref ref-type="bibr">
+      Austin et al., 2002
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Arf1 interfaces with AP-1 subunits
+      </strong>
+      <p>
+       (A) Arf1 is shown in a ribbon model (orange) as it interacts with the surface of the β1 subunit. Functionally important residues of β1 are highlighted in blue. (B) The same interface shown in (A) is represented with a ribbon model of the β1 subunit and a surface representation of Arf1, with key switch I and II residues of Arf1 highlighted in blue. (C) The back side of Arf1 distal to switch I and II is shown in a ribbon model (orange) as it interacts with the surface of the γ subunit in the crystal. Interacting residues of γ are highlighted in blue. (D, E) Two views of the functional Arf1 interface with the γ subunit. This interface is not present in this crystal structure, but is modeled on the basis of the β1 interface and by analogy to the COPI complex (
+       <xref ref-type="bibr">
+        Yu et al., 2012
+       </xref>
+       ), represented as in (A, B). (F) Structure-based alignment of key Arf1 switch I and II-binding helices of the β1 and γ subunits of AP-1 with corresponding subunits of other AP complexes and COPI. See also
+       <a>
+        Fig. S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The smaller of the two interfaces (∼690 Å
+     <sup>
+      2
+     </sup>
+     ) buries the C-terminal α4, β6, and α5 of the back side of Arf1, which is on the opposite face from switch I and II, against the region of helices α12-α16 of the γ subunit (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ). A cluster of large hydrophobic residues from the back side of Arf1 participate in this interface: Trp153, Tyr154, and Trp172. At the periphery of this hydrophobic cluster, Ala136, Ala137, and Gln176 also make contacts with γ. Confidence in the identity of residues on the γ subunit is limited by the resolution of the structure. Thus far it has not been possible for us to corroborate the residues on this face of the site by mutagenesis. As described below, mutational analysis of the interaction suggested this interface is involved in allosteric activation, but not in recruitment.
+    </p>
+    <p>
+     Several considerations led us to localize a functional Arf1 switch I and II binding site near the N-terminus of γ (
+     <xref ref-type="fig">
+      Fig. 2D, E
+     </xref>
+     ). First, the lattice contact between γ and the back side of Arf1 did not explain the observation of cross-linking between switch I and γ (
+     <xref ref-type="bibr">
+      Austin et al., 2002
+     </xref>
+     ). Second, the crystal structure of a γζ-COP complex containing a 15-helix fragment of the y-COP trunk was recently determined in complex with Arf1 (
+     <xref ref-type="bibr">
+      Yu et al., 2012
+     </xref>
+     ). This structure showed that helices α4 and α6 of γ-COP bind to Arf1 switch I and II. The Arf1-binding residues of γ-COP are partially conserved in the γ subunit of AP-1 (
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     ). Finally, the trunk domains of the β1 and γ subunits are structurally homologous to each other, another line of suggestion that the γ subunit might possess an Arf1 switch I binding site similar to the one found near the N-terminus of β1. The β1 and γ subunits were overlaid on one another, and used to generate a provisional model for Arf1 bound to γ via switch I and II (
+     <xref ref-type="fig">
+      Fig. 2D, E
+     </xref>
+     ). The putative binding site is centered on Leu68 and Leu71 of helix α4 and Leu102 of helix α6 of γ. This model is consistent with the results of overlaying the γ-COP and AP-1 γ structures, and was subsequently validated by mutational dissection.
+    </p>
+    <p>
+     The Arf1 switch I and II binding sites on β1 and γ are both important for subcellular targeting, as described below, therefore we refer to them as recruitment sites. The character of these two recruitment sites is well-conserved in other Arf1-dependent APs, including AP-3, AP-4, and COPI. The Arf1 binding site on the β1 subunit also appears to be conserved in the AP-2 subunit β2 (
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     ). Switch I and II residues are highly conserved among Arf family GTPases, thus this finding is consistent with the possibility that Arf6 is a direct activator of AP-2. The cognate of the γ subunit Arf1 binding site on the AP-2 α subunit is less clearly conserved, in that the key hydrophobic Leu101 of γ is replaced by an Arg (
+     <xref ref-type="fig">
+      Fig. 2F
+     </xref>
+     ). It remains to be determined if this or other nearby changes render the AP-2 α subunit unable to bind Arf family members. Each of the Arf1 binding sites comprises ∼700 Å of buried surface area, which taken individually would amount to a low-affinity interaction. The modest amount of surface area buried in each site explains why, as described below, neither one of the sites by itself can support high-affinity binding
+     <em>
+      in vitro
+     </em>
+     or TGN/endosomal localization in cells.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutational analysis of the AP-1:Arf1 interaction
+    </title>
+    <p>
+     The β1 binding site and both the crystallographic and modeled γ binding sites for Arf1 were assessed by mutational disruption. The mutations β1
+     <sup>
+      I85D/V88D
+     </sup>
+     , γ
+     <sup>
+      L68D/L71E
+     </sup>
+     , and γ
+     <sup>
+      L102E
+     </sup>
+     were constructed in the context of the recombinant AP-1 core and purified from
+     <em>
+      E. coli
+     </em>
+     as GST fusions. Purification yields and subunit stoichiometries were essentially identical to wild-type for all mutants (
+     <a>
+      Fig. S2A
+     </a>
+     ). Wild-type and mutant AP-1 cores tagged with GST were immobilized on glutathione-Sepharose beads, and their ability to bind to 5 μM His
+     <sub>
+      6
+     </sub>
+     -Arf1
+     <sup>
+      Δ1-16
+     </sup>
+     -GTP was determined. The β1
+     <sup>
+      I85D/V88D
+     </sup>
+     mutant was the only mutant that had, within experimental error, no binding of Arf1 above the GST control (
+     <xref ref-type="fig">
+      Fig. 3A, B
+     </xref>
+     ). Thus, mutation of the crystallographic binding site on β1 completely eliminated binding. Two mutants designed to disrupt the modeled γ α4-α6 binding site, γ
+     <sup>
+      L68D/L71E
+     </sup>
+     and γ
+     <sup>
+      L102E
+     </sup>
+     , reduced binding to ∼10 % of wild-type levels (
+     <xref ref-type="fig">
+      Fig. 3A, B
+     </xref>
+     ). This indicates that the γ α4-α6 binding site is functional, but that its affinity for Arf1 is less than that of the β1 binding site. We also tested the effect of mutations in the switch I and II (Arf1
+     <sup>
+      I49D
+     </sup>
+     , Arf1
+     <sup>
+      V53D
+     </sup>
+     , Arf1
+     <sup>
+      K73D
+     </sup>
+     and Arf1
+     <sup>
+      L77D/H80D
+     </sup>
+     ) and back side regions (Arf1
+     <sup>
+      A136P/A137H
+     </sup>
+     and Arf1
+     <sup>
+      W172D
+     </sup>
+     ) of Arf1 on binding to AP-1. Purification yields for all Arf1 mutants were similar to wild-type (
+     <a>
+      Fig. S2B
+     </a>
+     ). Switch I and II mutants sharply reduced or eliminated binding, whereas back side mutants actually enhanced binding (
+     <xref ref-type="fig">
+      Fig. 3C, D
+     </xref>
+     ). These results are consistent with the crystallographic observations at the β1 interface and with the proposed model for the functional γ interface.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       Mutational analysis of Arf1 binding sites
+      </strong>
+      <p>
+       (A, B) Representative gel (A) and quantification (B) of GST pull-down assays to assess binding of the immobilized GST-AP-1 core and its mutants to Arf1-GTP. GST-AP-1 core proteins (15μg) were immobilized on glutathione-Sepharose beads and incubated with His-Arf1
+       <sup>
+        Δ16-Q71L
+       </sup>
+       (5 μM). The AP-1-bound Arf1 was detected by anti-His-tag antibody using Western blotting. (C, D) The same procedures as in (A) were used to determine the effects of switch I (I49D, V53D), switch II (K73D, L77D/H80D), and back side (A136P/A137H, W172D) mutations in Arf1 on binding to the wild-type AP-1 core. (E, F) Arf1-AP1 binding curves derived from quantitative immunoblotting. Lane 11 in (E) represents 1.6 pmol of His-Arf1 input, which was used for normalization. Relative Arf1 binding was quantified and fitted to the Hill equation in (F). See also
+       <a>
+        Fig. S2 and S3
+       </a>
+       . Error bars represent the standard deviation of three measurements.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In order to probe the function of the β1 and γ interfaces in cellular function, multiple mutations were constructed at each site. The β1
+     <sup>
+      I85D/V88D
+     </sup>
+     mutant is hereafter referred to as “β1
+     <sup>
+      ΔArf1
+     </sup>
+     ”, and the triple mutant γ
+     <sup>
+      L68D/L71E/L102E
+     </sup>
+     is hereafter “γ
+     <sup>
+      ΔArf1
+     </sup>
+     ”. To verify that these mutants did not cause a loss in thermal stability, differential scanning fluorimetry of wild-type and the β1
+     <sup>
+      ΔArf1
+     </sup>
+     and γ
+     <sup>
+      ΔArf1
+     </sup>
+     mutant cores was carried out. Melting temperatures
+     <em>
+      T
+      <sub>
+       m
+      </sub>
+     </em>
+     of 56 to 58 °C were measured (
+     <a>
+      Fig. S3
+     </a>
+     ), and no sign of melting was observed for any of the constructs at the temperatures
+     <em>
+      T
+     </em>
+     = 25 or
+     <em>
+      T
+     </em>
+     = 37 °C at which the
+     <em>
+      in vitro
+     </em>
+     and biological experiments were carried out.
+    </p>
+    <p>
+     Binding curves were obtained for wild-type and each mutant. Binding of the wild-type AP-1 core His-Arf1 could be fit to the Hill equation with
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     = 20 ± 0.6 μM and a Hill coefficient of
+     <em>
+      n
+     </em>
+     <sub>
+      H
+     </sub>
+     =3.3. The β1
+     <sup>
+      I85D/V88D
+     </sup>
+     mutant (hereafter “β1
+     <sup>
+      ΔArf1
+     </sup>
+     ”,
+     <xref ref-type="fig">
+      Fig. 3E, F
+     </xref>
+     ) nearly eliminated binding as compared to wild-type. The triple mutant γ
+     <sup>
+      L68D/L71E/L102E
+     </sup>
+     (hereafter “γ
+     <sup>
+      ΔArf1
+     </sup>
+     ”,
+     <xref ref-type="fig">
+      Fig 3E, F
+     </xref>
+     ) showed residual binding and its curve retained a sigmoidal character, consistent with the presence of an intact β1 interface functioning in the context of an AP-1 multimer. A β1/γ
+     <sup>
+      ΔArf1
+     </sup>
+     construct was prepared by combining β1
+     <sup>
+      ΔArf1
+     </sup>
+     and γ
+     <sup>
+      ΔArf1
+     </sup>
+     in the same complex, and it was found that this construct completely eliminated binding (
+     <xref ref-type="fig">
+      Fig. 3E, F
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Roles of Arf1 binding sites on β1 and γ in TGN/endosomal localization
+    </title>
+    <p>
+     Having established the presence of two Arf1 recruitment sites
+     <em>
+      in vitro
+     </em>
+     , we examined the effect of disrupting the Arf1-binding sites of β1 and γ on the recruitment of these proteins to the TGN/endosomes in whole cells. GFP-tagged forms of β1
+     <sup>
+      ΔArf1
+     </sup>
+     and γ
+     <sup>
+      ΔArf1
+     </sup>
+     were incorporated into AP-1 complexes as efficiently as their wild-type counterparts when expressed by transfection into cells (
+     <xref ref-type="fig">
+      Fig. 4A, B
+     </xref>
+     ), consistent with previous observations (
+     <xref ref-type="bibr">
+      Farias et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Huang et al., 2001
+     </xref>
+     ). GFP-tagged β1 (β1
+     <sup>
+      WT
+     </sup>
+     -GFP) and mCherry-tagged γ (γ
+     <sup>
+      WT
+     </sup>
+     -mCh) co-localized with endogenous γ and transgenic μ1A-GFP, respectively, to a juxtanuclear structure characteristic of the TGN/endosomes (
+     <xref ref-type="fig">
+      Fig. 4, C-E and I-K
+     </xref>
+     ). In contrast, the mutant β1
+     <sup>
+      ΔArf1
+     </sup>
+     -GFP and γ
+     <sup>
+      ΔArf1
+     </sup>
+     -mCh were largely cytosolic (
+     <xref ref-type="fig">
+      Fig. 4, F-H and L-N
+     </xref>
+     ). These observations indicated that the Arf1 recruitment sites on both β1 and γ are required for targeting of AP-1 to the TGN/endosomes within cells.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       Arf1-binding sites on β1 and γ are required for association of AP-1 to the TGN/endosomes
+      </strong>
+      <p>
+       (A, B) MDCK-μ1A-HA cells transfected with plasmids encoding β1
+       <sup>
+        WT
+       </sup>
+       -GFP or β1
+       <sup>
+        ΔArf1
+       </sup>
+       -GFP (A) and γ
+       <sup>
+        WT
+       </sup>
+       -GFP or γ
+       <sup>
+        ΔArf1
+       </sup>
+       -GFP (B) or GFP (A, B) were subjected to immunoprecipitation (IP) with antibody to GFP followed by SDS-PAGE and immunoblotting with HRP-conjugated antibodies to the HA epitope and GFP. The position of molecular mass markers (in kDa) are indicated on the left. Loading was adjusted to normalize for β1 and γ expression. Assembly of β1 and γ mutants with μ1A-HA was 99±6% and 97±5% of the corresponding wild-type proteins (n=3). (C-H) HeLa cells transfected with plasmids encoding β1
+       <sup>
+        WT
+       </sup>
+       -GFP (C-E) or β1
+       <sup>
+        ΔArf1
+       </sup>
+       -GFP (F-H) were immunostained for endogenous γ. (I-N) HeLa cells were co-transfected with plasmids encoding γ
+       <sup>
+        WT
+       </sup>
+       -mCh (I-K) or γ
+       <sup>
+        ΔArf1
+       </sup>
+       -mCh (L-N) together with μ1A-GFP. Nuclei were stained with DAPI. Images were obtained by confocal microscopy. The third image in each row is a merge of images in the green, red and blue channels. Scale bar: 10 μm.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Roles of Arf1 binding sites on β1 and γ in the allosteric activation of AP-1
+    </title>
+    <p>
+     Binding of cargo peptides bearing either tyrosine- or dileucine-based sorting signals strongly promotes the binding of Arf1 to AP-1 in solution (
+     <xref ref-type="bibr">
+      Lee et al., 2008a
+     </xref>
+     ). We applied this principle to map the involvement of the individual Arf1-binding sites on β1 and γ in this conformational change. The addition of 20 μM of a dileucine-containing peptide from VAMP4 (Peden et al., 2001) led to a 4-fold increase in the amount of Arf1 bound to the AP-1 core (
+     <xref ref-type="fig">
+      Fig. 5A, B
+     </xref>
+     ), similar to previous results for the binding of full-length AP-1 to Arf1 in the presence of a dileucine-containing peptide from the cation-independent mannose 6-phosphate receptor (
+     <xref ref-type="bibr">
+      Lee et al., 2008a
+     </xref>
+     ). As shown above in
+     <xref ref-type="fig">
+      Fig. 3 (E, F)
+     </xref>
+     , β1
+     <sup>
+      ΔArf1
+     </sup>
+     has essentially no interaction with Arf1 in the absence of peptide. Addition of peptide failed to rescue Arf1 binding to AP-1-β1
+     <sup>
+      ΔArf1
+     </sup>
+     (
+     <xref ref-type="fig">
+      Fig. 5
+     </xref>
+     ). The γ
+     <sup>
+      ΔArf1
+     </sup>
+     form of the AP-1 complex binds weakly to Arf1 in the absence of peptide (
+     <xref ref-type="fig">
+      Fig. 5A, B
+     </xref>
+     ). When the peptide concentration was increased to 150 μM, a 4-fold enhancement was seen relative to the absence of peptide. This suggests that the γ subunit recruitment site is not necessary for allosteric coupling between the Arf1 and cargo.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Allosteric coupling between the Arf1 and dileucine binding sites
+      </strong>
+      <p>
+       (A) Pull-down of Arf1 with GST-AP-1 cores in the presence of VAMP4 peptide. Wild-type or mutant GST-AP-1 core (100 nM) was immobilized, and incubated with His-Arf1-Q71L (4 μM) and 2 mM GTP and the indicated concentrations of His-GB1 tagged VAMP4 (20-28, the dileucine motif). AP-1-bound Arf1 was analyzed by the western blot using anti-polyHis antibody, followed by quantification (B) Lane 12 and lane 16 represent 0.1% of the input from the reaction containing 4 μM His-tagged Arf1 and 150 mM His-GB1-VAMP4 peptide. (C) Arf1-W172D tightly bound to GST-AP1-A core independent of the VAMP4 peptide. (D). Recruitment of AP-1 cores to VAMP4-GST was activated by Arf1, dependent on and intact AP-1 β1 Arf1 binding site. In each reaction, VAMP4 (1-51)-GST (100 nM) was immobilized and incubated with the indicated AP-1 core (0.5 μM) and His-Arf1. The bound fraction was immunoblotted using anti-polyHis to detect Arf1 (left panel) and anti-μ1 to detect AP-1 (right panel). Lane 11 represents 0.1 pmol of AP-1 core input. The relative AP-1 binding was quantified (E) to plot with the function of His-Arf1 input concentration. The active affinity of AP-1 core WT binding to his-Arf1 in the presence of VAMP4-GST was 4.0 ± 0.3 μM. Error bars represent the standard deviation of three measurements. See also
+       <a>
+        Movie S1
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To provide a second view of conformational coupling between Arf1 and VAMP4, the VAMP4 sequence was immobilized, and the binding of AP-1 was measured in the presence of increasing concentrations of Arf1 (
+     <xref ref-type="fig">
+      Fig. 5D, E
+     </xref>
+     ). We observed that Arf1 enhanced binding of wild-type AP-1 to VAMP4 following a hyperbolic curve with an effective activation constant
+     <em>
+      K
+     </em>
+     <sub>
+      act
+     </sub>
+     = 4.0 ± 0.3 μM. As compared to the Arf1 binding curve in the absence of VAMP4 (
+     <xref ref-type="fig">
+      Fig. 3F
+     </xref>
+     ), the activation curve is shifted sharply to the left and the apparent cooperativity is absent. Thus, the presence of VAMP4 sharply increases the affinity of AP-1 for Arf1, consistent with its promotion of the open conformation. The defect in β1
+     <sup>
+      ΔArf1
+     </sup>
+     activation is much greater than that for γ
+     <sup>
+      ΔArf1
+     </sup>
+     (
+     <xref ref-type="fig">
+      Fig. 5C, D
+     </xref>
+     ). Indeed, γ
+     <sup>
+      ΔArf1
+     </sup>
+     activates at a slightly lower concentration, with
+     <em>
+      K
+     </em>
+     <sub>
+      act
+     </sub>
+     = 2.4 ± 0.6 μM. The γ recruitment interface is thus much less important for activation than for binding. The Arf1 switch I mutant I49D completely loses its ability to activate AP-1, consistent with its lack of binding to AP-1. Strikingly, Arf1 back side mutant W172D shows a sharp decrease in AP-1 activation (
+     <xref ref-type="fig">
+      Fig. 5C, D
+     </xref>
+     ). Since the W172D mutation actually increases Arf1 binding to AP-1 (
+     <xref ref-type="fig">
+      Fig. 3C, D
+     </xref>
+     ), the loss of activation cannot be ascribed to a loss of overall affinity. We hypothesize that, by bridging the AP-1 dimer, the back side of Arf1 couples binding to the conformational change in AP-1. By decoupling binding from the conformational change, the energetic cost of the conformational change is avoided, and the affinity increases. The phenotype of Arf1 W172D connects the mechanism inferred from the crystal structure to the activation of cargo binding as seen in solution (
+     <a>
+      Movie S1
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Reconstitution of synergistic recruitment by Arf1 and PI(4)P
+    </title>
+    <p>
+     Models for Arf1 recruitment of AP-1 were generated for the open conformation as bound to two copies of full-length myristoylated Arf1-GTP, one copy each of a tyrosine and dileucine signal-bearing cargo, and one molecule of PI(4)P (
+     <xref ref-type="fig">
+      Fig. 6A
+     </xref>
+     ), and for the closed state in the absence of cargo (
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     ). The modeling suggests that Arf1, cargo and PI(4)P function synergistically in promoting binding. The models also indicate that simultaneous binding of both recruitment sites is sterically compatible with membrane binding by either the closed or open states. A third model was constructed based on the activated crystallographic dimer (
+     <xref ref-type="fig">
+      Fig. 6C
+     </xref>
+     ), which suggested that the γ recruitment site might not be sterically compatible with the membrane-bound activated dimer (
+     <a>
+      Fig. S4
+     </a>
+     ).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       AP-1 recruitment and activation at the membrane
+      </strong>
+      <p>
+       Models. (A) A model of AP-1 recruited by two myristoylated Arf1-GTP molecules, in cooperation with PI(4)P on a membrane. The Y- and LL-bearing cargos further bind and stabilize AP-1. (B) The closed conformation of AP-1 is sterically compatible with the simultaneous binding of Arf1 to β1 and to the recruitment site on γ. Therefore, the docking of AP-1 to a membrane via the simultaneous binding to these two Arf1 molecules does not, by itself, appear to be sufficient for activation. (C) The crystallized AP-1 Arf1 dimer can be docked onto a cargo bearing membrane such that the Arf1 myristate moieties, the ends of transmembrane helices of cargo proteins, and PI(4)P all lie in the plane of the membrane surface. See
+       <a>
+        supplmental figure 4
+       </a>
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To test whether there is synergy in membrane binding
+     <em>
+      in vitro
+     </em>
+     , PC:PE liposomes with and without PI(4)P were decorated with Arf1 via a His
+     <sub>
+      6
+     </sub>
+     -Ni
+     <sup>
+      2+
+     </sup>
+     -NTA linkage. Peptidoliposomes were prepared by chemically conjugating a VAMP4 tail construct to lipids. A VAMP4 LL-&gt;AA mutant was constructed as a control. Lipid-peptide conjugates were incorporated into liposomes at 1 mol %. In the absence of Arf1 and PI(4)P, AP-1 bound minimally (16 ± 3%) to PC:PE:VAMP4-AA liposomes (
+     <xref ref-type="fig">
+      Fig. 7A, B
+     </xref>
+     ). A moderate increase in binding (24 ± 3%) was seen when wild-type VAMP4 was incorporated in place of VAMP4-AA. In the presence of 50 nM Arf1, however, the majority (71 ± 4%) of AP-1 bound to VAMP4 liposomes. Binding to liposomes containing 5 mol% PI(4)P was significant at 47 ± 6%, but showed little dependence on Arf1. The incorporation of PI(4)P into liposomes bearing VAMP4 and Arf1 drove binding essentially to completion at 86 ± 4%, (
+     <xref ref-type="fig">
+      Fig. 7A, B
+     </xref>
+     ). All of the mutant complexes behave like wild-type in the absence of Arf1 (
+     <xref ref-type="fig">
+      Fig. 7A, B
+     </xref>
+     ). However, β1
+     <sup>
+      ΔArf1
+     </sup>
+     and β1/γ
+     <sup>
+      ΔArf1
+     </sup>
+     are completely insensitive to the presence of Arf1 (
+     <xref ref-type="fig">
+      Fig. 7A, B
+     </xref>
+     ), consistent with their complete or nearly complete loss of activation by Arf1. In contrast, γ
+     <sup>
+      Arf1
+     </sup>
+     behaves like wild-type in both the presence and absence of Arf1 (
+     <xref ref-type="fig">
+      Fig. 7A, B
+     </xref>
+     ), consistent with the concept that the γ recruitment site does not function in the activation step.
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       Reconstitution of membrane recruitment and activation by Arf1 and cargo
+      </strong>
+      <p>
+       (A) Recruitment of the AP-1 core to peptidoliposomes by lipid sedimentation assay. Liposomes were made of 5% DOGS-NTA:POPC:POPE, 1% VAMP4-LL/AA lipopeptide, 1% VAMP4 (1-51) lipopeptide, 5% PI(4)P, or both PI(4)P and VAMP4 lipopeptide. AP-1 cores (20 nM) were incubated with or without His-Arf1-GTP (50 nM) ultracentrifuged to separate the pellet (P) and supernatant fractions (S). Fractions were immunoblotted with anti-μ1 (A), and quantified using ImageJ. The AP-1 membrane binding percentage was calculated according to the formula (P/P+S) × 100% (B) Quantification of sedimentation data. Assays containing Arf1 are colored code in blue and without Arf1 in red. The error bars represent the standard deviation of three replicates.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    The discovery that AP-1 is recruited to the TGN/endosomes by Arf1-GTP dates back nearly 20 years (
+    <xref ref-type="bibr">
+     Stamnes and Rothman, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Traub et al., 1993
+    </xref>
+    ). This recruitment event is the prototype for a larger class of heterotetrameric sorting adaptor complex, comprising AP-1, -3, and -4, and COPI. If the Arf GTPase family is considered more broadly to include Arf6, this event might apply to AP-2 as well. The structural basis for Arf1 recognition by this class of sorting adaptor began to emerge with the structure determination of a fragment of γ-COP bound to Arf1 (
+    <xref ref-type="bibr">
+     Yu et al., 2012
+    </xref>
+    ). Here we have extended these findings by directly visualizing the recognition of Arf1 by β1-adaptin, which we find is the primary binding site for Arf1 on the AP-1 complex. We confirm the prediction that the mode of Arf1 binding described for γ-COP is conserved in γ-adaptin and serves as a second important, albeit lower affinity, binding site for Arf1 on AP-1. Finally, we discover an unexpected role for the back side of Arf1 in allosterically activating AP-1 via a contact with the central part of the γ trunk domain.
+   </p>
+   <p>
+    Here, we have visualized the active form of the intact AP-1 core in crystals, in the absence of membranes or sorting signals. The activation mechanism is derived from mutational analysis of the coupling between the binding of Arf1 and the dileucine signal peptide of VAMP4 in solution, taken together with the structural analysis. The linchpin of the activation mechanism is the Arf1: β1 interface, the highest affinity Arf1-binding site on AP-1. A molecular pathway for activation was inferred in which formation of contacts between switch I and II of Arf1 and β1, and the back side of Arf1 and γ, pivots the trunk domains and drives their opening. This model requires that at least one additional Arf1-binding site must act as a fulcrum. The ability of the two Arf1-binding sites to open AP-1, and their synergism in high-affinity binding, suggest that there is cross-talk between the two sites. In the crystal, we were able to visualize how a 2:2 arrangement of Arf1 and AP-1 molecules led to activation (
+    <a>
+     Movie S1
+    </a>
+    ).
+   </p>
+   <p>
+    Taken together, the crystallography, biochemical and mutational analyses, and modeling provide a picture of one of the most complex membrane-associated allosteric pathways elucidated to date. The activation of AP-1 within a 2:2 Arf1:AP-1 assembly provides a more complicated contrast to the activation of AP-2 by PI(4,5)P
+    <sub>
+     2
+    </sub>
+    (
+    <xref ref-type="bibr">
+     Collins et al., 2002
+    </xref>
+    ). AP-2 activation by PI(4,5)P
+    <sub>
+     2
+    </sub>
+    appears to be fully explained by events occurring within the context of a single AP-2 complex (
+    <xref ref-type="bibr">
+     Collins et al., 2002
+    </xref>
+    ). The multiplicity of activation and recruitment sites was another surprise. The biochemical analysis shows that the γ recruitment site does not function to any great extent in activation, and modeling suggests that occupancy of this site is sterically incompatible with membrane binding by the dimeric assembly. This raises the intriguing possiblity the initial targeting of AP-1 to the trans-Golgi network might occur through binding of one AP-1 complex in the closed state to two copies of Arf1 via the two recruitment sites (
+    <xref ref-type="fig">
+     Fig. 6B
+    </xref>
+    ). Once on the membrane, the presence of cargo could shift the AP-1 equilibrium towards the open state, as shown in
+    <xref ref-type="fig">
+     Fig. 6A
+    </xref>
+    . The high local concentration of AP-1 complexes would then promote dimerization via formation of the Arf1 back side contact (
+    <xref ref-type="fig">
+     Fig. 6C
+    </xref>
+    ), stabilizing the open form. The γ recruitment site on Arf1 would then have to dissociate concommitant with AP-1 unlocking in order to allow membrane docking in the cargo-bound conformation.
+   </p>
+   <p>
+    Very recently, the crystal structure of the HIV-1 Nef in complex with the cytosolic tail of MHC-I and the C-terminal domain of μ1 was determined (
+    <xref ref-type="bibr">
+     Jia et al., 2012
+    </xref>
+    ). When docked onto the open AP-1 core in the orientation like the one shown in
+    <xref ref-type="fig">
+     Fig. 6C
+    </xref>
+    , Nef presents its myristoyl group to the membrane (
+    <xref ref-type="bibr">
+     Jia et al., 2012
+    </xref>
+    ). The concepts outlined here suggest that Nef binding is compatible with the dimeric Arf1-activated open state, and it is possible that it could promote activation in addition to its accepted function as an adaptor that links MHC-I to AP-1.
+   </p>
+   <p>
+    In conclusion, the structural and biochemical details of AP-1 membrane recruitment by two molecules of Arf1 have been elucidated. The most important finding in the study is that Arf1 is capable of activating AP-1 by promoting the open conformation, independent of its role in targeting AP-1 to membranes. A remarkable and unexpected structural pathway for activation has been elucidated. The principles of targeting described for AP-1 appear to extend to the activation of AP-3, -4, and COPI, and perhaps to a lesser extent to Arf6 activation of AP-2. However, it remains to be explored whether activation via dimerization and the Arf1 back side contact occurs in these other systems. The stage is now set for a holistic structural and biophysical understanding of the interplay of Arf GTPases, phosphoinositides, and other elements in CCV biogenesis in the recruitment and activation of AP complexes.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <sec>
+    <title>
+     Crystallization and crystallographic analysis
+    </title>
+    <p>
+     The
+     <em>
+      S
+     </em>
+     -carboxymethylated AP-1 core protein was mixed with Arf1
+     <sup>
+      Δ16-Q71L
+     </sup>
+     at 1:4 molar ratio in 20 mM Tris pH 7.4, 200 mM NaCl, 0.3 mM TCEP, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 2 mM GTP (Axxora). Crystals were grown in 3-5 days at 288 K by hanging drop vapor diffusion against a reservoir containing 0.2 M lithium sulfate, 0.1 M Tris pH 8.5, 0.2 M lithium nitrate, 0.7 M ammonium sulphate, 1 mM TCEP. The final crystal of the complex used for data collection was obtained by micro-seeding at 6 mg/ml AP-1 concentration. Crystals were cryoprotected in the reservoir solution supplemented with 30% glycerol and frozen in liquid nitrogen.
+    </p>
+    <p>
+     Native data were collected from a single frozen crystal using a MAR CCD detector at beamline 22-ID, Advanced Photon Source. All data were processed and scaled using HKL2000 (HKL research). The crystal diffracted to 7.0 Å resolution, and belonged to space group P6
+     <sub>
+      4
+     </sub>
+     with unit cell dimensions a=b=267.49 Å, c=191.41 Å, α=β=90°, γ=120°. A molecular replacement solution was found using the AP-2 core/TGN38 peptide structure (PDB: 2XA7) as a search model with Phaser (
+     <xref ref-type="bibr">
+      McCoy et al., 2007
+     </xref>
+     ). Model building and refinement was carried out with Coot (
+     <xref ref-type="bibr">
+      Emsley et al., 2010
+     </xref>
+     ) and CNS 1.3 using the DEN method (
+     <xref ref-type="bibr">
+      Schroder et al., 2010
+     </xref>
+     ) (
+     <a>
+      Table S1
+     </a>
+     ). In DEN refinement, it is standard practice to allow several final cycles of refinement that are not constrained by the elastic network. In view of the lower resolution of this data set, these extra cycles were suppressed. Only one B-factor per subunit (or two for μ1 N- and C-terminal domains) was refined. Structural figures were generated with PyMol (W Delano;
+     <a>
+      http://pymol.sourceforge.net/
+     </a>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (10M, mov)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     02
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.3M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     03
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (153K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

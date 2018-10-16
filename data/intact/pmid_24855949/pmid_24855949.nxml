@@ -1,0 +1,775 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    http://dx.doi.org/10.1016/j.cell.2014.05.006
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A Code for RanGDP Binding in Ankyrin Repeats Defines a Nuclear Import Pathway
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Nuclear transport of macromolecules is a fundamental biological process lying at the heart of eukaryotic gene expression and cell fate determination. The nuclear import of large molecules (&gt;∼40 kDa) and/or the accumulation of small molecules against a concentration gradient requires facilitated transport (
+    <a>
+     Adams and Wente, 2013
+    </a>
+    and
+    <a>
+     Mohr et al., 2009
+    </a>
+    ). Most established facilitated transport mechanisms are mediated by nuclear transport proteins called karyopherin-βs (Kap-βs, also known as importins and exportins in humans) (
+    <a>
+     Görlich and Kutay, 1999
+    </a>
+    ,
+    <a>
+     Stewart, 2007
+    </a>
+    and
+    <a>
+     Weis, 2003
+    </a>
+    ). Eleven of 19 known Kap-βs are involved in nuclear import (
+    <a>
+     Chook and Süel, 2011
+    </a>
+    ). The best-characterized nuclear import process is mediated by importin-cargo interactions in which importins (importins 2-5, 7-9, 11-13 and exportin 4) interact with nuclear localization signal (NLS)-containing cargos. The resulting importin-cargo complex interacts with phenylalanine-glycine repeat containing nucleoporins (FG-Nups) to pass through the nuclear pore complex (NPC). A prerequisite of this important system is the asymmetric distribution of RanGDP and RanGTP between the cytoplasm and nucleus. The cytoplasm has relatively high RanGDP levels, gained through the activity of the cytoplasmic RanGTPase-activating protein (RanGAP). In the nucleus, RanGDP is converted to RanGTP by nuclear Ran guanine nucleotide exchange factor (RCC1). The high nuclear concentration of RanGTP enables it to compete with the cargos to bind importin, thus enabling release of NLS-containing cargos into the nucleoplasm.
+   </p>
+   <p>
+    The formation of the RanGTP/importin-β complex accompanies the termination of nuclear import, followed by recycling of importins and RanGTP to the cytoplasm (
+    <a>
+     Kutay et al., 1997
+    </a>
+    and
+    <a>
+     Stewart, 2007
+    </a>
+    ). RanGTP is also exported to the cytoplasm by coupling to the exportin-mediated nuclear export pathway. Despite of the continuous nuclear export of RanGTP, &gt;90% of Ran resides in the nucleus, which cannot be achieved by passive diffusion (
+    <a>
+     Kim and Elbaum, 2013
+    </a>
+    ). This has led to the identification of nuclear transport factor 2 (NTF2) as an important nuclear import facilitator of RanGDP (
+    <a>
+     Ribbeck et al., 1998
+    </a>
+    ). NTF2-mediated nuclear import of RanGDP is a continuous and extremely efficient event. The low-energy GDP form of Ran has historically been viewed as the “off” state because it does not directly participate in various identified nuclear import/export pathways (
+    <a>
+     Cook et al., 2007
+    </a>
+    ), and the function of RanGDP in nuclear-cytoplasmic transport has not yet been identified. Interestingly, the actin-associated protein CapG is reported to bind NTF2 to achieve nuclear entry with the assistance of Ran and Nup62 (
+    <a>
+     Van Impe et al., 2008
+    </a>
+    ). Thus, a key question is whether the extremely efficient NTF2-RanGDP import pathway can be used by other cargos as a facilitated nuclear import pathway.
+   </p>
+   <p>
+    While the best-characterized nuclear import pathways are mediated by importin-NLS-containing cargo interactions, many nuclear proteins do not contain a currently identifiable NLS (
+    <a>
+     Chook and Süel, 2011
+    </a>
+    ). A bioinformatics study shows that only 60% of the nuclear proteome contain identifiable NLS sequences (
+    <a>
+     Brameier et al., 2007
+    </a>
+    ). Additionally, the importin-independent pathways that have been identified to date tend to be cargo specific. For example, nuclear import of Hsp70s-ATP is mediated by Hikeshi (
+    <a>
+     Kose et al., 2012
+    </a>
+    ); CapG is mediated by NTF2/Ran/Nup62 (
+    <a>
+     Van Impe et al., 2008
+    </a>
+    ); β-catenin is mediated by direct nucleoporin binding (
+    <a>
+     Fagotto et al., 1998
+    </a>
+    ); and RanGDP is mediated by NTF2 (
+    <a>
+     Ribbeck et al., 1998
+    </a>
+    ). Collectively, these observations imply the presence of at least one general nuclear import system that is independent of importins.
+   </p>
+   <p>
+    Intriguingly, a number of ankyrin repeat domains (ARDs), such as those from IκBα, ASPP2, and GABPβ, have been reported to enter the nucleus via an unknown mechanism independent of a NLS (
+    <a>
+     Sachdev et al., 1998
+    </a>
+    ). The ankyrin repeat (AR) is one of the most common protein structural motifs. To date, &gt;265 human proteins are annotated as AR-containing proteins (ARPs) in the SMART database. ARs are evolutionarily conserved protein modules, of ∼33 residues and an L-shaped structure, composed of two antiparallel α helices of 8–10 residues preceded by a β-hairpin. The Ankyrin family is one of the most representative ARP families. Its members (AnkyrinR/B/G) are adaptor proteins that mediate the attachment of integral membrane proteins to the spectrin-actin-based membrane cytoskeleton (
+    <a>
+     Bennett and Baines, 2001
+    </a>
+    ), thus ARPs are often thought of as scaffold proteins. However, ARPs also play pivotal roles in the development and maintenance of tissue homeostasis by functioning at the cell membrane, cytoplasm, and nucleus. Some ARPs interact with their ligands with nanomolar affinity and high specificity, forming the basis of synthetic AR-based “alternative antibodies” (such as DARPin), which efficiently target binding partners (
+    <a>
+     Dreier et al., 2013
+    </a>
+    ).
+   </p>
+  </sec>
+  <sec>
+   <p>
+    Mutations in the ARDs of ARPs have been associated with various human diseases. For example, mutations in AnkyrinR and AnkyrinB correlate with hereditary spherocytosis (
+    <a>
+     Eber et al., 1996
+    </a>
+    ) and cardiac arrhythmia (
+    <a>
+     Mohler et al., 2003
+    </a>
+    ), respectively. Recent studies also suggest their importance in tumorigenesis. The ARD of Notch is mutated in human lung and head and neck cancers (
+    <a>
+     Agrawal et al., 2011
+    </a>
+    ). The most frequent p16
+    <sup>
+     ink4a
+    </sup>
+    (p16, encoded by
+    <em>
+     CDKN2A
+    </em>
+    ) mutation in human familial melanomas is methionine to isoleucine at residue 53 (M53I), resulting in the nuclear enrichment of p16 (
+    <a>
+     Ghiorzo et al., 2004
+    </a>
+    ). It remains unknown why a point mutation in p16 can facilitate its nuclear localization. The importance of ARP localization in tumorigenesis is further supported by recent discoveries of how the ASPP protein family functions. The ASPP family was originally identified as transcriptional regulators of p53 (
+    <a>
+     Samuels-Lev et al., 2001
+    </a>
+    ) and RelA/p65 (
+    <a>
+     Yang et al., 1999
+    </a>
+    ), and consists of three members (ASPP1, ASPP2, and iASPP) that shuttle between the cytoplasm and nucleus. ASPP1 binds YAP and acts as an oncogene in the cytoplasm (
+    <a>
+     Vigneron et al., 2010
+    </a>
+    ) but acts as a tumor suppressor in the nucleus by enhancing p53-mediated apoptosis (
+    <a>
+     Aylon et al., 2010
+    </a>
+    ). In the cytoplasm, ASPP2 binds Ras and inhibits autophagy (
+    <a>
+     Wang et al., 2013
+    </a>
+    ). ASPP2’s N terminus also binds Par3 to maintain the integrity of apical polarity and tight junctions (
+    <a>
+     Sottocornola et al., 2010
+    </a>
+    ). In the nucleus, ASPP2 is a transcriptional activator of the p53 family and a tumor suppressor that co-operates with p53 to suppress tumor growth in vivo (
+    <a>
+     Vives et al., 2006
+    </a>
+    ). Similarly, iASPP is a nuclear protein in proliferating basal epithelial cells but cytoplasmic in differentiated epithelial cells in human cervical or skin epithelia in vivo (
+    <a>
+     Notari et al., 2011
+    </a>
+    ). During G
+    <sub>
+     2
+    </sub>
+    /M transition, cyclin B/CDK1 phosphorylates Ser84 and Ser113 of iASPP, resulting in its nuclear entry and enhanced inhibition of p53 (
+    <a>
+     Lu et al., 2013
+    </a>
+    ). Deregulation of Ser84 and Ser113 phosphorylation is a key reason for the loss of p53’s tumor suppressive function in human melanoma. These findings demonstrate the importance of the cellular localizations of ASPP in regulating their functions. However, little is known about the mechanisms mediating their nuclear entry, except for observations that, like IκBα, ASPP2’s ARD and the ARD and SH3-containing C terminus of iASPP can enter the nucleus without an identifiable NLS in vitro (
+    <a>
+     Sachdev et al., 1998
+    </a>
+    and
+    <a>
+     Slee et al., 2004
+    </a>
+    ). Here, we reveal that a group of ARDs possess a protein code, consisting of hydrophobic residues at the 13
+    <sup>
+     th
+    </sup>
+    position of the consensus AR sequences in two consecutive ARs to form a 3D-binding motif for RanGDP binding, which mediates nuclear entry. Thus, the
+    <em>
+     Ra
+    </em>
+    nG
+    <em>
+     D
+    </em>
+    P/
+    <em>
+     AR
+    </em>
+    (RaDAR) complex-mediated nuclear import system represents a general importin-independent nuclear import pathway.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <title>
+    ARs of ASPP Enter the Nucleus via an Importin-Independent Pathway
+   </title>
+   <p>
+    Increased cytoplasmic GTP concentration inhibits importin-dependent nuclear import because elevated RanGTP in the cytoplasm prevents NLS-containing proteins from interacting with importins (
+    <a>
+     Melchior et al., 1993
+    </a>
+    ). Thus, the ability of cytoplasmic GTP or GTPγS (a nonhydrolyzable GTP analog that cannot supply energy) to influence nuclear entry in a digitonin-permeabilized in vitro nuclear import assay may indicate whether a protein employs the importin-dependent or an independent pathway to enter the nucleus.
+   </p>
+   <p>
+    Recombinant GST-tagged ARs from iASPP and ASPP2, iASPP-ARs-GST, and ASPP2-ARs-GST (
+    <a>
+     Figure S1
+    </a>
+    A available online) were purified and their ability to enter the nucleus compared with GST-tagged NLS-GFP (NLS-GFP-GST), which contains the SV40 NLS sequence (
+    <a>
+     Figure 1
+    </a>
+    A). FITC-labeled ASPP-ARs-GST and NLS-GFP-GST entered the nucleus efficiently when loaded onto digitonin-treated cells. Under the same conditions, FITC-labeled GST did not enter the nucleus (
+    <a>
+     Figure S1
+    </a>
+    B). The presence of GTP or GTPγS abrogated NLS-GFP-GST’s nuclear entry; in contrast they enhanced the nuclear entry of ASPP-ARs-GST (
+    <a>
+     Figure 1
+    </a>
+    A). To our knowledge, RanGDP is the only protein whose nuclear import can be enhanced by the addition of GTP (
+    <a>
+     Ribbeck et al., 1998
+    </a>
+    ), as confirmed here (
+    <a>
+     Figure 1
+    </a>
+    A).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Nuclear Import of ASPP-ARs via an Importin-Independent Pathway, Related to ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867414005911-figs1.jpg" data-thumbEID="1-s2.0-S0092867414005911-figs1.sml" data-imgEIDs="1-s2.0-S0092867414005911-figs1.jpg" data-fullEID="1-s2.0-S0092867414005911-figs1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1170 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Nuclear Import of ASPP-ARs via an Importin-Independent Pathway(A) ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867414005911-gr1.jpg" data-thumbEID="1-s2.0-S0092867414005911-gr1.sml" data-imgEIDs="1-s2.0-S0092867414005911-gr1.jpg" data-fullEID="1-s2.0-S0092867414005911-gr1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (731 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The ability of ASPP-ARs-GST to interact with key components of the well-defined classical nuclear import pathway was then further investigated. As expected, NLS-GFP-GST pulled down importin-α, whereas GST-RanGDP pulled down Ran-binding domain-containing Nup358 and Nup153 (
+    <a>
+     Figures 1
+    </a>
+    B and
+    <a>
+     S1
+    </a>
+    C). Under the same conditions, ASPP-ARs-GST failed to complex with FG-Nups Nup358, Nup214, Nup98, or Nup62, which span the NPC. This may be due to the fact that interactions between transport complexes and FG-repeats are transient with a low affinity. However, FG-Nup Nup153, which resides at the nuclear ring of NPC, interacted with ASPP-ARs-GST, NLS-GFP-GST, and GST-RanGDP. ASPP-ARs-GST pulled down Ran as well as NTF2 (
+    <a>
+     Figure 1
+    </a>
+    B).
+   </p>
+   <p>
+    To provide further evidence that ASPP-ARs can enter the nucleus via an importin-independent pathway, importin-β1 was knocked-down in H1299 cells before transfection with ASPP-ARs or p53 (contains a NLS). While knockdown of importin-β1 impaired p53’s nuclear accumulation, it had a minimal effect on the nuclear accumulation of ASPP-ARs (
+    <a>
+     Figure 1
+    </a>
+    C). These results suggest that ASPP-ARs can enter the nucleus independently of importins.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    ASPP-ARs Directly Bind RanGDP and Form an AR/RanGDP/NTF2 Complex to Mediate Nuclear Entry
+   </title>
+   <p>
+    Since RanGDP continuously enters the nucleus via NTF2, we tested whether ASPP-ARs could employ RanGDP to enter the nucleus. ASPP-ARs-GST or GST was incubated with purified RanGDP (freshly loaded GDP) in a GST pull-down assay. Direct interaction between RanGDP and ASPP-ARs-GST, but not GST, was observed (
+    <a>
+     Figure 2
+    </a>
+    A). The ARs-containing fragment (622-757) mediated the observed interaction between iASPP and RanGDP (
+    <a>
+     Figure S2
+    </a>
+    A).Previous studies imply that ARs bind their partners in a manner where the ARs adopt a canonical tertiary structure as observed in multiple crystal structures (
+    <a>
+     Sedgwick and Smerdon, 1999
+    </a>
+    ). By far-western dot blot assay, we observed that only native ASPP-ARs-GST, and not urea-denatured ASPP-ARs-GST, interacted with RanGDP (
+    <a>
+     Figure 2
+    </a>
+    B, left). As a positive control, the membrane was incubated with an anti-GST antibody that detects the presence of both native and denatured ASPP-ARs-GST. Denaturation has minimal impact on the signals detected (
+    <a>
+     Figure 2
+    </a>
+    B, right). Furthermore, ASPP-ARs-GST failed to directly interact with FG-Nups (FxFG, GLFG, SxFG, or PxFG) that are known to be involved in the classical nuclear import pathway. NTF2’s interaction with FxFG-containing Nup153 acted as a positive control (
+    <a>
+     Figure S2
+    </a>
+    C) (
+    <a>
+     Morrison et al., 2003
+    </a>
+    ). These data suggest that ASPP-ARs bind RanGDP directly in a tertiary structure-dependent manner, and that the observed interaction with Nup153 in cell lysates may be mediated by RanGDP/NTF2.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="ASPP-ARs Directly Bind RanGDP and Form an AR/RanGDP/NTF2 Complex to Mediate ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867414005911-gr2.jpg" data-thumbEID="1-s2.0-S0092867414005911-gr2.sml" data-imgEIDs="1-s2.0-S0092867414005911-gr2.jpg" data-fullEID="1-s2.0-S0092867414005911-gr2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1233 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="ARs of ASPP Bind RanGDP Directly and Form an AR/RanGDP/NTF2 Complex to Mediate ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867414005911-figs2.jpg" data-thumbEID="1-s2.0-S0092867414005911-figs2.sml" data-imgEIDs="1-s2.0-S0092867414005911-figs2.jpg" data-fullEID="1-s2.0-S0092867414005911-figs2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (912 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    When NTF2 binds RanGDP, the resulting NTF2/RanGDP complex enters the nucleus more efficiently than RanGDP alone (
+    <a>
+     Ribbeck et al., 1998
+    </a>
+    ). Although iASPP-ARs-GST was able to bind RanGDP, it failed to interact directly with NTF2. However, it did pull down NTF2 in the presence of RanGDP. In addition, iASPP-ARs failed to pull down NTF2(E42K), a mutant defective in RanGDP binding, in the presence of RanGDP. Interestingly, iASPP-ARs-GST did not bind RanGTP under the same conditions (
+    <a>
+     Figure 2
+    </a>
+    C).
+   </p>
+   <p>
+    In an in vitro nuclear import assay, incubation of FITC-labeled iASPP-ARs-GST together with BSA detected nuclear iASPP-ARs-GST in 89% of cells. Only ∼14% of the cells contained a strong nuclear iASPP-ARs-GST signal (saturated FITC, red in heat map,
+    <a>
+     Figures 2
+    </a>
+    D and
+    <a>
+     S2
+    </a>
+    D). However, in the presence of RanGDP, ∼45% of cells manifested strong nuclear iASPP-ARs-GST (
+    <a>
+     Figure 2
+    </a>
+    D and
+    <a>
+     Figure S2
+    </a>
+    D). Cells with nuclear RanGDP were clearly associated with stronger nuclear iASPP-ARs-GST signals (
+    <a>
+     Figure 2
+    </a>
+    D, arrowheads, enlarged panel). Similar enhancement upon RanGDP addition was observed for ASPP2-ARs-GST, but not NLS-GFP-GST, implying that RanGDP nuclear import is specifically employed by ASPP-ARs. Ran(Q69L)GTP, a dominant-negative mutant of Ran that is locked in a GTP-bound form and defective in nuclear import, reduced the percentage of strong nuclear iASPP-ARs-GST-manifesting cells to &lt;15%. Ran-GFP overexpression in H1299 cells induced stronger nuclear iASPP localization, while Ran(Q69L)-GFP failed to do so (
+    <a>
+     Figure 2
+    </a>
+    E).
+   </p>
+   <p>
+    Incubation of iASPP-ARs-GST with RanGDP in the presence of NTF2 enhanced the nuclear iASPP-ARs-GST signal, whereas NTF2(E42K) did not (
+    <a>
+     Figure S2
+    </a>
+    D). These results demonstrate that the ASPP-ARs bind RanGDP directly, forming a protein complex with NTF2 via RanGDP that enables their nuclear entry.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RanGDP Binds Hydrophobic 13
+    <sup>
+     th
+    </sup>
+    Residues of ARs and Mediates Nuclear Import
+   </title>
+   <p>
+    The NPc (nucleophosmin core, a predominantly cytoplasmic protein)-fused second AR of IκBα (NPc-IκBα-AR2) was previously shown to locate in the nucleus (
+    <a>
+     Sachdev et al., 1998
+    </a>
+    ). However, NPc-IκBα-AR2(AAA), a mutant with triple alanine substitutions on the 8
+    <sup>
+     th
+    </sup>
+    , 10
+    <sup>
+     th
+    </sup>
+    , and 13
+    <sup>
+     th
+    </sup>
+    residues of the AR, located in the cytoplasm. Interestingly, NPc-IκBα-AR2 bound RanGDP more strongly than NPc-IκBα-AR2(AAA) (
+    <a>
+     Figure S3
+    </a>
+    A). As NPc-IκBα-AR2 contains only one AR, this provided an opportunity to identify the specific AR residues that mediate RanGDP interaction. Previous studies have shown that ARs most commonly interact with their binding partners via residues located on the AR grooves, composed of the 3
+    <sup>
+     rd
+    </sup>
+    –15
+    <sup>
+     th
+    </sup>
+    residues in the AR consensus sequence (
+    <a>
+     Figure 3
+    </a>
+    A, star line) (
+    <a>
+     Sedgwick and Smerdon, 1999
+    </a>
+    ). The start position of an AR is defined according to common structural folds (
+    <a>
+     Figure 3
+    </a>
+    A). As RanGDP only binds natively folded ASPP-ARs, the residues that maintain the AR’s tertiary structure (
+    <a>
+     Figure 3
+    </a>
+    A, triangles; according to studies on the artificial consensus AR) (
+    <a>
+     Kohl et al., 2003
+    </a>
+    ) were not mutated. Based on a crystal structure of IκBα’s ARs (PDB accession code:
+    <span>
+     1NFI
+    </span>
+    ), the 3
+    <sup>
+     rd
+    </sup>
+    , 5
+    <sup>
+     th
+    </sup>
+    , 13
+    <sup>
+     th
+    </sup>
+    , and 14
+    <sup>
+     th
+    </sup>
+    residues, which would not affect AR structure but are located on the AR grooves, were mutated to generate NPc-IκBα-AR2 (L114A, Q116A, I124A, and T125A), respectively. Interestingly, only NPc-IκBα-AR2 (I124A, position 13) weakened RanGDP binding (
+    <a>
+     Figure S3
+    </a>
+    B). In the tertiary structure, the 13
+    <sup>
+     th
+    </sup>
+    AR residue (AR
+    <sub>
+     13
+    </sub>
+    ) is located at the end of the first α-helix (at the upper tip of the groove) and is exposed, extending out of the AR (
+    <a>
+     Figure 3
+    </a>
+    A, red stars).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="RanGDP Binds the Hydrophobic 13th Residue of AR and Mediates Nuclear Import, ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867414005911-figs3.jpg" data-thumbEID="1-s2.0-S0092867414005911-figs3.sml" data-imgEIDs="1-s2.0-S0092867414005911-figs3.jpg" data-fullEID="1-s2.0-S0092867414005911-figs3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1410 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="RanGDP Binds Hydrophobic 13th Residue of AR and Mediates Nuclear Import(A) Left: ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867414005911-gr3.jpg" data-thumbEID="1-s2.0-S0092867414005911-gr3.sml" data-imgEIDs="1-s2.0-S0092867414005911-gr3.jpg" data-fullEID="1-s2.0-S0092867414005911-gr3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1496 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    Within the UniProt Human Reviewed ARPs, the occurrence of amino acids at the 13
+    <sup>
+     th
+    </sup>
+    positions of human ARs is biased toward R, S, Q, and A (
+    <a>
+     Figure S3
+    </a>
+    B). Thus, AR
+    <sub>
+     13
+    </sub>
+    of NPc-IκBα-AR2, I124, was substituted individually with the ten most frequently occurring amino acid residues (accounting for 79% of ARPs). The resulting IκBα-AR2 mutants with hydrophobic AR
+    <sub>
+     13
+    </sub>
+    (I124I, I124L, I124F, and I124C) all bound RanGDP with high efficiency, whereas mutants with more hydrophilic residues at AR
+    <sub>
+     13
+    </sub>
+    , K or R, bound RanGDP with much lower efficiency (
+    <a>
+     Figure 3
+    </a>
+    B). Consistent with RanGDP-binding affinity, strong RanGDP-binding NPc-IκBα-AR2s (WT, I124L and I124F) were mainly observed in the nucleus, whereas weaker mutants (NPc-IκBα-AR2[124R and 124K]) were predominantly cytoplasmic (
+    <a>
+     Figure 3
+    </a>
+    B).
+   </p>
+   <p>
+    ANKRD49 is predominantly cytoplasmic with four ARs, and RanGDP binding is barely detectable. None of the four AR
+    <sub>
+     13
+    </sub>
+    s of ANKRD49 (E, Y, K, and G) belongs to the highly hydrophobic residues. They were thus substituted for the more hydrophobic I and C, which occur at position 13 of the ARs of IκBα and iASPP, respectively. Interestingly, a point substitution to replace the existing Y or K to I or C, at AR
+    <sub>
+     13
+    </sub>
+    of the second or third ARs, achieved a small but detectable increase in RanGDP binding. When two or more AR
+    <sub>
+     13
+    </sub>
+    in consecutive ARs were substituted for C (E-C-C-G or E-C-C-C), RanGDP binding was significantly increased (
+    <a>
+     Figure 3
+    </a>
+    C), resulting in enhanced nuclear localization. In addition, ANKRD49 mutants with hydrophobic AR
+    <sub>
+     13
+    </sub>
+    in two consecutive ARs were more active in binding RanGDP and more frequently localized in the nucleus than those with two scattered ones (
+    <a>
+     Figure 3
+    </a>
+    C, E-C-K-C versus E-C-C-G).
+   </p>
+  </sec>
+ </body>
+</article>

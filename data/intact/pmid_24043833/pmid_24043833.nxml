@@ -1,0 +1,1213 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3791723
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural features of Argonaute–GW182 protein interactions
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     MicroRNAs (miRNAs) guide Argonaute (Ago) proteins to target mRNAs, leading to gene silencing. However, Ago proteins are not the actual mediators of gene silencing but interact with a member of the GW182 protein family (also known as GW proteins), which coordinates all downstream steps in gene silencing. GW proteins contain an N-terminal Ago-binding domain that is characterized by multiple GW repeats and a C-terminal silencing domain with several globular domains. Within the Ago-binding domain, Trp residues mediate the direct interaction with the Ago protein. Here, we have characterized the interaction of Ago proteins with GW proteins in molecular detail. Using biochemical and NMR experiments, we show that only a subset of Trp residues engage in Ago interactions. The Trp residues are located in intrinsically disordered regions, where flanking residues mediate additional weak interactions, that might explain the importance of specific tryptophans. Using cross-linking followed by mass spectrometry, we map the GW protein interactions with Ago2, which allows for structural modeling of Ago–GW182 interaction. Our data further indicate that the Ago–GW protein interaction might be a two-step process involving the sequential binding of two tryptophans separated by a spacer with a minimal length of 10 aa.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Significance
+   </title>
+   <sec>
+    <p>
+     MicroRNAs (miRNAs) are short RNA molecules that negatively regulate the expression of protein-coding genes in many eukaryotes. In order to do so, miRNAs interact with a member of the Argonaute (Ago) protein family and guide it to partially complementary sequences on mRNAs. Ago proteins interact with a member of the GW182 protein family, which, in turn, recruits additional factors and coordinates all downstream steps. In our study, we have characterized Ago–GW182 protein interactions using biochemical and biophysical methods. We define the interaction surfaces on GW182 and Ago proteins and provide a model for the binding mechanism and specificity.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     gene regulation, small RNA–mediated gene silencing, RNAi, RNA interference
+    </span>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Identification of Ago2-Interaction Motifs on TNRC6B.
+    </title>
+    <p>
+     The Ago-binding domain of GW proteins contains multiple GW repeats. However, the binding affinities of the individual tryptophans have not been analyzed. Therefore, we performed peptide-scanning experiments to analyze which tryptophans stably interact with Ago2 (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ). Overlapping, 20-aa-long peptides spanning amino acids 162–996 of TNRC6B were synthesized and spotted onto a nitrocellulose membrane. The membrane was incubated with recombinant Ago2 and bound Ago2 was detected by Western blotting using a specific anti-Ago2 antibody (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Notably, not all GW-containing peptides interact with Ago2 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). We find three binding hotspots (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , black circles) and several sites with weaker binding. Of note, not all peptides that bind with high affinity contain GW dipeptides. Peptide D3, for example, contains an SWD and a SWN motif, suggesting that Gly residues flanking the Trp are not strictly required for Ago binding. By analyzing all peptides, we conclude that amino acids with smaller or flexible side chains (e.g., G, S, N, V, D, T, K, E, A) may flank the Trp residue (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), whereas residues with bulky or aromatic side chains do not flank Ago-interacting tryptophans.
+    </p>
+    <fig id="fig01" position="float">
+     <label>
+      Fig. 1.
+     </label>     <caption>
+      <p>
+       Identification of Ago2 binding sites on TNRC6B. (
+       <em>
+        A
+       </em>
+       ) Domain organization of Ago2 and Coomassie-stained recombinant Ago2. (
+       <em>
+        B
+       </em>
+       ) Schematic illustration of the peptide array used in
+       <em>
+        C
+       </em>
+       . (
+       <em>
+        C
+       </em>
+       ) Domain organization of TNRC6B. Parts of the sequence, indicated as A-I, were spotted on the membrane. TNRC6B peptides were blotted onto a nitrocellulose membrane and Ago2 binding was assessed as shown in
+       <em>
+        B
+       </em>
+       . Signals were quantified using the ImageJ software (
+       <a>
+        http://rsb.info.nih.gov/ij
+       </a>
+       ), showing different levels of affinity (right image). (
+       <em>
+        D
+       </em>
+       ) List of TNRC6B peptides with affinity for Ago2. The strongest Ago2-binding peptides are marked with filled circles. (
+       <em>
+        E
+       </em>
+       ) Residues directly flanking Trp found in the individual peptides.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Our data suggest that Ago proteins interact with specific sites on the N-terminal domain of TNRC6B and that not all tryptophans engage in binding. Contrary to previous assumptions, flanking glycines are not a prerequisite for anchoring the Trp on Ago.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Investigation of Trp-Flanking Amino Acids.
+    </title>
+    <p>
+     For further investigation of the influence of upstream or downstream flanking amino acid sequences on Ago2 binding, we examined peptide E11 in more detail (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ). Several additional peptides were designed based on the peptide E11 backbone (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and analyzed by peptide array probing using recombinant Ago2 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). First, individual alanines were introduced flanking the Trp to the N terminus (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , A1 to A12) and to the C terminus (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , A14 to B1). These insertions did not influence Ago2 binding (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Substitution of the Trp by Ala completely abolished Ago2 binding (A13). We next systematically replaced the entire N- and C-terminal parts by Ala, which had again no effect on binding to Ago2 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , B2 to B17). When the entire peptide except of the central Trp was substituted by alanines (B18 to C1), binding was noticeably reduced. This effect may be attributable to the well-known propensity of alanine stretches for adopting a helical conformation or indicate weak, nonspecific contributions to Ago binding by the flanking region (see below). Next, all amino acids except of the Trp were replaced by Gly, and several other amino acids were introduced into this sequence. None of the tested peptides showed binding (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Changing the Trp position within the peptide also did not affect binding (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="fig02" position="float">
+     <label>
+      Fig. 2.
+     </label>     <caption>
+      <p>
+       Analysis of residues neighboring tryptophans. (
+       <em>
+        A
+       </em>
+       ) Peptide array showing different effects of amino acid substitutions in peptide E11 (
+       <em>
+        Lower
+       </em>
+       ). (
+       <em>
+        Upper
+       </em>
+       ) The control experiment lacking Ago2 incubation. (
+       <em>
+        B
+       </em>
+       –
+       <em>
+        F
+       </em>
+       ) List of designed peptides with the type of mutation pointed out in gray. Tryptophans are highlighted in blue. (
+       <em>
+        B
+       </em>
+       ) Alanine scan. (
+       <em>
+        C
+       </em>
+       ) Systematic introduction of multiple alanines. (
+       <em>
+        D
+       </em>
+       ) A single amino acid in a poly Gly peptide and change of GWG position in peptide E11. (
+       <em>
+        E
+       </em>
+       ) Trp substitution by aromatic (F, Y) or selected other (L, R) amino acids and peptides used for STD-NMR measurements in
+       <xref ref-type="fig">
+        Fig. 3
+       </xref>
+       . (
+       <em>
+        F
+       </em>
+       ) Change of W neighboring amino acids.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next asked whether the aromatic indole ring of Trp could engage stacking interactions with other aromatic amino acids on Ago and, therefore, changed the Trp residue to Phe (D1) or Tyr (D2) (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Although the Phe mutation shows weak interaction, the Tyr variant does not bind, presumably because of the presence of a hydroxyl group in Tyr, which may introduce steric/electrostatic clashes and/or alter the aromaticity of the side chain. These findings suggest that the aromatic side chain is important for binding and that the indole moiety can optimally fill the binding pockets on the Ago protein. However, the Phe side chain may be too short and might not reach deep enough into a binding pocket on Ago2. Finally, we validated our finding that Trp neighbors with small or not bulky side chains are compatible with the Ago2 interaction (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). All peptides tested showed efficient Ago2 binding in our peptide array approach (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     In summary, we find that the aromatic indole ring of Trp is essential for binding. Trp flanking residues identified in
+     <xref ref-type="fig">
+      None
+     </xref>
+     may modulate the interaction but are not necessary for the Ago2 interaction.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Molecular Details of the Tryptophan–Ago2 Interactions.
+    </title>
+    <p>
+     The peptide arrays revealed that the main contact between Ago proteins and TNRC6B is mediated by tryptophans. We, therefore, analyzed structural details of the Trp recognition using saturation-transfer difference NMR (STD-NMR). In STD-NMR, selective pulses saturate the large protein only. The magnetization is transferred to protons of the small molecule (here, peptides), which are in close proximity to saturated protons of the protein (here, Ago2), and signals of these protons can be observed, whereas signals of other protons, which are not in contact with the protein, are not observable. Thus, the binding epitope of a weakly binding small molecule, interacting with a high-molecular-weight protein can be efficiently studied (see
+     <a>
+      <em>
+       Materials and Methods
+      </em>
+     </a>
+     for details) (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The intensity of the corresponding NMR signals of the ligand is reduced, thus allowing the identification of the binding epitope. We used the three peptides that showed the strongest binding to Ago2 in our peptide array (
+     <xref ref-type="fig">
+      None
+     </xref>
+     : D3, E11, and G2) for our STD-NMR. In all three peptides, the main contacts to Ago2 are mediated by protons H
+     <sup>
+      η2
+     </sup>
+     and H
+     <sup>
+      ζ2
+     </sup>
+     positions (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , E11;
+     <a>
+      Fig. S1
+     </a>
+     , D3 and G2), suggesting that these protons are buried in the binding pocket of Ago2 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , red circles). For additional protons of the indole ring, weaker saturation transfer is observed. The STD is consistent with the interactions seen in the Ago2 crystal structure with isolated Trp residues (
+     <xref ref-type="bibr">
+      28
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), indicating that the recognition of the indole ring is similar in the presence of flanking residues in GW182 proteins.
+    </p>
+    <fig id="fig03" position="float">
+     <label>
+      Fig. 3.
+     </label>     <caption>
+      <p>
+       STD-NMR identifies Trp protons engaged in Ago2 binding. (
+       <em>
+        A
+       </em>
+       ) Schematic illustration of STD-NMR experiment applied to the protein receptor Ago2 and ligand (peptide) complex. Selective saturation of receptor signals is transferred to the peptide protons by spin diffusion. The stronger the receptor–ligand contact between two protons, the stronger is the STD effect. (
+       <em>
+        B
+       </em>
+       ) STD amplification factor of measured peptide (defined in
+       <a>
+        <em>
+         Materials and Methods
+        </em>
+       </a>
+       ). (
+       <em>
+        Left
+       </em>
+       ) Time course of STD amplification factors plotted against the saturation transfer time calculated for peptide E11. Different residues are highlighted by colors, whereas different symbols are used for protons observed. (
+       <em>
+        Right
+       </em>
+       ) Structure of tryptophans with proton names annotated. The value of the proton with the highest STD amplification factor was set to 100% and is highlighted in red and relative values are then indicated for the other protons, accordingly. (
+       <em>
+        C
+       </em>
+       ) Trp-binding pocket of W901 (PDB ID code 4EI3).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Trp-Containing TNRC6B Regions That Bind Ago2 Are Unstructured.
+    </title>
+    <p>
+     It is possible that local structural elements within the Ago-binding domain influence the interaction with Ago. Therefore, we used circular dichroism (CD) and NMR to analyze the conformation and dynamics of an 83-aa-long peptide derived from TNRC6B (positions 599–683) that contains peptide E11 (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). To identify important residues for function and folding, we analyzed cross-species conservation of the TNRC6B-599-683 peptide (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The GWG motif involved in Ago binding is conserved in vertebrates and insects. Furthermore, several flanking amino acids (e.g., S619 or Q630) are also highly conserved suggesting functional importance. For experimental analysis, recombinant TNRC6B-599-683 was expressed in
+     <em>
+      E. coli
+     </em>
+     (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The recombinant peptide was subsequently used for circular dichroism (CD) experiments (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The CD spectrum exhibits mainly random coil-like features, confirming that TNRC6B-599-683) is largely unstructured. We then used NMR spectroscopy to analyze the conformation and dynamics at residue resolution. NMR
+     <sup>
+      15
+     </sup>
+     N relaxation measurements and low
+     <sup>
+      1
+     </sup>
+     H,
+     <sup>
+      15
+     </sup>
+     N heteronuclear NOE values (
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <a>
+      Fig. S2
+      <em>
+       A
+      </em>
+     </a>
+     ) demonstrate that the polypeptide chain exhibits fast internal motion on sub-nanosecond time scales and is intrinsically disordered. To probe potential regions with local secondary structure, we analyzed
+     <sup>
+      13
+     </sup>
+     C secondary chemical shifts Δδ(
+     <sup>
+      13
+     </sup>
+     C) (
+     <a>
+      <em>
+       Materials and Methods
+      </em>
+     </a>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). These data demonstrate the absence of secondary structure in the protein, indicating that the GW domain is unstructured and that no preformed secondary structure contributes to the Trp recognition by Ago2.
+    </p>
+    <fig id="fig04" position="float">
+     <label>
+      Fig. 4.
+     </label>     <caption>
+      <p>
+       Folding analysis of a TNRC6B peptide that binds Ago2. (
+       <em>
+        A
+       </em>
+       ) TNRC6B orthologs were aligned with MAFFT (
+       <xref ref-type="bibr">
+        43
+       </xref>
+       ) using the Jalview software (
+       <xref ref-type="bibr">
+        44
+       </xref>
+       ). Conserved sequence motifs are shaded in blue. Predicted secondary structure elements are displayed above the sequence. (
+       <em>
+        B
+       </em>
+       ) Coomassie-stained SDS/PAGE of recombinant TNRC6B-599-683 used in the subsequent experiments. (
+       <em>
+        C
+       </em>
+       ) CD spectrum of TNRC6B-599-683 reveals a random coil-like structure. (
+       <em>
+        D
+       </em>
+       ) Heteronuclear NOE experiments of TNRC6B-599-683. The average value for heteronuclear NOE is about 0.4, as indicated with a gray line. For secondary structural elements, a value above 0.77 would be expected, as marked with a dashed line. Secondary structure analysis based on the
+       <sup>
+        13
+       </sup>
+       C secondary chemical shifts of the free TNRC6B-599-683 fragment indicating the absence of significant population of secondary structure.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, we measured binding affinities of TNRC6B-599-683 to Ago proteins. GST–TNRC6B-599-683 was immobilized and incubated with HeLa cell lysates. The bound proteins were analyzed by MS. Indeed, the TNRC6B fragment bound Ago1, Ago2, and Ago3 equally well under these conditions (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Of note, the amount of pulled down Ago proteins resembles the protein expression levels (
+     <xref ref-type="bibr">
+      29
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ). For further affinity measurements, we tested possible protein aggregation using dynamic light scattering (DLS) (
+     <a>
+      <em>
+       Materials and Methods
+      </em>
+     </a>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Single peaks were found when Ago2 or TNRC6B-599-683 was used alone (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ,
+     <em>
+      Top
+     </em>
+     and
+     <em>
+      Middle
+     </em>
+     ). However, when measured together, the peak is slightly shifted to higher molecular weights (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ,
+     <em>
+      Bottom
+     </em>
+     ), indicating that the complex is not aggregated unspecifically and can be used for further analysis. Finally, the affinity of Ago2 and TNRC6B-599-683 was analyzed by fluorescence polarization spectroscopy (
+     <a>
+      Fig. S2
+      <em>
+       B
+      </em>
+     </a>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Using this biophysical approach, we determined an equilibrium dissociation constant (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ) of 1.87 ± 0.47 µM for the binding of Ago2 to TNRC6B-599-683.
+    </p>
+    <fig id="fig05" position="float">
+     <label>
+      Fig. 5.
+     </label>     <caption>
+      <p>
+       (
+       <em>
+        A
+       </em>
+       ) Pull down of proteins from HeLa lysate by TNRC6B-599-683. Whole-cell HeLa lysate was incubated with GST-tagged TNRC6B-599-683, followed by a GST pull down. The ratios of precipitated Ago fractions were determined by mass spectrometry. (
+       <em>
+        B
+       </em>
+       ) DLS indicates that TNRC6B-599-683 and Ago2 do not aggregate upon binding. DLS data show small particles for TNRC6B-599-683 and Ago2 alone (R
+       <sub>
+        H
+       </sub>
+       : 1.34 and 3.05 nm, respectively), as well as for the complex (R
+       <sub>
+        H
+       </sub>
+       : 1.17 and 3.78 nm). Intensities were normalized for molecular weight as indicated by a red mark. (
+       <em>
+        C
+       </em>
+       ) FP measurement of TNRC6B-599-683:Ago2 interaction provides a
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       of 1.87 ± 0.47 µM (mean and deviation were calculated from a triple measurement for each sample).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Only Two Tryptophan Residues in TNRC6B-599-683 Are Necessary for Ago Binding.
+    </title>
+    <p>
+     To further analyze the molecular details of TNRC6B binding to Ago2, we performed NMR titration experiments of the isotope-labeled TNRC6B-599-683 fragment with unlabeled full-length Ago2 (
+     <a>
+      Fig. S3
+     </a>
+     ). Upon complex formation, the region comprising residues 602–623 exhibits substantial chemical-shift perturbations (CSPs) (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and/or reduction in signal intensities (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), whereas smaller effects are observed for the region comprising amino acids 624–634. This indicates that regions surrounding residues W623 and W634 in TNRC6B mediate additional, weaker and, likely, nonspecific contacts to Ago2.
+    </p>
+    <fig id="fig06" position="float">
+     <label>
+      Fig. 6.
+     </label>     <caption>
+      <p>
+       (
+       <em>
+        A
+       </em>
+       ) NMR titration experiments of TNRC6B-599-683 and Ago2. Amino acids colored in gray could not be assigned. The unambiguously assigned Trp623 and Gly624 are marked by an asterisk. (
+       <em>
+        Upper
+       </em>
+       ) Plot of peak intensity ratios of a 0.1:1 (gray) and 1:1 (black) TNRC6B-599-683–Ago2 compared with the free TNRC6B-599-683 reference spectrum. Reduced intensity is observed for residues 606–634. (
+       <em>
+        Lower
+       </em>
+       ) CSPs correspond to the region with reduced intensity ratios. (
+       <em>
+        B
+       </em>
+       ) Ago2 interacts with two distinct tryptophans. (
+       <em>
+        Upper
+       </em>
+       ) Input for pull-down assays with respective mutants indicated on top. (
+       <em>
+        Lower
+       </em>
+       ) Ago2 precipitation by GST-pull-downs with GST–TNRC6B-599-683, as well as the indicated mutants, were immobilized and used for Ago2 pull-down experiments. Molecular-weight markers are shown to the left of the gels. (
+       <em>
+        C
+       </em>
+       ) Mutation of W623 in wt TNRC6B reduces Ago2 binding. F/H-TNRC6B, -TNRC6B W623A, -TNRC6B W623/634A, and -GFP were transfected into HEK 293 cells, immunoprecipitated, and analyzed by Western blotting against endogenous Ago2 (
+       <em>
+        Top
+       </em>
+       ) or the tagged proteins (
+       <em>
+        Middle
+       </em>
+       and
+       <em>
+        Bottom
+       </em>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To analyze which Trp is most important for binding, we mutated all tryptophans in the TNRC6B-599-683 fragment to alanines (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). GST-TNRC6B fragments were immobilized and incubated with recombinant Ago2. After washing, the bound proteins were analyzed by Coomassie staining. Interestingly, binding was completely lost, when the first and second tryptophans were mutated individually (W623A, W634A), whereas mutation of all of the other tryptophans had no effect on Ago2 binding (W653A, W666A, W680A). A fragment, in which the last three tryptophans were mutated simultaneously, bound Ago2 efficiently (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , lane 17). Mutating all tryptophans except of one (
+     <xref ref-type="fig">
+      None
+     </xref>
+     , lanes 8–13) abolished Ago2 binding. Our data indicate that two tryptophans are required for efficient binding. Moreover, within this binding region, only the first two tryptophans engage in Ago2 binding.
+    </p>
+    <p>
+     To test whether binding of the first two tryptophans is important in the full-length context of TNRC6B as well, we transfected FLAG/HA-tagged wild-type (wt) or variants containing the abovementioned mutations (W623A, W623/634A) (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Both the single and the double mutation resulted in a strongly reduced binding of TNRC6B to endogenous Ago2, indicating that the identified tryptophans are not only important for the binding of shorter peptides but also in the context of the full-length proteins.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Mapping TNRC6B Contacts on Ago2.
+    </title>
+    <p>
+     We next analyzed TNRC6B contacts on Ago2 (
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     ). Recombinant Ago2 and TNRC6B-599-683 were cross-linked via Lys side chains that are in close proximity. The cross-link was validated by a size shift in SDS/PAGE (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and by gel filtration (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The cross-linked proteins were digested with a site-specific protease and analyzed by MS. As expected, we found several intramolecular Ago2 cross-links of lysines (
+     <a>
+      Fig. S4
+     </a>
+     ). Furthermore, we also identified three lysines on the TNRC6B-599-683 fragment that cross-linked to four lysines on the Ago2 surface (
+     <a>
+      Fig. S4
+     </a>
+     , highlighted in red, and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Strikingly, all cross-linked lysines surround the two Trp-binding pockets that were suggested as binding pockets in the human Ago2 structure crystallized with free tryptophans (
+     <xref ref-type="bibr">
+      28
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Our cross-linking data, therefore, confirm the postulated Trp-binding pockets and provide a structural mapping analysis of TNRC6B binding to Ago2 in the context of a larger unstructured GW protein fragment.
+    </p>
+    <fig id="fig07" position="float">
+     <label>
+      Fig. 7.
+     </label>     <caption>
+      <p>
+       Protein–protein cross-links identify the TNRC6B interaction surface on Ago2. (
+       <em>
+        A
+       </em>
+       ) SDS/PAGE of cross-linked TNRC6B-599-683-Ago2 complex before (cross-link) and after separation by size-exclusion chromatography (GF peak). The purified sample was subjected to MS analysis. (
+       <em>
+        B
+       </em>
+       ) After cross-linking of TNRC6B-599-681 and Ago2, the complex can be separated from free TNRC6B-599-683 (blue line) and is slightly shifted toward lower elution volume in comparison with free Ago2 (light blue line). (
+       <em>
+        C
+       </em>
+       ) The cross-link map illustrates the cross-links found between Ago2 and TNRC6B-599-683 (violet) and the Ago2 intramolecular cross-links (black dashed lines). A detailed list of cross-linked peptides is shown in
+       <a>
+        Fig. S4
+       </a>
+       . (
+       <em>
+        D
+       </em>
+       ) Surface presentation of the Ago2 crystal structure with cocrystallized Trp (cyan) (PDB ID code 4EI3) (
+       <xref ref-type="bibr">
+        28
+       </xref>
+       ). Lys on Ago2 that cross-linked with TNRC6B Lys (K425, K655, K693, K844) is highlighted in dark red. All other lysines present in the Ago2 sequence are presented in pink to show possible cross-linking sites. (
+       <em>
+        E
+       </em>
+       ) Spacer variations used in
+       <em>
+        F
+       </em>
+       . (
+       <em>
+        F
+       </em>
+       ) GST-tagged spacer variants indicated in
+       <em>
+        E
+       </em>
+       were incubated with recombinant Ago2. Protein complexes were isolated by GST pull down and analyzed by SDS/PAGE, followed by Coomassie staining. (
+       <em>
+        Upper
+       </em>
+       ) Input samples. (
+       <em>
+        Lower
+       </em>
+       ) Pulled-down proteins.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The distance between the two tryptophans within the analyzed peptide is 10 aa long. We, therefore, investigated whether a defined Trp spacing is important for Ago2 binding. We generated GST-tagged mutated peptides containing 8-, 9-, 11-, or 12-aa spacers (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and used them for pull-down assays (
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Whereas wt, 11- and 12-aa spacers efficiently bound recombinant Ago2, distances of 8 or 9 aa between the two tryptophans strongly reduced Ago2 binding. Our data indicate that a minimum length of 10 aa is required to place the two tryptophans into the binding pockets on Ago2.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    GW proteins are the major binding partners of Ago proteins and coordinate the individual steps of miRNA-guided gene silencing (
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ). It has been found previously that the N-terminal half of GW proteins contain multiple GW repeats, which are required for binding to Ago proteins and termed Ago hooks (
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ). Using truncation mutants, the binding domain was narrowed down to shorter sequence stretches. In
+    <em>
+     Drosophila
+    </em>
+    GW182, motif I and motif II were identified as the two main Ago-interaction platforms (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ). Here, we used a peptide scanning approach to identify Ago-binding motifs in the mammalian GW homolog TNRC6B. We found that three distinct regions within the N-terminal GW domain show affinity to Ago2 (positions 467–501, 612–641, 767–791). The homologous region of motif I in humans contains our peptide E11 and was also confirmed as an important Ago-binding sequence in human TNRC6B (
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). Motif II, however, was not identified as an interaction domain in our peptide scan. Moreover, neither peptide D3 nor peptide G2 was found in previous studies, suggesting that peptide scanning might be more sensitive in identifying tryptophans with Ago-binding properties. However, it should also be noted that short peptides might show different binding properties compared with the same sequence within the context of full-length GW proteins. The observation that peptides with only one Trp bind to Ago2 in our peptide-scanning approach might underline this notion. A report using deletion mutants in the context of full-length TNRC6A, -B, and -C showed that motif I and motif II provide major Ago-binding sites on TNRC6C. In contrast, deletion of the two motifs in TNRC6A or -B affected Ago binding only marginally (
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ). It might be possible that TNRC6A, -B, and -C use different tryptophans for Ago interaction. On the other hand, mutation of a single Trp (W623) in full-length TNRC6B strongly reduces Ago2 binding (
+    <xref ref-type="fig">
+     None
+    </xref>
+    and ref.
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ). Interestingly, this Trp is highly conserved not only between TNRC6A, -B, and -C but also across species, suggesting that this Trp engages in Ago binding in other GW proteins as well.
+   </p>
+   <p>
+    Our peptide-scanning approach using many different Trp-containing peptides also allowed for the analysis of the impact of flanking residues for Ago binding. It has been proposed that GWG or GW repeats are important. However, our data clearly demonstrate that the contact with Ago proteins is mainly mediated by the Trp. Flanking glycines are not required. In fact, we found that smaller side chains, such as G, S, N, V, D, T, K, E, or A, are allowed as Trp-flanking amino acids. Bulky amino acids such as Y, F, W, or H were not found as flanking amino acids in the peptides that were analyzed. Predicting tryptophans that function as hooks for Ago proteins might, therefore, be more difficult, as anticipated previously.
+   </p>
+   <p>
+    Each of the reported Ago-binding motifs contained multiple GWs, and the exact binding mode on a molecular level has not been unraveled. Another study found three distinct binding sites in TNRC6A, two of which are conserved in TNRC6B. It was further found that the first Trp within an Ago-binding region is required for binding (
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ). Here, we show that only two Trp residues in the region comprising residues 599–683 are important for binding, whereas other Trp residues that are found in close proximity are dispensable. These observations are consistent with the recent Ago2 structure in which two free tryptophans bind into specific pockets on Ago (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ). The most intriguing questions of Ago–GW protein interactions are how specificity is achieved and how the correct tryptophans are selected. Biochemical data and NMR titrations showed that within the region-spanning residues 599–683, Trp623 and Trp634 mediate Ago2 binding, with Trp623 being the most important. Interestingly, NMR titrations indicated that a region flanking Trp623 is also affected upon Ago2 binding. The observed changes in the NMR spectra suggest that this region may contribute additional nonspecific interactions with Ago2. Such interactions may explain the observed selectivity for Trp residues in TNRC6B that we have also seen in our pull-down experiments. Because we could not identify a specific sequence motif that distinguishes an Ago binding Trp from other tryptophans, these additional interactions are likely to be nonspecific. Our structural modeling of the interaction of a GW peptide comprising two Trp residues (
+    <a>
+     Fig. S5
+    </a>
+    ) suggests that a minimum distance between the two Ago-binding tryptophans is 10 residues. This feature might be essential for efficient Ago binding to enable simultaneous contacts from two Trp side chains with the binding pockets on Ago2.
+   </p>
+   <p>
+    Although we identified three regions with affinity to Ago2 by peptide scanning, we observe a strong reduction in Ago2 binding when only one conserved Trp (W623) is mutated in the TNRC6B full-length context. One explanation for this observation could be that the different contact sites are not independent of each other and Ago2–GW protein interaction might be cooperative. Alternatively, there might be regions with high and regions with low affinity to Ago2. The peptide array technology might not be able to distinguish between such affinities. In addition, we also cannot exclude that peptide scanning only partially reflects the situation of wt TNRC6B and in the full-length context contributions of the individual sites might be different.
+   </p>
+   <p>
+    The combination of all data obtained by the peptide arrays and from biophysical and NMR experiments, as well as the cross-links, suggests a model for the binding mechanism of TNRC6B and Ago2 (
+    <xref ref-type="fig">
+     Fig. 8
+    </xref>
+    ). The TNRC6B-599-683 peptide binds with the most N-terminal Trp residue (Trp623) to one Trp-binding pocket on Ago in an initial step. Trp623 has been shown to offer a stronger interaction with Ago2 both in the peptide array and in the NMR titration experiments. Because the Ago2 pocket corresponding to W901 in the recently published crystal structure [Protein Data Bank (PDB) ID code 4EI3] (
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ) is more strongly coordinated than the second pocket (W902) (
+    <a>
+     Fig. S6
+     <em>
+      A
+     </em>
+    </a>
+    ), we suggest Trp623 to bind into the Ago2 pocket W901. Of note, a characteristic pattern matching the conditions in this pocket was observed in STD experiments (
+    <a>
+     Fig. S6
+     <em>
+      B
+     </em>
+    </a>
+    ).
+   </p>
+   <fig id="fig08" position="float">
+    <label>
+     Fig. 8.
+    </label>    <caption>
+     <p>
+      Schematic model of the Ago2–TNRC6B-599-683 binding mechanism. In a first step, TNRC6B-599-683 binds with its first Trp (W623) to one Ago2 Trp-binding pocket. All lysines in the TNRC6B-599-683 sequence remain flexible and can reach Ago2 Lys for cross-linking. In a second step, binding of the second Trp (W634) to the other pocket completes the binding and increases affinity. The two-step mechanism explains all cross-links that were observed (Ago2 Lys are indicated in red and cross-links as dotted lines).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    At this stage, the second Trp [here, W634, corresponding to PDB ID code 4EI3 (W902)] would still be flexible, and, thus, all Lys residues on the Ago2 surface in appropriate distance should be able to cross-link with Lys from TNRC6B. In a last step, the second Trp binds to the other pocket, fixing the peptide in its orientation and resulting in full affinity.
+   </p>
+   <p>
+    This dynamic binding interface involving a large intrinsically disordered GW protein with multiple Trp ligands may help in finding Ago2 proteins by “fly-casting” and, thus, kinetically enhance the complex formation but also allow the disassembly at a later stage.
+   </p>
+   <p>
+    Similar to the GW182 tandem Trp motif, many proteins in posttranscriptional mRNA regulation were found to contain diverse short linear interaction motifs (
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ) (about 6–11 aa) typically located in disordered protein regions that mediate low micromolar affinity interactions to globular domains of other proteins. Thus, the Ago2–GW protein interactions may represent an important example of emerging protein–protein interactions involving intrinsically disordered protein regions with multiple ligand motifs.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and Methods
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Protein Expression and Purification.
+    </title>
+    <p>
+     Plasmids expressing full-length human Ago2 were obtained by insertion of the corresponding cDNA into the pFastBac-HTA vector (Invitrogen). Recombinant baculovirus was prepared essentially as described in the Bac-to-Bac manual (Invitrogen) using Spondoptera frugiperda-21 cells grown in Sf-900 III SFM medium (Invitrogen). A culture containing 500 mL of High Five cells, grown in HyClone SFX medium (ThermoScientific), with a density of 1× 10
+     <sup>
+      6
+     </sup>
+     cells per milliliter was infected with 30 mL of P2 viral stock and cultivated for 72 h at 27.5 °C. The cells were then harvested (1,000 ×
+     <em>
+      g
+     </em>
+     ; 20 min) and frozen in liquid nitrogen.
+    </p>
+    <p>
+     Insect cell pellets of 5 L culture were resuspended in Ni-A [20 mM Hepes/NaOH (pH 7.5), 300 mM NaCl, 10 mM imidazole, 2 mM β-mercaptoethanol] buffer supplemented with one tablet of EDTA-free protease inhibitor mixture (Roche) and 0.4 mM PMSF to a total volume of 300 mL. After sonication (4 × 1 min), the lysate was clarified by centrifugation (39,000 ×
+     <em>
+      g
+     </em>
+     ; 45 min) and applied onto a XK16/20 column (GE Healthcare) filled with 5 mL of Ni-Sepharose (GE Healthcare) following extensive washing and elution in 5 column volumes (cv) of Ni-B [20 mM Hepes/NaOH (pH 7.5), 300 mM NaCl, 250 mM imidazole, 2 mM β-Me]. The eluate was supplemented with 100 µg of tobacco etch virus protease and dialyzed against 2 L SEC buffer (20 mM Hepes/NaOH (pH 7.5), 150 mM NaCl, 1 mM DTT) containing 2 mM EDTA. After incubation, the sample was passed over a 5-mL HisTrap column (GE Healthcare). The unbound flow-through was collected, concentrated, and resolved by size-exclusion chromatography (Superdex 200 10/300 GL; GE Healthcare) in SEC buffer. TNRC6B-599-683 was cloned with a cleavable His-GST tag at the N terminus. Point mutations were introduced using QuikChange mutagenesis (Stratagene). wt and mutant proteins were expressed in BL21 (DE3) Gold pRARE. For NMR spectroscopy, TNRC6B-599-683 was
+     <sup>
+      13
+     </sup>
+     C,
+     <sup>
+      15
+     </sup>
+     N-labeled during protein expression in M9 minimal medium. After isopropyl-beta-D-thiogalactopyranosid induction overnight at 18 °C, cells were harvested (4,400 ×
+     <em>
+      g
+     </em>
+     ; 15 min; 4 °C) and frozen in liquid nitrogen. Typically, 3 L of culture was resuspended in GST-A [20 mM Hepes/NaOH (pH 7.5), 300 mM NaCl, 5 mM DTT] buffer supplemented with one tablet of EDTA-free protease inhibitor mixture and 0.4 mM PMSF to a total volume of 100 mL. After sonication (4 × 4 min), the lysate was clarified by centrifugation (39,000 ×
+     <em>
+      g
+     </em>
+     ; 30 min), loaded onto two 5-mL GSTrap columns (GE Healthcare) connected in series, equilibrated in buffer GST-A, and washed with 20 cv of GST-A. His-GST–tagged protein was eluted in 5 cv of buffer GST-B [20 mM Hepes/NaOH (pH 7.5), 300 mM NaCl, 25 mM glutathione, 1 mM DTT]. Tag cleavage was performed as described above. Proteins were concentrated and loaded onto a size-exclusion chromatography column (Superdex 75 10/300 GL) equilibrated in SEC buffer.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Peptide Array.
+    </title>
+    <p>
+     Custom peptide membranes were obtained from JPT Peptide Technologies. The TNRC6B sequence was synthesized as linear 20-meric peptides overlapping in five residues. Peptides were C-terminally covalently bound to a cellulose-PEG membrane and N-terminally acetylated. Each of the spots carried ∼5 nmol of peptide. The membrane was rinsed with a small volume of methanol, subsequently equilibrated three times with TBS for 5 min, and blocked with TBS containing 1% (wt/vol) milk powder at room temperature (RT). Before incubation with Ago2, the peptides were first tested for unspecific interactions with anti-Ago2 11A9 (
+     <xref ref-type="bibr">
+      32
+     </xref>
+     ) and anti-rat IgG (Jackson ImmunoResearch) antibody later used for detection of bound Ago2. For this, the membrane was incubated in TBS 1% (wt/vol) milk powder supplemented with anti-Ago2 (11A9) for 2 h. Following three washing steps with tris-buffered saline/tween-20, the membrane was subjected to peroxidase-conjugated anti-rat antibody for 1 h. Three washing steps with TBS-T removed unbound antibody. Visualization was achieved using the Pierce ECL substrate (ThermoScientific). The membrane was then either exposed to light-sensitive films (GE Healthcare) or analyzed with the LAS-3000 Mini imaging system (Fujifilm). Bound antibody was removed by incubation with buffer containing SDS and β-Me at 50 °C four times, 30 min each. The membrane was subsequently incubated in 10× PBS (3 × 20 min), followed by a washing step in TBS-T (20 min) and TBS (5 × 10 min). To analyze TNRC6B-Ago2 contacts, the membrane was incubated overnight at 4 °C with 30 µg/mL Ago2 protein in TBS with 1% (wt/vol) milk powder and washed three times in TBS-T for 5 min at RT. Detection of bound Ago2 was achieved as described above. Quantification of signals was carried out with the ImageJ software (
+     <a>
+      http://rsb.info.nih.gov/ij
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     CD Spectroscopy.
+    </title>
+    <p>
+     Secondary structure was analyzed by CD spectroscopy. TNRC6B-599-683 was desalted into CD buffer [10 mM NaP (pH 7.5)] using size-exclusion chromatography (Superdex 75 10/300 GL). The protein concentration was adjusted to a final concentration of 10 µM and CD spectra were recorded in a 0.5 mm cuvette on a JASCO CD spectrometer (260–195 nm; 0.1-nm data pitch; accumulation: 10; bandwidth: 1 nm; 20 °C).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     DLS.
+    </title>
+    <p>
+     DLS was performed using a PDDLS/cool Batch 90T with PD 2000 DLS Plus detector system. After centrifugation (20,000 ×
+     <em>
+      g
+     </em>
+     ; 20 min), samples were either measured as single proteins or as mixed sample (70 µM TNRC6B-599-683 and 3 µM Ago2) in a microcuvette at 20 °C. Ten measurements were recorded and the distribution of the hydrodynamic radius was obtained from the autocorrelation function using the Precision Deconvolve32 Software (Precision Detectors).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Fluorescence Polarization.
+    </title>
+    <p>
+     For fluorescence polarization (FP) measurements, TNRC6B-599-683 was Cys-labeled with Atto488 Maleimid (Atto-Tec) according to the manufacturer’s instructions. Measurements were performed at 20 °C in 70-µL reactions on an Envision Multilabel reader (PerkinElmer). The labeled protein was dissolved to a concentration of 50 nM and incubated with increasing Ago2 concentrations in SEC buffer. The excitation and emission wavelengths were 485 nm and 535 nm, respectively. The dissociation constant was calculated by fitting data with the one-site binding model included in the program origin (OriginLab). The experiment was performed as a duplicate.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Pull-Down Assay.
+    </title>
+    <p>
+     For pull downs from HeLa cell lysate, 3 mL of cell pellet was lysed in 15 mL of lysis buffer [20 mM Hepes/NaOH (pH 7.4), 150 mM KCl, 2 mM EDTA, 1 mM NaF, 0.5% (vol/vol) Nonidet P-40, 5% (vol/vol) glycerol]. GST-tagged protein was bound to 100 µL (50% slurry) of Glutathione Sepharose 4B beads (GE Healthcare) and washed three times with SEC buffer, followed by incubation with cleared whole-cell lysate. Recombinant proteins were mixed to a final concentration of 10 µM Ago2 and 5 µM TNRC6B-599-681 or mutant and incubated with 20 µL (50% slurry) glutathion–resin.
+    </p>
+    <p>
+     After incubation, resins were washed twice with 1 mL of SEC buffer and once with 1 mL of SEC buffer containing 300 mM NaCl. Bound protein was eluted in 50 µL of SEC buffer supplemented with 50 mM GSH; 5% of the input and 30% of the elution fraction were analyzed by SDS/PAGE.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Immunoprecipitations.
+    </title>
+    <p>
+     HEK 293 cells were cultured in DMEM (Gibco) supplemented with 10% FBS (Sigma) and penicillin–streptomycin at 37 °C and 5% CO
+     <sub>
+      2
+     </sub>
+     . For each immunoprecipitation (IP), one 15-cm plate was transfected with 20 μg of plasmid DNA and harvested 48 h posttransfection. Cell lysis was achieved by incubation in IP lysis buffer [25 mM Tris⋅HCl (pH 7.4), 150 mM KCl, 0.5% Nonidet P-40, 2 mM EDTA, 1mM NaF] for 20 min, followed by centrifugation at 15,000 ×
+     <em>
+      g
+     </em>
+     for 20 min at 4 °C. Supernatants were incubated with 15-μL packed volume of Flag M2 agarose beads (Sigma-Aldrich) for 3 h at 4 °C. After washing three times with IP wash buffer [50 mM Tris⋅HCl (pH 7.4), 300 mM KCl, 1 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 0.1% Nonidet P-40] and once with PBS, samples were eluted in 50 μL of 4× Laemmli buffer. Proteins were separated on a 10% SDS/PAGE, wet blotted, and analyzed by Western blot using anti-Ago2 11A9 or anti-HA antibodies.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     NMR Spectroscopy.
+    </title>
+    <p>
+     Before NMR-measurements, 0.02% NaN
+     <sub>
+      3
+     </sub>
+     was added to the sample containing 545 µM TNRC6B-599-683 [20 mM NaP (pH 6.5), 250 mM NaCl, 10% deuterium oxide (D
+     <sub>
+      2
+     </sub>
+     O)]. Measurements for backbone assignments were conducted at 278 K on a Bruker Avance III spectrometer with a magnetic field strength of 800 MHz, equipped with a TXI cryogenic probe head. All datasets were processed using NMRPipe (
+     <xref ref-type="bibr">
+      33
+     </xref>
+     ). Sequential resonance assignment was obtained from 3D HNCA, CBCACONH, and HNCACB experiments, using constant time during
+     <sup>
+      13
+     </sup>
+     C evolution (
+     <xref ref-type="bibr">
+      34
+     </xref>
+     ). Assignments have been found for 86% of all residues (excluding prolines, 73 of 85). Missing assignments for residues other than prolines were Q605, L607, W623, G624, W666, G667, N674, K677, W680, and G681. The three GW pairs could not be assigned unambiguously because of the identical sequence environment (GWG) and the resulting chemical shift degeneracy. However, one of the three nonassigned tryptophans showed a substantial chemical shift and one Gly was decreased in its intensity. Those effects were assigned to Trp623 and Gly624, respectively (marked by an asterisk in
+     <xref ref-type="fig">
+      None
+     </xref>
+     ; also see
+     <a>
+      Fig. S3
+     </a>
+     ).
+    </p>
+    <p>
+     However, further resonance could be assigned ambiguously to the missing tryptophans and glycines. These signals do not shift or attenuate upon Ago2 titration.
+    </p>
+    <p>
+     Secondary structure analysis of the free protein was based on the difference of measured
+     <sup>
+      13
+     </sup>
+     C
+     <sub>
+      α
+     </sub>
+     and
+     <sup>
+      13
+     </sup>
+     C
+     <sub>
+      β
+     </sub>
+     chemical shift to random coil chemical shifts of the same nuclei (
+     <xref ref-type="bibr">
+      35
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      36
+     </xref>
+     ). Resonance assignments of TNRC6B-599-683 peptides used in STD-NMR experiments were obtained using 2D homonuclear total correlation spectroscopy (TOCSY), NOESY, and rotating-frame nuclear Overhauser effect correlation spectroscopy (ROESY) experiments. Measurements for peptide resonance assignments were conducted at 298 K on Bruker Avance III spectrometers with magnetic field strengths of 500 and 800 MHz, equipped with a TXI cryogenic probe head. All assignments were done using CARA (
+     <a>
+      http://cara.nmr.ch
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     STD-NMR of TNRC6B Peptides and Ago2.
+    </title>
+    <p>
+     STD-NMR experiments were performed on TNRC6B peptides and Ago2, ranging in concentrations between 160–625 µM (peptides) and 2–3.5 µM Ago2 [20 mM NaP (pH 6.5), 250 mM NaCl, 10% D
+     <sub>
+      2
+     </sub>
+     O] on a Bruker Avance III 500 MHz spectrometer equipped with a TXI cryogenic probe head at 298 K. Protein was saturated by applying a series of 49-ms Gaussian pulses on the resonance frequency of up-field–shifted Ago2 methyl resonances (−1 ppm), with a total saturation time between 0.25 and 15 s. An STD amplification factor, which resembles the relative binding affinity of protons within a peptide, peptides of similar lengths, and different ligand:protein ratios, is calculated according to ref.
+     <xref ref-type="bibr">
+      37
+     </xref>
+     . In short, intensities of the STD-NMR spectrum are divided by intensities of a reference 1D spectrum (with Gaussian pulses being off-resonance) and multiplied by the ligand excess.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     <sup>
+      15
+     </sup>
+     N Relaxation Measurements of TNRC6 599-683.
+    </title>
+    <p>
+     <sup>
+      15
+     </sup>
+     N relaxation measurements of free TNRC6B-599-681[20 mM NaP (pH 6.5), 250 mM NaCl, 10% D
+     <sub>
+      2
+     </sub>
+     O] were conducted on a Bruker Avance III total correlation spectroscopy 800 MHz NMR spectrometer equipped with a TXI cryogenic probe head at 298 K. R
+     <sub>
+      1
+     </sub>
+     , R
+     <sub>
+      2
+     </sub>
+     , and heteronuclear
+     <sup>
+      1
+     </sup>
+     H,
+     <sup>
+      15
+     </sup>
+     N NOEs were measured with gradient-enhanced, sensitivity-enhanced pulse sequences as described (
+     <xref ref-type="bibr">
+      38
+     </xref>
+     ).
+     <sup>
+      15
+     </sup>
+     N longitudinal relaxation rates (R
+     <sub>
+      1
+     </sub>
+     ) were measured with delays of 22, 43, 86, 173, 260, 346, 518, 691, 994, 1,382, 1,728, 1,944, and 2,160 ms, where delays of 22, 173, 346, 518, and 691 ms were measured in duplicates.
+     <sup>
+      15
+     </sup>
+     N transverse relaxation rates (R
+     <sub>
+      s
+     </sub>
+     ) were measured with delays of 5, 10, 20, 40, 80, 100, 140, 150, 200, 300, 400, and 500 ms, where delays of 5, 80, 100, and 200 ms were measured in duplicates. Peak volumes were calculated by using the software PINT (
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     NMR Binding Studies of TNRC6B-599-683 Ago2.
+    </title>
+    <p>
+     TNRC6B-599-683 and Ago2 binding was monitored by measuring CSPs and line-width broadening.
+     <sup>
+      1
+     </sup>
+     H,
+     <sup>
+      15
+     </sup>
+     N heteronuclear single quantum coherence spectra were acquired of
+     <sup>
+      15
+     </sup>
+     N-labeled TNRC6B-599-683 [20 mM NaP (pH 6.5), 250 mM NaCl,10% D
+     <sub>
+      2
+     </sub>
+     O] with different protein ratios (1:0, 1:0.1, 1:1, TNRC6B599-681:Ago2). Measurements were performed on a Bruker Avance III 800 MHz spectrometer equipped with TXI cryogenic probe head at 298 K. CSPs and peak volumes, as a measure of line width, were analyzed using SPARKY, and atom-specific chemical-shift weighting was performed according to ref.
+     <xref ref-type="bibr">
+      40
+     </xref>
+     .
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Cross-Linking and Mass Spectrometry.
+    </title>
+    <p>
+     The Ago2:TNRC6B-599-683 complex was cross-linked using isotopically coded disuccinimidyl suberate (DSS-H12/D12; Creative Molecules).
+    </p>
+    <p>
+     For the final reaction, 200 µg (1 mg/mL) of a 1:1 complex of Ago2 and TNRC6B-599-683 was mixed with 25 mM DSS stock solution dissolved in dimethylformamide (Pierce Protein Research Products) to a final cross-linker concentration of 0.16 and 0.4 mM, respectively, and incubated for 35 min at 30 °C on a shaker. The reaction was stopped by addition of NH
+     <sub>
+      4
+     </sub>
+     HCO
+     <sub>
+      4
+     </sub>
+     to a concentration of 100 mM (15 min; 30 °C; 1,000 rpm).
+    </p>
+    <p>
+     The cross-linked complex was applied to size-exclusion chromatography (Superdex 200 10/300 GL) in SEC buffer (with a NaCl concentration of 300 mM). Separated peaks of cross-linked protein (from 0.16 mM and 0.4 mM DSS reaction) were pooled and analyzed by SDS/PAGE.
+    </p>
+    <p>
+     After treatment with two sample volumes of 8 M urea, proteins were reduced and alkylated using 5 mM Tris(2-carboxyethyl)phosphine and 10 mM iodoacetamide, respectively. The sample was digested with Lys-C, followed by trypsin after diluting the sample to 1 M urea. Cross-linked peptides were enriched by size-exclusion chromatography and analyzed by MS as described previously (
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ). Fragment ion spectra were assigned to cross-linked peptides using xQuest (
+     <xref ref-type="bibr">
+      42
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supporting Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

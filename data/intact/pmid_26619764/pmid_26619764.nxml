@@ -1,0 +1,783 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4686002
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Crystal structure of the Z-ring associated cell division protein ZapC from Escherichia coli
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Bacterial cell division involves a contractile ring that organises downstream proteins at the division site and which contains the tubulin homologue FtsZ. ZapC has been discovered as a non-essential regulator of FtsZ. It localises to the septal ring and deletion of
+     <em>
+      zapC
+     </em>
+     leads to a mild phenotype, while overexpression inhibits cell division. Interference with cell division is facilitated by an interaction with FtsZ. Here, we present the 2.9 Å crystal structure of ZapC from
+     <em>
+      Escherichia coli
+     </em>
+     . ZapC forms a dimer and comprises two domains that belong to the Royal superfamily of which many members bind methylated arginines or lysines. ZapC contains an N-terminal chromo-like domain and a Tudor-like C-terminal domain. We show by ITC that ZapC binds the C-terminal tail of FtsZ.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Bacterial cell division, FtsZ, Divisome, Z-ring, Tudor domain, Chromo domain
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    1. Introduction
+   </title>
+   <p>
+    Most bacteria and archaea divide using a contractile septal ring that is composed of intracellular or inner, cytosolic proteins, including the bacterial tubulin homologue FtsZ, and also middle, transmembrane proteins and outer, periplasmic proteins
+    <xref ref-type="bibr">
+     [1]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [2]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [3]
+    </xref>
+    . Together, the putative protein complexes involved in this process have been termed the divisome
+    <xref ref-type="bibr">
+     [4]
+    </xref>
+    . The inner divisome proteins organise into a ring structure, the Z-ring that is used as a platform to recruit the downstream components of the system including the transmembrane and periplasmic proteins
+    <xref ref-type="bibr">
+     [5]
+    </xref>
+    . Several divisome components are essential for septation and their inactivity or absence prevents division, causing growth as filamentous cells
+    <xref ref-type="bibr">
+     [6]
+    </xref>
+    .
+   </p>
+   <p>
+    In
+    <em>
+     Escherichia coli
+    </em>
+    , the inner proto-ring proteins
+    <xref ref-type="bibr">
+     [7]
+    </xref>
+    , FtsZ, FtsA and ZipA, are essential. Transmembrane or middle divisome proteins facilitate communication between the inside of the cell and the periplasm, where the cell wall is synthesised and in
+    <em>
+     E. coli
+    </em>
+    include the essential components FtsB, FtsI, FtsL, FtsK, FtsN, FtsQ and FtsW
+    <xref ref-type="bibr">
+     [8]
+    </xref>
+    . Together, inner and middle divisome components interact with outer periplasmic proteins that facilitate or organise the remodelling of the cell wall and outer envelope, for example PBPs (penicillin binding proteins), amidases and autolysins
+    <xref ref-type="bibr">
+     [9]
+    </xref>
+    . Remodelling of the cell wall, inner membrane constriction and Z-ring constriction normally occur concurrently and it is not known what the force generators for constriction are and if there is more than one, how they are synchronised.
+   </p>
+   <p>
+    Apart from essential components, the number of non-essential divisome components being discovered is increasing, including new elements in the inner proto-ring
+    <xref ref-type="bibr">
+     [10]
+    </xref>
+    . Several proteins have been discovered that localise to the site of constriction and show weak division-defective phenotypes on their own and stronger phenotypes when combined, possibly indicating a role in making the process more robust or efficient
+    <xref ref-type="bibr">
+     [11]
+    </xref>
+    . Such proteins include the Zap proteins (Z-ring Associated Proteins), ZapA
+    <xref ref-type="bibr">
+     [12]
+    </xref>
+    , ZapB
+    <xref ref-type="bibr">
+     [13]
+    </xref>
+    , ZapC
+    <xref ref-type="bibr">
+     [14]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    and ZapD
+    <xref ref-type="bibr">
+     [16]
+    </xref>
+    . These proteins do not have much in common and, apart from ZapA and ZapB, do not seem to function together. ZapA, ZapC and ZapD bind to FtsZ directly and affect FtsZ polymerisation and bundling in vitro
+    <xref ref-type="bibr">
+     [12]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [14]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [16]
+    </xref>
+    .
+   </p>
+   <p>
+    ZapC was discovered using Z-ring fluorescence localisation screens
+    <xref ref-type="bibr">
+     [8]
+    </xref>
+    and through transposon screens in the absence of a functional Min system
+    <xref ref-type="bibr">
+     [9]
+    </xref>
+    . ZapC has no clear homologues of known function, it is 180 residues long in
+    <em>
+     E. coli
+    </em>
+    and is found across gammaproteobacterial species
+    <xref ref-type="bibr">
+     [14]
+    </xref>
+    . When deleted, ZapC causes a mild division-defective phenotype, but when overexpressed, ZapC causes a severe cell division defect leading to filamentous growth
+    <xref ref-type="bibr">
+     [14]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    . ZapC interacts with FtsZ and its intracellular localisation is only dependent on FtsZ and none of the other downstream divisome components
+    <xref ref-type="bibr">
+     [14]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    . Mixing of ZapC with FtsZ leads to increased FtsZ filament bundling when observed by negative-stain electron microscopy and light scattering. A ZapC mutant L22P has been described that abrogates the FtsZ interaction in vitro, as well as the cell division phenotypes upon deletion and overexpression
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    . Recently, ZapC has been shown to interact with the body of FtsZ, not the C-terminal tail, leading to nanomolar affinity between the two proteins as measured by fluorescence-based bulk pelleting assays, pulling labelled ZapC into FtsZ polymers by centrifugation
+    <xref ref-type="bibr">
+     [17]
+    </xref>
+    . It has been suggested that ZapC is a monomer based on calibrated size exclusion chromatography
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    .
+   </p>
+   <p>
+    In this work we present the 2.9 Å crystal structure of ZapC from
+    <em>
+     E. coli
+    </em>
+    , showing that it is composed of two distinct domains belonging to the chromo and Tudor domain families. We find that ZapC is a weak dimer and also shows moderate affinity for a peptide derived from the C-terminal tail of FtsZ.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    2. Materials and methods
+   </title>
+   <sec>
+    <title>
+     2.1. Cloning, protein expression and purification
+    </title>
+    <p>
+     The
+     <em>
+      E. coli
+     </em>
+     K12
+     <em>
+      zapC
+     </em>
+     gene (GenBank:
+     <a>
+     </a>
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"AAC74032.2","term_id":"87081807","term_text":"AAC74032.2"}}
+      </span>
+      AAC74032.2
+     </a>
+     , coding for UniProt protein sequence
+     <a>
+      <span>
+       {"type":"entrez-protein","attrs":{"text":"P75862.2","term_id":"9988067","term_text":"P75862.2"}}
+      </span>
+      P75862.2
+     </a>
+     ) was amplified using PCR from genomic DNA, cloned into the NdeI/BamHI sites of plasmid pHis17 (Bruno Miroux, personal communication; small, pET derived plasmid with T7 promoter) and was expressed as a C-terminal His
+     <sub>
+      6
+     </sub>
+     -fusion in
+     <em>
+      E. coli
+     </em>
+     C41(DE3) cells (Lucigen). According to established feed-back inhibition protocols
+     <xref ref-type="bibr">
+      [18]
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      [19]
+     </xref>
+     , selenomethionine-substituted (SeMet) ZapC cultures were grown to early log phase (OD
+     <sub>
+      600
+     </sub>
+     = 0.6) at 37 °C in M9 minimal medium, supplemented with 0.4% (w/v) glucose, 2 mM MgSO
+     <sub>
+      4
+     </sub>
+     . 100 mg/L of
+     <span>
+      dl
+     </span>
+     -selenomethionine (Generon), 100 mg/L of lysine, threonine, phenylalanine and 50 mg/L of leucine, isoleucine and valine were added as solids at the same time. Fifteen minutes later, protein expression was induced with 0.5 mM isopropyl-β-
+     <span>
+      d
+     </span>
+     -thiogalactopyranoside (IPTG) and cells were further grown overnight at 20 °C. Cells were harvested by centrifugation at 4000 rpm for 15 min. The pellet was re-suspended in 50 mM CHES, 300 mM NaCl, 15% glycerol (v/v), 2 mM DTT, pH 9.0. Cell lysis was carried out at 25 kPSI using a cell disruptor system (Constant Systems, Daventry, UK) and the lysate was clarified by centrifugation at 30 000 rpm for 30 min at 4 °C. The supernatant was passed over a 5 mL HisTrap HP column (GE Healthcare). The column was equilibrated with 25 mM CHES, 300 mM NaCl, 10% glycerol (v/v), 1 mM DTT, pH 9.0. ZapC was eluted with 100–300 mM imidazole in the same buffer. Peak fractions were concentrated with centrifugal concentrators (Vivaspin, Sartorius) and loaded onto a HiLoad Sephacryl S200 16/60 column (GE Healthcare) equilibrated in 20 mM CHES, 250 mM NaCl, 10% glycerol, 5 mM DTT, pH 9.0. Purified ZapC was concentrated as before to 5 mg/mL for immediate use without freezing.
+    </p>
+    <p>
+     Untagged
+     <em>
+      E. coli
+     </em>
+     full-length ZapC protein was cloned the same way with a stop codon in place of the histine tag and overproduced from 12 L C41(DE3) bacterial culture grown at 37 °C to an optical density OD
+     <sub>
+      600
+     </sub>
+     of 0.5, at which point expression of ZapC was induced with 1 mM IPTG for 3 h at 37 °C. Cells were centrifuged and pellets were resuspended in buffer A (50 mM Tris–HCl, 50 mM KCl, 10% glycerol, pH 8.0), supplemented with DNAse I (Sigma) and protease inhibitor tablets (Roche, Germany). Cell lysate was passed through a Constant Systems cell disruptor at 25 kPSI and the lysate was centrifuged for 30 min at 40 000 rpm in a Beckman Ti 45 rotor at 4 °C. The supernatant was loaded onto a 5 mL HiTrap Q HP column (GE Healthcare), previously equilibrated with Buffer A. The column was washed and ZapC was eluted in a gradient to 1 M KCl in buffer A. ZapC eluted at around 300 mM KCl. Peak fractions were pooled and concentrated to be loaded onto a HiPrep 16/60 Sephacryl S200 column (GE Healthcare) equilibrated in 50 mM Tris–HCl, 250 mM KCl, 1 mM EDTA, 10% glycerol, pH 7.5. The pooled fractions were concentrated to 3 mg/mL, aliquoted and stored frozen at −80 °C.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.2. Crystallisation
+    </title>
+    <p>
+     Crystallisation conditions were found using our in house high-throughput crystallisation platform
+     <xref ref-type="bibr">
+      [20]
+     </xref>
+     , mixing 100 nL SeMet ZapC solution at 5 mg/mL with 100 nL of 1920 different crystallisation reagents in MRC vapour diffusion sitting drop crystallisation plates. For data collection, SeMet-substituted ZapC crystals were grown at 19 °C by using the following final crystallisation solution: 0.58 M ammonium tartrate, 0.01 M sodium acetate, pH 4.6, and this was mixed again 1:1 with protein solution. Crystals were flash frozen for data collection after adding 20% (v/v) glycerol as a cryo-protectant.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.3. Structure determination
+    </title>
+    <p>
+     Since crystals were thin, long needles we used DLS’s (Diamond Light Source, Harwell, UK) micro focus beamline I24 for data collection. Using un-attenuated beam and 100 ms exposure time, good diffraction to better than 3.0 Å at the selenium edge could be achieved but crystals were damaged rapidly under those conditions. We therefore adopted a data collection strategy by which 16 wedges from 3 independent crystals were collected, translating the beam along the crystals for the wedges that came from the same crystals. In this way, a complete and highly redundant dataset to 2.9 Å with very good anomalous signal was obtained (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Selenium sites were found with SHELXCD
+     <xref ref-type="bibr">
+      [21]
+     </xref>
+     and initial maps were obtained by PHASER in SAD mode
+     <xref ref-type="bibr">
+      [22]
+     </xref>
+     . It was immediately recognised that the electron density maps contain a local twofold axis and the axis was localised using PHENIX.FIND_NCS
+     <xref ref-type="bibr">
+      [23]
+     </xref>
+     . Adding the NCS symmetry to solvent flattening after PHASER produced a good map that BUCCANEER
+     <xref ref-type="bibr">
+      [24]
+     </xref>
+     could build into. BUCCANEER was forced to recognise the local twofold axis by re-arranging chains manually and finally REFMAC
+     <xref ref-type="bibr">
+      [25]
+     </xref>
+     and manual model building/correcting in MAIN 2014
+     <xref ref-type="bibr">
+      [26]
+     </xref>
+     were employed to produce a fully refined model of the
+     <em>
+      E. coli
+     </em>
+     ZapC dimer. Data collection and refinement statistics are listed in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . The experimental structure factors and refined coordinates have been deposited in the Protein Data Bank (PDB) with accession code 5fo3.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Crystallographic data.
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2.4. Isothermal titration calorimetry
+    </title>
+    <p>
+     Isothermal titration calorimetry (ITC) experiments were carried out using a MicroCal iTC200 instrument (Malvern Instruments, Malvern, UK) at 20 °C. Titrations consisted of 19 consecutive 2 μL injections of protein ligand (following a pre-injection of 0.5 μL) into the buffer or protein sample in the cell at 120 s intervals. Un-tagged ZapC was used for ITC. Experiments consisted of injecting 2 mM FtsZ peptide into ZapC (100 μM) in 50 mM Tris–HCl, 150 mM KCl, 1 mM EDTA, 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     , pH 7.4. The resulting integrated heats were corrected for the heat of dilution, then fitted to a one-site binding model and binding constants calculated using the Origin software (OriginLab, MA).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.5. Analytical ultracentrifugation
+    </title>
+    <sec>
+     <p>
+      Proteins samples (full-length, un-tagged) at concentrations of 1–3 mg/mL in 50 mM Tris–HCl, 250 mM KCl, 1 mM EDTA, 10% (v/v) glycerol, pH 7.5) were centrifuged at 50 000 rpm at 20 °C using 12 mm double sector cells in an An60Ti rotor, while monitoring interference in a Beckman Optima XL-I analytical ultracentrifuge. The sedimentation coefficient distribution function, c(s), was analysed using the SEDFIT program, version 13.0
+      <xref ref-type="bibr">
+       [27]
+      </xref>
+      with a frictional ratio (
+      <em>
+       f
+      </em>
+      /
+      <em>
+       f
+       <sub>
+        o
+       </sub>
+      </em>
+      ) of 1.20–1.23. The partial-specific volume (v-bar), solvent density and viscosity were calculated using SEDNTERP
+      <xref ref-type="bibr">
+       [28]
+      </xref>
+      . The calculated v-bar was corrected for the effect of the presence of glycerol using the below formula, derived from the data of Gekko and Timasheff
+      <xref ref-type="bibr">
+       [29]
+      </xref>
+      . Data were plotted using GUSSI (biophysics.swmed.edu/MBR/software.html).
+     </p>
+     <sec>
+      <sec>
+       <span>
+        <math>
+         <mfrac>
+          <mrow>
+           <mi>
+            Δ
+           </mi>
+           <mtext>
+            vbar
+           </mtext>
+          </mrow>
+          <mrow>
+           <mi>
+            Δ
+           </mi>
+           <mo>
+            %
+           </mo>
+           <mspace>
+           </mspace>
+           <mtext>
+            vol glycerol
+           </mtext>
+          </mrow>
+         </mfrac>
+         <mo>
+          =
+         </mo>
+         <mn>
+          3.33
+         </mn>
+         <mo>
+          ×
+         </mo>
+         <msup>
+          <mrow>
+           <mn>
+            10
+           </mn>
+          </mrow>
+          <mrow>
+           <mo>
+            -
+           </mo>
+           <mn>
+            4
+           </mn>
+          </mrow>
+         </msup>
+        </math>
+       </span>
+       <sec>
+        <span>
+        </span>
+       </sec>
+       <script>
+        <math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="block" id="M1" altimg="si1.gif" overflow="scroll"><mfrac><mrow><mi mathvariant="normal">Δ</mi><mtext>vbar</mtext></mrow><mrow><mi mathvariant="normal">Δ</mi><mo>%</mo><mspace width="0.35em"></mspace><mtext>vol glycerol</mtext></mrow></mfrac><mo>=</mo><mn>3.33</mn><mo>×</mo><msup><mrow><mn>10</mn></mrow><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>
+       </script>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    3. Results and discussion
+   </title>
+   <p>
+    We cloned and expressed
+    <em>
+     zapC
+    </em>
+    from
+    <em>
+     E. coli
+    </em>
+    in
+    <em>
+     E. coli
+    </em>
+    , adding a histidine tag at the C-terminus for crystallography, only since many purifications had to be performed. After purification (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    A) we routinely produced around 5 mg ZapC protein from 12 L of culture for both the SeMet and native ZapC proteins. ZapC proved to be difficult to handle in most buffers but we found it to be manageable in a buffer at high pH (Section 2). Crystallisation trials yielded needle-shaped crystals (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    B) that diffracted well enough but were difficult to grow bigger. Structure determination from seleno-methionine substituted crystals by SeMet SAD hence utilised a microfocus beamline (I24, Diamond Light Source, Harwell, UK), using three needle-shaped crystals and 16 wedges collected from different spots along the crystals. This yielded a highly redundant dataset suitable for phasing. Phasing, automated and manual model building, and refinement produced an atomic model of very good quality, resolving residues 1–168 of ZapC, with two molecules in the asymmetric unit, at 2.9 Å resolution (
+    <a>
+     <span>
+      Table 1
+     </span>
+    </a>
+    ).
+   </p>
+   <fig id="f0005" position="float">
+    <label>
+     Fig. 1
+    </label>    <caption>
+     <p>
+      (A) Coomassie-stained SDS–PAGE gel showing fractions after size exclusion chromatography of
+      <em>
+       E. coli
+      </em>
+      SeMet ZapC. The first two fractions correspond to the void volume of the column used (see Section 2). (B) Typical crystals of
+      <em>
+       E. coli
+      </em>
+      SeMet ZapC after optimisation as used in this study. The needles were typically less than 20 μm in diameter, leading to weak diffraction and strong decay in the X-ray beam during data collection. Several wedges were collected from three crystals while translating along the long axis of the crystals and merged for structure determination. (C) Ribbon plot (PyMOL, Schrödinger) outlining the crystal structure of ZapC at 2.9 Å resolution. The structure is shown in rainbow colours from the N-terminus in blue to the C-terminus in red. Amino acid L22 is indicated by spheres
+      <xref ref-type="bibr">
+       [9]
+      </xref>
+      . (D) ZapC contains two fairly separate domains that are connected via a long linker, shown in yellow. The N-terminal domain is shown in light blue, the C-terminal domain in grey. (E) The C-terminal domain of ZapC is related to Tudor domains. Many such related domains come up in database structural similarity searches (DALI). A superposition between PDB
+      <a>
+       4BD3
+      </a>
+      (PHD finger protein 19, red, RMSD 1.5 Å over 51 Cα)
+      <xref ref-type="bibr">
+       [24]
+      </xref>
+      and ZapC’s C-terminal Tudor domain is shown. (F) Tudor domains are known to preferentially bind to peptides containing methylated arginines and lysines. The superposition in E is repeated here with the methylated (K36me3) histone tail peptide ligand shown in cyan. It is clear that the same binding pocket in ZapC is occluded by a small beta-hairpin comprising residues 141–154. (G) The N-terminal domain of ZapC is distantly related to chromo domains. Again, many such domains come up in database searches (PDBe FOLD). A superposition between PDB
+      <a>
+       4MN3
+      </a>
+      (CBX7, chromobox homologue 7, light blue, RMSD 3.3 Å over 42 Cα)
+      <xref ref-type="bibr">
+       [28]
+      </xref>
+      and ZapC’s chromo domain is shown. (H) Stereo plot showing both superpositions (from panels E, F; and G) with their lysine-methylated peptide ligands, only (yellow: chromo domain, cyan: Tudor domain). As for the Tudor domain, the canonical peptide pocket in ZapC’s chromo domain is probably occluded by a different orientation of the first strand and a small helical segment between residues 44 and 50.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    The structure of the ZapC monomer (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    C) shows it to be composed of alpha helices and two small beta sheets. The protein contains two separate domains that are linked by a long, extended and irregular linker reaching almost all the way around the molecule (residues 88–109). This is presumably because the folds of the two domains place their C- and N-termini at opposite ends of the molecule (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    D, linker in yellow).
+   </p>
+   <p>
+    Overproduction of ZapC shows strong inhibition of cell division in
+    <em>
+     E. coli
+    </em>
+    and it was previously shown that a mutation, (L22P), abolishes this effect
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    . Using mutant protein carrying the same mutation also had a negative effect in a number of in vitro interaction assays with FtsZ. The position of this mutant in the middle of the second beta strand of the small beta sheet of the N-terminal domain is shown in
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    C. Given that L22 was mutated to proline, we think it is very likely that this change disrupts folding in this region of the protein as prolines do not support regular beta sheet formation and the side chain of L22 points into the hydrophobic core of the N-terminal domain. It might also modulate dimer formation as mentioned later.
+   </p>
+   <p>
+    The crystal structure shows that the C-terminal domain of ZapC is related to Tudor domains. For example, ZapC can be superimposed on subunit Phf19 of the polycomb repressive complex 2 (PRC2, PDB
+    <a>
+     4BD3
+    </a>
+    )
+    <xref ref-type="bibr">
+     [30]
+    </xref>
+    with an RMSD of 1.5 Å over 51 Cα atoms (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    E). In fact, all top DALI
+    <xref ref-type="bibr">
+     [31]
+    </xref>
+    structural similarity search hits were Tudor domains, indicating a high significance of this finding. Although the fit is good, ZapC contains an extra beta hairpin (residues 141–154) that is not normally present in Tudor domains
+    <xref ref-type="bibr">
+     [32]
+    </xref>
+    (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    F).
+   </p>
+   <p>
+    The N-terminal domain is distantly related to chromo domains as was found when comparing ZapC to all entries in the Protein Data Bank (PDB) with PDBe Fold (SSM)
+    <xref ref-type="bibr">
+     [33]
+    </xref>
+    . For example, the N-terminal domain of ZapC can be superimposed on chromobox homolog 7 (CBX7, PDB
+    <a>
+     4MN3
+    </a>
+    )
+    <xref ref-type="bibr">
+     [34]
+    </xref>
+    with an RMSD of 3.3 Å over 42 Cα atoms (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    G). The fit is not as good as for the C-terminal domain and Tudor domains, and the angles of all secondary structural elements are slightly different between chromo domains and ZapC-N. When compared to canonical chromo domains, an extra helical loop and helix are found in the ZapC N-terminal domain (residues 32–71). The last helix of the ZapC chromo domain (residues 72–87) is longer than in canonical chromo domains and is connected
+    <em>
+     via
+    </em>
+    the long linker (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    C) to the N-terminus of ZapC’s Tudor domain.
+   </p>
+   <p>
+    Tudor domains and chromo domains belong to the so-called Royal superfamily that comprises Tudor, chromo, MBT, PWWP and Agenet domains
+    <xref ref-type="bibr">
+     [32]
+    </xref>
+    . Interestingly, these domains often bind methylated lysines and arginines and they are probably best known for their sensing of methylated histone tails in eukaryotes. This means that ZapC contains two distantly related domains that are part of a superfamily of domains known for their ability to sense arginine- and lysine-methylated peptides.
+   </p>
+   <p>
+    We investigated the structure of the putative canonical peptide binding sites in both the N-terminal chromo domain and C-terminal Tudor domain. In both cases, the binding sites seem to be occluded. In the Tudor domain of ZapC, the extra beta hairpin (residues 141–154) covers the very hydrophobic pocket that in canonical Tudor domains binds the methylated lysine-containing peptide (K36me3,
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    F, cyan peptide). In the N-terminal chromo domain of ZapC, the binding site is not quite as occluded but the hydrophobic pocket is not very accessible either (
+    <xref ref-type="fig">
+     Fig.1
+    </xref>
+    H, yellow peptide containing K27me3). In both cases, however, it seems plausible that the domains could eventually undergo conformational changes allowing access to the hydrophobic pockets that are required for methylated arginine and lysine binding.
+   </p>
+   <p>
+    It appears striking to us that a bacterial cell division protein contains two domains of the Royal superfamily. Could ZapC be involved in binding methylated regions of FtsZ? Previously, it has been suggested that methylation might be required for progression of cell division as determined by the consequences of reducing methylation co-factor availability
+    <xref ref-type="bibr">
+     [35]
+    </xref>
+    . The highly conserved C-terminal tail of FtsZ could be a possible site for such post-translation modification as it is spaced away from the folded body of the protein by a long flexible linker and contains a highly conserved arginine, R379 (
+    <em>
+     E. coli
+    </em>
+    numbering,
+    <xref ref-type="fig">
+     Fig.2
+    </xref>
+    A). It is very tempting to speculate that binding of the large number of FtsZ-interacting proteins to this tail might be regulated by post-translational modification as otherwise it is difficult to explain how so many different proteins may work in concert while binding to exactly the same FtsZ motif. However this hypothesis has two distinct problems: (i) we are not aware of any methylation reported for FtsZ from any bacterium; and (ii) it has recently been reported that ZapC binds to the body of FtsZ, not the C-terminal peptide
+    <xref ref-type="bibr">
+     [17]
+    </xref>
+    . However, this study used mostly pelleting conditions and fluorescence changes as readout, both of which are indirect and prone to problems because the assays involve sedimentation. To investigate this conflicting evidence, we probed the direct interaction of a peptide derived from the C-terminal tail of FtsZ with ZapC by ITC (isothermal titration calorimetry) and obtained a
+    <em>
+     K
+     <sub>
+      D
+     </sub>
+    </em>
+    of 32 μM, as expected for binding of a short, flexible peptide (
+    <xref ref-type="fig">
+     Fig.2
+    </xref>
+    A and B). This does not disprove the existence of other ZapC binding surfaces on the body of FtsZ that could lead to the reported nanomolar affinities
+    <xref ref-type="bibr">
+     [17]
+    </xref>
+    . Clearly, these matters require further investigation in the future.
+   </p>
+   <fig id="f0010" position="float">
+    <label>
+     Fig. 2
+    </label>    <caption>
+     <p>
+      (A) Multiple sequence alignment (Clustal Omega,
+      <a>
+       www.clustal.org
+      </a>
+      ) showing conservation within the C-terminal tails of various FtsZ proteins. A maximum of ten sequences were collected from each BLAST search with FtsZ sequences from
+      <em>
+       E. coli
+      </em>
+      ,
+      <em>
+       B. subtilis
+      </em>
+      ,
+      <em>
+       C. crescentus
+      </em>
+      and
+      <em>
+       P. aeruginosa
+      </em>
+      (Ec, Bs, Cc, PaFtsZ) sampled evenly up to the point where percentage of sequence cover and identify dropped below 95% and 40%, respectively. Totally conserved arginine residue 379 is highlighted; numbering corresponds to EcFtsZ. (B) Binding of FtsZ peptide to ZapC. Raw heats measured during injections of FtsZ peptide into ZapC by ITC (top) were integrated and fitted to a single-site binding model (bottom) yielding a stoichiometry of 1.0 with an enthalpy of −2.1 kcal/mol and
+      <em>
+       K
+       <sub>
+        D
+       </sub>
+      </em>
+      of 32 ± 6 μM. (C) ZapC dimer as suggested by crystal packing and PISA (PDBe PISA;
+      <a>
+       www.ebi.ac.uk/pdbe/pisa
+      </a>
+      )
+      <xref ref-type="bibr">
+       [30]
+      </xref>
+      . The strands of the N-terminal chromo domain come together to form an eight-stranded sheet. (D) Left: analysis of the oligomeric state of ZapC from sedimentation velocity analytical ultracentrifugation. Interference scans (symbols) and best-fit c(s) model at different points in time indicated by colour temperature with residuals to the fit below. Right: c(s) sedimentation coefficient distribution showing peaks for monomer, dimer and higher oligomer.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    The structure of the ZapC crystals described here contains two monomers per asymmetric unit. Although there are two other contacts in the lattice, the one shown in
+    <xref ref-type="fig">
+     Fig.2
+    </xref>
+    C clearly has the largest interface, buries a number of hydrophobic side chains and completes the otherwise open beta sheet of the N-terminal chromo domain forming an eight-stranded beta sheet across the two monomers. It is therefore expected that the previously reported mutation L22P would have an effect on dimerisation, as it was reported to increase the amount of multimers found after size exclusion chromatography. This particular dimer was also selected computationally by PISA (PDBe PISA,
+    <a>
+     http://www.ebi.ac.uk/pdbe/pisa
+    </a>
+    )
+    <xref ref-type="bibr">
+     [36]
+    </xref>
+    as the most likely assembly. The dimer interface buries a contact area of approximately 1500 Å
+    <sup>
+     2
+    </sup>
+    (out of 8900 Å
+    <sup>
+     2
+    </sup>
+    of each monomer). In order to clarify the oligomeric state of the protein in solution, we performed analytical ultracentrifugation (
+    <xref ref-type="fig">
+     Fig.2
+    </xref>
+    D), finding that ZapC runs as three species. The two major species corresponded very well with theoretical values for ZapC monomers and dimers. There is a minor species of higher S value but this varies between different concentrations corresponding to masses between a trimer and tetramer. This may be due to ZapC aggregation, which we observed during analytical ultracentrifugation in the absence of glycerol (not shown). The concentrations of monomeric and dimeric species can be calculated by integrating the baseline-separated distributions, giving an estimate for the dissociation constant of approximately 30 μM for the monomer–dimer equilibrium. If one FtsZ tail binds one ZapC monomer, as indicated here by ITC (
+    <xref ref-type="fig">
+     Fig.2
+    </xref>
+    B), it is expected that a dimer of ZapC would have the ability to crosslink and bundle FtsZ filaments, as has been reported
+    <xref ref-type="bibr">
+     [14]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [15]
+    </xref>
+    . Beyond this, we can only speculate what the role of dimerisation is in the context of ZapC’s interaction with FtsZ and in the wider context of bacterial cell division but it is intriguing that a number of FtsZ-interacting proteins are dimers, including ZipA
+    <xref ref-type="bibr">
+     [37]
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     [38]
+    </xref>
+    , SulA
+    <xref ref-type="bibr">
+     [39]
+    </xref>
+    , MinC
+    <xref ref-type="bibr">
+     [40]
+    </xref>
+    , ZapA
+    <xref ref-type="bibr">
+     [41]
+    </xref>
+    , SlmA
+    <xref ref-type="bibr">
+     [42]
+    </xref>
+    and EzrA
+    <xref ref-type="bibr">
+     [43]
+    </xref>
+    and most of these also bind to the C-terminal tail of FtsZ.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Acknowledgements
+   </title>
+   <sec>
+    <p>
+     We would like to acknowledge excellent support at beamline I24, Diamond Light Source, Harwell, UK. The work at MRC-LMB was funded by the Medical Research Council (MC_U105184326) and the Wellcome Trust (095514/Z/11/Z). Work at CNB-CSIC was funded by BIO2011-28941-C03-01 (SYNVISION) from the Spanish Ministerio de Ciencia e Innovación. CO acknowledges a fellowship from the Ministerio de Ciencia e Innovación, Spain.
+    </p>
+   </sec>
+  </sec>
+ </body>
+</article>

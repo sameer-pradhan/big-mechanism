@@ -1,0 +1,1175 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4252766
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural insights into recognition of acetylated histone ligands by the BRPF1 bromodomain
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     BRPF1 is part of the MOZ HAT complex and contains a unique combination of domains typically found in chromatin-associated factors, which include PHD fingers, a bromodomain and a PWWP domain. Bromodomains are conserved structural motifs generally known to recognize acetylated histones, and the BRPF1 bromodomain preferentially selects for H2AK5ac, H4K12ac and H3K14ac. We solved the X-ray crystal structures of the BRPF1 bromodomain in complex with the H2AK5ac and H4K12ac histone peptides. Site-directed mutagenesis on residues in the BRPF1 bromodomain-binding pocket was carried out to investigate the contribution of specific amino acids on ligand binding. Our results provide critical insights into the molecular mechanism of ligand binding by the BRPF1 bromodomain, and reveal that ordered water molecules are an essential component driving ligand recognition.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     Epigenetics, bromodomain-PHD finger protein 1, X-ray crystallography, site-directed mutagenesis, isothermal titration calorimetry, circular dichroism
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    In eukaryotic cells, in order to facilitate proper gene regulation and nuclear organization, most of the genome is packaged into a polymeric structure consisting of repetitive units of nucleosomes [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. Each nucleosome consists of approximately 146 base pairs of super-helical nuclear DNA folded around an octameric structure of four core histone proteins: two H2A/H2B dimers and an H3/H4 tetramer [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ]. These histone proteins contain an N-terminal tail region and a C-terminal globular domain. The N-terminal histone tails are presumably flexible and protrude from the nucleosome core [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ]. These tail regions are also rich in lysine and, to a lesser extent, arginine and serine [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ], and are targets of numerous post-translational modifications (PTMs) such as acetylation, methylation, phosphorylation, and ubiquitination, among others [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ]. An emerging model suggests that the collective combination of these covalent PTMs regulate gene expression and has been termed the “histone code” [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     4
+    </xref>
+    –
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ].
+   </p>
+   <p>
+    Modulators of the “histone code” can be separated into three groups which include the “writers”, “erasers”, and “readers” of histone PTMs [
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ]. The “writers” and “erasers’ are enzymes such as histone acetyltransferases (HATs), and histone deacetylases (HDACs), respectively, that can modify chromatin by adding or removing different PTMs. The epigenetic “readers” are proteins that do not alter the histones, but rather discriminatively detect PTMs located at specific positions on each histone. The regulation of chromatin dynamics by these modulators dictates the outcome of numerous nuclear processes including transcription, DNA repair, recombination, and replication [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    –
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ]. These processes are central to cell homeostasis, as alterations in chromatin structure contribute to the development of cancer and other human diseases [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ].
+   </p>
+   <p>
+    In humans, the t(8;16)(p11;p13) translocation of the MOZ (monocytic leukemia zinc-finger protein, also known as KAT6A or MYST3) HAT is associated with a subtype of acute myeloid leukemia (AML) with a particularly poor outcome [
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ]. In this abnormality, the N-terminal region of MOZ is fused to the C-terminal part of the transcription co-activator CREB binding protein (CBP) [
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ]. MOZ has also been found translocated to the CBP homolog p300 [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ], to the transcriptional intermediary binding factor 2 (TIF2) [
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ], and to the nuclear receptor co-activator 3 (NcoA3) transcription factor [
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ]. MOZ functions as a multi-subunit HAT complex and acetylates free histones H3, H4, H2A and H2B
+    <em>
+     in vitro
+    </em>
+    [
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ]. Acetylation of histones located near gene promoters is associated with up-regulation of gene transcription, and the acetylation activity of MOZ has been shown to control expression of homeobox (HOX) genes [
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ]. The MOZ HAT also plays a direct role in hematopoiesis and is essential for the development and maintenance of hematopoietic stem cells (HSCs) [
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ].
+   </p>
+   <p>
+    MOZ forms a tetrameric complex with the ING5 (inhibitor of growth 5), hEAF6 (homolog of Esa1-associated factor 6), and the bromodomain-PHD finger proteins (BRPF1, -2, or -3) (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    ) [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ]. BRPF proteins have been shown to bridge the association of MOZ with ING5 and hEAF6, thereby promoting its acetyltransferase activity [
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ]. Deletion mapping studies also revealed that the acetyltransferase domain of MOZ is sufficient for BRPF1 interaction [
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ]. BRPF proteins therefore play a key role in assembling and activating MOZ HAT complexes. BRPF1 contains a unique combination of domains typically found in chromatin-associated factors, including a double plant homeodomain (PHD) and zinc finger (ZnF) assembly (PZP), a bromodomain, and a chromo/Tudor-related Pro-Trp-Trp-Pro (PWWP) domain (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). PHD fingers are a conserved C
+    <sub>
+     3
+    </sub>
+    HC
+    <sub>
+     4
+    </sub>
+    zinc finger motif commonly found in nuclear proteins that regulate transcription and chromatin remodeling [
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ]. The first PHD finger (PHD1) of BRPF2 has been shown to recognize the unmodified histone H3 tail, while the second PHD finger (PHD2) interacts non-specifically with DNA [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ]. The PWWP domain is necessary for the association of BRPF1 with condensed chromatin and is able to recognize H3K36me3 [
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ]. These domains within BRPF1, in concert with additional chromatin reader domains located in other subunits of the complex, help recruit MOZ to distinct sites of active chromatin [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ].
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      The BRPF1 bromodomain recognizes acetylated histones. (A) Schematic representation of domain modules within the human BRPF1 protein. (B) The MOZ/MORF HAT complex. (C) A ribbon diagram of the human BRPF1 bromodomain (yellow) in complex with the histone H2AK5ac peptide (blue sticks). (D) Top view of the H2AK5ac peptide in the binding pocket of the BRPF1 bromodomain. The structures were generated with Pymol [
+      <xref ref-type="bibr">
+       65
+      </xref>
+      ].
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Bromodomains are evolutionary conserved structural motifs composed of about 110 amino acids that were first identified in the
+    <em>
+     Drosophila
+    </em>
+    protein brahma (hence the name “bromo”), and are generally known to recognize acetylated histone residues [
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ]. All bromodomains share a conserved fold that comprises a left-handed bundle of four α-helices (αZ, αA, αB, αC), linked by loop regions of variable length (ZA and BC loops), which line the acetyllysine (Kac) binding site and determine ligand-binding specificity [
+    <xref ref-type="bibr">
+     28
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ]. The BRPF1 bromodomain is a member of subfamily IV of the human bromodomains (as defined by the phylogenetic tree generated by Filippakopoulos
+    <em>
+     et al
+    </em>
+    ., 2012 [
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ]), which also includes the bromodomains of the BRD1, BRD9, BRPF1/3, ATAD2 and ATAD2b proteins. Although the three-dimensional structure of each of these bromodomains is known [
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ], the specific histone ligands recognized by these bromodomains, and the molecular basis directing their substrate specificity is largely undiscovered.
+   </p>
+   <p>
+    Our recent studies revealed the interaction of the BRPF1 bromodomain with multiple acetyllysine residues on the N-terminus of histones, and demonstrated that it preferentially binds to the H2AK5ac, H4K12ac and H3K14ac histone ligands [
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ]. However, the molecular mechanism driving recognition of the acetylated histone tails by the BRPF1 bromodomain has not been elucidated. In this study, we present the X-ray crystal structures of the BRPF1 bromodomain in complex with two of its histone peptide ligands, H2AK5ac and H4K12ac. Importantly this is the first bromodomain structure solved in complex with an H2AK5ac ligand. These structures were used to evaluate the relative contribution of specific bromodomain binding site residues to ligand recognition via site-directed mutagenesis coupled with isothermal titration calorimetry (ITC). Through these studies we are able to describe the molecular basis of histone acetyllysine recognition by the BRPF1 bromodomain for the first time. A better understanding of this process will ultimately be useful in the rational design of pharmaceutical agents against acute myeloid leukemia and other cancers.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and Methods
+   </title>
+   <sec>
+    <title>
+     Cloning, expression, and purification of the BRPF1 bromodomain
+    </title>
+    <p>
+     Isolated cDNA from human BRPF1 was kindly provided by Dr. Xiang-Jiao Yang. The BRPF1 bromodomain region (residues 629–742) was amplified and subcloned into the pDEST15 vector (Invitrogen) as described previously [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ]. BRPF1 bromodomain mutants E36A, I88A, F89A, N83A, A84S, C79A, and N78A, were generated using the QuikChange
+     <sup>
+      ®
+     </sup>
+     mutagenesis procedure (Stratagene) as described in Champagne
+     <em>
+      et al.,
+     </em>
+     2006 [
+     <xref ref-type="bibr">
+      32
+     </xref>
+     ]. All mutants were produced by conventional PCR using the pDEST15 plasmid containing the BRPF1 bromodomain as a template. The DNA sequence for each mutant was verified before being expressed in
+     <em>
+      E. coli
+     </em>
+     Rosetta
+     <sup>
+      ™
+     </sup>
+     2(DE3)pLysS competent cells (Novagen).
+    </p>
+    <p>
+     The wild-type or mutant BRPF1 bromodomain proteins were expressed in
+     <em>
+      E. coli
+     </em>
+     Rosetta
+     <sup>
+      ™
+     </sup>
+     2 and purified essentially as described in [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ]. For ITC or circular dichroism (CD) experiments the 117 residue BRPF1 bromodomain proteins (114 from the bromodomain and -GPL from the N-terminal GST tag) were concentrated and dialyzed into buffers consisting of 20 mM NaNH
+     <sub>
+      4
+     </sub>
+     pH 7.0 and 150 mM NaCl, or 50 mM NaNH
+     <sub>
+      4
+     </sub>
+     pH 7.0 and 50 mM NaCl, respectively. For X-ray crystallography the protein was further purified using gel filtration chromatography (HiPrep 16/60 Sephacryl S-100 High Resolution, GE Healthcare) and equilibrated with wash buffer (20 mM Tris pH 8.0, 150 mM NaCl and 1 mM DTT). The purified BRPF1 bromodomain was then concentrated to 69.9 mg/mL at 4°C for crystallization experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization
+    </title>
+    <p>
+     Prior to crystallization 2.3 mM of the purified BRPF1 bromodomain protein was mixed with 5 mM of either the H2A(res 1–12)K5ac or H4(res 4–17)K12ac (SGRG Kac QGGKARA or GKGGKGLG Kac GGAKR, respectively) modified histone peptide in a 1.5 mL microcentrifuge tube. Crystallization screens using the sitting drop method were performed by mixing 1 μL of the protein-ligand solution with 1 μL of the reservoir solution in 96-well VDX plates with a reservoir volume of 100 μL.
+    </p>
+    <p>
+     Crystals of the BRPF1 bromodomain bound to H2AK5ac grew at 4°C from Hampton Research Crystal Screen I condition number 26 (0.2 M NH
+     <sub>
+      4
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 0.1 M MES monohydrate pH 6.5, and 30% w/v polyethylene glycol monomethyl ether (PEG) 5,000). Initial crystals were further optimized using the hanging drop method in 24 well VDX plates (Hampton Research). The pH of all buffers was adjusted with HCl or NaOH. The H2AK5ac crystals were improved through seeding techniques and the addition of 1% propylene glycol to the crystallization condition. The crystals grew to ~ 0.30, 0.10, 0.045 mm
+     <sup>
+      3
+     </sup>
+     in a P2
+     <sub>
+      1
+     </sub>
+     space group with the unit cell parameters a= 60.9 Å, b= 55.6 Å, c= 82.1 Å and β = 93.6°. All crystals were flash cooled in liquid nitrogen at 100 K.
+    </p>
+    <p>
+     The H4K12ac bromodomain-ligand complex grew at 4°C from Hampton Research Crystal Screen II, condition 30 (0.1 M HEPES pH 7.5, 10% w/v polyethylene glycol (PEG) 6,000, 5% v/v (+/−)-2-methyl-2,4-pentanediol (MPD)). Crystals were reproduced using the hanging drop method in a 24 wells VDX plates (Hampton Research) and grew to ~ 0.35, 0.08, 0.03 mm
+     <sup>
+      3
+     </sup>
+     in space group P4
+     <sub>
+      3
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     2 with the unit cell parameters a=, b = 75.1 Å, c= 86.3 Å. The H4K12ac-bromodomain crystals were cryoprotected by sequentially transferring them into reservoir solution supplemented with 10% and 15% MPD before flash freezing in liquid nitrogen at 100 K. Additional details on the crystallization methods and initial data collection can be found in Lubula
+     <em>
+      et al.,
+     </em>
+     2014 [
+     <xref ref-type="bibr">
+      33
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Data Collection, Structure Determination and Refinement
+    </title>
+    <p>
+     The crystal diffraction data for both crystal forms was collected on beamline X29 at the Brookhaven National Laboratory (BNL) synchrotron at a wavelength of 1.075 Å. Data for the BRPF1 bromo-H2AK5ac crystal were processed with the HKL-2000 software package [
+     <xref ref-type="bibr">
+      34
+     </xref>
+     ]. Data collection statistics are reported in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . The structure was solved using molecular replacement, and BRD1 (PDB ID 3RCW) was used as the starting model. Molecular replacement was performed with HKL-3000 [
+     <xref ref-type="bibr">
+      35
+     </xref>
+     ] integrated with MOLREP [
+     <xref ref-type="bibr">
+      36
+     </xref>
+     ] and selected programs from the CCP4 package [
+     <xref ref-type="bibr">
+      37
+     </xref>
+     ]. ARP/wARP [
+     <xref ref-type="bibr">
+      38
+     </xref>
+     ] and BUCCANEER [
+     <xref ref-type="bibr">
+      39
+     </xref>
+     ] were used to rebuild the initial model. The model was later manually updated using COOT to add the H2AKac histone ligand [
+     <xref ref-type="bibr">
+      40
+     </xref>
+     ] and refined with REFMAC [
+     <xref ref-type="bibr">
+      41
+     </xref>
+     ]. MOLPROBITY [
+     <xref ref-type="bibr">
+      42
+     </xref>
+     ] and ADIT [
+     <xref ref-type="bibr">
+      43
+     </xref>
+     ] were used for structure validation. The final R-factor and R-free values of the model are 20.39 % and 25.26 %, respectively, for data from 41.02 Å to 1.80 Å. There was clear electron density for residues 1–117 of the BRPF1 bromodomain in chains A, B, C and D, as well as for histone H2AK5ac residues 1–10 in chains E, F, G and H (peptide residues 11–12 had no density observed).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Crystallographic data collection and refinement statistics of the BRPF1 bromodomain in complex with H2AK5ac and H4K12ac.
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Data for the BRPF1 Bromo-H4K12ac crystal were processed with the HKL2000 software package, and the statistics are shown in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . The structure was solved by molecular replacement using the ligand-free BRPF1 bromodomain structure (PDB code: 2D9E) as the starting model. Molecular replacement was performed with PHASER [
+     <xref ref-type="bibr">
+      44
+     </xref>
+     ] from the CCP4 package [
+     <xref ref-type="bibr">
+      37
+     </xref>
+     ]. The PHENIX [
+     <xref ref-type="bibr">
+      45
+     </xref>
+     ] program was used for automatic model building and density modification. The H4K12ac peptide bound to the BRPF1 bromodomain molecule was built into the density map using the COOT program [
+     <xref ref-type="bibr">
+      40
+     </xref>
+     ] and the structure of the complex was refined against 1.94 Å diffraction data with simulated annealing and restraint minimization methods using the PHENIX [
+     <xref ref-type="bibr">
+      45
+     </xref>
+     ] program. PROCHECK [
+     <xref ref-type="bibr">
+      46
+     </xref>
+     ], MOLPROBITY [
+     <xref ref-type="bibr">
+      42
+     </xref>
+     ] and ADIT [
+     <xref ref-type="bibr">
+      43
+     </xref>
+     ] were used for structure validation. The final R-factor and R-free values of the model are 17.55 % and 21.29 %, respectively, for data from 34.43 Å to 1.94 Å. There was clear electron density for residues 4–117 of the BRPF1 bromodomain (chain A), and for residues 6–13 (chain B) in the histone H4K12ac ligand. H4K12ac histone peptide residues 11, 12 and 14–17 had no observable density.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal Titration Calorimetry
+    </title>
+    <p>
+     ITC experiments were carried out at 5°C with a MicroCal ITC200 instrument (GE Healthcare). Each of the BRPF1 bromodomain mutant proteins and histone peptide samples were dialyzed into a 20 mM NaH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     -Na
+     <sub>
+      2
+     </sub>
+     HPO
+     <sub>
+      4
+     </sub>
+     (pH 7.0) and 150 mM NaCl buffer. Calorimetric titration was performed by titrating each histone tail ligand (5 mM) into 0.2 mM of the mutant BRPF1 bromodomain protein in the sample cell in a series of 19 individual injections of 2 μL, at time intervals of 150 seconds. These were preceded by a preliminary injection of 0.5 μL of the 5 mM peptide sample. To determine the heat of dilution of the titrant peptides in the experimental buffer, control experiments were conducted under identical conditions. As part of data analysis, this was deducted from the experimental data. The obtained change-in-heat peaks were then analyzed by the Origin 7.0 program (OriginLab Corporation) and used to calculate binding affinities. Experiments in which binding occurred were performed in triplicate, while non-binding experiments were performed in duplicate.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Circular Dichroism Spectroscopy
+    </title>
+    <p>
+     Circular Dichroism (CD) spectra were recorded on a JASCO J-815 CD Spectrometer (JASCO, Japan) at 25°C in a 1.6 cm cell. BRPF1 bromodomain wild type (WT) or mutant proteins were dialyzed in 50 mM NaH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     -Na
+     <sub>
+      2
+     </sub>
+     HPO
+     <sub>
+      4
+     </sub>
+     pH 7.0, 50 mM NaCl and diluted to between 0.1 μM and 0.5 μM in concentration. CD spectra were measured from 199–260 nm. Two spectra were measured and averaged for each mutant bromodomain protein sample and the wild-type protein. Spectra were analyzed using the K2D3 [
+     <xref ref-type="bibr">
+      47
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      48
+     </xref>
+     ] structure prediction software to determine the percent α-helical and β-sheet content.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Results and Discussion
+   </title>
+   <sec>
+    <title>
+     Overall structure of the BRPF1 bromodomain
+    </title>
+    <p>
+     As discussed above, the BRPF1 subunit is part of the MOZ HAT complex, and it contains multiple chromatin reader domains known to direct the MOZ acetyltransferase activity to chromatin substrates [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      49
+     </xref>
+     ]. To further understand the role of the bromodomain in recruiting BRPF1 to histones it is imperative to characterize the molecular mechanism of BRPF1 bromodomain-mediated acetyllysine recognition. To this end we determined the crystal structures of the BRPF1 bromodomain in complex with its H2A(1-12)K5ac and H4(4-17)K12ac histone peptide ligands (PDB IDs 4QYL and 4QYD, respectively). The crystallographic data collection and refinement statistics are listed in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . The bromodomain of BRPF1 in complex with the H2AK5ac peptide crystallized in a monoclinic space group P2
+     <sub>
+      1
+     </sub>
+     , with four protein-ligand complexes in the crystallographic asymmetric unit, while the BRPF1 bromo-H4K12ac structure was in a tetragonal space group P4
+     <sub>
+      3
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     2 with only one protein-ligand complex in the asymmetric unit. Both of the crystal structures were solved by molecular replacement using the unpublished bromodomains of Peregrin for the H4K12ac structure (PDB ID 2D9E) and BRD1 for the H2AK5ac structure (PDB ID 3RCW) as the initial models, respectively. In the crystal containing the H2AK5ac ligand, the four protein monomers are in identical conformations and are superimposable on each other with RMSD values of 0.15–0.18 Å over 117 pairs of identical Cα atoms [
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ]. The BRPF1 bromodomain bound to H4K12ac (Chain A) is also in the same conformation as the H2AK5ac-bound structure (Chain D) with an RMSD of 0.94 Å over 113 identical Cα atoms [
+     <xref ref-type="bibr">
+      50
+     </xref>
+     ]. The overall architecture of the BRPF1 bromodomains exhibit structural features characteristic of other bromodomain modules and contain the typical left-handed four-helix bundle topology (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). These four helices, sequentially named αZ, αA, αB, αC, respectively (from the N-terminus), are connected by two loops: a long loop connecting helices αZ and αA (the ZA loop) and a short loop connecting helices αB and αC (the BC loop). The ZA loop is packed against the BC loop to form a hydrophobic pouch that constitutes the binding pocket.
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     shows the side view of the 1.8 Å BRPF1 bromo-H2AK5ac complex and depicts the overall bromodomain fold.
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     shows the top view where the H2AK5ac ligand is oriented between the ZA and BC loops with the acetylated lysine protruding down into the deep binding pocket formed between the four alpha-helical bundle. Structural alignment of the H2AK5ac- and H4K12ac-bound BRPF1 bromodomain structures to the apo BPRF1 bromodomain structure (PDB ID 2D9E) produces an RMSD of 0.652, which indicates that no major conformational changes in the overall fold of the bromodomain occurs upon ligand binding.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Acetyllysine coordination of H2AK5ac and H4K12ac
+    </title>
+    <p>
+     The crystal structures of the BRPF1 bromodomain in complex with the H2AK5ac and H4K12ac histone peptide ligands reveal that these two protein-peptide complexes are maintained by a network of H-bond interactions (
+     <xref ref-type="fig">
+      Figure 2A and 2B
+     </xref>
+     ). These As observed in other bromodomains, and our previous molecular dynamic models of the BRPF1 bromo-ligand interaction, the acetyllysine residue of the histone peptides is deeply inserted into the hydrophobic binding pocket of the BRPF1 bromodomain (
+     <xref ref-type="fig">
+      Figure 2E and 2F
+     </xref>
+     ) [
+     <xref ref-type="bibr">
+      27
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      51
+     </xref>
+     ]. In this pocket, the carbonyl oxygen of the N-acetyl group on both the H2AK5ac and H4K12ac histone peptide ligands forms a H-bond interaction with the amide nitrogen of the N83 residue in the BRPF1 bromodomain (
+     <xref ref-type="fig">
+      Figure 2A and 2B
+     </xref>
+     ). This particular interaction is highly conserved among bromodomains and is the major mode of recognition of the acetylated histone ligand [
+     <xref ref-type="bibr">
+      28
+     </xref>
+     ]. The importance of the direct hydrogen bond between bromodomain residue N83 and the acetylated lysine moiety is highlighted by the complete loss of ligand binding observed when N83 is mutated to alanine (
+     <xref ref-type="fig">
+      Figure 3A and 3B
+     </xref>
+     , red trace,
+     <a>
+      Supplemental Figs 1–3
+     </a>
+     ). In both structures, acetyllysine coordination is also stabilized by H-bond contacts through ordered water molecules in the binding pocket. The carbonyl oxygen of the acetyllysine moiety is connected to residue Y40 through water (w1), while the ε-amino group forms a hydrogen bond to the backbone carbonyl of I27 mediated by another water molecule (w2).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Coordination of the H2AK5ac and H4K12ac histone ligands by the BRPF1 bromodomain. (A) The BRPF1 bromodomain (yellow) in complex with H2AK5ac (blue) ligand. Hydrogen bonds are indicated by a red dotted line. (B) The BRPF1 bromodomain (yellow) in complex with the H4K12ac (green) ligand. (C) The Fo-Fc omit map representing the bound histone H2AK5ac peptide (blue) in complex with the BRPF1 bromodomain (yellow) contoured at 1σ. (D) The Fo-Fc omit map representing the bound histone H4K12ac peptide (green) in complex with the BRPF1 bromodomain (yellow) contoured at 1σ. (E) Surface representation of the H2AK5ac binding groove. (F) Surface representation of the H4K12ac ligand binding pocket.
+      </p>
+     </caption>
+    </fig>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       ITC measurements of interactions between mutant BRPF1 bromodomain proteins and histone tail ligands. (A) Superposed exothermic ITC enthalpy plots for the binding of the BPRF1 bromodomain wild type and mutant proteins to the H2A(1-12)K5ac peptide. The insert lists the measured binding constants. (B) Superposed exothermic ITC enthalpy plots for binding of the BRPF1 bromodomain wild type and mutant proteins to the H4(4-17)K12ac peptide. The insert lists the measured binding constants. (C) Superposed exothermic ITC enthalpy plots for the binding of the BRPF1 bromodomain wild type and mutant proteins to the H4(4-17) unmodified peptide. The insert lists the measured binding constants. (D) Circular dichroism spectra in the far-UV region of the BRPF1 bromodomain wild type and mutant proteins. The percent alpha-helical content of each protein is listed in the insert. (E) Surface representation of the BRPF1 bromodomain showing specific point mutations introduced into the binding pocket by site-directed mutagenesis and the superimposed structures of the histone ligands in the binding pocket. The two BRPF1 bromodomain structures were superimposed using Pymol [
+       <xref ref-type="bibr">
+        65
+       </xref>
+       ].
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Molecular mechanism of histone ligand recognition
+    </title>
+    <p>
+     In the H2AK5ac-bound structure, in addition to the acetyllysine contacts described above, there was clear electron density for the first ten residues in the histone peptide (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), with only Arg11 and Ala12 unordered. The median B factor for the H2AK5ac ligand (10 residues) is 25 Å
+     <sup>
+      2
+     </sup>
+     for chains E, F, G and H, respectively, and all modeled residues have an average occupancy more than 90%. Other bromodomain-ligand contacts observed in this complex include hydrogen bonds between D39, H43 and Y82 of the BRPF1 bromodomain to the backbone amino group of Arg3, the backbone carbonyl of Gly2, and the backbone amino of Gly4 in the histone peptide, respectively (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). There are also two important hydrophobic interactions between F89 and I88 of the bromodomain and Gly7 and Gly8 in the histone ligand.
+    </p>
+    <p>
+     In the H4K12ac-bound structure there was clear electron density for eight of the fourteen histone peptide residues (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). In addition to the acetyllysine contacts, hydrogen bonds are observed between D39 and Y82 in the BRPF1 bromodomain to the backbone amino groups of Leu10 and Gly11, respectively. There are also two hydrogen bonds between the ε-amino group of Lys8 in the H4K12ac peptide and the backbone carbonyls of L80 and N83 of the bromodomain. The hydrophobic residues F89 and I88 are positioned in the bromodomain binding pocket to contact peptide residues Gly14 and Ala15, but these two residues in the H4K12ac ligand were unordered, with no observed density (also missing from the density map were residues Gly4, Lys5, Lys16 and Arg17). The median B factor for the H4K12ac ligand (8 residues) is 31 Å
+     <sup>
+      2
+     </sup>
+     , and all modeled residues have an average occupancy more than 90%.
+    </p>
+    <p>
+     The extensive network of intermolecular contacts observed between the BRPF1 bromodomain and histone peptide residues adjacent to the acetyllysine in both the H2AK5ac and H4K12ac ligand-bound structures indicates that these interactions play a role in the binding specificity. The hydrophobic contact between F89 and the Kac +2 position in the histone peptide (Gly7 in H2AK5ac, and Gly14 in H4K12ac) also appears to be a critical component of histone recognition as demonstrated by the complete loss of ligand binding in the F89A mutant (
+     <xref ref-type="fig">
+      Figure 3A and 3B
+     </xref>
+     , cyan trace,
+     <a>
+      Supplemental Figs 1–3
+     </a>
+     ). The F89 residue is located at the entrance of the acetyllysine binding pocket and is positioned to make additional hydrophobic contacts with the methylene groups in the acetyllysine side chain (
+     <xref ref-type="fig">
+      Figure 2A and 2B
+     </xref>
+     ). To further elucidate the molecular mechanism driving recognition of the H2AK5ac and H4K12ac acetylated histone peptides by the BRPF1 bromodomain, we designed four additional mutant proteins with point mutations at A84S, E36A, I88A and C79A (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). Each of these residues are located proximal to the acetyllysine binding pocket, and were selected based on an observed direct contact with the histone ligand in the crystal structure or on the presences of significant chemical shift changes displayed in our previously published NMR titration studies [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ]. Once expressed, these mutant BRPF1 bromodomain proteins were analyzed using ITC to measure their effect on ligand binding affinities as compared to the wild type (WT) protein. Of note, the mutations introduced into the BRPF1 bromodomain did not cause any significant change in the overall structure, or unfolding of the mutant proteins. This is demonstrated by the circular dichroism (CD) spectroscopy studies we performed on each of the wild-type and mutant proteins. As depicted in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     and
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     , there is a less than 6% change in α-helical content observed between the WT and mutant BRPF1 bromodomain proteins.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Percentages of α-helix and β-strand composition in wild type (WT) and mutant BRPF1 proteins calculated from circular dichroism experiments.
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Residue C79 is located at the bottom of the hydrophobic binding pocket of the BRPF1 bromodomain, and although it does not make a direct contact to the acetylated lysine, the C79A mutation results in a 2.5–5 fold loss of binding affinity with the H2AK5ac and H4K12ac ligands, likely due to changes in the binding pocket composition or electrostatics. The I88A mutation has a similar effect on the ligand binding affinity as the C79A mutation, but this residue plays an important role in making hydrophobic contacts to the backbone residues of the histone ligands as observed in the crystal structures. As might be expected based on the structures, the E36A and A84A mutations located more distal to the acetyllysine binding pocket had relatively moderate affects on histone binding affinity. Interestingly, E36A showed a strong chemical shift change upon binding of the histone binding in our previous NMR experiments suggesting this residue might be critical for ligand coordination [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ]. However, the examination of the crystal structures reveals that E36 does not directly contact the histone peptides. Instead, the E36 side chain changes conformation in the ZA loop to accommodate histone ligand binding (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). These observations concur with previous studies that have shown the ligand binding selectivity of bromodomains is driven by a network of interactions that coordinate both the acetyllysine and surrounding histone peptide residues [
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      51
+     </xref>
+     –
+     <xref ref-type="bibr">
+      53
+     </xref>
+     ].
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Structural comparison of bromodomain ligand coordination. (A) The BRPF1 bromodomain (yellow) in complex with H2AK5ac (blue) ligand or in complex with the H4K12ac (green) ligand. The BRPF1 bromodomain structure is superimposed onto the ‘apo’ BRPF1 bromodomain structure (magenta) using Pymol [
+       <xref ref-type="bibr">
+        65
+       </xref>
+       ]. Hydrogen bonds are indicated by a red dotted line, and water molecules in the ligand-bound structures are indicated by red spheres and labels. (B) The BRPF1 bromodomain (yellow) in complex with the H4K12ac (green) ligand superimposed onto the BRD2 bromodomain crystal structure (green, PDB ID 2DVQ) in complex with the H4K12ac ligand (blue). Water molecules from the BRPF1 structure are indicated by red spheres and labels, and green spheres with black labels indicate water molecules from the BRD2 structure. (C) The BRPF1 bromodomain (yellow) in complex with the H4K12ac (green) ligand superimposed onto the BRD4 bromodomain crystal structure (blue, PDB ID 3UVX) in complex with the diacetylated histone H4K12acK16ac ligand (orange). Water molecules from the BRPF1 structure are indicated by red spheres and labels, and water molecules from the BRD4 structure are indicated by blue spheres with black labels. Residue numbering is for the BRPF1 bromodomain, except where indicated by corresponding colors.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     As seen with other chromatin reader domains, histone ligand binding does not induce major conformational changes in the BRPF1 bromodomain. Structural alignment of the apo BRPF1 bromodomain structure solved by NMR (PDB ID 2D9E), with the H2AK5ac- and H4K12ac-bound structures, reveals only minor adjustments in the side chains of amino acid residues in the binding pocket (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). Residues I88 and F89 are re-oriented to make hydrophobic contacts to the peptide backbone and the methylene groups of K5ac and K12ac, respectively. The side chain of D39 flips into the binding pocket to form a hydrogen bond to the histone peptide. Residues Y40 and Y82 also make slight conformational changes to accommodate hydrogen bond formation to the ligands (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Comparison with other BRPF1 bromodomain-ligand models
+    </title>
+    <p>
+     An unpublished NMR structure of the BRPF1 bromodomain in complex with the H4K5ac ligand is deposited in the PDB (PDB ID 2RS9). In this structure the acetyllysine is coordinated by an H-bond contact between the carbonyl oxygen of the N-acetyl group of the histone H4K5ac ligands and the amide nitrogen of the N83 residue in the BRPF1 bromodomain. However, when compared to our BRPF1 bromo-H4K12ac structure, the H4K5ac ligand is oriented in the opposite direction in the binding pocket, with F89 contacting the peptide at the Kac −2 position (Gly4) rather than at the Kac +2 position (Gly14). There are also no additional hydrogen bonds observed between adjacent residues in the H4K5ac histone peptide and the BRPF1 bromodomain structure, which could be attributed to the relatively weak 1.2 mM binding affinity the bromodomain has for this ligand [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ].
+    </p>
+    <p>
+     Previously, we published the results of molecular dynamic (MD) simulation experiments to predict the ligand binding contacts between the BRPF1 bromodomain and its histone ligands [
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ]. The hydrogen bond contacts between the BRPF1 bromodomain N83 residue and acetyllysine in the H2AK5ac and H4K12ac histone ligands are conserved between the crystal structures and the MD models of ligand coordination. However, the prediction of hydrogen bond contacts between the histone peptides and the BRPF1 bromodomain were limited because ordered waters in the binding pocket were not depicted in the MD simulations. We were unable to model these interactions since the unpublished NMR structures available for the BRPF1 bromodomain (PDB ID 2RS9 and 2D9E) did not contain information about water molecules.
+    </p>
+    <p>
+     Recently, Vidler
+     <em>
+      et al
+     </em>
+     ., 2012 discussed the importance of five ordered water molecules, which appear to be a conserved feature of the bromodomain binding pocket [
+     <xref ref-type="bibr">
+      54
+     </xref>
+     ]. They observed that these ordered waters are found in deposited bromodomain crystal structures regardless of the presence or absence of a bound ligand, suggesting that water plays a significant role in the structural composition of the binding pocket, and affects the selectivity and modality of ligand binding [
+     <xref ref-type="bibr">
+      54
+     </xref>
+     ]. We carried out structural alignments of the ligand-free (“apo”) structures of the human PCAF bromodomain (PDB ID 3GG3) and the BRD1 bromodomain (PDB ID 3RCW), to compare them with the ligand-bound (“holo”) structure of the first bromodomain of BRD4 (PDB ID 3UVX) and our crystal structures the BRPF1 bromodomain (in complex with the H2AK5ac and H4K12ac ligands). Analysis of these structures reveals that the water mediating hydrogen-bonding between the hydroxyl group of Y40 and the carbonyl oxygen of the acetyllysine moiety (w1 in
+     <xref ref-type="fig">
+      Figure 2A and 2B
+     </xref>
+     ) is present in the binding pocket regardless of the absence or presence of the ligand. Conversely, the second water in our crystal structures (w2 in
+     <xref ref-type="fig">
+      Figure 2A and 2B
+     </xref>
+     ) is absent in the apo structures, and this water is only seen in the holo structures where it bridges between a backbone carbonyl of the bromodomains to the epsilon nitrogen of the acetylated lysine in the histone ligands. This suggests that the ordered waters in the bromodomain binding pocket contribute to the molecular mechanism driving binding of the histone H2AK5ac and H4K12ac ligands in the BRPF1 bromodomain, and may be a conserved mode of acetyllysine recognition for other bromodomains as well.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Comparison with other bromodomain subfamilies
+    </title>
+    <p>
+     Despite the low degree of overall sequence homology, bromodomains have a highly conserved overall structural fold comprising four α-helices (αZ, αA, αB, and αC) linked by highly variable loop regions (ZA and BC loops) that form a hydrophobic binding pocket [
+     <xref ref-type="bibr">
+      27
+     </xref>
+     ]. However, the surface properties of bromodomains have been shown to be highly diverse [
+     <xref ref-type="bibr">
+      29
+     </xref>
+     ]. The electrostatic potential of the surface area around the acetylated lysine binding pocket ranges from highly positively to strongly negatively charged, suggesting that individual bromodomains recognize largely different ligands [
+     <xref ref-type="bibr">
+      29
+     </xref>
+     ]. Furthermore, it has been suggested that bromodomain peptide recognition is dependent on the pattern of multiple PTMs rather than on a single acetylation site [
+     <xref ref-type="bibr">
+      29
+     </xref>
+     ]. Bromodomains in different subfamilies are therefore expected to use a variety of recognition modes to select for their particular acetylated histone ligand(s).
+    </p>
+    <p>
+     Currently there are no other bromodomain structures in complex with a histone H2AK5ac ligand deposited into the PDB, but the structure of the second bromodomain of the BRD2 in complex with H4K12ac has been solved. BRD2 belongs to the human BET family of bromodomains in subfamily II, which also includes BRD3, BRD4 and BRDT, and these proteins have a unique architecture with two tandem bromodomains and a conserved extra-terminal domain [
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ]. In the intact nuclei, the BET protein BRD2 activates transcription by targeting histone H4K12ac, one of the active marks of chromatin [
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ]. BRD2 has also been shown to bind to the histone H4K5ac peptide, and more weakly recognizes the histone H4K16ac and H3K9ac modifications [
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ]. Although both BRD2 and the BRPF1 bromodomains belong to two separate sub-families, the modality of histone H4K12ac recognition is similar.
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     shows the structural alignment of the BRPF1 and BRD2 (PDB ID 2DVQ) bromodomains bound to the H4K12ac peptide. The RMSD of these two structures is 1.4, mainly due to slight conformational changes in the alpha-helical regions. In the bromodomain binding pocket, the histone H4K12ac ligand backbone is oriented in the same direction in both structures, and the amino acid side chains coordinating the histone peptide are in nearly identical conformations. In both structures, the acetyllysine side chain of H4K12ac sits in the deep hydrophobic binding pocket. In BRD2, the N-acetyl group of K12ac is positioned so the carbonyl forms a hydrogen bond with the amide group of N156. The hydrogen bond network coordinating the acetyllysine through two ordered waters (w1 and w2) is also conserved between the BRPF1 and BRD2 bromodomain structures, with only slight shifts in location of the waters to accommodate the orientation of the acetyllysine side chain in the binding pocket. The acetylated lysine of H4K12 as is also surrounded by the hydrophobic residues P98 (I27), I162 (F89) in BRD2 [
+     <xref ref-type="bibr">
+      55
+     </xref>
+     ], which contribute to the binding pocket formation and modality of ligand selection in the same way we observe for the BRPF1 bromodomain.
+    </p>
+    <p>
+     Interestingly, BRD4 bromodomain has been shown to coordinate the H4K12acK16ac double modification (PDB ID 3UVX,
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ) [
+     <xref ref-type="bibr">
+      29
+     </xref>
+     ]. Coordination of the K12ac is consistent with what is observed in the BRPF1 and BRD2 bromodomain structures (
+     <xref ref-type="fig">
+      Figure 4A and 4B
+     </xref>
+     ). However, the H4K16ac is bound in an adjacent hydrophobic pocket formed by P82, W81 and I146 in the BRD4 structure. In the BRPF1 structure W81 is a charged asparagine (N26), while a more flexible isoleucine side chain in BRD4 (I146) replaces F89 in the BRPF1 bromo structure. These two amino acid substitutions create critical hydrophobic contacts necessary for coordination of the second H4K16ac group, which would likely not be possible in the BRPF1 bromodomain. Importantly, the two ordered waters are also observed in the H4K12ac binding pocket of the BRD4 bromodomain structure, and coordinate the carbonyl oxygen and epsilon nitrogen of the K12ac moiety as described above. Thus, these two ordered waters appear to be a general feature of the H4K12ac ligand binding mechanism.
+    </p>
+    <p>
+     The PCAF and CBP/p300 bromodomains, which belong to the first and third bromodomain subfamilies, are able to recognize histone H3K36ac and H4K20ac peptide ligands, respectively. The NMR solution structures of these bromodomains in complex with their ligands indicate that they have unique modes of recognition for their acetylated histone ligands [
+     <xref ref-type="bibr">
+      53
+     </xref>
+     ]. PCAF has been shown to preferably interact with acetylation sites with a hydrophobic residue at (Kac +1) position and a positively charged or aromatic residue at (Kac +3) [
+     <xref ref-type="bibr">
+      53
+     </xref>
+     ]. On the other hand the CBP bromodomain has been shown to favor bulky hydrophobic residues at (Kac +1) and (Kac +2), a positively charged residue at (Kac −1), and an aromatic residue at (Kac −2) [
+     <xref ref-type="bibr">
+      53
+     </xref>
+     ]. Despite the variability in the mode of acetylated histone recognition, all bromodomains have been shown to coordinate the acetylated lysine moiety via H-bond interactions to the highly conserved asparagine in the binding pocket. However, the ordered water molecules are not observed in these structures since they were solved using NMR techniques.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     BRPF1 bromodomain as a drug target
+    </title>
+    <p>
+     As mentioned previously, the t(8;16)(p11;p13) translocation of the MOZ HAT complex contributes to the progression of AML [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      56
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      57
+     </xref>
+     ]. In this abnormality, the MOZ N-terminal domain fuses to the C-terminal part of the CBP transcriptional co-activator resulting in highly active complex [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ]. The BRPF proteins have been shown to bridge the association of MOZ with ING5 and hEAF6, thereby promoting MOZ acetyltransferase activity [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ]. The BRPF1 subunit continues to associate with the MOZ HAT complex even in the translocated proteins and thereby plays an important role in MOZ-related regulation of transcription, hematopoiesis, leukemogenesis, and other developmental processes [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      58
+     </xref>
+     ]. Our results indicate that the BRPF1 bromodomain contributes to recruiting the MOZ complex to distinct sites of active chromatin. Thus, preventing this process may be a useful tool in helping patients suffering from MOZ-associated AML. Inhibitors of human bromodomains are currently under intense investigation as a potential therapeutic strategy in multiple disease types [
+     <xref ref-type="bibr">
+      59
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      60
+     </xref>
+     ]. In one study, a short hairpin RNA screen suggested that inhibition of the BRD4 bromodomain might be an effective treatment for AML [
+     <xref ref-type="bibr">
+      61
+     </xref>
+     ]. Furthermore, an inhibitor of the BET family of bromodomains, JQ1, is currently under study as a potential drug for HIV reactivation, heart disease, and as a non-hormonal male contraceptive [
+     <xref ref-type="bibr">
+      62
+     </xref>
+     –
+     <xref ref-type="bibr">
+      64
+     </xref>
+     ]. In a computational analysis of bromodomains by Vidler
+     <em>
+      et al.,
+     </em>
+     2012, the BRPF1 bromodomain was classified as being “druggable” based on signature residues in its binding pocket [
+     <xref ref-type="bibr">
+      54
+     </xref>
+     ]. The structural data and mutational analysis presented here are an important step in outlining the molecular basis of histone acetyllysine recognition by the BRPF1 bromodomain. A better understanding of this process will ultimately be useful in the rational design of pharmaceutical agents to treat AML and other cancers.
+    </p>
+    <p>
+     In conclusion, the results presented offer important insights into the role of the bromodomain in recruiting BRPF1, and subsequently the MOZ HAT complex, to histones. Specifically, to better understand the modality by which the BRPF1 bromodomain interacts with its ligands, we solved the crystal structures of the BRPF1 bromodomain in complex with its H2AK5ac and H4K12ac histone ligands. These structures reveal that a network of H-bond and hydrophobic contacts coordinate the acetyllysine moiety and make specific contacts to flanking residues in the histone tail. We also identified two ordered water molecules in the binding pocket, which mediate coordination of the acetyllysine moiety. To gain a better understanding of the molecular mechanism driving specificity, we also carried out site-directed mutagenesis in combination with ITC studies. Our results indicate that the two most important contacts for ligand coordination include the highly conserved N83 residue, which coordinates the acetyllysine directly, as well as F89, which creates a critical hydrophobic contact with the histone tail and shapes the bromodomain binding pocket wall. Our results reinforce previous studies showing that ligand selectivity of bromodomains is a composite of both the acetylated lysine residue coordination, and contacts to peptide residues flanking the acetyllysine in the histone tail. The BRPF1 bromodomain interacts with a region of MOZ that remains intact after leukemic translocations. Thus, the structural and functional characterization of the BRPF1 bromodomain-histone interaction is important for unraveling its role in modulating the genomic binding targets of the MOZ HAT, and for the development of future therapeutics for MOZ-related leukemias.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     supplement
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.6M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Abbreviations
+   </title>
+   <sec>
+    <sec>
+     <table>
+      <tbody>
+       <tr>
+        <td>
+         AML
+        </td>
+        <td>
+         acute myeloid leukemia
+        </td>
+       </tr>
+       <tr>
+        <td>
+         BRPF1
+        </td>
+        <td>
+         bromodomain-PHD finger protein 1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         CBP
+        </td>
+        <td>
+         CREB binding protein
+        </td>
+       </tr>
+       <tr>
+        <td>
+         CD
+        </td>
+        <td>
+         circular dichroism
+        </td>
+       </tr>
+       <tr>
+        <td>
+         HAT
+        </td>
+        <td>
+         histone acetyltransferase
+        </td>
+       </tr>
+       <tr>
+        <td>
+         HDAC
+        </td>
+        <td>
+         histone deacetylase
+        </td>
+       </tr>
+       <tr>
+        <td>
+         hEAF6
+        </td>
+        <td>
+         homolog of Esa1-associated factor 6
+        </td>
+       </tr>
+       <tr>
+        <td>
+         HOX
+        </td>
+        <td>
+         homeobox
+        </td>
+       </tr>
+       <tr>
+        <td>
+         HSCs
+        </td>
+        <td>
+         hematopoietic stem cells
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ING5
+        </td>
+        <td>
+         inhibitor of growth 5
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ITC
+        </td>
+        <td>
+         isothermal titration calorimetry
+        </td>
+       </tr>
+       <tr>
+        <td>
+         MD
+        </td>
+        <td>
+         molecular dynamic
+        </td>
+       </tr>
+       <tr>
+        <td>
+         MOZ
+        </td>
+        <td>
+         monocytic leukemic zinc-finger
+        </td>
+       </tr>
+       <tr>
+        <td>
+         NcoA3
+        </td>
+        <td>
+         nuclear receptor co-activator 3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         NMR
+        </td>
+        <td>
+         nuclear magnetic resonance
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PHD
+        </td>
+        <td>
+         plant homeodomain
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PTM
+        </td>
+        <td>
+         post-translational modification
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PWWP
+        </td>
+        <td>
+         proline-tryptophan-tryptophan-proline
+        </td>
+       </tr>
+       <tr>
+        <td>
+         TIF2
+        </td>
+        <td>
+         transcriptional intermediary binding factor 2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ZnF
+        </td>
+        <td>
+         zinc finger
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

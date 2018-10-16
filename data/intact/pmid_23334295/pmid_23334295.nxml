@@ -1,0 +1,1885 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3567489
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A structural basis for kinetochore recruitment of the Ndc80 complex via two distinct centromere receptors
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The Ndc80 complex is the key microtubule-binding element of the kinetochore. In contrast to the well-characterized interaction of Ndc80-Nuf2 heads with microtubules, little is known about how the Spc24-25 heterodimer connects to centromeric chromatin. Here, we present molecular details of Spc24-25 in complex with the histone-fold protein Cnn1/CENP-T illustrating how this connection ultimately links microtubules to chromosomes. The conserved Ndc80 receptor motif of Cnn1 is bound as an α helix in a hydrophobic cleft at the interface between Spc24 and Spc25. Point mutations that disrupt the Ndc80–Cnn1 interaction also abrogate binding to the Mtw1 complex and are lethal in yeast. We identify a Cnn1-related motif in the Dsn1 subunit of the Mtw1 complex, necessary for Ndc80 binding and essential for yeast growth. Replacing this region with the Cnn1 peptide restores viability demonstrating functionality of the Ndc80-binding module in different molecular contexts. Finally, phosphorylation of the Cnn1 N-terminus coordinates the binding of the two competing Ndc80 interaction partners. Together, our data provide structural insights into the modular binding mechanism of the Ndc80 complex to its centromere recruiters.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     centromere, chromosome segregation, histone-fold, kinetochore, Ndc80/Hec1
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The ability to faithfully distribute the genetic material between emerging daughter cells is a fundamental prerequisite for all development. The accuracy of segregating chromosomes in eukaryotes is remarkable: in budding yeast, the loss rate for a given chromosome per generation is approximately only 10
+    <sup>
+     −5
+    </sup>
+    (
+    <xref ref-type="bibr">
+     Murray et al, 1986
+    </xref>
+    ). This high-fidelity segregation is achieved through the action of kinetochores, large multi-protein structures that assemble on chromosomal domains termed as centromeres (
+    <xref ref-type="bibr">
+     Cheeseman and Desai, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santaguida and Musacchio, 2009
+    </xref>
+    ). Centromeres are characterized by the presence of specialized nucleosomes in which the canonical histone H3 is replaced by the histone variant CENP-A (
+    <xref ref-type="bibr">
+     Guse et al, 2011
+    </xref>
+    ). The deposition of CENP-A nucleosomes marks centromeres for the recruitment and assembly of additional polypeptides, collectively referred to as the constitutive centromere-associated network (CCAN) (
+    <xref ref-type="bibr">
+     Foltz et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Okada et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hori et al, 2008
+    </xref>
+    ). A crucial role of these proteins is to function as an assembly platform for the microtubule-binding interface of the kinetochore, the so-called KMN network, consisting of KNL-1, the Mtw1/MIS12 complex and the Ndc80 complex (
+    <xref ref-type="bibr">
+     Lampert and Westermann, 2011
+    </xref>
+    ). The microtubule-binding interface connects to dynamic plus-ends and is also required for the generation of a spindle assembly checkpoint signal that coordinates kinetochore attachment with the onset of anaphase (
+    <xref ref-type="bibr">
+     Musacchio and Salmon, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    Within the kinetochore architecture that encompasses &gt;60 polypeptides in yeast, the four-protein Ndc80 complex (composed of Ndc80–Nuf2 and Spc24-25 heterodimers) is of central importance for the attachment of kinetochores to microtubules. Kinetochores contain multiple copies of the Ndc80 complex, in budding yeast between 8 and 20 as measured by fluorescence microscopy and depending on the reference used for quantification (
+    <xref ref-type="bibr">
+     Joglekar et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lawrimore et al, 2011
+    </xref>
+    ). Initial low-resolution EM analysis of recombinant Ndc80 complex showed an elongated dumbbell shape with globular domains separated by a 570-Å long coiled-coil region (
+    <xref ref-type="bibr">
+     Wei et al, 2005
+    </xref>
+    ). X-ray crystallography of the isolated globular domains or of an artificially shortened complex lacking the coiled coils has demonstrated that the Ndc80–Nuf2 end folds into a dimeric arrangement of calponin-homology domains that contacts the microtubule surface through conserved positively charged residues (
+    <xref ref-type="bibr">
+     Wei et al, 2006a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ciferri et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Alushin et al, 2010
+    </xref>
+    ). Impairment of these interactions through mutations results in loss of kinetochore-microtubule attachments in cells (
+    <xref ref-type="bibr">
+     Sundin et al, 2011
+    </xref>
+    ). On the centromere-proximal end of the Ndc80 complex, the Spc24-25 subunits form a globular domain (
+    <xref ref-type="bibr">
+     Wei et al, 2006b
+    </xref>
+    ). In contrast to the Ndc80-microtubule interaction, however, the interface between the complex and the inner kinetochore has remained structurally uncharacterized. Initial reconstitution experiments employing
+    <em>
+     C. elegans
+    </em>
+    proteins have indicated that the Ndc80 complex associates with the four-protein Mtw1/Mis12 complex (
+    <xref ref-type="bibr">
+     Cheeseman et al, 2006
+    </xref>
+    ), an interaction that was later confirmed with recombinant human and yeast complexes (
+    <xref ref-type="bibr">
+     Maskell et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Petrovic et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hornung et al, 2011
+    </xref>
+    ). The Mtw1 complex is localized centromere-proximal compared to the Ndc80 complex (
+    <xref ref-type="bibr">
+     Joglekar et al, 2009
+    </xref>
+    ), in part through interaction with the conserved DNA-binding protein CENP-C (
+    <xref ref-type="bibr">
+     Przewloka et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Screpanti et al, 2011
+    </xref>
+    ), suggesting that Mtw1 can act as a kinetochore receptor for Ndc80. In addition, recent studies have identified the mammalian CCAN component CENP-T, and its yeast homologue Cnn1, as direct interaction partners of the Ndc80 complex (
+    <xref ref-type="bibr">
+     Gascoigne et al, 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schleiffer et al, 2012
+    </xref>
+    ). CENP-T proteins contain a histone-fold domain (HFD) at the C-terminus used for associating with one or more additional small histone-fold proteins (CENP-W, -S and -X) and they may form a nucleosome-like structure at the centromere (
+    <xref ref-type="bibr">
+     Hori et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishino et al, 2012
+    </xref>
+    ). Here, we provide insights into the kinetochore interactions of the Ndc80 complex from the crystal structure of the budding yeast Spc24-25/Cnn1 interface. We prove that the two distinct Ndc80 complex recruiters, Cnn1 and the Mtw1 complex, target the same binding site on Spc24-25 and we identify a region on the Mtw1 complex essential for the Ndc80–Mtw1 interaction. Furthermore, we propose a model in which phosphorylation modulates the affinity of the competitive Ndc80 receptors towards their binding partner.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Overall architecture of the Ndc80–Cnn1 interface
+    </title>
+    <p>
+     Our previous work has shown that budding yeast Cnn1
+     <sup>
+      CENP-T
+     </sup>
+     associates with the Spc24-25 heterodimer and we have identified a conserved peptide motif in the N-terminus of Cnn1 (aa 65–79) that is strictly required for this association (
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ;
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). We first asked whether the globular domain of the Spc24-25 complex, lacking the coiled coil (Spc24
+     <sup>
+      155–213
+     </sup>
+     –Spc25
+     <sup>
+      133–221
+     </sup>
+     ), is sufficient for binding to Cnn1. In isothermal titration calorimetry (ITC) experiments, a 25aa Cnn1-derived peptide including the N-terminal conserved motif (Cnn1
+     <sup>
+      60–84
+     </sup>
+     ) interacted with the Spc24-25 globular domain with an apparent dissociation constant of 3.5 μM (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ), similar to the affinity for the full-length Spc24-25 heterodimer (
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ). This indicates that the binding site of the Cnn1 N-terminus must be located in the globular domain of Spc24-25. To uncover the structural details of the Cnn1–Ndc80 complex association, Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     was purified and co-crystallized with Cnn1
+     <sup>
+      60–84
+     </sup>
+     . The high-resolution structure of the complex was solved by molecular replacement, using the crystal structure of the budding yeast Spc24-25 globular domain as search model (Wei
+     <em>
+      et al
+     </em>
+     , 2006), and refined at 2.0 Å resolution to an
+     <em>
+      R
+     </em>
+     factor of 20.7% (
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     of 25.8%) (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). The asymmetric unit of the crystal contains two Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     heterodimers (B-A and D-C): each Spc subunit shows an α/β tertiary structure composed of an anti-parallel β sheet of three (Spc24) or five (Spc25) β strands flanked by either two (Spc24) or three (Spc25) α helices (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). Notably, this characteristic fold resembles the RWD domain (RING finger-, WD-repeat-, and DEAD-like proteins), recently found in several kinetochore-related proteins of budding yeast, such as Csm1, a subunit of the Monopolin complex, the checkpoint protein Mad1 and the Ctf19 and Mcm21 subunits of the kinetochore COMA complex (
+     <xref ref-type="bibr">
+      Corbett et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kim et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schmitzberger and Harrison, 2012
+     </xref>
+     ). During Spc24-25 refinement, additional continuous electron density was observed in both Spc24-25 globular domains of the asymmetric unit that could be unequivocally modelled and refined as the amino acids 61–79 (in B-A) or 62–79 (in D-C) of Cnn1
+     <sup>
+      60–84
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). The two Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     –Cnn1
+     <sup>
+      60–84
+     </sup>
+     molecules display a very similar structure (r.m.s.d. 0.54 Å, calculated on 162 Cα pairs over 165) and thus the general features of the complex will be discussed from here on.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Structure determination of the Spc24-25/Cnn1 interface. (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation illustrating the general centromere-microtubule orientation of the Cnn1–Ndc80 complex. Nuf2 and Ndc80 are shown in brown and dark grey, respectively, with the microtubule-binding calponin homology (CH) domains highlighted; Spc24 and Spc25 are shown in light grey and slate blue, respectively. The Cnn1 conserved N-terminal motif (65–79) is displayed in orange and its histone-fold domain (HFD) is highlighted. A rectangle indicates the interface visualized in the crystal structure. (
+       <strong>
+        B
+       </strong>
+       ) Isothermal titration calorimetry performed by titrating the Spc24-25 globular domain (Spc24-25G) with a Cnn1 peptide including the Ndc80-binding motif (Cnn1
+       <sup>
+        60–84
+       </sup>
+       ). The
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       was estimated fitting a non-linear curve to the binding isotherms derived from the data. (
+       <strong>
+        C
+       </strong>
+       ) Overall architecture of the Spc24
+       <sup>
+        155–213
+       </sup>
+       –Spc25
+       <sup>
+        133–221
+       </sup>
+       –Cnn1
+       <sup>
+        60–84
+       </sup>
+       crystal structure. Spc24, Spc25, and Cnn1 are represented according to their secondary structure and coloured in light grey, slate blue, and orange, respectively. Arrows indicate the opposite N-terminal/C-terminal orientation of Cnn1 relative to Spc24-25. A dotted line indicates the residue Lys184 of Spc24 not visible in the electron density (molecule B-A-F of the asymmetric unit). (
+       <strong>
+        D
+       </strong>
+       ) Localization of Cnn1
+       <sup>
+        60–84
+       </sup>
+       in the hydrophobic pocket at the interface between Spc24
+       <sup>
+        155–213
+       </sup>
+       and Spc25
+       <sup>
+        133–221
+       </sup>
+       , shown as electrostatic surface (transparency 20%). Cnn1 secondary structure is displayed in orange.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Data collection and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The bound Cnn1
+     <sup>
+      60–84
+     </sup>
+     peptide adopts an α-helical structure accommodated in a hydrophobic pocket at the interface between Spc24
+     <sup>
+      155–213
+     </sup>
+     and Spc25
+     <sup>
+      133–221
+     </sup>
+     , forming a three-helix bundle with the two α-helices α1 of both Spc subunits (
+     <xref ref-type="fig">
+      Figure 1D and C
+     </xref>
+     ). The majority of the Cnn1-binding interface is constructed by Spc25
+     <sup>
+      133–221
+     </sup>
+     , while Spc24
+     <sup>
+      155–213
+     </sup>
+     only donates helix α1 for complex formation (corresponding interfaces: 597.0 and 240.3 Å
+     <sup>
+      2
+     </sup>
+     , respectively). The localization of Cnn1, near the beginning of the Ndc80–Nuf2-interacting coiled coils, and its anti-parallel orientation relative to Spc24-25, are not consistent with a linear head-to-tail arrangement of the centromere-binding Cnn1 and the microtubule-binding Ndc80 complex (
+     <xref ref-type="fig">
+      Figure 1A and C
+     </xref>
+     ). In the observed configuration the HFD of Cnn1 would indeed project in the direction of the microtubule instead of pointing towards the centromere.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Atomic details and validation of the Ndc80–Cnn1 binding pocket
+    </title>
+    <p>
+     The hydrophobic side of the Cnn1 helix, in particular residues Phe69, Leu70, and Leu73 that characterize the N-terminal conserved motif of Cnn1/CENP-T proteins, faces the hydrophobic pocket of the Spc24-25 globular domain, establishing extensive van der Waals contacts with several Spc25 residues (Val149, Val159, Phe161, Val173, Leu200, and Leu206) and with Leu160 and Leu164 of the Spc24 helix α1 (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). The presence of hydrophobic residues at these sites is conserved among eukaryotic Spc24-25 proteins (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). The only polar interactions of the Spc24-25/Cnn1 interface consist of two hydrogen bonds formed by the side chains of Arg67 and Gln71 (Cnn1) with the carbonyl oxygen of the Met175 main chain, located in the β3–β4 loop of Spc25. Comparison with the Spc24
+     <sup>
+      155–213
+     </sup>
+     –Spc25
+     <sup>
+      133–221
+     </sup>
+     structure reveals that Cnn1 binding induces a reorientation of the β3–β4 loop (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ), thus further exposing the hydrophobic pocket required to host the Cnn1 α helix. In addition, the remodelled orientation of this loop is stabilized by ring-stacking interactions between His176 (Spc25 β3–β4 loop) and His157 in the Spc25 β1–β2 loop, which also reorients markedly from its configuration in the unbound Spc24-25 globular domain (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Consistent with this, the average
+     <em>
+      B
+     </em>
+     factors of both loops are still relatively high (32.5–45.0 Å
+     <sup>
+      2
+     </sup>
+     for β1–β2 loop and 37.0–61.7 Å
+     <sup>
+      2
+     </sup>
+     for β3–β4 loop compared to the average protein
+     <em>
+      B
+     </em>
+     factor of 37.0 Å
+     <sup>
+      2
+     </sup>
+     ), pointing to an inherent flexibility of these active-site bordering loops that seems to be required for an induced-fit Cnn1 binding.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Details of the Spc24-25–Cnn1 interaction. (
+       <strong>
+        A
+       </strong>
+       ) Close-up view of the Spc24
+       <sup>
+        155–213
+       </sup>
+       -25
+       <sup>
+        133–221
+       </sup>
+       –Cnn1
+       <sup>
+        60–84
+       </sup>
+       interaction network. The secondary structure of Spc24, Spc25, and Cnn1 is displayed in light grey, slate blue, and orange, respectively. The interacting residues are highlighted as sticks, with O in red, N in blue, and S in yellow. The established hydrogen bonds are represented as black dashed lines. (
+       <strong>
+        B
+       </strong>
+       ) Sequence alignment of the Spc24 and Spc25 homologues from
+       <em>
+        Saccharomyces cerevisiae
+       </em>
+       (S.c.),
+       <em>
+        Schizosaccharomyces pombe
+       </em>
+       (S.p.), and
+       <em>
+        Homo sapiens
+       </em>
+       (H.s.). The conservation of non-polar residues is highlighted according to the Clustalx colouring scheme and Cnn1
+       <sup>
+        60–84
+       </sup>
+       -interacting residues are marked with an orange dot. The secondary structure is derived from the X-ray coordinates of Spc24
+       <sup>
+        155–213
+       </sup>
+       –Spc25
+       <sup>
+        133–221
+       </sup>
+       –Cnn1
+       <sup>
+        60–84
+       </sup>
+       using the program STRIDE (
+       <xref ref-type="bibr">
+        Heinig and Frishman, 2004
+       </xref>
+       ). See
+       <a>
+        Supplementary Figure S5
+       </a>
+       for alignment of more sequences.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In order to validate the observed interaction between Spc24-25 and Cnn1, the single mutants V159D of Spc25 (25V159D) and L160D of Spc24 (24L160D) were generated to distort the hydrophobic character of the ligand-binding groove, preventing Cnn1 interaction. These residues (highlighted in yellow in
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) were chosen for their position at the surface of the hydrophobic pocket, so that the structural integrity of the Spc24-25 complex was not affected, as validated by analytical size-exclusion chromatography comparing the elution volumes of the mutants and the wild-type Spc24
+     <sup>
+      155–213
+     </sup>
+     -Spc25
+     <sup>
+      133–221
+     </sup>
+     heterodimers (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). In ITC experiments, both single mutations completely abolished Cnn1
+     <sup>
+      60–84
+     </sup>
+     binding (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ), confirming our structural model according to which Spc24 and Spc25 form a composite hydrophobic binding pocket required to tether Cnn1. Similar experiments were performed by mutating individually or in combination three conserved residues of Cnn1
+     <sup>
+      60–84
+     </sup>
+     , Phe69, Leu70, and Leu73, and testing the binding of the corresponding peptides to the wild-type Spc24-25 globular domain. All introduced mutations abrogated the interaction (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ) thus providing strong evidence that the observed Spc24-25/Cnn1 interface is relevant in solution.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Validation of the Spc24-25/Cnn1 interface. (
+       <strong>
+        A
+       </strong>
+       ) Role of L160 (Spc24) and V159 (Spc25) in Cnn1
+       <sup>
+        60–84
+       </sup>
+       binding. The secondary structure of Spc24, Spc25, and Cnn1 is displayed in light grey, slate blue, and orange, respectively (transparency 40%). The residues L160 (Spc24) and V159 (Spc25), mutated to aspartic acid for validating the Spc24
+       <sup>
+        155–213
+       </sup>
+       –Spc25
+       <sup>
+        133–221
+       </sup>
+       /Cnn1
+       <sup>
+        60–84
+       </sup>
+       interface, are shown as sticks and highlighted in yellow. The Cnn1 residues that establish van der Waals contacts with L160 or V159 are displayed as sticks. (
+       <strong>
+        B
+       </strong>
+       ) Elution profiles of size-exclusion chromatography performed with Spc24-25 globular domain (Spc24-25G) wild-type (in red) or Cnn1-binding mutants, Spc24-25G
+       <sup>
+        25V159D
+       </sup>
+       (in violet) and Spc24-25G
+       <sup>
+        24L160D
+       </sup>
+       (in magenta). Identical elution profiles indicate a similar complex shape and integrity. (
+       <strong>
+        C
+       </strong>
+       ) Isothermal titration calorimetry performed by titrating Spc24-25G
+       <sup>
+        25V159D
+       </sup>
+       or Spc24-25G
+       <sup>
+        24L160D
+       </sup>
+       with Cnn1
+       <sup>
+        60–84
+       </sup>
+       (n.b.=no binding). (
+       <strong>
+        D
+       </strong>
+       ) Coomassie-stained gels of analytical size-exclusion chromatography using 12 μM Cnn1ΔHFD (1–270), 12 μM full-length Spc24-25 wild-type and their combination (upper part); 12 μM full-length Spc25-25
+       <sup>
+        V159D
+       </sup>
+       and its combination in equimolar amount with Cnn1ΔHFD (lower part). Complex formation is visualized by a shift to earlier elution volumes of both molecules.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Both mutations 24L160D and 25V159D also compromised the Spc24-25–Cnn1 interaction when testing the full-length Spc24-25 heterodimer with the entire amino-terminal part of Cnn1 missing only the HFD (Cnn1ΔHFD) (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). These results confirm that the Spc24-25 hydrophobic pocket observed in the minimal complex of our crystal structure is the main binding site for the Cnn1–Ndc80 complex interaction.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cnn1 and the Mtw1 complex target the same binding site on Spc24-25
+    </title>
+    <p>
+     We next analysed the phenotype of yeast strains bearing mutations in the Ndc80–Cnn1 binding pocket
+     <em>
+      in vivo
+     </em>
+     . For this purpose, wild-type Spc25 or Spc25
+     <sup>
+      V159D
+     </sup>
+     , expressed from its endogenous promoter, was integrated into the URA3 locus of a Δ
+     <em>
+      Spc25
+     </em>
+     /Spc25 diploid strain and the asci dissected after sporulation. In contrast to integration of the wild-type gene, Δ
+     <em>
+      spc25
+     </em>
+     Spc25
+     <sup>
+      V159D
+     </sup>
+     spores failed to be recovered (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ) and the same result was observed for the Spc24
+     <sup>
+      L160D
+     </sup>
+     mutant (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ), indicating that altering the Cnn1-binding site on Spc24-25 is lethal. This observation is in contrast with the finding that a Cnn1 deletion is viable in budding yeast (
+     <xref ref-type="bibr">
+      Bock et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ) leading us to speculate that the 25V159D and 24L160D mutations were affecting not only the kinetochore recruitment of the Ndc80 complex through Cnn1, but also the Ndc80–Mtw1 complex interaction, thereby impairing the binding of the Ndc80 complex with both kinetochore partners. In order to test this hypothesis
+     <em>
+      in vitro
+     </em>
+     , recombinant Ndc80 complex including the 25V159D mutation was produced in bacteria and its binding to the Mtw1 complex was tested by analytical size-exclusion chromatography. For this purpose, we used a version of the Mtw1 complex harbouring a deletion of the first 171 amino acids of Dsn1 (Dsn1
+     <sup>
+      ΔN
+     </sup>
+     ); this deletant is functional
+     <em>
+      in vivo
+     </em>
+     and less prone to degradation in solution (
+     <xref ref-type="bibr">
+      Hornung et al, 2011
+     </xref>
+     ). Confirming our hypothesis, the Ndc80
+     <sup>
+      25V159D
+     </sup>
+     complex failed to form a 1:1 interaction with the Mtw1
+     <sup>
+      Dsn1ΔN
+     </sup>
+     complex when mixed in equimolar concentrations (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). The same result was observed for the Ndc80
+     <sup>
+      24L160D
+     </sup>
+     complex (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ), demonstrating that Cnn1 and the Mtw1 complex are not only competitors for binding to the Ndc80 complex (
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ), but that they also target the same Spc24-25 hydrophobic pocket.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Identification of an essential Ndc80–Mtw1 interface. (
+       <strong>
+        A
+       </strong>
+       ) Asci dissection of Δ
+       <em>
+        spc25
+       </em>
+       /Spc25 Spc25
+       <sup>
+        WT
+       </sup>
+       (left) and Δ
+       <em>
+        spc25
+       </em>
+       /Spc25 Spc25
+       <sup>
+        V159D
+       </sup>
+       (right). The viable Δ
+       <em>
+        spc25
+       </em>
+       Spc25
+       <sup>
+        WT
+       </sup>
+       spores are highlighted with a light blue square. The Δ
+       <em>
+        spc25
+       </em>
+       Spc25
+       <sup>
+        V159D
+       </sup>
+       spores, marked with a red rectangle, failed to be recovered, indicating that V159D is a lethal Spc25 mutation. (
+       <strong>
+        B
+       </strong>
+       ) Elution profiles and Coomassie-stained gels of analytical size-exclusion chromatography performed with 4 μM Mtw1
+       <sup>
+        Dsn1(172–576)
+       </sup>
+       complex (Mtw1C
+       <sup>
+        Dsn1(172–576)
+       </sup>
+       ), 4 μM wild-type Ndc80 complex (Ndc80C) and their combination (left); 4 μM Mtw1
+       <sup>
+        Dsn1(172–576)
+       </sup>
+       complex, 4 μM Ndc80 complex including the Spc25
+       <sup>
+        V159D
+       </sup>
+       mutant (Ndc80C
+       <sup>
+        25V159D
+       </sup>
+       ) and their combination (right). Complex formation is visualized by a shift to earlier elution volumes of both molecules. (
+       <strong>
+        C
+       </strong>
+       ) Multiple-sequence alignment of a conserved C-terminal motif in Dsn1 proteins. Background colouring of residues is based on the Clustalx colouring scheme. Amino acids omitted before the stop are given in brackets. Amino acids mutated and tested in the plasmid shuffle assays are marked with an arrow. (
+       <strong>
+        D
+       </strong>
+       ) Elution profiles and Coomassie-stained gels of analytical size-exclusion chromatography performed with 4 μM Mtw1C
+       <sup>
+        Dsn1(172–547)
+       </sup>
+       , 4 μM wild-type Ndc80C and their combination. The lack of a shift to earlier elution volumes of both molecules indicates abolished complex formation. (
+       <strong>
+        E
+       </strong>
+       ) Plasmid shuffle assays performed transforming Δ
+       <em>
+        dsn1
+       </em>
+       Dsn1:URA strain with Dsn1 wild type (WT), Dsn1
+       <sup>
+        172–576
+       </sup>
+       (172–576), Dsn1
+       <sup>
+        1–547
+       </sup>
+       (1–547) and the mutants Dsn1
+       <sup>
+        L562D, L563D
+       </sup>
+       (L562D, L563D) and Dsn1
+       <sup>
+        K564A
+       </sup>
+       (K564A). Single clones were spotted in two-fold dilutions on minimal medium lacking (left panel, SC) or containing (right panel) 5-FOA. Red rectangles highlight the lethality of mutants Dsn1
+       <sup>
+        1–547
+       </sup>
+       and Dsn1
+       <sup>
+        L562D, L563D
+       </sup>
+       . (
+       <strong>
+        F
+       </strong>
+       ) Plasmid shuffle assay executed as in (
+       <strong>
+        E
+       </strong>
+       ) testing the functionality of a Dsn1 version where the last C-terminal 29 amino acids were substituted by the Cnn1 residues 60–84 (Dsn1
+       <em>
+        switch
+       </em>
+       , in schematic representation underneath the panel). The red rectangle encloses the viable Dsn1
+       <em>
+        switch
+       </em>
+       mutant.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Identification of a Cnn1-related Ndc80 receptor motif in the four-protein Mtw1 complex
+    </title>
+    <p>
+     In case the Cnn1 N-terminus and the Mtw1 complex are bound similarly to the Spc24-25 globular domain, being accommodated in the same hydrophobic pocket, then a Cnn1-related interaction motif for Ndc80 may be present in any of the subunits of the Mtw1 complex. To uncover such a motif, we built a hidden-Markov model (HMM) from fungal sequences spanning the CENP-T N-terminal motif and searched against homologues of the Mtw1 complex subunits Mtw1, Nnf1, Nsl1, and Dsn1. Although the results were statistically non-significant, eight of the nine hits with a positive score (
+     <em>
+      E
+     </em>
+     values, 0.32–5.4) mapped to the extreme carboxy-terminal region of Dsn1 proteins. An analysis of the conservation pattern and secondary structure predictions from all Mtw1 complex-family members shows that especially in Dsn1 proteins this C-terminal region is separated from the central conserved domain by a polar linker region of variable length. In a focused search for conserved motifs within this region using MEME (
+     <xref ref-type="bibr">
+      Bailey et al, 2009
+     </xref>
+     ), we identified an 11-amino acid long sequence that overlapped with the hits from the HMM search (
+     <em>
+      S. cerevisiae
+     </em>
+     Dsn1 aa 557–568) (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ).
+    </p>
+    <p>
+     As an initial test for the involvement of the Dsn1 carboxy-terminal region in Ndc80 binding, a stop codon was introduced at position 548 of Dsn1
+     <sup>
+      172–576
+     </sup>
+     and the interaction between the Mtw1
+     <sup>
+      Dsn1(172–547)
+     </sup>
+     complex and the Ndc80 complex was analysed by analytical size-exclusion chromatography. Strikingly, the deletion of the 29 terminal residues of Dsn1, although not compromising Mtw1 complex assembly, completely disrupted the binding to the Ndc80 complex (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). We next analysed the functional role of the Dsn1 C-terminal part
+     <em>
+      in vivo
+     </em>
+     using a plasmid shuffle assay. To this end, we transformed a haploid Δ
+     <em>
+      dsn1
+     </em>
+     strain, kept viable by expression of wild-type Dsn1 from a URA-based centromeric plasmid, with the Dsn1
+     <sup>
+      1–547
+     </sup>
+     truncation mutant lacking the last 29 amino acids. In contrast to full-length wild-type Dsn1 and the amino-terminal truncation Dsn1
+     <sup>
+      172–576
+     </sup>
+     , Dsn1
+     <sup>
+      1–547
+     </sup>
+     was not able to support growth on 5-FOA plates (
+     <xref ref-type="fig">
+      Figure 4E
+     </xref>
+     ). Thus, the Dsn1 C-terminus has an essential function
+     <em>
+      in vivo
+     </em>
+     . In order to further dissect the carboxy-terminal region of Dsn1, point mutations of the amino acids conserved in different Dsn1 proteins were introduced, in particular L562D-L563D or K564A (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ), and tested in the plasmid shuffle assay. While mutation of K564 did not affect viability, the double mutant Dsn1
+     <sup>
+      L562D–L563D
+     </sup>
+     was not able to complement the loss of Dsn1, indicating that these conserved hydrophobic amino acids are essential for Dsn1 function. Finally, we tested if the two binding motifs in the Ndc80 recruiters interact similarly with the Spc24-25 hydrophobic pocket by asking whether they were exchangeable. For this purpose, we built a version of Dsn1 in which the last 29 amino acids were substituted with the Cnn1
+     <sup>
+      60-84
+     </sup>
+     peptide (Dsn1
+     <em>
+      switch
+     </em>
+     ) and performed a Δ
+     <em>
+      dsn1
+     </em>
+     rescue experiment using the plasmid shuffle assay. Expression of Dsn1
+     <em>
+      switch
+     </em>
+     was able to support viability in the absence of wild-type Dsn1 (
+     <xref ref-type="fig">
+      Figure 4F
+     </xref>
+     ). These results strongly indicate that the mode of Dsn1 binding to Spc24-25 is structurally similar to the Cnn1–Spc24-25 interaction and that the two motifs are functionally identical.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     A secondary motif in the N-tail is required for Cnn1 function
+     <em>
+      in vivo
+     </em>
+    </title>
+    <p>
+     The Cnn1-derived peptide displayed only moderate affinity towards the Spc24-25 domain (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =3.5 μM). However, the larger Cnn1 fragment missing only the HFD (Cnn1ΔHFD) interacted with Spc24-25G with a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 16 nM (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , left panel), more similar to the nanomolar-range affinities observed between Ndc80 and Mtw1 complexes
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      Petrovic et al, 2010
+     </xref>
+     ). This finding, together with the unexpected binding orientation of the Cnn1 α helix and the presence of a conserved groove located on the opposite side of the Spc24-25 globular domain (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ), prompted us to ask whether additional parts of the Cnn1 N-terminus might be involved in Spc24-25 binding, thus wrapping around the globular domain and increasing the overall strength of the interaction. A sequence alignment exclusively of fungal CENP-T proteins (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ) showed that apart from the main conserved motif, two additional short segments, in budding yeast located ∼40 amino acids carboxy-terminal of the main binding site (Cnn1 aa 130–166), show significant conservation among species (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). In order to test if these regions (B and C) were responsible for the increased affinity between Cnn1ΔHFD and Spc24-25G, we performed an ITC experiment using a version of Cnn1ΔHFD deleted of the amino acids 130–166 (Cnn1ΔHFD
+     <sup>
+      ΔBC
+     </sup>
+     ). Removing ‘BC' only had a minor effect on the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of the interaction (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ), suggesting that the amino acids 130–166 are not taking part in the Cnn1/Spc24-25G binding interface, but that other segments, upstream or downstream the Cnn1 main binding motif, could be responsible for establishing additional contacts with the Spc24-25 globular domain and thus increase the overall affinity.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Functional dissection of the Cnn1 N-tail. (
+       <strong>
+        A
+       </strong>
+       ) Conservation of Spc24-25 plotted onto the structure of the Spc24-25 globular domain. Highly conserved surfaces are coloured in yellow and less conserved surfaces in blue. Note the presence of conserved residues in the Cnn1 binding pocket and on the opposite site of the globular domain. (
+       <strong>
+        B
+       </strong>
+       ) Multiple sequence alignment of an N-terminal region in Cnn1 homologues.
+       <em>
+        S. cerevisiae
+       </em>
+       (above) and
+       <em>
+        S. pombe
+       </em>
+       (below) secondary structure predictions are derived from the Jpred 3 server (α helices in red and β strands in green) (
+       <xref ref-type="bibr">
+        Cole et al, 2008
+       </xref>
+       ). Background colouring of the residues is based on the Clustalx colouring scheme. The number of omitted residues is indicated in brackets. See
+       <a>
+        Supplementary Figure S5
+       </a>
+       for alignment of more sequences. (
+       <strong>
+        C
+       </strong>
+       ) Isothermal titration calorimetry performed by titrating the Spc24-25 globular domain (Spc24-25G) with Cnn1 deleted of the histone-fold domain (Cnn1ΔHFD) on the left, or additionally deleted of residues 130–166 (Cnn1ΔHFD
+       <sup>
+        ΔBC
+       </sup>
+       ) on the right. Note the very similar
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       values, estimated by fitting a non-linear curve to the derived binding isotherms. (
+       <strong>
+        D
+       </strong>
+       ) Stability of acentric URA3 mini-chromosomes segregated through artificial recruitment of Cnn1ΔHF-TetR. The respective Cnn1 construct is indicated in the left panel (dotted lines indicate the position of the deletion), the corresponding mini-chromosome stability on the right. Error bars denote s.e.m. (
+       <em>
+        n
+       </em>
+       =3).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We then wondered whether the conserved region ‘BC' might contribute to Cnn1 function
+     <em>
+      in vivo
+     </em>
+     . As a
+     <em>
+      cnn1
+     </em>
+     deletion is viable in budding yeast the assessment of individual Cnn1 mutations in a wild-type background is difficult (
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ). To probe the role of Cnn1 mutations
+     <em>
+      in vivo
+     </em>
+     , we therefore used a plasmid segregation assay in which Cnn1, artificially tethered via the TetR-
+     <em>
+      tetO
+     </em>
+     system, drives the segregation of an acentric mini-chromosome in budding yeast (
+     <xref ref-type="bibr">
+      Kiermaier et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ). This experiment therefore serves as a quantitative reporter assay for Cnn1 function
+     <em>
+      in vivo
+     </em>
+     . We dissected the function of the Cnn1 N-tail with a panel of deletion mutants (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ): as demonstrated before, elimination of the conserved motif visualized in the crystal structure (segment ‘A', residues 65–79) nearly completely abrogated Cnn1-mediated plasmid segregation (
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ), demonstrating that the plasmid-stabilizing activity depended on the ability to interact with the Ndc80 complex. In contrast, large truncations between the binding motif and the histone-fold (delta 193–270 or delta 175–270) were tolerated and had no effect on plasmid segregation. Interestingly, the deletion of residues 130–166, which removes the conserved segments ‘BC', severely impaired plasmid stability, although not to the same degree as removal of segment ‘A'. By contrast, a substantial portion of the polypeptide chain between segments ‘A' and ‘BC' could be eliminated (delta 91–125) without compromising Cnn1 function in this assay. We conclude that the ‘BC' secondary motif, located carboxy-terminal of the main conserved interaction site, although not directly involved in binding to the Ndc80 complex, makes important contributions to Cnn1 function
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Phospho-regulation of the Cnn1 N-tail by Cdk1 and Mps1 kinases
+    </title>
+    <p>
+     Cnn1 is a phospho-protein
+     <em>
+      in vivo
+     </em>
+     and has been recognized as a target of the mitotic kinases Cdc28 and Mps1 (
+     <xref ref-type="bibr">
+      Loog and Morgan, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Breitkreutz et al, 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bock et al, 2012
+     </xref>
+     ). We confirmed phosphorylation of Cnn1 by Cdk1 and Mps1 kinases and mapped phosphorylation sites by mass spectrometry following
+     <em>
+      in vitro
+     </em>
+     phosphorylation (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ;
+     <a>
+      Supplementary Table 3
+     </a>
+     ). The target residues for both kinases were located in the N-terminal tail. Interestingly, while the five minimal Cdk1 consensus sites (Thr3, Thr21, Thr42, Ser177, and Ser192) were distributed throughout the N-terminal domain, a number of the mapped Mps1 target sites were located within the conserved regions, most notably Ser74 in the Ndc80-binding element ‘A' and the cluster Thr134, Ser135, and Thr139 in the functionally essential element ‘B'. Mutation of these sites to alanine eliminated Mps1-dependent Cnn1 phosphorylation
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). Analysis of the Cnn1 migration pattern on Phos-Tag gels supported the notion that Cnn1 is an Mps1 substrate
+     <em>
+      in vivo
+     </em>
+     : upon overexpression of Mps1 from a
+     <em>
+      GAL
+     </em>
+     promoter, an increase in the number of slowly migrating Cnn1 isoforms could be detected by western blot (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). Cnn1 phosphorylation over the cell cycle was maximal in S phase, which became apparent in hydroxyurea-arrested cells. Eliminating Mps1 phosphorylation sites with the 11A mutation reduced some of the slowly migrating bands, while mutating the Cdk1 sites (Cnn1-5A) nearly completely abolished the phosphorylation as judged by Phos-Tag western blot (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Phospho-regulation of the Cnn1 N-tail by Cdk1 and Mps1 kinases. (
+       <strong>
+        A
+       </strong>
+       ) Position of Cdk1 and Mps1 phosphorylation sites in Cnn1 as obtained from
+       <em>
+        in vitro
+       </em>
+       phosphorylation and mass spectrometry. See
+       <a>
+        Supplementary Table 3
+       </a>
+       for a detailed description. (
+       <strong>
+        B
+       </strong>
+       ) Mutation of the mapped Mps1 phosphorylation sites eliminates Mps1-dependent phosphorylation of Cnn1
+       <em>
+        in vitro
+       </em>
+       . Autoradiography showing kinase reactions with recombinant wild-type and 11A-mutant Cnn1ΔHF phosphorylated by GST-Mps1. (
+       <strong>
+        C
+       </strong>
+       ) Overexpression of Mps1 increases phospho-isoforms of Cnn1
+       <em>
+        in vivo
+       </em>
+       . Phos-Tag western blot of Cnn1–6 × Flag in the absence or presence of Mps1 overexpression. (
+       <strong>
+        D
+       </strong>
+       ) Alanine mutations of the mapped Cdk1 and Mps1 sites reduce or abolish Cnn1 phospho-isoforms as judged by Phos-Tag western blot. (
+       <strong>
+        E
+       </strong>
+       ) Effects of phospho-eliminating or phospho-mimicking mutations on Cnn1-mediated mini-chromosome segregation. The Cnn1 construct is indicated in the left panel, the corresponding plasmid stability on the right. Error bars denote s.e.m.
+       <em>
+        n
+       </em>
+       =3. (
+       <strong>
+        F
+       </strong>
+       ) Location of Ser74 in the Spc24-25–Cnn1 structure. Note that Ser74 is located in the Cnn1 binding pocket. Electrostatic potential coding: blue, −71 kT/e; red, +71 kT/e. (
+       <strong>
+        G
+       </strong>
+       ) Coomassie-stained gels of analytical size-exclusion chromatography performed with 12 μM Spc24-25, 12 μM Cnn1ΔHFD, and their combination (above); 12 μM Spc24-25, 12 μM Cnn1ΔHFD
+       <sup>
+        S74D
+       </sup>
+       , and their combination (below). The abolished complex formation caused by S74D mutation is indicated by the lack of a shift to earlier elution volumes of both molecules. (
+       <strong>
+        H
+       </strong>
+       ) Co-immunoprecipitation experiments from log-phase cell extracts visualizing the interaction between Cnn1–6 × Flag wild-type and S74D or S74A mutants with Nuf2–13 × myc (Ndc80 complex). The intensity of the bands relative to the wild-type Cnn1 is reported below the western blot and quantified for the S74A mutant compared to the wild type in the lower panel. Error bar denotes s.e.m. (
+       <em>
+        n
+       </em>
+       =3). (
+       <strong>
+        I
+       </strong>
+       ) Spot assays performed by plating four-fold dilutions of the indicated strains at different temperatures on YPD plates.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We analysed the effects of phospho-inhibiting or phospho-mimicking mutations on Cnn1 function in the plasmid segregation assay. In the context of the Cnn1ΔHF-TetR construct, eliminating Cdk1 phosphorylation did not strongly affect mini-chromosome segregation (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ). This is in contrast to similar targeting experiments with human CENP-T in which the ability of recruiting the Ndc80 complex was abolished upon elimination of Cdk1 phosphorylation (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ). Mutations mimicking Cdk1 phosphorylation of Cnn1 (Cnn1-5D) decreased the efficiency of plasmid segregation slightly. Interestingly, however, mimicking phosphorylation of the Mps1 target residue Ser74 had a strong inhibitory effect on Cnn1-mediated plasmid segregation either in the context of the Cdk1 mutations (6D mutant) or alone (S74D mutant) (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ). This result could be explained by the particular position of Ser74 in the Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     –Cnn1
+     <sup>
+      60–84
+     </sup>
+     structure. The side chain of this residue is located at the interaction interface between Spc24-25 and Cnn1, with a buried surface area of 59.6 Å
+     <sup>
+      2
+     </sup>
+     , undergoing van der Waals contacts with several residues (
+     <xref ref-type="fig">
+      Figure 6F
+     </xref>
+     ). Therefore, the addition of a bulky phosphate group to this serine residue should cause steric and electrostatic problems, impairing complex formation and leading to the plasmid instability observed in the plasmid segregation assay.
+    </p>
+    <p>
+     To confirm this hypothesis, we tested the interaction between Spc24-25 full length and the phopsho-mimicking mutant Cnn1ΔHFD
+     <sup>
+      S74D
+     </sup>
+     <em>
+      in vitro
+     </em>
+     . Mutation of this single amino acid completely abrogated the Cnn1–Spc24-25 interaction, as judged by analytical size-exclusion chromatography (
+     <xref ref-type="fig">
+      Figure 6G
+     </xref>
+     ). To further investigate the effect of Ser74 phosphorylation
+     <em>
+      in vivo
+     </em>
+     , we performed immunoprecipitation experiments in log-phase extracts testing both the phoshpo-mimicking Cnn1 S74D and the phospho-inhibiting Cnn1 S74A mutants. We observed a complete abolishment of the Cnn1–Ndc80 interaction in the case of S74D, as expected from the analytical gel filtration experiments, and an increased association for the single mutant S74A (
+     <xref ref-type="fig">
+      Figure 6H
+     </xref>
+     ). Thus, Cnn1 Ser74 is involved in the Cnn1–Ndc80 phospho-regulation
+     <em>
+      in vivo
+     </em>
+     . As an effect of these altered interactions, we noticed interesting phenotypes in the strain background used for the co-immunoprecipitation experiments, which contained epitope-tagged Nuf2 (Ndc80 complex) and Nnf1 (Mtw1 complex) subunits. Upon integration of Cnn1-WT, the strain displayed growth defects at 37°C which are rescued by the S74D mutant and slightly increased in the case of S74A (
+     <xref ref-type="fig">
+      Figure 6I
+     </xref>
+     ). However, the weak phenotype of the single S74A mutation suggested that additional phosphorylation sites could be involved in regulating the Cnn1–Ndc80 complex interaction. For this reason, we constructed a Cnn1 mutant in which the mapped Cdk1 and Mps1 sites were mutated to alanine (Cnn1-16A). When analysed by Phos-Tag western blot, this mutant abolished the slowly migrating phospho-isoforms over the cell cycle (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). In co-immunoprecipitation experiments using log-phase extracts, Cnn1-16A displayed a strongly increased association with the Ndc80 complex, consistent with the notion that multiple phosphorylation sites could serve to modulate the interaction (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). Moreover, we noticed that in the Nuf2–13myc Nnf1–3HA strain background, expression of Cnn1-16A caused a growth defect at 37°C. Importantly, this phenotype was the opposite of deleting Cnn1 which improved growth at 37°C (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     ). In order to further characterize the Cnn1-16A phenotype, we followed the cell-cycle progression after α-factor release and observed chromosome segregation using immunofluorescence microscopy. The Nuf2–13myc Nnf1-3HA background strain displayed a pronounced cell-cycle delay at 37°C that was partially restored by the expression of Cnn1-16A, but not Cnn1 wild-type (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     ). When spindles were visualized by microscopy, however, the Nuf2–13myc Nnf1–3HA Cnn1-16A strain showed pleiotropic mitotic defects, such as unequal segregation and short spindles with ‘cut' DNA (
+     <a>
+      Supplementary Figure S6
+     </a>
+     ).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Characterization of the phospho-inhibiting Cnn1-16A mutant. (
+       <strong>
+        A
+       </strong>
+       ) Phos-Tag western blot showing wild-type or phosphorylation-deficient Cnn1 in the course of the cell cycle after an α-factor release. Note the absence of phospho-isoforms in the Cnn1-16A mutant. (
+       <strong>
+        B
+       </strong>
+       ) Co-immnuoprecipitation experiment testing the association between Nuf2–myc (Ndc80 complex) and Cnn1 wild-type or phosphorylation-deficient Cnn1-16A mutant. (
+       <strong>
+        C
+       </strong>
+       ) Serial dilution assay comparing growth of Cnn1 wild type, Cnn1 deletion, and non-phosphorylatable Cnn1 in a Nuf2−myc, Nnf1−HA, background. Note the temperature sensitivity of the Cnn1-16A mutant. (
+       <strong>
+        D
+       </strong>
+       ) Percentage of large budded cells after α-factor release, counted for 100 cells at each time point at permissive or restrictive temperature (37°C).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     These experiments indicate that while deleting Cnn1 does not produce a strong phenotype in wild-type budding yeast, non-regulatable Cnn1 may compete too early with the Mtw1 complex for Ndc80 binding leading to mitotic defects. Thus, the control of the Cnn1–Ndc80 interaction, including the phosphorylation of Ser74 by Mps1, is important to support proper chromosome segregation.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <sec>
+    <title>
+     Principles of Ndc80 complex kinetochore recruitment
+    </title>
+    <p>
+     For proper kinetochore function, the linkage of the Ndc80 complex to the inner centromere should fulfill several criteria. First, since multiple Ndc80 complexes must engage with the same microtubule plus-end, it should provide structural flexibility, allowing the complexes to move relative to each other in order to establish a firm connection to the microtubule. Second, the connection must be very secure to resist the pulling forces of the mitotic spindle on the chromosome. This becomes critical in anaphase when maximum forces act on the chromosomes, but error correction mechanisms that would detect unattached chromosomes have been deactivated (
+     <xref ref-type="bibr">
+      Mirchenko and Uhlmann, 2010
+     </xref>
+     ). Finally, the linkage between the Ndc80 complex and the inner centromere should be regulated in order to control recruitment or differential interactions with one or more kinetochore partners. The Cnn1–Ndc80 complex crystal structure provides the first insights of how the kinetochore fulfills these diverse requirements.
+    </p>
+    <p>
+     The Ndc80 receptor motif of Cnn1 is located in a largely unstructured N-terminal tail of Cnn1, adopting an α-helical conformation in complex with its conserved cognate binding interface (
+     <xref ref-type="fig">
+      Figure 8A
+     </xref>
+     ). The anti-parallel orientation compared to Spc24-25 suggests that other residues could be involved in the binding interface, increasing the affinity to nanomolar range and allowing the histone-fold containing C-terminus to project towards the centromere. In agreement with this hypothesis, the crystal structure of a chicken 35-aa CENP-T peptide in complex with Spc24-25 indicates the same conserved helix as main binding site, but a number of additional amino acids wrapping around the Spc24-25 globular domain (Tatsuo Fukagawa, personal communication). These residues are not as conserved as the Cnn1 helix, but still may contribute to increase the Cnn1–Spc24-25 interaction strength. In this configuration, Cnn1/CENP-T could effectively act as a ‘molecular hook' and securely tether the Ndc80 complex to the inner kinetochore. This type of configuration shows similar high-affinity binding than large
+     <em>
+      en-bloc
+     </em>
+     interfaces but has the benefit of providing the kinetochore larger conformational flexibility.
+    </p>
+    <fig id="f8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <p>
+       Model for coordinated interaction of the Ndc80 complex with two centromere recruiters. (
+       <strong>
+        A
+       </strong>
+       ) The Mtw1 complex and the histone-fold protein complex Cnn1-Wip1 are mutually exclusive binding partners for the Ndc80 complex, containing structurally related binding motifs (orange boxes) that interact with the same hydrophobic pocket in Spc24-25. (
+       <strong>
+        B
+       </strong>
+       ) Coordination of Ndc80 binding requires phosphorylation of the Cnn1 N-terminus. During early mitosis, where the activity of Cdk1 and Mps1 is high, phosphorylation of the Cnn1 N-terminus decreases the affinity for Ndc80 binding and thus promotes formation of the essential Ndc80–Mtw1 linkage. With decreasing Cdk1 and Mps1 activity over the cell cycle, Cnn1 effectively competes with the Mtw1 complex for Ndc80 binding.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In the attempt to find other Spc24-25 binding sites downstream the main Cnn1 motif, we analysed the two conserved segments ‘B' and ‘C'. The ITC and the mini-chromosome segregation experiments suggest that, although not implicated in Spc24-25 binding, these segments are required for Cnn1-dependent plasmid segregation. ‘B' and ‘C' may establish important contacts with other KMN or CCAN components that are present in the Cnn1-driven artificial kinetochores. Additional experiments will be required in the future to uncover the exact role of these conserved motifs.
+    </p>
+    <p>
+     It is interesting to compare the Ndc80–Cnn1 interface to the recently reported structure of the RWD domain protein Csm1 in complex with its binding partner Mam1 (
+     <xref ref-type="bibr">
+      Corbett and Harrison, 2012
+     </xref>
+     ). In this structure, Mam1 shows an extended conformation that drapes across the Csm1 surface, which resembles the binding mode of longer Cnn1 fragments. On the other hand, Mam1 adopts only short helical segments and does not display obvious similarity with the quite long and well-defined Cnn1 helix. Together with the divergent primary sequence of RWD proteins, this suggests that there could be structural plasticity in their interaction with respective binding partners.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mechanism of KMN network assembly in budding yeast
+    </title>
+    <p>
+     Our structural characterization of the Ndc80–Cnn1 interface has allowed us to identify a similar interaction domain in the Mtw1 complex. The stable association between these two four-protein complexes, and thus the assembly of the KMN network, depends on a hydrophobic peptide motif located in the carboxy-terminus of the Dsn1 subunit (
+     <xref ref-type="fig">
+      Figure 8A
+     </xref>
+     ). This small region behaves similarly to Cnn1 segment ‘A', as the two motifs can be switched without affecting viability. In human cells, the C-terminal domain of the Nsl1 subunit is required for the interaction between Ndc80 and Mtw1 complexes (
+     <xref ref-type="bibr">
+      Petrovic et al, 2010
+     </xref>
+     ). The budding yeast Nsl1 carboxy-terminus lacks sequence homology to its human counterpart and the yeast Mtw1 complex may therefore rely critically on the Dsn1 subunit for connecting to Ndc80. However, additional binding motifs within the Mtw1 complex, possibly present in other subunits, could also take part in the interaction with the Ndc80 complex. Interestingly, the hydrophobic region we identified in the Dsn1 subunit (in particular a pair of conserved Leucines, residues S.c. Leu562, Leu563) is present in human Dsn1. It will be interesting to test whether this motif also contributes to KMN assembly in human cells.
+    </p>
+    <p>
+     Our results show that, although the connection between Mtw1 and Ndc80 complexes is essential in budding yeast, while the Ndc80–Cnn1 interaction is not, both Ndc80-recruitment pathways rely on similar binding modules, located at the terminal regions of the Cnn1 and Dsn1 subunits. The functional differences between these two types of Ndc80 linkages to the inner kinetochore therefore remain to be established. Experiments designed to compare kinetochore-microtubule interactions in the presence or absence of Ndc80–Cnn1 linkages both
+     <em>
+      in vitro
+     </em>
+     and
+     <em>
+      in vivo
+     </em>
+     will be required to address this point.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Differential requirements for Cnn1/CENP-T phospho-regulation between yeast and humans
+    </title>
+    <p>
+     Cdk1 phosphorylation of the N-terminus of CENP-T has been shown to play an important role in kinetochore assembly in human cells (
+     <xref ref-type="bibr">
+      Gascoigne et al, 2011
+     </xref>
+     ) and it is required for a high-affinity interaction between chicken CENP-T and Spc24-25 (Tatsuo Fukagawa, personal communication). Our experiments indicate that Cdk1 phosphorylation of the Cnn1 N-terminal tail is not required for the interaction between Ndc80 complex and Cnn1. Supporting this observation, the association between the proteins in budding yeast is predominantly detected in anaphase, when Cdk1 activity is low (
+     <xref ref-type="bibr">
+      Bock et al, 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ). These differences in phospho-regulation of CENP-T proteins between budding yeast and humans may reflect the fundamental differences in the regulation of kinetochore assembly: in budding yeast, kinetochores stay assembled and attached to microtubules throughout most of the cell cycle, with the exception of a brief period during S phase when centromeric DNA is replicated (
+     <xref ref-type="bibr">
+      Kitamura et al, 2007
+     </xref>
+     ). By contrast, the microtubule-binding interface of the kinetochore in human cells starts to assemble during prophase and microtubules become available for interaction after nuclear envelope breakdown (
+     <xref ref-type="bibr">
+      Cheeseman and Desai, 2008
+     </xref>
+     ). Our experiments indicate that phosphorylation by the mitotic kinase Mps1 plays a role in regulating the interaction between the Ndc80 complex and Cnn1, in particular by phosphorylating Ser74 which is located at a key position in the binding interface. The coordination of the Ndc80 interaction with its centromere receptors is critical for the cell: our experiments using point mutants in Dsn1 clearly demonstrate that the Mtw1–Ndc80 linkage is required for viability. Mtw1 and Ndc80 complexes seem to be present in a near stoichiometric ratio at kinetochores and their copy number does not change significantly over the cell cycle (
+     <xref ref-type="bibr">
+      Joglekar et al, 2006
+     </xref>
+     ). We propose that high Cdk1 and Mps1 activity during S phase and early mitosis promotes the formation of the essential Mtw1–Ndc80 linkage by inhibiting the Cnn1–Ndc80 interaction. With decreasing Cdk1 and Mps1 activity, as cells go through anaphase, dephosphorylation promotes the formation of Cnn1–Ndc80 connections leading to a structural rearrangement of the kinetochore, which may be optimized for chromosome segregation (
+     <xref ref-type="fig">
+      Figure 8B
+     </xref>
+     ). The profile of Mps1 activity, which is high during S phase and early mitosis and decreases gradually as yeast cells go through anaphase (
+     <xref ref-type="bibr">
+      Palframan et al, 2006
+     </xref>
+     ), is consistent with the timing of the Ndc80–Cnn1 association
+     <em>
+      in vivo
+     </em>
+     . Our analysis of phosphorylation-deficient Cnn1 indicates that establishing the interaction between Cnn1 and Ndc80 prematurely can be problematic, because it interferes with the formation of the essential Ndc80–Mtw1 complex linkage. Recent studies indicate substantial anaphase-specific structural alterations in the CENP-A nucleosome present at centromeres (
+     <xref ref-type="bibr">
+      Shivaraju et al, 2012
+     </xref>
+     ). This finding supports the notion that kinetochore architecture may change dynamically over the cell cycle. We note that the observed phospho-regulation of Cnn1 did not prevent the chimaeric Dsn1
+     <em>
+      switch
+     </em>
+     protein from supporting yeast growth. The reason may be that Ser74 is not effectively phosphorylated in the context of the hybrid protein because Dsn1
+     <em>
+      switch
+     </em>
+     is lacking the other Cdk1 and Mps1 target sites, whose phosphorylation could be required for Ser74 modification.
+    </p>
+    <p>
+     In summary, the structure of the Cnn1–Ndc80 complex interface provides detailed insights into the association between kinetochore components. The identification of a Cnn1-related motif in the Mtw1 complex may point to the presence of short interaction modules as a general mechanism for the establishment of kinetochore architecture. Finally, histone tails are well known for their fundamental roles in the regulation of chromatin. The tail domain of the histone-fold protein Cnn1 provides an interesting example for the usage of such a domain in the context of the kinetochore architecture, revealing what might be an evolutionary old principle to link microtubule-binding factors to chromosomes.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein biochemistry
+    </title>
+    <p>
+     Mutant versions of recombinant proteins were generated using Quikchange Multi Site-Directed mutagenesis (Agilent Technologies). All versions of His-tagged Spc24-25 full length and globular domain were cloned in cassettes 1 and 2 of the pETduett-1 vector (Novagen) and co-expressed in
+     <em>
+      E. coli
+     </em>
+     . Mtw1
+     <sup>
+      Dsn1(172–576)
+     </sup>
+     complex, Mtw1
+     <sup>
+      Dsn1(172–547)
+     </sup>
+     complex, and Ndc80 complex subunits Nuf2 and Ndc80 were cloned and expressed as described in
+     <xref ref-type="bibr">
+      Schleiffer et al (2012)
+     </xref>
+     and Lampert
+     <em>
+      et al
+     </em>
+     (2010). For details, see
+     <a>
+      Supplementary experimental procedures
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and data collection
+    </title>
+    <p>
+     Prior to crystallization trials, 0.34 mM Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     was pre-incubated with 5.8 mM synthetic Cnn1 peptide, comprising residues 60–84 (Cnn1
+     <sup>
+      60–84
+     </sup>
+     ). Sitting drop crystallization experiments yielded rectangular crystals that appeared after 3 days of vapour diffusion at 20°C in a 0.2-μl drop containing a 1:1 mixture of protein and precipitant solution (15% PEG6000, 5% glycerol). Prior to flash freezing in liquid nitrogen, a single crystal was shortly soaked in a cryoprotectant solution composed of 60% precipitant solution, 18% glycerol, and 22% gel filtration buffer (10 mM Bis-Tris propane pH 7.6, 250 mM NaCl, and 10 mM DTT). The crystal diffracted to a maximum resolution of 2.0 Å at the P14 beamline of PETRA-III at DESY (Deutsches Elektronen-Synchrotron, Hamburg, Germany). The diffraction data were processed with XDS (
+     <xref ref-type="bibr">
+      Kabsch, 2010
+     </xref>
+     ) and intensities merged with SCALA of the CCP4 program suite (
+     <xref ref-type="bibr">
+      CCPN, 1994
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystal structure determination, refinement, and analysis
+    </title>
+    <p>
+     The structure was solved by molecular replacement with phaser (
+     <xref ref-type="bibr">
+      McCoy et al, 2007
+     </xref>
+     ) using the crystal structure of the Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     (PDB code 2FTX, Wei
+     <em>
+      et al
+     </em>
+     , 2006) as search model. The two molecules in the asymmetric unit (chains B-A and D-C) were refined with CNS (
+     <xref ref-type="bibr">
+      Brunger et al, 1998
+     </xref>
+     ). Additional electron density appearing in the hydrophobic pocket at the interface between Spc24 and Spc25 of both molecules was manually built-in using Coot (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ) as the Cnn1 peptide containing residues 61–79 (chain F, in B-A) and 62–79 (chain E, in D-C). In later refinement stages, several loops undergoing rearrangements compared to the Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     structure had to be manually fitted into the Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     –Cnn1
+     <sup>
+      60–84
+     </sup>
+     electron density. Corresponding loops are composed of Spc24 residues 174–177, 183–186, and 194–199 and of Spc25 residues 152–157, 164–168 and 175–180. The resultant complete and adjusted model was refined with Phenix (
+     <xref ref-type="bibr">
+      Afonine et al, 2012
+     </xref>
+     ), applying non-crystallographic symmetry (NCS) restraints. Water molecules were added with Phenix and manually checked. The last refinement cycles were performed with Buster (
+     <xref ref-type="bibr">
+      Blanc et al, 2004
+     </xref>
+     ), using TLS (Translation Libration Screw-motion) and NCS restraints. The program PROCHECK (
+     <xref ref-type="bibr">
+      Laskowski et al, 1996
+     </xref>
+     ) was used for validating the stereochemistry of the final model as summarized in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     .
+    </p>
+    <p>
+     In the final model, all residues of Spc24
+     <sup>
+      155–213
+     </sup>
+     and Spc25
+     <sup>
+      133–221
+     </sup>
+     are well defined by the electron density, with exception of Lys184 (Spc24, B) and Lys184-Asn185 (Spc24, C), located in the flexible β2–β3 loop (average
+     <em>
+      B
+     </em>
+     values of 69.9–85.1 Å
+     <sup>
+      2
+     </sup>
+     compared to the average protein
+     <em>
+      B
+     </em>
+     factor of 37.0 Å
+     <sup>
+      2
+     </sup>
+     ).
+    </p>
+    <p>
+     The interacting surfaces between protein molecules in the asymmetric unit were analysed with PISA (
+     <xref ref-type="bibr">
+      Krissinel and Henrick, 2007
+     </xref>
+     ). The program CONTACT (CCP4 suite) was used to analyse the specific interactions between Spc24-25 and the Cnn1 peptide. Superposition of the Cα atoms of Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     –Cnn1
+     <sup>
+      60–84
+     </sup>
+     and Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     was performed using Superpose (
+     <xref ref-type="bibr">
+      Krissinel and Henrick, 2004
+     </xref>
+     ) considering all residues of Spc25
+     <sup>
+      133–221
+     </sup>
+     . All graphical representations were generated with PyMol (DeLano Scientific, San Carlos, CA, USA,
+     <a>
+      http://www.pymol.org
+     </a>
+     ), using the B-A-F complex in the asymmetric unit.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     ITC experiments were performed in 20 mM HEPES (pH 7.5) and 120 mM NaCl at 25°C using a VP-ITC calorimeter (Microcal Inc., Northampton, MA, USA). In all, 51 μM Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     wild type or mutants in the temperature-controlled sample cell was titrated with 400 μM Cnn1
+     <sup>
+      60–84
+     </sup>
+     in 29 individual injections of 10 μl. In all, 300 μM Cnn1ΔHFD or 275 μM Cnn1 ΔHFD
+     <sup>
+      ΔBC
+     </sup>
+     was used to titrate 40 μM Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     or 26 μM Spc24
+     <sup>
+      155–213
+     </sup>
+     -25
+     <sup>
+      133–221
+     </sup>
+     , respectively. Thermodynamic values of the interactions were obtained using Origin 7 (OriginLab Corp.) by fitting the binding isotherms with the non-linear least squares method, assuming one set of binding sites.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Interaction studies
+    </title>
+    <p>
+     Analytical size-exclusion chromatography was performed in 20 mM HEPES (pH 7.5) and 120 mM NaCl, with the addition of 5% glycerol for interaction analysis involving Cnn1ΔHFD. Spc24-25 wild type or mutants and Cnn1ΔHFD were used at 12 μM concentration and 50 μl was loaded on Superdex200 3.2/30. All variants of Mtw1 and Ndc80 complexes were diluted to 4 μM and 50 μl injected on Superose 6 3.2/30. When used in combination, proteins were incubated on ice for 30 min to allow complex formation. Fractions of 100 μl were collected and analysed by SDS–PAGE. In the interaction studies between Mtw1 and Ndc80 complexes, 40 μl of the analysed fractions was precipitated with acetone prior to SDS–PAGE. For co-immunoprecipitation experiments, lysates from log-phase cultures were prepared in 25 mM HEPES pH 8, 150 mM NaCl, 2 mM EDTA, 1 mM DTT and 5% glycerol (Lysis buffer) using a BeadBeater (BioSpec). In all, 3.5 mg of extract was incubated ON in presence of protease and phosphatase inhibitor cocktails (COMPLETE, PhosSTOP, Roche) with 30 μl pure Dynabeads Protein G (Novex) coupled with mouse anti-myc 9E10 Monoclonal antibody (COVANCE). The beads were washed five times with lysis buffer and proteins were eluted by boiling the sample 5 min in SDS–PAGE loading buffer. In all, 30 μg of the initial lysates as input and 5 or 20 μl of eluted proteins were separated by SDS–PAGE and analysed by western blot with mouse anti-FLAG-M2-Peroxidase (HRP) conjugated (SIGMA), mouse anti-myc and secondary anti-mouse-HRP conjugated (Jackson) antibodies. The relative intensities of the bands were quantified using ImageJ.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sequence analysis
+    </title>
+    <p>
+     Sequence homologues were collected within the NCBI non-redundant protein database, using NCBI-BLAST (version 2.2.24,
+     <em>
+      E
+     </em>
+     -values &lt;0.01) (
+     <xref ref-type="bibr">
+      Altschul et al, 1997
+     </xref>
+     ) and aligned with MAFFT (version 6, L-INS-I method) (
+     <xref ref-type="bibr">
+      Katoh and Toh, 2008
+     </xref>
+     ). Sequence accession numbers are listed in
+     <a>
+      Supplementary Table S2
+     </a>
+     . The alignments were visualized and processed with Jalview (Clustalx colouring scheme) (
+     <xref ref-type="bibr">
+      Waterhouse et al, 2009
+     </xref>
+     ). Profile HMM searches were performed with HMMER version 2.3.2 (
+     <xref ref-type="bibr">
+      Eddy, 1998
+     </xref>
+     ). The C-terminal motif in Dsn1 homologues was defined with MEME (one occurrence per sequence, motif width 5–15) (
+     <xref ref-type="bibr">
+      Bailey et al, 2009
+     </xref>
+     ). Spc24 and Spc25 sequence conservation values were calculated based on the alignments in
+     <a>
+      Supplementary Figure S2
+     </a>
+     using al2co, with an independent count-based sequencing weighting scheme, the sum-of-pairs measure conservation calculation method and the BLOSUM62 scoring matrix (
+     <xref ref-type="bibr">
+      Pei and Grishin, 2001
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Yeast genetics
+    </title>
+    <p>
+     Yeast strains are based on the S288C background and were generated by standard procedures. A list of the used yeast strains can be found in
+     <a>
+      Supplementary Table S1
+     </a>
+     . The mini-chromosome segregation assay was performed as described previously (
+     <xref ref-type="bibr">
+      Schleiffer et al, 2012
+     </xref>
+     ). For the plasmid shuffle assay, the
+     <em>
+      S. cerevisiae
+     </em>
+     strain SWY344 was transformed with pRS315 plasmids (LEU) carrying wild-type or mutated versions of Dsn1. Serial two-fold dilutions of ON cultures were prepared on 96-well plates in minimal medium starting from OD
+     <sub>
+      600
+     </sub>
+     =0.5. The dilutions were spotted on minimal medium without (SC) or with 5-FOA and grown at 25°C for 3 days. Spot assays for the analysis of Cnn1 phosphorylation mutants were performed by plating on YPD plates four-fold dilutions of ON cultures starting from OD
+     <sub>
+      600
+     </sub>
+     =0.6.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Immunofluorescence microscopy
+    </title>
+    <p>
+     Large budded cells were fixed with 5% formaldehyde after an α-factor release to the restrictive temperature (37°C). For microtubule visualization, spheroplasts were incubated ON with anti-alpha-tubulin monoclonal antibody (YOL134, Abcam) followed by secondary anti-rat Rhodamine-conjugated antibody (Abcam). DAPI (4′,6-diamidino-2-phenylindole) was used for DNA staining. Samples were visualized with an Axioplan2 microscope using a × 63/1.4 plan-apochromat Oil DIC objective and a CoolSnap HQ camera. Images were acquired and analysed with MetaMorph.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession numbers
+    </title>
+    <p>
+     The coordinates and the structure factors of the budding yeast Spc24-25–Cnn1 complex have been deposited in the Protein Data Bank with accession code
+     <a>
+      4GEQ
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (5.4M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Supplementary Table 3:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (37K, xls)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (394K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

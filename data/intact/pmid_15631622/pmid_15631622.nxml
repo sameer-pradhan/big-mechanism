@@ -1,0 +1,1087 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC1186706
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Interactions between Cdc42 and the scaffold protein Scd2: requirement of SH3 domains for GTPase binding
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The multi-domain protein Scd2 acts as a scaffold upon which the small GTPase Cdc42 (cell division cycle 42), its nucleotide-exchange factor Scd1 and the p21-activated kinase Shk1 assemble to regulate cell polarity and the mating response in fission yeast. In the present study, we show using isothermal titration calorimetry that Scd2 binds two molecules of active GTP-bound Cdc42 simultaneously, but independently of one another. The two binding sites have significantly different affinities, 21 nM and 3 μM, suggesting that they play distinct roles in the Shk1 signalling network. Each of the Cdc42-binding sites includes one of the SH3 (Src homology 3) domains of Scd2. Our data indicate that complex formation does not occur in a conventional manner via the conserved SH3 domain ligand-binding surface. Neither of the isolated SH3 domains is sufficient to interact with the GTPase, and they both require adjacent regions to either stabilize their conformations or contribute to the formation of the Cdc42-binding surface. Furthermore, we show that there is no evidence for an intramolecular PX–SH3 domain interaction, which could interfere with SH3 domain function. This work suggests that SH3 domains might contribute directly to signalling through small GTPases and thereby adds another aspect to the diverse nature of SH3 domains as protein–protein-interaction modules.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     cell polarity, GTPase signalling, phox homology domain (PX domain), protein–protein interaction, Src homology 3 domain (SH3 domain)
+    </span>
+   </sec>
+   <sec>
+    <strong>
+     Abbreviations:
+    </strong>
+    <span>
+     Cdc42, cell division cycle 42; CB, Cdc42-binding; CRIB, Cdc42 and Rac-interactive binding; DTT, dithiothreitol; GAP, GTPase-activating protein; GEF, guanine nucleotide-exchange factor; GST, glutathione S-transferase; ITC, isothermal titration calorimetry; PAK, p21-activated serine/threonine kinase; PB1, Phox and Bem1; PX, phox homology; Scd2C, C-terminal portion of Scd2; Scd2N, N-terminal portion of Scd2; SH3, Src homology 3
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    Cdc42 (cell division cycle 42) is a member of the Rho family of small GTPases that regulates a wide range of cellular processes, including actin organization, gene transcription and cell-cycle progression in eukaryotic cells [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    –
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ]. Like other members of the Ras superfamily of small GTPases, Cdc42 acts as a molecular switch, cycling between an inactive (GDP-bound), and an active (GTP-bound) state [
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ]. The switch is tightly controlled by regulatory proteins: GEFs (guanine nucleotide-exchange factors), which catalyse the dissociation of GDP and allow association with GTP, and GAPs (GTPase-activating proteins), which act as potent down-regulators by increasing the rate of GTP hydrolysis by several orders of magnitude [
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ]. In the active GTP-bound state, Rho-family GTPases are able to bind to a variety of downstream effectors and activate specific signalling pathways. These pathways are often not linear, but involve the formation of signalling complexes that contain regulators, GTPases and effectors, such as the Par polarity complex, the Ste5/Pbs2-containing MAPK (mitogen-activated protein kinase) pathways in yeast or the PAK (p21-activated serine/threonine kinase) signalling network [
+    <xref ref-type="bibr">
+     7
+    </xref>
+    –
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ]. The formation of such signalling complexes has the advantage of allowing an increased level of control by combining positive and negative regulators, thereby creating sophisticated feedback loops. Adaptor proteins are often central to the formation of such signalling complexes providing a scaffold upon which the signalling components can assemble [
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ].
+   </p>
+   <p>
+    The establishment of cell polarity and the mating response in the fission yeast
+    <em>
+     Schizosaccharomyces pombe
+    </em>
+    are regulated by a signalling complex that involves the scaffold protein Scd2, the GTPase Cdc42, its GEF Scd1, the effector kinase Shk1 and a number of other proteins that activate or inhibit Shk1 kinase activity [
+    <xref ref-type="bibr">
+     13
+    </xref>
+    –
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ]. Shk1 is a member of the family of PAKs that is highly conserved amongst eukaryotes, and contains an N-terminal regulatory domain and a C-terminal kinase domain, which interact to form an autoinhibited conformation that represses kinase activity [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ]. Kinase activation follows interaction with the small GTPases Cdc42 or Rac, which bind to a CRIB (Cdc42 and Rac-interactive binding) motif within the regulatory domain [
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ]. This causes a conformational change that relieves the auto-inhibited conformation [
+    <xref ref-type="bibr">
+     20
+    </xref>
+    ], enabling the kinase to phosphorylate downstream effectors to induce a specific cellular response, such as regulation of microtubule dynamics or cytoskeletal remodelling.
+   </p>
+   <p>
+    The underlying mechanisms by which the scaffold protein Scd2 contributes to the regulation of these processes are currently unknown. Although genetic analysis, co-precipitation assays and yeast two-hybrid analysis have provided an insight into the organizing/scaffolding activities of Scd2 [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ], details of its interactions at the molecular level have not been examined. Scd2 is a multi-domain adaptor protein that acts as a positive regulator of Shk1 kinase activity and consists of two SH3 (Src homology 3) domains (SH3
+    <sub>
+     A
+    </sub>
+    and SH3
+    <sub>
+     B
+    </sub>
+    ), a PX (phox homology) domain and a PB1 (Phox and Bem1) domain (
+    <xref ref-type="fig">
+     Figure 1
+    </xref>
+    a). PB1 domains mediate protein–protein interactions, and structural studies have explained how this domain allows the formation of homodimers, as well as heterodimers and multimers [
+    <xref ref-type="bibr">
+     24
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     25
+    </xref>
+    ]. Within the Shk1 signalling complex, the PB1 domain of Scd2 is believed to interact with a PB1 domain in the C-terminal portion of Scd1. SH3 domains are protein–protein-interaction modules that recognize proline-rich sequences in their target molecules that often contain a consensus PxxP (Pro-Xaa-Xaa-Pro) motif [
+    <xref ref-type="bibr">
+     26
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ]. PX domains are membrane-targeting modules that recognize phosphoinositides with varying specificities [
+    <xref ref-type="bibr">
+     28
+    </xref>
+    –
+    <xref ref-type="bibr">
+     30
+    </xref>
+    ]. In addition, some PX domains contain a consensus PxxP motif and have been proposed to bind to SH3 domains. In fact, Hiroaki et al. [
+    <xref ref-type="bibr">
+     31
+    </xref>
+    ] have shown that the isolated PX domain of the NADPH oxidase component p47
+    <sup>
+     phox
+    </sup>
+    is capable of binding to its C-terminal SH3 domain with an affinity of approx. 50 μM, leading to the suggestion that an intramolecular PX–SH3 domain interaction might negatively regulate lipid binding of the PX domain. In support of this model, lipid binding to p47
+    <sup>
+     phox
+    </sup>
+    is inhibited in the context of the full-length protein, but is restored in an SH3
+    <sub>
+     B
+    </sub>
+    mutant [
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     33
+    </xref>
+    ]. In contrast, the recent crystal structure of the autoinhibited core of p47
+    <sup>
+     phox
+    </sup>
+    revealed that the conserved ligand-binding surface of SH3
+    <sub>
+     B
+    </sub>
+    is not available for binding to the PX domain because it is already engaged in an intramolecular interaction with a non-consensus binding motif in the C-terminal portion of the protein, indicating that communication between the PX and SH3 domains must happen by a different mechanism [
+    <xref ref-type="bibr">
+     34
+    </xref>
+    ]. Endo et al. [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ] have shown recently by GST (glutathione S-transferase) pull-down assays that Scd2 contains two binding sites for active Cdc42, but it was not investigated in their study whether these binding events happen independently or whether there is co-operation between the two sites. In addition, it was suggested in this work that an intramolecular interaction between the PX domain of Scd2 and its second SH3 domain occurs, which in this case is believed to inhibit binding of Cdc42 [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ].
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <strong>
+      Schematic diagram illustrating the domain structure of Scd2
+     </strong>
+     <p>
+      (
+      <strong>
+       a
+      </strong>
+      ) The positions of the N-terminal tandem SH3 domains and the C-terminal PX and PB1 domains are indicated as determined by PROSITE (
+      <a>
+       http://us.expasy.org/prosite/
+      </a>
+      ). (
+      <strong>
+       b
+      </strong>
+      ) Representation of the constructs used in the present study.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    In the present study, we have used ITC (isothermal titration calorimetry) to investigate the molecular details of this novel Cdc42–effector/scaffold interaction, and to determine whether the PX domain can modulate complex formation between Scd2 and the GTPase. We have shown that Scd2 binds two molecules of Cdc42 simultaneously in a nucleotide-dependent fashion, but independently of the absence or presence of the PX domain. The two GTPase-binding sites in Scd2 have significantly different affinities, suggesting that they play distinct roles in Shk1-regulated signalling pathways. Furthermore, each of the two binding sites includes one of the SH3 domains, pointing to a novel function of SH3 domains in intracellular signalling through small GTPases.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL
+   </title>
+   <sec>
+    <title>
+     Protein expression and purification
+    </title>
+    <p>
+     The genes encoding Scd2 and Cdc42, and fragments, were cloned into pGEX-4T1 (Amersham Biosciences). The point mutations Scd2Trp
+     <sup>
+      62
+     </sup>
+     →Arg, Scd2Trp
+     <sup>
+      160
+     </sup>
+     →Arg and Cdc42Gln
+     <sup>
+      61
+     </sup>
+     →Leu were introduced using the QuikChange Site-Directed Mutagenesis kit from Stratagene. All DNA sequences were verified by nucleotide sequencing.
+    </p>
+    <p>
+     GST-fusion proteins were expressed in
+     <em>
+      Escherichia coli
+     </em>
+     strain BL21 (Novagen), purified on glutathione–Sepharose 4B (Amersham Biosciences) and cleaved on-column with human α-thrombin protease. Cleaved protein was purified further by gel filtration on Superdex 75, for Cdc42 and fragments of Scd2, or Superdex 200 (Amersham Biosciences), for full-length Scd2. All proteins were concentrated in VivaSpin concentrators (Viva-Science) to between 500 and 1000 μM, and were stored at −70 °C after shock freezing in liquid nitrogen. Purity and identity of the proteins was confirmed by SDS/PAGE analysis (12 or 15% gels) and electrospray MS. Protein concentrations were determined spectrophotometrically at 280 nm, using molar absorption coefficients calculated based on amino acid sequence. The molar absorption coefficient for Cdc42 was corrected for absorption of the guanine nucleotide.
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     (b) shows a schematic of the Scd2 constructs used in the present study.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Nucleotide analysis
+    </title>
+    <p>
+     The nucleotide content of purified wild-type Cdc42 (hereafter referred to as Cdc42.GDP) and the constitutively active Cdc42 mutant Cdc42Gln
+     <sup>
+      61
+     </sup>
+     →Leu (hereafter referred to as Cdc42.GTP) was analysed by reverse-phase HPLC [
+     <xref ref-type="bibr">
+      35
+     </xref>
+     ]. Samples (1 nmol) of Cdc42 were made up to 44 μl in 50 mM Hepes, pH 7.0, 50 mM NaCl and 2 mM DTT (dithiothreitol), and the protein was denatured by the addition of 2.5 μl of 10% perchloric acid, followed by the addition of 3.5 μl of 2 M sodium acetate, pH 4.0. Precipitated protein was removed by centrifugation at 16000
+     <strong>
+      <em>
+       g
+      </em>
+     </strong>
+     in a benchtop centrifuge for 2 min, and the supernatant was added to an equal volume of 100 mM KH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     /K
+     <sub>
+      2
+     </sub>
+     HPO
+     <sub>
+      4
+     </sub>
+     , pH 6.5, and 10 mM tetrabutylammonium bromide. Samples were analysed by reverse-phase HPLC on a Zorbax SB-C18 column (4.6 mm×250 mm; Hichrom), run isocratically in 100 mM KH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     /K
+     <sub>
+      2
+     </sub>
+     HPO
+     <sub>
+      4
+     </sub>
+     , pH 6.5, 10 mM tetrabutylammonium bromide and 8.5% acetonitrile at a flow rate of 1 ml/min, and the nucleotide absorbance was measured at 254 nm. Nucleotides present were compared with standards of GDP and GTP run separately.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ITC measurements
+    </title>
+    <p>
+     Complex formation between Scd2 and Cdc42 was measured by ITC using a MicroCal VP-ITC microcalorimeter (MicroCal, Northampton, MA, U.S.A.) [
+     <xref ref-type="bibr">
+      36
+     </xref>
+     ]. A NAP 5 column was used to exchange all proteins into ITC buffer (25 mM Hepes, pH 7.5, 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 50 mM NaCl and 2 mM DTT). Experiments were performed at 18 °C. In general, the sample cell contained Cdc42.GDP or Cdc42.GTP at concentrations in the range 25–50 μM, and constructs of Scd2 at 300–500 μM were injected in 10 μl samples from a total of 290 μl. Heats of dilution, determined by titrating Scd2 into buffer alone, were subtracted from the raw titration data before analysis. Data were fitted by least-squares procedures using the evaluation software, Microcal Origin version 7.0 provided by the manufacturer. All titrations using full-length Scd2 or constructs containing two Cdc42-binding sites were fitted using the ‘ligand in the cell’ assumption. All measurements were repeated two to five times.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Surface plasmon resonance
+    </title>
+    <p>
+     The interaction between Scd2-(110–220) and Cdc42.GTP or Cdc42.GDP and Scd2-(275–536) was analysed using a BIAcore 2000 instrument (BIAcore). Scd2-(110–220) was prepared in coupling buffer (25 mM Hepes, pH 6.8, 50 mM NaCl and 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     ) and immobilized on a CM5 sensor chip (BIAcore), with EDC [
+     <em>
+      N
+     </em>
+     -ethyl-
+     <em>
+      N
+     </em>
+     ′-(dimethylaminopropyl)carbodi-imide] and NHS (
+     <em>
+      N
+     </em>
+     -hydroxysuccinimide). A flow cell without immobilized protein was used as a control. All other proteins were diluted to the appropriate concentrations using running buffer [10 mM Hepes, pH 7.4, 150 mM NaCl and 0.005% (v/v) P20 surfactant]. Each protein was injected on to the channels at a flow rate of 5 μl/min for 10 min, followed by a wash with running buffer for 150 s. For analysis, the reference flow cell sensorgram was subtracted from the corresponding sensorgrams to abolish baseline drift, bulk and non-specific interaction contributions.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Gel-filtration HPLC
+    </title>
+    <p>
+     Complex formation between Scd2-(1–536) and Cdc42 was monitored by analytical gel filtration on a Superdex 200 column. Scd2 (20 μM) was mixed with various concentrations of Cdc42.GDP or Cdc42.GTP (20 μM or 40 μM) in a total volume of 250 μl. A sample (100 μl) was loaded on to the column, which had been equilibrated in 50 mM Tris/HCl, pH 7.9, 100 mM NaCl and 2 mM MgCl
+     <sub>
+      2
+     </sub>
+     . The column was run at 0.4 ml/min, and 0.5 ml fractions were collected for analysis by SDS/PAGE (15% gels). Complex formation between Scd2-(1–266), Scd2-(275–536) or Scd2-(110–536), and Ccd42.GDP or Cdc42.GTP was analysed in a similar fashion, except that each protein was used at 100 μM.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     Scd2 interacts with two molecules of Cdc42 simultaneously
+    </title>
+    <p>
+     ITC allows the direct measurement of the equilibrium binding constant
+     <em>
+      K
+     </em>
+     <sub>
+      a
+     </sub>
+     (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =1/
+     <em>
+      K
+     </em>
+     <sub>
+      a
+     </sub>
+     ), the enthalpy of complex formation (Δ
+     <em>
+      H
+     </em>
+     ) and complex stoichiometry of a protein–protein interaction without the need for modification of the proteins under investigation. Titration of full-length Scd2 with active GTP-bound Cdc42 resulted in a binding isotherm, which could not be fitted to a 1:1 binding model. Fitting of the data to a two-site binding model resulted in a good fit with a stoichiometry of 1:1 for each site, indicating that two molecules of Cdc42 can interact simultaneously with Scd2 (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). The two Cdc42-binding sites in Scd2 are significantly different and include a high-affinity site,
+     <em>
+      K
+     </em>
+     <sub>
+      d1
+     </sub>
+     =21 nM, that is exothermic, and a lower-affinity site,
+     <em>
+      K
+     </em>
+     <sub>
+      d2
+     </sub>
+     =3.0 μM, binding to which is entirely entropy driven (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). To examine whether both binding events occurred in a nucleotide-dependent manner, we titrated Cdc42.GDP with Scd2. No significant heat change was observed, suggesting that the proteins either do not or only so weakly interact that it was undetectable under the experimental conditions or that Δ
+     <em>
+      H
+     </em>
+     is zero at the experimental temperature (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Characterization of the interaction between Scd2 and Cdc42.GTP or Cdc42.GDP by ITC
+      </strong>
+      <p>
+       Full-length Scd2 was titrated into Cdc42 in 25 mM Hepes, pH 7.5, 50 mM NaCl, 2 mM MgCl
+       <sub>
+        2
+       </sub>
+       and 2 mM DTT at 18 °C. The upper plot shows the raw calorimetric data for the Cdc42.GTP–Scd2 interaction. The lower plot shows the isotherm of binding after subtraction of the heat of dilution. The data for Cdc42.GTP binding to Scd2 have been fitted to a two-site binding model. Scd2 titration into Cdc42.GTP (■); Scd2 titrated into Cdc42.GDP (●).
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         ITC measurements for complex formation between Scd2 constructs and Cdc42.GTP or Cdc42.GDP
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     To investigate complex formation further, we carried out analytical gel-filtration analysis. Mixtures of Cdc42.GTP or Cdc42.GDP with Scd2 at different stoichiometries were prepared, and their elution profiles were compared with those of the individual proteins, which elute as single symmetrical peaks from an S200 column (
+     <xref ref-type="fig">
+      Figures 3
+     </xref>
+     a and
+     <xref ref-type="fig">
+      None
+     </xref>
+     b). Under the same experimental conditions, mixtures at molar ratios of 1:1 and 2:1 Cdc42.GTP/Scd2 were applied to the column.
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     (a) shows that a 1:1 mixture elutes as a single peak with a shorter retention time than the isolated proteins, indicating the formation of a complex between the two proteins. SDS/PAGE analysis (15% gels) of the peak fraction confirmed this by showing that both Cdc42 and Scd2 are present. Furthermore, when comparing the elution profiles of the 1:1 and 2:1 Cdc42.GTP/Scd2 mixtures (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     a), the peak relating to the complex is seen to increase with addition of Cdc42.GTP, indicating that Scd2 is not saturated at 1:1 stoichiometry. These experiments were repeated with mixtures of Cdc42.GDP and Scd2 at stoichiometries of 1:1 (results not shown) and 2:1 (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     b). In each case, the mixtures elute as two peaks, each peak having retention times identical with the separate protein standards without formation of a higher-molecular-mass complex.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       Analytical gel-filtration analysis of complex formation between Scd2 and Cdc42
+      </strong>
+      <p>
+       Mixtures of Cdc42 and Scd2 were run on Superdex 200 in a buffer of 50 mM Tris/HCl, pH 7.9, 100 mM NaCl and 2 mM MgCl
+       <sub>
+        2
+       </sub>
+       at a flow rate of 0.4 ml/min. (
+       <strong>
+        a
+       </strong>
+       ) Analysis of mixtures of Cdc42.GTP and Scd2 at 20 μM. Scd2–Cdc42.GTP (1:1) (solid black line), Scd2–Cdc42.GTP (1:2) (solid grey line), Scd2 and Cdc42 run individually (broken line). The Cdc42 used in the present study was 75–90% GTP-bound as determined by reverse-phase HPLC. Inset, SDS/PAGE (15% gel) analysis of protein fractions. Lane M, molecular-mass markers (97.0, 66.0, 45.0, 30.0, 20.1 and 14.4 kDa); lane 1, fraction at 31.5 min, containing Scd2 and Cdc42; lane 2, Scd2; lane 3, Cdc42. (
+       <strong>
+        b
+       </strong>
+       ) Analysis of mixtures of Cdc42.GDP and Scd2 at 20 μM. Scd2–Cdc42.GDP (1:2) (solid grey line), Scd2 and Cdc42 run individually (broken line).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The binding sites for Cdc42 are located in the N-terminal tandem SH3-domain-containing region of Scd2
+    </title>
+    <p>
+     Scd2 contains no CRIB motif or sequence homology with previously identified Cdc42-binding motifs. Using GST pull-down assays, Endo et al. [
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ] identified two regions in the N-terminal portion of Scd2 that interact with Cdc42.GTP, which were termed CB1 (Cdc42-binding 1; amino acids 1–86) and CB2 (Cdc42-binding 2; amino acids 110–266) regions respectively. Each of these regions contains one of the SH3 domains. To test whether each of these regions is sufficient for high-affinity complex formation and to investigate whether the C-terminal portion of Scd2 might contribute to complex formation or possibly reduce GTPase binding due to an intramolecular PX–SH3 domain interaction, we measured binding of Cdc42 to the N-terminal portion of Scd2 (Scd2N; amino acids 1–266), containing the two SH3 domains, and to the C-terminal portion (Scd2C; amino acids 275–536), containing the PX and PB1 domains. Titration of Scd2N into Cdc42.GTP resulted in a binding isotherm that was almost indistinguishable from that of the full-length protein, and accordingly could only be fitted to a two-site binding model (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). The dissociation constants (
+     <em>
+      K
+     </em>
+     <sub>
+      d1
+     </sub>
+     =28 nM and
+     <em>
+      K
+     </em>
+     <sub>
+      d2
+     </sub>
+     =2.7 μM) and binding enthalpies (Δ
+     <em>
+      H
+     </em>
+     <sub>
+      1
+     </sub>
+     =−3.87 kcal/mol and Δ
+     <em>
+      H
+     </em>
+     <sub>
+      2
+     </sub>
+     =0.83 kcal/mol; 1 kcal/mol≡4.184 kJ/mol) of each interaction were in good agreement with those determined for the full-length protein, indicating that Scd2N is sufficient to confer high-affinity binding to Cdc42.GTP. As for the full-length protein, there was no detectable interaction with Cdc42.GDP, confirming the nucleotide-dependence of both binding events. Furthermore, no interaction was detected between Scd2C and Cdc42.GTP or Scd2.GDP (results not shown). Taken together, these data clearly indicate that the N-terminal half of Scd2 contains both binding sites for Cdc42, and that interaction with the GTPase is neither positively nor negatively influenced by the remainder of Scd2.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Identification of minimal Cdc42-binding domains
+    </title>
+    <p>
+     Titration of Cdc42.GTP with Scd2 fragments corresponding to CB1 and CB2 confirmed that each region binds one molecule of Cdc42 in a nucleotide-dependent fashion (
+     <a>
+      <span>
+       Tables 1–3
+      </span>
+     </a>
+     , and
+     <xref ref-type="fig">
+      Figures 4
+     </xref>
+     a and
+     <xref ref-type="fig">
+      None
+     </xref>
+     b). Binding of Cdc42.GTP to CB2, which contains SH3
+     <sub>
+      B
+     </sub>
+     , was endothermic, with an affinity of 2.93 μM, suggesting that it represents the low-affinity binding site identified in full-length Scd2. In contrast, binding of CB1 to Cdc42.GTP was almost 150-fold weaker than the high-affinity binding site within full-length Scd2 or Scd2N (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =3.0 μM, Δ
+     <em>
+      H
+     </em>
+     =−2.35 kcal/mol), indicating either that CB1 may be lacking part of the Cdc42-interaction surface or alternatively that both sites act synergistically to bind Cdc42.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       ITC describing the two Cdc42-binding regions in Scd2
+      </strong>
+      <p>
+       Each Scd2 construct was titrated into Cdc42 in 25 mM Hepes, pH 7.5, 50 mM NaCl, 2 mM MgCl
+       <sub>
+        2
+       </sub>
+       and 2 mM DTT at 18 °C. The upper plot shows the raw calorimetric data. The lower plot represents the binding isotherm after subtraction of the heat of dilution. Data for each binding event is fitted to a one-site binding model. (
+       <strong>
+        a
+       </strong>
+       ) Titration of Scd2-(1–86) into Cdc42.GTP (●), titration of Scd2-(1–86)Trp
+       <sup>
+        62
+       </sup>
+       →Arg into Cdc42.GTP (○), titration of Scd2-(1–123) into Cdc42.GTP (■), and Scd2-(1–123)Trp
+       <sup>
+        62
+       </sup>
+       →Arg into Cdc42.GTP (□). (
+       <strong>
+        b
+       </strong>
+       ) Titration of Scd2-(188–266) into Cdc42.GTP (▲), titration of Scd2-(110–220) into Cdc42.GTP (■), titration of Scd2-(110–220)Trp
+       <sup>
+        160
+       </sup>
+       →Arg into Cdc42.GTP (□) and Scd2-(110–266) into Cdc42.GTP (●).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To characterize further the high-affinity binding site in Scd2, and, in particular, to address the role of SH3
+     <sub>
+      A
+     </sub>
+     in complex formation, we studied the binding of a construct that contains only the predicted SH3 domain (amino acids 24–86) to Cdc42.GTP (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). No binding was detected, indicating that residues 1–23 are important for complex formation with Cdc42.GTP, either because they form part of the Cdc42-binding site or because they contribute to the stabilization of SH3
+     <sub>
+      A
+     </sub>
+     . Furthermore, we extended CB1 to include residues 87–123 that connect the two SH3 domains to test whether this region may contribute to complex formation with Cdc42.GTP. Indeed, titration of Cdc42.GTP with Scd2-(1–123) produced a binding isotherm that could be fitted to a one-site binding model, with a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 17 nM and a Δ
+     <em>
+      H
+     </em>
+     of −5.72 kcal/mol (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     a). These values are comparable with those of the high-affinity binding site of the full-length Scd2–Cdc42.GTP complex, indicating that there is no synergy between CB1 and CB2, but that the region around 87–123 contributes significantly to complex formation. Taken together, these results suggest that the regions N- and C-terminal to SH3
+     <sub>
+      A
+     </sub>
+     are both important to form a high-affinity binding surface for Cdc42. SH3 domains contain a number of highly conserved amino acids that are vital for the interaction with a consensus PxxP motif. One of these is a tryptophan residue that stacks against a proline residue and mutation of which generally disrupts binding to proline-rich ligands. Titration of the corresponding Scd2-(1–123)Trp
+     <sup>
+      62
+     </sup>
+     →Arg with Cdc42.GTP shows that such a point mutation in SH3
+     <sub>
+      A
+     </sub>
+     has only a weak effect, and reduces the affinity of this interaction 4-fold when compared with wild-type Scd2-(1–123) (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     and
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     a). In contrast, the same mutation within the Scd2-(1–86) construct completely abolished complex formation with Cdc42.GTP.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         ITC measurements to delineate the first Cdc42.GTP-binding region of Scd2
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Using a similar strategy, we analysed complex formation between Cdc42.GTP and the CB2-binding region of Scd2 that contains the low-affinity GTPase-binding site. In this case, the isolated SH3
+     <sub>
+      B
+     </sub>
+     domain, Scd2-(123–188), was insoluble, and we were not able to test whether it was sufficient for complex formation with Cdc42.GTP. The smallest construct that contained SH3
+     <sub>
+      B
+     </sub>
+     and was still soluble was Scd2-(110–220). As shown in
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     (b) and
+     <a>
+      <span>
+       Table 3
+      </span>
+     </a>
+     , this construct bound Cdc42.GTP with a similar affinity and binding energetics as did Scd2-(110–266) (Δ
+     <em>
+      H
+     </em>
+     =2.55 kcal/mol,
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =1.71 μM), indicating that residues 221–266 of CB2 are not required for complex formation with Cdc42.GTP. To characterize this interaction further, we mutated the conserved tryptophan residue in the ligand-binding site of SH3
+     <sub>
+      B
+     </sub>
+     . This mutation, Trp
+     <sup>
+      160
+     </sup>
+     →Arg, did not weaken the interaction (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     b), suggesting either that the SH3 domain is not required for complex formation or at least that this interaction does not occur via the conserved proline residue binding surface. On the other hand, a construct containing residues Scd2-(186–266) that lacks SH3
+     <sub>
+      B
+     </sub>
+     was not sufficient to allow complex formation with Cdc42.GTP either, indicating that at least some features of the SH3 domain are required to form a binding surface for Cdc42.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         ITC measurements to delineate the second Cdc42.GTP-binding region of Scd2
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The reduced binding of Scd2-(1–123)Trp
+     <sup>
+      62
+     </sup>
+     →Arg to Cdc42.GTP suggested that the conserved ligand-binding surface of SH3
+     <sub>
+      A
+     </sub>
+     may be at least partially involved in the interaction with Cdc42.GTP. Cdc42 is one of a handful of GTPases that contain a PxxP motif at their C-termini. The placental form of human Cdc42, R-Ras and TC21 all contain PxxP motifs, although only the PxxP motif of R-Ras has been previously reported to bind to a SH3 domain. However, this interaction between R-Ras and the scaffold protein Nck was not nucleotide-specific [
+     <xref ref-type="bibr">
+      37
+     </xref>
+     ]. In order to assess whether the C-terminal PxxP motif was important for binding of Cdc42.GTP to Scd2, we produced a Cdc42 mutant lacking this region (Cdc42.Gln
+     <sup>
+      61
+     </sup>
+     →Leu.Δ14) and investigated its interaction with full-length Scd2 by ITC. The resulting binding isotherm was very similar to that produced by full-length Cdc42.GTP, and indicated formation of a Cdc42–Scd2 complex with a 2:1 stoichiometry (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The PX and SH3 domains of Scd2 do not interact
+    </title>
+    <p>
+     In a previous report, it was suggested that an intramolecular interaction between the PX and SH3
+     <sub>
+      B
+     </sub>
+     domains of Scd2 kept Scd2 in an autoinhibited conformation, thereby preventing binding of Cdc42 to the CB2 region [
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ]. This model was based on a GST pull-down study, showing that Scd2-(110–536), which contains SH3
+     <sub>
+      B
+     </sub>
+     , the PX and PB1 domains, was not able to bind Ccd42.GTP. However, our binding studies show unambiguously that two molecules of Cdc42.GTP bind to full-length Scd2, arguing against an intramolecular autoinhibitory interaction. This observation is corroborated further by the titration of Cdc42.GTP with Scd2-(110–536), which produced a similar ITC profile to that of Scd2-(110–266) (results not shown). The interaction is endothermic with a Δ
+     <em>
+      H
+     </em>
+     of 2.67 kcal/mol and a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 4.06 μM (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). Furthermore, analytical gel-filtration experiments showed that a 1:1 molar ratio of Scd2-(110–536) and Cdc42.GTP eluted as a single peak with a shorter retention time than either of the individual proteins. The interaction was nucleotide-specific, since no complex was formed between Scd2-(110–536) and Cdc42.GDP under identical conditions (results not shown).
+    </p>
+    <p>
+     To probe this discrepancy with previous results, we investigated whether Scd2N containing the tandem SH3 domains was able to interact with Scd2C containing the PX and PB1 domains in an intermolecular fashion. Titration of Scd2C into Scd2N showed no heat change, nor did analytical gel-filtration experiments of the two proteins at high concentrations (100 μM) provide any evidence for complex formation (results not shown). To support these findings, we analysed binding of Scd2-(110–220), containing SH3
+     <sub>
+      B
+     </sub>
+     , to Scd2-(275–536), containing the PX domain, by surface plasmon resonance. Scd2-(110–220) was immobilized on a CM5 sensor chip, and in order to validate the immobilization procedure, Cdc42.GTP and Cdc42.GDP were applied to the chip as positive and negative controls respectively. Binding was determined using equilibrium analysis. A serial dilution of Cdc42.GTP (or Cdc42.GDP) was injected across the surface of the chip at a flow rate of 5 μl/min for 10 min at 25 °C. Analysis was performed on sensorgrams generated by dilutions ranging from 0.3125 μM to 40 μM (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ) and 0.3125 μM to 100 μM Cdc42.GDP. The Cdc42.GTP data were fitted to a 1:1 binding model, and yielded a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 7.07±0.08 μM. As expected, Cdc42.GDP showed no increase in resonance units when injected over the chip surface, indicating that no binding to Scd2-(110–220) takes place. Next, Scd2-(275–536) containing the PX domain was passed over immobilized Scd2-(110–220) at concentrations between 6.25 and 800 μM. No change in resonance units was detected in this experiment, even at very high protein concentrations, supporting further the notion that there is no intramolecular SH3
+     <sub>
+      B
+     </sub>
+     –PX domain interaction.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Sensorgram depicting the binding of Cdc42.GTP to Scd2-(110–220)
+      </strong>
+      <p>
+       Various concentrations of Cdc42.GTP in 10 mM Hepes, pH 7.4, 150 mM NaCl and 0.005% P20 surfactant were passed over immobilized Scd2-(110–220) at a flow rate of 5 μl/min, and binding was measured by surface plasmon resonance.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <p>
+    The adaptor protein Scd2 is an important component of the PAK Shk1-dependent signalling network, regulating the establishment of cell polarity and the mating response in fission yeast [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     38
+    </xref>
+    ]. It acts as a protein scaffold, upon which the GTPase Cdc42, its GEF Scd1, the downstream effector kinase Shk1 and a number of other proteins assemble [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ]. We have conducted a thermodynamic study of the interaction between Scd2 and Cdc42, and have shown that the adapter protein Scd2 binds two molecules of Cdc42 simultaneously, but independently, in a nucleotide-specific manner. This supports and significantly extends previous work, which identified an interaction between Cdc42 and Scd2 using yeast two-hybrid analysis [
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ] and
+    <em>
+     in vitro
+    </em>
+    co-precipitation assays [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ], and confirms that Scd2 is a
+    <em>
+     bona fide
+    </em>
+    effector of Cdc42, acting downstream of the GTPase in the signalling pathway.
+   </p>
+   <p>
+    ITC studies using Cdc42 and various Scd2 deletions located both binding sites in the N-terminal half of Scd2, as suggested previously [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ]. Importantly, our experiments establish that the two sites are non-equivalent, and that the N-terminal site binds Cdc42.GTP with high affinity (21 nM) with a favourable enthalpic contribution, while the C-terminal site is over 140-fold weaker, and the interaction is entirely entropy driven. Each of the two binding sites includes one of the SH3 domains, pointing to a novel function of SH3 domains as downstream effectors of small GTPases. The isolated SH3
+    <sub>
+     A
+    </sub>
+    domain is not capable of forming a complex with Cdc42.GTP and regions N- as well as C-terminal to the SH3 domain are required to allow the formation of a high-affinity binding site. This is in contrast with previous results, which suggested that Scd2-(1–86) is sufficient for complex formation, but can be rationalized by the non-quantitative nature of that study, which might have underestimated the importance of additional sequences [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ].
+   </p>
+   <p>
+    Interestingly, mutation of a conserved tryptophan residue in the conserved ligand-binding surface of SH3
+    <sub>
+     A
+    </sub>
+    led to a complete loss of binding in the context of the Scd2-(1–86) construct, while the same mutation within Scd2-(1–123) only weakens the affinity for Cdc42.GTP 4-fold. This suggests that the conserved ligand-binding pocket of SH3
+    <sub>
+     A
+    </sub>
+    contributes only marginally to complex formation with Cdc42, while the regions N-terminal (amino acids 1–23) and C-terminal (amino acids 87–123) to the SH3 domain seem to be vital for the full biological interaction. Given the proximity of the N- and C-termini of SH3 domains, one may speculate that they interact to form the Cdc42 ligand-binding surface, which might partially overlap with the binding surface for canonical PxxP-containing ligands. Although this would constitute a novel interaction between a GTPase and an SH3 domain, the importance of residues flanking SH3 domains has been highlighted previously in the interaction of the SH3 domain of PLCγ1 (phosphoinositide-specific phospholipase Cγ1) with the adapter protein Cbl [
+    <xref ref-type="bibr">
+     39
+    </xref>
+    ]. Here, the interaction between the core SH3 domain and the Cbl ligand is rather weak, and inclusion of amino acids flanking the core SH3 domain substantially increases the affinity of this interaction. Just as the high-affinity Cdc42-binding site in Scd2 is formed, in part, by SH3
+    <sub>
+     A
+    </sub>
+    , formation of the low-affinity binding site requires the presence of SH3 domain B. Due to the low solubility of SH3
+    <sub>
+     B
+    </sub>
+    , it was not possible to assess the interaction of the isolated domain with Cdc42 directly. The smallest soluble fragment that includes SH3
+    <sub>
+     B
+    </sub>
+    was Scd2-(110–220), which contains an extra 35 residues C-terminal to SH3
+    <sub>
+     B
+    </sub>
+    . This fragment bound Cdc42 with essentially the same affinity as the full-length protein. This is in contrast with construct Scd2-(188–266) that contains only the region C-terminal to SH3
+    <sub>
+     B
+    </sub>
+    and which is not able to interact with Cdc42, highlighting the importance of SH3
+    <sub>
+     B
+    </sub>
+    . However, the observation that Scd2-(110–220)Trp
+    <sup>
+     160
+    </sup>
+    →Arg bound Cdc42 with the same affinity as the wild-type protein suggests that complex formation does not occur via the conserved PxxP-motif-binding surface.
+   </p>
+   <p>
+    SH3 domains are ubiquitous protein–protein-interaction modules that are approx. 60 amino acids in length and share a conserved β-barrel structure. Variations upon the canonical PxxP-containing ligand-binding mode are known, and a number of SH3 domain ligands have been identified that do not contain a consensus PxxP motif, but still bind SH3 domains via their conserved ligand-binding surfaces [
+    <xref ref-type="bibr">
+     40
+    </xref>
+    –
+    <xref ref-type="bibr">
+     42
+    </xref>
+    ]. Furthermore, recent studies by a number of groups have revealed that SH3 domains can use other surfaces, distinct from those that recognize proline-rich ligands, to bind target proteins [
+    <xref ref-type="bibr">
+     43
+    </xref>
+    –
+    <xref ref-type="bibr">
+     45
+    </xref>
+    ]. These interactions may take place simultaneously to those with proline-rich ligands, thereby extending the repertoire of SH3 domains as binary protein-interaction modules to mediate the formation of ternary complexes. An example for such a novel mode of SH3-domain-mediated interaction is peroxisomal Pex13 that interacts with a consensus PxxP motif in Pex14, while simultaneously binding to Pex5 via a concave surface composed of β-strands, β1 and β2 [
+    <xref ref-type="bibr">
+     45
+    </xref>
+    ]. Given that Scd2 SH3
+    <sub>
+     B
+    </sub>
+    is known to bind to a PxxP motif in the N-terminal portion of Shk1 via its consensus ligand-binding surface [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ], it is tempting to speculate that the SH3
+    <sub>
+     B
+    </sub>
+    domain of Scd2 might be another example of a bifunctional SH3 domain that interacts with two different proteins simultaneously. Further studies are now required to establish whether this is the case or whether both binding events are mutually exclusive.
+   </p>
+   <p>
+    PX domains have received a lot of attention recently due to the possibility that they may act as bifunctional protein-interaction modules that couple phospholipid binding to protein–protein interactions through intramolecular PX–SH3 domain interactions. Such an intramolecular autoinhibitory interaction that is believed to interfere with Cdc42 binding has been proposed for Scd2 as well as its
+    <em>
+     Saccharomyces cerevisiae
+    </em>
+    homologue Bem1 [
+    <xref ref-type="bibr">
+     23
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ]. However, the data of the present study do not support this model, but clearly show, at least in the case of Scd2, that the presence of the PX domain does not influence binding to Cdc42, as illustrated by the nearly identical affinities of Cdc42 for full-length Scd2 and an Scd2 fragment in which the PX domain has been deleted. Furthermore, we have found no evidence for an interaction between the SH3-domain-containing N-terminal and PX-domain-containing C-terminal portion of Scd2 using a variety of techniques. These data imply that care has to be taken in the interpretation of binding studies involving PX- and SH3-domain-containing proteins, and highlight the requirement for further structural and biochemical studies in order to understand the molecular details of a potential interplay between PX and SH3 domains.
+   </p>
+   <p>
+    Combining our findings with genetic data from
+    <em>
+     Schiz. pombe
+    </em>
+    and the homologous pathway in
+    <em>
+     S. cerevisiae
+    </em>
+    , we propose a model of how Scd2 may play a central role in providing a scaffold to co-localize the essential cell polarity GTPase, Cdc42, its activator Scd1 and downstream effector, Shk1. In budding yeast, the scaffold protein Bem1 is localized to the site of polarization by activated Cdc42 [
+    <xref ref-type="bibr">
+     47
+    </xref>
+    ]. We suggest that the N-terminal high-affinity binding site provides a region with which Scd2 anchors to the cell membrane via an interaction with Cdc42.GTP. Localization of Scd2 could then enable further recruitment and, more importantly, maintenance of active Scd1 at this site, possibly by preventing the reassociation of an autoinhibited conformation of the GEF, as suggested for Cdc24 in
+    <em>
+     S. cerevisiae
+    </em>
+    [
+    <xref ref-type="bibr">
+     47
+    </xref>
+    –
+    <xref ref-type="bibr">
+     49
+    </xref>
+    ]. This may produce a self-propagating mechanism whereby activation of more Cdc42.GTP and further recruitment of Scd2 magnifies the initial signal at the plasma membrane [
+    <xref ref-type="bibr">
+     46
+    </xref>
+    ]. Increased local concen-trations of Cdc42.GTP could then allow binding to the low-affinity site of Scd2. Assuming that this interaction could occur simultaneously with that of Shk1 and SH3
+    <sub>
+     B
+    </sub>
+    , this may induce co-localization of Cdc42 and Shk1, thereby promoting activation of the kinase, which in turn could allow the polarized assembly of the cytoskeleton.
+   </p>
+   <p>
+    The present paper adds to the growing literature that highlights the diverse nature of SH3 domains. Originally identified as protein modules that utilize a conserved hydrophobic pocket to bind to PxxP motifs, their protein-recognition repertoire has been extended to include atypical motifs in target ligands or utilize novel surfaces on the SH3 domain for ligand interactions. Our data suggest that there may be a novel function of SH3 domains, in which they act as downstream effectors for small GTPases. Structural studies are now required to unravel the molecular details of these interactions and enable us to predict similar interactions in other systems.
+   </p>
+  </sec>
+ </body>
+</article>

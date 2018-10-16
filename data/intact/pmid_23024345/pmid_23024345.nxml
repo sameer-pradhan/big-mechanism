@@ -1,0 +1,3753 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3497523
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Crystal Structure of the Klebsiella pneumoniae NFeoB/FeoC Complex and Roles of FeoC in Regulation of Fe2+ Transport by the Bacterial Feo System
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Feo is a transport system commonly used by bacteria to acquire environmental Fe
+     <sup>
+      2+
+     </sup>
+     . It consists of three proteins: FeoA, FeoB, and FeoC. FeoB is a large protein with a cytosolic N-terminal domain (NFeoB) that contains a regulatory G protein domain and a helical S domain. The C-terminal region of FeoB is a transmembrane domain that likely acts as the Fe
+     <sup>
+      2+
+     </sup>
+     permease. NFeoB has been shown to form a trimer pore that may function as an Fe
+     <sup>
+      2+
+     </sup>
+     gate. FeoC is a small winged-helix protein that possesses four conserved cysteine residues with a consensus sequence that likely provides binding sites for the [Fe-S] cluster. Therefore, FeoC is presumed to be an [Fe-S] cluster-dependent regulator that directly controls transcription of the
+     <em>
+      feo
+     </em>
+     operon. Despite the apparent significance of the Feo system, however, the function of FeoC has not been experimentally demonstrated. Here, we show that
+     <em>
+      Klebsiella pneumoniae
+     </em>
+     FeoC (
+     <em>
+      Kp
+     </em>
+     FeoC) forms a tight complex with the intracellular N-terminal domain of FeoB (
+     <em>
+      Kp
+     </em>
+     NFeoB). The crystal structure of the complex reveals that
+     <em>
+      Kp
+     </em>
+     FeoC binds to
+     <em>
+      Kp
+     </em>
+     NFeoB between the switch II region of the G protein domain and the effector S domain and that the long
+     <em>
+      Kp
+     </em>
+     FeoC W1 loop lies above the
+     <em>
+      Kp
+     </em>
+     NFeoB nucleotide-binding site. These interactions suggest that
+     <em>
+      Kp
+     </em>
+     FeoC modulates the guanine nucleotide-mediated signal transduction process. Moreover, we showed that binding of
+     <em>
+      Kp
+     </em>
+     FeoC disrupts pore formation by interfering with
+     <em>
+      Kp
+     </em>
+     NFeoB trimerization. These results provide strong evidence suggesting that
+     <em>
+      Kp
+     </em>
+     FeoC plays a crucial role in regulating Fe
+     <sup>
+      2+
+     </sup>
+     transport in
+     <em>
+      Klebsiella pneumonia
+     </em>
+     in addition to the presumed gene regulator role.
+    </p>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    The Feo system is a transporter commonly used by bacteria to acquire environmental Fe
+    <sup>
+     2+
+    </sup>
+    (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ). The importance of the Feo system has been confirmed in several bacterial systems. Both
+    <em>
+     Escherichia coli
+    </em>
+    and
+    <em>
+     Salmonella feoB
+    </em>
+    mutants are less able to colonize the mouse intestine, presumably because they cannot transport Fe
+    <sup>
+     2+
+    </sup>
+    from the mouse intestine (
+    <xref ref-type="bibr">
+     32
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     34
+    </xref>
+    ). In
+    <em>
+     Helicobacter pylori
+    </em>
+    , FeoB appears to be the main Fe
+    <sup>
+     2+
+    </sup>
+    transporter and is required for
+    <em>
+     H. pylori
+    </em>
+    colonization of mouse gastric mucosa, for normal growth, and for Fe
+    <sup>
+     2+
+    </sup>
+    uptake under Fe
+    <sup>
+     2+
+    </sup>
+    -restricted conditions (
+    <xref ref-type="bibr">
+     35
+    </xref>
+    ). FeoB is also required for intracellular growth of
+    <em>
+     Legionella pneumophila
+    </em>
+    (
+    <xref ref-type="bibr">
+     29
+    </xref>
+    ) and for virulence of
+    <em>
+     Porphyromonas gingivalis
+    </em>
+    (
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ). Therefore, various studies have clearly established a role for the Feo system in bacterial colonization of the gut and in virulence.
+   </p>
+   <p>
+    The
+    <em>
+     feo
+    </em>
+    operon encodes three proteins: FeoA, FeoB, and FeoC. FeoA is a small SH3-like protein predicted to act as a GTPase-activating protein and/or an Fe
+    <sup>
+     2+
+    </sup>
+    -dependent repressor (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ). Recently, FeoA was shown to interact with FeoB and is required for Fe
+    <sup>
+     2+
+    </sup>
+    uptake in
+    <em>
+     Salmonella enterica in vivo
+    </em>
+    (
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ). FeoB is a large protein (773 residues) containing a cytosolic N-terminal domain (NFeoB) that can be divided into a G domain (residues 1 to 170) and an S domain (residues 171 to 270) (
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     22
+    </xref>
+    ). The C-terminal region of FeoB is a helical transmembrane domain that likely acts as the Fe
+    <sup>
+     2+
+    </sup>
+    permease. FeoC is a small (78 residues), hydrophilic, winged-helix protein found only in gammaproteobacteria. In the
+    <em>
+     feo
+    </em>
+    operon,
+    <em>
+     feoC
+    </em>
+    is downstream of
+    <em>
+     feoB
+    </em>
+    . A multiple alignment of various bacterial FeoC amino acid sequences shows that they possess four conserved cysteine residues with a consensus sequence, CxxGxCKxCPx
+    <sub>
+     4-7
+    </sub>
+    C, that likely provides binding sites for iron in the form of an iron-sulfur ([Fe-S]) cluster (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ). Therefore, FeoC is presumed to be an iron-sulfur-dependent regulator that directly controls transcription of the
+    <em>
+     feo
+    </em>
+    operon (
+    <xref ref-type="bibr">
+     5
+    </xref>
+    ).
+   </p>
+   <p>
+    Given its importance and novelty, delineating how the Feo system functions is of great interest. Notably, the structures of NFeoB from several species have been solved (
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     19
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     27
+    </xref>
+    ). We previously determined the
+    <em>
+     Klebsiella pneumoniae
+    </em>
+    (
+    <em>
+     Kp
+    </em>
+    NFeoB) and
+    <em>
+     Pyrococcus furiosus
+    </em>
+    NFeoB crystal structures with and without bound ligands (
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ). The NFeoB structures are quite similar between species, and each contains a Ras-like G domain and a helical S domain. The nucleotide-free (apo) protomer and the protomer bound with the nonhydrolyzable GTP analog, GMPPNP, of
+    <em>
+     Kp
+    </em>
+    NFeoB and
+    <em>
+     Ec
+    </em>
+    NFeoB (
+    <em>
+     E. coli
+    </em>
+    NFeoB) pack as a funnel-shaped trimer in the crystal, with the center containing a cation-binding site (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ). The trimer was proposed to be the gateway for Fe
+    <sup>
+     2+
+    </sup>
+    transport into the bacterial cell, and the S domain may act as an open/close switch (
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ).
+   </p>
+   <p>
+    We also solved the solution structure of
+    <em>
+     K. pneumoniae
+    </em>
+    FeoC (
+    <em>
+     Kp
+    </em>
+    FeoC) (
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ), which consists of a three-stranded β-sheet and three α-helices that fold into a winged helix structure (
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ). However, the function of FeoC is unknown, and nothing, until this report, has been known concerning how the Feo proteins interact. Here, we show that
+    <em>
+     Kp
+    </em>
+    FeoC forms a tight 1:1 complex with
+    <em>
+     Kp
+    </em>
+    NFeoB. We also report the crystal structure of the
+    <em>
+     Kp
+    </em>
+    NFeoB/
+    <em>
+     Kp
+    </em>
+    FeoC complex and show that
+    <em>
+     Kp
+    </em>
+    FeoC interacts with residues near switch II, the nucleotide-binding site, and the S domain of
+    <em>
+     K
+    </em>
+    pNFeoB. Furthermore, binding of
+    <em>
+     Kp
+    </em>
+    FeoC interferes with the formation of the
+    <em>
+     Kp
+    </em>
+    NFeoB trimer. These results suggest that
+    <em>
+     Kp
+    </em>
+    FeoC possesses regulatory roles in modulating Fe
+    <sup>
+     2+
+    </sup>
+    transport.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    MATERIALS AND METHODS
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Protein expression and purification.
+    </title>
+    <p>
+     <em>
+      Kp
+     </em>
+     NFeoB was expressed and purified as described previously (
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ). Briefly,
+     <em>
+      E. coli
+     </em>
+     cells harboring the gene encoding
+     <em>
+      Kp
+     </em>
+     NFeoB in a pET24a- or a pTAC-type vector were grown at 37°C in Luria broth in the presence of 100 μg/ml ampicillin. Protein expression was induced by addition of 1.0 mM isopropyl-β-
+     <span>
+      d
+     </span>
+     -thiogalactopyranoside (IPTG; final concentration) when a culture reached an optical density at 600 nm (OD
+     <sub>
+      600
+     </sub>
+     ) of ∼0.6. Each culture was incubated for an additional 4 h and harvested by centrifugation. Each cell pellet was suspended, lysed with a microfluidizer Model 110S (Microfluidics Corp.), and centrifuged at 16,000 rpm (Beckman rotor JA25.5) at 4°C for 20 min. The supernatants were loaded onto a DEAE-Sepharose open column (bed volume, 10 ml; GE Healthcare). After washing the column with 20 mM Tris, pH 7.5, 100 mM NaCl, protein was eluted in 20 mM Tris, pH 7.5, 300 mM NaCl. The eluted protein solution was concentrated, and the protein was subsequently denatured by the addition of a solution containing 20 mM NaP
+     <sub>
+      i
+     </sub>
+     , 50 mM NaCl, and 8 M urea (pH adjusted to 11). The solution was then dialyzed against 20 mM Tris, pH 7.5, 50 mM NaCl to promote refolding of
+     <em>
+      Kp
+     </em>
+     NFeoB, which was then further purified using size-exclusion chromatography (SEC; 120-ml Superdex 75; GE Healthcare.) The purity of
+     <em>
+      Kp
+     </em>
+     NFeoB was verified by SDS-PAGE (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     , inset) and mass spectrometry (Voyager-DE STR; PerSeptive Biosystems, MA).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Fig 1
+     </label>     <caption>
+      <p>
+       Size-exclusion chromatography of
+       <em>
+        Kp
+       </em>
+       NFeoB,
+       <em>
+        Kp
+       </em>
+       FeoC, and a 1:1 molar mixture of
+       <em>
+        Kp
+       </em>
+       NFeoB and
+       <em>
+        Kp
+       </em>
+       FeoC. Chromatography conditions included the following: protein concentration, 100 μM; eluent, 20 mM Tris, pH 7.5, 50 mM NaCl at 4°C and 1 ml/min; HiLoad 16/60 Superdex 75 column; UV absorption at 280 nm. The column was controlled by an AKTA Explorer (GE Healthcare). The lines show
+       <em>
+        Kp
+       </em>
+       NFeoB (solid line, B),
+       <em>
+        Kp
+       </em>
+       FeoC (dashed line, C), and the 1:1 molar mixture of
+       <em>
+        Kp
+       </em>
+       NFeoB and
+       <em>
+        Kp
+       </em>
+       FeoC (dashed and dotted line, BC). The protein from peak BC migrated as two bands upon SDS-PAGE (insert) with molecular masses of ∼30 and ∼10 kDa, which indicated that BC was the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC complex. Lane B and lane C show the purities of
+       <em>
+        Kp
+       </em>
+       NFeoB and
+       <em>
+        Kp
+       </em>
+       FeoC samples. Lane M is the molecular mass marker, and lane BC is the mixture sample.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     <em>
+      Kp
+     </em>
+     FeoC was expressed in
+     <em>
+      E. coli
+     </em>
+     as a glutathione
+     <em>
+      S
+     </em>
+     -transferase-tagged protein and purified through a glutathione Sepharose 4B column (GE Healthcare) as described previously (
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ). The tag was removed by incubation of the loaded resin with PreScission Protease (GE Healthcare), after which
+     <em>
+      Kp
+     </em>
+     FeoC was eluted with pH 7.5 buffer containing 20 mM Tris and 50 mM NaCl from the column. The protein was further purified using SEC through a HiLoad 16/60 Superdex 75 column. The purified protein contained five additional N-terminal residues (GPLGS) (83 residues in total). Protein purity was verified by SDS-PAGE and mass spectrometry.
+     <sup>
+      15
+     </sup>
+     N/
+     <sup>
+      13
+     </sup>
+     C-labeled
+     <em>
+      Kp
+     </em>
+     FeoC proteins were prepared by growing the cells at 37°C in M9 minimal medium supplemented with
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl and either
+     <sup>
+      13
+     </sup>
+     C
+     <sub>
+      6
+     </sub>
+     -
+     <span>
+      d
+     </span>
+     -glucose or
+     <sup>
+      12
+     </sup>
+     C
+     <sub>
+      6
+     </sub>
+     -
+     <span>
+      d
+     </span>
+     -glucose. IPTG (1.0 mM) was utilized for the induction of protein expression when the OD
+     <sub>
+      600
+     </sub>
+     of culture reached 0.6 to ∼0.8. The culture was grown for an additional 20 h at 15°C before harvesting. For preparing
+     <sup>
+      2
+     </sup>
+     H-,
+     <sup>
+      15
+     </sup>
+     N-
+     <em>
+      Kp
+     </em>
+     FeoC,
+     <em>
+      E. coli
+     </em>
+     cells were grown in D
+     <sub>
+      2
+     </sub>
+     O supplemented with perdeuterated glucose and
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Site-directed mutagenesis.
+    </title>
+    <p>
+     The
+     <em>
+      Kp
+     </em>
+     NFeoB mutants, including R100A, D238A, D239A, and A158C/A254C, were generated by using a previously reported protocol (
+     <xref ref-type="bibr">
+      36
+     </xref>
+     ). The primers containing desired mutations were utilized for PCRs with 6.5 min of extension time using KOD DNA polymerase (Novagen). The PCR products were treated with DpnI (Fermentas) at 37°C for 1 h to destroy the template DNA. The authenticities of all constructed mutants were further confirmed by nucleotide sequencing.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Gel filtration chromatography.
+    </title>
+    <p>
+     Size-exclusion chromatography experiments were performed at 4°C on a GE AKTA fast protein liquid chromatography (FPLC) purifier 10 equipped with a Superdex-75 HR 10/30 column (GE Healthcare). One hundred μM
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     monomer was incubated with or without 100 μM
+     <em>
+      Kp
+     </em>
+     FeoC at 4°C for 30 min in 20 mM Tris buffer (pH 7.5) containing 50 mM NaCl. For those Cu
+     <sup>
+      2+
+     </sup>
+     -catalyzed experiments, 0.5 mM Cu
+     <sup>
+      2+
+     </sup>
+     was next added to both samples with an additional 30-min incubation at 25°C before being loaded onto a column (
+     <xref ref-type="bibr">
+      26
+     </xref>
+     ). Proteins were eluted with the same buffer at 4°C at a flow rate of 0.5 ml/min and detected at a UV wavelength of 280 nm. Protein mass was calibrated with protein standards of molecular masses ranging of 6.5 to 75 kDa. The elution with molecular sizes corresponding to
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     trimer and
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     -
+     <em>
+      Kp
+     </em>
+     FeoC complex was further verified by SDS-PAGE analysis with or without 100 mM β-mercaptoethanol (BME) (see
+     <xref ref-type="fig">
+      Fig. 6
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Fig 6
+     </label>     <caption>
+      <p>
+       Interaction of
+       <em>
+        Kp
+       </em>
+       FeoC with the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimer. (A) SEC profiles of the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimer isolated after air oxidation of
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       at 4°C for 1 week. (B) SEC profile of a 1:1 molar mixture of preformed
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimer and
+       <em>
+        Kp
+       </em>
+       FeoC, which shows that
+       <em>
+        Kp
+       </em>
+       FeoC did not bind to the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimer. (C) SDS-PAGE of SEC peaks P1, P2, and P3 in the absence (−) or presence (+) of β-mercaptoethanol (BME). For clarity the identities of all peaks are labeled. The results indicate that
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimerizes via intermolecular disulfide bond formation and that
+       <em>
+        Kp
+       </em>
+       FeoC does not associate with the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimer. Arrows indicate the migration positions of trimeric
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       (T), monomeric
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       (B), and
+       <em>
+        Kp
+       </em>
+       FeoC (C). Lane M shows the molecular mass markers.
+      </p>
+     </caption>
+    </fig>
+    <fig id="F7" position="float">
+     <label>
+      Fig 7
+     </label>     <caption>
+      <p>
+       Cu
+       <sup>
+        2+
+       </sup>
+       -facilitated trimer formation of
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       . (A) SEC profile of
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       (labeled B
+       <sub>
+        2AC
+       </sub>
+       ) incubated with 0.5 mM Cu
+       <sup>
+        2+
+       </sup>
+       at 298 K for 30 min. P4,
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       trimer. (B) Dashed line, SEC profile of
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       incubated overnight at 4°C. Solid line, SEC profile of sample in the dashed line after addition of 1:1 molar ratio of
+       <em>
+        Kp
+       </em>
+       FeoC. Only the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       monomer peak observed in the dashed-line sample was affected, and the other peaks corresponding to higher molecular weight complexes were not affected, suggesting that
+       <em>
+        Kp
+       </em>
+       FeoC can only bind to the monomeric
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       . Excess
+       <em>
+        Kp
+       </em>
+       FeoC (peak C) was also observed. (C) SDS-PAGE of peaks P4 and P5 in the absence (−) or presence (+) of β-mercaptoethanol (BME). The gel patterns verify the identity of the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       (B
+       <sub>
+        2AC
+       </sub>
+       ) trimer (P4), the
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       /
+       <em>
+        Kp
+       </em>
+       FeoC binary complex (P5), and
+       <em>
+        Kp
+       </em>
+       FeoC (P5). Arrows indicate the migration positions of trimeric
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       (T), monomeric
+       <em>
+        Kp
+       </em>
+       NFeoB
+       <sub>
+        A158C,A254C
+       </sub>
+       (B), and
+       <em>
+        Kp
+       </em>
+       FeoC (C).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     NMR spectroscopy.
+    </title>
+    <p>
+     Nuclear magnetic resonance (NMR) spectra were acquired at 15°C on Bruker Avance 500- and 600-MHz spectrometers each equipped with a triple resonance cryogenic probe. Samples were 0.2 to 1.0 mM protein in 20 mM sodium phosphate, pH 6.5, 50 mM NaCl, 10% D
+     <sub>
+      2
+     </sub>
+     O, with or without 10 mM dithiothreitol (DTT).
+     <sup>
+      1
+     </sup>
+     H chemical shifts were externally referenced to the methyl resonance of 2,2-dimethyl-2-silapentane-5-sulfonate (0 ppm), and
+     <sup>
+      13
+     </sup>
+     C and
+     <sup>
+      15
+     </sup>
+     N chemical shifts were indirectly referenced according to IUPAC recommendations (
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ). NMR data were processed using Topspin software, and crosspeaks were analyzed using SPARKY 3 (T. D. Goddard and D. G. Kneller, University of California, San Francisco, CA). The
+     <sup>
+      1
+     </sup>
+     H,
+     <sup>
+      15
+     </sup>
+     N, and
+     <sup>
+      13
+     </sup>
+     C resonances of the DTT-reduced
+     <em>
+      Kp
+     </em>
+     FeoC at pH 6.5 and 15°C were assigned using standard multidimensional heteronuclear NMR techniques as previously reported (
+     <xref ref-type="bibr">
+      6
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      33
+     </xref>
+     ) (resonance assignments were deposited in the BioMagResBank under accession number
+     <span>
+      15634
+     </span>
+     [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ]).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     ITC.
+    </title>
+    <p>
+     Isothermal titration calorimetry (ITC) was performed with an ITC
+     <sub>
+      200
+     </sub>
+     calorimeter (MicroCal Inc.) at 15°C. Samples were centrifuged prior to titration. The titrations were carried out by injecting 1 μl (first injection) or 2.5 μl (injections 2 to 19) of a
+     <em>
+      Kp
+     </em>
+     FeoC solution (500 μM) into the sample cell filled with a 50 μM
+     <em>
+      Kp
+     </em>
+     NFeoB solution. The protein solutions contained 20 mM Tris, pH 7.5, 50 mM NaCl, with or without 1 mM
+     <em>
+      tris
+     </em>
+     (2-carboxyethyl)phosphine (TCEP). After an initial delay of 120 s, injections were made every 180 s. ITC binding curves were fit to a single-site binding equation using Microcal Origin software.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Crystallization and X-ray data collection.
+    </title>
+    <p>
+     The hanging-drop vapor-diffusion method (
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ) was used for crystallization. Apo
+     <em>
+      Kp
+     </em>
+     NFeoB was mixed with apo
+     <em>
+      Kp
+     </em>
+     FeoC at a 1:1 molar ratio in 20 mM Tris-HCl, pH 7.5, 50 mM NaCl. The final concentration of the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex was 10 mg/ml. The
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC solution (1 μl) and the reservoir (1 μl) solution were mixed and equilibrated against 500 μl of the reservoir solution (100 mM Tris-HCl, pH 8.5, 1 M Li
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 10 mM NiCl
+     <sub>
+      2
+     </sub>
+     ) in wells of a Linbro plate. Crystals appeared 1 week later and were held in a reservoir solution that also contained 12% (vol/vol) glycerol before data collection. Data were collected at beamline BL13C1 at the National Synchrotron Radiation Research Center in Taiwan and processed using the program HKL2000 (
+     <xref ref-type="bibr">
+      25
+     </xref>
+     ). The
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC crystals belong to the tetragonal space group P4
+     <sub>
+      3
+     </sub>
+     with unit cell parameters of
+     <em>
+      a
+     </em>
+     =
+     <em>
+      b
+     </em>
+     = 59.69 Å and
+     <em>
+      c
+     </em>
+     = 141.14 Å and were diffracted to 2.3-Å resolution. The specific volume (
+     <em>
+      V
+      <sub>
+       M
+      </sub>
+     </em>
+     ) (
+     <xref ref-type="bibr">
+      28
+     </xref>
+     ) is 3.19 Å
+     <sup>
+      3
+     </sup>
+     Da
+     <sup>
+      −1
+     </sup>
+     with a solvent content of 61.5%. The asymmetric unit contains one
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Crystallographic data processing and refinement statistics
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Structural determination and refinement.
+    </title>
+    <p>
+     The initial phase of
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC was obtained using the molecular replacement software AutoMR in PHENIX (
+     <xref ref-type="bibr">
+      1
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2
+     </xref>
+     ) and the
+     <em>
+      Kp
+     </em>
+     NFeoB (PDB code 2WIA) structure as the search model. XtalView (
+     <xref ref-type="bibr">
+      24
+     </xref>
+     ) was used to manually model the
+     <em>
+      Kp
+     </em>
+     NFeoB coordinates to the
+     <em>
+      Kp
+     </em>
+     NFeoB electron density in the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC map. After initial model refinement using the program CNS (
+     <xref ref-type="bibr">
+      4
+     </xref>
+     ), three distinguishable
+     <em>
+      Kp
+     </em>
+     FeoC helices were located in the |Fo|−|Fc| and 2|Fo|−|Fc| electron density maps. Following several cycles of refinement and model building, the structure of the complex was refined to an
+     <em>
+      R
+     </em>
+     <sub>
+      work
+     </sub>
+     of 21.3% for all reflections of &gt;2σ and between 25.52- and 2.30-Å resolution. An
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     of 22.1% was calculated using 5.0% random reflections that had not been used in the refinement. The final structure of the complex includes Gln
+     <sup>
+      2
+     </sup>
+     to Ile
+     <sup>
+      66
+     </sup>
+     , Thr
+     <sup>
+      70
+     </sup>
+     to Ala
+     <sup>
+      125
+     </sup>
+     , and Val
+     <sup>
+      130
+     </sup>
+     to Ser
+     <sup>
+      260
+     </sup>
+     for
+     <em>
+      Kp
+     </em>
+     NFeoB and Met
+     <sup>
+      1
+     </sup>
+     to Glu
+     <sup>
+      51
+     </sup>
+     , Gln
+     <sup>
+      73
+     </sup>
+     to Leu
+     <sup>
+      80
+     </sup>
+     , and the N-terminal tag residues Pro
+     <sup>
+      −3
+     </sup>
+     to Ser
+     <sup>
+      0
+     </sup>
+     for
+     <em>
+      Kp
+     </em>
+     FeoC. The complex contains 132 water molecules, 3 Ni ions, and 1 sulfate ion. The Ramachandran plots (
+     <xref ref-type="bibr">
+      28
+     </xref>
+     ) for the
+     <em>
+      Kp
+     </em>
+     NFeoB and
+     <em>
+      Kp
+     </em>
+     FeoC molecules in complex structures did not violate allowed backbone torsion angles. Refinement statistics are summarized in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Protein structure accession number.
+    </title>
+    <p>
+     Coordinates and structure factors of the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex have been deposited in the Protein Data Bank under accession number 4AWX.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    RESULTS AND DISCUSSION
+   </title>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Interaction of
+     <em>
+      Kp
+     </em>
+     FeoC with
+     <em>
+      Kp
+     </em>
+     NFeoB.
+    </title>
+    <p>
+     We first studied
+     <em>
+      Kp
+     </em>
+     FeoC/
+     <em>
+      Kp
+     </em>
+     NFeoB complex formation by size-exclusion chromatography (SEC) (
+     <xref ref-type="fig">
+      Fig. 1
+     </xref>
+     ). The elution profiles of
+     <em>
+      Kp
+     </em>
+     NFeoB and
+     <em>
+      Kp
+     </em>
+     FeoC indicated that, when isolated in solution, these two proteins each exist as monomers of ∼30 and ∼10 kDa, respectively, and that a 1:1 molar mixture of
+     <em>
+      Kp
+     </em>
+     NFeoB and
+     <em>
+      Kp
+     </em>
+     FeoC forms a tight binary complex with a molecular mass of ∼40 kDa.
+    </p>
+    <p>
+     We next employed ITC to characterize the binding isotherm of complex formation (
+     <xref ref-type="fig">
+      Fig. 2
+     </xref>
+     ). The thermogram was fit to a single-binding-site model with an enthalpy change (Δ
+     <em>
+      H
+     </em>
+     ) of 3.87 ± 0.08 kcal/mol, an entropy change (Δ
+     <em>
+      S
+     </em>
+     ) of 12.17 kcal/mol, and Δ
+     <em>
+      G
+     </em>
+     of −8.3 kcal/mol, corresponding to a dissociation constant (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     ) of 0.5 ± 0.2 μM (
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     ). Thus, binding of
+     <em>
+      Kp
+     </em>
+     FeoC to
+     <em>
+      Kp
+     </em>
+     NFeoB is strongly entropy driven. Reduction of the cysteines in the W1 loop did not affect the binding isotherm (data not shown), in agreement with our observation that the W1 loop is not involved in
+     <em>
+      Kp
+     </em>
+     NFeoB recognition.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Fig 2
+     </label>     <caption>
+      <p>
+       Binding of
+       <em>
+        Kp
+       </em>
+       NFeoB and
+       <em>
+        Kp
+       </em>
+       FeoC at 15°C, pH 7.5, as monitored by ITC. (Upper) Raw titration isotherm. (Lower) Binding isotherm obtained using the integrated areas of the peaks shown in the upper panel. The isotherm was fit using a single-binding-site model with a Δ
+       <em>
+        H
+       </em>
+       of 3.87 kcal/mol and
+       <em>
+        K
+        <sub>
+         d
+        </sub>
+       </em>
+       of 0.50 ± 0.11 μM. Δ
+       <em>
+        G
+       </em>
+       and −
+       <em>
+        T
+       </em>
+       Δ
+       <em>
+        S
+       </em>
+       were calculated as −8.3 kcal/mol and −12.17 cal/mol, respectively.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters of the binding of
+        <em>
+         Kp
+        </em>
+        FeoC to wild-type and mutant
+        <em>
+         Kp
+        </em>
+        NFeoBs determined by ITC at 15°C
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     We previously assigned the NMRs and determined the solution structure of
+     <em>
+      Kp
+     </em>
+     FeoC (
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ). Here, we employed NMR chemical shift perturbation data to identify the
+     <em>
+      Kp
+     </em>
+     FeoC residues that reside at the complex interface. In the presence of unlabeled
+     <em>
+      Kp
+     </em>
+     NFeoB, many of the resonances associated with free
+     <sup>
+      2
+     </sup>
+     H-,
+     <sup>
+      15
+     </sup>
+     N-labeled
+     <em>
+      Kp
+     </em>
+     FeoC disappeared (blue peaks in
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ), and many new, weak resonances appeared (red peaks in
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ), which probably are the resonances of residues affected by
+     <em>
+      Kp
+     </em>
+     NFeoB binding. The spectral change upon
+     <em>
+      Kp
+     </em>
+     NFeoB binding indicates that the
+     <em>
+      Kp
+     </em>
+     NFeoB dissociation from the binary complex is slow on the NMR time scale and the binding stoichiometry was 1:1, since no spectral change was observed at a molar ratio greater than 1:1. The observation that the
+     <em>
+      Kp
+     </em>
+     FeoC resonances are relatively weak is probably the consequence of faster transverse relaxation times (
+     <em>
+      T
+     </em>
+     <sub>
+      2
+     </sub>
+     ) for the amide resonances in the larger binary complex, which would cause signal loss prior to detection. The chemical shift perturbations for all resonances have yet to be determined, because we have not fully assigned all resonances of the complex. Nonetheless, the resonances of certain residues could be grouped as strongly perturbed (Δσ of &gt;0.05 ppm for M1, A2, S3, L4, M5, E6, V7, D9, M10, A12, Q14, Q21, Q27, L32, I33, D34, A35, R39, M40, A42, M43, V47, and R79) and as weakly perturbed (Δσ of &lt;0.05 ppm for R8, L11, G15, M17, E18, A19, S23, R25, L26, M36, G44, K45, I49, W75, W76, and L78). Mapping these chemical shift perturbations onto the
+     <em>
+      Kp
+     </em>
+     FeoC structure showed that the strongly perturbed residues are located primarily in the α1 helix at the N terminus and the α3 helix (colored red in
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ). Notably, the W1 loop (Thr
+     <sup>
+      52
+     </sup>
+     -Arg
+     <sup>
+      72
+     </sup>
+     ) was not affected by
+     <em>
+      Kp
+     </em>
+     NFeoB.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Fig 3
+     </label>     <caption>
+      <p>
+       NMR characterization of
+       <em>
+        Kp
+       </em>
+       FeoC residues that are affected by binding to
+       <em>
+        Kp
+       </em>
+       NFeoB. (A)
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N heteronuclear single quantum correlation (HSQC) spectra of uniformly
+       <sup>
+        2
+       </sup>
+       H-,
+       <sup>
+        15
+       </sup>
+       N-labeled
+       <em>
+        Kp
+       </em>
+       FeoC in the absence (blue) or presence (red) of
+       <em>
+        Kp
+       </em>
+       NFeoB. Conditions included 0.2 mM
+       <em>
+        Kp
+       </em>
+       NFeoB and/or 0.2 mM
+       <em>
+        Kp
+       </em>
+       FeoC in a solution of 20 mM sodium phosphate, pH 6.5, and 50 mM NaCl at 288 K. (B) Structural mapping of
+       <em>
+        Kp
+       </em>
+       FeoC residues perturbed by
+       <em>
+        Kp
+       </em>
+       NFeoB. Residues with large chemical shift perturbations (Δσ, &gt;0.05 ppm) are colored red, and those with weaker perturbations are colored orange. Residues with resonances that were unperturbed are colored gray.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Crystal packing of the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex.
+    </title>
+    <p>
+     The X-ray structure of the apo
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex (referred to as
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC throughout the remainder of the report) was determined at 2.3-Å resolution (
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     ). The structure of isolated apo
+     <em>
+      Kp
+     </em>
+     NFeoB (
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ) was used as the template for phase determination of
+     <em>
+      Kp
+     </em>
+     NFeoB in the complex.
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     depicts a ribbon representation of the structure of the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex in stereo. One
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC heterodimer, one sulfate ion (red spheres), and three Ni
+     <sup>
+      2+
+     </sup>
+     ions (magenta spheres) are present per asymmetric unit. The protein molecules are packed so that one
+     <em>
+      Kp
+     </em>
+     NFeoB molecule is surrounded by three
+     <em>
+      Kp
+     </em>
+     FeoC molecules (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). The surface areas of the three interfaces, corresponding to complexes 1, 2, and 3, respectively, as calculated by PISA (
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ), are 866, 344, and 258 Å
+     <sup>
+      2
+     </sup>
+     . Both gel filtration and NMR results indicated that the two proteins form a 1:1 complex. Comparison to the NMR chemical shift perturbation data indicated that complex 1, which has the largest contact interface area, is the correct complex (colored red in
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). Specifically, NMR results showed that the strongly perturbed residues are located at helices α1 and α3 of
+     <em>
+      Kp
+     </em>
+     FeoC. Only complex 1 has both helices α1 and α3 in contact with
+     <em>
+      Kp
+     </em>
+     NFeoB, while in complexes 2 and 3 the α3 helix is far away from the interface. The results clearly establish complex 1 as the correct structure for the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Fig 4
+     </label>     <caption>
+      <p>
+       Overview of the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC structure. (A) Stereo view of the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC crystal structure. Each
+       <em>
+        Kp
+       </em>
+       NFeoB molecule (gray) is surrounded by three
+       <em>
+        Kp
+       </em>
+       FeoC molecules (1, green; 2, pink; and 3, cyan) in an asymmetric unit. The α3 helix of each
+       <em>
+        Kp
+       </em>
+       FeoC molecule is labeled. The residues in
+       <em>
+        Kp
+       </em>
+       FeoC that show chemical shift perturbation upon
+       <em>
+        Kp
+       </em>
+       NFeoB binding with Δσ of &gt;0.05 ppm are colored red. (B) Ribbon diagram of the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC crystal structure. The G and S domains of
+       <em>
+        Kp
+       </em>
+       NFeoB are colored blue and red, respectively.
+       <em>
+        Kp
+       </em>
+       FeoC is colored dark green. The red spheres represent the oxygen atoms of the sulfate molecule that occupy the nucleotide-binding site. The three magenta spheres are Ni
+       <sup>
+        2+
+       </sup>
+       ions that coordinate histidine side chains (green stick models). The dotted red and green ovals identify the expected locations of helix H4 and switch II, which are not seen in the crystal structure of the complex. (C) Structure comparison of apo
+       <em>
+        Kp
+       </em>
+       NFeoB (gray) (PDB code 2wia), GDP-bound
+       <em>
+        Kp
+       </em>
+       NFeoB (cyan) (PDB code 2wib), GMPPNP-bound
+       <em>
+        Kp
+       </em>
+       NFeoB (orange) (PDB code 2wic), and
+       <em>
+        Kp
+       </em>
+       NFeoB in the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC complex (blue). The G1 to G5 motifs are colored magenta, and the two switch regions are colored green. Only the GDP-bound
+       <em>
+        Kp
+       </em>
+       NFeoB contains a fully observable switch II loop. Notice that the S domain helices have moved toward the G domain in the binary complex compared to their positions in the other structures, and that the G5 motif position varies between the structures. (D) Overlay of the structures of free
+       <em>
+        Kp
+       </em>
+       FeoC (gold; PDB code 2k02) and
+       <em>
+        Kp
+       </em>
+       FeoC from the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC complex (green). The β2-β3 sheet of
+       <em>
+        Kp
+       </em>
+       FeoC in the binary complex bends outward away from that of the free
+       <em>
+        Kp
+       </em>
+       FeoC by ∼30°. The W1 loop was not seen in the crystal structure of the complex. (E) Superpositioned
+       <em>
+        Kp
+       </em>
+       FeoC (gold) and
+       <em>
+        Kp
+       </em>
+       FeoC in the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC complex (dark green).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To further corroborate the observation, we mutated the three interfacial residues in
+     <em>
+      Kp
+     </em>
+     NFeoB involved in intermolecular hydrogen bonding to generate three alanine mutants,
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      R100A
+     </sub>
+     ,
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      D238A
+     </sub>
+     , and
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      D239A
+     </sub>
+     . The
+     <em>
+      Kp
+     </em>
+     FeoC binding affinities of these three mutants were determined by ITC, and the thermodynamic parameters extracted from these data are reported in
+     <a>
+      <span>
+       Table 2
+      </span>
+     </a>
+     . Surprisingly, only
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      D239A
+     </sub>
+     produced a 5-fold decrease in the equilibrium dissociation constant (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     ), while the binding affinities of the other two mutants were not altered. However, closer inspection of the thermodynamic data indicated that mutation at Arg
+     <sup>
+      100
+     </sup>
+     , Asp
+     <sup>
+      238
+     </sup>
+     , or Asp
+     <sup>
+      239
+     </sup>
+     generated marked Δ
+     <em>
+      H
+     </em>
+     of −1.6, 2.91, and 1.68 kcal/mol and
+     <em>
+      T
+     </em>
+     Δ
+     <em>
+      S
+     </em>
+     of 1.42, −2.78, and −0.67 kcal/mol for
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      R100A
+     </sub>
+     ,
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      D238A
+     </sub>
+     , and
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      D239A
+     </sub>
+     , respectively. The compensatory changes in enthalpy and entropy of R100A and D238A mutants resulted in no change in binding affinity. Nonetheless, the observed large changes in enthalpy and entropy of these three mutants support their roles as important interfacial residues, and complex 1 is the correct
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Overview of the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC structure.
+    </title>
+    <p>
+     The structure of
+     <em>
+      Kp
+     </em>
+     NFeoB in the complex is similar to that of free apo
+     <em>
+      Kp
+     </em>
+     NFeoB (
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     ). The N-terminal ∼170 residues with six helices (H1 to H6) and a seven-strand β-sheet (B1 to B7) (G domain) assumes a G protein fold, which was highly homologous to the structure of the canonical G protein. The C-terminal five helices (H7 to H11; residues 171 to 270) (S domain) assumed a compact hammer-shaped helix-bundle structure, with the long H11 helix positioned as the handle. The S domain interacted extensively with G domain residues opposite the nucleotide-binding pocket and near the switch II region (
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ). The root mean square deviations (RMSD) of the α carbons for
+     <em>
+      Kp
+     </em>
+     FeoB in the complex and apo
+     <em>
+      Kp
+     </em>
+     NFeoB, GDP/
+     <em>
+      Kp
+     </em>
+     NFeoB, or GMPPNP
+     <em>
+      /Kp
+     </em>
+     NFeoB are 0.786, 0.564, and 0.744 Å, respectively (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). In particular, the functionally important G1, G3, and G4 motifs and switch I are not perturbed by
+     <em>
+      Kp
+     </em>
+     FeoC binding. As with all other
+     <em>
+      Kp
+     </em>
+     NFeoB structures, except that of the GDP-bound form, the switch II residues are not observed in the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC binary complex. Nevertheless, there are several distinctive features for the
+     <em>
+      Kp
+     </em>
+     FeoC-complexed
+     <em>
+      Kp
+     </em>
+     NFeoB. (i) The
+     <em>
+      Kp
+     </em>
+     NFeoB G5 motif in the complex is in the in conformation (bent toward the G1 motif), similar to that observed for the nucleotide-bound form, such as in GDP/
+     <em>
+      Kp
+     </em>
+     NFeoB and GMPPNP/
+     <em>
+      Kp
+     </em>
+     NFeoB complexes, whereas the motif is in the out conformation (flipped away from the G1 motif) in apo
+     <em>
+      Kp
+     </em>
+     NFeoB. Since the G5 motif coordinates with the guanine nucleotide base, it will be interesting to investigate whether binding to
+     <em>
+      Kp
+     </em>
+     FeoC affects the nucleotide-binding affinity/specificity of
+     <em>
+      Kp
+     </em>
+     NFeoB. (ii) In the complex, the S and G domains move closer together, with changes in the positions of H9 and H10 and the C terminus of H11 in the S domain most affected (
+     <xref ref-type="fig">
+      Fig. 4C
+     </xref>
+     ). Switch II is positioned between the α1 helix of
+     <em>
+      Kp
+     </em>
+     FeoC and switch I. This positioning is consistent with a proposal made by Guilfoyle and colleagues concerning the mechanism by which the G protein affects Fe
+     <sup>
+      2+
+     </sup>
+     transport (
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ), i.e., GTP-Mg
+     <sup>
+      2+
+     </sup>
+     binding in the nucleotide-binding pocket of the G domain causes a structural change in switch I, and/or switch II is transmitted to the S domain, which directly modulates gating of the intracellular Fe
+     <sup>
+      2+
+     </sup>
+     pore. (iii) H4, adjacent to the G5 motif, is not observed in the complex, which means that this helix was not formed or was very mobile. Notably, H4 is present in all other
+     <em>
+      Kp
+     </em>
+     NFeoB structures (its usual position is indicated by the dashed red circle in
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     ). (iv) Finally, three Ni
+     <sup>
+      2+
+     </sup>
+     ions, which are present in the crystallization solvent, coordinating His
+     <sup>
+      50
+     </sup>
+     , His
+     <sup>
+      79
+     </sup>
+     , and His
+     <sup>
+      243
+     </sup>
+     (magenta spheres), are present. The biological significance of the aforementioned distinctive features is unclear at present.
+    </p>
+    <p>
+     The crystal structure of
+     <em>
+      Kp
+     </em>
+     FeoC in the complex contains a three-strand β sheet and a three-helix bundle and folds in the winged-helix-type topology, α1-β1-α2-α3-β2-β3, similar to that observed in solution (
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ). The 20-residue W1 loop, which connects the two β strands, is not observed. Superpositioning of the crystal and solution structures shows that they are rather similar, with an RMSD of 1.543 Å for the Cα atoms (
+     <xref ref-type="fig">
+      Fig. 4D
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ). Nonetheless, there are several notable differences between the two structures. First, the orientation of the β2-β3 sheet in the crystal structure is significantly tilted away from that of free
+     <em>
+      Kp
+     </em>
+     FeoC by ∼30°, which would put the W1 loop closer to the nucleotide-binding site. We speculate that the tilting could be caused by interactions between residues in the W1 loop and those in the switch II and/or nucleotide-binding pocket. However, this could not be confirmed, since the W1 loop and several switch II residues could not be observed in the crystal. Second, the orientations and positions of α2 differ substantially in the two structures. Third, in the solution structure, residues Arg
+     <sup>
+      16
+     </sup>
+     -Glu
+     <sup>
+      18
+     </sup>
+     form the short β1 strand, which is absent from the crystal structure. Intriguingly, superpositioning the
+     <em>
+      Kp
+     </em>
+     FeoC solution structure onto the
+     <em>
+      Kp
+     </em>
+     FeoC structure in the complex shows that the flexible W1 loop residues can reach and interact with residues in the nucleotide-binding site, thereby sensing the structural information induced by nucleotide binding to
+     <em>
+      Kp
+     </em>
+     NFeoB (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). The presence of four cysteine residues with the consensus sequence CxxGxCKxCPx
+     <sub>
+      4-7
+     </sub>
+     C and their structural arrangement (
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ) suggest that the W1 loop provides favorable binding sites of metal ions and/or [Fe-S] clusters. Such metal complexes and/or iron-sulfur clusters, if they indeed exist, could affect the interaction of the W1 loop with surrounding residues and provide additional layers of regulation in the G protein signal transduction process.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     The
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC interface.
+    </title>
+    <p>
+     <em>
+      Kp
+     </em>
+     FeoC binds to
+     <em>
+      Kp
+     </em>
+     NFeoB between the G domain, the S domain, and switch II, with the flexible W1 loop residues potentially being capable of reaching and interacting with residues in the nucleotide-binding site (
+     <xref ref-type="fig">
+      Fig. 4E
+     </xref>
+     ). Specifically, helix α3 of
+     <em>
+      Kp
+     </em>
+     FeoC extensively interacts with
+     <em>
+      Kp
+     </em>
+     NFeoB H3, H11, and switch II (
+     <xref ref-type="fig">
+      Fig. 5A
+     </xref>
+     ) by forming 10 hydrogen bonds, 7 salt bridges, and several hydrophobic interactions. Hydrogen bonds are formed by Ser
+     <sup>
+      3
+     </sup>
+     , Leu
+     <sup>
+      4
+     </sup>
+     , Arg
+     <sup>
+      8
+     </sup>
+     , Ala
+     <sup>
+      35
+     </sup>
+     , Glu
+     <sup>
+      38
+     </sup>
+     , and Arg
+     <sup>
+      39
+     </sup>
+     of
+     <em>
+      Kp
+     </em>
+     FeoC and Ser
+     <sup>
+      62
+     </sup>
+     , Arg
+     <sup>
+      100
+     </sup>
+     , Asp
+     <sup>
+      238
+     </sup>
+     , Asp
+     <sup>
+      239
+     </sup>
+     , Asp
+     <sup>
+      246
+     </sup>
+     , and Tyr
+     <sup>
+      249
+     </sup>
+     of
+     <em>
+      Kp
+     </em>
+     NFeoB, respectively. Arg
+     <sup>
+      8
+     </sup>
+     , Glu
+     <sup>
+      38
+     </sup>
+     , and Lys
+     <sup>
+      45
+     </sup>
+     of
+     <em>
+      Kp
+     </em>
+     FeoC form salt bridges with Arg
+     <sup>
+      100
+     </sup>
+     , Asp
+     <sup>
+      238
+     </sup>
+     , and Asp
+     <sup>
+      239
+     </sup>
+     of
+     <em>
+      Kp
+     </em>
+     NFeoB, respectively (
+     <xref ref-type="fig">
+      Fig. 5A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). A hydrophobic interaction is observed between α3 in
+     <em>
+      Kp
+     </em>
+     FeoC and H11 in
+     <em>
+      Kp
+     </em>
+     NFeoB (
+     <xref ref-type="fig">
+      Fig. 5B
+     </xref>
+     ). The locations of many of the residues in switch II are not seen in the crystal structure, therefore no interactions between switch II and
+     <em>
+      Kp
+     </em>
+     FeoC residues could be identified.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Fig 5
+     </label>     <caption>
+      <p>
+       Structure of the
+       <em>
+        Kp
+       </em>
+       NFeoB-
+       <em>
+        Kp
+       </em>
+       FeoC interface. (A) Identification of interface salt bridges. The residues within salt-bridging distances are shown as stick models and are labeled. The color codes are the following: G domain, blue; S domain, red;
+       <em>
+        Kp
+       </em>
+       FeoC, green. (B) The
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC interface is shown as a
+       <em>
+        Kp
+       </em>
+       FeoC ribbon diagram and an electrostatic surface for
+       <em>
+        Kp
+       </em>
+       NFeoB. Color coding: red, negative charge; blue, positive charge; white, uncharged. The structure is shown in a slightly different orientation than that in panel A so that the complementarity of the two surfaces can be seen. (C) Superpositioning of
+       <em>
+        Kp
+       </em>
+       FeoC from the
+       <em>
+        Kp
+       </em>
+       NFeoB/
+       <em>
+        Kp
+       </em>
+       FeoC complex onto one of the protomers in the GMPPNP-bound
+       <em>
+        Kp
+       </em>
+       NFeoB trimer. The three
+       <em>
+        Kp
+       </em>
+       NFeoB molecules are colored gray, cyan, and gold, and
+       <em>
+        Kp
+       </em>
+       FeoC is colored green.
+       <em>
+        Kp
+       </em>
+       NFeoB in the binary complex is not shown. Mg
+       <sup>
+        2+
+       </sup>
+       is represented as a magenta sphere.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     apo
+     <em>
+      Ec
+     </em>
+     NFeoB and 2′(3′)-
+     <em>
+      O
+     </em>
+     -(
+     <em>
+      N
+     </em>
+     -methylanthraniloyl) (mant)-GMPPNP-bound
+     <em>
+      Ec
+     </em>
+     NFeoB crystallize as a funnel-like trimeric assembly (
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ), which forms a cytoplasmic accessible pore ∼20 Å in length and ∼1.2 Å in diameter at its narrowest point, with the Glu
+     <sup>
+      133
+     </sup>
+     residues from the three subunits coordinating Mg
+     <sup>
+      2+
+     </sup>
+     . This pore structure may facilitate the passage of Fe
+     <sup>
+      2+
+     </sup>
+     into the cytoplasm with the Glu
+     <sup>
+      133
+     </sup>
+     residues forming the gate. In G proteins, e.g., Ras, conformational changes in switch I and switch II caused by nucleotide binding are believed to be transmitted to an effector site that then exerts the biological effect (
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      31
+     </xref>
+     ). In FeoB, H11 in the S domain is situated next to switch II and may act as the effector (
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ). We also found that crystals of apo
+     <em>
+      Kp
+     </em>
+     NFeoB and its GMPPNP complex form trimeric structures (
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ). Superpositioning of the
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <em>
+      /Kp
+     </em>
+     FeoC structure onto that of the
+     <em>
+      Kp
+     </em>
+     NFeoB trimer shows that
+     <em>
+      Kp
+     </em>
+     FeoC would bind to a site near the trimer interface (
+     <xref ref-type="fig">
+      Fig. 5C
+     </xref>
+     ), which raised the possibility that binding of
+     <em>
+      Kp
+     </em>
+     FeoC affects
+     <em>
+      Kp
+     </em>
+     NFeoB trimer formation.
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Binding of
+     <em>
+      Kp
+     </em>
+     FeoC prevents
+     <em>
+      Kp
+     </em>
+     NFeoB trimerization.
+    </title>
+    <p>
+     To further corroborate the biological role(s) for
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex formation, we investigated the effect of
+     <em>
+      Kp
+     </em>
+     FeoC binding on
+     <em>
+      Kp
+     </em>
+     NFeoB trimer formation using a published approach (
+     <xref ref-type="bibr">
+      11
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ). We mutated Ala
+     <sup>
+      158
+     </sup>
+     and Ala
+     <sup>
+      254
+     </sup>
+     , which are intermolecularly near each other (3.7 Å between the two C
+     <sub>
+      β
+     </sub>
+     atoms) at the interfaces of the
+     <em>
+      Kp
+     </em>
+     NFeoB trimer, to cysteines (
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     ), which can be oxidized to form a disulfide bond. Notably, Ala
+     <sup>
+      158
+     </sup>
+     and Ala
+     <sup>
+      254
+     </sup>
+     are spatially distant (26.9 Å between the two C
+     <sub>
+      β
+     </sub>
+     atoms) in the monomer and cannot be intramolecularly cross-linked.
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     formed a covalently linked trimeric structure when incubated at 4°C for a week (
+     <xref ref-type="fig">
+      Fig. 6A
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). We then determined if
+     <em>
+      Kp
+     </em>
+     FeoC could bind trimeric
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254
+     </sub>
+     . When
+     <em>
+      Kp
+     </em>
+     FeoC was added to preformed
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     trimer, SEC of the mixture revealed two peaks that correspond to the
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     trimer and
+     <em>
+      Kp
+     </em>
+     FeoC, indicating that
+     <em>
+      Kp
+     </em>
+     FeoC and the
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     trimer did not associate (
+     <xref ref-type="fig">
+      Fig. 6B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). This is consistent with the observation that the
+     <em>
+      Kp
+     </em>
+     FeoC binding site overlaps with the trimerization site of
+     <em>
+      Kp
+     </em>
+     NFeoB (
+     <xref ref-type="fig">
+      Fig. 5C
+     </xref>
+     ). The Cys variant of NFeoB allows NFeoB to form a disulfide-linked covalent trimer complex, and the formation of the NFeoB trimer completely blocks the FeoC binding site. Addition of Cu
+     <sup>
+      2+
+     </sup>
+     , which facilitates cross-linking of cysteines, caused formation of the
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     trimer within 30 min (
+     <xref ref-type="fig">
+      Fig. 7
+     </xref>
+     ). However, when Cu
+     <sup>
+      2+
+     </sup>
+     was added to a solution containing a mixture of
+     <em>
+      Kp
+     </em>
+     NFeoB
+     <sub>
+      A158C,A254C
+     </sub>
+     and
+     <em>
+      Kp
+     </em>
+     FeoC, the amount of trimer present was reduced and free
+     <em>
+      Kp
+     </em>
+     FeoC was detected (
+     <xref ref-type="fig">
+      Fig. 7B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Therefore,
+     <em>
+      Kp
+     </em>
+     FeoC appears able to retard
+     <em>
+      Kp
+     </em>
+     NFeoB trimer formation, most likely by binding to monomeric
+     <em>
+      Kp
+     </em>
+     NFeoB, whereas
+     <em>
+      Kp
+     </em>
+     FeoC cannot bind trimeric
+     <em>
+      Kp
+     </em>
+     NFeoB (solid line in
+     <xref ref-type="fig">
+      Fig. 7B
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <p>
+    </p>
+    <title>
+     Functional roles of FeoC.
+    </title>
+    <p>
+     FeoC contains four conserved cysteines in the W1 loop with a consensus sequence and spatial arrangement that likely provide a binding site for an iron-sulfur cluster (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      5
+     </xref>
+     ). Consequently, FeoC has been assumed to be an iron-sulfur cluster-dependent regulator of transcription that directly controls the expression of the
+     <em>
+      feo
+     </em>
+     operon (
+     <xref ref-type="bibr">
+      5
+     </xref>
+     ). However, such an iron-sulfur cluster in FeoC has not been experimentally identified. Nonetheless, iron-sulfur clusters often are not stable under aerobic conditions, and their formation may require biosynthetic machinery (
+     <xref ref-type="bibr">
+      7
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ). Therefore, the possible role of FeoC as an iron-sulfur cluster-dependent transcriptional regulator remains to be confirmed. Our present observations, that
+     <em>
+      Kp
+     </em>
+     FeoC tightly binds to monomeric
+     <em>
+      Kp
+     </em>
+     NFeoB at a strategic site that permits
+     <em>
+      Kp
+     </em>
+     FeoC to interact with the nucleotide-binding site, switch II, and S domain helices, which may act as an effector, raise the possibility that
+     <em>
+      Kp
+     </em>
+     FeoC modulates signal transduction initiated by nucleotide binding and results in the regulation of Fe
+     <sup>
+      2+
+     </sup>
+     transport. More interestingly, our finding that
+     <em>
+      Kp
+     </em>
+     FeoC does not bind to the trimeric
+     <em>
+      Kp
+     </em>
+     NFeoB and that the
+     <em>
+      Kp
+     </em>
+     NFeoB/
+     <em>
+      Kp
+     </em>
+     FeoC complex does not form a trimer further indicates that
+     <em>
+      Kp
+     </em>
+     FeoC can also regulate pore formation. Our present results provide strong evidence that
+     <em>
+      Kp
+     </em>
+     FeoC plays multiple roles in mediating signal transduction, pore formation, and perhaps transcriptional regulation of the
+     <em>
+      feo
+     </em>
+     gene. However, much more needs to be done to substantiate the current findings and to further explore the functional consequences.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGMENTS
+   </title>
+   <sec>
+    <p>
+     This work was supported by grants (
+     <span>
+      NSC 100-2311-B-001-023
+     </span>
+     to T.-H.H. and
+     <span>
+      NSC98-2311-B-001-009-MY3
+     </span>
+     to C.-D.H.) from the National Science Council of the Republic of China.
+    </p>
+    <p>
+     NMR experiments were carried out at the High-Field Nuclear Magnetic Resonance Center (Taipei, Taiwan), supported by the National Research Program for Genomic Medicine of the National Science Council of the Republic of China. We are grateful for access to the synchrotron radiation beamline 13C1 at the National Synchrotron Radiation Research Center, Hsinchu, Taiwan.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     1.
+     <span>
+      Adams PD, et al. 
+2010.
+      <span>
+       PHENIX: a comprehensive Python-based system for macromolecular structure solution
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr.
+      </span>
+      <span>
+       66
+      </span>
+      :213–221
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     2.
+     <span>
+      Adams PD, et al. 
+2002.
+      <span>
+       PHENIX: building new software for automated crystallographic structure determination
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D
+      </span>
+      <span>
+       58
+      </span>
+      :1948–1954
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     3.
+     <span>
+      Ash MR, Maher M, Guss JM, Jormakka M.
+2011.
+      <span>
+       The initiation of GTP hydrolysis by the G-domain of FeoB: insights from a transition-state complex structure
+      </span>
+      .
+      <span>
+       PLoS One
+      </span>
+      <span>
+       6
+      </span>
+      :e23355
+doi:
+      <span>
+       10.1371/journal.pone.0023355
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     4.
+     <span>
+      Brunger AT.
+2007.
+      <span>
+       Version 1.2 of the crystallography and NMR system
+      </span>
+      .
+      <span>
+       Nat. Protoc.
+      </span>
+      <span>
+       2
+      </span>
+      :2728–2733
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     5.
+     <span>
+      Cartron ML, Maddocks S, Gillingham P, Craven CJ, Andrews SC.
+2006.
+      <span>
+       Feo–transport of ferrous iron into bacteria
+      </span>
+      .
+      <span>
+       BioMetals
+      </span>
+      <span>
+       19
+      </span>
+      :143–157
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     6.
+     <span>
+      Chang CF, et al. 
+1998.
+      <span>
+       The solution structure of a cytotoxic ribonuclease from the oocytes of Rana catesbeina (bullfrog)
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       283
+      </span>
+      :231–244
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     7.
+     <span>
+      Crack JC, Green J, Hutchings MI, Thomson AJ, Le Brun NE.
+2012.
+      <span>
+       Bacterial iron-sulfur regulatory proteins as biological sensor-switches
+      </span>
+      .
+      <span>
+       Antioxid. Redox Signal.
+      </span>
+      <span>
+       17
+      </span>
+      :1215–1231
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     8.
+     <span>
+      Dashper SG, et al. 
+2005.
+      <span>
+       A novel Porphyromonas gingivalis FeoB plays a role in manganese accumulation
+      </span>
+      .
+      <span>
+       J. Biol. Chem.
+      </span>
+      <span>
+       280
+      </span>
+      :28095–28102
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     9.
+     <span>
+      Eng ET, Jalilian AR, Spasov KA, Unger VM.
+2008.
+      <span>
+       Characterization of a novel prokaryotic GDP dissociation inhibitor domain from the G protein coupled membrane protein FeoB
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       375
+      </span>
+      :1086–1097
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     10.
+     <span>
+      Gajiwala KS, Burley SK.
+2000.
+      <span>
+       Winged helix proteins
+      </span>
+      .
+      <span>
+       Curr. Opin. Struct. Biol.
+      </span>
+      <span>
+       10
+      </span>
+      :110–116
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     11.
+     <span>
+      Guilfoyle A, et al. 
+2009.
+      <span>
+       Structural basis of GDP release and gating in G protein coupled Fe2+ transport
+      </span>
+      .
+      <span>
+       EMBO J.
+      </span>
+      <span>
+       28
+      </span>
+      :2677–2685
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     12.
+     <span>
+      Hantke K.
+1987.
+      <span>
+       Ferrous iron transport mutants in Escherichia coli K12
+      </span>
+      .
+      <span>
+       FEMS Microbiol. Lett.
+      </span>
+      <span>
+       44
+      </span>
+      :53–57
+     </span>
+    </sec>
+    <sec>
+     13.
+     <span>
+      Hattori M, et al. 
+2009.
+      <span>
+       Structural basis of novel interactions between the small-GTPase and GDI-like domains in prokaryotic FeoB iron transporter
+      </span>
+      .
+      <span>
+       Structure
+      </span>
+      <span>
+       17
+      </span>
+      :1345–1355
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     14.
+     <span>
+      Hung KW, et al. 
+2010.
+      <span>
+       Structural fold, conservation and Fe(II) binding of the intracellular domain of prokaryote FeoB
+      </span>
+      .
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       170
+      </span>
+      :501–512
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     15.
+     <span>
+      Hung KW, Juan TH, Hsu YL, Huang TH.
+2012.
+      <span>
+       NMR structure note: the ferrous iron transport protein C (FeoC) from Klebsiella pneumoniae
+      </span>
+      .
+      <span>
+       J. Biomol. NMR
+      </span>
+      <span>
+       53
+      </span>
+      :161–165
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     16.
+     <span>
+      Johnson DC, Dean DR, Smith AD, Johnson MK.
+2005.
+      <span>
+       Structure, function, and formation of biological iron-sulfur cluster
+      </span>
+      .
+      <span>
+       Annu. Rev. Biochem.
+      </span>
+      <span>
+       74
+      </span>
+      :247–281
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     17.
+     <span>
+      Kammler M, Schon C, Hantke K.
+1993.
+      <span>
+       Characterization of the ferrous iron uptake system of Escherichia coli
+      </span>
+      .
+      <span>
+       J. Bacteriol.
+      </span>
+      <span>
+       175
+      </span>
+      :6212–6219
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     18.
+     <span>
+      Kim H, Lee H, Shin D.
+2012.
+      <span>
+       The FeoA protein is necessary for the FeoB transporter to import ferrous iron
+      </span>
+      .
+      <span>
+       Biochem. Biophys. Res. Commun.
+      </span>
+      <span>
+       423
+      </span>
+      :733–738
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     19.
+     <span>
+      Köster S, Wehner M, Herrmann C, Kühlbrandt W, Yildiz O.
+2009.
+      <span>
+       Structure and function of the FeoB G-domain from Methanococcus jannaschii
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       392
+      </span>
+      :405–419
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     20.
+     <span>
+      Krissinel E, Henrick K.
+2007.
+      <span>
+       Inference of macromolecular assemblies from crystalline state
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       372
+      </span>
+      :774–797
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     21.
+     <span>
+      Markley JL, et al. 
+1998.
+      <span>
+       Recommendations for the presentation of NMR structures of proteins and nucleic acids. IUPAC-IUBMB-IUPAB Inter-Union Task Group on the Standardization of Data Bases of Protein and Nucleic Acid Structures Determined by NMR Spectroscopy
+      </span>
+      .
+      <span>
+       J. Biomol. NMR
+      </span>
+      <span>
+       12
+      </span>
+      :1–23
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     22.
+     <span>
+      Marlovits TC, Haase W, Herrmann C, Aller SG, Unger VM.
+2002.
+      <span>
+       The membrane protein FeoB contains an intramolecular G protein essential for Fe(II) uptake in bacteria
+      </span>
+      .
+      <span>
+       Proc. Natl. Acad. Sci. U. S. A.
+      </span>
+      <span>
+       99
+      </span>
+      :16243–16248
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     23.
+     <span>
+      McPherson A.
+1990.
+      <span>
+       Current approaches to macromolecular crystallization
+      </span>
+      .
+      <span>
+       Eur. J. Biochem.
+      </span>
+      <span>
+       189
+      </span>
+      :1–23
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     24.
+     <span>
+      McRee DE.
+1999.
+      <span>
+       XtalView/Xfit–a versatile program for manipulating atomic coordinates and electron density
+      </span>
+      .
+      <span>
+       J. Struct. Biol.
+      </span>
+      <span>
+       125
+      </span>
+      :156–165
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     25.
+     <span>
+      Otwinowski Z, Minor W.
+1997.
+      <span>
+       Processing of X-ray diffraction data collected in oscillation mode
+      </span>
+      .
+      <span>
+       Methods Enzymol.
+      </span>
+      <span>
+       276
+      </span>
+      :307–326
+     </span>
+    </sec>
+    <sec>
+     26.
+     <span>
+      Pecci L, Montefoschi G, Musci Cavallini D.
+1997.
+      <span>
+       Novel findings on the copper catalysed oxidation of cysteine
+      </span>
+      .
+      <span>
+       Amino Acids
+      </span>
+      <span>
+       13
+      </span>
+      :355–367
+     </span>
+    </sec>
+    <sec>
+     27.
+     <span>
+      Petermann N, Hansen G, Schmidt CL, Hilgenfeld R.
+2010.
+      <span>
+       Structure of the GTPase and GDI domains of FeoB, the ferrous iron transporter of Legionella pneumophila
+      </span>
+      .
+      <span>
+       FEBS Lett.
+      </span>
+      <span>
+       584
+      </span>
+      :733–738
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     28.
+     <span>
+      Potterton E, Briggs P, Turkenburg M, Dodson E.
+1994.
+      <span>
+       The CCP4 suite: programs for protein crystallography
+      </span>
+      .
+      <span>
+       Acta Crystallogr. D Biol. Crystallogr.
+      </span>
+      <span>
+       50
+      </span>
+      :760–763
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     29.
+     <span>
+      Robey M, Cianciotto NP.
+2002.
+      <span>
+       Legionella pneumophila feoAB promotes ferrous iron uptake and intracellular infection
+      </span>
+      .
+      <span>
+       Infect. Immun.
+      </span>
+      <span>
+       70
+      </span>
+      :5659–5669
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     30.
+     <span>
+      Sprang SR.
+1997.
+      <span>
+       G protein mechanisms: insights from structural analysis
+      </span>
+      .
+      <span>
+       Annu. Rev. Biochem.
+      </span>
+      <span>
+       66
+      </span>
+      :639–678
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     31.
+     <span>
+      Sprang SR, Chen Z, Du X.
+2007.
+      <span>
+       Structural basis of effector regulation and signal termination in heterotrimeric Gα proteins
+      </span>
+      .
+      <span>
+       Adv. Protein Chem.
+      </span>
+      <span>
+       74
+      </span>
+      :1–65
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     32.
+     <span>
+      Stojiljkovic I, Cobeljic M, Hantke K.
+1993.
+      <span>
+       Escherichia coli K-12 ferrous iron uptake mutants are impaired in their ability to colonize the mouse intestine
+      </span>
+      .
+      <span>
+       FEMS Microbiol. Lett.
+      </span>
+      <span>
+       108
+      </span>
+      :111.
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     33.
+     <span>
+      Sue SC, et al. 
+2006.
+      <span>
+       Solution structure of the DNA binding domain of the telomeric repeat-binding protein of Arabidopsis thaliana: a new fold with an additional C-terminal helix
+      </span>
+      .
+      <span>
+       J. Mol. Biol.
+      </span>
+      <span>
+       356
+      </span>
+      :72–85
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     34.
+     <span>
+      Tsolis RM, Baumler AJ, Heffron F, Stojiljkovic I.
+1996.
+      <span>
+       Contribution of TonB- and Feo-mediated iron uptake to growth of Salmonella typhimurium in the mouse
+      </span>
+      .
+      <span>
+       Infect. Immun.
+      </span>
+      <span>
+       64
+      </span>
+      :4549–4556
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     35.
+     <span>
+      Velayudhan J, et al. 
+2000.
+      <span>
+       Iron acquisition and virulence in Helicobacter pylori: a major role for FeoB, a high-affinity ferrous iron transporter
+      </span>
+      .
+      <span>
+       Mol. Microbiol.
+      </span>
+      <span>
+       37
+      </span>
+      :274–286
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     36.
+     <span>
+      Zheng L, Baumann U, Reymond JL.
+2004.
+      <span>
+       An efficient one-step site-directed and site-saturation mutagenesis protocol
+      </span>
+      .
+      <span>
+       Nucleic Acids Res.
+      </span>
+      <span>
+       32
+      </span>
+      :e115
+doi:
+      <span>
+       10.1093/nar/gnh110
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

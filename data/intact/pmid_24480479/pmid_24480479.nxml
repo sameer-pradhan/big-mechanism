@@ -1,0 +1,2318 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3989642
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    FAK dimerization controls its kinase-dependent functions at focal adhesions
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Focal adhesion kinase (FAK) controls adhesion-dependent cell motility, survival, and proliferation. FAK has kinase-dependent and kinase-independent functions, both of which play major roles in embryogenesis and tumor invasiveness. The precise mechanisms of FAK activation are not known. Using x-ray crystallography, small angle x-ray scattering, and biochemical and functional analyses, we show that the key step for activation of FAK's kinase-dependent functions—autophosphorylation of tyrosine-397—requires site-specific dimerization of FAK. The dimers form via the association of the N-terminal FERM domain of FAK and are stabilized by an interaction between FERM and the C-terminal FAT domain. FAT binds to a basic motif on FERM that regulates co-activation and nuclear localization. FAK dimerization requires local enrichment, which occurs specifically at focal adhesions. Paxillin plays a dual role, by recruiting FAK to focal adhesions and by reinforcing the FAT:FERM interaction. Our results provide a structural and mechanistic framework to explain how FAK combines multiple stimuli into a site-specific function. The dimer interfaces we describe are promising targets for blocking FAK activation.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     cell adhesion, focal adhesion, focal adhesion kinase, non-receptor tyrosine kinase, signal transduction
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Focal adhesion kinase (FAK) is a highly conserved non-receptor tyrosine kinase (Corsi
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ) enriched at focal adhesions (FAs) (Hanks
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1992
+    </xref>
+    ; Schaller
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1992
+    </xref>
+    ). It plays a critical role in the response to integrin-mediated cell adhesion (Parsons,
+    <xref ref-type="bibr">
+     2003
+    </xref>
+    ; Mitra &amp; Schlaepfer,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ) and sensing of environmental rigidity (Geiger
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ; Moore
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ). FAK is also involved in signaling by other receptors, including G protein-coupled receptors, Deleted-in-colon-cancer (DCC) netrin receptors, and transmembrane tyrosine kinases (Zhao &amp; Guan,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ; Schaller,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ). FAK is essential for embryonic development; FAK-deficient mouse embryos die at E8-9 (Ilic
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1995
+    </xref>
+    ). Mice that express a FAK mutant lacking its autophosphorylation site die a few days later, pointing to the existence of autophosphorylation-dependent and independent functions (Corsi
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ). FAK is important for the formation of many organs including heart, brain, and blood vessels (Ilic
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1995
+    </xref>
+    ; Rico
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ; Shen
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ; Braren
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ) but the phenotype of kinase-dead knock-in mutants recapitulates only part of the complete knock-outs (Zhao
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ; Chen
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2012
+    </xref>
+    ). Although FAK expression decreases in most adult non-neuronal tissues (Burgaya
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1995
+    </xref>
+    ), it is augmented in many tumors (McLean
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ). Enhanced FAK expression allows tumor cells to override apoptotic signals triggered by cell detachment and to acquire increased invasiveness (Owens
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1995
+    </xref>
+    ). Thus, FAK promotes cancer cell metastasis and resistance to chemotherapy, making it a major drug target in oncology (McLean
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ).
+   </p>
+   <p>
+    FAK is a versatile multidomain scaffold (Fig
+    <xref ref-type="fig">
+     None
+    </xref>
+    ) with distinct functions in different subcellular environments through kinase-dependent and kinase-independent mechanisms (Corsi
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ; Frame
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ; Schaller,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ; Arold,
+    <xref ref-type="bibr">
+     2011
+    </xref>
+    ). An intramolecular interaction between the N-terminal 4.1–ezrin–radixin–moesin homology (FERM) domain (Girault
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1999
+    </xref>
+    ) and the central kinase domain inhibits FAK kinase activity (Toutant
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ; Ceccarelli
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ; Lietha
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2007
+    </xref>
+    ). Once recruited to FAs through an interaction between the C-terminal FA targeting (FAT) domain and the integrin-associated proteins paxillin (Hildebrand
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1993
+    </xref>
+    ; Arold
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ; Hayashi
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ; Liu
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ; Hoellerer
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2003
+    </xref>
+    ) and talin (Lawson
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2012
+    </xref>
+    ), FAK autophosphorylates on Y397 (Schaller
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1994
+    </xref>
+    ). Y397 is located in the FERM-kinase linker that also encompasses a proline-rich motif (PR1) (Thomas
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1998
+    </xref>
+    ). Phospho-Y397 and PR1 recruit and activate Src family kinases (SFKs) by interacting simultaneously with their Src homology 2 (SH2) and SH3 domains (Schaller
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1994
+    </xref>
+    ; Xing
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1994
+    </xref>
+    ; Thomas
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1998
+    </xref>
+    ; Arold
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2001
+    </xref>
+    ). The activated SFK provides most of the FAK-associated kinase activity and phosphorylates tyrosine residues of FAK and FAK ligands recruited by its multiple binding sites (Hall
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2011
+    </xref>
+    ). In a sense, FAK acts as a scaffolding protein with an autophosphorylation-dependent switch between sets of functions (Arold,
+    <xref ref-type="bibr">
+     2011
+    </xref>
+    ). A basic cluster (K
+    <sub>
+     216
+    </sub>
+    AKTLRK) in the FERM domain, distinct from its kinase interaction site, is involved in ligand-mediated co-activation of FAK at the cell membrane (Dunty
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ; Chen &amp; Chen,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ; Cai
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ). Intriguingly, the same cluster also constitutes a nuclear localization signal (NLS), which allows FAK to inactivate the tumor suppressor p53 in the nucleus, thereby promoting cell survival in a kinase-independent manner (Golubovskaya
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ; Lim
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ). These diverse functions at the cell membrane and in the nucleus allow FAK to sense cell attachment and promote survival (Cance &amp; Golubovskaya,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ). However, it remains unclear how FAK is precisely activated at focal adhesions. This lack of knowledge limits our capacity to design function-specific therapeutic agents.
+   </p>
+   <fig id="fig01" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <sec>
+      <p>
+       hFERM forms dimer in X-Ray crystallography implicating W266
+      </p>
+      <ol>
+       <li>
+        <sec>
+         Left panel: Schematic representation of FAK's primary structure. Proline-rich motifs (PR), autophosphorylated Y397, and binding sites for Src-family kinases (SFK) (Schaller
+         <em>
+          et al
+         </em>
+         ,
+         <xref ref-type="bibr">
+          1994
+         </xref>
+         ; Xing
+         <em>
+          et al
+         </em>
+         ,
+         <xref ref-type="bibr">
+          1994
+         </xref>
+         ; Thomas
+         <em>
+          et al
+         </em>
+         ,
+         <xref ref-type="bibr">
+          1998
+         </xref>
+         ) and paxillin (Brown
+         <em>
+          et al
+         </em>
+         ,
+         <xref ref-type="bibr">
+          1996
+         </xref>
+         ; Hoellerer
+         <em>
+          et al,
+         </em>
+         <xref ref-type="bibr">
+          2003
+         </xref>
+         ) are indicated. Right panel: Schematic domain structure based on Lietha
+         <em>
+          et al
+         </em>
+         (
+         <xref ref-type="bibr">
+          2007
+         </xref>
+         ) with the 3 FERM (F1-3) and 2 kinase (KI, II) lobes indicated. The FERM lobes suggested to bind selected FAK partners are indicated (the precise binding sites are not known; see Arold (
+         <xref ref-type="bibr">
+          2011
+         </xref>
+         ) for details).
+        </sec>
+       </li>
+       <li>
+        <sec>
+         Zoom on the FERM:FERM interaction shown in (C). Hydrophobic interactions of W266 in hFERM
+         <sub>
+          31-405
+         </sub>
+         are shown as stick models. An intermolecular hydrogen bond between W266 NH (light green protomer) and a backbone carbonyl of E325 (dark green protomer) is indicated by a dotted line.
+        </sec>
+       </li>
+       <li>
+        <sec>
+         Superimposition of the FERM dimers found in hFERM
+         <sub>
+          31–405
+         </sub>
+         (light and dark green secondary structure representation) and all four published crystal structures containing the chicken FAK FERM domain (Cα traces). FERM-kinase: FERM domains are shown in gray, kinase domains in blue (2J0K) and light blue (2J0J); FERM alone is shown in light grey (2AEH) and dark grey 2AE6. W266 residues are shown as stick models. Location of key residues is indicated on one protomer as follows: Y397 (*), ATP binding site (+); K216 (#).
+        </sec>
+       </li>
+      </ol>
+     </sec>
+    </caption>
+   </fig>
+   <p>
+    Structural studies showed how paxillin binds to FAT (Hoellerer
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2003
+    </xref>
+    ; Gao
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ; Garron
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ; Lulo
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ) and how the enzymatic activity of the kinase domain is suppressed by its interaction with the FERM domain (Lietha
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2007
+    </xref>
+    ), but these studies failed to reveal the regulation of the full-length enzyme. We have therefore combined X-ray crystallography with small angle X-ray scattering (SAXS) to reconstruct the structure of full-length FAK. Together with biochemical and functional analyses, our results reveal how FAK localization and kinase activity are regulated by dimerization and the interplay between multiple intramolecular and intermolecular interactions.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     FERM domains form dimers in crystals, implicating W266
+    </title>
+    <p>
+     We determined the 2.8 Å-resolution crystal structure of the human FERM domain (hFERM; Supplementary Table 1). As expected, the four hFERM molecules found in the asymmetric unit were very similar to each other (r.m.s.d. 0.5 Å) and also to the structure of the avian FERM domain (Ceccarelli
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2006
+     </xref>
+     ; r.m.s.d. 0.7 Å, 94.4% sequence identity). Interestingly, the four hFERM molecules formed two arch-shaped symmetric dimers in the crystal. The FERM:FERM binding surface was formed by the highly conserved W266 and surrounding residues (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). We found the same FERM:FERM dimers in the crystal lattices of all three avian FERM constructs (Ceccarelli
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2006
+     </xref>
+     ) [residues 31–399 (PDB accession number 2AEH), residues 31–405 (2AL6, 3ZDT)] and both avian FERM-kinase structures (Lietha
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2007
+     </xref>
+     ) (2J0K, 2J0J, Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), although these constructs crystallized under different conditions and in different crystal forms. Therefore, all currently known FERM domain structures (14 in total; from five different crystal lattices and two distinct species) formed the same dimer in the crystal. Our analysis with the PISA protein interface server (Henrick
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2008
+     </xref>
+     ) showed that the FERM:FERM binding surface covered about 1350 Å
+     <sup>
+      2
+     </sup>
+     and displayed features compatible with a
+     <em>
+      bona fide
+     </em>
+     protein-protein interface, rather than a crystal packing artifact (solvation free energy gain [Δ
+     <em>
+      G
+     </em>
+     <sup>
+      int
+     </sup>
+     ], −11.5 kcal/M). We therefore hypothesized that the high protein concentration during crystal formation stabilized a biologically relevant dimeric arrangement.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FAK self-association in cells requires W266
+    </title>
+    <p>
+     To test whether dimerization occurs in cells, we first co-transfected HEK293 cells with VSV- and HA-tagged FAK. In support of FAK dimerization, antibodies against the VSV tag immunoprecipitated HA-FAK (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). This interaction was strongly decreased when both tagged proteins contained the W266A mutation (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), in agreement with the key role of W266 in the FERM:FERM interaction suggested by our crystallographic analysis. Because of avidity effects and coupling of interactions, a FAK dimer is expected to associate more strongly with paxillin and other FA-localized ligands than is a FAK monomer. We therefore expected that the W266A mutation, by disrupting the FAK dimer, would also weaken the recruitment of this mutant to FAs, without directly affecting the FA-targeting sites located on the FAT domain. To test this hypothesis, we examined the cellular location of HA-tagged FAK or W266A-FAK in transfected FAK-defective (
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     ) fibroblasts (Ilic
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      1995
+     </xref>
+     ). In HA-FAK-transfected cells, confocal analysis revealed that HA immunoreactivity was co-localized with paxillin at FAs (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     , upper panels), as expected. HA-W266A-FAK was also detected at FAs, but a larger proportion was cytosolic than for the wild-type (WT), as predicted by our model (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     , lower panels). To obtain a more quantitative evaluation, we transfected WT or W266A mCherry-FAK in
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     cells (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and measured the fluorescence at FAs and in the perinuclear cytoplasm (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The recruitment of the W266A mutant FAK to FAs was decreased by 37% as compared to the WT protein (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="fig02" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <sec>
+       <p>
+        FAK self-associates in cells and mutation of W266 alters self-association and localization
+       </p>
+       <ul>
+        <li>
+         <sec>
+          A HEK 293 cells were cotransfected with VSV-FAK and HA-FAK (FAK) or VSV-W266A-FAK and HA-W266A-FAK (W266A). Proteins were immunoprecipitated with an anti-VSV antibody (IP-VSV) and blotted with an HA or VSV antibody, as indicated.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          B Quantification of the amount of HA-FAK co-immunoprecipitated by anti-VSV antibodies expressed as a ratio of immunoreactive bands in (A). The HA-FAK/VSV-FAK ratio was normalized to 1. Values are means + s.e.m. of three independent experiments. Two-tailed Student's
+          <em>
+           t
+          </em>
+          -test,
+          <em>
+           t
+          </em>
+          = 4.85, **
+          <em>
+           P
+          </em>
+          &lt; 0.01.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          C, D Confocal sections of
+          <em>
+           Ptk2
+          </em>
+          <sup>
+           −/−
+          </sup>
+          fibroblasts (Ilic
+          <em>
+           et al
+          </em>
+          ,
+          <xref ref-type="bibr">
+           1995
+          </xref>
+          ) transfected with HA-tagged FAK (C) or W266A-FAK (D). Double immunostaining was performed with anti-HA and anti-paxillin antibodies. For each, a confocal section at the level of focal adhesions (upper panels) and one 30 μm above (lower panels) are shown. In the transfected cell visible in each panel (arrowheads), HA immunoreactivity was partly colocalized with paxillin at FAs for HA-FAK but not for HA-W266A-FAK. Scale bar, 10 μm.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          E
+          <em>
+           Ptk2
+          </em>
+          <sup>
+           −/−
+          </sup>
+          fibroblasts were transfected with WT (upper panel) or W266A (lower panel) FAK fused to mCherry and paxillin fused to EGFP (not shown). Confocal sections at the level of focal adhesions (middle panels) and above (left panels) are shown. A z-stack image of confocal sections coded in pseudocolor (right panel) shows the distribution of fluorescence in the whole cell. Scale bar, 5 μm.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          F Quantification of the results in (E). The intensity of mCherry fluorescence was measured at FAs (identified by paxillin-GFP fluorescence) and in the perinuclear cytoplasm. Data were obtained from 35 cells for each form of transfected FAK and 5 measurements per cell. Data are means + s.e.m. Two-tailed Student's
+          <em>
+           t
+          </em>
+          -test,
+          <em>
+           t
+          </em>
+          = 4.3, ***
+          <em>
+           P
+          </em>
+          &lt; 0.001.
+         </sec>
+        </li>
+       </ul>
+       <p>
+        Source data are available online for this figure.
+       </p>
+      </sec>
+     </caption>
+    </fig>
+    <p>
+     We then studied FAK:FAK interactions in
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     cells co-transfected with FAK fused to EGFP or mCherry by acceptor photobleaching. In these experiments, the existence of fluorescence (Föster) resonance energy transfer (FRET) between the EGFP and mCherry was used as an index of the proximity of the FAK fusion proteins. To ensure that FAK dimers were not artifacts of abnormally high expression of the transfected protein, we selected for analysis only cells that showed FAK expression levels &lt; 2-fold those of endogenous FAK. To do so we compared the endogenous and transfected FAK immunoreactivity in wt and
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     cells, respectively (Supplementary
+     <a>
+      Fig S1A
+     </a>
+     and
+     <a>
+      B
+     </a>
+     ), and used it as standard for selecting cells based on EGFP fluorescence for FRET experiments. The ratio of FAK concentration in the cytoplasm to FAK concentration at FAs was similar for endogenous and transfected FAK, showing that transfection did not alter the protein distribution. The validity of using transfected FAK as a proxy for endogenous FAK has been demonstrated previously (Webb
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ; Hamadi
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2005
+     </xref>
+     ). A strong FRET efficiency was observed at FAs with WT FAK but not in the rest of the cytoplasm (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     upper panels, Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). When cells were transfected with WT FAK-mCherry and W266A-FAK-GFP the FRET efficiency was dramatically decreased (−80%, Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). When the transfection was done with W266A-mCherry and W266A-FAK-GFP, the effect was even more pronounced (−90%, Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The decreased FRET efficiency of W266A-FAK could result from its diminished enrichment at FAs and/or from altered dimerization. To distinguish between these two possibilities we examined the interactions of FAK-mCherry with paxillin-GFP (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     , Supplementary
+     <a>
+      Fig S1C
+     </a>
+     ). We reasoned that diminution of W266A-FAK enrichment at FAs should similarly alter FAK:FAK and FAK:paxillin FRET efficiency, whereas impaired homodimerization should preferentially alter FAK:FAK FRET. The FRET efficiency between paxillin and WT FAK was significant (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), although less pronounced than for the FAK:FAK interaction (
+     <xref ref-type="fig">
+      Fig. 3C
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The W266A mutation decreased the FAK:paxillin interaction much less than it decreased the FAK:FAK interaction. Therefore, we concluded that the effect of the W266A mutation on FAK:FAK FRET was mostly explained by the disruption of FAK dimerization, and only to a minor degree by a decreased recruitment to FAs.
+    </p>
+    <fig id="fig03" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <sec>
+       <p>
+        FAK self-associates in cells at the level of focal adhesions and mutation of W266 alters this association
+       </p>
+       <ol>
+        <li>
+         <sec>
+          Ptk2
+          <sup>
+           −/−
+          </sup>
+          fibroblasts were co-transfected as indicated with WT or W266A (WA) FAK fused to mCherry or GFP. Single confocal sections are shown in the left panels. FRET efficiency was calculated by measuring GFP fluorescence before and after mCherry photobleaching (right panels, enlargement of the area indicated in the left panel merge picture), as an index of the proximity between the two fluorophores. The bleached region is indicated by a dashed circle. FRET is dramatically reduced when one or both of the transfected FAK molecules contain the W266A mutation that impairs dimerization. Scale bar, 5 μm.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Quantification of results in (A) for WT FAK in the cytoplasm away from FAs and at FAs. Statistical analysis: Paired
+          <em>
+           t
+          </em>
+          -test,
+          <em>
+           t
+          </em>
+          = 4.436, df = 9, **
+          <em>
+           P
+          </em>
+          = 0.0016.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Quantification of results in (A) comparing FRET efficiency at FAs in cells transfected with WT FAK-GFP and WT FAK mCherry (wt-wt), W266A-FAK-GFP and W266A-FAK mCherry (WA-WA), or WT FAK-GFP and W266A-FAK mCherry (wt-WA). Data are means + s.e.m., 31 cells per condition. Statistical analysis: One-way ANOVA,
+          <em>
+           F
+          </em>
+          <sub>
+           90,2
+          </sub>
+          = 29.9,
+          <em>
+           P
+          </em>
+          &lt; 0.0001. Newman-Keuls multiple comparison test, ***
+          <em>
+           P
+          </em>
+          &lt; 0.001.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Same experiment as in (A, C) except that
+          <em>
+           Ptk2
+          </em>
+          <sup>
+           −/−
+          </sup>
+          fibroblasts were co-transfected with paxillin-GFP and, as indicated, either WT or W266A (WA) FAK fused to mCherry (Supplementary
+          <a>
+           Fig S2
+          </a>
+          ). Data are means + s.e.m., 31 cells per condition. Statistical analysis: Two-tailed Student's
+          <em>
+           t
+          </em>
+          -test,
+          <em>
+           t
+          </em>
+          = 1.035, not significant.
+         </sec>
+        </li>
+       </ol>
+      </sec>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     FERM:FERM interactions and FAK dimerization of recombinant purified proteins
+    </title>
+    <p>
+     We first investigated the ability of purified recombinant FERM to self-associate. Surface plasmon resonance (SPR) showed that FERM self-associated in the absence of other partners and that the W266A mutation abolished this interaction (Supplementary
+     <a>
+      Fig S2A
+     </a>
+     ). Since determination of accurate affinities by SPR can be hampered by multiple factors, including ligand or analyte dimerization, occurrence of multiple interactions, and accuracy of the fit, we estimated the FERM:FERM affinity by analytical ultracentrifugation (AUC, Supplementary
+     <a>
+      Fig S2B
+     </a>
+     ). This method provided an apparent
+     <em>
+      K
+     </em>
+     <sub>
+      <em>
+       d
+      </em>
+     </sub>
+     of 29 μM (95% confidence interval, 17–49 μM) for the FERM:FERM interaction.
+    </p>
+    <p>
+     We then produced full-length WT FAK as a His
+     <sub>
+      6
+     </sub>
+     fusion protein in a baculovirus system, purified it on a Ni
+     <sup>
+      2+
+     </sup>
+     column (Supplementary
+     <a>
+      Fig S2C
+     </a>
+     ) and examined its ability to self-associate. Polyacrylamide gel electrophoresis under native conditions revealed a dimeric species of full-length FAK, which disappeared in the presence of increasing amounts of SDS (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) or in W266A-FAK (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Dynamic light scattering (DLS) experiments indicated the presence of two major FAK species with Stokes radii (
+     <em>
+      R
+     </em>
+     <sub>
+      <em>
+       S
+      </em>
+     </sub>
+     ) of 48 Å (∽50%) and 66 Å (∽25%). The molecular masses calculated from these radii were 130 and 280 kDa, respectively, in agreement with the masses of FAK monomers (125 kDa) and dimers (250 kDa). Similarly, size-exclusion chromatography (SEC) revealed two major species for WT FAK, with
+     <em>
+      R
+     </em>
+     <sub>
+      S
+     </sub>
+     of 52 Å and 69 Å (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The 69-Å peak was markedly decreased for W266A-FAK (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Both species corresponded to FAK as shown by Coomassie blue-stained SDS-PAGE of elution fractions (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). These results demonstrated that purified FAK can form dimers in solution, in the absence of other factors. Importantly they also indicated that the W266A mutation, which abolishes the FERM:FERM interaction, does not completely suppress the FAK:FAK interaction. Moreover, the 29 μM affinity we measured by AUC for the FERM:FERM interaction would be too low to be detected by most methods. The observation of FAK dimers in native SDS-PAGE, DLS, and SEC, using only sub-micromolar concentrations of FAK, however, suggested that additional interactions, not included in the FERM-kinase fragment, stabilize FAK dimers. These additional interactions would also explain the small amounts of higher molecular weight species observed in DLS and native SDS-PAGE gels (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), as well as the residual interactions of full-length W266A-FAK in SPR (not shown). We therefore used additional approaches to investigate FAK self-association.
+    </p>
+    <fig id="fig04" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <sec>
+       <p>
+        FAK dimerizes
+        <em>
+         in vitro
+        </em>
+        through FERM:FERM interaction involving W266
+       </p>
+       <ol>
+        <li>
+         <sec>
+          Representative native PAGE of His
+          <sub>
+           6
+          </sub>
+          -FAK (loaded concentration 4 μM) followed by immunoblot with an anti-FAK monoclonal antibody showing monomeric (*) and dimeric (°) forms. Extemporaneous addition of SDS before loading strongly decreased oligomers.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          His
+          <sub>
+           6
+          </sub>
+          -FAK and His
+          <sub>
+           6
+          </sub>
+          -W266A-FAK were analyzed by native PAGE as in (A) showing that the W266A mutation decreased dimer (°) formation.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Recombinant His
+          <sub>
+           6
+          </sub>
+          -FAK (loaded concentration 3 μM) analyzed by size exclusion chromatography on a Superdex 200 column. The elution profile shows two peaks (indicated by ° and *).
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Plot of data in (C) indicating Rs of 69 Å (°) and 52 Å (*) compatible with a dimer and monomer of FAK, respectively.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Size exclusion chromatography His
+          <sub>
+           6
+          </sub>
+          -FAK-W266A as in (C) showing that the mutation strongly decreased the relative size of the peak corresponding to dimeric species (°), while it increased the peak corresponding to the monomeric species (*).
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Coomassie blue-stained SDS-PAGE of elution fractions from (C, FAK) and (E, W266A-FAK).
+         </sec>
+        </li>
+       </ol>
+       <p>
+        Source data are available online for this figure.
+       </p>
+      </sec>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     SAXS analysis of full-length FAK confirms FERM:FERM interactions and suggests FAT:FERM interactions
+    </title>
+    <p>
+     The size, flexibility and low
+     <em>
+      in vitro
+     </em>
+     solubility of FAK have so far precluded structural analysis of the full-length molecule by X-ray crystallography, nuclear magnetic resonance or electron microscopy. We therefore used SAXS to investigate the intramolecular interactions occurring in full-length FAK in solution. We first used an iterative approach to calculate
+     <em>
+      ab initio
+     </em>
+     low-resolution bead models. The SAXS data were compatible with the particle size expected for a FAK dimer (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     , Supplementary
+     <a>
+      Fig S3
+     </a>
+     ) and the averaged structure displayed dimeric features even without symmetry constraints (Supplementary
+     <a>
+      Fig S3A
+     </a>
+     ). The central part of the SAXS bead model was highly similar to the arch shape of the crystallographic FERM:FERM dimer. Moreover, the crystallographic FERM-kinase homodimers (PDB 2J0K or 2J0J) fitted well into a large part of the SAXS bead model (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). After this fit, the SAXS envelope provided additional space near the FERM F2 lobe, likely to harbor many of the ∽400 residues missing in the FERM-kinase structure. In a second SAXS analysis, we used the homodimeric FERM-kinase fragment as a rigid body and placed the FAT domain and the other missing residues (the 38 N-terminal residues and the 220 kinase-FAT linker residues) directly according to the SAXS scattering pattern. This algorithm did not take into account the SAXS
+     <em>
+      ab initio
+     </em>
+     bead model. In the 10% best-scored of the ∽500 produced models, the four-helical FAT domain was consistently placed in contact with the FERM F2 lobe, close to the site where FERM binds to the C-terminal kinase lobe, suggesting a direct interaction between the FERM and FAT domains (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     , Supplementary
+     <a>
+      Fig S3C
+     </a>
+     ). The
+     <em>
+      R
+     </em>
+     <sub>
+      S
+     </sub>
+     of 67 Å calculated for a compact dimeric model (Ortega
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2011
+     </xref>
+     ) (featuring FERM:FERM and FAT:FERM interactions and a flexible kinase-FAT linker) matched the
+     <em>
+      R
+     </em>
+     <sub>
+      S
+     </sub>
+     measured by DLS (66 Å) and SEC (69 Å) for the dimeric species. Conversely, the average
+     <em>
+      R
+     </em>
+     <sub>
+      S
+     </sub>
+     for dimeric FAK models in which the FAT domain was not attached to FERM was significantly larger (89 Å). The SAXS results therefore suggested that FAK dimers are stabilized by a FAT:FERM interaction.
+    </p>
+    <fig id="fig05" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <sec>
+       <p>
+        SAXS model of FAK dimerization and involvement of FAT:FERM interaction with FERM K
+        <sub>
+         216
+        </sub>
+        AKTLRK basic cluster
+       </p>
+       <ol>
+        <li>
+         <sec>
+          SAXS model for the assembled dimeric form of full-length FAK. The
+          <em>
+           ab initio
+          </em>
+          DAMMIN bead model (gray spheres) is shown superimposed onto the molecular BUNCH model (domains are color-coded as in Fig
+          <xref ref-type="fig">
+           None
+          </xref>
+          ). In the BUNCH model, residues of regions for which the three-dimensional structure is not available are shown as black dots. Two 90° views are shown. During the BUNCH runs, the position of the dimeric FERM-kinase fragment was fixed. No constraints were used for the mobile residues and FAT domains. The displayed position of the FAT domain has been chosen according to an integrative approach, combining fit to SAXS data and agreement with other experimental evidence. The FAT position is therefore only approximate. The spread of FAT positions obtained by BUNCH alone is shown in Supplementary
+          <a>
+           Fig S3C
+          </a>
+          . Location of key residues is indicated on one protomer as follows: Y397 (*), ATP binding site (+); K216 (#).
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Fit to data (χ = 0.96) of the BUNCH model shown in (A). Dots correspond to experimental data and the red line to the model. FAK concentration was 2.5 μM.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          GST alone or GST-FERM (0.3 μM) was incubated in the presence of FAT (3 μM), and protein complexes pulled down with glutathione-agarose beads. Bound FAT was revealed with immunoblotting (Blot FAT, upper panel) and GST fusion proteins with Coomassie blue staining (lower panel). FAT binding is lost with GST-A
+          <sub>
+           216
+          </sub>
+          AATLAA
+          <sub>
+           222
+          </sub>
+          -FERM.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Quantification of pull-down experiment as in (C) comparing the binding of FAK 895–1024 (FAT) and 916-1024 (FAT916–1024) to GST-FERM incubated in the absence (−) or presence (+) of LD4 peptide 30 μM (Supplementary
+          <a>
+           Fig S4F
+          </a>
+          ). Values are means + s.e.m. of triplicates. Statistical analysis: One-way ANOVA:
+          <em>
+           F
+          </em>
+          <sub>
+           3,8
+          </sub>
+          = 8.89
+          <em>
+           P
+          </em>
+          &lt; 0.01. Newman-Keuls multiple comparison test: *
+          <em>
+           P
+          </em>
+          &lt; 0.05; **
+          <em>
+           P
+          </em>
+          &lt; 0.01. Similar results were obtained when the FAT domain was preincubated for 30 min with the LD4 peptide.
+         </sec>
+        </li>
+       </ol>
+       <p>
+        Source data are available online for this figure.
+       </p>
+      </sec>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     FAT binds to a basic cluster on FERM and thus stabilizes the FAK dimer
+    </title>
+    <p>
+     Since the FAT:FERM interaction suggested by our SAXS study had not been reported previously, we tested it
+     <em>
+      in vitro
+     </em>
+     . In pull-down experiments, purified recombinant FAT displayed a significant interaction with GST-FERM, as compared to GST alone (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). This interaction was confirmed using isothermal titration calorimetry (ITC), yielding a
+     <em>
+      K
+     </em>
+     <sub>
+      <em>
+       d
+      </em>
+     </sub>
+     of 0.6 ± 0.2 μM (Supplementary
+     <a>
+      Fig S4A
+     </a>
+     ). We also observed the association between immobilized FAT and GST-FERM or FAT and immobilized GST-FERM by SPR (Supplementary
+     <a>
+      Fig S4B
+     </a>
+     ). The putative FAT binding region identified by SAXS within the FERM F2 lobe encompassed a basic cluster, K
+     <sub>
+      216
+     </sub>
+     AKTLRK, which is important for FAK function (Dunty
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ; Chen &amp; Chen,
+     <xref ref-type="bibr">
+      2006
+     </xref>
+     ; Lim
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2008
+     </xref>
+     ). We mutated the four basic residues in this cluster to alanine (K
+     <sub>
+      216
+     </sub>
+     AKTLRK to A
+     <sub>
+      216
+     </sub>
+     AATLAA). It is important to point out that it has been shown that this mutation does not compromise the 3D structure of FERM, as demonstrated by the crystal structure of this FERM mutant (PDB 3ZDT). The A
+     <sub>
+      216
+     </sub>
+     AATLAA mutation abolished binding of FAT to GST-FERM in GST pull-down (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and SPR experiments (Supplementary
+     <a>
+      Fig S4A
+     </a>
+     ). These results confirmed that FAT binds directly to the FERM domain, and they revealed the importance of the K
+     <sub>
+      216
+     </sub>
+     AKTLRK motif for this interaction. In support of a role of this FAT:FERM interaction for the stabilization of FAK dimers, we found that the peak corresponding to dimeric FAK in SEC was dramatically reduced (Supplementary
+     <a>
+      Fig S4C
+     </a>
+     –
+     <a>
+      E
+     </a>
+     ) when we incubated FAK with a 10-fold excess of recombinant FAT prior to chromatography.
+    </p>
+    <p>
+     The FAT domain includes two binding sites for the LD motifs of paxillin (Hoellerer
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2003
+     </xref>
+     ), an interaction which targets FAK to FAs (Brown
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      1996
+     </xref>
+     ). We examined whether the binding of a 15-residue paxillin LD4 peptide (LD4-pep) known to bind to these two sites of FAT (Hoellerer
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2003
+     </xref>
+     ), interfered with FAT:FERM interactions. Surprisingly, the LD4-pep did not decrease FAT binding to GST-FERM, but enhanced it (Supplementary
+     <a>
+      Fig S4F
+     </a>
+     ,
+     <a>
+      Fig 5D
+     </a>
+     ). This effect was specific since a control peptide with a LD4 scrambled sequence (LD4-scr) did not enhance binding and the LD4-pep did not promote FAT association with GST (Supplementary
+     <a>
+      Fig S4G
+     </a>
+     and
+     <a>
+      H
+     </a>
+     ). The LD4-pep also increased GST-FERM binding of a shorter FAT construct restricted to the 4-helix bundle (FAT
+     <sub>
+      916–1024
+     </sub>
+     ), indicating that this bundle is sufficient for both FERM binding and its enhancement by the paxillin peptide (Supplementary
+     <a>
+      Fig S4F
+     </a>
+     , Fig 5D). It is important to note that we did not detect any binding of LD4 to FERM (data not shown). The enhancement of the FAT:FERM interaction by the LD4-pep, which binds to the two paxillin binding sites of FAT, far from indicating a possible competition, revealed a potential synergy between paxillin binding and FAK dimerization.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FAK autophosphorylation of residue Y397 occurs in
+     <em>
+      trans
+     </em>
+     and requires W266
+    </title>
+    <p>
+     Having shown that FAK can form dimers through FERM:FERM and FAT:FERM contacts, we examined the functional relevance of this self-association. Autophosphorylation of Y397 is the central step in activation of kinase-dependent functions of FAK. Previous studies suggested that in intact cells and
+     <em>
+      in vitro
+     </em>
+     , FAK autophosphorylation can be intermolecular and that it is enhanced by induced dimerization (Katz
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2002
+     </xref>
+     ; Toutant
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2002
+     </xref>
+     ). To test if FAK autophosphorylation requires FAK dimerization, we used purified FAK in a dilution assay. We found that the specific autophosphorylation activity increased with protein concentration, as expected for an intermolecular reaction (Fig
+     <strong>
+     </strong>
+     <xref ref-type="fig">
+      6A
+     </xref>
+     ). The W266A mutation completely abolished autophosphorylation (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     –
+     <xref ref-type="fig">
+      C
+     </xref>
+     ). To rule out an unspecific effect of the mutation on the enzyme structure, we tested if forced dimerization of W266A-FAK by the addition of sepharose-coupled FAK antibodies could restore phosphorylation of Y397. Indeed, in the presence of antibodies, the autophosphorylation of W266A-FAK was restored and was virtually identical to that of WT FAK incubated under the same conditions (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     –
+     <xref ref-type="fig">
+      D
+     </xref>
+     ).
+    </p>
+    <fig id="fig06" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <sec>
+       <p>
+        FAK autophosphorylation occurs in
+        <em>
+         trans
+        </em>
+        and requires dimerization through W266
+        <em>
+         in vitro
+        </em>
+        and in cells
+       </p>
+       <ol>
+        <li>
+         <sec>
+          Specific autophosphorylation activity (i.e., the ratio of pY397 to FAK immunoblot signals) of purified FAK, as a function of FAK concentration. W266A-FAK autophosphorylation was dramatically diminished. AU, arbitrary units. Values are means ± s.e.m. of triplicates. Two-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           1,16
+          </sub>
+          = 367.5
+          <em>
+           P
+          </em>
+          &lt; 0.0001, Bonferroni post-test, ***
+          <em>
+           P
+          </em>
+          &lt; 0.0001
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Forced dimerization of purified FAK and W266A-FAK was induced by adding a sepharose-coupled antibody against the C-terminal domain of FAK (FAK AB). In the absence of antibody, only FAK was autophosphorylated on Y397 (top). After forced dimerization, autophosphorylation of W266A-FAK was restored to a level comparable to that of FAK (bottom).
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Quantification of results in (B) without FAK antibody. Values are means + s.e.m. One-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           3,8
+          </sub>
+          = 52.22
+          <em>
+           P
+          </em>
+          &lt; 0.01, Bonferroni post-test, ***
+          <em>
+           P
+          </em>
+          &lt; 0.0001.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          Quantification of results in (B) in the presence of FAK antibody. Values are means + s.e.m. One-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           3,8
+          </sub>
+          = 7.62
+          <em>
+           P
+          </em>
+          &lt; 0.0001, Bonferroni post-test, *
+          <em>
+           P
+          </em>
+          &lt; 0.05. The arbitrary values for pY397/FAK in (C) and (D) cannot be compared.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          FAK phosphorylation levels in COS7 cells transfected with HA-FAK or HA-W266A-FAK. Whole-cell extracts were immunoprecipitated with anti-HA antibodies (IP-HA) followed by immunoblotting with pY or pY397 antibodies. After stripping, nitrocellulose membranes were blotted with an anti-FAK antibody.
+         </sec>
+        </li>
+       </ol>
+       <p>
+        Source data are available online for this figure.
+       </p>
+      </sec>
+     </caption>
+    </fig>
+    <p>
+     We then explored the effects of the W266A mutation on FAK phosphorylation in transfected COS7 cells. Phosphorylation of Y397 and total tyrosine phosphorylation were dramatically reduced in W266A-FAK as compared to FAK (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). These results supported the possibility that full-length FAK is autophosphorylated mostly through an intermolecular mechanism, in contrast to the FERM-kinase moiety, which was reported to phosphorylate itself intramolecularly (Lietha
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2007
+     </xref>
+     ). Moreover, our results showed that autophosphorylation of Y397—and hence activation of the kinase-dependent functions of FAK—is linked to dimerization.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutation of FAK W266 alters focal adhesions turnover
+    </title>
+    <p>
+     Finally, we investigated the consequences of impaired dimerization on FAK function in cells. FAK-null fibroblasts display more FAs than do WT fibroblasts (Ilic
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      1995
+     </xref>
+     ), suggesting that FAK plays a role in FA turnover. As expected, we observed fewer FAs in
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     fibroblasts transfected with FAK than in non-transfected cells (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). In contrast, expression of W266A-FAK was significantly less efficacious in decreasing the number of FAs in
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     cells (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ), indicating that the mutation impaired the role of FAK in FA turnover. We then directly investigated FA stability by live imaging of GFP-paxillin with a confocal spinning disk microscope (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ).
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     fibroblasts expressing FAK had a FA dissociation rate [(5.4 ± 1) × 10
+     <sup>
+      −2
+     </sup>
+     min
+     <sup>
+      −1
+     </sup>
+     , mean ± SEM,
+     <em>
+      n
+     </em>
+     = 20] comparable with previously published values (Webb
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2004
+     </xref>
+     ; Deramaudt
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2011
+     </xref>
+     ). In cells transfected with W266A-FAK, the dissociation rate was lower [(3.5 ± 0.4) × 10
+     <sup>
+      −2
+     </sup>
+     min
+     <sup>
+      −1
+     </sup>
+     ,
+     <em>
+      n
+     </em>
+     = 20,
+     <em>
+      t
+     </em>
+     -test
+     <em>
+      P
+     </em>
+     &lt; 0.01] (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The number of stable FAs was lower in cells transfected with WT FAK compared with those transfected with W266A-FAK (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Thus, FAs were less stable and more mobile in fibroblasts expressing WT FAK than in cells expressing W266A-FAK.
+    </p>
+    <fig id="fig07" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <sec>
+       <p>
+        Lack of FAK dimerization affects focal adhesions dynamics
+       </p>
+       <ul>
+        <li>
+         <sec>
+          A Quantification of the number of FAs in
+          <em>
+           Ptk2
+          </em>
+          <sup>
+           −/−
+          </sup>
+          fibroblasts untransfected or transfected with HA-tagged FAK or W266A-FAK, a day after transfection. The number of FAs per cell was evaluated based on paxillin labeling. Cells transfected with HA-FAK had fewer FAs than did the untransfected cells and the cells transfected with HA-W266A-FAK. Values are means + s.e.m. of three independent experiments with 50–80 cells per condition. One-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           2,6
+          </sub>
+          = 52.97
+          <em>
+           P
+          </em>
+          &lt; 0.01, Bonferroni post-test, *
+          <em>
+           P
+          </em>
+          &lt; 0.05, **
+          <em>
+           P
+          </em>
+          &lt; 0.01, ***
+          <em>
+           P
+          </em>
+          &lt; 0.001.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          B FAs disassembly was analyzed by spinning disk microscopy during 60 min in
+          <em>
+           Ptk2
+          </em>
+          <sup>
+           −/−
+          </sup>
+          fibroblasts transfected with GFP-paxillin and HA-FAK or HA-W266A-FAK. The area indicated by a square (10 μm × 10 μm) in the whole-cell GFP fluorescence image was enlarged at t0 (red) and t60 (green) and overlapped to show differences. In the t0/t60 merged image, disassembly appears in red, newly formed FAs in green and stable FAs in yellow. Scale bar, 2 μm.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          C Time course of FA disassembly in (B). Values are means ± s.e.m. of three independent experiments with 5 cells per condition. Two-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           1,50
+          </sub>
+          = 25.46
+          <em>
+           P
+          </em>
+          &lt; 0.01, Bonferroni post-test, *
+          <em>
+           P
+          </em>
+          &lt; 0.05, **
+          <em>
+           P
+          </em>
+          &lt; 0.01, ***
+          <em>
+           P
+          </em>
+          &lt; 0.001.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          D Percentage of stable FAs in (B). Values are means + s.e.m. of three independent experiments with 5 cells per condition. One-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           1,19
+          </sub>
+          = 3.19
+          <em>
+           P
+          </em>
+          &lt; 0.01, Neumann–Keuls post-test, **
+          <em>
+           P
+          </em>
+          &lt; 0.01.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          E FA dynamics were analyzed using the fluorescence recovery after photobleaching (FRAP) of GFP-paxillin in
+          <em>
+           Ptk2
+          </em>
+          <sup>
+           −/−
+          </sup>
+          cells co-transfected or not co-transfected with HA-FAK or HA-W266A-FAK. Confocal sections of GFP fluorescence. Right panels show an example of FA before (BP) and just after (AP) photobleaching and 60 s later. Scale bar, 5 μm.
+         </sec>
+        </li>
+        <li>
+         <sec>
+          F, G Representative traces of fluorescence recovery kinetics at FAs (F) and in the cytoplasm (G).
+         </sec>
+        </li>
+        <li>
+         <sec>
+          H, I Quantification of the mobile fraction (left panel) and the time constant to reach half maximal recovery (right panel) at FAs (H) or in the cytoplasm (I). Values are means + s.e.m. of three independent experiments with five cells per condition. One-way ANOVA
+          <em>
+           F
+          </em>
+          <sub>
+           2,42
+          </sub>
+          = 6.7
+          <em>
+           P
+          </em>
+          &lt; 0.01 (H, left panel),
+          <em>
+           F
+          </em>
+          <sub>
+           2,42
+          </sub>
+          = 0.9, not significant (H, right panel),
+          <em>
+           F
+          </em>
+          <sub>
+           2,42
+          </sub>
+          = 1.3, not significant (I, left panel),
+          <em>
+           F
+          </em>
+          <sub>
+           2,42
+          </sub>
+          = 2.7 not significant (I, right panel), Neumann-Keuls test, **
+          <em>
+           P
+          </em>
+          &lt; 0.01.
+         </sec>
+        </li>
+       </ul>
+      </sec>
+     </caption>
+    </fig>
+    <p>
+     We next examined the role of FAK dimerization in GFP-paxillin dynamics by fluorescence recovery after photobleaching (FRAP). We bleached GFP-paxillin in peripheral FAs or in the cytoplasm at a distance from FAs, in
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     fibroblasts co-transfected or not co-transfected with FAK or W266A-FAK (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). FAK increased the mobile fraction of GFP-paxillin at FAs, whereas W266A-FAK had no effect (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). FAK transfection did not alter GFP-paxillin mobility in the cytoplasm away from FAs (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). The effect of FAK on GFP-paxillin was due to an increased mobile fraction at FAs without significant change in its time constant (Fig
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). No effect was observed in the cytoplasm (Fig
+     <strong>
+     </strong>
+     <xref ref-type="fig">
+      7I
+     </xref>
+     ). Altogether, our experiments in living cells showed that FAK's capacity to dimerize transiently is central to its functions at FAs, including FA disassembly and turnover.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    FAK exerts kinase-dependent and kinase-independent functions. Both types of function are crucial for embryogenesis and tumor invasiveness, albeit through different mechanisms and at different sites. Here, we show that activation of kinase-dependent functions at FAs is regulated through transient, ligand-promoted FAK dimerization. We observed FAK self-association
+    <em>
+     in vitro
+    </em>
+    (using SEC, SPR, AUC, DLS, SAXS, and crystallography) and in cells (using co-immunoprecipitation of transfected FAK and confocal microscopy under quasi-endogenous expression levels). We showed that self-association of full-length FAK requires the formation of a FERM homodimer and that this FERM dimerization is dependent on W266. Interestingly this residue is conserved in Pyk2 but not in other FERM domain proteins. Pyk2 has been reported to undergo a Ca
+    <sup>
+     2+
+    </sup>
+    /calmodulin-induced dimerization, through an unknown structural mechanism (Kohno
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ) and it will be important to investigate the contribution of the FERM:FERM interface we report here. We also found that the FERM:FERM interaction alone is relatively weak (
+    <em>
+     K
+    </em>
+    <sub>
+     <em>
+      d
+     </em>
+    </sub>
+    ∽ 30 μM), and FAK requires additional FAT:FERM interaction to stabilize the dimeric state. For this, FAT binds the FERM K
+    <sub>
+     216
+    </sub>
+    AKTLRK sequence presumably in
+    <em>
+     trans
+    </em>
+    , a conformation compatible with constraints from SAXS and stereochemistry. This conclusion is supported by the dissociation of the FAK dimer in the presence of an excess of FAT. This FAT:FERM interaction also provides an explanation for the requirement of the K
+    <sub>
+     216
+    </sub>
+    AKTLRK motif on the FERM domain to interact with another FAK molecule (Dunty
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ). FAT has also been shown to form helix-exchange dimers
+    <em>
+     in vitro
+    </em>
+    (Arold
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ). Although we cannot exclude that such FAT:FAT interaction contribute to FAK self-association in some conditions, their contribution is expected to be minor, since the structural changes necessary to promote these FAT:FAT interactions presumably occur with a low probability.
+   </p>
+   <p>
+    Importantly, we observed that binding of paxillin LD4 increased the FAT:FERM interaction, an effect expected to stabilize the dimer further. This unsuspected role of FAT may explain its requirement for the dimerization-induced autophosphorylation of FAK (Toutant
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ). The interaction of the FAT domain with K
+    <sub>
+     216
+    </sub>
+    AKTLRK clarifies the hitherto mysterious role of this motif in FAK activation (Dunty
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2004
+    </xref>
+    ). This motif also mediates interaction of FERM with other ligands, such as phospho-cMet (Chen &amp; Chen,
+    <xref ref-type="bibr">
+     2006
+    </xref>
+    ) or phospholipids (Cai
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ; Papusheva
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ). These interactions may constitute an additional proofreading mechanism and their possible interdependence with FAT, FERM, and paxillin complex formation remains to be investigated.
+   </p>
+   <p>
+    The combination of multiple interactions in full-length FAK results in features that are not observed in the FERM-kinase fragment alone (Lietha
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2007
+    </xref>
+    ), namely dimer formation and the occurrence of autophosphorylation as a
+    <em>
+     trans
+    </em>
+    reaction. Although, for reasons of feasibility, we could not determine a precise monomer:dimer apparent
+    <em>
+     K
+    </em>
+    <sub>
+     <em>
+      d
+     </em>
+    </sub>
+    for full-length FAK, this
+    <em>
+     K
+    </em>
+    <sub>
+     <em>
+      d
+     </em>
+    </sub>
+    appears to be of the order of 0.1–0.5 μM as judged from the FAK concentrations used and amount of dimer found in DLS, SEC, SAXS and our autophosphorylation assay. Interestingly, this suggests that at the estimated average concentration of FAK in cells (on the order of 10 nM, see Methods), FAK dimers, and hence FAK autophosphorylation, are unlikely to occur at a significant level. Indeed, we found by acceptor photobleaching that FAK forms dimers in cells specifically at FAs, where FAK is enriched through membrane-associated ligands. Our data therefore supports that paxillin plays a key role not only by recruiting FAK, but also by stabilizing the FAT:FERM interaction. The resulting FAK dimerization triggers autophosphorylation and activation of kinase-dependent functions. This activation mechanism is reminiscent of receptor tyrosine kinases, for which extracellular ligand-induced dimerization triggers trans-autophosphorylation (Lemmon &amp; Schlessinger,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ). For autophosphorylation of Y397 to occur, the kinase domains need to dissociate from the FERM domains. Once dissociated, the FERM-kinase and kinase-FAT linkers are long enough to allow phosphorylation in
+    <em>
+     trans
+    </em>
+    without disrupting the FERM:FERM and FAT:FERM interactions. The mechanisms that promote dissociation of the FERM:kinase interaction are currently not completely understood and may be facilitated by additional ligands of the FERM domain.
+   </p>
+   <p>
+    By identifying paxillin–binding as a potential regulator of FAK dimerization, our results may also provide a rationale for the absence of kinase activation in nascent adhesions, where paxillin interacts with Nudel rather than with FAK (Shan
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ). It is interesting to note that FERM deletion enhances FAK activity (Chan
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     1994
+    </xref>
+    ; Schlaepfer &amp; Hunter,
+    <xref ref-type="bibr">
+     1996
+    </xref>
+    ) without altering its responsiveness to adhesion (Jacamo &amp; Rozengurt,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ) or its requirement for trans-autophosphosphorylation (Toutant
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2002
+    </xref>
+    ). Therefore the presence of the FERM domain is not essential for the “basic” activation of FAK, but brings an additional layer of control on its activity that contributes to an exquisite site-specific regulation through multiple protein-protein interactions.
+   </p>
+   <p>
+    Finally, the interaction of FAT with FERM may also play a role in regulating FAK intracellular localization. Indeed, the K
+    <sub>
+     216
+    </sub>
+    AKTLRK sequence is part of a nuclear localization signal (NLS) (Lim
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ). The intra- or intermolecular interaction of FAT with K
+    <sub>
+     216
+    </sub>
+    AKTLRK is likely to conceal the NLS and inhibit FAK nuclear localization, as indicated by the nuclear localization of the FERM domain or of truncated forms of FAK missing only the C-terminal region (Lobo &amp; Zachary,
+    <xref ref-type="bibr">
+     2000
+    </xref>
+    ). Interestingly, our results raise the possibility that MBD2, which interacts with FAT to enhance FAK nuclear localization (Luo
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ), may act by disrupting the FAT:FERM interaction and revealing the NLS. In the absence of specific local enrichment, nuclear FAK would be expected to remain monomeric, an hypothesis compatible with its function as a kinase-independent scaffold inhibiting pro-apoptotic factors such as p53 (Lim
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2008
+    </xref>
+    ).
+   </p>
+   <p>
+    In conclusion, our results show how the interactions of the FERM, FAT, and kinase domains, regulated by FA targeting through paxillin, control FAK dimerization and hence autophosphorylation-triggered activation of kinase-dependent functions. We propose that this interplay endows FAK with a capacity for coincidental detection of multiple protein-protein interactions, providing checkpoints to prevent premature or ectopic activation. The close association of distinct conformations with FAK activation also provides a molecular framework for understanding the role of FAK in mechanotransduction (Geiger
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2009
+    </xref>
+    ; Moore
+    <em>
+     et al
+    </em>
+    ,
+    <xref ref-type="bibr">
+     2010
+    </xref>
+    ). These new insights into the molecular organization and dynamics of FAK activation suggest that specific disruption of inter- or intramolecular interactions should be promising therapeutic approaches for selective inhibition of distinct functions.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and Methods
+   </title>
+   <sec>
+    <title>
+     Antibodies and Reagents
+    </title>
+    <p>
+     Mouse monoclonal antibodies were from the following sources: FAK (4.47, 1:500 for immunoblotting), Upstate Biotechnology, phospho-Y397-FAK (1:1,000), Biosource, phosphotyrosine (4G10, 1:2000), Upstate Biotechnology, paxillin (1:1000), Invitrogen. C-20 FAK antibodies were raised in rabbits against a peptide encompassing the 20 C-terminal residues (Toutant
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2000
+     </xref>
+     ). Rabbit polyclonal HA antibody was from Zymed (1:500); anti-VSV antibody was from Sigma (1:500). All other reagents were from Sigma unless otherwise specified. The peptides were: paxillin LD4 domain: SATRELDELMASLSD; scrambled peptide: LSDAMETSSLRDALE.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Molecular Biology Constructs
+    </title>
+    <p>
+     Recombinant N-terminally His
+     <sub>
+      6
+     </sub>
+     -tagged FAK and His
+     <sub>
+      6
+     </sub>
+     -tagged W266A-FAK were produced in a baculovirus-based expression system (Invitrogen). Rat FAK cDNA was amplified by PCR from pCMV2-FAK using a forward primer introducing a BamHI site and a reverse primer bearing a KpnI site, and then they were cloned into the similarly digested pFastBac HT B donor plasmid (Invitrogen). Baculovirus was prepared as recommended by the manufacturer. The FAK coding sequence was inserted into pmCherry-C1 between Bgl2 and BamH1 sites. EGFP-FAK was described previously (Toutant
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2000
+     </xref>
+     ). W266A FAK was introduced into mCherry FAK construct using EcoR1 and Xho1 and from this construct to the EGFP vector using EcoRI and BamH1. All constructs were verified by sequencing.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein Production and Purification
+    </title>
+    <p>
+     Recombinant Sf9 cells were cultured in Insect-XPRESS™ Medium (Cambrex Bio Science). Cells were harvested 48 h after infection and recombinant proteins were extracted and purified in “native conditions” with a nickel-chelating resin (ProBond system, Invitrogen) according to the manufacturer's protocol. Recombinant GST-tagged FERM (FAK
+     <sub>
+      1–361
+     </sub>
+     ), FERM mutant, FAT (FAK
+     <sub>
+      895–1054
+     </sub>
+     ) and mutant proteins were produced in BL21
+     <em>
+      E. Coli
+     </em>
+     cells. Bacteria were grown at 37°C and protein expression was induced by the addition of 0.4 mM IPTG after which cells were grown for 3 h at 30°C. Cell lysis was done by sonication in phosphate-buffered saline (PBS), 1% Triton X-100 (v/v) and 0.5 mM dithiothreitol (DTT). After sonication, cell debris was removed by centrifugation and lysates were incubated with glutathione-agarose beads. After 5 washes, purified proteins were eluted by competition with 10 mM glutathione in 50 mM Tris pH8, 0.5 mM PMSF. After purification, FAT was cleaved with 3c protease (Arold
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2002
+     </xref>
+     ). For crystallization, the F85L and W181G mutations were introduced into recombinant hFERM
+     <sub>
+      31–405
+     </sub>
+     to increase solubility. hFERM
+     <sub>
+      31–405;F85L,W181G
+     </sub>
+     was produced and purified as described (Ceccarelli
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2006
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biochemical and structural studies of purified proteins
+    </title>
+    <p>
+     Non denaturing polyacrylamide gel electrophoresis was carried out on 3–12% Bis-Tris NativePAGE gel (Invitrogen) following the manufacturer's recommendations. Dynamic light scattering was carried out with a DynaPro Protein Solutions apparatus (Wyatt, Paris-Descartes CNRS UMR 8015 facility) using 1 mg/ml His
+     <sub>
+      6
+     </sub>
+     -FAK. In the pull-down experiments, GST-FERM and mutant proteins were incubated with FAT for 2 h at 4°C in Hepes, 50 mM, NaCl 150 mM, glycerol 10% (v/v), MgCl
+     <sub>
+      2
+     </sub>
+     1.5 mM, Triton X-100 1% (v/v) before precipitation with glutathione sepharose. After three washes with Hepes 50 mM, NaCl 150 mM, Triton X-100 1%, glycerol 10%, the proteins were subjected to SDS-PAGE followed by Coomassie or immunoblot analysis. Size exclusion chromatography experiments were done with an Aktä 900 purifier (GE Healthcare) using a Superdex 200 10/300 GL column (GE Healthcare). The column was equilibrated in a buffer containing 200 mM NaCl, 50 mM NaH
+     <sub>
+      2
+     </sub>
+     PO
+     <sub>
+      4
+     </sub>
+     pH 8. Calibration was done using the Native markers set (Sigma). Purified FAK or FAT protein in 500 μl of buffer was injected and 200 μl fractions were collected and subjected to SDS-PAGE followed by Coomassie staining (Biosafe, Biorad). Analysis of elution profiles was done using the Aktä software. The SPR, ITC, AUC, and SAXS experiments are described in Supplementary Material.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Autophosphorylation assays
+    </title>
+    <p>
+     For these assays, His
+     <sub>
+      6
+     </sub>
+     -FAK was dephosphorylated with the catalytic domain of receptor-like protein tyrosine phosphatase-β fused to GST for 10 min at room temperature before removal of the phosphatase with glutathione sepharose. Autophosphorylation assays were performed at 20°C with various amounts of FAK for 1 min in phosphorylation buffer containing 50 mM Hepes at pH 7.4, 10 mM MnCl
+     <sub>
+      2
+     </sub>
+     , and 10 μM ATP in the presence of a protease inhibitor cocktail (Complete, Roche) and sodium orthovanadate (1 mM). In the induced dimerization experiments, protein A-sepharose-coupled C20 FAK antibodies (Toutant
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2002
+     </xref>
+     ) were added and phosphorylation was carried out in the resuspended pellet. The autophosphorylation assays were stopped by adding a 5-fold-concentrated solution at 100°C (150 g/l SDS, 0.3 M Tris-Cl pH 6.8, 25% glycerol) and placing the sample at 100°C for 5 min.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Immunoprecipitation and immunoblotting
+    </title>
+    <p>
+     In the FAK immunoprecipitation experiments, 24 h after transfection, COS7 or HEK 293 cells were lyzed in modified RIPA buffer as described previously (Toutant
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      2002
+     </xref>
+     ). Briefly, lysates were precleared by incubation for 1 h at 4°C with 100 μl of a mixture (50% v/v) of Sephacryl and protein G Sepharose beads (GE Healthcare). Immunoprecipitation was carried out overnight at 4°C with 5 μl of polyclonal anti-HA antibody and 50 μl protein G Sepharose. After 3 washes, beads were resuspended in Laemmli loading buffer, placed at 95°C for 5 min and subjected to SDS-PAGE. Proteins were transferred to nitrocellulose (GE Healthcare or Bio-rad), immunoblotted with the appropriate antibodies and visualized either with IR-Dye 800 CW or IR-Dye 700 CW donkey anti-mouse/anti-rabbit IgG antibodies (1:4,000, Rockland) and detection by infrared fluorescence with an Odyssey Li-Cor scanner or anti-rabbit IgG coupled with horseradish peroxidase (1:5,000, Cell Signaling) and revealed with a horseradish peroxidase-enhanced chemiluminescence system (Immobilon Western – Chemiluminescent HRP Substrate – Millipore).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture, transfection, and immunocytochemistry
+    </title>
+    <p>
+     <em>
+      Ptk2
+     </em>
+     <sup>
+      −/−
+     </sup>
+     fibroblasts (Ilic
+     <em>
+      et al
+     </em>
+     ,
+     <xref ref-type="bibr">
+      1995
+     </xref>
+     ) were cultured in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% fetal calf serum (FCS) plus 0.001% (v/v) βME. COS7 and HEK cells were cultured in DMEM supplemented with 10% FCS. Cells were transfected with 2 μg DNA per 14-mm diameter culture dish, and 4 μg DNA per 60-mm dish with Lipofectamine 2000 (Invitrogen) according to the manufacturer's instructions. In the co-transfection experiments, 0.3 μg GFP-paxillin and 0.9 μg FAK plasmids per 3.5-cm dish, or 3 μg VSV-FAK and 3 μg HA-FAK plasmids per 10-cm dish were used. The total quantity of DNA was maintained with an empty pcDNA3 plasmid. Twenty-four hours after transfection, the cells were plated on 24-well plates coated with fibronectin and then fixed 24 h later for 20 min in PBS containing 4% (w/v) paraformaldehyde. After three rinses in PBS, the cells were permeabilized for 10 min with 0.2% Triton X-100 in PBS, treated with blocking buffer (PBS containing 5% w/v BSA) for 30 min and then incubated overnight with antibodies for HA and paxillin at 4°C in PBS containing 1% BSA. After the rinses, the cells were incubated sequentially for 1 h at room temperature with goat Cy3-coupled anti-rabbit and Alexa-488-coupled anti-mouse antibodies. After three rinses, the cells were mounted under coverslips using Vectashield-containing DAPI (Vector Abcys). Images were acquired at the
+     <em>
+      Institut du Fer à Moulin
+     </em>
+     Tissue and Cell Imaging Facility with a laser scanning confocal microscope (Leica and SP5). The cells with low expression of transfected protein (s), comparable to endogenous FAK levels, were chosen for analysis in all imaging experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Live cell imaging
+    </title>
+    <p>
+     Transfected cells were plated at low density on 35-mm μ-dish (Ibidi) coated with fibronectin (10 μg/ml, Sigma). Twenty-four hours later, the cells were placed at 37°C in HBSS medium on a DMI 4000 inverted microscope (Leica Microsystems) with a confocal spinning-disk head (CSU 22; Yokogawa) and a 491 nm laser (MAG Biosystems). Images were acquired with a 63×  HCX-PL-APO (1.4 NA) objective every 5 min on an EMCCD camera (QuantEM 512 SC, Photometrics) and analyzed using Metamorph software (Molecular Devices). Up to five different fields were sequentially recorded during each experiment using a Märzhäuser (Wetzlar) automated stage piloted by Metamorph. Ratios of fluorescence at FAs at each time point to that of the same FAs at time 0 were calculated. The disassembly of FAs was linear on a semi-logarithmic plot of the fluorescence intensity as a function of time. The apparent rate constants for FA disassembly were determined from the slope of these graphs. The number of stable FAs was determined by analysis of the merged image combining the images of the cell visualized at t = 0 in red and the same cell at t = 60 min in green. Disassembled FAs appeared in red, stable FAs in yellow and newly formed FAs in green.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FRAP experiments
+    </title>
+    <p>
+     The cells were placed at 32°C in HBSS medium on a Leica SP5 II upright microscope (Leica Microsystems). Images were acquired with a 40×  HCX APO (0.80 NA) water immersion objective and the FRAP experiment was performed with the FRAP Wizard software from Leica Microsystems. Five images where taken at low laser intensity (∽ 5%) before the bleach at the rate of 1 Hz for measuring basal fluorescence intensity. Photo-bleaching was done at 100% of the 488 nm laser line with four iterations. Recovery was followed with the same laser power as in the pre-bleached session at the same imaging rate for 60 s. For each time point, the intensity of the bleach area was normalized to the pre-bleached intensity. FRAP recovery curves and analysis where generated using Igor Pro software (WaveMatrics).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Acceptor photobleaching
+    </title>
+    <p>
+     Fixed cells were acquired using a Leica TCS SP5 upright confocal microscope using the FRET acceptor photobleaching wizard and a 40× 0.8 NA water immersion objective (Leica Microsystems). Pre-bleach and post-bleach images were serially recorded by excitation of GFP at 488 nm (donor channel) with an argon laser and mCherry at 561 nm (acceptor channel). Low laser intensities were used to avoid bleaching effects during acquisition. Cells were selected by visualizing only the donor channel to prevent premature partial bleaching of the acceptor. The acceptor was bleached with high intensity (100%) power at the 543 nm laser line for two iterations. Images were analyzed using Matlab (Mathworks). The change in the fluorescence intensity between pre- and post-bleach donor values (efficiency,
+     <em>
+      E
+     </em>
+     ) was calculated using the formula
+     <em>
+      E
+     </em>
+     = (donor after−donor before) × 100/donor after, and was shown as a percentage; pseudo-colored images showing FRET efficiency values were also generated.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Evaluation of FAK concentration in cells
+    </title>
+    <p>
+     NIH3T3 cells were cultured in DMEM medium supplemented with 10% FCS. At confluence, the cells were trypsinized, counted, and solubilized at 100°C in 1% SDS solution. The amount of FAK was determined by immunoblotting in comparison with known and increasing amounts of recombinant FAK protein. The FAK concentration in cells was then estimated based on the known number of cells in the sample multiplied by a calculated cell volume (approximated as a 20-μm diameter sphere). By this method, the mean FAK concentration in cells was estimated at 5–6 nM.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biophysical and structural methods
+    </title>
+    <p>
+     The procedures for surface plasmon resonance (SPR), isothermal titration calorimetry (ITC), analytical ultracentrifugation (AUC), X ray crystallography, SAXS analysis, and construction of FAK models are described in the Supplementary Information. The coordinates of hFERM have been deposited at the PDB, with accession number 4NY0.
+    </p>
+   </sec>
+  </sec>
+ </body>
+</article>

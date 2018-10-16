@@ -1,0 +1,1836 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3049212
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Subunit-selective N-terminal domain associations organize the formation of AMPA receptor heteromers
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The assembly of AMPA-type glutamate receptors (AMPARs) into distinct ion channel tetramers ultimately governs the nature of information transfer at excitatory synapses. How cells regulate the formation of diverse homo- and heteromeric AMPARs is unknown. Using a sensitive biophysical approach, we show that the extracellular, membrane-distal AMPAR N-terminal domains (NTDs) orchestrate selective routes of heteromeric assembly via a surprisingly wide spectrum of subunit-specific association affinities. Heteromerization is dominant, occurs at the level of the dimer, and results in a preferential incorporation of the functionally critical GluA2 subunit. Using a combination of structure-guided mutagenesis and electrophysiology, we further map evolutionarily variable hotspots in the NTD dimer interface, which modulate heteromerization capacity. This ‘flexibility' of the NTD not only explains why heteromers predominate but also how GluA2-lacking, Ca
+     <sup>
+      2+
+     </sup>
+     -permeable homomers could form, which are induced under specific physiological and pathological conditions. Our findings reveal that distinct NTD properties set the stage for the biogenesis of functionally diverse pools of homo- and heteromeric AMPAR tetramers.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     AMPA receptor function, AMPA receptor assembly, N-terminal domain, crystallography
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Ion channels largely assemble into hetero-oligomers. Subunit heteromerization greatly expands the functional repertoire and is mediated by specific assembly domains (
+    <xref ref-type="bibr">
+     Schwappach, 2008
+    </xref>
+    ). Ionotropic glutamate receptors (iGluRs), the main mediators of excitatory neurotransmission, are either obligatory (NMDA subtype) or preferential (AMPA, kainate types) heteromers (
+    <xref ref-type="bibr">
+     Traynelis et al, 2010
+    </xref>
+    ). The subunit combination dictates fundamental signalling parameters such as gating kinetics and ion conductance, which shape synaptic physiology (
+    <xref ref-type="bibr">
+     Erreger et al, 2004
+    </xref>
+    ). AMPA-type iGluRs (AMPARs), in addition to initiating excitatory signalling, adjust synaptic strength via dynamic postsynaptic trafficking (
+    <xref ref-type="bibr">
+     Malinow and Malenka, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Greger and Esteban, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Shepherd and Huganir, 2007
+    </xref>
+    ), which underlies various forms of experience-dependent synaptic plasticity (
+    <xref ref-type="bibr">
+     Kessels and Malinow, 2009
+    </xref>
+    ). These processes are mediated by mobilization and recruitment of distinct pools of AMPAR heteromers.
+   </p>
+   <p>
+    AMPARs assemble from four subunits, GluA1–4, in various stoichiometries (
+    <xref ref-type="bibr">
+     Hollmann and Heinemann, 1994
+    </xref>
+    ). Incorporation of GluA2 blocks Ca
+    <sup>
+     2+
+    </sup>
+    flux through AMPARs; GluA2-containing receptors predominate throughout the brain (
+    <xref ref-type="bibr">
+     Isaac et al, 2007
+    </xref>
+    ). The central role of AMPAR heteromer formation is well illustrated in the CA1 subfield of hippocampus. CA1 pyramidal neurons express comparable levels of GluA1 and GluA2 (but little GluA3 and no GluA4;
+    <xref ref-type="bibr">
+     Tsuzuki et al, 2001
+    </xref>
+    ), which almost exclusively co-assemble (
+    <xref ref-type="bibr">
+     Lu et al, 2009
+    </xref>
+    ). Pathological conditions can alter this balance, resulting in Ca
+    <sup>
+     2+
+    </sup>
+    -permeable, GluA2-lacking receptors and excitotoxicity (
+    <xref ref-type="bibr">
+     Kwak and Weiss, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Liu and Zukin, 2007
+    </xref>
+    ). GluA2-lacking receptors can also operate under specific physiological conditions (
+    <xref ref-type="bibr">
+     Cull-Candy et al, 2006
+    </xref>
+    ), and have been detected in midbrain dopamine neurons, where enhanced signalling through these receptors is implicated in drug addiction (
+    <xref ref-type="bibr">
+     Carlezon and Nestler, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kauer and Malenka, 2007
+    </xref>
+    ). How neurons control selective combinatorial assembly of subunits to generate this plethora of distinct compositional and functional phenotypes remains an open question. Furthermore, the composition of Ca
+    <sup>
+     2+
+    </sup>
+    -permeable (GluA2-lacking) AMPARs has not been established.
+   </p>
+   <p>
+    AMPAR assembly is mediated by three domains engaging in distinct subunit interactions in the endoplasmic reticulum (ER): the N-terminal domain (NTD), the ligand-binding domain (LBD) and the membrane-embedded ion channel (
+    <xref ref-type="bibr">
+     Madden, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Greger et al, 2007
+    </xref>
+    ). The first assembly step is initiated by the NTD, which spans ∼50% of polypeptide sequence and primes subunit dimerization via an extensive bipartite interface (
+    <xref ref-type="bibr">
+     Clayton et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jin et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kumar et al, 2009
+    </xref>
+    ). The NTD is therefore expected to provide a major assembly platform during iGluR biogenesis (
+    <xref ref-type="bibr">
+     Hansen et al, 2010
+    </xref>
+    ). The second assembly step, association of dimers into tetramers, is modulated by Q/R editing in the channel pore (
+    <xref ref-type="bibr">
+     Greger et al, 2003
+    </xref>
+    ). Relative to the NTD scaffold, contacts mediated by the LBD are weak but are regulated by RNA recoding events (
+    <xref ref-type="bibr">
+     Greger et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Penn et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Penn and Greger, 2009
+    </xref>
+    ). The interplay between these domains and their roles in the assembly of functionally distinct receptor heteromers remain elusive (
+    <xref ref-type="bibr">
+     Sukumaran et al, 2011a
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we report that AMPAR heteromerization is driven by unexpectedly diverse, subunit-selective NTD interactions. A sensitive, fluorescence-based biophysical approach permitted direct quantification of homo- and heteromeric associations along the NTD axis. We find that GluA2 is dominantly incorporated into dimers at the level of the NTD and that assembly follows two distinct pathways: obligatory heterodimerization in case of GluA3 and preferential heterodimerization in GluA1 and GluA4. In the latter pathway, the non-constitutive, equilibrium-type assembly between homo- and heteromeric GluA1 NTDs potentially provides an explanation for the existence of GluA1 homomeric receptors, which have an enigmatic origin but have been detected under various conditions. Moreover, structural and functional mapping of the GluA1/2 NTD dimer interface identified evolutionarily variable hotspots mediating the balanced assembly function of the NTD, providing a mechanistic basis for the formation of Ca
+    <sup>
+     2+
+    </sup>
+    -permeable AMPARs. Therefore, a pivotal assembly function encoded in the NTD provides the organizing principle for the formation of diverse pools of AMPAR tetramers.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <p>
+    Whereas tri-heteromeric NMDARs have been described (
+    <xref ref-type="bibr">
+     Hatton and Paoletti, 2005
+    </xref>
+    ), an ongoing question for AMPARs is whether heteromers form initially at the level of the dimer or at the level of the tetramer via assembly of two different homodimers (
+    <xref ref-type="bibr">
+     Mansour et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gill and Madden, 2006
+    </xref>
+    ). Solving this problem would hold the key to understanding the formation and organization of AMPAR heteromers. Because the NTD is believed to have a strategic role in subfamily-selective assembly (
+    <xref ref-type="bibr">
+     Leuschner and Hoch, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ayalon and Stern-Bach, 2001
+    </xref>
+    ), we devised a sensitive, fluorescence-based ultracentrifugation assay to directly measure association of AMPAR NTD homo- and heterodimers.
+   </p>
+   <sec>
+    <title>
+     AMPAR subunit NTDs feature vastly different assembly properties
+    </title>
+    <p>
+     GluA1–4 AMPAR subunit NTDs, purified to homogeneity, were subjected to analytical ultracentrifugation with fluorescence detection (AU-FDS) (
+     <xref ref-type="bibr">
+      Rajagopalan et al, 2008
+     </xref>
+     ). This technique facilitates measurements of monomer/dimer equilibria in the nanomolar range (
+     <xref ref-type="bibr">
+      MacGregor et al, 2004
+     </xref>
+     ), and provides a means to quantify both homo- and heteromeric affinities. NTDs were fluorescently labelled at the N-terminus with 5,6-carboxyfluorescein (FAM) and subjected to velocity sedimentation. As illustrated in
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , this approach revealed a surprising spectrum of subunit-selective oligomerization properties. At a concentration of 50 nM labelled protein, both mono- and dimeric species were detected for the GluA1 NTD. GluA2 predominantly sedimented as a dimer, whereas the GluA4 NTD showed an intermediate phenotype. In stark contrast, GluA3 was exclusively monomeric (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). This sedimentation behaviour was protein-concentration dependent; for example, a greater proportion of GluA2 monomers were detected when lowering the input from 50 nM to 2 nM (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ). By titrating the protein concentration, we were able to derive
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     values of dimer dissociation from multiple runs. We find that AMPAR NTDs exhibit a wide range of dimeric affinities, with a ∼1000-fold disparity between the GluA2 and GluA3 NTDs (1.8 versus 1200 nM, respectively). GluA1 and GluA4 fell between these extremes, with an estimated
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of ∼100 and 10 nM, respectively (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       GluA1–4 NTDs exhibit markedly different assembly behaviours. (
+       <strong>
+        A
+       </strong>
+       ) Homomeric NTD assembly properties. Sedimentation coefficient (S) distributions were obtained for FAM-labelled GluA1–4 NTDs at 50 nM protein concentration. Labelled species are denoted with an asterisk (
+       <sup>
+        *
+       </sup>
+       ). Continuous distribution c(S) models revealed a spectrum of homomeric affinities, from low (top) to high (bottom). Two species at ∼2.6S (monomer) and 3.7S (dimer) could be detected for all NTDs. GluA1
+       <sup>
+        *
+       </sup>
+       (green trace) showed incomplete homodimerization, as indicated by presence of the monomer peak at 2.6S. In contrast, GluA2
+       <sup>
+        *
+       </sup>
+       (red trace) and GluA4
+       <sup>
+        *
+       </sup>
+       (blue trace) were mostly dimeric, whereas GluA3
+       <sup>
+        *
+       </sup>
+       was mostly monomeric (grey trace). (
+       <strong>
+        B
+       </strong>
+       ) Heteromeric NTD assembly properties. c(S) distributions are shown for FAM-labelled GluA3
+       <sup>
+        *
+       </sup>
+       (top) or GluA1
+       <sup>
+        *
+       </sup>
+       (bottom) at monomeric concentrations mixed with non-labelled GluA2 NTD. Adding non-labelled GluA2 was sufficient to shift the labelled monomeric species to a dimeric peak, indicating the presence of heterodimers. (
+       <strong>
+        C
+       </strong>
+       ) Summary of the distinct assembly properties of GluA1–4 NTDs. In GluA1, GluA4 (left pathway), and GluA2 (top), heteromerization is favoured but must compete with possible homomerization, leading to preferential heterodimers; whereas in GluA3 (right pathway), homomers are disfavoured and therefore the NTD exhibits obligatory heteromerization. See also
+       <a>
+        Supplementary Figures S1 and S2
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Association behaviour of NTDs assayed by analytical ultracentrifugation
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Selective NTD affinities drive different assembly pathways
+    </title>
+    <p>
+     The vast, ∼1000-fold range of homomeric affinities suggests different overall assembly behaviours for GluA1–4. As AU-FDS allowed us to test whether AMPAR subunits can heteromerize at the level of the NTD, and thus at the level of dimers, we asked how the drastic differences in homomeric affinities affect heteromer formation. Heteromers were assayed by holding the labelled species (denoted with an asterisk (
+     <sup>
+      *
+     </sup>
+     )) constant at monomeric concentrations and adding unlabelled NTD (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). The presence of heteromers was indicated by a shift of the labelled monomeric species to a dimeric peak (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ).
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s were calculated by titration of unlabelled assembly partner. We derived a tight GluA1
+     <sup>
+      *
+     </sup>
+     /2 heteromeric
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of ∼0.5 nM. Similarly, titration of GluA2 onto GluA3
+     <sup>
+      *
+     </sup>
+     and GluA4
+     <sup>
+      *
+     </sup>
+     revealed low
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s of 1.3 and 3.3 nM, respectively (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Therefore, AMPAR NTDs heteromerize with greater affinity, when compared with their respective homomeric
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). This result provides a ready explanation for the predominance of AMPAR heteromers, which was recently assessed in hippocampal pyramidal neurons where GluA1/2 receptors prevail (
+     <xref ref-type="bibr">
+      Lu et al, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     These data provide a roadmap for AMPAR heteromer assembly. First, they reveal two distinct AMPAR assembly pathways. Because of their relatively tight homomeric affinities, GluA1, GluA2 and GluA4 homomers are still likely to occur, but the existence of GluA3 homomers is unlikely in the presence of other subunits, especially GluA2 (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Therefore, GluA1 and GluA4 preferentially heterodimerize with GluA2, whereas GluA2/3 dimers are obligatory (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , bottom half). We note that GluA3 can form homomers in the absence of other assembly partners (e.g.,
+     <xref ref-type="bibr">
+      Suzuki et al, 2008
+     </xref>
+     ); hence, ‘obligatory' heteromerization pertains only to GluA3 expressed in neurons. Interestingly, this result also illustrates an apparent assembly dominance of GluA2. Preferential formation of GluA2-containing AMPARs is a well-established phenomenon; our results suggest that this can be determined at early stages of receptor biogenesis via the NTD. In addition to the edited Q/R site prolonging GluA2 ER dwell time (
+     <xref ref-type="bibr">
+      Greger et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Greger and Esteban, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sukumaran et al, 2011a
+     </xref>
+     ), this finding could explain why AMPARs harbouring this functionally critical subunit widely dominate throughout neuronal populations (
+     <xref ref-type="bibr">
+      Isaac et al, 2007
+     </xref>
+     ). In the preferential assembly pathway, GluA2 appears to have greater affinity for GluA1 than for GluA4 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , top half). Therefore, the equilibrium between homo- and heterodimers of these subunits with GluA2 will differ, which ultimately could also have consequences for the arrangement and number of GluA2 subunits in a tetramer (
+     <xref ref-type="bibr">
+      Washburn et al, 1997
+     </xref>
+     ).
+    </p>
+    <p>
+     Even though GluA2 has a dominant functional and assembly role, GluA2-lacking, Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPARs have been detected and have a central physiological function (
+     <xref ref-type="bibr">
+      Cull-Candy et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kauer and Malenka, 2007
+     </xref>
+     ). Their existence can be explained by the balanced assembly properties of the GluA1 (and GluA4) NTD (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) and could be induced by increased GluA1 expression (
+     <xref ref-type="bibr">
+      Thiagarajan et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sutton et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Aoto et al, 2008
+     </xref>
+     ; see also
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). Hippocampal inter-neurons prominently express both GluA1 and 3 in the absence of GluA2 (
+     <xref ref-type="bibr">
+      Catania et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tsuzuki et al, 2001
+     </xref>
+     ). In addition, a minor fraction of GluA1/3 co-precipitate from CA1/2 tissue, which increases in GluA2 knockout mice (
+     <xref ref-type="bibr">
+      Wenthold et al, 1996
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sans et al, 2003
+     </xref>
+     ). The existence of pools of kinetically distinct, Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPAR heteromers is therefore likely. Indeed, GluA1/3 NTDs produce a tight heteromeric
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     (∼38 nM;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ) of greater affinity than their respective homomeric
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s. Similarly, GluA4/3 assemble in the low nanomolar range (data not shown). These data further suggest an obligatory heteromeric assembly mode for GluA3 in GluA2-lacking neurons and for the existence of functionally diverse Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPAR populations. Importantly, the closely related GluK2 kainate receptor NTD does not shift GluA3
+     <sup>
+      *
+     </sup>
+     towards the dimer (data not shown); therefore, subfamily-specific assembly occurs at the level of the NTD. In summary, our results reveal that (1) MPAR heteromers form at the level of the dimer (which will affect the spatial arrangement of the channel tetramer), (2) subunit-selective assembly is driven by vastly distinct NTD associations, and (3) it results in preferential or obligatory AMPAR heteromers (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Properties of the NTD dimer interface
+    </title>
+    <p>
+     The sedimentation data show that NTD heterodimers preferentially include GluA2 (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). This finding offers a solution for the long-standing question of how this key subunit is incorporated into the majority of AMPARs across neuronal populations; however, mechanistically, this poses an apparent paradox—how does the tight GluA2 homodimer permit selective heteromerization? Furthermore, our data also suggest that balancing between homo- and heteromerization via the NTD interface may explain the biogenesis of GluA1 homomers and possibly other populations of Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPARs (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ).
+     <em>
+      In vivo
+     </em>
+     , neuronal populations tightly regulate synaptic recruitment of Ca
+     <sup>
+      2+
+     </sup>
+     -impermeable and Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPARs; how these assembly modes are balanced is, therefore, critical for signalling dynamics (
+     <xref ref-type="bibr">
+      Toth and McBain, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cull-Candy et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Liu and Zukin, 2007
+     </xref>
+     ). To address these questions, we set out to pinpoint assembly determinants within the NTD interface.
+    </p>
+    <p>
+     First, we mapped the evolutionary conservation within the GluA2 dimer interface, guided by our high-resolution GluA2 NTD structure (
+     <a>
+      Supplementary Table I
+     </a>
+     ;
+     <xref ref-type="bibr">
+      Greger et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sukumaran et al, 2011b
+     </xref>
+     ) and by position-specific comparative analysis of evolutionary conservation (
+     <xref ref-type="bibr">
+      Wuster et al, 2010
+     </xref>
+     ). As conserved residues at interfaces are expected to maintain the affinity of subunit interactions (
+     <xref ref-type="bibr">
+      Landgraf et al, 2001
+     </xref>
+     ), we first computed evolutionary conservation by generating an alignment of all currently available vertebrate AMPAR paralogs (&gt;100 sequences). Overall, the NTD is the most divergent segment of the receptor, with a sequence identity score of 52–61% between the paralogs. This is in stark contrast to the conserved LBD/ion channel portion, which shows &gt;80% sequence identity.
+    </p>
+    <p>
+     Within the NTD, the upper lobe (UL) interface is most highly conserved, indicating that contacts mediated by this segment are of functional importance. However, two UL interface positions featured a subunit-specific pattern of conservation: N54 at the upper edge and T78, which forms a polar contact in the core of the interface (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). These residues are conserved between GluA2–4, whereas in GluA1, position 54 is occupied by a moderately conserved tyrosine and position 78 by a conserved methionine (
+     <xref ref-type="fig">
+      Figure 2A and D
+     </xref>
+     ). The fact that these two positions show systematic alteration between assembly partners and localize to the assembly interface indicates that they may be important for the specificity of interaction (
+     <xref ref-type="bibr">
+      Lichtarge et al, 1996
+     </xref>
+     ). Therefore, we reasoned that these two ‘hotspots' might encode critical assembly determinants.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Primary, secondary, and tertiary structure characteristics of the GluA2 NTD dimer interface. (
+       <strong>
+        A
+       </strong>
+       ) Position-specific patterns of conservation in the GluA1 and GluA2 upper lobe (UL) interface. GluA1-specific, GluA2-specific, and consensus residues, generated from partitioning an alignment of 34 GluA1 and 33 GluA2 sequences, are indicated for positions in helices B and C, the major contributors of the UL interface. The top loop (not shown) is fully conserved between GluA1 and GluA2. N54 and T78 in GluA2 were identified as potential key determinants for assembly specificity, because they are located at the interface and are systematically mutated between GluA1 and GluA2. (
+       <strong>
+        B
+       </strong>
+       ) The molecular surface of the GluA2 NTD is shown with UL and LL interfaces coloured dark and light blue, respectively, with the contribution of the variable interface residues shown in yellow. (
+       <strong>
+        C
+       </strong>
+       ) Secondary structure contributions to the dimer interface. The NTD is oriented as in B, highlighting helices B and C in the UL-dimer and helix E and sheet 7 in the LL-dimer interfaces, respectively. Positions of N54 and T78 are in yellow, and important LL-interface contacts (L137, Q141, L144) on helix E are shown in orange. (
+       <strong>
+        D
+       </strong>
+       ) Model of a potential heteromeric GluA1/GluA2 interface. A homology model of GluA1, associated with the crystal structure of GluA2 (3HSY) is shown, zoomed in on the T78 (A2)–M78 (A1) interaction in yellow.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We first tested the impact of NTD dimer contacts on the stability of the whole receptor. Recent structural insights reveal that NTD associations are prominent contact points within the receptor and NTD dimers are major assembly interfaces in AMPAR dimers (
+     <xref ref-type="bibr">
+      Sobolevsky et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Nakagawa, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shanks et al, 2010
+     </xref>
+     ). Guided by the structure and our evolutionary analysis, we designed mutations in the assembly-critical GluA2 NTD interface. Blue native (BN) PAGE resolved full-length GluA2, expressed in HEK 293T cells, into stable mono-, di-, and tetrameric species (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Greger et al, 2003
+     </xref>
+     ); this pattern was altered drastically by mutation. For example, F82A substantially weakened the tetrameric complex (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     , lane 8; see also
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). This is to be expected, as targeting the conserved hydrophobic core of the interface will destabilize the receptor non-specifically (
+     <xref ref-type="bibr">
+      Lichtarge et al, 1996
+     </xref>
+     ). Similarly, targeting the variable hotspots markedly altered tetramer stability (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     , lanes 2–5, 7). Mild SDS treatment (1% SDS for 10 min at 30°C), which dissociates tetramers and thus facilitates a more direct assessment of dimer stability (
+     <xref ref-type="bibr">
+      Penn et al, 2008
+     </xref>
+     ), uncovered bidirectional differences for the two hotspots, whereas for N54A, monomers were below detection limit and T78A displayed a five- to sixfold greater fraction of monomers relative to wild type (WT;
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). These opposing dimer stabilities suggest that mutation at N54 (stabilizing) and T78 (destabilizing) may affect assembly by mechanistically different routes, which in turn may underlie assembly specificity.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Mutation in the NTD perturbs assembly of the full-length receptor. (
+       <strong>
+        A
+       </strong>
+       ) Blue native PAGE (BN-PAGE) analysis of NTD interface mutants shows differential migration patterns. HEK293T cell suspensions of GluA2 flop (
+       <span>
+        R
+       </span>
+       /G unedited, Q/
+       <span>
+        R
+       </span>
+       edited) wild type (WT) and mutants (indicated on the top) were separated on 4–12% BN-PAGE and visualized by western blotting. Monomeric (M), dimeric (D), and tetrameric (T) assembly intermediates are denoted. Note the different phenotypes of N54A and T78A, as well as the intermediate phenotype of the N54A/T78A double mutant. (
+       <strong>
+        B
+       </strong>
+       ) Mild SDS treatment before BN-PAGE dissociates tetramers and reveals that N54A (stabilizing) and T78A (destabilizing) have a bidirectional effect on tetramer and dimer assembly, relative to the wild type. The gel shown on right was scanned and bands computed as intensity peaks using ImageJ software (NIH).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Functional scanning of the GluA2 NTD dimer interface
+    </title>
+    <p>
+     To extend our findings to heteromeric assembly, we employed a sensitive functional assay to characterize the determinants in the NTD dimer interface. We focused on GluA1/2, which are prominent heteromers throughout the brain and are the major AMPAR species in hippocampus (
+     <xref ref-type="bibr">
+      Lu et al, 2009
+     </xref>
+     ). Guided by the structure, we introduced mutations into GluA2, which were co-expressed with GluA1 in HEK293T cells. The extent of GluA1/2 heteromerization was assayed by measuring current/voltage (I/V) relationships for an expression level of GluA2 giving optimal dynamic range (
+     <a>
+      Supplementary Figure S3A
+     </a>
+     ). GluA1 homomers display inward rectification at positive holding potentials, reflecting blockade of the channel pore by intracellular polyamines. This block is alleviated by co-assembly with GluA2 edited at the Q/R site (
+     <a>
+      Supplementary Figure S3B
+     </a>
+     ;
+     <xref ref-type="bibr">
+      Isaac et al, 2007
+     </xref>
+     ). Thus, an increase of the rectification index (RI), computed as the ratio of slope conductance at +10 and −40 mV (
+     <em>
+      g
+     </em>
+     <sub>
+      +10
+     </sub>
+     /
+     <em>
+      g
+     </em>
+     <sub>
+      −40
+     </sub>
+     ), indicates increased heteromer formation.
+    </p>
+    <p>
+     We first targeted the lower lobe (LL) of the NTD—residues in the LL interface are identical between GluA1 and GluA2. The inner face of helix E, including L137 and L144, forms a hydrophobic patch (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Breaking these hydrophobic contacts via the L137A/L144A double mutant elevated the heteromerization competence by 2.6-fold (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). In addition Q141A, which will abrogate a polar link with N158 and Y131, facilitated heteromerization (3.1-fold;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). Weakening the GluA2 LL interface, therefore, increased co-assembly with GluA1.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Heteromerization of GluA1/GluA2 NTD mutants
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Surprisingly, mutation of most interfacing side chains in the UL, also further increased heteromerization with GluA1, seen by the larger outward currents at positive potentials (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ) and summarized by conductance–voltage (G–V) relationships (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). It appears therefore that the NTD has not evolved to selectively facilitate heteromeric assembly, but rather to balance heteromerization together with homomerization. We observe a reduction in GluA1/2 heteromer formation only when targeting the hydrophobic core (F50, F82, L310) of the UL interface (
+     <xref ref-type="fig">
+      Figure 4C and E
+     </xref>
+     ), which is highlighted for the F82A/L310A (FL) double mutant (
+     <xref ref-type="fig">
+      Figure 4A–C
+     </xref>
+     ). These mutants were also destabilized on BN-PAGE (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ; and data not shown), likely reflecting the non-specific disruption of NTD-mediated associations, both for GluA2/2 homomers and GluA1/2 heteromers. Mutation of most other residues scattered throughout the UL interface facilitated heteromerization (
+     <xref ref-type="fig">
+      Figure 4E
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Mutation of the upper lobe (UL) interface results in bidirectional changes in heteromeric assembly. (
+       <strong>
+        A
+       </strong>
+       ) Representative voltage clamp recordings of GluA2 NTD mutants in outside-out patches when co-transfected into HEK293T cells at a fixed, limiting ratio for heteromeric assembly with GluA1. Only currents for −60, 0, and +40 mV are shown to illustrate the differences in outward current for a series of key mutants. Currents are normalized to the absolute value at −60 mV. (
+       <strong>
+        B
+       </strong>
+       ) Averaged conductance–voltage (G–V) plots for all patches of mutants described in
+       <strong>
+        A
+       </strong>
+       . Chord conductance (G) is normalized to the absolute value at −60 mV. Number of patches is shown in brackets. The dashed line denotes the G–V curve for homomeric GluA1 (
+       <em>
+        n
+       </em>
+       =4). Error bars represent s.e.m. and are only shown for the positive deviation. (
+       <strong>
+        C
+       </strong>
+       ) Mutation of the conserved hydrophobic cluster in the UL interface in the GluA2 NTD generally disfavours heteromeric assembly with GluA1. I–V relationships were quantified by determining the slope conductance (
+       <em>
+        g
+       </em>
+       ) at +10 and −40 mV and expressing these as a ratio,
+       <em>
+        g
+       </em>
+       <sub>
+        +10
+       </sub>
+       /
+       <em>
+        g
+       </em>
+       <sub>
+        −40
+       </sub>
+       , or rectification index (RI). The geometric mean of the RI is plotted on a logarithmically scaled axis, with increasing RI indicating greater heteromerization. Error bars show the back-transformed limits of the s.e.m. of the log
+       <sub>
+        e
+       </sub>
+       RI data. Number of patches is given at the base of each column. The dashed line denotes the RI value for WT GluA2. FF=F50A/F82A, FFL=F50A/F82A/L310A, FL=F82A/L310A. (
+       <strong>
+        D
+       </strong>
+       ) Mutation of polar residues in the UL generally favour heteromeric assembly. Rectification indices of the indicated mutants are represented as in
+       <xref ref-type="fig">
+        Figure 3D
+       </xref>
+       . Note that double mutation of N54 and T78 shows no additive effect and actually decreases heteromerization when mutated to GluA1 residues. The dashed line denotes the RI for GluA2 WT.
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.01 (one-way ANOVA with Dunnett multiple comparison: mutants versus wild type). (
+       <strong>
+        E
+       </strong>
+       ) Molecular surface of the GluA2 dimerization interface is shown, with residues targeted for mutagenesis shown as either facilitating (green) or inhibiting (blue) heteromerization. See also
+       <a>
+        Supplementary Figure S3
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Interestingly, evolutionarily variable positions N54 and T78 were most sensitive—mutation to alanine elevated heteromerization competence by approximately 2.2- and 4.7-fold (
+     <xref ref-type="fig">
+      Figure 4A, B, D
+     </xref>
+     and
+     <a>
+      Supplementary Figure 3C
+     </a>
+     ). A similar trend was also observed in GluA1 with the swap mutants Y54N and M78T (
+     <xref ref-type="fig">
+      Figure 5A–C
+     </xref>
+     ). Moreover, the fact that the N54A/T78A double mutant was not additive, but actually reversed the RI values closer to WT (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ), together with the fact that they show opposing homomeric phenotypes on BN-PAGE (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ), supports the hypothesis that these positions drive assembly by mechanistically different routes (see below). This observation could be extended to the GluA2 double swap mutant (N54Y/T78M), which heteromerized poorly (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ) and was also seen in the reciprocal experiment with GluA1 (Y54N/M78T;
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). We conclude that the capacity of the NTD to drive the assembly of heteromers is readily increased by mutation in both lobes, specifically at two non-conserved positions (54 and 78;
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ). These two residues ‘buffer' the heteromerization competence of the NTD and may thereby facilitate the formation of AMPAR homomers by different mechanisms, which we tested next.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Mutation of variable residues in the GluA1 upper lobe (UL) show increased heteromerization competence. (
+       <strong>
+        A
+       </strong>
+       ) Voltage clamp recordings of GluA1 NTD mutants in outside-out patches when co-transfected into HEK293T cells with GluA2. Only currents for −60, 0, and +40 mV are shown. Currents are normalized to the absolute value at −60 mV. (
+       <strong>
+        B
+       </strong>
+       ) Averaged conductance–voltage (G–V) plots for all patches of mutants described in
+       <strong>
+        A
+       </strong>
+       . Chord conductance (G) is normalized to the absolute value at −60 mV. Number of patches is shown in brackets. The dashed line denotes the G–V curve for homomeric GluA1 (
+       <em>
+        n
+       </em>
+       =4). Error bars represent s.e.m. and are only shown for the positive deviation. (
+       <strong>
+        C
+       </strong>
+       ) Mutation of key polar interface residues in the GluA1 NTD UL favours heteromeric assembly. Rectification indices of the indicated mutants plotted as in
+       <xref ref-type="fig">
+        Figure 3D
+       </xref>
+       . The dashed line denotes the RI value for WT GluA1.
+       <sup>
+        *
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.05;
+       <sup>
+        **
+       </sup>
+       <em>
+        P
+       </em>
+       &lt;0.01 (one-way ANOVA with Dunnett multiple comparison: mutants versus Wild type).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Mechanism underlying balanced assembly via the NTD
+    </title>
+    <p>
+     To elucidate the mechanistic basis of the difference between N54 and T78, we conducted biophysical and crystallographic studies at the level of the NTD. In accord with the native gels, thermal stability measurements (
+     <xref ref-type="bibr">
+      Niesen et al, 2007
+     </xref>
+     ) revealed that the melting temperature (
+     <em>
+      T
+     </em>
+     <sub>
+      m
+     </sub>
+     ) was elevated for the more stable N54A homodimer (by ∼5°C, relative to WT), but was decreased for T78A (similarly by ∼5°C;
+     <a>
+      Supplementary Figure S4A
+     </a>
+     ). In addition, an approximately 70-fold lower homodimer stability for T78A (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     37±3.7 nM), relative to N54A (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     0.5±0.2 nM) was measured by AU-FDS (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S4B
+     </a>
+     ;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Ablating the polar link mediated by Thr78 (
+     <a>
+      Supplementary Figure S5A, B
+     </a>
+     ), therefore, weakens GluA2 homodimers, which approached a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of GluA1 (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Structural basis for balanced assembly. (
+       <strong>
+        A
+       </strong>
+       )
+       <em>
+        Top:
+       </em>
+       Crystal structure of the GluA2-N54A NTD shows subtle alterations in the dimeric packing. Structural alignment of the N54A (green) and the WT (grey) crystal structures are shown. As expected, disrupting the hydrogen bond between N54 and the L310 main-chain carbonyl resulted in a different top loop conformation, but the L310 side chain was not shifted from its interface location.
+       <em>
+        2F
+       </em>
+       <sub>
+        o
+       </sub>
+       <em>
+        −F
+       </em>
+       <sub>
+        c
+       </sub>
+       omit map of A54 contoured to 1.0σ is shown for the relevant residue (blue) and the neighbouring residues (grey) in N54A.
+       <em>
+        Bottom:
+       </em>
+       In the WT context (PDB 3HSY), N54 makes a cross-dimer polar contact only on one side of the dimer interface (circled in blue). The result is unsatisfied hydrogen bonding potential at the dimer interface (circled in red), a destabilizing component of the WT interface. (
+       <strong>
+        B
+       </strong>
+       ) Model of the thermodynamic effect of NTD mutations and their effects on whole-channel assembly. Whereas WT GluA2 NTD (top) is capable of balancing homo- and heteromerization at the level of the NTD and the whole receptor, N54A and T78A (bottom), which have opposite effects on NTD dimer stability, preferentially heteromerize the whole channel. Free energy changes of dimer dissocation (ΔΔG) in kcal mol
+       <sup>
+        −1
+       </sup>
+       are denoted. (
+       <strong>
+        C
+       </strong>
+       ) Two interconnected steps dictate dimer assembly: homodimer dissociation (step I) and optimal homo- and heterodimer association (step II). Hotspots (stars) in the GluA2 NTD (red) upper lobe interface affect both these processes. Whereas the T78A mutation facilitates homomer dissociation, the N54A mutation stabilizes both homomerization and heteromerization (
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       s of dimer dissociation measured by AU-FDS are shown below the relevant assemblies). As heterodimerization requires both homodimer dissociation and re-association of heterodimers, the functional outcome for both mutations in the context of the full receptor is, therefore, greater heteromerization. The GluA1 NTD is shown in green for reference.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The crystal structure of GluA2-T78A, solved to 3.2 Å (
+     <a>
+      Supplementary Table I
+     </a>
+     ; PDB 3N6V), revealed that the mutation induces intra- and inter-helical rotations in the four-helical bundle of the UL (
+     <a>
+      Supplementary Figure S5C, D
+     </a>
+     ), culminating in a rearranged interface with reduced contact area (approximately 1.4-fold reduced, solvent-accessible surface area). Therefore, alteration at position 78 in the core of the NTD interface facilitates heteromerization by destabilizing homodimeric contacts. Mutation of this core position likely weakens homodimers, increasing subunit availability for heteromeric assembly (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     , step I).
+    </p>
+    <p>
+     N54 locates to the edge of the interface and can engage the subunit partner in H-bonding via L310 (
+     <xref ref-type="fig">
+      Figures 4E
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). This position shows greater variability than 78, and in addition to Met in GluA1, it features a His in GluA3 of ray-finned fish. As the N54A mutation is stabilizing (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ), the WT Asn at position 54 weakens GluA2 dimers, relative to the N54A mutant. Structural studies provide an explanation: the N54-L310 contact is asymmetric and is only seen on one side of the twofold dimer (in multiple X-ray data sets). The resulting unsatisfied H-bond of the ‘free' side (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , bottom panel) will be energetically unfavourable (
+     <xref ref-type="bibr">
+      Hendsch et al, 1996
+     </xref>
+     ) and may form the basis for relatively ‘destabilized' dimer contacts in the WT. The crystal structure of GluA2-N54A solved to 1.95 Å confirmed that the N54A mutation replaces this unsatisfied H-bond with a hydrophobic link (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ), resulting in a tighter, otherwise unaltered, homodimer (PDB 3O2J). This mutation likely stabilizes homo- and heterodimers (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     , step II). AU-FDS runs with the GluA1
+     <sup>
+      *
+     </sup>
+     /GluA2-N54A complex indeed revealed a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     below the GluA1/2 WT heteromer (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     &lt;0.5 nM; unpublished observations). However, even though these measurements are reproducible, they approach the limit of resolution with AU-FDS. On the basis of these data, we suggest that the variable N54 interface ‘weakener' has evolved to reduce dimeric affinities in homodimers, facilitating formation of energetically favoured GluA1/2 heterodimers. The net effect is an NTD capable of undergoing both homomeric and heteromeric assembly as a function of subunit concentration in the ER (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     and
+     <a>
+      Supplementary Figure S6
+     </a>
+     ).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Differential affinities drive specific assembly. Summary of the experimentally derived association affinities. Note that the association affinities of NTDs span four orders of magnitude, from very tight
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       s below 2 nM (bottom) for assembly driven by GluA2, to intermediate
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       s in the range of 30–100 nM (top left) for assembly driven by GluA1 in the absence of GluA2, and to relatively loose, as in the case of Glua3 homomers (top right). Together with relative subunit concentrations, which differ in distinct neuronal populations (described in
+       <a>
+        Supplementary Figure 6
+       </a>
+       and indicated by dashed outlines), these parameters will determine the assembly process.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Herein, we provide organizing principles underlying the formation of distinct AMPAR hetero-tetramers. Together with single-cell gene expression analysis (
+    <xref ref-type="bibr">
+     Dixon et al, 2000
+    </xref>
+    ), our results offer a roadmap for the actual assemblies expressed by a given neuron. The development of a high-resolution biophysical assay together with novel structural data reveal that (1) heterodimerization can be obligatory (GluA3) or preferential (GluA1, GluA2, and GluA4), (2) subunits (NTDs) heteromerize at the level of the dimer, (3) heterodimers form preferentially over homodimers, and (4) the NTD does not drive heteromeric assembly maximally and thereby facilitates a balance between homo- and heteromeric assembly modes.
+   </p>
+   <sec>
+    <title>
+     Determinants of AMPAR subunit assembly
+    </title>
+    <p>
+     Like many (if not most) ion channels and receptors, iGluRs preferentially exist as hetero-oligomers. Although the cellular mechanisms underlying this phenomenon are unclear, the outcome has profound consequences for neuronal physiology and pathology (e.g.
+     <xref ref-type="bibr">
+      Zheng and Zagotta, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Traynelis et al, 2010
+     </xref>
+     ). Affinities between subunit interfaces and the relative concentration of subunit polypeptides in the ER are likely to be core assembly determinants (
+     <xref ref-type="fig">
+      Figures 6B
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     and
+     <a>
+      Supplementary Figure S6
+     </a>
+     ), a basic principle applicable to other central cellular processes (
+     <xref ref-type="bibr">
+      Buchler and Cross, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     In neurons, a relatively high local concentration of a given AMPAR subunit polypeptide will form during synthesis from a polyribosome. Each subunit is likely to dimerize at this point. Depending on determinants of ER exit kinetics (e.g., Q/R and R/G editing;
+     <xref ref-type="bibr">
+      Greger et al, 2002
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2006
+     </xref>
+     ) homodimers will have time to diffuse away from the site of synthesis to where the subunit concentration is lower (
+     <xref ref-type="bibr">
+      Sukumaran et al, 2011a
+     </xref>
+     ). Homodimers could thus dissociate, leaving them capable to assemble with other AMPAR subunits. In this regard, it can be rationalized that both homomer dissociation (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     , left panel) and heteromer association (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     , right panel) will influence heteromerization, as suggested empirically with the GluA2 NTD interface mutants N54A and T78A.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Quantification of subunit associations—the AMPAR subunit affinity network
+    </title>
+    <p>
+     iGluRs assemble as dimers of dimers into tetramers (
+     <xref ref-type="bibr">
+      Sun et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Greger et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shanks et al, 2010
+     </xref>
+     ). For AMPARs, it has been unclear whether heteromerization occurs at the level of the dimer or the tetramer. The outcome will have consequences for the ultimate organization of subunits within the receptor tetramer. In addition to the four core subunits, auxiliary factors such as TARPS, cornichons and CKAMP44 (reviewed in
+     <xref ref-type="bibr">
+      Guzman and Jonas, 2010
+     </xref>
+     ) associate with the receptor tetramer and may impact the assembly process (
+     <xref ref-type="bibr">
+      Nakagawa, 2010
+     </xref>
+     ). We developed a sensitive ultracentrifugation assay (AU-FDS), which facilitated a quantitative assessment of subunit interactions along the (∼60 Å) NTD axis for both homo- and heterodimeric combinations. In addition to revealing preferential heteromerization at the level of the dimer, we uncover a surprising spectrum of different affinities between the four subunits. These properties, together with subunit availability in the ER, will orchestrate the formation of distinct AMPAR heteromers. For example, in CA1 hippocampal neurons, expression levels of AMPAR subunits have been determined at the single cell level; equal proportions of GluA1 and GluA2 have been estimated, with a 10-fold lower concentration of GluA3 (GluA4 has not been detected;
+     <xref ref-type="bibr">
+      Tsuzuki et al, 2001
+     </xref>
+     ). The single-cell profiling approach (
+     <xref ref-type="bibr">
+      Lambolez et al, 1992
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dixon et al, 2000
+     </xref>
+     ), in combination with the affinity network measured by AU-FDS herein (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ), provides a roadmap for the actual AMPAR assemblies in CA1, which can be extended to other neuronal populations. For example, the comparatively weak homodimeric affinity of the GluA3 NTD (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼1200 nM) renders the existence of GluA3 homomers unlikely; GluA3/2 heterodimers are ∼1000-fold tighter and will therefore predominate. Similarly, the high affinity of GluA1/2 NTD heteromers is expected to outcompete formation of the respective homomers, which offers a mechanism for the observed abundance of functional GluA1/2 heteromers (
+     <xref ref-type="bibr">
+      Lu et al, 2009
+     </xref>
+     ).
+    </p>
+    <p>
+     Altering the relative proportion of subunits after pathological insults (
+     <xref ref-type="bibr">
+      Kwak and Weiss, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Liu and Zukin, 2007
+     </xref>
+     ) or in response to physiological stimuli (
+     <xref ref-type="bibr">
+      Sutton et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Aoto et al, 2008
+     </xref>
+     ), will shift the balance towards homomers and in turn alter the signalling landscape of the neuron (
+     <xref ref-type="bibr">
+      Liu and Cull-Candy, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cull-Candy et al, 2006
+     </xref>
+     ). Our data also suggest that in inter-neurons, in which Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPARs prevail as a result of reduced GluA2 expression, GluA3 heteromers will form preferentially over GluA3 homomers. For example, preferred heteromeric assembly of GluA1/3 Ca
+     <sup>
+      2+
+     </sup>
+     -permeable AMPARs confers a kinetic profile to these receptors that is different from the GluA1 homomeric pool (
+     <xref ref-type="bibr">
+      Erreger et al, 2004
+     </xref>
+     ) or GluA3 homomers. Similarly, GluA3/4 receptors will prevail over GluA3 homomers (data not shown), resulting in a more rapidly desensitizing receptor (
+     <xref ref-type="bibr">
+      Trussell, 1998
+     </xref>
+     ).
+    </p>
+    <p>
+     The unique position of GluA3 at the low end of the affinity spectrum can be explained structurally—in contrast to the bipartite GluA2 dimer interface, which encompasses both lobes of the NTD clamshell, the LLs of GluA3 have separated as a result of like-charge repulsion (
+     <xref ref-type="bibr">
+      Sukumaran et al, 2011b
+     </xref>
+     ), bearing an unexpected resemblance to the related mGluR agonist-binding domains (
+     <xref ref-type="bibr">
+      Kunishima et al, 2000
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Homo- versus heteromeric AMPARs—a balancing act of the NTD
+    </title>
+    <p>
+     In an effort to uncover assembly determinants within the GluA2 NTD, we were surprised to find that mutations scattered throughout the dimer interface mostly increased the fraction of heteromers. Specifically, two hotspots ‘disfavour' GluA1/2 heteromers, as they increase the fraction of heteromers when mutated. The NTD is thus not fully optimized to heterodimerize, which together with the intermediate homomeric affinity of the GluA1 interface (GluA2&gt;GluA4&gt;GluA1&gt;GluA3) could provide the basis for GluA1 homomers.
+    </p>
+    <p>
+     Overall assembly will be dictated by two interconnected steps (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     )—availability for complex formation, which requires the dissociation of homodimers (step I), and optimal contacts within the newly formed complex (step II). The interface hotspots affect these two steps differently: N54 is ‘destabilizing' in the WT (relative to the N54A mutant), as a result of unsatisfied H-bonding potential at the edge of an interface (
+     <xref ref-type="bibr">
+      Hendsch et al, 1996
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pokkuluri et al, 2000
+     </xref>
+     ). As WT GluA1/2 heterodimers only have one N54, heteromerization may partially remove the unsatisfied H-bonding potential. The Tyr at position 54 is unique to GluA1, and may also contribute hydrophobic character to the UL interface and may fully satisfy its H-bonding due to the increased ‘reach' of the Tyr side chain. Taken together, these properties may partially explain why GluA1/2 heterodimers are tighter than GluA2 homodimers, and in fact are the tightest WT assemblies we have measured (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). A full mechanistic understanding of the exact role of these determinants must await structure elucidation of the GluA1/2 NTD heterodimer.
+    </p>
+    <p>
+     Mutation of N54 to Ala introduced a more hydrophobic character to the GluA2 NTD interface and fully abolished the unsatisfied potential, resulting in stabilization of the dimer; thus, facilitating step II and also disfavouring step I (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). The resulting impact of N54A on assembly depends on how the opposing effects on steps I and II are balanced; the overall assembly behaviour is readily probed with AU-FDS, and the GluA1/GluA2-N54A NTD heteromer was tighter than the respective homomers (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     &lt;0.5 nM; data not shown), and it indeed featured the tightest association measured in this study. This result indicates that, although the N54A mutation favours both homomer and heteromer formation, the effect on heteromer formation is stronger. Owing to its position at the interface edge, the N54A mutation did not result in rearrangements of dimeric contacts. Its interaction with a flexible loop via L310 may result in a modulatory role, as this loop is an integral part of the dimer interface and conformationally rearranges on mutation of N54 (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ).
+    </p>
+    <p>
+     Truncation of T78 to Ala destabilizes the homodimer, likely by severing water co-ordination across the interface, facilitating step I (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). Mutation of this core position resulted in rearrangements of the NTD dimer. Destabilization is also apparent on BN-PAGE when introducing the GluA1-selective M78 (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Conservative mutation to Val will provide additional hydrophobic interactions across the interface and is expected to occupy the same space as the WT Thr. This mutant indeed stabilized dimers on BN-PAGE, similar to WT (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). According to the scheme in
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     , dissociation is likely to be energetically more costly for a GluA2-T78V dimer than for a T78A dimer (disfavouring step I). However, in a GluA1/GluA2-T78V heterodimer, Val is expected to interact favourably with M78 across the dimer interface (step II), ultimately explaining the increased heteromerization measured functionally (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ).
+    </p>
+    <p>
+     In conclusion, we ascribe a novel role to the AMPAR NTD. Rather than simply being a rigid assembly module, this functionally and structurally diverse domain dictates the diverse subunit stoichiometries present in neuronal populations. In addition, as our data show that heterodimerization is overall favoured at the level of the NTD, we propose that, in principle, the assembly of tri-heteromeric AMPA receptors is possible (as tetramers formed from two different heterodimers), whereas preferential homodimerization would rule out this possibility. These findings, together with an emerging allosteric signalling capacity of the AMPAR NTD (
+     <xref ref-type="bibr">
+      Sukumaran et al, 2011b
+     </xref>
+     ), uncover unexpectedly versatile functions of a previously poorly understood receptor domain.
+    </p>
+    <p>
+     Of note, recent kainate receptor NTD stuctures show that dimer packing in GluK3, which is know to form homotetramers, overall mirrors that of other nonNMDAR NTDs. However, the GluK5 dimer interface is rearranged and shows loosened contacts within the ULs (
+     <xref ref-type="bibr">
+      Kumar and Mayer, 2010
+     </xref>
+     ). Interestingly, since GluK5 does not form homotetramers, the structure provides additional insight into the role of the NTD for selective assembly routes.
+    </p>
+    <p>
+     Furthermore, in a recent study Farina
+     <em>
+      et al
+     </em>
+     (in press) reveal that the NTD homodimer of the NMDA receptor NR1 subunit is a pivotal scaffolding element, and that this homodimer has to re-equilibrate into a heterodimer during NMDAR biogenesis. They also show that the NTD heteromerization equilibrium, and thus secretion competence of the NMDAR, can be influenced by mutations in the NR1 NTD dimer interface. Overall, these results provide a striking analogy to the results described in this study and reveals mechanistic parallels between the biogenesis of AMPA- and NMDARs.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein preparation
+    </title>
+    <p>
+     GluA1 NTD (Ala1-Asn375) and GluA2 NTD (Val1-Thr375) with endogenous signal sequences and C-terminal His
+     <sub>
+      6
+     </sub>
+     -tags were cloned into the pFastBAC1 vector backbone and expressed from Sf9 (Invitrogen) and TriEx strain (Novagen) insect cells using standard baculovirus expression methods. GluA2, GluA3 (Gly1-Phe380) and GluA4 (Ala1-Asp380) NTDs were also subcloned into the pHLsec plasmid between a secretion signal sequence and a His
+     <sub>
+      6
+     </sub>
+     tag, and expressed in transiently and stably transfected GntI
+     <sup>
+      −
+     </sup>
+     HEK293S cells, as described (
+     <xref ref-type="bibr">
+      Aricescu et al, 2006
+     </xref>
+     ). The numbering of amino acids was according to the mature polypeptide, that is, without inclusion of the signal sequence. Point mutations (N54A, T78A) were introduced utilizing the QuikChange mutagenesis kit (Stratagene). NTD secreted into the culture medium was purified to monodispersity by metal affinity- and subsequent size-exclusion chromatography. Purified proteins were concentrated to 15–21 mg/ml for crystallization trials or analytical ultracentrifugation experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     X-ray crystallography
+    </title>
+    <p>
+     Crystallization screening was performed at 18°C using the sitting drop vapor-diffusion method by mixing of protein and reservoir solutions in the ratio 1:1. GluA2 NTD crystallized in 16–20% PEG3350 and 200–250 mM ammonium dihydrogen phosphate (pH 4.6). GluA2-T78A NTD crystallized in 100 mM Tris (pH 8.5), 100 mM MgCl
+     <sub>
+      2
+     </sub>
+     , and 18–20% PEG8000. GluA2-N54A NTD crystallized in 18–20% PEG3350, and 100 mM sodium citrate (pH 5.5). All crystals were cryoprotected in the mother liquor supplemented with 30% glycerol, 22–30% PEG400, or 35% PEG3350. Heavy atom derivatives for phasing were obtained by soaking native GluA2 NTD crystals in 200 mM ammonium sulphate (pH 4.6), 20% PEG3350, 1 mM
+     <em>
+      p
+     </em>
+     -chloromercuribenzoic acid (PCMBA; Hampton Research) overnight.
+    </p>
+    <p>
+     Diffraction data were collected from crystals at beamlines I03 at the Diamond Light Source (Oxford, UK), and ID14-4, ID23-1, and ID29 at the European Synchrotron Radiation Facility (ESRF; Grenoble, France;
+     <a>
+      Supplementary Table I
+     </a>
+     ). Data were processed using the
+     <em>
+      IMOSFLM
+     </em>
+     (
+     <xref ref-type="bibr">
+      Leslie, 2006
+     </xref>
+     ),
+     <em>
+      SCALA
+     </em>
+     (
+     <xref ref-type="bibr">
+      Evans, 2006
+     </xref>
+     ),
+     <em>
+      XDS
+     </em>
+     , or
+     <em>
+      HKL2000
+     </em>
+     packages (
+     <xref ref-type="bibr">
+      Kabsch, 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ). The structure of the GluA2 NTD was solved by single anomalous dispersion on PCMBA-derivatized crystals. Initial phases and a partial model were obtained using the
+     <em>
+      autoSHARP
+     </em>
+     package (
+     <xref ref-type="bibr">
+      Vonrhein et al, 2007
+     </xref>
+     ) and were used to solve the structure by molecular replacement using
+     <em>
+      PHASER
+     </em>
+     (
+     <xref ref-type="bibr">
+      McCoy et al, 2005
+     </xref>
+     ). The structures of GluA2-N54A and GluA2-T78A were solved by molecular replacement using
+     <em>
+      PHASER
+     </em>
+     , with GluA2 NTD monomer (PDB: 3HSY) as a search model. The models were initially refined using
+     <em>
+      REFMAC
+     </em>
+     (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ), and then alternately refined using PHENIX (
+     <xref ref-type="bibr">
+      Adams et al, 2002
+     </xref>
+     ), and manually rebuilt in
+     <em>
+      COOT
+     </em>
+     (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ). Composite omit maps calculated with the
+     <em>
+      CNS
+     </em>
+     software package (
+     <xref ref-type="bibr">
+      Brunger and Rice, 1997
+     </xref>
+     ) were used for model validation. Stereochemical properties of all models were assessed by MOLPROBITY (
+     <xref ref-type="bibr">
+      Davis et al, 2004
+     </xref>
+     ) and PROCHECK (
+     <xref ref-type="bibr">
+      Laskowski et al, 1993
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     FAM labelling and analytical ultracentrifugation
+    </title>
+    <p>
+     N-terminal labelling was performed by incubating protein with 30-fold excess of 5,6-carboxyfluorescein succinimidyl ester (FAM; Biotium) at room temperature in pH 7.0 for 30 min, and was quenched with excess primary amine (1 M Tris–HCl (pH 7.4)). Excess label was removed by dialysis, and labelled protein was repurified by size-exclusion chromatography. Labelling efficiency was estimated spectrophotometrically and was in the range of 0.9–1.3 fluorophore per protein molecule.
+    </p>
+    <p>
+     A ProteomeLab XL-I analytical ultracentrifuge (Beckman Coulter) equipped with a fluorescence detection system (AVIV Biomedical) was used for velocity sedimentation experiments, performed at 50 000 rpm at 10°C. A total of 400 scans were acquired in intervals of 2.5 min. Concentration gradients were fit with sedimentation coefficient distributions (c(s)) using SEDFIT (
+     <xref ref-type="bibr">
+      Schuck, 2000
+     </xref>
+     ). Subsequent fitting of sedimentation profiles to normal distributions and
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     calculations were done with DataFitter software, developed in-house; c(s) distributions were deconvoluted into monomeric and dimeric fractions, and separately integrated to determine
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s. When c(s) distributions were concentration-dependent,
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s were calculated based on shifting peak positions. Determinations of heteromeric
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s was carried out by further deconvoluting contributions of labelled and unlabelled assembly species and numerically fitting data into binding models accounting for previously determined homomeric
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     s of each assembly constituent (see also
+     <a>
+      Supplementary Materials and methods
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Blue native PAGE
+    </title>
+    <p>
+     Analysis of AMPAR assembly by BN-PAGE was performed as described in detail previously (
+     <xref ref-type="bibr">
+      Greger et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Penn et al, 2008
+     </xref>
+     ). To dissociate AMPAR complexes for BN-PAGE, cell suspensions were treated with 1% SDS at 30°C for 10–15 min, cooled on ice, and subjected to BN-PAGE.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Cell culture and transfection
+    </title>
+    <p>
+     HEK293T cells were cultured using standard techniques. Cells were transfected in six-well plates using Effectene (Qiagen) with full-length GluA2-IRES-EGFP (flop; unedited at the
+     <span>
+      R
+     </span>
+     /G-site (position 743); edited at the Q/
+     <span>
+      R
+     </span>
+     site (position 586)) and pRK5-GluA1 flip (gift from Dr J Howe) to a total of 0.5 μg of plasmid.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophysiology and analysis
+    </title>
+    <p>
+     We determined the optimal cDNA ratio for co-expression; a condition in which GluA2 was limiting was achieved with a GluA1/2 ratio of 4:1, resulting in an RI of ∼0.1 (
+     <a>
+      Supplementary Figure 3
+     </a>
+     ). We also note that none of the mutants significantly affected protein levels detected by western blot, or traffic from the ER as assessed by endoglycosidase H sensitivity (
+     <xref ref-type="bibr">
+      Greger et al, 2002
+     </xref>
+     ; data not shown). Voltage clamp recordings were performed on outside-out patches excised from HEK293T cells ∼48 h after transfection. AMPA receptor currents were evoked with fast piezo-driven
+     <span>
+      L
+     </span>
+     -Glu application (3 mM, 100 ms) via a theta pipette. Typical solution exchange rise times for the junction potential at the open tip were &lt;0.2 ms (
+     <xref ref-type="bibr">
+      Penn et al, 2008
+     </xref>
+     ). Extracellular solution contained (in mM): NaCl (145), KCl (3), CaCl
+     <sub>
+      2
+     </sub>
+     (2), MgCl
+     <sub>
+      2
+     </sub>
+     (1), HEPES (10), and glucose (10) (pH 7.4) with NaOH (∼310 mOsm). Patch pipettes had an open-tip resistance of 2–5 MΩ when filled with filtered intracellular solution (in mM): CsF (120), CsCl (10), EGTA (10), MgCl
+     <sub>
+      2
+     </sub>
+     (2), Na
+     <sub>
+      2
+     </sub>
+     -ATP (2) QX314-Cl (1), Spermine (0.1), and HEPES (10) and adjusted to pH 7.2–7.3 with CsOH (∼280 mOsm). Current–voltage relationships of peak AMPAR currents (holding potentials −70 to +50 mV) were fit by polynomial regression, then the (real) root and first derivative of the fit were computed to obtain the reversal potential (
+     <em>
+      E
+     </em>
+     <sub>
+      rev
+     </sub>
+     ) and slope conductance (
+     <em>
+      g
+     </em>
+     ), respectively, using custom scripts in GNU Octave. These parameters were used to calculate RI defined as the ratio of
+     <em>
+      g
+     </em>
+     at +10 mV over
+     <em>
+      g
+     </em>
+     at −40 mV from
+     <em>
+      E
+     </em>
+     <sub>
+      rev
+     </sub>
+     (
+     <em>
+      g
+     </em>
+     <sub>
+      +10
+     </sub>
+     /
+     <em>
+      g
+     </em>
+     <sub>
+      −40
+     </sub>
+     ). Rectification indices over the measured range showed log normal distributions and hence are summarized as the geometric mean. The s.e.m. limits of the log data were back transformed to give error bounds (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ; also see
+     <a>
+      Supplementary Materials and methods
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession numbers
+    </title>
+    <p>
+     Coordinates for WT GluA2 (3HSY), GluA2-T78A (3N6V) and GluA2-N54A (3O2J) were deposited in the Protein Data Bank.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.2M, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (389K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

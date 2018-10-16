@@ -1,0 +1,1359 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2486280
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Novel type of Ras effector interaction established between tumour suppressor NORE1A and Ras switch II
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     A class of putative Ras effectors called Ras association domain family (RASSF) represents non-enzymatic adaptors that were shown to be important in tumour suppression. RASSF5, a member of this family, exists in two splice variants known as NORE1A and RAPL. Both of them are involved in distinct cellular pathways triggered by Ras and Rap, respectively. Here we describe the crystal structure of Ras in complex with the Ras binding domain (RBD) of NORE1A/RAPL. All Ras effectors share a common topology in their RBD creating an interface with the switch I region of Ras, whereas NORE1A/RAPL RBD reveals additional structural elements forming a unique Ras switch II binding site. Consequently, the contact area of NORE1A is extended as compared with other Ras effectors. We demonstrate that the enlarged interface provides a rationale for an exceptionally long lifetime of the complex. This is a specific attribute characterizing the effector function of NORE1A/RAPL as adaptors, in contrast to classical enzymatic effectors such as Raf, RalGDS or PI3K, which are known to form highly dynamic short-lived complexes with Ras.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     adaptor, apoptosis, interface, lifetime, protein interaction
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The members of the superfamily of small GTP binding proteins stimulate a variety of vital cellular responses in a nucleotide-dependent manner. The exchange of the bound nucleotide GDP for GTP is accompanied by conformational rearrangements of switch I and switch II regions (
+    <xref ref-type="bibr">
+     Vetter and Wittinghofer, 2001
+    </xref>
+    ). Ras is enabled to form a complex with downstream effector proteins, which subsequently provoke crucial cellular functions such as transcription, cell-cycle progression and cytoskeletal rearrangements only in the GTP-bound conformation. Structural characterizations of different effectors in complex with Ras have revealed a protein domain common to all Ras effectors and this domain is responsible for interaction with the members of the Ras family. This binding module known as Ras binding domain (RBD) or Ras association domain (RA) consists of about 80–100 amino acids whose tertiary structure corresponds to the folding topology of ubiquitin. Interaction with Ras is established by formation of an anti-parallel intermolecular β-sheet between switch I of Ras and strand β
+    <sub>
+     2
+    </sub>
+    of the canonical ubiquitin fold (
+    <xref ref-type="bibr">
+     Herrmann, 2003
+    </xref>
+    ). As a result of these common structural features, the affinities and dynamic properties of the Ras/effector complexes are markedly similar. Quantitative binding studies have demonstrated that they form short-lived complexes with
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    values in the range of 20 nM–2 μM (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    In general, Ras effector proteins are enzymes that initiate intracellular signalling that typically leads to cell growth and proliferation (
+    <xref ref-type="bibr">
+     Malumbres and Barbacid, 2003
+    </xref>
+    ). By contrast, a new class of effector proteins that participate rather in growth and tumour suppressive pathways has been discovered (
+    <xref ref-type="bibr">
+     van der Weyden and Adams, 2007
+    </xref>
+    ). This class, called Ras association domain family (RASSF), is encoded by six genes, each of them being expressed in multiple splice variants. RASSF proteins have been reported to interact with Ras by means of a putative RBD located in a highly conserved C-terminal region of all RASSF members (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Over the past years, RASSF proteins have been the subject of intensive investigations as it turned out that they are frequently downregulated by promoter methylation during cancer development. In fact, epigenetic inactivation of RASSF members such as RASSF1A is one of the most common events observed in carcinogenesis (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). It has been shown that ectopic expression of RASSF proteins in several cancer cell lines lacking the respective endogenous transcripts inhibits cell growth and tumorigenicity (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The molecular mechanisms by which RASSF proteins induce growth and tumour suppression are not determined yet. Several reports indicate that members of the RASSF modulate microtubule dynamics in mitosis and hence maintain genomic stability (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Other studies have demonstrated that RASSF proteins can promote apoptosis by interacting by means of a putative coiled-coil region known as SARAH domain with proapoptotic proteins such as MST1/2 and MOAP-1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Scheel and Hofmann, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Unlike the classical Ras effectors, RASSF proteins lack any catalytic activity. Rather, they function as adaptor proteins that are capable of assembling and regulating other signalling components. However, the role of Ras or Ras-like GTPases in the regulation of growth and tumour suppressive activities of RASSF proteins remains unclear.
+   </p>
+   <p>
+    Most evidence for the interaction of RASSF members with Ras exists for the founding member RASSF5, primordially named NORE1A (Novel Ras Effector 1A) whose gene encodes two splice variants. NORE1A binds Ras with high affinity
+    <em>
+     in vivo
+    </em>
+    and
+    <em>
+     in vitro
+    </em>
+    and shares the growth and tumour suppressive properties with other RASSF members such as RASSF1A (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In contrast, the shorter splice variant RAPL (Regulator of Adhesion and Polarization enriched in Lymphocytes), preferentially expressed in T cells, forms a complex with Rap1 and mediates the spatial distribution of the integrin LFA-1 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Kinashi and Katagiri, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Price and Bos, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). To gain structural insights into complex formation of small GTP binding proteins and effectors of the RASSF, we solved the crystal structure of Ras bound to the RBD of NORE1A/RAPL. The structure reveals a novel type of Ras interaction with its effectors, which, as our biochemical analysis suggests, is well suited for the adaptor-type functions of the RASSF proteins.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Molecular recognition of NORE1A by Ras
+    </title>
+    <p>
+     The RA of NORE1A is predicted by SMART (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) to cover residues 272–364 in the human sequence with a size of 92 amino acids common for Ras effectors. Experiments in transfected HEK293 cells revealed that the predicted RA is incapable of interacting with Ras. As shown in
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     , the NORE1A construct 254–416 comprising the RA and the C-terminal SARAH domain is not sufficient for Ras binding. Similarly, the construct 119–268, which contains the C1 domain and the flanking region of the predicted RA domain, is also deficient in Ras binding (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). These findings led us to conclude that the minimal fragment capable of interacting with Ras consists of an overlapping region of both constructs. Therefore, we established a construct that covers the predicted RA domain and extends by 68 residues towards the N terminus. This 160-amino-acid construct clearly interacts with Ras in transfected HEK293 cells (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). Interestingly, a similar fragment of murine NORE1A (residues 200–358) has been reported to bind to Ras with high affinity (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     )
+     <em>
+      in vitro
+     </em>
+     . Apart from five amino acids, the human NORE1A and murine NORE1A are identical within this range.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Interaction of wt and mutant NORE1A protein fragments with H-Ras
+       <em>
+        in vivo
+       </em>
+       . HEK293 cells were transfected with HA-tagged fragments of NORE1A and FLAG-tagged full-length G12V H-Ras as indicated. Cell lysates were precipitated for HA and the precipitates were probed with antibody against FLAG (upper panel) by western blotting. Middle and lower panels show expression of HA-tagged and FLAG-tagged proteins in cell extracts. A non-relevant lane was removed from all panels during the creation of this figure; the position where images were combined is indicated by a vertical black line.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To understand how NORE1A is recognized by Ras on a molecular basis, we attempted to crystallize the 160-amino-acid comprising construct of murine NORE1A in complex with Ras. The Ras isoform we used is H-Ras ending at residue 166, as previous work has shown that the flexible C terminus of Ras renders the full-length protein unsuitable for crystallization (
+     <xref ref-type="bibr">
+      Vetter and Wittinghofer, 2001
+     </xref>
+     ). As co-crystallization of wild-type (wt) proteins was not successful, we used the NORE1A mutant K302D and the Ras double mutant D30E/E31K because this strategy was also helpful in the crystallization of other Ras/effector complexes (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). This double mutant of Ras carries the Rap1 residues in these two positions of switch I (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) whereas mutation of K302D in NORE1A was reported to decrease the specificity for Ras and Rap1 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     The three-dimensional structure of the complex was solved at 1.8 Å resolution (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     and
+     <a>
+      Supplementary Figure 1
+     </a>
+     ). The current model covers all residues of the Ras molecule bound to the nucleotide GppNHp as well as the magnesium ion and NORE1A residues 200–248 and 274–357. The structure of the Ras–NORE1A complex reveals that NORE1A has a ubiquitin fold similar to RBDs of other effectors (
+     <xref ref-type="fig">
+      Figure 2A and B
+     </xref>
+     ) but it is remarkably extended by an insertion between β
+     <sub>
+      1
+     </sub>
+     and β
+     <sub>
+      2
+     </sub>
+     and an N-terminal elongation as described below. Residues 230–358 of NORE1A cover a mixed five-stranded β-sheet with two flanking α-helical regions and one additional 3
+     <sub>
+      10
+     </sub>
+     -helix forming the ubiquitin α/β-roll. This structural segment exhibits a similar protein–protein interaction pattern with Ras as seen before in other Ras effector complex structures with an interprotein β-sheet formed between the switch I region of Ras and strand β
+     <sub>
+      2
+     </sub>
+     within the ubiquitin fold of NORE1A. Comparison with previously solved RBD structures reveals a large extension of strands β
+     <sub>
+      1
+     </sub>
+     and β
+     <sub>
+      2
+     </sub>
+     causing an intimate interplay between 10 residues of switch I of Ras and 5 residues of β
+     <sub>
+      2
+     </sub>
+     of NORE1A (
+     <xref ref-type="fig">
+      Figures 2B
+     </xref>
+     ,
+     <xref ref-type="fig">
+      3A and C
+     </xref>
+     , and
+     <a>
+      Supplementary Figure 2
+     </a>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Crystal structure of the NORE1A–Ras complex. (
+       <strong>
+        A
+       </strong>
+       ) Ribbon representation of the overall Ras·GppNHp–NORE1A structure. The RBD of NORE1A is represented in green, and Ras is shown in blue. The Ras-bound nucleotide is shown in a ball-and-stick representation. The dashed connection between β
+       <sub>
+        1
+       </sub>
+       and β
+       <sub>
+        2
+       </sub>
+       of NORE1A indicates residues 249–273, which are not visible in the electron density. (
+       <strong>
+        B
+       </strong>
+       ) Structural comparison of NORE1A with the RBDs of RalGDS (PDB: 1LXD) and Raf (PDB: 1GUA) depicted in red and yellow, respectively. The complex is rotated 180° with respect to (A). (
+       <strong>
+        C
+       </strong>
+       ) Schematic drawing of the domain organization of NORE1A, RAPL and RASSF1A (C1, DAG binding domain; RBD, Ras binding domain; SARAH, Sav/RASSF/Hpo interaction domain). The cross-striped part or the RBDs indicate the size of the domains predicted by SMART. Dashed lines represent binding sites for microtubules (MT) and MST1/2. (
+       <strong>
+        D
+       </strong>
+       ) Sequence alignment of the RBDs of all six members of the human RASSF. Secondary structure elements of NORE1A are indicated. To maintain the notation of the canonical RBD, we termed the helix and the strand within the unique N terminus as α
+       <sub>
+        N
+       </sub>
+       and β
+       <sub>
+        N
+       </sub>
+       . Residues of mouse NORE1A that differ from human orthologue are represented below the alignment. Positions that match conserved residues are highlighted in grey; residues involved in Ras binding are indicated by asterisks.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The NORE1A–Ras interface. (
+       <strong>
+        A
+       </strong>
+       ) Schematic drawing of interacting residues in Ras (blue) and NORE1A (green). Hydrogen bonds (cutoff level 3.5 Å) are shown as dashed lines. Water molecules mediating polar interactions are displayed as dots. Hydrophobic interactions (cutoff level 4 Å) are shown as red lines. (
+       <strong>
+        B
+       </strong>
+       ) Surface representation of the complex between Ras (pale blue) and NORE1A (pale green). Residues of the interface area are shown in bright blue or green. (
+       <strong>
+        C
+       </strong>
+       ) Close-up view of the switch I interface. Residues forming polar contacts are shown as ball and sticks. Water molecules are omitted for clarity. (
+       <strong>
+        D
+       </strong>
+       ) Close-up view of the switch II interface. Residues forming hydrophobic interactions are indicated. (
+       <strong>
+        E
+       </strong>
+       ) Surface representation of Ras. The molecule is rotated by 90° with respect to (B) to visualize the interface areas (bright blue). The switch I and II regions are indicated. (
+       <strong>
+        F
+       </strong>
+       ) Surface representation of NORE1A. The protein is rotated by −90°. The interface area is represented in bright green. (
+       <strong>
+        G
+       </strong>
+       ) NORE1A structure in the same orientation as in (F) coloured according to sequence conservation.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Crystallographic statistics for the Ras/NORE1A complex
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     There is no electron density for residues 249–273 of NORE1A, which form most likely a flexible loop, connecting strands β
+     <sub>
+      1
+     </sub>
+     and β
+     <sub>
+      2
+     </sub>
+     . However, this part is dispensable for complex formation, as a deletion of this segment does not affect the interaction with Ras in HEK293 cells (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). We could quantify this result using the guanine nucleotide dissociation inhibitor (GDI) assay mentioned below. The NORE1A deletion mutant (255–274) binds Ras with the same affinity as the wt protein (see below).
+    </p>
+    <p>
+     The N-terminal residues 200–230 of NORE1A form a helix α
+     <sub>
+      N
+     </sub>
+     and a short strand β
+     <sub>
+      N
+     </sub>
+     , which are connected by a type I reverse turn. This N-terminal extension is tightly packed against the ubiquitin fold (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ) predominantly through hydrophobic interactions with strand β
+     <sub>
+      1
+     </sub>
+     and helix α
+     <sub>
+      2
+     </sub>
+     . No counterpart has been observed for this additional structural element among the characterized Ras effector complexes. Most strikingly, residues C220 and L221 of the reverse turn form a hydrophobic interface with M67 and Y64 of switch II of Ras (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     and
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). This interface extends under participation of I36 of switch I and F234 of β
+     <sub>
+      1
+     </sub>
+     of NORE1A. To study the significance of this unique switch II binding site, we created two N-terminal deletions in the human variant of NORE1A 203–363 lacking the first 16 and 25 residues, respectively, and investigated the interaction with Ras in HEK293 cells. Remarkably, even the minimal deletion of amino acids 203–219, which comprise the helix α
+     <sub>
+      N
+     </sub>
+     , completely abolished the interaction of NORE1A with Ras (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). These results clearly show that the N-terminal extension of NORE1A is essential for the interaction with Ras.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutational analysis of the interface
+    </title>
+    <p>
+     To analyse the quantitative contribution of amino acids participating in intermolecular interactions, and in particular to address the importance of switch II contacts, we created point mutants within the binding interface of NORE1A-RBD. The interaction between Ras and NORE1A was analysed by the GDI assay, which was used earlier for other Ras effectors. This method is based on the inhibition of guanine nucleotide dissociation by effector binding (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). We obtained an equilibrium dissociation constant
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     for the NORE1A–Ras complex of 0.08 μM. This value is comparable with the Ras–Raf interaction, which was found to have the highest affinity among all Ras effectors characterized so far (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value determined for Rap1 is 1.3 μM, indicating a clear preference of NORE1A to interact with Ras (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ). As mentioned above, we use the Ras mutant D30E/E31K for co-crystallization. This mutant mimics the effector binding site of Rap1, as the switch I regions of Ras and Rap1 differ only in these two residues. According to this, we obtained a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 1.23 μM for Ras D30E/E31K, which is nearly the same as for wt Rap1 (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). On the other hand, the reverse mutation E30D/K31E in Rap1 shows a dissociation constant of 0.2 μM, which is in the range of that of wt Ras. The mutation K302D in NORE1A represents a charge reversal that diminishes the discrimination between Ras and Rap1 as can be seen by the similar
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values of 0.71 and 0.69 μM for the complexes of this mutant with Ras and Rap1, respectively. The pair Ras D30E/E31K and NORE1A K302D, which we have used for crystallization, shows a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of 0.77 μM. Although these data clearly suggest a salt bridge swapping between the mutant pair Ras(D30E/E31K)–NORE1A(K302D) and the corresponding wt proteins, we cannot observe this scenario in our structure, as both residues, aspartate 302 of the NORE1A mutant and lysine 31 of the Ras mutant, create polar contacts to a symmetry-related molecule (
+     <a>
+      Supplementary Figure 3
+     </a>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       GDI assay with NORE1A and RASSF1A. (
+       <strong>
+        A
+       </strong>
+       ) Time course of the fluorescence decay given in relative units when excess of unlabelled nucleotide is added to solutions of Ras-mantGppNHp and NORE1A-RBD at different concentrations. (
+       <strong>
+        B
+       </strong>
+       ) Rate constants for the nucleotide dissociation from Ras, obtained from the experiment in (A), are plotted versus the concentration of the NORE1A-RBD. A quadratic binding curve fitted to the data yield the
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       value for Ras–NORE1A interaction of 0.8 μM. The same experiments were performed to probe the interaction between Ras and RASSF1A-RBD (
+       <strong>
+        C
+       </strong>
+       ) or Rap1 and NORE1A (
+       <strong>
+        D
+       </strong>
+       ) resulting in
+       <em>
+        K
+       </em>
+       <sub>
+        D
+       </sub>
+       values of 2.7 and 1.3 μM, respectively.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Equilibrium dissociation constants (
+        <em>
+         K
+        </em>
+        <sub>
+         D
+        </sub>
+        values) for complexes between NORE1A and Ras and Rap mutants
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Residues of NORE1A involved in side-chain contacts within the intermolecular β-sheet of the two proteins were mutated to alanine. As mentioned above, β
+     <sub>
+      2
+     </sub>
+     of NORE1A is the major contact point to switch I of Ras. Our analysis indicates K283 from β
+     <sub>
+      2
+     </sub>
+     as the most essential residue that creates a salt bridge with D38 and two water-mediated contacts with D33 and P34 of Ras (
+     <xref ref-type="fig">
+      Figure 3A and C
+     </xref>
+     ). The loss of the lysine side chain perturbs Ras binding to a large extent, resulting in a 240-fold decrease in affinity (
+     <a>
+      <span>
+       Table III
+      </span>
+     </a>
+     ). Mutation of D280 and Q284 of β
+     <sub>
+      2
+     </sub>
+     to Ala has only a weak effect on Ras binding. Apart from K283, another lysine (K303) at the edge of helix α
+     <sub>
+      1
+     </sub>
+     forms a crucial interaction with Asp33 of Ras (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     and
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). Mutation of K303 to Ala leads to a 35-fold reduction in binding affinity to Ras. There is no direct polar interaction between β
+     <sub>
+      1
+     </sub>
+     strand of NORE1A and switch I of Ras. Glu37 of Ras makes a water-mediated contact to K236 in the β
+     <sub>
+      1
+     </sub>
+     of NORE1A, which has only a modest contribution to the interaction with Ras. Adjacent to K236, the side chain of F234 is involved in the hydrophobic switch II interface formed between C220 and L221 of the N-terminal reverse turn in NORE1A and Y64, M67 of Ras switch II and I36 of Ras switch I (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). Confirming our structural findings, single mutations of F234, C220 and L221 of NORE1A to alanine weaken the affinity 5- to 20-fold (
+     <a>
+      <span>
+       Table III
+      </span>
+     </a>
+     ). As the mutants C220A and L221A of NORE1A might be still capable of contributing to hydrophobic interactions with Ras switch II, we also generated the Asp mutations C220D and L221D. The introduction of a negative charge at these positions should impair the hydrophobic network with Ras switch II to a much stronger extent than corresponding Ala mutations. In agreement with this, we obtained binding affinities that were 70- to 90-fold weakened compared with wt NORE1A. On the Ras side, the aromatic ring portion of Tyr64 in switch II is most relevant for NORE1A interaction by forming hydrophobic contacts to F234, C220 and L221 (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     and
+     <a>
+      Supplementary Figure 2
+     </a>
+     ). We analysed the contribution of this side chain by mutating to Ala and observed a 94-fold weaker interaction with wt NORE1A. Considering 40.5 kJ/mol as the total change of free energy of NORE1A–Ras complex formation, deletion of this tyrosine side chain in switch II causes a major loss of 11.7 kJ/mol, indicating that Y64 contributes strongly to complex formation with NORE1A. To validate the specificity of this interaction, we used the RBD of Raf (residues 51–131) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) as a control and determined the
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value for the complex with the Ras Y64A mutant. We obtained a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of 0.2 μM, which is similar to that of Raf-RBD and wt Ras (Wohlgemuth
+     <em>
+      et al
+     </em>
+     , 2005).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 3
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Equilibrium dissociation constants (
+        <em>
+         K
+        </em>
+        <sub>
+         D
+        </sub>
+        values) for complexes between Ras and NORE1A mutants and RASSF1
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Probing the interaction of Ras and the RBD of RASSF1
+    </title>
+    <p>
+     RASSF1A is the closest NORE1A relative identified to date. Similar to NORE1A, the protein has been shown to colocalize on microtubules, to bind to the proapoptotic kinases MST1/2 and to be capable of interacting with the active form of Ras (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). RASSF1A and NORE1A share the same domain architecture; both contain a C1 domain followed by an RBD and a SARAH domain at the C terminus (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). A sequence alignment of all members of the RASSF reveals that RASSF1 is 53% identical to the RBD of NORE1A, the highest value among all RASSF proteins (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). The projection of conserved residues onto the surface of the RBD of NORE1A suggests a similar mode of interaction between RASSF1A and Ras (
+     <xref ref-type="fig">
+      Figure 3G
+     </xref>
+     ). To prove this hypothesis, we purified the fragment 133–291 of RASSF1A, which corresponds to the RBD of NORE1A. Using the GDI assay we obtained a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of 2.7 μM for the interaction between Ras and RASSF1A (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ), meaning that this interaction is 33 times weaker than the interaction between NORE1A and Ras. However, it is in the same range as observed for Rap1/NORE1A or Ras/RalGDS, indicating that residues 133–291 of RASSF1A in fact represent its RBD.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Kinetic analysis of NORE1A–Ras complex formation
+    </title>
+    <p>
+     The interface of the NORE1A–Ras complex buries a total surface of 1546 Å
+     <sup>
+      2
+     </sup>
+     (calculated with CNS using a probe of 1.5 Å), which is significantly enlarged compared with other Ras effector complexes such as Raf-RBD (1333 Å
+     <sup>
+      2
+     </sup>
+     ) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) or RalGDS-RBD (1331 Å
+     <sup>
+      2
+     </sup>
+     ) (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 3E and F
+     </xref>
+     ). To find out if and how this extension influences the dynamics of complex formation, we performed stopped-flow measurements to evaluate the kinetics of the NORE1A–Ras interaction (
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     ). We obtained an association rate constant for NORE1A and Ras of 11.9 μM
+     <sup>
+      −1
+     </sup>
+     s
+     <sup>
+      −1
+     </sup>
+     . In contrast to the Ras–Raf complex, which has a higher association rate constant of 66 μM
+     <sup>
+      −1
+     </sup>
+     s
+     <sup>
+      −1
+     </sup>
+     indicating a high-affinity interaction, the
+     <em>
+      k
+     </em>
+     <sub>
+      on
+     </sub>
+     value found for NORE1A is in a similar range as the weak Ras binders such as RalGDS and PI3K. However, we observed a dissociation rate constant,
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     , of 0.1 s
+     <sup>
+      −1
+     </sup>
+     for NORE1A-RBD, which is much slower compared with all other Ras effectors and which is responsible for the tight interaction of the complex. The reciprocal of the dissociation rate constant is the average lifetime of the complex, which is in the range of 60–250 ms for Ras/PI3K, Ras/RalGDS and Ras/Raf (
+     <xref ref-type="bibr">
+      Herrmann, 2003
+     </xref>
+     ). In contrast, NORE1A remains in a Ras-bound complex, with an average lifetime of 10 s. This prolonged duration must be a consequence of the enlargement of interface, which is caused by the elongated strands β
+     <sub>
+      1
+     </sub>
+     and β
+     <sub>
+      2
+     </sub>
+     in switch I and the unique switch II binding site. To evaluate the significance of the additional switch II binding sites for slow complex dissociation, we analysed the dynamics of mutants within the switch II interface of the Ras–NORE1A complex. As shown in
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     , the dissociation kinetics for C220A, L221A and F234A NORE1A mutants individually revealed a 4- to 30-fold accelerated dissociation compared with that for wt whereas the
+     <em>
+      k
+     </em>
+     <sub>
+      on
+     </sub>
+     values were only two times smaller. Even more pronounced were the increases in
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     values for the aspartate mutants (
+     <a>
+      <span>
+       Table IV
+      </span>
+     </a>
+     ). A similar result was obtained for the dissociation of wt and RasY64A mutant NORE1A with a 150-fold increase in
+     <em>
+      k
+     </em>
+     <sub>
+      off
+     </sub>
+     . These results indicate that the switch II interface contributes to a prolonged lifetime of the Ras–NORE1A complex.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Impact of the hydrophobic contact area onto the dynamics of the NORE1A–Ras interaction. Left panel: Dissociation rate constants
+       <em>
+        k
+       </em>
+       <sub>
+        off
+       </sub>
+       for the wt and mutant NORE1A–Ras·mGppNHp complex were determined by stopped-flow measurements using an excess of unlabelled Ras·GppNHp for displacement. A single exponential equation was fitted to the observed fluorescence change to obtain
+       <em>
+        k
+       </em>
+       <sub>
+        off
+       </sub>
+       . Right panel: Stopped-flow measurements were performed using pseudo-first-order conditions to determine association rate constants
+       <em>
+        k
+       </em>
+       <sub>
+        on
+       </sub>
+       of wt and mutant Ras or NORE1A proteins. The observed association rate constants
+       <em>
+        k
+       </em>
+       <sub>
+        obs
+       </sub>
+       were plotted against wt or mutant NORE1A concentration to obtain
+       <em>
+        k
+       </em>
+       <sub>
+        on
+       </sub>
+       by linear fitting.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 4
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Association and dissociation rate constants (
+        <em>
+         k
+        </em>
+        <sub>
+         on
+        </sub>
+        and
+        <em>
+         k
+        </em>
+        <sub>
+         off
+        </sub>
+        values, respectively) and average lifetimes (τ values) for Ras/NORE1A complexes
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    NORE1A, a founding member of the RASSF family, is the first Ras effector with non-enzymatic function for which the three-dimensional structure of the RBD has been characterized. NORE1A acts as a scaffold for the proapoptotic kinase MST1; it is believed that NORE1A forms a complex with inactive MST1, which can be activated on binding of NORE1A to Ras (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Similar to other RASSF proteins, NORE1A localizes to microtubules and centrosomes, a feature that seems to be important for the growth and tumour suppressive properties of the RASSF. The molecular mechanism by which RASSF proteins induce growth and tumour suppression is not known in detail. However, one can hypothesize that at least some of these activities are regulated by the small GTPase Ras, as bioinformatics analysis predicts an RA domain in all six members of the RASSF (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). At least for NORE1A, it has been shown that Ras binding is required for growth suppressive activities (Moshnikova
+    <em>
+     et al
+    </em>
+    , 2006).
+   </p>
+   <p>
+    The RA domains are predicted to consist of about 90 residues in the C-terminal half of the RASSF proteins. These predictions have been widely accepted, as can be seen by several publications addressing the RASSF. Therefore, it was a surprise to discover the true RBD of NORE1A to comprise 160 residues, which is twice as large as the Raf-RBD. Despite this remarkable size, the overall architecture follows a ubiquitin fold, which is the common topology of RBDs. The enlargement can be ascribed to (i) a loop insertion between residues 249 and 273 (between β
+    <sub>
+     1
+    </sub>
+    and β
+    <sub>
+     2
+    </sub>
+    ), (ii) an extension of the β
+    <sub>
+     1
+    </sub>
+    /β
+    <sub>
+     2
+    </sub>
+    sheet and (iii) an additional subdomain at the N terminus of the RBD consisting of a short β-strand and an α-helix. The flexible loop between β
+    <sub>
+     1
+    </sub>
+    and β
+    <sub>
+     2
+    </sub>
+    can be deleted without impairing the interaction with Ras. It can only be speculated about its role in the interaction with other NORE1A partners or with other domains of NORE1A such as the C1 domain, which has been shown to form an intramolecular complex with the RBD (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Recently, it has been reported that RASSF1A is phosphorylated at T202 and S203 by the mitotic kinase Aurora-A and this phosphorylation prevents RASSF1A interaction with microtubules (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). These two phosphorylation sites are highly conserved among the members of the RASSF. T202/S203 in RASSF1A corresponds to position T274/S275 in NORE1A and is located just before strand β
+    <sub>
+     2
+    </sub>
+    , at the end of the loop insertion. Thus, it might be possible that the loop insertion serves as an interacting element for kinases such as Aurora-A.
+   </p>
+   <p>
+    In contrast to the loop insertion, the N-terminal subdomain establishes a hydrophobic interface with Ras switch II and thus is important in the interaction with Ras. The 30 amino acids that form the subdomain are indispensable for Ras binding in HEK293 cells. As described, any mutation within the hydrophobic framework leads to a dramatic loss of binding energy and disrupts the interaction with Ras. In contrast to other effectors such as Raf, the mutation Y64A in Ras switch II does perturb binding to NORE1A, which underlines the specific interaction between Ras switch II and NORE1A. Interestingly, it has been reported that Y64 in switch II of Ras is also involved in the binding of PI3K and PLCɛ (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Both RBDs exhibit a phenylalanine residue in strand β
+    <sub>
+     1
+    </sub>
+    , which interacts with Y64 of switch II similar to F234 in NORE1A (
+    <xref ref-type="fig">
+     Figure 6A
+    </xref>
+    ). This indicates that a hydrophobic interaction between Y64 in Ras and a phenylalanine residue in strand β
+    <sub>
+     1
+    </sub>
+    of the canonical ubiquitin cores might be conserved among some RBDs. However, we could not find any other example for an extended switch II interface formed by an N-terminal helical subdomain as observed in the NORE1A–Ras structure. The functional consequences of the unique switch II interface were revealed by kinetic studies. The average lifetime of the Ras–NORE1A complex is as long as 10 s, which is at least an order of magnitude longer compared to any Ras effector characterized so far. Disruption of the unique switch II binding interface by mutation leads to rate constants, and hence lifetimes, similar to those of the short-lived complexes formed between Ras and effectors such as Raf, RalGDS or PI3K, which are in the range of 60–250 ms (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). A distinctive lifetime of a Ras/effector complex might be related to the functional role of the effector. Raf, PI3K, etc. bear direct catalytic activity, whereas the RASSF proteins such as NORE1A do not have any enzymatic function. Rather, NORE1A acts as a scaffold protein for other molecules. Therefore, it might be favourable for an adaptor protein such as NORE1A to remain in complex with Ras for a longer duration to facilitate activation of its binding partners such as MST1/2.
+   </p>
+   <fig id="f6" position="float">
+    <label>
+     Figure 6
+    </label>    <caption>
+     <p>
+      Structural comparison of different effectors in complex with Ras. (
+      <strong>
+       A
+      </strong>
+      ) The interaction between Y64 in Ras (blue) and the phenylalanine of strand β
+      <sub>
+       1
+      </sub>
+      in NORE1A (green), PI3K (PDB: 1HE8) (yellow) or PLCɛ (PDB: 2C5L) (magenta) shows a similar spatial arrangement. The relative displacement of the β-sheet in NORE1A allows participation of C220 and L221 in Ras switch II interaction. (
+      <strong>
+       B
+      </strong>
+      ) Spatial comparison of lysine residues in helix α1 of the effectors RalGDS, PI3K, PLCɛ, Byr2 (PDB: 1K8R) and in strand β
+      <sub>
+       2
+      </sub>
+      of NORE1A, which participate in Ras binding by fitting into a negatively charged groove formed by D33 and D38 of switch I. The molecules were superimposed by the least square fit procedure using the program Xfit.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Our biochemical data demonstrate how molecular recognition and discrimination between Ras and Rap by NORE1A is substantiated (
+    <a>
+     Supplementary Figure 3
+    </a>
+    ). Lysine 302 in helix α
+    <sub>
+     1
+    </sub>
+    most likely forms a salt bridge with glutamate 31 in switch I of Ras. In Rap1, the corresponding amino acid is K31. This charge reversal results in a 15-fold reduced affinity to NORE1A as determined by GDI assay using wt Rap1 and the Rap homologue Ras(D30E/E31K) mutant. Strikingly, the Ras homologue Rap(E30D/K31E) mutant increases the affinity to NORE1A seven-fold compared with wt Rap1, indicating clearly that restoration of the salt bridge established between aspartate in Ras and lysine in NORE1A is responsible for the binding preference of NORE1A to Ras. As shown in earlier studies, specificity of complex formation between Raf-RBD and Ras or Rap1 is similarly determined by lysine at position 84 in helix α1 of Raf and at position 31 in Ras and Rap1, respectively (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Thus, the opposite/equal charge of these amino-acid pairs generally seems to define specificity in Ras/Rap1 effectors interaction.
+   </p>
+   <p>
+    Owing to a structurally conserved set of positively charged residues within the RBDs and the predominantly acidic switch I region of Ras, all Ras/effector complexes show a polar interface with high charge complementarities of the two sides. Similar to other Ras effectors, NORE1A exhibits a pattern of three positively charged key residues where K283 is the most important one, as evident from the 240-fold increase in the
+    <em>
+     K
+    </em>
+    <sub>
+     D
+    </sub>
+    value after deletion of the lysine side chain. The lysine residue points into an acidic groove of the Ras interface, which is constituted by the two aspartate residues 33 and 38. A similar interaction pattern can be observed in other structures of Ras in complex with RalGDS (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), PI3K (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), PLCɛ (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) or Byr2 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Figure 6B
+    </xref>
+    ). Corresponding alanine mutations of these effectors result in a comparable drastic loss of Ras affinity. Interestingly, the lysine side chain of NORE1A originates from β
+    <sub>
+     2
+    </sub>
+    in contrast to all other Ras effectors in which the lysine residues are located in α
+    <sub>
+     1
+    </sub>
+    . This observation demonstrates a notable variation of a conserved interaction pattern. The saturation of the negative binding epitope formed by Asp33 and Asp38 in Ras by a lysine positive charge on the effector side seems to be necessary for a strong interaction.
+   </p>
+   <p>
+    As RAPL/NORE1B is a splice variant of NORE1A possessing the same RBD, the structural and biochemical data reported here apply to RAPL as well (
+    <xref ref-type="fig">
+     Figure 2C
+    </xref>
+    ). Likewise, owing to the high homology within the RASSF, the structure of NORE1A is also of importance for other RASSF proteins, in particular for RASSF1A (
+    <xref ref-type="fig">
+     Figures 2D
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Close homology of NORE1A to RASSF1A suggests a similar structural arrangement; the interaction of RASSF1A with Ras, although weaker than NORE1A/Ras interaction, has been demonstrated in this study.
+   </p>
+   <p>
+    As mentioned above, one of the main functions of RASSF proteins is related to their association with the microtubule cytoskeleton, which has been shown to be crucial for their tumour suppressor properties. Most intriguingly, the tubulin binding region was mapped by cell biological experiments exactly to the RBD that we have characterized here (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ) (
+    <xref ref-type="fig">
+     Figure 2C
+    </xref>
+    ). Therefore, it will be interesting to investigate the functional role of Ras or Rap1 in the interplay between tubulin and RASSF proteins. The structure of the RASSF tumour suppressor family member NORE1A in complex with Ras, which we have presented in this report, should be a vantage point.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Expression, purification and mutagenesis
+    </title>
+    <p>
+     Murine NORE1A (200–358) was expressed as a GST fusion protein in BL21 cells. Purification details are described elsewhere (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Human NORE1A (202–361 and the deletion mutant) was synthesized and purified in the same way. H-Ras (1–166) and Rap1A (1–167) were prepared from
+     <em>
+      Escherichia coli
+     </em>
+     strain CK600K using the
+     <em>
+      ptac
+     </em>
+     expression system and loaded with either GppNHp or mantGppNHp using alkaline phosphatase as described previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Plasmids encoding FLAG or haemagglutinin (HA) epitope-tagged proteins for expression in HEK293 cells have been described previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) or prepared using the standard molecular biology techniques (
+     <xref ref-type="bibr">
+      Sambrook and Russel, 2001
+     </xref>
+     ). Mutants were generated using the Quickchange site directed mutagenesis kit (Stratagene) and verified by sequencing.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallography
+    </title>
+    <p>
+     Crystals of NORE1A L285M/K302D (amino acids 200–358) in complex with Ras·GppNHp D30E/E31K (amino acids 1–166) were grown at 293 K in hanging drop set-ups using a reservoir solution containing 100 mM sodium acetate, 20% PEG 2000, 250 mM (NH
+     <sub>
+      4
+     </sub>
+     )
+     <sub>
+      2
+     </sub>
+     SO
+     <sub>
+      4
+     </sub>
+     , 10 mM DTE and 10 mg/ml protein. The L285M mutation was primary introduced for selenomethionine labelling. Crystals were flash-frozen in liquid nitrogen with a solution containing the mother liquor and 7.5% sucrose. Data were collected at 100 K. Crystals diffract to 1.8 Å resolution and belong to the monoclinic space group C2 with one molecule per asymmetric unit. A data set of high redundancy was collected at beamline ID14-4 of ESRF and processed with XDS (
+     <xref ref-type="bibr">
+      Kabsch, 1988
+     </xref>
+     ). Structure determination was performed with the molecular replacement method by using the refined coordinates of Ras·GppNHp (PDB code 5P21) as the starting model in rotation and translation search calculations carried out using AMoRe, CCP4 (
+     <xref ref-type="bibr">
+      Bailey, 1994
+     </xref>
+     ). An initial map calculated with the phases of the search model showed a clear electron density for most of the RBD of NORE1A. The model of the Ras·GppNHp–NORE1A complex was automatically constructed using ARP/wARP (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and subjected to iterative rounds of model improvement and refinement. The program Xfit (
+     <xref ref-type="bibr">
+      McRee, 1999
+     </xref>
+     ) was used to build the final model into 2
+     <em>
+      F
+     </em>
+     <sub>
+      o
+     </sub>
+     −
+     <em>
+      F
+     </em>
+     <sub>
+      c
+     </sub>
+     and
+     <em>
+      F
+     </em>
+     <sub>
+      o
+     </sub>
+     −
+     <em>
+      F
+     </em>
+     <sub>
+      c
+     </sub>
+     maps, and refinement was carried out with REFMAC (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Composite simulated annealing maps calculated with CNS (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) were regularly used to avoid model bias. The final model exhibits good stereochemistry as judged by the program Procheck (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and consists of 298 amino acids, 115 water molecules, one GppNHp and one magnesium ion. Residues 249–273 are not visible in the electron density due to conformational flexibility. Figures were generated using PyMol (
+     <xref ref-type="bibr">
+      DeLano, 2002
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Biochemistry
+    </title>
+    <p>
+     The affinities between NORE1A and Ras were quantified by taking advantage of the GDI effect of effector binding as observed for other Ras effector proteins (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The time course of the mant-nucleotide dissociation was recorded by a spectrofluorimeter (LS-55, Perkin-Elmer) at 37°C using 50 nM Ras·mGppNHp, different concentrations of NORE1A-RBD and a 1000-fold excess of unlabelled GppNHp. All measurements were performed in buffer PX (50 mM Tris buffer (pH 7.4) containing 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     and 2 mM DTE). The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values were determined from the concentration dependence of the observed rate constants as described previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     Stopped-flow measurements were made at 10°C in buffer PX using an SFM-400 apparatus (Biologic). A 0.6 μM portion of Ras bound to mGppNHp was mixed with increasing concentrations of NORE1A-RBD. For dissociation kinetics, the preincubated NORE1A–Ras·mGppNHp complex was rapidly mixed with a 60-fold excess of Ras·GppNHp for displacement. Fluorescence was excited at 360 nm and recorded through a 420 nm cutoff filter. The experimental errors on the values obtained, rate constants and
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values are in the range of 10–20%.
+    </p>
+    <p>
+     HEK293 cells (ATCC, Manassas, VA) were cultivated and transfected using the Lipofectamine reagent as described previously (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and harvested 48 h after transfection. Anti-FLAG antibody was from Sigma Chemical Company (St Louis, MO), and anti-HA was from CRP Inc. (Berkeley, CA). For the detection of NORE1A-Ras association, frozen cells were scraped into filtered lysis buffer A (30 mM HEPES (pH 7.4), 1% (w/v) Triton X-100, 20 mM β-glycerophosphate, 1 mM orthovanadate, 20 mM NaF, 20 mM KCl, 2 mM EGTA, 7.5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 14 mM β-mercaptoethanol and a protease inhibitor cocktail (Sigma)). Lysates were centrifuged at 17 000
+     <em>
+      g
+     </em>
+     for 40 min. Supernatants were mixed with anti-HA antibodies and incubated at 4°C for 1.5–2 h. Protein A/G–Sepharose (Pierce Biotechnology Inc., Rockford, IL) was added thereafter for an additional 1.5 h. Beads were extensively washed in lysis buffer and eluted directly onto SDS sample buffer. Extracted proteins were separated by SDS–PAGE, transferred onto PVDF membranes and probed with the antibodies indicated. Bound antibodies were visualized with ECL (Pierce).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <p>
+     Supplementary Figure 1
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.8M, tiff)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Figure 2
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (992K, tiff)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Figure 3
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (940K, tiff)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Figure Legends
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (29K, doc)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Notes
+   </title>
+   <p>
+    The atomic coordinates of the Ras–NORE1A complex have been deposited in the Protein Data Bank with the accession number 3DDC. The authors declare no competing financial interests.
+   </p>
+  </sec>
+ </body>
+</article>

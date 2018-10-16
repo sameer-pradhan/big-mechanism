@@ -1,0 +1,975 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4158924
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural implications for K5/K12-di-acetylated histone H4 recognition by the second bromodomain of BRD2
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The BET family proteins recognize acetylated chromatin through their two bromodomains, acting as transcriptional activators or tethering viral genomes to the mitotic chromosomes of their host. The structural mechanism for how the N-terminal bromodomain of human BRD2 (BRD2-BD1) deciphers the mono-acetylated status of histone H4 tail was recently reported. Here we show the crystal structure of the second bromodomain of BRD2 (BRD2-BD2) in complex with the di-acetylated histone H4 tail (H4K5ac/K12ac). To our surprise, a single K5ac/K12ac peptide interacts with two BRD2-BD2 molecules simultaneously: the K5ac residue binds to one BRD2-BD2 molecule while the K12ac residue binds to another. These results provide a structural basis for the recognition of two different patterns of the histone acetylation status by a single bromodomain.
+    </p>
+    <sec>
+     <title>
+      Structured summary
+     </title>
+     <p>
+      MINT-7989882, MINT-7989824, MINT-7989846, MINT-7989865:
+      <em>
+       H4
+      </em>
+      (uniprotkb:
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"P62805","term_id":"51317339","term_text":"P62805"}}
+       </span>
+       P62805
+      </a>
+      )
+      <em>
+       binds
+      </em>
+      (MI:0407) to
+      <em>
+       BRD2
+      </em>
+      (uniprotkb:
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"P25440","term_id":"12230989","term_text":"P25440"}}
+       </span>
+       P25440
+      </a>
+      ) by
+      <em>
+       surface plasmon resonance
+      </em>
+      (MI:0107)
+     </p>
+     <p>
+      MINT-7989539:
+      <em>
+       H4
+      </em>
+      (uniprotkb:
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"P62805","term_id":"51317339","term_text":"P62805"}}
+       </span>
+       P62805
+      </a>
+      ) and
+      <em>
+       BRD2
+      </em>
+      (uniprotkb:
+      <a>
+       <span>
+        {"type":"entrez-protein","attrs":{"text":"P25440","term_id":"12230989","term_text":"P25440"}}
+       </span>
+       P25440
+      </a>
+      )
+      <em>
+       bind
+      </em>
+      (MI:0407) by
+      <em>
+       X-ray crystallography
+      </em>
+      (MI:0114)
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     BET family, Bromodomain, Cell cycle, Chromatin, Crystal structure, Papilloma virus, Transcription
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    1. Introduction
+   </title>
+   <p>
+    The histone code, defined by combinatorial modifications of the flanking histone tails, represents eukaryotic regulatory mechanisms of DNA-mediated events through structural alteration of the chromatin and/or association of
+    <em>
+     trans
+    </em>
+    -acting factors onto it [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    ]. Among known modifications of the core histones, acetylation of the histone tails and its recognition is a typical hallmark for transcriptional activation from chromatin DNA [
+    <xref ref-type="bibr">
+     2
+    </xref>
+    ]. The acetylated N-terminal tails of the histones are specifically recognized by a bromodomain which is a conserved structural domain composed of approximately 110 amino acids [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ]. The bromodomain is present in many chromatin-associated factors, including nuclear histone acetyltransferases (HATs), chromatin-remodeling factors, and the bromodomains and extra-terminal domain (BET) family of nuclear proteins [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     4
+    </xref>
+    ].
+   </p>
+   <p>
+    The BET family of nuclear proteins has the unique architecture with two tandem bromodomains and a conserved extra-terminal domain [
+    <xref ref-type="bibr">
+     3
+    </xref>
+    –
+    <xref ref-type="bibr">
+     6
+    </xref>
+    ]. Through its bromodomains, the BET protein BRD2 selectively recognizes the acetylated lysine 12 (K12) of histone H4 for transcriptional activation [
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ], while another BET protein BRDT most prefers to recognize the K5/K8-di-acetylated histone H4 [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ]. In human cells, BRD2- and BRD3-associated chromatin is significantly enriched in K5- and K12-acetylated histone H4 [
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ]. Importantly, the BET proteins BRD2 and BRD4 associate with acetylated chromatin throughout the cell cycle [
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ], while other non-BET bromodomain family members dissociate from the chromosomes during mitosis [
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ]. This mitotic retention on chromosomes is the unique feature of the BET proteins, which can be utilized by papilloma virus, and also presumably by Kaposi's sarcoma-associated herpesvirus, for tethering their genomes to the mitotic chromosome of their host, and for propagating them during the cell division [
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ]. Recently, structural basis of the recognition of K5/K8-di-acetylated histone H4 tail by the N-terminal bromodomain of BRDT was reported, in which both the acetyllysine residues bind to one binding pocket of BRDT bromodomain [
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ]. We reported the structural basis for the N-terminal bromodomain of BRD2, BRD2-BD1, to decipher the histone code by means of recognizing K12-acetylated histone H4 tail [
+    <xref ref-type="bibr">
+     15
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ]. However, structural basis how the second C-terminal bromodomain of BET family proteins recognize an acetylation status of histone H4 has been unclear, except a few NMR analyses [
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     18
+    </xref>
+    ].
+   </p>
+   <p>
+    To further gain insight into the structural basis for the recognition of the BET bromodomains and acetylated histone H4, we determined the crystal structure of the second C-terminal bromodomain of BRD2, BRD2-BD2, in complex with a histone H4 tail peptide which is di-acetylated at K5 and K12 (H4K5ac/K12ac). Surprisingly, the K5/K12-di-acetylated H4 tail peptide interacted with two BRD2-BD2 molecules simultaneously. Based on the structural and biochemical analyses, we discuss a possible role of the second bromodomain of BRD2 for recognition of active chromatin containing K5- and K12-acetylated histone H4.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    2. Materials and methods
+   </title>
+   <sec>
+    <title>
+     2.1. Peptides and proteins
+    </title>
+    <p>
+     The K5/K12-di-acetylated histone H4 tail peptide (residues 1–15; SGRG
+     <strong>
+      K(Ac)
+     </strong>
+     GGKGLG
+     <strong>
+      K(Ac)
+     </strong>
+     GGA) used for the crystal structure analysis, and relevant histone tail peptides, H4 (1–20) and H3 (10–27), biotinylated at C-termini used for the binding analysis, were purchased from Toray Research Center (Kamakura, Japan). Expression and purification of the BRD2-BD2 protein were performed as described elsewhere [
+     <xref ref-type="bibr">
+      19
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.2. Crystallization and data collection
+    </title>
+    <p>
+     The BRD2-BD2 protein in complex with the di-acetylated histone H4 tail peptide was crystallized by co-crystallization method, by mixing the peptide and protein solutions (10:1 molar ratio) and incubating them at 4 °C for about 4 h before setting up the crystallization experiment. The crystals were obtained from 30% PEG MME 2000 and 50 mM Tris–HCl, pH 8.0, as thin plates of 20–30 μm thick. These crystals belong to
+     <em>
+      P
+     </em>
+     2
+     <sub>
+      1
+     </sub>
+     space group and containing four BD2 molecules and two peptides in an asymmetric unit. A complete dataset up to 2.30 Å resolution was collected at the beamline AR-NW12A Photon Factory, Japan, and processed and scaled using the HKL2000 program suite [
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.3. Structure determination and refinement
+    </title>
+    <p>
+     The crystal structure of the BRD2-BD2 protein in complex with the di-acetylated histone H4 tail peptide was solved by the molecular replacement method, using the BRD2-BD1 structure [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ] as a model, with the MOLREP program incorporated in CCP4. The protein chains were fitted manually using the graphics program
+     <em>
+      O
+     </em>
+     [
+     <xref ref-type="bibr">
+      21
+     </xref>
+     ]. The model was refined with CNS [
+     <xref ref-type="bibr">
+      22
+     </xref>
+     ], using a maximum likelihood target that included amplitude and phase probability distributions. NCS restraints (200 kcal mol
+     <sup>
+      −1
+     </sup>
+     Å
+     <sup>
+      −2
+     </sup>
+     ) were maintained between the NCS molecules throughout the refinement. During the course of fitting, σ
+     <sub>
+      A
+     </sub>
+     -weighted electron density maps clearly revealed the electron density for the acetylated histone H4 tail peptides. The program REFMAC5 from the CCP4 suite [
+     <xref ref-type="bibr">
+      23
+     </xref>
+     ] was used in the final steps of refinement. With the NCS restraints which were imposed throughout the refinement, the final complete structure at 2.30 Å resolution consists of 847 protein residues, 28 peptide residues, 412 water molecules, gave a final R-factor of 20.4% and an
+     <em>
+      R
+     </em>
+     <sub>
+      free
+     </sub>
+     of 26.8%. The stereochemistry of the protein chains is good, as assessed with PROCHECK [
+     <xref ref-type="bibr">
+      24
+     </xref>
+     ]. Refinement statistics are summarized in
+     <a>
+      <span>
+       Table 1
+      </span>
+     </a>
+     . Atomic coordinates and structure factors have been deposited in the Protein Data Bank. The PDB ID is 2E3K.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Summary of data collection and refinement statistics.
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     2.4. Surface plasmon resonance binding assays
+    </title>
+    <p>
+     The binding affinities of the BRD2-BD2 proteins against the H4 or H3 tail peptides were examined on a Biacore 3000 (GE Healthcare) with PBS (pH 7.4) as the running buffer. Biotinylated H4 tail peptides, corresponding to the N-terminal region from 1 to 20 of histone H4, or biotinylated H3 tail peptides, corresponding to the region from 10 to 27 of histone H3, were immobilized on flow cells #2–#4 of a sensor chip SA (GE Healthcare). Amounts of the immobilized peptides were within the range of 650–930 resonance units, and the binding of the BRD2-BD2 protein to each peptide-immobilized sensor chip was normalized to each theoretical maximal resonance unit (
+     <em>
+      R
+     </em>
+     <sub>
+      max
+     </sub>
+     ). Control surfaces with d-biotin attached were used to correct for refractive index differences between the samples and the running buffer. Dissociation constants (
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     ) for the interaction were calculated with the steady-state affinity model of the BIAevaluation 4.1 software (GE Healthcare).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    3. Results and discussion
+   </title>
+   <sec>
+    <title>
+     3.1. Overall structure of BRD2-BD2 in complex with the K5/K12-di-acetylated H4 tail
+    </title>
+    <p>
+     We solved the crystal structure of the second bromodomain of human BRD2 (BRD2-BD2: residues 348–455;
+     <xref ref-type="fig">
+      Fig. 1A and B
+     </xref>
+     ) in complex with a histone H4 tail peptide (residues 1–15) which is di-acetylated at K5 and at K12. The crystals are of
+     <em>
+      P
+     </em>
+     2
+     <sub>
+      1
+     </sub>
+     space group, with four bromodomain molecules, and two peptides in an asymmetric unit (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ). The BRD2-BD2 structure contains a left-handed α-helical bundle formed by four α-helices (i.e. α
+     <sub>
+      Z
+     </sub>
+     , α
+     <sub>
+      A
+     </sub>
+     , α
+     <sub>
+      B
+     </sub>
+     , and α
+     <sub>
+      C
+     </sub>
+     ) (
+     <xref ref-type="fig">
+      Fig. 1B
+     </xref>
+     ), which is similar to the solution structures of BRD2-BD2 [
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ] and BRD4-BD2 [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ], crystal structures of BRD2-BD1 [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ], BRDT-BD1/BD2 [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ], and other bromodomain structures [
+     <xref ref-type="bibr">
+      25
+     </xref>
+     –
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ]. An extended long loop, ZA, connecting the helices α
+     <sub>
+      Z
+     </sub>
+     and α
+     <sub>
+      A
+     </sub>
+     , and another loop, BC, connecting the helices α
+     <sub>
+      B
+     </sub>
+     and α
+     <sub>
+      C
+     </sub>
+     make a deep cleft with a cavity in the middle of the pocket, which defines the binding site for acetylated histone tail (
+     <xref ref-type="fig">
+      Fig. 1B and C
+     </xref>
+     ). The hydrophobic core of the domain is stabilized mainly by the conserved hydrophobic residues, and additionally, by some conserved hydrophilic residues.
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Fig. 1
+     </label>     <caption>
+      <p>
+       BRD2-BD2 interaction with acetylated histone H4 tails. (A) Schematic representations of the BRD proteins. The bromodomains (BD1 and BD2) and the extra-terminal domain (ET) are indicated by blue and green boxes, respectively. Two other conserved regions are shown as black and gray boxes. (B) A ribbon diagram of the BRD2-BD2 structure, colored from blue (N-terminus) to red (C-terminus). (C) Stereo-view of the BRD2-BD2 complex. The BRD2-BD2 and H4K5ac/K12ac tail peptides are shown by ribbon models, and the side-chains of H4K5ac and H4K12ac are indicated by stick models. The color codes for the BRD2-BD2 dimers and the H4 tails are consistent in all figures unless otherwise stated. All structure figures were generated with Pymol (
+       <a>
+        http://www.pymol.org/
+       </a>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The refined structure showed that BRD2-BD2 formed two homodimers in the asymmetric unit. In the crystal, the weak dimeric interface arises from the helices α
+     <sub>
+      B
+     </sub>
+     and α
+     <sub>
+      C
+     </sub>
+     (
+     <a>
+      Fig. S1
+     </a>
+     ). In this weak dimeric interface, no direct intermolecular interactions have been observed but through buried water molecules. Our in vivo co-immunoprecipitation studies did not show any self-association between the BD2 molecules (data not shown), and the NMR study reported by Shi and her colleagues also suggests that BRD2-BD2 is a monomer in solution [
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ]. In addition, although the crystal structure of BRDT-BD2 possesses similar NCS arrangement in the asymmetric unit, BRDT-BD2 is a monomer in solution [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]. Taken together, we consider that BRD2-BD2 may also be a monomer in solution.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     3.2. Recognition of the K5/K12-di-acetylated histone H4 tail by BRD2-BD2
+    </title>
+    <p>
+     The crystal structure analysis clearly showed that the di-acetylated H4 tail peptide bound to BRD2-BD2. The difference Fourier map unambiguously detected the electron density for the acetylated H4 tail peptide in the cleft region of the BD2 protein (
+     <a>
+      Fig. S2A and B
+     </a>
+     ). We observed several noteworthy features from this structural analysis: First, the BRD2-BD2 protein recognized acetyl-lysine 5 (K5ac) as well as acetyl-lysine 12 (K12ac) of the H4 tail peptide. Second, besides its recognition for the acetyl-lysine at different positions, it recognized them simultaneously through different BRD2-BD2 molecules. Third, extensive interactions were observed between the BRD2-BD2 protein and many residues of the H4 tail peptide (described below).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     3.3. Interaction of the di-acetylated H4 peptide chain Q with BRD2-BD2
+    </title>
+    <p>
+     In the structure of the complex, the H4 peptide Q binds into the long cleft region, which is produced by the monomers A
+     <sub>
+      1
+     </sub>
+     and A
+     <sub>
+      2
+     </sub>
+     of A
+     <sub>
+      1
+     </sub>
+     B
+     <sub>
+      1
+     </sub>
+     and A
+     <sub>
+      2
+     </sub>
+     B
+     <sub>
+      2
+     </sub>
+     , respectively, with a non-specific extended conformation (
+     <xref ref-type="fig">
+      Fig. 1C
+     </xref>
+     ). The side-chain of K5ac sits in the deep hydrophobic pocket of the molecule A
+     <sub>
+      1
+     </sub>
+     , formed by the residues P371, F372, V376, L381, L383, C425, and V435 (
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     ). The acetyl group of K5ac is positioned in the cavity in such a way that the carbonyl group is hydrogen bonded to the Nδ2 of N429, as well as indirectly to the side-chain of Y386 through a water molecule (
+     <xref ref-type="fig">
+      Fig. 2A
+     </xref>
+     ), which is essentially conserved in other bromodomain structures [
+     <xref ref-type="bibr">
+      3
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      5
+     </xref>
+     ]. A hydrogen bond network between the water molecules exists on one side of the K5ac side-chain. The side-chain atom Nζ of K5ac forms a water-mediated hydrogen bond with the carbonyl group of P371. Similar modes of interactions are also observed for the side-chain K12ac, which binds to the monomer A
+     <sub>
+      2
+     </sub>
+     (
+     <xref ref-type="fig">
+      Fig. 2B
+     </xref>
+     ). The charge distribution on the cavity surface is complementary to the aliphatic moiety (
+     <a>
+      Fig. S3
+     </a>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Fig. 2
+     </label>     <caption>
+      <p>
+       The BRD2-BD2 dimers interact with di-acetylated H4 tails, Q and R. (A) A representative cartoon diagram of K5ac binding region. (B) A representative cartoon diagram of K12ac binding region. The acetyl-lysine binding interaction is very similar both in K5ac and K12ac. (C) A close-up view (in stereo) of the H4 tail Q near the K5ac binding region. (D) A close-up view (in stereo) of the H4 tail Q near the K12ac binding region. (E) A close-up view (in stereo) of the H4 tail, R interaction with BD2. The interacting residues and water molecules in (A–E), are shown by sticks and balls, respectively.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The di-acetylated H4 tail peptide extensively interacts with its protein partners, A
+     <sub>
+      1
+     </sub>
+     and A
+     <sub>
+      2
+     </sub>
+     molecules, as well as with many water molecules (
+     <xref ref-type="fig">
+      Fig. 2C, D
+     </xref>
+     and
+     <a>
+      S2A
+     </a>
+     ). The first 8 residues of the peptide associate with the chain A
+     <sub>
+      1
+     </sub>
+     , and the residues from 9 to 15 interact with A
+     <sub>
+      2
+     </sub>
+     of the A
+     <sub>
+      2
+     </sub>
+     B
+     <sub>
+      2
+     </sub>
+     chains (
+     <a>
+      Fig. S2A
+     </a>
+     ). The main-chain carbonyl group of G2 possesses a bifurcated hydrogen bond interaction with the atoms Oδ1 and Oδ2 of D385 (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ). The backbone carbonyl group of R3 contributes a main-chain-main-chain interaction with Y428, and also forms a hydrogen bond with a water molecule. Nevertheless, the guanidyl group of R3 (the NH1 atom) contributes a substantial interaction with Nε2 of H433 (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ). A hydrogen bond is formed between the carbonyl group of the residue, G4, and the hydroxyl group of Y428. In addition, carbonyl–carbonyl dipolar interaction is also observed between G4 and Y428 (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ). Although the residue G6 does not have any electrostatic interaction with the protein atoms, it forms hydrogen bond interactions with water molecules. For G7, the backbone amide group exhibits a weak interaction with the Nδ1 atom of H433, however, the main-chain amino group of D434 contributes a hydrogen bond to its carbonyl group. A salt link is also observed between K8 and the residue D432.
+    </p>
+    <p>
+     The backbone amide and carbonyl groups of G9 are hydrogen bonded to the carbonyl group of D432 of the molecule A
+     <sub>
+      1
+     </sub>
+     , and the main-chain amide group of D434 of the molecule A
+     <sub>
+      2
+     </sub>
+     , respectively (
+     <xref ref-type="fig">
+      Fig. 2C
+     </xref>
+     ). Moreover, it also electrostatically interacts with two water molecules. The flexible residues G11 and G13 make electrostatic interactions with Nδ1 of H433 and Oδ1 of N429 in the molecule A
+     <sub>
+      2
+     </sub>
+     (
+     <xref ref-type="fig">
+      Fig. 2D
+     </xref>
+     ). The mode of side-chain interaction of K12ac is well conserved with that of K5ac. The last amino acid, A15, of the H4 tail peptide is hydrogen bonded to the main-chain nitrogen atom of P430.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     3.4. Interaction of the second di-acetylated H4 peptide chain R with BRD2-BD2
+    </title>
+    <p>
+     The electron density for the H4 peptide chain R was also clearly visible, except for the first two residues, S1 and G2, and for the side-chain of R3 (
+     <a>
+      Fig. S2B
+     </a>
+     ). This H4 peptide interacts with B
+     <sub>
+      2
+     </sub>
+     of A
+     <sub>
+      2
+     </sub>
+     B
+     <sub>
+      2
+     </sub>
+     and B
+     <sub>
+      3
+     </sub>
+     of the symmetry-related A
+     <sub>
+      3
+     </sub>
+     B
+     <sub>
+      3
+     </sub>
+     (A
+     <sub>
+      1
+     </sub>
+     ′B
+     <sub>
+      1
+     </sub>
+     ′) molecules (
+     <xref ref-type="fig">
+      Fig. 2E
+     </xref>
+     ). G4 hydrophobically interacts with Y428 and P430 of the B
+     <sub>
+      2
+     </sub>
+     molecule. The main-chain nitrogen atom of K5ac makes a hydrogen bond interaction with the side-chain atom, Oδ1 of N429. The interaction for K5ac side-chain atoms with the BD2 protein are well maintained as found in the peptide chain Q. The next residue, G6, forms a hydrogen bond to Nε2 of H433. In addition to contributing the electrostatic interaction with water molecule, K8 also makes hydrogen bonds with the residues G382 and H384 in the molecule A
+     <sub>
+      3
+     </sub>
+     . The carbonyl group of K12ac makes contact with H433. Furthermore, G13 and G14 sit in the hydrophobic pocket created by the residues, W370 and Y373.
+    </p>
+    <p>
+     Interestingly, the peptide chain Q has more interactions with BRD2-BD2 residues than the interactions observed in the peptide chain R. In the complex with the peptide Q, the axis of the helical bundle of the bromodomain A
+     <sub>
+      2
+     </sub>
+     is approximately 120° with respect to that of the bromodomain A
+     <sub>
+      1
+     </sub>
+     , and the arrangement of orientation makes in such a way that the peptide-binding sites of the bromodomain A
+     <sub>
+      1
+     </sub>
+     and A
+     <sub>
+      2
+     </sub>
+     are close together. Whereas in the peptide R complex case, the binding sites of the bromodomain B
+     <sub>
+      2
+     </sub>
+     and B
+     <sub>
+      3
+     </sub>
+     (symmetry molecule, B
+     <sub>
+      1
+     </sub>
+     ′) are relatively wide apart as well as the helical bundle axes are nearly perpendicular to each other. When measured the distances between Cα of K5ac and K12ac, we observed the corresponding distances of 16.27 and 19.41 Å in the chains Q and R, respectively. In both the Q and R chains, the backbone torsion angles (Φ, ψ) at K5ac and K12ac are approximately (−110°, 5°) and (−90°, 120°), respectively, which correspond to the β-strand region of the Ramachandran plot. The two peptides possess non-specific flexible secondary structures which appeared mainly due to the presence of many glycine residues in the peptide, particularly, the peptide R maintain nearly fully extended conformation compared to the chain Q (
+     <a>
+      Fig. S4
+     </a>
+     ). The extensive interactions with the K12/K5-di-acetylated histone H4 tail, as observed in the present study, may help BRD2 associate with mitotic chromosomes [
+     <xref ref-type="bibr">
+      7
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      10
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec>
+    <title>
+     3.5. Binding analysis of BRD2-BD2 and acetylated histone tail peptides
+    </title>
+    <p>
+     The N429A (N382A in the reference 17) mutation reportedly reduces the binding affinity with the K12-acetylated H4 peptide, and L381A (L334A) and L383A (L336A) mutants also moderately affect the binding efficiency with the acetylated H4 peptide in NMR titration studies [
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ]. From our present study, it is clear that N429 interacts with K12- and K5-acetylated H4 tail peptide. Besides, the region from L381-H384 clasps the acetylated H4 tail peptide on one side of the peptide-binding cleft region (
+     <xref ref-type="fig">
+      Fig. 2A and B
+     </xref>
+     ). The corresponding bromodomain in BRD4, BRD4-BD2, also recognizes the H4 tail di-acetylated at K5 and K12 [
+     <xref ref-type="bibr">
+      10
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ]. Remarkably, the highly conserved residues D385, Y429, N429, D432 and H433 of BRD2-BD2, which are directly interacting with the H4 peptide chain, markedly affect the binding efficiency for the H4K5ac/K12ac peptide in solution [
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ].
+    </p>
+    <p>
+     We examined interaction between BRD2-BD2 and histone H4 tail peptide in solution by surface plasmon resonance (SPR) analysis. BRD2-BD2 bound to K5-, K8-, or K12-acetylated H4 tail peptide at almost similar affinities (
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     values of the SPR interactions, which were estimated from the range of the protein concentration from 0 to 320 μM, are approximately 180, 280, and 300 μM to the K5-, K8-, and K12-acetylated H4 tail peptides, respectively. On the contrary, the BRD2-BD2 did not bind to the K16-acetylated H4 tail peptide (
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ). Huang et al. reported that BRD2-BD2 binds H4K12ac with a
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     of 2.9 mM in their NMR titration analysis [
+     <xref ref-type="bibr">
+      17
+     </xref>
+     ], which is much weaker than our observed data. This discrepancy is presumably due to the difference of the methods analyzed in both studies. When we examined the interaction between BRD2-BD2 and the K5/K12-di-acetylated H4 tail peptide, we observed almost as twice-efficient binding as compared to the mono-acetylated H4 tails (
+     <xref ref-type="fig">
+      Fig. 3A
+     </xref>
+     ). The
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of this interaction to the di-acetylated H4 peptide was estimated to be approximately 140 μM, suggesting that two molecules of BRD2-BD2 may simultaneously bind to one molecule of the immobilized K5/K12-di-acetylated H4 tail peptide, with least cooperativity. These results reveal that BRD2-BD2 binds to the histone H4 tail through the acetylated lysine at K5, K8 or K12, but not through K16. As the SPR analysis suggests BRD2-BD2 also recognizes H4K8ac in unknown manner, further structural studies will be required to understand how BRD2-BD2 recognizes H4K8ac. We also examined interaction between BRD2-BD2 and histone H3 tail peptides. Intriguingly, BRD2-BD2 substantially bound to the K18-acetylated histone H3 tail peptide (residues 10–27), while it did not bind to the H3K23ac peptide (
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     ). The estimated
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     value of 180 μM observed for the BRD2-BD2 – H3K18ac interaction is similar to the value of 251 μM observed for the binding of BRDT-BD2 to H3K18ac by isothermal titration calorimetry [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]. Taken together, these results indicate the preferential binding of BRD2-BD2 to the K18-acetylated H3 tail as well as to the K5/8/12-acetylated H4 tails.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Fig. 3
+     </label>     <caption>
+      <p>
+       Surface plasmon resonance binding analysis of BRD2-BD2 and the acetylated histone tails. (A) Binding analysis between BRD2-BD2 and histone H4 tails. Dosedependent binding results ranging from 0 to 320 μM of the protein concentration were shown. The binding activity to the BRD2-BD2 protein was compared between the hypoacetylated (open circle), K5-acetylated (open square), K8-acetylated (open triangle), K12-acetylated (filled circle), K16-acetylated (filled square), and K5/K12-di-acetylated (filled triangle) histone H4 tail peptides (residues 1–20). Binding score was evaluated regarding the theoretical maximal resonance unit (
+       <em>
+        R
+       </em>
+       <sub>
+        max
+       </sub>
+       ) of the each peptide as 100%. (B) Binding analysis between BRD2-BD2 and histone H3 tails. The binding activity to the BRD2-BD2 protein was compared between the hypoacetylated (filled circle), K18-acetylated (filled square), and K23-acetylated (open triangle) histone H3 tail peptides (residues 10–27).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     3.6. Structural comparison with BRDT-BD2
+    </title>
+    <p>
+     Recently, the crystal structures of BD1 and BD2 of mouse BRDT (mBRDT) were reported [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]. The overall structure of BRDT-BD2 is almost identical to that of BRD2-BD2. Superposition of the molecule A of BRDT-BD2 onto the molecule A of BRD2-BD2 gave r.m.s. deviation of 0.5 Å for all Cα atoms (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). Intriguingly, the oligomer formation in BRDT-BD2 is identical to that found in the BRD2-BD2 structure (
+     <xref ref-type="fig">
+      Fig. 4A
+     </xref>
+     ). BRDT-BD2 recognizes histone H3 tail acetylated at K18 (H3K18ac) [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]. We observed that the amino acids and structures in the binding sites of both BD2 bromodomains are almost conserved and identical (
+     <xref ref-type="fig">
+      Fig. 4B
+     </xref>
+     and
+     <a>
+      S5
+     </a>
+     ), implying that BRDT-BD2 may also recognize K5ac and/or K12ac of the histone H4 tail. Conversely, BRD2-BD2 recognized H3K18ac as demonstrated in
+     <xref ref-type="fig">
+      Fig. 3B
+     </xref>
+     . When we compared H3K18ac and H4K5ac/K12ac peptides in the structures of respective complexes, R17 of histone H3 and R3 of histone H4 are located at equivalent positions pointing towards the conserved residues, D354 and H355 (in mBRDT-BD2), and D432 and H433 (in BRD2-BD2), respectively. Hence the two residues, H3-R17 and H4-R3, may play critical roles for specific recognition of the acetylated histone tails by BRDT-BD2 and BRD2-BD2.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Fig. 4
+     </label>     <caption>
+      <p>
+       Comparison between BRD2-BD2 and mBRDT-BD2 complexes. (A) Stereo-view of the superposition of the BRD2-BD2 chains (colored in green and yellow) on to the mBRDT-BD2 chains (colored in gray) over Cα-atoms corresponding to the equivalent structured regions. The H3 and H4 tail peptides are colored in blue and orange, respectively. (B) A close-up stereo-view near the acetyl-lysine binding regions. The residues, Arg3 of histone H4 and Arg17 of histone H3 (shown by sticks) are located at equivalent position in the respective complexes. The conserved residues of the respective BD2 molecules, responsible for the peptide interactions are shown by sticks.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     3.7. Structural comparison with other bromodomains
+    </title>
+    <p>
+     The left-handed four-helical domain of the BRD2-BD2 protein is conserved in the bromodomain family [
+     <xref ref-type="bibr">
+      25
+     </xref>
+     -
+     <xref ref-type="bibr">
+      30
+     </xref>
+     ]. The overall structures of these bromodomains are similar; however, the acetylated histone H4 tail-binding site possesses major structural variations, particularly in the ZA and BC loop regions (data not shown). Recently we reported the structural basis of BRD2-BD1 for the recognition of K12-acetylated H4 tail [
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ]. When we superposed the BRD2-BD2 complex with the BRD2-BD1 complex for main-chain atoms of the bromodomains, the overall structures of the BD1 and BD2 are nearly similar to each other (average r.m.s. deviation value of ∼1.0 Å). However, an intriguing feature is observed when analyzed the peptide-binding regions of BD1 and BD2 by superimposing the histone H4 tail peptides with respect to their acetyl-lysines. In the case of BD2 recognition for K5ac, the peptide runs from N- to C-terminal direction with respect to the ZA loop of the bromodomain in one monomer (
+     <a>
+      Fig. S6A
+     </a>
+     ) whereas it runs in the opposite direction for K12ac interaction with respect to ZA loop in another monomer (
+     <a>
+      Fig. S6B
+     </a>
+     ). It suggests that BRD2-BD2 recognizes the peptide direction depending upon the interaction of K5ac and K12ac. It is interesting to note that the peptide direction in the BD1 complex is opposite to that found in the BD2 complex, with respect to K12ac position (
+     <a>
+      Fig. S6B
+     </a>
+     ), suggesting that, for the K12ac binding, the BD1 and BD2 bromodomains recognize the H4 peptide in different manner.
+    </p>
+    <p>
+     Sequence comparison between BRD2-BD1 and BRD2-BD2 shows approximately 44% of sequence identity between them (
+     <a>
+      Fig. S5
+     </a>
+     ). The BD2 bromodomain interacts with the H4 peptide through the residues from the ZA and BC loops, but in the BD1 complex, the interaction occurred through the residues mainly from the BC loop. The residues in the vicinity of the acetyl-lysine binding region are highly conserved; however, some non-conserved residues are observed in the peptide-binding regions, for example, H433/D160, P430/K157, and H384/P111 (
+     <a>
+      Fig. S5
+     </a>
+     ). Thus, significant numbers of non-conserved residues which are responsible for the peptide interaction are the key components for discriminating acetylated H4 tail recognition between BD1 and BD2 in different manner.
+    </p>
+    <p>
+     Sequence comparisons from BRD2 and BRD4 indicate that the corresponding bromodomains (
+     <em>
+      i.e
+     </em>
+     . BRD2-BD1
+     <em>
+      vs
+     </em>
+     BRD4-BD1; BRD2-BD2
+     <em>
+      vs
+     </em>
+     BRD4-BD2) are highly homologous (75% sequence identity) as compared to the non-equivalent bromodomains, BD1
+     <em>
+      vs
+     </em>
+     BD2 (
+     <a>
+      Fig. S5
+     </a>
+     ). The H4 tail-interacting residues are highly conserved between the equivalent bromodomains, suggesting that the structures of BRD4-BD1 and BRD4-BD2 are similar to that of BRD2-BD1 and BRD2-BD2, respectively.
+    </p>
+    <p>
+     Our present study and previous reports [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ] indicated that the BRD2-BD1 and -BD2 bromodomains both recognize K12ac and K5ac of histone H4. However, further structural and biophysical studies on how the tandem BET bromodomains, BD1 and BD2, simultaneously recognize multi-acetylated histone tails will aid understanding of the mechanism for deciphering and protecting the acetylation histone code on the chromatin.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     sm
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (840K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

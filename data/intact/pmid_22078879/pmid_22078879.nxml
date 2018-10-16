@@ -1,0 +1,3251 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    http://dx.doi.org/10.1016/j.cell.2011.09.047
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A Quantitative Model for Ordered Cdk Substrate Dephosphorylation during Mitotic Exit
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Increasing cyclin-dependent kinase (Cdk) activity governs entry into mitosis of the eukaryotic cell cycle. Numerous substrates become Cdk phosphorylated at this stage (
+    <a>
+     Errico et al., 2010
+    </a>
+    and
+    <a>
+     Ubersax et al., 2003
+    </a>
+    ). At the peak of mitotic Cdk activity, a multisubunit protein ubiquitin ligase, the anaphase-promoting complex (APC), is activated in conjunction with its coactivator Cdc20 (APC
+    <sup>
+     Cdc20
+    </sup>
+    ). APC
+    <sup>
+     Cdc20
+    </sup>
+    ubiquitinates and, thus, causes destruction of securin, an inhibitor of the protease separase. Separase now triggers anaphase onset by cleaving the chromosomal cohesin complex. The APC also ubiquitinates and causes destruction of mitotic cyclins to initiate the downregulation of Cdk activity. In the budding yeast
+    <em>
+     S. cerevisiae
+    </em>
+    , the phosphatase Cdc14 is activated at this time, which contributes to counteracting Cdk activity by dephosphorylation of a second APC coactivator, Cdh1, and upregulation of the stoichiometric Cdk inhibitor Sic1 (
+    <a>
+     Visintin et al., 1998
+    </a>
+    ). In addition, Cdc14 is thought to dephosphorylate many of the substrates that were phosphorylated by Cdk during mitotic entry. The identity of Cdk-counteracting phosphatase(s) in higher eukaryotes is a topic of current debate, with possible contributions of Cdc14, PP1, and PP2A family members (
+    <a>
+     Mochida et al., 2009
+    </a>
+    ,
+    <a>
+     Queralt and Uhlmann, 2008
+    </a>
+    and
+    <a>
+     Wu et al., 2009
+    </a>
+    ). Whether and how reversal of Cdk phosphorylation regulates the temporal ordering of mitotic exit events is poorly understood.
+   </p>
+   <p>
+    Budding yeast cells overexpressing a stable mitotic cyclin Clb2, or carrying a
+    <em>
+     cdc14
+    </em>
+    temperature-sensitive mutation, arrest in late mitosis with separated sister chromatids. Spindle disassembly, relicensing of origins of DNA replication, cytokinesis, and return of the cell cycle to G1 all depend on Cdk downregulation and Cdc14 activation (
+    <a>
+     Culotti and Hartwell, 1971
+    </a>
+    ,
+    <a>
+     Noton and Diffley, 2000
+    </a>
+    and
+    <a>
+     Surana et al., 1993
+    </a>
+    ). It has more recently become clear that Cdc14 is activated already early in anaphase (
+    <a>
+     Queralt et al., 2006
+    </a>
+    ,
+    <a>
+     Stegmeier et al., 2002
+    </a>
+    and
+    <a>
+     Sullivan and Uhlmann, 2003
+    </a>
+    ). Concordantly, Cdc14 also promotes events in early anaphase required for successful chromosome segregation. These include kinetochore to spindle pole movement by dephosphorylation of Ask1, inactivation of the mitotic checkpoint and stabilization of the elongating anaphase spindle by Sli15 and Fin1 dephosphorylation, and condensation and resolution of the rDNA locus through dephosphorylation of as yet unknown targets (
+    <a>
+     Higuchi and Uhlmann, 2005
+    </a>
+    ,
+    <a>
+     Mirchenko and Uhlmann, 2010
+    </a>
+    ,
+    <a>
+     Pereira and Schiebel, 2003
+    </a>
+    ,
+    <a>
+     Sullivan et al., 2004
+    </a>
+    and
+    <a>
+     Woodbury and Morgan, 2007
+    </a>
+    ). Therefore, events that occur both early during anaphase, including stabilization and elongation of the mitotic spindle, as well as later during mitotic exit, including spindle disassembly and cytokinesis, depend on Cdc14.
+   </p>
+   <p>
+    The above considerations raise the conundrum: How can the same phosphatase promote different events at different times during mitotic exit? Obviously, the spindle must first fully elongate before subsequent spindle disassembly. Likewise, Cdc14-dependent rDNA resolution must be complete before Cdc14-dependent chromosome decondensation in telophase (
+    <a>
+     Guacci et al., 1994
+    </a>
+    and
+    <a>
+     Sullivan et al., 2004
+    </a>
+    ). The relicensing of replication origins should not occur before Cdk activity has sufficiently dropped to avoid rereplication (
+    <a>
+     Nguyen et al., 2001
+    </a>
+    ). Cytokinesis then should be the ultimate event that completes mitotic exit. Cdc14 could promote sequential events by dephosphorylating its respective substrates with ordered timing. In this scenario, substrates that play a role in spindle elongation, like Fin1, Ask1, and Sli15, would be dephosphorylated before Cdh1, which promotes spindle disassembly by targeting the spindle midzone protein Ase1 for destruction (
+    <a>
+     Juang et al., 1997
+    </a>
+    and
+    <a>
+     Visintin et al., 1997
+    </a>
+    ). It has been observed in both human and budding yeast that indestructible mitotic cyclins block mitotic exit in a dose-dependent manner at sequential steps. Increased Cdc14 levels overcome the block, suggesting that the Cdc14 to Cdk balance is an important parameter during mitotic exit (
+    <a>
+     Drapkin et al., 2009
+    </a>
+    and
+    <a>
+     Wolf et al., 2006
+    </a>
+    ). To what extent Cdk substrate dephosphorylation indeed follows a temporal order, and how the Cdc14 to Cdk balance or other means of regulation enforce it, has not been systematically addressed.
+   </p>
+   <p>
+    Here, we analyze the dephosphorylation timing of a series of well-characterized Cdk substrates during budding yeast mitotic exit. We observe ordered dephosphorylation, with a timing matching their expected roles. We test various models that could explain ordered substrate dephosphorylation. We find that low levels of Cdc14 in early anaphase dephosphorylate early substrates even in the presence of persisting Cdk activity, whereas late substrates await higher Cdc14 levels and Cdk downregulation. In vitro reconstitution of the dephosphorylation reactions reveals higher catalytic efficiencies of Cdc14 for its early targets, providing an explanation how quantitative changes of the phosphatase to kinase ratio over the course of mitotic exit instruct substrate dephosphorylation at sequential thresholds.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <title>
+    Ordered Dephosphorylation Timing of Cdk Substrates during Mitotic Exit
+   </title>
+   <p>
+    We first addressed whether Cdk substrates, whose dephosphorylation by Cdc14 has been implicated in successive mitotic exit events, are dephosphorylated sequentially during mitotic progression. To date, Cdk substrates have not been identified for all mitotic exit events. For example, whereas cytokinesis requires Cdc14, it is not known which substrate(s) are dephosphorylated to promote cytokinesis. Nevertheless, a range of Cdk substrates involved in chromosome segregation (Ask1), spindle stabilization (Fin1, Sli15), and subsequent spindle disassembly (Cdh1) are well-characterized Cdc14 targets (
+    <a>
+     Higuchi and Uhlmann, 2005
+    </a>
+    ,
+    <a>
+     Jaspersen et al., 1999
+    </a>
+    ,
+    <a>
+     Pereira and Schiebel, 2003
+    </a>
+    and
+    <a>
+     Woodbury and Morgan, 2007
+    </a>
+    ). We also analyzed Orc6, whose Cdc14-dependent dephosphorylation promotes replication origin relicensing (
+    <a>
+     Nguyen et al., 2001
+    </a>
+    and
+    <a>
+     Zhai et al., 2010
+    </a>
+    ). Previous studies have shown these proteins to display a discernible electrophoretic mobility shift in response to Cdk phosphorylation. In addition, we monitored levels of Sic1, which accumulates in response to its dephosphorylation, as well as to dephosphorylation of its transcription factor Swi5 (
+    <a>
+     Visintin et al., 1998
+    </a>
+    ) (
+    <a>
+     Figure 1
+    </a>
+    A).
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Ordered Cdk Substrate Dephosphorylation during Mitotic Exit(A) Western blot ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr1.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr1.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr1.jpg" data-fullEID="1-s2.0-S0092867411012062-gr1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (761 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    Yeast strains were synchronized in G1 using mating pheromone α factor and released into synchronous cell-cycle progression at 16°C to improve temporal resolution. After all cells budded, α factor was added back to the culture to impose rearrest after completion of mitotic exit in the following G1. Cell-cycle progression was followed by measuring global Clb2/Cdk activity against histone H1 as a substrate (
+    <a>
+     Figure 1
+    </a>
+    B), by monitoring Cdc14 release from the nucleolus (
+    <a>
+     Figure 1
+    </a>
+    B), flow cytometric analysis of DNA content (
+    <a>
+     Figure 1
+    </a>
+    C), and cytological analysis of mitotic spindles (
+    <a>
+     Figures 1
+    </a>
+    D and 1E). At anaphase onset, as soon as Cdc14 started to be released, Fin1 mobility rapidly increased, consistent with its dephosphorylation by Cdc14. Thereafter, when most cells displayed elongated anaphase spindles, Ask1 and Sli15 became dephosphorylated. At even later time points, when anaphase spindles disassembled and Clb2/Cdk activity began to decline, Orc6 and Cdh1 were dephosphorylated, at which time also Sic1 started to accumulate (
+    <a>
+     Figure 1
+    </a>
+    A). The transition of most substrates from fully phosphorylated to dephosphorylated spanned several time points, so we attributed time windows centered around the approximate point of half dephosphorylation as judged by mobility shift. This resulted in the grouping of substrates into three categories: (1) the early substrate Fin1 (170 min), (2) intermediate substrates Ask1 and Sli15 (185–200 min), and (3) late substrates Orc6 and Cdh1 (215–235 min). Thus, the order of substrate dephosphorylation coincided with the relative timing of their expected contribution to mitotic exit events.
+   </p>
+   <p>
+    The above experiments relied on electrophoretic mobility shifts as readout for substrate dephosphorylation. The relationship between electrophoretic mobility and phosphorylation status is not always straightforward, so we repeated the analysis of substrate dephosphorylation using a complementary approach. Fin1, Sli15, and Orc6 were immunopurified from synchronous cultures, and their Cdk phosphorylation status was probed using Cdk phosphosite-specific antibodies (
+    <a>
+     Figure S1
+    </a>
+    available online). This showed that, at least for these substrates, dephosphorylation coincided with the electrophoretic mobility shift and confirmed the grouping of these substrates into early, intermediate, and late categories. We conclude that dephosphorylation of Cdk substrates occurs with distinct timing and that this might contribute to the temporal ordering of mitotic exit.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Ordered Substrate Dephosphorylation Detected by Cdk Phosphorylation-Specific ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-figs1.jpg" data-thumbEID="1-s2.0-S0092867411012062-figs1.sml" data-imgEIDs="1-s2.0-S0092867411012062-figs1.jpg" data-fullEID="1-s2.0-S0092867411012062-figs1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (385 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Cyclin Specificity or Phosphosite Count Is Not Sufficient to Explain Ordering
+   </title>
+   <p>
+    To analyze how substrate dephosphorylation is ordered during mitotic exit, we explored different possibilities. In budding yeast, two major forms of Cdk activity stem from the S phase cyclin Clb5 and the mitotic cyclin Clb2 complexed with the Cdk subunit Cdc28 (Clb5/Cdk and Clb2/Cdk), which show differential substrate specificities (
+    <a>
+     Loog and Morgan, 2005
+    </a>
+    ). Clb5 is destroyed by APC
+    <sup>
+     Cdc20
+    </sup>
+    as soon as anaphase begins, before Clb2, whose complete destruction depends on APC
+    <sup>
+     Cdh1
+    </sup>
+    (e.g.,
+    <a>
+     Figure 1
+    </a>
+    ) (
+    <a>
+     Shirayama et al., 1999
+    </a>
+    ). Therefore, it has been proposed that S phase Clb5/Cdk substrates (e.g., Sld2) are dephosphorylated early during mitotic exit, before mitotic Clb2/Cdk substrates (e.g., Pol12) (
+    <a>
+     Jin et al., 2008
+    </a>
+    ). To explore whether cyclin specificity explains dephosphorylation ordering during mitotic exit, we compared the “Clb5/Clb2 specificity” of our substrates, a measure for their Clb5 preference (
+    <a>
+     Loog and Morgan, 2005
+    </a>
+    ), with their dephosphorylation timing (
+    <a>
+     Table S1
+    </a>
+    ). Our earliest dephosphorylated substrate Fin1 shows a Clb5/Clb2 specificity comparable to Sld2. However, the late substrates Cdh1 and Orc6 are also preferential Clb5 targets, with Orc6 showing an exceptionally high Clb5 preference. This makes it unlikely that cyclin specificity generally explains dephosphorylation timing during mitotic exit. Furthermore, we will show below that early Fin1 dephosphorylation is independent of Clb5 proteolysis. Therefore, whereas Clb5 specificity might assist rapid substrate phosphorylation as cells enter S phase, it is not sufficient to explain the order of substrate dephosphorylation during mitotic exit.
+   </p>
+   <p>
+    Another possibility to explain early versus late substrate dephosphorylation by Cdc14 could relate to the number of Cdk phosphorylation sites present on each substrate. Proteins with few phosphorylated residues could be dephosphorylated faster compared to substrates carrying multiple phosphorylation sites. A comparison of the number of Cdk phosphorylation sites present on each substrate does not support this possibility (
+    <a>
+     Table S1
+    </a>
+    ). For example Fin1 and Orc6, being dephosphorylated early and late during mitotic exit, respectively, show a comparable number of Cdk phosphorylation sites.
+   </p>
+   <title>
+    A Timer, Rather than Dependency of Events, Controls Sequential Dephosphorylation
+   </title>
+   <p>
+    Two principal ideas on the ordering of cell-cycle progression are the domino and the clock models (
+    <a>
+     Murray and Kirschner, 1989
+    </a>
+    ). In the domino model, early events must be completed before subsequent events take place, controlled by surveillance mechanisms or checkpoints. The clock model describes sequential events under control of a biochemical oscillator. To differentiate between these two possibilities, we created an experimental situation in which we could activate Cdc14 independently of mitotic progression. We arrested cells in metaphase by depletion of the APC activator Cdc20 and ectopically expressed Cdc14 from an inducible promoter. In the absence of APC
+    <sup>
+     Cdc20
+    </sup>
+    , securin is not degraded, chromosomes do not segregate, and the mitotic spindle does not elongate. Indeed, 90 min after Cdc14 induction, we observed little change to the cytological appearance of the arrested cells (
+    <a>
+     Figure 2
+    </a>
+    A). Nevertheless, Cdk substrates became dephosphorylated in response to Cdc14 expression, in an order mirroring normal mitotic progression. The early substrate Fin1 was dephosphorylated first, followed by the intermediate substrates Ask1 and Sli15, and finally the late substrates Orc6 and Cdh1. These observations suggest that Cdc14 drives ordered substrate dephosphorylation as a biochemical timer, independently of the completion of major mitotic exit events. The levels of Clb5 and Clb2 remained constant during the course of this experiment, further confirming that sequential cyclin proteolysis is not required for ordered Cdk substrate dephosphorylation.
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Ordered Substrate Dephosphorylation in Response to Ectopic Cdc14 Expression(A) ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr2.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr2.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr2.jpg" data-fullEID="1-s2.0-S0092867411012062-gr2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (712 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    The Cdc14 to Cdk Ratio Sets Substrate Dephosphorylation Thresholds
+   </title>
+   <p>
+    In the above experiment (
+    <a>
+     Figure 2
+    </a>
+    A), the increasing concentration of Cdc14 over the course of the experiment might lead to dephosphorylation of successively later substrates. Alternatively, once Cdc14 is active, individual substrates might possess different time requirements for dephosphorylation. These might arise from conformational changes required for complete dephosphorylation or from competition between substrates. To investigate these possibilities, we terminated Cdc14 induction in the experiment above after 30 min (
+    <a>
+     Figure 2
+    </a>
+    B). Cdc14 protein levels, as well as its associated phosphatase activity, increased until 45 min and then remained constant. Under these conditions, early and intermediate substrates became dephosphorylated with similar timing as before. Late substrate dephosphorylation started but did not progress further after 45 min and remained incomplete until the end of the experiment. Likewise, Sic1 started to accumulate but persisted at low levels from 45 min onward. This finding is inconsistent with ordering by intrinsic time requirements or substrate competition. Late substrate dephosphorylation remained incomplete even after an extended period of incubation. Instead, these observations suggest that increasing Cdc14 concentrations are required for dephosphorylation of sequentially later substrates.
+   </p>
+   <p>
+    In the experiment above, Cdc14 was expressed to greater than endogenous level. Therefore, we performed a complementary experiment with cells activating endogenous Cdc14 but prevented from completing mitotic exit due to expression of indestructible Clb2 (Clb2Δdb) (
+    <a>
+     Surana et al., 1993
+    </a>
+    ). After release from G1 arrest, as in
+    <a>
+     Figure 1
+    </a>
+    , Clb2-associated Cdk activity rose early, reached 1.6 times the peak level observed in wild-type and persisted until the end of the experiment when cells arrested with elongated spindles (
+    <a>
+     Figure 3
+    </a>
+    ). Cdc14 was released from the nucleolus with normal timing at anaphase onset, coinciding with dephosphorylation of Fin1. Also, Ask1 and Sli15 started to be dephosphorylated at their expected time but then persisted in a partly dephosphorylated state for the rest of the time course. No dephosphorylation of Orc6 nor Cdh1 was observed, and Sic1 remained undetectable, even though Cdc14 remained released in the cells for several hours. This argues against intrinsic time requirements, or substrate competition, as explanations for ordered substrate dephosphorylation. Instead, these observations support a quantitative ratio model, in which increasing thresholds of the Cdc14 to Cdk ratio cause sequentially later substrate dephosphorylation.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Persistent Cdk Activity Prevents Late but Not Early Substrate ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr3.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr3.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr3.jpg" data-fullEID="1-s2.0-S0092867411012062-gr3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (755 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Reconstitution of In Vitro Cdk Substrate Phosphorylation and Dephosphorylation
+   </title>
+   <p>
+    If increasing thresholds of the Cdc14 to Cdk ratio instruct sequential substrate dephosphorylation, then early dephosphorylated substrates should be the best Cdc14 substrates, the poorest Cdk substrates, or both. Late substrates in turn should be good Cdk substrates, poor Cdc14 substrates, or both. To investigate these possibilities, we reconstituted Cdk substrate phosphorylation and dephosphorylation reactions in vitro using purified Clb2/Cdk, Cdc14, and their substrates Fin1, Ask1, Sli15, and Orc6 (
+    <a>
+     Figure 4
+    </a>
+    A). We used Clb2/Cdk as the source of Cdk activity because it is the main Cdk during budding yeast mitotic exit.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Reconstitution of In&amp;nbsp;Vitro Clb2/Cdk Substrate Phosphorylation(A) Purified Cdk ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr4.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr4.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr4.jpg" data-fullEID="1-s2.0-S0092867411012062-gr4.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig4" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (265 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+  </sec>
+  <sec>
+   <p>
+    To prepare mitotically phosphorylated substrates, we incubated 1.66 μM of each substrate with 33 nM of Clb2/Cdk in the presence of 100 μM ATP for 1 hr at 30°C. After separation of the reactions by SDS-PAGE, followed by Coomassie blue staining, we observed a close to quantitative mobility shift of the four substrates, indicative of complete phosphorylation (
+    <a>
+     Figure S2
+    </a>
+    ). Mass spectrometric analysis confirmed that the majority of Cdk consensus phosphorylation sites were modified, whereas few if any other residues were phosphorylated. Spiking the ATP to include 0.5 μM γ-
+    <sup>
+     33
+    </sup>
+    P-ATP allowed the phosphorylation reaction to be quantified over time by phosphoimager analysis (
+    <a>
+     Figure 4
+    </a>
+    B). This showed that the phosphorylation reaction reached close to completion during the incubation and confirmed the relative amounts of phosphate incorporation into the substrates according to the respective numbers of expected Cdk phosphorylation sites (Sli15:Fin1:Orc6:Ask1 ≈18:6:6:2). In the following analysis, as an approximation, we assume that substrate phosphorylation equates to the change from its unphosphorylated to the fully phosphorylated state, whereas dephosphorylation is the reversal to the fully unphosphorylated state.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Specific and Near-Complete In&amp;nbsp;Vitro Phosphorylation of Recombinant Substrates by ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-figs2.jpg" data-thumbEID="1-s2.0-S0092867411012062-figs2.sml" data-imgEIDs="1-s2.0-S0092867411012062-figs2.jpg" data-fullEID="1-s2.0-S0092867411012062-figs2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig4" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (306 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Clb2/Cdk Shows Similar Catalytic Efficiency toward Early and Late Dephosphorylated Substrates
+   </title>
+   <p>
+    With the above reagents in hand, we analyzed how efficiently Clb2/Cdk phosphorylates early versus late dephosphorylated substrates. The velocity (
+    <em>
+     v
+    </em>
+    ) of Clb2/Cdk substrate phosphorylation can be described by Michaelis-Menten kinetics. It is characterized by the Michaelis-Menten constant (K
+    <sub>
+     M
+    </sub>
+    ), which describes the affinity of the kinase for the respective substrate, and k
+    <sub>
+     cat
+    </sub>
+    , which is the turnover rate of the substrate once engaged with the kinase.
+   </p>
+   <p>
+   </p>
+   <p>
+    To obtain K
+    <sub>
+     M
+    </sub>
+    and k
+    <sub>
+     cat
+    </sub>
+    for the four different substrates, we measured the initial rates of phosphorylation as a function of substrate concentration (
+    <a>
+     Figure 5
+    </a>
+    ). Substrate phosphorylation was quantified after gel electrophoresis, and the kinetic parameters were derived from a nonlinear least-square fit of the phosphorylation data to the Michaelis-Menten equation.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Kinetic Parameters for Clb2/Cdk Substrate PhosphorylationThe indicated ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr5.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr5.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr5.jpg" data-fullEID="1-s2.0-S0092867411012062-gr5.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig5" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (385 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The Michaelis-Menten constants for the different substrates ranged from 1.1 μM for Sli15 to 6.7 μM for Fin1. k
+    <sub>
+     cat
+    </sub>
+    was between 0.15 s
+    <sup>
+     −1
+    </sup>
+    for Sli15 and 0.95 s
+    <sup>
+     −1
+    </sup>
+    for Fin1. Because the intracellular concentrations of our substrates are in the low micromolar range (
+    <a>
+     Ghaemmaghami et al., 2003
+    </a>
+    ), below or around their K
+    <sub>
+     M
+    </sub>
+    , the phosphorylation reaction is best described by the catalytic efficiency k
+    <sub>
+     cat
+    </sub>
+    /K
+    <sub>
+     M
+    </sub>
+    . These values were very similar for Fin1, Sli15, and Orc6, ranging from 1.36 to 1.66·10
+    <sup>
+     5
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    . Only Ask1 had a somewhat lower catalytic efficiency of 0.43·10
+    <sup>
+     5
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    . Therefore, with exception of Ask1, an early, intermediate, and late dephosphorylated substrate is targeted by Clb2/Cdk with comparable efficiency. This makes it unlikely that differential susceptibility to Cdk phosphorylation underlies the dephosphorylation ordering, at least of these substrates. The observation that Fin1 is an efficient Clb2/Cdk substrate further supports the notion that the early degradation of Clb5 is insufficient to explain early Fin1 dephosphorylation.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Cdc14 Shows a Greater Catalytic Efficiency for Early Substrates
+   </title>
+   <p>
+    In the absence of evidence that Clb2/Cdk discriminates between early and late dephosphorylated substrates, we analyzed the efficiency of substrate dephosphorylation by Cdc14. We produced fully phosphorylated Fin1, Ask1, Sli15, and Orc6, as above, and used the phosphoproteins as substrates for dephosphorylation by Cdc14. Our maximum phosphosubstrate concentrations were insufficient to reliably measure phosphate release under initial rate conditions. We instead resorted to analyzing progress curves of substrate dephosphorylation (
+    <a>
+     Nikolova et al., 2008
+    </a>
+    ), starting with 640 nM of each substrate, close to their physiological concentrations (
+    <a>
+     Figure 6
+    </a>
+    ). Using 6.4 nM Cdc14 (in the case of Fin1 and Sli15) or 64 nM Cdc14 (in the case of Ask1 and Orc6), dephosphorylation progressed close to completion over 135 s. We then fitted the progress curves to an integrated form of the Michaelis-Menten equation that describes the turnover of the phosphosubstrate (
+    <em>
+     S
+     <sup>
+      P
+     </sup>
+    </em>
+    ) as a function of time (
+    <em>
+     t
+    </em>
+    ), for substrate concentrations below K
+    <sub>
+     M
+    </sub>
+    .
+   </p>
+   <p>
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Greater Catalytic Efficiency of Cdc14 for Its Early SubstratesFully ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr6.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr6.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr6.jpg" data-fullEID="1-s2.0-S0092867411012062-gr6.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig6" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (409 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The equation allows the catalytic efficiency k
+    <sub>
+     cat
+    </sub>
+    /K
+    <sub>
+     M
+    </sub>
+    to be derived using a nonlinear least-square fit to the progress curves (
+    <a>
+     Figures 6
+    </a>
+    and
+    <a>
+     S3
+    </a>
+    ). This revealed that the catalytic efficiency of Cdc14 for the early substrate Fin1 (5.39 ± 0.30·10
+    <sup>
+     6
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    ) is over 20 times greater than that for the late substrate Orc6 (0.23 ± 0.03·10
+    <sup>
+     6
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    ). The intermediate substrates Sli15 and Ask1 showed intermediate values. The catalytic efficiency of budding yeast Cdc14 for human Cdh1 has been determined to 0.18 ± 0.04·10
+    <sup>
+     6
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    (
+    <a>
+     Wang et al., 2004
+    </a>
+    ), close to our value for the late substrate Orc6.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Supporting Analysis to Determine kcat/KM of Cdc14 for the Four Cdk Substrates ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-figs3.jpg" data-thumbEID="1-s2.0-S0092867411012062-figs3.sml" data-imgEIDs="1-s2.0-S0092867411012062-figs3.jpg" data-fullEID="1-s2.0-S0092867411012062-figs3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig6" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (609 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+  </sec>
+  <sec>
+   <p>
+    The reaction mechanism of the Cdc14 phosphatase, analogous to the structurally related protein tyrosine phosphatases, involves a covalent phosphoenzyme intermediate (
+    <a>
+     Gray et al., 2003
+    </a>
+    ). Therefore, we considered a fuller description of the dephosphorylation reaction as the basis for a kinetic model to independently derive the Cdc14 catalytic efficiencies for its four substrates:
+    <a>
+    </a>
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Image for unlabelled figure" src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-fx2.jpg" data-thumbEID="1-s2.0-S0092867411012062-fx2.sml" data-imgEIDs="1-s2.0-S0092867411012062-fx2.jpg" data-fullEID="1-s2.0-S0092867411012062-fx2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <div>
+       </div>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (27 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+   </p>
+   <p>
+    The reaction begins with the reversible association of the phosphosubstrates
+    <em>
+     S
+     <sup>
+      P
+     </sup>
+    </em>
+    with the phosphatase
+    <em>
+     E
+    </em>
+    to form a substrate-enzyme complex
+    <em>
+     S
+     <sup>
+      P
+     </sup>
+    </em>
+    ·
+    <em>
+     E
+    </em>
+    , characterized by the on and off rates
+    <em>
+     k
+    </em>
+    <sub>
+     1
+    </sub>
+    and
+    <em>
+     k
+    </em>
+    <sub>
+     −1
+    </sub>
+    , respectively. This is followed by phosphate transfer from the substrate onto the Cdc14 catalytic cysteine at a rate
+    <em>
+     k
+    </em>
+    <sub>
+     2
+    </sub>
+    , accompanied by release of the dephosphorylated product
+    <em>
+     S
+    </em>
+    . The phosphoenzyme intermediate
+    <em>
+     P
+    </em>
+    -
+    <em>
+     E
+    </em>
+    is then hydrolyzed by water to release phosphate
+    <em>
+     P
+    </em>
+    and regenerate free Cdc14 at a rate
+    <em>
+     k
+    </em>
+    <sub>
+     3
+    </sub>
+    . The rate constant
+    <em>
+     k
+    </em>
+    <sub>
+     3
+    </sub>
+    is substrate independent and has been previously determined to 20 ± 5 s
+    <sup>
+     −1
+    </sup>
+    (
+    <a>
+     Wang et al., 2004
+    </a>
+    ). We implemented an empirical algorithm to simulate the experimental progress curves using this kinetic model. Although the individual rate constants
+    <em>
+     k
+    </em>
+    <sub>
+     1
+    </sub>
+    ,
+    <em>
+     k
+    </em>
+    <sub>
+     −1
+    </sub>
+    , and
+    <em>
+     k
+    </em>
+    <sub>
+     2
+    </sub>
+    were poorly constrained by the experimental data, the ratio k
+    <sub>
+     cat
+    </sub>
+    /K
+    <sub>
+     M
+    </sub>
+    =
+    <em>
+     k
+    </em>
+    <sub>
+     1
+    </sub>
+    ·
+    <em>
+     k
+    </em>
+    <sub>
+     2
+    </sub>
+    /(
+    <em>
+     k
+    </em>
+    <sub>
+     2
+    </sub>
+    +
+    <em>
+     k
+    </em>
+    <sub>
+     −1
+    </sub>
+    ) was well constrained over a wide range of possible parameters (
+    <a>
+     Figures 6
+    </a>
+    and
+    <a>
+     S3
+    </a>
+    ). The catalytic efficiencies for the four phosphosubstrates derived from the kinetic model agreed well with the values obtained from the exponential fit. k
+    <sub>
+     cat
+    </sub>
+    /K
+    <sub>
+     M
+    </sub>
+    of Cdc14 for Fin1 (8.1·10
+    <sup>
+     6
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    ) was approximately 30-fold greater than for Orc6 (0.25·10
+    <sup>
+     6
+    </sup>
+    M
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −1
+    </sup>
+    ), with the intermediate substrates again showing intermediary values.
+   </p>
+   <p>
+    If Cdc14 and Clb2/Cdk compete with each other during mitotic exit, then their relative catalytic efficiencies will determine an equilibrium phosphorylation status of each substrate. Therefore, we calculated the ratio of the catalytic efficiencies of Cdc14 and Clb2/Cdk for each substrate (
+    <a>
+     Figure 6
+    </a>
+    ). This ratio is almost 38-fold greater for Fin1 compared to Orc6, consistent with the possibility that small amounts of active Cdc14 in early anaphase are able to dephosphorylate Fin1, but not Orc6, against Clb2/Cdk activity that is still present at this time. Late substrates have to await increased Cdc14 over decreased Clb2/Cdk activity for their dephosphorylation.
+   </p>
+   <p>
+    The greater catalytic efficiency k
+    <sub>
+     cat
+    </sub>
+    /K
+    <sub>
+     M
+    </sub>
+    of Cdc14 for its early substrates could be due to a greater k
+    <sub>
+     cat
+    </sub>
+    , a lower K
+    <sub>
+     M
+    </sub>
+    , or both. Our progress curve analysis was not able to distinguish between these possibilities. As an approximate readout for substrate affinity, we assessed the interaction of Cdc14, immobilized on glutathione beads, with its phosphorylated and unphosphorylated substrates (
+    <a>
+     Figure S4
+    </a>
+    ). This demonstrated a stronger interaction of Cdc14 with Fin1 and Sli15, suggesting that substrate affinity contributes to the greater catalytic efficiency for these substrates. Binding was stronger using phosphorylated substrates, although Cdc14 clearly interacted independently of phosphorylation, especially with its most efficient substrates. Therefore, Cdc14 affinity, especially for its early substrates, is in part determined by phosphorylation site-independent interactions. The nature of theses apparent docking sites will be an important topic for future research.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Phosphorylation-Dependent and -Independent Cdc14 Substrate Interactions, Related ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-figs4.jpg" data-thumbEID="1-s2.0-S0092867411012062-figs4.sml" data-imgEIDs="1-s2.0-S0092867411012062-figs4.jpg" data-fullEID="1-s2.0-S0092867411012062-figs4.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig7" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (536 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Cdc14 Dephosphorylation of Early, but Not Late, Substrates while Clb2/Cdk Persists
+   </title>
+   <p>
+    To test the model that Cdc14 dephosphorylates its early, but not late, substrates in the presence of persisting Clb2/Cdk activity, we reconstituted the competition of Cdc14 with Clb2/Cdk in vitro. We first phosphorylated the three substrates Fin1, Sli15, and Orc6, which all showed similar catalytic efficiencies for Clb2/Cdk phosphorylation, for 5 min. In a control dephosphorylation reaction, Clb2/Cdk was inactivated by supplementing the reaction with EDTA before addition of increasing concentrations of Cdc14. This led to efficient dephosphorylation over the course of 2 min in all cases, although as expected dephosphorylation of Orc6 progressed more slowly (
+    <a>
+     Figure 7
+    </a>
+    A, left). This situation changed when we omitted EDTA, and Clb2/Cdk, therefore, remained active (
+    <a>
+     Figure 7
+    </a>
+    A, right). Fin1 dephosphorylation proceeded with only little impediment, even at the lowest Cdc14 concentration. In case of the intermediate substrate Sli15, higher Cdc14 concentrations were required for complete dephosphorylation, whereas low Cdc14 caused only partial dephosphorylation. The late substrate Orc6 was no longer dephosphorylated by low Cdc14, and even higher Cdc14 concentrations caused only partial Orc6 dephosphorylation. These findings mirror and explain our in vivo observations. The higher catalytic efficiency of Cdc14 for its early substrates allows their dephosphorylation even in the presence of persisting Clb2/Cdk activity, whereas late substrate dephosphorylation requires higher Cdc14 levels or Clb2/Cdk inactivation.
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Late Substrate Dephosphorylation Is Impeded by Persisting Clb2/Cdk Activity and ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S0092867411012062-gr7.jpg" data-thumbEID="1-s2.0-S0092867411012062-gr7.sml" data-imgEIDs="1-s2.0-S0092867411012062-gr7.jpg" data-fullEID="1-s2.0-S0092867411012062-gr7.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig7" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (890 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Competition of Early with Late Dephosphorylated Substrates
+   </title>
+   <p>
+    When Cdc14 is activated at anaphase onset in vivo, it is faced with a large stoichiometric excess of phosphosubstrates. Although our experiments in
+    <a>
+     Figure 2
+    </a>
+    and
+    <a>
+     Figure 3
+    </a>
+    show that substrate competition cannot explain the dephosphorylation timing of late substrates, competition might still occur. To investigate this, we performed Cdc14 dephosphorylation time courses of Fin1, Sli15, and Orc6, either individually (
+    <a>
+     Figure 7
+    </a>
+    B, left) or in competition after the three substrates had been mixed (
+    <a>
+     Figure 7
+    </a>
+    B, right). The early and intermediate substrates Fin1 and Sli15 were dephosphorylated with similar kinetics, individually or in competition. In contrast, Orc6 dephosphorylation was markedly slowed down in the presence of Fin1 and Sli15, compared to dephosphorylation on its own. This suggests that early substrates with high catalytic efficiencies for Cdc14 delay the dephosphorylation of late substrates. In contrast the opposite is not the case. Thus, in addition to distinct thresholds of the Cdc14 to Clb2/Cdk ratio required to shift the phosphorylation equilibrium of each substrate, competition between substrates might also contribute to the ordering of Cdk substrate dephosphorylation.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <title>
+    Temporal Ordering of Mitotic Exit
+   </title>
+   <p>
+    Mitosis encompasses an intricately ordered series of events to faithfully distribute chromosomes during cell division. One mechanism to regulate the timing of events during mitotic exit is the successive degradation of APC targets. This is mediated by its two distinct coactivators, Cdc20 and Cdh1, that sequentially associate with the enzymatic core (
+    <a>
+     Fang et al., 1998
+    </a>
+    and
+    <a>
+     Visintin et al., 1997
+    </a>
+    ). Even substrates whose destruction depends on the same APC coactivator are targeted sequentially for degradation (
+    <a>
+     Rape et al., 2006
+    </a>
+    ). Although sequential degradation of mitotic regulators likely contributes to the ordering of mitotic exit, it does not address how dephosphorylation of several hundred mitotic Cdk substrates is ordered, or indeed what determines the late activation of Cdh1.
+   </p>
+   <p>
+    In our survey of well-characterized budding yeast Cdk targets, we found clear differences in their Cdc14 phosphatase-dependent dephosphorylation timing during mitotic exit. In particular, Cdk substrates whose dephosphorylation contributes to chromosome segregation and anaphase spindle elongation were dephosphorylated early, before substrates implicated in spindle disassembly, replication origin relicensing, and return of the cell cycle to G1. Although many Cdk substrates whose dephosphorylation promotes mitotic exit events remain to be identified, our results establish a proof of principle how dephosphorylation ordering can be achieved. The changing ratio of the activities of the Cdk and its counteracting phosphatase is read out by the substrates. Each responds with dephosphorylation at a distinct threshold. Although the identity of the human mitotic exit phosphatase(s) is still under debate, it is clear that also in human cells graded levels of indestructible cyclins arrest mitotic exit at sequential steps (
+    <a>
+     Wolf et al., 2006
+    </a>
+    ). Marked differences in the timing of Cdk substrate dephosphorylation have been observed in vertebrates (
+    <a>
+     Mochida et al., 2009
+    </a>
+    ). Therefore, we suggest that sequential Cdk substrate dephosphorylation under the control of phosphatase-to-kinase thresholds operates in most eukaryotes and constitutes a conserved aspect of cell-cycle regulation.
+   </p>
+   <title>
+    Dependency of Events, Substrate Localization, and Cyclin Specificity
+   </title>
+   <p>
+    To explore the basis for ordered Cdk substrate dephosphorylation, we initially considered other possible scenarios. We found little evidence for a dependency of successive dephosphorylation events on progression of cytological hallmarks of mitotic exit. Ectopic Cdc14 expression caused ordered substrate dephosphorylation even though cells persisted in an apparent metaphase-like state. Likewise, cells expressing uncleavable cohesin progress through mitotic exit despite a block to chromosome segregation and spindle elongation (
+    <a>
+     Uhlmann et al., 1999
+    </a>
+    ). A cytokinesis delay under these conditions is due to the NoCut pathway that impinges on the cytokinetic furrow machinery but probably not on Cdk substrate dephosphorylation (
+    <a>
+     Mendoza et al., 2009
+    </a>
+    ). These considerations do not exclude cases in which dephosphorylation of a substrate depends on prior dephosphorylation of another, e.g., if they regulate each other's accessibility or conformation. Such examples will be interesting to study but are unlikely to order the overall progression of mitotic exit.
+   </p>
+   <p>
+    Protein localization is often named as a candidate mechanism for regulated cell-cycle progression. Cdc14 is released from the nucleolus into the nucleus in early anaphase, before spreading throughout the cell in late anaphase when Cdc14 is phosphorylated by the mitotic exit kinase Dbf2 (
+    <a>
+     Mohl et al., 2009
+    </a>
+    ). This change in localization could contribute to sequential dephosphorylation of nuclear and cytoplasmic targets. However, constraining Cdc14 to the nucleus does not alter the ordering of the majority of mitotic exit events (T. Kuilman and F.U., unpublished data). This suggests that ordered dephosphorylation timing of most Cdk substrates is achieved independently of regulated Cdc14 localization. Clearly, Cdk substrates are dephosphorylated with ordered timing even within the same cellular compartment. In our examples all five proteins that displayed early, intermediate, or late dephosphorylation were localized within the nucleus. Although protein localization has the potential to influence dephosphorylation of certain targets, it appears that the global control over dephosphorylation timing is exerted independently of localization by a biochemical timer.
+   </p>
+   <p>
+    In our search for this timer, we considered whether the sequential degradation of S phase and mitotic cyclins could aid the sequential dephosphorylation of Cdk targets. Several mitotic phosphoproteins are preferential targets for Clb5/Cdk. However, preferential Clb5/Cdk targets are found among early as well as among late dephosphorylated Cdk substrates. Therefore, although Clb5 degradation by APC
+    <sup>
+     Cdc20
+    </sup>
+    might assist the early dephosphorylation of certain substrates, this mechanism does not appear to generally order substrate dephosphorylation. Indeed, S phase cyclins are not essential in budding yeast, and successful mitotic exit does not depend on them (
+    <a>
+     Schwob and Nasmyth, 1993
+    </a>
+    ). Eukaryotic cell-cycle regulation, e.g., in fission yeast, can be accomplished by a single source of oscillating Cdk activity (
+    <a>
+     Coudreuse and Nurse, 2010
+    </a>
+    ). This makes it unlikely that ordered destruction of cyclins provides the primary explanation for ordered Cdk substrate dephosphorylation.
+   </p>
+   <title>
+    Quantitative Differences in the Catalytic Efficiencies of Cdc14 for Its Substrates
+   </title>
+   <p>
+    We initially measured the kinetics of Cdk substrate phosphorylation but did not find large variations in the catalytic efficiencies of Clb2/Cdk for the early or late dephosphorylated substrates in our study. Only Ask1 was less efficiently phosphorylated. However, we did find a striking difference in the catalytic efficiency of Cdc14 for its early and late targets. Thus, differential targeting of phosphosubstrates by the Cdk counteracting phosphatase emerges as a mechanism that regulates dephosphorylation timing during mitotic exit. A considerable spread of apparent catalytic efficiencies of Clb2/Cdk, when measured against a larger selection of its substrates, has been reported (
+    <a>
+     Loog and Morgan, 2005
+    </a>
+    ). This emphasizes that both the phosphatase and the kinase reaction need to be taken into account to predict the phosphorylation equilibrium of a substrate. In our examples Cdc14 showed a relatively low catalytic efficiency for Ask1, only marginally greater than for the late substrate Orc6. However, taking into account its less efficient phosphorylation by Clb2/Cdk, Ask1 is predicted to be an intermediate substrate, consistent with its observed in vivo dephosphorylation timing. Thus, the ratio of the catalytic efficiencies of phosphatase versus kinase emerges as the defining feature controlling substrate dephosphorylation during mitotic exit.
+   </p>
+   <p>
+    What could be the mechanistic basis for differential substrate targeting by Cdc14? Our kinetic analysis provided us with the catalytic efficiencies, k
+    <sub>
+     cat
+    </sub>
+    /K
+    <sub>
+     M
+    </sub>
+    , of Cdc14, which are over 20-fold greater for Fin1 compared to Orc6. We do not currently know whether these differences are due to a greater catalytic turnover, k
+    <sub>
+     cat
+    </sub>
+    , or greater substrate affinity, i.e., lower K
+    <sub>
+     M
+    </sub>
+    , of Cdc14 for its early substrates, or both. To determine k
+    <sub>
+     cat
+    </sub>
+    and K
+    <sub>
+     M
+    </sub>
+    individually, dephosphorylation reactions would have to be performed at substrate concentrations including and exceeding K
+    <sub>
+     M
+    </sub>
+    . An estimate of the K
+    <sub>
+     M
+    </sub>
+    for Cdc14 dephosphorylation of human Cdh1 is greater than 4 μM (
+    <a>
+     Wang et al., 2004
+    </a>
+    ). If similar values apply in budding yeast, these concentrations are beyond the reach of our current abilities to generate phosphosubstrates.
+   </p>
+   <p>
+    The turnover rate k
+    <sub>
+     cat
+    </sub>
+    of the Cdc14 dephosphorylation reaction consists of the rate constants
+    <em>
+     k
+    </em>
+    <sub>
+     2
+    </sub>
+    and
+    <em>
+     k
+    </em>
+    <sub>
+     3
+    </sub>
+    of two irreversible steps.
+    <em>
+     k
+    </em>
+    <sub>
+     2
+    </sub>
+    describes the phosphate transfer from the substrate onto Cdc14, the rate of which is largely governed by the leaving group p
+    <em>
+     K
+    </em>
+    <sub>
+     a
+    </sub>
+    , i.e., that of the deprotonated substrate serine or threonine. Although the protein context may influence the leaving group p
+    <em>
+     K
+    </em>
+    <sub>
+     a
+    </sub>
+    , the scope for substrate differences is small, especially because this reaction is facilitated by general base catalysis (
+    <a>
+     Wang et al., 2004
+    </a>
+    ).
+    <em>
+     k
+    </em>
+    <sub>
+     3
+    </sub>
+    in turn describes hydrolysis of the phosphoenzyme intermediate, which is substrate independent. Therefore, with little room for differences in k
+    <sub>
+     cat
+    </sub>
+    , the substrate affinity K
+    <sub>
+     M
+    </sub>
+    might constitute the major difference between substrates. Little is known about how Cdc14 interacts with its substrates, apart from the immediate surroundings of the catalytic pocket (
+    <a>
+     Gray et al., 2003
+    </a>
+    ). Our preliminary results have revealed that Cdc14 binds more strongly to its early substrates. We also found evidence for phosphorylation-independent substrate interactions, especially in case of the early substrates. Previous work has identified residues in the Cdc14 N terminus, outside the phosphatase domain, that affect substrate dephosphorylation (
+    <a>
+     Wang et al., 2004
+    </a>
+    ). It will be interesting to investigate whether these residues contribute to substrate recognition and how they may establish differences in the relative affinities of Cdc14 for its early and late substrates.
+   </p>
+   <title>
+    A Quantitative Model for Cdk Control of the Cell Cycle
+   </title>
+   <p>
+    <a>
+     Stern and Nurse (1996)
+    </a>
+    have put forward a quantitative model for Cdk control of S phase and mitosis in fission yeast. In this model S phase is initiated when Cdk activity increases from a very low to a moderate level, whereas a further increase to high Cdk activity initiates mitosis. Our investigation of budding yeast mitotic exit provides another example where the quantitative change in Cdk activity is linked to a temporally ordered series of events, this time in the reverse order of decreasing Cdk activity. We provide in vivo and in vitro evidence that this ordering is based on phosphorylation equilibria between the Cdk and its counteracting phosphatase. The quantitative change of the phosphatase to kinase ratio over the course of mitotic exit is read out by the substrates, which respond with dephosphorylation at their respective thresholds. We consider it likely that a Cdk-counteracting phosphatase will play a crucial role in establishing Cdk activity thresholds also in the quantitative model for Cdk control of S phase and mitosis. Progression through S phase and mitosis, like mitotic exit, are irreversible transitions between low and high Cdk activity, or vice versa, reinforced by layers of feedback control (
+    <a>
+     López-Avilés et al., 2009
+    </a>
+    ). Embedded within these irreversible transitions in each case are a series of sequential events. We propose that these are ordered by quantitative differences among the individual Cdk substrates in their respective efficiency as substrate for the kinase and phosphatase. To complete our understanding of cell-cycle control, we need to complement our knowledge of genetic circuits with quantitative information about the biochemical reactions they specify.
+   </p>
+  </sec>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <title>
+    Yeast Strains and In Vivo Experiments
+   </title>
+   <p>
+    All strains used in this study were isogenic to W303 and are listed in the
+    <a>
+     Extended Experimental Procedures
+    </a>
+    . Epitope tagging of endogenous genes was performed by gene targeting using polymerase chain reaction (PCR) products (
+    <a>
+     Knop et al., 1999
+    </a>
+    ). Cell synchronization in G1, metaphase arrest by depletion of Cdc20 under control of the
+    <em>
+     MET3
+    </em>
+    promoter, and ectopic expression of Cdc14 under control of the
+    <em>
+     GAL1
+    </em>
+    promoter were as described (
+    <a>
+     Sullivan et al., 2004
+    </a>
+    ). Details of the Clb2/Cdk and Cdc14 activity assays and of the antibodies used for immunofluorescence and western blotting are found in the
+    <a>
+     Extended Experimental Procedures
+    </a>
+    .
+   </p>
+   <title>
+    Recombinant Protein Expression and In Vitro Cdk Substrate Phosphorylation by Clb2/Cdk and Dephosphorylation by Cdc14
+   </title>
+   <p>
+    Purification of Clb2/Cdk from yeast and of Cdc14 after expression in
+    <em>
+     E. coli
+    </em>
+    was based on published procedures (
+    <a>
+     Loog and Morgan, 2005
+    </a>
+    and
+    <a>
+     Wang et al., 2004
+    </a>
+    ). The plasmid for bacterial expression of Fin1 was as described (
+    <a>
+     Woodbury and Morgan, 2007
+    </a>
+    ). The Sli15 expression plasmid was a kind gift from I. Kingston. Ask1 was cloned for bacterial expression using PCR from yeast genomic DNA, whereas a codon-optimized gene for expression of Orc6 in
+    <em>
+     E. coli
+    </em>
+    was in vitro synthesized. Details of the constructs and purification of each protein are contained in the
+    <a>
+     Extended Experimental Procedures
+    </a>
+    .
+   </p>
+   <p>
+    Cdk substrate phosphorylation reactions were carried out in kinase buffer (50 mM Tris/HCl [pH 7.5], 150 mM NaCl, 10 mM MgCl
+    <sub>
+     2
+    </sub>
+    , 0.25 mg/ml BSA, 100 μM ATP, including 0.5 μM γ-
+    <sup>
+     33
+    </sup>
+    P-ATP, 3000 Ci/mmol, Hartmann Analytic, where indicated). Reactions were terminated either by addition of SDS-PAGE loading buffer for analysis of phosphate incorporation by gel electrophoresis, or by addition of 15 mM EDTA if phosphosubstrates were prepared for subsequent dephosphorylation. Cdk substrate dephosphorylation by Cdc14 took place in phosphatase buffer (50 mM Tris/HCl [pH 7.5], 100 mM NaCl). The
+    <a>
+     Extended Experimental Procedures
+    </a>
+    give further details on the in vitro Cdk substrate phosphorylation and dephosphorylation reactions and their analyses.
+   </p>
+  </sec>
+  <sec>
+   <p>
+   </p>
+   <p>
+   </p>
+   <p>
+   </p>
+   <p>
+   </p>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Table S1. Phosphorylation Site Count and Reported Clb5/Clb2 Specificity of the Investigated Cdk Substrates, Related to Figure 2.
+       </a>
+      </p>
+      <p>
+       The number of minimal (S/T-P) and full (S/T-P-x-K/R) Cdk consensus phosphorylation sites contained in the analyzed substrates is tabulated. In addition, evidence from the literature as to the probable number of functionally relevant Cdk phosphorylation sites is listed. Only in the case of Sic1 has an attempt been made to quantify the actual phosphorylation status in vivo (Verma et al., 1997). The last row contains the “Clb5/Clb2 specificity” ratio as determined by Loog and Morgan (2005). For comparison, the Clb5/Clb2 specificity for Sld2 is 14.2.
+      </p>
+      <p>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with PDF files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (16 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <dl>
+     <dd>
+      <span>
+      </span>
+      <a>
+       <img/>
+      </a>
+     </dd>
+     <dd>
+      <p>
+       <a>
+        Document S1. Article plus Supplemental Information.
+       </a>
+      </p>
+     </dd>
+     <dd>
+      <div>
+       <a>
+        Help with PDF files
+       </a>
+      </div>
+      <div>
+       <a>
+        Options
+       </a>
+       <div>
+       </div>
+      </div>
+      <ul>
+       <li>
+        <a>
+         Download file (1928 K)
+        </a>
+       </li>
+      </ul>
+     </dd>
+    </dl>
+   </div>
+   <p>
+   </p>
+   <p>
+   </p>
+  </sec>
+  <sec>
+   <title>
+    References
+   </title>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Coudreuse and Nurse, 2010
+        </a>
+       </li>
+       <li>
+        D. Coudreuse, P. Nurse
+       </li>
+       <li>
+        <p>
+         Driving the cell cycle with a minimal CDK control network
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 468 (2010), pp. 1074–1079
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref1'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Culotti and Hartwell, 1971
+        </a>
+       </li>
+       <li>
+        J. Culotti, L.H. Hartwell
+       </li>
+       <li>
+        <p>
+         Genetic control of the cell division cycle in yeast. 3. Seven genes controlling nuclear division
+        </p>
+       </li>
+       <li>
+        <p>
+         Exp. Cell Res., 67 (1971), pp. 389–401
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref2'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Drapkin et al., 2009
+        </a>
+       </li>
+       <li>
+        B.J. Drapkin, Y. Lu, A.L. Procko, B.L. Timney, F.R. Cross
+       </li>
+       <li>
+        <p>
+         Analysis of the mitotic exit control system using locked levels of stable mitotic cyclin
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Syst. Biol., 5 (2009), p. 328
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref3'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Errico et al., 2010
+        </a>
+       </li>
+       <li>
+        A. Errico, K. Deshmukh, Y. Tanaka, A. Pozniakovsky, T. Hunt
+       </li>
+       <li>
+        <p>
+         Identification of substrates for cyclin dependent kinases
+        </p>
+       </li>
+       <li>
+        <p>
+         Adv. Enzyme Regul., 50 (2010), pp. 375–399
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref4'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Fang et al., 1998
+        </a>
+       </li>
+       <li>
+        G. Fang, H. Yu, M.W. Kirschner
+       </li>
+       <li>
+        <p>
+         Direct binding of CDC20 protein family members activates the anaphase-promoting complex in mitosis and G1
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 2 (1998), pp. 163–171
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref5'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Ghaemmaghami et al., 2003
+        </a>
+       </li>
+       <li>
+        S. Ghaemmaghami, W.K. Huh, K. Bower, R.W. Howson, A. Belle, N. Dephoure, E.K. O'Shea, J.S. Weissman
+       </li>
+       <li>
+        <p>
+         Global analysis of protein expression in yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 425 (2003), pp. 737–741
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref6'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Gray et al., 2003
+        </a>
+       </li>
+       <li>
+        C.H. Gray, V.M. Good, N.K. Tonks, D. Barford
+       </li>
+       <li>
+        <p>
+         The structure of the cell cycle protein Cdc14 reveals a proline-directed protein phosphatase
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 22 (2003), pp. 3524–3535
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref7'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Guacci et al., 1994
+        </a>
+       </li>
+       <li>
+        V. Guacci, E. Hogan, D. Koshland
+       </li>
+       <li>
+        <p>
+         Chromosome condensation and sister chromatid pairing in budding yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Biol., 125 (1994), pp. 517–530
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref8'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Higuchi and Uhlmann, 2005
+        </a>
+       </li>
+       <li>
+        T. Higuchi, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         Stabilization of microtubule dynamics at anaphase onset promotes chromosome segregation
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 433 (2005), pp. 171–176
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref9'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Jaspersen et al., 1999
+        </a>
+       </li>
+       <li>
+        S.L. Jaspersen, J.F. Charles, D.O. Morgan
+       </li>
+       <li>
+        <p>
+         Inhibitory phosphorylation of the APC regulator Hct1 is controlled by the kinase Cdc28 and the phosphatase Cdc14
+        </p>
+       </li>
+       <li>
+        <p>
+         Curr. Biol., 9 (1999), pp. 227–236
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref10'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Jin et al., 2008
+        </a>
+       </li>
+       <li>
+        F. Jin, H. Liu, F. Liang, R. Rizkallah, M.M. Hurt, Y. Wang
+       </li>
+       <li>
+        <p>
+         Temporal control of the dephosphorylation of Cdk substrates by mitotic exit pathways in budding yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 105 (2008), pp. 16177–16182
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref11'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Juang et al., 1997
+        </a>
+       </li>
+       <li>
+        Y.L. Juang, J. Huang, J.M. Peters, M.E. McLaughlin, C.Y. Tai, D. Pellman
+       </li>
+       <li>
+        <p>
+         APC-mediated proteolysis of Ase1 and the morphogenesis of the mitotic spindle
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 275 (1997), pp. 1311–1314
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref12'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Knop et al., 1999
+        </a>
+       </li>
+       <li>
+        M. Knop, K. Siegers, G. Pereira, W. Zachariae, B. Winsor, K. Nasmyth, E. Schiebel
+       </li>
+       <li>
+        <p>
+         Epitope tagging of yeast genes using a PCR-based strategy: more tags and improved practical routines
+        </p>
+       </li>
+       <li>
+        <p>
+         Yeast, 15 (10B) (1999), pp. 963–972
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref13'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Loog and Morgan, 2005
+        </a>
+       </li>
+       <li>
+        M. Loog, D.O. Morgan
+       </li>
+       <li>
+        <p>
+         Cyclin specificity in the phosphorylation of cyclin-dependent kinase substrates
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 434 (2005), pp. 104–108
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref14'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         López-Avilés et al., 2009
+        </a>
+       </li>
+       <li>
+        S. López-Avilés, O. Kapuy, B. Novák, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         Irreversibility of mitotic exit is the consequence of systems-level feedback
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 459 (2009), pp. 592–595
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref15'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Mendoza et al., 2009
+        </a>
+       </li>
+       <li>
+        M. Mendoza, C. Norden, K. Durrer, H. Rauter, F. Uhlmann, Y. Barral
+       </li>
+       <li>
+        <p>
+         A mechanism for chromosome segregation sensing by the NoCut checkpoint
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Cell Biol., 11 (2009), pp. 477–483
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref16'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Mirchenko and Uhlmann, 2010
+        </a>
+       </li>
+       <li>
+        L. Mirchenko, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         Sli15(
+         <sup>
+          INCENP
+         </sup>
+         ) dephosphorylation prevents mitotic checkpoint reengagement due to loss of tension at anaphase onset
+        </p>
+       </li>
+       <li>
+        <p>
+         Curr. Biol., 20 (2010), pp. 1396–1401
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref17'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Mochida et al., 2009
+        </a>
+       </li>
+       <li>
+        S. Mochida, S. Ikeo, J. Gannon, T. Hunt
+       </li>
+       <li>
+        <p>
+         Regulated activity of PP2A-B55 δ is crucial for controlling entry into and exit from mitosis in
+         <em>
+          Xenopus
+         </em>
+         egg extracts
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 28 (2009), pp. 2777–2785
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref18'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Mohl et al., 2009
+        </a>
+       </li>
+       <li>
+        D.A. Mohl, M.J. Huddleston, T.S. Collingwood, R.S. Annan, R.J. Deshaies
+       </li>
+       <li>
+        <p>
+         Dbf2-Mob1 drives relocalization of protein phosphatase Cdc14 to the cytoplasm during exit from mitosis
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Biol., 184 (2009), pp. 527–539
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref19'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Murray and Kirschner, 1989
+        </a>
+       </li>
+       <li>
+        A.W. Murray, M.W. Kirschner
+       </li>
+       <li>
+        <p>
+         Dominoes and clocks: the union of two views of the cell cycle
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 246 (1989), pp. 614–621
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref20'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Nguyen et al., 2001
+        </a>
+       </li>
+       <li>
+        V.Q. Nguyen, C. Co, J.J. Li
+       </li>
+       <li>
+        <p>
+         Cyclin-dependent kinases prevent DNA re-replication through multiple mechanisms
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 411 (2001), pp. 1068–1073
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref21'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Nikolova et al., 2008
+        </a>
+       </li>
+       <li>
+        N. Nikolova, K. Tenekedjiev, K. Kolev
+       </li>
+       <li>
+        <p>
+         Uses and misuses of progress curve analysis in enzyme kinetics
+        </p>
+       </li>
+       <li>
+        <p>
+         Cent. Eur. J. Biol., 3 (2008), pp. 345–350
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref22'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Noton and Diffley, 2000
+        </a>
+       </li>
+       <li>
+        E. Noton, J.F.X. Diffley
+       </li>
+       <li>
+        <p>
+         CDK inactivation is the only essential function of the APC/C and the mitotic exit network proteins for origin resetting during mitosis
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 5 (2000), pp. 85–95
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref23'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Pereira and Schiebel, 2003
+        </a>
+       </li>
+       <li>
+        G. Pereira, E. Schiebel
+       </li>
+       <li>
+        <p>
+         Separase regulates INCENP-Aurora B anaphase spindle function through Cdc14
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 302 (2003), pp. 2120–2124
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref24'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Queralt and Uhlmann, 2008
+        </a>
+       </li>
+       <li>
+        E. Queralt, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         Cdk-counteracting phosphatases unlock mitotic exit
+        </p>
+       </li>
+       <li>
+        <p>
+         Curr. Opin. Cell Biol., 20 (2008), pp. 661–668
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref25'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Queralt et al., 2006
+        </a>
+       </li>
+       <li>
+        E. Queralt, C. Lehane, B. Novak, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         Downregulation of PP2A(
+         <sup>
+          Cdc55
+         </sup>
+         ) phosphatase by separase initiates mitotic exit in budding yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 125 (2006), pp. 719–732
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref26'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Rape et al., 2006
+        </a>
+       </li>
+       <li>
+        M. Rape, S.K. Reddy, M.W. Kirschner
+       </li>
+       <li>
+        <p>
+         The processivity of multiubiquitination by the APC determines the order of substrate degradation
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 124 (2006), pp. 89–103
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref27'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Schwob and Nasmyth, 1993
+        </a>
+       </li>
+       <li>
+        E. Schwob, K. Nasmyth
+       </li>
+       <li>
+        <p>
+         CLB5 and CLB6, a new pair of B cyclins involved in DNA replication in Saccharomyces cerevisiae
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 7 (7A) (1993), pp. 1160–1175
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref28'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Shirayama et al., 1999
+        </a>
+       </li>
+       <li>
+        M. Shirayama, A. Tóth, M. Gálová, K. Nasmyth
+       </li>
+       <li>
+        <p>
+         APC(
+         <sup>
+          Cdc20
+         </sup>
+         ) promotes exit from mitosis by destroying the anaphase inhibitor Pds1 and cyclin Clb5
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 402 (1999), pp. 203–207
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref29'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Stegmeier et al., 2002
+        </a>
+       </li>
+       <li>
+        F. Stegmeier, R. Visintin, A. Amon
+       </li>
+       <li>
+        <p>
+         Separase, polo kinase, the kinetochore protein Slk19, and Spo12 function in a network that controls Cdc14 localization during early anaphase
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 108 (2002), pp. 207–220
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref30'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Stern and Nurse, 1996
+        </a>
+       </li>
+       <li>
+        B. Stern, P. Nurse
+       </li>
+       <li>
+        <p>
+         A quantitative model for the cdc2 control of S phase and mitosis in fission yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         Trends Genet., 12 (1996), pp. 345–350
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref31'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Sullivan and Uhlmann, 2003
+        </a>
+       </li>
+       <li>
+        M. Sullivan, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         A non-proteolytic function of separase links the onset of anaphase to mitotic exit
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Cell Biol., 5 (2003), pp. 249–254
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref32'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Sullivan et al., 2004
+        </a>
+       </li>
+       <li>
+        M. Sullivan, T. Higuchi, V.L. Katis, F. Uhlmann
+       </li>
+       <li>
+        <p>
+         Cdc14 phosphatase induces rDNA condensation and resolves cohesin-independent cohesion during budding yeast anaphase
+        </p>
+       </li>
+       <li>
+        <p>
+         Cell, 117 (2004), pp. 471–482
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref33'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Surana et al., 1993
+        </a>
+       </li>
+       <li>
+        U. Surana, A. Amon, C. Dowzer, J.T. McGrew, B. Byers, K. Nasmyth
+       </li>
+       <li>
+        <p>
+         Destruction of the CDC28/CLB mitotic kinase is not required for the metaphase to anaphase transition in budding yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 12 (1993), pp. 1969–1978
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref34'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Ubersax et al., 2003
+        </a>
+       </li>
+       <li>
+        J.A. Ubersax, E.L. Woodbury, P.N. Quang, M. Paraz, J.D. Blethrow, K. Shah, K.M. Shokat, D.O. Morgan
+       </li>
+       <li>
+        <p>
+         Targets of the cyclin-dependent kinase Cdk1
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 425 (2003), pp. 859–864
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref35'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Uhlmann et al., 1999
+        </a>
+       </li>
+       <li>
+        F. Uhlmann, F. Lottspeich, K. Nasmyth
+       </li>
+       <li>
+        <p>
+         Sister-chromatid separation at anaphase onset is promoted by cleavage of the cohesin subunit Scc1
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 400 (1999), pp. 37–42
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref36'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Visintin et al., 1997
+        </a>
+       </li>
+       <li>
+        R. Visintin, S. Prinz, A. Amon
+       </li>
+       <li>
+        <p>
+         <em>
+          CDC20
+         </em>
+         and
+         <em>
+          CDH1
+         </em>
+         : a family of substrate-specific activators of APC-dependent proteolysis
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 278 (1997), pp. 460–463
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref37'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Visintin et al., 1998
+        </a>
+       </li>
+       <li>
+        R. Visintin, K. Craig, E.S. Hwang, S. Prinz, M. Tyers, A. Amon
+       </li>
+       <li>
+        <p>
+         The phosphatase Cdc14 triggers mitotic exit by reversal of Cdk-dependent phosphorylation
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 2 (1998), pp. 709–718
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref38'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Wang et al., 2004
+        </a>
+       </li>
+       <li>
+        W.Q. Wang, J. Bembenek, K.R. Gee, H. Yu, H. Charbonneau, Z.Y. Zhang
+       </li>
+       <li>
+        <p>
+         Kinetic and mechanistic studies of a cell cycle protein phosphatase Cdc14
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Biol. Chem., 279 (2004), pp. 30459–30468
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref39'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Wolf et al., 2006
+        </a>
+       </li>
+       <li>
+        F. Wolf, C. Wandke, N. Isenberg, S. Geley
+       </li>
+       <li>
+        <p>
+         Dose-dependent effects of stable cyclin B1 on progression through mitosis in human cells
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 25 (2006), pp. 2802–2813
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref40'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Woodbury and Morgan, 2007
+        </a>
+       </li>
+       <li>
+        E.L. Woodbury, D.O. Morgan
+       </li>
+       <li>
+        <p>
+         Cdk and APC activities limit the spindle-stabilizing function of Fin1 to anaphase
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Cell Biol., 9 (2007), pp. 106–112
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref41'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Wu et al., 2009
+        </a>
+       </li>
+       <li>
+        J.Q. Wu, J.Y. Guo, W. Tang, C.S. Yang, C.D. Freel, C. Chen, A.C. Nairn, S. Kornbluth
+       </li>
+       <li>
+        <p>
+         PP1-mediated dephosphorylation of phosphoproteins at mitotic exit is controlled by inhibitor-1 and PP1 phosphorylation
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Cell Biol., 11 (2009), pp. 644–651
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref42'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Zhai et al., 2010
+        </a>
+       </li>
+       <li>
+        Y. Zhai, P.Y. Yung, L. Huo, C. Liang
+       </li>
+       <li>
+        <p>
+         Cdc14p resets the competency of replication licensing by dephosphorylating multiple initiation proteins during mitotic exit in budding yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Sci., 123 (2010), pp. 3933–3943
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref43'] = new Array();
+      </script>
+     </li>
+     <title>
+      Supplemental References
+     </title>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Jaspersen et al., 1999
+        </a>
+       </li>
+       <li>
+        Jaspersen, S.L., Charles, J.F., and Morgan, D.O. (1999). Inhibitory phosphorylation of the APC regulator Hct1 is controlled by the kinase Cdc28 and the phosphatase Cdc14. Curr. Biol.
+        <em>
+         9
+        </em>
+        , 227–236.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref44'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Jaspersen and Morgan, 2000
+        </a>
+       </li>
+       <li>
+        Jaspersen, S.L., and Morgan, D.O. (2000). Cdc14 activates Cdc15 to promote mitotic exit in budding yeast. Curr. Biol.
+        <em>
+         10
+        </em>
+        , 615–618.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref45'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Johnson, 2009
+        </a>
+       </li>
+       <li>
+        Johnson, K.A. (2009). Fitting enzyme kinetic data with KinTek Explorer. Methods Enzymol.
+        <em>
+         467
+        </em>
+        , 601–626.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref46'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Li and Elledge, 2003
+        </a>
+       </li>
+       <li>
+        Li, Y., and Elledge, S.J. (2003). The DASH complex component Ask1 is a cell cycle-regulated Cdk substrate in
+        <em>
+         Saccharomyces cerevisiae.
+        </em>
+        Cell Cycle
+        <em>
+         2
+        </em>
+        , 143–148.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref47'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Loog and Morgan, 2005
+        </a>
+       </li>
+       <li>
+        Loog, M., and Morgan, D.O. (2005). Cyclin specificity in the phosphorylation of cyclin-dependent kinase substrates. Nature
+        <em>
+         434
+        </em>
+        , 104–108.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref48'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         López-Avilés et al., 2009
+        </a>
+       </li>
+       <li>
+        López-Avilés, S., Kapuy, O., Novák, B., and Uhlmann, F. (2009). Irreversibility of mitotic exit is the consequence of systems-level feedback. Nature
+        <em>
+         459
+        </em>
+        , 592–595.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref49'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Nguyen et al., 2001
+        </a>
+       </li>
+       <li>
+        Nguyen, V.Q., Co, C., and Li, J.J. (2001). Cyclin-dependent kinases prevent DNA re-replication through multiple mechanisms. Nature
+        <em>
+         411
+        </em>
+        , 1068–1073.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref50'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Pereira and Schiebel, 2003
+        </a>
+       </li>
+       <li>
+        Pereira, G., and Schiebel, E. (2003). Separase regulates INCENP-Aurora B anaphase spindle function through Cdc14. Science
+        <em>
+         302
+        </em>
+        , 2120–2124.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref51'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Taylor et al., 1997
+        </a>
+       </li>
+       <li>
+        Taylor, G.S., Liu, Y., Baskerville, C., and Charbonneau, H. (1997). The activity of Cdc14p, an oligomeric dual specificity protein phosphatase from
+        <em>
+         Saccharomyces cerevisiae
+        </em>
+        , is required for cell cycle progression. J. Biol. Chem.
+        <em>
+         272
+        </em>
+        , 24054–24063.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref52'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Verma et al., 1997
+        </a>
+       </li>
+       <li>
+        Verma, R., Annan, R.S., Huddleston, M.J., Carr, S.A., Reynard, G., and Deshaies, R.J. (1997). Phosphoregulation of Sic1p by G
+        <sub>
+         1
+        </sub>
+        Cdk required for its degradation and entry into S phase. Science
+        <em>
+         278
+        </em>
+        , 455–460.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref53'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Wang et al., 2004
+        </a>
+       </li>
+       <li>
+        Wang, W.-Q., Bembenek, J., Gee, K.R., Yu, H., Charbonneau, H., and Zhang, Z.-Y. (2004). Kinetic and mechanistic studies of a cell cycle protein phosphatase Cdc14. J. Biol. Chem.
+        <em>
+         279
+        </em>
+        , 30459–30468.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref54'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Woodbury and Morgan, 2007
+        </a>
+       </li>
+       <li>
+        Woodbury, E.L., and Morgan, D.O. (2007). Cdk and APC activities limit the spindle-stabilizing function of Fin1 to anaphase. Nat. Cell Biol.
+        <em>
+         9
+        </em>
+        , 106–112.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref55'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <a>
+         Zachariae et al., 1998
+        </a>
+       </li>
+       <li>
+        Zachariae, W., Schwab, M., Nasmyth, K., and Seufert, W. (1998). Control of cyclin ubiquitination by CDK-regulated binding of Hct1 to the anaphase promoting complex. Science
+        <em>
+         282
+        </em>
+        , 1721–1724.
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref56'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+   <p>
+    Copyright © 2011 Elsevier Inc. All rights reserved.
+   </p>
+  </sec>
+  <sec>
+  </sec>
+ </body>
+</article>

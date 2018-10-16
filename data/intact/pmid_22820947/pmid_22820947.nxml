@@ -1,0 +1,3138 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3442269
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    An N-terminal acidic region of Sgs1 interacts with Rpa70 and recruits Rad53 kinase to stalled forks
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     DNA replication fork stalling poses a major threat to genome stability. This is counteracted in part by the intra-S phase checkpoint, which stabilizes arrested replication machinery, prevents cell-cycle progression and promotes DNA repair. The checkpoint kinase Mec1/ATR and RecQ helicase Sgs1/BLM contribute synergistically to fork maintenance on hydroxyurea (HU). Both enzymes interact with replication protein A (RPA). We identified and deleted the major interaction sites on Sgs1 for Rpa70, generating a mutant called
+     <em>
+      sgs1-
+     </em>
+     r1. In contrast to a helicase-dead mutant of Sgs1,
+     <em>
+      sgs1-
+     </em>
+     r1 did not significantly reduce recovery of DNA polymerase α at HU-arrested replication forks. However, the Sgs1 R1 domain is a target of Mec1 kinase, deletion of which compromises Rad53 activation on HU. Full activation of Rad53 is achieved through phosphorylation of the Sgs1 R1 domain by Mec1, which promotes Sgs1 binding to the FHA1 domain of Rad53 with high affinity. We propose that the recruitment of Rad53 by phosphorylated Sgs1 promotes the replication checkpoint response on HU. Loss of the R1 domain increases lethality selectively in cells lacking Mus81, Slx4, Slx5 or Slx8.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     intra-S checkpoint, RPA, replication stress, Rad53, Sgs1
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The accurate replication of DNA and its segregation into daughter cells is aided by the intra-S checkpoint, which is triggered by the single-stranded DNA (ssDNA) that accumulates when DNA polymerases pause, either due to reduced nucleotide concentration or due to the presence of adducts that impair fork progression. Avoidance of fork collapse is mediated both by the Mec1/ATR kinase and by the action of a RecQ helicase, which reverses fold-back structures and resolves strand exchange to suppress inappropriate recombination events. Resumption of replication generally requires that engaged DNA polymerases remain associated with paused forks, which in wild-type yeast cells can persist for many hours (reviewed in
+    <xref ref-type="bibr">
+     Cobb and Bjergbaek, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tourriere and Pasero, 2007
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Aguilera and Gomez-Gonzalez, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    The checkpoint kinase Mec1-Ddc2 in
+    <em>
+     S. cerevisiae
+    </em>
+    (ATR-ATRIP in humans) plays two critical roles in this event (reviewed in
+    <xref ref-type="bibr">
+     Cimprich and Cortez, 2008
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Friedel et al, 2009
+    </xref>
+    ). First, Mec1-Ddc2 regulates replisome function and enables the stable retention of replicative polymerases at very early origins like ARS607 (
+    <xref ref-type="bibr">
+     Cobb et al, 2003
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     De Piccoli et al, 2012
+    </xref>
+    ). Second, it modifies and activates Rad53, the downstream checkpoint kinase that in turn retards cell-cycle progression, regulates levels of dNTPs and repair enzymes, represses the firing of late origins, and prevents fork collapse through poorly identified pathways (reviewed in
+    <xref ref-type="bibr">
+     Tourriere and Pasero, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Segurado and Diffley, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    The activation of Mec1/Ddc2 kinase under restricted nucleotide conditions (0.2 M hydroxyurea, HU) most likely stems from the stalling of leading and/or lagging strand DNA polymerases, which generates stretches of ssDNA. These become coated by replication protein A (RPA;
+    <xref ref-type="bibr">
+     Aparicio et al, 1999
+    </xref>
+    ), which signals the recruitment and activation of Mec1-Ddc2 checkpoint kinase (
+    <xref ref-type="bibr">
+     Zou and Elledge, 2003
+    </xref>
+    ), not unlike the situation at resected double-strand breaks (
+    <xref ref-type="bibr">
+     Dubrana et al, 2007
+    </xref>
+    ). In both budding yeast and mammals, RPA contributes to the recruitment of Mec1/ATR to stalled or damaged replication forks, through its cofactor, Ddc2/ATRIP (
+    <xref ref-type="bibr">
+     Melo et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rouse and Jackson, 2002
+    </xref>
+    ). Intriguingly, RPA is itself a target of Mec1/ATR phosphorylation (
+    <xref ref-type="bibr">
+     Brush et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zou and Elledge, 2003
+    </xref>
+    ).
+   </p>
+   <p>
+    Besides RPA, fork-associated activators of the intra-S phase checkpoint include the 9-1-1 checkpoint clamp and Dbp11/TOPBP1 (
+    <xref ref-type="bibr">
+     Majka et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mordes et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Navadgi-Patil and Burgers, 2008
+    </xref>
+    ), while additional, unidentified co-activators are postulated to exist (
+    <xref ref-type="bibr">
+     Navadgi-Patil and Burgers, 2011
+    </xref>
+    ). Once recruited Mec1/ATR phosphorylates Mrc1/Claspin, which helps activate the downstream effector kinases Rad53/CHK2, or CHK1 in mammalian cells (reviewed in
+    <xref ref-type="bibr">
+     Tourriere and Pasero, 2007
+    </xref>
+    ), possibly by facilitating the contact between Mec1 and its target Rad53 (
+    <xref ref-type="bibr">
+     Chen and Zhou, 2009
+    </xref>
+    ). In mammals, the RecQ helicase BLM was also reported to be a target of ATR/ATM phosphorylation, and to contribute to recovery from replicative stress (
+    <xref ref-type="bibr">
+     Davies et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rao et al, 2005
+    </xref>
+    ).
+   </p>
+   <p>
+    Whereas the Rad53 kinase mediates crucial downstream events in the yeast checkpoint response, Mec1/ATR has a distinct role in stabilizing replicative polymerases, particularly at early firing origins, such as the budding yeast ARS607 or ARS305. This was demonstrated by chromatin immunoprecipitation (ChIP) from cells synchronously arrested in S phase: the recovery of DNA polymerases α and ɛ bound to the replication fork dropped rapidly in cells lacking Mec1, but not in cells lacking Rad53 (
+    <xref ref-type="bibr">
+     Cobb et al, 2003
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ). Similar separation of function was demonstrated in a study of
+    <em>
+     exo1
+    </em>
+    deletion effects on viability in
+    <em>
+     rad53
+    </em>
+    versus
+    <em>
+     mec1
+    </em>
+    mutants (
+    <xref ref-type="bibr">
+     Segurado and Diffley, 2008
+    </xref>
+    ). Nonetheless, a loss of Rad53 triggers an accumulation of both ssDNA (
+    <xref ref-type="bibr">
+     Sogo et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tourriere and Pasero, 2007
+    </xref>
+    ) and recombination intermediates (
+    <xref ref-type="bibr">
+     Lucca et al, 2004
+    </xref>
+    ). Surprisingly, and in contrast to the situation at early firing origins, it was recently reported that the replisome can be recovered largely intact and associated with later firing origins upon replication stress, in cells lacking either Mec1 or Rad53 (
+    <xref ref-type="bibr">
+     De Piccoli et al, 2012
+    </xref>
+    ). These checkpoint kinases were proposed to regulate replication fork progression through multiple targets, including Psf1, a component of the replicative Cdc45-MCM-GINS helicase (
+    <xref ref-type="bibr">
+     De Piccoli et al, 2012
+    </xref>
+    ).
+   </p>
+   <p>
+    RecQ helicases have also been shown to be important for the stable binding of DNA polymerases at stalled replication forks and for efficient fork restart after exposure to HU or aphidicolin (
+    <xref ref-type="bibr">
+     Cobb et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Davies et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bachrati and Hickson, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pirzio et al, 2008
+    </xref>
+    ). Loss of Sgs1, the unique RecQ helicase in budding yeast, leads to a reduced recovery of DNA polymerases at early firing origins, a lower survival rate after exposure to HU (
+    <xref ref-type="bibr">
+     Cobb et al, 2003
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ), and the accumulation of aberrant recombination structures after exposure to MMS (
+    <xref ref-type="bibr">
+     Liberi et al, 2005
+    </xref>
+    ). Indeed,
+    <em>
+     sgs1
+    </em>
+    deficient cells display abnormally high levels of recombination (
+    <xref ref-type="bibr">
+     Watt et al, 1996
+    </xref>
+    ) and spontaneous gross chromosomal rearrangements (GCRs), particularly on HU (
+    <xref ref-type="bibr">
+     Myung and Kolodner, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schmidt and Kolodner, 2006
+    </xref>
+    ). The role of RecQ helicases in resistance to replicative stress is conserved: mutations in three human RecQ helicases (BLM, Bloom's; WRN; Werner's, and RECQ4) cause syndromes associated with a predisposition to cancer and/or genome instability (reviewed by
+    <xref ref-type="bibr">
+     Bachrati and Hickson, 2008
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Ashton and Hickson, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    Genetic studies argue that Sgs1 acts both in complex with Top3 and Rmi1 (
+    <xref ref-type="bibr">
+     Gangloff et al, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Chang et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mullen et al, 2005
+    </xref>
+    ) and alone (reviewed in
+    <xref ref-type="bibr">
+     Bernstein et al, 2010
+    </xref>
+    ). Sgs1 requires Top3 for dissolution of Holliday junctions and for enhancing DNA polymerase at stalled forks (
+    <xref ref-type="bibr">
+     Liberi et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mankouri et al, 2011
+    </xref>
+    ), while it acts independently of Top3 to activate Rad53 in the presence of HU (
+    <xref ref-type="bibr">
+     Bjergbaek et al, 2005
+    </xref>
+    ). Sgs1, like BLM and WRN, also binds Rad51 and RPA, and acts both upstream and downstream of Rad51-mediated strand invasion, to prevent and to resolve recombination intermediates. Finally, synthetic lethal screens link Sgs1 not only to recombination enzymes, but also to enzymes and proteins essential for lagging strand synthesis, such as Pol32, RNase H2 and FEN1/Rad27 (
+    <xref ref-type="bibr">
+     Ooi et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tong et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ii and Brill, 2005
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we focus on the role of Sgs1 at replication forks stalled by HU, which seems to mimic the situation that ensues when forks encounter tight DNA–protein complexes (reviewed in
+    <xref ref-type="bibr">
+     Aguilera and Gomez-Gonzalez, 2008
+    </xref>
+    ). Double mutants in budding yeast have been particularly helpful in elucidating this pathway. Whereas the effects of
+    <em>
+     sgs1
+    </em>
+    Δ are relatively mild (
+    <xref ref-type="bibr">
+     Cobb et al, 2003
+    </xref>
+    ), its combination with
+    <em>
+     mec1
+    </em>
+    -100, an S phase-specific mutation in Mec1, causes extensive fork collapse and a failure of nucleotide incorporation after recovery from acute exposure to HU (
+    <xref ref-type="bibr">
+     Cobb et al, 2005
+    </xref>
+    ). The
+    <em>
+     mec1
+    </em>
+    -100 mutation compromises the intra-S phase checkpoint response, but is able to modify and activate Rad53, triggering the G2/M checkpoint (
+    <xref ref-type="bibr">
+     Paciotti et al, 2001
+    </xref>
+    ). Importantly, and in contrast to the effects of
+    <em>
+     mec1
+    </em>
+    -100, deletion of
+    <em>
+     rad53
+    </em>
+    is not additive with
+    <em>
+     sgs1
+    </em>
+    Δ in GCR or polymerase stability assays. Indeed, neither the loss of checkpoint activity in the
+    <em>
+     rad53
+    </em>
+    -11 mutant nor
+    <em>
+     rad53
+    </em>
+    deletion coupled with
+    <em>
+     sml1
+    </em>
+    Δ affects polymerase recovery by ChIP at early firing origins (
+    <xref ref-type="bibr">
+     Cobb et al, 2003
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2005
+    </xref>
+    ).
+   </p>
+   <p>
+    The fact that Sgs1, Mec1-Ddc2 and DNA pol α all bind RPA, led us to test the hypothesis that Sgs1 influences the association of lagging strand polymerases at stalled forks through its interaction with the ssDNA binding complex. To this end, we mapped the region of Sgs1 that binds RPA and generated a mutant lacking the interaction domain, which we call
+    <em>
+     sgs1-
+    </em>
+    r1. We monitored the status of DNA pol α at stalled forks in mutants lacking the main RPA-interaction domain, with and without Sgs1 helicase activity. We found that the Sgs1 helicase activity and not its RPA interacting domain contributes to the stabilization of engaged DNA pol α/primase at the HU-stalled replication fork. Moreover, we show that Mec1-Ddc2 modifies Sgs1 within the RPA-interaction domain, and that once phosphorylated, Sgs1 has a significant affinity for the FHA1 phospho-threonine binding module of the downstream checkpoint kinase Rad53. We propose that the interaction of Sgs1 and Rad53 contributes to checkpoint kinase activation during replicative stress, independent of the role of Sgs1 helicase activity in stabilizing polymerases at the fork.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Sgs1 interacts with Rpa70 through an acidic region N-terminal of the helicase domain
+    </title>
+    <p>
+     To analyse the role of Sgs1 in stabilizing lagging strand polymerases at stalled forks, we first mapped the Sgs1–RPA interaction site. Sgs1 contains three conserved domains that are characteristic of RecQ helicases: an SF2-type helicase domain, an RQC (RecQ C-terminal) motif and an HRDC (helicase and RNase D C-terminal) domain (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). In addition, a region of unknown structure in the N-terminus of Sgs1 (first 158 aa) has been shown to interact with Top3/Rmi1 (
+     <xref ref-type="bibr">
+      Bennett et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Fricke et al, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Chen and Brill, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Weinstein and Rothstein, 2008
+     </xref>
+     ). There is both an acidic block at aa 664 and a larger acidic region located N-terminal of the helicase domain. Although structure prediction suggests that this region is intrinsically disordered in solution, it has been proposed to help prevent or resolve aberrant recombination structures at MMS-treated forks (
+     <xref ref-type="bibr">
+      Bernstein et al, 2009
+     </xref>
+     ). To see which domain is responsible for binding to RPA, we fused fragments containing the functional domains of Sgs1 to a B42 transactivation domain (B42-AD) and performed yeast two-hybrid (Y2H) analysis with RPA (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Mapping the interaction site between Sgs1 and Rpa70. (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of Sgs1 and its functional domains. Dark and light red—largely disordered acidic region, dark red—sequences that are conserved in close homologues of
+       <em>
+        S. cerevisiae
+       </em>
+       ; other domains labelled in figure. RQC=RecQ C-terminal motif, HRDC=helicase and RNase D C-terminal. Below are the Sgs1 domains used in Y2H experiments, which were fused to the B42 activation domain (B42-AD) in pJG46 and expressed under a galactose-inducible promoter. Numbers indicate the boundaries of the Sgs1 domains in aa. (
+       <strong>
+        B
+       </strong>
+       ) Scheme of the RPA subunits with their functional domains. Rpa70 and Rpa32 were fused to the lexA-DNA binding domain (lexA-DBD) in pGAL-lexA, expressed under a galactose-inducible promoter and subjected to Y2H analysis. N-OB=N-terminal OB fold, DBD=DNA binding domain, 32 C=Rpa32 C-terminus. (
+       <strong>
+        C
+       </strong>
+       ) Y2H analysis between Rpa70 fused to lexA-DBD and Sgs1 fragments fused to B42-AD was performed using a quantitative β-galactosidase assay as described in Materials and methods. Error bars indicate standard error of four or more independent transformants. (
+       <strong>
+        D
+       </strong>
+       ) Y2H analysis between Rpa70 N-OB fused to lexA-DBD and Sgs1 fragments fused to B42-AD with different deletions of the three conserved regions within the RPA binding site. (
+       <strong>
+        E
+       </strong>
+       ,
+       <strong>
+        F
+       </strong>
+       ) Isothermal titration calorimetry (ITC) experiment of Rpa70(3–133) with Sgs1(aa 404–485) and Sgs1(aa 404–560). The dissociation constant (
+       <em>
+        K
+       </em>
+       <sub>
+        d
+       </sub>
+       ), stoichiometry (
+       <em>
+        n
+       </em>
+       ) and molar enthalpy (Δ
+       <em>
+        H
+       </em>
+       ) are indicated within the figure.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     RPA is an evolutionarily conserved heterotrimeric protein, consisting of Rpa70, Rpa32 and Rpa14 (names based on molecular weight, or Rpa1, Rpa2 and Rpa3, based on gene names). The smallest subunit, Rpa14, is believed to mediate protein–protein interaction only within the RPA complex, while Rpa70 and Rpa32 were shown to bind other proteins (
+     <xref ref-type="bibr">
+      Binz et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zou et al, 2006
+     </xref>
+     ). We therefore expressed full-length Rpa70 and Rpa32 fused to the LexA-DNA binding domain (LexA-DBD) under control of a galactose inducible promoter, as bait in the Y2H assay (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). Strong interactions were scored between the largest subunit Rpa70 and the large core of the Sgs1 enzyme (aa 290–1180;
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ), while Rpa32 showed a very weak β-galactosidase signal in the Y2H assay with Sgs1 (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ). A 400-aa fragment containing only the acidic region N-terminal of the Sgs1 helicase domain bound Rpa70 as efficiently as a larger fragment (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). Within this region, we identified three sequences of 35–41 aa by BLAST and Quick2D analysis, which are conserved among close homologues of the
+     <em>
+      S. cerevisiae
+     </em>
+     enzyme (dark red boxes,
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ; aa 404–485, aa 496–536 and aa 565–604). To test the importance of these conserved sequences for the Sgs1–Rpa70 interaction, we removed them by deleting aa 404–604 in the Sgs1-B42-AD construct. Consistently, this deletion abolished Y2H interaction between Rpa70 and Sgs1 (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). Similarly, we mapped the interaction site on Rpa70 by fusing Rpa70 subdomains to the LexA-DBD and monitoring their interaction with the Sgs1(290–1180)-B42-AD fusion. The highest β-galactosidase activity was measured for the N-terminal oligonucleotide binding fold (N-OB) of Rpa70 without the linker region (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sgs1 bears multiple interaction sites for the Rpa70 N-OB fold
+    </title>
+    <p>
+     To see if each conserved repeat within the Sgs1 acidic domain contributed equally to the interaction, we created three Sgs1-B42-AD deletion constructs each lacking only one of the three conserved sequences (Sgs1(290–1180, Δ404–485), Sgs1(290–1180, Δ496–536) and Sgs1(290–1180, Δ565–604)). These constructs were tested for interaction with the Rpa70 N-OB fold (Rpa70(1–133)) by Y2H analysis (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). Deletion of the first or second conserved sequence (Sgs1(290–1180, Δ404–485) or Sgs1(290–1180, Δ496–536)) cut the β-galactosidase signal in half, while deletion of the third conserved sequence (Sgs1(290–1180, Δ565–604)) had no effect. This suggests that Sgs1 binds the RPA70 N-OB fold through two sites, aa 404–485 and aa 496–536. Indeed, deletion of the first two of the three motifs (aa 404–560 in Sgs1-B42-AD), abolished the interaction with the N-OB fold of Rpa70 almost as efficiently as deleting the entire 200 aa region, arguing that two related motifs spanning from aa 404 to 485 and aa 496 to 536, mediate the interaction with Rpa70.
+    </p>
+    <p>
+     We confirmed that these regions of Sgs1 and Rpa70 interact directly by performing an isothermal titration calorimetry (ITC) assay with purified recombinant proteins (
+     <xref ref-type="fig">
+      Figure 1E and F
+     </xref>
+     ). We found that both Sgs1(404–485) and Sgs1(404–560) bound RPA70(3–133) with similar affinity (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =70±20 μM and
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =34±1 μM, respectively). The ITC data suggested differences in the complex stoichiometry (
+     <em>
+      n
+     </em>
+     ) and molar enthalpy (Δ
+     <em>
+      H
+     </em>
+     ) between the two Sgs1 fragments: it appears that the more N-terminal motif of Sgs1 (aa 404–485) binds one molecule of the RPA70 N-OB fold, while the larger domain (aa 404–560) is able to bind two. This suggests that Sgs1 might be able to bind multiple RPA complexes, possibly leading to RPA delivery and/or removal as Sgs1 unwinds duplex DNA.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Sgs1–RPA interaction site is structurally isolated from the helicase domain and its deletion does not affect protein stability
+    </title>
+    <p>
+     To determine whether this region of Sgs1 is also important for interaction with RPA
+     <em>
+      in vivo
+     </em>
+     , we deleted amino acids 404–604 within the
+     <em>
+      SGS1
+     </em>
+     chromosomal locus using a PCR-based allele-replacement technique. The resulting allele (
+     <em>
+      sgs1-
+     </em>
+     r1;
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), C-terminally tagged by 13Myc, is expressed when tested by western blot analysis on whole cell extracts (
+     <xref ref-type="fig">
+      Figure 2B and C
+     </xref>
+     , inputs). The signal for sgs1-r1–13Myc is slightly stronger than for wild-type Sgs1–13Myc, which may either reflect a better blotting efficiency or slightly improved stability. This deletion leaves intact the aa 664 shown to be important for resolving recombination intermediates, and is distinct from the previously published AR2 deletion, which reduced Sgs1 levels (
+     <xref ref-type="bibr">
+      Bernstein et al, 2009
+     </xref>
+     ).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Loss of the acidic region in Sgs1 impairs Sgs1–RPA interaction
+       <em>
+        in vivo
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of
+       <em>
+        sgs1
+       </em>
+       -r1: a new allele generated by deleting the acidic region (aa 404–604) at the endogenous
+       <em>
+        SGS1
+       </em>
+       locus. The deleted region is indicated by a dashed line. Black=acidic block, dark blue=helicase domain, light blue=RQC domain, blue=HRDC domain. (
+       <strong>
+        B
+       </strong>
+       ) Wild type and sgs1-r1 were C-terminally fused to 13Myc epitopes at the endogenous
+       <em>
+        SGS1
+       </em>
+       locus (Sgs1–13Myc; GA-5311, sgs1-r1–13Myc; GA-5313) and expression levels were analysed by western blot with anti-Myc antibody. Non-tagged strain (GA-7249) was used as a negative control. Anti-actin was used to detect Act1 as a loading control. (
+       <strong>
+        C
+       </strong>
+       ) Co-IP of exponentially growing 13Myc-tagged Sgs1 (GA-1759) or sgs1-r1 (GA-5316) with 3HA-tagged Rpa70. Exponentially growing cells were collected for IP using Dynabeads either coupled to monoclonal anti-Myc (AB) or not (ctrl). Western blots were probed with anti-Myc (9E10) for Sgs1 or sgs1-r1 and anti-HA (F-7) for Rpa70. (
+       <strong>
+        D
+       </strong>
+       )
+       <em>
+        sgs1
+       </em>
+       -r1 (GA-4848) and
+       <em>
+        srs2
+       </em>
+       Δ (GA-1805), as well as
+       <em>
+        sgs1
+       </em>
+       -hd (GA-5445) and
+       <em>
+        srs2
+       </em>
+       Δ (GA-5334) mutants were crossed and sporulated and tetrad analysis was performed. (
+       <strong>
+        E
+       </strong>
+       ) Ten-fold serial dilutions of the following strains were plated onto YPAD, ±20 mM or 100 mM HU, 0.005% or 0.033% MMS: GA-1981 (WT), GA-4978 (
+       <em>
+        mec1-
+       </em>
+       100), GA-5457 (
+       <em>
+        sgs1
+       </em>
+       Δ), GA-4967 (
+       <em>
+        sgs1
+       </em>
+       Δ
+       <em>
+        mec1-
+       </em>
+       100), GA-5076 (
+       <em>
+        sgs1-
+       </em>
+       r1), GA-5077 (
+       <em>
+        sgs1-
+       </em>
+       r1
+       <em>
+        mec1-
+       </em>
+       100), GA-5445 (
+       <em>
+        sgs1-
+       </em>
+       hd) and GA-5447 (
+       <em>
+        sgs1-
+       </em>
+       hd
+       <em>
+        mec1-
+       </em>
+       100).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To monitor the interaction of the sgs1-r1 mutant protein with RPA
+     <em>
+      in vivo
+     </em>
+     , we performed co-immunoprecipitation (co-IP) experiments with appropriately tagged proteins. Strains expressing Rpa70–3HA and either 13Myc-tagged Sgs1 or sgs1-r1 were released from G1 phase for 20 min to allow cells to accumulate in S phase. Rpa70–3HA and Sgs1-13Myc were efficiently precipitated as a complex using either anti-Myc antibody (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ) or anti-HA (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). In the sgs1-r1–13Myc precipitation, the efficiency of Rpa70 recovery was reduced roughly two-fold (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), as was the reciprocal recovery (sgs1-r1 by Rpa70,
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). This suggests that the deleted domain indeed mediates Sgs1–RPA interaction
+     <em>
+      in vivo
+     </em>
+     , although other contacts may support interactions in the context of the holo-RPA complex. Indeed, residual binding could be explained by the interaction detected between Sgs1 and Rpa32 (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ), through a site unaffected by the
+     <em>
+      sgs1
+     </em>
+     -r1 mutation, or by an indirect interaction of sgs1-r1–13Myc and Rpa70–3HA to DNA.
+    </p>
+    <p>
+     To ensure that the sgs1-r1 protein retained helicase activity, despite the reduced interaction with RPA, we tested the ability of
+     <em>
+      sgs1-
+     </em>
+     r1 to support growth in a
+     <em>
+      srs2
+     </em>
+     null background. Rothstein and colleagues have shown that the helicase activity of Sgs1 is essential for growth in the absence of the Srs2 helicase (
+     <xref ref-type="bibr">
+      Weinstein and Rothstein, 2008
+     </xref>
+     ). Tetrad analysis confirms that spores containing helicase-dead Sgs1 (K706R or
+     <em>
+      sgs1
+     </em>
+     -hd) in combination with
+     <em>
+      srs2
+     </em>
+     Δ showed almost no growth, while the
+     <em>
+      sgs1
+     </em>
+     -r1
+     <em>
+      srs2
+     </em>
+     Δ double mutant spores grew normally (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). We conclude that
+     <em>
+      sgs1-
+     </em>
+     r1 retains helicase activity, consistent with its weak suppression of
+     <em>
+      top3
+     </em>
+     Δ slow growth (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ).
+    </p>
+    <p>
+     We next tested whether the
+     <em>
+      sgs1-
+     </em>
+     r1 allele yields the same levels of sensitivity to DNA damage as
+     <em>
+      sgs1
+     </em>
+     Δ in drop assays. This assay monitors the capacity of cells to repair DNA damage induced by different genotoxic drugs. Previous work has shown that
+     <em>
+      sgs1
+     </em>
+     Δ is sensitive to low concentrations of the replication fork inhibitor HU and the alkylating agent MMS, and that this phenotype is dramatically enhanced when
+     <em>
+      sgs1
+     </em>
+     Δ is coupled to the S phase-specific Mec1 mutant,
+     <em>
+      mec1-
+     </em>
+     100 (
+     <xref ref-type="bibr">
+      Cobb et al, 2005
+     </xref>
+     ). As described previously, we observed that both
+     <em>
+      sgs1
+     </em>
+     Δ and the helicase-dead mutant
+     <em>
+      sgs1
+     </em>
+     -hd are sensitive to HU and MMS, and show synthetic sensitivity when combined with the
+     <em>
+      mec1
+     </em>
+     -100 allele (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ). This was not observed for the
+     <em>
+      sgs1
+     </em>
+     -r1 mutant, although it did show a mild sensitivity to high concentrations of MMS (0.033% MMS,
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ). Surprisingly, no additive effects were seen when
+     <em>
+      sgs1-
+     </em>
+     r1
+     <em>
+      mec1-
+     </em>
+     100 cells were compared with the single
+     <em>
+      mec1-
+     </em>
+     100 mutant, suggesting that either
+     <em>
+      sgs1-
+     </em>
+     r1 acts on the same pathway as
+     <em>
+      mec1-
+     </em>
+     100 or it simply does not affect survival during persistent replicative stress (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Sgs1 helicase function, but not its R1 domain, stabilizes DNA pol α on HU
+    </title>
+    <p>
+     Given that fork restart after prolonged exposure to HU requires different activities than does growth under persistent damage, we next arrested S-phase cells in 0.2 M HU for 2–6 h, and quantitatively measured cell survival after plating on HU-free YPAD (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Similar to the lack of sensitivity observed on HU-containing plates, we found that
+     <em>
+      sgs1-
+     </em>
+     r1 did not confer sensitivity to this acute HU treatment. Unlike the
+     <em>
+      sgs1
+     </em>
+     Δ
+     <em>
+      mec1
+     </em>
+     -100 or
+     <em>
+      sgs1-
+     </em>
+     hd
+     <em>
+      mec1-
+     </em>
+     100 double mutants (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ), the
+     <em>
+      sgs1-
+     </em>
+     r1
+     <em>
+      mec1
+     </em>
+     -100 combination showed no additive or synergistic effects. This suggested that strong RPA-Sgs1 binding is not crucial for fork recovery after HU-induced replication fork arrest.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       <em>
+        sgs1
+       </em>
+       -r1 does not destabilize DNA pol α from HU-stalled replication forks in contrast to a helicase-deficient
+       <em>
+        sgs1
+       </em>
+       mutant. (
+       <strong>
+        A
+       </strong>
+       ) Recovery from replication fork stalling was monitored as colony outgrowth of cells which were synchronized in G1 by α-factor arrest and released into S phase in the presence of 0.2 M HU for the indicated times. Strains used were GA-1981 (WT), GA-180 (WT
+       <em>
+        rad5
+       </em>
+       -535), GA-5457 (
+       <em>
+        sgs1
+       </em>
+       Δ), GA-4978 (
+       <em>
+        mec1-
+       </em>
+       100), GA-4967 (
+       <em>
+        sgs1
+       </em>
+       Δ
+       <em>
+        mec1-
+       </em>
+       100), GA-5076 (
+       <em>
+        sgs1-
+       </em>
+       r1), GA-4504 (
+       <em>
+        sgs1-
+       </em>
+       r1
+       <em>
+        mec1-
+       </em>
+       100 rad5-
+       <em>
+        535
+       </em>
+       ), GA-5445 (
+       <em>
+        sgs1
+       </em>
+       -hd) and GA-5447 (
+       <em>
+        sgs1-
+       </em>
+       hd
+       <em>
+        mec1-
+       </em>
+       100). 0 min after release indicates G1 phase. (
+       <strong>
+        B
+       </strong>
+       ,
+       <strong>
+        C
+       </strong>
+       ) ChIP was performed on synchronized cultures released into S phase in the presence of 0.2 M HU. 3HA-tagged DNA pol α was precipitated with monoclonal anti-HA antibody (F-7) coupled to Dynabeads. Strains used were GA-4973 (WT), GA-4974 (
+       <em>
+        mec1
+       </em>
+       -100), GA-5055 (
+       <em>
+        sgs1
+       </em>
+       -r1), GA-5075 (
+       <em>
+        sgs1
+       </em>
+       -r1
+       <em>
+        mec1
+       </em>
+       -100), GA-5449 (
+       <em>
+        sgs1
+       </em>
+       -hd) and GA-5451 (
+       <em>
+        sgs1
+       </em>
+       -hd
+       <em>
+        mec1
+       </em>
+       -100). The ChIP data for
+       <em>
+        sgs1
+       </em>
+       Δ and
+       <em>
+        sgs1
+       </em>
+       Δ
+       <em>
+        mec1
+       </em>
+       -100 from
+       <xref ref-type="bibr">
+        Cobb et al (2005)
+       </xref>
+       are shown for comparison (indicated by the dashed lines). The relative enrichment for ARS607 or ARS522 was obtained by normalizing the absolute enrichment at ARS607 or ARS522 for each time point to the absolute enrichment at a locus 14 kb away from ARS607. Mutant strains are indicated using the same colour code as in (
+       <strong>
+        A
+       </strong>
+       ). (
+       <strong>
+        D
+       </strong>
+       ) ChIP was performed as described above using strains GA-4973 (WT), GA-6266 (
+       <em>
+        sgs1
+       </em>
+       -r1-hd), GA-6260 (
+       <em>
+        sgs1
+       </em>
+       -r1-hd
+       <em>
+        mec1
+       </em>
+       -100) and GA-4975 (
+       <em>
+        sgs1
+       </em>
+       Δ
+       <em>
+        mec1
+       </em>
+       -100). (
+       <strong>
+        E
+       </strong>
+       ) Primers (grey bars) used for ChIP that amplify the genomic regions corresponding to the early firing origin ARS607, a region 14 kb away from ARS607 (+14 kb) and the late firing origin ARS522 are shown.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next tested the effects of
+     <em>
+      sgs1
+     </em>
+     -r1 on DNA pol α association at replication forks arrested on HU. We performed ChIP for DNA pol α after synchronizing single and double mutants in G1 and releasing them into S phase in the presence of 0.2 M HU. Over 1 h, the abundance of DNA-bound DNA pol α was quantified by real-time PCR analysis of the recovered DNA, using primers that amplify the early firing origin ARS607 and the late firing origin ARS522 (formerly ARS501;
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ). As a negative control, a primer set placed 14 kb away from ARS607 was analysed and used to normalize the absolute enrichment at ARS607 or ARS522. As previously reported (
+     <xref ref-type="bibr">
+      Cobb et al, 2005
+     </xref>
+     ),
+     <em>
+      sgs1
+     </em>
+     Δ or
+     <em>
+      mec1
+     </em>
+     -100 cells yield lower recoveries of DNA pol α at HU-arrested replication forks (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     , black solid and stippled lines). This effect is additive when both mutations are combined, resulting in complete loss of DNA pol α from the stalled fork (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     , blue stippled line). The
+     <em>
+      sgs1
+     </em>
+     -r1 mutant showed a much weaker displacement of DNA pol α than
+     <em>
+      sgs1
+     </em>
+     Δ, and was not additive when combined with the
+     <em>
+      mec1
+     </em>
+     -100 mutation (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     , second panel). Similar results were obtained, when we scored DNA pol α association at two other early firing origins, ARS306 and ARS606, while ARS603.5, which fires in mid-S phase, displayed a pattern similar to the late origin ARS522 (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ).
+    </p>
+    <p>
+     Because HU treatment activates the intra-S phase checkpoint response, late firing origins like ARS522 are repressed, and show no DNA pol α in wild-type cells (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     , black line). However, due to the compromised intra-S-phase checkpoint in
+     <em>
+      mec1-
+     </em>
+     100 cells, DNA pol α is detected at the late firing origin ARS522, by 40 min on HU (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     , grey line). Interestingly, loss of Sgs1 combined with
+     <em>
+      mec1
+     </em>
+     -100 reduces polymerase recovery at this late origin firing, or else partially maintains repression. However, the
+     <em>
+      sgs1
+     </em>
+     -r1 mutation alone did not promote late origin firing, and was largely epistatic with
+     <em>
+      mec1
+     </em>
+     -100 for late origin activation (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     , second panel). Similar effects were observed at the mid-to-late firing origin ARS603.5 (
+     <a>
+      Supplementary Figure S4
+     </a>
+     ). We conclude that deletion of a major Sgs1–RPA interaction domain has little or no effect on DNA pol α binding at HU-arrested forks, consistent with the colony outgrowth assay in
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     .
+    </p>
+    <p>
+     Given that the R1 deletion did not affect polymerase binding, nor act synergistically with
+     <em>
+      mec1-
+     </em>
+     100 like
+     <em>
+      sgs1
+     </em>
+     Δ, we examined if Sgs1 helicase activity is responsible for these functions. By performing ChIP in the
+     <em>
+      sgs1
+     </em>
+     -hd (K706R) and the
+     <em>
+      sgs1
+     </em>
+     -hd
+     <em>
+      mec1-
+     </em>
+     100 double mutant (
+     <xref ref-type="fig">
+      Figure 3B and C
+     </xref>
+     , third panel), we scored a significant destabilization of DNA pol α at the HU-stalled fork, comparable to
+     <em>
+      sgs1
+     </em>
+     Δ. This shows that the enzymatic activity of Sgs1 helicase is indeed critical for DNA pol α stabilization. However, the
+     <em>
+      sgs1
+     </em>
+     -hd mutation was not additive with
+     <em>
+      mec1
+     </em>
+     -100; the double mutant showed the same level of residual DNA pol α recovery as
+     <em>
+      sgs1
+     </em>
+     -hd alone (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). Thus, whereas
+     <em>
+      sgs1
+     </em>
+     -hd and
+     <em>
+      mec1
+     </em>
+     -100 are synergistic in the recovery assay (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ), they are not with respect to polymerase stability. The
+     <em>
+      sgs1
+     </em>
+     Δ and
+     <em>
+      mec1-
+     </em>
+     100 defects, on the other hand, are additive in both assays (
+     <xref ref-type="bibr">
+      Cobb et al, 2005
+     </xref>
+     ).
+    </p>
+    <p>
+     To see if a strain that carries both the R1 deletion and helicase deficiency in Sgs1 (
+     <em>
+      sgs1
+     </em>
+     -r1-hd) shows even stronger polymerase destabilization, we tested this strain alone and in combination with
+     <em>
+      mec1
+     </em>
+     -100. However,
+     <em>
+      sgs1
+     </em>
+     -r1-hd
+     <em>
+      mec1
+     </em>
+     -100 cells resemble
+     <em>
+      sgs1
+     </em>
+     -r1-hd for polymerase ChIP, with neither completely displacing DNA pol α from ARS607 (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). We conclude that the helicase function of Sgs1, and not its interaction with RPA, is crucial for stabilizing DNA pol α at stalled replication forks. We note that other Sgs1 functions may contribute to lagging strand replisome retention, given that
+     <em>
+      sgs1
+     </em>
+     -r1-hd
+     <em>
+      mec1
+     </em>
+     -100 cells still retain low levels of polymerase on HU-stalled forks. Consistently,
+     <em>
+      sgs1
+     </em>
+     -r1-hd mutants grew better than
+     <em>
+      sgs1
+     </em>
+     Δ cells on 10 mM HU, although both display synergistic lethality with
+     <em>
+      mec1
+     </em>
+     -100 (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The
+     <em>
+      sgs1
+     </em>
+     -r1 mutant is a separation-of-function mutant that does not cause synthetic defects with replication mutants
+    </title>
+    <p>
+     To shed light on the function of the R1 domain within Sgs1, we next compared the behaviour of
+     <em>
+      sgs1
+     </em>
+     Δ and
+     <em>
+      sgs1
+     </em>
+     -r1 in a synthetic lethal screen against a sublibrary of yeast deletion strains. Previously,
+     <xref ref-type="bibr">
+      Collins et al (2007)
+     </xref>
+     had sorted 743
+     <em>
+      S. cerevisiae
+     </em>
+     genes using hierarchical clustering according to the similarity of their genetic interaction profiles, which allowed them to distinguish functionally multi-protein complexes and to group different protein complexes into pathways. We performed a similar epistasis analysis (epistasis miniarray profile, E-MAP), comparing the interaction profiles of
+     <em>
+      sgs1
+     </em>
+     Δ and
+     <em>
+      sgs1
+     </em>
+     -r1 cells with 1536 genes involved in various chromatin functions (
+     <xref ref-type="bibr">
+      Guénole et al, under review
+     </xref>
+     ). For this, we created four sets of double mutants in two independent experiments using a high-throughput setup (
+     <xref ref-type="bibr">
+      Schuldiner et al, 2006
+     </xref>
+     ). Genetic interactions were quantified by calculating scores based on colony sizes of double mutants (
+     <xref ref-type="bibr">
+      Collins et al, 2006
+     </xref>
+     ). Threshold levels of genetic interaction scores equal or lower than −2 and equal or higher than +2 were used to define negative (synthetically sick, blue) or positive (epistatic or suppressive, yellow) genetic interactors. In
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , we list genes showing genetic interaction with either
+     <em>
+      sgs1
+     </em>
+     Δ or
+     <em>
+      sgs1
+     </em>
+     -r1 in two independent experiments (bold), and genes that were previously shown to be synthetically lethal with
+     <em>
+      sgs1
+     </em>
+     Δ (in red;
+     <xref ref-type="bibr">
+      Ooi et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Tong et al, 2004
+     </xref>
+     ), along with other genes falling within the relevant functional clusters (
+     <xref ref-type="bibr">
+      Collins et al, 2007
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       <em>
+        sgs1
+       </em>
+       -r1 does not interact genetically with lagging strand replication machinery. (
+       <strong>
+        A
+       </strong>
+       ) Genetic interaction profiles of
+       <em>
+        sgs1
+       </em>
+       Δ and
+       <em>
+        sgs1
+       </em>
+       -r1 were determined by crossing with a strain library comprising 1536 knockout alleles (
+       <xref ref-type="bibr">
+        Guénole et al, under review
+       </xref>
+       ) and measuring growth of resulting double mutants as described in Materials and methods. Genetic interaction scores (GIS) of selected double mutants obtained from two independent experiments are depicted by colour (positive (yellow)=epistatic/suppressive, negative (blue)=synthetically sick). Genes were sorted into functional groups as performed earlier (
+       <xref ref-type="bibr">
+        Collins et al, 2007
+       </xref>
+       ). Bold represents the mutant genes with GIS above threshold (−2 for negative or +2 for positive interactions) for double mutants with
+       <em>
+        sgs1
+       </em>
+       Δ and/or
+       <em>
+        sgs1
+       </em>
+       -r1 in two independent screens. Red represents gene deletions previously reported as synthetically lethal with
+       <em>
+        sgs1
+       </em>
+       Δ (
+       <xref ref-type="bibr">
+        Tong et al, 2001
+       </xref>
+       ). Genes marked with ‡ were previously reported to be a target of checkpoint kinases (
+       <xref ref-type="bibr">
+        Chen et al, 2010
+       </xref>
+       ). Mus81 (*) was reported to be a target of
+       <em>
+        S. pombe
+       </em>
+       Cds1 (
+       <em>
+        S. cerevisiae
+       </em>
+       Rad53) (
+       <xref ref-type="bibr">
+        Kai et al, 2005
+       </xref>
+       ). The † indicates genes that showed synthetic lethality with
+       <em>
+        sgs1-
+       </em>
+       r1, while o indicates no synthetic lethal interaction. Arrows indicated mutants further analysed in (
+       <strong>
+        B
+       </strong>
+       ). (
+       <strong>
+        B
+       </strong>
+       ) Left: a representative picture of 10-fold serial dilutions of the following strains plated onto YPAD and YPAD with 50 mM HU: GA-1981 (WT), GA-5457 (
+       <em>
+        sgs1
+       </em>
+       Δ), GA-5076 (
+       <em>
+        sgs1
+       </em>
+       -r1), GA-7549 (
+       <em>
+        dia2
+       </em>
+       Δ), GA-7540 (
+       <em>
+        dia2
+       </em>
+       Δ
+       <em>
+        sgs1
+       </em>
+       Δ), GA-7542 (
+       <em>
+        dia2
+       </em>
+       Δ
+       <em>
+        sgs1
+       </em>
+       -r1), GA-7548 (
+       <em>
+        rad27
+       </em>
+       Δ), GA-7530 (
+       <em>
+        rad27
+       </em>
+       Δ
+       <em>
+        sgs1
+       </em>
+       Δ), GA-7532 (
+       <em>
+        rad27
+       </em>
+       Δ
+       <em>
+        sgs1
+       </em>
+       -r1), GA-7498 (
+       <em>
+        pol32
+       </em>
+       Δ), GA-7499 (
+       <em>
+        pol32
+       </em>
+       Δ
+       <em>
+        sgs1
+       </em>
+       -r1) GA-7494 (
+       <em>
+        mus81
+       </em>
+       Δ) and GA-6326 (
+       <em>
+        mus81
+       </em>
+       Δ
+       <em>
+        sgs1
+       </em>
+       -r1). Right: the number of colonies scored on 50 mM HU plates normalized by colony number on YPAD plates. Error bars indicate standard deviation of three independent experiments. (
+       <strong>
+        C
+       </strong>
+       ,
+       <strong>
+        D
+       </strong>
+       ) ChIP of 13Myc-tagged RPA or 3HA-tagged Ddc2 using strains GA-5525 (WT) and GA-5365 (
+       <em>
+        sgs1
+       </em>
+       -r1) as described in
+       <xref ref-type="fig">
+        Figure 3
+       </xref>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In the E-MAP, the
+     <em>
+      sgs1
+     </em>
+     -r1 mutant displayed a distinct interaction profile from either that of
+     <em>
+      sgs1
+     </em>
+     Δ or wild-type cells (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). There are a few clear conclusions from this analysis. Importantly,
+     <em>
+      sgs1
+     </em>
+     -r1 did not display negative interaction with replication mutants. In particular,
+     <em>
+      sgs1
+     </em>
+     -r1 shows mildly improved growth with strains that lack enzymes involved in lagging strand synthesis, such as Rad27, Pol32 and RNAseH2 (
+     <xref ref-type="bibr">
+      Qiu et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Arudchandran et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ii and Brill, 2005
+     </xref>
+     ), whereas the
+     <em>
+      sgs1
+     </em>
+     Δ mutant showed synthetic sickness with these strains, even under non-damaging conditions. Neither query strain scored negatively with genes involved in homologous recombination, perhaps because the screen was performed under non-damaging conditions. Nonetheless, several interactions stand out as having negative synthetic effects with
+     <em>
+      sgs1
+     </em>
+     -r1, namely
+     <em>
+      mus81
+     </em>
+     Δ and
+     <em>
+      wss1
+     </em>
+     Δ. Mus81 works together with Mms4 as a Holliday junction resolvase that is thought to work together with Sgs1–Top3–Rmi1 to process homologous recombination repair (HRR) intermediates that occur behind replication forks (for review,
+     <xref ref-type="bibr">
+      Hickson and Mankouri, 2011
+     </xref>
+     ). Wss1 is a SUMO peptidase associated with Slx5/Slx8, the SUMO-dependent Ubiquitin ligase required for telomere-telomere recombination and recovery from fork collapse (
+     <xref ref-type="bibr">
+      Mullen et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Nagai et al, 2011
+     </xref>
+     ).
+    </p>
+    <p>
+     We confirmed the strongly negative interaction of
+     <em>
+      sgs1
+     </em>
+     -r1 with
+     <em>
+      mus81
+     </em>
+     Δ by generating the double mutant independently. The slow growth phenotype persisted and cells were hypersensitive to HU (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ), while the
+     <em>
+      mus81
+     </em>
+     Δ
+     <em>
+      sgs1
+     </em>
+     Δ strain was synthetic lethal (data not shown and
+     <xref ref-type="bibr">
+      Tong et al, 2001
+     </xref>
+     ). This implicates the R1 domain of Sgs1 in the resolution of, or recovery from, recombination events at the fork, particularly those that might form in the absence of Mus81-Mms4. We note, however, that
+     <em>
+      sgs1
+     </em>
+     -r1 does not aggravate the HRR pathway
+     <em>
+      per se
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , including
+     <em>
+      rad51
+     </em>
+     Δ,
+     <a>
+      Supplementary Figure S6B
+     </a>
+     ). Based on the E-MAP data, we suspected that
+     <em>
+      slx4
+     </em>
+     Δ,
+     <em>
+      slx5
+     </em>
+     Δ,
+     <em>
+      slx8
+     </em>
+     Δ and
+     <em>
+      mre11
+     </em>
+     Δ might also be synthetic lethal with
+     <em>
+      sgs1
+     </em>
+     -r1, since they failed to yield E-MAP results. We crossed strains bearing these null alleles with
+     <em>
+      sgs1
+     </em>
+     -r1 and again tested synthetic lethality. We confirmed that
+     <em>
+      slx4
+     </em>
+     Δ,
+     <em>
+      slx5
+     </em>
+     Δ and
+     <em>
+      slx8
+     </em>
+     Δ are synthetic lethal with
+     <em>
+      sgs1
+     </em>
+     -r1, whereas
+     <em>
+      mre11
+     </em>
+     Δ is not (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ; data not shown). This result suggests that the R1 domain of Sgs1 confers an essential function when cells lack the activity for Slx5/Slx8 SUMO-dependent ubiquitin ligase or the Slx4-Slx1 structure-specific endonuclease. These results are fully consistent with the synthetic lethality observed in the absence of Wss1, which forms a complex with Slx5/Slx8, or of Mus81, which together with Mms4 helps resolve strand-exchange events, in parallel to the Slx4-Slx1 complex (
+     <xref ref-type="bibr">
+      Muñoz-Galván et al, 2012
+     </xref>
+     ). In contrast, even though the loss of topoisomerase I should enhance torsional stress and promote strand exchange, we saw only a minor negative interaction between
+     <em>
+      sgs1
+     </em>
+     -r1 and
+     <em>
+      top1
+     </em>
+     Δ, by E-MAP or in drop assays on HU (
+     <a>
+      Supplementary Figure S6A
+     </a>
+     ).
+    </p>
+    <p>
+     We extended the E-MAP observations to conditions of replicative stress by testing different mutant combinations with
+     <em>
+      sgs1-
+     </em>
+     r1 or
+     <em>
+      sgs1
+     </em>
+     Δ on plates containing HU (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ). Consistently, we saw that combinations of
+     <em>
+      sgs1
+     </em>
+     -r1 with genes that function in lagging strand synthesis (
+     <em>
+      pol32
+     </em>
+     Δ,
+     <em>
+      rad27
+     </em>
+     Δ) do not show negative interactions even on HU, while the corresponding double mutants with
+     <em>
+      sgs1
+     </em>
+     Δ showed either synthetic lethality or synthetic slow growth (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). Similarly, there was no synthetic defect when
+     <em>
+      sgs1
+     </em>
+     -r1 was combined with the deletion mutant of the origin and replication fork associated F-box protein Dia2 (
+     <xref ref-type="bibr">
+      Mimura et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Morohashi et al, 2009
+     </xref>
+     ), either with or without HU (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). Consistent with the ChIP data, we conclude that the
+     <em>
+      sgs1
+     </em>
+     -r1 mutation does not destabilize the stalled replication fork. However,
+     <em>
+      sgs1
+     </em>
+     -r1 is important when cells are deficient for functional complexes that promote replication fork recovery through exchange or invasion of the sister chromatid.
+    </p>
+    <p>
+     Given that the R1 domain of Sgs1 binds RPA, we asked whether the RPA levels at the stalled replication fork might be altered in the
+     <em>
+      sgs1
+     </em>
+     -r1 mutant. However, levels of Myc-tagged RPA at the early origin ARS607 were not changed in
+     <em>
+      sgs1
+     </em>
+     -r1 cells synchronously arrested in S phase by 0.2 M HU (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). RPA was undetectable at the late firing origin ARS522 (
+     <a>
+      Supplementary Figure S7A
+     </a>
+     ). This argues that although RPA–Sgs1 interaction is diminished in
+     <em>
+      sgs1
+     </em>
+     -r1 cells, it neither affects RPA deposition at stalled replication forks, nor the amount of ssDNA generated. Synthetic lethality might also arise through an inability to recruit or activate Mec1-Ddc2. To test this, we performed ChIP for the essential Mec1 cofactor, Ddc2, in both wild-type and
+     <em>
+      sgs1
+     </em>
+     -r1 cells (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S7B
+     </a>
+     ). Again, we detected no change in the level of Mec1-Ddc2 recruitment in the R1 mutant. We conclude that the R1 domain functions, but on a pathway that is essential in the absence of Mus81, Slx4/Slx1 or the Slx5/Slx8/Wss1 ubiquitin conjugating complex.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Sgs1 R1 domain is phosphorylated by Mec1
+     <em>
+      in vitro
+     </em>
+     and
+     <em>
+      in vivo
+     </em>
+    </title>
+    <p>
+     Earlier work had implicated a function of Sgs1 in intra-S phase checkpoint activation, independent of its enzymatic activity (
+     <xref ref-type="bibr">
+      Frei and Gasser, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ). We therefore investigated whether the R1 domain of Sgs1 might be implicated in checkpoint activation, or be a target of Mec1-Ddc2 phosphorylation. Activation of the intra-S phase checkpoint by Mec1 occurs through the phosphorylation of numerous targets containing SQ/TQ motifs. Previous studies report that Mec1 substrates often contain several closely spaced motifs, which are also referred to as SQ/TQ cluster domains (SCDs;
+     <xref ref-type="bibr">
+      Traven and Heierhorst, 2005
+     </xref>
+     ). Such SCDs are defined by at least three SQ/TQ motifs within 100 aa with additional sites within another 100 aa. The human Sgs1 homologues BLM and WRN contain such clusters and are phosphorylated by ATR/ATRIP (
+     <xref ref-type="bibr">
+      Pichierri et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Davies et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rao et al, 2005
+     </xref>
+     ), the human homologue of Mec1-Ddc2.
+    </p>
+    <p>
+     Sequence analysis revealed nine SQ or TQ sites within Sgs1, of which four are clustered in the R1 region (T
+     <sub>
+      451
+     </sub>
+     Q
+     <sub>
+      452
+     </sub>
+     , S
+     <sub>
+      470
+     </sub>
+     Q
+     <sub>
+      471
+     </sub>
+     , S
+     <sub>
+      482
+     </sub>
+     Q
+     <sub>
+      483
+     </sub>
+     , T
+     <sub>
+      585
+     </sub>
+     Q
+     <sub>
+      586
+     </sub>
+     ) with a fifth nearby (S
+     <sub>
+      628
+     </sub>
+     Q
+     <sub>
+      629
+     </sub>
+     ;
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). To test if this domain of Sgs1 was indeed a target for Mec1
+     <em>
+      in vitro
+     </em>
+     , we expressed Sgs1 aa 404–604 in bacteria and challenged it with kinase immunoprecipitated from a yeast strain expressing an epitope-tagged Mec1. A parallel precipitate from a yeast strain lacking the 18Myc tag was used as a control (
+     <xref ref-type="fig">
+      Figure 5B and C
+     </xref>
+     ). The Sgs1(404–604) domain is a robust substrate for Mec1–Myc phosphorylation (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). We could significantly reduce the phosphate incorporation into the domain by adding the Mec1/Tel1 inhibitor caffeine to the
+     <em>
+      in-vitro
+     </em>
+     reaction, while the background phosphorylation in a non-tagged strain was not caffeine sensitive.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Mec1 targets the RPA-interacting site on Sgs1
+       <em>
+        in vitro
+       </em>
+       and
+       <em>
+        in vivo
+       </em>
+       . (
+       <strong>
+        A
+       </strong>
+       ) Schematic representation of Sgs1 with its functional domains. Mec1/Tel1 consensus target sites are indicated by red arrows, while asterisks tag phospho-acceptor sites mutated to A or E. (
+       <strong>
+        B
+       </strong>
+       ) Exponentially growing GA-1456 (Mec1–18Myc) and GA-426 (non-tagged) cells were exposed for 1 h to 0.1% MMS. After cell lysis, Mec1–18Myc was precipitated using anti-Myc coupled Sepharose beads and analysed by western blot. (
+       <strong>
+        C
+       </strong>
+       ) Kinase assay using Mec1–18Myc or control immunoprecipitates (non-tagged lysates). Sgs1 peptides (aa 404–604) were used as substrates in the presence of γ-
+       <sup>
+        32
+       </sup>
+       P-ATP and analysed by gel electrophoresis and autoradiography. Where indicated, 30 mM caffeine was added to the reaction to inhibit Mec1. Mutant Sgs1 peptides were as follows: 4A=Sgs1(404–604-T451A-S470A-S482A-T585A) or 3E=Sgs1(404–604-T451E-S470E-S482E)
+       <sup>
+        32
+       </sup>
+       P autoradiography and Coomassie Brilliant Blue (CB) staining are shown. (
+       <strong>
+        D
+       </strong>
+       ) Exponentially growing GA-6402 (Sgs1–13Myc) cells were exposed for 2 h to 0.2 M HU. Native extracts were treated with phosphatase and/or phosphatase inhibitors as described in Materials and methods and subjected to western blot analysis using anti-Myc antibody. A denatured extract of GA-6403 (Sgs1–13Myc
+       <em>
+        mec1
+       </em>
+       Δ) cells treated as described in (
+       <strong>
+        E
+       </strong>
+       ) was loaded as a control. (
+       <strong>
+        E
+       </strong>
+       ) Cells were synchronized in G1 by α-factor arrest and released into S phase in the presence of 0.2 M HU for 60 min. Protein extracts were analysed by western blot using anti-Myc antibody. Strains used were GA-6402 (Sgs1–13Myc), GA-6403 (Sgs1–13Myc
+       <em>
+        mec1
+       </em>
+       Δ), GA-7485 (sgs1-4A–13Myc) and GA-5313 (sgs1-r1–13Myc).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next mutated the SQ/TQ motifs in this region and purified substrates with either alanine or glutamate substitutions at the relevant phospho-acceptor sites, generating
+     <em>
+      sgs1-4A
+     </em>
+     (Sgs1(404–604-T451A-S470A-S482A-T585A)) and
+     <em>
+      sgs1-3E
+     </em>
+     (Sgs1(404–604-T451E-S470E-S482E). These mutations efficiently abolished the modification of Sgs1 by precipitated Mec1–18Myc (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). As the
+     <em>
+      sgs1
+     </em>
+     -3E mutant was also sufficient to abrogate Sgs1 phosphorylation
+     <em>
+      in vitro
+     </em>
+     , it is likely that Mec1-Ddc2 targets T
+     <sub>
+      451
+     </sub>
+     , S
+     <sub>
+      470
+     </sub>
+     and/or S
+     <sub>
+      482
+     </sub>
+     .
+    </p>
+    <p>
+     To investigate whether Sgs1 is phosphorylated
+     <em>
+      in vivo
+     </em>
+     , we examined extracts from both wild-type and
+     <em>
+      mec1
+     </em>
+     Δ
+     <em>
+      sml1
+     </em>
+     Δ strains expressing Sgs1–13Myc, after growth for 2 h in 0.2 M HU. Indeed, in wild-type cells a diffuse and more slowly migrating form of Sgs1–13Myc was observed, that was not detected in cells lacking Mec1 (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ), or in wild-type cells not treated with HU (data not shown). Treatment of the cell lysate with phosphatase eliminated the presence of the slower migrating band, while the addition of both phosphatase and phosphatase inhibitors restored the signal. We conclude that the slower migrating band of Sgs1 reflects a phosphorylated form, generation of which requires Mec1 kinase.
+    </p>
+    <p>
+     We next asked whether Mec1 indeed targets the R1 region of Sgs1, by expressing Myc-tagged versions of wild-type Sgs1, and mutant forms bearing either the four S/T mutations (sgs1-4A–13Myc) or a deletion of the entire R1 domain (sgs1-r1–13Myc). We examined the shift in mobility in cells that were first synchronized in G1 and released into medium containing 0.2 M HU. A strain lacking Mec1 kinase (
+     <em>
+      mec1
+     </em>
+     Δ
+     <em>
+      sml1
+     </em>
+     Δ) was used as a control (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ). Sgs1–13Myc did not show a shift in G1-arrested
+     <em>
+      MEC1
+     </em>
+     cells, while the slower migrating, phosphorylated form was evident in cells exposed to HU (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ). The phosphorylation of Sgs1 was lost in
+     <em>
+      mec1
+     </em>
+     Δ
+     <em>
+      sml1
+     </em>
+     Δ cells exposed to HU, and importantly, also greatly diminished in both the
+     <em>
+      sgs1-
+     </em>
+     4A–13Myc and
+     <em>
+      sgs1
+     </em>
+     -r1–13Myc mutants (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ). We detected a residual shift in the sgs1-4A–13Myc and sgs1-r1–13Myc, which may be explained by phosphorylation outside of the R1 domain. Indeed, our own LC-MS/MS data and data of
+     <xref ref-type="bibr">
+      (Bodenmiller et al, 2008
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2010)
+     </xref>
+     indicate that Sgs1 may be phosphorylated either on residue 1221/1222/1223 (
+     <a>
+      Supplementary Table S2
+     </a>
+     ) or on residues 348, 1268 or in peptide aa 605–619. These Sgs1 phospho-acceptor sites are not typical Mec1 target sites as they lack the SQ/TQ consensus, and they may reflect phosphorylation by a kinase downstream of Mec1. Important to note is that the confirmed
+     <em>
+      in-vitro
+     </em>
+     Mec1 target sites within the R1 domain (T
+     <sub>
+      451
+     </sub>
+     and/or S
+     <sub>
+      470
+     </sub>
+     ) are found within a large tryptic cleavage fragment that could not be detected in our MS analysis (47 aa; see
+     <a>
+      Supplementary Table S2
+     </a>
+     ), even when combined chymotryptic and tryptic digestions were used (data not shown). In contrast, S
+     <sub>
+      482
+     </sub>
+     is in a smaller peptide that is not phosphorylated
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+    <p>
+     Earlier work from our laboratory showed that Sgs1 interacts directly with the FHA1 domain of the major Mec1 target and checkpoint kinase, Rad53 (
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ). The FHA1 domain of Rad53 is a phosphopeptide binding module that has a key role for both intra-S checkpoint activation and late origin control (
+     <xref ref-type="bibr">
+      Pike et al, 2004a
+     </xref>
+     ). To determine whether the Mec1-modified R1 domain of Sgs1 is the site of Rad53 interaction, we first employed Y2H assays. We detect a strong interaction between the core Sgs1 fragment (290–1180) and the FHA1 domain of Rad53, which is entirely lost upon deletion of aa 404–604 (
+     <em>
+      sgs1
+     </em>
+     -r1;
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). The Sgs1 subdomain aa 292–661 was sufficient to mediate binding to the Rad53 FHA1 domain, and again, deletion of aa 404–604 ablated interaction with Rad53 FHA1 (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). We also tested a non-phosphorylatable
+     <em>
+      sgs1-
+     </em>
+     4A substitution within the smaller Sgs1 fragment, which gave a 50% drop in β-galactosidase signal, suggesting that phosphorylation is important for high binding affinity, although contacts to flanking residues may contribute to the interaction (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). Given that Y2H assays can detect indirect interactions, we decided to turn to a more quantitative binding assay to evaluate the importance of the Mec1 phosphorylation sites on the Sgs1-Rad53 interaction.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Sgs1 phosphorylation promotes Sgs1-Rad53 interaction. (
+       <strong>
+        A
+       </strong>
+       ) Y2H analysis of Rad53-FHA1 fused to the B42-AD and Sgs1 fragments fused to LexA-DBD, as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       . Asterisks indicate phospho-acceptor sites mutated to alanine. (
+       <strong>
+        B
+       </strong>
+       ) ITC assay of the FHA1 domain of Rad53, Rad53(22–162), and two Sgs1(446–456) peptides, Sgs1 (DDLDPTQDTDY), encompassing either phosphorylated T
+       <sub>
+        451
+       </sub>
+       Q
+       <sub>
+        452
+       </sub>
+       (left panel) or non-phosphorylated T
+       <sub>
+        451
+       </sub>
+       Q
+       <sub>
+        452
+       </sub>
+       (right panel). Parameters as in
+       <xref ref-type="fig">
+        Figure 1E
+       </xref>
+       . (
+       <strong>
+        C
+       </strong>
+       ) Co-IP of 13Myc-tagged Sgs1 (GA-7487), sgs1-4A (GA-7483) or non-tagged Sgs1 (GA-7467) with 9PK-tagged Rad53. Cells were released from G1 (α-factor arrest) for 60 min in the presence of 0.2 M HU and lysed for Dynabead-IP using monoclonal anti-Myc. Western blots were probed with anti-Myc for Sgs1 or sgs1-r1 and anti-PK for Rad53. An anti-PK-cross-reacting 250 kDa protein served as loading control. (
+       <strong>
+        D
+       </strong>
+       ) Quantification of three independent Sgs1-Rad53 co-IP experiments. The unspecific binding (no tag control) signal was subtracted from Rad53-9PK signals in Sgs1- and sgs1-4A IPs, and normalized to Sgs1–13Myc or sgs1-4A–13Myc signals in the IP fractions. Error bars indicate standard deviation. (
+       <strong>
+        E
+       </strong>
+       ) Rad53 activation in GA-1981 (WT), GA-5321 (
+       <em>
+        rad24
+       </em>
+       Δ), GA-5932 (
+       <em>
+        sgs1
+       </em>
+       -4A), GA-5934 (
+       <em>
+        sgs1
+       </em>
+       -4A
+       <em>
+        rad24
+       </em>
+       Δ), GA-5076 (
+       <em>
+        sgs1
+       </em>
+       -r1), GA-5324 (
+       <em>
+        sgs1
+       </em>
+       -r1
+       <em>
+        rad24
+       </em>
+       Δ), GA-1761 (
+       <em>
+        sgs1
+       </em>
+       Δ) and GA-2056 (
+       <em>
+        sgs1
+       </em>
+       Δ
+       <em>
+        rad24
+       </em>
+       Δ). Cells were synchronized in G1 by α-factor arrest and released for 60 min into 0.2 M HU before denatured extract preparation as done previously (
+       <xref ref-type="bibr">
+        Pike et al, 2003
+       </xref>
+       ). Rad53 phosphorylation (Rad53-P) was monitored by western blot with anti-Rad53. (
+       <strong>
+        F
+       </strong>
+       ) Ten-fold serial dilutions of (WT), GA-5321 (
+       <em>
+        rad24
+       </em>
+       Δ), GA-5932 (
+       <em>
+        sgs1
+       </em>
+       -4A), GA-5934 (
+       <em>
+        sgs1
+       </em>
+       -4A
+       <em>
+        rad24
+       </em>
+       Δ), GA-5076 (
+       <em>
+        sgs1
+       </em>
+       -r1), GA-5324 (
+       <em>
+        sgs1
+       </em>
+       -r1
+       <em>
+        rad24
+       </em>
+       Δ), GA-5457 (
+       <em>
+        sgs1
+       </em>
+       Δ) and GA-2056 (
+       <em>
+        sgs1
+       </em>
+       Δ
+       <em>
+        rad24
+       </em>
+       Δ) on YPAD ±50 mM HU, 0.03% MMS, or 40 μg/ml Zeocin.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Using ITC with the FHA1 domain and short Sgs1 peptides that encompass phosphorylated T
+     <sub>
+      451
+     </sub>
+     , S
+     <sub>
+      470
+     </sub>
+     or S
+     <sub>
+      482
+     </sub>
+     (Sgs1(446–456), Sgs1(466–475) and Sgs1(478–487) respectively), we analysed the interaction between these peptides and the minimal FHA1 domain (aa 22–162) comparing phosphorylated and non-phosphorylated acceptor sites. Remarkably, only the Sgs1(446–456) peptide carrying a phosphorylated T
+     <sub>
+      451
+     </sub>
+     Q
+     <sub>
+      452
+     </sub>
+     , and not its unphosphorylated counterpart, bound the FHA1 domain of Rad53 (Rad53(22–162) significantly (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). The phosphorylated Sgs1(446–456) peptide had a dissociation constant
+     <em>
+      K
+     </em>
+     <sub>
+      D
+     </sub>
+     =21±0.2 μM for the FHA1 domain, a value that is similar to that observed between Rpa70(3–133) and Sgs1(404–560) (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). Two other peptides bearing phosphor-serine (S
+     <sub>
+      470
+     </sub>
+     in Sgs1(466–475) and S
+     <sub>
+      482
+     </sub>
+     in Sgs1(478–487)) did not show significant binding to the Rad53 FHA1 domain by ITC (
+     <a>
+      Supplementary Figure S8
+     </a>
+     ), consistent with the demonstrated preference of FHA1 for p-Thr over p-Ser (
+     <xref ref-type="bibr">
+      Durocher et al, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pennell et al, 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     To determine if the phosphorylation of Sgs1 by Mec1 on these residues also mediates Rad53 interaction
+     <em>
+      in vivo
+     </em>
+     , we performed co-IP experiments with strains expressing Rad53-9PK and either Sgs1–13Myc or sgs1-4A–13Myc. A strain lacking the Sgs1–Myc tag was used as a control. Cells were synchronized in G1 and released into 0.2 M HU for 60 min, prior to lysis in buffer with phosphatase inhibitors. Precipitation by anti-Myc antibody, and subsequent western blotting with anti-PK or anti-Myc antibodies, showed that Rad53-9PK and Sgs1–13Myc precipitate efficiently as a complex (
+     <xref ref-type="fig">
+      Figure 6C and D
+     </xref>
+     ). The amount of Rad53-9PK recovered with sgs1-4A–13Myc was &gt;2-fold less than with wild-type Sgs1 (
+     <xref ref-type="fig">
+      Figure 6C and D
+     </xref>
+     ). We conclude that Sgs1 interacts with Rad53 in a phosphorylation-dependent manner, requiring modification on SQ/TQ acceptor sites within its R1 domain. The RPA-interaction site on Sgs1 would thus be targeted by Mec1 after HU-induced replication fork stalling, enabling phospho-T
+     <sub>
+      451
+     </sub>
+     interaction with Rad53.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      sgs1
+     </em>
+     -r1 cells display a defect in Rad53 activation in a
+     <em>
+      rad24
+     </em>
+     background
+    </title>
+    <p>
+     Previous studies have shown that Sgs1 and Rad24 act on parallel pathways to activate Rad53 when cells are exposed to HU during S phase (
+     <xref ref-type="bibr">
+      Frei and Gasser, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ), yet how Sgs1 leads to Rad53 activation is unclear. Since both the helicase activity of Sgs1 and its interaction with Top3 are dispensable for Rad53 activation (
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ), we next examined whether the
+     <em>
+      sgs1
+     </em>
+     -r1 and/or
+     <em>
+      sgs1-
+     </em>
+     4A mutations, which lack the Mec1-dependent phosphorylation sites and show reduced binding to Rad53 in Y2H, ITC and
+     <em>
+      in-vivo
+     </em>
+     assays, have an effect on checkpoint activation.
+    </p>
+    <p>
+     We released G1-synchronized cells into HU-containing media for 30 or 60 min and monitored Rad53 activation on SDS–PAGE. The hyper-phosphorylated, activated form of Rad53 was visualized on western blots as a band with delayed migration (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ). We tested the impact of either
+     <em>
+      sgs1
+     </em>
+     -r1 or
+     <em>
+      sgs1-
+     </em>
+     4A in both wild-type and
+     <em>
+      rad24
+     </em>
+     mutant backgrounds, since Rad24/9-1-1 contributes to checkpoint activation through an alternative pathway in response to fork stalling (
+     <xref ref-type="bibr">
+      Frei and Gasser, 2000
+     </xref>
+     ). Upon release from α factor arrest into HU, Rad53 became phosphorylated, not only in wild-type cells, but also in
+     <em>
+      rad24
+     </em>
+     Δ,
+     <em>
+      sgs1-
+     </em>
+     r1 or
+     <em>
+      sgs1-
+     </em>
+     4A single mutant cells, as well (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ). In the
+     <em>
+      sgs1
+     </em>
+     -r1
+     <em>
+      rad24
+     </em>
+     Δ double mutant, however, the upshift of Rad53 was significantly reduced, as observed in the
+     <em>
+      sgs1
+     </em>
+     Δ
+     <em>
+      rad24
+     </em>
+     Δ mutant. Similarly, the
+     <em>
+      sgs1-
+     </em>
+     4A in combination with
+     <em>
+      rad24
+     </em>
+     Δ showed a strongly impaired upshift of Rad53. Since Mec1-Ddc2 recruitment is not altered in
+     <em>
+      sgs1
+     </em>
+     -r1 cells (
+     <xref ref-type="fig">
+      Figure 4D
+     </xref>
+     ), we conclude that the drop in Rad53 activation likely stems from impaired Rad53 recruitment by Sgs1.
+    </p>
+    <p>
+     Finally, we checked the effect of the Mec1 target sites in Sgs1 by combining the
+     <em>
+      sgs1
+     </em>
+     -4A mutant with
+     <em>
+      mec1
+     </em>
+     -100 or
+     <em>
+      rad24
+     </em>
+     Δ. In a drop assay on media containing HU, cells expressing a non-phosphorylatable sgs1-4A protein, behaved like
+     <em>
+      sgs1
+     </em>
+     -r1 cells: both showed wild-type sensitivity to HU and both were epistatic with
+     <em>
+      mec1
+     </em>
+     -100 (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S9A
+     </a>
+     ). Indeed, when we scored recovery from HU-induced arrest in S phase, the
+     <em>
+      sgs1
+     </em>
+     -4A mutant cells behaved like wild-type cells, even though the synergy of
+     <em>
+      sgs1
+     </em>
+     Δ with
+     <em>
+      mec1
+     </em>
+     -100 was readily reproducible (
+     <a>
+      Supplementary Figure S9B
+     </a>
+     ). This was also true, when we combined
+     <em>
+      sgs1
+     </em>
+     -r1 and
+     <em>
+      sgs1
+     </em>
+     -4A mutant cells with
+     <em>
+      rad24
+     </em>
+     Δ cells in survival assays on HU (
+     <xref ref-type="fig">
+      Figure 6F
+     </xref>
+     ). However, when double mutants were scored on MMS, we found that
+     <em>
+      sgs1
+     </em>
+     -r1 is slightly additive with
+     <em>
+      rad24
+     </em>
+     Δ, and, both alone and in combination with
+     <em>
+      rad24
+     </em>
+     Δ,
+     <em>
+      sgs1
+     </em>
+     -r1 was as sensitive as either
+     <em>
+      rad24
+     </em>
+     Δ or
+     <em>
+      sgs1
+     </em>
+     Δ to Zeocin (
+     <xref ref-type="fig">
+      Figure 6F
+     </xref>
+     ). Surprisingly,
+     <em>
+      sgs1
+     </em>
+     -4A was not, suggesting that the R1 domain contributes more than just assisting checkpoint activation, which was reduced identically in
+     <em>
+      sgs1
+     </em>
+     -r1 and
+     <em>
+      sgs1
+     </em>
+     -4A mutants (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ). This is consistent with the E-MAP data which implicated the R1 domain in the resolution of strand-exchange intermediates that might arise as a result of double-strand breaks. The sensitivity of the
+     <em>
+      sgs1
+     </em>
+     -r1 mutation to Zeocin may reflect both Rad53 recruitment and a downstream function that is partially redundant with Mus81-Mms4 or Slx4-Slx1 (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    RecQ helicases have been implicated in the maintenance of genome stability in multiple pathways, some of which involve the double cross-over resolving activity of Top3, while others do not (
+    <xref ref-type="bibr">
+     Cobb and Bjergbaek, 2006
+    </xref>
+    ). Here, we show that the role of Sgs1 in preserving DNA pol α on the lagging strand at stalled replication forks is largely due to its helicase activity (
+    <xref ref-type="fig">
+     Figure 3
+    </xref>
+    ). Despite the strong affinity shown by Sgs1 for RPA, deletion of a major interaction site within Sgs1 for Rpa70 did not destabilize DNA pol α during HU arrest. On the other hand, we found that the Rpa70-binding domain also mediates interaction with the downstream checkpoint kinase Rad53 (
+    <xref ref-type="fig">
+     Figure 5
+    </xref>
+    ). Given that both
+    <em>
+     in vitro
+    </em>
+    and
+    <em>
+     in vivo
+    </em>
+    this interaction requires the phosphorylation of Sgs1 by the ATR homologue, Mec1, we propose that the Sgs1 phospho-R1-Rad53 interaction occurs only under conditions that activate Mec1-Ddc2, for example, at stalled replication forks.
+   </p>
+   <p>
+    Functional studies confirm the relevance of the interaction between the phosphorylated Sgs1 R1 domain with Rad53 FHA1, a domain of demonstrated importance for intra-S phase checkpoint activation (
+    <xref ref-type="bibr">
+     Boddy et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pike et al, 2004b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Smolka et al, 2006
+    </xref>
+    ). Using appropriate mutants, we show that the R1 domain and the Mec1 phosphorylation sites within this domain contribute to Rad53 activation during fork arrest. This is most obvious in a
+    <em>
+     rad24
+    </em>
+    Δ background. Whether loss of Rad24 leads to a particular type of damage that requires Sgs1-mediated Rad53 recruitment, or whether it simply unmasks the dependence of the event on Sgs1, is unknown. However, our results suggest that the
+    <em>
+     sgs1
+    </em>
+    -r1 mutation neither impairs the generation of ssDNA nor Mec1-Ddc2 recruitment (
+    <xref ref-type="fig">
+     Figure 4C and D
+    </xref>
+    ); nonetheless, it affects Rad53 activation during fork arrest on HU (
+    <xref ref-type="fig">
+     Figure 6E
+    </xref>
+    ). We therefore suggest that the R1 domain of Sgs1, once modified by Mec1, recruits Rad53 to the complex of ssDNA, RPA, Ddc2-Mec1, to facilitate its activation. This demonstrates a non-enzymatic role of Sgs1 in the DNA damage response at stalled forks (
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    ). Sgs1 clearly plays other roles in the pathways leading to replication fork recovery, namely, the helicase-dependent reversal of fold-back structures and the resolution of unproductive strand exchange events behind the fork (reviewed in
+    <xref ref-type="bibr">
+     Bernstein et al, 2010
+    </xref>
+    ).
+   </p>
+   <fig id="f7" position="float">
+    <label>
+     Figure 7
+    </label>    <caption>
+     <p>
+      Multiple roles for Sgs1 helicase at stalled replication forks: reversal of fold-back structures, polymerase stabilization and Rad53 recruitment. (
+      <strong>
+       A
+      </strong>
+      ) Sgs1 helicase activity contributes to the retention of DNA polymerases at stalled replication forks possibly by reversal of fold-back or strand invasion structures between nascent or template strands. The checkpoint kinase Mec1-Ddc2 is recruited to ssDNA coated by RPA and phosphorylates Sgs1 in the R1 domain. The green hexameric ring is the MCM helicase. (
+      <strong>
+       B
+      </strong>
+      ) Sgs1 phosphorylation may shift Sgs1 binding preference from RPA to the Rad53 FHA1 domain. This could recruit Rad53 into close proximity of Mec1-Ddc2 which is associated with stalled forks. Mec1-Ddc2 then phosphorylates Rad53, to activate it and initiate the intra-S phase checkpoint response.
+     </p>
+    </caption>
+   </fig>
+   <sec>
+    <title>
+     Multiple binding sites in a domain upstream of the Sgs1 helicase domain
+    </title>
+    <p>
+     The domain we identify here in Sgs1 as both an RPA and Rad53 binding site is upstream of the helicase domain and overlaps partially with an acidic domain (aa 502–648) implicated in replication fork stability on MMS (
+     <xref ref-type="bibr">
+      Bernstein et al, 2009
+     </xref>
+     ). We define both an RPA-binding region (aa 404–560) and a Rad53-binding motif (aa 446–456), and show by ITC, Y2H interaction and co-IP that the latter interaction is phosphorylation dependent, while the former is not.
+    </p>
+    <p>
+     Both the interaction sites and the Mec1 acceptor sites that we have mapped are distinct from the
+     <em>
+      sgs1
+     </em>
+     -D664Δ point mutant studied by
+     <xref ref-type="bibr">
+      Bernstein et al (2009)
+     </xref>
+     , which partially mimics the larger deletion. Their AR2 deletion does not eliminate the Sgs1-FHA1 interaction site, but may have indirect effects, given that the mutant protein appeared to be unstable. Both the RPA and Rad53 binding activities of Sgs1 are also independent of the Siz1/Siz2 sumoylation site K621 in Sgs1, which remains intact in our mutants, but was removed by the AR2 deletion (SC Teng, personal communication). Nonetheless, the
+     <em>
+      sgs1
+     </em>
+     -r1 mutant shows similar phenotypes as
+     <em>
+      sgs1-
+     </em>
+     AR2Δ or
+     <em>
+      sgs1
+     </em>
+     -D664Δ with respect to HU and MMS sensitivity during continuous growth on plates. Both sets of mutations suppress
+     <em>
+      top3
+     </em>
+     Δ slow growth (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ), and thus retain Sgs1 helicase activity (
+     <xref ref-type="bibr">
+      Bernstein et al, 2009
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      sgs1
+     </em>
+     -hd mutants fail to stabilize the replisome at stalled forks
+    </title>
+    <p>
+     In our attempt to explore the importance of Sgs1–RPA interaction on lagging strand polymerases, we found instead that Sgs1 helicase activity is essential for the maintenance of DNA pol α at ARS607 (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). Additional removal of the R1 domain in the
+     <em>
+      sgs1-
+     </em>
+     r1-hd mutant did not aggravate this effect. This result supports earlier findings from our laboratory suggesting that
+     <em>
+      sgs1
+     </em>
+     -hd expression cannot complement
+     <em>
+      sgs1
+     </em>
+     Δ for DNA pol ɛ stability on HU (
+     <xref ref-type="bibr">
+      Cobb et al, 2003
+     </xref>
+     ). We show by epistasis analysis that
+     <em>
+      sgs1
+     </em>
+     -r1 is a separation of function mutant, because
+     <em>
+      sgs1
+     </em>
+     -r1, unlike
+     <em>
+      sgs1
+     </em>
+     Δ, does not exhibit negative synthetic interaction when combined with replication mutants. Nonetheless, the R1 domain contributes to Rad53 activation on HU, and shows strong synergistic lethality with deletions of
+     <em>
+      mus81
+     </em>
+     ,
+     <em>
+      slx4
+     </em>
+     , or with
+     <em>
+      slx5
+     </em>
+     and/or
+     <em>
+      slx8
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ).
+    </p>
+    <p>
+     These results argue that Sgs1 probably contributes to replication polymerase stability by a dissolution of fold-back structures (i.e., upstream of Mec1 activation) and/or resolution of strand exchange behind the fork (
+     <xref ref-type="bibr">
+      Bennett et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ashton and Hickson, 2010
+     </xref>
+     ). Holliday junction dissolution is especially important for restart of a collapsed fork after DNA damage, which occurs after persistent exposure with MMS or HU in drop assays. Consistently, both Sgs1 helicase activity and its Top3 interaction contribute to DNA repair and survival during prolonged exposure to HU or MMS. This may explain the synthetic lethality observed between
+     <em>
+      sgs1
+     </em>
+     -r1 and
+     <em>
+      mus81
+     </em>
+     Δ and
+     <em>
+      slx4
+     </em>
+     Δ in the E-MAP analysis, since strand exchange is thought to enable the fork restart that is necessary when lesions block leading or lagging strand elongation (
+     <xref ref-type="bibr">
+      Lambert et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Muñoz-Galván et al, 2012
+     </xref>
+     ). Given that these pathways may be controlled by Slx5-Slx8 ubiquitination and subsequent degradation of a factor blocking strand exchange, all E-MAP results are consistent with a contribution of the R1 domain of Sgs1 to this pathway.
+    </p>
+    <p>
+     What, then, is the importance of the Sgs1–RPA interaction? Whereas RPA has been shown to stimulate RecQ helicase activity in human cells (
+     <xref ref-type="bibr">
+      Shen et al, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Machwe et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sowd et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yodh et al, 2009
+     </xref>
+     ), it is not clear that RPA truly promotes unwinding. Direct interaction of RPA with RecQ helicases may alter enzymatic activity through a conformational change or switch in the oligomeric state of the RecQ helicase. It is noteworthy that RPA also counteracts the annealing activity of the RecQ helicase by stabilizing the ssDNA that occurs from unwinding (
+     <xref ref-type="bibr">
+      Bachrati and Hickson, 2008
+     </xref>
+     ). Different Sgs1–RPA disruption mutants or further analysis of the relevant Rpa70 OB fold will be necessary to identify the exact role of Sgs1–RPA interaction for helicase activity and replication fork integrity.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sgs1 R1 domain phosphorylation by Mec1-Ddc2 aids Rad53 activation
+    </title>
+    <p>
+     The most novel aspect of our study is to show how Sgs1 contributes to Rad53 activation during conditions that arrest replication forks. We propose that phosphorylated Sgs1 interacts with the FHA1 domain of Rad53 to promote Rad53 recruitment to sites of damage. We found that Sgs1 is a target of Mec1
+     <em>
+      in vitro
+     </em>
+     and
+     <em>
+      in vivo
+     </em>
+     and we map the phosphorylation sites to the Rad53-interaction domain. Importantly, ITC studies show that the binding of Sgs1(446–456) to Rad53 FHA1 is phospho-threonine dependent, while Sgs1 binding to RPA through the same domain is not. We confirm that mutation of the key Mec1 acceptor sites alters Rad53 activation, Sgs1–Rad53 interaction, and deletion of the domain confers sensitivity to Zeocin. We do not know if phosphorylation of the Sgs1 R1 domain also facilitates Rad53 recruitment to DSBs, but we consider it likely.
+    </p>
+    <p>
+     An additional fork-associated adaptor protein, Mrc1, has been implicated as a bridge between Mec1-Ddc2 and Rad53 activation at stalled replication forks (
+     <xref ref-type="bibr">
+      Alcasabas et al, 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Osborn and Elledge, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Crabbé et al, 2010
+     </xref>
+     ). Indeed,
+     <em>
+      in-vitro
+     </em>
+     checkpoint reconstitution assays have shown that Mrc1 can facilitate the phosphorylation and activation of Rad53 probably by promoting Mec1–Rad53 interaction (
+     <xref ref-type="bibr">
+      Chen and Zhou, 2009
+     </xref>
+     ). A recent study demonstrated that Mec1- but not Rad53-dependent phosphorylation of Mrc1 is necessary for the establishment of a positive feedback loop that leads to Mec1 stabilization at stalled replication forks (
+     <xref ref-type="bibr">
+      Naylor et al, 2009
+     </xref>
+     ). Thus, Mrc1 may act prior to Sgs1 function ensuring Mec1-Ddc2 recruitment to stalled replication forks, which in turn is necessary for Sgs1 phosphorylation (
+     <xref ref-type="bibr">
+      Naylor et al, 2009
+     </xref>
+     ). While Mrc1 and Sgs1 are epistatic for Rad53 activation on HU, they nonetheless show strong synergistic defects for stalled fork recovery and DNA polymerase stability on HU (
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ). This argues that Mrc1, like Sgs1, serves multiple roles at stalled forks. One possible scenario for the synergy observed between Sgs1 and Mrc1 would be that they act preferentially on different strands (the leading versus the lagging strand). Indeed, Mrc1 has been shown to function together with leading strand polymerase pol ɛ (
+     <xref ref-type="bibr">
+      Lou et al, 2008
+     </xref>
+     ).
+    </p>
+    <p>
+     As in yeast, the human RecQ helicase BLM has been shown to be a target of ATR in a region N-terminal of its helicase domain (
+     <xref ref-type="bibr">
+      Davies et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rao et al, 2005
+     </xref>
+     ). Interestingly, the N-terminal region of BLM (aa 1–477) including the ATR-target sites (T
+     <sub>
+      99
+     </sub>
+     Q
+     <sub>
+      100
+     </sub>
+     , T
+     <sub>
+      122
+     </sub>
+     Q
+     <sub>
+      123
+     </sub>
+     ) binds hRPA
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      Davies et al, 2004
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2007
+     </xref>
+     ). In contrast to Sgs1, BLM is not a constitutive component of the replisome, but is recruited from PML bodies to sites of stalled replication forks in response to HU (
+     <xref ref-type="bibr">
+      Sengupta et al, 2003
+     </xref>
+     ). This re-localization requires ATR-dependent phosphorylation of BLM (
+     <xref ref-type="bibr">
+      Davalos et al, 2004
+     </xref>
+     ). It has been suggested that ATR phosphorylation of BLM is required for recovery from HU-mediated replication fork stalling, but not for the recruitment of BLM to damaged forks nor for the suppression of sister chromatid exchanges with hTOPO IIIα-hRMI1-hRMI2 (
+     <xref ref-type="bibr">
+      Davies et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wu, 2007
+     </xref>
+     ).
+     <xref ref-type="bibr">
+      Davies et al (2007)
+     </xref>
+     demonstrated that ATR-dependent phosphorylation of BLM is required for efficient replication fork resumption and repression of new origin firing after aphidicolin treatment. Furthermore, and similar to our findings, the presence of BLM at stalled replication forks is required for robust intra-S phase checkpoint activation in human cells (
+     <xref ref-type="bibr">
+      Franchitto and Pichierri, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Davalos and Campisi, 2003
+     </xref>
+     ). Nonetheless, the mechanisms through which mammalian ATR and BLM work together to maintain replisomes at stalled replication forks and activate the intra-S phase checkpoint are unknown. A conserved, damage-specific assembly of a RecQ homologue (BLM and/or WRN) with a downstream checkpoint kinase is an attractive hypothesis.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Yeast strains and plasmids
+    </title>
+    <p>
+     <em>
+      S. cerevisiae
+     </em>
+     strains (
+     <a>
+      Supplementary Table S1
+     </a>
+     ) were derived from W303-1A (
+     <em>
+      MAT
+     </em>
+     <strong>
+      a
+     </strong>
+     <em>
+      ade2
+     </em>
+     -1
+     <em>
+      ura3
+     </em>
+     -1
+     <em>
+      his3
+     </em>
+     -11
+     <em>
+      ,15 trp1
+     </em>
+     -1
+     <em>
+      leu2-
+     </em>
+     3
+     <em>
+      ,112 can1
+     </em>
+     -100). If not stated otherwise, all strains were cultured at 30°C in YPAD media. The
+     <em>
+      sgs1
+     </em>
+     -r1 allele was generated using pop-in/pop-out mutagenesis as previously described (
+     <xref ref-type="bibr">
+      Tam et al, 2007
+     </xref>
+     ). For Y2H analyses, fragments of Sgs1, Rpa70 and Rpa32 were fused in frame to the B42 activator domain in the pJG46 or the lexA DNA binding domain in the pGAL-lexA vector (
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ). Y2H was performed as described (
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ), except that both bait and prey were under GAL
+     <sub>
+      UAS
+     </sub>
+     control. EGY191 cells (GA-1211) containing the lacZ reporter pSH18-34, the bait and the prey were glucose depleted, then 2% galactose added to the exponentially growing culture to induce expression of the fusion proteins. The quantitative β-galactosidase assay for permeabilized cells (
+     <xref ref-type="bibr">
+      Adams et al, 1997
+     </xref>
+     ) was performed on four independent transformants in at least two independent experiments for each data point. Expression of the fusion proteins was confirmed by western blot analysis (data not shown). β-Galactosidase units are defined as OD
+     <sub>
+      420
+     </sub>
+     /(OD
+     <sub>
+      600
+     </sub>
+     × dilution × time(min)).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Survival and drop assays
+    </title>
+    <p>
+     For liquid survival assays, overnight cultures were diluted to OD
+     <sub>
+      600
+     </sub>
+     =0.15 and grown for 3 h, then synchronized with α-factor in G1 and released into YPAD containing 0.2 M HU. At the indicated time points, relevant dilutions were plated onto fresh YPAD plates and colonies were counted after 3–4 days. Survival is defined as the fraction of colonies compared to the untreated control (0 h) normalized to the survival of WT cells for each time point. Drop tests used overnight cultures diluted to OD
+     <sub>
+      600
+     </sub>
+     =0.5 with 2 μl drops of 10-fold dilutions plated on YPAD or the appropriate selective medium with indicated concentrations of damaging agents.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ChIP analysis, co-IP and kinase assays
+    </title>
+    <p>
+     ChIP experiments were performed as described (
+     <xref ref-type="bibr">
+      Cobb et al, 2005
+     </xref>
+     ) using monoclonal anti-HA (F-7, Santa Cruz) to precipitate HA-tagged DNA pol α or Ddc2, and anti-Myc (9E10) to precipitate Myc-tagged Rpa70. Details are in
+     <a>
+      Supplementary Methods
+     </a>
+     . For each time point, the relative enrichment for ARS607 or ARS522 was obtained by normalizing the absolute enrichment at ARS607 or ARS522 to the absolute enrichment 14 kb away from ARS607.
+    </p>
+    <p>
+     Co-IP was performed essentially as described in
+     <xref ref-type="bibr">
+      Bjergbaek et al (2005)
+     </xref>
+     , except that two additional rounds of washing with 100 mM Tris pH 8.0, 500 mM NaCl, 1 mM EDTA, 0.5% NP-40 and 0.5% sodium deoxycholate were performed. Note that the use of more stringent washing conditions most probably explains why the Sgs1-Rad53 interaction was not dependent on checkpoint induction in the previous study (
+     <xref ref-type="bibr">
+      Bjergbaek et al, 2005
+     </xref>
+     ). Mec1 immunoprecipitation and kinase assays are described in
+     <a>
+      Supplementary Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Rad53 and Sgs1 phosphorylation and mass spectroscopic analysis
+    </title>
+    <p>
+     Conditions used to monitor Rad53 or Sgs1 phosphorylation by western blot and by semi-quantitative mass spectroscopy are described in
+     <a>
+      Supplementary Methods
+     </a>
+     . In brief, peptides were separated by nano-HPLC (Agilent 1100 nanoLC system, Agilent Technologies) coupled to an LTQ Orbitrap Velos hybrid mass spectrometer (Thermo Scientific) using a top 15 DDA method and an LC-MSMS method containing
+     <em>
+      m/z
+     </em>
+     values of predicted phosphopeptides. Peptides were identified by searching SwissProt database (version 2010-09) with Mascot 2.3.0 (Matrix Science). Data were compiled and evaluated with Scaffold 3.4.3 and Scaffold PTM 1.1.3 (Proteome Software).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein purification and ITC
+    </title>
+    <p>
+     The Rad53(22–162) and Rpa70(1–133) and Rpa70(3–133) constructs inserted into a pET15 derived vector, containing a TEV protease cleavable His
+     <sub>
+      6
+     </sub>
+     -tag, and Sgs1 constructs (404–485, 404–560) were amplified and inserted into a pET15 derived vector, containing a thrombin protease cleavable His
+     <sub>
+      6
+     </sub>
+     tag. All were expressed in
+     <em>
+      E. coli
+     </em>
+     BL21 cells and purified by metal chelate affinity (His-Select Nickel Affinity Gel, Sigma-Aldrich), anion-exchange (Resource 15 Q, GE Healthcare), and gel-filtration chromatography (Superdex S-200, GE Healthcare). ITC experiments were conducted with a MicroCal VP-ITC calorimeter as described in
+     <a>
+      Supplementary Methods
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Genetic interactions and sequence analysis
+    </title>
+    <p>
+     GA-6998 (
+     <em>
+      sgs1
+     </em>
+     -r1) and yHA429 (
+     <em>
+      sgs1
+     </em>
+     Δ) cells together with 33 other query strains (data to be published elsewhere) were crossed with a library of 1536 mutants (
+     <xref ref-type="bibr">
+      Guénole et al, under review
+     </xref>
+     ) as described (
+     <xref ref-type="bibr">
+      Schuldiner et al, 2006
+     </xref>
+     ), except that four sets of double mutants were created in two independent experiments. Results and the analysis of the library by pooled TAG amplification are described in
+     <a>
+      Supplementary Methods
+     </a>
+     . Genetic interaction scores (S scores) were calculated using the E-MAP toolbox (
+     <xref ref-type="bibr">
+      Collins et al, 2006
+     </xref>
+     ). The analysis of sequence motifs in Sgs1 is described in
+     <a>
+      Supplementary Methods
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (3.5M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (314K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

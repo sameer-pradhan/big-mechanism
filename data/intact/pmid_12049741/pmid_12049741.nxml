@@ -1,0 +1,3873 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    http://dx.doi.org/10.1016/S1097-2765(02)00532-4
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Rad9 Phosphorylation Sites Couple Rad53 to the Saccharomyces cerevisiae DNA Damage Checkpoint
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    DNA checkpoints attenuate the mutagenicity, genomic instability, and cell lethality resulting from DNA damage. In response to DNA damage, these pathways delay cell cycle progression, increase the transcription of DNA checkpoint, replication, and repair genes, and can activate apoptosis. In addition, DNA checkpoint pathways may directly regulate the DNA repair process. Several checkpoint pathway components are recognized as tumor suppressors, and dysfunction of checkpoint signaling pathways is frequently associated with cancers (reviewed in
+    <xref ref-type="bibr">
+     Zhou and Elledge, 2000
+    </xref>
+    ).
+   </p>
+   <p>
+    DNA checkpoint pathways amplify and transmit the checkpoint signal to the effector pathways through an evolutionarily conserved kinase cascade. The first tier of this cascade involves members of a family of phosphatidylinositol-(3′) kinase-like protein kinases (PIKKs) that includes mammalian
+    <em>
+     ATM
+    </em>
+    ,
+    <em>
+     ATR
+    </em>
+    , and the catalytic subunit of DNA-dependent protein kinase (DNA-PKcs). These PIKKs regulate the activation of two unrelated effector checkpoint kinases (Chks), represented by mammalian Chk1 and Chk2 (reviewed in
+    <xref ref-type="bibr">
+     Rhind and Russell 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Durocher and Jackson 2001
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Abraham 2001
+    </xref>
+    ).
+   </p>
+   <p>
+    In
+    <em>
+     Saccharomyces cerevisiae
+    </em>
+    , the PIKK to Chk kinase cascade is an obligatory component of two DNA checkpoint signaling pathways. The DNA damage checkpoint pathway is sensitive to various forms of DNA damage throughout the cell cycle. The DNA replication checkpoint pathway functions in S phase and is activated in response to both inhibition of DNA synthesis and DNA damage (reviewed in
+    <xref ref-type="bibr">
+     Elledge, 1996
+    </xref>
+    ). Although both of these pathways involve the PIKKs Mec1 or Tel1, the DNA replication checkpoint pathway activates the Chk2 homolog Rad53 but not Chk1. By contrast, the DNA damage checkpoint pathway activates both Rad53 and Chk1
+    <xref ref-type="bibr">
+     Sun et al. 1996
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Sanchez et al. 1996
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Sanchez et al. 1999
+    </xref>
+    . This differential regulation is partially mirrored in fission yeast, where the PIKK Rad3 is required for all DNA checkpoint pathways, and DNA damage activates Chk1 while replication inhibition activates the Chk2 homolog Cds1
+    <xref ref-type="bibr">
+     Walworth et al. 1993
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     al-Khodairy et al. 1994
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Bentley et al. 1996
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Lindsay et al. 1998
+    </xref>
+    .
+   </p>
+   <p>
+    <em>
+     S. cerevisiae RAD9
+    </em>
+    is the prototype DNA damage checkpoint gene
+    <xref ref-type="bibr">
+     (Weinert and Hartwell, 1988)
+    </xref>
+    and is required for the DNA damage checkpoint pathway throughout the cell cycle
+    <xref ref-type="bibr">
+     Weinert and Hartwell 1988
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Siede et al. 1993
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Paulovich et al. 1997
+    </xref>
+    . Rad9 shares localized homology with the mammalian tumor suppressor
+    <em>
+     BRCA1
+    </em>
+    <xref ref-type="bibr">
+     Koonin et al. 1996
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Bork et al. 1997
+    </xref>
+    . Loss of
+    <em>
+     RAD9
+    </em>
+    impairs checkpoint-induced cell cycle arrest and increases genomic instability
+    <xref ref-type="bibr">
+     Weinert and Hartwell 1988
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Weinert and Hartwell 1990
+    </xref>
+    .
+    <em>
+     RAD9
+    </em>
+    is required for the activation of Rad53 and Chk1 by the DNA damage checkpoint pathway
+    <xref ref-type="bibr">
+     Navas et al. 1996
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Sanchez et al. 1999
+    </xref>
+    . Moreover, DNA damage but not replication block induces Rad9 phosphorylation in a Mec1/Tel1-dependent manner, and Rad53 specifically interacts with phosphorylated Rad9 in vivo
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Emili 1998
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Vialard et al. 1998
+    </xref>
+    . These data suggested that Rad9 acts as a pathway-specific adaptor that recruits Rad53 and Chk1 to DNA damage-dependent activation complexes
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Sanchez et al. 1999
+    </xref>
+    . This model is supported by the recent observation that immunoprecipitated phosphorylated Rad9 facilitates the activation of exogenous Rad53 in vitro
+    <xref ref-type="bibr">
+     (Gilbert et al., 2001)
+    </xref>
+    .
+   </p>
+   <p>
+    Rad53 and other Chk2 orthologs are coupled to DNA checkpoint pathways through their FHA domains
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Bell et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Chehab et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Lee and Chung 2001
+    </xref>
+    . FHA domains are conserved modular domains that bind specific phosphopeptides
+    <xref ref-type="bibr">
+     Hofmann and Bucher 1995
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Durocher et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Li et al. 1999
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Liao et al. 1999
+    </xref>
+    . FHA domains were first implicated as phosphorylation-specific protein-protein binding domains in a study of the binding of
+    <em>
+     Arabidopsis thaliana
+    </em>
+    kinase-associated protein phosphatase (KAPP) to a receptor-like kinase (RLK)
+    <xref ref-type="bibr">
+     (Stone et al., 1994)
+    </xref>
+    . Rad53 contains two FHA domains, which are hypothesized to couple Rad53 to the DNA checkpoint pathways
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    . Both Rad53 FHA domains can bind phosphorylated Rad9 in vitro
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Durocher et al. 1999
+    </xref>
+    , and mutation of conserved amino acids in the second Rad53 FHA domain (FHA2) disrupts the DNA damage checkpoint pathway activation of Rad53 in vivo
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    .
+   </p>
+   <p>
+    Phosphopeptide binding preferences of FHA domains have been identified in vitro using peptide libraries
+    <xref ref-type="bibr">
+     Durocher et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Liao et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Wang et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Byeon et al. 2001
+    </xref>
+    . Despite the requirement for FHA domains in multiple signaling pathways, including the Rad9/Rad53 interaction, the specific phosphopeptides recognized by FHA domains in vivo are not known. We report here the identification of multiple PIKK sites within Rad9 that are phosphorylated in response to DNA damage and are required for the
+    <em>
+     RAD9
+    </em>
+    -dependent regulation of Rad53.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <title>
+    Identification of the Rad53 Binding Sites within Rad9
+   </title>
+   <p>
+    We had previously identified an interaction between Rad53 FHA2 and Rad9 in a two-hybrid assay
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    . Deletion analysis revealed that Rad9 residues 542–620 are minimally required for this interaction (data not shown). This domain contains a single consensus PIKK phosphorylation site, [S/T]Q
+    <xref ref-type="bibr">
+     Anderson and Lees-Miller 1992
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Kim et al. 1999
+    </xref>
+    , at Rad9 T603
+    <xref ref-type="fig">
+     (Figure 1A)
+    </xref>
+    . Mec1 phosphorylates this site in immune-complex kinase assays (data not shown). Alanine substitution or deletion of Rad9 T603 did not eliminate the DNA damage-induced Rad9 phosphorylation, coimmunoprecipitation of Rad9 with Rad53, or the
+    <em>
+     RAD9
+    </em>
+    -dependent function of the G
+    <sub>
+     2
+    </sub>
+    /M DNA damage checkpoint arrest (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    , lanes 1–6, and data not shown). Hence, Rad9 T603 is not essential for Rad9 phosphorylation and recruitment of Rad53.
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Mutagenesis of Rad9 PIKK Phosphorylation Sites(A) Schematic diagram of Rad9: the ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr1.jpg" data-thumbEID="1-s2.0-S1097276502005324-gr1.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr1.jpg" data-fullEID="1-s2.0-S1097276502005324-gr1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (569 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    To determine whether other Rad9 [S/T]Q sites are required for DNA damage-dependent Rad9 phosphorylation and its interaction with Rad53, we generated a series of strains lacking Rad9 T603 in combination with either alanine substitutions or deletion of these sites (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    , lanes 7–16). Of these mutations, only the additional deletion of the [S/T]Q cluster domain (SCD), amino acids 390–458, impaired the DNA damage-induced phosphorylation of Rad9 (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    , lanes 9–10). Furthermore, Rad9 and Rad53 did not coimmunoprecipitate in this strain, and Rad53 phosphorylation was partially impaired (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    , lanes 9–10). As this experiment used asynchronous cultures, the residual Rad53 phosphorylation observed was probably mediated by the
+    <em>
+     RAD9
+    </em>
+    -independent DNA replication checkpoint pathway. The single deletion of Rad9 amino acids 390–458 also abrogated the DNA damage-induced phosphorylation of Rad9
+    <xref ref-type="fig">
+     (Figure 2A)
+    </xref>
+    .
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="DNA Damage Induces Rad9 Phosphorylation at Multiple [S/T]Q SitesIn (A) and (B), ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr2.jpg" data-thumbEID="1-s2.0-S1097276502005324-gr2.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr2.jpg" data-fullEID="1-s2.0-S1097276502005324-gr2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (588 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    Since deletions within Rad9 may nonspecifically disrupt Rad9 function, we examined the effects of alanine substitution at the [S/T]Q sites within the SCD and at T603. The
+    <em>
+     rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    allele has alanine substitutions at each [S/T]Q within the SCD (T390, T398, T410, T427, S435, and T457), and the
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    allele is the
+    <em>
+     rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    allele with the additional alanine substitution of T603. Compared to wild-type Rad9, both Rad9
+    <sup>
+     7xA
+    </sup>
+    and Rad9
+    <sup>
+     6xA
+    </sup>
+    displayed severely reduced DNA damage-dependent electrophoretic mobility shift
+    <xref ref-type="fig">
+     (Figure 2B)
+    </xref>
+    , indicating that these mutations eliminate the majority of Rad9 phosphorylation sites or otherwise impair the damage-dependent Rad9 phosphorylation.
+   </p>
+   <p>
+    Multiple forms of DNA damage induce the
+    <em>
+     MEC1
+    </em>
+    /
+    <em>
+     TEL1
+    </em>
+    -dependent phosphorylation of Rad9
+    <xref ref-type="bibr">
+     (Emili, 1998)
+    </xref>
+    . Since it is not known whether these forms of phosphorylated Rad9 involve different combinations of phosphorylation sites, we examined the effect of Rad9 SCD mutations on the mobility shift of Rad9 induced by different types of DNA damage. Rad9
+    <sup>
+     6xA
+    </sup>
+    was similarly impaired for phosphorylation and Rad53 coimmunoprecipitation induced by DNA damage from MMS, 4NQO, and UV and ionizing radiation (data not shown). Hence, the Rad9 SCD is a major locus for both Rad9 phosphorylation and interaction with Rad53 induced by DNA damage.
+   </p>
+   <title>
+    Detection of Phosphorylated Rad9 [S/T]Q Sites, Including T603 and SCD Site T390
+   </title>
+   <p>
+    DNA damage-dependent Rad9 phosphorylation requires the PIKKs Mec1 or Tel1
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Emili 1998
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Vialard et al. 1998
+    </xref>
+    . Rad9 contains a total of fourteen [S/T]Q consensus PIKK phosphorylation sites, including T603
+    <xref ref-type="fig">
+     (Figure 1A)
+    </xref>
+    . Immunoblot analysis with an antibody that recognizes phosphorylated [S/T]Q sites revealed a strong immunoreactive band that is induced by DNA damage, is eliminated by deletion of
+    <em>
+     RAD9
+    </em>
+    , and comigrates with phosphorylated Rad9 (
+    <xref ref-type="fig">
+     Figure 2B
+    </xref>
+    , lanes 1–4). According to the manufacturer, this antibody preferentially recognizes phospho-[S/T]Q when preceded by a leucine or other hydrophobic residue. Thus, given its context, Rad9 T603 would be an ideal binding substrate if phosphorylated. Indeed, although Rad9
+    <sup>
+     Δ593–620
+    </sup>
+    and Rad9
+    <sup>
+     T603A
+    </sup>
+    undergo apparently normal phosphorylation-dependent electrophoretic mobility shifts, their phospho-[S/T]Q immunoreactivity was significantly reduced (
+    <xref ref-type="fig">
+     Figure 2A
+    </xref>
+    , lanes 3–4;
+    <xref ref-type="fig">
+     Figure 2B
+    </xref>
+    , lanes 5–6). This residual phospho-[S/T]Q immunoreactivity was eliminated with the additional loss of the Rad9 SCD, but was partially recovered in the Rad9 mutant only for the SCD (
+    <xref ref-type="fig">
+     Figure 2A
+    </xref>
+    , lanes 5–8;
+    <xref ref-type="fig">
+     Figure 2B
+    </xref>
+    , lanes 7–10). Together, these data imply that DNA damage induces Rad9 phosphorylation on multiple [S/T]Q sites, including T603 and other [S/T]Q sites within the Rad9 SCD.
+   </p>
+   <p>
+    To further directly identify Rad9 phosphorylation sites, we generated and purified antibodies that specifically recognize phosphorylated Rad9 T390, the first [S/T]Q site within the SCD. This site is preceded by a serine and thus is not predicted to be strongly recognized by the phospho-[S/T]Q antibody. Anti-phospho-T390 recognized the slowest mobility form of phosphorylated Rad9 induced by DNA damage (
+    <xref ref-type="fig">
+     Figure 2C
+    </xref>
+    , lanes 1–3). Immunoreactivity was abolished by alanine substitution of T390 but unaffected by substitution of other SCD [S/T]Q sites or T603 (
+    <xref ref-type="fig">
+     Figure 2C
+    </xref>
+    , lanes 4–10). Preincubation of the phospho-T390 antibody with phosphorylated-T390 peptide (but not with the nonphosphorylated peptide) completely eliminated the immunoreactivity of phosphorylated Rad9 (data not shown). Thus, Rad9 T390 is another of the Rad9 [S/T]Q sites that are phosphorylated in response to DNA damage.
+   </p>
+   <title>
+    Redundant Function of Individual [S/T]Q Sites within the Rad9 SCD
+   </title>
+   <p>
+    We evaluated the effects of single alanine substitutions within the Rad9 SCD to determine whether a single site within the Rad9 SCD has a dominant role in the phosphorylation of Rad9 and the interaction of Rad9 with Rad53. In these and subsequent experiments, activation of the DNA replication checkpoint pathway was avoided by synchronization of cells in telophase using the conditional
+    <em>
+     cdc15-2
+    </em>
+    allele
+    <xref ref-type="bibr">
+     (Futcher, 1999)
+    </xref>
+    , thus allowing evaluation of Rad53 phosphorylation solely dependent on
+    <em>
+     RAD9
+    </em>
+    . Similar to the alanine substitution of Rad9 T603, substitution of single [S/T]Q sites within the SCD had little impact on the DNA damage-induced phosphorylation of Rad9, coimmunoprecipitation of Rad9 with Rad53, or Rad53 phosphorylation
+    <xref ref-type="fig">
+     (Figure 3A)
+    </xref>
+    . Single mutation of the Rad9 SCD sites also had little impact on the phospho-[S/T]Q immunoreactivity of phosphorylated Rad9 (data not shown). Since simultaneous substitution of all six SCD sites does inactivate these functions (
+    <xref ref-type="fig">
+     Figure 3A
+    </xref>
+    , lane 4), these data suggest that multiple SCD sites are phosphorylated and that Rad53 interacts redundantly with some or all of these sites.
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="The Rad9 SCD Is Required for the Phosphorylation and Interaction of Rad9 and ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr3.jpg" data-thumbEID="1-s2.0-S1097276502005324-gr3.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr3.jpg" data-fullEID="1-s2.0-S1097276502005324-gr3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (442 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    Rad53 specifically interacts with phosphorylated Rad9
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Emili 1998
+    </xref>
+    . To characterize the ability of single Rad9 SCD sites to support this interaction, we restored single [S/T]Q residues in the Rad9
+    <sup>
+     6xA
+    </sup>
+    SCD. Reintroduction of a wild-type residue at Rad9 S435 best, although incompletely, restored the DNA damage-induced slower mobility forms of Rad9 but only modestly rescued coimmunoprecipitation with Rad53 and Rad53 phosphorylation (
+    <xref ref-type="fig">
+     Figure 3B
+    </xref>
+    , lane 10). By contrast, reintroduction of Rad9 T390 moderately restored the DNA damage-induced slower mobility forms and also the interaction of Rad9 and Rad53 (
+    <xref ref-type="fig">
+     Figure 3B
+    </xref>
+    , lane 6). No single Rad9 cluster add-back allele fully restored the checkpoint-induced phosphorylation or coimmunoprecipitation of Rad9 and Rad53. Thus, multiple Rad9 SCD phosphorylation sites act in an additive or cooperative manner to recruit Rad53.
+   </p>
+   <title>
+    Rad53 FHA Domains Bind Phosphorylated Rad9 T390 In Vitro
+   </title>
+   <p>
+    The ability of Rad9
+    <sup>
+     6xA
+    </sup>
+    T390 to restore a significant proportion of the Rad9 interaction with Rad53 implies that T390 is a major in vivo functional site for Rad53 binding. To confirm that Rad53 binds directly to Rad9 T390 in a phosphorylation-dependent manner, we measured the increase of surface plasmon resonance (SPR) caused by binding of soluble, bacterially produced Rad53 FHA domains to synthetic Rad9 T390 peptides immobilized on a BIAcore sensor chip. Rad53 FHA1 specifically interacted with the phosphorylated Rad9 T390 peptide (
+    <em>
+     P-
+    </em>
+    T390) (
+    <xref ref-type="fig">
+     Figure 4A
+    </xref>
+    , middle versus left panel). Mutation of two conserved FHA domain residues abolished the binding of the Rad53 FHA1 protein to the phosphorylated T390 peptide (
+    <xref ref-type="fig">
+     Figure 4A
+    </xref>
+    , right panel). Similar to FHA1, GST-Rad53 FHA2 preferentially bound the phosphorylated Rad9 T390 (
+    <xref ref-type="fig">
+     Figure 4B
+    </xref>
+    , middle versus left panel), demonstrating an affinity lost upon substitution of conserved FHA2 residues (
+    <xref ref-type="fig">
+     Figure 4B
+    </xref>
+    , right panel). On average, Rad53 FHA1 bound the phosphorylated Rad9 T390 peptide with an apparent K
+    <sub>
+     D
+    </sub>
+    of 2.5 μM (
+    <em>
+     s
+    </em>
+    = 0.3, n = six experiments), and GST-Rad53 FHA2 bound with an apparent K
+    <sub>
+     D
+    </sub>
+    of 1.4 μM (
+    <em>
+     s
+    </em>
+    = 0.3, n = three experiments). These affinities are within the general range of those reported for FHA domain-phosphopeptide binding
+    <xref ref-type="bibr">
+     Durocher et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Li et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Liao et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Liao et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Durocher et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Wang et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Byeon et al. 2001
+    </xref>
+    . However, the observed affinity of GST-FHA2 may have been artificially increased due to the ability of GST to homodimerize
+    <xref ref-type="bibr">
+     (Ladbury et al., 1995)
+    </xref>
+    . In addition, SPR-based determination of FHA domain binding affinity has been demonstrated to overestimate K
+    <sub>
+     D
+    </sub>
+    by as much as 20-fold, as compared to binding affinity determined by isothermal calorimetry
+    <xref ref-type="bibr">
+     (Durocher et al., 1999)
+    </xref>
+    .
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Phosphorylation-Dependent Binding of Rad53 FHA Domains to Rad9 T390 In ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr4.gif" data-thumbEID="1-s2.0-S1097276502005324-gr4.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr4.gif" data-fullEID="1-s2.0-S1097276502005324-gr4.gif"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig4" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (153 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    In a filter binding assay with immobilized synthetic peptides, GST-Rad53 FHA2 also preferentially bound the phosphorylated form of a Rad9 T603 peptide (data not shown). In a recent study of Rad53 FHA2 binding Rad9 phosphothreonine peptides that fit a Txx[I/L] consensus, Rad53 FHA2 bound a phospho-T603 peptide with a K
+    <sub>
+     D
+    </sub>
+    of 12.9 μM
+    <xref ref-type="bibr">
+     (Byeon et al., 2001)
+    </xref>
+    . Taken together, these results show that the Rad53 FHA domains can directly and specifically bind Rad9 phosphopeptides containing physiological PIKK phosphorylation sites.
+   </p>
+   <title>
+    Rad9 Phosphorylation Sites Are Required for the Survival of Genotoxic Stress
+   </title>
+   <p>
+    Survival of genotoxic stress requires the activities of the DNA checkpoint pathways, as well as the DNA repair systems. Rad9 is involved in both signaling through the DNA damage checkpoint pathway and DNA repair, such that loss of
+    <em>
+     RAD9
+    </em>
+    decreases the viability of cells challenged with DNA damage
+    <xref ref-type="bibr">
+     Weinert and Hartwell 1988
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Weinert and Hartwell 1990
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Terleth et al. 1990
+    </xref>
+    and
+    <xref ref-type="bibr">
+     de la Torre-Ruiz and Lowndes 2000
+    </xref>
+    . Therefore, we determined whether DNA damage-induced Rad9 phosphorylation sites are required for Rad9 function in response to a variety of genotoxic stresses.
+   </p>
+   <p>
+    Cdc13 is a telomere-associated protein required for the maintenance of chromosome ends
+    <xref ref-type="bibr">
+     Garvik et al. 1995
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Nugent et al. 1996
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Lin and Zakian 1996
+    </xref>
+    . At elevated temperatures, cells bearing the temperature-sensitive
+    <em>
+     cdc13-1
+    </em>
+    allele exhibit a rapid loss of viability
+    <xref ref-type="bibr">
+     (Weinert et al., 1994)
+    </xref>
+    . Cells bearing
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    were compromised for survival at 37°C in a
+    <em>
+     cdc13-1
+    </em>
+    background, nearly as severely as a
+    <em>
+     rad9Δ
+    </em>
+    strain
+    <xref ref-type="fig">
+     (Figure 5A)
+    </xref>
+    . The
+    <em>
+     cdc13-1 rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    strain demonstrated an intermediate loss of viability, suggesting that Rad9 T603 supports a moderate level of Rad9 function in vivo. Consistent with their partial recovery of Rad53 phosphorylation,
+    <em>
+     cdc13-1 rad9
+     <sup>
+      6xA+T390
+     </sup>
+    </em>
+    cells are more viable at 37°C than the
+    <em>
+     cdc13-1 rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    strain
+    <xref ref-type="fig">
+     (Figure 5A)
+    </xref>
+    .
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Genotoxin Sensitivity of rad9 [S/T]Q Mutants(A) Log-phase cultures of ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr5.jpg" data-thumbEID="1-s2.0-S1097276502005324-gr5.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr5.jpg" data-fullEID="1-s2.0-S1097276502005324-gr5.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig5" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (757 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The absence of Rad9 phosphorylation sites in
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells also reduced survival of UV irradiation, but this loss of viability was less than that associated with the loss of
+    <em>
+     RAD9
+    </em>
+    (
+    <xref ref-type="fig">
+     Figure 5B
+    </xref>
+    , right panels). Interestingly, the
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    strain demonstrated a loss of viability approaching that of a
+    <em>
+     rad9
+    </em>
+    Δ strain when grown on media containing MMS (
+    <xref ref-type="fig">
+     Figure 5B
+    </xref>
+    , left panels), suggesting that the Rad9 [S/T]Q phosphorylation sites play a greater role in the
+    <em>
+     RAD9
+    </em>
+    -dependent survival of MMS-derived DNA damage than in the survival of UV irradiation.
+   </p>
+  </sec>
+  <sec>
+   <p>
+    Survival of replication block due to hydroxyurea (HU) treatment is normally
+    <em>
+     RAD9
+    </em>
+    independent and involves the activation of Rad53 through the DNA replication checkpoint pathway
+    <xref ref-type="bibr">
+     Weinert et al. 1994
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Allen et al. 1994
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Navas et al. 1996
+    </xref>
+    . However, if the replication checkpoint pathway is compromised, such as in a
+    <em>
+     tof1Δ
+    </em>
+    mutant, Rad53 regulation and HU survival involves signaling through Rad9
+    <xref ref-type="bibr">
+     Navas et al. 1996
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Foss 2001
+    </xref>
+    . Therefore, we determined the effect of the loss of Rad9 [S/T]Q phosphorylation sites on HU survival in a
+    <em>
+     tof1Δ
+    </em>
+    strain. As expected, wild-type,
+    <em>
+     rad9Δ
+    </em>
+    , and
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    strains were similarly viable when grown on HU-containing media
+    <xref ref-type="fig">
+     (Figure 5C)
+    </xref>
+    . The
+    <em>
+     tof1Δ
+    </em>
+    mutant was slightly impaired for viability, and the
+    <em>
+     tof1Δ rad9Δ
+    </em>
+    double mutant was very sensitive to HU
+    <xref ref-type="fig">
+     (Figure 5C)
+    </xref>
+    . The
+    <em>
+     tof1Δ rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    strain was nearly as sensitive as the
+    <em>
+     tof1Δ rad9Δ
+    </em>
+    strain, indicating a strong requirement for Rad9 [S/T]Q phosphorylation sites for the survival of HU treatment when the replication checkpoint pathway is impaired.
+   </p>
+   <title>
+    G
+    <sub>
+     2
+    </sub>
+    /M DNA Damage Checkpoint Arrest in Rad9 [S/T]Q Mutants
+   </title>
+   <p>
+    At elevated temperatures,
+    <em>
+     cdc13-1
+    </em>
+    strains accumulate telomeric single-stranded DNA that induces a strong
+    <em>
+     RAD9
+    </em>
+    -dependent cell cycle arrest at G
+    <sub>
+     2
+    </sub>
+    /M
+    <xref ref-type="bibr">
+     Weinert and Hartwell 1993
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Lydall and Weinert 1995
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Garvik et al. 1995
+    </xref>
+    . Rad53 and Chk1 act in parallel downstream of Rad9 to enforce this arrest, such that
+    <em>
+     rad53
+    </em>
+    or
+    <em>
+     chk1
+    </em>
+    cells have a partial delay and are unable to maintain the G
+    <sub>
+     2
+    </sub>
+    /M cell cycle arrest
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Gardner et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Sanchez et al. 1999
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Liu et al. 2000
+    </xref>
+    . To determine the relationship of Rad9 phosphorylation sites required for Rad53 activation with the functionality of the DNA damage checkpoint pathway, we ascertained the effect of Rad9 [S/T]Q mutations on the G
+    <sub>
+     2
+    </sub>
+    /M arrest in
+    <em>
+     cdc13-1
+    </em>
+    cells. Similar to
+    <em>
+     rad53
+    </em>
+    cells,
+    <em>
+     rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    and
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells transiently delayed prior to anaphase, but eventually escaped into telophase
+    <xref ref-type="fig">
+     (Figure 6A)
+    </xref>
+    . The
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    defect was consistently slightly more severe than the
+    <em>
+     rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    defect, demonstrating that Rad9 T603 partially contributes to the function of Rad9 in maintaining the G
+    <sub>
+     2
+    </sub>
+    /M DNA damage checkpoint arrest. Consistent with the ability of the T390 add-back mutant to significantly restore the DNA damage-induced interaction of Rad9 with Rad53, reintroduction of Rad9 T390, or, less effectively, S435, to
+    <em>
+     rad9
+     <sup>
+      6xA
+     </sup>
+    </em>
+    partially restored G
+    <sub>
+     2
+    </sub>
+    /M arrest
+    <xref ref-type="fig">
+     (Figure 6B)
+    </xref>
+    . These rescues were intermediate, suggesting that the regulation of Rad53 by multiply phosphorylated Rad9 is required for the full action of the
+    <em>
+     RAD53
+    </em>
+    -dependent G
+    <sub>
+     2
+    </sub>
+    /M DNA damage checkpoint.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Rad9 Phosphorylation Sites Are Required for the G2/M DNA Damage Checkpoint ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr6.gif" data-thumbEID="1-s2.0-S1097276502005324-gr6.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr6.gif" data-fullEID="1-s2.0-S1097276502005324-gr6.gif"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig6" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (180 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Rad9 [S/T]Q Mutants Retain Regulation of Chk1
+   </title>
+   <p>
+    <em>
+     RAD9
+    </em>
+    is required for the DNA damage-induced phosphorylation of Chk1, and Rad9 interacts with Chk1 in a yeast two-hybrid assay
+    <xref ref-type="bibr">
+     (Sanchez et al., 1999)
+    </xref>
+    , suggesting that Rad9 may also directly recruit Chk1 to the DNA damage checkpoint pathway. Therefore, we determined whether the DNA damage-induced phosphorylation of Chk1 is intact in
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells. As expected, the DNA damage-dependent phosphorylation of Rad53 and Chk1 was absent in a
+    <em>
+     rad9Δ
+    </em>
+    strain, and Rad53 phosphorylation was abrogated in
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells
+    <xref ref-type="fig">
+     (Figure 7)
+    </xref>
+    . However, the damage-dependent phosphorylation of Chk1 was not lost in the
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    strain (
+    <xref ref-type="fig">
+     Figure 7
+    </xref>
+    , lanes 5–6). These data indicate that the major DNA damage-induced Rad9 phosphorylation sites are not essential for the regulation of Chk1 by Rad9.
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Chk1 Phosphorylation Is Not Disrupted in a Rad9 SCD MutantImmunoprecipitation ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1097276502005324-gr7.jpg" data-thumbEID="1-s2.0-S1097276502005324-gr7.sml" data-imgEIDs="1-s2.0-S1097276502005324-gr7.jpg" data-fullEID="1-s2.0-S1097276502005324-gr7.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig7" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (172 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    Rad53 and Chk1 both act to enforce the G
+    <sub>
+     2
+    </sub>
+    /M checkpoint arrest
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Gardner et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Sanchez et al. 1999
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Liu et al. 2000
+    </xref>
+    . Thus, the intermediate G
+    <sub>
+     2
+    </sub>
+    /M checkpoint arrest defect in the
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells
+    <xref ref-type="fig">
+     (Figure 6A)
+    </xref>
+    could be due to disruption of either Rad53 or Chk1 function. To confirm that the G
+    <sub>
+     2
+    </sub>
+    /M arrest defect in the
+    <em>
+     rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells reflects the failure of the DNA damage checkpoint pathway in coupling to Rad53 rather than Chk1, we determined the effect of the rad9
+    <sup>
+     7xA
+    </sup>
+    mutation in
+    <em>
+     chk1Δ
+    </em>
+    and
+    <em>
+     rad53Δ
+    </em>
+    cells.
+    <em>
+     rad53Δ rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells were as defective in the G
+    <sub>
+     2
+    </sub>
+    /M DNA damage checkpoint arrest as
+    <em>
+     rad53Δ
+    </em>
+    cells, suggesting that the two mutations disrupt the same pathway
+    <xref ref-type="fig">
+     (Figure 6C)
+    </xref>
+    . By contrast,
+    <em>
+     chk1Δ rad9
+     <sup>
+      7xA
+     </sup>
+    </em>
+    cells were less competent for the function of the G
+    <sub>
+     2
+    </sub>
+    /M checkpoint arrest than
+    <em>
+     chk1Δ
+    </em>
+    cells
+    <xref ref-type="fig">
+     (Figure 6C)
+    </xref>
+    , suggesting that Chk1 and the Rad9 phosphorylation sites function in separate pathways. This is consistent with the observation that loss of the Rad9 phosphorylation sites disrupts the
+    <em>
+     RAD9
+    </em>
+    -dependent phosphorylation of Rad53 and not Chk1.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Site-directed mutagenesis identified a requirement for Rad9 [S/T]Q sites in the DNA damage-induced Rad9 phosphorylation and interaction with Rad53. Western blot analysis with phosphorylation-specific antibodies directly implicated specific Rad9 [S/T]Q residues as physiological DNA damage-induced phosphorylation sites, and these Rad9 [S/T]Q phosphopeptides are bound by Rad53 FHA domains in vitro. Rad9 phosphorylation site mutants are partially defective for genotoxin survival and function of the G
+    <sub>
+     2
+    </sub>
+    /M checkpoint arrest in a manner consistent with dysfunction of the Rad53 effector pathway. These defects caused by Rad9 mutation are specific for its role in Rad53 regulation, since they have little effect on the phosphorylation and function of Chk1.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Rad53 FHA Domain Binding Sites within Rad9
+   </title>
+   <p>
+    Prior analyses of the phosphopeptide binding properties of FHA domains were performed exclusively in vitro using phosphopeptides of unknown physiological relevance
+    <xref ref-type="bibr">
+     Durocher et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Durocher et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Liao et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Byeon et al. 2001
+    </xref>
+    . Studies of Rad53 FHA domains binding to peptide libraries determined that Rad53 FHA1 prefers phosphothreonine followed by aspartate at the +3 position, while Rad53 FHA2 prefers phosphothreonine followed by isoleucine or leucine at +3
+    <xref ref-type="bibr">
+     Durocher et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Durocher et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Liao et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Byeon et al. 2001
+    </xref>
+    . Rad9 T390, the individual Rad9 SCD site which best supports the Rad9 interaction with Rad53 in vivo, is followed by valine at +3 and thus precisely fits neither of these preferred patterns. However, both Rad53 FHA domains have a weaker general selectivity for a hydrophobic residue at +3
+    <xref ref-type="bibr">
+     Durocher et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Byeon et al. 2001
+    </xref>
+    , which is consistent with Rad9 T390. Four of the five TQ sites within the Rad9 SCD and six of the nine total TQ sites within Rad9, including T603, have isoleucine, leucine, or valine residues at the +3 position. The identification of phosphorylated Rad9 [S/T]Q sites as in vivo binding targets for the Rad53 FHA domains is in agreement with the prediction that Mec1/Tel1 phosphorylation sites within Rad9 are required for its interaction with Rad53.
+   </p>
+   <title>
+    Rad9 [S/T]Q Phosphorylation Sites Regulate Rad53 Activation
+   </title>
+   <p>
+    Single mutation of Rad9 [S/T]Q sites did not have a significant effect on the mobility shift of phosphorylated Rad9 or on the interaction of phosphorylated Rad9 with Rad53. Multiple substitutions of these sites, however, revealed their requirement for Rad9 phosphorylation and regulation of Rad53. Moreover, individual sites within the Rad9 SCD are able to support partial levels of Rad9 phosphorylation and interaction with Rad53, but no single site accounts for all of either function. These data imply that multiple Rad9 [S/T]Q phosphorylation sites together mediate the interaction of Rad9 with Rad53.
+   </p>
+   <p>
+    The CDK inhibitor Sic1 is phosphorylated at multiple CDK consensus sites. Individually, these sites constitute only moderate-affinity Cdc4 binding sites, but these phosphorylation sites act in concert to target Sic1 for Cdc4-mediated degradation once a threshold of Sic1 phosphorylation is achieved
+    <xref ref-type="bibr">
+     (Nash et al., 2001)
+    </xref>
+    . Similarly, multiple phosphorylation of [S/T]Q sites within Rad9 may together act to achieve a threshold of Rad53 binding required to induce its phosphorylation and activation. This activation could be achieved both through the transphosphorylation of Rad53 by Mec1/Tel1 and through the concentration-dependent transphosphorylation of Rad53 by Rad53
+    <xref ref-type="bibr">
+     (Gilbert et al., 2001)
+    </xref>
+    .
+   </p>
+   <p>
+    Rad53 is itself potentially bivalent for interactions with Rad9, since both Rad53 FHA domains bind phosphorylated Rad9
+    <xref ref-type="bibr">
+     Sun et al. 1998
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Durocher et al. 1999
+    </xref>
+    , and both FHA domains bind Rad9 phosphopeptides in vitro. Hence, multivalent interactions between multiply phosphorylated Rad9 and bivalent Rad53 may stabilize the Rad9-Rad53 interaction. The contact of an FHA domain to a phosphopeptide directly involves at least six residues encompassing the phosphorylation site
+    <xref ref-type="bibr">
+     (Durocher et al., 2000)
+    </xref>
+    . Considering that the six Rad9 SCD sites are spread over 69 amino acids, a single Rad9 SCD may engage with multiple Rad53 FHA domains. Furthermore, both Rad9
+    <xref ref-type="bibr">
+     (Soulier and Lowndes, 1999)
+    </xref>
+    and Rad53 (Z.S. and D.F.S., unpublished data) are capable of homotypic interactions. Taken together, these intricate interactions may contribute to aggregation of oligomeric checkpoint complexes. Through the accumulation of these complexes, the ability of Rad53 and similarly its mammalian homolog, Chk2, to self-associate and activate may accelerate a positive feedback loop promoting the activation of DNA damage checkpoint effectors
+    <xref ref-type="bibr">
+     Gilbert et al. 2001
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Xu et al. 2002
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Ahn et al. 2002
+    </xref>
+    .
+   </p>
+   <p>
+    Rad9 participates in a number of DNA damage checkpoint pathway-mediated responses to DNA damage (reviewed in
+    <xref ref-type="bibr">
+     Lowndes and Murguia, 2000
+    </xref>
+    ), including the regulation of Chk1 phosphorylation
+    <xref ref-type="bibr">
+     (Sanchez et al., 1999)
+    </xref>
+    . Mutation of the Rad9 [S/T]Q phosphorylation sites does not abolish the phosphorylation or function of Chk1. Thus, the domains within Rad9 essential for the regulation of Rad53 and Chk1 are functionally separable, and the mechanism of regulation of Chk1 by Rad9 remains to be determined. The fact that the major damage-induced Rad9 phosphorylation sites are dispensable for the regulation of Chk1 correlates with the lack of recognizable phosphorylation-dependent interaction domains, such as an FHA domain, within Chk1.
+   </p>
+   <title>
+    SCDs as Targets of DNA Checkpoint Phosphorylation and Interaction
+   </title>
+   <p>
+    Individual SQ or TQ dipeptides are fairly common in polypeptide sequences, theoretically occurring approximately once every 200 or so residues. However, clusters of [S/T]Q sites are readily recognizable in a handful of known DNA checkpoint or replication proteins. A pattern-based search for SCD of at least five [S/T]Q sites separated by no more than 35 amino acids identified roughly 1% of the human, murine, or budding yeast PROSITE database. Of these, 10% are readily recognizable as DNA checkpoint proteins, including human and/or murine Atm, DNA-PKcs, Brca1, Brca2, Chk2, and Mdm2, and yeast Rad9, Rad53, and Chk1. Experimental evidence already suggests that the SCDs in Brca1, Chk2, and Mdm2 are targets for phosphorylation by PIKKs
+    <xref ref-type="bibr">
+     Cortez et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Sanchez et al. 1999
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     de Toledo et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Matsuoka et al. 2000
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     Melchionna et al. 2000
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Wakayama et al. 2001
+    </xref>
+    . Within the group of proteins identified by the PROSITE pattern search, the mammalian DNA-PKcs and yeast Rad9, Rad53, and Chk1 SCDs are notably rich in TQ residues. Since FHA domains have a strong binding preference for phosphothreonine over phosphoserine
+    <xref ref-type="bibr">
+     (Durocher et al., 1999)
+    </xref>
+    and since the threonine-rich Rad9 SCD is a binding site for Rad53 FHA domains, TQ-rich clusters may often be PIKK-dependent FHA domain binding sites. It remains to be determined whether phosphorylated SCDs in proteins other than Rad9 similarly mediate FHA domain interactions or serve other regulatory functions.
+   </p>
+   <p>
+    Interactions between phosphorylated Rad9 and Rad53 are a prototype for assembly of DNA damage-dependent checkpoint complexes. Two important, unanticipated features of these complexes are the involvement of an intermediary adaptor protein for functional connection of a PIKK with a substrate and the PIKK phosphorylation dependence of that interaction. These features, and the potential multivalency of these interactions, may be common vehicles for the rapid assembly of focal eukaryotic checkpoint complexes at sites of DNA damage.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Experimental Procedures
+   </title>
+   <title>
+    Plasmids
+   </title>
+   <p>
+    For pRS306
+    <em>
+     rad9
+     <sup>
+      T603A
+     </sup>
+    </em>
+    and pRS306
+    <em>
+     rad9
+     <sup>
+      Δ593–620
+     </sup>
+    </em>
+    , the mutations were introduced by PCR into the SpeI-HindIII internal
+    <em>
+     RAD9
+    </em>
+    fragment cloned into the same sites of pRS306. To construct pRS306
+    <em>
+     RAD9
+     <sup>
+      3xHA
+     </sup>
+    </em>
+    , the FLAG-tag of pRS314G
+    <em>
+     RAD9
+     <sup>
+      FLAG
+     </sup>
+    </em>
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    was replaced with a 3xHA tag followed by ∼500 bp of
+    <em>
+     RAD9
+    </em>
+    3′ UTR, and the MunI-SacII fragment was cloned into pRS306. pRS316
+    <em>
+     RAD9
+     <sup>
+      3xHA
+     </sup>
+    </em>
+    was constructed by replacing the MunI-SacII fragment of pRS316
+    <em>
+     RAD9
+     <sup>
+      FLAG
+     </sup>
+    </em>
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    with the MunI-SacII from pRS306
+    <em>
+     RAD9
+     <sup>
+      3xHA
+     </sup>
+    </em>
+    . pRS306
+    <em>
+     rad9Δ
+    </em>
+    was created by replacing the
+    <em>
+     RAD9
+    </em>
+    coding sequence in the XhoI-SmaI fragment of pRS306
+    <em>
+     RAD9
+     <sup>
+      3xHA
+     </sup>
+    </em>
+    with ∼1.17 kb of
+    <em>
+     RAD9
+    </em>
+    5′ UTR. To create
+    <em>
+     CHK1
+     <sup>
+      13xmyc
+     </sup>
+    </em>
+    , the
+    <em>
+     CHK1
+    </em>
+    ORF and surrounding UTR was isolated by PCR and cloned into pBSKII
+    <sup>
+     +
+    </sup>
+    . The SmaI-SpeI fragment encoding the 13xmyc tag from pFA6a-13myc-His3MX6
+    <xref ref-type="bibr">
+     (Longtine et al., 1998)
+    </xref>
+    was inserted into equivalent sites created by PCR at the 3′ end of the
+    <em>
+     CHK1
+    </em>
+    ORF. The entire
+    <em>
+     CHK1
+     <sup>
+      13xmyc
+     </sup>
+    </em>
+    locus was then cloned into pRS315. For the GST-FHA1 expression construct,
+    <em>
+     RAD53
+    </em>
+    encoding amino acids 1–197 were amplified by PCR and cloned into pGEX4T3. The alanine substitutions of the conserved FHA domain residues at R70 and N107 were introduced by PCR. The GST-Rad53 FHA2 fusion proteins were described previously
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    .
+   </p>
+   <title>
+    Strains
+   </title>
+   <p>
+    DLY408 (
+    <em>
+     cdc13-1 cdc15-2
+    </em>
+    ), DLY409 (
+    <em>
+     cdc13-1 cdc15-2 rad9::HIS3
+    </em>
+    ), DLY418 (
+    <em>
+     cdc15-2
+    </em>
+    ), and DLY554 (
+    <em>
+     cdc13-1 cdc15-2 rad53-21
+    </em>
+    ) are from the Weinert laboratory
+    <xref ref-type="bibr">
+     Gardner et al. 1999
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Lydall and Weinert 1997
+    </xref>
+    . 1588-4C and U960-5C (
+    <em>
+     sml1-1 rad53-XB::HIS3
+    </em>
+    ) are from the Rothstein laboratory
+    <xref ref-type="bibr">
+     (Zhao et al., 1998)
+    </xref>
+    . These strains are in a W303 background.
+   </p>
+   <p>
+    The initial
+    <em>
+     rad9
+     <sup>
+      T603A
+     </sup>
+    </em>
+    and
+    <em>
+     rad9
+     <sup>
+      Δ593–620
+     </sup>
+    </em>
+    mutations were engineered into DLY408 by two-step allele replacement with the appropriate pRS306 constructs. pRS306
+    <em>
+     RAD9
+     <sup>
+      3xHA
+     </sup>
+    </em>
+    was used to epitope tag
+    <em>
+     RAD9
+    </em>
+    in DLY408. For the site-directed mutagenesis of Rad9 [S/T]Q sites, PCR cassettes containing the different mutations were used to replace the corresponding sequence in a
+    <em>
+     rad9
+     <sup>
+      Δ593–620
+     </sup>
+    </em>
+    strain by two-step allele replacement
+    <xref ref-type="bibr">
+     (Erdeniz et al., 1997)
+    </xref>
+    . pRS306
+    <em>
+     rad9Δ
+    </em>
+    was used to delete
+    <em>
+     RAD9
+    </em>
+    in 1588-4C and DLY408, and
+    <em>
+     cdc13-1
+    </em>
+    was subsequently introduced into 1588-4C
+    <em>
+     rad9Δ
+    </em>
+    with the plasmid pDL420 (Weinert laboratory). To construct DLY408
+    <em>
+     rad53Δ
+    </em>
+    strains,
+    <em>
+     SML1
+    </em>
+    was first replaced with a
+    <em>
+     sml1::TRP1
+    </em>
+    cassette PCR amplified from U973 (
+    <em>
+     sml1::TRP1 esr1-1
+    </em>
+    , Rothstein laboratory).
+    <em>
+     RAD53
+    </em>
+    was then replaced with a
+    <em>
+     rad53::HIS3
+    </em>
+    PCR cassette that targets the precise removal of the
+    <em>
+     RAD53
+    </em>
+    ORF.
+    <em>
+     CHK1
+    </em>
+    and
+    <em>
+     TOF1
+    </em>
+    ORFs in DLY408 and U960-5C, respectively, were replaced with kan
+    <sup>
+     R
+    </sup>
+    cassettes PCR amplified from the corresponding deletion strains (Research Genetics).
+   </p>
+   <p>
+    Drop-out media was purchased from Bufferad. Synthetic and rich media were typically supplemented with adenine to 47.5 mg/l. For immunoblot analyses, cultures were grown to early/mid-log phase. For
+    <em>
+     cdc15-2
+    </em>
+    synchronization, early-log cultures were shifted to 37°C for 3 hr. Cultures were mock treated or treated with 0.1% MMS (Sigma) for 1 hr, washed, and either lysed immediately or frozen in liquid nitrogen and stored at −80°C.
+   </p>
+   <title>
+    Immunoprecipitations and Immunoblotting
+   </title>
+   <p>
+    Immunoprecipitations and anti-Rad53 Western blotting were as previously described
+    <xref ref-type="bibr">
+     (Sun et al., 1998)
+    </xref>
+    . In brief, lysates were prepared by mechanical disruption in TG (PBS + 1% Triton X-100, 10% glycerol, and phosphatase and protease inhibitors [Roche and Sigma]). 1–2.5 mg of lysate was used per immunoprecipitation with rabbit anti-Rad53 serum, rabbit anti-Rad9 serum (G. Liu, M.F.S., and D.F.S., unpublished data), mouse anti-myc monoclonal 9E10 (Covance), or control antibodies. TCA lysates were prepared as described
+    <xref ref-type="bibr">
+     (Foiani et al., 1999)
+    </xref>
+    , with minor volume adjustments. Lysates and immunoprecipitations were resolved on 6% or 7.5% polyacrylamide gels prior to transfer to Immobilon-P (Millipore).
+   </p>
+   <p>
+    Rad9
+    <sup>
+     3xHA
+    </sup>
+    was detected in immunoblot analysis with HRP-conjugated rat anti-HA monoclonal 3F10 (Roche), Rad53 with rabbit anti-Rad53 serum or a goat anti-Rad53 antibody (Santa Cruz), and Chk1
+    <sup>
+     13xmyc
+    </sup>
+    with HRP-conjugated 9E10 (Santa Cruz). The rabbit anti-phospho-[S/T]Q antibody was used as per manufacturer's suggestions (Cell Signaling Technology). Polyclonal rabbit antibody against Rad9 phospho-T390 was generated and purified as described
+    <xref ref-type="bibr">
+     (DiGiovanna et al., 1998)
+    </xref>
+    using the T390 phosphopeptide KSNRST*QIVN as antigen and nonphosphorylated and phosphorylated forms of the peptide TENNSNRST*QIVNNPR for purification.
+   </p>
+   <title>
+    GST Fusion Protein Purification for BIAcore
+   </title>
+   <p>
+    Bacterial cultures expressing GST-Rad53 and Rad9 fusion proteins were collected by centrifugation and lysed by sonication in TG with 5 mM DTT. Clarified lysates were rotated with glutathione-sepharose beads at 4°C. The beads were then washed in batch format once with &gt;100× bead bed volume lysis buffer and twice with PBS or HS-t (10 mM HEPES [pH 7.6], 150 mM NaCl, 0.005% Tween-20). For the FHA1 fusions, the latter two washes lacked protease inhibitors, and thrombin cleavage was performed as per manufacturer's suggestions (Amersham). Thrombin was removed by incubation with benzamidine-agarose beads (Sigma). The GST-Rad53 FHA2 construct, a noncleavable GST fusion protein, was eluted with glutathione, and the glutathione was removed by dialysis.
+   </p>
+   <title>
+    Synthetic Peptides
+   </title>
+   <p>
+    Rad9 peptides were synthesized and purified by the Small Scale Peptide Synthesis facility at the W.M. Keck Biotechnology Resource Center at the Yale School of Medicine.
+   </p>
+   <title>
+    BIAcore Peptide Binding Assay
+   </title>
+   <p>
+    The 16-mer Rad9 T390 peptides were combined with biotin-LC-NHS (Pierce) at a molar ratio of 1.5:1 peptide:biotin overnight at 4°C. Remaining NHS groups were blocked with 20 mM Tris. Biotinylated peptides and a similar biotin-only mixture were diluted and flowed over the surface of a streptavidin-coated sensor chip in a BIAcore 2000 as per manufacturer's instructions (BIAcore). The peptide surfaces typically yielded 70–200 RUs over the biotin-only surface. Analytes were dialyzed into HBS-Tw (10 mM HEPES [pH 7.6], 150 mM NaCl, 3.4 mM EDTA, and 0.005% Tween-20). For the SPR measurements, 60 μl of various concentrations of analyte at 10 μl/min or 125 μl at 25 μl/min were flowed over each surface at 15°C. Surface regeneration was accomplished with a pulse of 1 M NaCl, a pulse of 2 M MgCl
+    <sub>
+     2
+    </sub>
+    , and extensive washing with HBS-Tw.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Genotoxin Sensitivity Assays
+   </title>
+   <p>
+    For the
+    <em>
+     cdc13-1
+    </em>
+    assay, log-phase cultures of 1588-4C
+    <em>
+     cdc13-1 rad9Δ
+    </em>
+    strains bearing appropriate plasmids were shifted to 37°C, and aliquots plated in duplicate on YPAD at the indicated times. Plates were incubated at 23°C for 3 days. For the remaining assays, cultures of 1588-4C- or U960-5C-derived strains bearing appropriate plasmids were brought to similar densities and serially diluted 4-fold in a 96-well plate. A 48-pin inoculator was used to spot the diluted cultures onto YPAD, YPAD+HU, or YPAD+MMS plates. Sets of YPAD plates were UV irradiated in a prewarmed Stratalinker (Stratagene). The plate cultures were grown at 30°C for 2–3 days.
+   </p>
+   <title>
+    Assay for the G
+    <sub>
+     2
+    </sub>
+    /M DNA Damage Checkpoint Function
+   </title>
+   <p>
+    This assay was performed largely as described
+    <xref ref-type="bibr">
+     Lydall and Weinert 1995
+    </xref>
+    and
+    <xref ref-type="bibr">
+     Lydall and Weinert 1997
+    </xref>
+    . In brief, strains derived from DLY408, DLY409, or DLY554 bearing the appropriate plasmids were grown to early-log phase at 23°C in synthetic media, shifted into YPAD, and synchronized with α factor. Cells were washed into prewarmed YPAD and grown at 37°C. 70% ethanol fixed samples were sonicated and spotted onto poly-L-lysine (Sigma)-coated slides, dried, and sealed under a coverslip with DAPI mounting media (Vector Laboratories). For each sample, at least 100 cells were scored. Cells with gross nuclear or morphological defects and cells terminally G
+    <sub>
+     1
+    </sub>
+    arrested as determined by size and morphology were not scored.
+   </p>
+  </sec>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    References
+   </title>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Abraham 2001
+        </xref>
+       </li>
+       <li>
+        R.T Abraham
+       </li>
+       <li>
+        <p>
+         Cell cycle checkpoint signaling through the ATM and ATR kinases
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 15 (2001), pp. 2177–2196
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref1'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Ahn et al. 2002
+        </xref>
+       </li>
+       <li>
+        J.Y Ahn, X Li, H.L Davis, C.E Canman
+       </li>
+       <li>
+        <p>
+         Phosphorylation of threonine 68 promotes oligomerization and autophosphorylation of the Chk2 protein kinase via the forkhead-associated (FHA) domain
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Biol. Chem., in press (2002)
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref2'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         al-Khodairy et al. 1994
+        </xref>
+       </li>
+       <li>
+        F al-Khodairy, E Fotou, K.S Sheldrick, D.J Griffiths, A.R Lehmann, A.M Carr
+       </li>
+       <li>
+        <p>
+         Identification and characterization of new elements involved in checkpoint and feedback controls in fission yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Biol. Cell, 5 (1994), pp. 147–160
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref3'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Allen et al. 1994
+        </xref>
+       </li>
+       <li>
+        J.B Allen, Z Zhou, W Siede, E.C Friedberg, S.J Elledge
+       </li>
+       <li>
+        <p>
+         The SAD1/RAD53 protein kinase controls multiple checkpoints and DNA damage-induced transcription in yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 8 (1994), pp. 2401–2415
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref4'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Anderson and Lees-Miller 1992
+        </xref>
+       </li>
+       <li>
+        C.W Anderson, S.P Lees-Miller
+       </li>
+       <li>
+        <p>
+         The nuclear serine/threonine protein kinase DNA-PK
+        </p>
+       </li>
+       <li>
+        <p>
+         Crit. Rev. Eukaryot. Gene Expr., 2 (1992), pp. 283–314
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref5'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Bell et al. 1999
+        </xref>
+       </li>
+       <li>
+        D.W Bell, J.M Varley, T.E Szydlo, D.H Kang, D.C Wahrer, K.E Shannon, M Lubratovich, S.J Verselis, K.J Isselbacher, J.F Fraumeni,
+        <em>
+         et al.
+        </em>
+       </li>
+       <li>
+        <p>
+         Heterozygous germ line hCHK2 mutations in Li-Fraumeni syndrome
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 286 (1999), pp. 2528–2531
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref6'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Bentley et al. 1996
+        </xref>
+       </li>
+       <li>
+        N.J Bentley, D.A Holtzman, G Flaggs, K.S Keegan, A DeMaggio, J.C Ford, M Hoekstra, A.M Carr
+       </li>
+       <li>
+        <p>
+         The
+         <em>
+          Schizosaccharomyces pombe
+         </em>
+         rad3 checkpoint gene
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 15 (1996), pp. 6641–6651
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref7'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Bork et al. 1997
+        </xref>
+       </li>
+       <li>
+        P Bork, K Hofmann, P Bucher, A.F Neuwald, S.F Altschul, E.V Koonin
+       </li>
+       <li>
+        <p>
+         A superfamily of conserved domains in DNA damage-responsive cell cycle checkpoint proteins
+        </p>
+       </li>
+       <li>
+        <p>
+         FASEB J., 11 (1997), pp. 68–76
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref8'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Byeon et al. 2001
+        </xref>
+       </li>
+       <li>
+        I.J Byeon, S Yongkiettrakul, M.D Tsai
+       </li>
+       <li>
+        <p>
+         Solution structure of the yeast Rad53 FHA2 complexed with a phosphothreonine peptide pTXXL: comparison with the structures of FHA2-pYXL and FHA1-pTXXD complexes
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Mol. Biol., 314 (2001), pp. 577–588
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref9'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Chehab et al. 2000
+        </xref>
+       </li>
+       <li>
+        N.H Chehab, A Malikzay, M Appel, T.D Halazonetis
+       </li>
+       <li>
+        <p>
+         Chk2/hCds1 functions as a DNA damage checkpoint in G(1) by stabilizing p53
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 14 (2000), pp. 278–288
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref10'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Cortez et al. 1999
+        </xref>
+       </li>
+       <li>
+        D Cortez, Y Wang, J Qin, S.J Elledge
+       </li>
+       <li>
+        <p>
+         Requirement of ATM-dependent phosphorylation of brca1 in the DNA damage response to double-strand breaks
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 286 (1999), pp. 1162–1166
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref11'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         de la Torre-Ruiz and Lowndes 2000
+        </xref>
+       </li>
+       <li>
+        M de la Torre-Ruiz, N.F Lowndes
+       </li>
+       <li>
+        <p>
+         The
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+         DNA damage checkpoint is required for efficient repair of double strand breaks by non-homologous end joining
+        </p>
+       </li>
+       <li>
+        <p>
+         FEBS Lett., 467 (2000), pp. 311–315
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref12'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         de Toledo et al. 2000
+        </xref>
+       </li>
+       <li>
+        S.M de Toledo, E.I Azzam, W.K Dahlberg, T.B Gooding, J.B Little
+       </li>
+       <li>
+        <p>
+         ATM complexes with HDM2 and promotes its rapid phosphorylation in a p53-independent manner in normal and tumor human cells exposed to ionizing radiation
+        </p>
+       </li>
+       <li>
+        <p>
+         Oncogene, 19 (2000), pp. 6185–6193
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref13'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         DiGiovanna et al. 1998
+        </xref>
+       </li>
+       <li>
+        M.P DiGiovanna, R.R Roussel, D.F Stern
+       </li>
+       <li>
+        <p>
+         Production of antibodies that recognize specific Tyrosine-phosphorylated peptides
+        </p>
+       </li>
+       <li>
+        <p>
+         F.M Ausubel (Ed.),
+         <em>
+          et al.
+         </em>
+         , Current Protocols in Molecular Biology, John Wiley &amp; Sons, New York (1998) 18.6.1–18.6.19.pp
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref14'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Durocher and Jackson 2001
+        </xref>
+       </li>
+       <li>
+        D Durocher, S.P Jackson
+       </li>
+       <li>
+        <p>
+         DNA-PK, ATM and ATR as sensors of DNA damage: variations on a theme?
+        </p>
+       </li>
+       <li>
+        <p>
+         Curr. Opin. Cell Biol., 13 (2001), pp. 225–231
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref15'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Durocher et al. 1999
+        </xref>
+       </li>
+       <li>
+        D Durocher, J Henckel, A.R Fersht, S.P Jackson
+       </li>
+       <li>
+        <p>
+         The FHA domain is a modular phosphopeptide recognition motif
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 4 (1999), pp. 387–394
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref16'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Durocher et al. 2000
+        </xref>
+       </li>
+       <li>
+        D Durocher, I.A Taylor, D Sarbassova, L.F Haire, S.L Westcott, S.P Jackson, S.J Smerdon, M.B Yaffe
+       </li>
+       <li>
+        <p>
+         The molecular basis of FHA domain:phosphopeptide binding specificity and implications for phospho-dependent signaling mechanisms
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 6 (2000), pp. 1169–1182
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref17'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Elledge 1996
+        </xref>
+       </li>
+       <li>
+        S.J Elledge
+       </li>
+       <li>
+        <p>
+         Cell cycle checkpoints: preventing an identity crisis
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 274 (1996), pp. 1664–1672
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref18'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Emili 1998
+        </xref>
+       </li>
+       <li>
+        A Emili
+       </li>
+       <li>
+        <p>
+         MEC1-dependent phosphorylation of Rad9p in response to DNA damage
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 2 (1998), pp. 183–189
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref19'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Erdeniz et al. 1997
+        </xref>
+       </li>
+       <li>
+        N Erdeniz, U.H Mortensen, R Rothstein
+       </li>
+       <li>
+        <p>
+         Cloning-free PCR-based allele replacement methods
+        </p>
+       </li>
+       <li>
+        <p>
+         Genome Res., 7 (1997), pp. 1174–1183
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref20'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Foiani et al. 1999
+        </xref>
+       </li>
+       <li>
+        M Foiani, G Liberi, S Piatti, P Plevani
+       </li>
+       <li>
+        <p>
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+         as a model system to study DNA replication
+        </p>
+       </li>
+       <li>
+        <p>
+         S Cotterill (Ed.), Eukaryotic DNA Replication: A Practical Approach, Oxford University Press, Oxford, UK (1999) 185–200.pp
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref21'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Foss 2001
+        </xref>
+       </li>
+       <li>
+        E Foss
+       </li>
+       <li>
+        <p>
+         Tof1p regulates DNA damage responses during S phase in
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Genetics, 157 (2001), pp. 567–577
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref22'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Futcher 1999
+        </xref>
+       </li>
+       <li>
+        B Futcher
+       </li>
+       <li>
+        <p>
+         Cell cycle synchronization
+        </p>
+       </li>
+       <li>
+        <p>
+         Methods Cell Sci., 21 (1999), pp. 79–86
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref23'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Gardner et al. 1999
+        </xref>
+       </li>
+       <li>
+        R Gardner, C.W Putnam, T Weinert
+       </li>
+       <li>
+        <p>
+         RAD53, DUN1 and PDS1 define two parallel G2/M checkpoint pathways in budding yeast
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 18 (1999), pp. 3173–3185
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref24'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Garvik et al. 1995
+        </xref>
+       </li>
+       <li>
+        B Garvik, M Carson, L Hartwell
+       </li>
+       <li>
+        <p>
+         Single-stranded DNA arising at telomeres in cdc13 mutants may constitute a specific signal for the RAD9 checkpoint
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell. Biol., 15 (1995), pp. 6128–6138
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref25'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Gilbert et al. 2001
+        </xref>
+       </li>
+       <li>
+        C.S Gilbert, C.M Green, N.F Lowndes
+       </li>
+       <li>
+        <p>
+         Budding yeast Rad9 is an ATP-dependent Rad53 activating machine
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 8 (2001), pp. 129–136
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref26'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Hofmann and Bucher 1995
+        </xref>
+       </li>
+       <li>
+        K Hofmann, P Bucher
+       </li>
+       <li>
+        <p>
+         The FHA domain: a putative nuclear signalling domain found in protein kinases and transcription factors
+        </p>
+       </li>
+       <li>
+        <p>
+         Trends Biochem. Sci., 20 (1995), pp. 347–349
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref27'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Kim et al. 1999
+        </xref>
+       </li>
+       <li>
+        S.T Kim, D.S Lim, C.E Canman, M.B Kastan
+       </li>
+       <li>
+        <p>
+         Substrate specificities and identification of putative substrates of ATM kinase family members
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Biol. Chem., 274 (1999), pp. 37538–37543
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref28'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Koonin et al. 1996
+        </xref>
+       </li>
+       <li>
+        E.V Koonin, S.F Altschul, P Bork
+       </li>
+       <li>
+        <p>
+         BRCA1 protein products. Functional motifs
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Genet., 13 (1996), pp. 266–268
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref29'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Ladbury et al. 1995
+        </xref>
+       </li>
+       <li>
+        J.E Ladbury, M.A Lemmon, M Zhou, J Green, M.C Botfield, J Schlessinger
+       </li>
+       <li>
+        <p>
+         Measurement of the binding of tyrosyl phosphopeptides to SH2 domains: a reappraisal
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 92 (1995), pp. 3199–3203
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref30'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Lee and Chung 2001
+        </xref>
+       </li>
+       <li>
+        C.H Lee, J.H Chung
+       </li>
+       <li>
+        <p>
+         The hCds1 (Chk2)-FHA domain is essential for a chain of phosphorylation events on hCds1 that is induced by ionizing radiation
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Biol. Chem., 276 (2001), pp. 30537–30541
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref31'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Li et al. 1999
+        </xref>
+       </li>
+       <li>
+        J Li, G.P Smith, J.C Walker
+       </li>
+       <li>
+        <p>
+         Kinase interaction domain of kinase-associated protein phosphatase, a phosphoprotein-binding domain
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 96 (1999), pp. 7821–7826
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref32'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Liao et al. 1999
+        </xref>
+       </li>
+       <li>
+        H Liao, I.J Byeon, M.D Tsai
+       </li>
+       <li>
+        <p>
+         Structure and function of a new phosphopeptide-binding domain containing the FHA2 of Rad53
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Mol. Biol., 294 (1999), pp. 1041–1049
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref33'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Liao et al. 2000
+        </xref>
+       </li>
+       <li>
+        H Liao, C Yuan, M.I Su, S Yongkiettrakul, D Qin, H Li, I.J Byeon, D Pei, M.D Tsai
+       </li>
+       <li>
+        <p>
+         Structure of the FHA1 domain of yeast Rad53 and identification of binding sites for both FHA1 and its target protein Rad9
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Mol. Biol., 304 (2000), pp. 941–951
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref34'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Lin and Zakian 1996
+        </xref>
+       </li>
+       <li>
+        J.J Lin, V.A Zakian
+       </li>
+       <li>
+        <p>
+         The Saccharomyces CDC13 protein is a single-strand TG1-3 telomeric DNA-binding protein in vitro that affects telomere behavior in vivo
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 93 (1996), pp. 13760–13765
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref35'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Lindsay et al. 1998
+        </xref>
+       </li>
+       <li>
+        H.D Lindsay, D.J Griffiths, R.J Edwards, P.U Christensen, J.M Murray, F Osman, N Walworth, A.M Carr
+       </li>
+       <li>
+        <p>
+         S-phase-specific activation of Cds1 kinase defines a subpathway of the checkpoint response in
+         <em>
+          Schizosaccharomyces pombe
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 12 (1998), pp. 382–395
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref36'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Liu et al. 2000
+        </xref>
+       </li>
+       <li>
+        Y Liu, G Vidanes, Y.C Lin, S Mori, W Siede
+       </li>
+       <li>
+        <p>
+         Characterization of a
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+         homologue of
+         <em>
+          Schizosaccharomyces pombe
+         </em>
+         Chk1 involved in DNA-damage-induced M-phase arrest
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Gen. Genet., 262 (2000), pp. 1132–1146
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref37'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Longtine et al. 1998
+        </xref>
+       </li>
+       <li>
+        M.S Longtine, A McKenzie 3rd, D.J Demarini, N.G Shah, A Wach, A Brachat, P Philippsen, J.R Pringle
+       </li>
+       <li>
+        <p>
+         Additional modules for versatile and economical PCR-based gene deletion and modification in
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Yeast, 14 (1998), pp. 953–961
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref38'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Lowndes and Murguia 2000
+        </xref>
+       </li>
+       <li>
+        N.F Lowndes, J.R Murguia
+       </li>
+       <li>
+        <p>
+         Sensing and responding to DNA damage
+        </p>
+       </li>
+       <li>
+        <p>
+         Curr. Opin. Genet. Dev., 10 (2000), pp. 17–25
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref39'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Lydall and Weinert 1995
+        </xref>
+       </li>
+       <li>
+        D Lydall, T Weinert
+       </li>
+       <li>
+        <p>
+         Yeast checkpoint genes in DNA damage processing: implications for repair and arrest
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 270 (1995), pp. 1488–1491
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref40'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Lydall and Weinert 1997
+        </xref>
+       </li>
+       <li>
+        D Lydall, T Weinert
+       </li>
+       <li>
+        <p>
+         Use of cdc13-1-induced DNA damage to study effects of checkpoint genes on DNA damage processing
+        </p>
+       </li>
+       <li>
+        <p>
+         Methods Enzymol., 283 (1997), pp. 410–424
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref41'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Matsuoka et al. 2000
+        </xref>
+       </li>
+       <li>
+        S Matsuoka, G Rotman, A Ogawa, Y Shiloh, K Tamai, S.J Elledge
+       </li>
+       <li>
+        <p>
+         Ataxia telangiectasia-mutated phosphorylates Chk2 in vivo and in vitro
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 97 (2000), pp. 10389–10394
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref42'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Melchionna et al. 2000
+        </xref>
+       </li>
+       <li>
+        R Melchionna, X.B Chen, A Blasina, C.H McGowan
+       </li>
+       <li>
+        <p>
+         Threonine 68 is required for radiation-induced phosphorylation and activation of Cds1
+        </p>
+       </li>
+       <li>
+        <p>
+         Nat. Cell Biol., 2 (2000), pp. 762–765
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref43'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Nash et al. 2001
+        </xref>
+       </li>
+       <li>
+        P Nash, X Tang, S Orlicky, Q Chen, F.B Gertler, M.D Mendenhall, F Sicheri, T Pawson, M Tyers
+       </li>
+       <li>
+        <p>
+         Multisite phosphorylation of a CDK inhibitor sets a threshold for the onset of DNA replication
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 414 (2001), pp. 514–521
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref44'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Navas et al. 1996
+        </xref>
+       </li>
+       <li>
+        T.A Navas, Y Sanchez, S.J Elledge
+       </li>
+       <li>
+        <p>
+         RAD9 and DNA polymerase epsilon form parallel sensory branches for transducing the DNA damage checkpoint signal in
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 10 (1996), pp. 2632–2643
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref45'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Nugent et al. 1996
+        </xref>
+       </li>
+       <li>
+        C.I Nugent, T.R Hughes, N.F Lue, V Lundblad
+       </li>
+       <li>
+        <p>
+         Cdc13p: a single-strand telomeric DNA-binding protein with a dual role in yeast telomere maintenance
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 274 (1996), pp. 249–252
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref46'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Paulovich et al. 1997
+        </xref>
+       </li>
+       <li>
+        A.G Paulovich, R.U Margulies, B.M Garvik, L.H Hartwell
+       </li>
+       <li>
+        <p>
+         RAD9, RAD17, and RAD24 are required for S phase regulation in
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+         in response to DNA damage
+        </p>
+       </li>
+       <li>
+        <p>
+         Genetics, 145 (1997), pp. 45–62
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref47'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Rhind and Russell 2000
+        </xref>
+       </li>
+       <li>
+        N Rhind, P Russell
+       </li>
+       <li>
+        <p>
+         Chk1 and Cds1: linchpins of the DNA damage and replication checkpoint pathways
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Cell Sci., 113 (2000), pp. 3889–3896
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref48'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Sanchez et al. 1996
+        </xref>
+       </li>
+       <li>
+        Y Sanchez, B.A Desany, W.J Jones, Q Liu, B Wang, S.J Elledge
+       </li>
+       <li>
+        <p>
+         Regulation of RAD53 by the ATM-like kinases MEC1 and TEL1 in yeast cell cycle checkpoint pathways
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 271 (1996), pp. 357–360
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref49'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Sanchez et al. 1999
+        </xref>
+       </li>
+       <li>
+        Y Sanchez, J Bachant, H Wang, F Hu, D Liu, M Tetzlaff, S.J Elledge
+       </li>
+       <li>
+        <p>
+         Control of the DNA damage checkpoint by chk1 and rad53 protein kinases through distinct mechanisms
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 286 (1999), pp. 1166–1171
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref50'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Siede et al. 1993
+        </xref>
+       </li>
+       <li>
+        W Siede, A.S Friedberg, E.C Friedberg
+       </li>
+       <li>
+        <p>
+         RAD9-dependent G1 arrest defines a second checkpoint for damaged DNA in the cell cycle of
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Proc. Natl. Acad. Sci. USA, 90 (1993), pp. 7985–7989
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref51'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Soulier and Lowndes 1999
+        </xref>
+       </li>
+       <li>
+        J Soulier, N.F Lowndes
+       </li>
+       <li>
+        <p>
+         The BRCT domain of the
+         <em>
+          S. cerevisiae
+         </em>
+         checkpoint protein Rad9 mediates a Rad9-Rad9 interaction after DNA damage
+        </p>
+       </li>
+       <li>
+        <p>
+         Curr. Biol., 9 (1999), pp. 551–554
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref52'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Stone et al. 1994
+        </xref>
+       </li>
+       <li>
+        J.M Stone, M.A Collinge, R.D Smith, M.A Horn, J.C Walker
+       </li>
+       <li>
+        <p>
+         Interaction of a protein phosphatase with an Arabidopsis serine-threonine receptor kinase
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 266 (1994), pp. 793–795
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref53'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Sun et al. 1996
+        </xref>
+       </li>
+       <li>
+        Z Sun, D.S Fay, F Marini, M Foiani, D.F Stern
+       </li>
+       <li>
+        <p>
+         Spk1/Rad53 is regulated by Mec1-dependent protein phosphorylation in DNA replication and damage checkpoint pathways
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 10 (1996), pp. 395–406
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref54'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Sun et al. 1998
+        </xref>
+       </li>
+       <li>
+        Z Sun, J Hsiao, D.S Fay, D.F Stern
+       </li>
+       <li>
+        <p>
+         Rad53 FHA domain associated with phosphorylated Rad9 in the DNA damage checkpoint
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 281 (1998), pp. 272–274
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref55'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Terleth et al. 1990
+        </xref>
+       </li>
+       <li>
+        C Terleth, P Schenk, R Poot, J Brouwer, P van de Putte
+       </li>
+       <li>
+        <p>
+         Differential repair of UV damage in rad mutants of
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+         : a possible function of G2 arrest upon UV irradiation
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell. Biol., 10 (1990), pp. 4678–4684
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref56'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Vialard et al. 1998
+        </xref>
+       </li>
+       <li>
+        J.E Vialard, C.S Gilbert, C.M Green, N.F Lowndes
+       </li>
+       <li>
+        <p>
+         The budding yeast Rad9 checkpoint protein is subjected to Mec1/Tel1-dependent hyperphosphorylation and interacts with Rad53 after DNA damage
+        </p>
+       </li>
+       <li>
+        <p>
+         EMBO J., 17 (1998), pp. 5679–5688
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref57'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Wakayama et al. 2001
+        </xref>
+       </li>
+       <li>
+        T Wakayama, T Kondo, S Ando, K Matsumoto, K Sugimoto
+       </li>
+       <li>
+        <p>
+         Pie1, a protein interacting with Mec1, controls cell growth and checkpoint responses in
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell. Biol., 21 (2001), pp. 755–764
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref58'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Walworth et al. 1993
+        </xref>
+       </li>
+       <li>
+        N Walworth, S Davey, D Beach
+       </li>
+       <li>
+        <p>
+         Fission yeast chk1 protein kinase links the rad checkpoint pathway to cdc2
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 363 (1993), pp. 368–371
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref59'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Wang et al. 2000
+        </xref>
+       </li>
+       <li>
+        P Wang, I.J Byeon, H Liao, K.D Beebe, S Yongkiettrakul, D Pei, M.D Tsai
+       </li>
+       <li>
+        <p>
+         II. Structure and specificity of the interaction between the FHA2 domain of Rad53 and phosphotyrosyl peptides
+        </p>
+       </li>
+       <li>
+        <p>
+         J. Mol. Biol., 302 (2000), pp. 927–940
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref60'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <ol>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Weinert and Hartwell 1988
+        </xref>
+       </li>
+       <li>
+        T.A Weinert, L.H Hartwell
+       </li>
+       <li>
+        <p>
+         The RAD9 gene controls the cell cycle response to DNA damage in
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+        </p>
+       </li>
+       <li>
+        <p>
+         Science, 241 (1988), pp. 317–322
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref61'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Weinert and Hartwell 1990
+        </xref>
+       </li>
+       <li>
+        T.A Weinert, L.H Hartwell
+       </li>
+       <li>
+        <p>
+         Characterization of RAD9 of
+         <em>
+          Saccharomyces cerevisiae
+         </em>
+         and evidence that its function acts posttranslationally in cell cycle arrest after DNA damage
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell. Biol., 10 (1990), pp. 6554–6564
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref62'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Weinert and Hartwell 1993
+        </xref>
+       </li>
+       <li>
+        T.A Weinert, L.H Hartwell
+       </li>
+       <li>
+        <p>
+         Cell cycle arrest of cdc mutants and specificity of the RAD9 checkpoint
+        </p>
+       </li>
+       <li>
+        <p>
+         Genetics, 134 (1993), pp. 63–80
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref63'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Weinert et al. 1994
+        </xref>
+       </li>
+       <li>
+        T.A Weinert, G.L Kiser, L.H Hartwell
+       </li>
+       <li>
+        <p>
+         Mitotic checkpoint genes in budding yeast and the dependence of mitosis on DNA replication and repair
+        </p>
+       </li>
+       <li>
+        <p>
+         Genes Dev., 8 (1994), pp. 652–665
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref64'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Xu et al. 2002
+        </xref>
+       </li>
+       <li>
+        X Xu, L.M Tsvetkov, D.F Stern
+       </li>
+       <li>
+        <p>
+         Chk2 activation and phosphorylation-dependent oligomerization
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell. Biol., 21 (2002), pp. 4419–4432
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref65'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Zhao et al. 1998
+        </xref>
+       </li>
+       <li>
+        X Zhao, E.G Muller, R Rothstein
+       </li>
+       <li>
+        <p>
+         A suppressor of two essential checkpoint genes identifies a novel protein that negatively affects dNTP pools
+        </p>
+       </li>
+       <li>
+        <p>
+         Mol. Cell, 2 (1998), pp. 329–340
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref66'] = new Array();
+      </script>
+     </li>
+     <li>
+      <ul>
+       <li>
+        <xref ref-type="bibr">
+         Zhou and Elledge 2000
+        </xref>
+       </li>
+       <li>
+        B.B Zhou, S.J Elledge
+       </li>
+       <li>
+        <p>
+         The DNA damage response: putting checkpoints in perspective
+        </p>
+       </li>
+       <li>
+        <p>
+         Nature, 408 (2000), pp. 433–439
+        </p>
+       </li>
+       <li>
+        <img/>
+       </li>
+      </ul>
+      <script>
+       myMap['bibsbref67'] = new Array();
+      </script>
+     </li>
+    </ol>
+   </div>
+   <p>
+    Copyright © 2002 Cell Press.  All rights reserved.
+   </p>
+  </sec>
+  <sec>
+  </sec>
+ </body>
+</article>

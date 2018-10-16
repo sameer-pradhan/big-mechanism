@@ -1,0 +1,2699 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3160251
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    The Sm-like RNA chaperone Hfq mediates transcription antitermination at Rho-dependent terminators
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     In
+     <strong>
+      <em>
+       Escherichia coli
+      </em>
+     </strong>
+     , the essential motor protein Rho promotes transcription termination in a tightly controlled manner that is not fully understood. Here, we show that the general post-transcriptional regulatory protein Hfq associates with Rho to regulate Rho function. The Hfq:Rho complex can be further stabilized by RNA bridging both factors in a configuration that inhibits the ATP hydrolysis and duplex unwinding activities of Rho and that mediates transcription antitermination at Rho-dependent terminators
+     <strong>
+      <em>
+       in vitro
+      </em>
+     </strong>
+     and
+     <strong>
+      <em>
+       in vivo
+      </em>
+     </strong>
+     . Antitermination at a prototypical terminator (λtR1) requires Hfq binding to an A/U-rich transcript region directly upstream from the terminator. Antitermination is modulated by
+     <strong>
+      <em>
+       trans-
+      </em>
+     </strong>
+     acting factors (NusG or nucleic acid competitors) that affect Hfq association with Rho or RNA. These data unveil a new Hfq function and a novel transcription regulatory mechanism with potentially important implications for bacterial RNA metabolism, gene silencing, and pathogenicity.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     hexameric helicase, RNA chaperone, transcription termination
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    RNA biosynthesis is a fundamental process that is often regulated during the various phases of transcription as a function of other RNA metabolism transactions. In
+    <em>
+     Escherichia coli
+    </em>
+    , for instance, the synchronized translation of mRNAs' open reading frames (ORFs) by ribosomes during their synthesis by RNA polymerase (RNAP) protects the transcription machinery from destabilization by Rho (
+    <xref ref-type="bibr">
+     Ciampi, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ), an essential (
+    <xref ref-type="bibr">
+     Das et al, 1976
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cardinale et al, 2008
+    </xref>
+    ) and abundant (∼10
+    <sup>
+     3
+    </sup>
+    hexamers/cell;
+    <xref ref-type="bibr">
+     Geiselmann et al, 1992
+    </xref>
+    ) ring-shaped, homo-hexameric protein motor (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). Rho has generic ATP-dependent [5′ → 3′] RNA translocation, duplex unwinding, and protein displacement activities that it most likely uses to disrupt transcription elongation complexes at untranslated loci of the bacterial genome, termed Rho-dependent terminators (reviewed in
+    <xref ref-type="bibr">
+     Ciampi, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ). An estimated one-fifth of
+    <em>
+     E. coli
+    </em>
+    's transcription units (encoding genes and non-coding RNAs) are subjected to Rho-dependent termination (
+    <xref ref-type="bibr">
+     Peters et al, 2009
+    </xref>
+    ). Rho also attenuates gene expression by promoting intracistronic transcription termination whenever mutations or environmental conditions perturb the coupling of translation with transcription (
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ).
+   </p>
+   <fig id="f1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <p>
+      A direct Rho:Hfq interaction. (
+      <strong>
+       A
+      </strong>
+      ) Same-scale structures of the Rho and Hfq hexamers. The r(UUUUUU) oligomer bound to the secondary binding site (SBS, which is strictly RNA specific) in the central channel of Rho (PDB #3ICE) is shown in blue. Residues composing the crown-like PBS of Rho are in orange. C-rich, 12–13 nt-long segments of RNA or DNA (PBS is not specific) are minimally required to span PBS clefts on adjacent Rho subunits (
+      <xref ref-type="bibr">
+       Skordalakes and Berger, 2003
+      </xref>
+      ). The model of the Hfq hexamer has been built by structural alignment of two distinct crystal structures of RNA-bound Hfq (PDB #3GIB and #1KQ2) using the TopMatch server (
+      <a>
+       http://topmatch.services.came.sbg.ac.at/
+      </a>
+      ). In the model, r(AUUUUUG) (in cyan) and r(A)
+      <sub>
+       9
+      </sub>
+      (in magenta) oligomers are bound to the proximal and distal faces, respectively. The Tyr25 residues stacking on adenine bases are shown in yellow. Representative SDS–PAGE gels show Ni-NTA pull-down experiments with ‘bait'
+      <sub>
+       his6
+      </sub>
+      Hfq (
+      <strong>
+       B
+      </strong>
+      ) or
+      <sub>
+       his6
+      </sub>
+      NusG (
+      <strong>
+       C
+      </strong>
+      ) and ‘prey' Rho proteins. Note that Hfq hexamers are only partially denatured by SDS–PAGE (
+      <xref ref-type="bibr">
+       Carmichael et al, 1975
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Arluison et al, 2002
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Sukhodolets and Garges, 2003
+      </xref>
+      ).
+     </p>
+    </caption>
+   </fig>
+   <p>
+    The classical model for Rho-dependent termination posits that Rho first binds to ∼70 nucleotide (nt)-long naked regions of nascent transcripts (i.e. RNA deprived of bound proteins or ribosomes), preferentially at unstructured C-rich/G-poor
+    <em>
+     Rut
+    </em>
+    (
+    <span>
+     R
+    </span>
+    ho
+    <span>
+     ut
+    </span>
+    ilization) sites (reviewed in
+    <xref ref-type="bibr">
+     Ciampi, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ). Then, Rho translocates towards the transcript's 3′-end in order to catch up with and dissociate RNAP with an efficiency that is thought to depend on the relative Rho and RNAP velocities (conditional ‘entry' and kinetic competition model;
+    <xref ref-type="bibr">
+     Jin et al, 1992
+    </xref>
+    ). Recent studies attempted to refine this model, notably by proposing that Rho is biased against expression of ‘foreign' horizontally acquired genes in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Cardinale et al, 2008
+    </xref>
+    ) or that Rho associates with RNAP throughout the transcription cycle (
+    <xref ref-type="bibr">
+     Epshtein et al, 2010
+    </xref>
+    ). A tight Rho–RNAP association is supported indirectly by chromatin immunoprecipitation experiments (ChIP-chip assay), showing coincident RNAP and Rho distributions along transcription units (
+    <xref ref-type="bibr">
+     Mooney et al, 2009a
+    </xref>
+    ). Such an association raises a question as to what regulates Rho outside ORFs (notably during transcription of long leader regions) when there is no ribosome trailing behind RNAP to increase its processivity (
+    <xref ref-type="bibr">
+     Proshkin et al, 2010
+    </xref>
+    ) nor to prevent the mRNA from associating with Rho (
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ). One possibility is that, as observed during transcription of ribosomal
+    <em>
+     rrn
+    </em>
+    operons or bacteriophage λ chromosome (reviewed in
+    <xref ref-type="bibr">
+     Condon et al, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sen et al, 2008
+    </xref>
+    ), accessory factors bind, in a conditional manner, to RNA and/or to the transcription machinery to form an antitermination complex resistant to Rho.
+   </p>
+   <p>
+    Antitermination complexes that resist to Rho-dependent termination signals within
+    <em>
+     rrn
+    </em>
+    and λ operons contain the NusA, NusB, NusE (ribosomal protein S10), and NusG factors as well as specific factors such as bacteriophage N protein for λN antitermination or ribosomal proteins (S2, S4, L1, L3, L4, and L13) and other unidentified cellular factor(s) for
+    <em>
+     rrn
+    </em>
+    antitermination (
+    <xref ref-type="bibr">
+     Condon et al, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Torres et al, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sen et al, 2008
+    </xref>
+    ). Both
+    <em>
+     rrn
+    </em>
+    and λN antitermination complexes are stabilized by elaborate networks of interactions among their many components that include binding of a NusB–NusE heterodimer to a
+    <em>
+     boxA
+    </em>
+    RNA sequence found in the
+    <em>
+     rrn
+    </em>
+    and λ transcripts (
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sen et al, 2008
+    </xref>
+    ) and binding of NusG to RNAP through its N-terminal domain (NusG-NTD) and to NusE through its C-terminal domain (NusG-CTD;
+    <xref ref-type="bibr">
+     Mooney et al, 2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Burmann et al, 2010
+    </xref>
+    ). The bridge formed by NusG between RNAP and NusE (S10) could also connect physically the ribosome and RNAP during transcription of ORFs, thereby occluding the nascent RNA to Rho (
+    <xref ref-type="bibr">
+     Burmann et al, 2010
+    </xref>
+    ). Thus, the interaction between NusE and NusG-CTD (
+    <xref ref-type="bibr">
+     Burmann et al, 2010
+    </xref>
+    ) seems critical to protect the transcription machinery from Rho under various contexts. Importantly, NusG can also bind Rho through its CTD (
+    <xref ref-type="bibr">
+     Mooney et al, 2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Burmann et al, 2010
+    </xref>
+    ) and stimulates Rho-dependent termination (
+    <xref ref-type="bibr">
+     Sullivan and Gottesman, 1992
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Burns et al, 1999
+    </xref>
+    ). Regulatory plasticity is thus provided by NusG, which uses its NTD to bind RNAP and its CTD to bind Rho or NusE (S10) in a mutually exclusive manner (
+    <xref ref-type="bibr">
+     Mooney et al, 2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Burmann et al, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    Although NusG is abundant in
+    <em>
+     E. coli
+    </em>
+    (∼10
+    <sup>
+     4
+    </sup>
+    molecules/cell;
+    <xref ref-type="bibr">
+     Li et al, 1993
+    </xref>
+    ), ChIP-chip distributions suggest that it associates slowly with transcribing RNAPs (
+    <xref ref-type="bibr">
+     Mooney et al, 2009a
+    </xref>
+    ). The NusG-binding site on RNAP-bound Rho (
+    <xref ref-type="bibr">
+     Epshtein et al, 2010
+    </xref>
+    ) may thus be occupied by other factor(s), which could contribute to delay NusG association (
+    <xref ref-type="bibr">
+     Mooney et al, 2009a
+    </xref>
+    ) and to repress Rho during transcription of 5′-leader mRNA regions. To test this hypothesis, we scrutinized putative Rho partners present in the
+    <em>
+     E. coli
+    </em>
+    ‘interactome' that has been established by global tag affinity purification and mass spectrometry identification approaches (
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al, 2009
+    </xref>
+    ) for features suggestive of physical or functional competition with NusG. One intriguing candidate is Hfq, a post-transcriptional regulator and virulence factor, which mediates gene silencing events by facilitating pairing of regulatory small non-coding RNAs (sRNAs) with their mRNA targets (reviewed in
+    <xref ref-type="bibr">
+     Gottesman et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Chao and Vogel, 2010
+    </xref>
+    ). Hfq has other roles in RNA metabolism and notably modulates the levels of several mRNAs, either by increasing their stability (
+    <xref ref-type="bibr">
+     Folichon et al, 2003
+    </xref>
+    ) or through an unsolved transcriptional mechanism (
+    <xref ref-type="bibr">
+     Le Derout et al, 2010
+    </xref>
+    ). In
+    <em>
+     E. coli
+    </em>
+    , Hfq is about as abundant as NusG (∼10
+    <sup>
+     4
+    </sup>
+    hexamers/cell) and is associated with components of the ribosome, RNase E, the nucleoid, and RNAP (reviewed in
+    <xref ref-type="bibr">
+     Sukhodolets and Garges, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al, 2009
+    </xref>
+    ). The Hfq protein forms stable, homo-hexameric rings having opposite polyA- and polyU-binding surfaces (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Link et al, 2009
+    </xref>
+    ) and exhibits some topological similarities with NusG-CTD (see
+    <a>
+     Supplementary data
+    </a>
+    ) and with YaeO (
+    <xref ref-type="bibr">
+     Gutierrez et al, 2007
+    </xref>
+    ), the only cellular protein that, to our knowledge, is known to bind and inhibit Rho directly (
+    <xref ref-type="bibr">
+     Pichoff et al, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gutierrez et al, 2007
+    </xref>
+    ).
+   </p>
+   <p>
+    Here, we show that Hfq associates stably with Rho and inhibits its ATP hydrolysis, duplex unwinding, and transcription termination activities. Consistent with these observations, transcription termination at the prototypical Rho-dependent λtR1 terminator is stronger in a
+    <em>
+     hfq
+    </em>
+    null mutant than in wild-type (WT)
+    <em>
+     E. coli
+    </em>
+    .
+    <em>
+     In vitro
+    </em>
+    , Hfq-mediated antitermination requires the interaction of Hfq with both Rho and RNA transcript and can be repressed by the addition of NusG, an A-rich oligomer, or an oligonucleotide that pairs with a specific region of the transcript upstream from the λtR1
+    <em>
+     Rut
+    </em>
+    site. Our data unveil a new transcriptional antitermination mechanism that depends on trapping of the Rho–RNA complex into an inactive configuration by the bound Hfq. These data also reveal a complex interplay between key players of bacterial RNA metabolism and suggest that Rho-dependent transcription termination could contribute to sRNA-dependent gene silencing and/or control of virulence.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Hfq forms a stable binary complex with Rho
+    </title>
+    <p>
+     Global analyses of
+     <em>
+      E. coli
+     </em>
+     's interaction network revealed that Rho and Hfq associate in the same protein complexe(s)
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      Butland et al, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hu et al, 2009
+     </xref>
+     ). To determine if they can associate directly in the absence of other factors, we performed ‘pull-down' trials on Ni-NTA agarose beads with purified Rho and hexahistidine-tagged Hfq (
+     <sub>
+      his6
+     </sub>
+     Hfq). We used a ‘low adsorption' binding and washing procedure (see Materials and methods) whereby
+     <sub>
+      his6
+     </sub>
+     Hfq stably associates with the beads (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     , lane 3) whereas Rho alone does not (lane 5). When the beads, Rho, and
+     <sub>
+      his6
+     </sub>
+     Hfq are incubated together, a significant fraction of Rho is recovered with the beads (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     , lane 4). This fraction of Hfq-bound Rho was unaffected by the presence of RNase A or Benzonase nuclease in the mixture or if Rho and Hfq were incubated separately with the nucleases before their mixing (data not shown). This argues against a Rho:Hfq interaction being mediated by RNA contaminants (great care was also taken to avoid RNA contamination during preparation of Hfq and Rho; see Materials and methods). Moreover, poly-histidine did not promote Ni-NTA pull-down of Rho (not shown), excluding that Rho binds the his
+     <sub>
+      6
+     </sub>
+     -tag on Hfq. Thus, Rho and Hfq can form a genuine binary complex. Under the same experimental conditions, Rho also forms binary complexes with his
+     <sub>
+      6
+     </sub>
+     -tagged NusG (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     , lane 4) and YaeO (
+     <a>
+      Supplementary Figure S1A
+     </a>
+     ), confirming previous observations (
+     <xref ref-type="bibr">
+      Pichoff et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kalarickal et al, 2010
+     </xref>
+     ). Using fluorescence quenching titrations with Cy3-labelled Hfq (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ), we measured a
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     of 40 nM (25°C, pH 7, 100 mM NaCl) for the binary Rho:Hfq complex.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hfq inhibits Rho-dependent transcription termination in vitro and in vivo
+    </title>
+    <p>
+     To determine if Hfq binding affects Rho activity, we performed
+     <em>
+      in vitro
+     </em>
+     transcription experiments with
+     <em>
+      E. coli
+     </em>
+     RNAP and DNA template pT7A1-λcro, which contains a region of the λ chromosome encompassing the
+     <em>
+      cro
+     </em>
+     ORF and Rho-dependent tR1 terminator (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , schematic;
+     <xref ref-type="bibr">
+      Rabhi et al, 2011
+     </xref>
+     ). With this template, Rho triggers efficient transcription termination at canonical release sites I, II, and III (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , lane 2;
+     <xref ref-type="bibr">
+      Lau et al, 1982
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rabhi et al, 2011
+     </xref>
+     ). The presence of bicyclomycin (Bcm), an antibiotic that specifically inhibits Rho (
+     <xref ref-type="bibr">
+      Rabhi et al, 2010
+     </xref>
+     ), induces complete read-through of the tR1 terminator by RNAP (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , lane 1). Similarly, Hfq represses Rho-dependent termination at λtR1 in a dose-dependent manner (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     , lanes 3–6 and graph). This effect is observed regardless of the order of addition of Hfq and other reaction components prior to transcription initiation with NTPs (data not shown).
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Hfq-mediated transcriptional antitermination. (
+       <strong>
+        A
+       </strong>
+       ) Effect of Hfq on
+       <em>
+        in vitro
+       </em>
+       Rho-dependent transcription termination at the tR1 terminator. The composition of the DNA template (pT7A1-λ
+       <em>
+        cro
+       </em>
+       ) used in the
+       <em>
+        in vitro
+       </em>
+       transcription experiments is schematically depicted at the top of the panel. Gel bands corresponding to transcripts terminated at the canonical sites I, II, and III and to RNAP read-through of the terminator (Run-off transcripts) in the presence of 70 nM Rho are identified by arrowheads on the left side of the gel. The graph shows the global termination efficiency (sites I, II, and III) as a function of Hfq concentration. Bcm is a Rho-specific inhibitor. (
+       <strong>
+        B
+       </strong>
+       ) A schematic of the reporter operons used in
+       <em>
+        in vivo
+       </em>
+       experiments. The thick black lines show which parts of
+       <em>
+        cro
+       </em>
+       -tR1 are present in the various operons. (
+       <strong>
+        C
+       </strong>
+       ) Hfq reduces Rho-dependent tR1 termination
+       <em>
+        in vivo
+       </em>
+       in the presence of subinhibiting Bcm concentrations. Northern blots show tRNA
+       <sup>
+        arg5
+       </sup>
+       and 5S RNA accumulation in
+       <em>
+        hfq
+       </em>
+       <sup>
+        <em>
+         +
+        </em>
+       </sup>
+       or
+       <em>
+        hfq
+       </em>
+       <sup>
+        <em>
+         −
+        </em>
+       </sup>
+       cells carrying plasmid pOM10cI (Control operon) or pOM10cI-cro3′Tert (cro3′Ter operon). Total RNA was extracted from two different cultures in each case. Blots were successively hybridized with tRNA
+       <sup>
+        Arg5
+       </sup>
+       and 5S RNA probes. Blots separated by dotted lines are from the same membranes and were phosphor-imaged simultaneously. Histograms show normalized tRNA
+       <sup>
+        Arg5
+       </sup>
+       amounts (mean±error from 4–6 independent samples) in cells carrying the pOM10cI-cro3′Ter (cro3′Ter) plasmid. In each case, normalization assumes that 100% of tRNA
+       <sup>
+        Arg5
+       </sup>
+       is formed in the strain carrying the control pOM10cI plasmid. (
+       <strong>
+        D
+       </strong>
+       ) Ratios of tRNA
+       <sup>
+        Arg5
+       </sup>
+       accumulated in
+       <em>
+        hfq
+       </em>
+       <sup>
+        <em>
+         +
+        </em>
+       </sup>
+       and
+       <em>
+        hfq
+       </em>
+       <sup>
+        <em>
+         −
+        </em>
+       </sup>
+       cells from the cro3′Ter operon as a function of Bcm concentration. Bcm was added to culture media at the time of induction. (
+       <strong>
+        E
+       </strong>
+       ) Ratios of tRNA
+       <sup>
+        Arg5
+       </sup>
+       accumulated in
+       <em>
+        hfq
+       </em>
+       <sup>
+        <em>
+         +
+        </em>
+       </sup>
+       and
+       <em>
+        hfq
+       </em>
+       <sup>
+        <em>
+         −
+        </em>
+       </sup>
+       cells in the presence of 10 mg/l Bcm as a function of the reporter operon.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Similar observations were made with the distinct trpt' terminator (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ), suggesting that Hfq-mediated read-through of Rho-dependent terminators has general relevance. Moreover, Hfq does not trigger efficient antitermination with phylogenetically distinct Rho from
+     <em>
+      Mycobacterium tuberculosis
+     </em>
+     (
+     <em>
+      mtb
+     </em>
+     Rho;
+     <a>
+      Supplementary Figure S4
+     </a>
+     ), a bacterium without Hfq homologue (
+     <xref ref-type="bibr">
+      Arnvig and Young, 2009
+     </xref>
+     ). Note that
+     <em>
+      mtb
+     </em>
+     Rho does not bind NusG efficiently (
+     <xref ref-type="bibr">
+      Kalarickal et al, 2010
+     </xref>
+     ). Hfq also has no apparent effect on transcript release induced by the Rho-independent
+     <em>
+      rrnB
+     </em>
+     T1 terminator (data not shown) nor does it affect pausing of RNAP along the pT7A1-λcro template (
+     <a>
+      Supplementary Figure S5
+     </a>
+     ). Thus, Hfq most likely promotes antitermination at Rho-dependent terminators by a mechanism involving a genuine Hfq:Rho interaction but without changing RNAP sensitivity to other signals regulating transcription elongation.
+    </p>
+    <p>
+     YaeO induces a comparable inhibition of Rho-dependent termination (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ). However and in contrast to Hfq, the antitermination activity of purified YaeO declined rapidly upon time (data not shown), which probably explains why it was not detected previously (
+     <xref ref-type="bibr">
+      Pichoff et al, 1998
+     </xref>
+     ).
+    </p>
+    <p>
+     To determine if Hfq also triggers antitermination
+     <em>
+      in vivo
+     </em>
+     , we constructed an artificial operon to measure cellular transcriptional read-through of the tR1 terminator. The operon contains the temperature-inducible λcI857
+     <sup>
+      ts
+     </sup>
+     promoter upstream from
+     <em>
+      lacZ
+     </em>
+     and
+     <em>
+      cat
+     </em>
+     genes and from sequences encoding tRNA
+     <sup>
+      Arg5
+     </sup>
+     and a Rho-independent terminator (cro3′Ter operon;
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ) and is carried by a low-copy replicon (
+     <xref ref-type="bibr">
+      Espeli et al, 2001
+     </xref>
+     ). The tR1 terminator and upstream
+     <em>
+      cro
+     </em>
+     sequences are inserted between the
+     <em>
+      lacZ
+     </em>
+     and
+     <em>
+      cat
+     </em>
+     genes in cro3′Ter (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). This insert lacks the canonical Shine-Dalgarno sequence and the first 26 codons of the
+     <em>
+      cro
+     </em>
+     ORF (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). These features ensure that transcriptional output from the λcI857
+     <sup>
+      ts
+     </sup>
+     promoter, tR1 termination, and potential Hfq-mediated antitermination are not affected by
+     <em>
+      cro
+     </em>
+     translation. Transient induction of the cro3′Ter operon is obtained following a temperature shift while synthesis and accumulation of the mature tRNA
+     <sup>
+      Arg5
+     </sup>
+     are used to measure read-through of the upstream tR1 terminator (see Materials and methods;
+     <xref ref-type="bibr">
+      Espeli et al, 2001
+     </xref>
+     and references within).
+    </p>
+    <p>
+     We measured tRNA
+     <sup>
+      Arg5
+     </sup>
+     accumulation in
+     <em>
+      E. coli
+     </em>
+     strain MC4100 (
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       +
+      </em>
+     </sup>
+     ) and in an isogenic
+     <em>
+      hfq
+     </em>
+     null strain (
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     ; see Materials and methods). In the absence of Bcm, there is ∼95% less tRNA
+     <sup>
+      Arg5
+     </sup>
+     in cells carrying the cro3′Ter operon than in cells carrying the parent operon without
+     <em>
+      cro
+     </em>
+     -tR1 insert (Control;
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Moreover, amounts of tRNA
+     <sup>
+      Arg5
+     </sup>
+     accumulated from cro3′Ter are very low in both
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       +
+      </em>
+     </sup>
+     and
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     strains (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ; 0 mg/l Bcm samples). This suggests that tR1 termination is very efficient with cro3′Ter and that endogenous Hfq hardly affects Rho under these optimal conditions. Consistent with tRNA
+     <sup>
+      Arg5
+     </sup>
+     accumulation being blocked by tR1 termination, the relative amounts of tRNA
+     <sup>
+      Arg5
+     </sup>
+     obtained with cro3′Ter increase significantly if Rho activity is mitigated by addition of Bcm to the culture media (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). Interestingly, tRNA
+     <sup>
+      Arg5
+     </sup>
+     accumulates in greater amounts in
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       +
+      </em>
+     </sup>
+     than in
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     in the presence of Bcm (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ). This difference is highest at the subinhibitory concentration of 10 mg/l of Bcm (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ). Under this condition, ectopic expression of Hfq (from pBAD-Hfq plasmid;
+     <xref ref-type="bibr">
+      Sledjeski et al, 2001
+     </xref>
+     ) in
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     cells also boosts formation of tRNA
+     <sup>
+      Arg5
+     </sup>
+     from cro3′Ter (
+     <a>
+      Supplementary Figure S6A
+     </a>
+     ). Altogether, these data show that, under appropriate conditions (i.e. suboptimal for Rho function), Hfq can also mediate transcription antitermination
+     <em>
+      in vivo
+     </em>
+     .
+    </p>
+    <p>
+     We also tested the effect of Hfq on tR1 termination with cro3′Ter variants deprived of additional segments of the
+     <em>
+      cro
+     </em>
+     ORF (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     , Short, RutA–B, Δ35–90, and Δ35–127 operons). Termination at tR1 remains very efficient and dependent on Bcm with these operon variants (
+     <a>
+      Supplementary Figure S6B
+     </a>
+     ). However, the relative excess of tRNA
+     <sup>
+      Arg5
+     </sup>
+     formed in
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       +
+      </em>
+     </sup>
+     versus
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     cells in the presence of Bcm is significantly lower with the operon variants than with cro3′Ter (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ). Moreover, diminution of the tRNA
+     <sub>
+      <em>
+       hfq
+      </em>
+      +
+     </sub>
+     /tRNA
+     <sub>
+      <em>
+       hfq−
+      </em>
+     </sub>
+     ratio is roughly correlated with the extent of the
+     <em>
+      cro
+     </em>
+     deletions, although downstream-most
+     <em>
+      cro
+     </em>
+     deletions appear to have the largest mitigating effects. For instance, there is almost no difference between the amounts of tRNA
+     <sup>
+      Arg5
+     </sup>
+     accumulated from the Δ35–127 construct in the
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       +
+      </em>
+     </sup>
+     and
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     strains or upon ectopic expression of Hfq in
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     cells (
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). These data strongly suggest that Hfq needs untranslated
+     <em>
+      cro
+     </em>
+     segments to trigger significant tR1 antitermination with our reporter system (see also below).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     NusG represses Hfq-mediated antitermination
+    </title>
+    <p>
+     We tested the combined effect of Hfq and NusG on Rho in transcription termination experiments with the pT7A1-λcro template
+     <em>
+      in vitro
+     </em>
+     . In the absence of Hfq, NusG only weakly activates promoter-proximal termination sites that are not normally used by Rho (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     , compare lanes 1 and 2;
+     <xref ref-type="bibr">
+      Li et al, 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Burns et al, 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rabhi et al, 2011
+     </xref>
+     ). In the presence of Hfq, however, NusG has a larger effect and restores tR1 termination in a dose-dependent manner (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     , lanes 4–10). Similar observations were made with the trpt' terminator (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). Maximal recovery effects are reached with 70 nM NusG (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ), that is at a ratio of one NusG monomer per Rho hexamer in the transcription mixtures. This effective stoichiometry is the same as that of the Rho:NusG complex formed at equilibrium (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼15 nM at 20°C, pH 7.9 in 100 mM KOAc;
+     <xref ref-type="bibr">
+      Pasman and von Hippel, 2000
+     </xref>
+     ) and is not dependent on the order of addition of the transcription components (data not shown). Thus, counteraction of Hfq-mediated antitermination by NusG is likely due to the NusG canonical interaction with Rho. This counteraction is not total (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     , compare lanes 7–10 with lanes 1 and 2; see also
+     <a>
+      Supplementary Figure S3
+     </a>
+     ), suggesting that NusG does not totally displace Hfq from Rho, that the Hfq:Rho and NusG:Rho complexes are in dynamic equilibrium, or that Hfq and NusG bind Rho simultaneously during transcription. Further work is, however, required to rigorously assess and discriminate between these possibilities.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       NusG counteracts Hfq-mediated transcriptional antitermination at the tR1 terminator. A representative gel shows
+       <em>
+        in vitro
+       </em>
+       transcription termination experiments performed with the pT7A1-λ
+       <em>
+        cro
+       </em>
+       template (
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       ) in the presence of 210 nM Hfq (+ lanes) and the various amounts of NusG indicated above gel lanes. The graph shows the global termination efficiency (sites I, II, and III) as a function of NusG concentration.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Hfq inhibits both ATPase and helicase activities of Rho
+    </title>
+    <p>
+     To define which step of Rho motor function is targeted by Hfq, we probed the effect of Hfq on Rho-directed RNA–DNA unwinding (
+     <xref ref-type="bibr">
+      Brennan et al, 1987
+     </xref>
+     ). Standard strand-displacement (helicase) experiments (
+     <xref ref-type="bibr">
+      Walmacq et al, 2004
+     </xref>
+     ) were performed with a synthetic RNA–DNA construct bearing the tR1 terminator upstream from a 21-bp duplex target (tR1RNA/D
+     <sub>
+      21
+     </sub>
+     ;
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , schematic). Hfq inhibits Rho-directed unwinding of tR1RNA/D
+     <sub>
+      21
+     </sub>
+     in a dose-dependent manner (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). This experiment clearly shows that Hfq can affect Rho in the absence of RNAP and strongly suggests that Hfq-mediated antitermination is not due to a direct interference with the Rho–RNAP contacts triggering termination (
+     <xref ref-type="bibr">
+      Epshtein et al, 2010
+     </xref>
+     ). Similar helicase experiments were performed with two shorter helicase substrates, one containing only the RutA–boxB–RutB region upstream from the RNA–DNA duplex (R
+     <sub>
+      106
+     </sub>
+     /D
+     <sub>
+      43
+     </sub>
+     ;
+     <a>
+      Supplementary Figure S7
+     </a>
+     ) and the other, unrelated one containing a synthetic
+     <em>
+      Rut
+     </em>
+     site upstream from a 23-bp RNA–DNA duplex (R
+     <sub>
+      132
+     </sub>
+     /D
+     <sub>
+      23
+     </sub>
+     ;
+     <xref ref-type="bibr">
+      Walmacq et al, 2004
+     </xref>
+     ). Although Hfq also reduces Rho-directed unwinding of these two substrates, the effects are much weaker than with tR1RNA/D
+     <sub>
+      21
+     </sub>
+     (
+     <a>
+      Supplementary Figure S7
+     </a>
+     ). These observations further support that Hfq requires specific RNA region(s) to inhibit Rho optimally.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Effect of Hfq on Rho's RNA–DNA unwinding (
+       <strong>
+        A
+       </strong>
+       ) and ATPase (
+       <strong>
+        B
+       </strong>
+       ) activities. A schematic of the tR1RNA/D
+       <sub>
+        21
+       </sub>
+       duplex used in helicase experiments is presented in (
+       <strong>
+        A
+       </strong>
+       ) together with representative helicase gels and a graph showing the effect of Hfq on tR1RNA/D
+       <sub>
+        21
+       </sub>
+       unwinding. The tR1RNA sequence is provided in
+       <a>
+        Supplementary Figure S7
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Next, we measured Rho's poly[rC]-dependent ATPase activity (
+     <xref ref-type="bibr">
+      Lowery-Goldhammer and Richardson, 1974
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rabhi et al, 2011
+     </xref>
+     ) in the presence of Hfq. We observed that Hfq does not affect Rho's ATPase under these conditions (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , dotted line). If tR1RNA replaces poly[rC] as the activating cofactor, however, Hfq inhibits Rho's ATPase in a dose-dependent manner (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     , black circles and lines) mimicking that observed for tR1RNA/D
+     <sub>
+      21
+     </sub>
+     unwinding (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     , graph). Thus, Hfq can inhibit all the enzymatic activities of Rho (transcription termination, duplex unwinding, and ATP hydrolysis) but this inhibition depends on the nucleic acid cofactor. This dependence may stem from the strengthening of the Hfq:Rho complex by the cofactor. Indeed, a higher fraction of Rho is retained with
+     <sub>
+      his6
+     </sub>
+     Hfq on Ni-NTA beads in the presence of tR1RNA (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     , compare lanes 4 and 6), while both Rho and Hfq form stable complexes with tR1RNA (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , lanes 2 and 3). By contrast, poly[rC] oligomers are very poor ligands for Hfq (
+     <xref ref-type="bibr">
+      Brennan and Link, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Link et al, 2009
+     </xref>
+     ) although they bind and activate Rho (
+     <xref ref-type="bibr">
+      Rabhi et al, 2010
+     </xref>
+     ). Thus, Hfq probably needs to bind a specific RNA sequence/structure to inhibit Rho efficiently.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Interactions within the ternary Hfq:Rho:RNA complex assessed by equilibrium band-shift assays. Representative gels show that (
+       <strong>
+        A
+       </strong>
+       ) both Rho (20 nM) and Hfq (50 nM) interact with tR1RNA to form a ternary complex; (
+       <strong>
+        B
+       </strong>
+       ) Hfq (concentrations indicated above gel lanes) interacts with the Rho–dC
+       <sub>
+        34
+       </sub>
+       complex. Rho concentration was 20 nM (+ lanes).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     NusG does not affect Hfq-mediated inhibition of Rho's ATPase and helicase activities (data not shown), which contrasts with its antagonistic effect on Hfq-mediated antitermination (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). This difference may be due to the local, effective NusG concentration which, in the absence of stabilizing RNAP contacts with NusG-NTD (
+     <xref ref-type="bibr">
+      Roberts et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mooney et al, 2009b
+     </xref>
+     ), may not be sufficient to antagonize Hfq. In support for this proposal is the fact that NusG does not challenge efficiently the Rho:Hfq interaction in pull-down assays (
+     <a>
+      Supplementary Figure S8
+     </a>
+     ). The Hfq versus NusG competition may thus be tuned by Hfq and NusG contacts with, respectively, the transcript sequence/structure and RNAP. In any case, our data support that NusG can only regulate Rho in the context of bacterial transcription (
+     <xref ref-type="bibr">
+      Nehrke et al, 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pasman and von Hippel, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rabhi et al, 2010
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hfq does not prevent Rho binding to RNA
+    </title>
+    <p>
+     Formation of a catalytically competent Rho–RNA complex is an elaborate process implicating two distinct binding sites on Rho. On the hexamer's N-terminal facet, the primary binding site (PBS;
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     , orange residues), which preferentially binds single-stranded, YC-rich RNA or DNA (Y being a pyrimidine) anchors Rho to transcripts at
+     <em>
+      Rut
+     </em>
+     sites. Once bound to Rho's PBS, RNA must enter inside the hexamer ring (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) to associate with secondary binding site components and activate Rho (reviewed in
+     <xref ref-type="bibr">
+      Ciampi, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Roberts et al, 2008
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rabhi et al, 2010
+     </xref>
+     ).
+    </p>
+    <p>
+     Using a gel retardation assay, we found that Hfq and Rho bind tR1RNA comparably well (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , complexes C1 and C2, respectively). Incubation of tR1RNA with both Rho and Hfq yields a band super-shift consistent with formation of a ternary tR1RNA:Rho:Hfq complex (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     , complex C3). To ensure that Hfq does not perturb Rho anchoring to its substrate, we used a dC
+     <sub>
+      34
+     </sub>
+     oligonucleotide that should not bind Hfq (
+     <xref ref-type="bibr">
+      Brennan and Link, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Link et al, 2009
+     </xref>
+     ). This was verified by the absence of gel shift of the band corresponding to
+     <sup>
+      32
+     </sup>
+     P-labelled dC
+     <sub>
+      34
+     </sub>
+     incubated in the presence of up to 3 μM Hfq (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , lanes 1–5). Although dC
+     <sub>
+      34
+     </sub>
+     cannot activate Rho, it binds its PBS efficiently (
+     <xref ref-type="bibr">
+      Rabhi et al, 2010
+     </xref>
+     ) as evidenced by the shift of the
+     <sup>
+      32
+     </sup>
+     P-labelled dC
+     <sub>
+      34
+     </sub>
+     band in the presence of 50 nM Rho (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , lane 6). A super-shift of this band in the presence of Rho and Hfq (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , complex C3 in lanes 7–10) confirms that both proteins associate directly (see
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     and above). However, a higher concentration of Hfq is required to form a ternary complex with dC
+     <sub>
+      34
+     </sub>
+     than with tR1RNA (
+     <xref ref-type="fig">
+      Figure 5A and B
+     </xref>
+     ), confirming that both Hfq and Rho contacting RNA further stabilize the ternary complex (see above).
+    </p>
+    <p>
+     Formation of a ternary Hfq:Rho:dC
+     <sub>
+      34
+     </sub>
+     complex (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ) contrasts with the effect of YaeO, which competitively displaces dC
+     <sub>
+      34
+     </sub>
+     from Rho (
+     <a>
+      Supplementary Figure S1C
+     </a>
+     ;
+     <xref ref-type="bibr">
+      Gutierrez et al, 2007
+     </xref>
+     ). Thus, despite their topological similarity (
+     <xref ref-type="bibr">
+      Gutierrez et al, 2007
+     </xref>
+     ) and affinities for Rho (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Pichoff et al, 1998
+     </xref>
+     ), YaeO and Hfq use distinct mechanisms to inhibit Rho.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Hfq binds to an upstream A/U-rich region of tR1RNA
+    </title>
+    <p>
+     Rho binds two subsites (RutA and RutB) within tR1RNA (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Schwartz et al, 2007
+     </xref>
+     and references therein). To identify the Hfq-binding site(s), we performed digestions of
+     <sup>
+      32
+     </sup>
+     P-end-labelled tR1RNA with RNases A, T2, and V1. Hfq protects specific regions of tR1RNA from cleavage with the RNases (
+     <a>
+      Supplementary Figure S9
+     </a>
+     ). Hfq ‘footprints', which are summarized on the secondary structure of tR1RNA (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ), identify an A/U-rich
+     <em>
+      cro
+     </em>
+     region (positions 35–127) upstream from RutA as the major Hfq-binding site (blue nucleotides). Protections of RutB nucleotides from RNase T2 cleavage (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , blue lines) also suggest that Hfq has some affinity for this region, which may contribute to inhibit Rho. However, Hfq hardly binds to (or displaces Rho from) R
+     <sub>
+      106
+     </sub>
+     /D
+     <sub>
+      43
+     </sub>
+     , a substrate containing the RutA–boxB–RutB region of λtR1RNA but lacking the upstream
+     <em>
+      cro
+     </em>
+     region (
+     <a>
+      Supplementary Figure S10
+     </a>
+     ). These deficiencies are consistent with the lack of effect of Hfq on Rho-directed unwinding of R
+     <sub>
+      106
+     </sub>
+     /D
+     <sub>
+      43
+     </sub>
+     (
+     <a>
+      Supplementary Figure S7
+     </a>
+     ) and sustain that the upstream
+     <em>
+      cro
+     </em>
+     region contains the productive Hfq-binding site(s).
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Identification of the Hfq-binding region in tR1RNA. (
+       <strong>
+        A
+       </strong>
+       ) Secondary structure of the relevant tR1RNA region based on RNase probing (
+       <a>
+        Supplementary Figure S8
+       </a>
+       ) and MFOLD computation (
+       <xref ref-type="bibr">
+        Zuker, 2003
+       </xref>
+       ). Several ambiguous RNase cleavages and structural constraints that could not be accounted for by the model suggest that regions 20–50 and 100–140 can adopt alternative conformations. Sites protected by Hfq from digestion with the RNases are identified by symbols (key is inset) and blue lowercase letters. Pairing of the Anti93–112 oligonucleotide, which was verified by oligonucleotide-induced cleavage of tR1RNA by RNase H (not shown), is depicted by an arrow. Nucleotides in region 165–175 that are protected by Hfq from digestion with RNase T2 (blue lines) could not be identified precisely. (
+       <strong>
+        B
+       </strong>
+       ) The antitermination activity of Hfq is suppressed by the presence of oligonucleotide Anti93–112.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     To confirm that the Hfq-binding site within
+     <em>
+      cro
+     </em>
+     is important for Hfq-mediated antitermination, we performed transcription termination experiments in the presence of U-rich oligonucleotide Anti93–112, which hybridizes with tR1RNA, thereby disrupting helices I and III and blocking access to the 93–112 region (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     , black arrow). The blocking Anti93–112 oligonucleotide has two distinct, opposite effects on transcription termination that could not be recapitulated with poly[rU] or an oligonucleotide that is not complementary to tR1RNA. First, Anti93–112 reduces Rho-dependent termination in the absence of Hfq (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , lanes 3 and 4). Similar effects have been reported for sequence deletions or pairing of blocking oligonucleotides within
+     <em>
+      cro
+     </em>
+     , suggesting that Rho uses ancillary sequences within this region for optimal transcription termination
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      Lau and Roberts, 1985
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Washburn et al, 1996
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gan and Richardson, 1999
+     </xref>
+     ). Second, the blocking Anti93–112 oligonucleotide stimulates Rho-dependent termination in the presence of Hfq (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     , compare lanes 5 and 10), which no longer affects termination efficiency if Anti93–112 is present at a sufficiently high concentration (lanes 6–10 and graph). This shows that the antitermination activity of Hfq depends on the structural integrity and/or access to the 93–112 region and, by extension, validates the A/U-rich
+     <em>
+      cro
+     </em>
+     region (35–127;
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ) as the one containing the effective Hfq-binding site(s). Note that deletions of sequences within this region also mitigate the effect of Hfq
+     <em>
+      in vivo
+     </em>
+     (see above and
+     <xref ref-type="fig">
+      Figure 2E
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S6
+     </a>
+     ). Regions preceding and encompassing the RutA–B sites of the trpt' transcript are also strongly A/U-rich (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ) and may similarly befit Hfq, although we did not test this prediction explicitly.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Antitermination involves components on Hfq distal face
+    </title>
+    <p>
+     To determine if the RNA-binding faces of Hfq (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) mediate its antitermination activity, we performed transcription termination experiments in the presence of poly[rA] or poly[rU] binding competitor. These polymers do not affect tR1 termination in the absence of Hfq (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ; lanes 2–4 and 8–10). However, poly[rA] is a strong suppressor of Hfq-mediated antitermination (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , compare lanes 6 and 7 with lane 5) whereas poly[rU] is not (lanes 11–13). Poly[rA] also protects Rho-directed tR1RNA/D
+     <sub>
+      21
+     </sub>
+     unwinding from inhibition by Hfq whereas poly[rU] does not (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). A rA
+     <sub>
+      20
+     </sub>
+     oligomer likewise suppresses Hfq inhibitory effects (data not shown). These data suggest that components on the distal, polyA-binding face of Hfq (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) mediate Rho inhibition. To precise the origin of this mediation, we performed gel shift experiments with
+     <sup>
+      32
+     </sup>
+     P-labelled dC
+     <sub>
+      34
+     </sub>
+     , Rho, Hfq, and competitor rA
+     <sub>
+      20
+     </sub>
+     . As shown in
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     , rA
+     <sub>
+      20
+     </sub>
+     challenges the formation of the dC
+     <sub>
+      34
+     </sub>
+     :Rho:Hfq complex (lanes 5–8), although it does not affect the binary dC
+     <sub>
+      34
+     </sub>
+     :Rho complex (lane 9). Because Hfq does not associate with dC
+     <sub>
+      34
+     </sub>
+     (see above;
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     , lane 2), these results strongly suggest that Hfq binds Rho through the Hfq distal face.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       Interaction with the distal, polyA-binding face of Hfq is critical for Rho inhibition. (
+       <strong>
+        A
+       </strong>
+       ) Effect of polynucleotides (concentrations in nucleotides are indicated above gel lanes) on Hfq-mediated transcription antitermination at λtR1 in the presence of 70 nM Rho.
+       <em>
+        In vitro
+       </em>
+       transcriptions were performed with the pT7A1-λ
+       <em>
+        cro
+       </em>
+       template (
+       <xref ref-type="fig">
+        Figure 2A
+       </xref>
+       ) and Hfq (+ lanes) present at a concentration of 210 nM. Global termination efficiencies (Term) are indicated below gel lanes. (
+       <strong>
+        B
+       </strong>
+       ) Effect of the polynucleotides (900 nM, in nucleotides) on Rho-directed unwinding of the tR1RNA/D
+       <sub>
+        21
+       </sub>
+       duplex. The concentrations of Rho and Hfq (in selected samples) were 20 nM and 210 nM, respectively. (
+       <strong>
+        C
+       </strong>
+       ) Oligomer rA
+       <sub>
+        20
+       </sub>
+       prevents the association of Hfq with the binary Rho–dC
+       <sub>
+        34
+       </sub>
+       complex. Assay conditions are as in
+       <xref ref-type="fig">
+        Figure 5B
+       </xref>
+       . Concentration of Hfq was 375 nM. (
+       <strong>
+        D
+       </strong>
+       ) Oligomer rA
+       <sub>
+        20
+       </sub>
+       does not displace Hfq from tR1RNA whereas poly[rA] does.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We performed similar experiments with a Hfq mutant, Y25A, which binds polyA oligomers ∼100 times less efficiently than WT Hfq (
+     <xref ref-type="bibr">
+      Sun and Wartell, 2006
+     </xref>
+     ). Y25A and WT Hfq form equally stable complexes with tR1RNA (
+     <a>
+      Supplementary Figure S11A
+     </a>
+     ), confirming that nucleotides other than adenines contribute to the tR1RNA–Hfq interaction (see above and
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). However, Y25A does not associate with the dC
+     <sub>
+      34
+     </sub>
+     :Rho complex at testable protein concentrations (
+     <a>
+      Supplementary Figure S11B
+     </a>
+     , lanes 6–10). Thus, the Hfq distal-face Y25A mutation dramatically weakens Hfq interaction with Rho. The decrease in affinity of Y25A for poly[rA] is ascribed to the loss of stacking of Tyr25 residues onto adenines (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Link et al, 2009
+     </xref>
+     ). Similar stacking contact(s) between Tyr25 residue(s) on Hfq and aromatic side-chain(s) on Rho may stabilize the interaction between both proteins. Consistent with a defective interaction with Rho, Y25A has weaker antitermination activity than WT Hfq and is easily outcompeted by NusG (
+     <a>
+      Supplementary Figure S11C
+     </a>
+     ). Yet, the antitermination activity of Y25A is suppressed by rA
+     <sub>
+      20
+     </sub>
+     or poly[rA] (
+     <a>
+      Supplementary Figure S11D
+     </a>
+     and data not shown), suggesting that, although weakened, inhibitory contacts between Rho and Y25A still form in the antitermination complex.
+    </p>
+    <p>
+     Poly[rA] but not rA
+     <sub>
+      20
+     </sub>
+     precludes tR1RNA binding to Y25A and WT Hfq in equilibrium binding assays (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     and data not shown). This difference may be related to the recent discovery of an additional contact surface on the periphery of the Hfq torus with specificity for long RNAs (
+     <xref ref-type="bibr">
+      Beich-Frandsen et al, 2011
+     </xref>
+     ). Thus, Poly[rA] may suppress the antitermination activity of Y25A and WT Hfq by preventing both Rho and tR1RNA interactions with Hfq (but note that the effects of rA
+     <sub>
+      20
+     </sub>
+     and the Anti93–112 oligonucleotide presented above suggest that disrupting either one of the two interactions is sufficient). Furthermore, Hfq-mediated antitermination at the trpt' terminator is suppressed by rA
+     <sub>
+      20
+     </sub>
+     and poly[rA] but is also moderately affected by poly[rU] (
+     <a>
+      Supplementary Figure S12
+     </a>
+     ). Thus, Hfq-dependent antitermination can vary with both
+     <em>
+      cis
+     </em>
+     - (e.g. template sequence) and
+     <em>
+      trans
+     </em>
+     - (e.g. nucleic acid ligand) acting components and upon their matching combination.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    In
+    <em>
+     E. coli
+    </em>
+    , the elongation of transcripts by RNAP is often terminated by Rho (
+    <xref ref-type="bibr">
+     Cardinale et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Peters et al, 2009
+    </xref>
+    ) an essential ring-shaped protein motor (
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ). Rho-dependent termination relies on multiple interactions among Rho, RNA, RNAP, and cofactor NusG, which are regulatory targets for transcription factors, some of which remain unidentified (
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sen et al, 2008
+    </xref>
+    ). In a search for new host inhibitors of Rho, we found that Hfq, a protein displaying some topological similarities with NusG-CTD (
+    <a>
+     Supplementary data
+    </a>
+    ), can associate with Rho (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S2
+    </a>
+    ) and can inhibit all of its enzymatic activities (
+    <xref ref-type="fig">
+     Figures 2
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Yet, Hfq does not simply perturb Rho allosterically since it cannot inactivate Rho if the RNA cofactor is a poor Hfq ligand (poly[rC];
+    <xref ref-type="fig">
+     Figure 4B
+    </xref>
+    ). Conversely, Hfq inhibits Rho if the cofactor contains Hfq-preferred A/U-rich regions (
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ), as in tr1RNA or trpt' transcripts (
+    <xref ref-type="fig">
+     Figures 2
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ;
+    <a>
+     Supplementary Figures S3 and S7
+    </a>
+    ). Inhibition requires Rho interaction with Hfq's distal face (
+    <xref ref-type="fig">
+     Figure 7C
+    </xref>
+    ) and Hfq binding RNA near
+    <em>
+     Rut
+    </em>
+    sites (
+    <xref ref-type="fig">
+     Figure 6
+    </xref>
+    ). Yet, Hfq does not displace Rho from the
+    <em>
+     Rut
+    </em>
+    site, at least in the case of λtR1 (
+    <a>
+     Supplementary Figures S7 and S10
+    </a>
+    ). Primary Rho and Hfq interactions with RNA appear to co-stabilize the ternary Rho:Hfq:RNA complex (
+    <xref ref-type="fig">
+     Figures 1B
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ). Altogether, these features suggest that bound Hfq precludes productive Rho–RNA configuration(s) (
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ). Topological constraints in the ternary Rho:Hfq:RNA complex may, for instance, impede conformational rearrangements driving RNA inside the central Rho channel (
+    <xref ref-type="bibr">
+     Skordalakes and Berger, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Canals et al, 2010
+    </xref>
+    ). Additionally, RNA-bound Hfq may also preclude sterically Rho from using ancillary transcript sequences located upstream from the canonical
+    <em>
+     Rut
+    </em>
+    site (see above and
+    <xref ref-type="bibr">
+     Washburn et al, 1996
+    </xref>
+    ).
+   </p>
+   <p>
+    Protein factors known to bind Rho to repress its function are rare. On one hand, the coat protein Psu from bacteriophage P4 binds Rho and alters its capacity to utilize ATP (
+    <xref ref-type="bibr">
+     Pani et al, 2006
+    </xref>
+    ). On the other hand, YaeO is, to our knowledge, the only other host protein known to bind Rho and to trigger antitermination at Rho-dependent terminators (
+    <a>
+     Supplementary Figure S1
+    </a>
+    ;
+    <xref ref-type="bibr">
+     Pichoff et al, 1998
+    </xref>
+    ). Although YaeO and Hfq display topological similarities (
+    <xref ref-type="bibr">
+     Gutierrez et al, 2007
+    </xref>
+    ), they use distinct mechanisms to inhibit Rho: YaeO displaces C-rich oligomers from Rho's PBS (
+    <xref ref-type="bibr">
+     Gutierrez et al, 2007
+    </xref>
+    ) whereas Hfq does not (
+    <xref ref-type="fig">
+     Figure 5B
+    </xref>
+    ).
+   </p>
+   <p>
+    The YaeO protein is dispensable in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Gerdes et al, 2003
+    </xref>
+    ), suggesting that its antitermination activity (
+    <xref ref-type="bibr">
+     Pichoff et al, 1998
+    </xref>
+    ) is accessory. Although YaeO is expressed in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Taoka et al, 2004
+    </xref>
+    ), its association with Rho was undetected in global analyses of the cellular interactome (
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al, 2009
+    </xref>
+    ). This could be related to the fast inactivation of YaeO that we observed
+    <em>
+     in vitro
+    </em>
+    (see Results) or may indicate that the YaeO–Rho complex forms only under specific conditions
+    <em>
+     in vivo
+    </em>
+    . By contrast, Hfq, a very abundant and stable protein in
+    <em>
+     E. coli
+    </em>
+    (
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ), was consistently associated to Rho in the cellular interactome (
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al, 2009
+    </xref>
+    ). This suggests that a functional Rho:Hfq interaction is frequent in
+    <em>
+     E. coli
+    </em>
+    , although the specifically targeted transcription units remain currently unknown. A functional Rho:Hfq interaction is supported by the recent discovery that deleting
+    <em>
+     hfq
+    </em>
+    yields cells that are more resistant to Bcm (
+    <xref ref-type="bibr">
+     Tran et al, 2011
+    </xref>
+    ), which is consistent with our data showing better Rho-dependent tR1 termination in
+    <em>
+     hfq
+    </em>
+    <sup>
+     <em>
+      −
+     </em>
+    </sup>
+    cells in the presence of Bcm (
+    <xref ref-type="fig">
+     Figure 2C–E
+    </xref>
+    ). Hereafter, we speculate on the possible biological role(s) of the Rho:Hfq interaction.
+   </p>
+   <p>
+    Our data with the cro3′Ter operon (
+    <xref ref-type="fig">
+     Figure 2B
+    </xref>
+    ) show that Hfq can increase read-through of Rho-dependent terminators
+    <em>
+     in vivo
+    </em>
+    (
+    <xref ref-type="fig">
+     Figure 2C–E
+    </xref>
+    ). This is highly significant given that conditions for terminator read-through may not have been optimal with our
+    <em>
+     in vivo
+    </em>
+    reporter system. For instance, we did not probe the effect of Hfq on cro3′Ter transcription independently from that of NusG, yet NusG reduces Hfq-mediated antitermination
+    <em>
+     in vitro
+    </em>
+    (
+    <xref ref-type="fig">
+     Figure 3
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S3
+    </a>
+    ). We note that Rho-dependent polarity in several terminators (including λtR1) is actually suppressed in NusG-deficient cells (
+    <xref ref-type="bibr">
+     Sullivan and Gottesman, 1992
+    </xref>
+    ). Thus, it is possible that Hfq-mediated antitermination is maximized
+    <em>
+     in vivo
+    </em>
+    when NusG cannot counter Hfq. This could be the case during synthesis of mRNA leader regions (
+    <xref ref-type="fig">
+     Figure 8A
+    </xref>
+    ) when NusG has not yet associated with RNAP (
+    <xref ref-type="bibr">
+     Mooney et al, 2009a
+    </xref>
+    ) or during synthesis of ORFs when NusG-CTD binds S10 rather than Rho (
+    <xref ref-type="fig">
+     Figure 8B
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Burmann et al, 2010
+    </xref>
+    ). Hfq association with RNAP and ribosomal proteins (
+    <xref ref-type="bibr">
+     Sukhodolets and Garges, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al, 2009
+    </xref>
+    ) suggests that Hfq may travel with the tandem translation/transcription complex and contribute to read-through of ORFs by binding and inactivating Rho within it (
+    <xref ref-type="fig">
+     Figure 8B
+    </xref>
+    ). The antitermination activity of the tandem complex may therefore be multi-factorial (
+    <xref ref-type="fig">
+     Figure 8B
+    </xref>
+    ), as certainly is the case for the composite
+    <em>
+     rrn
+    </em>
+    and λN antitermination complexes (
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sen et al, 2008
+    </xref>
+    ). The recurrence of
+    <em>
+     boxA
+    </em>
+    -like sequences in Rho-dependent terminators (
+    <xref ref-type="bibr">
+     Ciampi, 2006
+    </xref>
+    ) and binding of Hfq-RNAP mediator S1 protein (
+    <xref ref-type="bibr">
+     Sukhodolets and Garges, 2003
+    </xref>
+    ) to
+    <em>
+     boxA
+    </em>
+    RNA (
+    <xref ref-type="bibr">
+     Mogridge and Greenblatt, 1998
+    </xref>
+    ) further suggests a commonality of mechanisms. Interestingly, disruption of the tandem translation/transcription complex at the end of ORFs (or upon conditional perturbation;
+    <xref ref-type="bibr">
+     Roberts et al, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ) may both activate transcription termination and recruitment of RNA degradation factors that frequently associate with Hfq (
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hu et al, 2009
+    </xref>
+    ), thereby linking the three major steps of RNA metabolism in the same regulatory mechanism (
+    <xref ref-type="fig">
+     Figure 8C
+    </xref>
+    ).
+   </p>
+   <fig id="f8" position="float">
+    <label>
+     Figure 8
+    </label>    <caption>
+     <p>
+      Possible contexts for Hfq-mediated antitermination. (
+      <strong>
+       A
+      </strong>
+      ) Hfq may be required to repress Rho-dependent termination optimally during transcription of specific, long (&gt;70 nt) leader regions. (
+      <strong>
+       B
+      </strong>
+      ) Hfq may contribute to Rho inactivation in the tandem transcription/translation complex. Scavenging of NusG-CTD by S10 (NusE) and occlusion of RNA by the ribosome are also likely important factors (
+      <xref ref-type="bibr">
+       Burmann et al, 2010
+      </xref>
+      ). (
+      <strong>
+       C
+      </strong>
+      ) Uncoupling of translation from transcription may activate Rho-dependent termination by allowing NusG-CTD to bind Rho and by helping Rho to form a productive termination complex with RNA upon disruption of the Hfq–Rho interaction. These events may also create a signal for degradation of the mRNA.
+     </p>
+    </caption>
+   </fig>
+   <p>
+    Despite evidence for a molecular partnership between Rho and Hfq (
+    <xref ref-type="bibr">
+     Butland et al, 2005
+    </xref>
+    ) and for Hfq-dependent regulation at the transcriptional level (
+    <xref ref-type="bibr">
+     Le Derout et al, 2010
+    </xref>
+    ), the Rho–Hfq connection has been heretofore overlooked. The expressions of the proU and bgl operons are under the antagonistic influence of Rho and Hfq but effects are complex and may be indirect (
+    <xref ref-type="bibr">
+     Rajkumari and Gowrishankar, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dole et al, 2004
+    </xref>
+    ). Nevertheless, important biological functions may be controlled by Hfq-mediated Rho inhibition. A potential target of such control is the expression of virulence genes, notably in enterobacteria where Rho and Hfq seem equally important (
+    <xref ref-type="bibr">
+     Chao and Vogel, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Rabhi et al, 2010
+    </xref>
+    ). Horizontal DNA transfer fosters bacterial virulence (
+    <xref ref-type="bibr">
+     Chao and Vogel, 2010
+    </xref>
+    ), yet Rho preferentially represses expression of foreign DNA (
+    <xref ref-type="bibr">
+     Cardinale et al, 2008
+    </xref>
+    ). Hfq relieving Rho-dependent silencing of horizontally acquired genes may thus contribute to explain the tight dependence of virulence factors on Hfq (
+    <xref ref-type="bibr">
+     Chao and Vogel, 2010
+    </xref>
+    ). Circumstantial evidence comes from
+    <em>
+     rho
+    </em>
+    defects conferring hyperinvasive phenotypes to
+    <em>
+     Salmonella typhimurium
+    </em>
+    (
+    <xref ref-type="bibr">
+     Lee et al, 1992
+    </xref>
+    ). Conversely, Rho-dependent termination may strengthen Hfq-mediated gene silencing (
+    <xref ref-type="bibr">
+     Gottesman et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Brennan and Link, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vogel, 2009
+    </xref>
+    ) when conditions altering the Rho–Hfq relationship arise. Our findings that nucleic acids provided
+    <em>
+     in trans
+    </em>
+    can contextually suppress Hfq inhibition of Rho (
+    <xref ref-type="fig">
+     Figures 6B
+    </xref>
+    and
+    <xref ref-type="fig">
+     None
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S12
+    </a>
+    ) suggest that such regulatory conditions could develop with some sRNA/mRNA pairs involved in Hfq-mediated silencing. Our discovery of a direct functional relationship between Rho and Hfq therefore opens new avenues of investigation for a better understanding of the roles of these two key factors in bacterial metabolism and pathogenicity.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Materials
+    </title>
+    <p>
+     We purchased chemicals, oligonucleotides, homopolymers, and Sigma-saturated
+     <em>
+      E. coli
+     </em>
+     RNAP from Sigma-Aldrich, Eurogentec, GE-Healthcare and Midland CRC (USA), and Epicentre Biotechnologies, respectively. The pBAD-Hfq plasmid (
+     <xref ref-type="bibr">
+      Sledjeski et al, 2001
+     </xref>
+     ) was kindly provided by N Majdalani and S Gottesman (NCI, NIH, MD). The
+     <em>
+      hfq
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     strain was obtained by P1 transduction of the ΔHfq mutant from the Keio collection (
+     <xref ref-type="bibr">
+      Baba et al, 2006
+     </xref>
+     ) into
+     <em>
+      E. coli
+     </em>
+     strain MC4100.
+    </p>
+    <p>
+     We prepared the DNA templates for transcriptions with T7 or
+     <em>
+      E. coli
+     </em>
+     RNAP by PCR amplification of custom-made DNA fragments described previously (
+     <xref ref-type="bibr">
+      Rabhi et al, 2011
+     </xref>
+     ) or purchased from GenScript (USA). Plasmid pOMcI-cro3′Ter was constructed by subcloning the PCR-amplified region of λDNA (Invitrogen) encoding the
+     <em>
+      cro
+     </em>
+     ORF (minus first 26 codons) and tR1 terminator into the filled-in
+     <em>
+      Bam
+     </em>
+     HI site of previously described plasmid pOM10cI (
+     <xref ref-type="bibr">
+      Espeli et al, 2001
+     </xref>
+     ). Plasmids pOMcI-Short, pOMcI-RutA–B, pOMcI-Δ35–90, and pOMcI-Δ35–127, which bear variants of the cro3′Ter operon (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ), were prepared by similar PCR and subcloning procedures. We followed published procedures (
+     <xref ref-type="bibr">
+      Boudvillain et al, 2010
+     </xref>
+     ) to prepare the tR1RNA transcript and the RNA–DNA constructs used in helicase experiments.
+    </p>
+    <p>
+     We prepared Rho from
+     <em>
+      E. coli
+     </em>
+     or
+     <em>
+      M. tuberculosis
+     </em>
+     , NusG, and YaeO as described previously (
+     <xref ref-type="bibr">
+      Artsimovitch and Landick, 2000
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gutierrez et al, 2007
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Boudvillain et al, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kalarickal et al, 2010
+     </xref>
+     ) from cultures of BL21(DE3) cells harbouring, respectively, the pET28b-Rho (kindly provided by J Berger, UC Berkeley), pET28b-mtbRho (kindly provided by R Sen, CDFD, Hyderabad, India), pIA247 (kindly provided by I Artsimovitch, Ohio State University), or pET15b-YaeO (kindly provided by K Gehring, McGill University) plasmid. We stored Rho and NusG at −20°C in storage buffer (100 mM KCl, 10 mM Tris–HCl, pH 7.9, 0.1 mM EDTA, 0.1 mM DTT, and 50% glycerol). Because the inhibitory activity of YaeO declined rapidly upon storage regardless of the buffer and temperature conditions that were tried, we performed experiments with YaeO preparations that were not older than 2–3 days. We prepared Hfq using a procedure specifically designed to avoid RNA contamination, as described previously (
+     <xref ref-type="bibr">
+      Hwang et al, 2011
+     </xref>
+     ). We stored Hfq at 4°C in 50 mM Tris–HCl pH 7.5, 1 mM EDTA, 10% glycerol, and 50 mM NH
+     <sub>
+      4
+     </sub>
+     Cl. Absence of significant RNA contamination of the protein preparations was verified by high A
+     <sub>
+      280
+     </sub>
+     /A
+     <sub>
+      260
+     </sub>
+     ratios of optical absorbances, by the absence of detectable bands upon Sybr green staining of sample-resolved PAGE (polyacrylamide gel electrophoresis) gels, indicating that &lt;1 ng of RNA/gel lane were present, and, for Rho, by the lack of detectable ATP hydrolysis activity (which is strictly RNA dependent;
+     <xref ref-type="bibr">
+      Rabhi et al, 2010
+     </xref>
+     ) after incubation for 30 min at 37°C. The Rho and Hfq concentrations are expressed in hexamers throughout the manuscript.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Pull-down experiments with his-tagged proteins
+    </title>
+    <p>
+     We washed aliquots (100 μl) of Ni-NTA agarose beads (Qiagen) thrice with 200 μl of interaction buffer (IB; 20 mM Tris–HCl, pH 7.9, 100 mM KCl, 1 mM DTT, 0.1% Triton-X100, and 20 mM PMSF) and then mixed beads with 50 pmol of His-tagged protein (
+     <sub>
+      his6
+     </sub>
+     NusG,
+     <sub>
+      his6
+     </sub>
+     Hfq, or
+     <sub>
+      his6
+     </sub>
+     YaeO) in 500 μl of IB before incubation for 2 h at 4°C. We washed beads thrice again with 500 μl of IB supplemented with 0.1% BSA and 20 mM imidazole (‘low adsorption' buffer) before addition of 150 pmol of Rho (we also added an equimolar amount of tR1RNA in selected samples). We incubated beads overnight at 4°C in 500 μl of ‘low adsorption' buffer. After centrifugation, we discarded the supernatant and washed beads thrice with 800 μl of ‘low adsorption' buffer. We re-suspended beads in SDS loading buffer (2% SDS, 12% glycerol, 0.1 mM Tris–HCl pH 6.8, 0.35 M 2-mercapto-ethanol, and 100 mM imidazole), heated them for 5 min at 90°C, and loaded them on 12.5% SDS–PAGE gels.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Transcription termination experiments
+    </title>
+    <p>
+     Standard transcription termination experiments were performed as described previously (
+     <xref ref-type="bibr">
+      Zou and Richardson, 1991
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Wei and Richardson, 2001
+     </xref>
+     ) with minor modifications. Briefly, we incubated mixtures of DNA template (0.1 pmol),
+     <em>
+      E. coli
+     </em>
+     RNAP (0.45 pmol), Rho (1.4 pmol), SUPERase-In (0.5 U/μl; Ambion), with or without NusG in 18 μl of transcription buffer (40 mM Tris–HCl, pH 8.0, 50 mM KCl, 5 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 1.5 mM DTT) for 10 min at 37°C (control reactions contained 3 nmol of Bcm, kindly provided by K Schnetz, University of Cologne, Germany). We started transcriptions by adding 2 μl of initiation mix (2 mM ATP, GTP, and CTP and 0.2 mM UTP, 2.5 μCi/μl of
+     <sup>
+      32
+     </sup>
+     P-αUTP, and 250 μg/ml rifampicin in transcription buffer) before incubation for 20 min at 37°C. In competition experiments, we added poly[rA] or poly[rU] with the initiation mix to limit their interference with transcription initiation. We stopped transcription reactions by adding 4 μl of EDTA (0.5 M), 6 μl of tRNA (0.25 mg/ml), and 80 μl of sodium acetate (0.42 M) before precipitation at −20°C with 330 μl of ethanol. We dissolved reaction pellets in denaturing loading buffer (95% formamide, 5 mM EDTA), and analysed them by denaturing 5% PAGE. Normalization of band intensities for the U contents of the corresponding transcripts and calculation of termination efficiencies were performed as described previously (
+     <xref ref-type="bibr">
+      Washburn et al, 1996
+     </xref>
+     ). See
+     <a>
+      supplementary data
+     </a>
+     for additional transcription procedures.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In vivo experiments with synthetic tR1-containing operons
+    </title>
+    <sec>
+     <p>
+      We incubated
+      <em>
+       E. coli
+      </em>
+      cells carrying the control pOM10cI (
+      <xref ref-type="bibr">
+       Espeli et al, 2001
+      </xref>
+      ) or reporter operon plasmid at 30°C in LB supplemented with spectinomycin (and kanamycin for
+      <em>
+       hfq
+      </em>
+      <sup>
+       <em>
+        −
+       </em>
+      </sup>
+      cells) until A
+      <sub>
+       600
+      </sub>
+      ∼0.3. We then incubated cultures at 42°C for 40 min to induce operon expression from the λCI857
+      <sup>
+       ts
+      </sup>
+      promoter. We extracted total RNA from independent cultures using a hot phenol procedure, as described previously (
+      <xref ref-type="bibr">
+       Espeli et al, 2001
+      </xref>
+      ). We resolved RNA samples on formaldehyde/1.5% agarose gels and electro-blotted them on positive TM membranes (MPbiochemicals) with a TransBlot SD transfer cell (Bio-Rad). We performed successive hybridizations with
+      <sup>
+       32
+      </sup>
+      P-end-labelled tRNA and 5S RNA probes as well as quantification and normalization of hybridization signals as described previously (
+      <xref ref-type="bibr">
+       Espeli et al, 2001
+      </xref>
+      ). Briefly, band intensities were measured using the rectangle quantitation and local average background functions of ImageQuantTL. Normalized tRNA
+      <sup>
+       Arg5
+      </sup>
+      levels were calculated with the following equation:
+     </p>
+     <sec>
+      <sec>
+       <img/>
+      </sec>
+     </sec>
+     <p>
+      where I
+      <sub>
+       tRNA
+      </sub>
+      and I
+      <sub>
+       5S
+      </sub>
+      are the intensities of the blots corresponding to tRNA
+      <sup>
+       Arg5
+      </sup>
+      and 5S RNA, respectively.
+     </p>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Helicase assays
+    </title>
+    <p>
+     We performed unwinding experiments as described previously (
+     <xref ref-type="bibr">
+      Schwartz et al, 2007
+     </xref>
+     ). Briefly, we mixed RNA–DNA substrates (5 nM, final concentration) with Rho (20 nM, final concentration) in helicase buffer (20 mM HEPES, pH 7.5, 0.1 mM EDTA, 0.5 mM DTT, 150 mM potassium acetate) before incubation for 3 min at 30°C. We then added ATP, MgCl
+     <sub>
+      2
+     </sub>
+     (1 mM, final concentrations), and DNA trap (400 nM, final concentration; the DNA trap oligonucleotide is complementary to the released DNA strand) before further incubation at 30°C. We withdrew reaction aliquots at various times, mixed them with four volumes of quench buffer (100 mM EDTA, 2.5% SDS, 15% Ficoll-400) before loading them on 7.5% PAGE gels that contained 0.5% SDS.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ATPase assays
+    </title>
+    <p>
+     We measured the steady-state ATPase activity of Rho at 25°C with the EnzCheck Phosphate Assay kit (Molecular Probes) as described previously (
+     <xref ref-type="bibr">
+      Rabhi et al, 2011
+     </xref>
+     ). Reactions mixtures contained 20 nM Rho, 20 nM of tR1RNA or poly[rC] fragments, and Hfq at the concentrations indicated in
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrophoretic mobility shift assays
+    </title>
+    <p>
+     We mixed the
+     <sup>
+      32
+     </sup>
+     P-end-labelled tR1RNA or dC
+     <sub>
+      34
+     </sub>
+     oligonucleotide (0.1 nM, final concentration), with various concentrations of Rho and/or Hfq in binding buffer (150 mM potassium acetate, 20 mM HEPES, pH 7.5, 0.1 mM EDTA, 0.5 mM DTT; 0.5 U/μl SUPERase-In, 0.1 mg/ml tRNA, and 0.1% BSA). We incubated the mixtures for 30 min at 20°C before adding 2.5 μl Ficoll-400 and loading them on a 4% (for tR1RNA) or stacked 4/12% (for dC
+     <sub>
+      34
+     </sub>
+     oligonucleotide) PAGE gel that contained 0.05% Triton-X100.
+    </p>
+    <p>
+     We analysed PAGE gels containing
+     <sup>
+      32
+     </sup>
+     P-labelled materials with a Typhoon-Trio imager (GE-Healthcare).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Data:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.0M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (401K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

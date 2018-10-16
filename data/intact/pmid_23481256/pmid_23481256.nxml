@@ -1,0 +1,1369 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3616288
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Rules for the recognition of dilysine retrieval motifs by coatomer
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Cytoplasmic dilysine motifs on transmembrane proteins are captured by coatomer α-COP and β′-COP subunits and packaged into COPI-coated vesicles for Golgi-to-ER retrieval. Numerous ER/Golgi proteins contain K(x)Kxx motifs, but the rules for their recognition are unclear. We present crystal structures of α-COP and β′-COP bound to a series of naturally occurring retrieval motifs—encompassing KKxx, KxKxx and non-canonical RKxx and viral KxHxx sequences. Binding experiments show that α-COP and β′-COP have generally the same specificity for KKxx and KxKxx, but only β′-COP recognizes the RKxx signal. Dilysine motif recognition involves lysine side-chain interactions with two acidic patches. Surprisingly, however, KKxx and KxKxx motifs bind differently, with their lysine residues transposed at the binding patches. We derive rules for retrieval motif recognition from key structural features: the reversed binding modes, the recognition of the C-terminal carboxylate group which enforces lysine positional context, and the tolerance of the acidic patches for non-lysine residues.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     coatomer, COPI, dilysine signal, vesicular transport
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    Many resident proteins of the endoplasmic reticulum (ER) are localized to that compartment by continuous retrieval from the Golgi complex. Luminal ER proteins may be retrieved by means of a C-terminal KDEL sequence that binds to the KDEL receptor to trigger retrograde transport (
+    <xref ref-type="bibr">
+     Lewis and Pelham, 1992
+    </xref>
+    ). Type I transmembrane proteins—including ER residents and itinerant proteins of the ER/Golgi system—contain a C-terminal dilysine motif that signals their retrieval from post-ER membranes (
+    <xref ref-type="bibr">
+     Jackson et al, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Gaynor et al, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Townsley and Pelham, 1994
+    </xref>
+    ).
+   </p>
+   <p>
+    The dilysine motif, initially identified on the adenoviral E3 19 kDa (E19) protein, consists of a pair of lysine residues at the −3 and −4 (or −5) positions relative to the cytoplasmic C terminus of the cargo molecule—termed as KKxx and KxKxx motifs (
+    <xref ref-type="bibr">
+     Nilsson et al, 1989
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Jackson et al, 1990
+    </xref>
+    ). Variants of the dilysine motif have been characterized, in particular a KxHxx retrieval motif in the tail of the spike protein of group I coronaviruses (
+    <xref ref-type="bibr">
+     Lontok et al, 2004
+    </xref>
+    ), and the RKxx motif present in the Golgi-localized Scyl1 protein (
+    <xref ref-type="bibr">
+     Burman et al, 2008
+    </xref>
+    ). The dilysine motif is recognized by coatomer subunits (
+    <xref ref-type="bibr">
+     Cosson and Letourneur, 1994
+    </xref>
+    ), and dilysine-tagged transmembrane cargo is thereby packaged into COPI(coatomer)-coated vesicles for retrograde transport to the ER (
+    <xref ref-type="bibr">
+     Letourneur et al, 1994
+    </xref>
+    ).
+   </p>
+   <p>
+    The biochemical basis for recognition of dilysine motifs by coatomer has been controversial, but one path of research has led in recent years to a clear delineation of the dilysine motif-binding sites. These were mapped initially to the αβ′ɛ-COP subcomplex of coatomer (
+    <xref ref-type="bibr">
+     Cosson and Letourneur, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lowe and Kreis, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fiedler et al, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Schröder-Köhne et al, 1998
+    </xref>
+    ). Subsequent yeast genetic studies implicated the N-terminal β-propeller domains of α-COP and β′-COP, the sequence-related large subunits of αβ′ɛ-COP (
+    <xref ref-type="bibr">
+     Eugster et al, 2004
+    </xref>
+    ). A recent structural analysis of the β′-COP N-terminal domain crystallized with a KxKxx peptide pinpointed the binding site near to the ‘pore' of the β-propeller protein, and a corresponding binding site was mapped via functional tests to the pore region of α-COP (
+    <xref ref-type="bibr">
+     Jackson et al, 2012
+    </xref>
+    ). However, the mode of KxKxx motif recognition by coatomer was not resolved in this study because the dilysine-binding site on β′-COP was partially occluded by a crystal contact (
+    <xref ref-type="bibr">
+     Jackson et al, 2012
+    </xref>
+    ).
+   </p>
+   <p>
+    The location of dilysine-binding sites on the cage-forming αβ′ɛ-COP subcomplex (and not the adaptin-like βδ/γζ-COP subcomplex) of coatomer is interesting in view of the finding that dilysine-tagged cargo molecules are required for efficient COPI-coat assembly and vesicle formation (
+    <xref ref-type="bibr">
+     Bremser et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Aguilera-Romero et al, 2008
+    </xref>
+    ). Thus, the dilysine motif binds to β′-COP at a site close to the vertex of the triskelion formed by three αβ′ɛ-COP assembly units (
+    <xref ref-type="bibr">
+     Lee and Goldberg, 2010
+    </xref>
+    ), suggesting how COPI coat nucleation may be coupled to the packaging of dilysine-tagged cargo molecules, in particular oligomeric species such as p24-family proteins and the Mst27p/Mst28p complex (
+    <xref ref-type="bibr">
+     Bremser et al, 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sandmann et al, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Aguilera-Romero et al, 2008
+    </xref>
+    ).
+   </p>
+   <p>
+    Collectively, these findings highlight the importance of establishing the binding modes and specificity of dilysine-type motifs for coatomer subunits. Here, we describe 11 high-resolution crystal structures that show how α-COP and β′-COP bind to a comprehensive series of motifs, including the canonical KKxx and KxKxx classes as well as the variant KxHxx and RKxx signals. We show that the recognition modes of KKxx and KxKxx motifs are distinct, a non-intuitive observation that helps to rationalize the binding mode of the RKxx motif. We demonstrate that α-COP and β′-COP subunits have comparable specificity towards KKxx and KxKxx motifs, contrary to previous reports. And we show that coatomer subunit specificity diverges instead at the level of K(x)Kxx sequence context and in the recognition of the RKxx motif, which binds exclusively to β′-COP.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     <em>
+      Specific interactions of
+     </em>
+     α
+     <em>
+      -COP and
+     </em>
+     β
+     <em>
+      ′-COP with KKxx and KxKxx retrieval motifs
+     </em>
+    </title>
+    <p>
+     The results of yeast genetic experiments led to the proposal that α-COP and β′-COP are selective towards KKxx and KxKxx motifs, respectively (
+     <xref ref-type="bibr">
+      Eugster et al, 2004
+     </xref>
+     ). The reporter molecule used in these studies was fused to the C terminus of yeast Wbp1 (a component of the ER N-oligosaccharyltransferase complex), terminating in the sequence TFKKTN. A recent analysis demonstrated that this sequence binds to β′-COP with 10-fold lower affinity than do KxKxx peptides, and that while β′-COP has some capacity to transport KKxx-tagged cargo, it has a distinct binding preference for KxKxx motifs (
+     <xref ref-type="bibr">
+      Jackson et al, 2012
+     </xref>
+     ). In preliminary binding experiments, we noted, however, that α-COP and β′-COP displayed highly similar selectivity towards a panel of KKxx and KxKxx sequences (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       α-COP and β′-COP bind with comparable specificity to a series of KKxx and KxKxx retrieval motifs. (
+       <strong>
+        A
+       </strong>
+       ) Binding of
+       <em>
+        B. taurus
+       </em>
+       αβ′ɛ-COP subcomplex to KKxx sequences. GST-dilysine fusion proteins immobilized on glutathione sepharose beads were incubated with the αβ′ɛ-COP subcomplex plus ‘background' protein mix (see Materials and methods). Specific binding was assessed by the enrichment of αβ′ɛ-COP proteins from the input, relative to the GST control.
+       <em>
+        E. coli
+       </em>
+       Hsp70 is an innocuous component of the background mix. Bound proteins were analysed by 4–20% SDS–PAGE and Coomassie blue staining. Control dilysine sequences contained two additional serine residues at their C termini (labelled, e.g., p25+SS). The label KKSS refers to a dilysine sequence nested in a poly-serine background. (
+       <strong>
+        B
+       </strong>
+       ) The
+       <em>
+        S. cerevisiae
+       </em>
+       α-COP dilysine-binding site displays similar specificity towards KKxx motifs as full-length αβ′ɛ-COP. These binding experiments were performed with the same panel of dilysine motifs as (
+       <strong>
+        A
+       </strong>
+       ), using in this case the
+       <em>
+        S. cerevisiae
+       </em>
+       α-COP(1–818)/β′-COP(651–814) dimer. (
+       <strong>
+        C
+       </strong>
+       ) α-COP binds specifically to the KxKxx motif of Emp47p. This experiment used the α-COP(1–818)/β′-COP(651–814) protein dimer. (
+       <strong>
+        D
+       </strong>
+       ) β′-COP likewise binds specifically to the KxKxx motif of Emp47p. This experiment used the
+       <em>
+        S. cerevisiae
+       </em>
+       β′-COP(1–814)/α-COP(642–818) dimer. (
+       <strong>
+        E
+       </strong>
+       ) β′-COP binds to the panel of KKxx motifs with the same specificity as α-COP. Here, we used the β′-COP(1–814)/α-COP(642–818) dimer. Note the comparison with (
+       <strong>
+        B
+       </strong>
+       ), lane by lane. (
+       <strong>
+        F
+       </strong>
+       ) Crystal structure of the N-terminal β-propeller domain of
+       <em>
+        S. pombe
+       </em>
+       α-COP bound to the KKxx motif of adenoviral E19 protein (magenta worm). This view towards the dilysine-binding site indicates the seven blades (or WD-repeat elements) of the β-propeller. (
+       <strong>
+        G
+       </strong>
+       ) Crystal structure of the N-terminal β-propeller domain of
+       <em>
+        S. cerevisiae
+       </em>
+       β′-COP bound to the KxKxx motif of Emp47p. (
+       <strong>
+        H
+       </strong>
+       ) Structure of the Emp47p KxKxx motif bound to the αβ′-COP fragment of the COPI assembly unit. This is a composite model comprising the crystal structure from the present study, as in (
+       <strong>
+        G
+       </strong>
+       ), together with the αβ′-COP fragment from a previous study (
+       <xref ref-type="bibr">
+        Lee and Goldberg, 2010
+       </xref>
+       ).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     shows the results of an initial test for binding of dilysine motifs to the complete αβ′ɛ-COP subcomplex of coatomer (see Materials and methods). The dilysine motifs were fused to the C terminus of glutathione S-transferase (GST), then immobilized on glutathione sepharose beads and probed for binding to αβ′ɛ-COP. Purified recombinant
+     <em>
+      Bos taurus
+     </em>
+     αβ′ɛ-COP was added to a mix of ‘background'
+     <em>
+      E. coli
+     </em>
+     proteins, and the specificity of binding was assessed by the enrichment of COPs from the input mixture (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). αβ′ɛ-COP binds to the KKxx motifs of the mammalian proteins p25 and Ergic-53 and the adenoviral E19 protein, and to a KKxx motif nested in a poly-serine sequence (labelled KKSS in
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ; the polyS-KKSS sequence confers ER residence to a CD8 reporter molecule in HeLa cells;
+     <xref ref-type="bibr">
+      Jackson et al, 1990
+     </xref>
+     ). No specific binding was observed to the p24-family protein p24β, which does not contain a dilysine motif at its C terminus. For control sequences, we added two C-terminal serine residues, KKxxSS (labelled p25+SS in
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ), since this addition was shown to abolish the ER retention of a CD8 reporter molecule (
+     <xref ref-type="bibr">
+      Jackson et al, 1990
+     </xref>
+     ).
+    </p>
+    <p>
+     Next, we tested the binding of
+     <em>
+      S. cerevisiae
+     </em>
+     α-COP and β′-COP individually to the dilysine motifs. Utilizing the sequence homology of α-COP and β′-COP, we designed two protein complexes of the form shown in
+     <xref ref-type="fig">
+      Figure 1H
+     </xref>
+     , namely the propeller–propeller–solenoid array of one COP (containing the dilysine-binding site in the N-terminal β-propeller domain) plus a short interacting α-solenoid region of the other COP, which aids the stability of the dimer (
+     <xref ref-type="bibr">
+      Lee and Goldberg, 2010
+     </xref>
+     ). Pull-down experiments with the two complexes, performed in parallel, show a highly similar pattern of binding to the KKxx motifs (compare
+     <xref ref-type="fig">
+      Figures 1B and E
+     </xref>
+     , lane by lane). Likewise, the two complexes bind specifically to the KxKxx motif of Emp47p (
+     <xref ref-type="fig">
+      Figures 1C and D
+     </xref>
+     ).
+    </p>
+    <p>
+     These data reveal that α-COP and β′-COP bind with comparable specificity to a panel of KKxx and KxKxx motifs, and we conclude that β′-COP does not disfavour KKxx motifs in general. Instead, we speculate that β′-COP may bind weakly to yeast Wbp1 owing to the particular sequence context of its dilysine motif, an issue we return to below.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      Crystal structures of
+     </em>
+     α
+     <em>
+      -COP and
+     </em>
+     β
+     <em>
+      ′-COP bound to KxKxx retrieval motifs
+     </em>
+    </title>
+    <p>
+     Efforts to crystallize α-COP and β′-COP (specifically their N-terminal β-propeller domains) bound to a comprehensive set of naturally occurring retrieval motifs met with two main challenges. First, the problem of poor solubility of yeast and mammalian α-COP proteins that hampered previous studies (
+     <xref ref-type="bibr">
+      Lee and Goldberg, 2010
+     </xref>
+     ) was solved by using the
+     <em>
+      Schizosaccharomyces pombe
+     </em>
+     N-terminal β-propeller domain, engineered to improve its solubility by mutating five hydrophobic residues to lysine in a flexible loop—L181K, L185K, I192K, L196K and F197K. Second, a fraction of the crystals we obtained had intimate crystal contacts in the vicinity of the dilysine-binding site that occlude all or part of the site. Six crystal structures were discarded for this reason, yielding a final set of eleven structures: eight
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP/peptide complexes, two
+     <em>
+      S. pombe
+     </em>
+     α-COP/peptide complexes and one structure of
+     <em>
+      S. pombe
+     </em>
+     α-COP with a vacant binding site. The crystal structures were refined to resolutions ranging from 1.45 to 1.9 Å (see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     for crystallographic data and a list of the dilysine sequences used).
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Data collection and refinement statistics
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     <xref ref-type="fig">
+      Figures 1F and G
+     </xref>
+     show the closely related folds of the N-terminal β-propeller domains of α-COP and β′-COP (the
+     <em>
+      S. pombe
+     </em>
+     α-COP and
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP sequences share 30% sequence identity in this ∼300 residue domain). Both coatomer subunits bind to dilysine motifs via a highly conserved surface region of the β-propeller domain, near to the central ‘pore' of the propeller, as mapped previously by
+     <xref ref-type="bibr">
+      Jackson et al (2012)
+     </xref>
+     .
+    </p>
+    <p>
+     To facilitate a direct structural comparison of the dilysine-binding sites of α-COP and β′-COP, we solved crystal structures of both proteins bound to the KxKxx motif of yeast Emp47p, with the sequence IKTKLL (
+     <xref ref-type="fig">
+      Figures 2B and D
+     </xref>
+     , and see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). These are the first views of dilysine motifs bound to coatomer unobstructed by crystal contacts, and they define the three ‘primary' points of interaction between the retrieval motif and coatomer subunit: the C-terminal carboxylate group of the KxKxx peptide binds to a basic patch involving residues Arg15, Lys17 and Arg59 (
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP numbering), and the two lysine side chains interact with two acidic patches. These primary interactions can be seen more clearly in
+     <xref ref-type="fig">
+      Figures 3B and D
+     </xref>
+     , which show the crystal structure of β′-COP bound to the KxKxx motif of human Wbp1 (hWbp1 in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ; also called OST48). We refer to the acidic patches as patch 1, involving β′-COP residue Asp206 that binds to the −3 lysine side chain, and acidic patch 2, involving residues Asp98 and Asp117 binding to lysine −5 of the peptide (labelled accordingly in
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). In the crystal structure of
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP reported by
+     <xref ref-type="bibr">
+      Jackson et al (2012
+     </xref>
+     ; PDB identifier 2YNN), a KxKxx peptide with sequence CTFKTKTN interacts with the basic patch and with patch 1 via the −3 lysine, but patch 2 is occluded by a crystal contact and the −5 lysine side chain of the motif projects away from the binding site as a result.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Molecular recognition of KKxx and KxKxx retrieval motifs. (
+       <strong>
+        A
+       </strong>
+       ) Two views of the KKMP motif of adenoviral E19 protein bound to α-COP. The left panel shows a close-up view of the dilysine-binding site. All the α-COP residues that contact the dilysine motif are drawn in the picture. The right panel shows the KKMP peptide together with a difference electron density map calculated following a simulated annealing protocol (SA-omit map;
+       <xref ref-type="bibr">
+        Brünger, 1998
+       </xref>
+       ), calculated at 1.9 Å resolution and contoured at 3.0σ (
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       ). Electron density has been truncated for N-terminal residues outside the binding site. (
+       <strong>
+        B
+       </strong>
+       ) View of the KTKLL motif of Emp47p bound to α-COP. In the right panel, the SA-omit map is calculated at 1.9 Å resolution and contoured at 3.0σ. (
+       <strong>
+        C
+       </strong>
+       ) Structure of the KKLV motif of the p24-family protein p25 (from human) bound to β′-COP. The SA-omit map is calculated at 1.45 Å resolution and contoured at 3.0σ. (
+       <strong>
+        D
+       </strong>
+       ) Structure of the KTKLL motif of Emp47p bound to β′-COP. The SA-omit map is calculated at 1.5 Å resolution and contoured at 3.0σ. (
+       <strong>
+        E
+       </strong>
+       ) Isothermal calorimetry measurements for α-COP binding to KKxx motifs. The upper panel shows examples of the primary data. The lower panel shows data fitted to binding isotherms to obtain affinities (and standard errors) for the p25 (KKLV), E19 (KKMP) and yWbp1 (KKTN) sequences. (
+       <strong>
+        F
+       </strong>
+       ) Affinity of β′-COP for KKxx motifs. (
+       <strong>
+        G
+       </strong>
+       ) Affinity of α-COP for the KxKxx motifs of hWbp1 (KEKSD) and Emp47p (KTKLL). (
+       <strong>
+        H
+       </strong>
+       ) Affinity of β′-COP for the KxKxx motifs.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       Comparison of the distinct binding modes of the KKxx and KxKxx motifs. (
+       <strong>
+        A
+       </strong>
+       ) Conformation of the KKxx motif. Picture shows the KKLV sequence of human p25 bound to β′-COP (refined at 1.45 Å resolution). The molecular surface of β′-COP is coloured according to residue properties: acidic residues coloured red, basic side chains blue and hydrophobic side chains yellow. Labels indicate acidic patch 1 (red circle, Asp206) and acidic patch 2 (Asp98 and Asp117). The binding mode of the KKxx motif is indicated by the clockwise arrow coloured green. The KKLV peptide is coloured magenta, except for the side-chain nitrogen atoms of the lysine residues (blue) and the terminal carboxylate oxygen atoms (red); for complete atom colouring of the peptide see (
+       <strong>
+        C
+       </strong>
+       ). (
+       <strong>
+        B
+       </strong>
+       ) Conformation of the KxKxx motif. Picture shows the KEKSD sequence of hWbp1 bound to β′-COP (refined at 1.75 Å resolution). Colouring is as in (
+       <strong>
+        A
+       </strong>
+       ), and the anticlockwise arrow indicates the binding mode of the KxKxx motif. (
+       <strong>
+        C
+       </strong>
+       ) Related to (
+       <strong>
+        A
+       </strong>
+       ), showing the KKxx motif bound to β′-COP. The view is rotated 60° around a vertical axis to provide a clearer view of the bonding network to the two lysine residues and to the terminal carboxylate group. (
+       <strong>
+        D
+       </strong>
+       ) Related to (
+       <strong>
+        B
+       </strong>
+       ), showing the KxKxx motif bound to β′-COP.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     In addition to the three primary contacts, important secondary contacts involve the backbone carbonyl oxygen atoms of the −4, −3 and −2 residues, which interact with charged side chains Arg59 and Arg101 (β′-COP numbering) at the base of the dilysine-binding site (see, e.g., K
+     <em>
+      EKS
+     </em>
+     D of hWbp1 in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). The primary and secondary interactions made by the KxKxx motif, as defined above, are common to the α-COP/Emp47p, β′-COP/Emp47p and β′-COP/hWbp1 complexes and, as this implies, the conformations of the bound peptides are highly similar (compare, e.g.,
+     <xref ref-type="fig">
+      Figures 2B and D
+     </xref>
+     ). This despite the significant difference in the character of the bound peptides, namely the highly charged hWbp1 sequence EKEKSD versus the more hydrophobic Emp47p sequence IKTKLL. The constancy of the KxKxx motif conformation and interactions among the four high-resolution crystallographic observations (the β′-COP/hWbp1 crystals contain two distinct complexes in the asymmetric unit) implies that this is the bona fide binding mode.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      Equivalence of the dilysine-binding sites of
+     </em>
+     α
+     <em>
+      -COP and
+     </em>
+     β
+     <em>
+      ′-COP
+     </em>
+    </title>
+    <p>
+     In hindsight, the close correspondence of KxKxx binding to α-COP and β′-COP is not surprising in view of the very high degree of conservation of the binding-site residues (
+     <xref ref-type="fig">
+      Figures 2
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). Only two residues differ, and these are conservative alterations: Tyr33 of β′-COP changes to His31 in α-COP and Phe142 of β′-COP changes to Tyr139 in α-COP. The close structural equivalence of the binding sites accords with the results of pull-down experiments showing the highly similar specificity of α-COP and β′-COP towards the dilysine motifs (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ).
+    </p>
+    <p>
+     To extend the results of the pull-down experiments, we measured more precisely the affinities of dilysine motifs using isothermal calorimetry (ITC;
+     <xref ref-type="fig">
+      Figures 2E–H
+     </xref>
+     , and see Materials and methods). All the functional dilysine motifs we tested caused a significant heat change upon mixing with α-COP and β′-COP (see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     for a list of the sequences of peptides used). A control peptide KKxxSS caused no heat change upon mixing with β′-COP, confirming that the assay measures the protein/peptide interaction (black curve in
+     <xref ref-type="fig">
+      Figure 2F
+     </xref>
+     , lower panel). Calorimetry data on the KxKxx motifs (
+     <xref ref-type="fig">
+      Figures 2G and H
+     </xref>
+     ) reveal that the Emp47p sequence IKTKLL binds with very similar affinity to α-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =16.1 μM) and β′-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =22.5 μM); the hWbp1 peptide EKEKSD binds somewhat more tightly to both proteins, but again with almost equal affinity to α-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =2.9 μM) and β′-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =3.4 μM).
+    </p>
+    <p>
+     Collectively, the results of the ITC and crystallography experiments on KxKxx motifs define a common and specific mode of binding to the α-COP and β′-COP subunits of coatomer.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Distinct binding modes of KKxx and KxKxx motifs
+    </title>
+    <p>
+     Intuitively, one might expect the two motifs to bind in a similar fashion, with the intermediary residue of KxKxx looped away from the binding site relative to KKxx. But this is not the case, as our crystallographic analysis shows that the two motifs adopt different binding modes.
+     <xref ref-type="fig">
+      Figures 2A and C
+     </xref>
+     show the structure of α-COP bound to the KKMP sequence of adenoviral E19 protein and of β′-COP bound to the KKLV sequence of p25, a p24-family protein (see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     for full peptide sequences). The KKxx motifs adopt a helical conformation at the binding sites. The comparison with the KxKxx binding mode shows some shared features: the terminal carboxylate group is bound in the same manner to the basic patch, and the backbone carbonyl oxygen atoms of the −3 and −2 (though not the −4) residues of the KKxx motif interact with the side chains of Arg59 and Arg101 in a similar fashion to KxKxx (see
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     for a side-by-side comparison of motifs). The lysine side chains of the KKxx motifs are recognized by the acidic patches 1 and 2 but, surprisingly, they bind in a reversed fashion relative to KxKxx. In
+     <xref ref-type="fig">
+      Figures 3A and B
+     </xref>
+     , we emphasize the alternate binding modes with the clockwise green arrow indicating the helical conformation of the −4 and −3 residues of the KKxx motif and the anticlockwise arrow denoting the direction of the −5, −4 and −3 residues of the KxKxx motif.
+    </p>
+    <p>
+     These crystallographic results indicate that the KKxx and KxKxx motifs adopt distinctive low energy binding modes to accommodate their lysine residues in the acidic patches. How certain can we are that this represents the bona fide binding mode for KKxx motifs? First, a comparison of the peptide conformations in the β′-COP/p25, α-COP/E19 (
+     <xref ref-type="fig">
+      Figures 2
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ) and β′-COP/yWbp1 (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ) complexes shows highly similar conformations and sets of contacts at the binding sites. This involves a total of five distinct crystallographic observations of KKxx peptides, as both the α-COP/E19 and β′-COP/yWbp1 crystals contain two complexes in the asymmetric unit (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Second, the peptide conformations were defined by difference Fourier analysis of 1.45 Å (p25), 1.9 Å (E19) and 1.5 Å (yWbp1) resolution X-ray data sets. Third, the KKxx binding mode is common to the α-COP and β′-COP binding sites. Fourth, the binding mode is independent of the sequence context, unaffected by a preponderance of hydrophobic (p25; KKLV), hydrophilic (yWbp1; KKTN) or terminal proline (E19; KKMP) residues. On this basis, we conclude that the two dominant classes of dilysine motifs, KKxx and KxKxx, bind to a common site on α-COP and β′-COP proteins, as shown previously (
+     <xref ref-type="bibr">
+      Eugster et al, 2004
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Jackson et al, 2012
+     </xref>
+     ), but adopt distinct modes of interaction.
+    </p>
+    <p>
+     The measurements by calorimetry of KKxx motif interactions are shown in
+     <xref ref-type="fig">
+      Figures 2E and F
+     </xref>
+     . As expected, both α-COP and β′-COP bind to the p25 and adenoviral E19 sequences, in accord with the results of the pull-down experiments, but there is somewhat more variation in the specificity of the two COPs (compared with their highly similar affinities towards KxKxx motifs). The proline-containing E19 motif, KKMP, binds with comparable affinity to α-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =64.5 μM) and β′-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =49.0 μM), while the more conventional KKLV sequence of p25 binds somewhat more tightly to α-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =11.3 μM) than to β′-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =27.7 μM). The results reinforce the view that β′-COP does not disfavour KKxx motifs in general. The outlier in this analysis is the dilysine motif of yeast Wbp1 (yWbp1; KKTN), which binds with significantly lower affinity to β′-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =170.9 μM) than to α-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =36.6 μM). These measurements are consistent with a previous study showing a 10-fold lower affinity of the KKTN sequence for β′-COP compared to KxKxx motifs (
+     <xref ref-type="bibr">
+      Jackson et al, 2012
+     </xref>
+     ). And they offer a possible explanation for the results of trafficking experiments that revealed a selective retrieval defect in coatomer mutants lacking a functional α-COP dilysine-binding site that presumably are reliant on the β′-COP subunit for dilysine retrieval. Specifically, the α-COP mutants were unable to retain a KKTN-tagged reporter molecule in the ER, but were able to maintain the localization of Emp47p, dependent on its KTKLL motif (
+     <xref ref-type="bibr">
+      Schröder-Köhne et al, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Eugster et al, 2004
+     </xref>
+     ).
+    </p>
+    <p>
+     In the final stage of our analysis of KKxx motifs, we sought a molecular explanation for this, the difference in specificity of α-COP and β′-COP towards the yWbp1 KKTN signal. Presumably, an explanation will be found in the interplay between the terminal residues of the motif KKTN (but not the upstream residues,
+     <em>
+      TF
+     </em>
+     KKTN, since these lie outside the binding site) and specific residue differences between the α-COP and β′-COP binding sites. As described previously, the binding sites differ at only two positions, and only one of the two is in the vicinity of the terminal KKTN side chains: namely Tyr33 (β′-COP) and its equivalent His31 (α-COP).
+     <a>
+      Supplementary Figure S1A
+     </a>
+     shows the structure of the β′-COP/yWbp1 complex (the millimolar concentrations of peptide and β′-COP protein used for crystallization are more than sufficient to saturate the binding site;
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =170.9 μM). In the picture, we have overlapped the His31 side chain of α-COP with Tyr33 of β′-COP. The juxtaposition of the Tyr33/His31 side chains and the threonine residue of the KKTN motif lead us to propose that an unfavourably close approach of the Tyr33 hydroxyl group impinges on the β-branched threonine residue (and hinders a favoured side-chain rotamer) and is responsible for lowering the affinity of the β′-COP/KKTN complex. This invokes a rather subtle interplay, such that the shorter His33 side chain of α-COP is more compatible with a β-branched residue at the −2 position, all the more so because position 33 is conserved in α-COP as either a histidine or phenylalanine residue across species (and is a Phe in
+     <em>
+      S. cerevisiae
+     </em>
+     α-COP). Nevertheless, a peptide in which the threonine residue is replaced with serine, TFKKTN to TFKKSN, was tested for its affinity to α-COP and β′-COP by ITC (
+     <a>
+      Supplementary Figure S1B
+     </a>
+     ). Strikingly, the KKSN peptide binds more tightly than KKTN to β′-COP by a factor of 1.8-fold, and a comparison of the (ratio of) affinities of α-COP and β′-COP for KKxx motifs shows that the KKTN motif of yWbp1 favours α-COP by a factor of 4.7, the KKSN motif favours α-COP by a factor of 2.2, and the KKLV motif of p25 favours α-COP by a factor of 2.5. The results confirm the interplay between the Tyr33/His31 residue at the binding site and the −2 position of the dilysine motif, and they reveal that threonine is disfavoured by β′-COP at the −2 position, hence the reliance of the yWbp1 retrieval motif on a functional α-COP subunit for trafficking
+     <em>
+      in vivo
+     </em>
+     (
+     <xref ref-type="bibr">
+      Eugster et al, 2004
+     </xref>
+     ). In our subsequent analysis of the variant KxHxx motif, we found that β′-COP binds with far lower affinity than α-COP to the KVHVQ sequence (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ; peptide PEDVspike in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ), and the crystal structure of the β′-COP/KVHVQ complex (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     ) shows the close approach of the −2 valine residue to Tyr33. Collectively, these observations are consistent with the proposal that β′-COP disfavours dilysine motifs that contain a β-branched residue (I, T, or V) at the −2 position.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Structural basis for recognition of the KxHxx motif. (
+       <strong>
+        A
+       </strong>
+       ) Close-up view of the β′-COP binding site showing the structure of the KxHxx motif from Insig-1 (sequence KPHSD; coloured magenta). Overlapped is the structure of the KxKxx motif of Emp47p, coloured green. The β′-COP residue Asp206 (from acidic patch 1) is included, and bonding interactions are drawn to the histidine and lysine side chains. (
+       <strong>
+        B
+       </strong>
+       ) Picture shows the KVHVQ sequence of the spike protein from porcine epidemic diarrhoea virus bound to β′-COP (PEDVspike in
+       <a>
+        <span>
+         Table 1
+        </span>
+       </a>
+       , refined at 1.55 Å resolution). The molecular surface of β′-COP is coloured according to residue properties: acidic residues coloured red, basic side chains blue and hydrophobic side chains yellow. (
+       <strong>
+        C
+       </strong>
+       ) Summary of binding measurements by isothermal calorimetry of KxHxx motif interactions with α-COP and β′-COP.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     Coatomer interaction with the non-canonical KxHxx retrieval motif
+    </title>
+    <p>
+     The KxHxx motif was identified as a functional retrieval signal present on the cytoplasmic tail of the spike protein of group 1 coronaviruses and of the SARS coronavirus (
+     <xref ref-type="bibr">
+      Lontok et al, 2004
+     </xref>
+     ). We determined the crystal structure of β′-COP bound to the KVHVQ sequence of the spike protein from porcine epidemic diarrhoea virus, abbreviated as PEDVspike in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     (
+     <xref ref-type="bibr">
+      Shirato et al, 2011
+     </xref>
+     ). The PEDVspike motif binds very weakly to β′-COP, as described above, but crystallization drives together the complex (
+     <xref ref-type="fig">
+      Figures 4B and C
+     </xref>
+     ). The KxHxx sequence adopts a highly similar binding mode to the KxKxx motif. A slight positional shift of the entire histidine residue enables its side-chain ɛ2 nitrogen atom to bond Asp206 of β′-COP at acidic patch 1.
+    </p>
+    <p>
+     To assess whether the shift is a conserved feature of the KxHxx binding mode, we solved the structures of additional β′-COP/KxHxx complexes. For this purpose, we identified conserved KxHxx sequences in the cytoplasmic C termini of the Insig-1 (KPHSD) and Insig-2 (KSHQE) proteins. The Insig proteins are ER localized and facilitate the retention of SCAP/sterol/SREBP complexes in the ER (
+     <xref ref-type="bibr">
+      Yang et al, 2002
+     </xref>
+     ), but a role for the Insig C terminus in active retrieval of the protein from post-ER membranes has not been considered; we leave this as an open question. ITC measurements showed that the KxHxx motifs of the Insig proteins bind to α-COP and β′-COP (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). Structures of β′-COP bound to the Insig-1 and Insig-2 sequences reveal a highly similar binding mode to the KxHxx motif of PEDVspike (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ;
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Importantly, the position of the histidine residue is conserved in the three complexes.
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     shows an overlap of the β′-COP/Insig-1 complex with the KxKxx sequence of Emp47p, and highlights the subtle shift in the position of the histidine residue relative to the −3 lysine of Emp47p (note, e.g., the displacement of the Cα position) that enables the histidine side-chain ɛ2 nitrogen atom to occupy a very similar position to the lysine side-chain nitrogen atom, both then bonding to Asp206 of acidic patch 1.
+    </p>
+    <p>
+     These results indicate that acidic patch 1 of the binding site can accommodate histidine residues, and as a consequence the KxHxx motif mimics the KxKxx binding mode in interactions with coatomer.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Specificity and unique binding mode of the RKxx motif
+    </title>
+    <p>
+     A CD8 reporter molecule tagged with the KKMP motif of adenoviral E19 protein is dependent on both lysine residues for ER retention, and among a series of substitutions of lysine with basic residues—HK, KH, RK and KR—only RKMP was shown to be a functional motif (
+     <xref ref-type="bibr">
+      Jackson et al, 1990
+     </xref>
+     ).
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     illustrates the structural analysis of β′-COP bound to the RKLD motif of the Golgi-localized protein Scyl1 (
+     <xref ref-type="bibr">
+      Burman et al, 2008
+     </xref>
+     ). Surprisingly, the conformation of the RKxx motif does not mimic KKxx, and we suggest that an arginine residue is slightly too long for optimal binding to acidic patch 1 in the KKxx mode of interaction. Instead, the RKxx motif mimics the KxKxx binding mode from position −4 to the C terminus (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). The arginine side chain adopts a unique binding position, outside the circumscribed dilysine-binding site (shown schematically in
+     <xref ref-type="fig">
+      Figure 6
+     </xref>
+     ).
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     illustrates how the arginine residue is extended to form bonds via its guanidinium group to the backbone carbonyl oxygen atom of β′-COP residue Arg185. Interestingly, the corresponding carbonyl oxygen atom is not available to form this bond in α-COP; instead, in all the α-COP crystal structures the carbonyl group of Arg213 points away from the binding site (ψ angle of Arg213 is rotated ∼165° relative to the conformation in β′-COP;
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ).
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Distinctive binding mode of the RKxx motif and its specificity for β′-COP. (
+       <strong>
+        A
+       </strong>
+       ) Close-up view of the β′-COP binding site showing the structure of the RKxx motif from Scyl1, coloured magenta (sequence RKLD; refined at 1.5 Å resolution). Overlapped is the structure of the KxKxx motif of Emp47p, coloured green. The molecular surface of β′-COP is coloured according to residue properties: acidic residues coloured red, basic side chains blue and hydrophobic side chains yellow. (
+       <strong>
+        B
+       </strong>
+       ) Picture of the Scyl1 RKLD motif bound to β′-COP in a similar orientation to (
+       <strong>
+        A
+       </strong>
+       ), showing the bonding interactions made by the arginine residue of the RKLD motif (coloured magenta) to the backbone carbonyl oxygen atom of β′-COP residue Arg185 (β′-COP coloured cyan). The corresponding carbonyl group of α-COP residue Arg213 points in the opposite direction, as shown in the overlapped structure (coloured pink). Side-chain atoms of Arg185, Arg213 (and Asp212) are omitted for clarity. A key salt bridge that maintains the local conformation of β′-COP is drawn between residues Glu184 and Arg163 (indicated with blue dot). (
+       <strong>
+        C
+       </strong>
+       ) Isothermal calorimetry measurements for α-COP and β′-COP binding to the GARKLD sequence of Scyl1 and variants thereof. The upper panel shows examples of the primary data; lower panel shows data fitted to binding isotherms. (
+       <strong>
+        D
+       </strong>
+       ) Alignment of α-COP and β′-COP sequences in the vicinity of β′-COP residue Arg163 (blue dot), the key salt-bridge residue drawn in (
+       <strong>
+        B
+       </strong>
+       ). This basic residue is conserved in β′-COP sequences, but changes to glutamine or glutamic acid in α-COP and the salt bridge is lost as a result.
+      </p>
+     </caption>
+    </fig>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Binding modes of the four classes of dilysine-type retrieval signals. Schematic diagram shows the binding modes of the different classes of retrieval signals related to the dilysine motif. The acid patches 1 and 2 are labelled and indicated in red; these patches are defined in the text and in
+       <xref ref-type="fig">
+        Figure 3A
+       </xref>
+       . The basic patch that recognizes the terminal carboxylate group is coloured blue. α-COP and β′-COP recognize all the signals, except for the RKxx motif which is specific for β′-COP.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     These structural observations suggest that the RKxx motif should favour β′-COP over α-COP. ITC measurements show that the RKLD sequence binds to β′-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     =20.4 μM) with comparable affinity to KKxx and KxKxx motifs (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). The AKLD and KRLD test sequences each lose ∼4-fold affinity, indicative of suboptimal binding relative to the RKLD motif. Strikingly, the RKLD sequence binds exceedingly weakly to α-COP (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     &gt;1 mM), revealing a particular incompatibility of this motif with the α-COP binding site, the structural correlate of which we infer is the clash of the arginine side chain with the backbone amide group of α-COP residue Arg213 (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ).
+    </p>
+    <p>
+     The concordance of the binding measurements and structural observations indicate that the β′-COP/RKxx crystal structure, and in particular the bonding arrangement of the −4 arginine residue, corresponds to the binding mode in solution. And it is of note that the RKxx motif adopts the same conformation in the two distinct complexes in the crystal asymmetric unit (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ).
+    </p>
+    <p>
+     An analysis of structure and sequence conservation in this region of the α-COP and β′-COP molecules suggests that the specificity of the RKxx motif for β′-COP is a phylogenetically conserved feature (
+     <xref ref-type="fig">
+      Figures 5B and D
+     </xref>
+     ). Binding of the RKxx motif relies on the orientation of the carbonyl group of Arg185 (
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP numbering), and this backbone orientation is imposed in turn by the salt bridge between residues Glu184 and Arg163 (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). The salt-bridge pairing is highly conserved in β′-COP sequences: Glu184 is conserved as a glutamic acid, and Arg163 as an arginine, or as lysine in Caenorhabditis species. By contrast, the salt bridge is lost in α-COP sequences: the position corresponding to β′-COP Glu184 is highly conserved as an aspartic acid (or threonine in
+     <em>
+      Saccharomyces
+     </em>
+     spp. α-COP); however, as shown in
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     , the position corresponding to β′-COP Arg163 changes in α-COP to a conserved glutamine or glutamic acid residue.
+    </p>
+    <p>
+     Thus, the RKxx motif adopts a distinctive binding mode, and utilizes an expanded region of the binding site that is unique to the β′-COP subunit.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Sequence context of the dilysine motif
+    </title>
+    <p>
+     A comparative assessment of the crystal structures and ITC data suggests that the sequence context of the KKxx and KxKxx motifs plays a relatively minor role in coatomer recognition. The analysis of yWbp1 revealed one exception to this, namely the incompatibility of β-branched residues at the −2 position with tight binding to β′-COP. Additionally, we speculate that aspartic and glutamic acid residues may be favoured at the −1 position, to facilitate a charge interaction with Arg272 (β′-COP numbering), perhaps explaining the tight binding of the hWbp1 KEKSD motif (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ;
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     [β′-COP]=3.4 μM). These exceptions aside, the binding site seems to be designed to bind dilysine motifs without regard for sequence context. As illustrated in
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , the side chains of the −1 and −2 residues (KTK
+     <em>
+      LL
+     </em>
+     of Emp47p coloured magenta; KK
+     <em>
+      LV
+     </em>
+     of p25 coloured green) are directed away from the binding site; recognition of these residues is instead via their backbone carbonyl groups. Likewise, the −4 position of the KxKxx motif is directed away from the binding site (see, e.g., K
+     <em>
+      E
+     </em>
+     KSD in
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ).
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       α-COP and β′-COP are designed to bind dilysine motifs with little regard for sequence context. (
+       <strong>
+        A
+       </strong>
+       ) Close-up view of the β′-COP binding site showing an overlap of the KKLV motif of p25 (coloured green) and the KTKLL motif of Emp47p (magenta). The picture is meant to emphasize how the −1 and −2 residues point away from the dilysine-binding site. (
+       <strong>
+        B
+       </strong>
+       ) Summary of binding measurements by isothermal calorimetry of KKYL and KKAA motifs versus α-COP and β′-COP.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     A study of ER retrieval signals in mammalian cells took a combinatorial approach to generate a series of K(x)Kxx motifs, and obtained a wealth of information on the trafficking itinerary of reporter molecules bearing these C-terminal sequences (
+     <xref ref-type="bibr">
+      Zerangue et al, 2001
+     </xref>
+     ). The results showed that certain dilysine-containing sequences strongly enforced ER localization (e.g., KKYL and KKTN), whereas others did not (e.g., KKYY, KKTA and KKSP). With hindsight, it seems likely that many of the K(x)Kxx sequences generated in the combinatorial library encode additional trafficking information, such as the C-terminal (di)hydrophobic signal that links to the COPII coat machinery (
+     <xref ref-type="bibr">
+      Nufer et al, 2002
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Miller et al, 2003
+     </xref>
+     ). For example, the screen of
+     <xref ref-type="bibr">
+      Zerangue et al (2001)
+     </xref>
+     reported that proline at position −1 is strongly disfavoured in a functional retrieval motif, yet the adenoviral E19 KKMP sequence is a bona fide retrieval signal. We tested the affinity of two additional sequences described by
+     <xref ref-type="bibr">
+      Zerangue et al (2001)
+     </xref>
+     : the KKYL sequence reported as an especially potent retrieval signal binds to both α-COP and β′-COP, with comparable affinity to other K(x)Kxx sequences; however, the KKAA motif reported not to function as a retrieval signal does also bind to both COP subunits in our ITC assay (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ).
+    </p>
+    <p>
+     We surmise that residues surrounding the lysines do not play a dominant role in binding to α-COP and β′-COP subunits, and we suggest that this may allow cargo C termini to nest additional topogenic information in their K(x)Kxx sequences without compromising the interaction with coatomer.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    In this study, we establish how the four classes of dilysine-type retrieval motifs are recognized by coatomer subunits. Our focus was on naturally occurring motifs, rather than on K(x)Kxx sequence permutations that yield the highest affinity for coatomer. Consequently, there are no doubt rules and restrictions on dilysine-motif recognition not accounted for in our analysis. Nevertheless, the range of structures and sequences we have explored offer a fairly thorough description of the binding modes, recognition bonding interactions and certain sequence restrictions, to provide a heuristic basis on which to further explore the role of coatomer and dilysine signals in retrograde trafficking.
+   </p>
+   <p>
+    Here, we briefly summarize these rules with reference to
+    <xref ref-type="fig">
+     Figure 6
+    </xref>
+    . A dilysine-type motif adopts one of three possible binding modes (the KxKxx and KxHxx motifs are considered as equivalent), dependent on the combination of the two basic residues—KxK, KK, RK—and independent of sequence context. For all binding modes, there is an absolute requirement for a basic residue at the −3 position of the motif, because the recognition of the C-terminal carboxylate group controls the distance to the acidic patches 1 and 2 on α-COP and β′-COP.
+   </p>
+   <p>
+    The general preference for lysine residues in the retrieval signal does not arise from an absolute discrimination of the acidic patches against arginine and histidine side chains, as demonstrated by the finding that ER localization of hWbp1 protein is maintained when the KxKxx motif is replaced by the non-natural RxKxx, KxRxx, HxHxx, or the coronavirus KxHxx motif (
+    <xref ref-type="bibr">
+     Hardt and Bause, 2002
+    </xref>
+    ). Favouritism towards lysine is also due to the binding modes of the motifs (enforced by interactions with peptide backbone carbonyl groups), which position arginine and histidine side chains suboptimally at the acidic patches. This effect seems to be the most pronounced for KKxx-family motifs, as reporter-based analysis shows that KRxx, KHxx and HKxx motifs are not functional retrieval signals (
+    <xref ref-type="bibr">
+     Jackson et al, 1990
+    </xref>
+    ); only KKxx and RKxx motifs function as such, and as we have demonstrated RKxx does so by adopting a KxKxx-like binding mode and positioning its arginine side chain beyond the acidic patches.
+   </p>
+   <p>
+    Our results shed light on the dilysine-binding specificity of the coatomer subunits. They demonstrate that α-COP and β′-COP do not discriminate between KKxx and KxKxx motifs as originally proposed by a study of Emp47p and Wbp1 trafficking in yeast (
+    <xref ref-type="bibr">
+     Eugster et al, 2004
+    </xref>
+    ). Instead, discrete structural differences at the binding sites allow only α-COP to bind tightly to dilysine motifs with a β-branched residue at the −2 position, and allow only β′-COP to accept the rare RKxx signal.
+   </p>
+   <p>
+    The major unresolved issue in this context is the functional organization of α-COP and β′-COP in the polymerized COPI coat. Our previous structural analysis of αβ′-COP implicated a triskelion vertex formed by β-propeller contacts that are highly similar to those in the COPII cage (
+    <xref ref-type="bibr">
+     Stagg et al, 2006
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fath et al, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lee and Goldberg, 2010
+    </xref>
+    ). However, as we emphasize in
+    <a>
+     Supplementary Figure S2A
+    </a>
+    , the αβ′-COP crystal structure included only a fragment of α-COP so that the location of the β-propeller domain of α-COP remains unclear. A direct attack on this problem will require electron microscopy, and a recent study of reconstituted COPI-coated vesicles using cryo-electron tomography (cryo-ET) has pointed the way forward (
+    <xref ref-type="bibr">
+     Faini et al, 2012
+    </xref>
+    ). This study identified a three-fold symmetry centre in the density distribution for the COPI cage, consistent with the αβ′-COP triskelion nucleus. However, fitting of additional solenoid regions of αβ′-COP and of the AP2 crystal structure (as a model for the βδ/γζ-COP subcomplex) was unsatisfactory, and clearer insights into the COPI architecture await an advance in the resolution of the cryo-ET analysis. A key insight from the cryo-ET study is that protein features near to the three-fold symmetry centre reside close to the membrane surface (
+    <xref ref-type="bibr">
+     Faini et al, 2012
+    </xref>
+    ). This is important, because most dilysine motifs are presented on cytoplasmic tail sequences that are intriguingly short. To assess this issue, we modelled the binding of a dilysine motif to β′-COP in the αβ′-COP triskelion on a membrane surface. As
+    <a>
+     Supplementary Figure S2
+    </a>
+    illustrates, the dilysine motif binds very close to the contact surfaces at the triskelion centre: the KKxx motif fits snugly between adjacent β′-COP surfaces, whereas the KxKxx motif clashes somewhat with a neighbouring surface (however, we did not evaluate these contacts in detail because the triskelion interface is distorted from proper three-fold symmetry by crystal packing interactions). Importantly, the first lysine residue of the KKxx motif resides ∼25 Å from the membrane surface, according to this model (
+    <a>
+     Supplementary Figure S2C
+    </a>
+    ). This is just compatible with the lengths of cargo cytoplasmic tails: for example, the number of residues between the membrane surface and the first lysine residue is 13 in yWbp1, 10 in p25 and 12 in adenoviral E19. This striking juxtaposition of coat proteins and cargo signals has implications for the mechanism, still unresolved, through which coatomer couples cargo packaging to COPI-vesicle formation (
+    <xref ref-type="bibr">
+     Bremser et al, 1999
+    </xref>
+    ).
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Protein and peptide production
+    </title>
+    <p>
+     The expression and purification of full-length
+     <em>
+      B. taurus
+     </em>
+     αβ′ɛ-COP subcomplex was carried out as described previously (
+     <xref ref-type="bibr">
+      Lee and Goldberg, 2010
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yu et al, 2012
+     </xref>
+     ). Two dimeric forms of
+     <em>
+      S. cerevisiae
+     </em>
+     αβ′-COP complex—one comprising α-COP(1–818)/β′-COP(651–814) and the other β′-COP(1–814)/α-COP(642–818)—were prepared from baculovirus-infected Hi-5 insect cells, with the proteins encoded on individual vectors (pFastBac HTB vector from Invitrogen) and the baculoviruses constructed using the DH10Bac bacmid procedure (Invitrogen). Insect cells were harvested 48 h post infection, lysed by sonication and centrifuged at 100 000 ×
+     <em>
+      g
+     </em>
+     for 90 min. Protein complexes were purified by Nickel-affinity (NI-NTA, Invitrogen), ion-exchange (HiTrap Q, Invitrogen), and size-exclusion chromatography. All proteins were brought to 20 mM Tris–HCl, pH 7.5, 150 mM NaCl, 5 mM dithithreitol (DTT), and were flash frozen in liquid nitrogen.
+    </p>
+    <p>
+     Proteins for crystallization were produced in
+     <em>
+      E. coli
+     </em>
+     . The N-terminal β-propeller domains of
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP (residues 1–301) and quintuple-mutant
+     <em>
+      S. pombe
+     </em>
+     α-COP (1–327; L181K, L185K, I192K, L196K and F197K) were expressed with an N-terminal hexa-histidine tag plus Smt3. Bacterial cells expressing target protein were lysed by French press and purified on a nickel-affinity column. The Smt3 tag was removed by Ulp1 protease cleavage and protein purified by anion exchange and size-exclusion chromatography. Mutant protein constructs were generated using the Phusion PCR method (New England Biolabs) and purified in the same manner as wild-type protein.
+    </p>
+    <p>
+     For pull-down experiments, the cytoplasmic regions of dilysine-containing proteins were fused to the C terminus of GST. Constructs were made in the pGEX-4T-1 vector using the Phusion mutagenesis kit.
+    </p>
+    <p>
+     High purity synthetic peptides were purchased from the Tufts University Core Facility. The sequences of the peptides used in crystallographic analyses and calorimetry experiments are listed in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Dilysine motif pull-down assay
+    </title>
+    <p>
+     The GST pull-down experiments were performed as described in
+     <xref ref-type="bibr">
+      Mossessova et al (2003)
+     </xref>
+     , with several modifications. A saturating quantity of GST-dilysine fusion protein was incubated with 10 μl of a 50% (v/v) slurry of glutathione sepharose 4B beads (GE Healthcare) for 30 min at 4°C. Beads were washed once with 500 μl Buffer A (20 mM Tris–HCl pH 7.5, 150 mM NaCl, 5 mM DTT and 0.1% Triton X-100), leaving ∼60 μg GST fusion protein bound to the beads. Beads were mixed with 0.1 mg/ml coatomer proteins and 5 mg/ml
+     <em>
+      E. coli
+     </em>
+     proteins (prepared as described in
+     <xref ref-type="bibr">
+      Mossessova et al, 2003
+     </xref>
+     ) in 100 μl buffer A. The assay mix was incubated at 4°C for 45 min and washed once with 100 μl buffer A. Proteins were eluted with 60 μl SDS sample buffer, separated by 4–20% gradient SDS–PAGE and stained with Coomassie blue.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal calorimetry
+    </title>
+    <p>
+     Binding experiments were performed on a microCal ITC200 instrument (GE Healthcare) operated at 25°C. The protein and synthetic dilysine peptide samples were dialysed overnight against separate volumes of the same buffer: 20 mM Tris–HCl pH 7.5, 150 mM NaCl (peptides were dialysed using a 100–500 Da cutoff dialysis membrane). Measurements were taken over ∼17 injections and data were fitted using Origin 7.0 software to estimate the equilibrium dissociation constant, stoichiometry and enthalpy of binding. Binding of peptides to α-COP was tested using the quintuple-mutant S. pombe α-COP(1–327), and binding to β′-COP was tested using the
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP(1–814)/α-COP(624–818) dimer.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structure determination
+    </title>
+    <p>
+     For crystallization purposes, purified
+     <em>
+      S. cerevisiae
+     </em>
+     β′-COP(1–301) was concentrated to 30 mg/ml in 20 mM Tris–HCl pH 7.4, 150 mM NaCl and 5 mM DTT and flash frozen in liquid nitrogen. Crystals of protein/peptide complexes were grown by the hanging-drop method. For example, a 1-μl solution containing 1 mM β′-COP and 1.5 mM p25 peptide was mixed with an equal volume of well solution comprising 0.1 M MES pH 6.5, 30% PEG-400. Crystals grew at room temperature in 4 days in the space group P2
+     <sub>
+      1
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     2
+     <sub>
+      1
+     </sub>
+     (see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     for peptide sequence and crystallographic details). Crystals were transferred into a cryoprotectant buffer containing well solution plus 20% glycerol, and frozen in liquid nitrogen. The β′-COP/p25 crystals diffracted synchrotron X-rays beyond 1.5 Å resolution.
+    </p>
+    <p>
+     Diffraction data for the β′-COP/p25 crystals were collected at NE-CAT beamline 24ID-C and E of the Advanced Photon Source at the Argonne National Laboratory. Data (for all the crystals) were collected using an X-ray wavelength of 0.979 Å, and processed using the HKL2000 suite of programs (
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ). The structure was solved by molecular replacement with the program Phaser within the Phenix program suite (
+     <xref ref-type="bibr">
+      Adams et al, 2010
+     </xref>
+     ) using the N-terminal β-propeller of β′-COP as the search model (
+     <xref ref-type="bibr">
+      Lee and Goldberg, 2010
+     </xref>
+     ). The model was refined using Phenix. Subsequently, the p25 peptide model was built manually into high-resolution difference Fourier maps. The density for the p25 peptide (FEAKKLV) is excellent other than the first two residues, FE, which are outside the binding site and disordered in the maps. Crystallographic data and refinement results are summarized in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     .
+    </p>
+    <p>
+     All the other structures of β′-COP/peptide complexes were determined in a similar manner. However, they almost all grew as distinct crystal forms, from different crystallization conditions. In brief, the composition of the crystallization well solutions was as follows: yWbp1, 0.1 M Hepes pH 7.5 and 20% PEG-10000; hWbp1, 0.1 M Hepes pH 6.3 and 23% PEG-6000; Emp47p, 0.1 M MES pH 6.0 and 20% PEG-6000; Scyl1, 0.1 M HEPES pH 7.1 and 23% PEG-3350; PEDVspike, 0.1 M MES pH 6.2 and 19% PEG-4000; Insig-1, 0.1 M MES pH 6.5 and 15% PEG-20000; Insig-2, 0.2 M NaSCN and 20% PEG-3350.
+    </p>
+    <p>
+     Crystallization of α-COP/peptide complexes used the
+     <em>
+      S. pombe
+     </em>
+     N-terminal β-propeller domain (residues 1–327) with five point mutations in a loop region (L181K, L185K, I192K, L196K and F197K). This 28-residue element was defined previously as a flexible surface loop based on proteolytic analysis of the mammalian protein (
+     <xref ref-type="bibr">
+      Lee and Goldberg, 2010
+     </xref>
+     ). The purified protein was concentrated to 3.2 mg/ml in 20 mM Tris–HCl pH 7.4, 150 mM NaCl, 5 mM DTT and flash frozen. Synthetic peptides (adenoviral E19 and Emp47p) were added in a 1.5-fold molar excess to the α-COP protein, and crystals were grown by the hanging-drop method. For α-COP/E19 crystals, the well solution contained 0.2 M K Na tartrate plus 20% PEG-3350, and for the α-COP/Emp47p crystals it contained 0.2 M ammonium acetate plus 20% PEG-3350. The apo form of
+     <em>
+      S. pombe
+     </em>
+     α-COP was crystallized from 0.2 M tri-sodium citrate plus 20% PEG-3350. Crystals of α-COP/EMP47p and apo-α-COP were cryoprotected using well solution plus 25% glycerol. The α-COP/E19 crystals were transferred to paraffin oil prior to freezing, and diffracted X-rays to 1.9 Å resolution. α-COP crystal structures were solved using the β′-COP(1–301) structure as the search model. Model building for protein and peptide was carried out as for β′-COP complexes.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.1M, pdf)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (112K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

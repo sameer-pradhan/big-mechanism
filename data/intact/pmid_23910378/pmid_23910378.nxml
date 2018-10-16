@@ -1,0 +1,3092 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC4386733
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structure-Function Analysis of STING Activation by c[G(2′,5′)pA(3′,5′)p] and Targeting by Antiviral DMXAA
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    SUMMARY
+   </title>
+   <sec>
+    <p>
+     Binding of dsDNA by cyclic GMP-AMP (cGAMP) synthase (cGAS) triggers formation of the metazoan second messenger c[G(2′,5′)pA(3′,5′)p], which binds the signaling protein STING with subsequent activation of the interferon (IFN) pathway. We show that human hSTING
+     <sup>
+      H232
+     </sup>
+     adopts a ‘‘closed’’ conformation upon binding c[G(2′,5′)pA(3′,5′)p] and its linkage isomer c[G(2′,5′)pA(2′,5′)p], as does mouse mSting
+     <sup>
+      R231
+     </sup>
+     on binding c[G(2′,5′)pA(3′,5′)p], c[G(3′,5′)pA(3′,5′)p] and the antiviral agent DMXAA, leading to similar ‘‘closed’’ conformations. Comparing hSTING to mSting, 2′,5′-linkage-containing cGAMP isomers were more specific triggers of the IFN pathway compared to the all-3′,5′-linkage isomer. Guided by structural information, we identified a unique point mutation (S162A) placed within the cyclic-dinucleotide-binding site of hSTING that rendered it sensitive to the otherwise mouse-specific drug DMXAA, a conclusion validated by binding studies. Our structural and functional analysis highlights the unexpected versatility of STING in the recognition of natural and synthetic ligands within a small-molecule pocket created by the dimerization of STING.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    INTRODUCTION
+   </title>
+   <p>
+    The protein TMEM173/STING (stimulator of interferon genes) (
+    <xref ref-type="bibr">
+     Ishikawa and Barber, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhong et al., 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Sun et al., 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Burdette et al., 2011
+    </xref>
+    ) is a central player in the innate immune response to nucleic acids, particularly cytosolic dsDNA (reviewed in
+    <xref ref-type="bibr">
+     Burdette and Vance, 2013
+    </xref>
+    ). STING responds to various pathogens, as well as to mitochondrial damage, and its overactivation may contribute or possibly even trigger the onset of autoimmune disorders such as systemic lupus erythematosus (
+    <xref ref-type="bibr">
+     Gall et al., 2012
+    </xref>
+    ). STING’s role in the immune system is consistent with its higher expression in certain organs such as the thymus, spleen, and placenta. STING is also expressed in THP1 human monocytic cells.
+   </p>
+   <p>
+    An initial screen designed to discover potential regulators of the type I interferon (IFN) antiviral response identified cyclic GMP-AMP (cGAMP) synthase (MB21D1/cGAS) as a gene with broad antiviral effect (
+    <xref ref-type="bibr">
+     Schoggins et al., 2011
+    </xref>
+    ). Independently, biochemical fractionation identified cGAS as the metazoan cytosolic DNA sensor and synthase of cGAMP, the endogenous second messenger that activates the type I IFN pathway (
+    <xref ref-type="bibr">
+     Sun et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wu et al., 2013
+    </xref>
+    ). A structure-function study demonstrated that only one specific isomer of cGAMP, namely c[G(2′,5′) pA(3′,5′)p], was produced by cGAS (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ). This isomer of the second messenger contained an unanticipated 2′,5′ linkage at the GpA step, a feature subsequently validated by several independent studies (
+    <xref ref-type="bibr">
+     Diner et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ablasser et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhang et al., 2013
+    </xref>
+    ). Structures of dsDNA-bound cGAS with ATP and GTP (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Civril et al., 2013
+    </xref>
+    ), pppGpA dinucleotide intermediate (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ), and the product c[G(2′,5′) pA(3′,5′)p] (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ), along with biochemical analysis of reaction intermediates, provided insights into the stepwise conversion of GTP and ATP in the first step to pppGpA (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ablasser et al., 2013
+    </xref>
+    ) and subsequent cyclization to c[G(2′,5′)pA(3′,5′)p] (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ablasser et al., 2013
+    </xref>
+    ).
+   </p>
+   <p>
+    The identification of c[G(2′,5′)pA(3′,5′)p] as a novel second messenger generated by dsDNA-bound cGAS in the presence of GTP and ATP (
+    <xref ref-type="bibr">
+     Gao et al., 2013
+    </xref>
+    ) has prompted studies of the role of c[G(2′,5′)pA(3′,5′)p] in activating the IFN pathway via the downstream receptor STING (
+    <xref ref-type="bibr">
+     Diner et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Ablasser et al., 2013
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhang et al., 2013
+    </xref>
+    ). Binding of c[G(2′,5′)pA(3′,5′)p] to STING activates a cascade of events whereby STING recruits and activates IκB kinase (IKK) and TANK-binding kinase (TBK1), which, following their phosphorylation, activate nuclear transcription factor κB (NF-κB) and interferon regulatory factor 3 (IRF3), respectively. These activated proteins translocate to the nucleus to induce transcription of the genes encoding type I IFN and cytokines for promoting intercellular host immune defense (reviewed in
+    <xref ref-type="bibr">
+     Keating et al., 2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Paludan and Bowie, 2013
+    </xref>
+    ).
+   </p>
+   <p>
+    Human (h) and mouse (m) STING exhibit 68% amino acid identity and 81% similarity, with distinct sequence alleles reported in humans (
+    <xref ref-type="bibr">
+     Diner et al., 2013
+    </xref>
+    ). (Note that the numbering systems of human and mouse are offset by one residue, with hSTING
+    <sup>
+     R232
+    </sup>
+    and mSting
+    <sup>
+     R231
+    </sup>
+    occupying equivalent positions.) hSTING is composed of a N-terminal transmembrane domain (aa 1–154), a central globular domain (aa 155–341), and a C-terminal tail (aa 342–379). Distinct sequence variants of either mouse or human STING have been studied with different functional assays and outcomes, complicating interpretation.
+    <xref ref-type="bibr">
+     Diner et al. (2013)
+    </xref>
+    identified natural variant alleles of STING, namely the R232H variant to the genome reference of human STING (hSTING
+    <sup>
+     H232
+    </sup>
+    , reference sequence) and the R231A variant of mouse Sting (mSting
+    <sup>
+     A231
+    </sup>
+    ), which were activated by c[G(2′ ,5′)pA(3′,5′)p] but not by c[di-GMP] or c[G(3′,5′)pA(3′,5′)p]. By contrast,
+    <xref ref-type="bibr">
+     Zhang et al. (2013)
+    </xref>
+    proposed based on structural, calorimetric-based binding and cellular assays that c[G(2′,5′)pA(3′,5′)p] is the highest affinity ligand for hSTING
+    <sup>
+     R232
+    </sup>
+    , even though their in vitro calorimetric binding measurements did not support their results seen with IFN induction cellular assays.
+    <xref ref-type="bibr">
+     Ablasser et al. (2013)
+    </xref>
+    investigated the contribution of 2′ ,5′- and 3′,5′-linkages in cGAMP and concluded that c[G(2′ ,5′)pA(3′,5′)p] was more potent than c[G(3′,5′)pA(3′,5′)] in activating hSTING from human fibroblasts and THP1 cells, and wild-type mSting
+    <sup>
+     R231
+    </sup>
+    .
+   </p>
+   <p>
+    Structural studies have been reported on hSTING
+    <sup>
+     H232
+    </sup>
+    in the free and c[di-GMP]-bound states. STING forms a symmetrical dimer in both states with c[di-GMP] bound in a pocket within the dimer interface and anchored by a network of intermolecular hydrogen bonds (reviewed in
+    <xref ref-type="bibr">
+     Burdette and Vance, 2013
+    </xref>
+    ). For all but one of the c[di-GMP]-hSTING
+    <sup>
+     H232
+    </sup>
+    complexes, the STING dimer adopts the same V-shaped conformation independent of the presence of the ligand and also does not completely surround the bound ligand. In the one exception, c[di-GMP]-bound hSTING
+    <sup>
+     A230/R232
+    </sup>
+    forms an antiparallel b-pleated sheet cap over the binding pocket on complex formation and this conformational change further sequesters the bound ligand (
+    <xref ref-type="bibr">
+     Huang et al., 2012
+    </xref>
+    ). More recently, the same conformational transition has been reported on formation of the complex between mSting
+    <sup>
+     R231
+    </sup>
+    and the antiviral drug CMA (
+    <xref ref-type="bibr">
+     Cavlar et al., 2013
+    </xref>
+    ) and on formation of the complex between hSTING
+    <sup>
+     R232
+    </sup>
+    and c[G(2′,5′)pA(3′,5′)p] (
+    <xref ref-type="bibr">
+     Zhang et al., 2013
+    </xref>
+    ).
+   </p>
+   <p>
+    It is of timely interest to define the structural basis and functional output of ligand binding by hSTING and mSting given STING’s central role in immunoregulation of the antiviral response and in eliciting a macrophage-dependent tumoricidal program (
+    <xref ref-type="bibr">
+     Kim et al., 2013
+    </xref>
+    ). For example, it remains to be clarified whether hSTING
+    <sup>
+     R232
+    </sup>
+    is as selective for [G(2′,5′)pA(3′,5′)p] as recently claimed (
+    <xref ref-type="bibr">
+     Zhang et al. (2013)
+    </xref>
+    , or whether its linkage isomers are similarly recognized, and to what extent distinct STING alleles (hSTING
+    <sup>
+     H232
+    </sup>
+    and mSting
+    <sup>
+     A231
+    </sup>
+    ) differentially respond, as proposed by
+    <xref ref-type="bibr">
+     Diner et al. (2013)
+    </xref>
+    .
+   </p>
+   <p>
+    DMXAA (5,6-dimethylxanthenone-4-acetic acid, Vadimezan) was initially identified as a small molecule exhibiting immune modulatory activities through induction of cytokines and disrupting tumor vascularization in mouse xenotransplantation models (
+    <xref ref-type="bibr">
+     Baguley and Ching, 2002
+    </xref>
+    ). DMXAA, in combination with paclitaxel and carboplatin showed promising efficacy and was therefore evaluated in a phase II clinical trial against non-small-cell lung cancer, but subsequently failed in human phase III trials (
+    <xref ref-type="bibr">
+     Lara et al., 2011
+    </xref>
+    ). Recently, it has been demonstrated that DMXAA-induced IFN production by murine macrophages was impaired by the absence of Sting (
+    <xref ref-type="bibr">
+     Prantner et al., 2012
+    </xref>
+    ), suggesting that DMXAA targets the STING pathway. There is a high-sequence identity between mSting and hSTING, but DMXAA only activates mSting and has no effect on hSTING (
+    <xref ref-type="bibr">
+     Conlon et al., 2013
+    </xref>
+    ), and this has presumably hampered further therapeutic development of DMXAA as a human drug.
+   </p>
+   <p>
+    Here, we have undertaken systematic structure-function studies of mouse and human STING activation by c[G(2′,5′) pA(3′,5′)p], its linkage isomers, c[di-GMP], and antiviral DMXAA ligand. hSTING was more discriminating toward 2′ ,5′-linkage-containing isomers versus the all 3′ ,5′-linkage isomer, and a unique point mutation (S162A) placed at the cyclic-dinucleo-tide-binding site in hSTING
+    <sup>
+     H232
+    </sup>
+    and hSTING
+    <sup>
+     R232
+    </sup>
+    rendered hSTING sensitive to the otherwise mouse-specific drug DMXAA. These findings are critical to guide future mechanistic studies of the cytosolic DNA-sensing pathway and the development of agonists and antagonists of innate immunity as needed for anticancer and vaccine development, as well as therapies for autoimmune disorders.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    RESULTS
+   </title>
+   <sec>
+    <title>
+     Crystal Structure of c[G(2′,5′ )pA(3′,5′)p] Bound to hSTING
+     <sup>
+      H232
+     </sup>
+    </title>
+    <p>
+     The 2.25 Å crystal structure of c[G(2′,5′ )pA(3′,5′)p] bound to the symmetrical dimer of human STING (G230/H232; aa 155–341; termed hSTING
+     <sup>
+      H232
+     </sup>
+     ) is shown in
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     (X-ray statistics in Table S1). The individual symmetry-related subunits of STING in a ribbon representation are color-coded in magenta and yellow, whereas the bound c[G(2′,5′)pA(3′,5′)p] is shown in a space-filling representation. The bound ligand is positioned in a deep U-shaped cleft between subunits, with the cyclic sugar-phosphate backbone at the base and the purine rings pointing upward in a parallel alignment (expanded view in
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). The bound U-shaped ligand is further anchored in place by an overhead cap element formed on complex formation by an antiparallel four-stranded b-pleated sheet (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ), such that the hSTING dimer completely envelops the bound ligand (
+     <xref ref-type="fig">
+      Figures 1C and 1D
+     </xref>
+     ).
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <strong>
+       Crystal Structure of c[G(2’,5’)pA(3’,5’)p] Bound to hSTING
+       <sup>
+        H232
+       </sup>
+       and Details of Intermolecular Contacts in the Complex
+      </strong>
+      <p>
+       (A) The 2.25 Å crystal structure of cyclic [G(2’,5’)pA(3’,5’)p] bound to hSTING
+       <sup>
+        H232
+       </sup>
+       (aa 155–341). The symmetrical hSTINGH
+       <sup>
+        232
+       </sup>
+       dimer is shown in a ribbon representation, with individual monomers colored in magenta and yellow. α helices are labeled from α1 to α5. The c[G(2’,5’)pA(3’,5’)p] in a space-filling representation is bound in the central cavity at the interface between the two monomers.
+      </p>
+      <p>
+       (B) An expanded view of the c[G(2’,5’)pA(3’,5’)p]-binding pocket in the complex. The position of H232 (in green) in a stick representation is labeled in this panel.
+      </p>
+      <p>
+       (C) A surface representation of the structure of the complex shown in (A).
+      </p>
+      <p>
+       (D) The view in (C) rotated through 90°.
+      </p>
+      <p>
+       (E-G) Intermolecular contacts in the complex of c[G(2’,5’)pA(3’,5’)p] bound to hSTING
+       <sup>
+        H232
+       </sup>
+       . The bound c[G(2’,5’)pA(3’,5’)p] is shown in biscuit color, with individual STING subunits in the symmetrical dimer shown in magenta and yellow. The bracketing of the purine rings of c[G(2’,5’)pA(3’,5’)p] by Y167 is shown in (E), and intermolecular contacts to the base edges and backbone phosphates of the ligand by the subunits of STING are shown in (F) and (G), respectively.
+      </p>
+      <p>
+       Relates to
+       <a>
+        Figure S1
+       </a>
+       and Table S1.
+      </p>
+     </caption>
+    </fig>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Comparison hSTING
+       <sup>
+        H232
+       </sup>
+       Complexes Bound to c[G(2′,5′)pA(3′ ,5′ )p] and c[di-GMP]
+      </strong>
+      <p>
+       (A) Details related to alignment and hydrogen-bonding patterns within the four-stranded antiparallel β sheet that forms a cap over the binding pocket on formation of the c[G(2′,5′)pA(3′,5′)p]-hSTING
+       <sup>
+        H232
+       </sup>
+       complex.
+      </p>
+      <p>
+       (B) Superposition of the c[G(2′,5′)pA(3′,5′ )p]-bound structure of hSTING
+       <sup>
+        H232
+       </sup>
+       (aa 155–341) with both subunits in green and c[di-GMP]-bound structure of hSTING
+       <sup>
+        H232
+       </sup>
+       (aa 139–379) with both subunits in beige (PDB: 4EF4).
+      </p>
+      <p>
+       (C) Superposition of the c[G(2′,5′)pA(3′,5′)p] in green and c[di-GMP] in orange (PDB: 4EF4) in their complexes with hSTING
+       <sup>
+        H232
+       </sup>
+       .
+      </p>
+      <p>
+       (D) An expanded view in stereo of the top right segment of (B) following superposition of the c[G(2′,5′)pA(3′,5′)p]-bound structure of hSTING
+       <sup>
+        H232
+       </sup>
+       (both subunits in green) and c[di-GMP]-bound structure of hSTING
+       <sup>
+        H232
+       </sup>
+       (both subunits in orange) (PDB: 4EF4).
+      </p>
+      <p>
+       Relates to
+       <a>
+        Figure S1
+       </a>
+       and Table S1.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The binding pocket is uncharged at its base, whereas both positive- and negative-charged residues line its walls. The bound c[G(2′,5′)pA(3′,5′)p] is anchored by its purine bases being bracketed on either side by Y167 (
+     <xref ref-type="fig">
+      Figure 1E
+     </xref>
+     ) and by R238 (whose position is buttressed by Y240), with R238 aligned in the plane and hydrogen bonds to the N7 of one purine, while its guanidinium group stacks over the other purine of the bound cyclic dinucleotide (
+     <xref ref-type="fig">
+      Figures 1E–1G
+     </xref>
+     ). The bound ligand is further stabilized through a network of direct and water-mediated hydrogen bonds to the base edges from side chains of hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figures 1F and 1G
+     </xref>
+     ). Amino acids participating in this network and positioned above the bound ligand include N242, S241, and V239, which form water-mediated hydrogen bonds to the O6 of guanosine, whereas Y163, E260, and Y261 form water-mediated hydrogen bonds together with a direct hydrogen bond from T263 to the NH
+     <sub>
+      2
+     </sub>
+     group of guanosine (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). The edges of the adenosine base are not involved in hydrogen-bond formation (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ).
+    </p>
+    <p>
+     The phosphate backbone and ribose hydroxyls of the cyclic dinucleotide ring system are additionally stabilized through hydrogen bonds. Amino acids participating in this network and positioned below the bound ligand include S162 and T267 (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ), with the 3′-OH group of the guanosine hydrogen-bonded to the side chain hydroxyl of S162, whereas no hydrogen-bonding is observed to the 2′-OH of adenosine of c[G(2′,5′)pA(3′,5′)p] in the complex (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ). The backbone phosphates of the bound cyclic dinucleotide are recognized by direct contacts from the guanidinium groups of R238 and through water-mediated hydrogen bonds from the hydroxyl groups of T267 and Y240 (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ).
+    </p>
+    <p>
+     The four-stranded antiparallel β sheet that forms upon c[G(2′,5′)pA(3′,5′)p]-hSTING
+     <sup>
+      H232
+     </sup>
+     complex formation (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ) caps the top of the binding pocket and restricts access to it (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). In addition to hydrogen-bonding between strands across the four-stranded β-pleated sheet, anchoring at either end of the sheet is achieved by salt bridges (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). It should be noted that G230 forms part of the outer β strand of this four-stranded β sheet (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Comparison of Crystal Structures of c[G(2′,5′)pA(3′,5′)p] and c[di-GMP] Bound to hSTING
+     <sup>
+      H232
+     </sup>
+    </title>
+    <p>
+     One of the published crystal structures of c[di-GMP] bound to the symmetrical dimer of hSTING
+     <sup>
+      H232
+     </sup>
+     (aa 139–379) (Protein Database: 4EF4; 2.15 Å resolution) (
+     <xref ref-type="bibr">
+      Ouyang et al., 2012
+     </xref>
+     ) is shown in
+     <a>
+      Figure S1A
+     </a>
+     (available online) with an expanded view of the ligand-binding pocket shown in
+     <a>
+      Figure S1B
+     </a>
+     . Note that the loops protruding over the binding pockets are disordered over half their lengths in the direction of their tips, whereas the symmetry-related α2-helices form a larger angle in the V-shaped c[di-GMP] complex (
+     <a>
+      Figure S1A
+     </a>
+     ), as compared to the U-shaped c[G(2′,5′)pA(3′,5′)p] complex (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) with hSTING
+     <sup>
+      H232
+     </sup>
+     . Indeed, space filling views of the c[di-GMP] complex indicate that the hSTING
+     <sup>
+      H232
+     </sup>
+     dimer does not encapsulate the bound c[di-GMP] in its complex (
+     <a>
+      Figures S1C and 1D;
+     </a>
+     termed the “open” STING complex), as it does in space filling views of the c[G(2′,5′)pA(3′ ,5′)p] complex (
+     <xref ref-type="fig">
+      Figures 1C and 1D
+     </xref>
+     ; termed the “closed” STING complex) with hSTING
+     <sup>
+      H232
+     </sup>
+     .
+    </p>
+    <p>
+     The intermolecular hydrogen bonds stabilizing complex formation in the published structure of the complex of c[di-GMP] with hSTING
+     <sup>
+      H232
+     </sup>
+     (Protein Database [PDB]: 4EF4) are shown in
+     <a>
+      Figures S1E and S1F
+     </a>
+     . Notably, the side chains of R238 are disordered, unlike the key recognition role they play in the complex of c[G(2′,5′)pA(3′,5′)p] with hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1F and 1G
+     </xref>
+     ).
+    </p>
+    <p>
+     The superposition of c[di-GMP] bound to the “open” hSTING complex (both subunits in beige) with that for c[G(2′,5′)pA(3′,5′)p] bound to the “closed” hSTING complex (both subunits in green) shows large conformational differences in STING between the two complexes (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ; rmsd = 3.11 Å). Indeed, the separation between the tips of the symmetry-related α2-helices decreases from approx. 60 Å in the “open” complex to approximately 38 Å in the “closed” complex. Furthermore, superposition of the bound c[di-GMP] in beige with that of bound c [G(2′,5′)pA(3′,5′)p] in green establishes that the purine bases are further apart in the former complex compared to the latter complex (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     ), and presumably facilitate switching of the hSTING
+     <sup>
+      H232
+     </sup>
+     from an “open” and more flexible (partly disordered loops positioned over the binding pocket) conformation in the c [di-GMP] complex (
+     <a>
+      Figure S1A
+     </a>
+     ) to a “closed” and more compact (well-defined four-stranded b sheet cap over the binding pocket) conformation in the c[G(2′,5′)pA(3′ ,5′ )p] complex (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). Furthermore, the bound c[G(2′,5′)pA(3′,5′)p] (in green) is positioned slightly deeper in the binding cleft than its bound c[di-GMP] counterpart (in beige) (
+     <xref ref-type="fig">
+      Figure 2C
+     </xref>
+     , top). Importantly, the conformational changes propagate to the surface of the STING protein as shown in a stereo view (
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ), highlighting the upper right segment of
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Similar “Closed” Conformations Adopted by c[G(2′,5′) pA(3′,5′)p] Bound to mSting
+     <sup>
+      R231
+     </sup>
+     and hSTING
+     <sup>
+      H232
+     </sup>
+    </title>
+    <p>
+     We have solved the 1.77 Å crystal structure of c[G(2′,5′)pA(3′,5′)p] bound to the symmetrical dimer of mSting
+     <sup>
+      R231
+     </sup>
+     (aa 154–340) (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     and Table S2). The side chain of R231 of mSting
+     <sup>
+      R231
+     </sup>
+     is shown in green in a stick representation (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Given the high resolution of this complex, the network of hydrogen bonds are clearly visible; the 3′-OH of guanosine of bound c[G(2′,5′)pA(3′,5′)p] makes hydrogen bonds with the side chain of S161 and two water molecules (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). The guanidinium group of R231 interacts with the backbone phosphates of c[G(2′ ,5′ )pA(3′,5′)p] through a bridging water molecule (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). Formation of the four-stranded antiparallel β-pleated sheet acts as a cap over the bound ligand in the complex (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ).
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       Crystal Structure of c[G(2′,5′)pA(3′,5′)p] Bound to mSting
+       <sup>
+        R231
+       </sup>
+       and Comparison of Its Complex with the Same Ligand Bound to hSTING
+       <sup>
+        H232
+       </sup>
+      </strong>
+      <p>
+       (A) The 1.77 Å crystal structure of c[G(2′,5′)pA(3′,5′)p] bound to mSting
+       <sup>
+        R231
+       </sup>
+       (aa 154–340).
+      </p>
+      <p>
+       (B) Intermolecular contacts to the cyclic dinucleotide ring system of the ligand by the subunits of mSting
+       <sup>
+        R231
+       </sup>
+       .
+      </p>
+      <p>
+       (C) Superposition of the c[G(2′,5′)pA(3′,5′)p]-bound structures of hSTING
+       <sup>
+        H232
+       </sup>
+       (both subunits in green) and mSTING
+       <sup>
+        R231
+       </sup>
+       (both subunits in magenta).
+      </p>
+      <p>
+       (D) Superposition of the c[G(2′,5′)pA(3′,5′)p] in its complexes with hSTING
+       <sup>
+        H232
+       </sup>
+       in green and mSTING
+       <sup>
+        R231
+       </sup>
+       in magenta.
+      </p>
+      <p>
+       (E) The 1.9 Å crystal structure of c[G(2′,5′)pA(2′,5′)p] bound to hSTING
+       <sup>
+        H232
+       </sup>
+       (aa 155–341).
+      </p>
+      <p>
+       (F) The 2.1 Å crystal structure of c[G(3′,5′)pA(3′,5′)p] bound to mSting
+       <sup>
+        R231
+       </sup>
+       (aa 154–340).
+      </p>
+      <p>
+       Relates to
+       <a>
+        Figure S2
+       </a>
+       and Tables S1 and S2.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We observe excellent superposition of hSTING
+     <sup>
+      H232
+     </sup>
+     (both subunits in green) and mSting
+     <sup>
+      R231
+     </sup>
+     (both subunits in magenta) in its complexes with c[G(2′,5′ )pA(3′ ,5′)p] as shown in
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     (rmsd = 0.84 Å). The separation between the tips of symmetry-related α2-helices are approx. 38 Å for both complexes (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). We also observe excellent superposition of the c[G(2′,5′)pA(3′,5′)p]dinucleotide in its complexes with hSTING
+     <sup>
+      H232
+     </sup>
+     and mSting
+     <sup>
+      R231
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3D
+     </xref>
+     ). Thus, the same c[G(2′,5′)pA(3′,5′)p]-STING complex is observed whether a His or Arg occupies this key position. Indeed, the R238, S162 and T267 in hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1H
+     </xref>
+     ) and their conserved counterparts R237, S161 and T266 in mSting
+     <sup>
+      R231
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ) are involved in similar hydrogen-bonding interactions with the backbone phosphates and sugar hydroxyl groups in both complexes.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     c[G(2′,5′)pA(2′,5′)p]- and c[G(3′,5′)pA(3′,5′)p]-Bound STING Complexes Both Adopt “Closed” Conformations
+    </title>
+    <p>
+     We also crystallized the two other cGAMP linkage isomers c[G(2′,5′)pA(2′,5′)p] and c[G(3′,5′)pA(3′,5′)p] with hSTING
+     <sup>
+      H232
+     </sup>
+     and mSting
+     <sup>
+      R231
+     </sup>
+     , respectively. We solved a 1.9 Å crystal structure of c[G(2′,5′)pA(2′ ,5′)p] with hSTING
+     <sup>
+      H232
+     </sup>
+     (aa 155–341) (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     and Table S1) and a 2.1 Å crystal structure of c[G(3′,5′)pA(3′,5′)p] with mSting
+     <sup>
+      R231
+     </sup>
+     (aa 154–340) (
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     and Table S2). The structures of both complexes adopt the “closed” conformation as reflected by the positioning of the ligands in the binding pocket, the separation between the tips of the α2-helices by approximately 38 Å, and the formation of the four-stranded antiparallel β sheet cap over the bound ligands (
+     <xref ref-type="fig">
+      Figures 3E and 3F
+     </xref>
+     ).
+    </p>
+    <p>
+     The crystal structures of c[G(2′,5′)pA(2′,5′)p] (in red) and c[G(2′,5′)pA(3′,5′)p] (in green) in their bound complexes with hSTING
+     <sup>
+      H232
+     </sup>
+     superimpose with an rmsd of 0.59 Å (
+     <a>
+      Figure S2A
+     </a>
+     ), with the 3′-OH groups of bound c[G(2′,5′)pA(2′,5′)p] forming water-mediated hydrogen bonds to the hydroxyls of S162 and T267 (
+     <a>
+      Figure S2B
+     </a>
+     ). The crystal structures of c[G(3′,5′)pA(3′,5′)p] (in cyan) and c[G(2′,5′)pA(3′,5′)p] (in magenta) in their bound complexes with mSting
+     <sup>
+      R231
+     </sup>
+     superimpose with an rmsd of 0.25 Å (
+     <a>
+      Figure S2C
+     </a>
+     ), with the 2′-OH groups of bound c[G(3′,5′) pA(3′,5′)p] forming direct hydrogen bonds to the hydroxyls of T262 (
+     <a>
+      Figure S2D
+     </a>
+     ). The bound c[G(2′,5′)pA(2′,5′)p] (in red) is positioned somewhat deeper in the binding pocket than c[G(3′,5′)pA(3′,5′)p] (in cyan) (
+     <a>
+      Figure S2E
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ITC Binding Studies of hSTING
+     <sup>
+      H232
+     </sup>
+     and Its Mutants with Linkage Isomers of cGAMP
+    </title>
+    <p>
+     We recorded the isothermal titration calorimetric (ITC) binding curves for hSTING
+     <sup>
+      H232
+     </sup>
+     (aa 140–379) with three linkage isomers of cGAMP as shown in
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     . The binding curves are exothermic for complex formation with c[G(2′,5′)pA(2′,5′)p] (red circles) and c[G(3′,5′)pA(3′,5′)p] (green triangles), and endothermic for complex formation with c[G(2′ ,5′)pA(3′,5′)p] (black squares; K
+     <sub>
+      D
+     </sub>
+     = 5.3 µM). The thermodynamic K
+     <sub>
+      D
+     </sub>
+     , ΔG, ΔH, and TΔS parameters for these complexes are listed in Table S3.
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       ITC Data on Binding of cGAMP Linkage Isomers to hSTING
+       <sup>
+        H232
+       </sup>
+       and Its Mutants, as well as to hSTING
+       <sup>
+        R232
+       </sup>
+       , hSTING
+       <sup>
+        A230/R232
+       </sup>
+       , mSting
+       <sup>
+        R231
+       </sup>
+       , and mSting
+       <sup>
+        A231
+       </sup>
+      </strong>
+      <p>
+       (A and B) ITC binding curves for complex formation between cGAMP linkage isomers bound to hSTING
+       <sup>
+        H232
+       </sup>
+       (aa 140–379) (A) and binding of c[G(2′,5′ )pA(3′,5′)p] to mutants of hSTING
+       <sup>
+        H232
+       </sup>
+       (B).
+      </p>
+      <p>
+       (C) ITC binding curves for complex formation between cGAMP linkage isomers bound to hSTING
+       <sup>
+        R232
+       </sup>
+       (aa 140–379).
+      </p>
+      <p>
+       (D) ITC binding curves for complex formation between cGAMP linkage isomers bound to hSTING
+       <sup>
+        A230/R232
+       </sup>
+       (aa 140–379).
+      </p>
+      <p>
+       (E) ITC binding curves for complex formation between cGAMP linkage isomers bound to mSting
+       <sup>
+        R231
+       </sup>
+       (aa 139–378).
+      </p>
+      <p>
+       (F) ITC binding curves for complex formation between cGAMP linkage isomers bound to mSting
+       <sup>
+        A231
+       </sup>
+       (aa 139–378).
+      </p>
+      <p>
+       Relates to Tables S3 and S4.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We also recorded ITC binding curves for complex formation of c[G(2′,5′)pA(3′,5′)p] with mutants of hSTING
+     <sup>
+      H232
+     </sup>
+     that participate in intermolecular contacts on complex formation. For this linkage isomer, cGAMP binding is completely lost (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     and Table S4) for the R238A mutant involved in cyclic dinucleotide base N7 and backbone phosphate recognition (
+     <xref ref-type="fig">
+      Figures 1E, 1F, and 1G
+     </xref>
+     ), as well as for the Y240A, N242A, and E260A (significantly reduced) mutants involved in water-mediated guanosine base edge recognition (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ). The impact of mutating the polar Thr and Ser residues involved in intermolecular hydrogen bond formation is more nuanced, with no effect on binding affinity for the T267A mutant, a modest reduction for the S162A mutant and a more pronounced reduction for the T263A mutant (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). The thermodynamic parameters are listed in Table S4.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ITC Binding Studies of hSTING
+     <sup>
+      R232
+     </sup>
+     and hSTING
+     <sup>
+      A230/R232
+     </sup>
+     with Linkage Isomers of cGAMP
+    </title>
+    <p>
+     The corresponding ITC-based thermodynamic parameters were also recorded for complex formation of cGAMP linkage isomers with hSTING
+     <sup>
+      R232
+     </sup>
+     and hSTING
+     <sup>
+      A230/R232
+     </sup>
+     (aa 140–379) (
+     <xref ref-type="fig">
+      Figures 4C and 4D
+     </xref>
+     , respectively). The 2′,5′-containing linkage isomers of cGAMP exhibited increased binding affinity by about an order of magnitude for STING variants with R232 compared to H232, whereas the corresponding binding affinity increase was about 4-fold for the all-3′,5′ linkage isomer of cGAMP (Table S3), with endothermic titration patterns observed for all binding curves, except for an exothermic titration pattern for c[G(3′,5′)pA(3′,5′)p] with hSTING
+     <sup>
+      R232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     ). The dissociation constants for c[G(2′,5′)pA(3′,5′)p] bound to hSTING
+     <sup>
+      R232
+     </sup>
+     and hSTING
+     <sup>
+      A230/R232
+     </sup>
+     were K
+     <sub>
+      D
+     </sub>
+     = 0.11 µM and 0.16 µM, respectively (Table S3).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     ITC Binding Studies of mSting
+     <sup>
+      R231
+     </sup>
+     and mSting
+     <sup>
+      A231
+     </sup>
+     with Linkage Isomers of cGAMP
+    </title>
+    <p>
+     The corresponding ITC-based thermodynamic parameters for complex formation of cGAMP linkage isomers with mouse Sting
+     <sup>
+      R231
+     </sup>
+     (I229/R231; aa 139–378) are plotted in
+     <xref ref-type="fig">
+      Figure 4E
+     </xref>
+     , with observed K
+     <sub>
+      D
+     </sub>
+     values similar to those observed for hSTING
+     <sup>
+      A230/R232
+     </sup>
+     (Table S3). The ITC titrations for mSting
+     <sup>
+      A231
+     </sup>
+     with the various cGAMP linkage isomers are plotted in
+     <xref ref-type="fig">
+      Figure 4F
+     </xref>
+     , with the observed K
+     <sub>
+      D
+     </sub>
+     values listed in Table S3. The dissociation constants for c[G(2′,5′)pA(3′,5′)p] bound to mSting
+     <sup>
+      A231
+     </sup>
+     was K
+     <sub>
+      D
+     </sub>
+     = 0.34 µM (Table S3).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystal Structure of DMXAA Bound to mSting
+     <sup>
+      R231
+     </sup>
+    </title>
+    <p>
+     Antiviral small molecules reported to date that target mSting include 5,6-dimethylxanthenone-4-acetic acid (DMXAA) (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Conlon et al., 2013
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kim et al., 2013
+     </xref>
+     ) and 10-carboxymethyl-9-acridine (CMA) (
+     <a>
+      Figure S3A
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Cavlar et al., 2013
+     </xref>
+     ), with DMXAA and CMA showing species specificity for mouse but not human STING. The mode of binding of DMXAA and CMA to mSting is of interest for structure-based design of agonists and antagonists of hSTING with value as anticancer/antiviral vaccine adjuvants and anti-inflammatory compounds, respectively.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Crystal Structure of DMXAA Ligand Bound to mSting
+       <sup>
+        R231
+       </sup>
+      </strong>
+      <p>
+       (A) Chemical formula of dimethylxanthenone-4-acetic acid (DMXAA).
+      </p>
+      <p>
+       (B) The 2.4 Å crystal structure of two molecules of DMXAA bound to mSting
+       <sup>
+        R231
+       </sup>
+       (aa 154–340).
+      </p>
+      <p>
+       (C) Intermolecular contacts in the complex of DMXAA bound to mSting
+       <sup>
+        R231
+       </sup>
+       . The two bound DMXAA molecules are shown in biscuit color, with individual mSting subunits in the symmetrical dimer shown in magenta and yellow. The intermolecular contacts to the polar and nonpolar edges of the DMXAA by the mSting subunits are shown in two alternate views.
+      </p>
+      <p>
+       (D) Superposition of the 2.4 Å DMXAA-bound structure of mSting
+       <sup>
+        R231
+       </sup>
+       (both subunits in biscuit) and of the 1.77 Å c[G(2′,5′)pA(3′,5′)p]-bound structure of mSting
+       <sup>
+        R231
+       </sup>
+       (both subunits in magenta).
+      </p>
+      <p>
+       (E) Superposition of c[G(2′,5′)pA(3′,5′)p] in magenta and DMXAA in biscuit in their complexes with mSting
+       <sup>
+        R231
+       </sup>
+       .
+      </p>
+      <p>
+       For dose dependence: Data points were determined in triplicate and are depicted as means ± SEM.
+      </p>
+      <p>
+       Relates to
+       <a>
+        Figure S3
+       </a>
+       and Table S2.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We solved the 2.4 Å crystal structure of DMXAA bound to mSting
+     <sup>
+      R231
+     </sup>
+     (aa 154–340) (X-ray statistics in Table S2), with the complex containing two molecules of DMXAA per mSting
+     <sup>
+      R231
+     </sup>
+     dimer (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). The aromatic rings of the two DMXAA moieties are aligned in parallel but are not stacked on each other. The details of the intermolecular contacts in the complex are shown in
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     , with the ketone groups of DMXAA forming direct hydrogen bonds to the side chain of T266, whereas the carboxylate moieties of the ligand are anchored through direct hydrogen bonds to the side chains of R237 and T262. In addition, the adjacent aromatic methyl groups of DMXAA form a hydrophobic patch with side chains of L169 and I234 of mSting, whereas the nonsubstituted aromatic edges (positions 7 and 8) of DMXAA are positioned opposite I164 (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). A four-stranded antiparallel β-pleated sheet forms a cap over the binding pocket indicative of formation of a “closed” conformation on complex formation, consistent also with DMXAA exposure leading to type I IFN pathway activation via mSting (
+     <xref ref-type="bibr">
+      Conlon et al., 2013
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Kim et al., 2013
+     </xref>
+     ).
+    </p>
+    <p>
+     Finally, the mSting moieties bound to DMXAA (both subunits in biscuit) and to CMA (both subunits in yellow) (PDB: 4JC5) superpose well on each other (rmsd = 0.75 Å) representing the “closed” conformation for both complexes (
+     <a>
+      Figure S3B
+     </a>
+     ). By contrast, the mSting moieties bound to DMXAA (both subunits in biscuit) and to c[G(2′,5′)pA(3′,5′)p] (both subunits in magenta) show differences upon superposition despite both adopting the “closed” conformation (rmsd = 2.21 Å) with the separation between the tips of the α2-helices increasing from approx. 42 Å in the former complex to approximately 38 Å in the latter complex (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). Superposition of the mSting
+     <sup>
+      R231
+     </sup>
+     -bound DMXAA (in salmon) and c[G(2′,5′)pA(2′,5′)p] (in magenta) ligands emphasize the different orientations adopted by these bound ligands within the same binding pocket (
+     <xref ref-type="fig">
+      Figure 5E
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     cGAMP Isomers Activate Type I IFN Pathway Through the STING/IRF3 Pathway
+    </title>
+    <p>
+     To test whether cGAMP isomers elicit an innate immune response in murine macrophages, we recorded simple dose response of cultured bone-marrow-derived macrophages (BMDMs) by addition of increasing concentrations of c[G(2′,5′) pA(2′,5′ )p], c[G(2′,5′)pA(3′,5′)p] and c[G(3′,5′)pA(3′,5′)p] to the medium, and assaying 4 hr after treatment. Using real-time reverse transcription PCR (qPCR) analysis to monitor induction of Ifnb1, Il6, and Ccl5, we determined that exposure of BMDMs to 20 µM c[G(3′,5′)pA(3′,5′)p] elicited the strongest induction among the three isomers, with Ifnb1, Il6, and Ccl5 mRNA levels increased by 1024-, 2624-, and 38-fold, respectively, relative to mock treatment (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). Although c[G(3′,5′)pA(3′,5′)p] was the most potent compound, the differences between it and the other two isomers did not exceed 3-fold. BMDMs isolated from
+     <em>
+      Irf3
+     </em>
+     <sup>
+      −/−
+     </sup>
+     mice had reduced induction of Ifnb1, Il6, and Ccl5 upon exposure to cGAMP isomers, thereby indicating the involvement of Irf3-dependent type I IFN response pathway (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       cGAMP Stimulation of the IFN Pathway in Mouse and Human Cells
+      </strong>
+      <p>
+       (A) BMDMs (1 × 10
+       <sup>
+        6
+       </sup>
+       ) from C57B/6 mice were treated with increasing concentrations (5, 10, and 20 µM) of cGAMP linkage isomers, c[G(2′,5′)pA(2′,5′)p], c[G(2′,5′)pA(3′,5′ )p], and c[G(3′,5′)pA(3′ ,5′)p], and cells were collected at 4 hr after treatment. cGAMP linkage isomers were provided by addition into media. Mock treatment control was included. qPCR analyses of Ifnb1, Il6, and Ccl5 mRNAs were performed.
+      </p>
+      <p>
+       (B) BMDMs from
+       <em>
+        Irf3
+       </em>
+       <sup>
+        –/–
+       </sup>
+       and age-matched wild-type control mice were generated. Cells (1 × 10
+       <sup>
+        6
+       </sup>
+       ) were treated with cGAMP linkage isomers, c[G(2′,5′) pA(2′,5′)p], c[G(2′,5′)pA(3′,5′)p], and c[G(3′,5′) pA(3′,5′)p] at a final concentration of 15 µM. cGAMP linkage isomers were provided by addition into media. qPCR analysis of Ifnb1, Il6, and Ccl5 mRNAs were performed.
+      </p>
+      <p>
+       (C) Murine BMDMs were incubated in media supplemented with indicated concentrations of cGAMP isomers for 18 hr (left) or for 30 min with and without Digitonin-mediated permeabilization (right). Eighteen hours later, IFN-α concentrations in the supernatant were determined by ELISA.
+      </p>
+      <p>
+       (D) THP1 cells were incubated in media supplemented with indicated concentrations of cGAMP linkage isomers for 18 hr (left) or for 30 min with and without Digitonin-mediated permeabilization (right). CXCL10 concentrations were determined by ELISA after 18 hr.
+      </p>
+      <p>
+       (E) Time course of STING-dependent IFN pathway activation by cGAMP linkage isomers. THP1 cells were incubated in media supplemented with cGAMP linkage isomers from 0 to 12 hr without permeabilization. IFNB1 and CXCL10 transcriptional activation was measured by RT-PCR, normalized against TUBA1B and vehicle control.
+      </p>
+      <p>
+       Data points in (A) and (B) were determined in triplicate and are depicted as the mean ± SEM. A representative of two independently performed experiments is shown. For bar graphs, data points were determined in triplicate and are depicted as means ± SEM. Data points in (C) and (D) were determined in triplicate and are depicted as the mean ± SEM. Related to
+       <a>
+        Figure S4
+       </a>
+       and Table S5.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Western blot analysis further demonstrated that cGAMP isomers induced phosphorylation of Tbk1 and Irf3 at 2 and 4 hr after treatment of BMDMs (
+     <a>
+      Figure S4
+     </a>
+     ). Consistent with our qPCR results, incubation of BMDMs with c[G(3′,5′)pA(3′,5′)p] also showed the highest levels of Tbk1 and Irf3 protein phosphorylation compared to the two other isomers (
+     <a>
+      Figure S4
+     </a>
+     ). To test whether mSting is required for cGAMP-induced Tbk1 and Irf3 phosphorylation, we compared type I IFN response in BMDMs derived from wild-type and
+     <em>
+      Goldenticket
+     </em>
+     (
+     <em>
+      Gt
+     </em>
+     ) mutant mice (
+     <em>
+      Sting
+      <sup>
+       Gt/Gt
+      </sup>
+     </em>
+     ), which carry a I199R missense mutation in exon 6 of the mSting gene resulting in no detectable protein by western blot analysis of BMDMs (
+     <xref ref-type="bibr">
+      Rasmussen et al., 2011
+     </xref>
+     ). We observed that cGAMP-induced Tbk1 and Irf3 phosphorylation was absent from mSting-deficient cells (
+     <a>
+      Figure S4
+     </a>
+     ). We conclude that cGAMP treatment of BMDMs triggers type I IFN and proinflammatory cytokine/chemokine via the mSting/Irf3-dependent pathway. The strongest responses for mSting were seen for cGAMP derivatives comprising the nonmetazoan all-3′,5′-linkage isomer produced by bacteria, which was unexpected, considering the recent report suggesting that the natural c[G(2′,5′)pA(3′,5′)p] was the highest-affinity ligand for hSTING (
+     <xref ref-type="bibr">
+      Zhang et al., 2013
+     </xref>
+     ).
+    </p>
+    <p>
+     Therefore, we also evaluated hSTING activation and its dependence on cGAMP isomer concentration. We assayed type I IFN and chemokine production in human THP1 cells by ELISA and RT-PCR analysis delivering cGAMP isomers by addition to the medium without or with Digitonin (Dig) permeabilization. In comparison to the murine system, which slightly favored the bacterial c[G(3′,5′)pA(3′,5′)p], the nonnatural c[G(2′,5′) pA(2′,5′)p] stimulated THP1 cells 2.9- or 4.8-fold more effectively than the metazoan second messenger c[G(2′,5′)pA(3′,5′)p] or c[G(3′,5′)pA(3′,5′)p], respectively (
+     <xref ref-type="fig">
+      Figure 6C and D
+     </xref>
+     , left, Table S5). Measuring transcriptional activation of hSTING-dependent IFN response genes by the various cGAMP linkage isomers (
+     <xref ref-type="fig">
+      Figure 6E
+     </xref>
+     ) confirmed the ELISA results. As early as 2 hr, we detected by RT-PCR that c[G(2′,5′)pA(2′,5′)p] stimulated expression of IFNB1 and CXCL10 the most. Digitonin-mediated cell permeabilization significantly increased and enhanced sensitivity to all cGAMP isomers in BMDM and THP1 cells (
+     <xref ref-type="fig">
+      Figures 6C and 6D
+     </xref>
+     , right, Table S5). In THP1 cells, there was no difference in the EC
+     <sub>
+      50
+     </sub>
+     values obtained for c[G(2′,5′)pA(2′,5′)p] and c[G(2′,5′)pA(3′,5′)p] exposure.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Mutagenesis of hSTING and mSting Identified Amino Acids Critical for Its Ligand-Binding-Induced IFN Pathway Activation
+    </title>
+    <p>
+     To determine the functional importance of individual amino acids that interacted with c[G(2′,5′)pA(3′,5′)p] in the crystal structure, we generated Ala point mutants of specific residues within hSTING
+     <sup>
+      H232
+     </sup>
+     , as well as of the corresponding mutations in mSting
+     <sup>
+      R231
+     </sup>
+     , and tested their activities in human HEK293T cells using an IFN-sensitive luciferase reporter assay (
+     <xref ref-type="bibr">
+      Burdette et al., 2011
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gao et al., 2013
+     </xref>
+     ). STING expression plasmids and IFNB1 luciferase reporter constructs were cotransfected followed by Dig-mediated delivery of cGAMP isomers (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ), or cotransfected with wild-type or catalytic mutant (E211A) cGAS in the absence of exogenous cGAMP addition (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ) (
+     <xref ref-type="bibr">
+      Gao et al., 2013
+     </xref>
+     ). Human mutant STING variants with amino acid substitutions of either Y167A, R238A, Y240A, or E260A, as well as their murine counterparts, were no longer able to stimulate the IFN pathway. Notably, hSTING
+     <sup>
+      H232/N242A
+     </sup>
+     induced no measurable IFN reporter activity, whereas mSting
+     <sup>
+      R231/N241A
+     </sup>
+     was only slightly impaired in its response. Mutants S162A and T267A of hSTING
+     <sup>
+      H232
+     </sup>
+     largely retained their normal function, whereas hSTING
+     <sup>
+      H232/T263A
+     </sup>
+     showed reduced activation (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Dose-response studies of hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <a>
+      Figure S5
+     </a>
+     ) revealed no significant differences in stimulation between c[G(2′,5′)pA(2′,5′)p] and c[G(2′,5′)pA(3′,5′)p] and a lesser response to c[G(3′ ,5′)pA(3′,5′)p]. However, the hSTING
+     <sup>
+      H232/T263A
+     </sup>
+     mutant shows a gain in sensitivity to c[G(3′,5′)pA(3′,5′)p] compared to its response to 2′ ,5′ linkage isomers. The S162A and T267A hSTING
+     <sup>
+      H232
+     </sup>
+     mutants respond similarly to hSTING
+     <sup>
+      H232
+     </sup>
+     , also showing a weaker response to c[G(3′,5′)pA(3′ ,5′ )p].
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       Mouse and Human STING Mutational Analysis
+      </strong>
+      <p>
+       (A) HEK293T cells were transfected with reporter constructs and human or murine STING expression plasmids as indicated. After 12 hr, cells were digitonin permeabilized to deliver cGAMP linkage isomers (5 µM concentration, 30 min permeabilization) and incubated for an additional 12 hr, followed by luciferase-reporter assay.
+      </p>
+      <p>
+       (B) To gauge STING mutant stimulation by murine cGAS compared to the inactive cGAS mutant E211A, plasmids containing the indicated human or murine STING variants were cotransfected with either cGAS form and luciferase reporter constructs. Luciferase induction was determined after 30 hr. In this setting, the transfected plasmids provide the dsDNA stimulus for cGAS activation. Activation is expressed as fold induction in relation to control plasmid pMAX-GFP.
+      </p>
+      <p>
+       (C) HEK293T cells were transfected as in (A) and stimulated with c[di-GMP](5 and 10 µM) following digitonin permeabilization. Luciferase activity was determined 12 hr after stimulation. As negative and positive controls, HEK293T cells transfected with hSTING
+       <sup>
+        H232
+       </sup>
+       were mock-treated (white bar) or stimulated with 5 µM c[G(2′,5′)pA(3′ ,5′)p] following digitonin permeabilization (green bar), respectively.
+      </p>
+      <p>
+       (D) HEK293T cells were transfected as in (C) and after 12 hr stimulated with medium containing DMXAA (136 and 266 µM). Luciferase activity was measured after additional 12 hr.
+      </p>
+      <p>
+       (E) ITC binding curves for complex formation between DMXAA and mSting
+       <sup>
+        R231
+       </sup>
+       .
+      </p>
+      <p>
+       (F) ITC binding curves for complex formation between DMXAA and hSTING
+       <sup>
+        R232/A162
+       </sup>
+       and hSTING
+       <sup>
+        R232/V162
+       </sup>
+       .
+      </p>
+      <p>
+       (G) ITC binding curves for complex formation between DMXAA and hSTING
+       <sup>
+        H232/A162
+       </sup>
+       and hSTING
+       <sup>
+        H232/V162
+       </sup>
+       .
+      </p>
+      <p>
+       Data points in (A to D) were determined in triplicate and are depicted as the mean ± SEM. We have no explanation at this time for high-stoichiometry N values (∼1.5, instead of the expected 1) for the binding curves for A162 mutants of both hSTING
+       <sup>
+        H232
+       </sup>
+       and hSTING
+       <sup>
+        R232
+       </sup>
+       (F and G).
+      </p>
+      <p>
+       Related to
+       <a>
+        Figures S6
+       </a>
+       and
+       <a>
+        S7
+       </a>
+       , and Table S6.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Given the recent report of mSting and hSTING variants with distinct responsiveness (
+     <xref ref-type="bibr">
+      Diner et al., 2013
+     </xref>
+     ), we sequenced hSTING DNAs derived from eight Caucasians and our THP1 cells. All samples encoded R232 in both alleles; additionally hSTING
+     <sup>
+      THP1
+     </sup>
+     contained three additional point mutations (H72R, G230A, and R293Q) as reported before. We compared the cGAMP-dependent IFN-response for hSTING
+     <sup>
+      H232
+     </sup>
+     , hSTING
+     <sup>
+      R232
+     </sup>
+     , hSTING
+     <sup>
+      THP1
+     </sup>
+     , and mSting
+     <sup>
+      R231
+     </sup>
+     , and found that the prevalent hSTING
+     <sup>
+      R232
+     </sup>
+     was several-fold more responsive to all cGAMP isomers when compared to hSTING
+     <sup>
+      H232
+     </sup>
+     , with the order of cGAMP isomer sensitivity remaining the same (
+     <xref ref-type="fig">
+      Figures 7
+     </xref>
+     ,
+     <a>
+      S5E
+     </a>
+     , and
+     <a>
+      Figure S5F
+     </a>
+     ). hSTING
+     <sup>
+      THP1
+     </sup>
+     and wild-type mSting
+     <sup>
+      R231
+     </sup>
+     displayed slightly reduced overall cGAMP sensitivity compared to hSTING
+     <sup>
+      R232
+     </sup>
+     .
+    </p>
+    <p>
+     To complement our mutagenesis study of the cGAMP isomer response, we tested c[di-GMP]and DMXAA (
+     <xref ref-type="fig">
+      Figures 7C and 7D
+     </xref>
+     ). Although both ligands stimulated mSting, nearly all hSTING variants were nonresponsive except for hSTING
+     <sup>
+      R232
+     </sup>
+     and hSTING
+     <sup>
+      THP-1
+     </sup>
+     , which showed a residual response to high concentrations of c[di-GMP] (
+     <a>
+      Figures S6B
+     </a>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     , respectively). Moreover, mSting mutants defective for recognition of all cGAMP isomers also failed to recognize c[di-GMP] and DMXAA. Mutants N241A and T262A of mSting were less responsive to c[di-GMP] and DMXAA compared to cGAMPs, whereas mSting (T266A) showed a moderately enhanced recognition of c[di-GMP] over DMXAA.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     S162A Mutant of hSTING is Activated by DMXAA
+    </title>
+    <p>
+     Strikingly, we found that the single point mutant S162A enabled recognition of DMXAA by human STING (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     , left), while not restoring c[di-GMP] responsiveness (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     , left). In both hSTING
+     <sup>
+      H232
+     </sup>
+     and hSTING
+     <sup>
+      R232
+     </sup>
+     background, the S162A mutation enabled DMXAA recognition with near-identical dose responses (
+     <a>
+      Figures S6C and S6D
+     </a>
+     ). In contrast, the differences in recognition of cGAMP isomers and c[di-GMP] were only slightly altered or unchanged compared to the respective S162 variants (
+     <a>
+      Figure S7B
+     </a>
+     ). Noticeably, IFN induction was not observed in cellular assays for the S162V and S162I mutants of hSTING
+     <sup>
+      H232
+     </sup>
+     or hSTING
+     <sup>
+      R132
+     </sup>
+     , which contain bulkier hydrophobic amino acids compared to Ala at position 162 (
+     <a>
+      Figure S7A
+     </a>
+     ).
+    </p>
+    <p>
+     ITC-based binding studies confirmed that mSting
+     <sup>
+      R231
+     </sup>
+     -bound DMXAA as reported previously (
+     <a>
+      Figure S7E
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Kim et al., 2013
+     </xref>
+     ), as did S162A (and S162V) mutants in a hSTING
+     <sup>
+      R232
+     </sup>
+     and hSTING
+     <sup>
+      H232
+     </sup>
+     context-bound DMXAA (
+     <xref ref-type="fig">
+      Figures 7F and 7G
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    DISCUSSION
+   </title>
+   <sec>
+    <title>
+     Recent Structural Studies Established that hSTING
+     <sup>
+      R232
+     </sup>
+     Adopts a “Closed” Conformation in the c[G(2′,5′)pA(3′,5′) p]-Bound State
+    </title>
+    <p>
+     Recent structural studies established that hSTING
+     <sup>
+      R232
+     </sup>
+     adopts a “closed” conformation upon association with the cGAS-naturally-produced c[G(2′,5′)pA(3′,5′)p] linkage isomer (
+     <xref ref-type="bibr">
+      Zhang et al., 2013
+     </xref>
+     ). The structural transition from the ‘‘open’’ conformation of the free state of STING (
+     <xref ref-type="bibr">
+      Yin et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Ouyang et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shang et al., 2012
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Shu et al., 2012
+     </xref>
+     ) to the “closed” ligand-bound state (
+     <xref ref-type="bibr">
+      Zhang et al., 2013
+     </xref>
+     ) was manifested in a 22° inward-shift of the pair of symmetrically-related α2-helices of STING and concomitant formation of the four-stranded β sheet cap associated with the “open” to “closed” transition.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     STING Complexes with cGAMP Linkage Isomers Adopt a “Closed” Conformation Independent of Allelic Variation at Position 232 of hSTING and Its mSting Equivalent
+    </title>
+    <p>
+     We observe the same “closed” structures (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ) for the complexes of c[G(2′,5′)pA(3′,5′)p] bound to hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ) and mSting
+     <sup>
+      R231
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ), independent of whether a His or Arg occupies this equivalent position. Furthermore, hSTING
+     <sup>
+      H232
+     </sup>
+     adopts the ‘‘closed’’ conformation when in complex with the all-2′,5′-linkage isomer (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ), as does mSting
+     <sup>
+      R231
+     </sup>
+     when in complex with the all-3′,5′-linkage isomer (
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     ), indicating that the ligand-dependent conformational transition is not specific to any cGAMP linkage isomer, but distinct from most of the described complexes involving c[di-GMP] and hSTING
+     <sup>
+      H232
+     </sup>
+     . Importantly, the ‘‘closed’’ conformation of STING in complex with all cGAMP linkage isomers identically repositions other elements on the outer surface of the STING dimer, such as the α5-helices and b-barrel elements (stereo view in
+     <xref ref-type="fig">
+      Figure 2D
+     </xref>
+     ), potentially altering protein-interaction surfaces for potential recognition by regulatory or effector proteins.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Proteins Encoded by Natural hSTING and mSting Alleles Exhibit Micromolar to Submicromolar Binding Affinities for cGAMP Linkage Isomers
+    </title>
+    <p>
+     Our ITC studies of c[G(2′,5′)pA(3′,5′)p] and its linkage isomers showed no significant differences in their binding affinities with recombinant proteins representing natural alleles of hSTING and mSting (
+     <xref ref-type="fig">
+      Figures 4A and 4C–4F
+     </xref>
+     , and Table S3). The K
+     <sub>
+      D
+     </sub>
+     values for the cGAMP linkage isomers vary between 2.5 and 5.4 µM for the complexes with hSTING
+     <sup>
+      H232
+     </sup>
+     and between 0.1 and 0.3 µM for all complexes with hSTING
+     <sup>
+      R232
+     </sup>
+     or mSting
+     <sup>
+      R231
+     </sup>
+     (Table S3). The difference in the binding affinities of individual STING protein alleles between all cGAMP linkage isomers were largely similar, and even where different, did not exceed 3-fold. The subtle differences between cGAMP isomers in binding and activating STING are recapitulated in our cellular assays of IFN response (
+     <xref ref-type="fig">
+      Figures 6
+     </xref>
+     ,
+     <xref ref-type="fig">
+      None
+     </xref>
+     , and
+     <a>
+      Figure S5
+     </a>
+     ), as well as other recently related functional assays (
+     <xref ref-type="bibr">
+      Ablasser et al., 2013
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zhang et al., 2013
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The Contribution of hSTING Positions 230 and 232 to cGAMP Linkage Isomer Recognition and Type I IFN Pathway Activation
+    </title>
+    <p>
+     Amino acid variation of hSTING at positions 230 and 232 was reported to affect its sensitivity particularly toward c[di-GMP] (
+     <xref ref-type="bibr">
+      Diner et al., 2013
+     </xref>
+     ). Indeed, c[di-GMP] stimulation of HEK293T cells transfected with hSTING
+     <sup>
+      THP1
+     </sup>
+     , which encodes for A230 and R232, showed reduced IFN-pathway activation (
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     ), while retaining response for all cGAMP isomers (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Interestingly, hSTING
+     <sup>
+      R232
+     </sup>
+     or hSTING
+     <sup>
+      H232
+     </sup>
+     preferentially activated with 2′,5′-linkage-containing cGAMP isomers, whereas hSTING
+     <sup>
+      THP1
+     </sup>
+     responded equally well to all linkage isomers under digitonin-permeabilized conditions (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , left). Comparison of the IFN-responses of hSTING
+     <sup>
+      H232
+     </sup>
+     with hSTING
+     <sup>
+      R232
+     </sup>
+     , and hSTING
+     <sup>
+      R232
+     </sup>
+     with hSTING
+     <sup>
+      THP1
+     </sup>
+     , suggests that R232 and G230 are critical for optimal response to 2′,5′-linkage-containing natural or unnatural cGAMP isomers. hSTING
+     <sup>
+      H232
+     </sup>
+     was also reported to phenocopy the behavior of mSting
+     <sup>
+      R231A
+     </sup>
+     regarding its higher sensitivity to 2′,5′-containing cGAMP molecules versus all 3′,5′-cGAMP and c[di-GMP] (
+     <xref ref-type="bibr">
+      Diner et al., 2013
+     </xref>
+     ). It is interesting to note that G230 is one of the few unconserved residues between human and mouse; the corresponding amino acid in mSting is an isoleucine. This difference might explain why there appears to be no preference for any of the cGAMP linkage isomers or c[di-GMP] with wild-type mSting
+     <sup>
+      R231
+     </sup>
+     . Position 230 is part of the β sheet cap of the “closed” conformation and side-chains such as Ala or Ile may subtly change its stability or degree of closure. However, molecular modeling of an Ala or Ile substitution for G230 does not indicate any profound structural changes. Thus it remains unclear whether amino acid variation at position 230 affects ligand binding, per se, or STING activation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Impact of Amino Acid Mutations Surrounding c[G(2′,5′) pA(3′,5′)p] in the “Closed” Conformation of the STING Complex
+    </title>
+    <p>
+     The ITC binding studies (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     and Table S4) and IFN functional assays (
+     <xref ref-type="fig">
+      Figures 7A and 7B
+     </xref>
+     ) confirmed that Ala substitution of structurally identified amino acids that bracket (Y167), and buttress (Y240) target base edges and backbone phosphates (R238), and recognize guanosine base edges through direct and water-mediated hydrogen bonds (N242 and E260) of the bound c[G(2′,5′)pA(3′,5′)p] abolished ligand binding in vitro and the cellular IFN response. Polar side chains that interact with the sugar-phosphate backbone of the ring scaffold of c[G(2′,5′)pA(3′,5′)p] in its complex with hSTING
+     <sup>
+      H232
+     </sup>
+     exhibit a more nuanced effect in both ITC binding studies (
+     <xref ref-type="fig">
+      Figure 4B
+     </xref>
+     and Table S4) and cellular assays (
+     <xref ref-type="fig">
+      Figures 7A and 7B
+     </xref>
+     ). The T267A mutation, with the potential to disrupt water-mediated hydrogen bonding to the backbone phosphates of the ligand (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ), did not alter in vitro binding affinity (Table S4), while the S162A mutation, with the potential to disrupt the direct hydrogen bond to the 3′-OH of the guanosine of the bound c[G(2′,5′)pA(3′,5′)p] (
+     <xref ref-type="fig">
+      Figure 1G
+     </xref>
+     ), resulted in a modest 2-fold reduction of in vitro binding affinity (Table S4). By contrast, the T263A mutation, with the potential to disrupt the direct hydrogen bond to the NH
+     <sub>
+      2
+     </sub>
+     group of guanosine of the bound ligand (
+     <xref ref-type="fig">
+      Figure 1F
+     </xref>
+     ), resulted in a 10-fold reduction of in vitro binding affinity (Table S4). These data are in agreement with results of cellular assays measuring IFN response (
+     <xref ref-type="fig">
+      Figures 7A and 7B
+     </xref>
+     and
+     <a>
+      S5
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Perturbation of Structurally Identified Amino Acids Coordinating cGAMP Isomers in hSTING Changed Its Specificity and Sensitivity to Cyclic Dinucleotides
+    </title>
+    <p>
+     The crystal structure of c[G(2′,5′)pA(3′,5′ )p] bound by hSTING
+     <sup>
+      H232
+     </sup>
+     allowed us to identify and functionally confirm the importance of specific amino acids for recognition of the cGAMP isomers. Systematic substitution of Ala at positions Y167, R238, Y240, H242, E260, and T263 of hSTING reduced or abolished cGAMP-isomer-dependent IFN-pathway activation, whereas substitutions at positions S162 and T267 did not substantially affect recognition of c[G(2′,5′)pA(3′ ,5′)p] or the synthetic all-2′,5′-cGAMP isomer (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     , left,
+     <a>
+      S5B
+     </a>
+     , and
+     <a>
+      S5D
+     </a>
+     ). These results were in a hSTING
+     <sup>
+      H232
+     </sup>
+     background that already exhibited a reduced affinity for c[G(3′,5′)pA(3′,5′)p]. However, we also performed parallel experiments using mSTING
+     <sup>
+      R231
+     </sup>
+     that exhibited approximately equivalent response to all cGAMP linkage isomers (
+     <xref ref-type="fig">
+      Figures 7A
+     </xref>
+     , right and
+     <a>
+      S5E
+     </a>
+     ). Nearly all amino acid substitutions that attenuated hSTING activity similarly eliminated or reduced induction of the IFN pathway by the corresponding murine mutants in a mSting
+     <sup>
+      R231
+     </sup>
+     background. Only mSTING
+     <sup>
+      R231,N241A
+     </sup>
+     led to IFN pathway activation but only with cGAMP linkage isomers containing at least one 2′,5′ linkage. Taken together, amino acid variation within the binding pocket of STING leads to functional changes in the recognition of, and response to, exposure to cGAMP linkage isomers. We were able to identify mutations that can reduce or enhance cGAMP-linkage isomer recognition and also distinguish between 2′,5′-linkage-containing cGAMP isomers and the all-3′,5′-cGAMP. However, we could not identify any STING variant, natural or mutant, that could distinguish between c[G(2′,5′)pA(2′,5′)p] or the natural c[G(2′,5′)pA(3′,5′)p] linkage isomer.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Contrasting Positions on Activation of hSTING by 2′,5′-Containing Linkage Isomers of Cgamp
+    </title>
+    <p>
+     It has been recently proposed by the Z.J. Chen laboratory that c[G(2′,5′)pA(3′,5′)p] is the endogenous high-affinity ligand of STING (
+     <xref ref-type="bibr">
+      Zhang et al., 2013
+     </xref>
+     ), a conclusion based on three lines of experimental information that are contrasted below in light of data presented in our paper.
+    </p>
+    <p>
+     First, the Chen laboratory solved the X-ray structure of the c[G(2′,5′)pA(3′,5′)p]-hSTING
+     <sup>
+      R232
+     </sup>
+     (aa 138–379) complex and demonstrated that hSTING
+     <sup>
+      R232
+     </sup>
+     underwent an “open” to “closed” conformational transition that was accompanied by formation of a β sheet lid over the binding pocket (
+     <xref ref-type="bibr">
+      Zhang et al., 2013
+     </xref>
+     ). They interpreted this transition to be reflective of c[G(2′,5′) pA(3′,5′)p] being a high-affinity ligand of hSTING because the majority of complexes of hSTING with c[di-GMP] retained the “open” conformation. Our position based on structural studies of a series of complexes that include c[G(2′,5′)pA(3′,5′)p]-hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), c[G(2′,5′)pA(3′,5′)p]-mSTING
+     <sup>
+      R231
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ), c[G(2′,5′)pA(2′,5′)p]-hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3E
+     </xref>
+     ), and c[G(3′,5′)pA(3′,5′)p]-mSTING
+     <sup>
+      R231
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 3F
+     </xref>
+     ) is that all above complexes form “closed” structures and that the observation of an “open” to “closed” transition by itself is not necessarily an indicator for identification of a high-affinity ligand of STING.
+    </p>
+    <p>
+     Second, there are pronounced differences in the ITC-based binding affinities reported by the Chen and our laboratories on complex formation between 2′,5′-linked isomers of cGAMP and hSTING. Thus, the Chen laboratory reported K
+     <sub>
+      D
+     </sub>
+     values of 3.8 nM for the c[G(2′,5′)pA(3′,5′)p]-hSTING
+     <sup>
+      R232
+     </sup>
+     and 0.28 µM for the c[G(2′ ,5′)pA(2′,5′)p]-hSTING
+     <sup>
+      R232
+     </sup>
+     complexes, a difference approaching two orders of magnitude between these two cGAMP linkage isomers and was interpreted as the strongest evidence for justification of c[G(2′,5′)pA(3′ ,5′)p] being a high-affinity ligand of hSTING (
+     <xref ref-type="bibr">
+      Zhanget al., 2013
+     </xref>
+     ).By contrast, ITC measurements in our laboratory gave values that differed by less than a factor of two as reflected in K
+     <sub>
+      D
+     </sub>
+     values of 0.11 µM for the c[G(2′,5′) pA(3′,5′)p]-hSTING
+     <sup>
+      H232
+     </sup>
+     and 0.17 µM for the c[G(2′,5′)pA(2′,5′)p]-hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     and Table S2).
+    </p>
+    <p>
+     Third, the Chen laboratory found similar EC
+     <sub>
+      50
+     </sub>
+     values in their cellular assays of IFN response for binding of hSTING
+     <sup>
+      R232
+     </sup>
+     to the various cGAMP linkage isomers, as we did in our cellular assay measurements, as well as those reported recently from the Hornung laboratory (
+     <xref ref-type="bibr">
+      Ablasser et al., 2013
+     </xref>
+     ).
+    </p>
+    <p>
+     Our position is that the available structural data, our ITC-based binding parameters and cellular assays from the Chen, Hornung, and our laboratories are consistent with the 2′,5′ cGAMP linkage isomers c[G(2′,5′ )pA(3′,5′)p] and c[G(2′,5′)pA(2′,5′)p] as equally specific triggers of the hSTING-mediated IFN pathway, and modestly more effective compared to their c[G(3′,5′ )pA(3′,5′)p] linkage isomer counterpart.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Recognition of Antiviral Small Molecules by mSting
+     <sup>
+      R231
+     </sup>
+     and the Creation of a hSTING Functional Mutant Sensitive to DMXAA Activation
+    </title>
+    <p>
+     Our structural study of the DMXAA-mSting
+     <sup>
+      R231
+     </sup>
+     complex (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) as well as the earlier report on the structure of the CMA-mSting
+     <sup>
+      R231
+     </sup>
+     complex (
+     <xref ref-type="bibr">
+      Cavlar et al., 2013
+     </xref>
+     ) contain two antiviral small molecules bound within the cyclic dinucleotide cleft of mSting. The polar atoms of DMXAA form a network of intermolecular hydrogen bonds involving charged (R237) and polar (S161, T262 and T266) amino acids of mSting
+     <sup>
+      R231
+     </sup>
+     , while its methyl groups form intermolecular contacts with hydrophobic amino acids (L169 and I234) (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ), thereby anchoring the antiviral small molecule within the binding cleft. Importantly, a subset of the same conserved amino acid side chains lining the dimeric binding pocket in mSting
+     <sup>
+      R231
+     </sup>
+     target a pair of bound DMXAA ligands and bound c[G(2′,5′)pA(3′,5′)p] based on distinctly different intermolecular contacts (
+     <xref ref-type="fig">
+      Figures 5C
+     </xref>
+     and
+     <xref ref-type="fig">
+      1E–1G
+     </xref>
+     ).
+    </p>
+    <p>
+     The ligand-binding pocket of mSting
+     <sup>
+      R231
+     </sup>
+     adopts a “closed” conformation in both the DMXAA (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ) and c[G(2′,5′) pA(3′,5′)p] (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ) complexes, though the pocket is more V-shaped in the DMXAA complex (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). The more V-shaped “closed” conformation adopted by mSting
+     <sup>
+      R231
+     </sup>
+     complex with DMXAA is identical to the one observed for the CMA complex (
+     <a>
+      Figure S3B
+     </a>
+     ).
+    </p>
+    <p>
+     We were surprised to observe that the S162A mutation rendered both hSTING
+     <sup>
+      H232
+     </sup>
+     and hSTING
+     <sup>
+      R232
+     </sup>
+     sensitive to DMXAA binding and activation (
+     <xref ref-type="fig">
+      Figures 7D
+     </xref>
+     and
+     <a>
+      S6
+     </a>
+     ). The side chains of S161 in mSting
+     <sup>
+      R231
+     </sup>
+     are positioned in the plane and opposite an aromatic edge of DMXAA (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ) and one would predict that replacement of Ser by Ala in hSTING could favor complex formation due to either enhancement of intermolecular hydrophobic interactions and/or steric constraints. No activation of the IFN response was observed for the S162V and S162I mutations in a hSTING
+     <sup>
+      H232
+     </sup>
+     and hSTING
+     <sup>
+      R232
+     </sup>
+     context (
+     <a>
+      Figure S7A
+     </a>
+     ), implying the predominance of the steric constraint contribution. Consistent with this hypothesis, we found that mSting
+     <sup>
+      S161A
+     </sup>
+     showed an increased response to DMXAA but not to c[G(2′,5′) pA(3′,5′)p] or c[di-GMP] (
+     <xref ref-type="fig">
+      Figures 7C and 7D
+     </xref>
+     , right).
+    </p>
+    <p>
+     Importantly, the increased IFN response of hSTING
+     <sup>
+      A162
+     </sup>
+     to DMXAA observed in cellular assays (
+     <xref ref-type="fig">
+      Figure 7D
+     </xref>
+     ) was confirmed by ITC-based studies, which established binding of DMXAA to S162A (and S162V) mutants in a STING
+     <sup>
+      R232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 7F
+     </xref>
+     ) and hSTING
+     <sup>
+      H232
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 7G
+     </xref>
+     ) context (thermodynamic parameters in Table S6).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    CONCLUSIONS
+   </title>
+   <p>
+    In summary, we provide a comprehensive structural, biophysical, and functional analysis of cGAMP isomer association with hSTING and mSting. Our data are supportive of a preference of hSTING for 2′,5′-linkage-containing cGAMPs that are modestly more effective compared to their c[G(3′,5′) pA(3′,5′)p] linkage isomer counterpart (see also
+    <xref ref-type="bibr">
+     Ablasser et al., 2013
+    </xref>
+    ).
+   </p>
+   <p>
+    Our structural and functional results highlight the importance of S162 of hSTING to DMXAA insensitivity, which should potentially enable rational drug design of DMXAA derivatives for the development of human antitumor, antiviral, and vaccine adjuvant applications.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    EXPERIMENTAL PROCEDURES
+   </title>
+   <sec>
+    <title>
+     Crystallization and Structure Determination
+    </title>
+    <p>
+     Crystals were grown using the sitting drop vapor diffusion method and diffraction data collected at synchrotron beam lines. All structures were solved using PHASER, COOT, and REFMAC programs.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal Titration Calorimetry
+    </title>
+    <p>
+     The thermodynamic parameters of binding reactions of STING with cGAMP isomers and DMXAA were measured by isothermal titration calorimetry using a MicroCal ITC200 calorimeter at 25°C.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Generation of Bone-Marrow-Derived Macrophages
+    </title>
+    <p>
+     Female
+     <em>
+      Irf3
+     </em>
+     <sup>
+      –/–
+     </sup>
+     ,
+     <em>
+      Sting
+      <sup>
+       Gt/Gt
+      </sup>
+     </em>
+     and WT C57B/6 mice were used for the preparation of bone-marrow-derived macrophages. These mice were maintained in the animal facility at the Sloan-Kettering Cancer Institute. Bone marrow cells were cultured in complete medium (CM) in the presence of 5% of supernatant of L929 mouse fibroblasts as conditioned medium. Cells were plated into 6-well plate (1 million cells per well) at day 7, the day before stimulation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     RT-PCR analysis of THP1 Cells
+    </title>
+    <p>
+     In RT-PCR analyses, 5 × 10
+     <sup>
+      5
+     </sup>
+     THP1 cells were plated in 12-well dishes and incubated overnight. 12.5 mM of cGAMP isomers were applied to the media and cells were harvested at indicated times. RNA samples were isolated and cDNA libraries were generated. KOD Polymerase was used to PCR amplify regions of IFNB1 and CXCL10 and normalized against TUBA1B.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     cGAMP Stimulation of Cells
+    </title>
+    <p>
+     Bone-marrow-derived murine macrophages and THP-1 cells were stimulated by incubation with cGAMP isomers at indicated concentrations for 18 hr, or by Digitonin permeabilization (30 min). Cytokines in supernatants were determined after 18 hr by ELISA.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Luciferase Assay
+    </title>
+    <p>
+     HEK293T cells were reverse-transfected with STING expression plasmids and reporter constructs. 12 hr later, DMXAA was added directly, whereas cGAMP isomers and c[di-GMP] were delivered with digitonin permeabilization. Luciferase expression was determined after another 12 hr, or 30 hr when transfected together with a cGAS-expression plasmid. See Extended Experimental Procedures for full details of all above sections.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.9M, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGMENTS
+   </title>
+   <sec>
+    <p>
+     We thank the synchrotron beam line staffs at the Brookhaven and Argonne National laboratories for their assistance and Kenneth Breslauer for discussions related to interpretation of ITC experiments. D.J.P is supported by grants from the Abby Rockefeller Mauze Trust and the Maloris and STARR Foundations. T.T. is supported by HHMI. W.B. and G.H. are members of the DFG Excellence Cluster ImmunoSensation. W.B. is supported by DFG grant BA3544/1-1, G.H. by SFB670, and W.B. and G.H. by SFB704. R.J. is supported by NIH grant GM79760, L.D. is supported by NIH grant R56AI095692 and S.S. is supported by NIH grant GM42498. The structural research was performed by P.G. under the supervision of D.J.P., the RT-PCR measurements involving transcriptional activation were performed by M.A. and A.A.S. under the supervision of T.T., the assays describing cGAMP stimulation of BMDM were performed by W.W. and P.D. under the supervision of L.D. and S.S., the cellular assays monitoring STING-dependent interferon induction were performed by T.Z. under the supervision of W.B. and G.H., and chemical synthesis of cGAMP linkage isomers was performed by B.L.G. under the supervision of R.A.J. All participants participated in the writing of the paper and agree with the contents.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <ul>
+     <li>
+      <span>
+       Ablasser A, Goldeck M, Cavlar T, Deimling T, Witte G, Röhl I, Hopfner KP, Ludwig J, Hornung V. cGAS produces a 2′-5′-linked cyclic dinucleotide second messenger that activates STING.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2013;
+        <span>
+         498
+        </span>
+        :380–384.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Baguley BC, Ching LM. DMXAA: an antivascular agent with multiple host responses.
+       <span>
+        <span>
+         Int. J. Radiat. Oncol. Biol. Phys.
+        </span>
+        2002;
+        <span>
+         54
+        </span>
+        :1503–1511.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Burdette DL, Vance RE. STING and the innate immune response to nucleic acids in the cytosol.
+       <span>
+        <span>
+         Nat. Immunol.
+        </span>
+        2013;
+        <span>
+         14
+        </span>
+        :19–26.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Burdette DL, Monroe KM, Sotelo-Troha K, Iwig JS, Eckert B, Hyodo M, Hayakawa Y, Vance RE. STING is a direct innate immune sensor of cyclic di-GMP.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2011;
+        <span>
+         478
+        </span>
+        :515–518.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Cavlar T, Deimling T, Ablasser A, Hopfner KP, Hornung V. Species-specific detection of the antiviral small-molecule compound CMA by STING.
+       <span>
+        <span>
+         EMBO J.
+        </span>
+        2013;
+        <span>
+         32
+        </span>
+        :1440–1450.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Civril F, Deimling T, de Oliveira Mann CC, Ablasser A, Moldt M, Witte G, Hornung V, Hopfner KP. Structural mechanism of cytosolic DNA sensing by cGAS.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2013;
+        <span>
+         498
+        </span>
+        :332–337.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Conlon J, Burdette DL, Sharma S, Bhat N, Thompson M, Jiang Z, Rathinam VA, Monks B, Jin T, Xiao TS, et al.  Mouse, but not human STING, binds and signals in response to the vascular disrupting agent 5,6-dimethylxanthenone-4-acetic acid.
+       <span>
+        <span>
+         J. Immunol.
+        </span>
+        2013;
+        <span>
+         190
+        </span>
+        :5216–5225.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Diner EJ, Burdette DL, Wilson SC, Monroe KM, Kellenberger CA, Hyodo M, Hayakawa Y, Hammond MC, Vance RE. The innate immune DNA sensor cGAS produces a noncanonical cyclic dinucleotide that activates human STING.
+       <span>
+        <span>
+         Cell Rep.
+        </span>
+        2013;
+        <span>
+         3
+        </span>
+        :1355–1361.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Gall A, Treuting P, Elkon KB, Loo YM, Gale M, Jr, Barber GN, Stetson DB. Autoimmunity initiates in nonhematopoietic cells and progresses via lymphocytes in an interferon-dependent autoimmune disease.
+       <span>
+        <span>
+         Immunity.
+        </span>
+        2012;
+        <span>
+         36
+        </span>
+        :120–131.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Gao P, Ascano M, Wu Y, Barchet W, Gaffney BL, Zillinger T, Serganov AA, Liu Y, Jones RA, Hartmann G, et al.  Cyclic [G(2′,5′)pA(3′,5′)p] is the metazoan second messenger produced by DNA-activated cyclic GMP-AMP synthase.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2013;
+        <span>
+         153
+        </span>
+        :1094–1107.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Huang YH, Liu XY, Du XX, Jiang ZF, Su XD. The structural basis for the sensing and binding of cyclic di-GMP by STING.
+       <span>
+        <span>
+         Nat. Struct. Mol. Biol.
+        </span>
+        2012;
+        <span>
+         19
+        </span>
+        :728–730.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ishikawa H, Barber GN. STING is an endoplasmic reticulum adaptor that facilitates innate immune signalling.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2008;
+        <span>
+         455
+        </span>
+        :674–678.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Keating SE, Baran M, Bowie AG. Cytosolic DNA sensors regulating type I interferon induction.
+       <span>
+        <span>
+         Trends Immunol.
+        </span>
+        2011;
+        <span>
+         32
+        </span>
+        :574–581.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Kim S, Li L, Maliga Z, Yin Q, Wu H, Mitchison TJ. Anticancer flavonoids are mouse-selective STING agonists.
+       <span>
+        <span>
+         ACS Chem. Biol.
+        </span>
+        2013
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Lara PN, Jr, Douillard JY, Nakagawa K, von Pawel J, McKeage MJ, Albert I, Losonczy G, Reck M, Heo DS, Fan X, et al.  Randomized phase III placebo-controlled trial of carboplatin and paclitaxel with or without the vascular disrupting agent vadimezan (ASA404) in advanced non-small-cell lung cancer.
+       <span>
+        <span>
+         J. Clin. Oncol.
+        </span>
+        2011;
+        <span>
+         29
+        </span>
+        :2965–2971.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ouyang S, Song X, Wang Y, Ru H, Shaw N, Jiang Y, Niu F, Zhu Y, Qiu W, Parvatiyar K, et al.  Structural analysis of the STING adaptor protein reveals a hydrophobic dimer interface and mode of cyclic di-GMP binding.
+       <span>
+        <span>
+         Immunity.
+        </span>
+        2012;
+        <span>
+         36
+        </span>
+        :1073–1086.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Paludan SR, Bowie AG. Immune sensing of DNA.
+       <span>
+        <span>
+         Immunity.
+        </span>
+        2013;
+        <span>
+         38
+        </span>
+        :870–880.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Prantner D, Perkins DJ, Lai W, Williams MS, Sharma S, Fitzgerald KA, Vogel SN. 5,6-Dimethylxanthenone-4-acetic acid (DMXAA) activates stimulator of interferon gene (STING)-dependent innate immune pathways and is regulated by mitochondrial membrane potential.
+       <span>
+        <span>
+         J. Biol. Chem.
+        </span>
+        2012;
+        <span>
+         287
+        </span>
+        :39776–39788.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Rasmussen SB, Horan KA, Holm CK, Stranks AJ, Mettenleiter TC, Simon AK, Jensen SB, Rixon FJ, He B, Paludan SR. Activation of autophagy by α-herpesviruses in myeloid cells is mediated by cytoplasmic viral DNA through a mechanism dependent on stimulator of IFN genes.
+       <span>
+        <span>
+         J. Immunol.
+        </span>
+        2011;
+        <span>
+         187
+        </span>
+        :5268–5276.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Schoggins JW, Wilson SJ, Panis M, Murphy MY, Jones CT, Bieniasz P, Rice CM. A diverse range of gene products are effectors of the type I interferon antiviral response.
+       <span>
+        <span>
+         Nature.
+        </span>
+        2011;
+        <span>
+         472
+        </span>
+        :481–485.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Shang G, Zhu D, Li N, Zhang J, Zhu C, Lu D, Liu C, Yu Q, Zhao Y, Xu S, Gu L. Crystal structures of STING protein reveal basis for recognition of cyclic di-GMP.
+       <span>
+        <span>
+         Nat. Struct. Mol. Biol.
+        </span>
+        2012;
+        <span>
+         19
+        </span>
+        :725–727.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Shu C, Yi G, Watts T, Kao CC, Li P. Structure of STING bound to cyclic di-GMP reveals the mechanism of cyclic dinucleotide recognition by the immune system.
+       <span>
+        <span>
+         Nat. Struct. Mol. Biol.
+        </span>
+        2012;
+        <span>
+         19
+        </span>
+        :722–724.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Sun W, Li Y, Chen L, Chen H, You F, Zhou X, Zhou Y, Zhai Z, Chen D, Jiang Z. ERIS, an endoplasmic reticulum IFN stimulator, activates innate immune signaling through dimerization.
+       <span>
+        <span>
+         Proc. Natl. Acad. Sci. USA.
+        </span>
+        2009;
+        <span>
+         106
+        </span>
+        :8653–8658.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Sun L, Wu J, Du F, Chen X, Chen ZJ. Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway.
+       <span>
+        <span>
+         Science.
+        </span>
+        2013;
+        <span>
+         339
+        </span>
+        :786–791.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wu J, Sun L, Chen X, Du F, Shi H, Chen C, Chen ZJ. Cyclic GMP-AMP is an endogenous second messenger in innate immune signaling by cytosolic DNA.
+       <span>
+        <span>
+         Science.
+        </span>
+        2013;
+        <span>
+         339
+        </span>
+        :826–830.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Yin Q, Tian Y, Kabaleeswaran V, Jiang X, Tu D, Eck MJ, Chen ZJ, Wu H. Cyclic di-GMP sensing via the innate immune signaling protein STING.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2012;
+        <span>
+         46
+        </span>
+        :735–745.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Zhang X, Shi H, Wu J, Zhang X, Sun L, Chen C, Chen ZJ. Cyclic GMP-AMP Containing Mixed Phosphodiester Linkages Is An Endogenous High-Affinity Ligand for STING.
+       <span>
+        <span>
+         Mol. Cell.
+        </span>
+        2013;
+        <span>
+         51
+        </span>
+        :226–235.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Zhong B, Yang Y, Li S, Wang YY, Li Y, Diao F, Lei C, He X, Zhang L, Tien P, Shu HB. The adaptor protein MITA links virus-sensing receptors to IRF3 transcription factor activation.
+       <span>
+        <span>
+         Immunity.
+        </span>
+        2008;
+        <span>
+         29
+        </span>
+        :538–550.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+    </ul>
+   </sec>
+  </sec>
+ </body>
+</article>

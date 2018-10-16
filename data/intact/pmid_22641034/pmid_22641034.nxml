@@ -1,0 +1,1598 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3378324
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Structural recognition mechanisms between human Src Homology domain 3 (SH3) and ALG-2-Interacting protein X (Alix)
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The functions of Src family kinases are tightly regulated through Src Homology (SH) domain-mediated protein-protein interactions. We previously reported the biophysical characteristics of the Apoptosis-Linked Gene 2-Interacting protein X (Alix) in complex with the Haemopoietic cell kinase (Hck) SH3 domain. In the current study, we have combined ITC, NMR, SAXS and molecular modeling to determine a 3D model of the complex. We demonstrate that Hck SH3 recognizes an extended linear prolin-rich region of Alix. This particular binding mode enables Hck SH3 to sense a specific non-canonical residue situated in the SH3 RT-loop of the kinase. The resulting model helps clarify the mechanistic insights of Alix-Hck interaction.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     apoptosis-linked gene 2-interacting protein X (Alix), protein-protein interaction, Src homology 3 domain (SH3 domain), Src family kinase (SFK), NMR, SAXS
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    1. INTRODUCTION
+   </title>
+   <p>
+    Alix [ALG-2 (apoptosis-linked gene 2)-interacting protein X] is an adapter protein involved in normal and pathological cellular processes, including regulation of apoptosis, cytoskeletal dynamics, cell surface receptor internalization, endosomal sorting processes and virus budding from infected cell membranes [
+    <xref ref-type="bibr">
+     1
+    </xref>
+    –
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ]. These diverse functions appear to involve binding to various viral and cellular proteins (for review, refer to [
+    <xref ref-type="bibr">
+     8
+    </xref>
+    ]), including kinases such as the Src tyrosine kinase which has been implicated in the ability of Alix to regulate cell surface receptor internalization and cell adhesion [
+    <xref ref-type="bibr">
+     9
+    </xref>
+    ].
+   </p>
+   <p>
+    Crystal structures have revealed that human Alix is composed of three domains involved in multiple and diverse protein interactions: the N-terminal Bro1 domain (residues 1–358), that binds to ESCRT-I/III proteins [
+    <xref ref-type="bibr">
+     7
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ], a central V domain (residues 362–702) that is formed by two three-helix bundles disposed in a “V” shape; and a C-terminal PRR (proline-rich region; residues 703–868) that is not present in the available crystal structures, that serves as a docking site for a number of proteins, including TSG101 and Src-homology (SH)3 domain-containing proteins [
+    <xref ref-type="bibr">
+     10
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     11
+    </xref>
+    ].
+   </p>
+   <p>
+    We previously identified Alix as a novel Hematopoietic cell kinase (Hck) SH3-binding protein by yeast two-hybrid screening using the SH3 domains of Src Family Kinases (SFKs) [
+    <xref ref-type="bibr">
+     12
+    </xref>
+    ]. Identification of Src-related Hck as a novel Alix binding partner was particularly relevant given the implication of Hck in similar cellular and pathological functions, including adhesion, actin polymerization, and HIV-1 infection (for review, see [
+    <xref ref-type="bibr">
+     13
+    </xref>
+    ]). We demonstrated that Alix binds to and activates Hck, and delineated the proline-rich (PxxP) motif of the Alix PRR involved in binding to Hck-SH3. In the same study, we demonstrated that Alix residues outside of the PxxP motif enhanced affinity and also possibly specificity for Hck-SH3, which was reminiscent of the tertiary binding mode used by the viral protein Nef-HIV-1 [
+    <xref ref-type="bibr">
+     14
+    </xref>
+    –
+    <xref ref-type="bibr">
+     16
+    </xref>
+    ]. Interactions outside the PxxP motif are thought to enhance affinity and specificity for SH3 domains (for review, refer to [
+    <xref ref-type="bibr">
+     17
+    </xref>
+    ]) as demonstrated by the high affinity binding of the viral Nef protein to Hck SH3 domain which implicates a well-defined hydrophobic pocket formed by two α-helices of Nef [
+    <xref ref-type="bibr">
+     14
+    </xref>
+    ]. In addition to the canonical PXXP motif, this pocket provides a three-dimensional `tertiary' binding surface which has not been described so far for cellular proteins. We thus investigated in the current research, on the mode of binding of Alix to Hck-SH3 domain by combining ITC, NMR, SAXS and molecular modeling experiments and compared it to that of HIV-1 Nef.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    2. MATERIAL AND METHODS
+   </title>
+   <sec>
+    <title>
+     2.1 DNA Construction
+    </title>
+    <p>
+     Human Alix recombinant construct (ALIX
+     <sub>
+      V+PRR
+     </sub>
+     ) consisting of residues 362–760 was prepared as previously described [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. Wild–type Fyn-SH3 (Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3) and Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 sequences were amplified from pGEX-Fyn
+     <sub>
+      (WT)
+     </sub>
+     and pGEX-Fyn
+     <sub>
+      (R96I)
+     </sub>
+     plasmid constructs, respectively, and cloned into pET42a expression vectors using NdeI and XhoI restriction sites. Each construct was verified by DNA sequencing.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.2 Yeast Two-Hybrid (Y2H)Screen
+    </title>
+    <p>
+     Two independent yeast two-hybrid (Y2H) were performed in parallel, using the human Hck- or Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 domain as a bait. Y2H system is based on the protocol described by Walhout
+     <em>
+      et al.
+     </em>
+     [
+     <xref ref-type="bibr">
+      18
+     </xref>
+     ] as described in Materials and Methods in the
+     <a>
+      Supporting Information
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.3 Protein Expression
+    </title>
+    <p>
+     Human Alix recombinant construct (ALIX
+     <sub>
+      V+PRR
+     </sub>
+     ) was expressed with an N-terminal His
+     <sub>
+      6
+     </sub>
+     -Smt3 fusion tag in
+     <em>
+      E. coli
+     </em>
+     strain BL21 (DE3). The different SH3 recombinant proteins (Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3, Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -HS3, and Hck-SH3) were similarly expressed as 6xHis C-terminal fusion proteins in
+     <em>
+      E. coli
+     </em>
+     BL21 (DE3). The different recombinant proteins (ALIX
+     <sub>
+      V+PRR
+     </sub>
+     and SH3 protein) were expressed and purified as described in Materials and Methods in the
+     <a>
+      Supporting Information
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.4 Isothermal Titration Calorimetry (ITC)
+    </title>
+    <p>
+     ITC was used to evaluate the thermodynamics parameters of the binding between ALIX
+     <sub>
+      PI
+     </sub>
+     peptide and Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 or Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3. Titrations were carried out at 25°C on a MicroCal ITC200 microcalorimeter (GE Healthcare, Piscataway, NJ). Experiments and data analysis were performed as described in Materials and Methods in the
+     <a>
+      Supporting Information
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.5 NMR Spectroscopy
+    </title>
+    <p>
+     To further elucidate the interaction mode between the SH3 domains and ALIX
+     <sub>
+      V+PRR
+     </sub>
+     ,
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N heteronuclear single quantum coherence (HSQC) experiments were performed as described in Materials and Methods in the
+     <a>
+      Supporting Information
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.6 Small-Angle X-Ray Scattering (SAXS) Analysis
+    </title>
+    <p>
+     Data used for the SAXS analysis of the complex between Fyn(R96I) and ALIX
+     <sub>
+      V+PRR
+     </sub>
+     were collected at the SWING beamline of the SOLEIL synchrotron in Paris, France, as described in more details in Materials and Methods in the
+     <a>
+      Supporting Information
+     </a>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     2.7 Peptide docking studies
+    </title>
+    <p>
+     Docking of Alix peptide onto Fyn(R96I)-SH3 and Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 mutants was performed using the high-resolution modeling protocol provided by FlexPepDock [
+     <xref ref-type="bibr">
+      19
+     </xref>
+     ]. The Fyn Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3:HIV-1 Nef crystal structure (PDB ID 1EFN [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ]) was used as a template for Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3. Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 was obtained by replacing I96 with an arginine (in its most common rotamer). The initial Alix peptide structure was obtained by computationally mutating and extending the Nef PXXP motif from the pdb template. FlexPepDock was set up to produce 300 low resolution and 300 high resolution structures. Produced models reached peptide backbone r.m.s.d. of more than 10 Å compared to the initial peptide structure, showing that the flexible docking procedure was not only exploring local minima.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    3. RESULTS AND DISCUSSION
+   </title>
+   <sec>
+    <title>
+     3.1 Isoleucine 92 from the Haemopoietic cell kinase RT-loop is involved in the specific recognition of ALIX
+     <sub>
+      V+PRR
+     </sub>
+    </title>
+    <p>
+     The so-called “tertiary” mode of recognition used by HIV-1 Nef to selectively target SH3 domains is provided by the folded core domain of the protein [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ]. In addition to binding mediated by the PPII helix, an isoleucine residue from the RT loop of the Hck SH3 domain (I92) inserts into a well-defined hydrophobic pocket formed by two α-helices of Nef. The corresponding residue in Fyn SH3 RT loop is an arginine (R96) which leads to a low affinity binding to Nef (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     &gt; 20 μM), whereas its substitution by an isoleucine (R96I) converts the Fyn SH3 domain from a low to a high affinity (
+     <em>
+      K
+      <sub>
+       d
+      </sub>
+     </em>
+     ≈ 0.4 μM) binding partner for Nef [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ]. This selective mode of recognition mediated by HIV-1 Nef was reproduced in a yeast two hybrid assay, as shown in
+     <a>
+      supplementary Figure S1A
+     </a>
+     . Co-transformation of cells with Nef resulted in β-Galactosidase production and yeast outgrowth on media lacking uracil for Hck-SH3 and Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 as baits, but not for Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3. These results were confirmed using the
+     <em>
+      lacz
+     </em>
+     and
+     <em>
+      his3
+     </em>
+     reporters for Nef:Hck-SH3 and Nef:Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 (because Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 alone was able to transactivate the
+     <em>
+      lacz
+     </em>
+     and
+     <em>
+      his3
+     </em>
+     , Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 could not be used with these reporter systems). In contrast to HIV-1 Nef, the Src-associated in mitosis 68 kDa (SAM68) protein interacted with comparable strength with every SH3 domain, indicating that the architecture of the SAM68 binding site cannot produce a Nef-like SH3 selection of the RT-loop amino acid position 96 (negative control).
+    </p>
+    <p>
+     Next, we analyzed the interaction between these SH3 domains and an Alix fragment encoded by one Alix clone, called IIIA9, obtained in a yeast two hybrid screening using the Hck SH3 domain as bait [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. This Alix fragment contained the Hck-interacting proline-rich region (PRR) as well as part of the Alix V domain(alignment details in
+     <a>
+      supplementary Figure S1C
+     </a>
+     ), suggesting that these two regions of the Alix V domain contribute to Hck SH3 binding, which was reminiscent of the Nef binding mode of action (
+     <a>
+      supplementary Figure S1B
+     </a>
+     ).
+    </p>
+    <p>
+     To confirm the “Nef-like” binding selectivity for the RT-loop position 92
+     <em>
+      in vitro
+     </em>
+     , we carried out GST pull-down experiments followed by SDS-PAGE and Coomassie blue staining. These experiments illustrate the binding of an Alix fragment encoding for the V domain and the SH3-binding PRR motif (Alix
+     <sub>
+      V+PRR
+     </sub>
+     ) to Hck-SH3-GST and Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3-GST but not to Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3-GST (
+     <a>
+      supplementary Figure S2
+     </a>
+     ). Thus, the recombinant ALIX
+     <sub>
+      V+PRR
+     </sub>
+     could differentiate SH3 domains according to their amino acids at position 92 (or 96 for Fyn), displaying a “Nef-like” selectivity
+     <em>
+      in vitro
+     </em>
+     .
+    </p>
+   </sec>
+   <sec>
+    <title>
+     3.2 Molecular recognition mode does not involve a 3D fingerprint but rather demonstrates an extended linear pattern
+    </title>
+    <p>
+     Next, we asked whether the ALIX
+     <sub>
+      V+PRR
+     </sub>
+     –SH3 binding site was demonstrating a structurally similar binding site to the one observed for HIV-1 Nef protein. For Nef, the tertiary SH3 recognition binding site is formed by the Nef PRR and part of the folded Nef core domain [
+     <xref ref-type="bibr">
+      14
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      16
+     </xref>
+     ]. In contrast, sequence analysis and secondary structure prediction indicates that the Alix PRR is located within an unstructured region, 35 residues away from the folded V domain (
+     <a>
+      supplementary Figure S3
+     </a>
+     ). The location of the Alix PRR in an unstructured region is consistent with our previous SAXS data for apo-ALIX
+     <sub>
+      V+PRR
+     </sub>
+     [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. We, and others, previously published ITC experiments indicating that the affinity and thermodynamic parameters of the Nef/Hck-SH3 interaction were dramatically different from those of the interaction between Hck-SH3 and the Nef PRR peptide [
+     <xref ref-type="bibr">
+      15
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      20
+     </xref>
+     ]. Similarly, previous ITC experiments for the Alix/Hck-SH3 complex demonstrated that a peptide containing the minimal Alix PxxP consensus motif (ALIX
+     <sub>
+      PI
+     </sub>
+     , residues 737 to 760) did not fully reproduce the binding characteristics of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     toward Hck-SH3; however, inclusion of residues N-terminal to the PxxP consensus motif in the peptide sequence almost completely restored the binding characteristics of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. In the present study, we demonstrate that the isolated peptide ALIX
+     <sub>
+      PI
+     </sub>
+     is also capable of distinguishing between Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     = 160 ± 30 μM) and Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     = 54 ± 10 μM), and that ALIX
+     <sub>
+      PI
+     </sub>
+     binds to each SH3 domain with
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     's similar to those observed with ALIX
+     <sub>
+      V+PRR
+     </sub>
+     (please refer to
+     <xref ref-type="fig">
+      Figure 1A and B
+     </xref>
+     for the peptide ALIX
+     <sub>
+      PI
+     </sub>
+     in complex with Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 or Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 experiments, to compare with [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ] for the peptide ALIX
+     <sub>
+      PI
+     </sub>
+     or ALIX
+     <sub>
+      V+PRR
+     </sub>
+     in complex with Hck-SH3 experiment). These results suggest that if a tertiary `Nef-like' binding occurs, its thermodynamic fingerprint is weak. Also, our previous NMR studies failed to show a significant difference between the imprints of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     and the Alix PRR peptide on Hck-SH3, and hence they failed to reveal a clear indicator of a tertiary 3D binding site [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. Therefore, we used NMR to investigate whether the imprint of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     on the different SH3 domains varies with their origin or affinity.
+    </p>
+    <fig id="F1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       (A–B) Experimental ITC binding curves for the interaction between ALIX
+       <sub>
+        PI
+       </sub>
+       and (A) Fyn
+       <sub>
+        (wt)
+       </sub>
+       -SH3, (B) Fyn
+       <sub>
+        (R96I)
+       </sub>
+       -SH3. Top panel: Raw ITC data from an experiment. Bottom panel: Nonlinear least-squares fit of the data from the top panel after blank subtraction.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     NMR HSQC experiments with
+     <sup>
+      15
+     </sup>
+     N-labelled Hck-SH3, Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3, and Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 in the presence of 1 equivalent of unlabelled ALIX
+     <sub>
+      V+PRR
+     </sub>
+     showed that the chemical shifts induced by ALIX
+     <sub>
+      V+PRR
+     </sub>
+     mapped to almost the same residues on the surfaces of all SH3 domains, including the low-affinity Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 domain (
+     <xref ref-type="fig">
+      Figure 2A–C
+     </xref>
+     ). For all SH3 domains tested, markedly affected residues were distributed over four regions of the SH3 domain—the RT loop, the nSrc loop, the 3
+     <sub>
+      10
+     </sub>
+     helix, and the canonical hydrophobic grooves (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     )—in agreement with the results of our previous study of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     binding to Hck-SH3 [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. Of note, the intensity of the chemical shift increased remarkably, as expected, with the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     observed (using strictly the same, 1 equivalent amount of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     in all experiments). Although the imprints are similar globally, subtle differences can be observed in the surface area of the residues involved in the recognition process; for example, the nSrc loop seems to be more involved in the Hck-SH3–ALIX
+     <sub>
+      V+PRR
+     </sub>
+     interaction than in the Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3–ALIX
+     <sub>
+      V+PRR
+     </sub>
+     interaction (
+     <xref ref-type="fig">
+      Figure 2A–C
+     </xref>
+     ). Nonetheless, the overall interaction mode is similar enough for all SH3 proteins to indicate a structurally similar engagement of all three SH3 domains by ALIX
+     <sub>
+      V+PRR
+     </sub>
+     . Also, the extent of the binding surface on SH3 domains is compatible with an ALIX
+     <sub>
+      V+PRR
+     </sub>
+     binding mode that has a linear “peptide-like” interaction rather than a `Nef-like' 3D interaction.
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       Mapping of the SH3 domains' atomic recognition surfaces in the presence of ALIX
+       <sub>
+        V+PRR
+       </sub>
+       by heteronuclear NMR. (A–C) Left: SH3 residues' chemical shifts observed for (A) Hck-SH3, (B) Fyn
+       <sub>
+        (R96I)
+       </sub>
+       -SH3, and (C) Fyn
+       <sub>
+        (WT)
+       </sub>
+       -SH3 in the presence of 1 equivalent of ALIX
+       <sub>
+        V+PRR
+       </sub>
+       , shown as histograms. The relative variations of
+       <sup>
+        1
+       </sup>
+       H and
+       <sup>
+        15
+       </sup>
+       N were calculated according to Grzesiek
+       <em>
+        et al.
+       </em>
+       [
+       <xref ref-type="bibr">
+        22
+       </xref>
+       ]. Center: Ribbon representation of the different SH3 domains with important interacting residues in yellow for (A) Hck-SH3, (B) Fyn
+       <sub>
+        (R96I)
+       </sub>
+       -SH3, and (C) Fyn
+       <sub>
+        (WT)
+       </sub>
+       -SH3 (PDB entries 1BU1, 1EFN, and 1AVZ, respectively). Right: Corresponding chemical shifts of the SH3 proteins in the presence of 1 equivalent of ALIX
+       <sub>
+        V+PRR
+       </sub>
+       , shown as a surface representation onto the SH3 domain structures. Small chemical shift variations are represented in yellow, larger shifts in orange, and the largest in red.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     3.3 Molecular model of the SH3-ALIX
+     <sub>
+      V+PRR
+     </sub>
+     complex
+    </title>
+    <p>
+     To corroborate that the PRR in ALIX
+     <sub>
+      V+PRR
+     </sub>
+     does not join the V domain to form a `Nef-like' tertiary SH3 binding site upon SH3 engagement, we used SAXS. Ensemble Optimization Method (EOM) reconstructions showed that the PRR-bound Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 was highly flexible and had a large, variable distance from the V domain core (
+     <xref ref-type="fig">
+      Figure 3 A–B
+     </xref>
+     ). The maximum diameter (D
+     <sub>
+      m
+     </sub>
+     ) calculated from the SAXS data for Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3-bound ALIX
+     <sub>
+      V+PRR
+     </sub>
+     (
+     <em>
+      D
+     </em>
+     <sub>
+      m
+     </sub>
+     = 190 ± 10 Å) was the same as the
+     <em>
+      D
+     </em>
+     <sub>
+      m
+     </sub>
+     value we measured previously for apo-ALIX
+     <sub>
+      V+PRR
+     </sub>
+     [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ]. These results argue against a model in which the SH3 binding motif in the flexible region C-terminal to the Alix V domain folds back onto the V domain to form a combined tertiary SH3 site.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       SAXS model of ALIX
+       <sub>
+        V+PRR
+       </sub>
+       complexed to Fyn
+       <sub>
+        (R96I)
+       </sub>
+       -SH3. (A) Fit of EOM SAXS ensemble model (red) to data (black). (B) Three representative structural models taken from an ensemble of 15 structures produced by EOM on the basis of SAXS data, superimposed on their Alix V domain (black ribbon). ALIX
+       <sub>
+        V+PRR
+       </sub>
+       -bound Fyn
+       <sub>
+        (R96I)
+       </sub>
+       -SH3 (represented as secondary structures) and flexible residues (represented as spheres) linking the Alix PRR to the V domain have a different color for each model. (C) Alix peptide/Fyn
+       <sub>
+        (R96I)
+       </sub>
+       -SH3 (top) and Alix peptide/Fyn
+       <sub>
+        (WT)
+       </sub>
+       -SH3 (bottom) 3D interaction models obtained from Flexpepdock. SH3 domains are oriented as in
+       <xref ref-type="fig">
+        Figure 2
+       </xref>
+       . SH3 surfaces are colored according to blue, positively charged atoms; red, negatively charged atoms; green, hydrophobic atoms; salmon, polar oxygens; light blue, polar nitrogens; yellow, sulfur. The Alix peptide is shown as a stick model.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Together, our data indicate that Alix achieves a `Nef-like' RT-loop selection through a linear “peptide-like” binding mode rather than through a `Nef-like' tertiary SH3 recognition mode. Hence, the observed differences in the Y2H and
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     , especially between Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3 and Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3, must be explained by differences in the interaction between the Alix PRR sequence and the SH3 RT loops. All attempts to crystallize Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 in a complex with Alix PRR failed, because all crystals packing involve homologous interactions between PxxP-motif binding sites of the SH3 domain. We therefore used the high-resolution docking and refinement protocol FlexPepDock [
+     <xref ref-type="bibr">
+      19
+     </xref>
+     ] to model SH3–peptide complexes. FlexPepDock is implemented within the ROSETTA framework, which has proven its high accuracy in several landmark modeling successes. The obtained Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3/ALIX
+     <sub>
+      PI
+     </sub>
+     and Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3/ALIX
+     <sub>
+      PI
+     </sub>
+     structures provide a possible explanation for how a linear sequence can distinguish between R96 and I96. These structures show that in addition to the canonical interaction between Fyn D100 and Alix R757, the I96 of Fyn
+     <sub>
+      (R96I)
+     </sub>
+     -SH3 may establish favorable hydrophobic interactions with ALIX
+     <sub>
+      PI
+     </sub>
+     prolines 754, 758–759 (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ). These favorable proximity of hydrophobic residues is not possible with R96 of Fyn
+     <sub>
+      (WT)
+     </sub>
+     -SH3. In addition, the proximity of the positive charge of R96 may also decrease the strength of an interaction between Fyn E94 and ALIX
+     <sub>
+      PI
+     </sub>
+     K751. E94 is conserved in Hck-SH3, and FlexPepDock analysis suggests that this E94–ALIX
+     <sub>
+      PI
+     </sub>
+     K751 interaction is conserved in Hck (data not shown). Our docking analysis also provides a possible explanation for our previous observation that the minimal Alix PxxP consensus does not fully reproduce the binding of ALIX
+     <sub>
+      V+PRR
+     </sub>
+     [
+     <xref ref-type="bibr">
+      12
+     </xref>
+     ], by suggesting that Alix M747 (which was not included in the minimal Alix PxxP peptide) engages a hydrophobic interaction with an apolar pocket formed by Fyn-SH3 L90 and Y91.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    3. CONCLUSION
+   </title>
+   <p>
+    Our results indicate that ALIX achieves a `Nef-like' RT-loop selection through an extended linear “peptide-like” binding mode rather than through a `Nef-like' tertiary SH3 recognition mode. Our binding studies and computational modeling analysis suggest a molecular basis for how the extended linear interaction of ALIX with Hck-SH3 is capable of reproducing the 3D `tertiary' binding mode of HIV-1 Nef without a 3D organization. Together with the observation that linear SH3-binding motifs can bind to SH3 domains with similar affinities than does HIV-1 Nef [
+    <xref ref-type="bibr">
+     21
+    </xref>
+    ], this opens the question why Nef uses a costly three-dimensional framework for SH3 binding if a much simpler linear recognition motif achieves the same affinity and specificity.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (818K, doc)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ACKNOWLEDGEMENTS
+   </title>
+   <sec>
+    <p>
+     We thank Olivier Bornet for performing the NMR recording experiments, Marielle Beauzan for bacterial expression, Dieter Vermeire for Biacore support, Karen Muller for editorial assistance, Pascal Verdié for peptide synthesis and Javier Perez for support and setup of the SAXS beamline at the SOLEIL synchrotron in Paris, France.
+    </p>
+    <p>
+     <strong>
+      FUNDING
+     </strong>
+     This work was supported by the Centre National de la Recherche Scientifique (CNRS); the Institut National de la Santé et de la Recherche Médicale (INSERM); the Agence Nationale de Recherche sur le SIDA et les hépatites virales (ANRS); the Ministry of Science and Technology, China [grant numbers 2007CB914304; 2006AA02A313]; the National Natural Science Foundation of China (NSFC) [grant numbers 30800181; 30625011]; the Research Foundation Flanders (FWO); the concerted action programme of the Katholieke Universiteit Leuven; and the National Institutes of Health (MD Anderson's Cancer Center Support) [grant number CA016672]. S.O. and A.L. were fellows of the ANRS, and X.S. was a fellow of the `Ambassade de France en Chine'.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    ABBREVIATIONS
+   </title>
+   <sec>
+    <sec>
+     <table>
+      <tbody>
+       <tr>
+        <td>
+         ALG-2
+        </td>
+        <td>
+         apoptosis-linked-gene-2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Alix
+        </td>
+        <td>
+         ALG-2 interacting protein X
+        </td>
+       </tr>
+       <tr>
+        <td>
+         EOM
+        </td>
+        <td>
+         ensemble optimization method
+        </td>
+       </tr>
+       <tr>
+        <td>
+         GST
+        </td>
+        <td>
+         glutathione S-transferase
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Hck
+        </td>
+        <td>
+         haemopoietic
+        </td>
+       </tr>
+       <tr>
+        <td>
+         HSQC
+        </td>
+        <td>
+         heteronuclear single quantum coherence
+        </td>
+       </tr>
+       <tr>
+        <td>
+         ITC
+        </td>
+        <td>
+         isothermal titration calorimetry
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PDB
+        </td>
+        <td>
+         Protein Data Bank
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PPII
+        </td>
+        <td>
+         polyproline type II
+        </td>
+       </tr>
+       <tr>
+        <td>
+         PRR
+        </td>
+        <td>
+         proline-rich region
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SAXS
+        </td>
+        <td>
+         small-angle X-ray scattering
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SFKs
+        </td>
+        <td>
+         Src family of non-receptor protein tyrosine kinases
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    REFERENCES
+   </title>
+   <sec>
+    <sec>
+     [1]
+     <span>
+      Chatellard-Causse C, Blot B, Cristina N, Torch S, Missotten M, Sadoul R. Alix (ALG-2-interacting protein X), a protein involved in apoptosis, binds to endophilins and induces cytoplasmic vacuolization.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2002;
+       <span>
+        277
+       </span>
+       :29108–15.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [2]
+     <span>
+      Pan S, et al.  Involvement of the conserved adaptor protein Alix in actin cytoskeleton assembly.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2006;
+       <span>
+        281
+       </span>
+       :34640–50.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [3]
+     <span>
+      Schmidt MH, Hoeller D, Yu J, Furnari FB, Cavenee WK, Dikic I, Bögler O. Alix/AIP1 antagonizes epidermal growth factor receptor downregulation by the Cbl-SETA/CIN85 complex.
+      <span>
+       <span>
+        Mol Cell Biol.
+       </span>
+       2004;
+       <span>
+        24
+       </span>
+       :8981–93.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [4]
+     <span>
+      Katoh K, Shibata H, Suzuki H, Nara A, Ishidoh K, Kominami E, Yoshimori T, Maki M. The ALG-2-interacting protein Alix associates with CHMP4b, a human homologue of yeast Snf7 that is involved in multivesicular body sorting.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2003;
+       <span>
+        278
+       </span>
+       :39104–13.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [5]
+     <span>
+      Matsuo H, et al.  Role of LBPA and Alix in multivesicular liposome formation and endosome organization.
+      <span>
+       <span>
+        Science.
+       </span>
+       2004;
+       <span>
+        303
+       </span>
+       :531–4.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [6]
+     <span>
+      Trioulier Y, Torch S, Blot B, Cristina N, Chatellard-Causse C, Verna JM, Sadoul R. Alix, a protein regulating endosomal trafficking, is involved in neuronal death.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2004;
+       <span>
+        279
+       </span>
+       :2046–52.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [7]
+     <span>
+      Strack B, Calistri A, Craig S, Popova E, Göttlinger HG. AIP1/ALIX is a binding partner for HIV-1 p6 and EIAV p9 functioning in virus budding.
+      <span>
+       <span>
+        Cell.
+       </span>
+       2003;
+       <span>
+        114
+       </span>
+       :689–99.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [8]
+     <span>
+      Odorizzi G. The multiple personalities of Alix.
+      <span>
+       <span>
+        J Cell Sci.
+       </span>
+       2006;
+       <span>
+        119
+       </span>
+       :3025–32.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [9]
+     <span>
+      Schmidt MH, Dikic I, Bögler O. Src phosphorylation of Alix/AIP1 modulates its interaction with binding partners and antagonizes its activities.
+      <span>
+       <span>
+        J Biol Chem.
+       </span>
+       2005;
+       <span>
+        280
+       </span>
+       :3414–25.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [10]
+     <span>
+      Lee S, Joshi A, Nagashima K, Freed EO, Hurley JH. Structural basis for viral late-domain binding to Alix.
+      <span>
+       <span>
+        Nat Struct Mol Biol.
+       </span>
+       2007;
+       <span>
+        14
+       </span>
+       :194–9.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [11]
+     <span>
+      Fisher RD, Chung HY, Zhai Q, Robinson H, Sundquist WI, Hill CP. Structural and biochemical studies of ALIX/AIP1 and its role in retrovirus budding.
+      <span>
+       <span>
+        Cell.
+       </span>
+       2007;
+       <span>
+        128
+       </span>
+       :841–52.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [12]
+     <span>
+      Shi X, et al.  Identification and biophysical assessment of the molecular recognition mechanisms between the human haemopoietic cell kinase Src homology domain 3 and ALG-2-interacting protein X.
+      <span>
+       <span>
+        Biochem J.
+       </span>
+       2010;
+       <span>
+        431
+       </span>
+       :93–102.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [13]
+     <span>
+      Guiet R, Poincloux R, Castandet J, Marois L, Labrousse A, Le Cabec V, Maridonneau-Parini I. Hematopoietic cell kinase (Hck) isoforms and phagocyte duties - from signaling and actin reorganization to migration and phagocytosis.
+      <span>
+       <span>
+        Eur J Cell Biol.
+       </span>
+       2008;
+       <span>
+        87
+       </span>
+       :527–42.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [14]
+     <span>
+      Lee CH, Saksela K, Mirza UA, Chait BT, Kuriyan J. Crystal structure of the conserved core of HIV-1 Nef complexed with a Src family SH3 domain.
+      <span>
+       <span>
+        Cell.
+       </span>
+       1996;
+       <span>
+        85
+       </span>
+       :931–42.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [15]
+     <span>
+      Lee CH, Leung B, Lemmon MA, Zheng J, Cowburn D, Kuriyan J, Saksela K. A single amino acid in the SH3 domain of Hck determines its high affinity and specificity in binding to HIV-1 Nef protein.
+      <span>
+       <span>
+        EMBO J.
+       </span>
+       1995;
+       <span>
+        14
+       </span>
+       :5006–15.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [16]
+     <span>
+      Arold S, Franken P, Strub MP, Hoh F, Benichou S, Benarous R, Dumas C. The crystal structure of HIV-1 Nef protein bound to the Fyn kinase SH3 domain suggests a role for this complex in altered T cell receptor signaling.
+      <span>
+       <span>
+        Structure.
+       </span>
+       1997;
+       <span>
+        5
+       </span>
+       :1361–72.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [17]
+     <span>
+      Li SS. Specificity and versatility of SH3 and other proline-recognition domains: structural basis and implications for cellular signal transduction.
+      <span>
+       <span>
+        Biochem J.
+       </span>
+       2005;
+       <span>
+        390
+       </span>
+       :641–53.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [18]
+     <span>
+      Walhout AJ, Vidal M. High-throughput yeast two-hybrid assays for large-scale protein interaction mapping.
+      <span>
+       <span>
+        Methods.
+       </span>
+       2001;
+       <span>
+        24
+       </span>
+       :297–306.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [19]
+     <span>
+      London N, Raveh B, Cohen E, Fathi G, Schueler-Furman O. Rosetta FlexPepDock web server--high resolution modeling of peptide-protein interactions.
+      <span>
+       <span>
+        Nucleic Acids Res.
+       </span>
+       2011;
+       <span>
+        39
+       </span>
+       :W249–53.
+      </span>
+      <span>
+       [
+       <a>
+        PMC free article
+       </a>
+       ]
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [20]
+     <span>
+      Arold S, O'Brien R, Franken P, Strub MP, Hoh F, Dumas C, Ladbury JE. RT loop flexibility enhances the specificity of Src family SH3 domains for HIV-1 Nef.
+      <span>
+       <span>
+        Biochemistry.
+       </span>
+       1998;
+       <span>
+        37
+       </span>
+       :14683–91.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [21]
+     <span>
+      Ladbury JE, Arold ST. Energetics of Src homology domain interactions in receptor tyrosine kinase-mediated signaling.
+      <span>
+       <span>
+        Methods Enzymol.
+       </span>
+       2011;
+       <span>
+        488
+       </span>
+       :147–83.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+    <sec>
+     [22]
+     <span>
+      Grzesiek S, et al.  The solution structure of HIV-1 Nef reveals an unexpected fold and permits delineation of the binding surface for the SH3 domain of Hck tyrosine protein kinase.
+      <span>
+       <span>
+        Nat Struct Biol.
+       </span>
+       1996;
+       <span>
+        3
+       </span>
+       :340–5.
+      </span>
+      <span>
+       [
+       <a>
+        PubMed
+       </a>
+       ]
+      </span>
+     </span>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

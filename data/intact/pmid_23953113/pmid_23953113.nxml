@@ -1,0 +1,1273 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    http://dx.doi.org/10.1016/j.cell.2013.07.017
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    The Yeast Ski Complex: Crystal Structure and RNA Channeling to the Exosome Complex
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    RNA degradation is involved in the processing, turnover, and surveillance of virtually all RNAs in eukaryotic cells and is thus a central process for gene expression (reviewed in
+    <a>
+     Houseley and Tollervey, 2009
+    </a>
+    ). A conserved multiprotein complex, the exosome, is the main nuclease that degrades RNAs in the 3′-to-5′ direction (reviewed in
+    <a>
+     Lebreton and Séraphin, 2008
+    </a>
+    and
+    <a>
+     Lykke-Andersen et al., 2009
+    </a>
+    ). The 400 kDa core complex of the eukaryotic exosome is formed by ten subunits (Exo-10) (
+    <a>
+     Mitchell et al., 1997
+    </a>
+    ). Nine subunits are catalytically inert (
+    <a>
+     Dziembowski et al., 2007
+    </a>
+    and
+    <a>
+     Liu et al., 2006
+    </a>
+    ) but form a conserved channel that threads single-stranded RNA substrates to the processive exoribonuclease in the complex, Rrp44 (
+    <a>
+     Bonneau et al., 2009
+    </a>
+    ,
+    <a>
+     Makino et al., 2013
+    </a>
+    and
+    <a>
+     Wasmuth and Lima, 2012
+    </a>
+    ). All Exo-10 subunits are essential in yeast and form a stable assembly present in both the nucleus and the cytoplasm (
+    <a>
+     Allmang et al., 1999
+    </a>
+    and
+    <a>
+     Mitchell et al., 1997
+    </a>
+    ).
+   </p>
+   <p>
+    Auxiliary factors have been identified that bind and regulate the exosome in a compartment-specific manner (reviewed in
+    <a>
+     Houseley et al., 2006
+    </a>
+    ,
+    <a>
+     Lebreton and Séraphin, 2008
+    </a>
+    ,
+    <a>
+     Lykke-Andersen et al., 2009
+    </a>
+    and
+    <a>
+     Vanacova and Stefl, 2007
+    </a>
+    ). Among these, important exosome regulators are RNA helicases that are specifically localized either to the cytoplasm (Ski2) (
+    <a>
+     Anderson and Parker, 1998
+    </a>
+    and
+    <a>
+     Brown et al., 2000
+    </a>
+    ) or to the nucleus (Mtr4) (
+    <a>
+     de la Cruz et al., 1998
+    </a>
+    ). Ski2 and Mtr4 share a similar overall fold (
+    <a>
+     Halbach et al., 2012
+    </a>
+    ,
+    <a>
+     Jackson et al., 2010
+    </a>
+    and
+    <a>
+     Weir et al., 2010
+    </a>
+    ) and are also similar in that they participate in protein complexes. Mtr4 functions both in isolation and in the context of the TRAMP complex (
+    <a>
+     LaCava et al., 2005
+    </a>
+    ,
+    <a>
+     van Hoof et al., 2000a
+    </a>
+    ,
+    <a>
+     Vanácová et al., 2005
+    </a>
+    and
+    <a>
+     Wyers et al., 2005
+    </a>
+    ). Ski2 associates with Ski3 and Ski8 to form the so-called Ski complex (
+    <a>
+     Anderson and Parker, 1998
+    </a>
+    and
+    <a>
+     Brown et al., 2000
+    </a>
+    ).
+   </p>
+   <p>
+    The Ski complex is evolutionarily conserved and has been shown to participate in many cytoplasmic pathways of the exosome in both yeast and metazoan cells, including 3′-to-5′ mRNA turnover (
+    <a>
+     Anderson and Parker, 1998
+    </a>
+    ,
+    <a>
+     Araki et al., 2001
+    </a>
+    and
+    <a>
+     van Hoof et al., 2000b
+    </a>
+    ), nonstop decay (
+    <a>
+     van Hoof et al., 2002
+    </a>
+    ), nonsense-mediated decay (
+    <a>
+     Mitchell and Tollervey, 2003
+    </a>
+    ), and RNAi (
+    <a>
+     Orban and Izaurralde, 2005
+    </a>
+    ). In
+    <em>
+     S. cerevisiae
+    </em>
+    ,
+    <em>
+     SKI2
+    </em>
+    ,
+    <em>
+     SKI3
+    </em>
+    , and
+    <em>
+     SKI8
+    </em>
+    mutants are synthetically lethal with a deletion of
+    <em>
+     SKI1/XRN1
+    </em>
+    (
+    <a>
+     Anderson and Parker, 1998
+    </a>
+    and
+    <a>
+     Johnson and Kolodner, 1995
+    </a>
+    ), the 5′-to-3′ exoribonuclease that operates redundantly with the exosome (
+    <a>
+     Garneau et al., 2007
+    </a>
+    ). An additional protein, Ski7, physically links the Ski and exosome complexes (
+    <a>
+     Araki et al., 2001
+    </a>
+    ). Interestingly, genetic data indicate that Ski8 is unique among all Ski proteins in that it also moonlights in a separate process: meiotic DNA recombination (
+    <a>
+     Arora et al., 2004
+    </a>
+    ).
+   </p>
+   <p>
+    The Ski complex is predicted to harbor a single enzymatic activity embedded in the helicase core of Ski2. Ski3 and Ski8 contain tetratricopeptide repeats (TPRs) and WD40 repeats, respectively. These structural motifs typically mediate protein-protein interactions (
+    <a>
+     D’Andrea and Regan, 2003
+    </a>
+    and
+    <a>
+     Stirnimann et al., 2010
+    </a>
+    ). Native mass spectrometry analysis has revealed that the endogenous complex from yeast contains one copy of Ski2 and Ski3 and two copies of Ski8 (
+    <a>
+     Synowsky and Heck, 2008
+    </a>
+    ). How and why the Ski complex is organized in a 1:1:2 stoichiometry and why Ski2 interacts with Ski3 and Ski8 to perform its functions are unknown. In addition, it remains unclear how the Ski complex cooperates with the exosome. In this manuscript, we report a combination of biochemical and structural studies that address these questions.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results and Discussion
+   </title>
+   <title>
+    Ski3 and Ski8 Modulate the Biochemical Properties of Ski2
+   </title>
+   <p>
+    <em>
+     S. cerevisiae
+    </em>
+    Ski2 is a 146 kDa multidomain protein. The N-terminal region is required and sufficient for the interaction with Ski3 and Ski8 in vivo (
+    <a>
+     Wang et al., 2005
+    </a>
+    ). The C-terminal helicase region contains the catalytic core typical of the DExH family of RNA-dependent ATPases as well as an insertion domain with RNA-binding properties (
+    <a>
+     Halbach et al., 2012
+    </a>
+    ) (
+    <a>
+     Figure 1
+    </a>
+    A). Ski3 is a 164 kDa protein with 24 predicted TPRs, as estimated by profile-based sequence analysis (
+    <a>
+     Karpenahalli et al., 2007
+    </a>
+    ). Ski8 folds into a β propeller protein of 44 kDa formed by seven WD40 repeats (
+    <a>
+     Cheng et al., 2004
+    </a>
+    and
+    <a>
+     Madrona and Wilson, 2004
+    </a>
+    ). To investigate whether the enzymatic properties of Ski2 are modulated by binding to Ski3 and Ski8, we purified recombinant
+    <em>
+     S. cerevisiae
+    </em>
+    Ski2 and Ski2-Ski3-Ski8 (hereafter referred to as Ski2-3-8) from baculovirus-infected insect cells. Notably, the Ski complex could only be purified by coexpression because Ski3 proved to be insoluble when expressed in isolation.
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Ski3 and Ski8 Modulate the RNA-Binding and ATPase Properties of Ski2(A) Domain ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S009286741300888X-gr1.jpg" data-thumbEID="1-s2.0-S009286741300888X-gr1.sml" data-imgEIDs="1-s2.0-S009286741300888X-gr1.jpg" data-fullEID="1-s2.0-S009286741300888X-gr1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (559 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    We characterized the ATPase activity of Ski2 using a spectrophotometric enzyme-coupled assay (
+    <a>
+     Bradley and De La Cruz, 2012
+    </a>
+    ). As expected for an RNA-dependent ATPase, Ski2 was inactive in the absence of RNA (k
+    <sub>
+     cat
+    </sub>
+    &lt; 0.007 s
+    <sup>
+     −1
+    </sup>
+    ) but showed ATPase activity in the presence of a U
+    <sub>
+     25
+    </sub>
+    RNA oligo (k
+    <sub>
+     cat
+    </sub>
+    ∼3 s
+    <sup>
+     −1
+    </sup>
+    ) (
+    <a>
+     Figure 1
+    </a>
+    B). These values are comparable to those previously reported for the Mtr4 helicase using a similar assay (
+    <a>
+     Bernstein et al., 2010
+    </a>
+    ). When in complex with Ski3 and Ski8, the ATPase rate of Ski2 decreased 5-fold, whereas the K
+    <sub>
+     M
+    </sub>
+    for ATP remained essentially unchanged (
+    <a>
+     Figure 1
+    </a>
+    B). The ATPase activity of the Ski2-3-8 complex was abolished by a single-point mutation in the Ski2 DExH core (Glu445 to Gln), confirming that the catalytic site resides exclusively in Ski2 (
+    <a>
+     Figure 1
+    </a>
+    B). We conclude that Ski2 is a less efficient ATPase when bound to Ski3 and Ski8.
+   </p>
+   <p>
+    We next employed RNase protection assays to investigate the extent of RNA-protein interactions. Protein samples incubated with an internally labeled single-stranded C(
+    <sup>
+     ∗
+    </sup>
+    UC)
+    <sub>
+     28
+    </sub>
+    RNA oligo were treated with RNase A/T1, and the protected RNA fragments were analyzed by denaturing PAGE. No RNase protection was observed with Ski2 in isolation, neither in the presence nor in the absence of ATP analogs (
+    <a>
+     Figure 1
+    </a>
+    C, lanes 4 and 5). In the case of Ski2-3-8, fragments of 9 to 10 nt accumulated in the presence of nucleotide analogs that mimic the ground state of the ATPase reaction (ADP-beryllium fluoride,
+    <a>
+     Figure 1
+    </a>
+    C, compare lanes 6 and 7). We conclude that the association with Ski3 and Ski8 stabilizes RNA binding to Ski2. The finding that Ski3 and Ski8 increase RNA binding and decrease the ATPase activity of Ski2 suggests that, in addition to the N-terminal region, the helicase core of Ski2 is also involved in and/or regulated by the association with Ski3 and Ski8. To understand the underlying mechanisms, we determined the crystal structure of a core Ski complex.
+   </p>
+   <title>
+    Overall Structure of the Yeast Ski2
+    <sup>
+     Δinsert
+    </sup>
+    -3-8 Complex
+   </title>
+   <p>
+    Attempts to crystallize the full-length yeast Ski complex were not successful. We had previously reported that the flexible insertion domain of Ski2 is dispensable for formation of Ski2-3-8 (
+    <a>
+     Halbach et al., 2012
+    </a>
+    ). Removal of this domain (residues 835–1,085 replaced by a Gly-Ser-Arg-Gly linker, designated Ski2
+    <sup>
+     Δinsert
+    </sup>
+    ) enabled us to obtain crystals of the complex suitable for structure determination. The structure of Ski2
+    <sup>
+     Δinsert
+    </sup>
+    -3-8 was determined at 3.7 Å resolution using selenomethionine-based single-wavelength anomalous diffraction (SAD) combined with molecular replacement (using the coordinates of Ski2
+    <sup>
+     ΔN-Δinsert
+    </sup>
+    [
+    <a>
+     Halbach et al., 2012
+    </a>
+    ] and of Ski8 [
+    <a>
+     Cheng et al., 2004
+    </a>
+    ]). Despite the moderate resolution, we could build and refine the structure to an R
+    <sub>
+     free
+    </sub>
+    of 26.5% and an R
+    <sub>
+     work
+    </sub>
+    of 23.1%, with good stereochemistry (
+    <a>
+     Table 1
+    </a>
+    ). The accurate tracing of the polypeptide chains was aided by a combination of factors: the quality of the electron density map after averaging and B factor sharpening (
+    <a>
+     DeLaBarre and Brunger, 2006
+    </a>
+    ), the position of the labeled methionines as sequence markers, and the regular topology of TPRs (
+    <a>
+     Figure S1
+    </a>
+    A available online). The atomic models of the two Ski2
+    <sup>
+     Δinsert
+    </sup>
+    -3-8 complexes present in the asymmetric unit of the crystals include essentially the complete polypeptides. Notable exceptions are two long (and poorly conserved) loops in Ski3 and Ski2 (residues 340–398 and residues 542–606, respectively) and the linker between the N-terminal and helicase regions of Ski2 (residues 207–300), which were either disordered or partially built as a polyalanine model (
+    <a>
+     Figure S1
+    </a>
+    B).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dd>
+       <div>
+        <span>
+         Table 1.
+        </span>
+        <p>
+         Data Collection and Refinement Statistics for Native and Selenomethionine-Substituted Ski2
+         <sup>
+          Δinsert
+         </sup>
+         -3-8 Crystals
+        </p>
+       </div>
+      </dd>
+      <dd>
+       <table>
+        <colgroup>
+         <col>
+         </col>
+         <col>
+         </col>
+         <col>
+         </col>
+        </colgroup>
+        <thead>
+         <tr>
+          <th>
+           Data Set
+          </th>
+          <th>
+           Native
+          </th>
+          <th>
+           SeMet (Peak)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Space group
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Cell dimension a (Å)
+          </td>
+          <td>
+           183.4
+          </td>
+          <td>
+           184.0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Cell dimension b (Å)
+          </td>
+          <td>
+           200.4
+          </td>
+          <td>
+           200.0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Cell dimension c (Å)
+          </td>
+          <td>
+           340.2
+          </td>
+          <td>
+           341.2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Molecules/asymmetric unit
+          </td>
+          <td>
+           2
+          </td>
+          <td>
+           2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <strong>
+            Data Collection
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Wavelength (Å)
+          </td>
+          <td>
+           0.9788
+          </td>
+          <td>
+           0.9788
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Resolution (Å)
+          </td>
+          <td>
+           3.7 (3.9–3.7)
+          </td>
+          <td>
+           4.6 (4.85–4.6)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           R
+           <sub>
+            merge
+           </sub>
+          </td>
+          <td>
+           0.14 (0.91)
+          </td>
+          <td>
+           0.21 (1.27)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           I/σI
+          </td>
+          <td>
+           5.8 (1.4)
+          </td>
+          <td>
+           19.6 (4.5)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Completeness (%)
+          </td>
+          <td>
+           99.1 (99.2)
+          </td>
+          <td>
+           100 (100)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Multiplicity
+          </td>
+          <td>
+           3.3
+          </td>
+          <td>
+           26.0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CC
+           <sub>
+            1/2
+           </sub>
+          </td>
+          <td>
+           0.99 (0.46)
+          </td>
+          <td>
+           1.0 (0.92)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <strong>
+            Refinement
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Number of unique reflections
+          </td>
+          <td>
+           132,408
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           R
+           <sub>
+            work
+           </sub>
+           /R
+           <sub>
+            free
+           </sub>
+           (%)
+          </td>
+          <td>
+           23.1/26.5
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Average B factors (Å
+           <sup>
+            2
+           </sup>
+           )
+          </td>
+          <td>
+           116.8
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Number of atoms (nonhydrogen)
+          </td>
+          <td>
+           43,020
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <strong>
+            Stereochemistry
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Rmsd bond lengths (Å)
+          </td>
+          <td>
+           0.005
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Rmsd bond angles (°)
+          </td>
+          <td>
+           0.81
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Ramachandran outliers (%)
+          </td>
+          <td>
+           0.3
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Ramachandran favored (%)
+          </td>
+          <td>
+           95.5
+          </td>
+          <td>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </dd>
+      <dd>
+       <p>
+       </p>
+       <p>
+        Values for the highest-resolution shell are given in parentheses. Structure validation was carried out using MolProbity (
+        <a>
+         Chen et al., 2010
+        </a>
+        ). See also
+        <a>
+         Figure S1
+        </a>
+        .
+       </p>
+       <p>
+       </p>
+      </dd>
+      <dd>
+       <a>
+        Full-size table
+       </a>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Table options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          View in workspace
+         </a>
+        </li>
+        <li>
+         <div>
+          <a>
+           Download as CSV
+          </a>
+         </div>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Structure Determination and Final Model of Ski2&amp;#916;insert-3-8, Related to Table ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S009286741300888X-figs1.jpg" data-thumbEID="1-s2.0-S009286741300888X-figs1.sml" data-imgEIDs="1-s2.0-S009286741300888X-figs1.jpg" data-fullEID="1-s2.0-S009286741300888X-figs1.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig1" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1391 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The crystal structure of Ski2
+    <sup>
+     Δinsert
+    </sup>
+    -3-8 reveals a tetrameric assembly, with one molecule of Ski2 and two molecules of Ski8 arranged around Ski3 (
+    <a>
+     Figure 2
+    </a>
+    A). Ski3 forms a TPR solenoid consisting of two arms of similar length (∼140 Å) and roughly perpendicular to each other, resulting in an L-shaped molecule. The N-terminal region of Ski2 wraps around the C-terminal arm of Ski3. The helicase region of Ski2 docks to a central surface of Ski3 and contacts both molecules of Ski8. One Ski8 subunit has an outer, peripheral position in the complex (hereby referred to as Ski8
+    <sub>
+     OUT
+    </sub>
+    ), whereas the other Ski8 subunit is located more centrally within the complex (referred to as Ski8
+    <sub>
+     IN
+    </sub>
+    ) (
+    <a>
+     Figure 2
+    </a>
+    A).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="The Ski Complex Is a Tetramer Organized around the TPR Protein Ski3(A) The ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S009286741300888X-gr2.jpg" data-thumbEID="1-s2.0-S009286741300888X-gr2.sml" data-imgEIDs="1-s2.0-S009286741300888X-gr2.jpg" data-fullEID="1-s2.0-S009286741300888X-gr2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1221 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    Ski3 Is a Solenoid of 33 TPR Motifs and Forms the Scaffold of the Ski Complex
+   </title>
+   <p>
+    Canonical TPR motifs consist of 34 residues with a characteristic pattern of small and large hydrophobic side chains (
+    <a>
+     Hirano et al., 1990
+    </a>
+    and
+    <a>
+     Sikorski et al., 1990
+    </a>
+    ). TPRs fold into two antiparallel α helices (termed A and B) and usually occur in arrays of up to 16 repeats (
+    <a>
+     Das et al., 1998
+    </a>
+    ). Consecutive repeats typically pack side-by-side with an ∼50° rotation, giving rise to superhelical solenoids with a concave and a convex surface. The Ski2
+    <sup>
+     Δinsert
+    </sup>
+    -3-8 crystal structure reveals that the entire polypeptide chain of Ski3 forms an array of 33 contiguous TPR motifs. Nevertheless, the N-terminal and C-terminal arms of this solenoid have different structural and functional characteristics.
+   </p>
+   <p>
+    The N-terminal arm of Ski3 encompasses TPRs 1–10 and points into solution (
+    <a>
+     Figures 2
+    </a>
+    A and 2B, left). This part of the molecule contains noncanonical repeats, featuring a split B helix (TPRs 4 to 5) or large interrepeat angles (TPRs 6 to 7) (
+    <a>
+     Figure 2
+    </a>
+    C). TPRs 4–7 disrupt the regular stacking of the flanking canonical repeats (TPRs 1–3 and 8–10). This arrangement generates an overall extended structure with significant flexibility. Superposition of the two independent copies of the complex in the asymmetric unit of the crystals shows movements of the N-terminal arm of up to 20 Å (
+    <a>
+     Figure S2
+    </a>
+    A), whereas the rest of the complex remains rigid. The N-terminal arm of Ski3 is not involved in interactions with Ski2
+    <sup>
+     Δinsert
+    </sup>
+    or Ski8 (
+    <a>
+     Figure 2
+    </a>
+    A). Nevertheless, TPRs 1–3 feature a prominent cluster of conserved positively charged surface residues (
+    <a>
+     Figure S2
+    </a>
+    B), pointing to a potential functional site.
+   </p>
+  </sec>
+  <sec>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="The N-Terminal Arm of Ski3 Is Flexible and Contains a Conserved Surface Patch, ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S009286741300888X-figs2.jpg" data-thumbEID="1-s2.0-S009286741300888X-figs2.sml" data-imgEIDs="1-s2.0-S009286741300888X-figs2.jpg" data-fullEID="1-s2.0-S009286741300888X-figs2.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig2" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (613 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The C-terminal arm of Ski3 consists of TPRs 11–33 and a single C-terminal capping helix that stacks against TPR 33 (
+    <a>
+     Figure 2
+    </a>
+    B, right panel, and
+    <a>
+     Figure 2
+    </a>
+    C). The C-terminal arm is built exclusively from canonical TPR motifs and adopts a supercoiled conformation with three and a half superhelical turns. An atypical structural feature is a yeast-specific intrarepeat insertion at TPR 20 (residues 871–913), which folds into four helices that pack against the outer surface of the solenoid. The C-terminal arm of Ski3 provides the binding sites for Ski2
+    <sup>
+     Δinsert
+    </sup>
+    , Ski8
+    <sub>
+     IN
+    </sub>
+    , and Ski8
+    <sub>
+     OUT
+    </sub>
+    (
+    <a>
+     Figure 2
+    </a>
+    A).
+   </p>
+   <title>
+    The N-Terminal Region of Ski2 Winds into and around the C-Terminal Arm of Ski3
+   </title>
+   <p>
+    The N-terminal region of Ski2 (residues 1–300) interacts with TPRs 12–33 of Ski3, stretching over a distance of about 130 Å and burying a surface of about 6,200 Å
+    <sup>
+     2
+    </sup>
+    (
+    <a>
+     Figures 2
+    </a>
+    A and 2C). This region contains four Ski3-interacting segments that we refer to as the Ski2 “anchor,” “inner,” “RG,” and “outer” segments (
+    <a>
+     Figure 3
+    </a>
+    A). The anchor segment of Ski2 (residues 1–40) forms an α helix (H1) that complements the single C-terminal capping helix of Ski3, creating a pseudo-TPR motif (
+    <a>
+     Figure 3
+    </a>
+    B). The anchor segment also contacts the Ski8
+    <sub>
+     IN
+    </sub>
+    subunit, mainly via polar interactions. Next, the inner segment of Ski2 (residues 41–128) binds at the concave surface of Ski3, spanning three superhelical turns with extensive interactions (
+    <a>
+     Figure 3
+    </a>
+    C). The inner segment is mostly inaccessible to solvent and forms an integral part of the hydrophobic core of Ski3. Within this segment, helices H2 and H3 dock to the groove of TPRs 26–31, helix H4 binds in the groove of the adjacent TPRs 20–25, and the β hairpin winds through TPRs 15–19. Consistently with the important role of the last superhelical turn of Ski3 in binding the anchor and inner segments of Ski2 in the structure, deletion of a region of Ski3 that with hindsight corresponds to TPRs 28–33 was shown to cause lethality in a yeast strain lacking
+    <em>
+     XRN1
+    </em>
+    (
+    <a>
+     Wang et al., 2005
+    </a>
+    ).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Interactions of the N-Terminal and Helicase Regions of Ski2 with Ski3 and ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S009286741300888X-gr3.jpg" data-thumbEID="1-s2.0-S009286741300888X-gr3.sml" data-imgEIDs="1-s2.0-S009286741300888X-gr3.jpg" data-fullEID="1-s2.0-S009286741300888X-gr3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (1253 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <p>
+    The following RG segment of Ski2 (residues 129–164) lacks secondary structure elements but adopts a globular fold (
+    <a>
+     Figure 3
+    </a>
+    D). In contrast to the rest of the N-terminal region of Ski2, the RG segment is well conserved, particularly at an Arg-Gly sequence motif (residues 149–150, see below). This segment wedges in the groove between TPRs 17 to 18 and 22–23 of Ski3 and also contacts the helicase region of Ski2. The RG segment is thus sandwiched between Ski3 and the Ski2 helicase core. Finally, the outer segment of Ski2 (residues 165–300) folds into four helices (H5–H8) that bind the convex surface of the Ski3 superhelix, traversing the superhelical groove between TPRs 15 and 21 (
+    <a>
+     Figure 3
+    </a>
+    E). This segment is exposed to solvent and was generally poorly defined in the electron density (
+    <a>
+     Figure S1
+    </a>
+    B). Although the outer segment is variable in sequence, the corresponding binding surface of Ski3 is well conserved (
+    <a>
+     Figures 3
+    </a>
+    E and
+    <a>
+     S3
+    </a>
+    A). Other conserved hot spots on the C-terminal arm of Ski3 mediate binding to the helicase region of Ski2 (
+    <a>
+     Figures S3
+    </a>
+    A and S3B).
+   </p>
+   <div>
+    <div>
+     <dl>
+      <dt>
+       <a>
+        <img/>
+        <noscript>
+         &lt;img class="figure large" border="0" alt="Binding of the Ski2 Helicase Core to Conserved Sites in Ski3, Related to ..." src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S009286741300888X-figs3.jpg" data-thumbEID="1-s2.0-S009286741300888X-figs3.sml" data-imgEIDs="1-s2.0-S009286741300888X-figs3.jpg" data-fullEID="1-s2.0-S009286741300888X-figs3.jpg"&gt;
+        </noscript>
+       </a>
+      </dt>
+      <dd>
+       <fig id="fig3" position="float">
+       </fig>
+      </dd>
+      <dd>
+       <div>
+        <a>
+         Figure options
+        </a>
+        <div>
+        </div>
+       </div>
+       <ul>
+        <li>
+         <a>
+          Download full-size image
+         </a>
+        </li>
+        <li>
+         <a>
+          Download high-quality image (797 K)
+         </a>
+        </li>
+        <li>
+         <a>
+          Download as PowerPoint slide
+         </a>
+        </li>
+       </ul>
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <title>
+    The Ski2 Helicase Core Is Centrally Positioned by Extensive Contacts to Ski3 and Ski8
+   </title>
+   <p>
+    In the structure, the last residue of the Ski2 N-terminal region is about 60 Å apart from the first residue of the Ski2 helicase region, separated by a disordered linker. The helicase region of Ski2 contains two RecA domains and a helical domain (
+    <a>
+     Figures 1
+    </a>
+    A and
+    <a>
+     2
+    </a>
+    A) that are characteristic of the DExH family of helicases. Briefly, the RecA1 and RecA2 domains face each other, juxtaposing the motifs that mediate RNA binding and ATP hydrolysis (
+    <a>
+     Figure S3
+    </a>
+    C) (
+    <a>
+     Pyle, 2008
+    </a>
+    ). The helical domain flanks RecA1 and RecA2, creating an overall globular structure with a central RNA channel. The global conformation of the domains and the local conformation of the active site motifs are essentially the same in comparison to the other DExH structures (
+    <a>
+     Halbach et al., 2012
+    </a>
+    ,
+    <a>
+     Jackson et al., 2010
+    </a>
+    and
+    <a>
+     Weir et al., 2010
+    </a>
+    ), superposing with a root-mean-square deviation (rmsd) of less than 1.6 Å over more than 80% of the C
+    <sub>
+     α
+    </sub>
+    atoms (
+    <a>
+     Figure S3
+    </a>
+    C).
+   </p>
+   <p>
+    The helicase region of Ski2 makes extensive contacts with Ski3 and Ski8 via the RecA1 and helical domains, whereas the RecA2 domain is mostly exposed to solvent (
+    <a>
+     Figure 2
+    </a>
+    A, left, and
+    <a>
+     Figure 2
+    </a>
+    C). RecA1 binds the Ski8
+    <sub>
+     IN
+    </sub>
+    subunit and TPRs 16 to 17 of Ski3 (
+    <a>
+     Figures 2
+    </a>
+    C and
+    <a>
+     3
+    </a>
+    D). The helical domain of Ski2 binds Ski8
+    <sub>
+     IN
+    </sub>
+    , Ski8
+    <sub>
+     OUT
+    </sub>
+    , and TPRs 23 to 24 of Ski3. Both the RecA1 and the helical domains pack against the RG segment of Ski2. Thus, the helicase region of Ski2 is positioned centrally in the complex by contacts with the N-terminal region of Ski2, with Ski3 and the two Ski8 subunits. Ski8
+    <sub>
+     IN
+    </sub>
+    and Ski8
+    <sub>
+     OUT
+    </sub>
+    contribute more than 60% of the buried surface area of the DExH core (∼2,400 Å
+    <sup>
+     2
+    </sup>
+    in total).
+   </p>
+  </sec>
+ </body>
+</article>

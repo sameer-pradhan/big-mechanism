@@ -1,0 +1,1779 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2750012
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Allosteric β-propeller signalling in TolB and its manipulation by translocating colicins
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     The Tol system is a five-protein assembly parasitized by colicins and bacteriophages that helps stabilize the Gram-negative outer membrane (OM). We show that allosteric signalling through the six-bladed β-propeller protein TolB is central to Tol function in
+     <em>
+      Escherichia coli
+     </em>
+     and that this is subverted by colicins such as ColE9 to initiate their OM translocation. Protein–protein interactions with the TolB β-propeller govern two conformational states that are adopted by the distal N-terminal 12 residues of TolB that bind TolA in the inner membrane. ColE9 promotes disorder of this ‘TolA box' and recruitment of TolA. In contrast to ColE9, binding of the OM lipoprotein Pal to the same site induces conformational changes that sequester the TolA box to the TolB surface in which it exhibits little or no TolA binding. Our data suggest that Pal is an OFF switch for the Tol assembly, whereas colicins promote an ON state even though mimicking Pal. Comparison of the TolB mechanism to that of vertebrate guanine nucleotide exchange factor RCC1 suggests that allosteric signalling may be more prevalent in β-propeller proteins than currently realized.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     intrinsic disorder, periplasm, signalling, Tol, Ton
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The outer membrane (OM) of Gram-negative bacteria is an asymmetric bilayer composed of an inner layer of phospholipids and an outer layer of lipopolysaccharide (LPS) that serves an essential barrier function (
+    <xref ref-type="bibr">
+     Nikaido, 2003
+    </xref>
+    ). Many questions remain unanswered concerning the OM, in particular how it is maintained and renewed in the face of continual environmental assault and how its assembly is coordinated during cell growth and division (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). It has long been known that the Tol system is involved in maintaining the integrity of the OM, but in what capacity and by what mechanism(s) have remained largely unknown (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In this work, we uncover an allosteric signal based on conformational transitions in the β-propeller protein TolB that lies at the heart of Tol function in
+    <em>
+     Escherichia coli
+    </em>
+    .
+   </p>
+   <p>
+    The Tol system (also referred to as Tol–Pal) is ubiquitous in Gram-negative bacteria and is organized typically in the form of two operons: one encoding
+    <em>
+     tolQ
+    </em>
+    ,
+    <em>
+     tolR
+    </em>
+    and
+    <em>
+     tolA
+    </em>
+    , the products of which are all inner membrane (IM) proteins, and one encoding
+    <em>
+     tolB
+    </em>
+    and
+    <em>
+     pal
+    </em>
+    (
+    <xref ref-type="bibr">
+     Sturgis, 2001
+    </xref>
+    ). Pal (or peptidoglycan associated lipoprotein) resides in the inner leaflet of the OM and binds to the peptidoglycan layer, an interaction that is mutually exclusive of its interaction with TolB (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     1999
+    </xref>
+    ). Deletion of any of the
+    <em>
+     tol
+    </em>
+    genes leads to periplasmic contents leaking to the extracellular environment, formation of OM blebs or ruffles, reduction in the amount of LPS on the cell surface, cell division defects and sensitivity to large antibiotics, such as vancomycin, and detergents, such as SDS, that are normally excluded from the cell (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Webster, 1991
+    </xref>
+    ). With the exception of
+    <em>
+     pal
+    </em>
+    , all
+    <em>
+     tol
+    </em>
+    deletions also render cells resistant to filamentous bacteriophages (such as f1, fd and M13) and a wide range of antibacterial colicins, including the pore-formers ColN, ColE1, ColA and the nuclease toxins ColE2–E9 (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). The
+    <em>
+     tol
+    </em>
+    genes have also been implicated in bacterial pathogenesis;
+    <em>
+     tolA
+    </em>
+    is upregulated during biofilm formation in
+    <em>
+     Pseudomonas aeruginosa
+    </em>
+    , whereas
+    <em>
+     tolB
+    </em>
+    is required for virulence in
+    <em>
+     Salmonella typhimurium
+    </em>
+    and
+    <em>
+     Vibrio cholerae
+    </em>
+    and its expression is regulated by Cl
+    <sup>
+     −
+    </sup>
+    ions in clinical isolates of
+    <em>
+     Burkholderia cenocepacia
+    </em>
+    in cystic fibrosis patients (
+    <xref ref-type="bibr">
+     Heilpern and Waldor, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Bhatt and Weingart, 2008
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    The function of the Tol system has remained enigmatic despite almost two decades of work largely because of the pleiotropic nature of mutations and deletions. Two possible functions have emerged: involvement in cell envelope biogenesis and/or as a tether in cell division that maintains the appropriate juxtaposition of the two membranes relative to the peptidoglycan layer (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Both functions are built around two key features of the Tol system. First, that it is a transperiplasmic network spanning the two membranes of the bacterium, and, second, that it is coupled to the proton motive force (pmf). Traversal of the periplasm is through TolA, which has a C-terminal globular domain (TolAIII) connected to a long helical stalk domain (TolAII) that is anchored to the IM by a single transmembrane helix (TolAI) (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). Coupling to the pmf is through TolQ and TolR, which associate with TolA in the IM and are functional and likely structural homologues of ExbB and ExbD of the Ton system (
+    <xref ref-type="bibr">
+     Kampfenkel and Braun, 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). ExbB and ExbD drive pmf-dependent entry of ligands such as iron–siderophore complexes and vitamin B
+    <sub>
+     12
+    </sub>
+    through the plugged pores of 22-strand β-barrel OM receptors through TonB (
+    <xref ref-type="bibr">
+     Wiener, 2005
+    </xref>
+    ). TonB spans the periplasm and contacts specific N-terminal sequences in nutrient receptors called TonB boxes (
+    <xref ref-type="bibr">
+     Braun and Endriß, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Postle and Larsen, 2007
+    </xref>
+    ). Both ExbB/ExbD and TolQ/TolR are related to the flagellar stator proteins MotA and MotB emphasizing their role in linking the pmf to protein conformational changes (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ). In the case of the Tol system, the pmf is reported to influence the interaction of TolA with Pal at the OM, but for what purpose is unclear (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ).
+   </p>
+   <p>
+    This work sets out to address how the OM complex of TolB and Pal communicates with TolA in the IM. Through a combination of crystallography, nuclear magnetic resonance (NMR), isothermal titration calorimetry (ITC), cross-linking and
+    <em>
+     in vivo
+    </em>
+    assays, we describe a novel signal transduction mechanism in the bacterial periplasm that is centred on a disorder–order transition in TolB. We show how a conformational switch in TolB is the means by which the effects of Pal binding to TolB are communicated to TolA and how
+    <em>
+     tol
+    </em>
+    -dependent colicins exploit this switch to expedite their entry into cells. The role we describe for Pal runs counter to the accepted
+    <em>
+     modus operandi
+    </em>
+    for this assembly (
+    <xref ref-type="bibr">
+     None
+    </xref>
+    ), and questions the presumed transmembrane nature of the Tol system. Finally, we draw comparisons with another β-propeller protein that points to a general signal transduction mechanism for this class of protein.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     Resolving the N-terminus of TolB
+    </title>
+    <p>
+     Several X-ray structures of TolB have been reported, including two structures of TolB in isolation (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ), TolB bound to Pal (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ) and TolB bound to a fragment of the translocation domain of ColE9 (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). TolB is a 44-kDa protein composed of two domains, an N-terminal α/β domain and a C-terminal six-bladed β-propeller to which both Pal and ColE9 bind (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Although informative of the conformational changes experienced by TolB as a result of its protein–protein interactions, these structures raise an important question concerning the N-terminus of the protein, which has only been structurally resolved in the TolB–Pal complex. As a periplasmic protein TolB carries a Sec-dependent signal sequence that is cleaved during entry to the periplasm, so, appropriately, all constructs used to determine its structure thus far have had this sequence (residues 1–21) deleted. However, the N-terminus of these constructs did not match precisely that of processed TolB
+     <em>
+      in vivo
+     </em>
+     , most often including an N-terminal methionine or a polyhistidine tag. (Note also that amino-acid numbering in earlier reports and pdb depositions have not taken account of the signal sequence, which is herein included in all TolB numbering.) We, therefore, re-determined the structure of the TolB–Pal complex at 1.86 Å resolution, using TolB purified from
+     <em>
+      E. coli
+     </em>
+     periplasmic extracts (see Materials and methods;
+     <a>
+      Supplementary Table S1
+     </a>
+     in
+     <a>
+      Supplementary data
+     </a>
+     ) to resolve the wild-type N-terminus.
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       Structural changes in TolB suggest a conformational signal operates in the Tol system. (
+       <strong>
+        A
+       </strong>
+       ) Crystal structure of unliganded TolB (pdb, 1c5k).
+       <sup>
+        *
+       </sup>
+       indicates where density for the polypeptide chain begins, 12 amino acids are missing presumed unstructured. (
+       <strong>
+        B
+       </strong>
+       ) 1.8 Å crystal structure of the TolB–Pal complex highlighting how the N-terminal 12 residues of TolB (green) become ordered on binding Pal. (
+       <strong>
+        C
+       </strong>
+       ) Molecular surface of the domain–domain interface of unliganded TolB, as in (A), showing how the ‘proline gate' (Pro415) shuts off access of the N-terminal residues to the surface. (
+       <strong>
+        D
+       </strong>
+       ) Molecular surface of the domain–domain interface of TolB in the latest TolB–Pal structure showing opening of the proline gate and structural resolution of TolB residues Glu22–Ser33.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The root mean square deviation of the TolB–Pal complex relative to that determined earlier for the cytoplasmically expressed complex was 0.3 Å. Hence, TolB purified from periplasmic extracts behaves identically to that purified from the cytoplasm with the exception that the N-terminal residue Glu22 is now resolved in the structure (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). In this analysis, we do not describe the interface of the TolB–Pal complex, as this has been documented earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Instead, we focus on structural changes to the TolB N-terminus that have yet to be detailed.
+    </p>
+    <p>
+     Several loops and propeller β-strands in TolB move as a result of Pal binding. These cause the latching or ‘Velcro' strand of the β-propeller, which conjoins the first and last propeller blades (
+     <xref ref-type="bibr">
+      Neer and Smith, 1996
+     </xref>
+     ), to move away from the domain–domain interface carrying with it a proline residue (Pro415;
+     <xref ref-type="fig">
+      Figure 1C and D
+     </xref>
+     ). The movement of this ‘proline gate', which in unliganded TolB is within van der Waals distance of Tyr190, reveals a canyon on the TolB surface between its N- and C-terminal domains that constitute a binding site for the 12 N-terminal TolB residues (Glu22–Ser33). The N-terminus forms a helical half-turn and an anti-parallel β-sheet against this surface (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ), stabilized by 12 hydrogen bonds, 9 to the β-propeller latching strand and a further 3 with residues in the N-terminal domain. Further stabilization of the bound N-terminus occurs through van der Waals interactions of several hydrophobic residues (Val23, Ile25, Val26 and Ile27) with docking sites in the canyon (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ). In total, the self-association of the N-terminus with the body of TolB buries ∼1700 Å
+     <sup>
+      2
+     </sup>
+     accessible surface area, equivalent to three-quarters of the total accessible surface area buried at the TolB–Pal interface. We next investigated the functional importance of the TolB N-terminus.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The TolB N-terminus is essential for Tol function and colicin toxicity
+    </title>
+    <p>
+     There is currently no
+     <em>
+      in vitro
+     </em>
+     biochemical assay for Tol function and so the effects of mutations are typically assayed
+     <em>
+      in vivo
+     </em>
+     through complementation of the
+     <em>
+      tol
+     </em>
+     phenotype in deletion strains. An
+     <em>
+      E. coli tolB
+     </em>
+     deletion strain (JW5100) was transformed with a pBAD vector under the control of
+     <em>
+      AraC
+     </em>
+     (arabinose inducible) into which had been cloned wild-type
+     <em>
+      tolB
+     </em>
+     targeted to the periplasm by its own signal sequence. To test OM integrity, growth of this complemented strain was assessed on rich media agar plates in the presence of inducer with or without 2% SDS. Growth was compared with a vector control and two truncations: one in which four residues had been deleted from the N-terminus (TolB Δ
+     <sup>
+      22−25
+     </sup>
+     ), the other in which the entire N-terminal sequence was deleted (TolB Δ
+     <sup>
+      22−33
+     </sup>
+     ). All cells were viable in the absence of SDS, but only cells transformed with wild-type
+     <em>
+      tolB
+     </em>
+     grew in the presence of SDS indicating that both truncations generated a
+     <em>
+      tol
+     </em>
+     phenotype (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). In a series of control experiments, we verified that N-terminal TolB truncations were targeted to the periplasm and processed correctly and that the deletions had no effect on protein structure, determined by far UV-CD spectroscopy of the purified proteins, which were essentially indistinguishable from wild type (data not shown). We conclude that the N-terminus of TolB is critical to Tol function and that its removal does not grossly perturb protein structure.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        The N-terminal residues of TolB are required for Tol function
+        <em>
+         in vivo
+        </em>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     Most Gram-negative bacteria are equipped to release bacteriocins during times of stress as competitive agents that target and kill neighbouring strains of the same species (
+     <xref ref-type="bibr">
+      Riley and Kirkup, 2004
+     </xref>
+     ). Colicins are specific for
+     <em>
+      E. coli
+     </em>
+     and share a similar domain architecture, comprising a central receptor-binding domain flanked by an N-terminal (T-) domain involved in translocation across the OM and a C-terminal cytotoxic domain (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The T-domain dictates the route colicins take through the periplasm, with group A colicins commandeering the Tol system and group B colicins the Ton system. ColE9 is a group A colicin that elicits cell death through metal-dependent endonuclease cleavage of the bacterial genome by an enzymatic domain related to the HNH family of homing endonucleases and the apoptotic DNase CAD (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Translocation of ColE9 across the
+     <em>
+      E. coli
+     </em>
+     OM is dependent on both a functional Tol system and specific interaction with the TolB β-propeller domain (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). We tested strains expressing the N-terminal TolB deletion constructs for ColE9 sensitivity and found that both were completely resistant towards the colicin (
+     <xref ref-type="fig">
+      Figure 2A
+     </xref>
+     ). We also tested the ability of these strains to promote dissociation of the colicin-immunity protein complex. Nuclease colicins, such as ColE9, are co-synthesized with a high-affinity-immunity protein (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼10
+     <sup>
+      −14
+     </sup>
+     M), which prevents suicide of the producing organism (
+     <xref ref-type="bibr">
+      Kleanthous and Walker, 2001
+     </xref>
+     ). We and others have shown this complex is dissociated at the
+     <em>
+      E. coli
+     </em>
+     cell surface during translocation in a pmf-dependent manner that requires an intact Tol assembly (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Using Alexa594-labelled Im9 bound to ColE9, we found that
+     <em>
+      E. coli
+     </em>
+     cells expressing either TolB Δ
+     <sup>
+      22−25
+     </sup>
+     or TolB Δ
+     <sup>
+      22−33
+     </sup>
+     in the periplasm exhibited significantly reduced Im9 release at the cell surface (
+     <xref ref-type="fig">
+      Figure 2B
+     </xref>
+     ). We conclude that the N-terminus of TolB is required both for release of the colicin-bound immunity protein at the cell surface and colicin cytotoxicity even though the colicin makes no direct contact with this region of TolB.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       The N-terminal residues of TolB are required for colicin toxicity and immunity protein release. (
+       <strong>
+        A
+       </strong>
+       ) Sensitivity of
+       <em>
+        E coli
+       </em>
+       JW5100 cells transformed with plasmid pDAB17 encoding wild-type TolB or derived plasmids encoding TolB Δ
+       <sup>
+        22−25
+       </sup>
+       and TolB Δ
+       <sup>
+        22−33
+       </sup>
+       towards a serial dilution of the endonuclease colicin ColE9 (see Materials and methods for details). Zones of clearance indicate colicin activity against the strain. Only wild-type TolB cells are ColE9 sensitive. (
+       <strong>
+        B
+       </strong>
+       ) Im9 release from the ColE9–Im9 complex is compromised in
+       <em>
+        E coli
+       </em>
+       JW5100 cells expressing the TolB N-terminal deletion mutants. Data show triplicate measurements for the release of Alexa-594-labelled Im9 at the cell surface from a ColE9
+       <sup>
+        S−S
+       </sup>
+       –Im9 complex in which cell entry of the colicin was initiated by the reduction of an inactivating disulphide bond across the receptor-binding domain (
+       <xref ref-type="bibr">
+        None
+       </xref>
+       ).
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     The N-terminus of TolB is the TolA-binding site
+    </title>
+    <p>
+     Earlier yeast two-hybrid experiments and an
+     <em>
+      E. coli
+     </em>
+     suppressor screen have identified an interaction between TolAIII and the N-terminal α/β domain of TolB, but no specific binding site has yet been defined (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Indeed, there has been no biochemical or biophysical characterization of the isolated TolAIII–TolB complex, reflecting the difficulty in showing any interaction between the proteins
+     <em>
+      in vitro
+     </em>
+     . Lakey and co-workers, for example, reported that no interaction between a domain TolAII–III construct and TolB could be detected by ITC, although in this instance binding may have been masked by an N-terminal polyhistidine tag on TolB (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). In trying to establish whether TolB is capable of binding TolAIII
+     <em>
+      in vitro
+     </em>
+     , we adopted initially a chemical cross-linking approach using formaldehyde in a bid to detect weakly bound complexes. We found that purified proteins incubated at a concentration of 10 μM yielded cross-linked adduct detectable by Coomassie staining (data not shown), but more clearly visualized by western blotting using antibodies raised against TolA or TolB (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ). Importantly, no cross-linking between TolAIII and TolB was detectable for either of the TolB N-terminal truncations, Δ
+     <sup>
+      22−25
+     </sup>
+     and Δ
+     <sup>
+      22−33
+     </sup>
+     . The interaction between TolB and TolAIII was verified using ITC, although these experiments were hampered by the limited solubility of TolB purified from periplasmic extracts. Although binding isotherms were incomplete, they were nevertheless sufficient to indicate that binding is endothermic, and so entropically driven at 20°C, pH 7.5 and weak,
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼40 μM (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). The specific nature of the TolB–TolAIII interaction was again confirmed by the two N-terminal truncations neither of which showed evidence of binding in ITC experiments (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). In summary, chemical cross-linking and ITC show that the N-terminal 12 residues of TolB constitute most, if not all the TolAIII-binding epitope, herein referred to as the TolA box, and that the two proteins form a weak complex
+     <em>
+      in vitro
+     </em>
+     . Through a suppressor screen of TolAIII mutants Lazzaroni and co-workers earlier identified TolB Asp120 as potentially involved in binding TolAIII (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). However, this residue is on the opposite face of the TolA box identified in this study, and so the effect observed in the earlier study is most likely indirect. Moreover, Asp120 experiences no structural changes as a result of Pal binding, which we show below is a key regulator of the TolB–TolA interaction.
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The N-terminal residues of TolB are required for TolAIII binding. (
+       <strong>
+        A
+       </strong>
+       ) Formaldehyde (F; 1%) cross-linking reactions, analysed by western blotting using anti-TolA (left) and anti-TolB (right) antibodies, of purified TolB (WT), TolB Δ
+       <sup>
+        22−25
+       </sup>
+       and TolB Δ
+       <sup>
+        22−33
+       </sup>
+       incubated with TolA III (each at 10 μM). +, cross-linked; −, untreated. (
+       <strong>
+        B
+       </strong>
+       ) Raw ITC data (top panel) and integrated heats (lower panel) for wild-type TolB and TolB truncation mutants Δ
+       <sup>
+        22−25
+       </sup>
+       (grey triangles) and Δ
+       <sup>
+        22−33
+       </sup>
+       (open circles) at a cell concentration of 60 μM binding TolAIII in 50 mM Hepes buffer pH 7.5, containing 50 mM NaCl. Proteins had earlier been loaded with Ca
+       <sup>
+        2+
+       </sup>
+       ions, which bind within the β-propeller of TolB (see Materials and methods). TolAIII binding is abolished by the deletion of just four amino acids from the TolB N-terminus.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        Thermodynamic parameters for binary and ternary TolB protein–protein interactions obtained by ITC
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Opposing modulation of the TolB–TolA interaction by Pal and ColE9
+    </title>
+    <p>
+     To translocate into
+     <em>
+      E. coli
+     </em>
+     , ColE9 competitively recruits TolB from its complex with Pal using a 16-residue intrinsically unstructured TolB-binding epitope (TBE) that is part of its 30 kDa T-domain. Structural comparisons of the TBE bound to TolB with that of the present TolB–Pal complex reveals that although the colicin and Pal bind at the same site on the β-propeller, their impact on TolB differs dramatically (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). ColE9 does not cause any gross change in TolB structure, whereas Pal induces long-range conformational changes that result in ordering of the TolA box. Closer inspection of the two interfaces reveals a simple yet sophisticated stealth mechanism used by the colicin to ensure conformational ordering of the TolA box does not occur. First, the ColE9 TBE does not contact regions of TolB that induce ordering of the TolA box, as opposed to Pal in which residues on the outer periphery of the β-propeller domain move up to 5 Å to embrace it (
+     <xref ref-type="fig">
+      Figure 4A
+     </xref>
+     ). Second, the colicin inserts a tryptophan sidechain into a pocket that becomes occluded in the Pal-bound form of TolB (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ), thereby blocking any conformational changes. Consistent with this interpretation, mM concentrations of tryptophan weaken the TolB–Pal complex by ∼30-fold (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       Structural basis for differential stabilization of TolA box residues by Pal, but not ColE9 binding to the β-propeller domain of TolB. (
+       <strong>
+        A
+       </strong>
+       ) 16-residue ColE9 TBE (cyan ribbon) in complex with TolB, pdb code 2ivz. (
+       <strong>
+        B
+       </strong>
+       ) Pal (purple) in complex with TolB, this work. For clarity, only Pal helices in contact with TolB are indicated. In both panels, TolB is shown as van der Waals surface and coloured according to Cα movements experienced by residues that are involved in protein–protein interactions: black, &lt;1.5 Å; green, 1.5–2.5 Å; red, &gt;2.5 Å. The stippled side-chain shown in (A) is that for Trp46 of the ColE9 TBE that slots into a pocket on the TolB surface. This side-chain has been superimposed on the TolB–Pal complex in (B) to highlight how the pocket into which Trp46 inserts becomes partially occluded, and so an equivalent interaction is not possible. Constriction of the pocket is due to conformational changes in TolB that ultimately result in sequestration of the TolA box to the TolB surface (B, orange). The TolA box is not resolved in the ColE9-bound structure and so is not depicted in (A).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We reasoned whether these differential effects on TolB could impact on its ability to recruit TolAIII through the TolA box, and so this was investigated by formaldehyde cross-linking and ITC.
+     <xref ref-type="fig">
+      Figure 5
+     </xref>
+     shows the effect of Pal and ColE9 T-domain binding on TolAIII–TolB cross-linking. In this experiment, TolB purified from periplasmic extracts was first complexed with either Pal (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ) or ColE9 T-domain (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ) and the products of cross-linking to TolA compared with reactions lacking Pal or ColE9. The data show that while Pal reduces greatly TolB–TolAIII cross-linking, it does not abolish it or that of a ternary complex containing Pal–TolB–TolAIII, although this is also in low yield. Critically, ColE9 T-domain enhances the TolB–TolAIII cross-link and produces more of the ternary ColE9–TolB–TolAIII complex relative to that of Pal. These data suggest that group A colicins promote association of TolB with TolAIII, enhancing both binary and ternary complexes, whereas Pal disfavours their formation. Hence, ColE9 and Pal exert opposing effects on the equilibrium of the TolB–TolAIII complex.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Differential effects of Pal and ColE9 TBE on TolB–TolAIII cross-linking. Purified TolB and TolAIII (10 μM each) were incubated together and cross-linked with formaldehyde (F), as described in Materials and methods, in the presence or absence of Pal (10 μM), (
+       <strong>
+        A
+       </strong>
+       ) or the presence or absence of ColE9 T-domain (10 μM), (
+       <strong>
+        B
+       </strong>
+       ). Products of these reactions were analysed by western blots using anti-TolA antibodies. Pal diminishes cross-linking, whereas ColE9 T-domain enhances it.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     A potential complication in the interpretation of these data concerns the reported interaction between TolAIII and Pal. The prevailing view in the literature is that TolAIII and Pal associate at the OM and that the interaction site on Pal for TolAIII is distinct and adjacent to that of TolB (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Cascales and Lloubes, 2004
+     </xref>
+     ). We re-examined the issue of Pal interactions with TolAIII using purified proteins and a suite of biochemical and biophysical methods (see
+     <a>
+      Supplementary Information
+     </a>
+     ;
+     <a>
+      Supplementary Figures S1
+     </a>
+     and
+     <a>
+      S2
+     </a>
+     ). The data show unambiguously that Pal and TolAIII, both of which are folded and functional, do not interact
+     <em>
+      in vitro
+     </em>
+     . This observation has important implications for the functioning of the Tol assembly, which we address in Discussion.
+    </p>
+    <p>
+     ITC experiments provided even greater insight into the opposing effects of Pal and ColE9 on the TolB–TolAIII complex. In these experiments, Pal and ColE9 T-domain complexes with TolB (at ∼100-fold above the
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     for each complex) were placed in the ITC cell and TolAIII titrated into the cell. Under these conditions, no interaction between TolAIII and TolB could be detected (
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ). This result does not discount the possibility of a ternary Pal–TolB–TolAIII complex forming, but shows that it would have a binding affinity in the mM range, consistent with residual cross-linking observed in
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     . Conversely, colicin had a profoundly different effect on the TolB–TolAIII complex to that of Pal. ColE9 TBE binding resulted in a switch in the observed binding thermodynamics, from being endothermic to mildly exothermic (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ), and increased the affinity of the TolB–TolAIII complex by three-fold (
+     <em>
+      K
+     </em>
+     <sub>
+      d
+     </sub>
+     ∼13 μM;
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). This improvement in binding tallies with the enhanced TolB–TolAIII cross-linking results (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ). The ITC data confirm that colicin and Pal have opposing effects on the ability of TolB to associate with TolAIII.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Opposing effects of ColE9 T-domain and Pal on the affinity of the TolB–TolAIII complex. (
+       <strong>
+        A
+       </strong>
+       ) Raw ITC data, top panel and integrated heats of binding for the TolB–TolAIII complex (▪) and the corresponding data when TolB was complexed with Pal (
+       <span>
+        <img/>
+       </span>
+       ). The cell concentration of the starting complex was 60 μM into which was injected TolAIII. No TolAIII binding could be detected when Pal was bound to TolB. (
+       <strong>
+        B
+       </strong>
+       ) Raw ITC data, top panel and integrated heats of binding for the TolB–TolAIII complex (▪) and the corresponding data when TolB was complexed with the ColE9 T-domain (
+       <span>
+        <img/>
+       </span>
+       ).
+       <em>
+        Inserts
+       </em>
+       , close-up views of the integrated heats for TolB–Pal + TolAIII,
+       <em>
+        A
+       </em>
+       and for TolB–ColE9 T-domain+TolAIII, (B). See legend to
+       <xref ref-type="fig">
+        Figure 3
+       </xref>
+       for conditions. Binding curves were fitted to a one-site-binding model using the Origin software. Thermodynamic data are listed in
+       <a>
+        <span>
+         Table II
+        </span>
+       </a>
+       .
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next used ITC to determine whether the presence of the TolA box could affect the stabilities of the β-propeller complexes of TolB–ColE9 TBE and TolB–Pal. The data show that partial or complete removal of the TolA box improves ColE9 binding to TolB by four-fold, but weakens binding of Pal by almost 10-fold (
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     ). As neither protein interacts directly with the N-terminus of TolB (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ), these data highlight the allosteric communication that occurs within a TolB monomer, resulting in the TolA box stabilizing the complex with Pal, but weakening the complex with the ColE9 TBE.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Intrinsic disorder and conformational exchange of the TolA box
+    </title>
+    <p>
+     The TolA box is not resolved in the crystal structures of TolB or the TolB–ColE9 TBE complex, suggesting the TolB N-terminus is disordered. If this were the case, then TolAIII binding by TolB and the TolB–ColE9 complex is expected to be equivalent because as a disordered polypeptide, the TolA box would have similar accessibility. Yet, TolAIII recruitment by TolB is enhanced by ColE9 binding (
+     <xref ref-type="fig">
+      Figures 5B
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     ). We, therefore, addressed the question of TolA box disorder and the effect of ColE9 TBE binding by heteronuclear NMR spectroscopy.
+    </p>
+    <p>
+     Initial experiments centred on
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N TROSY-HSQC spectra of TolB (
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). If the TolA box is intrinsically disordered, ∼12 resonances should be significantly sharper in this spectrum than other backbone amide resonances. However, this was not the case; TolB yielded a well-resolved spectrum with most peaks having a similar linewidth. This suggested that either the TolA box is not intrinsically disordered or is affected by a dynamic process leading to broadening of its resonances. The conclusion that the TolA box is not represented in this spectrum was reinforced by comparison of the wild-type spectrum to that of the TolB Δ
+     <sup>
+      22−33
+     </sup>
+     mutant in which the N-terminus had been deleted. Rather than seeing 12 peaks disappear from the spectrum, ∼20 peaks appeared and/or were shifted (some examples are highlighted in the boxed and circled regions in
+     <xref ref-type="fig">
+      Figure 7A
+     </xref>
+     ). Remarkably, when TolAIII was added to wild-type
+     <sup>
+      15
+     </sup>
+     N-labelled TolB, more or less the same set of 20 peaks were shifted (
+     <xref ref-type="fig">
+      Figure 7B
+     </xref>
+     ). Overlays of some of these resonances from the two experiments are presented in
+     <xref ref-type="fig">
+      Figure 7C
+     </xref>
+     . We interpret these data as showing that in wild-type TolB, the TolA box is in dynamic exchange between distinct conformational states, most likely the ordered state seen in the Pal complex, in which the TolA box is bound in the TolB canyon (
+     <xref ref-type="fig">
+      Figure 1D
+     </xref>
+     ), and a disordered polypeptide in which it is not interacting with other parts of TolB (see below). Deletion of the TolA box or its binding to TolAIII eliminates the dynamic exchange behaviour experienced by residues in contact with the TolA box resulting in their appearance in HSQC spectra.
+    </p>
+    <fig id="f7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <p>
+       TolAIII binding causes the same changes to wild-type TolB
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N TROSY-HSQC spectrum as the deletion of the TolA box. See Materials and methods for details. (
+       <strong>
+        A
+       </strong>
+       ) Overlay of wild-type
+       <sup>
+        15
+       </sup>
+       N-TolB (black) and
+       <sup>
+        15
+       </sup>
+       N-TolB Δ
+       <sup>
+        22−33
+       </sup>
+       (red) spectra. (
+       <strong>
+        B
+       </strong>
+       ) Overlay of wild-type
+       <sup>
+        15
+       </sup>
+       N-TolB (black) and
+       <sup>
+        15
+       </sup>
+       N-TolB–TolAIII complex (blue) spectra. Circled and boxed regions highlight similarities between the two sets of data. (
+       <strong>
+        C
+       </strong>
+       ) Close-up views of the boxed regions in the two datasets.
+       <sup>
+        *
+       </sup>
+       indicates equivalent new/shifted peaks in the spectra of TolB as a result of TolAIII binding and deletion of the TolA box.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We next investigated ColE9 T-domain binding to
+     <sup>
+      15
+     </sup>
+     N-TolB. The resulting
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N TROSY-HSQC spectrum for this complex was rather broad, but superimposed on the broad background were several sharp peaks clustered between 8 and 8.5 p.p.m. in the
+     <sup>
+      1
+     </sup>
+     H dimension that disappeared in the TolB Δ
+     <sup>
+      22−33
+     </sup>
+     truncation (
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). These TolB residues were assigned using doubly labelled protein and shown to comprise the TolA box (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ). The chemical shifts of these resonances and their relative linewidths compared with other resonances of the 75-kDa complex are consistent with those of an intrinsically unstructured polypeptide (confirmed by their secondary structure propensity scores; see
+     <a>
+      Supplementary data
+     </a>
+     ). As these resonances are not detected as sharp signals in TolB alone, this supports our contention that the TolA box of TolB exists in solution as an equilibrium of two interconverting conformational states and that colicin binding the β-propeller domain promotes the disordered state. Finally, we note how the switch from endothermic to exothermic binding thermodynamics for the TolB–TolA complex is also consistent with a shift in the TolA box conformational equilibrium as a result of colicin binding.
+    </p>
+    <fig id="f8" position="float">
+     <label>
+      Figure 8
+     </label>     <caption>
+      <p>
+       ColE9 induces disorder in the TolA box. Assignment of TolA box residues for the 75-kDa TolB–ColE9 T-domain complex based on 2D
+       <sup>
+        1
+       </sup>
+       H-
+       <sup>
+        15
+       </sup>
+       N TROSY-HSQC, 3D CBCA(CO)NH and HNCA spectra. See Materials and methods and
+       <a>
+        Supplementary Figure S3
+       </a>
+       for further details.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <sec>
+    <title>
+     The role of Pal and order–disorder transition of the TolA box in TolB function
+    </title>
+    <p>
+     This work has uncovered a signal transduction mechanism that is pivotal to Tol function in
+     <em>
+      E. coli
+     </em>
+     and which is centred on a disorder–order transition in TolB. TolB occupies a key intermediary position in the Tol assembly because it is the only soluble protein within the complex and because it communicates directly with both membrane-embedded components, Pal in the OM and TolA in the IM. TolB's intermediary role is emphasized by our finding that Pal and TolAIII do not interact, at least not
+     <em>
+      in vitro
+     </em>
+     . We cannot discount the possibility that TolAIII and Pal interact
+     <em>
+      in vivo
+     </em>
+     ; for example, through a pmf-dependent mechanism as has been suggested earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). However, it is difficult to envisage how the pmf at the IM could induce TolAIII to interact with Pal over the length of the periplasm in a way that cannot be reflected by
+     <em>
+      in vitro
+     </em>
+     measurement. Similarly, while the pmf is central to the function of the Ton system, TonB is nonetheless able to interact with TonB box sequences of target receptors
+     <em>
+      in vitro
+     </em>
+     (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The absence of a TolA–Pal protein–protein interaction suggests that the Tol assembly is not, as has been inferred, a system for linking the OM and IM (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     TolB associates with TolAIII through the N-terminal 12 residues of the TolA box, which we show are essential for Tol function
+     <em>
+      in vivo
+     </em>
+     (
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ;
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). The TolA box of TolB can exist in at least two distinct conformational states: one ordered the other disordered (
+     <xref ref-type="fig">
+      Figures 1
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     , respectively). It is reasonable to assume that the dynamic exchange behaviour observed in HSQC spectra for unliganded TolB (
+     <xref ref-type="fig">
+      Figure 7
+     </xref>
+     ) reflects this order–disorder transition in which case TolB in solution exists as an equilibrium of conformer states (
+     <xref ref-type="fig">
+      Figure 9A
+     </xref>
+     ). Our work shows that signalling through the TolB β-propeller influences this conformational equilibrium. Pal stabilizes the conformation in which the TolA box is sequestered to the TolB surface. This implies that Pal signals an OFF state to the Tol assembly, its binding to TolB disrupting the TolB–TolA complex at the OM (
+     <xref ref-type="fig">
+      Figure 9B
+     </xref>
+     ). In contrast, the ON state is where TolB and TolA are engaged in a complex after binding of the disordered TolA box to TolAIII (
+     <xref ref-type="fig">
+      Figure 9C
+     </xref>
+     ). The role of Pal as an OFF switch is also consistent with the difference in binding affinities of Pal for TolB (∼nM) relative to that of TolA for TolB (∼μM).
+    </p>
+    <fig id="f9" position="float">
+     <label>
+      Figure 9
+     </label>     <caption>
+      <p>
+       Structural model depicting recruitment of TolA by TolB and the subversion of this signalling mechanism by nuclease colicins. (
+       <strong>
+        A
+       </strong>
+       ) In the unbound state, the TolA box of TolB is in conformational equilibrium, most likely alternating between the conformation seen in the Pal-bound state and an intrinsically disordered polypeptide. (
+       <strong>
+        B
+       </strong>
+       ) Binding of the OM lipoprotein Pal (red) to TolB (grey) favours the state in which the TolA box (green) is sequestered to the TolB surface, thereby diminishing association with domain III of TolA, which we assign as the OFF state for the Tol system. (
+       <strong>
+        C
+       </strong>
+       ) In its disordered state, the TolA box recruits TolA, which we assign as the ON state for the Tol system as this couples TolB to TolA and hence to the pmf-linked IM complex of TolQRA. (
+       <strong>
+        D
+       </strong>
+       ) Nuclease colicins such as ColE3–Im3 (shown in the figure; pdb, 1jch) and ColE9–Im9 (this study) use their intrinsically unstructured T-domain TBE to subvert the Tol system by mimicking Pal. Instead of generating the TolB OFF state, however, they promote the disordered ON state of the TolA box. The panel is a composite of several published crystal structures. The colicin translocon comprises the toxin bound to its OM receptor BtuB (pdb, 1ujw), the structure of the ColE3 R-domain bound to BtuB is depicted in the figure (
+       <xref ref-type="bibr">
+        None
+       </xref>
+       ), and a porin such as OmpF (pdb, 2zfg) and the periplasmic protein TolB (pdb 1c5k), both of which are recruited by the colicin's intrinsically disordered T-domain (pdb codes, 2zld and 2ivz, respectively). Recruitment of TolAIII (pdb, 1lr0) by the TolA box of TolB generates a ‘trigger complex' that is required for the dissociation of the tightly bound immunity protein of the colicin at the cell surface and initiates translocation across the bacterial OM.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     What the Tol ON/OFF switch signals in terms of Gram-negative bacterial physiology remains an open question, but must be linked to a role in OM stability. According to this new mechanism for the Tol assembly, a
+     <em>
+      pal
+     </em>
+     deletion would leave the Tol system in the activated ON state, whereas deletion of
+     <em>
+      tolB
+     </em>
+     or other
+     <em>
+      tol
+     </em>
+     genes would lead to a constitutive OFF (non-functional) state. It is surprising then that all
+     <em>
+      tol-pal
+     </em>
+     deletions yield the same OM instability phenotype in which periplasmic contents leach to the environment, the membrane forms blebs and cells become sensitive to detergents and bile salts (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). These observations could be reconciled if the
+     <em>
+      tol
+     </em>
+     phenotype reflects the absence of dynamic interplay between TolB and its binding partners in the
+     <em>
+      E. coli
+     </em>
+     periplasm, so that all mutants result in the same destabilization of the OM. Alternatively, the commonality of phenotypes may simply reflect Pal's other role of binding peptidoglycan, its deletion generating the same OM instability phenotype observed for
+     <em>
+      tol
+     </em>
+     mutants (as well as many other genes involved in cell envelope biogenesis).
+    </p>
+    <p>
+     The only physiological difference between
+     <em>
+      pal
+     </em>
+     and
+     <em>
+      tol
+     </em>
+     deletions is resistance of
+     <em>
+      tol
+     </em>
+     , but not
+     <em>
+      pal
+     </em>
+     to group A colicins (and phages), which is entirely consistent with Pal's role as an OFF switch bypassed by the colicin. The TBE of an enzymatic colicin competitively recruits TolB from its complex with Pal, having the same affinity for TolB as Pal when divalent cations are bound to the TolB β-propeller domain (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). As Pal binding of peptidoglycan is mutually exclusive of TolB, this observation likely explains why a
+     <em>
+      pal
+     </em>
+     deletion is no more sensitive to colicin toxicity than wild-type cells.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Group A nuclease colicins subvert TolB signalling to initiate OM translocation
+    </title>
+    <p>
+     Group A colicins make specific contact with one or more Tol proteins as well as requiring an intact Tol assembly to penetrate and kill
+     <em>
+      E. coli
+     </em>
+     cells. TolA and TolB in particular are targets of specific interactions by colicins, most likely because they reside close to the bacterial OM in the periplasm. It is here they are met by intrinsically disordered colicin T-domain epitopes, which reach the periplasm through porins after binding of the colicin to a specific OM receptor. In the case of group A nuclease colicins ColE2–E9, OmpF is captured by the intrinsically unstructured elements of the T-domain (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Thereafter, the lumen of OmpF is thought to be the route to the periplasm (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), whereas for ColN, it has been suggested that the sides of OmpF are used (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Once in the periplasm, the ColN T-domain binds TolA (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), whereas nuclease colicins E2–E9 interact with TolB (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) and ColA interacts with both TolA and TolB (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The current data show that colicins do not just recruit Tol proteins as periplasmic co-receptors, but that they subvert signalling associated with the complex to expedite entry into the cell. ColE9 manipulates the TolB signal by mimicking the Tol assembly OFF state, whereas promoting its ON state. The resulting protein–protein interaction network connects the externally located, receptor-bound colicin to the IM components of the Tol assembly and, importantly, allows the colicin to tap into the pmf (
+     <xref ref-type="fig">
+      Figure 9D
+     </xref>
+     ). We propose that this supramolecular assembly is the pre-translocation complex for nuclease colicins in which the tightly bound immunity protein is still associated with the enzymatic domain. Recent work has shown that dissociation of immunity proteins at the OM requires an intact Tol assembly and an active pmf (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). This work now shows that it is the contact between TolB and TolA through the TolA box that is the trigger for immunity release at the cell surface and hence the event that initiates colicin OM translocation.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Allostery in
+     <em>
+      β
+     </em>
+     -propeller proteins—a novel form of signalling?
+    </title>
+    <p>
+     The β-propeller-fold is found in all three kingdoms of life, but is especially prevalent in eukaryotes. The CATH database lists over 800 unique β-propeller domains that contain 4–8 propeller blades and these can be categorized into one of seven folds based on the repeat motifs within each blade, such as the WD and KELCH domains (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). TolB is a variant of the SPDG motif family. β-propeller-containing proteins are often components of signalling cascades, exemplified by the Gβ subunit of the heterotrimeric G-protein complex and the β-domain of integrins. Notwithstanding their diversity of function and the variable number of blades, a characteristic and defining feature of β-propellers is how the four anti-parallel β-strands within each blade are interwoven. More often than not the N- and C-termini are in close proximity within the last blade, with the final β-strand serving as a latching or Velcro strand closing off the ring (
+     <xref ref-type="bibr">
+      Neer and Smith, 1996
+     </xref>
+     ). This circularly permuted arrangement accounts for the rigidity and stability of β-propellers (
+     <xref ref-type="bibr">
+      Fulop and Jones, 1999
+     </xref>
+     ). It is not surprising then that allosteric communication through the toroidal structure of β-propeller proteins is not a feature commonly associated with this fold. This work on TolB and that reported recently for regulator of chromosome condensation protein 1, RCC1, suggest, however, that allosteric signalling does occur within β-propeller domains and is associated with specific conformational signals being communicated to their termini through the propeller blade carrying the Velcro strand. RCC1 behaves as a guanine nucleotide exchange factor for the Ran GTPase, which binds to both chromatin and histones (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Recent studies have shown that apo-Ran binding to one side of the β-propeller allosterically promotes RCC1 DNA binding by its N-terminal 20 amino acids on the other side of the propeller (
+     <xref ref-type="bibr">
+      Hao and Macara, 2008
+     </xref>
+     ).
+    </p>
+    <p>
+     TolB provides an example of how an allosteric switch can work in a β-propeller protein. Effector proteins that bind to the β-propeller of TolB can both negatively (Pal) and positively (ColE9) regulate association of the distal N-terminal TolA box with TolAIII by influencing the conformational equilibrium experienced by these residues. The allosteric switch connects conformational changes in TolB to alterations in the Velcro strand of the last β-propeller blade and hence the availability of the N-terminal TolA box for binding TolA. Although crystallography indicates the structure of TolB remains unchanged when ColE9 binds (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ), NMR experiments show that the colicin promotes disorder in the N-terminal residues of TolB (
+     <xref ref-type="fig">
+      Figure 8
+     </xref>
+     ), resulting in enhanced TolA binding (
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     ). Hence, ColE9 is affecting the TolB conformational equilibrium in solution in a way that is not reflected crystallographically. These latter observations are reminiscent of RCC1, in which the N-terminal residues of the β-propeller have not been structurally resolved in its complex with apo-Ran, but are nonetheless allosterically regulated by its binding (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Hao and Macara, 2008
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Cloning and mutagenesis of plasmids
+    </title>
+    <p>
+     The
+     <em>
+      tolB
+     </em>
+     gene including its signal peptide was cloned from
+     <em>
+      E. coli
+     </em>
+     K12 genomic DNA. The BspHI/XbaI-digested PCR product was directly ligated into NcoI/XbaI cut pBAD24 vector (ATCC) to create pDAB17. TolB deletions Δ
+     <sup>
+      22−25
+     </sup>
+     and Δ
+     <sup>
+      22−33
+     </sup>
+     that are targeted to the periplasm were generated using pDAB17 as a template by whole plasmid mutagenesis to create pDAB22 and pDAB23, respectively. Both TolB Δ
+     <sup>
+      22−25
+     </sup>
+     and Δ
+     <sup>
+      22−33
+     </sup>
+     and TolAIII (residues 294–421) were cloned with their stop codons for cytoplasmic expression. The NcoI/XhoI PCR products were ligated directly into NcoI/XhoI cut pET21d vector to create pDAB16, pDAB10 and pAK108, respectively. For the expression of
+     <sup>
+      15
+     </sup>
+     N-labelled TolB (residues 22–430) and TolB Δ
+     <sup>
+      22−33
+     </sup>
+     (residues 34–430), which are C-terminal histidine tagged, whole plasmid mutagenesis of pRJ379 was performed to create pDAB33 and pDAB34, respectively.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Expression and purification of proteins
+    </title>
+    <p>
+     For the preparation of wild-type TolB purified from periplasmic extracts, pDAB17 was transformed into a
+     <em>
+      tolB
+     </em>
+     deletion mutant
+     <em>
+      E. coli
+     </em>
+     JW5100 (derived from BW25113 and kindly provided by the National BioResource Project, NIG Japan) and grown in 16 or 50 l of Luria broth (LB) in a fermenter aerobically containing 50 μg/ml kanamycin and carbenicillin at 37°C until an OD
+     <sub>
+      600
+     </sub>
+     of ∼0.4 was reached. TolB expression was induced with 0.001% w/v arabinose for 5 h before a subsequent induction with 0.005% w/v of arabinose for a further 15 h. Cells were harvested by centrifugation, washed in ice-cold 50 mM Tris–HCl, pH 8.0 and resuspended in 50 mM Tris–HCl, 20% w/v sucrose, pH 8.0. EDTA, pH 8.0 and lysozyme was added to final concentrations of 10 mM and 1 mg/ml, respectively. With continuous stirring, the slurry was left at 30°C for 1.5 h before centrifugation at 10 000
+     <em>
+      g
+     </em>
+     for 30 min. Periplasmic extract was treated with phenylmethylsulphonyl fluoride (final concentration 1 mM) and dialysed against 50 mM Tris–HCl pH 8.0 overnight at 4°C. TolB was concentrated by ammonium sulphate fractionation (40% saturation), resuspended in 50 mM Tris–HCl pH 8.0 and dialysed overnight at 4°C. Protein extract was passed through a DE52 weak-anion exchange column to which TolB does not bind, dialysed against 50 mM Tris–HCl, 250 mM NaCl, pH 7.5 and gel filtered on an S75 column (GE Healthcare). Eluted TolB was dialysed against 50 mM sodium acetate pH 5.0, loaded onto a MonoS column (GE Healthcare) and eluted using a NaCl gradient.
+    </p>
+    <p>
+     For the preparation of TolB Δ
+     <sup>
+      22−25
+     </sup>
+     and Δ
+     <sup>
+      22−33
+     </sup>
+     deletion mutants, pDAB16 and pDAB10 were transformed into BL21(DE3) pLysS and grown in LB containing 34 μg/ml chloramphenicol and 100 μg/ml ampicillin at 37°C until an OD
+     <sub>
+      600
+     </sub>
+     of ∼0.6 was reached. Proteins were expressed after induction with IPTG (1 mM) and grown for 4 h before harvesting. Cells were sonicated, cell debris removed by centrifugation and proteins purified as for processed TolB described above.
+    </p>
+    <p>
+     For preparation of domain III of TolA (TolAIII), pAK108 was transformed into BL21(DE3) pLysS and grown and purified as TolB Δ
+     <sup>
+      22−25
+     </sup>
+     or Δ
+     <sup>
+      22−33
+     </sup>
+     except TolAIII was concentrated by a second ammonium sulphate fractionation (70% saturation) and the final MonoS step used a lower starting ionic strength solution (10 mM sodium acetate, pH 5).
+    </p>
+    <p>
+     For the preparation of
+     <sup>
+      15
+     </sup>
+     N-labelled TolB and TolB Δ
+     <sup>
+      22−33
+     </sup>
+     ,
+     <em>
+      E. coli
+     </em>
+     cells were transformed with pDAB33 and pDAB34, respectively, and grown in M9 minimal medium containing
+     <sup>
+      15
+     </sup>
+     NH
+     <sub>
+      4
+     </sub>
+     Cl (1 g/l) as the only nitrogen source. Doubly labelled
+     <sup>
+      13
+     </sup>
+     C,
+     <sup>
+      15
+     </sup>
+     N samples were prepared as for
+     <sup>
+      15
+     </sup>
+     N-labelled, samples but with the addition of
+     <sup>
+      13
+     </sup>
+     C glucose (4 g/l) to the growth media. Cells were grown for 18 h at 37°C after induction with 1 mM IPTG (OD
+     <sub>
+      600
+     </sub>
+     ∼0.4) and proteins purified as for His-tagged TolB (pRJ379), which has been described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     The purification of Pal, ColE9 T-domain and ColE9
+     <sup>
+      S−S
+     </sup>
+     have all been described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). Purification and labelling of Im9 with Alexafluor-594 was performed as described by
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+    <p>
+     The masses of all purified proteins were found to be within 1–2 Da of the expected mass using nanospray mass spectrometry (LCT Premier, Waters).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     X-ray crystallography
+    </title>
+    <p>
+     Periplasmic extracts of JW5100 cells transformed with pDAB17 were made as described above. The extracts were incubated with an excess of His-tagged Pal and purified by Ni
+     <sup>
+      2+
+     </sup>
+     -affiinity chromatography. Final purification was as described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ). The complex was crystallized by the hanging drop method using 1 μl of complex mixed with 1 μl of the reservoir solution (17% w/v polyethylene glycol 4000, 0.2 M ammonium sulphate and 0.1 M sodium acetate pH 4.6). Crystals were frozen in mother liquor containing 20% v/v glycerol by liquid nitrogen. A dataset was collected at the European Synchrotron Radiation Facility beamline 14-1 and indexed and scaled with HKL2000 (
+     <xref ref-type="bibr">
+      Otwinowski and Minor, 1997
+     </xref>
+     ). The structure was solved by isomorphous replacement using the free R flag from the TolB–Pal (PDB, 2hqs). The structure was refined with REFMAC and built with Coot (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ). The coordinates have been deposited in the pdb with the accession code, 2w8b.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     tol phenotypic analysis, colicin sensitivity and immunity release assays
+    </title>
+    <p>
+     <em>
+      E. coli
+     </em>
+     JW5100 was transformed either with pDAB17, pDAB23, pDAB24 or the vector, pBAD24, to assess for Tol function. Cells were grown in LB at 37°C to an OD
+     <sub>
+      600
+     </sub>
+     of ∼0.6.
+     <em>
+      tol
+     </em>
+     phenotype was tested by spotting 5 μl of 10-fold serial dilutions (OD
+     <sub>
+      600
+     </sub>
+     0.002–0.00002) onto LB agar containing 2% SDS and 0.001% w/v arabinose. Growth on SDS was calculated as a function of colony forming units after overnight growth at 37°C. For colicin sensitivity assays, LB plates were overlaid with 0.7% top agar containing cells and 2 μl of five-fold serial dilutions (1 mg/ml to 20 pg/ml) of ColE9 were spotted onto the overlay. Plates were incubated overnight at 37°C. Immunity release assays were performed essentially as described earlier (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ) after a 30-min incubation period. Briefly, the amount of Alexa594-labelled Im9 released after DDT reduction from a complex with ColE9
+     <sup>
+      S−S
+     </sup>
+     was assessed by fluorescence spectroscopy for JW5100 cells transformed with plasmids pDAB17, pDAB22 and pDAB23 and compared with the strain in the absence of these plasmids and to wild-type JM83 cells. DTT reduction reduces the inactivating disulphide bond across the colicin receptor-binding domain allowing the synchronization of cell killing. We attribute the relatively high background for the
+     <em>
+      tolB
+     </em>
+     <sup>
+      <em>
+       −
+      </em>
+     </sup>
+     strain in these experiments not to dissociated immunity protein, but rather to the release of vesicles containing ColE9
+     <sup>
+      S−S
+     </sup>
+     -Alexa594Im9 bound to BtuB. The production of such vesicles is well characterized in
+     <em>
+      tol
+     </em>
+     strains and is due to the instability of the OM (
+     <xref ref-type="bibr">
+      None
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     <em>
+      In vitro
+     </em>
+     cross-linking
+    </title>
+    <p>
+     Purified proteins were dialysed overnight against 10 mM sodium phosphate pH 6.3 at 4°C. Individual proteins and complexes (final concentration 10 μM) were incubated at 37°C for 15 min before addition of formaldehyde (1% w/v) in a final volume of 10 μl. Proteins were incubated for a further 15 min at 37°C before quenching of the reaction with 5 μl of 100 mM Tris, pH 6.8. Samples were mixed with 4 × SDS loading buffer, incubated for 15 min at 37°C and separated on a 13% SDS–PAGE gel. Protein bands were visualized by western blotting using antibodies raised against the individual proteins (Eurogentec).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Isothermal titration calorimetry
+    </title>
+    <p>
+     The interaction of TolB, TolB Δ
+     <sup>
+      22−25
+     </sup>
+     and TolB Δ
+     <sup>
+      22−33
+     </sup>
+     with Pal and the T-domain of ColE9 were measured in 50 mM HEPES, 50 mM NaCl, 1 mM CaCl
+     <sub>
+      2
+     </sub>
+     pH 7.5. The interaction of TolB, TolB Δ
+     <sup>
+      22−25
+     </sup>
+     <sub>
+      ,
+     </sub>
+     TolB Δ
+     <sup>
+      22−33
+     </sup>
+     , TolB–Pal and TolB–T-domain with TolA were measured after overnight dialysis against 50 mM HEPES, 50 mM NaCl pH 7.5 after dialysis against the same buffer, but containing 5 mM CaCl
+     <sub>
+      2
+     </sub>
+     . All samples were centrifuged at 10 000
+     <em>
+      g
+     </em>
+     for 5 min to remove any precipitates and then degassed. Titrations were performed on a VP-ITC microcalorimeter (Microcal) and measured at either 20 or 30°C. All data were analysed using Origin 7.0 and fitted to single-site-binding models.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Nuclear magnetic resonance measurements
+    </title>
+    <p>
+     TolB NMR spectra were acquired using a Bruker Avance III 800 MHz spectrometer equipped with a triple resonance, pulsed field gradient probe, operating at
+     <sup>
+      1
+     </sup>
+     H frequency of 800.23 MHz,
+     <sup>
+      13
+     </sup>
+     C frequency of 201.23 MHz and
+     <sup>
+      15
+     </sup>
+     N frequencies of 81.09 MHz, using pulse sequences incorporated into the Bruker Topspin 2.1 software. 2D
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N TROSY-HSQC spectra of TolB and TolB Δ
+     <sup>
+      22−33
+     </sup>
+     were recorded at 35°C in 50 mM potassium phosphate, 50 mM NaCl pH 6.0, with both proteins at a concentration of 248 μM. Complexes of TolB and TolB Δ
+     <sup>
+      22−33
+     </sup>
+     with the ColE9 T-domain were prepared with the T-domain in excess over TolB (1:1.5) at a final complex concentration of 230 and 310 μM, respectively. 2D
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N TROSY-HSQC spectra of these complexes were recorded as described above. The
+     <sup>
+      1
+     </sup>
+     H carrier frequency was positioned at the resonance of the water during the experiments. The
+     <sup>
+      15
+     </sup>
+     N carrier frequency was at 119.5 p.p.m. and the
+     <sup>
+      13
+     </sup>
+     C carrier frequency was at 41.6 p.p.m. Resonance backbone assignments of doubly labelled wild-type TolB in complex with unlabelled ColE9 T-domain were obtained from 2D
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N TROSY-HSQC, 3D CBCA(CO)NH and HNCA. The complex was formed and spectra recorded under identical conditions to those described above.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <p>
+     Supplementary Figure 1
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (302K, tiff)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Figure 2
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (1.6M, tiff)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Figure 3
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (743K, tiff)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Supplementary Material
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (82K, doc)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <p>
+     Review Proces File
+    </p>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (209K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

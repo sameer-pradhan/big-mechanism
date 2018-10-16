@@ -1,0 +1,1469 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC3199383
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    A thermodynamic switch modulates abscisic acid receptor sensitivity
+   </article-title>
+  </title-group>
+  <abstract>
+   <sec>
+    <p>
+     Abscisic acid (ABA) is a key hormone regulating plant growth, development and the response to biotic and abiotic stress. ABA binding to pyrabactin resistance (PYR)/PYR1-like (PYL)/Regulatory Component of Abscisic acid Receptor (RCAR) intracellular receptors promotes the formation of stable complexes with certain protein phosphatases type 2C (PP2Cs), leading to the activation of ABA signalling. The PYR/PYL/RCAR family contains 14 genes in Arabidopsis and is currently the largest plant hormone receptor family known; however, it is unclear what functional differentiation exists among receptors. Here, we identify two distinct classes of receptors, dimeric and monomeric, with different intrinsic affinities for ABA and whose differential properties are determined by the oligomeric state of their apo forms. Moreover, we find a residue in PYR1, H60, that is variable between family members and plays a key role in determining oligomeric state.
+     <em>
+      In silico
+     </em>
+     modelling of the ABA activation pathway reveals that monomeric receptors have a competitive advantage for binding to ABA and PP2Cs. This work illustrates how receptor oligomerization can modulate hormonal responses and more generally, the sensitivity of a ligand-dependent signalling system.
+    </p>
+   </sec>
+   <sec>
+    <strong>
+     Keywords:
+    </strong>
+    <span>
+     hormone receptor, protein phosphatase 2C, PYR-PYL-RCAR, START domain, stress response
+    </span>
+   </sec>
+  </abstract>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    The plant hormone abscisic acid (ABA) is an important regulator of plant growth and development and plays a key role in the control of the plant stress response (
+    <xref ref-type="bibr">
+     Verslues and Zhu, 2007
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Cutler et al, 2010
+    </xref>
+    ). Under adverse environmental conditions, particularly drought and salinity, the levels of ABA increase in the plant, triggering a series of adaptive responses required for plant survival (
+    <xref ref-type="bibr">
+     Buchanan et al, 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nambara and Marion-Poll, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lee et al, 2006
+    </xref>
+    ). Recently, a family of intracellular ABA receptors, named PYR/PYL (pyrabactin resistance/PYR1-like) (
+    <xref ref-type="bibr">
+     Park et al, 2009
+    </xref>
+    ) or RCAR (Regulatory Component of Abscisic acid Receptor) (
+    <xref ref-type="bibr">
+     Ma et al, 2009
+    </xref>
+    ) have been shown to play a crucial role in this response. The PYR/PYL/RCAR proteins are able to bind to ABA and regulate the activity of clade A serine/threonine protein phosphatases 2C (PP2Cs) including ABI1, ABI2 and HAB1 (
+    <xref ref-type="bibr">
+     Leung et al, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Meyer et al, 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Leonhardt et al, 2004
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Saez et al, 2004
+    </xref>
+    ). This in turn regulates phosphorylation of some serine/threonine protein kinases in the sucrose non-fermenting1-related subfamily 2 (SnRK2;
+    <xref ref-type="bibr">
+     Mustilli et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yoshida et al, 2002
+    </xref>
+    ). Under non-stress conditions, clade A PP2Cs dephosphorylate certain SnRK2, keeping them in an inactive state (
+    <xref ref-type="bibr">
+     Umezawa et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vlad et al, 2009
+    </xref>
+    ). Under conditions of stress, ABA levels increase and induce the formation of a stable complex between PYR/PYL/RCARs and PP2Cs, which inactivates PP2C phosphatase activity and enables accumulation of active, phosphorylated SnRK2s (
+    <xref ref-type="bibr">
+     Cutler et al, 2010
+    </xref>
+    ). Once activated, SnRK2s phosphorylate key mediators of stress adaptation such as the SLAC1 anion channel, involved in stomatal closure, and the ABF/AREB transcription factors, including ABF2, required for transcriptional activation of stress responsive genes (
+    <xref ref-type="bibr">
+     Fujii et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fujita et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Geiger et al, 2009
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2011
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lee et al, 2009
+    </xref>
+    ). Recently, it has been shown that the PYL/RCAR receptors and ABI1 regulate the activity of the CPK23 and CPK21 protein kinases, which also have SLAC1 and its homologue SLAH3 as substrates (
+    <xref ref-type="bibr">
+     Geiger et al, 2011
+    </xref>
+    ).
+   </p>
+   <p>
+    Recent structural analyses of PYR/PYL/RCAR proteins alone and in complex with ABA and PP2Cs have provided significant insight into the molecular mechanism of ABA signalling (
+    <xref ref-type="bibr">
+     Melcher et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishimura et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dupeux et al, 2011
+    </xref>
+    ) (for review, see
+    <xref ref-type="bibr">
+     Cutler et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Melcher et al, 2010b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Weiner et al, 2010
+    </xref>
+    ). ABA binds inside a conserved hydrophobic cavity, which is surrounded by two flexible loops, the β3/β4 and β5/β6 loops (called the gating loops or the gate and latch) that control access to the ABA-binding pocket. In the ABA-free form, these loops adopt an open conformation leaving a free passage into the cavity. However, once ABA is bound, these loops close over the hormone stabilizing it inside the cavity. These ABA-induced conformational changes promote the formation of a stable complex between the ligand-bound receptor and the catalytic domain of clade A PP2Cs. In this complex, the β3/β4 gate loop inserts in the PP2C catalytic site and inhibits its activity, acting as a competitive inhibitor that blocks substrate access (
+    <xref ref-type="bibr">
+     Melcher et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dupeux et al, 2011
+    </xref>
+    ). At the same time, a conserved tryptophan residue in the flap subdomain of the clade A PP2C inserts between the gating loops stabilizing them in the closed conformation and trapping the hormone inside. These interactions explain the increased stability of the ternary receptor–hormone–phosphatase complex as compared with that of the receptor–hormone complex alone.
+   </p>
+   <p>
+    Despite these molecular level details, major questions remain poorly understood. For example, PYR/PYL/RCAR proteins form multigene families in plants. Microarray data sets suggest that several different receptor proteins are often co-expressed in a single cell (
+    <xref ref-type="bibr">
+     Kilian et al, 2007
+    </xref>
+    ), but it is still unclear whether they carry out fully redundant or specialized functions. Furthermore, molecular details of the receptor activation process are still poorly understood. For example, although the receptors studied crystallographically to date, including PYR1, PYL1 and PYL2, are dimeric, their receptor–ABA–phosphatase complexes show 1:1:1 stoichiometry. This implies that dissociation of the receptor dimer is necessary for receptor activation and signalling (
+    <xref ref-type="bibr">
+     Melcher et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishimura et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ). Moreover, the receptor–ABA–PP2Cs complexes are very stable, with apparent affinities for ABA in the low nanomolar range. However, ABA levels
+    <em>
+     in vivo
+    </em>
+    have been observed to vary over three orders of magnitude (from nanomolar to micromolar) (
+    <xref ref-type="bibr">
+     Harris et al, 1988
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     McCourt and Creelman, 2008
+    </xref>
+    ). This raises the question as to whether the proposed mechanism for ABA perception, that is, a low-nanomolar sensing system, is enough to account for the perception of changes across the whole range of physiological ABA concentrations (
+    <xref ref-type="bibr">
+     McCourt and Creelman, 2008
+    </xref>
+    ). Interestingly, when hormone binding is measured for the PYRL/PYL/RCAR proteins alone, the affinity for ABA is not only lower than that measured in the presence of PP2Cs, but the values of the Kd vary significantly among different receptor proteins. For example, PYL1 and PYL2 have Kds for ABA of 52 and 59 μM, respectively (
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ), while PYL5 and PYL8 have affinities of 1.0 and 0.9 μM, respectively (
+    <xref ref-type="bibr">
+     Santiago et al, 2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Szostkiewicz et al, 2010
+    </xref>
+    ). These differences in affinity are unlikely to be explained by differences in the ABA-binding pocket, since critical amino acids involved in receptor–hormone contacts and in the gating loops are highly conserved among PYR/PYL/RCAR proteins. Here, we present a detailed analysis of several members of the PYRL/PYL/RCAR family and provide new insight into the receptor activation mechanisms. Moreover, the biochemical and structural characteristics of these proteins suggest the existence of two distinct classes of ABA receptors characterized by the oligomeric states of their apo forms. The differential properties of these two types of ABA receptors might lead to distinct responses when they are considered in the context of the plant.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <sec>
+    <title>
+     ABA induces dissociation of the PYR1 dimer
+    </title>
+    <p>
+     The PYR/PYL/RCAR proteins studied at a structural level to date (PYR1, PYL1 and PYL2) are homodimeric in the absence of ABA, but form 1:1 monomeric complexes with PP2Cs after ABA binding (
+     <xref ref-type="bibr">
+      Melcher et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Miyazono et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Nishimura et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yin et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Santiago et al, 2009a
+     </xref>
+     ). Interestingly, the homodimerization and PP2C-binding interfaces of these receptors are largely overlapping (
+     <xref ref-type="fig">
+      Figure 1
+     </xref>
+     ). This structural organization suggests that homodimerization and PP2C binding are in competition with one another. Thus, dimerization, together with the conformational changes in the gating loops, contributes to block receptor–PP2C interactions in the absence of ABA, presumably functioning to prevent basal activation of the pathway. Hence, dissociation of the PYR1 receptor dimer, likely induced by ABA binding, should precede the formation of the ternary complex. However, these conclusions are based largely on crystallographic observations of receptors at high concentration that shift equilibria towards dimer formation (
+     <xref ref-type="bibr">
+      Nishimura et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Santiago et al, 2009a
+     </xref>
+     ). To address this, we analysed the oligomeric state of several PYR/PYL/RCAR proteins by Size-Exclusion Chromatography (SEC) coupled to Multiple Angle Laser Light Scattering (MALLS). In this approach, SEC followed by SDS–PAGE analysis of the eluted fractions reveals the formation of complexes, while the MALLS analysis provides an independent determination of the molecular mass of the eluting species which, unlike SEC, is not affected by deviations from globularity (
+     <xref ref-type="bibr">
+      Wyatt, 1998
+     </xref>
+     ). Additionally, with this technique it is possible to work at moderate protein concentrations. For all the MALLS experiments described below, proteins were injected at a concentration of 80 μM (see Materials and methods).
+    </p>
+    <fig id="f1" position="float">
+     <label>
+      Figure 1
+     </label>     <caption>
+      <p>
+       The PYR/PYL/RCAR dimerization and phosphatase interaction regions. The structures of the PYR1 dimer (3K90) (
+       <strong>
+        A
+       </strong>
+       ) and the PYR1–ABA–ΔNHAB1 ternary complex (3QN1) (
+       <strong>
+        B
+       </strong>
+       ) are shown. The abscisic acid molecule is shown in CPK representation. The PYR1 molecular surfaces involved in dimerization (
+       <strong>
+        C
+       </strong>
+       ) and ΔNHAB1 interaction (
+       <strong>
+        D
+       </strong>
+       ) are shown in green colour. The side chains of the Leu 87, from the ABA-free subunit of the PYR1 dimer (
+       <strong>
+        C
+       </strong>
+       ) and the side chain of Trp 385 from ΔNHAB1 (
+       <strong>
+        D
+       </strong>
+       ) that occupy similar positions near the PYR1 gating loops are indicated as stick models. The large degree of overlap between the two surfaces indicates that the PP2C-interaction region is occluded in the PYR1 dimer and that receptor dissociation would be required for the formation of the ternary complex.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Using this approach, we studied the oligomeric state, PP2C interactions and effects of ABA for five members of the receptor family: PYR1, PYL1, PYL5, PYL6 and PYL8. The analyses of these proteins in the absence of ABA indicate that PYR1 and PYL1 are dimeric proteins (apparent Mr of 39 and 50 kDa; predicted 44 and 51 kDa, respectively;
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Unexpectedly, PYL5, PYL6 and PYL8 are monomeric proteins (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). When the same experiments are performed in the presence of ABA, PYR1 eluted at higher volumes (indicative of a decrease in molecular size) and the apparent molecular mass was 21 kDa, which coincides with that of a PYR1 monomer (predicted=22 kDa). On the contrary, analysis of the PYR1
+     <sup>
+      Y120A
+     </sup>
+     , a mutant defective in ABA binding (
+     <xref ref-type="bibr">
+      Dupeux et al, 2011
+     </xref>
+     ), indicates that this mutant does not become monomeric in response to ABA (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ). Together, these results indicate that ABA binding is both necessary and sufficient for dissociation of the PYR1 dimer. Similarly, PYL1 showed a reduction of its apparent Mr in the presence of ABA (
+     <a>
+      Supplementary Figure S1
+     </a>
+     ), although it was less completely dissociated by ABA than PYR1. As expected, the apparent masses for monomeric receptors PYL5, PYL6 and PYL8 did not shift in the presence of ABA (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Thus, ABA receptors can exist in either monomeric or dimeric forms and ABA promotes dissociation of the dimeric receptors.
+    </p>
+    <fig id="f2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <p>
+       ABA receptors exist in dimeric and monomeric forms. SEC-MALLS analysis of PYR1 (top) and PYL5 (bottom) alone (left) and in the presence of equimolar concentrations of ΔNHAB1 (right) as described in Materials and methods. The experiments were done in the absence (blue) and presence (red) of 1 mM (+)ABA. SDS–PAGE analysis of eluted fractions is shown (boxes). Both the SEC elution profiles (monitored through the excess refractive index, which is proportional to the protein concentration) and the molecular size calculated by MALLS (shown above the peaks for each species) indicate dissociation of the PYR1 dimer in the presence of ABA (expected Mw 42 and 21 kDa for dimers and monomers, respectively). The PYR1
+       <sup>
+        Y120A
+       </sup>
+       mutant, defective in ABA binding, remains as a dimer in the presence of ABA (green line). PYL5 is monomeric (expected Mw 24 kDa) and is not affected by the presence of (+)ABA. Both proteins form 1:1 complexes when combined with ΔNHAB1 in the presence of ABA (right panels); however, while PYR1 does not interact with ΔNHAB1 in the absence of ABA the interaction between PYL5 and ΔNHAB1 in the same conditions is revealed by a decrease in the height of the peak corresponding to monomeric ΔNHAB1 and the appearance of a peak containing both PYL5 and ΔNHAB1. See
+       <a>
+        Supplementary Figure S1
+       </a>
+       for similar experiments with PYL1, PYL6 and PYL8.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     We also examined interactions between receptors and the PP2C HAB1 in the absence of ABA. For this purpose, we used the catalytic core of HAB1 (ΔNHAB1, amino acids 179–511), rather than the full-length protein, which is difficult to produce in recombinant expression systems. These experiments revealed differences in basal PP2C interactions between monomeric and dimeric receptors. In agreement with crystallographic studies, all receptors tested form stable complexes with ΔNHAB1 in the presence of ABA at 1:1 stoichiometry, as indicated by the apparent Mr of the complexes (right panels in
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). Importantly, PYR1 and PYL1 do not interact with PP2C in the absence of ABA, while PYL5, PYL6 and PYL8 show partial interactions (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ;
+     <a>
+      Supplementary Figure S1
+     </a>
+     ). The MALLS analyses show intermediate molecular masses, indicative of a fast exchange between complexed and uncomplexed forms. These results indicate that monomeric receptors are capable of establishing weak but clearly detectable interactions with ΔNHAB1
+     <em>
+      in vitro
+     </em>
+     in the absence of ABA, and suggest that a key function of dimerization in receptors like PYR1 and PYL1 is to prevent basal interactions with PP2Cs in the absence of ABA.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Monomeric and dimeric receptors have different intrinsic affinities for ABA
+    </title>
+    <p>
+     The apparent ABA dissociation constants for PYL1, PYL2, PYL5 and PYL8 have been previously determined (
+     <xref ref-type="bibr">
+      Miyazono et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Santiago et al, 2009b
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Yin et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Szostkiewicz et al, 2010
+     </xref>
+     ) and are shown in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     . We carried out Isothermal Titration Calorimetry (ITC) experiments to measure the apparent ABA-binding affinity of PYL6 and PYR1. The Kd for PYL6 was 1.1 μM (±0.01) with a negative enthalpy, indicating an exothermic binding process (see
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     ). Under the same conditions, PYR1 did not produce significant heat signals indicating a much lower affinity. When PYR1 was assayed at higher protein concentrations (200 μM), an endothermic binding curve was obtained (see below). Due to the low apparent binding affinity, the exact value of the apparent Kd could not be precisely determined. However, given the experimental conditions used, it can be estimated to be greater than 50 μM. NMR experiments in which binding was followed through ABA-induced resonance shifts on a
+     <sup>
+      15
+     </sup>
+     N-labelled PYR1 sample were used to obtain an independent estimation of the dissociation constant. The value of the Kd obtained was 97±36 μM (
+     <a>
+      Supplementary Figure S2
+     </a>
+     ). Thus, the dimeric receptor PYR1 has an apparent affinity for ABA that is almost two orders of magnitude lower than that of the monomeric receptors.
+    </p>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 1
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Apparent ABA-binding affinities and oligomeric state of PYR/PYL/RCAR receptors
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+    <p>
+     The oligomeric state and apparent affinities for ABA of the PYR/PYL/RCAR receptors studied here and elsewhere are summarized in
+     <a>
+      <span>
+       Table I
+      </span>
+     </a>
+     . Comparison of these parameters indicates a strong correlation between the ABA affinities and the oligomeric state of the apo form of the receptor, with monomeric receptors showing Kds in the range of 1 μM and negative enthalpies, and dimeric receptors showing much lower apparent affinities and positive binding enthalpies for ABA. As mentioned above, the amino-acid residues involved in hormone binding are highly conserved in the PYR/PYL/RCAR family. Hence, the observed differences in apparent enthalpy and binding affinity are unlikely to be the result of differences in the ABA-binding pocket. The lower apparent affinity of dimeric receptors could be explained by the unfavourable contribution of dimer dissociation to the thermodynamics of the receptor activation process. Ligand binding is typically an exothermic process, as it normally results in the net creation of chemical bonds between ligand and protein, favouring the binding reaction. On the contrary, protein dissociation is often endothermic as it usually involves a net breakage of chemical bonds between protein monomers. We hypothesized that the unfavourable contribution of dimer dissociation to the thermodynamics of the receptor activation process could explain the correlation between the oligomeric state of the apo form of the receptor and their intrinsic hormone binding affinities. In order to test this, we generated a PYR1 variant that is impaired for dimerization but is not compromised in ABA or PP2C binding.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     A histidine 60 to proline substitution destabilizes the PYR1 dimer and increases its apparent ABA affinity
+    </title>
+    <p>
+     As shown above, monomeric receptors have a certain capacity to interact with ΔNHAB1 in the absence of ABA while dimeric receptors do not. This observation is in agreement with the strong ABA dependence of PYR1–HAB1 and PYL1–HAB1 interactions observed previously in a yeast two-hybrid (Y2H) assay system and the ABA-independent interactions observed for PYL5, PYL6 and PYL8 (
+     <xref ref-type="bibr">
+      Park et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Santiago et al, 2009b
+     </xref>
+     ). We took advantage of this assay to identify PYR1 mutations leading to altered PYR1–PP2C interactions. Using a previously described error-prone PCR mutagenized PYR1 library (
+     <xref ref-type="bibr">
+      Peterson et al, 2010
+     </xref>
+     ), we screened yeast cells for PYR1 mutants that enable interaction with HAB1 in the absence of ABA, which led to the identification of a missense mutant in which histidine 60 was replaced by proline (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ).
+    </p>
+    <fig id="f3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <p>
+       The PYR1 His60Pro mutation favours both dimer dissociation and constitutive interaction with ΔNHAB1. (
+       <strong>
+        A
+       </strong>
+       ) Y2H assay showing constitutive interaction between PYR1
+       <sup>
+        H60P
+       </sup>
+       and ΔNHAB1. This interaction is strictly dependent on ABA or its analogue Pyrabactin for wt PYR1. (
+       <strong>
+        B
+       </strong>
+       ) SEC-MALLS analysis of wt PYR1 (black) and PYR1
+       <sup>
+        H60P
+       </sup>
+       in the absence (blue) and presence (red) of 1 mM (+)ABA. The shift of PYR1
+       <sup>
+        H60P
+       </sup>
+       towards lower apparent molecular size in SEC and MALLS in the absence of ABA is indicative of equilibrium between monomeric and dimeric forms. PYR1
+       <sup>
+        H60P
+       </sup>
+       dissociates completely into monomeric species in the presence of 1 mM ABA (red curve). (
+       <strong>
+        C
+       </strong>
+       ) Comparison of the dissociation rates of PYR1 and PYR1
+       <sup>
+        H60P
+       </sup>
+       measured by ITC. Concentrated solutions of both proteins were repeatedly injected into the ITC cell filled with buffer and dissociation thermograms were recorded. The estimated dimer dissociation constant for PYR1
+       <sup>
+        H60P
+       </sup>
+       is indicated. (
+       <strong>
+        D
+       </strong>
+       ) SEC-MALLS analysis showing constitutive interactions between ΔNHAB1 and PYR1
+       <sup>
+        H60P
+       </sup>
+       . Experiments were conducted by mixing equimolecular concentrations of both proteins before injection, in the absence (blue) and in the presence (red) of 1 mM (+)ABA. The composition of the SEC peaks was analysed by SDS–PAGE (boxes). PYR1
+       <sup>
+        H60P
+       </sup>
+       shows a weak interaction with ΔNHAB1 in the absence of ABA.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The SEC-MALLS analysis of the H60P mutant produced a single elution peak with an apparent mass of 30 kDa (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ), which is between those expected for the dimer and monomer species. This elution peak is wide and asymmetric, indicative of polydispersity. In contrast, in the presence of ABA, PYR1
+     <sup>
+      H60P
+     </sup>
+     elutes as a single symmetric peak with an apparent mass of 22 kDa, as expected for the monomeric form. This indicates that in the absence of ABA, PYR1
+     <sup>
+      H60P
+     </sup>
+     behaves as a mixture of dimeric and monomeric species in rapid exchange. In order to confirm this, we measured dimer dissociation rates by ITC with wt and mutant PYR1. For this purpose, concentrated solutions of either protein were injected into the ITC cell filled with buffer. In this way, the sudden dilution of the protein promotes dissociation and the associated heat can be measured. As can be observed (
+     <xref ref-type="fig">
+      Figure 3C
+     </xref>
+     ), the thermogram corresponding to PYR1
+     <sup>
+      H60P
+     </sup>
+     shows a profile typical of protein dissociation, with endothermic peaks whose area decrease as the protein concentration in the ITC cell increases. The calculated dissociation constant is 39 μM. In contrast, wt PYR1 produced much weaker signals that disappeared after a few injections, indicating that limited dissociation occurs only in extremely diluted conditions. We next tested whether the PYR1
+     <sup>
+      H60P
+     </sup>
+     mutant could interact
+     <em>
+      in vitro
+     </em>
+     with ΔNHAB1 in the absence of ABA. For this purpose, PYR1
+     <sup>
+      H60P
+     </sup>
+     and ΔNHAB1 were mixed in equimolar amounts and analysed by SEC-MALLS. As shown in
+     <xref ref-type="fig">
+      Figures 2
+     </xref>
+     and
+     <xref ref-type="fig">
+      None
+     </xref>
+     , wt PYR1 does not interact with ΔNHAB1 in the absence of ABA. However, PYR1
+     <sup>
+      H60P
+     </sup>
+     shows partial interaction with ΔNHAB1, similar to monomeric receptors (
+     <xref ref-type="fig">
+      Figure 2
+     </xref>
+     ), and confirms the constitutive interactions detected by the Y2H assay (
+     <xref ref-type="fig">
+      Figure 3A
+     </xref>
+     ).
+    </p>
+    <p>
+     We measured the apparent affinity and enthalpy for ABA binding of the PYR1
+     <sup>
+      H60P
+     </sup>
+     mutant and compared it with that of wt PYR1 (
+     <xref ref-type="fig">
+      Figure 4A and B
+     </xref>
+     ). The introduction of this mutation leads to a significant increase in apparent ABA-binding affinity with a dissociation constant of 3 μM and a negative enthalpy, similar to that of monomeric receptors. This enhanced ABA-binding affinity was confirmed in a functional assay based on the
+     <em>
+      in vitro
+     </em>
+     reconstitution of the ABA signalling cascade (
+     <xref ref-type="bibr">
+      Fujii et al, 2009
+     </xref>
+     ). For this purpose, wt PYR1 or PYR1
+     <sup>
+      H60P
+     </sup>
+     was combined in a test tube with ΔNHAB1, SnRK2.6/OST1 and a C-terminal deletion of the ABF2 transcription factor (ΔCABF2, amino acids 1–173), as described in Materials and methods. In this assay, OST1 activity is measured as autophosphorylation as well as trans-phosphorylation of its natural substrate, ΔCABF2. In the absence of ABA, OST1 activity is inhibited by ΔNHAB1-mediated dephosphorylation, while addition of ABA leads to the receptor-mediated inactivation of the phosphatase and increased levels of OST1 activity (
+     <xref ref-type="bibr">
+      Fujii et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Dupeux et al, 2011
+     </xref>
+     ). As can be observed in
+     <xref ref-type="fig">
+      Figure 4C
+     </xref>
+     , PYR1
+     <sup>
+      H60P
+     </sup>
+     was able to recover OST1 activity at lower ABA concentrations than wt PYR1. This result is in agreement with the measured increase in ABA-binding affinity and indicates that a monomeric variant of PYR1 is more effective than the dimeric PYR1 for the inhibition of the phosphatase activity of ΔNHAB1 at lower ABA concentrations.
+    </p>
+    <fig id="f4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <p>
+       The PYR1 His60Pro mutation leads to increased affinity for ABA. Typical thermograms resulting from isothermal titration calorimetry experiments with wt PYR1 (
+       <strong>
+        A
+       </strong>
+       ) and PYR1
+       <sup>
+        H60P
+       </sup>
+       (
+       <strong>
+        B
+       </strong>
+       ) (the concentration of PYR1 is 8 times higher than that of PYR1
+       <sup>
+        H60P
+       </sup>
+       ). The estimated Kds for ABA binding are indicated. The increase in affinity and the change in enthalpy, endothermic for PYR1 and exothermic PYR
+       <sup>
+        H60P
+       </sup>
+       can be appreciated. (
+       <strong>
+        C
+       </strong>
+       )
+       <em>
+        In vitro
+       </em>
+       OST1 kinase activity assays in the presence of ΔNHAB1, wt PYR1 and the mutant PYR1
+       <sup>
+        H60P
+       </sup>
+       . The experiment shows an enhanced recovery of OST1 activity in the presence of PYR1
+       <sup>
+        H60P
+       </sup>
+       at low ABA concentrations, as compared with wt PYR1. The top panel shows a representative autoradiogram from a protein kinase assay. The bottom panel shows the quantification of the activity based on relative intensity of bands corresponding to OST1 phosphorylation products, using a phosphoimager Image Gauge V.4.0. Quantification of ΔCABF2 was also performed obtaining similar results. Standard error measurements are shown (
+       <em>
+        n
+       </em>
+       =3).
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Taken together, these results demonstrate that the His60Pro mutation produces a destablization of the PYR1 dimer and that this renders the mutant PYR1 capable of establishing weak, but clearly detectable, interactions with ΔNHAB1 in the absence of the hormone, supporting the notion that dimerization contributes to prevent interaction between receptor and phosphatase in the absence of ABA by occluding the phosphatase docking region on the surface of the receptor. Moreover, they demonstrate that the differences in apparent ABA-binding affinity between monomeric and dimeric receptors are produced by a negative contribution of dimerization to the receptor activation process.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     A proline at position 60 of PYR1 hinders peptide backbone rearrangements required for the formation of the receptor dimer
+    </title>
+    <p>
+     The structure of the ternary complex formed by PYR1
+     <sup>
+      H60P
+     </sup>
+     , ABA and the catalytic core of HAB1 (ΔNHAB1) was obtained by X-ray crystallography (see
+     <a>
+      <span>
+       Table II
+      </span>
+     </a>
+     for crystallographic data collection and refinement statistics). The electron density around position 60 of PYR1 confirmed the substitution of histidine for proline (see
+     <a>
+      Supplementary Figure S3
+     </a>
+     ). The mutant complex is remarkably similar to that formed by wt PYR1 and ΔNHAB1 (
+     <xref ref-type="bibr">
+      Dupeux et al, 2011
+     </xref>
+     ). However, the comparison of these two complexes with the structure of dimeric PYR1 indicates a major rearrangement of the peptide backbone around residue 60, with a small change in the Phi angle and a rotation of the Psi torsion angle of 165° (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). This conformational change influences the position of the side chain of the neighbouring residue, Phe61 at the core of the dimerization interface. As can be observed in
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     , in both the wt and mutant ternary complexes Phe61 of PYR1 occupies a hydrophobic pocket at the centre of the receptor–phosphatase interface. In dimeric PYR1, this residue occupies an equivalent position, but this time at the interface between the two PYR1 monomers. However, in this case, the space available to Phe61 is restricted by the equivalent Phe61 residue from the second molecule in the dimer, whose side chain protrudes into this hydrophobic pocket (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). The modification of the backbone torsion angles around residue 60 in wt PYR1 produces an outward displacement of about 1 Å in the position of the Cα and the side chain of Phe61 in each molecule of the dimer (
+     <xref ref-type="fig">
+      Figure 5A
+     </xref>
+     ). This rearrangement is necessary to prevent a steric clash between the two Phe61 residues at the dimer interface. While introduction of a proline at position 60 is compatible with the formation of a phosphatase complex, as demonstrated here (
+     <xref ref-type="fig">
+      Figure 5B
+     </xref>
+     ), this residue limits the flexibility of the peptide backbone at this critical position, hindering in turn the outward movement of Phe61 and leading to a steric clash at the dimer interface, explaining the decreased tendency of this receptor variant to form dimers.
+    </p>
+    <fig id="f5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <p>
+       Structure of the PYR1
+       <sup>
+        H60P
+       </sup>
+       mutant and its effect on the dimerization interface. The structure of PYR1
+       <sup>
+        H60P
+       </sup>
+       in complex with ΔNHAB1 and (+)ABA was obtained by X-ray crystallography (3ZVU). (
+       <strong>
+        A
+       </strong>
+       ) Detail of the conformation of peptide backbone at position 60 and its effect on Phe61 in the wt PYR1–ΔNHAB1 complex (3QN1) (left, blue), the PYR1 dimer (3K90) (centre, grey) and the PYR1
+       <sup>
+        H60P
+       </sup>
+       –ΔNHAB1 (right, yellow). Arrows indicate the rearrangement of the peptide backbone around His60 and the displacement of Phe61 in dimeric PYR1. (
+       <strong>
+        B
+       </strong>
+       ) Detail of the receptor–PP2C interface in the wt PYR1–ΔNHAB1 and the PYR1
+       <sup>
+        H60P
+       </sup>
+       –ΔNHAB1 complexes. Wt PYR1 is shown as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       with relevant residues at the α4/β2 loop in blue. The corresponding residues of PYR1
+       <sup>
+        H60P
+       </sup>
+       are shown in yellow. The backbone of ΔNHAB1 is shown in green with semitransparent molecular surface. As can be appreciated except for the His/Pro substitution, both PYR1 proteins form virtually identical interfaces with Phe61 occupying a pocket at the centre of the receptor–phosphatase interface. (
+       <strong>
+        C
+       </strong>
+       ) The structure of PYR1
+       <sup>
+        H60P
+       </sup>
+       (yellow) from the model above was overlaid on subunit A of the PYR1 dimer (backbone as in
+       <xref ref-type="fig">
+        Figure 1
+       </xref>
+       and side chains in grey). The structure of the second subunit in the PYR1 dimer is shown with semitransparent molecular surface and critical side chains in grey. The modifications in the conformation of the α4/β2 loop and the outward displacement of Phe61 in dimeric PYR1 leave space to accommodate the side chain of Phe61(B) of the second subunit in the dimer, which occupies the centre of the dimerization interface. The position of Phe61 from PYR1
+       <sup>
+        H60P
+       </sup>
+       (yellow) partially overlaps with that of Phe61(B). The modification of the backbone torsion angles at position 60 in the PYR1 dimer (
+       <strong>
+        A
+       </strong>
+       ) produces an outward displacement of Phe61 preventing a steric clash between the two Phe61 residues at the dimer interface. The introduction of a proline at position 60 limits backbone flexibility hindering this rearrangement.
+      </p>
+     </caption>
+    </fig>
+    <sec>
+     <a>
+      <img/>
+     </a>
+     <sec>
+      <sec>
+       <a>
+        Table 2
+       </a>
+      </sec>
+      <sec>
+       <span>
+        <strong>
+         Crystallographic data collection and refinement statistics of the PYR1
+         <sup>
+          H60P
+         </sup>
+         –ABA–ΔNHAB1 complex (brackets indicated values for highest resolution shell)
+        </strong>
+       </span>
+      </sec>
+     </sec>
+    </sec>
+   </sec>
+   <sec>
+    <title>
+     Competition for ABA binding could lead to preferential activation of monomeric receptors
+    </title>
+    <p>
+     Both monomeric and dimeric receptors can form high-affinity complexes with PP2Cs, and once they are formed, both complexes have a similar stability (
+     <xref ref-type="bibr">
+      Ma et al, 2009
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Santiago et al, 2009b
+     </xref>
+     ). However, our results indicate that dimeric receptors (i) need to dissociate into monomers before they can interact with and inhibit a PP2C and (ii) have a lower intrinsic affinity for ABA. We reasoned that if both monomeric and dimeric receptors are expressed in the same cell, then the monomeric receptors would have a competitive advantage over dimeric ones for ABA binding and the formation of ternary complexes, especially in situations when ABA concentrations would be limiting. In order to explore this concept, we performed
+     <em>
+      in silico
+     </em>
+     modelling of the receptor activation process. We considered a model consisting of generic monomeric and dimeric receptors that compete for binding to the same pool of ABA and PP2C molecules. The reaction diagram used in this model is shown in
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     . Dimeric receptors exist in a monomer–dimer equilibrium (reaction 2) and can form a ternary complex in two different ways. A high-affinity pathway involving binding of ABA to the monomeric form with an equilibrium constant similar to that of monomeric receptors (reactions 1 and 6) and a low-affinity pathway involving binding of ABA to dimeric receptors and dissociation of the receptor dimer (reactions 3–6). The apparent Kds for the global reactions leading to the formation of receptor–ABA and receptor–ABA–phosphatase complexes have been experimentally determined (highlighted in
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     ) and were used to estimate the equilibrium constants for the individual reactions in the model.
+    </p>
+    <fig id="f6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <p>
+       Model of the abscisic acid receptor activation process. (
+       <strong>
+        A
+       </strong>
+       ) The reaction equilibria leading to the formation of receptor–ABA–PP2C ternary complexes for monomeric and dimeric PYR/PYL/RCAR proteins considered in the modelling study are indicated. The apparent Kds for the reactions measured experimentally (formation of receptor–ABA and receptor–ABA–phosphatase complexes) are indicated, and were used to parameterize the model. This model was used to explore the response to ABA when both monomeric and dimeric PYR/PYL/RCAR proteins compete for the same pool of ABA and PP2C molecules. (
+       <strong>
+        B
+       </strong>
+       ) Results corresponding to a balanced model with dimer dissociation constant of 0.05 μM. The amount of total receptor–ABA–PP2C ternary complexes (red) as well as the proportion of ternary complexes formed with monomeric (monR-PP2C, cyan) and dimeric receptors (dimR-PP2C, brown) are indicated. (
+       <strong>
+        C
+       </strong>
+       ) Activation of dimeric and monomeric receptors in balanced and unbalanced models. The concentration of ternary complexes formed by dimeric (dimR-PP2C dashed lines) and monomeric (monR-PP2C full lines) receptors at different ABA concentrations is indicated for situations involving different proportions of monomeric and dimeric receptors (as indicated). The dimer dissociation constant and the total receptor and PP2C concentrations were as in (
+       <strong>
+        B
+       </strong>
+       ). As can be appreciated, these results indicate that overexpression of dimeric receptors can compensate for their thermodynamic disadvantage, and that the relative abundance of monomeric receptors has a strong influence on the concentration of ABA at which activation of dimeric receptors commences.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     The equilibrium constant for dimer dissociation (reaction 2) is an important parameter in the model, since it determines the proportion of monomeric and dimeric forms of the receptor. Due to the stability of the PYR1 dimers, it was not possible to determine this value experimentally. A series of models were generated with values of this dissociation constant in a range between 0.3 and 0.05 μM. Values above this range would have been easily detected by the ITC dissociation experiment with wt PYR1, while values much lower than 0.05 μM would result in a very stable receptor dimer, which would prevent formation of the ternary complex. The concentrations of receptor and PP2C molecules were chosen so that the proportion between receptors (both types combined) and PP2C molecules was always 1:1. However, three different situations were considered: monomeric and dimeric receptors in equal amounts (balanced model) and concentrations of dimeric receptors either exceeding or significantly below that of monomeric receptor (unbalanced models). The steady-state concentrations of the different species were determined for a range of protein and ABA concentrations.
+    </p>
+    <p>
+     <xref ref-type="fig">
+      Figure 6B
+     </xref>
+     shows the contribution of monomeric and dimeric receptors to the formation of ternary complexes at ABA concentrations ranging from 10 nM to 10 μM for PP2C and receptor concentrations of 1 μM and with a value of the dimerization constant of 0.05 μM. As can be appreciated, at 0.6 μM ABA, &gt;50% of the PP2C is forming ternary complexes, which represents the inactive form of the phosphatase. However, two thirds of these ternary complexes are formed by monomeric receptors and only one third by dimeric ones. The competitive advantage of monomeric receptors is stronger at lower ABA concentrations. For example, at 0.2 μM ABA, 80% of the ternary complexes are formed by monomeric receptors while at 1 μM ABA, they represent 60%. When the system reaches saturation, at ABA concentrations between 2 and 10 μM, both receptor types contribute similarly to the inhibition of the phosphatase activity. The behaviour of the system is strongly influenced by the relative abundance of monomeric and dimeric receptors and the competitive disadvantage of dimeric receptors can be compensated if they are more abundant than monomeric ones. For example, when the concentration of dimeric receptors is nine-fold higher than that of monomeric ones, dimeric receptors contribute two thirds of the ternary complexes at 0.2 μM ABA and &gt;85% at 1 μM ABA (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). If monomeric receptors are more abundant their competitive advantage is exacerbated.
+    </p>
+    <p>
+     The competitive advantage of monomeric receptors decreases with increasing values of the dimerization constant and at lower receptor concentrations, both conditions that would promote the dissociation of dimeric receptors. However, an advantage towards the activation of monomeric receptors is always observed for all the balanced models, even when protein concentrations are below the value of the dimer dissociation constant. Finally, the absolute PP2C and receptor concentrations determine the concentration of ABA required to attaining substantial inhibition of the phosphatase activity.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    Recent structural studies have contributed significantly to the understanding of the process of ABA perception and the activation of the plant ABA signalling pathway (
+    <xref ref-type="bibr">
+     Melcher et al, 2009
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2010a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishimura et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Peterson et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dupeux et al, 2011
+    </xref>
+    ). The data presented here provide novel mechanistic insight into the process of activation of PYR/PYL/RCAR abscisic acid receptors and show how the capacity of the apo form of the receptor to dimerize or not divides this protein family in two groups with distinctive properties. These differential properties may have important consequences for the activation of the ABA response pathway when they are considered in the cellular context.
+   </p>
+   <p>
+    Our analysis indicates that PYR/PYL/RCAR proteins can be separated into two distinct subclasses: one corresponding to dimeric receptors, to which PYR1, PYL1 and PYL2 belong, and another corresponding to monomeric receptors, including at least PYL5, PYL6 and PYL8. Dimeric receptors display lower apparent affinities for ABA and have a strict requirement on ABA for interaction with PP2Cs, while monomeric receptors have a significantly higher intrinsic affinity for ABA and can form low-affinity complexes with PP2Cs in the absence of ABA (
+    <a>
+     <span>
+      Table I
+     </span>
+    </a>
+    ;
+    <xref ref-type="fig">
+     Figure 2
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S1
+    </a>
+    ). These distinctive properties do not result from differences in the ABA-binding pocket. Instead, they are the consequence of the oligomeric state of the apo form of the receptor. In dimeric receptors, the PP2C-interaction surface is occluded in the absence of ABA (
+    <xref ref-type="fig">
+     Figure 1
+    </xref>
+    ), and ABA binding is required both to promote the closed conformation of the gating loops and to induce dimer dissociation. This releases the PP2C-interaction region on the surface of the receptor, making it competent for interaction with a phosphatase. The lower ABA affinity characteristic of dimeric receptors is the consequence of the thermodynamic penalty imposed by dimer dissociation on the receptor activation process. For dimeric receptors, the heat released by hormone binding is reabsorbed by the process of dimer dissociation, which is endothermic (
+    <xref ref-type="fig">
+     Figure 3C
+    </xref>
+    ), resulting in net positive enthalpies and a less favourable ΔG for the overall receptor activation process, decreasing in turn the apparent ABA binding affinity (
+    <xref ref-type="fig">
+     Figure 4A
+    </xref>
+    ). The activation of monomeric receptors does not involve this unfavourable energetic contribution, which explains their higher intrinsic affinity for ABA, but on the other hand, in their ABA-free form, the PP2C-interaction region is not occluded, leading to a certain capacity to establish weak interactions with phosphatases (
+    <xref ref-type="fig">
+     Figure 2
+    </xref>
+    ;
+    <a>
+     Supplementary Figure S1
+    </a>
+    ). The distinctive properties of monomeric and dimeric receptors are particularly well illustrated by the wt and PYR1
+    <sup>
+     H60P
+    </sup>
+    proteins. Even though their ABA-binding pockets and PP2C-interaction regions are virtually identical (
+    <xref ref-type="bibr">
+     Nishimura et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Melcher et al, 2010a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Peterson et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dupeux et al, 2011
+    </xref>
+    ; and this work), the different oligomeric state of their apo forms entails different ABA sensitivity, thermodynamic properties and ability to activate OST1.
+   </p>
+   <p>
+    The analysis of the ABA binding regions in the PYR/PYL/RCAR family indicates that, for dimeric receptors like PYR1, PYL1 and PYL2, the residues involved in dimerization are surrounded or adjacent to residues involved in ABA binding (
+    <xref ref-type="bibr">
+     Melcher et al, 2009
+    </xref>
+    ,
+    <xref ref-type="bibr">
+     2010a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishimura et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009a
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Peterson et al, 2010
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Dupeux et al, 2011
+    </xref>
+    ; see
+    <a>
+     Supplementary Figure S4
+    </a>
+    ). This configuration is poised to directly transmit and convert ligand binding into dimer disruption. Indeed, by comparing the structures of apo and ABA-bound PLY2,
+    <xref ref-type="bibr">
+     Yin et al (2009)
+    </xref>
+    had already noted a significant weakening of the dimer interface upon ABA binding. However, its biological significance was not interpreted. The weakening of the dimerization interface is mostly due to the closing of the gating loops induced by ABA binding, which in the apo form are open and establish both polar and hydrophobic contacts with the neighbouring subunit, and to a slight change in the relative orientation of the two protomers, all of which results in a reduction in the number of Van der Waals contacts and hydrogen bonds between the two subunits and a reduction of the dimer interaction surface (
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ). Similar differences can be observed between the ABA bound and free forms of PYL1, PYL2 and PYR1.
+   </p>
+   <p>
+    The thermodynamic disadvantage for the activation of dimeric receptors will be offset by the formation of the new receptor–phosphatase interface in the ternary complex, with a favourable enthalpic contribution, which explains why both monomeric and dimeric receptors show increased affinities for ABA in the presence of clade A PP2Cs (
+    <xref ref-type="bibr">
+     Ma et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Melcher et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Miyazono et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yin et al, 2009
+    </xref>
+    ). However, our results indicate that if both types of receptors are equally expressed in a single cell, then the monomeric receptors would contribute more significantly than dimeric ones to the inhibition of the PP2Cs at low and mid-range ABA concentrations. For example, during the early stages of the stress response, or when intracellular ABA levels are low, monomeric receptors are likely to play a major role in the control of the activity of clade A PP2Cs, while dimeric receptors might only be fully activated under more severe stress conditions or at a later stage in the response. This may explain the long time observed ability of ABA to elicit responses over a wide range of concentrations (
+    <xref ref-type="bibr">
+     Trewavas, 1991
+    </xref>
+    ). For instance, at nanomolar concentrations, ABA triggers changes in stomatal aperture, at submicromolar concentrations it delays or inhibits seed germination and yet higher ABA concentrations are required to inhibit root growth (
+    <xref ref-type="bibr">
+     Rubio et al, 2009
+    </xref>
+    ). Additionally,
+    <em>
+     in silico
+    </em>
+    modelling suggests that the relative abundance of monomeric and dimeric receptors and PP2Cs is likely to play a critical role in tuning the response of the system. For example, changes in the expression profile of PYR/PYL/RCAR proteins might influence the ABA response, offering a potential mechanism through which the plant could differentially modulate the response to stress in specific organs or tissues, or under particular physiological conditions. Intriguingly, it is apparent from many microarray experiments that both the mRNAs for receptors and clade A PP2Cs are regulated transcriptionally by ABA (
+    <xref ref-type="bibr">
+     Huang et al, 2007
+    </xref>
+    ). This highlights the importance of efforts to obtaining quantitative proteomic data on components of the ABA pathway in well-defined cell types (
+    <xref ref-type="bibr">
+     Kline et al, 2010
+    </xref>
+    ).
+   </p>
+   <p>
+    The PYR/PYL/RCAR family contains 14 members in Arabidopsis (
+    <xref ref-type="bibr">
+     Ma et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Park et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishimura et al, 2010
+    </xref>
+    ), only a number of which have been characterized so far. The model of activation emerging from this work can be used to predict the properties of yet uncharacterized receptors. For instance, the affinity for ABA of the receptors, in the absence of a PP2C, could be used to predict their oligomeric state. On the other hand, the structural analysis of the PYR
+    <sup>
+     H60P
+    </sup>
+    mutant indicates that a proline at position 60 is unfavourable for homodimerization, since it hinders conformational changes at the peptide backbone required to accommodate Phe61 at the dimer interface. Phe61 is strictly conserved in the PYR/PYL/RCAR family (see
+    <a>
+     Supplementary Figure S4
+    </a>
+    ), and similar conformational changes are found at equivalent positions in the PYL1 and PYL2 dimers. This suggest that proteins like PYL7, PYL9 and PYL10, which contain a proline at the position equivalent to that of His60 in PYR1, are likely to be monomeric and show higher ABA sensitivity. This is indeed the case for PYL8 as we show here. Other proteins, like PYL5 and PYL6 seem to acquire a monomeric structure through a different mechanism involving other amino-acid variations at the dimerization interface. Further structural characterization of members of the PYRL/PYL/RCAR family should contribute to understand these mechanisms.
+   </p>
+   <p>
+    Finally, our results indicate that monomeric ABA receptors are able to interact with the catalytic core of the HAB1 phosphatase in the absence of ABA
+    <em>
+     in vitro
+    </em>
+    . This suggests that, although the hormone plays a critical role in the stabilization of the ternary complex, a less stable complex can be formed between the phosphatase and monomeric receptors. Constitutive interactions between monomeric PYR/PYL/RCAR receptors and PP2Cs have been observed in yeast two hybrid assays (
+    <xref ref-type="bibr">
+     Ma et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Park et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009b
+    </xref>
+    ) and also in plants (
+    <xref ref-type="bibr">
+     Nishimura et al, 2010
+    </xref>
+    ). However, under such experimental conditions it is difficult to exclude completely the presence of small amounts of ABA. The protein concentrations used in our SEC-MALLS assays are probably higher than those found under physiological conditions, but they allow to completely rule out the presence of ABA, lending weight to previous observations of constitutive interactions (
+    <xref ref-type="bibr">
+     Ma et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Park et al, 2009
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Santiago et al, 2009b
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Nishimura et al, 2010
+    </xref>
+    ). These interactions might contribute a certain basal activation of the components of the ABA pathway in the plant. Moreover, monomeric receptors would efficiently compete with dimeric receptors for low endogenous ABA levels that might be necessary for the regulation of certain developmental processes not related to stress. Indeed, both ABA-deficient and ABA-insensitive mutants are severely impaired in growth and reproduction even under high humidity conditions (
+    <xref ref-type="bibr">
+     Cheng et al, 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Barrero et al, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fujii and Zhu, 2009
+    </xref>
+    ). Alternatively, the activation of the apo form of some monomeric receptors might be modulated through interaction with yet unidentified non-receptor proteins, preventing unliganded interactions with PP2Cs.
+   </p>
+   <p>
+    The results presented here reveal an unexpected level of complexity in the molecular mechanisms governing the activation of the PYR/PYL/RCAR receptors and provide a novel framework for the understanding of the ABA signalling pathway and the activation of the stress response in plants. More generally, this work illustrates how receptor oligomerization can modulate ligand binding affinity and the level of activation of a signalling pathway by influencing the thermodynamics of the overall receptor activation reaction. This implies that a high degree of amino-acid sequence conservation at a ligand binding site does not necessarily lead to similar binding properties.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Materials and methods
+   </title>
+   <sec>
+    <title>
+     Construction of plasmids, expression and purification of 6 × HIS fusion proteins
+    </title>
+    <p>
+     Plasmids pETM11 or pET28a were used to generate N-terminal His
+     <sub>
+      6
+     </sub>
+     -tagged recombinant proteins. The cloning of 6 × his–ΔNHAB1 (lacking residues 1–178), PYR1 and PYL5 constructs were previously described (
+     <xref ref-type="bibr">
+      Santiago et al, 2009a
+     </xref>
+     ,
+     <xref ref-type="bibr">
+      2009b
+     </xref>
+     ). Full-length PYL1, PYL6 and PYL8 were cloned in pETM11. PYR1
+     <sup>
+      Y120A
+     </sup>
+     mutant was produced using the Overlap extension procedure (
+     <xref ref-type="bibr">
+      Ho et al, 1989
+     </xref>
+     ) and cloned into pETM11. The coding sequence of OST1 and a C-terminal deletion of ABF2 (ΔCABF2, amino acids 1–173) were cloned into pET28a.
+    </p>
+    <p>
+     The H60P mutation was obtained in a screen designed to identify altered PYR1–PP2C interactions, the coding sequence for PYR1 was mutated by error-prone PCR and the mutagenized library was transformed into
+     <em>
+      S. cerevisiae
+     </em>
+     strain Y190 containing pAD-HAB1 and 1 × 10
+     <sup>
+      6
+     </sup>
+     colonies were screened. Y190 contains a galactose-inducible HIS3 nutritional reporter that allows positive selection for PYR1–HAB1 interactions in the absence of exogenously added ABA by growth on media containing 3-amino triazole. Once identified, the H60P mutation was introduced into PYR1 using the QuickChange site directed mutagenesis protocol.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Protein expression and purification
+    </title>
+    <p>
+     BL21(DE3) cells transformed with the corresponding constructs in pETM11 or pET28a vectors were grown in LB medium to an OD
+     <sub>
+      600
+     </sub>
+     of 0.6–0.8. At this point, 1 mM IPTG was added and the cells were harvested after overnight incubation at 20°C. Proteins were purified as described by
+     <xref ref-type="bibr">
+      Santiago et al (2009b)
+     </xref>
+     . Briefly, cell pellets were resuspended in lysis buffer (30 mM Tris pH 7.5, 500 mM NaCl, 15 mM Imidazole, 1 mM MnCl
+     <sub>
+      2
+     </sub>
+     , 1 mM β-mercaptoethanol and Protease cocktail inhibitor), lysed with a microfluidizer (Microfuildics) and purified by Ni-affinity. For proteins produced from pETM11 vectors, the 6 × his tag was excised by digestion with the TEV protease. In the case of PYR1, PYL1, PYL6 and PYL8, an additional step of gel filtration using an S200 column (GE) was carried out.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Crystallization and structure solution
+    </title>
+    <p>
+     The PYR1
+     <sup>
+      H60P
+     </sup>
+     –ABA–ΔNHAB1 ternary complex was prepared by mixing PYR1
+     <sup>
+      H60P
+     </sup>
+     , ΔNHAB1 and ABA to final concentrations of 3, 5 mg/ml and 1 mM, respectively, in 20 mM Tris pH 7.5, 150 mM NaCl, 1 mM MnCl
+     <sub>
+      2
+     </sub>
+     and 1 mM β-mercaptoethanol. Crystallization conditions for the complex were identified at the High Throughput crystallization Laboratory of EMBL Grenoble Outstation (
+     <a>
+      https://embl.fr/htxlab
+     </a>
+     ) as described in
+     <xref ref-type="bibr">
+      Marquez et al (2007)
+     </xref>
+     . The crystals used for data collection were obtained by the vapour diffusion method in 0.25 M NaCl, 19% Peg 3350 at 20°C. X-ray diffraction data were collected at the ID23-1 beamline of the ESRF to 2.1 Å resolution. Initial phases were obtained by the molecular replacement with the program Phaser (
+     <xref ref-type="bibr">
+      McCoy et al, 2007
+     </xref>
+     ) using the wt PYR1–ΔNHAB1 complex as search model (3QN1) (
+     <xref ref-type="bibr">
+      Dupeux et al, 2011
+     </xref>
+     ). Successive rounds of automatic refinement and manual building were carried out with RefMac5 (
+     <xref ref-type="bibr">
+      Murshudov et al, 1997
+     </xref>
+     ) and Coot (
+     <xref ref-type="bibr">
+      Emsley and Cowtan, 2004
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Size-Exclusion Chromatography-Multiple Angle Laser Light Scattering
+    </title>
+    <p>
+     SEC was performed using an S200 Superdex column (GE Healthcare) equilibrated with 20 mM Tris pH 7.5, 150 mM NaCl and 1 mM β-mercaptoethanol. For the experiments with ABA, either 1 or 5 mM ABA was included in the equilibration buffer. Receptor proteins were injected at a concentration of 80 μM. For the analysis of receptor–PP2C complexes receptor molecules were mixed prior to injection with equimolecular amounts of ΔNHAB1 (at a final concentration of 80 μM each protein) in the presence or absence of 1 mM (+)ABA. All separations were performed at 20°C with a flow rate of 0.5 ml/min. On-line MALLS detection was performed with a DAWN-EOS detector (Wyatt Technology Corp., Santa Barbara, CA) using a laser emitting at 690 nm. Data were analysed and weight-averaged molar masses (Mw) were calculated using the ASTRA software (Wyatt Technology Corp.) as described previously (
+     <xref ref-type="bibr">
+      Gerard et al, 2007
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Determination of ABA-binding affinity and dimer dissociation constants
+    </title>
+    <p>
+     ITC experiments were performed using a VP-ITC calorimeter equipped with the control, data acquisition and analysis software ORIGIN 7. All solutions were centrifuged, degassed to avoid formation of bubbles and equilibrated to the corresponding temperature prior to each experiment. Experiments were carried out at pH 7.5 and 25°C. In the binding experiments, protein solution in the calorimetric cell was titrated with the (+)ABA ligand dissolved in the dialysis buffer (20 mM Tris, 150 mM NaCl, 1 mM and 1 mM β-mercaptoethanol). PYL6 and His
+     <sub>
+      6
+     </sub>
+     –PYR1(H60P) were assayed at a protein concentration of 20 μM, and the concentration of (+)ABA stock solution in the injection syringe was 0.8 mM. PYR1 was assayed at protein concentrations from 50 to 200 μM, and the concentration of the (+)ABA stock solutions varied from 0.8 to 2 mM. The titrations were carried out within a series of 30 injections of 7 μl each one. The heat evolved after each ligand injection was obtained from the integral of the calorimetric signal. The heat due to the binding reaction between protein and the ligand was obtained as the difference between the heat of reaction and the corresponding heat of dilution obtained from independent titration experiments of (+)ABA into buffer. The resulting binding isotherms were analysed by non-linear least squares fitting of the experimental data to an one-set of sites model with the Microcal Origin (OriginLab Corp., Northapton, MA) software. Data shown are the average of three independent experiments±s.d.
+    </p>
+    <p>
+     PYR1 dissociation experiments were performed with sequences of 30 injections of 6 μl each. The cell contained 20 mM Hepes pH 7.5, 150 mM NaCl and 1 mM β-mercaptoethanol. The concentration of PYR1 or PYR1
+     <sup>
+      H60P
+     </sup>
+     stock solution in the injection syringe was 0.7 mM. The injections were performed over a period of 6 s, with 5 min intervals between injections, reaching a final protein concentration of 75 μM in the cell. Data were analysed and fitted using the dissociation fitting model provided by Microcal Origin software, implemented with corrected DeltaH.ogs and Dissociation.fdf files kindly provided by Professor Alan Cooper (Chemistry Department, University of Glasgow).
+    </p>
+    <p>
+     For wt PYR1, an independent determination of the ABA-binding affinity was carried out by NMR. Experiments were done at 37°C on a sample of
+     <sup>
+      15
+     </sup>
+     N-labelled PYR1 containing 150 mM NaCl and 20 mM Tris pH 7.5.
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC spectra were acquired at a
+     <sup>
+      1
+     </sup>
+     H resonance frequency of 600 or 800 MHz. An estimation of the dissociation constant, Kd, of the PYR1:ABA complex was obtained by titration of ABA into an
+     <sup>
+      15
+     </sup>
+     N-labelled sample of PYR1. Measurements were done at 10 different ABA/PYR1 concentration ratios ranging from 0 to 2.59. For each step of the titration, a
+     <sup>
+      1
+     </sup>
+     H-
+     <sup>
+      15
+     </sup>
+     N HSQC was recorded. Measurements of the dimer dissociation constants were carried out by ITC through serial injections of protein solutions of either wt or His
+     <sub>
+      6
+     </sub>
+     PYR1(H60P) into the cell containing the same buffer. Binding isotherms were analysed by non-linear least squares fitting with the ORIGIN 7 software (OriginLab Corp.). The dissociation data were analysed with the dissociation model provided by Dr Alan Cooper's (
+     <a>
+      http://www.chem.gla.ac.uk/staff/alanc/service1.htm
+     </a>
+     ). Data shown are the average of three independent experiments±s.d.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     OST1
+     <em>
+      in vitro
+     </em>
+     activity assays
+    </title>
+    <p>
+     OST1 phosphorylation assays were done as described previously (
+     <xref ref-type="bibr">
+      Belin et al, 2006
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Vlad et al, 2009
+     </xref>
+     ). Inactivation of OST1 was achieved by incubation with the protein phosphatase ΔNHAB1. Assays to test recovery of OST1 activity were done by previous incubation during 10 min of ΔNHAB1 with either wt PYR1 or PYR1
+     <sup>
+      H60P
+     </sup>
+     proteins in 30 μl of kinase buffer (20 mM Tris–HCl pH 7.8, 20 mM MgCl
+     <sub>
+      2
+     </sub>
+     , 2 mM MnCl
+     <sub>
+      2
+     </sub>
+     ) in the presence of the indicated concentration of (+)ABA. Then, ΔCABF2 recombinant protein (100 ng) and 3.5 μCi of γ-
+     <sup>
+      32
+     </sup>
+     ATP (3000 Ci/mmol) were added to the mix and the reaction was incubated for 50 min. The reaction was stopped by adding Laemmli buffer. After the reaction, proteins were separated by SDS–PAGE using an 8% acrylamide gel and transferred onto an Immobilon-P membrane (Millipore). Radioactivity was detected using a Phosphoimage system (FLA5100, Fujifilm). Quantification of activity based on relative intensity of phosphorylated bands was performed using a phosphoimager Image Gauge V.4.0. The data presented are averages of at least three independent experiments.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     In silico modelling of ABA pathway activation
+    </title>
+    <p>
+     Computational modelling was performed on the Infobiotics Workbench executable biology platform (
+     <a>
+      http://www.infobiotics.org/
+     </a>
+     ) using a stochastic P system framework (
+     <xref ref-type="bibr">
+      Twycross et al, 2010
+     </xref>
+     ). A multi-compartment stochastic simulation algorithm (
+     <xref ref-type="bibr">
+      Romero-Campero et al, 2009
+     </xref>
+     ) was used for simulations. Two separate models were initially considered, corresponding to monomeric and dimeric receptors. The model for dimeric receptors included all reactions in
+     <xref ref-type="fig">
+      Figure 6A
+     </xref>
+     while that of monomeric receptors included only reactions 1 and 6. Those reaction rates that were not experimentally available were estimated using the CMA-ES optimization algorithm (
+     <xref ref-type="bibr">
+      Hansen and Ostermeier, 2001
+     </xref>
+     ). The values of the estimated parameters were progressively adjusted through this algorithm so that the individual models reproduce the apparent ABA binding constants of the experimentally measured reactions. These reactions include the formation of ternary receptor–ABA–PP2C complexes (a Kd value of 30 nM was chosen as representative of generic monomeric and dimeric receptors), binding of ABA to a monomeric receptor or to the monomeric form of a dimeric receptor (Kd of 1.0 μM) and binding of ABA to dimeric receptors (with Kds of 52, 59 and 97 μM for PYL1, PYL2 and PYR1, respectively, a value of 60 μM was chosen). Once the individual models were parameterized, a combined model was generated simulating the response of monomeric and dimeric receptors sharing a common pool of ABA and PP2C molecules. This combined model was studied over a range of ABA (1 nM–40 μM) and PP2C (0.1 nM–10 μM) concentrations for situations corresponding to balanced or unbalanced receptor concentrations (see main text). All models were encoded in SBML version 4 level 2 (
+     <a>
+      http://sbml.org/
+     </a>
+     ). SBML files will be made publicly available on the Biomodels database (
+     <a>
+      http://www.ebi.ac.uk/biomodels/
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Accession codes
+    </title>
+    <p>
+     Atomic coordinates and structure factors for the reported crystal structure have been deposited in the Protein Data Bank under accession code
+     <a>
+      3ZVU
+     </a>
+     .
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <strong>
+     Supplementary Information:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (2.6M, ppt)
+     </sup>
+    </sec>
+   </sec>
+   <sec>
+    <strong>
+     Review Process File:
+    </strong>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (265K, pdf)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+ </body>
+</article>

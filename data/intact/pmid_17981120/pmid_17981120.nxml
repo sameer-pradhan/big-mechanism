@@ -1,0 +1,3563 @@
+<article>
+ <front>
+  <article-meta>
+   <article-id>
+    PMC2709780
+   </article-id>
+  </article-meta>
+  <title-group>
+   <article-title>
+    Functional specificity of a Hox protein mediated by the recognition of minor groove structure
+   </article-title>
+  </title-group>
+ </front>
+ <body>
+  <sec>
+   <title>
+    Summary
+   </title>
+   <sec>
+    <p>
+     The recognition of specific DNA binding sites by transcription factors is a critical yet poorly understood step in the control of gene expression. Members of the Hox family of transcription factors bind DNA by making nearly identical major groove contacts via the recognition helices of their homeodomains. In vivo specificity, however, often depends on extended and unstructured regions that link Hox homeodomains to a DNA-bound cofactor, Extradenticle (Exd). Using a combination of structure determination, computational analysis, and in vitro and in vivo assays, we show that Hox proteins recognize specific Hox-Exd binding sites via residues located in these extended regions that insert into the minor groove, but only when presented with the correct DNA sequence. Our results suggest that these residues, which are conserved in a paralog-specific manner, confer specificity by recognizing a sequence-dependent DNA structure instead of directly reading a specific DNA sequence.
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Introduction
+   </title>
+   <p>
+    For biological systems to function, defined combinations of macromolecules must interact selectively at the correct time and place, and assemble into productive higher order complexes. One context in which the specificity of macromolecular interactions is critical is in the recognition of DNA sequences by transcription factors, which must select a small subset of relevant binding sites from the large excess of potential binding sites that are typically present in eukaryotic genomes. Atomic-resolution structural studies have provided high resolution views of how the various classes of DNA binding domains recognize their cognate DNA binding sites (
+    <xref ref-type="bibr">
+     Garvie and Wolberger, 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Harrison and Aggarwal, 1990
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Pabo and Sauer, 1992
+    </xref>
+    ). However, despite these insights, how transcription factors discriminate between closely related, yet biologically distinct, DNA sequences is not well understood.
+   </p>
+   <p>
+    Here, we address this problem for the Hox family of homeodomain-containing transcription factors, which assign morphological identities along the antero-posterior (AP) axis of both vertebrates and invertebrates. To execute their functions, Hox proteins regulate many types of target genes, some of which are specific for a particular Hox paralog (
+    <xref ref-type="bibr">
+     Pearson et al., 2005
+    </xref>
+    ). In Drosophila, for example, the Hox protein Sex combs reduced (Scr) is the only paralog that is able to initiate salivary gland development (
+    <xref ref-type="bibr">
+     Andrew et al., 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Panzer et al., 1992
+    </xref>
+    ). In contrast, other Hox functions and targets are shared by multiple Hox paralogs. For example, many Hox proteins share the ability to repress the antennal-specifying gene
+    <em>
+     homothorax
+    </em>
+    (
+    <em>
+     hth
+    </em>
+    ) and at least two Hox paralogs have the capacity to repress the appendage-specifying gene
+    <em>
+     Distalless
+    </em>
+    (
+    <em>
+     Dll
+    </em>
+    ) (
+    <xref ref-type="bibr">
+     Casares and Mann, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Vachon et al., 1992
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Yao et al., 1999
+    </xref>
+    ). This distinction between paralog-specific and shared Hox target genes implies that some Hox binding sites must be specific for a particular Hox paralog, while other binding sites may not require the same degree of specificity. Confounding the Hox specificity problem is that this family of proteins, which are encoded by eight Hox paralogs in Drosophila that have been duplicated to a total of 39 Hox genes in humans, all bind to very similar DNA sequences (
+    <xref ref-type="bibr">
+     Gehring et al., 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mann, 1995
+    </xref>
+    ).
+   </p>
+   <p>
+    A growing list of directly regulated Hox target genes supports the view that Hox proteins use a variety of mechanisms to recognize their in vivo binding sites (
+    <xref ref-type="bibr">
+     Pearson et al., 2005
+    </xref>
+    ). At one extreme, the regulation of some target genes requires that Hox proteins bind DNA cooperatively with cofactors, notably, Extradenticle (Exd; Pbx in vertebrates) and Homothorax (Hth; Meis in vertebrates) (
+    <xref ref-type="bibr">
+     Mann and Affolter, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mann and Chan, 1996
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Moens and Selleri, 2006
+    </xref>
+    ). For example, to initiate salivary gland development, Scr binds with Exd to a paralog-specific Scr-Exd binding site to activate its target
+    <em>
+     fork head
+    </em>
+    (
+    <em>
+     fkh
+    </em>
+    ) (
+    <xref ref-type="bibr">
+     Ryoo and Mann, 1999
+    </xref>
+    ). At the other extreme, Hox proteins are capable of regulating some target genes via clusters of what appear to be Hox monomer binding sites, without the help of Exd or Hth (
+    <xref ref-type="bibr">
+     Galant et al., 2002
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hersh and Carroll, 2005
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Lohmann et al., 2002
+    </xref>
+    ). One possibility is that paralog-specific Hox functions are more dependent on cofactor interactions than functions that are not paralog-specific.
+   </p>
+   <p>
+    Complementing our knowledge of in vivo Hox binding sites are studies on chimeric Hox proteins, which identified the protein domains required for their specific in vivo functions (
+    <xref ref-type="bibr">
+     Chauvet et al., 2000
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Zhao and Potter, 2002
+    </xref>
+    ); reviewed by (
+    <xref ref-type="bibr">
+     Mann, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mann and Morata, 2000
+    </xref>
+    ). These studies reveal that Hox homeodomains, in particular their N-terminal arms, are critical for specificity. However, homeodomain N-terminal arms, especially the first four residues, are typically disordered in the existing NMR and crystal structures (
+    <xref ref-type="bibr">
+     Billeter et al., 1993
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fraenkel and Pabo, 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Fraenkel et al., 1998
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hirsch and Aggarwal, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Hovde et al., 2001
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Li et al., 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Passner et al., 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Piper et al., 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Tucker-Kellogg et al., 1997
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Wolberger et al., 1991
+    </xref>
+    ). Hox N-terminal arms are also mostly disordered in two X-ray structures of Hox-Exd/Pbx-DNA ternary complexes (
+    <xref ref-type="bibr">
+     Passner et al., 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Piper et al., 1999
+    </xref>
+    ). Adding to this paradox, all of these structures show the third α-helix (the so-called recognition helix) of these homeodomains making nearly identical base-specific contacts in the DNA major groove. Thus, while the existing structures explain how Hox proteins recognize AT-rich sequences, they do not account for their in vivo specificities. Further, although the Hox-Exd/Pbx ternary structures reveal how these proteins interact with each other while bound to DNA, they fail to explain the observed sequence specificities of Hox-Exd/Pbx dimers (
+    <xref ref-type="bibr">
+     LaRonde-LeBlanc and Wolberger, 2003
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Passner et al., 1999
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Piper et al., 1999
+    </xref>
+    ). As suggested by our results, a likely reason for this shortcoming is that the binding sites present in these structures are not derived from a specific in vivo target, but instead are high affinity consensus sites derived from in vitro selection experiments.
+   </p>
+   <p>
+    In the present study, we use X-ray crystallography to solve the structures of two Hox-Exd-DNA ternary complexes. In one complex, an Scr-Exd dimer is bound to a DNA sequence (
+    <em>
+     fkh250
+    </em>
+    ), derived from the
+    <em>
+     fkh
+    </em>
+    gene, that shows a preference for Scr-Exd over other Hox-Exd dimers, both in vitro and in vivo (
+    <xref ref-type="bibr">
+     Ryoo and Mann, 1999
+    </xref>
+    ). In the second complex, an Scr-Exd dimer is bound to a variant of
+    <em>
+     fkh250
+    </em>
+    (
+    <em>
+     fkh250
+     <sup>
+      con*
+     </sup>
+    </em>
+    ) in which the Scr-Exd binding site was replaced by a consensus Hox-Exd site. These two structures thus provide a direct comparison between Scr-Exd bound to paralog-specific and non-specific Hox-Exd binding sites. Although the overall arrangement of the proteins is similar to each other and to previous Hox-Exd/Pbx structures, additional Scr residues, in the N-terminal arm and adjacent linker region, are ordered in the
+    <em>
+     fkh250
+    </em>
+    complex. Among these, an arginine and a histidine, which are conserved among Scr orthologs, insert into a narrow region of
+    <em>
+     fkh250
+    </em>
+    's minor groove. We show that these residues are important for Scr to bind
+    <em>
+     fkh250
+    </em>
+    and carry out Scr-specific functions in vivo. Analysis of the
+    <em>
+     fkh250
+    </em>
+    sequence suggests that its minor groove geometry is an intrinsic property of its sequence. As a consequence of its shape, the
+    <em>
+     fkh250
+    </em>
+    minor groove creates an enhanced negative electrostatic environment ideally suited for binding basic residues. Thus, by correctly positioning Scr's N-terminal arm and linker residues, Exd facilitates an interaction with the specific conformation of the
+    <em>
+     fkh250
+    </em>
+    binding site. Together with previous results, we suggest that Hox proteins recognize ‘generic’ binding sites through major groove–recognition helix interactions, but that N-terminal arm and linker residues select among these sites by reading the structure and electrostatic potential of the minor groove.
+   </p>
+  </sec>
+  <sec>
+   <title>
+    Results
+   </title>
+   <p>
+    Scr binds cooperatively with Exd to the Hox-Exd binding site in
+    <em>
+     fkh250
+    </em>
+    , AGATTAATCG, while other Hox-Exd dimers fail to bind this sequence as well (
+    <xref ref-type="bibr">
+     Ryoo and Mann, 1999
+    </xref>
+    ). To understand the basis for this specificity, we generated cocrystals and solved the structures of Scr and Exd bound to 20 bp overhanging oligonucleotides containing either the
+    <em>
+     fkh250
+    </em>
+    and
+    <em>
+     fkh250
+     <sup>
+      con*
+     </sup>
+    </em>
+    binding sites.
+    <em>
+     fkh250
+     <sup>
+      con*
+     </sup>
+    </em>
+    is identical to
+    <em>
+     fkh250
+    </em>
+    except in three base pairs which were changed to match the Hox-Exd/Pbx consensus sequence present in the Ubx-Exd ternary structure (
+    <xref ref-type="bibr">
+     Passner et al., 1999
+    </xref>
+    ) (see Experimental Procedures) (
+    <xref ref-type="fig">
+     Figure 1B
+    </xref>
+    ). For the crystallizations, we expressed Scr (residues 298 to 385), which includes the Exd-interacting peptide YPWM, the linker region between YPWM and the homeodomain, and the full-length homeodomain (
+    <xref ref-type="fig">
+     Figure 1A
+    </xref>
+    ). For Exd, we expressed the full-length homeodomain (residues 238 to 300).
+   </p>
+   <fig id="F1" position="float">
+    <label>
+     Figure 1
+    </label>    <caption>
+     <strong>
+      Overview of structures and sequences
+     </strong>
+     <p>
+      A. Comparison of the YPWM, linker, and homeodomain sequences of a subset of Scr orthologs. Residue numbering is relative to the first homeodomain residue, which is +1. Residues highlighted in cyan distinguish Scr and its orthologs from other Hox paralogs. His-12 and Arg3 are highlighted in magenta. DNA contacting residues that are shared by all Hox paralogs are highlighted in green. Dm, Drosophila melanogaster; Ap, Apis melifera; Hs, Homo sapiens; Mm, Mus musculus; Dr, Danio rerio.
+     </p>
+     <p>
+      B. Sequences of a generalized Hox-Exd site, and the
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      ,
+      <em>
+       fkh250
+       <sup>
+        con
+       </sup>
+      </em>
+      , and
+      <em>
+       fkh250
+      </em>
+      binding sites (in capital letters; identical flanking base pairs are shown in light grey).
+      <em>
+       fkh250
+      </em>
+      and
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      , which is a better match to the Hox-Exd consensus than
+      <em>
+       fkh250
+       <sup>
+        con
+       </sup>
+      </em>
+      , were used for the crystallography. The base pairs in the Hox-Exd binding site are numbered 1 to 10. The Scr-Exd binding site in
+      <em>
+       fkh250
+      </em>
+      is 100% conserved in all of the sequenced
+      <em>
+       Drosophila
+      </em>
+      genomes except for
+      <em>
+       D. virilis
+      </em>
+      , where only the last G has been changed to an A.
+     </p>
+     <p>
+      C. Overview of the
+      <em>
+       fkh250
+      </em>
+      (left) and
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      (right) complexes. The Scr (red) and Exd (cyan) homeodomains bind to opposite faces of the DNA. Arg3 and His-12 are seen in the
+      <em>
+       fkh250
+      </em>
+      complex but not in the
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      complex. Base pairs colored in yellow are those that differ between
+      <em>
+       fkh250
+      </em>
+      and
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      .
+     </p>
+    </caption>
+   </fig>
+   <sec>
+    <title>
+     The structures of the Scr-Exd-
+     <em>
+      fkh250
+     </em>
+     and Scr-Exd-
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complexes
+    </title>
+    <p>
+     The cocrystals of both complexes (hereafter referred to as the
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complexes, respectively) diffracted to 2.6 Å and each contained one complex per asymmetric unit (
+     <a>
+      Supp. Table 1
+     </a>
+     ). Scr and Exd bind
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     in a very similar manner using overlapping DNA sites in a head-to-tail orientation on opposite faces of the DNA (
+     <xref ref-type="fig">
+      Figure 1C
+     </xref>
+     ). For the segments of the proteins that are visible in both structures, the protein main chains superimpose with a Cα-RMSD of only 0.8 Å. Most of the contacts to the DNA backbone are also shared in the two structures, except that there are more water-mediated contacts to the DNA backbone in the
+     <em>
+      fkh250
+     </em>
+     complex (
+     <xref ref-type="fig">
+      Figure 2A, B
+     </xref>
+     ).
+    </p>
+    <fig id="F2" position="float">
+     <label>
+      Figure 2
+     </label>     <caption>
+      <strong>
+       Protein-DNA contacts
+      </strong>
+      <p>
+       Protein-DNA contacts for the (A)
+       <em>
+        fkh250
+       </em>
+       and (B)
+       <em>
+        fkh250
+        <sup>
+         con*
+        </sup>
+       </em>
+       complexes. The Exd half site is shaded cyan, the Hox half site is shaded red. Hydrogen bonds are represented by solid lines and non-polar interactions by dotted lines. Interactions involving the protein main chain are underlined. Green circles are visualized water molecules. The
+       <em>
+        fkh250
+       </em>
+       complex has more water mediated contacts from residues such as Gln50, that is oriented differently in the two complexes, and Trp-17, that is positioned identically in the two complexes.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Scr can be divided into its homeodomain (residues 1-60), composed of a tri-α-helical core (residues 10-60) and N-terminal arm (residues 1-9), and an extended linker region containing the YPWM motif (residues -25 to -1). Compared to most homeodomains, the Exd/Pbx homeodomain (residues 1-22, 23a-c, 24-60) has an additional three residues (23a, 23b and 23c) in the loop between helices α1 and α2. As seen previously (
+     <xref ref-type="bibr">
+      LaRonde-LeBlanc and Wolberger, 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Passner et al., 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Piper et al., 1999
+     </xref>
+     ), these residues form part of the hydrophobic pocket that receives the Scr YPWM motif in both the
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complexes. Protein-DNA interactions arise primarily from the Scr and Exd homeodomains, whose recognition helices (α3s) project along the DNA major groove while their N-terminal arms (residues 5 to 9 for
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     and 3 to 9 for
+     <em>
+      fkh250
+     </em>
+     ) wind along the minor groove. The major groove interactions (
+     <xref ref-type="fig">
+      Figures 2A,B
+     </xref>
+     ) are similar to those described previously for the Ubx-Exd ternary complex (
+     <xref ref-type="bibr">
+      Passner et al., 1999
+     </xref>
+     ) and are consistent with the patterns observed for other homeodomain protein-DNA complexes (
+     <xref ref-type="bibr">
+      Billeter et al., 1993
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Fraenkel et al., 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Gehring et al., 1994
+     </xref>
+     ).
+    </p>
+    <p>
+     In both the
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complexes, the N-terminal segment that includes the YPWM motif is ordered (residues -26 to -11 in
+     <em>
+      fkh250
+     </em>
+     and residues -27 to -13 in
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     ). The YPWM motif folds into a classical type I reverse turn and, as in the Ubx-Exd and Hoxb1-Pbx complexes, a hydrogen bond is formed between the first (Tyr) and the fourth (Met) residues of the turn. As in other complexes, the Trp plays the dominant role in Hox-Exd/Pbx interactions, mediating many of the contacts within the Exd hydrophobic pocket including a hydrogen bond to the main carbonyl of Leu23a of Exd. The segments N- and C-terminal to the YPWM motif assume extended conformations and are positioned at right angles to each other. These segments contribute to the Scr-Exd interaction, in which Pro-22 and Ile-20 of Scr make hydrophobic contacts with Ile60 of Exd, and the backbone carbonyl of Lys-15 in Scr makes a hydrogen bond with Lys57 of Exd.
+    </p>
+    <p>
+     A unique feature of the
+     <em>
+      fkh250
+     </em>
+     complex is the entry of Arg3 and His-12 into the DNA minor groove (
+     <xref ref-type="fig">
+      Figure 3
+     </xref>
+     ). The contacts made by these two residues are especially interesting in light of the fact that they are highly conserved among all Scr orthologs, both in vertebrates and invertebrates (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). Arg3 lies approximately equidistant between the sugar-phosphate backbones of the two DNA strands that line the narrow minor groove. The guanidinium nitrogens are approximately 4 Å away from the bases (N3 atom of Ade13 and O2 atom of Thy30) and do not make direct or water mediated hydrogen bonds with the bases. His-12 lies deeper within the groove and its Nε2 atom is linked to a water molecule, which in turn makes hydrogen bonds to three thymines (Thy14, Thy29, and Thy30) within the Scr recognition sequence (
+     <xref ref-type="fig">
+      Figure 3B
+     </xref>
+     ). Hydrogen bonds to Thy14 and Thy29 are made with the base O2 atoms, while the bond to Thy30 is made with the sugar O4′ atom. The Arg3 guanidinium group and the His-12 imidazole ring lie approximately in the same plane, and a hydrogen bond between the groups (Nη1-H…Nδ1) suggests some synergy in the interactions of Arg3 and His-12 with DNA. In contrast to the
+     <em>
+      fkh250
+     </em>
+     complex, neither Arg3 nor His-12 are seen in the
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complex.
+    </p>
+    <fig id="F3" position="float">
+     <label>
+      Figure 3
+     </label>     <caption>
+      <strong>
+       Minor groove insertion of Scr residues His-12 and Arg3 in
+       <em>
+        fkh250
+       </em>
+      </strong>
+      <p>
+       A. Electron densities for Arg3 and His-12 in the
+       <em>
+        fkh250
+       </em>
+       complex, based on a simulated annealing Fo-Fc omit map (contoured at 3.0σ)
+      </p>
+      <p>
+       B. Details of the His-12–Arg3 interaction and water-mediated interactions with Thy14, Thy29, and Thy30 of
+       <em>
+        fkh250
+       </em>
+       . The red circle marks a water molecule and dotted lines represent putative hydrogen bonds.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Since the proteins are identical in both complexes, the differences between the two structures are likely a consequence of the different DNA sequences. As seen in the crystal structures, the minor groove in the
+     <em>
+      fkh250
+     </em>
+     complex is generally narrower than in the
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complex, particularly where Arg3 and His-12 insert (
+     <xref ref-type="fig">
+      Figure 4A-D
+     </xref>
+     ). Arg5, which is ordered in both complexes, also inserts into a narrow region of the minor groove present in both
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     . AT-rich regions often lead to narrow minor grooves due in large part to negative propeller twisting (
+     <xref ref-type="bibr">
+      Crothers and Shakked, 1999
+     </xref>
+     ). Consistently, the average value for propeller twist in these regions is -14.6° for
+     <em>
+      fkh250
+     </em>
+     and -12.2° for
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     , and the pattern of inter-base pair contacts in the major groove is similar to that observed in other AT-rich sequences (
+     <xref ref-type="bibr">
+      Nelson et al., 1987
+     </xref>
+     ) (see Discussion).
+    </p>
+    <fig id="F4" position="float">
+     <label>
+      Figure 4
+     </label>     <caption>
+      <strong>
+       Differences in minor groove geometries and electrostatic potentials between
+       <em>
+        fkh250
+       </em>
+       and
+       <em>
+        fkh250
+        <sup>
+         con*
+        </sup>
+       </em>
+      </strong>
+      <p>
+       A,B: The surfaces of the (A)
+       <em>
+        fkh250
+       </em>
+       and (B)
+       <em>
+        fkh250
+        <sup>
+         con*
+        </sup>
+       </em>
+       DNAs, color-coded according to shape using GRASP (
+       <xref ref-type="bibr">
+        Nicholls et al., 1991
+       </xref>
+       ). Black/gray and green surfaces represent concave and convex surfaces, respectively. Side chains for Arg5 (A and B) and Arg3/His-12 (A, only) entering the minor groove are shown in magenta.
+      </p>
+      <p>
+       C,D: Graphs comparing minor groove widths seen in the crystal structures (blue curves) with those predicted by the MC simulations (green curves) for
+       <em>
+        fkh250
+       </em>
+       (E) and
+       <em>
+        fkh250
+        <sup>
+         con*
+        </sup>
+       </em>
+       (F). The sequences of the two binding sites are below; TpA steps are shown in bold lettering.
+      </p>
+      <p>
+       E,F: Graphs comparing minor groove widths (Å) and electrostatic potential (kT/e) for
+       <em>
+        fkh250
+       </em>
+       (E) and
+       <em>
+        fkh250
+        <sup>
+         con*
+        </sup>
+       </em>
+       (F), based on the crystal structures. The positions of Arg5 and Arg3/His-12 minor groove insertion are indicated.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     These observations suggest that the differences in minor groove shape seen in the two crystal structures arise as a consequence of the known conformational preferences of the two DNA sequences. The differences in minor groove shape were also observed from all-atom Monte Carlo (MC) simulations of the free DNAs (see Experimental Procedures) (
+     <xref ref-type="bibr">
+      Rohs et al., 2005b
+     </xref>
+     ). In agreement with the crystal structures, these simulations predict a single minor groove width minimum in
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     and two minima in
+     <em>
+      fkh250
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4C,D
+     </xref>
+     ). Similar agreement exists between the MC simulations and X-ray structures for a second DNA helical parameter, roll, in the two DNAs (
+     <a>
+      Supp. Figure 1
+     </a>
+     ). In addition, we carried out MC simulations of DNAs with all possible combinations of the three base pair differences between the
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     binding sites (
+     <a>
+      Supp. Figs. 2 and 3
+     </a>
+     ). These analyses suggest that the differences at positions 6 and 9 play a more important role than the difference at position 1 in distinguishing between the structures of these two binding sites.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Electrostatic potentials correlate with minor groove width
+    </title>
+    <p>
+     Electrostatic potentials are affected by the shape and charge distribution of macromolecules (
+     <xref ref-type="bibr">
+      Honig and Nicholls, 1995
+     </xref>
+     ). To determine if differences in electrostatic potential provide the physical basis for the interaction between basic amino acids and the minor groove seen in the
+     <em>
+      fkh250
+     </em>
+     complex, we used the DelPhi program to calculate this parameter for both DNA sequences. Strikingly, for both sequences, there is a near-perfect correlation between minor groove width and the magnitude of the negative electrostatic potential (
+     <xref ref-type="fig">
+      Figure 4E,F
+     </xref>
+     ). In both complexes, Arg5 inserts into the minor groove in a region where there is a minimum both in groove width and in electrostatic potential. In the
+     <em>
+      fkh250
+     </em>
+     structure there is a second minimum for both parameters where the His-12/Arg3 pair inserts. In contrast, in the corresponding location in the
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complex, the minor groove is wide and the electrostatic potential is less negative. The difference in the electrostatic potential between the two sites, about 2.2 kT/e, corresponds to about an order of magnitude in affinity for a single positive charge. This difference can account for the observation that His-12/Arg3 inserts into the minor groove of
+     <em>
+      fkh250
+     </em>
+     but not into the groove of
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     . In both cases there is a net electrostatic attraction between the DNA and these basic amino acids, but this attraction must be large enough, as it appears to be in
+     <em>
+      fkh250
+     </em>
+     , to overcome the entropy loss associated with inserting an unstructured peptide into a specific location on the surface of DNA.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     His-12 and Arg3 of Scr are important for binding
+     <em>
+      fkh250
+     </em>
+    </title>
+    <p>
+     To test if His-12 and Arg3 contribute to Scr's affinity for
+     <em>
+      fkh250
+     </em>
+     , we mutated these residues either individually or in the same protein to alanines to generate three mutants, Scr
+     <sup>
+      His-12A
+     </sup>
+     , Scr
+     <sup>
+      Arg3A
+     </sup>
+     , and Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     , and carried out DNA binding studies. For these experiments, we compared
+     <em>
+      fkh250
+     </em>
+     with
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     , whose distinct properties have been characterized both in vitro and in vivo (
+     <xref ref-type="bibr">
+      Ryoo and Mann 1999
+     </xref>
+     ) (
+     <xref ref-type="fig">
+      Figure 1B
+     </xref>
+     ). In particular, unlike
+     <em>
+      fkh250
+     </em>
+     ,
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     binds to multiple Hox-Exd dimers equally well (
+     <xref ref-type="bibr">
+      Ryoo and Mann 1999
+     </xref>
+     ). Moreover, although a
+     <em>
+      lacZ
+     </em>
+     reporter gene made with
+     <em>
+      fkh250
+     </em>
+     (
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     ) is specifically activated in vivo by
+     <em>
+      Scr
+     </em>
+     and
+     <em>
+      exd
+     </em>
+     , an analogous reporter gene made with
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     (
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     ) is activated by multiple Hox proteins in vivo (
+     <xref ref-type="bibr">
+      Ryoo and Mann 1999
+     </xref>
+     ).
+    </p>
+    <p>
+     We carried out several experiments to test if Arg3 and His-12 were required for Scr's ability to bind
+     <em>
+      fkh250
+     </em>
+     . These DNA binding studies were all done in the presence of Exd and the HM domain of Hth (Hth
+     <sup>
+      HM
+     </sup>
+     ), to best mimic the in vivo requirement for these cofactors (
+     <xref ref-type="bibr">
+      Noro et al., 2006
+     </xref>
+     ) (see Experimental Procedures). First, we compared the ability of wild type Scr (ScrWT) and the double mutant (Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     ) to bind
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     over multiple protein concentrations. Using concentrations where ScrWT and Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     bound similarly to
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     , Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     bound
+     <em>
+      fkh250
+     </em>
+     ∼30% as strong as ScrWT (
+     <xref ref-type="fig">
+      Figure 5A,B
+     </xref>
+     ). Second, we measured the Kds for all four proteins to both binding sites (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). These measurements indicate that ScrWT and Scr
+     <sup>
+      His-12A
+     </sup>
+     have similar affinities to both
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     (all within ∼8 to 15 nM). Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     also had a similar affinity for
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     (∼18 nM). Significantly, both Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     and Scr
+     <sup>
+      Arg3A
+     </sup>
+     had lower affinities to
+     <em>
+      fkh250
+     </em>
+     (∼55 and 47 nM, respectively) (
+     <xref ref-type="fig">
+      Figure 5C
+     </xref>
+     ). Together, these measurements suggest that His-12 and Arg3 of Scr are more important for binding to
+     <em>
+      fkh250
+     </em>
+     than to
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     . Further, although Arg3 is more critical than His-12, both of these residues appear to contribute to this interaction because the double mutant has a lower affinity for
+     <em>
+      fkh250
+     </em>
+     than the single Arg3A mutant.
+    </p>
+    <fig id="F5" position="float">
+     <label>
+      Figure 5
+     </label>     <caption>
+      <strong>
+       Binding of Scr and Scr mutants to
+       <em>
+        fkh250
+       </em>
+       and
+       <em>
+        fkh250
+        <sup>
+         con
+        </sup>
+       </em>
+       DNAs
+      </strong>
+      <p>
+       A, B: Binding of ScrWT and Scr
+       <sup>
+        His-12A,Arg3A
+       </sup>
+       to
+       <em>
+        fkh250
+        <sup>
+         con
+        </sup>
+       </em>
+       (A) and
+       <em>
+        fkh250
+       </em>
+       (B). Protein concentrations were chosen to give equivalent binding of ScrWT and Scr
+       <sup>
+        His-12A,Arg3A
+       </sup>
+       to
+       <em>
+        fkh250
+        <sup>
+         con
+        </sup>
+       </em>
+       (A), and the same concentrations were used to measure binding to
+       <em>
+        fkh250
+       </em>
+       (B). All DNA binding measurements were done in the presence of Hth
+       <sup>
+        HM
+       </sup>
+       -Exd (see Experimental Procedures).
+      </p>
+      <p>
+       C: Binding affinities (Kds in nM) of the indicated proteins for
+       <em>
+        fkh250
+       </em>
+       and
+       <em>
+        fkh250
+        <sup>
+         con
+        </sup>
+       </em>
+       . Green and pink shaded boxes indicate interactions that can and cannot activate the respective reporter gene in vivo (data from
+       <xref ref-type="fig">
+        Figure 6F-O
+       </xref>
+       ).
+      </p>
+      <p>
+       D: Competition experiment. Unlabeled
+       <em>
+        fkh250
+       </em>
+       oligo at the relative concentrations indicated on the X axis was used to compete for the formation of ScrWT (black curve) and Scr
+       <sup>
+        His-12A,Arg3A
+       </sup>
+       (red curve) complexes formed on a labeled
+       <em>
+        fkh250
+        <sup>
+         con
+        </sup>
+       </em>
+       probe.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     As a third test to see if these residues are required for DNA binding specificity, we carried out a DNA binding competition assay with ScrWT and Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). In this experiment, ScrWT or Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     was bound to
+     <sup>
+      32
+     </sup>
+     P-labeled
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     in the presence of varying concentrations of unlabeled
+     <em>
+      fkh250
+     </em>
+     . In agreement with our previous results,
+     <em>
+      fkh250
+     </em>
+     was a much better competitor of ScrWT complex formation than of Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     complex formation (
+     <xref ref-type="fig">
+      Figure 5D
+     </xref>
+     ). Thus, ScrWT is better able to discriminate between
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     than Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     , suggesting that His-12 and Arg3 are critical for Scr's DNA binding specificity.
+    </p>
+    <p>
+     Although Arg3 of Scr is critical for Scr-Exd to bind
+     <em>
+      fkh250
+     </em>
+     , this residue is not unique to this Hox paralog. In particular, Ubx, Antp, and Abdominal-A (Abd-A) all have Arg3 (and Arg5), but do not bind
+     <em>
+      fkh250
+     </em>
+     well with Exd (
+     <xref ref-type="bibr">
+      Ryoo and Mann, 1999
+     </xref>
+     ). In Scr, Arg3 is part of an RQR motif, whereas it is part of an RGR motif in these other Hox proteins, suggesting that the context Arg3 may be important. Although we have little structural information about Hox RGR motifs, crystal structures are available for several other transcription factors that contain a DNA-bound RGR motif (
+     <xref ref-type="bibr">
+      Cheetham et al., 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Huth et al., 1997
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Meinke and Sigler, 1999
+     </xref>
+     ). In these cases the Gly inserts into the minor groove in a region where it is not narrow, while the arginines splay out in very different directions than they do in Scr. Based on these observations, we mutated Gln4 in Scr to Gly (thus changing RQR to RGR) and measured the affinity of this mutant to
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     . This point mutation reduced Scr-Exd's affinity for
+     <em>
+      fkh250
+     </em>
+     by about six-fold, but only reduced affinity for
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     by ∼two-fold (
+     <a>
+      Supp. Table 2
+     </a>
+     ). The resulting Kds are very similar to those of Scr
+     <sup>
+      Arg3A
+     </sup>
+     , and are remarkable because the side chain of Gln4 makes no DNA contacts.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     His-12 and Arg3 are important for Scr to execute its specific functions in vivo
+    </title>
+    <p>
+     The above results provide biochemical evidence that His-12 and Arg3 are important for Scr to bind its specific binding site,
+     <em>
+      fkh250
+     </em>
+     . To test if these residues are important for Scr's activity in vivo, we generated transgenic lines of Drosophila capable of mis-expressing ScrWT and the three Scr mutants described above. For these in vivo assays, a full length form Scr was used. Each of these proteins was N-terminally tagged with a hemagglutinin (HA) epitope, allowing us to compare transformants that express similar levels of nuclear-localized protein (data not shown). As described previously (
+     <xref ref-type="bibr">
+      Gibson et al., 1990
+     </xref>
+     ), uniform expression of ScrWT during embryogenesis resulted in a characteristic and Scr-specific transformation of the second and third thoracic segments (T2 and T3) towards the identity of the first thoracic segment (T1), where Scr is normally expressed (
+     <xref ref-type="fig">
+      Figure 6A,B
+     </xref>
+     ). A weaker transformation of the anterior abdominal segments (A1 to A3) was also evident. This transformation is readily recognized by the acquisition of a normally T1-specific pattern of small hairs (the T1 beard) in each transformed segment. To quantify this transformation, we counted the number of hairs present in each affected segment after ubiquitous expression of ScrWT and the Scr mutants. Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     was severely compromised in its ability to produce this transformation (
+     <xref ref-type="fig">
+      Figure 6C
+     </xref>
+     ). Scr
+     <sup>
+      His-12A
+     </sup>
+     was able to produce this transformation as efficiently as ScrWT, while Scr
+     <sup>
+      Arg3A
+     </sup>
+     was partially compromised in this assay (best seen in A1 to A3).
+    </p>
+    <fig id="F6" position="float">
+     <label>
+      Figure 6
+     </label>     <caption>
+      <strong>
+       Compromised in vivo activities of Scr mutants
+      </strong>
+      <p>
+       A: Ventral surface of wild type first instar larval cuticle. A′: higher magnification of wild type T1 segment showing a T1 beard (arrowhead).
+      </p>
+      <p>
+       B: Ventral surface of a first instar cuticle after ubiquitous expression of ScrWT. B′: higher magnification of the T3 segment with an ectopic T1 beard (arrowhead).
+      </p>
+      <p>
+       C: Quantification of ectopic T1 beard formation in thoracic (T2 and T3) and abdominal (A1 to A3) segments due to ubiquitous expression of ScrWT and Scr mutants. For comparison, the number of beard hairs in a wild type T1 segment is 128.2 +/-8.4.
+      </p>
+      <p>
+       D: Ventral views of wild type embryos, or embryos ubiquitously expressing ScrWT or the indicated Scr mutant, stained for dCrebA. Ectopic activation is indicated by arrowheads.
+      </p>
+     </caption>
+    </fig>
+    <p>
+     Another Scr-specific function is to initiate the formation of the salivary gland, and a good marker for this structure is dCrebA (
+     <xref ref-type="bibr">
+      Andrew et al., 1994
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Panzer et al., 1992
+     </xref>
+     ). ScrWT, but not Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     , was able to induce ectopic CrebA expression, while Scr
+     <sup>
+      His-12A
+     </sup>
+     and Scr
+     <sup>
+      Arg3A
+     </sup>
+     were able to weakly activate this marker (
+     <xref ref-type="fig">
+      Figure 6D
+     </xref>
+     ). Taken together, these results demonstrate that His-12 and Arg3 are important for Scr to execute its specific functions in vivo. They also highlight that for some readouts, such as dCrebA, both residues are critical, whereas for other readouts, such as the T1-specific cuticle pattern, both residues must be mutated to eliminate activity (
+     <a>
+      Supp. Table 2
+     </a>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     His-12 and Arg3 are required for Scr to activate
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     and
+     <em>
+      fkh
+     </em>
+    </title>
+    <p>
+     The above in vivo data demonstrate that His-12 and Arg3 are required for Scr to generate an Scr-specific transformation of segmental identity. If this hypothesis is correct, we would expect Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     to be unable to activate the
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     reporter gene. In wild type embryos,
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     is expressed in parasegment (PS) 2 (
+     <xref ref-type="fig">
+      Figure 7F
+     </xref>
+     ) where it is dependent on
+     <em>
+      Scr
+     </em>
+     and
+     <em>
+      exd
+     </em>
+     activities (
+     <xref ref-type="bibr">
+      Ryoo and Mann, 1999
+     </xref>
+     ). When ScrWT was ubiquitously expressed during embryogenesis, ectopic activation of
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     was observed in segments anterior and posterior to PS2 (
+     <xref ref-type="fig">
+      Figure 7G
+     </xref>
+     ). Scr
+     <sup>
+      His-12A
+     </sup>
+     also activated
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 7I
+     </xref>
+     ). In contrast, ubiquitous expression of Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     or Scr
+     <sup>
+      Arg3A
+     </sup>
+     failed to activate this reporter gene (
+     <xref ref-type="fig">
+      Figure 7H,J
+     </xref>
+     ). Similar results were obtained when the expression of the endogenous
+     <em>
+      fkh
+     </em>
+     gene was monitored, although in this case Scr
+     <sup>
+      His-12A
+     </sup>
+     was a less potent activator than ScrWT (
+     <xref ref-type="fig">
+      Figure 7A-E
+     </xref>
+     ). Thus, His-12 and Arg3 are critical for Scr's ability to activate a paralog-specific target gene in vivo. As with the in vitro binding data, these results suggest that Arg3 is more critical than His-12 for the activation of these genes (
+     <a>
+      Supp. Table 2
+     </a>
+     ).
+    </p>
+    <fig id="F7" position="float">
+     <label>
+      Figure 7
+     </label>     <caption>
+      <strong>
+       Scr
+       <sup>
+        His-12A,Arg3A
+       </sup>
+       is unable to execute specific Scr functions in vivo
+      </strong>
+      <p>
+       A-E: Wild type embryos or embryos ubiquitously expressing ScrWT or the indicated Scr mutants, stained for Fkh protein. Ectopic activation in anterior (arrowheads) and posterior (arrows) segments is indicated. Ventral views of PS1 to PS4 are shown.
+      </p>
+      <p>
+       F-J: Expression of
+       <em>
+        fkh250
+       </em>
+       -
+       <em>
+        lacZ
+       </em>
+       , revealed by anti-β-gal antibody staining, in wild type embryos or embryos ubiquitously expressing ScrWT or Scr mutants. Ectopic activation in anterior (arrowheads) and posterior (arrows) segments is indicated. Shown are ventral views.
+      </p>
+      <p>
+       K-O: Expression of
+       <em>
+        fkh250
+        <sup>
+         con
+        </sup>
+       </em>
+       -
+       <em>
+        lacZ
+       </em>
+       , revealed by anti-β-gal antibody staining, in wild type embryos or embryos ubiquitously expressing ScrWT or Scr mutants. Ectopic activation in the head is indicated (arrowheads). Due to the already broad expression pattern in wild type embryos (K), lateral views are shown to visualize the ectopic expression.
+      </p>
+     </caption>
+    </fig>
+   </sec>
+   <sec>
+    <title>
+     His-12 and Arg3 are not required for Scr to activate
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+    </title>
+    <p>
+     Based on the above results, we suggest that His-12 and Arg3 are important for Scr to execute its specific functions, such forming the T1 beard, inducing salivary gland development, or activating
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     . Our observation that 1) His-12 and Arg3 are not ordered in the
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     complex and 2) mutating these two residues to alanines only weakly affects Scr's ability to bind to the non-paralog specific Hox-Exd binding site in
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     , suggests that these residues may be less important for Scr to execute shared Hox functions. A prediction based on this idea is that Scr
+     <sup>
+      His-12A,Arg3A
+     </sup>
+     should still be able to activate the
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     reporter gene, which can be activated by multiple Hox proteins in vivo (
+     <xref ref-type="bibr">
+      Ryoo and Mann, 1999
+     </xref>
+     ). Consistently, ScrWT and all three Scr mutants were able to activate this reporter gene in vivo (
+     <xref ref-type="fig">
+      Figure 7K-O
+     </xref>
+     ).
+    </p>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Discussion
+   </title>
+   <p>
+    It is well established that homeodomain-DNA recognition utilizes hydrogen bonds formed between recognition helix side chains and base-specific moieties in the major groove (
+    <xref ref-type="bibr">
+     Gehring et al., 1994
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Mann, 1995
+    </xref>
+    ). However, the residues making these contacts are identical in all Hox proteins. While some N-terminal arm residues have been seen in the minor groove, these interactions have not been sufficient to account for specificity differences among Hox proteins. In particular, although Arg5 is often observed in the minor groove, it is common to all homeodomains. Conversely, residues 1 to 4 are important for Hox specificity, but are often not observed in homeodomain–DNA structures. The structure reported here, of a complex formed between a Scr-Exd dimer and an in vivo paralog-specific binding site,
+    <em>
+     fkh250
+    </em>
+    , reveals Hox–DNA contacts that provide new insights into the molecular basis of Hox specificity. We show that minor groove contacts from linker (His-12) and N-terminal arm (Arg3) residues are critical for Scr's specific in vitro and in vivo properties. Moreover, both residues insert into an unusually narrow region of the minor groove, which in turn creates a local dip in electrostatic potential through the phenomenon of electrostatic focusing (
+    <xref ref-type="bibr">
+     Honig and Nicholls, 1995
+    </xref>
+    ;
+    <xref ref-type="bibr">
+     Klapper et al., 1986
+    </xref>
+    ). In contrast, in the
+    <em>
+     fkh250
+     <sup>
+      con*
+     </sup>
+    </em>
+    complex, the minor groove does not have these features, and, like many of the previous structures, there are no DNA contacts N-terminal to Arg5.
+   </p>
+   <p>
+    Based on these findings, we suggest that there are two conceptually separable components to Hox–DNA binding. First, contacts between the DNA major groove and the recognition helix are sufficient to target Hox homeodomains to ‘AT-rich’ DNA sequences. Second, contacts made between the DNA minor groove and N-terminal arm/linker residues help to discriminate among AT-rich binding sites. Unlike recognition-helix residues in the major groove, the residues that insert into the minor groove recognize a specific DNA structure instead of forming base-specific hydrogen bonds. Below we discuss the implications of these findings for binding site recognition by Hox proteins as well as other DNA binding proteins.
+   </p>
+   <sec>
+    <title>
+     Sequence-dependent DNA structure
+    </title>
+    <p>
+     Consecutive ApA, TpT, or ApT base pair steps are known to result in a narrow minor groove due to negative propeller twisting that is stabilized by inter-base pair interactions in the major groove (
+     <xref ref-type="bibr">
+      Crothers and Shakked, 1999
+     </xref>
+     ). In contrast, due to poor base stacking interactions, TpA steps tend to widen the minor groove (
+     <xref ref-type="bibr">
+      Burkhoff and Tullius, 1988
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Stefl et al., 2004
+     </xref>
+     ) and, for example, produce significant unwinding in the case of the TATA box (
+     <xref ref-type="bibr">
+      Kim et al., 1993
+     </xref>
+     ). We suggest that these sequence-dependent effects on DNA structure can account for the conformations of the two DNAs observed here. The
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     binding site is TGATT
+     <span>
+      TA
+     </span>
+     TGG (TpA steps are underlined). ATTT is expected to have the observed narrow minor groove where Arg5 binds. The AT sequence 3′ to the TpA step is too short to produce the pattern of inter-base pair contacts required for minor grove narrowing. Moreover, the minor groove that is widened by this TpA step remains wide, in part due to the 3′ guanines which introduce amino groups into the minor groove. In contrast, the
+     <em>
+      fkh250
+     </em>
+     binding site is AGAT
+     <span>
+      TA
+     </span>
+     ATCG. Here, the ATT and AAT sequences flanking the TpA step both have the pattern of inter-base pair contacts and propeller twisting required for minor groove narrowing. Consequently, two minor groove width minima are observed (
+     <xref ref-type="fig">
+      Figure 4
+     </xref>
+     ). The second minimum, where His-12/Arg3 insert, is reinforced by a positive roll introduced by a 3′-CpG step (
+     <xref ref-type="bibr">
+      Hizver et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rohs et al., 2005b
+     </xref>
+     ).
+    </p>
+    <p>
+     The DNA conformations observed in the crystal structures were qualitatively reproduced by our MC simulations, and the importance of the TpA steps and 3′ flanking G-C base pairs in affecting DNA structure were supported by the simulations of DNAs containing individual base pair differences (
+     <a>
+      Supp. Figs. 2 and 3
+     </a>
+     ). Interestingly, the standard deviations observed in these simulations are different for
+     <em>
+      fkh250
+     </em>
+     and
+     <em>
+      fkh250
+      <sup>
+       con
+      </sup>
+     </em>
+     (
+     <xref ref-type="fig">
+      Figure 4C,D
+     </xref>
+     ). This difference, which may reflect an inherent difference in flexibility, is also consistent with known sequence-dependent properties of DNA (
+     <xref ref-type="bibr">
+      Faiger et al., 2007
+     </xref>
+     ). The
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     sequence, which shows a smaller standard deviation, is expected to be rigid due to the presence of an “A-tract”, a sequence that consists of at least three consecutive ApA, ApT or TpT steps (
+     <xref ref-type="bibr">
+      Crothers and Shakked, 1999
+     </xref>
+     ). In contrast, the larger deviations seen in the
+     <em>
+      fkh250
+     </em>
+     simulations indicate greater conformational flexibility that can be attributed to the absence of an A-tract and the presence of a TpA step in the middle of the sequence.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Arg3 and the N-terminal arm
+    </title>
+    <p>
+     The N-terminal arm has been known for some time to play an important role in Hox specificity. Consistent with this idea, we find Arg3 and Arg5 in the minor groove of
+     <em>
+      fkh250
+     </em>
+     . However, Arg5 is conserved in all homeodomains and Arg3 is present in many Hox proteins, raising the question of what makes Scr's N-terminal arm unique. One answer is that other N-terminal arm differences are important for Scr's properties. In agreement with this notion, we found that changing RQR to RGR reduced the affinity for
+     <em>
+      fkh250
+     </em>
+     by ∼six-fold, similar to the effect observed when Arg3 was mutated to Ala. These data suggest that, unlike RQR of Scr, it is energetically unfavorable for the RGR motifs of Antp, Ubx, and AbdA to assume the conformation of the RQR motif as seen in the
+     <em>
+      fkh250
+     </em>
+     complex. This may be due in part to the increased entropic cost associated with fixing a Gly in any given conformation but also to the fact that its lack of a Cβ precludes the formation of the hydrophobic contact formed between Gln4 and Thr6 in the
+     <em>
+      fkh250
+     </em>
+     complex (the distance between the Cδ of Gln4 and the Cγ of Thr6 is about 4.7 Å).
+    </p>
+    <p>
+     Taken together, our results suggest that the conformational preferences of Hox N-terminal arms are an important determinant of Hox specificity. However, there is clearly more to the story because, like Scr, Deformed (Dfd) also has an RQR motif in its N-terminal arm, but Dfd does not activate
+     <em>
+      fkh250
+     </em>
+     -
+     <em>
+      lacZ
+     </em>
+     in vivo. Thus, while the sequence of the N-terminal arm plays an important role, and allows Hox proteins to be categorized into RGR and RQR subgroups, other specificity-determining factors must also exist. Based on our results, and as discussed below, we suggest that other important contributors are the paralog-specific residues neighboring the YPWM motif.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Paralog-specific signature residues
+    </title>
+    <p>
+     His-12 is located in Scr's linker region, four residues away from its YPWM motif. Interestingly, not only is His-12 conserved in all Scr orthologs, residues on both sides of its YPWM motif are also well conserved (
+     <xref ref-type="fig">
+      Figure 1A
+     </xref>
+     ). This pattern is not unique to Scr and its orthologs: residues in the vicinity of Hox YPWM motifs are generally conserved in a paralog-specific manner (
+     <a>
+      Supp. Figure 4
+     </a>
+     ) (
+     <xref ref-type="bibr">
+      Mann, 1995
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Sharkey et al., 1997
+     </xref>
+     ). In fact, the evolutionarily conserved sequences in the vicinity of YPWM are sufficient to distinguish between Hox paralogs, and can even discriminate between Scr and Deformed (Dfd), which, like Scr, also has a His in the same position relative to its YPWM motif (
+     <a>
+      Supp. Figure 4
+     </a>
+     ). These observations suggest that paralog-specific residues near the YPWM motif, together with the N-terminal arm, may be considered as specificity-determining ‘signature’ residues. Analogous to our findings with Scr-
+     <em>
+      fkh250
+     </em>
+     , we suggest that these paralog-defining residues in other Hox proteins are critical for the recognition of specific binding sites in vivo. These residues may, as shown here for His-12 and Arg3 of Scr, contact DNA. Alternatively, as shown here for Scr's Gln4, they may be important for specifying the correct conformation of the DNA-contacting residues. A general role for linker and N-terminal arm residues in Hox specificity is supported by the in vivo specificities of Hox protein chimeras (
+     <xref ref-type="bibr">
+      Chauvet et al., 2000
+     </xref>
+     ); reviewed by (
+     <xref ref-type="bibr">
+      Mann, 1995
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Mann and Morata, 2000
+     </xref>
+     ).
+    </p>
+    <p>
+     Although His-12 is conserved among all Scr orthologs, mutating it to an Ala had, for most readouts, only a partial effect on binding or in vivo activity. In contrast, the Arg3 to Ala mutation had a much larger effect, and the strongest effect was observed when both His-12 and Arg3 were mutated to Ala (
+     <a>
+      Supp. Table 2
+     </a>
+     ). Some simple considerations can in principle account for the data. First, we suggest that the main contribution of His-12/Arg3 is to provide a positive charge and, consequently, a favorable electrostatic interaction between Scr and
+     <em>
+      fkh250
+     </em>
+     . Second, given the N-N distance of 2.9 Å in the His-Arg hydrogen bond, His-12 is likely neutral in the
+     <em>
+      fkh250
+     </em>
+     complex, so that the net charge for both residues is +1. In the double mutant this charge is lost. The His-12 to Ala mutation leaves Arg3 intact and the net charge unchanged. The Arg3 to Ala mutation would likely result in the protonation of His-12 given the negative electrostatic environment in the minor groove, also leaving the net charge of the protein unchanged. While these considerations can explain why the effect of the double mutant is stronger than of either single mutant, they do not explain why Scr
+     <sup>
+      Arg3A
+     </sup>
+     binds more weakly to
+     <em>
+      fkh250
+     </em>
+     than ScrWT or Scr
+     <sup>
+      His-12A
+     </sup>
+     . One possibility is that there is an unfavorable free energy cost of proton uptake to His-12 when it is bound to DNA since, as opposed to Arg3, the free His is only partially protonated.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The role of Hox-Exd dimer formation
+    </title>
+    <p>
+     Our results suggest that the interaction of Hox proteins with Exd/Pbx through the YPWM motif is important, not only because the presence of two homeodomains allows for a larger and more specific DNA sequence readout in the major groove, but also because it favors conformations of the linker and N-terminal arm residues such that they can recognize structural patterns in the minor groove. Indeed, it appears that these residues are unable to assume these conformations in the absence of Exd/Pbx. That these residues have not been observed in two other Hox-Exd/Pbx ternary complexes may suggest that their intrinsic flexibility is designed to inhibit binding to the wrong DNA site. That is, only when the protein sequence is compatible with the structure of the minor groove will the stabilizing interaction be strong enough to overcome the entropic loss associated with binding.
+    </p>
+    <p>
+     Studies on homeodomain–DNA binary complexes also suggest that the N-terminal arm has a tendency to be disordered, unless presented with a DNA structure that provides sufficient stabilizing interactions to compete with conformational entropy. For example, residues 1 to 4 are not observed in the Antp and Engrailed X-ray complexes (
+     <xref ref-type="bibr">
+      Fraenkel and Pabo, 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Fraenkel et al., 1998
+     </xref>
+     ). In contrast, most of the N-terminal arm is structured in an Even-skipped–DNA complex where, notably, both Arg3 and Tyr4 insert into the minor groove (
+     <xref ref-type="bibr">
+      Hirsch and Aggarwal, 1995
+     </xref>
+     ). In that complex the minor groove is quite narrow where Arg3 inserts, consistent with the idea that a narrow groove is required to structure a region of the protein which is intrinsically disordered. In the HoxA9–Pbx–DNA ternary complex, the N terminal arm is also ordered but in that case, a very short linker severely limits the conformational freedom of the N-terminal arm (
+     <xref ref-type="bibr">
+      LaRonde-LeBlanc and Wolberger, 2003
+     </xref>
+     ).
+    </p>
+   </sec>
+   <sec>
+    <title>
+     The role of DNA structure in conferring specificity
+    </title>
+    <p>
+     As seen in the crystal structure, binding of Scr-Exd to
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     involves residues that are present in all Hox proteins, thus providing an explanation for why this site is not specific for a particular paralog. As discussed above, the answer to the inverse question, of why
+     <em>
+      fkh250
+     </em>
+     preferentially binds Scr-Exd, involves the insertion of His-12 and Arg3 into the minor groove, which is narrower than the equivalent region in
+     <em>
+      fkh250
+      <sup>
+       con*
+      </sup>
+     </em>
+     . That a narrow groove is an inherent feature of the
+     <em>
+      fkh250
+     </em>
+     site suggests the more general idea that Hox proteins recognize their specific binding sites by reading a sequence-dependent DNA structure which, in turn, enhances the negative electrostatic potential and attracts the positively charged Arg/His pair. Thus, local differences in electrostatic potential provide an explanation for why sequence-dependent DNA conformations can attract basic amino acids. This shape-dependent DNA recognition mechanism is distinct from “direct readout” mechanisms that involve specific hydrogen bond formation and hydrophobic contacts between amino acid side chains and bases. It is also distinct from “indirect readout” where protein binding is influenced by the global shape of a DNA molecule or by sequence-dependent DNA bending and deformability (
+     <xref ref-type="bibr">
+      Hizver et al., 2001
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Lavery, 2005
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Rohs et al., 2005b
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Zhurkin et al., 2005
+     </xref>
+     ).
+    </p>
+    <p>
+     Scr's ability to recognize the shape of the minor groove via basic residues may provide an example of a more general class of protein-DNA recognition mechanisms. For example, an Arg of phage 434 repressor inserts into the minor groove of its operator (
+     <xref ref-type="bibr">
+      Aggarwal et al., 1988
+     </xref>
+     ) and a His in the DNA binding domains of interferon regulatory factors (IRFs) inserts into a compressed minor groove (
+     <xref ref-type="bibr">
+      Escalante et al., 1998
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Fujii et al., 1999
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Panne et al., 2004
+     </xref>
+     ). Moreover, the sequence (either FGR, RGR or RGGR) in the minor groove binding region of monomeric human estrogen related receptors, hERR, is an important specificity determinant for that family of transcription factors (
+     <xref ref-type="bibr">
+      Gearhart et al., 2003
+     </xref>
+     ;
+     <xref ref-type="bibr">
+      Meinke and Sigler, 1999
+     </xref>
+     ). The analogy between Hox and hERR2, a nuclear receptor, is particularly striking as the Zn finger domain of nuclear receptors makes major groove contacts while a normally extended peptide expands the binding site by making minor groove contacts. It will be interesting to determine if, as suggested here for Hox proteins, other families of DNA binding proteins use a common set of major groove contacts to recognize large sets of degenerate binding sites with individual family members distinguishing among these sites via more specific minor groove contacts. For Hox proteins, we suggest that such a two-tiered recognition system gives them the flexibility to bind both shared and paralog-specific binding sites.
+    </p>
+   </sec>
+   <sec>
+    <title>
+     Experimental Procedures
+    </title>
+    <p>
+     Additional information is provided in the
+     <a>
+      Supplementary material
+     </a>
+     .
+    </p>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Structure determination
+     </title>
+     <p>
+      Both cocrystals were obtained from solutions containing 10-14% polyethylene glycol 4000, 20% MPD, 0.1 M Tris (pH 8.7-8.9), 0.2 M Sodium Acetate and 0.2 M KCl. The best cocrystals with
+      <em>
+       fkh250
+      </em>
+      were obtained with the overhanging 20-mer (5′-TCAGC
+      <span>
+       CGATTAATCT
+      </span>
+      TAGAG-3′/5′-ACTCTA
+      <span>
+       AGATTAATCG
+      </span>
+      GCTG-3′) and Scr (residues 298-384) and Exd (238-300). These Scr-Exd-
+      <em>
+       fkh250
+      </em>
+      cocrystals belonged to space group C222
+      <sub>
+       1
+      </sub>
+      with unit cell dimensions of
+      <em>
+       a
+      </em>
+      =88.8 Å,
+      <em>
+       b
+      </em>
+      = 92.6 Å,
+      <em>
+       c
+      </em>
+      = 78.8 Å. The best cocrystals with
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      were obtained with the overhanging 20-mer (5′-TCAGC
+      <span>
+       CCATAAATCA
+      </span>
+      TAGAG-3′/5′-ACTCTA
+      <span>
+       TGATTTATGG
+      </span>
+      GCTG-3′) with the same Scr and Exd proteins. These Scr-Exd-
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      cocrystals belonged to space group P4
+      <sub>
+       3
+      </sub>
+      2
+      <sub>
+       1
+      </sub>
+      2, with unit cell dimensions of
+      <em>
+       a
+      </em>
+      =
+      <em>
+       b
+      </em>
+      = 65.3 Å,
+      <em>
+       c
+      </em>
+      = 200.3 Å. The consensus Hox-Exd binding site in this sequence is identical to the site present in the Ubx-Exd structure (
+      <xref ref-type="bibr">
+       Passner et al., 1999
+      </xref>
+      ). Data were measured at the Advanced Photon Source (Beamline 19-ID) and the Brookhaven National Laboratory (Beamline X25).
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Computational
+     </title>
+     <p>
+      DNA geometry was analyzed with the Curves algorithm (
+      <xref ref-type="bibr">
+       Lavery and Sklenar, 1989
+      </xref>
+      ). The structures of
+      <em>
+       fkh250
+      </em>
+      and
+      <em>
+       fkh250
+       <sup>
+        con*
+       </sup>
+      </em>
+      or variants were predicted using an all-atom, force-field based MC algorithm (
+      <xref ref-type="bibr">
+       Rohs et al., 2005a
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Rohs et al., 2005b
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Sklenar et al., 2006
+      </xref>
+      ).
+     </p>
+     <p>
+      Electrostatic potentials were calculated using the DelPhi program (
+      <xref ref-type="bibr">
+       Rocchia et al., 2002
+      </xref>
+      ).
+      <xref ref-type="fig">
+       Figures 4E and 4F
+      </xref>
+      plot the potential in the minor groove at the midpoint of a line connecting the O4′ atoms of nucleotide
+      <em>
+       i+1
+      </em>
+      on the 5′ strand and nucleotide
+      <em>
+       i-1
+      </em>
+      on the 3′ strand (the reference is approximately located in the plane of base pair
+      <em>
+       i
+      </em>
+      ).
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      Protein-DNA binding assays
+     </title>
+     <p>
+      The
+      <em>
+       fkh250
+      </em>
+      (GATCTCAATGTCA
+      <span>
+       AGATTAATCG
+      </span>
+      CCAGCTGTGGGACGAGG) and
+      <em>
+       fkh250
+       <sup>
+        con
+       </sup>
+      </em>
+      (GATCTCAATGTCA
+      <span>
+       AGATTTATGG
+      </span>
+      CCAGCTGTGGGACGAGG) probes and electrophoretic mobility shift assays (
+      <xref ref-type="bibr">
+       Ryoo and Mann, 1999
+      </xref>
+      ) and Kd measurements (
+      <xref ref-type="bibr">
+       LaRonde-LeBlanc and Wolberger, 2003
+      </xref>
+      ) were carried out as previously described. All DNA binding experiments were carried out with nearly full-length forms of Scr (residues 2 to 406) and full-length Exd, both 6XHis-tagged, expressed, and purified from
+      <em>
+       E. coli
+      </em>
+      . Because expression of
+      <em>
+       fkh250
+      </em>
+      -
+      <em>
+       lacZ
+      </em>
+      does not require the Hth homeodomain, but does require Hth
+      <sup>
+       HM
+      </sup>
+      (
+      <xref ref-type="bibr">
+       Noro et al., 2006
+      </xref>
+      ), we included Hth
+      <sup>
+       HM
+      </sup>
+      , which binds to Exd, in the reactions. The Hth
+      <sup>
+       HM
+      </sup>
+      -Exd dimer was co-purified from
+      <em>
+       E. coli
+      </em>
+      and added at 150 ng/reaction.
+     </p>
+    </sec>
+    <sec>
+     <p>
+     </p>
+     <title>
+      In vivo analyses
+     </title>
+     <p>
+      Drosophila embryos were stained using anti-CrebA, anti-β-gal, and anti-fkh antibodies as described (
+      <xref ref-type="bibr">
+       Andrew et al., 1994
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Noro et al., 2006
+      </xref>
+      ;
+      <xref ref-type="bibr">
+       Ryoo and Mann, 1999
+      </xref>
+      ). Ectopic expression of ScrWT and Scr mutants in embryos was via the AG11 driver crossed to the expression-matched UAS-Scr line. Embryonic cuticles were analyzed by standard methods.
+     </p>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Supplementary Material
+   </title>
+   <sec>
+    <title>
+     01
+    </title>
+    <sec>
+     <a>
+      Click here to view.
+     </a>
+     <sup>
+      (4.0M, doc)
+     </sup>
+    </sec>
+   </sec>
+  </sec>
+  <sec>
+   <title>
+    Literature cited
+   </title>
+   <sec>
+    <ul>
+     <li>
+      <span>
+       Aggarwal AK, Rodgers DW, Drottar M, Ptashne M, Harrison SC. Recognition of a DNA operator by the repressor of phage 434: a view at high resolution.
+       <span>
+        <span>
+         Science.
+        </span>
+        1988;
+        <span>
+         242
+        </span>
+        :899–907.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Andrew DJ, Horner MA, Petitt MG, Smolik SM, Scott MP. Setting limits on homeotic gene function: restraint of Sex combs reduced activity by teashirt and other homeotic genes.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        1994;
+        <span>
+         13
+        </span>
+        :1132–1144.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Billeter M, Qian YQ, Otting G, Muller M, Gehring W, Wuthrich K. Determination of the nuclear magnetic resonance solution structure of an Antennapedia homeodomain-DNA complex.
+       <span>
+        <span>
+         J Mol Biol.
+        </span>
+        1993;
+        <span>
+         234
+        </span>
+        :1084–1093.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Burkhoff AM, Tullius TD. Structural details of an adenine tract that does not cause DNA to bend.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1988;
+        <span>
+         331
+        </span>
+        :455–457.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Casares F, Mann RS. Control of antennal versus leg development in Drosophila.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1998;
+        <span>
+         392
+        </span>
+        :723–726.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Chauvet S, Merabet S, Bilder D, Scott MP, Pradel J, Graba Y. Distinct hox protein sequences determine specificity in different tissues.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2000;
+        <span>
+         97
+        </span>
+        :4064–4069.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Cheetham GM, Jeruzalmi D, Steitz TA. Structural basis for initiation of transcription from an RNA polymerase-promoter complex.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1999;
+        <span>
+         399
+        </span>
+        :80–83.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Crothers DM, Shakked Z.  DNA bending by adenine-thymine tracts. In: Neidle S, editor.
+       <span>
+        Oxford Handbook of Nucleic Acid Structures.
+       </span>
+       London: Oxford University Press; 1999. pp. 455–470.
+      </span>
+     </li>
+     <li>
+      <span>
+       Escalante CR, Yie J, Thanos D, Aggarwal AK. Structure of IRF-1 with bound DNA reveals determinants of interferon regulation.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1998;
+        <span>
+         391
+        </span>
+        :103–106.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Faiger H, Ivanchenko M, Haran TE. Nearest-neighbor non-additivity versus long-range non-additivity in TATA-box structure and its implications for TBP-binding mechanism.
+       <span>
+        <span>
+         Nucleic Acids Res
+        </span>
+        2007
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Fraenkel E, Pabo CO. Comparison of X-ray and NMR structures for the Antennapedia homeodomain-DNA complex.
+       <span>
+        <span>
+         Nat Struct Biol.
+        </span>
+        1998;
+        <span>
+         5
+        </span>
+        :692–697.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Fraenkel E, Rould MA, Chambers KA, Pabo CO. Engrailed homeodomain-DNA complex at 2.2 A resolution: a detailed view of the interface and comparison with other engrailed structures.
+       <span>
+        <span>
+         J Mol Biol.
+        </span>
+        1998;
+        <span>
+         284
+        </span>
+        :351–361.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Fujii Y, Shimizu T, Kusumoto M, Kyogoku Y, Taniguchi T, Hakoshima T. Crystal structure of an IRF-DNA complex reveals novel DNA recognition and cooperative binding to a tandem repeat of core sequences.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        1999;
+        <span>
+         18
+        </span>
+        :5028–5041.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Galant R, Walsh CM, Carroll SB. Hox repression of a target gene: extradenticle-independent, additive action through multiple monomer binding sites.
+       <span>
+        <span>
+         Development.
+        </span>
+        2002;
+        <span>
+         129
+        </span>
+        :3115–3126.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Garvie CW, Wolberger C. Recognition of specific DNA sequences.
+       <span>
+        <span>
+         Mol Cell.
+        </span>
+        2001;
+        <span>
+         8
+        </span>
+        :937–946.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Gearhart MD, Holmbeck SM, Evans RM, Dyson HJ, Wright PE. Monomeric complex of human orphan estrogen related receptor-2 with DNA: a pseudo-dimer interface mediates extended half-site recognition.
+       <span>
+        <span>
+         J Mol Biol.
+        </span>
+        2003;
+        <span>
+         327
+        </span>
+        :819–832.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Gehring WJ, Qian YQ, Billeter M, Furukubo-Tokunaga K, Schier AF, Resendez-Perez D, Affolter M, Otting G, Wuthrich K. Homeodomain-DNA recognition.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1994;
+        <span>
+         78
+        </span>
+        :211–223.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Gibson G, Schier A, LeMotte P, Gehring WJ. The specificities of Sex combs reduced and Antennapedia are defined by a distinct portion of each protein that includes the homeodomain.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1990;
+        <span>
+         62
+        </span>
+        :1087–1103.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Harrison SC, Aggarwal AK. DNA recognition by proteins with the helix-turn-helix motif.
+       <span>
+        <span>
+         Annu Rev Biochem.
+        </span>
+        1990;
+        <span>
+         59
+        </span>
+        :933–969.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hersh BM, Carroll SB. Direct regulation of knot gene expression by Ultrabithorax and the evolution of cis-regulatory elements in Drosophila.
+       <span>
+        <span>
+         Development.
+        </span>
+        2005;
+        <span>
+         132
+        </span>
+        :1567–1577.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hirsch JA, Aggarwal AK. Structure of the even-skipped homeodomain complexed to AT-rich DNA: new perspectives on homeodomain specificity.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        1995;
+        <span>
+         14
+        </span>
+        :6280–6291.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hizver J, Rozenberg H, Frolow F, Rabinovich D, Shakked Z. DNA bending by an adenine--thymine tract and its role in gene regulation.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2001;
+        <span>
+         98
+        </span>
+        :8490–8495.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Honig B, Nicholls A. Classical electrostatics in biology and chemistry.
+       <span>
+        <span>
+         Science.
+        </span>
+        1995;
+        <span>
+         268
+        </span>
+        :1144–1149.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Hovde S, Abate-Shen C, Geiger JH. Crystal structure of the Msx-1 homeodomain/DNA complex.
+       <span>
+        <span>
+         Biochemistry.
+        </span>
+        2001;
+        <span>
+         40
+        </span>
+        :12013–12021.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Huth JR, Bewley CA, Nissen MS, Evans JN, Reeves R, Gronenborn AM, Clore GM. The solution structure of an HMG-I(Y)-DNA complex defines a new architectural minor groove binding motif.
+       <span>
+        <span>
+         Nat Struct Biol.
+        </span>
+        1997;
+        <span>
+         4
+        </span>
+        :657–665.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Kim Y, Geiger JH, Hahn S, Sigler PB. Crystal structure of a yeast TBP/TATA-box complex.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1993;
+        <span>
+         365
+        </span>
+        :512–520.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Klapper I, Hagstrom R, Fine R, Sharp K, Honig B. Focusing of electric fields in the active site of Cu-Zn superoxide dismutase: effects of ionic strength and amino-acid modification.
+       <span>
+        <span>
+         Proteins.
+        </span>
+        1986;
+        <span>
+         1
+        </span>
+        :47–59.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       LaRonde-LeBlanc NA, Wolberger C. Structure of HoxA9 and Pbx1 bound to DNA: Hox hexapeptide and DNA recognition anterior to posterior.
+       <span>
+        <span>
+         Genes Dev.
+        </span>
+        2003;
+        <span>
+         17
+        </span>
+        :2060–2072.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Lavery R. Recognizing DNA.
+       <span>
+        <span>
+         Q Rev Biophys.
+        </span>
+        2005;
+        <span>
+         38
+        </span>
+        :339–344.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Lavery R, Sklenar H. Defining the structure of irregular nucleic acids: conventions and principles.
+       <span>
+        <span>
+         J Biomol Struct Dyn.
+        </span>
+        1989;
+        <span>
+         6
+        </span>
+        :655–667.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Li T, Stark MR, Johnson AD, Wolberger C. Crystal structure of the MATa1/MAT alpha 2 homeodomain heterodimer bound to DNA.
+       <span>
+        <span>
+         Science.
+        </span>
+        1995;
+        <span>
+         270
+        </span>
+        :262–269.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Lohmann I, McGinnis N, Bodmer M, McGinnis W. The Drosophila Hox gene deformed sculpts head morphology via direct regulation of the apoptosis activator reaper.
+       <span>
+        <span>
+         Cell.
+        </span>
+        2002;
+        <span>
+         110
+        </span>
+        :457–466.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mann RS. The specificity of homeotic gene function.
+       <span>
+        <span>
+         Bioessays.
+        </span>
+        1995;
+        <span>
+         17
+        </span>
+        :855–863.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mann RS, Affolter M. Hox proteins meet more partners.
+       <span>
+        <span>
+         Curr Opin Genet Dev.
+        </span>
+        1998;
+        <span>
+         8
+        </span>
+        :423–429.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mann RS, Chan SK. Extra specificity from extradenticle: the partnership between HOX and PBX/EXD homeodomain proteins.
+       <span>
+        <span>
+         Trends Genet.
+        </span>
+        1996;
+        <span>
+         12
+        </span>
+        :258–262.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Mann RS, Morata G. The developmental and molecular biology of genes that subdivide the body of Drosophila.
+       <span>
+        <span>
+         Annu Rev Cell Dev Biol.
+        </span>
+        2000;
+        <span>
+         16
+        </span>
+        :243–271.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Meinke G, Sigler PB. DNA-binding mechanism of the monomeric orphan nuclear receptor NGFI-B.
+       <span>
+        <span>
+         Nat Struct Biol.
+        </span>
+        1999;
+        <span>
+         6
+        </span>
+        :471–477.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Moens CB, Selleri L. Hox cofactors in vertebrate development.
+       <span>
+        <span>
+         Dev Biol.
+        </span>
+        2006;
+        <span>
+         291
+        </span>
+        :193–206.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Nelson HC, Finch JT, Luisi BF, Klug A. The structure of an oligo(dA).oligo(dT) tract and its biological implications.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1987;
+        <span>
+         330
+        </span>
+        :221–226.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Nicholls A, Sharp KA, Honig B. Protein folding and association: insights from the interfacial and thermodynamic properties of hydrocarbons.
+       <span>
+        <span>
+         Proteins.
+        </span>
+        1991;
+        <span>
+         11
+        </span>
+        :281–296.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Noro B, Culi J, McKay DJ, Zhang W, Mann RS. Distinct functions of homeodomain-containing and homeodomain-less isoforms encoded by homothorax.
+       <span>
+        <span>
+         Genes Dev.
+        </span>
+        2006;
+        <span>
+         20
+        </span>
+        :1636–1650.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Pabo CO, Sauer RT. Transcription factors: structural families and principles of DNA recognition.
+       <span>
+        <span>
+         Annu Rev Biochem.
+        </span>
+        1992;
+        <span>
+         61
+        </span>
+        :1053–1095.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Panne D, Maniatis T, Harrison SC. Crystal structure of ATF-2/c-Jun and IRF-3 bound to the interferon-beta enhancer.
+       <span>
+        <span>
+         Embo J.
+        </span>
+        2004;
+        <span>
+         23
+        </span>
+        :4384–4393.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Panzer S, Weigel D, Beckendorf SK. Organogenesis in Drosophila melanogaster: embryonic salivary gland determination is controlled by homeotic and dorsoventral patterning genes.
+       <span>
+        <span>
+         Development.
+        </span>
+        1992;
+        <span>
+         114
+        </span>
+        :49–57.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Passner JM, Ryoo HD, Shen L, Mann RS, Aggarwal AK. Structure of a DNA-bound Ultrabithorax-Extradenticle homeodomain complex.
+       <span>
+        <span>
+         Nature.
+        </span>
+        1999;
+        <span>
+         397
+        </span>
+        :714–719.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Pearson JC, Lemons D, McGinnis W. Modulating Hox gene functions during animal body patterning.
+       <span>
+        <span>
+         Nat Rev Genet.
+        </span>
+        2005;
+        <span>
+         6
+        </span>
+        :893–904.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Piper DE, Batchelor AH, Chang CP, Cleary ML, Wolberger C. Structure of a HoxB1-Pbx1 heterodimer bound to DNA: role of the hexapeptide and a fourth homeodomain helix in complex formation.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1999;
+        <span>
+         96
+        </span>
+        :587–597.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Rocchia W, Sridharan S, Nicholls A, Alexov E, Chiabrera A, Honig B. Rapid grid-based construction of the molecular surface and the use of induced surface charge to calculate reaction field energies: applications to the molecular systems and geometric objects.
+       <span>
+        <span>
+         J Comput Chem.
+        </span>
+        2002;
+        <span>
+         23
+        </span>
+        :128–137.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Rohs R, Bloch I, Sklenar H, Shakked Z. Molecular flexibility in ab initio drug docking to DNA: binding-site and binding-mode transitions in all-atom Monte Carlo simulations.
+       <span>
+        <span>
+         Nucleic Acids Res.
+        </span>
+        2005a;
+        <span>
+         33
+        </span>
+        :7048–7057.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Rohs R, Sklenar H, Shakked Z. Structural and energetic origins of sequence-specific DNA bending: Monte Carlo simulations of papillomavirus E2-DNA binding sites.
+       <span>
+        <span>
+         Structure.
+        </span>
+        2005b;
+        <span>
+         13
+        </span>
+        :1499–1509.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Ryoo HD, Mann RS. The control of trunk Hox specificity and activity by Extradenticle.
+       <span>
+        <span>
+         Genes Dev.
+        </span>
+        1999;
+        <span>
+         13
+        </span>
+        :1704–1716.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Sharkey M, Graba Y, Scott MP. Hox genes in evolution: protein surfaces and paralog groups.
+       <span>
+        <span>
+         Trends Genet.
+        </span>
+        1997;
+        <span>
+         13
+        </span>
+        :145–151.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Sklenar H, Wustner D, Rohs R. Using internal and collective variables in Monte Carlo simulations of nucleic acid structures: chain breakage/closure algorithm and associated Jacobians.
+       <span>
+        <span>
+         J Comput Chem.
+        </span>
+        2006;
+        <span>
+         27
+        </span>
+        :309–315.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Stefl R, Wu H, Ravindranathan S, Sklenar V, Feigon J. DNA A-tract bending in three dimensions: solving the dA4T4 vs. dT4A4 conundrum.
+       <span>
+        <span>
+         Proc Natl Acad Sci U S A.
+        </span>
+        2004;
+        <span>
+         101
+        </span>
+        :1177–1182.
+       </span>
+       <span>
+        [
+        <a>
+         PMC free article
+        </a>
+        ]
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Tucker-Kellogg L, Rould MA, Chambers KA, Ades SE, Sauer RT, Pabo CO. Engrailed (Gln50--&gt;Lys) homeodomain-DNA complex at 1.9 A resolution: structural basis for enhanced affinity and altered specificity.
+       <span>
+        <span>
+         Structure.
+        </span>
+        1997;
+        <span>
+         5
+        </span>
+        :1047–1054.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Vachon G, Cohen B, Pfeifle C, McGuffin ME, Botas J, Cohen SM. Homeotic genes of the Bithorax complex repress limb development in the abdomen of the Drosophila embryo through the target gene Distal-less.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1992;
+        <span>
+         71
+        </span>
+        :437–450.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Wolberger C, Vershon AK, Liu B, Johnson AD, Pabo CO. Crystal structure of a MAT alpha 2 homeodomain-operator complex suggests a general model for homeodomain-DNA interactions.
+       <span>
+        <span>
+         Cell.
+        </span>
+        1991;
+        <span>
+         67
+        </span>
+        :517–528.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Yao LC, Liaw GJ, Pai CY, Sun YH. A common mechanism for antenna-to-Leg transformation in Drosophila: suppression of homothorax transcription by four HOM-C genes.
+       <span>
+        <span>
+         Dev Biol.
+        </span>
+        1999;
+        <span>
+         211
+        </span>
+        :268–276.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Zhao Y, Potter SS. Functional comparison of the Hoxa 4, Hoxa 10, and Hoxa 11 homeoboxes.
+       <span>
+        <span>
+         Dev Biol.
+        </span>
+        2002;
+        <span>
+         244
+        </span>
+        :21–36.
+       </span>
+       <span>
+        [
+        <a>
+         PubMed
+        </a>
+        ]
+       </span>
+      </span>
+     </li>
+     <li>
+      <span>
+       Zhurkin VB, Tolstorukov MY, Xu F, Colasanti AV, Olson WK.  Sequence-Dependent Variability of B-DNA: An Update on Bending and Curvature. In: Ohyama T, editor.
+       <span>
+        DNA Conformation and Transcription.
+       </span>
+       Springer; 2005.
+      </span>
+     </li>
+    </ul>
+   </sec>
+  </sec>
+ </body>
+</article>
